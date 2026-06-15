@@ -20,6 +20,24 @@ thing twice.
 
 ---
 
+## The problem
+
+The best thinking from founders and investors is buried in **hundreds of hours of YouTube videos
+and dozens of long essays**. When you have a specific question — *how do I price for enterprise?
+what did they say about hiring the first engineer? how do I tell if I have product-market fit?* —
+the answer is often a throwaway line 40 minutes into one talk and a single paragraph in someone
+else's essay. Getting it means scrolling, scrubbing through video after video, and skimming article
+after article.
+
+**You shouldn't have to watch and read everything to get one answer.** You should be able to just
+ask — and have an LLM respond using the *mental models, frameworks, and advice* that were actually
+in those videos and essays, pull the relevant ones up for you, and, when you want to go deeper, hand
+you the exact mentions and source links so you can use them directly.
+
+That is what Founder Book does. Ask a question in plain English → it retrieves the relevant mental
+models from across every source, synthesizes a grounded answer, and cites the specific videos/essays
+(with the mentions behind each claim) so the originals are one click away. No scrolling required.
+
 ## What it does
 
 ```
