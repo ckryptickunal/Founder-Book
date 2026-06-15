@@ -2,7 +2,7 @@
 type: entity
 title: Claude
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-06-16
 sources: []
 tags: []
 ---
@@ -23,3 +23,4 @@ An AI model/coding agent, mentioned as recommending Recall.ai and being used for
 - [[sources/kMYeTRqzAfc-replit-s-ceo-on-the-only-two-jobs-left-in-the-company-of-the-future|Replit's CEO On The Only Two Jobs Left In The Company Of The Future]]: AI model family developed by Anthropic.
 - [[sources/lbJilIQhHko-the-10-trillion-parameter-ai-model-with-300-iq|The 10 Trillion Parameter AI Model With 300 IQ]]: Large language model developed by Anthropic.
 - [[sources/p8Jx4qvDoSo-scaling-and-the-road-to-human-level-ai-anthropic-co-founder-jared-kaplan|Scaling and the Road to Human-Level AI | Anthropic Co-founder Jared Kaplan]]: A series of large language models developed by Anthropic.
+- [[sources/fQmlML9Lay4-conductor-ceo-charlie-holtz-walks-us-through-his-ai-coding-setup|Conductor CEO Charlie Holtz Walks Us Through His AI Coding Setup]]: AI model by Anthropic used for coding tasks.

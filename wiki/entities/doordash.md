@@ -2,7 +2,7 @@
 type: entity
 title: DoorDash
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-06-16
 sources: []
 tags: []
 ---
@@ -35,3 +35,4 @@ Mentioned as an example company for a product manager using Magic Patterns to pr
 - [[sources/sr0UabJd8qE-how-to-get-started-doing-things-that-don-t-scale-and-press-how-to-start-a-startup-2014-8|How to Get Started, Doing Things that Don't Scale, and Press (How to Start a Startup 2014: 8)]]: On-demand delivery network
 - [[sources/u36A-YTxiOw-the-best-way-to-launch-your-startup-startup-school|The Best Way To Launch Your Startup | Startup School]]: Food delivery service.
 - [[sources/viNZK9P40kY-unknown|Unknown]]: Food delivery service.
+- [[sources/2Ap1dnv-GXA-why-two-iit-engineers-turned-down-550k-jobs-to-build-a-startup|Why Two IIT Engineers Turned Down $550K Jobs To Build A Startup]]: Food delivery platform.

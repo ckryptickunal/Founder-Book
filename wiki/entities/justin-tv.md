@@ -2,7 +2,7 @@
 type: entity
 title: Justin.tv
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-06-16
 sources: []
 tags: []
 ---
@@ -34,3 +34,4 @@ A live streaming platform.
 - [[sources/v5w-0H-hq6E-paul-buchheit|Paul Buchheit]]: Live streaming platform that evolved into Twitch.
 - [[sources/ugmjf0fJY84-michael-seibel-startup-investor-school-day-2|Michael Seibel - Startup Investor School Day 2]]: Live streaming platform founded by Michael Seibel and others.
 - [[sources/xqSyeQ689WM-why-does-your-company-deserve-more-money-by-michael-seibel|Why Does Your Company Deserve More Money? by Michael Seibel]]: A former live-streaming platform co-founded by Michael Seibel.
+- [[sources/pg-how-to-earn-a-billion-dollars-how-to-earn-a-billion-dollars|How to Earn a Billion Dollars]]: Early live-streaming platform.

@@ -2,7 +2,7 @@
 type: entity
 title: Ron Conway
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-06-16
 sources: []
 tags: []
 ---
@@ -30,3 +30,4 @@ Prominent angel investor.
 - [[sources/T6g2D92H1FQ-andy-bromberg-startup-investor-school-day-4|Andy Bromberg - Startup Investor School Day 4]]: Prominent angel investor
 - [[sources/bgwqM6J3WeM-ron-conway-startup-investor-school-day-4|Ron Conway - Startup Investor School Day 4]]: Founder of SV Angel and prominent angel investor.
 - [[sources/qvHhhIfu7Lo-ron-conway-at-startup-school-sv-2014|Ron Conway at Startup School SV 2014]]: Legendary angel investor and founder of SV Angel.
+- [[sources/sa-reflections-reflections|Reflections]]: Investor and advisor

@@ -2,7 +2,7 @@
 type: entity
 title: Microsoft
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-06-16
 sources: []
 tags: []
 ---
@@ -65,3 +65,4 @@ Mentioned as an example of a successful early company that started as an enginee
 - [[sources/6kzNUK7GFjg-achieving-the-american-dream-through-tech-with-aarthi-sriram-aarthiandsriram|Achieving The American Dream through Tech, with Aarthi & Sriram @AarthiAndSriram]]: Global technology corporation.
 - [[sources/dtnG0ELjvcM-my-200-million-startup-mistake-peter-thiel-asked-and-i-said-no|My $200 million startup mistake: Peter Thiel asked and I said no]]: Large technology corporation.
 - [[sources/zAYPT6CrWRQ-parker-conrad-rippling-ceo-built-an-11-billion-customer-obsessed-business|Parker Conrad (Rippling CEO) built an $11 BILLION customer-obsessed business]]: Tech giant known for Active Directory.
+- [[sources/sa-three-observations-three-observations|Three Observations]]: Strategic partner of OpenAI.

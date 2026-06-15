@@ -2,7 +2,7 @@
 type: entity
 title: Sam Altman
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-06-16
 sources: []
 tags: []
 ---
@@ -185,3 +185,12 @@ CEO of OpenAI, mentioned for his claim that voice authentication for banks is al
 - [[sources/HT0Sb33kaoA-sam-altman-s-advice-to-founders-don-t-try-to-rebuild-chatgpt|Sam Altman's advice to founders: Don't try to rebuild ChatGPT]]: CEO of OpenAI
 - [[sources/v9xozD5rKpI-sam-altman-this-is-the-best-time-to-build-a-startup-ever|Sam Altman: This is the best time to build a startup ever]]: CEO of OpenAI
 - [[sources/DdqAMrtQGRw-legalize-math-in-california-ft-jelani-nelson|Legalize Math in California ft. Jelani Nelson]]: CEO of OpenAI
+- [[sources/sa-abundant-intelligence-abundant-intelligence|Abundant Intelligence]]: CEO of OpenAI and author of the post.
+- [[sources/sa-gpt-4o-gpt-4o|GPT-4o]]: CEO of OpenAI
+- [[sources/sa-jakub-and-szymon-jakub-and-szymon|Jakub and Szymon]]: CEO of OpenAI
+- [[sources/sa-reflections-reflections|Reflections]]: CEO of OpenAI
+- [[sources/sa-sora-2-sora-2|Sora 2]]: CEO of OpenAI and author of the announcement.
+- [[sources/sa-sora-update-1-sora-update-1|Sora update #1]]: CEO of OpenAI
+- [[sources/sa-the-gentle-singularity-the-gentle-singularity|The Gentle Singularity]]: CEO of OpenAI and author of the blog post.
+- [[sources/sa-three-observations-three-observations|Three Observations]]: CEO of OpenAI and author of the text.
+- [[sources/gSNFJbgoaHI-how-to-build-an-ai-native-services-company|How to Build an AI-Native Services Company]]: CEO of OpenAI and former President of Y Combinator.

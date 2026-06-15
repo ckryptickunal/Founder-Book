@@ -2,7 +2,7 @@
 type: entity
 title: Robert Morris
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-06-16
 sources: []
 tags: []
 ---
@@ -31,3 +31,4 @@ Co-founder of Viaweb.
 - [[sources/pg-why-smart-people-have-bad-ideas-why-smart-people-have-bad-ideas|Why Smart People Have Bad Ideas]]: Co-founder of Artix and Viaweb.
 - [[sources/4WO5kJChg3w-a-conversation-with-paul-graham-moderated-by-geoff-ralston|A Conversation with Paul Graham - Moderated by Geoff Ralston]]: Co-founder of Viaweb and early hacker.
 - [[sources/GYpYBqmlzTQ-celebrating-20-years-of-y-combinator|Celebrating 20 Years of Y Combinator]]: Co-founder of Y Combinator.
+- [[sources/pg-the-best-essay-the-best-essay|The Best Essay]]: Co-founder of Y Combinator.

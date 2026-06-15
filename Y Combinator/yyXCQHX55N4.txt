@@ -1,0 +1,988 @@
+Title: Emergent: How Six Months of Tinkering Led To A $100M ARR Company
+Video ID: yyXCQHX55N4
+URL: https://www.youtube.com/watch?v=yyXCQHX55N4
+Channel: Y Combinator
+Published: 2026-06-06T12:30:10Z
+Duration: PT29M5S
+Views: 19192
+Likes: 421
+Tags: YC, Y Combinator
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 966
+
+Description:
+Mukund Jha is the co-founder and CEO of Emergent, a platform that lets anyone without programming knowledge build, ship, and monetize real software by chatting with an AI agent. Launched roughly nine months ago, Emergent has surpassed 8.5 million users across 190 countries, seen more than 10 million apps built on the platform. At Startup School India, Mukund sat down with YC Managing Partner Jared Friedman to go over his founder journey and insights from building two successful companies.   
+
+ht
+
+============================================================
+TRANSCRIPT
+============================================================
+
+If you look at like last 30 years, like
+most of the economic gain in the world
+has come from software companies. If you
+remove all the software companies from
+you know, NASDAQ and and S&P, you'll see
+it's been just a flat line. And and we
+started thinking, okay, what if we could
+bring this power to almost everybody in
+the world?
+>> Welcome. Super excited to be here. What
+a crowd. So,
+Mulchand, um
+maybe not everybody knows what a
+merchant is and also like what a big
+deal it is. [clears throat] For those
+who don't know, a merchant is one of the
+fastest AI growing is the fastest
+growing AI companies in the world and
+really I would say one of the first
+truly AI native companies in India to
+get to real scale.
+>> Right. Right.
+>> Um and so you're going to get to hear
+from I really see you as like a pioneer
+of a next generation of startups coming
+out of India and we you're going to get
+to hear how how he's done it. Um to
+start with, maybe you can just tell
+everybody what a merchant is.
+>> Yeah, so I mean thanks for inviting me.
+I'm super excited to be here. I can't
+imagine like so many people coming to
+the school and the whole energy in India
+about the whole YC trip has been
+amazing. I was at IIT Delhi a couple of
+days back, same energy.
+So, super excited to be here.
+Emergent is a platform that allows
+anybody without any programming
+knowledge to be able to build software
+that you can actually ship. Uh that your
+users can use, that you can monetize.
+Uh essentially we're riding on this
+whole wave of
+coding becoming easier with AI. Uh and
+when we started our journey, we actually
+started off as a research lab building
+coding agents. Became world number one
+on SweetBench, which is the benchmark
+for all of the coding agent. Uh it was
+just a four people team which actually
+got us there and then we started
+thinking about like, hey, what would
+happen in the world if we can
+democratize coding for everybody?
+Um and me being a programmer, Madhav
+who's my co-founder, who's my twin
+brother,
+um he both of us have been programming
+since age 12 um and super super
+passionate about uh you know,
+programming and um, of the things that
+we realized that if you look at like
+last 30 years, like most of the economic
+gain in the world has come from software
+companies. If you remove all the
+software companies from, um, you know,
+Nasdaq and and S&P, you'll see it's been
+just a flat line. And and beside
+thinking, okay, what if we can bring
+this power to almost everybody in the
+world. Like there are billion people
+with so many ideas. So many ideas just
+die because you do not have an access to
+sort of bring them to life. And and that
+was the mission that we started with.
+Uh, today we have more than 8 and a half
+million people uh, who are using the
+platform. More than 10 million apps have
+been built. Uh, we recently crossed 100
+million dollars in annualized run rate.
+Uh, today one of the fastest growing
+startups in the world and and the reason
+is that we are able to allow people to
+actually really ship what they dream.
+And it's as easy as just chatting with
+your agent and we take care of
+everything from hosting, deployment,
+maintenance of the product um, and
+truly unlocking the power of, you know,
+bringing an idea to life with just
+chatting with your agent.
+>> How long since you launched the current
+version of the product?
+>> Yeah, we launched about 9 months back.
+>> 9 months, okay. So,
+keep in mind, this is basically a
+9-month-old company. Tell us like about
+the scale that you're operating at just
+9 months in.
+>> Yeah, so we have uh, close to about 8
+and a half million users on the platform
+um, and
+um, we are we are well over 100 million
+in annualized uh, revenue run rate. And
+again like I think the latent demand in
+the market is is really really high.
+People There are a lot of people who
+want to uh, build software and and so
+far have not been able to have the
+access to these tools. And platform like
+ours truly enables them to ship, you
+know, an idea that they have had in
+mind. A lot of our users are actually
+entrepreneurs who do not have a uh, tech
+team and have been sort of handicapped
+by access to technology and and now are
+able to build.
+>> Who are your users? And also, where are
+your users?
+>> Yeah, so we uh, have users all across
+the globe in 190 countries. Uh, when I
+started when I actually like just to
+give you a little bit of background,
+right? When I came to India in 2014, I
+was before that I was in Google in in
+US. And I've always had this
+thought that hey, why is there no Google
+from India? Why is there no Facebook
+from India? We have so much talent, so
+much engineering talent. In fact, you
+look at the top leadership of all of
+these companies, you know, like
+Microsoft, Google, you know, there are
+sort of Indian folks who have sort of
+gone there, right? And I've always
+wondered why is there no sort of
+technology first global company from
+India, right? And so when I was
+after Dunzo when I was thinking what
+what to do next, like one of the things
+that that I had in the back of my mind
+was that I truly want to build a global
+company from India, like just like
+Facebook and Google. And today we have
+people have been using us over 190
+countries. And most of the like revenue
+comes from US and Europe.
+India accounts for about 10% of our
+revenue. And but yeah, our audience is
+fully global.
+>> And I'm not sure the people know, but
+before you started
+a merchant, you started another company
+that I'm sure they all know called
+Dunzo, which is like a really big deal.
+You raised what, like a half a billion
+dollars? And it was like a this is a
+huge company. Yeah.
+>> Yeah, I'm sure in Bangalore I think a
+lot of people would know us.
+You know, we were pretty popular in
+Bangalore. We like You know, at our peak
+we were one of the most loved consumer
+brands in the country. Even today when
+people ship something they say hey,
+Dunzo it and and almost became a verb in
+the country. At peak we were doing about
+10 million monthly orders. We were one
+of the first people to start the trend
+of quick commerce in the country. The
+10-minute delivery trend. You know,
+it was a pretty different journey. Like
+I was solving problems which were very
+operational nature.
+Also like last mile logistics, you know,
+how do you sort of set the dark dark
+store network. And the lesson that you
+know, like
+I would say was applicable there and is
+applicable here as well is be picked up
+to solve the hard problems. When we
+started Dunzo, there were about
+um 87 companies which were doing exactly
+the same thing, right? Because we had It
+was very simple. You could just WhatsApp
+us and and we would you know, we were
+kind of like a concierge on WhatsApp.
+So, it was super easy to get started,
+but I think the hard part was the last
+mile. Like, how do you sort of really
+make sure the the end consumer actually
+gets the product, the product is
+delivered in the right state, um and and
+we chose to sort of do that. You know,
+we were actually doing deliveries
+ourselves early on. Like, I had you
+know, a bike and a car and I would just
+um in the night get an order, I would I
+would jump on a bike myself and and go
+and deliver. And I think early days just
+doing things yourself and and this is
+one of the YC mantra, doing things that
+don't scale, right? Really really helps
+you get close to the customer,
+understand the real pain point, whether
+there's a value or not. Um and I think
+like uh just just you know, being a
+customer yourself or doing things for
+the customer really really helps.
+>> Can
+can we actually go back in time a bit
+and talk a little bit about your
+personal background? I learned just a
+couple of days ago that a merchant is
+actually not just your second company,
+but your fifth startup. This guy's
+actually started five startups.
+Um
+>> Yeah.
+>> Tell us like
+>> Yeah.
+>> Um
+Maybe tell us a bit about your early
+career, where you grew up and went to
+school, coming to the US, and just sort
+of like getting started.
+>> Yeah, so I actually like grew up in a
+very uh I would say middle-class, upper
+middle-class family. My dad is an
+engineer. Um and um
+obviously like uh got into engineering
+college, um did my engineering. Um
+always had this uh um
+idea that I want to do something of my
+own. I actually very early on saw a lot
+of videos of Steve Jobs and was like
+really really inspired. Um I mean, I I
+saw him him launching the first iPhone
+in 2007, and that was the moment like
+you know, I thought oh, I want to bring
+something to the world uh you know, in
+in similar fashion. And in fact, I went
+to uh Spain for an internship in 2008,
+bought an iPhone. I mean, it didn't work
+in India, but I just bought it because I
+liked it so much. Just bought it as a
+souvenir for myself. Try to hack it to
+make it work. And then 2009 is when I
+went to US to do my PhD. Um
+and then did an internship at Google. I
+liked it
+so much and
+whatever research I was going to do
+Google had actually done that research
+already 2 years back. So I thought there
+was no point. So I dropped out of the
+PhD program, joined Google, was in the
+search ranking team. There was a
+50-people team that controlled all of
+Google search ranking.
+I was the youngest person in that team.
+So I got a lot of liberty to sort of,
+you know, question a lot of things
+because I was
+a young person who could just just
+challenge the system. And at that time
+Google was very anti-machine learning.
+Like they didn't want to like have
+machine learning in search. And I was a
+machine learning engineer. So so I I got
+a lot of, you know, leeway in terms of
+asking a lot of questions saying, "Hey,
+like why are we not using machine
+learning here?" Eventually like got to
+push some of the biggest changes in
+search ranking when I was there for for
+a couple of years.
+Then got bitten by the
+startup bug. Left that Google, started a
+company which was trying to build a
+group education platform where you can
+actually, you know,
+bring a group group class together.
+Raised a bunch of money. Eventually like
+we pivoted into a P2P software company
+and realized that my passion was not
+that. I really wanted to sort of solve
+education, wanted to build something
+consumer first.
+So returned the money, shut down that
+startup. Started another company into
+sort of habit creation. How do you sort
+of help people form better habits? Same
+time got married. My wife didn't want to
+move to US. So I moved back to India.
+And I thought I could do startup from
+anywhere. And I had an engineering team
+in New York. I was I was working from
+India. But
+realized that the hard way it's really
+hard to coordinate, you know, without at
+that time. So gave that up. And
+a lot of things that sort of has stuck
+with me like since the beginning has
+been that
+and which is sort of, you know, like
+over time I have sort of realized to,
+you know, like do more of is just trust
+my intuition more. And and
+So So, even with Dunzo, like I started
+with this personal problem that when I
+moved to Bangalore, like there were too
+many things to be done. Like I had a car
+to be serviced, I had, you know,
+electricity uh to be set up, gas, all of
+those things. And I thought there must
+be an easier to do this. And I just, you
+know, um
+started a WhatsApp group and gave that
+number to a lot of my friends saying
+that, "Hey, if you need anything, just
+ping me on this group. We'll we'll help
+you get that done." So, started with a
+personal pain pain point that, "Hey,
+like we wanted to sort of, you know,
+make life more convenient in urban
+cities." Um and I think that has sort of
+stuck with me throughout, you know, that
+where whenever I'm I've been able to
+sort of, you know, um solve a personal
+pain point, like the feedback always
+went stronger.
+Um you relate with the problem more
+deeply, you relate with the customer
+more deeply. And and even with the
+version, same thing happened, like, you
+know, me and Maddy, both of us are like
+idea guys. Like we have like thousands
+of ideas all the time. And we wanted to
+sort of, you know, like automate and get
+more of these ideas out in the life. And
+and and that's why we sort of started
+automating uh programming and and got
+started on the journey.
+>> Dunzo was a huge deal. I mean, you
+scaled a massive company. Maybe you can
+remember some of the some of the stats
+about how big it got. How many Yeah.
+>> Yeah, so Dunzo, like we had almost a
+million riders on the ground. Uh and we
+were doing 10 million monthly orders,
+almost like 5,000 store stores overall.
+Uh yeah, so pretty uh large scale, yeah.
+>> Do you have like lessons that you took
+away from that experience? Either things
+you think, you know, you did right in
+order to scale something so large or you
+mean maybe even things that you would do
+differently?
+At the same time.
+>> Yeah, I mean, I think Dunzo, like even
+though, like, you know, like it was a
+bitter sweet ending like for us, like
+the um
+takeaway was was was like for me was
+like two two three things. One was like
+solving the hard problem, right? We
+actually, as I said, there were like 87
+companies doing the same thing. And we
+really, really uh cared about the
+consumer a lot. Like I remember, you
+know, earlier back then there was no AI.
+So, so all the chatting had to be manual
+and every evening there would be a spike
+in traffic and every single engineer
+would drop what they were working on,
+get back on you know, on the chat
+screen, talk to our customers and very
+early on we had this you know, like
+culture where we really deeply cared
+about the customer like there was there
+was a customer who wanted to ship
+something to a different city and we
+actually put a driver the one of the
+riders on a plane to send that packet.
+So we would go that extra mile for every
+single customer and that's how sort of
+we we created this genuine love from all
+the customers. Uh second thing I think
+like one of the things that I learned
+from like us not being able to sort of
+scale eventually was I think like focus
+is really important. Like I think for us
+like dark store wasn't really working
+and working really well, but at that
+point we were doing like 10 other
+things. Like we were doing a marketplace
+model, we were doing pick up and drop,
+we were doing you know, like bunch of
+those things.
+Um so I think like us like knowing that
+hey, this is working, let's double down
+on this model would have really really
+helped.
+Um but eventually I think like I I just
+see this as a series of you know, like
+me being a builder, you know, you know,
+just just as a stepping stone to to do
+something bigger. Yeah.
+>> Okay, so you worked on Dunzo for a bunch
+of years. You scaled it to this really
+huge company. It must have been a very
+intense experience running a you know,
+like atoms based
+business where all kinds of things go
+wrong every day, I'm sure.
+>> Very very very hard. I mean yeah, I mean
+we had we had a team called watchtower
+which would watch over every single
+order and
+it it was almost like a war room. You
+were in a war room continuously because
+every day operational things break
+pretty pretty often. Yeah.
+And lot of that is sort of I borrowed
+here. So the way we sort of run Emergent
+as well is we monitor all the all the
+all the all the tasks that are that are
+getting built, all the software that is
+getting built and and if something's are
+breaking we flag that. So lot of the
+operational rigor I've been able to
+borrow from
+you know, Dunzo to Emergent as well.
+Yes.
+>> So in 2023 you've been doing this for a
+number of years and you left Dunzo.
+Um tell us the story of like leaving
+Dunzo and then what what emergent like
+came out of
+>> Yeah, I think 2023 like um
+at one point we thought like Dunzo was
+too big to fail um and you know we had
+raised $200
+in a recent round and I actually told my
+co-founder that hey I think now we are
+too big to fail right and and of course
+like the story didn't end end that way.
+Um so when I got out in September 23 I
+was actually pretty depressed like
+didn't didn't want to do anything in my
+life um and for like first 6 months I
+was just you know um
+reflecting on hey what could have we
+done better. Luckily like AI AI was
+happening at that time so you know like
+ChatGPT was just taking off um GPT-4 had
+just come out so I think it was it was a
+little bit easy for us to sort of
+building and and sort of building and
+coding became sort of my escape from
+from all the you know the noise that was
+there. So I would actually spend like 10
+12 hours just sitting on my computer
+tinkering with
+um
+all of the things that was coming out
+the new voice models were coming out you
+know people were the new open source
+models coming out at that point. So I
+actually got this luxury of 6 months of
+like just pure tinkering on things that
+I really liked with no sort of objective
+in mind. Um I I built this like
+an assistant on my Mac where it could
+actually talk to me and I I could sort
+of something very similar to open cloud
+but very early version of that and I I
+was just following you know like
+whatever was exciting to me at that
+point and it became very clear to me
+very early on that like coding as a
+space is going to be one that's going to
+get disrupted very quickly
+um and I spent much of time in US with
+my friends with with people at the labs
+um but I think it was just pure joy of
+tinkering pure joy of just building
+something without any pressure um that
+sort of led us to sort of think of this
+idea that led us to sort of you know
+um build emergent in some way because
+all of the insights that we got while
+tinkering we were able to apply while we
+were building the product um and and uh
+you know that really helped And I think
+just having this um the sense of
+curiosity and sense of um you know, like
+when you're you're building things just
+for the pure joy of it, just for the
+um you know, because because you want to
+solve a problem, right? I think I think
+that allows you to go really deep into
+the problem and bring insights that is
+otherwise very hard to get.
+>> I I like I kind of love this picture of
+you. You like you just have the super
+intense experience, you build one of the
+top companies in India, you're burnt
+out, you're basically just like
+recuperating.
+>> Yeah.
+>> And
+in your spare time, because you have
+some time then, you're just like
+tinkering with the latest model. You're
+just seeing, "Oh, maybe we could get
+like ChatGPT to write some code. I don't
+know."
+>> Yeah, I mean it it was practically like
+just, you know, like um me
+I mean, just going back to like in the
+old times when I was a kid, you know,
+like I would just pick something new and
+and play with it. And it just felt like
+the same thing that I was just playing
+with this new technology and and uh the
+pace at which uh you know, models were
+sort of accelerating, there was it was
+really really fascinating for us to see
+that. And for us to build a lot of deep
+insight into like how elements are going
+to progress. But for example, like when
+we started Emergent, most of the
+companies were building uh co-pilots.
+That that was the fashion. That was That
+was what what every VC
+uh wanted to hear. We in fact went and
+pitched to like 10 12 VCs, got rejected
+from most of them.
+Uh and this is, you know, tons of
+founder who just had a big company
+coming out, getting rejected from most
+VCs. Because we told them, "Hey, we're
+going to automate software engineering."
+And they thought it was crazy. Like
+that, you know, it would the AI is not
+there yet. And but we could see we could
+see the model are capable like, you
+know, if you if you just project it out
+a little bit, um you know, that the
+steps that they are feeling like could
+be easily trained back. Um so, we we
+took this very massive view that AI
+progress is going to be exponential. And
+we will always build in the direction of
+AI. And and that's sort of led us to um
+sort of think from a problem perspective
+that, "Hey, let's automate all of
+software engineering versus piece by
+piece uh thinking of that." So, I I I
+think having that uh um downtime and
+just that tinkering energy like really
+really helped
+us find the way. Yeah.
+>> I I just want to like pull on a thread
+from this because I think this is really
+good general advice for everyone in the
+room. Like what what Mukund was doing,
+we we we have a name for this at Woven
+by Ikan we call it living at the edge.
+It's like the models weren't good at
+writing code yet. And when you like
+pitched to VCs, they were like the
+models like aren't going to be able to
+do this. And like they weren't quite
+able to do it yet, but you could tell
+that they were that like if you if you
+project it out
+>> But you could see the sparks, yes.
+>> Right. And like that's where a lot of
+the best startup ideas come from. It's
+the things that aren't quite possible
+yet. That's maybe a good segue to talk
+about some of the technical details of
+Emergent. Like
+if you just go to Emergent, maybe you
+don't realize the sort of like deep
+technical foundations that it's built
+on. Can you talk about that?
+>> Yeah, so I mean we actually you know,
+like when we started our journey, like
+most people were building co-pilots. We
+thought we'll build autonomous agents
+that could do Agents was not even a word
+then. Now it's obviously everywhere, but
+like we built this multi-agent
+orchestrated system where you have
+different agents who which will come in
+different point of time and and perform
+different um action. Like for example,
+we have automated testing agent which
+will test your app. We have a design
+agent that will design your app.
+All of this is coordinated, you know,
+through
+a large memory system that we have built
+which is sort of self-learns. Every time
+a new app gets built on Emergent, like
+you know, our agents actually extract
+from that what are the learnable aspects
+and sort of store it in memory. So,
+every every new app actually getting
+built on the Emergent makes the platform
+even better. And a lot of the energy has
+gone into us into collecting all of the
+data that we have now. We do a lot of RL
+on top of that.
+We do some amount of fine-tuning and and
+but a lot of the things that we have
+built essentially is all of the
+infrastructure that we have built
+ourselves. So, we have built all of the
+coding agent. We have built all of the
+infrastructure. For example, we when we
+started there was nobody building
+deep container technology. So, we had to
+invent a lot of the container edge
+technology ourselves, like for example,
+we wanted to preserve state so that you
+could have multiple parallel agents
+running on the same same snapshot. So,
+we had to invent disk snapshotting,
+memory snapshotting, all of those
+things.
+And I think one of the things that you
+as you said, like you know, living on
+the edge, you actually discover these
+problems much early on before, you know,
+like other others other ecosystem
+discovers it. And often time you'll have
+to go solve it them yourself. Like for
+example, today like we have
+multiple different sort of parallel
+agents that can sort of swarm together
+and and complete a task. Which we think
+is going to be like like like the
+future. And and what we are observing is
+that every time a new model comes out
+comes out, like for example, a new class
+of model, for example, Opus is a new
+class of model, like you have to
+actually delete whatever you have
+learned so far and sort of reimagine the
+world from the lens of this new model.
+So, so far like, you know, in 9 months
+we have already rewritten our system
+three times.
+And and just just when a when a new
+model comes out we have to sort of start
+rethinking that, okay, what are the new
+possibilities that's going to open up
+and what what where this model is going
+to be in 6 months.
+And
+one of the things I was telling you
+before that, you know, like that like
+when we started merging, like one of the
+biggest challenge was actually that
+models could not do a good JSON output.
+And like there were like at least 20 or
+30 YC companies that were solving the
+exact same problem, JSON parsing, right?
+And we took this view that, hey, like,
+you know, like the next model will be
+able to solve this. So, let's
+we just completely skip that problem, we
+started building the agent and and sort
+of, you know, went on the journey. So, I
+think living on the edge and just trying
+to imagine what is possible in next 6
+months is really important as you sort
+of progress through your startup
+journey.
+>> Um, can you talk about beating the
+benchmark? Is that's that's like a core
+core part core part of the founding
+story here?
+>> Yeah. So,
+so one one of the things that like
+happened when we went to YC was that and
+this happens with a lot of YC founders
+that that, you know, like you you come
+in with a different idea, you sort of,
+you know, stumble upon a different idea.
+When we actually went to YC, we were
+building testing agents initially,
+right? And
+and and and when when sort of we were
+coming coming from India like we drew
+drew this on a whiteboard that hey like
+very soon you'll be able to build build
+web apps mobile apps you know through
+AI. And we had this diagram that hey
+like we'll be able to build web app
+mobile apps on on on this thing. We day
+one we went to our YC partner told them
+that hey we want to build a consumer app
+building company and they said okay this
+this you know like maybe you should
+think about enterprise this this seems
+too ambitious. Um and for the first like
+it's a three-month program so for for
+for three months every week we would
+have a new idea on the board okay idea
+of the week is you know let's say AI
+Zapier and and we'll spend a week sort
+of you know building that or or taking
+with that.
+Um and eventually like you know every
+every week we'll have a new idea we
+would pivoting like crazy. And
+and team was getting frustrated hey like
+you have a new idea every week what are
+we going to do? Uh so almost just to
+distract them I actually picked this
+benchmark sweet bench which is the
+hardest benchmark at that time and I
+told them hey like while I figure out
+what what we're going to build let's
+just attack this benchmark because you
+know it allows to solve harder problems
+and then solve almost send them in that
+direction. It took us three months to
+sort of crack that benchmark became
+world number one on that benchmark but
+that's really set us the foundation for
+emergent where we were able to build
+world's best coding agent. Uh all of the
+innovation that we sort of have in
+emergent right now whether it's it's
+paralyzed test time compute um all of
+the memory agent to agent communication
+all of those things we were able to
+discover when when we were on this
+benchmark and I think like like even
+today I think like um
+at attaching yourself to a number which
+which can sort of show you progress is
+really really good way to sort of you
+know attack a goal or or good go towards
+uh building a company because that sort
+of focuses you into right direction it
+gives you like a really good feedback in
+terms of what's happening. Yeah.
+>> Yeah it's super super impressive what
+you guys did beating beating that
+benchmark before you even really had a
+startup idea like for what to do around
+it. Um
+a recurring theme of the talks today has
+been um this concept of second mover
+advantage. Um you know like Zepto wasn't
+the first grocery delivery company and
+Giga wasn't the first AI customer
+support thing. Emergent was also not the
+first AI website builder to launch. When
+you launched Emergent, there were
+already a couple of like pretty big
+players and probably a whole bunch of
+small ones. Um
+much like I guess your story of starting
+Dunzo when there were already 80 80 80
+similar companies. What What What gave
+you the confidence to launch this anyway
+even though you weren't the first to the
+market and how have you been able to
+carve out such a such a big space for
+yourself?
+>> Yeah, I mean for us um when we looked at
+the problem space, we realized that
+like most of the other platforms that
+were out there like they were mostly
+focused on front end and building demo
+ware, right? And and that's what like
+where a lot of these were finding
+product market fit, right? But what we
+realized was that like users are
+actually going to want real software to
+be shipped. Um and you know, the problem
+is far from solved, right? Like and we
+saw that the the expectation that users
+have versus you know, and I'm sure the
+same thing is with Giga as well, right?
+Like the expectation that user has like
+hey, my queries get solved. Same
+expectation our users have that my
+software should actually work, right?
+When I when I'm prompting something. And
+most of the solutions out there like
+even though they they were like good at
+getting started, right? They were like
+really bad at finishing. Like you you
+will not get a working software out of
+that. You will not get a You will not
+have a real back end. You will not have
+a real databases attached. And and so we
+came to this from from a very different
+angle saying that hey, if you were to
+automate all of software engineering,
+how would you approach the problem? We
+almost built everything ground up. Um
+>> [snorts]
+>> and we could see like in practice when
+we sort of ran prompts on all all the
+platform and asked like we were
+massively outperforming everybody else
+in the market, right? So that allowed us
+to sort of really really attack attack
+the market in a big way. But I think
+again like we we came to this from a
+very sort of consumer insight that
+consumers are actually going to want
+real software that is working and not
+just prototype and demos and and nobody
+in the market was solving that. Um and
+there were no good solutions that
+actually could could take you to the
+finish line and that's why sort of we we
+attacked that. And once we had the
+product like we had to think through
+GTM, how do we market it? We looked at
+like which companies are growing really
+fast, what what what they have done.
+Um, and
+sort of almost converted our growth into
+a math problem saying that hey, how many
+social views do we need? How many like,
+you know,
+impression do we need? How many clicks
+will we get? How many users will we get?
+And at that point we knew okay, like
+influencer is a good strategy for us to
+sort of really launch because we knew
+the product is really good, working
+really well. We just need to get in
+front of as many users as possible and
+that's sort of been the growth engine
+for us.
+>> Where is the Emergent team
+based and how do you think about
+building an AI native company that
+targets a global audience um, here?
+>> Yeah, so most of the team is actually in
+Bangalore. We have 95% of our team in
+Bangalore. Pretty much built out of
+India completely. We have a very small
+team in SF. We have recently opened new
+office in SF, so small team is there.
+And by the way, we are hiring, so if
+people want to, you know, apply and and
+work at a strong AI native company,
+please write to me mukund@emergent.sh.
+Happy to take a look at that. And I
+think like one of the things that I've
+I've realized, you know, like and we
+generally like hire for like learning
+slope. People who aren't like really
+really passionate about, you know,
+solving a problem. People who get
+excited about, you know, solving some of
+these problems. And what we have seen is
+is that I think like one of the things
+that separates us right now from from
+other companies that everybody in the
+company generally enjoys solving and
+working with AI, right? I think there's
+this added of course the growth is great
+and and you know, we we get to solve
+real user problems. But I think just the
+you know, the the complexity of the
+problem and the possibilities are so
+much that we generally enjoy like
+day-to-day problem solving with AI right
+now. So that's amazing.
+>> You've had a chance to build two very
+different companies.
+You built Dunzo in the sort of like
+first wave of great Indian startups that
+were building things like Zepto, a lot
+of like local local local stuff. And now
+you're building Emergent, which is like
+the part of this like second wave of AI
+native companies post ChatGPT. I'm
+curious first, what are what are some of
+your your takeaways from building those
+two kinds of companies? And then second,
+what would your advice be to folks in
+the audience who are thinking about
+where to look for startup ideas and what
+kind of things to build?
+>> Yeah, I mean I think I mean my
+realization after building the two
+companies is that like
+building a company for for India, a
+local company, versus building a global
+company is actually exactly same effort.
+You know, it's it's equally hard to
+build a company in India versus building
+a global company. And so my advice to a
+lot of people right now is just think
+global from day one because I mean it's
+going to be equally hard to build both
+the startups. I mean and and it's kind
+of like a like a prevalent wisdom that
+actually starting a harder idea is
+easier because you can inspire a lot
+more people to go after a harder
+problem, right? And you can sort of, you
+know, inspire yourself to to go after
+these. So So I would I would I would
+recommend that like think global from
+day one because like now you have the
+reach, the access. This internet is with
+everyone. Technology is a big leveling,
+you know, for for everyone. Everybody
+has the same access, same technology.
+And
+and you can actually just reach global
+customer from day zero from from India
+today. Um the other thing I would say is
+that one I think
+um
+just following your intuition is really
+really I mean you'll get a lot of
+advice, but I think following as a
+founder following your intuition uh is
+actually much better because, you know,
+like you probably have a better sense of
+general, you know, what your customer
+wants, um what your customer needs. Um
+and also I think um just thinking big
+and ambitious, I think
+whatever you're thinking right now, just
+10x that, 100x that because I think the
+next uh you know, with AI I think a lot
+of lot of things are changing and and
+it's it's not a time to sort of uh
+attack the floor, it's the time to
+attack the ceiling. And think really
+big. And the bigger you think the the
+the I would say the higher probability
+that you'll get to success.
+>> That's an amazing piece of advice for us
+to end on. Mukund, you're an inspiration
+to us. Thank you so much.
+>> Thank you. Thank you so much for having
+me here and and the energy is electric
+here and I'm looking forward to lot
+[applause] more of gigas and emergent
+coming out of India over the next year
+or so and looking forward to this people
+here.
+>> [applause]
+>> Cheers.

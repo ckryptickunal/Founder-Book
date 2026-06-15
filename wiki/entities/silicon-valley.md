@@ -2,7 +2,7 @@
 type: entity
 title: Silicon Valley
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-06-16
 sources: []
 tags: []
 ---
@@ -41,3 +41,4 @@ The global center for high technology and innovation, where Keshav began his ent
 - [[sources/oAEZoAp2_zY-why-fundraising-is-different-in-silicon-valley-michael-seibel|Why Fundraising Is Different In Silicon Valley - Michael Seibel]]: The primary hub for technology startups in the United States.
 - [[sources/pkAum45ubWc-how-to-be-a-great-founder-with-reid-hoffman-how-to-start-a-startup-2014-lecture-13|How to Be a Great Founder with Reid Hoffman (How to Start a Startup 2014: Lecture 13)]]: A global hub for technology and startups.
 - [[sources/2gccAOuGRdU-should-you-work-on-that-startup-idea|Should you work on that startup idea?]]: HBO television series.
+- [[sources/pg-superlinear-returns-superlinear-returns|Superlinear Returns]]: The global center for technology and startups.

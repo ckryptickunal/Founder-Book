@@ -2,7 +2,7 @@
 type: entity
 title: John Jumper
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-06-16
 sources: []
 tags: []
 ---
@@ -16,3 +16,4 @@ Nobel Laureate and researcher at Google DeepMind, lead developer of AlphaFold.
 ## Source Mentions
 
 - [[sources/2Yguz5U-Nic-nobel-laureate-john-jumper-ai-is-revolutionizing-scientific-discovery|Nobel Laureate John Jumper: AI is Revolutionizing Scientific Discovery]]: Nobel Laureate and researcher at Google DeepMind, lead developer of AlphaFold.
+- [[sources/qr6kVSKqBqo-startup-school-is-back|Startup School is back!]]: A researcher known for his work on AlphaFold.

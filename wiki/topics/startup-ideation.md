@@ -2,7 +2,7 @@
 type: topic
 title: Startup Ideation
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-06-16
 sources: []
 tags: []
 ---
@@ -23,3 +23,4 @@ The process of generating and refining business concepts.
 - [[sources/oxyyBUnhLPI-in-the-ai-era-the-playbook-is-changing|In the AI era, the playbook is changing.]]: The process of identifying and validating business opportunities in the context of rapid technological change.
 - [[sources/vDXkpJw16os-how-to-get-and-test-startup-ideas-michael-seibel|How to Get and Test Startup Ideas - Michael Seibel]]: The process of identifying viable business opportunities by focusing on problems rather than abstract ideas.
 - [[sources/ycKU-ebeE24-the-best-way-to-have-startup-ideas-is-to-just-notice-them-organically|The best way to have startup ideas is to just notice them organically.]]: The process of identifying business opportunities, specifically through organic discovery.
+- [[sources/pg-how-to-earn-a-billion-dollars-how-to-earn-a-billion-dollars|How to Earn a Billion Dollars]]: The process of finding viable business ideas by working on projects that interest you rather than searching for market gaps.

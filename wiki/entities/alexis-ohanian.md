@@ -2,7 +2,7 @@
 type: entity
 title: Alexis Ohanian
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-06-16
 sources: []
 tags: []
 ---
@@ -21,3 +21,4 @@ Co-founder of Reddit and incoming Executive Chairman
 - [[sources/VuVhxwwvCXQ-introduction-at-startup-school-ny-2014|Introduction at Startup School NY 2014]]: Co-founder of Reddit and speaker at the event.
 - [[sources/ksDTT-pm73k-closing-remarks-at-startup-school-ny-2014|Closing Remarks at Startup School NY 2014]]: Co-founder of Reddit and partner at Y Combinator.
 - [[sources/WK_XwjhJl3k-6-skills-for-successful-startup-founders-maximize-your-chances|6 Skills for Successful Startup Founders: Maximize your chances]]: Co-founder of Reddit.
+- [[sources/pg-the-reddits-the-reddits|The Reddits]]: Co-founder of Reddit.

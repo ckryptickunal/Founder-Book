@@ -2,7 +2,7 @@
 type: entity
 title: Brian Chesky
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-06-16
 sources: []
 tags: []
 ---
@@ -41,3 +41,5 @@ Co-founder and CEO of Airbnb, quoted by Amir regarding long-term vision.
 - [[sources/PxioWJR3cCo-catching-lightning-in-a-bottle-made-easy|Catching LIGHTNING in a Bottle Made EASY]]: CEO of Airbnb.
 - [[sources/decDIkDbS3Q-unknown|Unknown]]: CEO of Airbnb.
 - [[sources/zHZxURFgK-4-hans-tung-funded-16-unicorns-billion-dollar-war-stories-and-hard-lessons-learned|Hans Tung funded 16 unicorns: Billion dollar war stories and hard lessons learned]]: CEO of Airbnb.
+- [[sources/sa-reflections-reflections|Reflections]]: CEO of Airbnb
+- [[sources/pg-founder-mode-founder-mode|Founder Mode]]: CEO of Airbnb.

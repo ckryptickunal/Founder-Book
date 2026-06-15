@@ -2,7 +2,7 @@
 type: topic
 title: Startup Pivoting
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-06-16
 sources: []
 tags: []
 ---
@@ -32,3 +32,5 @@ The strategic process of changing a company's direction or product, exemplified 
 - [[sources/cZ3kiEyDTCQ-what-david-lieb-and-his-team-built-eventually-became-the-foundation-for-google-photos|What David Lieb and his team built eventually became the foundation for Google Photos.]]: The process of changing a business strategy when initial products fail to gain market traction.
 - [[sources/gmA-BOIVKQU-mariya-nurislamova-founder-of-scentbird-at-the-female-founders-conference|Mariya Nurislamova, Founder of Scentbird at the Female Founders Conference]]: The process of iterating through failed business models (recommender system, discovery kits, try-before-you-buy) to find a sustainable subscription model.
 - [[sources/uX9ldi32Xnc-andrew-mason-at-startup-school-sv-2014|Andrew Mason at Startup School SV 2014]]: The process of transitioning from a failing initial idea to a successful business model.
+- [[sources/pg-the-reddits-the-reddits|The Reddits]]: The process of changing a business model when the initial idea is deemed unviable.
+- [[sources/2Ap1dnv-GXA-why-two-iit-engineers-turned-down-550k-jobs-to-build-a-startup|Why Two IIT Engineers Turned Down $550K Jobs To Build A Startup]]: The process of moving from an initial failed idea to a viable product based on market feedback.

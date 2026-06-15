@@ -2,7 +2,7 @@
 type: entity
 title: Apple
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-06-16
 sources: []
 tags: []
 ---
@@ -64,3 +64,6 @@ Mentioned as an example of a successful early company that started as an enginee
 - [[sources/gzXqo5YPIS4-how-to-lead-like-a-champion-keys-to-a-winner-s-mindset|How to lead like a Champion -- Keys to a winner's mindset]]: Technology company.
 - [[sources/hd9DD4t85fM-unknown|Unknown]]: Technology giant.
 - [[sources/dRBDz-flKs0-shame-and-blame-in-entrepreneurship-how-to-channel-your-rage-before-you-destroy-your-team|Shame and blame in entrepreneurship. How to channel your rage before you destroy your team.]]: Technology corporation.
+- [[sources/pg-founder-mode-founder-mode|Founder Mode]]: Technology company.
+- [[sources/pg-how-to-earn-a-billion-dollars-how-to-earn-a-billion-dollars|How to Earn a Billion Dollars]]: Technology company.
+- [[sources/pg-when-to-do-what-you-love-when-to-do-what-you-love|When To Do What You Love]]: Technology company.

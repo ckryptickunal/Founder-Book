@@ -2,7 +2,7 @@
 type: topic
 title: Networking
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-06-16
 sources: []
 tags: []
 ---
@@ -22,3 +22,4 @@ The importance of connecting with other founders during events to share insights
 - [[sources/uQWk7T9Vz_k-how-i-got-into-y-combinator|How I got into Y Combinator]]: Using unique personal skills to gain access to high-value professional circles.
 - [[sources/GctjcD17iI4-day-in-the-life-of-y-combinator-president-ceo-garry-tan-during-the-first-week-of-w24-batch|Day in the Life of Y Combinator President & CEO Garry Tan during the first week of W24 batch]]: The strategic value of building long-term, high-trust relationships with other high-performing founders.
 - [[sources/6kzNUK7GFjg-achieving-the-american-dream-through-tech-with-aarthi-sriram-aarthiandsriram|Achieving The American Dream through Tech, with Aarthi & Sriram @AarthiAndSriram]]: How to effectively reach out to industry leaders and build a professional reputation.
+- [[sources/qr6kVSKqBqo-startup-school-is-back|Startup School is back!]]: The value of connecting with peers and mentors in the startup ecosystem.

@@ -2,7 +2,7 @@
 type: entity
 title: Twitch
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-06-16
 sources: []
 tags: []
 ---
@@ -38,3 +38,4 @@ A live streaming service.
 - [[sources/lHs9hQBSoJU-how-to-run-a-user-interview-with-emmett-shear-how-to-start-a-startup-2014-lecture-16|How to Run a User Interview with Emmett Shear (How to Start a Startup 2014: Lecture 16)]]: A live streaming platform for gamers.
 - [[sources/tzsmJtKZ2No-how-to-compete-with-amazon-and-google|How To Compete With Amazon and Google]]: Live streaming platform (formerly Justin.tv).
 - [[sources/vDXkpJw16os-how-to-get-and-test-startup-ideas-michael-seibel|How to Get and Test Startup Ideas - Michael Seibel]]: A live streaming platform originally known as Justin.tv.
+- [[sources/pg-how-to-earn-a-billion-dollars-how-to-earn-a-billion-dollars|How to Earn a Billion Dollars]]: Live streaming platform.

@@ -2,7 +2,7 @@
 type: entity
 title: Jessica Livingston
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-06-16
 sources: []
 tags: []
 ---
@@ -50,3 +50,6 @@ Founding partner of Y Combinator.
 - [[sources/ywdFD0cAq2E-y-combinator-co-founder-jessica-livingston-on-the-beginnings-of-yc|Y Combinator co-founder Jessica Livingston on the beginnings of YC.]]: Co-founder of Y Combinator.
 - [[sources/oYFjKml9ptk-the-untold-stories-of-y-combinator-with-co-founder-jessica-livingston|The Untold Stories of Y Combinator with Co-Founder Jessica Livingston]]: Co-founder of Y Combinator and author of 'Founders at Work'.
 - [[sources/YV2YE0XvhOs-the-secrets-of-y-combinator-s-early-success-with-yc-co-founder-jessica-livingston|The Secrets of Y Combinator’s Early Success (with YC Co-Founder Jessica Livingston)]]: Co-founder of Y Combinator and author of 'Founders at Work'.
+- [[sources/pg-the-shape-of-the-essay-field-the-shape-of-the-essay-field|The Shape of the Essay Field]]: Founding partner of Y Combinator.
+- [[sources/pg-good-writing-good-writing|Good Writing]]: Founding partner of Y Combinator.
+- [[sources/pg-how-to-earn-a-billion-dollars-how-to-earn-a-billion-dollars|How to Earn a Billion Dollars]]: Co-founder of Y Combinator.

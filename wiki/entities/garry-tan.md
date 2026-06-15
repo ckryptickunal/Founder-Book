@@ -2,7 +2,7 @@
 type: entity
 title: Garry Tan
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-06-16
 sources: []
 tags: []
 ---
@@ -180,3 +180,4 @@ CEO of Y Combinator, co-sponsor of SB 1074, and speaker emphasizing the need for
 - [[sources/kt9ScQvTqcU-silicon-valley-is-still-for-future-billionaires-with-elad-gil-legendary-investor|Silicon Valley is still for future billionaires (with Elad Gil, legendary investor)]]: Investor and host of the show.
 - [[sources/zHZxURFgK-4-hans-tung-funded-16-unicorns-billion-dollar-war-stories-and-hard-lessons-learned|Hans Tung funded 16 unicorns: Billion dollar war stories and hard lessons learned]]: Host, investor, and former Y Combinator partner.
 - [[sources/UWwtXfaldl4-control-your-shadow-control-your-fate|Control your shadow, control your fate]]: Investor, entrepreneur, and creator of the video.
+- [[sources/B246K_G7mHU-inside-yc-s-ai-playbook|Inside YC's AI Playbook]]: President and CEO of Y Combinator.

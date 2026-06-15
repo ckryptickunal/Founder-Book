@@ -2,7 +2,7 @@
 type: entity
 title: Brex
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-06-16
 sources: []
 tags: []
 ---
@@ -26,3 +26,4 @@ A financial technology company whose founders were cited as an example of succes
 - [[sources/Nsx5RDVKZSk-why-startup-founders-should-launch-companies-sooner-than-they-think|Why Startup Founders Should Launch Companies Sooner Than They Think]]: A financial service company for startups.
 - [[sources/Th8JoIan4dg-how-to-get-and-evaluate-startup-ideas-startup-school|How to Get and Evaluate Startup Ideas | Startup School]]: Corporate credit card for startups.
 - [[sources/hyYCn_kAngI-how-to-get-your-first-customers-startup-school|How to Get Your First Customers | Startup School]]: Corporate credit card for startups
+- [[sources/mPAHvz8kW24-the-most-ai-pilled-ceo-we-know|The Most AI-Pilled CEO We Know]]: Fintech company focused on corporate cards and spend management.

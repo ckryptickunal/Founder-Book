@@ -2,7 +2,7 @@
 type: topic
 title: Entrepreneurship
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-06-16
 sources: []
 tags: []
 ---
@@ -55,3 +55,4 @@ The shift in power from investors and employers to young founders due to lower s
 - [[sources/arSef0sWobE-creating-the-impossible-foods-of-dairy-meet-eclipse-s-amazing-micelle-technology|Creating the "Impossible Foods" of Dairy -- Meet Eclipse's amazing Micelle technology]]: Strategies for breaking into new industries, including networking, cold outreach, and mission-driven focus.
 - [[sources/decDIkDbS3Q-unknown|Unknown]]: The journey of building a startup, dealing with rejection, and finding product-market fit.
 - [[sources/dmv-nooN43U-masterclass-product-market-fit-10x-faster-with-amy-jo-kim|Masterclass: Product Market Fit 10X Faster with Amy Jo Kim]]: The challenges of building a startup, including managing ego and seeking market truth.
+- [[sources/qr6kVSKqBqo-startup-school-is-back|Startup School is back!]]: The process and mindset required to found and scale a startup company.

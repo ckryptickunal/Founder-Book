@@ -2,7 +2,7 @@
 type: topic
 title: Human-Computer Interaction
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-06-16
 sources: []
 tags: []
 ---
@@ -19,3 +19,4 @@ The evolution of how humans interact with software and the potential for AI to c
 - [[sources/AUJHVtq5-XQ-the-artistry-is-actually-in-that-interface-between-the-human-and-the-technology-itself|The artistry is actually in that interface between the human and the technology itself.]]: The critical role of human intent and design in shaping technology products.
 - [[sources/GTUUVqee_yI-jessica-brillhart-immersive-director-on-vr-and-ar|Jessica Brillhart, Immersive Director, on VR and AR]]: How users relate to and interact with digital devices and virtual spaces.
 - [[sources/V979Wd1gmTU-sam-altman-the-future-of-openai-chatgpt-s-origins-and-building-ai-hardware|Sam Altman: The Future of OpenAI, ChatGPT's Origins, and Building AI Hardware]]: The evolution of interfaces from screens to persistent, proactive AI companions.
+- [[sources/sa-gpt-4o-gpt-4o|GPT-4o]]: The evolution of interfaces from text-based to natural, real-time voice and video communication.

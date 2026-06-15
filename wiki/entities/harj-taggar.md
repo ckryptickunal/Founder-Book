@@ -2,7 +2,7 @@
 type: entity
 title: Harj Taggar
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-06-16
 sources: []
 tags: []
 ---
@@ -25,3 +25,4 @@ Partner at Y Combinator and former co-founder of Triplebyte.
 - [[sources/f0tPjcgcwnQ-when-to-launch-your-startup-and-when-to-wait|When to Launch Your Startup and When to Wait]]: Partner at Y Combinator.
 - [[sources/vaRrq0qWAkQ-lessons-from-doing-yc-twice-harj-taggar|Lessons From Doing YC Twice - Harj Taggar]]: CEO and co-founder of Triplebyte, former YC partner.
 - [[sources/6WJjSvI8_E0-yc-partner-harj-taggar-s-500m-mistake-a-legendary-startup-advisor-shares-his-lessons|YC Partner Harj Taggar's $500M mistake: A legendary startup advisor shares his lessons]]: Former Y Combinator partner and co-founder of Auctomatic.
+- [[sources/2Ap1dnv-GXA-why-two-iit-engineers-turned-down-550k-jobs-to-build-a-startup|Why Two IIT Engineers Turned Down $550K Jobs To Build A Startup]]: Partner at Y Combinator.

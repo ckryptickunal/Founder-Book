@@ -2,7 +2,7 @@
 type: topic
 title: Founder Mode
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-06-16
 sources: []
 tags: []
 ---
@@ -23,3 +23,4 @@ The necessity for founders to remain hands-on with product vision and core decis
 - [[sources/bvjyaz4ZiVI-how-top-1-founders-navigate-co-founder-conflict|How Top 1% Founders Navigate Co-founder Conflict]]: The necessity for founders to stop adapting to the organization and instead shape the organization to their strengths.
 - [[sources/eBVi_sLaYsc-why-vertical-llm-agents-are-the-new-1-billion-saas-opportunities|Why Vertical LLM Agents Are The New $1 Billion SaaS Opportunities]]: A leadership style where founders are deeply involved in the technical and operational details of their product.
 - [[sources/t8co94HS6tY-how-amplitude-went-from-skeptics-to-all-in-on-ai|How Amplitude Went From Skeptics to “All In” on AI]]: The necessity of founders staying involved in the details and leading from the front even at scale.
+- [[sources/mjmswQurIU4-how-legora-went-from-yc-to-100m-arr-in-18-months|How Legora Went From YC to $100M ARR in 18 Months]]: A management style characterized by high intensity, ownership, and direct involvement in all aspects of the business.

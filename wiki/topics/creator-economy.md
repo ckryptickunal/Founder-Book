@@ -2,7 +2,7 @@
 type: topic
 title: Creator Economy
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-06-16
 sources: []
 tags: []
 ---
@@ -21,3 +21,4 @@ Using crypto to allow creators to own their content as assets and monetize them 
 - [[sources/lM3jtRAwJlM-marques-brownlee-on-building-an-audience-and-other-advice-for-creators|Marques Brownlee on Building an Audience and Other Advice for Creators]]: Monetization models, dealing with comments, and the transition from solo creator to media company.
 - [[sources/3gHUFhKSwl4-inspiring-a-million-creators-with-van-neistat-the-spirited-man|Inspiring a million creators with Van Neistat, "The Spirited Man"]]: The shift from centralized media gatekeepers to direct-to-audience monetization and distribution.
 - [[sources/dBULOo03cys-this-26-year-old-investor-funded-nadeshot-and-100-thieves-a-conversation-with-blake-robbin|This 26 year old investor funded Nadeshot and 100 Thieves: A conversation with Blake Robbins]]: The shift toward creators building businesses and the value of organic distribution.
+- [[sources/sa-sora-2-sora-2|Sora 2]]: Empowering users to participate in the creation process rather than just consuming content.

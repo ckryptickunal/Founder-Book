@@ -1,0 +1,1338 @@
+Title: Inside YC's AI Playbook
+Video ID: B246K_G7mHU
+URL: https://www.youtube.com/watch?v=B246K_G7mHU
+Channel: Y Combinator
+Published: 2026-05-27T14:00:26Z
+Duration: PT46M30S
+Views: 76966
+Likes: 1455
+Tags: YC, Y Combinator
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 1318
+
+Description:
+Building superintelligence inside a company isn't about adding AI as a feature. It's about making it the operating system the whole organization runs on. In this episode of the Lightcone, we sat down with YC's Pete Koomen to talk for the first time about how he led the effort to build YC's internal agent infrastructure from the ground up. We cover how giving agents unrestricted access to one database changed everything, the self-improving skill loops that get smarter overnight and why he thinks 
+
+============================================================
+TRANSCRIPT
+============================================================
+
+How do you build superintelligence
+inside a company? Part of the key thing
+is not to just use AI as a co-pilot.
+This is the the thing where you use it
+as the building layer for everything.
+And you need to start recording all the
+artifacts. It's like a shared
+organizational brain. It's like the
+closest thing to us being able to like
+connect our brains.
+>> If you frame this as a way for everyone
+in an organization to get better at what
+they do using the like collective skill
+and instinct of the people they work
+with, it's incredibly powerful.
+Today we have a real treat.
+Uh we have a special guest, general
+partner at YC, our partner,
+Pete Koomen. He created Optimizely,
+which was one of the first and one of
+the best ways to do AB testing for apps
+and websites. And since then, he has
+gone on to create all of our agent
+infrastructure at YC. So literally all
+of our harnesses and how we use AI
+internal to YC. Pete, welcome to the
+Light Code.
+>> Thanks, Garry. For the last few years
+since ChatGPT, YC has been funding
+mainly AI companies. And we've been
+we've gone through like many different
+like versions of advice for them about
+how to build AI-native companies that
+build like mainly AI
+products. And we've
+gone on a crazy journey with them
+learning all of this. I think a lot of
+people don't realize that internally YC
+is actually building and using a lot of
+the same stuff that we're helping our
+startups build and use themselves. And
+it's been I think a very powerful
+symbiotic relationship for us to
+actually be adopting these tools and
+like transforming our own organization,
+which was started way way pre-AI into a
+super AI-native organization ourselves.
+And Pete has really been leading the
+charge for that. And so I'm really
+excited about this episode because I've
+actually been wanting to talk publicly
+about all the stuff that we built
+internally and this is the first thing
+that we're doing it. So, Pete, perhaps
+to start off, you sort of go back to the
+beginning and like talk about like there
+was a particular like moment when we
+really started adopting these AI tools
+internally. It was really you who got us
+started down that path.
+>> Sure. I'm happy to happy to tell the
+story here and it's I like framing it
+that way because it was a project that I
+and a few engineers got started about a
+year ago, maybe a little more, but that
+has since snowballed into just a whole
+infrastructure layer that's made it
+possible for us to use AI internally at
+YC in lots of different ways. And And
+that's actually been one of the neatest
+parts about this is watching the whole
+engineering team and and many partners
+also just dive in and contribute to this
+this infrastructure layer. We started
+building our own harness inside of YC
+for kind of YC specific agents
+about a year ago. And
+uh the original impetus for the project
+was some of the work that I and a and a
+few of the software engineers at YC were
+doing with our finance team. Just for a
+bit a bit of backstory, so YC has for as
+long as it's existed, as far as I'm
+aware, run mostly on our own software.
+And this era has just given us a huge
+advantage, right? And so, with that
+context, back to this this moment, maybe
+a year ago, we were sitting down with
+the finance team talking through a set
+of tools that we were going to build for
+them uh just to help them run through
+some of their finance workflows. Booking
+journal entries, uh logging priced
+rounds, like all the sorts of things
+that that make YC run, really. I was
+seeing kind of two things at once. Like
+on one hand, uh we, you know, we had
+this sort of loop going internally,
+right? Where we'd sit down with the
+finance team, the finance team would
+describe to our software engineers how,
+you know, this complicated financial
+workflow worked and then software
+engineers would go and build some
+purpose-built software where there was a
+deterministic workflow encapsulating
+everything that they had been told and
+then hand it back to the finance team
+and so on. And it felt really
+inefficient. And then at the same time,
+this was right around the time when
+agentic tools were really agentic coding
+tools were really catching hold, right?
+And so you had uh kind of the first
+generation uh Windsurf and Cursor that
+were well-established by this point. I
+think this is right around when Claude
+Code was was introduced. It felt like
+this was giving me superpowers, right?
+Um and then kind of watching this sort
+of old classical way of building
+software in YC and then watching how I
+was doing things on my own machine, this
+it just felt like a bigger and bigger
+divide between those things. And so the
+original impetus was, "Why don't we try
+to build some tools at YC that we could
+use to run agents that would give the
+finance team control over their own
+software, right? Like remove the
+software engineers from this crazy loop
+where they have to sort of understand
+these complicated workflows and give the
+finance team the tools that they could
+use to encode their own workflows, not
+not as, you know, not as Ruby, uh but as
+as English with prompts, right?"
+>> I mean, what's interesting is like uh we
+all funded companies like maybe even
+like two or three years ago when LLMs
+were out, but like agentic coding wasn't
+the thing yet. And so the first thing
+actually was not agentic coding, it was
+LLMs for writing SQL queries.
+>> Yes.
+>> So that's what I remember from like the
+first versions of what you built was uh
+how like good it was and how basically
+it rhymed with like these other failed
+startups that we had funded like each of
+us probably funded one at some point,
+you know, here it was, it was working
+and it worked so well that non-technical
+people, uh granted very smart people
+from finance, but with no engineering
+background, could use these tools to ask
+real questions. I I really surprised,
+too, to be honest. And and so that we
+started with this kind of purpose-built
+thing for finance and then rewrote it to
+be more of a general agent loop, right?
+And it and it's this is now you see
+these all over the place now, but
+I the first kind of magical moment that
+I had was we had this agent loop and we
+had a tool registry, a shared tool
+registry for kind of YC specific tools.
+And the first tool that really was an
+unlock for me was I think a tool looking
+back that you actually built, Jared. It
+gave these agents the ability to run
+read-only SQL queries against our
+database.
+>> Right? It was two tools actually. One
+was was running queries against our
+database and the other one was the
+ability to read our model files. I
+remember I built those tools and I felt
+a little bit like I was breaking the
+rules cuz initially we started with very
+limited tools that had very
+narrowly scoped domains and I kept
+getting frustrated because they weren't
+powerful enough to do the things that I
+wanted. And so I was like, what if we
+just gave the thing like access complete
+access to the production database where
+it could just like trample on anything?
+>> [laughter]
+>> And I started to like
+surreptitiously pushed it out maybe late
+at night. And it worked. And it worked,
+yeah. It worked extremely well, right?
+>> Yeah, perhaps foreshadowing, you know,
+subsequent things like open claw where
+it turns out that like the thing that
+was hampering the world was being
+worried about security and privacy and
+all the things that could go wrong. And
+when you like worry a bit less, you're
+like, "Oh my god, these things are
+unbelievably powerful." It's it's
+another really good example of this
+weird split between I'm at work and I'm
+kind of operating in this really narrow
+box and I'm at home using Claude coder
+or whatever like open claw hermie and I
+can do anything, right? And and and
+trying to trying to narrow that gap. So
+why was this so useful? This ability to
+run SQL queries against our database. It
+sounds really simple. Well, I think this
+is where it's important to talk about
+one of the big advantages that I think
+YC had coming into this experiment uh
+which is that we run on our own software
+and all of that software sits on one
+Postgres database that has everything
+that's important to YC's world in it.
+You know, every company that we funded,
+there's a company's table, there's a
+there's a founder's table, right?
+There's tables for our financial
+transactions, there's tables for the
+notes that I leave in our little
+internal CRM, right? All of these
+functions that I think a lot of other
+companies farm out to third-party SaaS
+tools, we've built our own. And as a
+result, we have this database with every
+important piece of context that I can
+now ask questions like, "Hey, show me
+all of the investors who invested in a
+space-related company in the last four
+batches." Right? It just turns out when
+when all of that context is in one place
+with a little bit of additional
+uh information about how the schema is
+laid out, an agent can go and ask any or
+answer arbitrary questions about about
+our business.
+>> That was a magic moment for sure when I
+first saw that.
+>> Yeah. The cool thing for me is that it
+didn't just make it easier to answer
+questions, it
+dramatically increased the number of
+questions that we would ask and
+dramatically increased the the scale and
+complexity of the questions that we
+would dare to ask. Where like, you know,
+in the in the old days back when we were
+using like BI tools
+to ask to ask a question like that, you
+know, like, "What investors have
+invested like in space-related
+companies?" That would be like several
+hours of writing SQL. And so like,
+unless it was really important, you just
+wouldn't bother. It's just example of
+the you know, the this instance of
+Jevons paradox that you get when you
+remove the amount of back and forth uh
+between different teams in order to get
+a thing done, right? If if in order to
+ans- ask some kind of complex question
+about YC, I have to go and knock on on,
+you know, the data science team's door
+and wait for them to get it through, you
+know, their backlog, uh I'm just going
+to ask far fewer questions. I mean,
+there are people out there watching this
+who work in places that still use it.
+The majority of people live in that
+world still, and it's 2026, which is a
+little
+unfathomable, actually. There's a long
+way to go, I think, which is which is
+really exciting. My guess is one
+question is how do companies that live
+in that old world could
+get sort of wings to move so quickly?
+Because our the magic for us was as you
+said, everything was the context is in
+one place that made it easy. You know,
+if you think about um
+data science uh historically, one of the
+first things that the Googlers had to
+figure out was a big table, right? And
+big table was, you know, instead of
+schema you and joins, you have one big
+table that um can be map reduced. Yes.
+And so, I think that that's happening
+again, and I would argue that that's
+happening now with um
+Karpathy style knowledge LLM wikis uh
+with Gbrain.
+>> [laughter]
+>> I mean, that's what I'm seeing anyway.
+Like, you know, obviously I have I have
+an Open Claw. It has uh access to lots
+of lots of systems, and then I'm
+normalizing it to my own schema that's
+relevant to me and the things that I
+care about. And it is like
+denormalization. It's you're taking data
+and you're putting it into a format that
+uh is more or less optimized for Open
+Claw or Hermes agent. Like, that
+particular type of harness to be able to
+ask questions. And it needs retrieval,
+it needs rag, it needs graph rag, it
+needs uh you know, hybrid RRF. Like,
+there's reranking in there. Like, you
+know, all the things that everyone has
+learned about retrieval uh is now inside
+Gbrain. And then, when you give the
+agents a soul,
+and it and you give it uh the data, and
+it knows you and what you care about,
+like suddenly these things have insane
+wings. Like, I just kind of can't
+believe how it sees around corners. And
+you might ask a question, and it'll even
+you sort of interpret what your question
+was about, and like give you a thing
+that uh frankly like it would take a
+human who really knows you well
+to answer.
+Um all that's possible now. And so, you
+know, your question is like all the data
+is everywhere. My answer from like the
+Open Claw Hermes experience with G brain
+is like, yeah, you basically have to
+take that you're going to denormalize it
+and you're going to put it in a format
+that is optimized for agent retrieval
+and understanding. You could wrap it in
+an MCP, but for whatever reason I just
+like intuitively I'd be worried like
+it's still so you know, these things are
+really good at working with MCP and CLI.
+Like they're a little even better with
+CLI. It seems like you have to
+denormalize and do the big table thing,
+but you know, specifically for the
+agent. Looking back over the the last
+year and a half,
+uh it feels like we're still kind of in
+the single player era of agents where
+the harnesses that have gotten really
+popular, right? Uh Claude Code, Codex,
+Pi, Open Claw, Hermes. They're all
+designed to be used by a single human
+running on a single machine. And it
+makes a lot of sense.
+Right? Because in that environment these
+these agents can do just about anything,
+right? And they they make you incredibly
+powerful. It's it's they're a lot of fun
+to use. I think one of the big problems
+uh that I don't think has been solved
+well yet by anybody is the multiplayer
+Mhm. harness, right? It's it's enabling
+that kind of superpower but on a team or
+an organizational level, right? And and
+and that's I think
+been the interesting thing to explore
+with the infrastructure that we've built
+at YC is watching which primitives that
+we've created that have enabled
+individuals and teams to use agents. You
+asked the question about if you're
+working inside of a kind of a legacy
+organization, which is like anyone who's
+more than two years old,
+>> [laughter]
+>> uh what are the things that you can
+focus on uh in order to to help enable
+everybody at your org to use AI to to to
+more. Uh and
+we talked about kind of this common
+context layer, right? And so, a data
+warehouse where it just as much of your
+internal important context lives, it
+just turns out is extremely useful.
+There are many tools for connecting
+individual agent harnesses to uh you
+know, other MCP tools, other other
+sources of truth. But just like
+a coding agent inside a mono repo just
+tends to be much more efficient,
+watching our agents operating on our
+single database that has everything in
+one schema tells me that there's a lot
+of value at least in getting all of the
+context into one place. Having an
+internal tool registry, this is I think
+the other really important thing that we
+built. So, in the beginning, like we
+were talking about, it was just the
+whole system was really simple. It was
+like an agent loop and a simple tool
+registry and you know, a few other
+pieces, right? Like a model router
+underneath. The tool registry is where
+most of the like YC specific
+stuff lives, right? Like tool registry
+is what turns these agents into
+something that's useful at work. And we
+had like 20 tools at the beginning
+including this magical ability to query
+our SQL database, but over time teams
+have added more and more tools. Every
+time we kind of come upon some piece of
+work at YC that we think could be
+improved with an agent, we can just add
+tools and there's more than 350 today. I
+just checked, right? Every team is
+adding their own tools. You know, I can
+do things like manage my office hours.
+Our finance team can
+uh you know, can book journal entries,
+right? We can help manage the events
+that we run. Uh there's tools for all of
+the important work that we do at YC. And
+now, once these all exist in in in in
+one place, you can make them available
+to these internal agents that we built,
+but you can also make them available to
+cloud code, you know, running running on
+on on on our individual machines. So,
+those things above all, I think, were
+the important pieces that we built that
+if I were working in any other
+organization I would focus on building.
+I mean honestly inspired by what you
+guys did with tools like this idea of
+skillify in open claw and then actually
+the most important the last part of
+skillify skillify is like this meta
+skill that I made in open claw where
+it's like you just do anything in
+open claw and Hermes. Hermes actually
+already has skillify they call it
+something as like it makes skills
+automatically. But the most important
+thing I I think is actually like
+plugging into the resolver which is like
+your agents.md with like the list of
+things that the agents can do and then
+like it links to the markdown entry
+point that like lets you use a tool
+basically. And so like this thing keeps
+coming up in all these different
+contexts like cloud code has a skill.
+The skill registry in cloud code is
+actually a resolver. Our tool registry
+is actually a resolver. And then the
+weird thing that you have to do on top
+of that is actually um
+I have a meta skill called check
+resolvable that I call all the time. So
+I'm always like I do something that's
+new or different in
+uh in my agent and then after it does it
+and I like it I say skillify it and then
+it becomes basically like a tool call or
+method call and then I run check
+resolvable which is like you know look
+at all of the other skills and
+tools that exist and is it you know dry
+don't don't repeat yourself and is it
+MECE which is you know I'm embarrassed
+to say a McKinsey term for um
+the consultants use it for making really
+good slide decks mutually exclusive
+collectively exhaustive. That's like how
+you're supposed to do slides if you're a
+McKinsey consultant but it's useful
+because it's like an additional layer on
+top of don't repeat yourself dry.
+And like the models just seem to know
+what those things are and so if you have
+a dry and MECE resolver table anywhere
+it's actually like the optimal resolver.
+Like it's bad to have 10 skills that do
+all the same thing. It's good to have
+one skill or one tool that has
+parameters that then let you call them.
+So, I don't know. I think it's like this
+is like the wildest time to be alive as
+like an applied computer scientist cuz
+it's like simultaneous like discovery of
+the same useful applied concepts over
+and over again. And I wonder if like
+when people were, you know, developing
+the first versions of Unix or something
+is like discovering a stack and a
+>> heaps. It feels like we're right at that
+moment
+>> Yeah. today. Like we're just coming up
+with the new primitives for what an
+agentic system actually is. And you can
+see it in the parallel sort of
+development of like we're just trying to
+do a thing and it might be in cloud code
+or it might be in our own internal
+harness or it might be in open claw, it
+might be in Hermes. Like these things
+just keep coming back over and over
+again. Y Combinator Startup School is
+back. We're hand-selecting the most
+promising builders in the world and
+flying them out to San Francisco for
+July 25th and 26th to discuss the
+cutting edge of tech and startups. Apply
+now for your spot. Yeah, it's really
+interesting to look at how some of the
+other companies that are building this
+stuff
+have built their infrastructure because
+you see a lot of these same primitives
+in in each of them, right? Like there's
+the agent loops, there's tool
+registries, there's skill registries.
+Looking at at at the way that we're
+using skills now YC, so if you think of
+skill as a simple abstraction layer over
+tools, we have a handful of sort of
+shared skills uh that that we all have
+access to uh through this through this
+agent system. And it's been interesting
+to watch. I think you've talked about
+this where this progression of like in
+the beginning you were kind of writing
+your own system prompts and then skills
+emerged, so you started writing your own
+skills and then you would start uh meta
+prompting where you where you know,
+you'd do it again. Write a skill.
+Exactly. Improve the prompt. Yes.
+Automatically. Yeah.
+>> Yes. Seeing us kind of do the same
+progression internally where we have a
+couple skills and now we've gotten to
+the point where we have these sort of
+autonomous self-improving loops, right?
+Uh you know, and so uh
+>> Auto research from Karpathy again, you
+know, yeah. Or slash goal now in Codex.
+Like they've they've incorporated it,
+too. We have this general agent that
+every night will go and read through all
+of the agent conversations that
+employees have had and look for uh
+things it could have done better and
+pieces of context that if it had up
+front, it would have done more
+efficiently. This is Open Crow's dream
+cycle and G brain also has a dream
+cycle. This is a um
+a a skill improvement dream cycle, but
+it could also potentially um
+read all the transcripts and then write
+them back into the internal
+uh DB into the internal CRM on like what
+we know about people and companies.
+Indeed. And
+we we there are cool examples of using
+transcripts actually to make these
+skills more effective as well. One of
+the shared skills that we have uh is a
+skill that that partners at YC use to
+help our companies uh write what we call
+two sentence descriptions, right?
+Everybody here has written hundreds of
+these.
+>> We should probably explain what a two
+two sentence description actually is,
+yeah.
+>> Sure. So, a two sentence description is
+a concise way of explaining what your
+company does in natural language that
+anyone will understand and why it's
+interesting. Sounds easy, but it's
+surprisingly hard for founders to
+actually And also no one does it.
+Weirdly. Weirdly like even the most
+experienced founders like forget because
+they have perfect context.
+Interestingly, uh I now realize YC
+itself is uh a context engineering uh
+sort of process in that like people we
+would frequently teaching people, you
+have perfect context about what's going
+on in your brain, but great
+communication is replicating that same
+context in someone else's brain. And
+that's what a two sentence pitch is.
+Like what is it? Like I don't even know
+what the heck this is. And then second
+part is like, is it interesting or
+valuable? What you know, is it worth my
+time? And so that you know, when I when
+I teach two sentence pitches, that's my
+favorite way to do it. It's like, do I
+even know what the heck this is? Because
+if you don't know what it is, you can't
+even ask a question about it. It's like,
+something about computers, I guess,
+whatever. What What time is lunch again?
+And then the second part is equally
+important, which is like, if I've heard
+that you know, there are like 20
+companies. Like, there are five other
+companies in this room that do X. Like,
+and then I don't understand like why
+this is noteworthy. Like, again, I'm
+like thinking about my pastrami sandwich
+again, right? [laughter] So So the two
+sentence pitch like viscerally is
+important for founders. And it's it's a
+it's a simple kind of atomic thing that
+every partner at YC has
+practiced over and over and over again.
+I think Tom,
+uh one of the one of the partners here,
+wrote a skill that teaches an agent how
+to
+uh take some context about a company and
+can and condense that into a two
+sentence description. And so that was
+his sort of handwritten prompt or skill
+about how that was done. And one of the
+cool things that happened in the last
+month or two was that a couple of the
+other partners took a meeting that they
+had with a a group office hours they had
+with a bunch of the companies in the
+spring batch and just went through and
+had every founder try their hand at at a
+two sentence description and kind of
+gave them feedback and input. And so
+kind of the knowledge that lives in a
+partner's head about how to do this
+effectively was exchanged back and
+forth, right? And and and now lived in
+the context of of that meeting
+transcript. And handing that back to the
+agent and saying, given, you know, what
+you've learned by reading through this
+context, improve the two sentence
+description skill. And they got
+noticeably better after that. Like, this
+thing is now better than I am, I would I
+would argue at writing those. This is
+how super intelligence happens inside
+organizations. [laughter]
+I mean, this two-sentence pitch thing
+sounds like something kind of small, but
+embedded in it is actually something
+very powerful. I'm sure you guys have
+heard Jack Dorsey talk about what he's
+doing with Block. He basically is trying
+to turn Block into a mini AGI around
+helping people in the world make
+payments to one another, right? Uh and
+then this is actually
+the micro mechanism by which he's going
+to do that, right? Like you can look at
+the operation of any organization as
+the aggregate of you know, I mean, the
+two-sentence pitch at YC is that's sort
+of one of like thousands of things that
+I would argue we do for founders.
+But you know, we just walk through a
+very concrete way where someone wrote a
+prompt, used it, used a bunch more,
+other people used it, a bunch of
+artifacts came off of that around
+literally like the transcript of using
+it becomes a thing that can be used to
+meta prompt and improve in an automated
+fashion on a daily basis the operation
+of that one skill. And then suddenly
+that one skill, you just said it. That
+skill is now better than any of us
+individually
+than be you know, when before we
+actually had access to that. And so this
+is like a particular like needle pin
+prick in the fabric of like how any
+organization does things. And then how
+do you build super intelligence inside a
+company? You do that on everything you
+do. And it's not more complicated than
+that. Like you literally just compose
+everything that you do and any given
+thing that any given person can do, you
+combine that in aggregate and in this
+particular process and like you have a
+super organization. It's possible now.
+Like every single person watching this
+can do this at any company, at their own
+company, they can do it at their job. I
+mean, the interesting thing is that's
+why you should start a startup Cuz
+people are going to be trapped in
+organizations with people running
+organizations that are very powerful and
+have all these resources and all this
+capital that do not believe what we just
+said.
+>> Because they keep all the context locked
+down.
+>> Right, because it's unsafe. Unsafe. This
+is one of those things that we talk
+about um
+how to build that AI native
+organization, right? Part of the key
+thing is not to do just use AI as a
+co-pilot. I think that's very 2020
+three, four, right?
+This is the the thing where you use it
+as a really
+the the building layer for everything.
+And you need to start recording all the
+artifacts. Like people wouldn't have
+thought of a meeting recordings and this
+is one of those reasons why all these uh
+meeting recorders have been taking off.
+People have been finding them with
+coaching them on the meetings, but it's
+not just that. You could take that and
+improve all the output for you
+that you do, like writing emails,
+communication, planning. You have the
+whole context of everything. It's funny
+to say I remember the Dario essay where
+it's like there's some of the blockers
+on just the rate of progression of AI
+are not technical, they're just sort of
+like social, cultural things. Things
+kind of like a really interesting
+example. Two years ago it would have
+seemed to I just remember like it felt
+odd to just like record a meeting or
+like there was just like people trying
+to figure out what the like social
+etiquette around it was and like how
+intrusive it was. And today I just feel
+like it's almost like default assumed
+that like most meetings are being
+recorded, especially if they're on Zoom,
+but just in general like everyone
+started recording things now. It's a
+little scary, but I think if you frame
+this as a way for everyone in an
+organization to get better at what they
+do using the like collective skill and
+instinct of of the people they work
+with, it's incredibly powerful. Having a
+canonical two-sentence description skill
+is not just a way to like generate a a
+snippet of text for a a
+It's a way to help me get better at
+understanding what makes for effective
+founder communication, right? Because
+now I can tap into everything that Diana
+and Hardt and you two have learned over
+the many years you've done this job,
+which are now kind of baked into this
+skill through the conversations that
+you've had.
+>> It's like a shared organizational brain.
+Yes. It's like the the closest thing to
+us being able to like connect our
+brains, right? Yeah.
+>> It totally is, right? And I I can have
+an agent now come and I can do practice
+sessions with it, right? I can have it
+critique. Like there there are so many
+possibilities once you get all of this
+knowledge into a place where an agent
+can can work with it. It's a It's a very
+empowering thing for every human in the
+organization. There's some subtle
+interesting things around here that
+like, you know, other people might get
+wrong that like, I feel like we've
+gotten right. I mean, one of them is by
+default the agent conversation is
+actually
+globally viewable by any full-time
+employee at YC. You know, we sort of
+weren't sure about that decision. I
+mean, it felt right and it felt like
+living in the future, but it did not
+come easily. I feel like we had a lot of
+conversations about like, "Well, then
+everyone sees everything. Is that okay?"
+And like, you know, "What is not okay?"
+And then I'm glad we made the choice to
+keep it open, actually, cuz I agree.
+>> people learned how to use it from
+watching how other people used it.
+>> Yes. We used that transparency to solve
+several problems at the same time.
+One, every agent conversation, as you
+mentioned, was broadcast internally to a
+Slack channel. And anybody could join
+that Slack channel and look and learn,
+right? And I remember this is another
+kind of big unlock moment was when you
+started using it really heavily. You
+were like super creative with with the
+things you were doing with it. And a lot
+of us watched that. It was like, "Oh,
+wow. I didn't even occur to me to to
+>> to to to use it that way, right? It
+allows you to be a little more lenient
+on internal security, right? One of the
+things we talked about earlier was this
+trade-off where these agents are at
+their most powerful when they are given
+unrestricted access to lots of context,
+which runs counter to the way more most
+organizations work. It turns out that by
+defaulting to public broadcast for these
+conversations, you kind of institute a
+bit of a social control on what people
+can do with it. Uh that as we learned, I
+think has been like reasonably effective
+uh inside of this high-trust environment
+at keeping private information private.
+Yeah, what's interesting is um it it
+betrays two traits of uh truly agentic,
+like 1,000x superintelligent
+organizations that I would not have
+necessarily guessed would exist, but are
+now like must exist if you want to
+create this type of organization. You
+have to be relatively egalitarian, and
+you also have to be trust by default.
+And then neither of those things uh
+actually are most organizations in the
+world. If you're the founder of an
+organization, you actually have to have
+those at the core of what you're doing.
+And I think like that kind of
+environment honestly works best at
+startups, right? When it's a small group
+of people that are all aligned and and
+and and operating in a high-trust
+environment.
+>> The other thing you have to do is be
+willing to spend like 10 to 100,000 a
+year on tokens. But if you're willing to
+do it and you invest in the skills and
+you like actually do everything in an
+open way with your team that way, like
+basically what I realize is it allows
+you to live in 2028, right? Like what
+you spend 100,000 or a million dollars a
+year on now, it will be commonplace like
+in in 2 years, right? It'll it won't
+cost 100,000 in a year, it'll cost
+10,000, and the year after that it'll be
+like a couple hundred bucks, right? And
+everyone will do it. And we'll call it
+like this is how companies are now. So,
+basically there's a one-time time warp
+where you can leapfrog every incumbent,
+all Fortune 500s, all startups that
+exist
+by doing this. Like I'm imagining in the
+'90s, I wonder if it felt similarly when
+companies started buying computers for
+their employees.
+>> Yeah. They were probably very expensive
+and probably only certain companies
+really invested in buying these like
+expensive, flaky computer systems for
+their employees, but like what a
+superpower to have a computer when your
+competitors like don't have computers. I
+think more tactically how I've seen this
+affect uh YC has been raising the the
+floor. The floor. The floor in a sense.
+What I mean by that is that you could
+have a new employee joining and maybe
+would have taken them 6 months to ramp
+up, but with this it's sort of like they
+automatically get a lot of the context
+from the company working and they know
+how the best people on the star players
+in your organization do things
+by apprenticeship automatically with AI
+instead of uh because partner time is
+expensive or sometimes the best people
+in our org they're very busy, right? And
+you get to kind of run the simulation of
+what it's like to be like Pete when he
+does like a awesome job coaching
+founders on sales or like Gary when he's
+like talking to founders and giving very
+specific advice.
+I think it helps all the new
+new entrants in the organization just be
+a mini version of you a lot faster. One
+of the first things that I appreciated
+about being able to use a coding agent
+was that all of the dumb questions I was
+too embarrassed to ask, I had no trouble
+asking asking the agent. And it this is
+kind of that same thing but at an
+organizational level, right? You're a
+brand new employee, you're embarrassed
+to ask, you don't want to bug Harj with
+with a question and now you don't have
+to, right? You and which on that means a
+lot more questions get asked and
+answered and people ramp up much more
+quickly. After you had built all of this
+agent infrastructure at YC, it inspired
+you to write this essay "Horseless
+Carriages" that went like pretty viral
+on the internet. Maybe you can like
+explain the ideas behind horseless
+carriages. I think they're still very
+relevant now. It was a critique of a lot
+of the the AI software that I saw being
+built at the time. And
+to be totally honest, I think a lot of
+it still falls into this
+>> It's still like that. Yeah, it didn't
+change.
+>> Yes. I just saw a lot of examples of uh
+companies building software and adding
+AI features by sort of slotting a little
+bit of AI inside of a lot of software,
+right? And And the example that I used
+at the time was the the kind of email
+writer that uh the the Gmail uh
+team had had shipped. But the the real
+idea underneath was this kind of that
+the the the potential for AI is to shift
+control of software from the developer
+to the user, right? And And the the
+simple example I started with was
+basically that all of these kind of like
+AI as a little feature
+kept a bunch of prompt context about how
+the AI should do a job locked away and
+hidden from the user, which is just this
+classic example of like, well, it's the
+developer's job to figure out how all of
+this stuff should work. So, the
+developer should write that, and we
+should protect the user from that kind
+of complexity.
+>> Safetyism, I hate it.
+>> Right. And And you know, and it And it's
+just again going back to this contrast
+between watching
+the way that some of these tools work
+and what it was like to use a coding
+agent on my computer that could do
+anything, right? And feeling feeling
+like I I had superpowers. I think the
+conclusion that this essay points to is
+that as we get better at building
+AI-native software, it's going to look a
+lot more like the agent wrapping
+software deterministic tools rather than
+deterministic software wrapping an AI,
+right? And we've done our best to expose
+that to internal employees with some of
+these primitives that we built.
+Um but we have a lot we have a long way
+to go. The chat as the interface, I just
+feel something There's like I things
+going around right now about how there's
+a need to build new interface for like
+AI and what does that look like. And I
+think that just comes from people who
+haven't like touched and felt it yet.
+Chat is actually pretty good because
+like you trust the agent, you
+increasingly trust the agent to do more
+of the work, and you trust its
+decisions, and you don't actually need
+to like have too much of a UI to go in
+and like review the things it's it's
+doing. I feel like it's time for a
+just-in-time software.
+>> Yeah, basically, right? Like yes,
+occasionally you want it to present you
+like maybe you like a specific view of
+something, but
+>> And it could make the software and build
+it as a single-page JavaScript just
+purposely built for you at that moment.
+Yeah. And it could be a skill file that
+could be like called anytime you want. I
+was thinking a lot about this because I
+used to be in the camp that oh, when
+ChatGPT came out and it was 2023, that
+perhaps chat was not going to be the UI
+for all these AI applications.
+And I've definitely changed my mind.
+Part of it is that after experiencing
+all these tools, and I think the more I
+reflect upon it, why chat is probably
+the better interface is because it's the
+closest thing to human language, and
+human language and writing is basically
+the closest thing to expression of
+thinking.
+>> Mhm. So, chat is the closest stepping
+stone to clear intelligence.
+>> Yeah. So, you can't just
+put it in a box. I think it just
+constrain us too much to have a very
+specific box.
+So, that's why I thought it was like,
+okay,
+all in with chat interfaces. I used to
+be in the other camp, and it's like I
+just multi-modal. I know we've talked
+about like Telegram is not ideal, but I
+actually really Yeah, it's pretty good.
+Yeah, it's pretty good.
+>> And the voice memo, sometimes when I
+don't want to type, you just do the
+voice memo, and it's it feels like I'm
+talking to Like I can give my open claw,
+like I can give it text, I can give it
+voice, I can give it pictures of things,
+like I can give it files, like it's like
+pretty good.
+>> Yeah. I just experienced this. So, like
+January, I think the last episode we
+did, I just talked about this, like I
+spent January and through February
+building a half a million lines of code
+for a Rails app, which was Gary's list,
+and it was like, yeah, I know people
+make fun of me for like it was a blog,
+but it was like I built the blog in like
+the first week. Like I spent a month and
+a half building a full agentic framework
+that did like my own version of deep
+research and like fact-checking. But the
+thing is I built it the way I would have
+built software in 2013, the last time I
+wrote code. It was like the web 2.0
+version of this. And Claude code lets
+you do that. And what's crazy to connect
+is like I'm working like I don't know. I
+think I wrote like 40,000 lines of code
+the last 3 days just for G brain.
+And G brain is basically Gary's List
+2.0, but it's totally open source,
+right? So everything I had to write for
+agentic retrieval, everything I had to
+do for voice extraction, everything I
+had to do for fact-checking, all of that
+now exists inside G brain and I just
+gave it to my, you know, Gary's List
+team yesterday as their own open claw
+instance. And they're flying now, right?
+Like they were complaining about like I
+had made, you know, this monolithic
+writer chat interface and it was like
+full of bugs cuz I was like
+re-implementing things that open claw
+and telegram already do. And now they
+just use open and claw telegram and my
+retrieval system with like all the same
+data that I extracted it out and with
+our MCP and it's working great. Like
+basically, you know, Gary's List 2.0 the
+next rewrite thankfully is not half a
+million lines of rails code that is like
+insane to actually, you know, it's
+rigid, it's takes a long time it like
+takes like 10 times longer. You know,
+even though it was 1/100 the amount of
+time to do it like by hand, you don't
+have to do it by hand. Like that half a
+million lines of code in rails is easily
+like 10,000 lines of like typescript and
+like maybe 2,000 lines of markdown. And
+all of that is way more dynamic. Like
+you could just say like actually, for
+the second paragraph, I really like
+including a biography of like the the
+we're focusing on. And it's like I don't
+have to code that in Rails. I don't even
+have to write that into um a Ruby file
+that then gets evaled in like,
+you know, my complex eval
+infrastructure. Like, Open Claw just
+knows that, and I have an eval skill. My
+editor-in-chief can just change it on
+the fly, and I didn't touch it. Yes. And
+it's like, this is insane, actually.
+Like, this is actually the dawn of
+just-in-time software, and I can see it
+right now. The best AI software that
+I've used, whether it's inside of Wyse,
+or
+or tools that others have built,
+tend to be very small. And
+just add kind of the smallest amount of
+code ahead of time that you need in
+order to let the model shine. Mhm. And
+you can build an awful lot with that,
+right? I can write tens of thousands of
+lines of code, uh like like you're
+saying. But, the ability to start at
+this like extremely simple thing that I
+need to understand very little in order
+to use is incredibly powerful, and I
+think that's I think most software in
+the future is going to look like.
+>> talking about this earlier, but I think
+that is what Open Claw did really well.
+Like, there were like a few things that
+you want you wanted like some ability to
+give it a bit of personality. You wanted
+it to like persist and last for a long
+time, and have some concept of memory.
+And it's not like perfect, but
+that's like actually like good enough is
+like for that use case. And Claw code,
+too. Every time Boris comes and speaks
+at Wyse, he spoke with Diana uh earlier
+this week. One of One of the things that
+really stands out is how obsessed he is
+with simplicity, and with just like
+making the product as small as possible.
+My favorite example of this is is uh the
+this open-source harness called Pi,
+which is a That's what That's what Open
+Claw uses as its out-of-the-box coding
+agent. It's this beautiful piece of
+software, which is just like the
+smallest possible coding agent. You can
+use Pi to modify and extend Pi, right?
+And it's this kind of idea of like
+self-extending and self-referential
+software. It's really fascinating. And
+and you're right, Openclaw was built on
+top of that. One of the things I'm very
+curious to see is how many other sort of
+pieces of classic software emerge in
+this form as this kind of minimal thing
+that you start with uh and then use an
+agent to extend over time. I think more
+and more I mean, looking at honestly the
+benefits that we've gotten from having
+our own customizable software, I suspect
+that a lot of commercial software
+uh will come with this capability uh out
+of the box in the future. There's a
+really interesting subtle thing that I
+wanted to talk about around like what I
+learned from your essay, uh which is
+like AI can either be centralizing or
+decentralizing. And um the Google Gmail
+like I can't change the prompt thing is
+like the perfect example of that. We
+basically have a choice to be made over
+the next I don't think it's even that
+long. I think it's like 18 to 24 months.
+It might take 5 years, but um there are
+sort of two scenarios and uh what comes
+to mind is literally like the uh 1984
+Macintosh commercial by Apple
+where it's like is 2034 going to be like
+1984? And you know, the 1984 case would
+be we have centralized control, like
+there are five kings, there's only, you
+know, one of them maybe wins. They have
+the most advanced AI. They have uh end
+run around all compute and power. They
+have all the space data centers cuz they
+could you can't build any terrestrial
+data centers in America anyway. There's
+this like centralization of control. And
+not only that, they don't let you run
+your own prompts.
+Like they literally do the Gmail thing,
+but like for your whole computing
+existence, right? And this would be as
+if like personal computers never existed
+and there were only mainframes and
+minicomputers. Like this is sort of lost
+to the sands of time, but you know, in
+the 1960s and '70s when computers first
+came out, like you couldn't go to the
+store like you can today. You couldn't
+go to an Apple store and just buy
+an iPhone, let alone uh a Mac. You had
+to get access to like this thing that
+was worth like hundreds of thousands of
+dollars to millions of dollars. And the
+only
+>> was like And it was like tightly locked
+down by corporate policies. You're
+right. And the And the thing that really
+spurred the computing revolution was
+when people started having personal
+computers that they could experiment on.
+Yeah. And just like the priesthood,
+right? There was a small priesthood and
+an institutional base that controlled
+capital, literally the means of
+production. And so, you know, this is
+like a coherent future that we could
+live in that I don't want to live in.
+And the alternative to that is actually
+uh embedded in the Homebrew Computer
+Club. It's embedded in the revolution
+that Steve Jobs and Steve Wozniak gave
+us when they were in the garage in
+Mountain View, literally soldering
+together breadboards. And they like sold
+500 of these Apple Ones. And I think
+we're at the Apple One moment right now.
+We are coming up with the primitives. We
+are learning
+how do these things work and how do we
+sell it and how do we package it? Uh but
+then there's like a lot of choices right
+now, right? Like most people, the mass
+you know, a billion users use ChatGPT.
+And ChatGPT like gives you a little
+access.
+But MCP is really locked down. You
+actually, you know, can't hook things up
+to your own databases that easily. Um
+and you know, for what? Safety? Like I
+would argue Claude is like a little bit
+more open, but not really. Perplexity is
+probably the best version of it, but
+it's still like you know, pretty limited
+compared to what you could do with Open
+Claude and Hermes Agent.
+And so, what does the uh revolution look
+like that is like the true personal AI
+moment? And that's what I hope that we
+are building with things like G Brain
+and you know, Hermes Agent and Open
+Claude. Like the ability to run your own
+software,
+to change your own prompts, to test all
+of it, to have your own private repo
+that like you know is only yours, to be
+able to choose which model to use, and
+maybe it's an open weight model. Like to
+me that's sort of the white pill for AI
+is we could have corporate control, no
+control of your own prompts, and like
+literally the AI happens to you.
+You know, you're under the API line. Or
+like there's this other alternative
+where I want like a billion people
+to actually control
+and program for themselves what are
+these things. This should be an
+extension of yourself and what you care
+about, not what, you know, Meta or
+Alphabet or even OpenAI or Anthropic
+care about. I always really bristle when
+I see AI framed as a way to replace
+people because it just doesn't match the
+way that I have experienced it and the
+way that so many of the people around me
+have experienced it, not as a
+replacement for humans, but as a thing
+that empowers. If you look at at at kind
+of how tech has developed since the era
+of of mainframes to PCs to the internet
+which gave everyone like a publishing
+platform like it's it's a story overall
+above all of individual empowerment and
+I think AI is going to play out the same
+way. I think it is going to enable us to
+do more than we could before. I think
+it's going to eliminate kind of the
+drudgery style work that like made a lot
+of my job painful in the past. To me
+it's like we have to make choices to do
+so. By default like a company is not
+open. By default a company is command
+and control. By default maybe the
+leadership gets access to these tools,
+but like the, you know, line level
+people, the staff people don't, right?
+And like we need like a radically
+different type of organization and we
+need to actually offer computing in a
+different way and these are all choices
+and the people who are watching are
+going to be the people who build all
+these things in society. So,
+we better choose well.
+>> [music]
+>> Well, that's all the time we have for
+today. I mean, I think we covered some
+pretty heavy stuff, but Pete, thanks for
+joining us. Thank you. Thank you. Thanks
+for watching, guys. We'll see you guys
+on the next one.

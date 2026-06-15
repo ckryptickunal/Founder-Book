@@ -2,7 +2,7 @@
 type: topic
 title: Intellectual Honesty
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-06-16
 sources: []
 tags: []
 ---
@@ -21,3 +21,4 @@ The practice of engaging with the substance of an argument rather than attacking
 - [[sources/pg-persuade-xor-discover-persuade-xor-discover|Persuade xor Discover]]: The danger of self-deception when prioritizing audience approval over clarity.
 - [[sources/6uqEsTIKg5k-for-founders-it-s-critical-to-be-honest-with-yourself|For founders, it's critical to be honest with yourself.]]: The practice of acknowledging one's own limitations and seeking out dissenting opinions to improve decision-making.
 - [[sources/jNJQTIUyT9Y-how-to-go-from-startup-dream-to-reality|How To Go From Startup Dream To Reality]]: The practice of seeking out smart, independent thinkers to challenge one's own assumptions.
+- [[sources/pg-the-best-essay-the-best-essay|The Best Essay]]: The necessity of being strict with one's own writing to identify false assumptions and reach deeper truths.

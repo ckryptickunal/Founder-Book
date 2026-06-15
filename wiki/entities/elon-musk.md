@@ -2,7 +2,7 @@
 type: entity
 title: Elon Musk
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-06-16
 sources: []
 tags: []
 ---
@@ -42,3 +42,4 @@ Entrepreneur, mentioned as someone whose essays Verun read, inspiring his startu
 - [[sources/vVnDE8wSrVo-what-would-elon-musk-work-on-if-he-were-22|What Would Elon Musk Work On If He Were 22?]]: Entrepreneur and CEO of companies like Tesla and SpaceX.
 - [[sources/vHMZImnBQBw-don-t-aspire-to-glory-aspire-to-be-useful|Don't aspire to glory. Aspire to be useful.]]: CEO of Tesla and SpaceX
 - [[sources/cRDOj4EZ9qo-the-elon-musk-of-baseball-how-startups-hit-grand-slams|The Elon Musk of Baseball: How Startups Hit Grand Slams]]: Entrepreneur behind SpaceX and Tesla.
+- [[sources/pg-the-origins-of-wokeness-the-origins-of-wokeness|The Origins of Wokeness]]: CEO of Tesla, SpaceX, and owner of X (formerly Twitter).

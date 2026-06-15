@@ -2,7 +2,7 @@
 type: entity
 title: Airbnb
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-06-16
 sources: []
 tags: []
 ---
@@ -122,3 +122,5 @@ Online marketplace for lodging, mentioned as a platform that needs identity veri
 - [[sources/x5YApjnTG10-i-funded-coinbase-in-2012-making-6000x-on-my-best-startup-investment-yet|I funded Coinbase in 2012. Making 6000x on my best startup investment yet]]: Hospitality and travel marketplace.
 - [[sources/viNZK9P40kY-unknown|Unknown]]: Online marketplace for lodging and tourism.
 - [[sources/zHZxURFgK-4-hans-tung-funded-16-unicorns-billion-dollar-war-stories-and-hard-lessons-learned|Hans Tung funded 16 unicorns: Billion dollar war stories and hard lessons learned]]: Online marketplace for lodging.
+- [[sources/pg-founder-mode-founder-mode|Founder Mode]]: Hospitality company.
+- [[sources/pg-how-to-earn-a-billion-dollars-how-to-earn-a-billion-dollars|How to Earn a Billion Dollars]]: Hospitality company.

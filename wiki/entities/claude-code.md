@@ -2,7 +2,7 @@
 type: entity
 title: Claude Code
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-06-16
 sources: []
 tags: []
 ---
@@ -28,3 +28,4 @@ An AI coding agent mentioned as a tool that Mnemonic integrates with and improve
 - [[sources/rWUWfj_PqmM-the-new-way-to-build-a-startup|The New Way To Build A Startup]]: AI coding assistant used by Anthropic engineers to automate development tasks.
 - [[sources/qwmmWzPnhog-we-re-all-addicted-to-claude-code|We're All Addicted To Claude Code]]: A CLI-based coding agent by Anthropic.
 - [[sources/wkv2ifxPpF8-how-to-make-claude-code-your-ai-engineering-team|How to Make Claude Code Your AI Engineering Team]]: An AI coding agent by Anthropic.
+- [[sources/B246K_G7mHU-inside-yc-s-ai-playbook|Inside YC's AI Playbook]]: An AI-powered coding agent.

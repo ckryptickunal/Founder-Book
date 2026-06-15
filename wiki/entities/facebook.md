@@ -2,7 +2,7 @@
 type: entity
 title: Facebook
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-06-16
 sources: []
 tags: []
 ---
@@ -97,3 +97,5 @@ Acquired Sofa in 2011 to address a shortage of designers relative to engineers, 
 - [[sources/weQTRHu1Cq4-learning-vs-earning-how-to-earn|Learning vs Earning: How to Earn]]: Social media and technology conglomerate.
 - [[sources/6WJjSvI8_E0-yc-partner-harj-taggar-s-500m-mistake-a-legendary-startup-advisor-shares-his-lessons|YC Partner Harj Taggar's $500M mistake: A legendary startup advisor shares his lessons]]: Social media giant.
 - [[sources/GknGzw0Nqpw-why-i-started-a-vc-firm-too-much-money-chasing-too-few-good-people-and-ideas-is-totally-wr|Why I started a VC firm- "Too much money chasing too few good people and ideas" is totally wrong]]: Big tech company.
+- [[sources/pg-how-to-earn-a-billion-dollars-how-to-earn-a-billion-dollars|How to Earn a Billion Dollars]]: Social media company.
+- [[sources/pg-when-to-do-what-you-love-when-to-do-what-you-love|When To Do What You Love]]: Social media company.

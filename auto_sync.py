@@ -320,6 +320,7 @@ def sync_youtube(cfg: dict, state: dict, opts) -> int:
         if not new_ids:
             log(f"{name}: up to date (0 new).")
             st["last_sync"] = now_iso()
+            st.pop("pending_video_ids", None)  # nothing missing → clear stale queue
             continue
 
         log(f"{name}: {len(new_ids)} new video(s) discovered.")
@@ -330,8 +331,16 @@ def sync_youtube(cfg: dict, state: dict, opts) -> int:
 
         if have_tor:
             extract_new_videos(ch["folder"], new_ids)
+            # Reconcile: anything now on disk or marked skipped is done; only
+            # genuinely still-missing IDs (e.g. blocked) stay queued.
+            still_missing = sorted(set(new_ids) - known_ids_for_folder(folder))
             st["last_sync"] = now_iso()
             st["last_new"] = len(new_ids)
+            st["extracted"] = len(new_ids) - len(still_missing)
+            if still_missing:
+                st["pending_video_ids"] = still_missing
+            else:
+                st.pop("pending_video_ids", None)
         else:
             # Leave a queue file so the next Tor-up run extracts them.
             st["pending_video_ids"] = sorted(set(st.get("pending_video_ids", [])) | set(new_ids))

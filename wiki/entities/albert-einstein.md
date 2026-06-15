@@ -2,7 +2,7 @@
 type: entity
 title: Albert Einstein
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-06-16
 sources: []
 tags: []
 ---
@@ -22,3 +22,4 @@ Renowned physicist used as an example of someone whose value lies in his new ide
 - [[sources/pg-what-you-ll-wish-you-d-known-what-you-ll-wish-you-d-known|What You'll Wish You'd Known]]: Theoretical physicist.
 - [[sources/sa-technology-predictions-technology-predictions|Technology predictions]]: Theoretical physicist
 - [[sources/sa-you-and-your-research-by-richard-hamming-you-and-your-research-by-richard-hamming|You and Your Research, by Richard Hamming]]: Theoretical physicist.
+- [[sources/pg-how-to-do-great-work-how-to-do-great-work|How to Do Great Work]]: Physicist known for his theory of relativity.

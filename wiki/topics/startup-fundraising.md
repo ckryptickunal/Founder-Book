@@ -2,7 +2,7 @@
 type: topic
 title: Startup Fundraising
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-06-16
 sources: []
 tags: []
 ---
@@ -37,3 +37,4 @@ The challenges of securing follow-on investment and the dangers of relying on it
 - [[sources/wpuFP-tBME4-acquire-skills-no-one-else-has|Acquire skills no one else has!]]: The criteria investors use to evaluate founders, focusing on capability over credentials.
 - [[sources/8pG6golMHPo-i-said-the-wrong-thing-and-suddenly-our-series-a-pitch-meeting-was-over|I said the wrong thing and suddenly our Series A pitch meeting was over]]: The dynamics of pitch meetings and how investors evaluate business models.
 - [[sources/wAjeS1Dh8Lw-underrated-but-unbeatable-a-275m-healthcare-startup-success|Underrated but Unbeatable: A $275M healthcare startup success]]: The emotional and logistical challenges of securing venture capital for high-risk, high-reward medical startups.
+- [[sources/mjmswQurIU4-how-legora-went-from-yc-to-100m-arr-in-18-months|How Legora Went From YC to $100M ARR in 18 Months]]: The process of leveraging YC's network and signaling to secure venture capital.

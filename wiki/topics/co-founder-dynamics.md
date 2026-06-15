@@ -2,7 +2,7 @@
 type: topic
 title: Co-founder Dynamics
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-06-16
 sources: []
 tags: []
 ---
@@ -36,3 +36,4 @@ The unique aspects of a married co-founder relationship, including communication
 - [[sources/qvHhhIfu7Lo-ron-conway-at-startup-school-sv-2014|Ron Conway at Startup School SV 2014]]: The importance of finding a partner who shares the same level of conviction and passion.
 - [[sources/zZkNs_G5Sck-navigating-co-founder-relationships-is-a-journey-that-takes-self-examination-and-discovery|Navigating co-founder relationships is a journey that takes self examination and discovery.]]: The psychological and interpersonal challenges inherent in building a company with a partner.
 - [[sources/YV2YE0XvhOs-the-secrets-of-y-combinator-s-early-success-with-yc-co-founder-jessica-livingston|The Secrets of Y Combinator’s Early Success (with YC Co-Founder Jessica Livingston)]]: The necessity of having complementary skills and shared moral compasses in a founding team.
+- [[sources/ObBAxL2dFzw-groww-if-your-customers-don-t-love-it-or-hate-it-you-ve-already-lost|Groww: If Your Customers Don't Love It or Hate It, You've Already Lost]]: The necessity of aligned values and clear ownership structures for long-term success.

@@ -2,7 +2,7 @@
 type: entity
 title: Y Combinator
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-06-16
 sources: []
 tags: []
 ---
@@ -888,3 +888,21 @@ Startup accelerator, where Franis is a visiting partner and Ian Fischer's previo
 - [[sources/eLelgy5zRv4-learn-earn-or-quit-my-job-career-advice-for-2022|LEARN, EARN or QUIT | My job/career advice for 2022]]: Startup accelerator.
 - [[sources/lm3lfZza1ro-flexport-ceo-ryan-petersen-on-scaling-a-startup-from-zero-to-8b|Flexport CEO Ryan Petersen on Scaling a Startup from Zero to $8B]]: Startup accelerator.
 - [[sources/x5YApjnTG10-i-funded-coinbase-in-2012-making-6000x-on-my-best-startup-investment-yet|I funded Coinbase in 2012. Making 6000x on my best startup investment yet]]: Startup accelerator.
+- [[sources/pg-how-to-start-google-how-to-start-google|How to Start Google]]: A startup accelerator that has funded over 4000 startups.
+- [[sources/pg-founder-mode-founder-mode|Founder Mode]]: Startup accelerator.
+- [[sources/pg-superlinear-returns-superlinear-returns|Superlinear Returns]]: Startup accelerator.
+- [[sources/pg-how-to-earn-a-billion-dollars-how-to-earn-a-billion-dollars|How to Earn a Billion Dollars]]: Startup accelerator and investment firm.
+- [[sources/pg-the-reddits-the-reddits|The Reddits]]: Startup accelerator.
+- [[sources/pg-the-best-essay-the-best-essay|The Best Essay]]: Startup accelerator.
+- [[sources/ywS7Ytkx3A0-we-just-launched-paxel|We just launched Paxel!]]: A startup accelerator that provides funding and support to early-stage companies.
+- [[sources/qr6kVSKqBqo-startup-school-is-back|Startup School is back!]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/gSNFJbgoaHI-how-to-build-an-ai-native-services-company|How to Build an AI-Native Services Company]]: A startup accelerator that provides seed funding and guidance to early-stage companies.
+- [[sources/49L8lVe_PVo-how-meesho-became-india-s-biggest-shopping-app|How Meesho Became India’s Biggest Shopping App]]: Startup accelerator that hosted the interview.
+- [[sources/ObBAxL2dFzw-groww-if-your-customers-don-t-love-it-or-hate-it-you-ve-already-lost|Groww: If Your Customers Don't Love It or Hate It, You've Already Lost]]: Startup accelerator.
+- [[sources/fQmlML9Lay4-conductor-ceo-charlie-holtz-walks-us-through-his-ai-coding-setup|Conductor CEO Charlie Holtz Walks Us Through His AI Coding Setup]]: Startup accelerator.
+- [[sources/2Ap1dnv-GXA-why-two-iit-engineers-turned-down-550k-jobs-to-build-a-startup|Why Two IIT Engineers Turned Down $550K Jobs To Build A Startup]]: Startup accelerator.
+- [[sources/yyXCQHX55N4-emergent-how-six-months-of-tinkering-led-to-a-100m-arr-company|Emergent: How Six Months of Tinkering Led To A $100M ARR Company]]: Startup accelerator.
+- [[sources/mPAHvz8kW24-the-most-ai-pilled-ceo-we-know|The Most AI-Pilled CEO We Know]]: Startup accelerator and host of the podcast.
+- [[sources/wE1ZgJdt4uM-inference-diffusion-world-models-and-more-yc-paper-club|Inference, Diffusion, World Models, and More | YC Paper Club]]: Startup accelerator hosting the Paper Club.
+- [[sources/mjmswQurIU4-how-legora-went-from-yc-to-100m-arr-in-18-months|How Legora Went From YC to $100M ARR in 18 Months]]: Startup accelerator.
+- [[sources/B246K_G7mHU-inside-yc-s-ai-playbook|Inside YC's AI Playbook]]: Startup accelerator and venture capital firm.

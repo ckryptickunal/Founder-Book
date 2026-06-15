@@ -2,7 +2,7 @@
 type: topic
 title: Scaling Laws
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-06-16
 sources: []
 tags: []
 ---
@@ -26,3 +26,4 @@ The principle that increasing compute and data leads to more performant AI model
 - [[sources/oOylEw3tPQ8-cursor-ceo-going-beyond-code-superintelligent-ai-agents-and-why-taste-still-matters|Cursor CEO: Going Beyond Code, Superintelligent AI Agents, And Why Taste Still Matters]]: The predictable improvement of AI models through increased data and compute.
 - [[sources/p8Jx4qvDoSo-scaling-and-the-road-to-human-level-ai-anthropic-co-founder-jared-kaplan|Scaling and the Road to Human-Level AI | Anthropic Co-founder Jared Kaplan]]: The empirical observation that AI performance improves predictably with increased compute and data.
 - [[sources/xXCBz_8hM9w-how-to-build-the-future-sam-altman|How To Build The Future: Sam Altman]]: The observation that neural networks consistently improve with increased scale and data.
+- [[sources/wE1ZgJdt4uM-inference-diffusion-world-models-and-more-yc-paper-club|Inference, Diffusion, World Models, and More | YC Paper Club]]: Mathematical relationships describing how model performance improves with compute, data, and parameter count.

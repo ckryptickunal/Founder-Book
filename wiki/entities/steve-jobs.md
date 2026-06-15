@@ -2,7 +2,7 @@
 type: entity
 title: Steve Jobs
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-06-16
 sources: []
 tags: []
 ---
@@ -48,3 +48,5 @@ Co-founder of Apple.
 - [[sources/JbHip4tjEcg-do-it-yourself-here-s-how-real-movements-start-then-change-the-world|Do It Yourself. Here's how REAL movements start, then change the world.]]: Co-founder of Apple.
 - [[sources/gzXqo5YPIS4-how-to-lead-like-a-champion-keys-to-a-winner-s-mindset|How to lead like a Champion -- Keys to a winner's mindset]]: Co-founder of Apple.
 - [[sources/dRBDz-flKs0-shame-and-blame-in-entrepreneurship-how-to-channel-your-rage-before-you-destroy-your-team|Shame and blame in entrepreneurship. How to channel your rage before you destroy your team.]]: Co-founder and former CEO of Apple.
+- [[sources/pg-how-to-start-google-how-to-start-google|How to Start Google]]: Co-founder of Apple.
+- [[sources/pg-founder-mode-founder-mode|Founder Mode]]: Co-founder of Apple.

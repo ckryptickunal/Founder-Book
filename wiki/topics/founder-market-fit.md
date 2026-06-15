@@ -2,7 +2,7 @@
 type: topic
 title: Founder-Market Fit
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-06-16
 sources: []
 tags: []
 ---
@@ -23,3 +23,4 @@ The importance of John Glasgow's extensive background in corporate finance in pr
 - [[sources/Th8JoIan4dg-how-to-get-and-evaluate-startup-ideas-startup-school|How to Get and Evaluate Startup Ideas | Startup School]]: The alignment between a founder's unique expertise/background and the specific problem they are solving.
 - [[sources/TANaRNMbYgk-how-to-get-ai-startup-ideas|How To Get AI Startup Ideas]]: The importance of having unique, deep experience in a domain before attempting to build a startup in that space.
 - [[sources/zHZxURFgK-4-hans-tung-funded-16-unicorns-billion-dollar-war-stories-and-hard-lessons-learned|Hans Tung funded 16 unicorns: Billion dollar war stories and hard lessons learned]]: The alignment between a founder's unique skills/passions and the specific market they are attacking.
+- [[sources/pg-the-reddits-the-reddits|The Reddits]]: The alignment between a founder's personal traits and the nature of the company they build.

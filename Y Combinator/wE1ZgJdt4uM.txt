@@ -1,0 +1,1913 @@
+Title: Inference, Diffusion, World Models, and More | YC Paper Club
+Video ID: wE1ZgJdt4uM
+URL: https://www.youtube.com/watch?v=wE1ZgJdt4uM
+Channel: Y Combinator
+Published: 2026-05-28T20:37:13Z
+Duration: PT1H7M19S
+Views: 101721
+Likes: 3693
+Tags: YC, Y Combinator
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 1886
+
+Description:
+Even if you’re a current PhD student, it's hard to keep up with the latest AI research. That's why we started YC Paper Club, a small group of researchers, engineers, and founders who will meet every two weeks this summer to present and discuss new papers together.
+
+This was from our very first discussion group on May 20th, 2026, at the YC office in Mountain View, CA.
+
+Thanks to the following presenters:
+
+0:12 - Intro from YC Visiting Partner Francois Chaubard
+3:49 - Tanishq Kumar — Speculative S
+
+============================================================
+TRANSCRIPT
+============================================================
+
+[music]
+All right. [music] Hello everyone.
+How you guys doing? Welcome to the first
+ever YC paper club. This is like a very
+exciting thing. [applause]
+Absolutely thrilled with the response.
+We had over a thousand folks that
+applied to come in. It was a very hard
+selection. If you guys have friends that
+didn't make the cut, I'm very sorry.
+We're we kind of we need to keep it to
+about a hundred. Um and so we selected a
+very very cool group. Um
+the mission is to create this kind of
+community of great founders and great
+researchers and try to pull them
+together. I guess just for you guys to
+get a sense for how cool the people in
+this room are. Um, raise your hand if
+you have at least five citations,
+10 citations,
+a 100 citations,
+a thousand citations.
+Wow, this is insane. Okay, 10,000
+citations. Oh my god. Okay. All right.
+This is awesome. I I would go up to
+300,000, but I think it's like Chris
+Manning and that's about it. Um, so, uh,
+raise your hand if you've raised at
+least a million dollars.
+Raise your hand if you've re raised at
+least $5 million.
+At least $10 million,
+at least $50 million.
+We still got one. We still got two over
+here. All right. [laughter] Okay.
+Awesome. The hidden mission that I'll
+also kind of add on this is we had uh
+Har and I had um this uh awesome uh
+breakfast in uh Woodside and this place
+is so so unique and special and we kind
+of just don't use it enough at YC. So
+the hidden mission is to make Pioneer
+great again. And so I went through
+winter 16 here. Um it was an
+unbelievable time. I think 140 companies
+went through that batch. 10 of 15 of
+them are unicorns. It's an insane
+number. um WPY, uh Astronis, um Deep
+Graham, all these companies were in the
+batch and during that time uh Sam was
+still running the show and basically
+sitting right there would be me,
+Undercarpathy, Vaj Deremba and Greg
+Brockman because they were starting this
+thing called OpenAI and it was like the
+very early stages and there was like not
+that many AI companies. So they would
+ask me and Steve from Debb like what are
+you guys what are you working on? What
+are the problems you're working on? and
+they're looking for problems because
+they didn't even know what to research.
+And so it was such a such a special
+time. This place is so special uh to to
+me in particular uh to Har as well. And
+we just it's it we don't really use it
+enough. So I wanted um to kind of make
+this community down here. And I also
+think that 100% of the AI talent or AI
+people in the Bay Area, probably about
+half of them are in the city maybe is a
+good number. There's anthropic, uh
+there's open AI, there's cursor, there's
+all this stuff in the city. Then there's
+a lot that are down here that are not
+making the trek up to the city to join
+YC. And so he's like, "Yes,
+emphatically, yes." Um, and so you have
+Google DeepMind right on the corner. You
+have um Tesla, you have XAI, you have
+Thinking Machines, you have all these
+other people in Palo Alto, you have a
+lot of startups. And so uh I wanted to
+kind of like solve six birds with one
+stone and kind of pull together this
+community down here as well. And Harj uh
+uh is super excited about it as well.
+And so thank you very much Har for
+letting us do this. We got uh five great
+papers here coming up. The first one is
+Tanishk Speculative Speculative
+Decoding. You want to come up?
+All right.
+Do you want me to pull it on? Yeah, I
+got you.
+Cool.
+I know it uh looks like maybe I was
+sloppy and I added an extra word in the
+title, but uh it is intentional um and
+it'll make sense in uh good time. Um my
+name is Tanishk. I'm a grad student at
+Stanford. Um, this is a project I worked
+on with Triau and Aar May. I'm going to
+be evangelizing inference for people
+today. Hopefully, you'll be inference
+enjoyers by the end. So, I'm not sure
+how much I have to motivate inference. I
+worked on training before inference. And
+I sort of the sort of mental model I had
+in mind for how inference works was you
+know you do this beautiful craftsmanship
+during the training process and you get
+these like you know very intricate
+weights and then you kind of just hand
+it off and use them to generate tokens.
+In my mind it's sort of like you have
+the weights just multiply the matrices
+it's why do you need a team for it? Um I
+was very confused but there is in fact a
+lot of subtlety involved. Um it's a lot
+of fun the algorithms and systems behind
+inference at scale. I'm not sure I need
+to spend too long talking about why
+inference is important. Um there is one
+point I want to make that I don't hear
+people talk about enough. So things you
+may have heard are that inference costs
+are high. They dominate training costs
+when you're serving a model for billions
+of users or you know 10 claud code power
+users. That's trillions of tokens. Um,
+not only are inference costs dominating
+training costs, but even within
+training, RL is starting to exceed the
+compute requirements of pre-training.
+And what is RL but a wrapper on
+inference, right? So, these are two
+things you've probably heard before. The
+third is one I fear isn't really talked
+about, but it's the reason that I
+started working on inference, and I use
+the phrase working on inference lightly.
+This was the only inference project I've
+ever done. Um, but the the reason I got
+interested in making inference fast was
+not because of cost or for convenience.
+It was entirely because of capability.
+So the claim I'm going to make and maybe
+this is the one thing to take away from
+the message I'm trying to send in this
+talk is that inference today is seen as
+a sort of like cost or convenience
+lever. But uh in one two or 3 years
+inference is going to be seen as a
+capability. And what I mean by that is
+that if you have a method, an algorithm,
+a system where its performance scales
+with the amount of thinking it does,
+then fundamentally the speed at which
+you can do inference, the tokens per
+second is exactly the peak intelligence
+that you can deliver.
+So inference should be thought of as not
+so much as a a cost or or convenience
+factor, but as a capability. Um, and
+that's why I got interested in it. I I
+wanted to work towards the future where
+we have an entire data data center of
+20,000 B200s just working on the reman
+hypothesis. Um okay, yes, that's the
+future that uh I had in mind. Perhaps
+this meme is a little outdated because
+it has an A100 on it, but uh yeah. Okay.
+So to motivate things, here is an
+example of fast inference. So I'm going
+to give you a little demo of uh three
+algorithms side by side. We're going to
+sample, you know, a code prompt from VLM
+with just normal auto reggressive
+decoding. We're going to use their
+speculative decoding. And then I'm going
+to put next to it the sort of janky
+handrolled inference engine I wrote over
+a summer for this project. Um, whose
+main strength is just that it implements
+a new algorithm and so you can see them
+side by side. SSDs on the right and you
+can see it is quite a bit faster than
+what you can get if you try to use an
+open source engine. Um, and it's not the
+systems, it's it's the algorithm. Um so
+yeah that's what we want to work towards
+understanding both how speculative
+decoding works as well as the algorithm
+on the right.
+Okay. Um I'll start by introducing what
+speculative decoding is how it works and
+then we'll move into what speculative
+speculative decoding is. I hope that if
+you have like a reasonably strong
+understanding of how speculative
+decoding works the the problem that SSD
+is trying to solve will feel very
+motivated and and the algorithm should
+just become clear in good time.
+Okay, so this is the schematic I'm going
+to use to explain how vanilla
+speculative decoding works. Um, it has a
+small model, the tiny llama up top, as
+well as a big model, the big llama. And
+our goal is simply to sample fast from
+the big llama. We want tokens generated
+from the big model. And we're going to
+use a small model as a sort of proxy or
+an instrument to be able to sample
+quickly from the big model. Okay. So,
+what the draft is going to be
+responsible for is basically generating
+a bunch of tokens one by one. One by one
+is important. It's auto reggressive. So
+you need to do three forward passes on
+the draft or you know however many some
+constant number. Um and these are going
+to be guesses for what the draft
+believes that the big model is going to
+output next. It wants to sort of predict
+ahead of time. The job that the big
+model has, I'm going to call it the
+target model, is verifying these
+guesses. What does verification mean?
+Verification means doing one forward
+pass over these generated tokens to see
+how likely it is that the big model
+would have generated them. The sort of
+key asymmetry here, the reason that
+speculation works is that it is easier
+to verify than to generate. This is a
+feature of the transformer architecture
+where you can get the probabilities for
+many tokens in a sequence in parallel in
+one forward pass. Um but you can't
+generate them in parallel. auto
+reggressive decoding as uh one at a
+time. Um so we're leaving the auto
+reggressive decoding which is slow uh to
+a very quick and small model and then
+we're doing just one forward pass on
+these tokens. And the way you verify
+tokens is basically by having the big
+model look at the probabilities of each
+of the generated tokens and see how
+plausible it is that it would have
+generated those tokens. And sort of the
+intuition here is that we will accept
+precisely those tokens that the big
+model could plausibly have generated.
+Its probabilities were reasonably high.
+There subtleties in exactly what the
+algorithm is um that I'm going to gloss
+over, but that's the way to think about
+it. Um and then we're going to find a
+point perhaps where we don't think it's
+plausible the big model would have
+generated those tokens and we're going
+to reject those tokens. So in the little
+schematic on the right uh there the
+draft samples three and the big model
+verifies them and concludes that only
+the first token was something it would
+plausibly have generated. It will reject
+the second token onwards and importantly
+this is a sort of critical but subtle
+detail of vanilla specular decoding
+because you have the probabilities at
+each of the sequence positions. You can
+sample an extra token at the point at
+which you rejected a token for free as
+in without doing any more forward
+passes. And so that yellow token is what
+I'm going to call a bonus token that you
+sample for free. This is going to be
+important in SSD. Um, so yeah, that's uh
+that's an important conceptual point.
+And
+this sort of sets the stage for how SSD
+works. Okay, we have our schematic.
+And the way we've set up speculative
+decoding is that it's a way to exchange
+flops for latency. So speculation in
+general is not actually something that
+uh only LLMs do. It's like a a deep idea
+in computer science. It's used in CPUs
+as well where the general philosophy is
+that you premputee something ahead of
+time. Some of what you premputee may be
+useless because it may be an incorrect
+prediction of the future, but if you're
+right, you get to fast forward in time
+um and you get lower latency as a
+result. So the the sort of like moral
+philosophy of speculative decoding is
+that it's currency exchange. The
+difficulty with normal speculative
+decoding is that you can't push this
+arbitrarily far. You cannot keep
+sampling more and more tokens on the
+draft and keep getting speed ups because
+at some point you're going to get to a
+point where you're spending a lot of
+time drafting and you're not accepting
+all that many tokens. And in particular,
+like a big bottleneck in vanilla
+speculative decoding is the sequential
+dependence between the small llama and
+the big llama. Um the drafting in round
+t has to take place before the
+verification of those tokens. um and the
+drafting in round t+1 can't take place
+before you know the outcome of
+verification of the previous round
+because you need that as a prefix to
+draft on top of. So there's a logical
+dependency here. The goal of SSD is very
+simple. There's a lot of gnarly and
+subtle details but the highle idea is
+incredibly simple. It is simply to
+parallelize this sequential operation.
+We want drafting and verification to be
+happening at the same time.
+Normally in speculation they happen on
+the same hardware and that's fine
+because there's only one of them
+happening at a time. In our setup
+they're going to be happening at the
+same time. So we're not going to be
+collocating them. And the main question
+basically becomes how do you parallelize
+this inherently sequential algorithm
+that has a logical dependency. Um and
+the way we're going to do that is we are
+going to have the draft model send back
+its draft tokens in a certain round. So
+we've sent back a bunch of blue tokens.
+That's now the job of the verifier to do
+a forward passover and verify. And this
+is going to take a while because a
+verifier is a big model. What we on the
+draft are going to do is basically start
+anticipating the most likely
+verification outcomes immediately.
+As soon as we send back like a certain
+round of speculation and once we we have
+in mind some of the most likely
+verification outcomes, we are going to
+start drafting the next round on top of
+those immediately while verification is
+taking place. If we're right, the next
+time the verifier asks for a draft,
+we'll have it ready immediately. We're
+entirely hiding the latency of drafting.
+If we're wrong, well, we'll have to
+figure out a backup strategy. And
+there's uh there's there's there's some
+subtleties on what you do and how you do
+it there. Um so yeah, the way that
+speculative decoding looks like this.
+And perhaps unsurprisingly, the analog
+for SSD is this diagram on the right.
+We're now drafting and verification
+happen in parallel. um the the principal
+difficulty or algorithmic design space
+in SSD is how do you predict
+verification outcomes ahead of time. I
+thought verification is where you are
+leveraging the intelligence of the big
+model that should by construction be
+difficult to predict. Um and the
+intuition for why it's plausible at all
+is that you can make many guesses on the
+draft for what a verification outcome
+is. And a verification outcome here is
+just you know a plausible number of
+accepted tokens and then a bonus token
+on top of that. Now this is hard to
+predict because a bonus token comes from
+a vocabulary which has size you know
+tens to hundreds of thousands. Um so
+it's a large space to cover um but it
+turns out you can do it well um
+reasonably well. You can get it right
+about 80 to 90% of the time which is
+more than enough to get big speed ups.
+And the way we do that, the short of it
+is basically we use information on the
+draft to predict what the verification
+outcome is likely to be. When we
+generated the blue tokens on the draft,
+we had other tokens that we chose not to
+sample. Those other tokens are plausible
+verification bonus token candidates. And
+so you basically use information from
+the token distributions of the draft
+model to predict what likely outcomes on
+the target are. And then once you have
+all of these predictions, you can decode
+them in parallel as just different
+sequences that you're decoding on top of
+a shared prefix. And voila, it uh it's
+it gives you speedups because you get to
+hide the latency of drafting altogether.
+Um there's also a an additional bonus
+that since verification actually kind of
+takes a while, you get more time to
+draft uh in the first place. So you can
+draft more tokens which increases the
+expected tokens per round and sort of
+gives you further speed ups. There's a
+bunch of stuff that we work through in
+the paper that's uh that's sort of
+reckoning with the the implementation
+details of this. One of it is how you
+handle cache misses. One plausible thing
+you could do perhaps naively is to just
+fall back to ordinary speculation just
+in time. Turns out that actually this is
+not always optimal. Um there's
+trade-offs. You know, as batch size
+increases, you're going to fail to
+predict some of the sequences
+verification outcomes. Um and so you
+need different ways to predict and
+handle cache misses. Should you be
+allocating your compute on the draft
+equally amongst plausible
+prefix length? Uh the short answer is
+no. You can be clever about it. And all
+of this trickery just helps you increase
+your cash hit rate, so to speak, the
+amount of time you're able to correctly
+predict verification outcomes. And
+there's there's some trade-offs between
+cash hit rate and the actual quality of
+the drafting you're doing. Um and this
+is totally non-obvious. Um, and and and
+we we go into why that exists and how
+you can navigate it in the paper. Um,
+I'm happy to talk about it in in in Q&A
+as well. Um, okay. So, what do you get
+for the the price of this uh
+mind-numbing
+complexity and uh pain wrangling an
+inference engine? Well, you get the
+privilege of watching a number go up,
+which I guess is the north star of all
+AI research. And so here we have uh a
+bunch of inference algorithms and
+inference engines. The blue ones are
+sort of uh my inference engine and uh
+the light blue is just the baseline
+implementation of speculative decoding.
+The red is SG lang which is you know of
+all the inference engines we tried the
+fastest with speculative decoding and
+the dark blue is is SSD. Um and normally
+speculative decoding um is a is a win
+for latency but it's sort of unclear
+whether it's useful for throughput. um
+for us it turn in in in this setting
+it's actually a win for both um and so
+you get numbers going up and you also
+get the ability next time you are at a
+San Francisco house party um to see
+other people dancing and knowing in the
+corner that uh you know what it takes to
+sample at 300 tokens per second uh for
+llama 370B on 4H100s. So this is uh
+sensitive information um but yeah that's
+that's about it. YOU. [applause]
+[applause]
+All right, that was awesome. Okay, so
+for this next paper,
+this is um my first experience being
+scooped. The only issue is that he
+didn't talk to me and he did it six
+months before me. Um [laughter]
+but uh Isaac can vouch for me on this
+and maybe Robert as well. I basically
+fell in love with the diffusion policy
+paper. I was like this is definitely
+like you know a full uh predicting like
+th horizon steps for your robotic
+control. Um we have these amazing video
+models. Why don't we just use the video
+model to like run this like at test time
+to like play out the movie and where do
+I end up? And then you have your classic
+push t. And then I started like looking
+around uh and then DM mind of course
+already did it. So [laughter]
+so I wasted like a month and it was not
+happy. But anyway, thank you very much.
+Please welcome Stannis.
+>> Hi everyone. I'm Stannis. I'm a star
+research scientist at Google DeepMind.
+Uh currently I'm co-leading a new
+project on word modeling for robotics.
+uh where we try to build general purpose
+policies on top of video and word
+models. But uh this is an early work
+that I did about two years ago. Uh so
+this is before I switched to working on
+hardcore robotics and uh going into
+hardware really scaling up the data but
+uh you can probably see a lot of very
+similar ideas early version of ideas
+demonstrated on toy problems. Okay. So
+uh first to give some background what is
+the model predictive control. So model
+predictive control also called the
+receding horizon control uses a dynamics
+model or some people also call it a word
+model and uh action selector mechanism
+uh which is a planner to construct
+agents that can solve a wide variety of
+tasks by means of maximizing a no
+objective. So the main advantages of
+model predictive control is uh it can
+adapt to normal reward functions at test
+time. So uh the dynamics model are also
+easier to learn and generates better
+than just policies and the action
+proposal dynamics model factorization
+also allows easy adaptation to normal
+dynamics. So we're going to uh
+demonstrate some of these in later
+experiments but basically here we are
+showing the overall idea which is
+extremely simple. We have a action
+proposal which proposes a sequence of
+actions. We have a dynamics model which
+can evolve these actions and give you
+the future states. And uh finally we
+have some objective functions that we
+are trying to optimize. We basically use
+a planner to optimize that and uh pick
+the actions and execute it in the
+environment. So what is diffusion model
+operative control? So the motivation
+mainly is uh uh there are a couple of
+problems we need to address in order to
+make MPC effective in practice. One the
+dynamics model need to be accurate to
+avoid the problem of compounding errors
+and uh two the planning algorithm also
+needs to be powerful enough to select a
+good sequence of actions. So with DMPC
+what we did is to use diffusion models
+to learn both multi-step action
+proposals and multi-step uh dynamics
+models. So the advantages are mainly to
+reduce compounding errors and we also
+found that uh it can simplify the
+planning algorithm. Essentially we can
+just use a very simple uh sampling based
+planner and we can already outperform a
+lot of the previous uh approaches. So uh
+before we dive into the details also
+want to give a hierarchical view of some
+related works we organized. So there are
+a lot of related works in the literature
+and uh we organize it uh uh in this way
+where we basically look at how different
+approaches um so basically all
+approaches essentially try to build a
+joint uh distribution of the states and
+the actions but they do it in different
+ways and also use the different
+components in different ways. So for
+example, you can build it in a
+factorized way where you have row a
+which is your policy predicting the
+actions and then collision on the action
+predict the state which is a dynamics
+model and uh for this you have the dynam
+paradigm where you basically learn a
+model and use the model to also generate
+data in the imagination and the learn
+policy. But uh you can also do MPC uh
+where you uh essentially use a planner
+to select the actions and uh we also
+have uh some uh uh there are also
+approaches where you build a joint model
+of the state and actions and you're
+essentially also doing MPC and there are
+also model free approaches where you
+directly learn a policy. uh I won't dive
+into the full details but uh uh there
+are basically different trade-offs in
+terms of runtime plan uh whether we can
+do runtime planning and uh adapting to
+normal rewards and adapting to normal
+dynamics leveraging non-expert data and
+also the uh general speed at runtime and
+there is also the distinction between
+whether you're doing singlestep modeling
+or multi-step modeling.
+Okay. So coming to diffusion model,
+diffusion model has enjoyed a lot of
+successes uh in uh generating AI
+especially for generating images and
+videos. But uh in recent years they also
+found a lot of successes in robotics. So
+currently uh so here I'm also showing a
+slide where uh this is a kind of the
+exploration space for uh diffusion based
+uh I would calling diffusion based
+agents. So we of course start with the
+diffusion policy where we condition all
+the observation and generate future
+actions. But then we also have this work
+called the diffuser which uh is uh you
+can think of it as a way to joint
+jointly model uh observations and states
+but in toy space. There are of course
+these ideas are explored in tons of
+different papers but this is just a very
+simple and uh uh conceptual way to
+describe it. And uh then there's also
+decision diffuser where we collision on
+the observations we directly generate
+future uh we condition on the history
+directly generate future observations
+and then try a separate inverse dynamics
+model to derive the actions and uh
+finally we have the diffusion model
+predictive control where we first have
+an action proposal to propose future
+actions and use a dynamics model to
+evolve it and uh then use planner to
+select the actions. There are different
+uh trade-offs among these. So for
+example, diffusion policy is sort of on
+complex uh complex control like
+day-to-day we still rely on it a lot.
+But this requires expert demonstrations.
+So essentially you can't move out of the
+behavior cloning paradigm. Uh for
+diffuser it's a jointly modeling state
+and action. So it has implicit word
+modeling and also model based planning.
+And this is actually something that we
+are trying to explore at scale similar
+ideas. But uh and then there's also uh
+decision diffuser where you do
+observation only learning. The main
+benefit of this is it allows you to
+leverage uh uh video only data to learn
+from video only data because for
+robotics uh the data is a many
+bottleneck. And then finally there's a
+division MPC which allows us to do
+runtime adaptation to normal rewards and
+normal dynamics. So what does the
+algorithm look like? It actually is
+extremely simple. We have uh often data
+set and uh we have uh some
+hyperparameters. Essentially we are
+learning a couple of u uh learning a
+couple of models all from the offline
+data sets. We're learning a policy which
+u uh given the current observation
+predicts the actions. We're learning a
+dynamics model which uh given the uh
+given the actions uh evolves the
+observations to predict the future
+states. And uh uh basically after
+learning all this at uh um at uh
+inference time when we actually deploy
+it as a policy we uh sampled action
+proposal and score it uh rank it and uh
+pick the best. But uh the main
+difference uh compared to previous
+approaches is uh we adopted a multi-step
+action proposal which uh is uh
+essentially very similar to a diffusion
+policy but if you train on more diverse
+data it can give you uh more coverage in
+terms of the action space and uh we are
+also using a multi-step
+um uh dynamics model which uh allows you
+to uh evolve for a long time horizon
+without a lot of compounding error. And
+uh this allows us uh to and also uh
+there's a fact that we leverage
+diffusion model which is a really
+powerful way to model data especially
+multimodel data and uh uh what we
+observed empirically is the uh stronger
+modeling uh capabilities also allows us
+uh to uh simplify the planning algorithm
+so that we can just use such a simple uh
+planner to do to solve the task. tasks.
+Yeah. Um also contrasting with a few of
+the representative uh uh path works uh
+including uh model based offline control
+offline planning and this diffuser work
+which I mentioned it learns a joint
+model and uses a classifier free
+guidance for planning.
+Okay. Uh so yeah next to dive into some
+uh results uh there are lots of numbers
+but the short answer is uh we obtain
+very competitive results in fixed reward
+single task setups. This is just to
+demonstrate that uh uh the approach uh
+when you deploy it in uh single reward
+uh fixed reward single task setup it can
+perform competitively to the current
+state-of-the-art uh previous
+state-of-the-art approaches. But uh I
+think uh there are a couple of uh more
+interesting uh properties of DMPC. One
+is it can adapt to no rewards at
+runtime. Here we are showing some uh
+examples where uh essentially we train
+the model to uh these are very simple
+modulo tasks but we train the model to
+just uh local motion tasks run forward
+and jump etc. But uh at inference time
+we can just by changing the reward
+function to uh make it uh exhibit uh
+novel behaviors like uh jumping etc. So
+uh here's another example where we show
+that uh uh DMPC can adapt to novel
+dynamics while uh this kind of uh joint
+modeling approaches struggle. This is
+really the benefit of the factorization
+of the action proposal and the dynamics
+model. So the here the idea is uh we can
+keep the action proposal the same but uh
+we uh we have uh scenarios where the
+dynamics of the environment changed. So
+for example the walker has a broken left
+ankle and as a result when it starts to
+execute actions the consequence of the
+actions change. So in such cases because
+of the factorized representation in DMPC
+we can uh simply just adapt the dynamics
+model on some play data collected in the
+new environment and uh we observe that
+we can recover a lot of the performance
+because of the changing dynamics.
+Finally, we dug into the various
+components of uh the DMPC design and we
+demonstrated that uh the different
+components in DMPC basically contributed
+to improved performance. Uh this uh
+these include uh the diffusion active
+proposals, action proposals, improve
+performance and simplify the planning.
+We do multi-step diffusion action
+proposals and the the fact that we do
+multi-step also uh contributes to
+improved performance and finally
+multi-step dynamics modeling also uh
+contributes to improved performance.
+Uh that's it.
+[applause]
+All right. And that was the last Google
+Deep Mind paper that they're going to
+publish. So, good luck out there. Um,
+this next one is one of my lab mates
+that I work with a lot that is the most
+world model pled person
+that I know. [laughter]
+And so, I can't imagine, you know,
+anyone else presenting this paper other
+than Yan Lun himself. Um, [laughter]
+Isaac Ward. There you go. Thanks a lot.
+>> All right, guys. Is Is that a good
+distance? You all can hear me at the
+back. Cool. Cool. Yeah, I'm enjoying a
+uh a cool little period in life where I
+started working on world models a couple
+years ago, kind of before they got
+really hot and now they're enjoying a
+moment in the sun and suddenly everyone
+wants to talk to me which is nice. I'm
+presenting lay world model which is a
+call out of course out of Yan Lacun's
+group. Uh QR code here if you want to
+follow along with the project page, but
+I'll explain through it and yeah, really
+excited to talk to you about this one.
+Uh hidden in this presentation is really
+like a billion-dollar question and it's
+not hyperbole. uh Yan Lakun's raise of
+$1.03 billion dollars back in March
+basically just to train world models is
+sort of what this presentation is about.
+I want to get at some of the questions
+that they're going to be testing. First
+five slides here just going to do some
+basics on world models. I think we've
+all heard the term but I want to just
+make sure we're all on the same page and
+then we'll jump into uh what this paper
+is really uh offering and what it means
+for world models at large. But first of
+all, world models, what are they? Why do
+we care about them? So really it's about
+learning the dynamics of the world,
+which is to say we're trying to come up
+with some model Typically, we're using
+like a big neural network to predict how
+a system will change over time based on
+its inputs. So, you have your current
+state or scenario using S for notation
+here. You're playing some action, maybe
+that's like a movement or a command for
+a robot, um, or a language command for a
+robot, and then you're trying to predict
+like what its outcome is going to be,
+like what scenario will it end up in
+once it's executed that action. So,
+you're really trying to model the system
+or the environment that the robot is in,
+modeling the world. It's a world model.
+Uh, these kinds of models are really
+cool. They enable a few really
+interesting capabilities. One of them is
+generating imagined outcomes. We've
+probably all seen like the sort of weird
+kind of um hallucinity uh imagination
+sequences coming out of world models
+over the last couple years. We'll talk
+more about those and why they're useful.
+Uh this allows us to get to model based
+control. I'm glad Stannis kind of
+explained that in the last talk for me,
+so I'll skip over it. Um and the last
+piece is really cool. Surprise
+quantification. Uh I'll get to that
+later. Um but a really powerful
+capability of world models. I wanted to
+communicate to you all that this is not
+a new idea at all. It's really just kind
+of new advertising or packaging on an
+old idea. So I started going back
+through Google Scholar and this is a
+paper that I think is older than the
+average age of this room. Um from
+Europe's 1990 and of course Richard S.
+Sutton who we know from reinforcement
+learning basically describes exactly a
+modern world model a black box that
+takes as input its situation and its
+action that it's going to execute and
+outputs a prediction of its immediate
+next situation. So really really old
+idea and uh that's the flyer from
+Europe's 1990.
+Great. Right. So, getting a little bit
+more explicit um and changing the
+notation from state to observation just
+because in real world systems, we
+typically don't have access to the exact
+true state. We typically have some
+observation from sensors. This is just
+an example that I pulled up from some
+world models that we're training on a
+quadrotor. So, as an example, the
+observation that the quadrotor gets
+might be its current kinematic state,
+position, velocity, this kind of thing.
+In addition to the images that it's
+taken from a forward- facing camera, the
+action might be a control input, in this
+case a yaw, and move back to the left.
+And then we want to make a prediction
+that says well if you do that action
+you're going to end up slightly back in
+the room and looking to the left. And we
+actually want to generate what the
+sensor um would result uh in in this
+case. So highly uh dimensional
+observations images uh and also LAR and
+things like that are completely on the
+table in world models. Uh they're really
+challenging because action sequences can
+be quite long. Um and the really big
+thing is that the minimum in the
+optimization landscape for these kinds
+of models may not correspond to the
+desired behavior. And more on that
+later. Um, but hopefully you'll agree
+that if you have trained a system that's
+capable of doing this thing, it must
+have an internal model of the world. And
+imbuing agents with an internal model of
+the world, um, is potentially a very
+useful capability. And that really is
+the big question. Are we going to have
+model free or model based policies? Are
+our agents going to have an internal
+model of the world or are they not? And
+this is sort of being fought out right
+now both in the research community and
+in like the startup community. So on the
+left, model free. The idea is you're
+taking some observations, you're feeding
+this into some kind of big neural
+network potentially with a bunch of
+interesting learning tricks there, but
+you're getting some optimal action out.
+So, it's just mapping between
+observation and some optimal action. But
+at no point is there an explicit
+representation of what the future might
+look like if you execute that action.
+These kinds of models are pretty good.
+There is growing evidence to show that
+internal to these neural networks are
+highly obuscated and challenging to
+interpret world models uh sort of in the
+in the weights. uh I'll talk about a
+paper very briefly that's um speaks to
+that and maybe someone can present on it
+in a future week. And then over on the
+um other side, model based approaches,
+right? So now we're saying we're going
+to train this world model up explicitly
+and actually use that in our policy to
+be able to explicitly predict the
+outcome of potential actions. So yeah,
+totally like two different species of
+policies. The model free stuff, some of
+the weaknesses is they show a little bit
+of brittleleness to out of distribution.
+Um, model based ones are great because
+you can kind of quantify modeling error
+and this is really important when you're
+deploying things in the real world. Uh,
+we'll talk a little bit about this. I
+have a little asterisk here, some
+biological precedent which we'll speak
+to more. Um, and you have to have this
+additional mechanism of course which is
+a downside where you actually need to
+propose action candidates to evaluate
+with the world model um, which Stannis
+spoke to in the previous talk. This is a
+great paper. But I just wanted to chuck
+this in there uh which talks about how
+even model free base policies do have
+world models in them and a really really
+cool paper that hopefully can be
+presented in a future week. Uh just to
+make it concrete before we jump into the
+paper I wanted to just bring a little
+toy here just to show you what this
+looks like. So of course went to push t
+like all good researchers do and in push
+t we basically just have an image of a
+little blue ball agent and you're trying
+to push the blue tea into the green
+slot. uh the state is comprised the
+observation is comprised of that image
+plus the 2D position of the endeector
+and the 2D action of where you're going
+to move the endector. So you can make a
+little architecture that looks like
+this. I just whipped this up. Couple
+hundred thousand parameters and um oh
+let's play this. So if that's the actual
+roll out, this is what the model thinks
+the action sequence is going to do. So
+you can see it's a little bit wobbly
+because it's a tiny model, but we can
+certainly train up models of these kinds
+of toy environments and indeed more
+complex ones. So what are the challenges
+associated with training this kind of
+model? Well, one is you're trying to
+learn the representation of the world.
+So how you're going to compactly
+represent those highly dimensional
+images or LAR inputs or highly
+dimensional sensor inputs at the same
+time as you're trying to learn how
+actions change that representation. So
+you're co-learning representation and
+dynamics. And there are many solutions
+in the optimization landscape that will
+essentially just cause you to do
+nothing. So for example a a local min
+minima in the optimization landscape is
+to say well every state is just the same
+it's a trivial collapse basically um and
+there are many techniques in the
+literature to say how can you avoid
+these so there are solutions of a
+variety different kinds that basically
+say there a way to avoid the collapse
+associated with training world models
+and that's really where the world model
+comes in. It says, well, instead of
+having to use some manner of trick or
+like special method or a bunch of like
+hyperparameter tuning schedule, we're
+instead going to really drastically
+simplify this and go for a more elegant
+method. So, if you know a little bit
+about world models, there's some popular
+ones in the top right here. This is a
+figure straight out of the paper. So,
+PLDM is planning in with latent dynamic
+models, dino, dino, um, distillation
+with no labels, world model, dreamer out
+of deep mind, and then temporal
+difference MPC as the final one. So, in
+some way, shape or form, I'll explain
+this. they use some kind of trick or um
+like challenging to configure design to
+get away with uh this collapse to avoid
+this collapse and the world models
+coming in and saying basically we can do
+this with sort of one hyperparameter and
+one loss term which I'll talk about
+there's really no time to go through all
+the different tricks that different
+world model approaches use because it
+really is the wild west out there right
+now so many different methods but they
+basically fall into one of these three
+categories so one is you could do some
+explicit heristic that stops collapse by
+like enforcing some special um
+healthiness in like the latent space of
+your embeddings. Um the language trick
+is maybe a bit unfair here, but it's
+what's used in the paper. Uh you could
+use some foundational methods. So you
+could take some like existing
+autoenccoder or diffusion model or video
+model and use that as a basis for your
+world model and add an action
+conditioning element in there. Um or you
+could use some privilege data that may
+not be usually available to the model
+outside of train time uh to be able to
+avoid collapse. and lay well model even
+though it says that it's doing something
+very different I really think uh it's
+just offering a new kind of trick uh
+which I'll talk about here so jer is
+joint embedding predictive architecture
+it's sort of yan lakun's main work and
+lay world model is a kind of jepper
+model uh basically the way it works is
+you're going to take an autoenccoder um
+or I should say an image encoder uh
+encode this observation in this case
+it's of a robot doing a push cube task
+that's going to turn that image into a
+latent vector in the latent space of
+this encoder uh you're going to train an
+action condition forecasting module this
+predictor to be able to predict what is
+the next latent embedding going to look
+like when I execute this action. So not
+what the next image is going to look
+like but what's the next latent going to
+look like and you can use the decoder
+attached to that encoder to decode that
+back out into a useful image. But for
+the most part all the interesting work
+is going to be done in the latent space.
+And basically what they say is over a
+batch all of those latent embeddings uh
+should be in a healthy distribution
+which they describe as a gausian
+distributed uh distribution in in the
+latent space and thus enters the sigg
+regularizer which is the sort of new
+term they add. So sigg for sketching as
+in uh doing one-dimensional passes over
+a high dimensional data. Um I for
+isotropic so this should look the same
+when you slice it in any direction and g
+for gaus and distributed cigar. So
+basically you're taking all of these
+embeddings of your different predictions
+doing a one-dimensional slice over each
+direction like in that highdimensional
+space and then you want each of the
+curves across those slices to be gausian
+distributed and if that's true then your
+um distribution in the latent space must
+be very healthy. Uh so the idea is you
+can quite cheaply evaluate how gausian
+distributed your embeddings are and thus
+how healthy your world model is and how
+non-olapsing it is. So essentially I
+just say instead of training up on the
+normal predict the next uh latent you
+add on this additional sigg term. So I'd
+argue that basically this paper is just
+um providing a very elegant kind of
+regularization. And to finish off I'll
+just talk about three capabilities that
+you get from this. So one is the
+openloop prediction quality. This is
+what world models do. So you feed in
+like the context this push t at the top
+and you can see the top row is the real
+example. The bottom is the imagined and
+they look about the same. This is good.
+It means your world model is really good
+at predicting what your next action is
+going to do. They do that on push t and
+then on a slightly um like a 3D analog
+task like a push cube. This is all
+great. I love seeing these um these
+plots. Um but really what matters is how
+does this actually affect the policy
+like for the actual task completion. How
+is this useful? Um and that sort of
+brings us into how you can use these
+models for model predictive control.
+Basically you take your initial
+observation and a goal observation. I
+put an asterisk there because how often
+do you have a goal observation in a
+robotics task? Like you don't always
+know exactly the situation that you want
+to end up in. But in this case, that's
+how they frame it. So they say, you
+know, the world looks like this right
+now. I want the world to look like this.
+You encode both of those. And then
+you're basically doing a search over the
+actions that will get you in the latent
+space from this starting point to this
+ending point. And there are well-
+definfined optimization methods to um to
+achieve that. It works pretty well. I'll
+make it um make it simple. The world
+model is better than the competition on
+these like small 2D tasks. As soon as
+you go to 3D, Dino World model wins. It
+does have a big foundational backbone
+trained on that kind of image data. So
+you'd expect it to um to win. Um they
+run on a really simple environment
+called two room and kind of say you know
+we don't do so well on this but that's
+because we're promoting like really high
+dimensional healthy embeddings and it's
+a very low dimensional problem. I'm not
+sure if I'd truly go for that. Um but a
+good takeway is that it's about 50 times
+faster than any of the competition
+across the board because it's doing all
+this work in the latent space and it
+doesn't have to have any like additional
+tricks relating to more forward passes
+or like having two copies of the model
+in memory. And uh you can actually boot
+this thing up on like a single card,
+less than 24 gigabytes of VRAM and it's
+only 15 million parameters. So that is
+pretty nice. Final piece, this is what I
+think is a really cool capability of
+world models. Um you can quantify the
+model error. So basically they just come
+up with some trajectories that kind of
+screw with the world model. So the top
+one is going from left to right. That's
+time. Uh so that's just like a nominal
+example. Everything's normal. Then they
+take the same example, but they change
+the color of the tea. And then they take
+the same example, but they just teleport
+the tea into a different location. And
+this is really cool because you can
+actually see the moment they apply those
+perturbations, you get a spike in the
+model error and this is detectable which
+is to say world model enabled agents can
+quantify how poor their predictions are.
+They have good estimates of their
+uncertainty. This is really powerful.
+Model freebased approaches don't
+natively give you this stuff.
+This is my last slide. Um a few
+discussion points and broader themes
+maybe we can chat about here. Obviously,
+you know, are we going to go with model
+based? Are we going to go with model
+free? Um what's going to be the best way
+to enable intelligent agents to do
+interesting things in the world?
+regularization and representation
+learning. Um, in this paper they are
+co-learning the representation of the
+world that the agent has and the
+dynamics of the world. Should this be
+separated? Can we take some bio
+inspiration? Should we use pre-existing
+um like foundation models and stuff like
+that? And then finally, how can we fight
+uh representational collapse elegantly?
+I think this work does a really great
+job of that, but the question is still
+out on what the best way to do it is. So
+um that's my talk. Thanks very much for
+your attention. [applause]
+All right.
+Okay.
+So, for the next two,
+um, we're kind of focusing on, um, less
+world model stuff and more heady, high
+level stuff that I think is pretty
+interesting. Um, this is a a paper
+that's going to be presented by Ashe,
+one of the YC uh, startups here named
+QABs. and your co-founder president.
+You're president of QABs. Is that right?
+>> Okay. Welcome Ashe.
+[applause]
+>> Hey everybody. Today I'm going to be
+talking through Andrew Gordon Wilson's
+paper uh deep learning is not so
+mysterious or different. Uh we actually
+work with Andrew on the generalization
+problem at Q Labs. So I'm really excited
+for more people to know about his work.
+The current state of machine learning is
+that we know that scaling that scaling
+models leads to better generalization.
+But we don't have a mechanistic
+understanding of why that is the case.
+Um yeah, if we can understand general
+generalization, then we might be able to
+optimize for it as well. So the payoff
+to understanding it is actually really
+really large. Um when you talk to people
+in the field, they often explain that
+generalization is a mystery and they
+point to examples like
+overparameterization,
+benign overfitting and and double
+descent as reasons why we might not be
+able to understand generalization at
+all. So Andrew's work here basically
+dispels those mysteries by using
+classical theories of generalization uh
+which which have to date not really been
+used to explain things like like
+overparameterization thus far. So the
+first classical theory that we'll go
+through is uh pack bay. So pack bay
+basically bounds the test loss which is
+the generalization. This is the quantity
+that we care about with a training loss
+and a compression term. Um the thing is
+in the past when people overparameterize
+models this compression term tends to
+dominate and so in practice these bounds
+become loose and vacuous meaning that we
+can't use them for anything at all. This
+was basically due to a mislication of
+the bound. You can compute the the
+compression term in an alternative way
+as we'll get into sort of later in the
+talk here. So let's go through the first
+mystery that uh Andrew goes through in
+his paper. Um the the mystery that he
+talks about is overparameterization. And
+this is basically the idea that as you
+scale up the the model parameter size
+from the bias various variance
+trade-off, you would expect that you
+might overfit. But in practice, we see
+the opposite. The scaling laws tell us
+that we actually get better
+generalization. Um the the the scaling
+and the better generalization from
+overparameterization is is is due to
+like the the the massive gains in model
+capability over the last couple of
+years. But we still don't really
+understand why it impro why it improves
+generalization.
+So the packbased framework gives us a
+pretty useful way to think about the
+success of over par parameterization.
+The first is with empirical risk.
+Empirical risk is basically training
+loss. When you increase the number of
+parameters you can fit your data better.
+Um so the empirical risk the left uh the
+first term goes down.
+And Andrew's work also finds that when
+we increase the model, when we increase
+the number of parameters, um we also
+find more compressible solutions. So
+this is work by Lotfi at all at all and
+they develop methods to basically
+compress the uh yeah they compress the
+the training set you and and and the
+model and they basically find a negative
+correlation between the the bits
+required to encode the training set and
+the number of parameters. Um and so we
+find that as we increase the model size
+we can find more efficient encodings of
+the training set. So the the second term
+in this bound also gets lower.
+Another perspective on this model
+compressibility point is a perspective
+of flatness. As you increase the number
+of parameters, it turns out that the
+number of the volume of flat minima in
+parameter space exponentially increases.
+This is the green region and uh and
+comparatively the the volume of sharp
+minima increases much less and uh this
+is interesting and this is useful the
+compressibility view because flat minima
+are known to be more compressible than
+sharp minima and so overparameterization
+fits within existing theories and
+through Andrew's work we actually see
+useful bounds on generalization even for
+models at at like a billion parameter
+scale and so we go to the next so-called
+mystery of deep learning which is called
+uh benign overfitting which Andrew also
+dispels in or at least partially
+explains in his paper. So the idea of
+benign overfitting is that deep neural
+networks are able to fit totally random
+noise but at the same time they are able
+to to to generalize well when you have
+structured data. The mystery is how can
+you have an inductive bias that allows
+you to generalize well if you can also
+fit totally random data. I think a
+regularized polomial model um in
+Andrew's paper gives us pretty good
+intuition for how this might be the
+case. Here you can see that on random
+data, so section C of the figure that we
+have enough parameters to fit the data
+and so we we can we can fit the totally
+random data. But on structured data, the
+the regularization pushes us to use the
+lower order terms. And so we are able to
+both get the flexibility but also have
+inductive bias that allows us to
+generalize. And generally this is this
+is the view to take um for for neural
+networks like there are expressive
+models with a soft inductive bias. Um we
+can go through this concept um just
+using this figure right here. So uh on
+the left hand side we have an example of
+of what's like a flexible hypothesis
+space. And a flexible hypothesis space
+would allow you to fit the data that you
+have. But the problem is that you would
+almost certainly overfit if you if you
+um if you do not have a bias towards one
+solution over the other. But on the
+other hand, if you have an inductive
+bias, you would solve this overfitting
+problem, but instead you wouldn't you
+wouldn't be able to model all of the
+details of reality. Um and so the middle
+ground is to have a very expressive
+hypothesis space, but also have a bias
+towards solutions that might generalize.
+For example, in the pack bay framework,
+we might want to bias towards more
+compressible models if we can. And so we
+see that uh deep learning so-called
+mysteries are actually consistent and
+partially explained by existing theories
+such as soft inductive biases and pack
+bays.
+And sort of the thing I want to leave
+you with is that um if if we can find
+the right inductive biases building on
+these theories, we might be able to
+optimize for them as well. And by the no
+free lunch theorem, the only way that we
+get improvements in learning efficiency
+is through inductive biases. So I I
+think that this is that working on this
+problem is is a really good bet to make.
+Given the massive sample efficiency gap
+between AI and humans, we might actually
+see massive gains in capability. If we
+work on this problem um and so yeah,
+that's where I want to leave you with
+short presentation.
+[applause]
+Okay. Um so for this last paper then
+after this we have some boba for
+everyone. So sit tight 15 minutes. Um
+this is an idea that you know I've been
+obsessed with. Back to the sample
+efficiency thing. I think that like the
+two major problems we have left really
+to solve in in AI is intelligence per
+watt um and intelligence per sample. And
+if you compare that to to where we're at
+today compared to humans, um I would say
+that we're still or an order or two
+magnitude off on intelligence per watt.
+Uh and we're me like orders of magnitude
+off on intelligence per sample. I don't
+know what percent of the internet that
+you guys have read, but I have not read
+the entire internet. In Chris Ray's lab
+in particular, we've been obsessed with
+this idea that um if I have uh under the
+the a fixed size amount of data and I
+have infinite compute, just go nuts, how
+much generalization can I actually
+achieve? And so this is exactly uh the
+paper that starts to answer that
+question. And I'm really excited to uh
+introduce uh Con Woo.
+>> Uh hi, I'm Ku. Um this is a paper that I
+co-led with my amazing collaborator
+Suhas as well as Percy and Potsu.
+So part of the motivation for this paper
+is just the fact that over the past uh
+six or seven years pre-training has
+continued to improve model capabilities
+in pretty surprising ways. So in 2020
+with GPT3 we had sort of the emergence
+of incontext learning. In 2022 with
+Anthropics RHF, we had sort of the
+advent of alignment. And maybe most
+notably in 2024 with both 01 from OpenAI
+and then later Deepseek R1, we had the
+emergence of reasoning. And in fact,
+even still today, we see that with these
+newer and bigger pre-training runs like
+Mythos and 5.5, the models just continue
+to keep better. And so because
+pre-training is very expensive, a lot of
+the focus on the research side of things
+has been on how do we improve compute
+efficiency. And in general, people have
+found that to improve compute
+efficiency, you need to scale both the
+number of parameters in your model and
+the number of data points that you train
+your model on. And so these were
+quantified with the so-called chinchilla
+scaling laws. The problem with compute
+efficiency is that we're soon going to
+be constrained by data. And so if you
+look at these sort of public projections
+of the rate of growth of internet data,
+they suggest that the amount of sort of
+human generated text on the internet
+grows by roughly 3% per year. And the
+amount of compute that we're spending on
+pre-training is growing by roughly four
+or 5x per year. And so what this
+suggests is that as time passes on, the
+amount of compute that we're willing to
+spend per data point is going to
+continue to increase by roughly 4x
+year-over-year. And so this sort of
+motivates the core question in this
+paper which is how should you approach
+pre-training when you're constrained by
+data but totally unconstrained by
+compute. And it's worth maybe spending a
+few seconds to think for yourself if you
+haven't already seen this paper like
+what would you do in this situation.
+This is a very different algorithmic
+regime from sort of the computer
+efficient pre-training world that we've
+sort of lived in for sort of most of uh
+uh modern time. And it's also worth
+noting that this question is not that
+different from how machine learning
+worked before the modern alm. So for
+things like classical statistics where
+maybe you really care about your rates
+with respect to the number of points of
+data you have and you don't care about
+compute or even older benchmarks like
+emnest and pen treebank where you're
+sort of implicitly data constrained
+because the benchmarks don't have that
+many data points.
+And so sort of the core contribution
+that I'll explain in this paper is that
+we bring the modern toolkit of scaling
+laws to to sort of answer this problem.
+And so what we'll show is that we'll
+propose a few different scaling recipes
+and we'll sort of chase scaling recipes
+that monotonically decrease your iid
+validation laws. So sort of in
+distribution generalization and we'll
+show that these scaling laws have a
+really clean functional form and they
+follow a super clean power law. And when
+you're able to fit these power laws,
+what you can do is you can estimate the
+best possible loss of your recipe by
+looking at the asmtote of the power law.
+And this is in some sense a
+quantification of your best possible
+performance under infinite compute. And
+our goal in this paper is sort of to
+think more carefully about what types of
+algorithms allow you to lower your
+compute asmtote. Uh and we're sort of
+going to chase these types of infinite
+compute wins. And so to start, I'm going
+to introduce this canonical setting that
+we referenced in this paper, which is
+that we're going to simulate a data
+constrained world by just constraining
+the number of pre-training tokens we
+have to be a very small amount. So we're
+going to assume access to only 200
+million tokens from DCLM, which is
+general web data. And what we're going
+to do is we're going to pre-train large
+and larger models, which is the x-axis,
+using different kinds of pre-training
+recipes. And the y-axis here is going to
+be again our ID validation loss on DS
+DCLM. And our goal is going to be to
+find recipes that allow us to spend more
+compute and train larger models while
+monotonically decreasing our loss. So to
+start, we can consider sort of the
+obvious approach that you might take
+when you're in this setting, which is
+first to epoch your data. So to train on
+the same data points over and over again
+until you start overfitting as well as
+scaling up your model. So making your
+model larger and larger. And what we can
+do is we can do both of these at the
+same time. And we can do sort of an
+exhausted grid search over these
+parameters until we start over until we
+start overfitting and then we do early
+stopping. And this is sort of the red
+line which is what we call the standard
+recipe. And what you'll see with the
+standard recipe is that even if you are
+willing to spend more compute, as you
+train more and more overparameterized
+models, you start to overfit more
+quickly and your loss starts to increase
+after a certain point.
+And so if you see this line, sort of the
+natural instinct you should have is how
+do we fix this? And one possible
+approach is to do really aggressive
+regularization. And so sort of the first
+baseline in this paper is going to be
+doing really aggressive regularization
+by cranking up your weight decay. And so
+what we do is we show that if you
+optimally tune your weight decay for
+each total parameter count. So we're
+going to optimally tune learning rate,
+weight decay, and epoch count for each
+one of these purple points. You can show
+that your loss follows a really clean
+power law as you increase the number of
+parameters in your model. And this is
+really aggressive regularization. So for
+context, we use weight decays that are
+something like 30 times larger than the
+weight decays that people do for compute
+optimal pre-training.
+And so on the legend here, you can see
+the the sort of the form of this power
+law. And it has a few nice properties.
+One is that the exponent on the model
+parameters n is one. And this is
+actually predicted by sort of the data
+constraint theory. The second nice
+property that it has is that the scaling
+law has an asmtote which is 3.43 in this
+case. And this characterizes the
+performance of the best possible
+regularized model in this setting if you
+had like infinite compute. So you'll
+notice that the baseline approaches
+because they overfit more quickly. They
+don't even have a measurable asmtote.
+And so once we start going down the
+rabbit hole of regularization and these
+other types of classical machine
+learning techniques, there's a whole
+basket of techniques to to get into. And
+so perhaps maybe the most famous one is
+to do ensembling.
+And so what we show in this paper is
+that you can bring back ensembling in
+the modern world of pre-training
+language models and they turn out to be
+incredibly data efficient. So what these
+light blue points correspond to is they
+correspond to 300 million parameter
+models that were ensembling with more
+and more members. So the fifth point
+will correspond to 1.5 total billion
+total parameters which is five five
+ensemble of 300 million parameter
+models. We show that you can also fit
+really clean scaling laws to ensembles.
+So you also get a power law that has
+exponent one and the number of ensemble
+members and it also has an asmtote. But
+most importantly the asmtote of
+ensembling is much lower than the
+asmtote of the regularized recipe. So
+it's giving you a true data efficiency
+win if you had an infinite amount of
+compute. There's also this interesting
+property which is that ensemblings if
+you do a compute matched comparison so
+the same number of parameters are
+actually better than the regularized
+recipe. So if your goal is just to train
+the best 1.5 billion parameter model
+it's better to train an ensemble of a
+bunch of small models when you're data
+constrained than to train one really
+large model. The last thing we show in
+this plot is that you can actually
+compose the benefits of regularization
+and ensembling. So one way to think
+about this is that regularization gives
+you this ability to continue to make the
+models larger and larger while
+ensembling introduces this new axis for
+scaling compute which is by training
+more and more models. And so what this
+gold line which we call the joint
+scaling recipe is we quantify this
+hypothetical performance if we were able
+to train an ensemble an infinitely large
+ensemble of infinitely large models. And
+so the way in which we actually quantify
+this performance is we fit two scaling
+laws. So we'll take a double limit. What
+we'll first do is we'll train ensembles
+of 150 million parameter models, 300
+million parameter models and so on and
+so forth. And then we'll look at the
+asmmptotes of the ensembles. And then
+we'll take a second we'll fit a second
+scaling law to the asmmptotes of these
+ensembles. And this is essentially
+taking the first limit is taking the
+limit over K. And the second limit is
+taking the limit over n. And what we
+find is that if you're willing to sort
+of go through the effort of training
+infinitely large models and infinitely
+many ensembles, uh you get a huge loss
+improvement. And so all of these
+experiments are sort of in this toy data
+constrained setup of 200 million tokens.
+And obviously this is very different
+from sort of the standard regime of
+pre-training. So what we also do in this
+paper is we spend some effort on trying
+to confirm that our recipes scale. So
+the first way in which we do this is
+that we build data scaling laws. So what
+data scaling laws are is that we repeat
+the exact same set of experiments from
+the previous slide at four different
+pre-training token counts up to 1.7
+billion uh tokens. And so for each slice
+on the x-axis at each seat token count,
+we're going to quantify the best
+possible performance of each recipe if
+we had an infinite amount of compute. So
+for the red points, they overfit more
+quickly. So these will be actual models.
+While for the purple and the gold
+points, these will correspond to sort of
+a single limit or a double limit. What
+these data scaling laws let us do is
+they let us quantify the data efficiency
+numbers of our approaches. So one way in
+which we do this is if we have some new
+recipe that we believe should improve
+upon the standard recipe that we're
+using right now, you can take the loss
+of your new recipe and you can project
+it onto the data scaling law. So the red
+line of a standard recipe and this
+projection lets you measure essentially
+the effective number of extra tokens
+that your algorith algorithmic
+improvement is buying you. So in this
+case what we see is that this joint
+scaling recipe gives you roughly a 5x
+data efficiency win over uh the the
+standard recipe. It's also worth noting
+that uh these data efficiency wins are
+something that we can realize with sort
+of finite models not just double limits.
+So for example if you're willing to
+train a five ensemble of 1 billion
+parameter models this will give you
+roughly a 3.7x data efficiency win. The
+other interesting aspect about these
+data scaling laws is if you look at the
+functional form in the legend, you'll
+see that they all have really similar
+exponents and they all have very similar
+asmtotes. And so the reason why this
+matters is this suggests that even if
+you repeated these experiments at a much
+much larger token scale, if you believe
+that these data scaling law laws
+extrapolate, this data efficiency win is
+going to be constant over the actual
+number of token counts that you have. So
+they suggest that this double joint
+scaling well recipe has a 5x data
+efficiency win even if you are willing
+to send the seed token count to like 10
+trillion tokens or whatever people are
+doing pre-training at these days. So now
+I'll go over some methods to sort of
+make this data efficiency win perhaps
+slightly more practical. And so even
+though these recipes require a lot of
+training compute we also show that you
+can reduce the amount of inference
+compute you need by using distillation.
+So the plot on the right here, the
+purple line corresponds to the same
+regularized recipe. The light blue
+points correspond to the same ensemble
+skilling. So we first show that what you
+can do is you can take an eight ensemble
+which is roughly 2.4 billion total
+parameters and you can distill it into a
+single dense 300 million parameter model
+which is the pink star in the bottom.
+And you can do this while retaining
+roughly 83% of the loss improvement. So
+this shows you that data efficiency is
+not something that you need a large
+amount of inference compute for. If
+you're willing to amort amortize the
+test time compute during training time,
+you can get an extremely data efficient
+model that's still very very small. The
+other surprising result we show in this
+section is that you can do
+self-distillation to even improve your
+loss. So with self-distillation, what
+we're doing is we're starting with the
+300 million parameter model at the start
+of the light blue curve and then we're
+distilling this model into a fresh 300
+million parameter model which is the
+green star. And what we find is very
+surprisingly even doing self
+distillation gives you huge loss
+improvement. It even beats the asmtote
+of the regularized recipe. This is
+actually pretty counterintuitive and we
+have a longer sort of uh description of
+this result in the paper but it turns
+out to have pretty surprising
+connections to uh ensembling and there's
+actually a view uh from prior work on
+viewing self-distillation as implicitly
+training a two ensemble. We also show
+that even though we're only chasing IID
+VAT loss in all of our experiments,
+pretty much all of the trends in this
+paper directly work on downstream
+benchmarks. And this is like a fully
+held out sort of test set where we only
+looked at the benchmarks at the very end
+of the paper because the advisers told
+us to. Um, and you can see that
+everything tracks the standard recipe
+overfits. Still model scaling gives you
+improvements. Ensembling is even better.
+and you can still retain a lot of the
+benefits through distillation. And
+finally, we also show that you can do
+this for other settings beyond
+pre-training. So things like continued
+pre-training. So we consider a setup
+where you're trying to CPT a 3B model
+and we assume access to sort of this
+restricted set of 4 billion math related
+tokens where the whole corpus of data is
+actually 73 billion tokens. And what we
+show is that if you're willing to do
+these data efficiency tricks like
+aggressive epoing and things like
+ensembling, you can match the
+performance of training on the full 73
+billion tokens even using only 4 billion
+tokens which is roughly a 17x data
+efficiency win. So to sort of wrap up
+this talk, maybe the main point I want
+to make is that when you're constrained
+by data and you're unconstrained by
+compute and this sort of new algorithmic
+regime, the types of algorithmic choices
+you make matter a lot and we should be
+willing to sort of rethink every aspect
+of a stack. In this paper, we mostly do
+this by revisiting a lot of these
+classical ideas from uh machine learning
+and deep learning. Things like
+regularization, ensembling, distillation
+have existed for for many many years.
+And we also introduced this evaluative
+tool of asmmptotes. And maybe the hope
+is that if you're willing to chase
+algorithms that have lower compute
+asmmptotes, uh these will give you like
+better ideas for data efficiency. But
+like ultimately what we really want to
+do is we want these asmtotes to help us
+develop new and better ideas under
+infinite compute that that don't already
+exist. And so if you're interested in
+the details, that's a QR code for the
+paper. And we've also done some
+follow-up work on looking at how
+synthetic data interacts with data
+efficiency. So feel free to check that
+out as well if you're interested.
+Thanks. [applause]
+>> All right. Thank you guys so much for
+coming. This is like a dream come true.
+I'm in one of my favorite places that um
+was most important places of my life and
+now I get to talk about AI here. So
+super super fun. I think there's a lot
+of potential for this club. I think I
+don't have nearly, you know, 1% of all
+the ideas that we probably have to make
+this club really great um in all of your
+heads. And so we want to make sure all
+of you guys get in on the Slack. So I'll
+make sure that you know, please send me
+a note if you're not already on there.
+And then we can kind of make this thing
+whatever we want. So it's kind of fun
+and I intend to. So like please come
+with ideas. We want to make this super
+fun. Um obviously, you know, there's
+some round rules, be respectful, all
+that kind of stuff. Um, and definitely
+be involved. And that's kind of the the
+the biggest thing that we really only
+really ask. That's all I got. That's a
+wrap. Go get some boba tea. Thank you.

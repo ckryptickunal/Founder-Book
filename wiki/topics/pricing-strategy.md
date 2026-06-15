@@ -2,7 +2,7 @@
 type: topic
 title: Pricing Strategy
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-06-16
 sources: []
 tags: []
 ---
@@ -22,3 +22,4 @@ The importance of charging early users to filter for serious feedback and valida
 - [[sources/czQxHhp7jec-the-best-way-to-price-any-product|The best way to price any product]]: The methodology of determining the optimal price point for a product or service.
 - [[sources/ijXgeZ7p9SA-over-complicated-pricing-could-kill-a-sales-process|Over-complicated pricing could kill a sales process.]]: The methodology of setting prices to maximize sales and ensure business sustainability.
 - [[sources/oWZbWzAyHAE-startup-business-models-and-pricing-startup-school|Startup Business Models and Pricing | Startup School]]: The methodology of setting prices based on perceived value, customer willingness to pay, and business objectives.
+- [[sources/gSNFJbgoaHI-how-to-build-an-ai-native-services-company|How to Build an AI-Native Services Company]]: Moving away from hourly billing toward per-unit or outcome-based pricing to align incentives and capture value.

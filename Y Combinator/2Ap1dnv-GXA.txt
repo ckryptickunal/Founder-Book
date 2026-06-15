@@ -1,0 +1,796 @@
+Title: Why Two IIT Engineers Turned Down $550K Jobs To Build A Startup
+Video ID: 2Ap1dnv-GXA
+URL: https://www.youtube.com/watch?v=2Ap1dnv-GXA
+Channel: Y Combinator
+Published: 2026-05-29T12:30:27Z
+Duration: PT24M30S
+Views: 20544
+Likes: 430
+Tags: YC, Y Combinator
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 774
+
+Description:
+Varun Vummadi is the co-founder of Giga, which builds AI agents for customer support for some of the biggest companies in the world, including DoorDash, one of the largest crypto exchanges in the US, and a top-three global telecom provider.
+
+At Startup School India, Varun sat down YC General Partner Ankit Gupta to talk about why he turned down a high-paying quant job to start a company, the multiple pivots it took to find the right problem, and how their small team of eight beat a 400-person com
+
+============================================================
+TRANSCRIPT
+============================================================
+
+I was just panicked because I never
+prepared for anything. I mean I prepped
+so much for the interview that I chatted
+with a lot of XYZ interview founders,
+etc. They all told me what's your idea,
+what's your time, and everything. But
+Harsh didn't ask about any of those
+things. And I thought genuinely the
+interview went like so horrible that we
+are not going to get in. Harsh told us,
+"You guys are really good engineers.
+Just pick something else and work on
+it."
+>> [music]
+>> All right. We're so pumped to be here
+with Varun from Giga ML. Um thank you
+all so much for coming. Varun, why don't
+you start by telling us a little bit
+about what Giga ML actually is?
+>> Sure. We build AI agents for customer
+support. We work with some of the
+biggest companies in the world, like
+DoorDash. We work with one of the
+biggest crypto exchanges in the world,
+top three telecom providers in the
+world. Yeah.
+>> And so what does it mean to when you say
+AI agents for customer service? Give an
+example of how someone is using your
+product, maybe even how people here have
+used their your product and not even
+realized.
+>> The traditional way that support works
+is whenever a user calls the support, it
+actually
+uh get to an IVR or a chatbot, then goes
+to a human. The
+deflection rates are closer to like 10
+to 15% with AI. It's just like you call,
+it's entirely like human-like
+experience, closer to like 60 to 70%
+deflection rates. We're aiming to get it
+closer to like 90 to 95% for top of the
+customers. It's just like a better
+experience. You have never
+need to be in hold again. You can just
+call and get the issue resolved like
+really fast.
+Yeah.
+>> And why don't we start by rewinding the
+clock a little bit and hearing about the
+very early days of your company? So,
+maybe even before you started a company,
+why don't you just tell us a little bit
+about what was your upbringing like?
+Like how did you
+uh get introduced to technology in the
+first place?
+>> Yeah, of course. Uh
+my
+uh I was from this town and small town
+in Andhra Pradesh and my parents were
+both like government teachers. They of
+course wanted to be an engineer or like
+a doctor. So, we were
+uh,
+I grinded myself out to get into IIT,
+which was a great experience. I got into
+like IIT Kharagpur
+in electrical engineering and my first 2
+years I did not like
+do much because it was like a COVID
+year, which was like partying and like
+not much studying. And during third year
+I started like
+doing my research in LLMs in Stanford
+and that's when we started like uh,
+seeing this is like a pre-ChatGPT
+moment. We're working on transformer
+models like BERT, etc. And
+>> This was like when you were in college
+or still in high school? Okay, cool.
+>> This was when I was in college and I
+actually got a like a pretty good job on
+one of the quant firms, uh,
+one of the leading quant firms in New
+York. I got offered like 50K at that
+point of time it was like a big thing.
+Uh,
+and I also got my PhD in Stanford uh, to
+join.
+And then ChatGPT launched. Uh, this this
+is
+around December is when I got in and
+then ChatGPT launched. We were like
+super excited. Uh, the super exciting
+moment is it was able to write code and
+a lot of things. So, we just wanted to
+build something on top of it and give
+getting into YC a shot because I was I
+was reading PG's essays watching like
+the 2014 YC startup school. It's a
+classic one. And I just wanted to give
+it a shot and try to get into YC. So, me
+and my co-founder we both know each
+other from like freshman year. And we
+just thought like what could go wrong?
+You can just apply and always see,
+right? And it's so dramatic because I
+was supposed to join we were supposed to
+like join in like 3 days. That's when
+finally when we got in and the interview
+was also like so different than what we
+thought because we we were trying to
+build an EdTech
+on using like LLM and we go to
+interview. I clearly remember Harj
+asking me that, "Hey, this is EdTech.
+It's not going to work. Pick something
+else." And it was never even about like
+the idea or anything we wanted. He was
+like, "You have like research experience
+in LLMs. Pick something and etc."
+>> And so so when you heard that
+did that increase your ambition or
+reduce it or how were you thinking about
+that?
+>> I was just panicked because I never
+prepared [laughter] for anything. I mean
+I prepped so much for the interview that
+I chatted with a lot of YC interview
+founders etc. They all told me, "What's
+your idea? What's your time?" and
+everything. But Harj didn't ask about
+any of those things. And I thought
+genuinely interview went like so
+horrible that we are not going to get
+in.
+And yeah, Harj actually wanted us to
+join YC and he told us, "You guys are
+really good engineers. Just pick
+something else and work on it." That's
+how I mean we would You know we would
+not have existed without Harj taking a
+bet. Yeah.
+>> And so okay, so I imagine then you went
+back to your roots a little bit as
+engineers. Tell me a little bit about
+what were your roots as engineers like?
+Like when you were in college, were you
+like a by the book guy or were you more
+of a hacker? Like what was your kind of
+personality as an engineer?
+>> Yeah, it's it's very interesting because
+my co-founder was I think third ranked
+in entire IIT and he only got one B in
+his entire career. That too he really
+messed up. Actually there is a he
+actually went to class and gave
+attendance for a wrong guy as a friend
+and he got penalized 10 marks. That's
+why instead of EX he got B. Otherwise he
+would have been like top of the campus.
+He's like a very book guy kind of a
+person. For me honestly I never my
+grades were bad. I never like really
+studied that good. And I used to do a
+lot of Kaggle competitions primarily
+because you can make money if you win
+the competition. That's pretty much it.
+So I would say I'm more kind of like a
+hacker and he's more kind of like a book
+guy. But eventually we both turned out
+to be like a hacker kind of people.
+Yeah.
+>> Wait, can you Yeah, can you tell
+everyone about your history with Kaggle
+competitions? Like how many of these did
+you do and like how much money did you
+make doing this?
+>> I did a lot of them.
+I think I made a little like $50,000 or
+something. That's how I landed to like
+one of the
+>> [laughter]
+>> one of the
+one of the high-frequency trading jobs.
+I gamed it so much that they banned me.
+I Yeah, we we I gamed a lot of that
+thing. Yeah.
+>> So, okay. So,
+when you were in college, you're now
+spending a lot of your time doing Kaggle
+competitions. You're experimenting with
+machine learning models.
+You apply to YC eventually. Harj tells
+you, "Okay, this like edtech idea is
+dumb. Do something else." How do you now
+bridge those two worlds? Like what's
+kind of the next thing you decide,
+"Okay, let's try to give this a shot."
+>> No, it's Harj did a pretty great job.
+What he did was he made us chat with
+Coursera COO and a bunch of people who
+have like some of the most successful
+edtechs. All of them told it's a bad
+idea to do edtech. So, we decided to
+pivot pretty much after a month into the
+batch. And we were Again, we had like a
+pretty bad experience because both of
+our B1 B2s got rejected, but this was
+the first time YC turned into in-person.
+We're just doing fully remote. We had
+experience on fine-tuning, so we just I
+just read this
+research paper from one of the
+Databricks co-founders, which is
+basically LLM
+caching LLMs to reduce the cost. At the
+time, GPT-4 used to be super expensive.
+Instead of just caching, we thought that
+fine-tuning might be better using a
+smaller LLM and everything. So, that's
+how we got started with fine-tuning. And
+we open-sourced a bunch of models. We
+topped Hugging Face benchmarks. That's
+how we got to like a lot of traction and
+a lot of people reaching out to us. And
+we raised a $4 million seed round.
+>> So, okay. So, you did YC then. You end
+up raising your seed round.
+You're You're working on this
+fine-tuning idea.
+That doesn't sound anything like
+customer service AI system. So, how did
+that first thing become the second
+thing? What was that What was that story
+like in which you found the idea you're
+now working on?
+>> Yeah, the interesting part about
+fine-tuning is it's a really bad market
+for a bunch of reasons. The only reason
+you want to fine-tune is to reduce the
+cost and make it faster, or else there
+is another use case which is if you were
+so secure, it's very hard to sell to
+those
+big insurance companies or health care
+as an engineer because it's a sales
+process, not engineer process. We have
+realized it after like a year or so.
+And the interesting thing was the only
+two use cases on GitHub customers which
+are growing very well are customer
+support and coding. So, we decided to
+customer support and
+>> So, so you basically saw that from your
+customers, right? It wasn't like
+you just like looked and said, "Oh, this
+is a big market." You just You naturally
+discovered it from the thing you're
+building.
+>> Yeah, we saw it from customers and I was
+just here and Zepto was a
+first customer for that thing. We just
+reached out to them and as they were
+scaling really fast and they tried us
+out and they turned out to be our first
+customer.
+>> So, okay. I mean, this is where I think
+things can be very counterintuitive,
+right? Like, when you chose to switch
+into customer service, there existed at
+least one or two other companies, some
+of which who have very famous founders,
+who are very well-capitalized companies
+like Sierra, for example, that already
+existed
+at the point of you guys deciding to go
+all in on this.
+Why did you think that you could do it
+anyways and still win? Why did you think
+that it didn't matter or it was worth it
+for you to go after that market?
+>> Firstly, we don't know CRN existed when
+we started Zepto. And
+>> So, like there was a little bit of
+benefit to naivete there. Yeah.
+>> That thing and we didn't think of
+competition much. That's pretty much
+what I would say. We never I mean, even
+in right now our entire product is is is
+a is a
+are the customer willing to pay you? Can
+you deliver a lot of value to them? Just
+like do it was like a pretty much a
+stronger mentality against competition.
+But again, as you scale, you need to do
+differentiate and everything. Then,
+after Zepto, the real competition
+happened between us and one of the
+leading companies that you were saying
+at DoorDash. We were like eight people
+going against this 400% well-funded
+company, and we won it against them. And
+as you know, DoorDash is one of the
+massive support levers. That's when we
+truly like us realized that there's a
+lot of arbitrage of actually building a
+great product rather than a sales team.
+>> So, okay, so that's kind of crazy,
+right? You you won DoorDash's contract.
+You were only a team of eight people
+when you did that. Why was it that
+DoorDash, which is a huge company, was
+willing to trust you guys when you were
+only eight people? You could imagine
+they're like, "Oh, these guys are too
+small. They'll never, you know, they'll
+never trust me." Like, you know, 10
+years ago, the assumption would have
+been that big enterprises would never
+buy software at that scale from a
+startup. It seems like that was no
+longer the case for you. Why do you
+think that is?
+>> I think
+you got to have some unfair advantage,
+right? For us, YC was that. Garry
+introduced me to
+Tony and he's a YC company, and DoorDash
+was also basically a YC company. So,
+it's just like an inherent trust to it.
+And again, it's I mean, we piloted for
+like 3 months. We never went down, and
+all the metrics were good. And DoorDash
+is a very meritocratic company, and I
+really kudos to them. And it's a the
+company at that scale picking a small
+company would be hard. And now, a lot of
+companies pick us because of DoorDash
+and a lot of other big public companies
+use us. Yeah.
+>> So, how has that What does the article
+look like since then? So, you got
+companies like Zepto and DoorDash in the
+early days. What does your company look
+like now, and how have you had to evolve
+what you're doing over the last few
+years?
+>> Yeah. Last few years, I would say
+we as I mentioned to you, we work with
+the biggest crypto exchange in the US.
+And after getting like a customer at
+that scale, we we are working with a lot
+of Fortune 500s, etc., like trying to
+automate the support. Another big
+interesting thing that I have observed
+with AI agencies is fundamentally boiled
+down to two things. This is true for
+almost any entity company. It's like a
+policy is on the markdown file and how
+can you iterate the markdown file to
+affect a business KPI? That is support
+for support resolution rate or like
+CSAT. The all thing that matters is you
+let's say we started like 30 to 50%
+resolution rate. How to get to 90%? How
+can you iteratively improve to get that?
+The same fundamentals apply for
+compliance, ITSM, ITSD and everything.
+So we are seeing customers some of the
+biggest consumer companies in the US
+piloting us for internal support, even
+compliance and etc.
+It's very interesting with AI agents.
+It's fundamentally bogged down to
+markdown and like how can you
+iteratively improve markdown to move a
+KPI?
+>> Okay, so I want to change the
+change gears here a little bit and talk
+a little bit about the advice you would
+give for this people in this room,
+right? So the people in this room are
+predominantly college students or young
+people recently out of college. You
+know, if you were rewinding back to your
+time as a college student, is there any
+advice you would give that's maybe
+different from the advice that they
+might be hearing from their peers or
+what is kind of the norm, you think?
+>> Yeah, I mean like a lot of people
+thought I was stupid when I rejected a
+job offer. I mean like it was so insane
+because uh
+>> They were like you're turning down this
+great offer from a quant firm. Like why
+would you do that? Yeah.
+>> It's just for me and my co-founder we
+just wanted to give it a shot. We
+thought like we just wanted to see how
+how how high we can go. That's pretty
+much like a thing and that's the reason
+that's the pretty much
+the entire way that we built the
+company. Like yeah, as scaling like even
+denying
+acquisition offers from some of the
+biggest companies in the world. That's
+how we pretty much like built the entire
+company. We just wanted to reach to our
+potential and see is this the best we
+can do and push it. It's kind of more
+than me, it's my co-founder's mentality.
+He's
+fundamentally like a zero motivated by
+money person. So yeah, that's where it
+came from and I read Paul Graham's essay
+on how to do wealth.
+It essentially boils down to doing a
+company and having or like doing equity
+in something big. It's pretty much it.
+Yeah.
+>> What did like your parents think about
+that in those early days? Like were they
+excited? You You said you know you grew
+up in a very modest upbringing.
+Presumably getting this high-paying job
+would have been life-changing for your
+family. Like how did How did that go?
+That conversation. You're like, "I'm
+moving to SF.
+Um I'm going to start this crazy thing."
+>> My dad was super mad, to be honest. And
+it's just a
+I mean, it's a It's a It's kind of like
+a big fight thing in home, but it's
+fine. I mean, like they're like, "What
+can they really do?" They can't like
+force a kid to do something. But it was
+It was just a really like a hard
+conversation. I actually showed them
+what YC is, showed them YC videos, and
+showed them these are the companies that
+they do. And I showed them like even if
+I don't succeed in a year or two, I can
+just go back to the job and do the thing
+again. They come from like a
+middle-class family or
+lower-middle-class family. It's just
+like a lot of expectation to do things.
+And especially when I got a like a
+really good job offer, and my parents
+were all happy about. They I mean, it's
+It's just not my parents. Even
+internally, even I felt am I doing
+something wrong? But again, my entire
+philosophy has been like just take a
+shot and see if it works out or not.
+>> So, when you think about now
+how college students or young people can
+put themselves in a position to find
+great startup ideas, what are some of
+the lessons from your experience that
+you think apply to the people in this
+audience?
+>> The biggest thing we made at least a
+mistake even after getting into YC is uh
+we worked on a
+lot of stupid ideas which didn't make
+any revenue or doing anything
+uh for a long time. I mean, like
+people just want have like a lot of
+ideas. I can just go to ChatGPT and get
+like 10 ideas on what to do, right? Uh
+it's never about the idea. It's about if
+somebody is willing to pay you money for
+it. And is I mean, I don't even think
+about it. You need to care about market,
+to be honest. Is somebody willing to pay
+real money if you solve the problem for
+the value that you delivered? That's the
+strongest approach we took. And I made a
+lot of It took me a lot longer to
+realize. Right now, even for our new
+products that we build, we make sure
+that the customer can actually pay it.
+And we predict like this is the amount
+you're going to pay and get a commitment
+from the customer and then go and build
+it.
+>> And why is it that, you know, charging
+for a product so early is useful? You
+know, I think a lot of people in the
+audience might think, "Oh, I'm just a
+college student. No one's ever going to
+pay me for something I make. Right now,
+I should I should just get started for
+free or something like that." Why does
+that not tend to work in your mind?
+>> If it's an important enough problem,
+people would pay. Either with money or
+with time, I would say. I mean, social
+media networks are just time. They don't
+charge you any money. But, in general,
+for any single B2B company,
+if the problem is important enough,
+people should be willing to pay money
+for it. Otherwise, like you're just
+solving a fake problem.
+>> So, you are also part of a new
+generation of Indian origin founders who
+is building your company both here and
+in SF.
+How do you think about that? I mean, do
+you think about that? Or is there a any
+any particular framework you have for
+how to expand your company and take
+advantage of your background from India?
+>> I think that you should just stay close
+to customers wherever you are.
+But, if you're doing anything closer to
+like GenAI and very like research-based
+things, I strongly think SF is a place.
+Because the amount of access as in uh
+with the researchers and etc. you get is
+insane because almost all of the
+innovation in this GenAI field is
+getting drived on Bay Area alone
+compared to India. But, again, if your
+customer is primarily based out of
+India, you should be here.
+>> What do you think when it when you look
+forward to the future and you think
+about, you know, all of the pivots your
+company has gone through to get to where
+it's at now,
+how do you think what do you think the
+next few years look like for your
+company? Like, do you see yourself now
+do you feel like you found the thing
+that's going to become really big or do
+you see yourself continuing to evolve
+and how are you evolving yourself?
+>> Yeah, I think I think we're I'm very
+confident that we're moving in a great
+direction. The biggest bottleneck of
+every single enterprise AI deployment,
+regardless of support or any automation
+that I want, this concept called forward
+deployed engineer, you need to have them
+bunch of them coming and sitting with
+the customers and configuring it. We're
+trying to build an AI forward deployed
+engineer. We're going to launch it soon.
+>> Yeah.
+>> And that is where I would say that I'm
+very confident on because whenever you
+want to make these policy changes,
+whenever you want to like just spin up a
+new dashboard for me or how can I go
+from like 40 to 60%? Our AI forward
+deployed engineer is going to join is on
+Slack, is going to join Google Meets and
+take all the notes and do the changes
+automatically.
+>> Yeah.
+>> So, I'm very confident on the direction
+that we are moving on
+how we are going to tackle
+AI adoption in enterprises because the
+biggest bottleneck right now is forward
+deployed engineer and we're going to
+take it over.
+>> Could you tell us a little bit about how
+your company actually runs internally
+using AI also? Like you obviously your
+product is very AI driven, but in terms
+of the company itself, like what are the
+tools that your engineers and sales
+people and whatnot are using? What does
+that actually look like?
+>> It's funny because we have a one of our
+values is automate, automate, automate.
+So, we force people to like use as much
+automation as possible and the in
+general the overall mission of the
+company is to automate all of the
+world's work. We are intentionally like
+moving in that direction of generic
+automation builder able to automate
+anything on top of us. Some of the
+examples were you don't need to have a
+personal assistant, just add it. Open
+Clouderase and schedules the meets for
+you to actually like sales people use it
+very interesting. They
+pull transcripts from Gong to do
+analysis of what are the biggest things
+that work are working against a specific
+competitor across like a multiple
+things. So, yeah, everybody's
+That's the one thing I love about Claude
+code. It turned a lot of people into
+builders. And people are using it
+innovatively to drive specific insights
+that would have like
+taken like humans go through a lot of
+things and doing it.
+>> Yeah, I mean, if coding agents didn't
+exist, how many engineers do you think
+would be at your company versus what it
+currently is? Like how much What What
+would the company look like without all
+of that?
+>> I think they should be at least like six
+to seven times more compared to now.
+We're relatively very small engineering
+team. It's like a very strong talent
+that's on a very small engineering team.
+>> That's crazy, right? Like 7x the number
+of engineers you would need if you
+didn't [snorts] have one tool but
+probably cost you much less than seven
+times your engineering team.
+>> It's It's It's more than cost. It's just
+It's better without context switching.
+It's better for you to own the thing and
+build the entire thing rather than
+having like a lot of people working on
+it. You can just ship much faster. And
+the context transfer actually kills a
+lot of things and slows down things.
+>> So, given that, I imagine the kinds of
+people you look to hire on your team
+also are very different from the average
+SaaS company 10 years ago or at least in
+some ways different. I'm curious how you
+would describe that or are there things
+that you guys look for that are maybe
+different than what like a big tech
+company who doesn't use that many that
+much coding agents yet might look for?
+>> Our interview process specifically
+designed we ask people to write code and
+remove AI and ask them to like change
+the code. So,
+we
+>> have them write coding in your interview
+process?
+>> We ask them to write code and then
+remove access to the tool and ask them
+to change the code without AI. It's
+intentional because we want people to
+understand the code as well on how it
+works, etc. So, we are I mean, again,
+this is also keeps evolving as AI models
+keep getting on better and better. Do
+you really need to know to know how the
+code works even if Claude does the
+entire thing? But, that's how That's
+where we landed on. Generally, the
+things which we look are some sort of
+like extraordinary ability and spikiness
+that we can like relate into. For me and
+my co-founder, that for us was me having
+the highest
+one of the highest offer jobs. My
+co-founder was third in the entire IIT
+and um
+he also got the I think the highest
+paying job offer in India in a in a
+quant firm. And we're trying to look
+like a very spiky things on
+which is that 0.1% of people would do.
+And that's how like we're generally
+going at things.
+>> So, you know, I think a lot of people
+might look at themselves and say like,
+"I'm a technical person. I'm an
+engineer. But like, what do I know about
+business? Right? Like, I don't have a
+business background necessarily." How
+did you guys think about that, right?
+You and your co-founder are both
+computer scientists. I assume you did no
+business before you started this
+company. What has been your experience
+on whether that
+that pre-exposure matters, whether if
+you just kind of learn it as you go?
+>> I mean, there are a lot of people who
+will buy your product without business
+background. You just got to find the
+right buyer. I mean, like Zepto is one
+of those companies. They didn't care you
+have like a bigger sales people.
+DoorDash doesn't care about sales
+people. You just got to find your ICP.
+>> But I guess I mean more for you guys as
+founders. Like, in your own founder
+ability, do you feel like it would have
+benefited you or do you feel like your
+technical abilities allowed you to get
+somewhere in itself? And then, you know,
+that's what kind of gave you the
+opportunities.
+>> I
+I personally like bias a lot towards
+builders and sellers because uh this is
+the mistake I made while starting the
+company. Me and my co-founder had this
+huge debate because I thought sales was
+the most important thing in the company.
+I was so wrong in like so many ways. If
+you take a look at all the successful AI
+companies, it's product. None of them
+are succeeding. I mean, nobody uses
+Anthropic for the best sales team. I
+don't think that I mean, Anthropic and
+OpenAI doesn't even pay sales people
+commissions. That's how they don't care
+about like a sales. And I think with AI,
+product is the most important thing. How
+how how good is your product at
+delivering a lot of value to the
+customer short amount of time. If you
+can prove that everything else should
+follow through.
+>> Yeah. Okay, we're almost at time here.
+I'm curious if you have any parting
+final thoughts or reflections. You know,
+you've now been at this for two or three
+years. You're no longer in school.
+You've been spending your time split
+between San Francisco and Bangalore. Are
+there things that you now realize about
+how the world works?
+Um that maybe weren't obvious to you
+when you were getting started and you
+can leave people with some parting
+advice.
+>> Yeah, the biggest thing is just getting
+started on trying to sell the thing. I
+just just getting started and jumping
+the thing and burning the boats is a
+good thing to start. It it is only like
+really valuable and things get really
+real if you burn the boats.
+That's when I really felt because we
+know that when the company was not
+working, me and my co-founder were
+thinking, "Oh my god, we rejected all
+these job offers. What are we going to
+do?" It actually forces you to make
+things. And I think it's not like really
+really burning boats per se. If you have
+a job you like you can get a job. It's
+not going to go anywhere. But in
+general, just like going at it and like
+doing things has like a lot stronger
+value. Especially with AI, it's just the
+cost of building things is so low.
+People should just build things and try
+to like
+deliver as much value as they can to
+very small sort of customers and see if
+they can pay them money.
+>> Awesome. Thanks so much for coming,
+Varun. Really appreciate it.
+>> Thank you.
+>> [applause]

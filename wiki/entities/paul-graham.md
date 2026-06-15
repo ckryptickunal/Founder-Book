@@ -2,7 +2,7 @@
 type: entity
 title: Paul Graham
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-06-16
 sources: []
 tags: []
 ---
@@ -326,3 +326,19 @@ Co-founder of Y Combinator, mentioned in the context of product-market fit ('10 
 - [[sources/PBmT30aUd2s-delivering-founder-happiness|Delivering Founder Happiness]]: Co-founder of Y Combinator.
 - [[sources/7Hdu4DlnLIk-stop-chasing-money-chase-wealth-how-to-get-rich-garry-tan-s-office-hours-ep-4|STOP Chasing Money -- Chase WEALTH. | How To get RICH | Garry Tan's Office Hours Ep. 4]]: Co-founder of Y Combinator.
 - [[sources/ToAdkIZgcDQ-you-should-create-things-for-a-billion-people-not-just-tech-giant-monopolies|You should create things for a billion people, not just tech giant monopolies]]: Co-founder of Y Combinator.
+- [[sources/pg-how-to-convert-between-wealth-and-income-tax-how-to-convert-between-wealth-and-income-tax|How to Convert Between Wealth and Income Tax]]: Author, venture capitalist, and essayist.
+- [[sources/pg-the-right-kind-of-stubborn-the-right-kind-of-stubborn|The Right Kind of Stubborn]]: Author, venture capitalist, and co-founder of Y Combinator.
+- [[sources/pg-writes-and-write-nots-writes-and-write-nots|Writes and Write-Nots]]: Essayist, programmer, and venture capitalist.
+- [[sources/pg-the-shape-of-the-essay-field-the-shape-of-the-essay-field|The Shape of the Essay Field]]: Essayist, programmer, and venture capitalist.
+- [[sources/pg-how-to-start-google-how-to-start-google|How to Start Google]]: Co-founder of Y Combinator and essayist.
+- [[sources/pg-founder-mode-founder-mode|Founder Mode]]: Co-founder of Y Combinator and author of the essay.
+- [[sources/pg-superlinear-returns-superlinear-returns|Superlinear Returns]]: Author, investor, and co-founder of Y Combinator.
+- [[sources/pg-good-writing-good-writing|Good Writing]]: Essayist, programmer, and venture capitalist.
+- [[sources/pg-how-to-earn-a-billion-dollars-how-to-earn-a-billion-dollars|How to Earn a Billion Dollars]]: Co-founder of Y Combinator and author.
+- [[sources/pg-the-reddits-the-reddits|The Reddits]]: Co-founder of Y Combinator and author of the essay.
+- [[sources/pg-what-to-do-what-to-do|What to Do]]: Author, investor, and essayist.
+- [[sources/pg-when-to-do-what-you-love-when-to-do-what-you-love|When To Do What You Love]]: Essayist, programmer, and co-founder of Y Combinator.
+- [[sources/pg-how-to-do-great-work-how-to-do-great-work|How to Do Great Work]]: Author of the essay and co-founder of Y Combinator.
+- [[sources/pg-the-best-essay-the-best-essay|The Best Essay]]: Author, essayist, and co-founder of Y Combinator.
+- [[sources/pg-the-origins-of-wokeness-the-origins-of-wokeness|The Origins of Wokeness]]: Author, programmer, and venture capitalist.
+- [[sources/ObBAxL2dFzw-groww-if-your-customers-don-t-love-it-or-hate-it-you-ve-already-lost|Groww: If Your Customers Don't Love It or Hate It, You've Already Lost]]: Co-founder of Y Combinator.

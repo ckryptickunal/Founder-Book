@@ -2,7 +2,7 @@
 type: entity
 title: Google
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-06-16
 sources: []
 tags: []
 ---
@@ -171,3 +171,5 @@ Major technology company mentioned as an example of an organization that hosted 
 - [[sources/9Fq15k9QPv8-you-can-beat-google-the-way-amazon-does-here-s-how|YOU can beat Google the way Amazon does. Here’s how.]]: Multinational technology company.
 - [[sources/hd9DD4t85fM-unknown|Unknown]]: Technology giant.
 - [[sources/vJbvzkXiex8-there-s-too-much-money-in-the-world-here-s-why|There's Too Much Money in The World. Here's Why]]: Technology conglomerate
+- [[sources/pg-how-to-start-google-how-to-start-google|How to Start Google]]: A multinational technology company.
+- [[sources/pg-when-to-do-what-you-love-when-to-do-what-you-love|When To Do What You Love]]: Technology company.

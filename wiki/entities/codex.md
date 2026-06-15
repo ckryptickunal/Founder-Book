@@ -2,7 +2,7 @@
 type: entity
 title: Codex
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-06-16
 sources: []
 tags: []
 ---
@@ -21,3 +21,4 @@ An AI model/coding agent, mentioned in the context of code generation.
 - [[sources/h0bhNm6kwT8-openai-2m-in-tokens-to-every-yc-company-in-the-spring-and-summer-batches|OpenAI: $2M in tokens to every YC company in the spring and summer batches.]]: An AI model for programming.
 - [[sources/4uzGDAoNOZc-openclaw-creator-why-80-of-apps-will-disappear|OpenClaw Creator: Why 80% Of Apps Will Disappear]]: AI coding assistant model.
 - [[sources/qwmmWzPnhog-we-re-all-addicted-to-claude-code|We're All Addicted To Claude Code]]: OpenAI's coding agent project.
+- [[sources/fQmlML9Lay4-conductor-ceo-charlie-holtz-walks-us-through-his-ai-coding-setup|Conductor CEO Charlie Holtz Walks Us Through His AI Coding Setup]]: AI model used for specific, high-effort coding tasks.

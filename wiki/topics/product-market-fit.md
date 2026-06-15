@@ -2,7 +2,7 @@
 type: topic
 title: Product-Market Fit
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-06-16
 sources: []
 tags: []
 ---
@@ -97,3 +97,6 @@ The process of identifying a critical customer pain point and developing a solut
 - [[sources/btRHm7z61oo-drowning-in-email-is-the-first-sign-you-aren-t-scaling|Drowning in email is the first sign you aren't scaling.]]: The inflection point where a startup's focus must shift from discovery to operational excellence.
 - [[sources/r8hhvw-1b-M-roll-your-way-to-a-startup-unicorn-lessons-for-founders|Roll your way to a Startup Unicorn: Lessons for Founders]]: The stage where a startup's growth becomes self-sustaining and accelerates.
 - [[sources/dmv-nooN43U-masterclass-product-market-fit-10x-faster-with-amy-jo-kim|Masterclass: Product Market Fit 10X Faster with Amy Jo Kim]]: The process of finding a product that satisfies a strong market demand.
+- [[sources/49L8lVe_PVo-how-meesho-became-india-s-biggest-shopping-app|How Meesho Became India’s Biggest Shopping App]]: The process of identifying core user pain points and iterating until a product achieves organic, high-retention growth.
+- [[sources/ObBAxL2dFzw-groww-if-your-customers-don-t-love-it-or-hate-it-you-ve-already-lost|Groww: If Your Customers Don't Love It or Hate It, You've Already Lost]]: The iterative process of finding what customers truly want, evidenced by organic growth and high retention.
+- [[sources/yyXCQHX55N4-emergent-how-six-months-of-tinkering-led-to-a-100m-arr-company|Emergent: How Six Months of Tinkering Led To A $100M ARR Company]]: Moving beyond prototypes to deliver functional, monetizable software.

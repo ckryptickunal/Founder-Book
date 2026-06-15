@@ -1,0 +1,2228 @@
+Title: 5 Papers That Show Where AI Research Is Heading Right Now
+Video ID: 3rWSvrFahIY
+URL: https://www.youtube.com/watch?v=3rWSvrFahIY
+Channel: Y Combinator
+Published: 2026-06-12T14:00:20Z
+Duration: PT1H16M55S
+Views: 60919
+Likes: 2110
+Tags: YC, Y Combinator
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 2208
+
+Description:
+It's hard to keep up with the latest AI research. That's why we started YC Paper Club — a small group of researchers, engineers, and founders who meet every two weeks at our Mountain View office to present and discuss new papers together. In this session, we cover whether scaling laws hold for protein biology, AlphaZero-style self-play for language models, streaming RAG for real-time voice agents, formal verification with Lean, and why one founder thinks programming with agents is exactly like p
+
+============================================================
+TRANSCRIPT
+============================================================
+
+Thank you guys so much for coming. This
+one will have much a much more applied
+bent based on the feedback. We have a
+bunch of really cool people that I'll
+introduce in a second, but we're
+covering AI for uh biology by my
+favorite one of my favorite co-
+researchers, Yas Beg. We have Luke um
+out of Tatsu's lab talking about
+selfplay, Alpha Zero style selfplay for
+LLMs. Super excited about that. Arnob
+will be uh presenting he's a researcher
+at Giga on stream rag uh super different
+application you know thinking about uh
+real realtime voice uh agents uh Robert
+George working on lean for science super
+exciting and then the AI token maxer
+himself Luke Worthwine
+cool so I want to introduce some like
+call for presentations you know maybe
+inspire some of my interest and maybe
+inspire some some of you guys to jump up
+and and ask for a presentation on this
+stuff. I think memory has been like the
+hot topic for at least the last year and
+a half. There's been so many papers from
+mem zero to recursive language models
+cartridges out of uh our lab hnet, you
+know, dynamic chunking stuff. There's so
+many different ideas and so I'm
+definitely interested in that area. If
+you guys want to present on that, I did
+this Nome Brown podcast I think a couple
+weeks ago launched and like he's still
+of the view that this human generated
+subspace H is still if we train on that
+we can test time compute our way out of
+it and recursive self-improve out of it
+all the way to get to this F minus H.
+And I just like really struggle with
+this and I really really don't see how
+it's probable. Not that it won't it's
+not possible, but it's just not probable
+that we'll sample all of that. So, I'm
+really interested in that and that's
+definitely in Luke's. We were talking
+about that a bunch and I think that
+basically the left side is alpha go, the
+right side is alpha zero. And I think
+that alpha zero unbiased by um humans
+meandering is uh the way we'll get to
+much more intelligent systems, maybe
+even dare say agi. And the right way to
+say this um would be um I want to be
+very careful. If the full solution space
+f is f, training on known human
+solutions will limit you to some typical
+set h despite any feasible amount of
+test time compute or recursive self um
+improvement. You won't feasibly sample f
+minus h. Um and especially all of it. If
+if it's infinite recursive self
+improvement, infinite test compute
+maybe, but we don't have infinite. So
+life's a pom dp and this is a we're
+finite horizon mdp.
+Intelligence per sample. I think this is
+like the two major problems left in my
+opinion are intelligence per sample,
+intelligence per watt. And intelligence
+per sample. I always think about this
+like as I get one new sample, I do this
+continuous learning. What is the right
+thing to do if I'm trying my goal is to
+maximize performance condition upon that
+n. Most people's answer to this right
+now in practice is ICL. And I actually
+played with this. As you increase the
+number of samples in ICL, it is not
+monotonically improving in performance.
+And so it actually starts to bob and
+weave. It gets worse. It gets better
+sometimes. Um and then it hits a cliff,
+which is the context um uh length,
+context length that the model was
+trained on, and it literally just stops.
+So it clearly can't go on forever. It
+doesn't monotonically improve. And I
+started playing around with Laura. I
+think Laura at higher at lower ranks for
+uh lower amounts of sample size actually
+does impressively well. And then it has
+this kind of arc. They both peter out
+pretty quickly as you increase number of
+samples all the way until you do SFT
+group O all the way at the end. And if
+you look at this, it's kind of weird
+that like you have this like ICL is the
+optimal thing to do in the beginning and
+then training the whole thing. If I get
+one new sample, I want to retrain with
+Laura at some rank on N plus1 samples
+just to get that little bump in
+performance. And there's a different
+optimal thing to do all along the way as
+I stream and I get more and more
+samples. And that's just not how we are.
+So we're kind of like monotonically
+improving. And the more chess games that
+Magnus Carlson plays, he just keeps
+getting better. The, you know, 10,000
+hour rule, etc., etc., we just keep
+getting better. And it's the same algo.
+And so I think there's just something
+really different happening in us. And so
+there's must exist some learning
+procedure that is has a much higher
+intelligence per sample. And then
+intelligence for Watt out of my lab,
+Ivonica and John who will hopefully come
+to the next one uh and give a talk on on
+this. And I just think it's the right
+way to think about it. Arguing that
+having smaller models um are sometimes
+actually better from an intelligence per
+watt perspective. Alternatives to back
+prop for those that know me, I'm very
+hot on this. Back to the brain um and
+how we learn. There's very little
+evidence that the brain is taking the
+transpose of the weight matrix and there
+must exist some other learning
+procedure. I'm highly interested in
+SPSA, but if there's alternatives that
+I'm not aware of, please like recommend
+them. And I'm really interested in novel
+breakthroughs. Yaso is one of my
+favorite AI researchers, but he's mostly
+focused on bio and he always um sends me
+biopers and it's super interesting.
+Whether it's about how birds navigate
+the world via iron in their liver
+apparently that's how they they actually
+navigate
+crazy robotics, uh speech, other things
+like that as well. And then of course
+unhinge founder hacks very interested in
+that as well. Call for ideas on ways to
+make the club better. So, better ways to
+meet you if it's a lightning round if
+it's not. Um, some people talked about
+some AI benchmarks that we could
+actually launch together. That'd be kind
+of fun. Club challenges to challenge
+each other. And then, uh, any open
+source ideas that you want to hack on
+together for this club or something or
+otherwise. It' be very interesting. All
+right, that's all I got. Thank you so
+much.
+>> Hi. Yeah. Uh, thanks France for that
+introduction. We've been labmates now
+for like two years, something like that.
+Yeah. Um, I think France is a great
+example of someone who brings very
+creative and very out of distribution
+ideas to our group all the time, even if
+I sometimes like have no idea where he
+gets them from. Um, but um, that being
+said, uh, he asked me to give a talk on
+some bioai things and I thought why not?
+Um, so I'll be presenting on this paper
+that came out just last week from Biohub
+folks um, here in California, not too
+far actually in the Bay Area. I think
+they just moved to the city actually.
+Um, so I am a second year PhD student
+with France, but I'm also co-advised by
+Steve Quake over at Stanford. Sort of
+anyone in biology probably will know
+Steve at least tangentially done a lot
+of work in bioengineering and all kinds
+of applications was director of the
+biohub where this work came out um just
+until recently. So uh a lot of uh a lot
+of overlap but uh the high level pitch
+for this work is that I know most of
+this audience is probably more like AI
+ML types. I want to talk a little bit
+about how sort of a lot of these ideas
+from sort of that's motivating a lot of
+progress in language modeling and AI
+very broadly have been sort of recently
+been translating into biology with a
+focus on this recent paper because I
+think it really does a really excellent
+job of interrogating how scale which you
+know at some level has been like the
+fundamental primitive in terms of
+assumptions that we as a community have
+in terms of how to make things better um
+has actually been playing out for a lot
+of these biological problems
+particularly protein biology. So um
+there won't be like much bio in this
+talk. I'll try to focus more on the ML,
+but feel free to ask questions. Um so
+yeah, like I called this talk the uh
+bitter lesson comes from biology. The
+actual paper title is right below that.
+But I mean just a quick refresher. I'm
+sure everyone in this specific audience
+probably read Richard Sutton's famous
+article. You know, basic premise here is
+that like, you know, across the past 70
+years of AI, methods that win are
+methods that are general that sort of
+exploit really fundamentals of like
+scaling compute and data as opposed to
+methods that sort of handgineer human
+domain, human domain knowledge. And
+Sutton always cites his work in or like
+you know a lot of the work that was
+early in the field. So alpha go alpha go
+zero that's sort of just inordinately
+scaled compute and then for a long time
+they were far worse than sort of expert
+systems until they eventually overtook
+and then exponentially improve past them
+right knowledge systems win at first but
+then eventually sort of these like big
+large dumber models will like um you
+know win in the long run this is sort of
+a new goal in biology is to what extent
+can we study like this is actually also
+true for a lot of these sort of
+biological AI problems right um the bet
+sort of behind this paper and they do a
+really exploring is well the same
+pattern basically also saw protein
+biology right um can we take like you
+know a lot of these ideas in scaling law
+analysis here is from the um uh famous
+you know neural scaling laws paper and
+then translate them for all these
+problems that we care about for say
+designing a drug or like you know trying
+to understand how like a cell works
+right so on the left is something that
+we trust it's like a language model we
+have like this nice smooth log linear
+scaling laws that we see that moss like
+predictively falls as a function of
+compute and data uh the question on the
+right is whether this curve will exist
+for bio spec more generally but proteins
+specifically in this paper you know sort
+of does our LLM recipe transfer or does
+biology really out of distributional
+domain relative to language sort of
+break it right that's the bet and like
+in this talk I'll basically chat about
+like three like vignettes from this
+paper that sort of interrogate to what
+extent this is true
+so this slide is all the biology you'll
+ever need about a quarter of the slide
+at least for this presentation um let's
+talk about proteins so in your body
+there's like broadly three major classes
+of macro molecules. There's lipids,
+carbohydrates, and proteins. Um, a
+protein is just a string of amino acids,
+a special type of biomolelecule. There's
+20 varieties of amino acids. If you put
+them together into a sequence, you can
+have like a virtually infinite number of
+possible molecules that then fold into.
+So, you can think about it largely as
+just every single protein is this 20
+letter alphabet. And that string
+specifically determines a unique 3D
+shape. And by virtue of the shape of
+that protein, what job it does in your
+cell like presents catalyzes a reaction,
+keeps pathogens out, etc. Um, The work
+done in this paper is that their goal is
+to train um ESMC sort of their like
+third major or fourth major iteration in
+a long series of models of the group of
+evolutionary scale group originally at
+Meta then their own company now Biohub
+have been training for a few years now
+where the cell is very similar to
+language where we let's just take
+hundreds of millions of years of or sort
+of evolved sequences that we've sort of
+gone out and found across biology both
+in humans but also across bacteria and
+in our environment and just go train a
+big mass language model on them, right?
+So, I mean nowadays we mostly train NTP
+models, but the pitch here is that if I
+take some protein represented as like
+you know these strings of 20 tokens like
+hide a few and then can I train a really
+big BERT style transformer to predict
+mass positions as a function of the
+other ones nearby. And the crucial part
+is that we never tell it anything about
+the protein beyond just the sequence.
+Right? So all this guy's got access to
+is just this string and it's being asked
+to basically learn things about the
+grammar of that protein as a function of
+which protein other amino acids tend to
+co-occur with right so like I think
+there's like this old saying in natural
+language processing it's like you'll
+know a word by the company that it keeps
+and here the idea is that you'll know a
+protein by amino acids it keeps and the
+bet is that if we do this at scale just
+on the simple sequence task we will
+eventually get all these sort of other
+properties of protein say like structure
+that we do care about sort of for
+And uh yeah like I said before there's
+been a lot of prior work on this like
+largely from evolutionary scale but a
+few other or a few other sort of groups
+working largely on this bit. Uh this
+table will be a map for the rest of the
+talk. So like every row is a concept you
+probably already know from natural
+language and then analog onto the
+protein context. So tokens become amino
+acids. The internet becomes sort of all
+evolution sequence databases all the
+proteins we can actually go out and
+measure. Mass token prediction stays as
+mass token prediction and sort of
+emerging capabilities. we talk about
+language model having like become
+emerging structure and function within
+like basically understanding of a
+protein and then there's also sort of
+like this really fun stuff at the
+bottom. So like recently there's been a
+lot of advancements in sort of these
+interpretability toolkits from the mechi
+folks you know things like sparse
+autoenccoders some of the earliest work
+basically in really trying to
+interrogate um using the toolkit the
+language modeling community has built to
+understand language models now in a
+protein language model setting. So I'm
+going to fill in the right hand column
+for the rest of this talk with sort of
+evidence and three questions which is
+that do these models learn with scale?
+Um can they basically substitute for a
+lot of these handbuilt features sort of
+does the bitter lesson hold and like
+what do these representations actually
+encode interpretably? So question one is
+do scaling laws even hold in the protein
+context in the way that we see them in
+the language context. First let me just
+try talk a little bit what we measure
+when we're talking about sort of
+emergent properties sort of how do we
+actually like study the model see if
+it's learning anything right we need a
+proxy for does the model understand
+protein structure for instance right um
+the one the authors use in this paper is
+that they look at the internal or they
+basically take the model representations
+during training and they use this to
+predict um long distance protein
+contacts so the idea here is that
+proteins have a one-dimensional sequence
+but they fold into complex
+threedimensional shapes and if the model
+is sort of understood something complex
+about the protein structure or something
+emerging about the protein structure. It
+should be able to predict um contacts
+that occur over long distances sort of
+nearby contacts are rather kind of
+obvious and this is like a really
+challenging object for it to get just
+sort of denovo purely from sequences
+alone. They called this P at L right um
+sort of a long contact precision at some
+given length and it's just a clean
+unsupervised readout sort of structural
+knowledge inbuilt in the model that's
+learned during this language modeling
+objective. Um on the right I plot the
+performance of this or the authors plot
+the performance of this I should say
+against training compute for the for
+basically this new model family the
+authors have built recently called the
+ESM cranberry at 300 million 600 million
+6 billion parameter scales. uh
+interestingly and they had this fit line
+which is basically this predict compute
+optimality curve which they um estimated
+just from sort of lowend training runs.
+So relatively low computational budget
+and they find it actually extrapolates
+very cleanly to real model training runs
+meaning so the answer is like do these
+models with scale and this data at least
+suggests that the answer is like yes
+right like you do see this nice log
+linear curve right if you keep investing
+more and more compute you training more
+and more protein data with larger and
+larger models um you see the same exact
+same broad qualitative shape as the LM
+scaling or sort of LM setting and arrest
+retransfers cleanly meaning that without
+any kind of like predisposed part of the
+model that we've taught to look at
+purching structure even didn't get any
+protein structures. It does a good job
+of sort of picking these out just from
+sequence co-occurrence patterns.
+Um there's like one interesting twist
+though is that I said before there's
+been a lot of prior work from this group
+as well as others and trying to answer
+these scale questions. So not the first
+ones to look at this but previous models
+um so the sort of the prior generation
+ESM2 models shown in um purple here had
+actually not shown the same behavior.
+They sort of hit this wall where they
+kept adding more parameters and they got
+diminishing returns and you had this
+sort of flattening out the scaling
+curve. this ESMC or ESM Cambrian model
+sort of the green line keeps climbing
+with no plateau. And their fix for this
+wasn't really like they came up with
+like a really clever inductive bias in
+the architecture. Not to say there isn't
+a lot of excellent engineering work in
+this paper, but really it was just data
+scaling, right? They um had about 50
+million training samples in their
+original ESM2 paper and here they just
+pushed that to 2.8 billion by pulling
+largely in metagenomic data. So
+essentially amino acids or protein
+sequences that have been found from
+sequencing DNA actually out in like dirt
+and oceans and like human guts from like
+organisms that nobody has like really
+ever cultured or even has really really
+elucidated. And their conclusion is that
+more data ends up being really important
+and keep getting sort of uh are
+basically justifying the cost for
+increasing compute. So it's like the
+protein version of LM data wall
+conversation, right? Like except here in
+biology, evolution has been generating
+this train data for for four billion
+years and not humans in like the past 30
+or so. And you know compared to tokens
+in natural language like I mean we've
+only sampled like less than 1% of all
+known protein sequence diversity and
+that's like only currently at this
+moment in time let alone like all of the
+sequence diversity evolution has sampled
+since the beginning of life on Earth.
+Um sort of question two in this paper I
+think is interesting is that um it's
+sort of the most bitter lesson part and
+they really try to evaluate to what
+extent their paper can do or how well
+their model trained purely on mass
+language modeling objectives can compete
+against a structure based model with
+sort of handtuned inductive components.
+So I'm sure you're all familiar with
+Alphaold won the Nobel Prize a few years
+ago was sort of a landmark moment in bio
+really show that these computationals
+have a lot of value in the biology
+sphere. Alfold is brilliant but its
+power comes from basically building
+handput in or handbuilt inputs sort of a
+manual feature curation called a
+multiple sequence alignment or an MSA.
+So to fold a protein it goes and finds
+hundreds of evolutionary cousins of that
+protein and stacks them up. Um these
+patterns of sort of coariation across a
+family are essentially this encodesical
+information you need to do to be able to
+get structure. This is like a beautiful
+domain engineering application and it's
+the sort of like really good human
+crafting objective bias that the bitter
+lessons at least claims should
+eventually lose right think like hog
+features in CD and compared to sort of
+things we used to do before this is
+actually like far more bitter lesson
+than like say building a whole physics
+simulator for a protein but it's also
+really slow to do this right we need to
+build this huge databases the sequence
+alignment it takes time right and it's
+absent precisely where you often want it
+for instance the antibody design task we
+come back to at the end um ESM just
+throw this away all it says is it just
+takes input sequence and instead of an
+alignment and it just feeds in the
+model's representations as the input to
+their structure predictor and these are
+just like per residue embeddings. So
+take your input sequence you get a set
+of like per amino acid just like some
+numerical representation and we just
+train the specialized module to do
+predicting the like large protein
+structure right so this folding network
+it's kind of like a projection into uh
+3D corded space so same target same
+output no handbuilt features and the
+question becomes can this general model
+representation like match the sort of
+specialist model in getting that MSA
+value one interesting architectural note
+though for sort of the more ML folks in
+the crowd um the one there in their
+projection networks for the part that
+converts representation to structure.
+There is actually one really interesting
+feature that actually builds off some of
+the work from our lab alum Dan Fu. Um
+and they have a actually a looped model,
+right? I mean there's a lot of
+excitement about these recently for
+parameter sharing and I just think
+they're cool algorithmically for a
+number of reasons.
+And this is gives them basically a lever
+by which they can scale inference time
+compute, right? So essentially they have
+a model that predicts structures and
+they have a procedure by which
+representations can be fed through a
+series of layers and sort of refine
+their structure predictions without
+necessarily retraining or any kind of
+fine tuning. This is like our test time
+compute access and something like say
+diffusion steps could be or like test
+time sampling from LA lab. I'll keep
+this in mind just for later results. And
+the sort of like headline figure I would
+say pointing out here is that um they
+basically show that yeah their technique
+works really well. Um just a quick
+definitions on the left we have this
+thing called DOCQ pass rate. This is
+just a metric for how good your
+structure prediction was. Essentially
+it's a measure of the fraction of test
+cases where the predicted shape of two
+proteins stick that stick close together
+is close enough to be like really useful
+to realistic settings. And there are two
+groups in each panel. One is for single
+sequence with no MSA and the other is um
+a single sequence plus an optional MSA
+you can also feed to the model or is
+required for competitor model. And when
+we look at the sort of outcomes from
+this, what we see is that for general
+protein protein complexes, ESM fold 2,
+their sort of new projection model from
+a single sequence with no MSA lands
+within about three points of alpha 3
+which does take these handcrafted
+features. So we get near par without the
+crutch and but if we look at the
+antibody applications which is on the
+right on the left hand side here right
+um the modality but is like you know
+essentially behind like all modern NC or
+MAB based drugs or monol antibodies tons
+and tons of applications in human
+biology and biotech. um we are actually
+winning or are comparably winning or the
+authors are comparably winning. So
+broadly like single sequence ESM fold 2
+does actually build alpha fold 3 sort of
+50 versus 47 on this really specific
+design task that people really do care
+about and biologically this makes a lot
+of sense compared to say like um other
+classes of proteins the amount of sort
+of sequence variation that's been
+sampled in the space of all known
+antibodies relative to structure is
+considerably smaller considering their
+enormous diversity. So the headline
+isn't that MSAs are dead yet, right?
+It's that handle features only help
+where it's abundant and basically where
+drug designers really need it often does
+go away. And this general method still
+basically just save a lot from
+pre-treating across all known
+revolutionary contacts.
+So we're not quite there yet. And one
+other thing though worth flagging is
+that a second point says give it MSA. We
+can also scale the amount of test time
+compute. So how many loops we run in
+this recursive model in order to prove
+performance. And we do see um basically
+returns on this meaning that like the
+better loss at least at inference time
+also seems to broadly hold. And it's not
+just accurate just as an aside. This is
+just quick um it's also just much
+faster. MSA construction just takes a
+lot of classical computational biology
+time. So at least if throughput is your
+concern or latency is your concern, you
+can with this single representation like
+get quicker results. Though the wall
+clock times here are like you know well
+within like I would consider to be
+pretty good to start off with.
+Um, and the last bit, I'll get through
+this a little bit quicker, is just they
+did a really interesting analysis of
+like sort of mechanistic
+interpretability, like what are these
+models actually learning and sort of can
+we find features that are interpretable
+as humans in the same way that sort of
+language modeling folks in the Mechai
+community have found in language models
+like anthropic has. Um here they sort of
+just apply the same tool or they borrow
+a lot of the tools for like sparse
+coding analysis here where they look at
+activations from these models and try to
+see if they can decouple them find these
+like mono semantic activating directions
+inside their feature spaces and they ask
+is this also going to be a property in
+protein models and their answer is
+largely yes um right so from like pure
+fill-in-the-blank pre-training the
+model's latent space decomposes into
+clean features that correspond to real
+biological concepts here the these
+concepts have been annotated by LM
+agents And they're organized actually
+quite interestingly in a nice hierarchy.
+So you have like features that
+correspond to say individual amino acids
+at the bottom then like structural
+motifs then like whole protein domains,
+right? So look longer or larger portions
+of the individual protein molecule up to
+like functional sites and whole protein
+roles, right? And none of this was
+supervised, right? The model like
+learned to organize its latent space
+purely just through MLM, which is like
+crazy. Um
+I'll just with one example maybe to
+close things out before I finish
+everything and I think I'm actually have
+one more slide after this. Um this is a
+instance of a feature activation that
+corresponds to a really specific
+well-known protein motif called the
+nucleophilic elbow. This is a type of
+catalytic domain that's used in a lot of
+enzyme catalysis. It's really
+interesting because it's evolved
+multiple times in multiple different
+proteins unrelated to each other. So
+it's a it's a vitif biology keeps coming
+back to and the model has basically
+learned to identify in the four quite
+structurally diverse proteins from like
+both evolutionary distance as well as
+the rest of the protein. So it's like
+found a consistently occurring motif in
+very different backgrounds. So it's like
+it's basically learn to look at the
+right thing not just sort of memorizing
+like you know broad similarly comparable
+sequences. It's like a deeper level of
+intuition.
+And if you look at the sort of the whole
+SE activation space, you can find like
+nice structures that sort of correspond
+to like various known aspects of
+biology, right? This organization isn't
+just local, it scales to all of life,
+right? So they um ended up building
+actually a huge atlas of their pro with
+their model afterwards sort of just
+folding and analyzing um millions of or
+up to I think seven billion proteins.
+This is the largest atlas I think out
+there in alpha protein structure
+databases, more than alpha folds even.
+And they've predicted like you know O of
+a billion of these as I mentioned before
+and laid them out here by the
+representations in SAPE space and you
+get like a really nice interesting like
+protein space family map right you can
+find that there's clear families that'll
+cross clear here are like for instance
+crisper castine enzymes which if you're
+not a biologist maybe you still probably
+have heard of and really important for a
+lot of biotechnology applications it's
+kind of like a Google maps from proteins
+and it's produced all as a byproduct of
+the model right like just naturally it's
+like picked up evolutionary relationship
+as well as functional ones just denovo
+for free which I think is like I don't
+know if you're maybe not a protein nerd
+like me I just think this is like
+utterly crazy right
+um so like just to finish like does a
+bitter lesson scale to biology not
+perfectly yet I mean some of this
+analysis still requires a lot of
+handcrafted features and it's not fully
+competitive but we're getting very close
+um but even if we just don't care about
+one specific downstream the model just
+from a relatively quite small amount of
+or like a relatively quite simple
+pre-training objective and a lot of data
+has like learned an enormous amount of
+bio that we can reverse interrogate
+after the fact um and just for record
+like they found that data scaling does
+keep improving. Um I want to just point
+out you know partially as a process like
+our partially just like try to convert a
+lot of smart people like we have in the
+audience there's lots of folks work on
+ML a lot of applications software um
+biology is a great place to work in ML
+because the models are still really
+young and the other thing is that the
+data is increasing exponentially per
+year and that rate of increase is also
+going up meaning that like we're not
+data limited it's a great time to work
+in this space and we need a lot of these
+tools uh and any audience members
+watching this on YouTube similar pitch
+um just as one last thing um I didn't
+get talking into detail but the one
+application they use for their models
+for inverse design. So they actually
+develop a lot of potential protein drugs
+and they validate a lot of use at least
+in um wet lab settings to show that
+these are potential like proteins that
+you can design using this model purely
+in sequence space for the most part by
+the way um with the exception of like
+one structure head at the end um that
+bind various like known molecules that
+have therapeutic effect right so for
+instance uh this PDL1 binder is
+basically the most or is like basically
+a medication that is now the sort of big
+success of amunotherapy it's helped
+plenty of patients with cancers in ways
+that historically have never been able
+to tackle before, right? And developing
+medications that sort of targeted this
+protein was immensely challenging. And
+like if we can basically reduce the
+costs for developing such future drugs
+for future targets, it would have
+enormous human impact. So like even if
+the data scale doesn't sell you, then
+maybe some of the human impact will. But
+broadly speaking, it's a really exciting
+time and it's wonderful to see that a
+lot of these lessons are at least
+translating and people are really making
+steady progress.
+Okay, next we have Luke. um second year
+PhD out of uh Tatsu and Tangu's lab uh
+fresh from the UK. Then he went to
+Harvard CS uh worked on adversarial
+robustness and now post-training
+selfplay and is directly uh uh in the
+spirit of this um alpha zero kind of
+mindset and so we've been chatting with
+that about that a lot. All right, please
+welcome Luke.
+Okay. Hi everyone. Um, yeah, I'm Luke.
+Um, I guess I'll be presenting on
+this paper we put out uh a few months
+ago called Scaling Selfplay with
+Selfguidance. I guess more generally,
+I'll be talking about selfplay for LMS.
+Um, this work was with some great
+co-authors, Caillou, Kan, and my two
+advisers, Tatu and Tangu.
+Okay, so um, what does the current
+training stack look like for big LMS?
+Two simple parts basically. We pre-train
+the model on web text and then we
+postrain it. And interestingly recently
+the post- trainining we've ended up
+spending you know a huge amount of
+compute on doing large scale long
+reinforcement learning runs. And what
+does that reinforcement learning look
+like? You collect a huge number of tasks
+coding tasks maths tasks tasks
+interacting with different bits of
+software. And you just have the agent
+take a bunch of actions in those
+environments. you get some reward back
+and we train the model on that data
+upwaiting the good rollouts down waiting
+the bad rollouts and like I said the
+interesting change that's happened is
+we're now approaching the amount or even
+surpassing that we're spending on
+pre-training actually on this very long
+running RL post training and I've swept
+some things under the rug that we do at
+post training as well like a bit of
+instruction tuning and and uh alignment
+but really most of the compute spent on
+these long RL runs
+okay so we also know that as we increase
+the number of uh RL tasks during post-
+training and we increase the amount of
+compute we get better downstream
+performance and I think this is best
+illustrated by this like really
+beautiful plot from the composer 2
+technical report from cursor where what
+they're both basically showing is they
+have loads of RL tasks such that they
+only ever the model only ever sees each
+task once and so on the x-axis scaling
+training step is basically each training
+step I'm putting in some compute and a
+new RL task and what they show is nice
+smooth line as you increase the amount
+of tasks and compute you put in, you get
+this reliable improvement.
+And I guess they had this nice eval set
+on the left, but they also have a
+downstream benchmark on actual coding on
+the right. And that's also like
+increasing reliably in a really nice
+way. This recipe tells us great, just
+collect more and more RL tasks, put them
+in a loop, and model going to keep
+getting better and better. But
+generally, we're going to have to
+collect these RL tasks by hand, which
+might be a problem if you want to keep
+on feeding. You'll notice log scale on
+the x-axis there. And I guess there's
+another problem where you might think
+that um eventually we'd like the model
+to surpass any of the problems we can
+give it.
+So I guess the question that Cell Play
+asks is how can we automatically
+generate new RL task to the model, train
+on those and repeat.
+Okay, so like I said in traditional RL,
+we'll have a predefined task and we
+train the model on that predefined
+environment and task.
+But in selfplay, we do something
+slightly different where the model does
+two things. It's going to generate RL
+tasks and it's going to attempt to solve
+those tasks. And crucially, we train it
+to be better at both of these things.
+So, we train it to be better at in
+virtual commas, we'll go through what it
+means to be better to generate tasks and
+then also to get high reward in those
+tasks.
+So, how do we fit I guess some papers
+we've likely seen from the past into
+this description of selfplay? Because
+you might be thinking, this doesn't look
+exactly like what I thought of when I
+read the alpha go alpha zero paper. So
+those traditional works we'd call
+symmetric selfplay.
+And in this case uh let's say in alpha
+go how you train the model is you have
+the go agent and then you have the rules
+of go and you have the go board. That's
+great but that is nonrl environment I
+can interact with. Like I need an
+opponent to play against. And so this
+generate RL task part. They have an
+older version of the agent take the role
+of the opponent. So in this case
+generating the task because I just put
+an older version of myself in there and
+now I have a nice RL task. It's a go
+board with an opponent.
+So this would traditionally be called
+symmetric selfplay because the model is
+taking on the same ball twice, a go
+player.
+More recently, however, uh in the LM
+space, there's been the rise of
+asymmetric selfplay. This actually hails
+from a lot of older work on control
+problems and things like this. But
+asymmetric selfplay, we instead more
+generally just have a model that I will
+call in this talk a conjecturer that
+will just generate entire RL tasks for
+the solver to then operate in. The
+solver is the equivalent of the agent
+here. So the conjecturer might come up
+with a coding problem and then come up
+with a bunch of unit tests and then
+it'll go into that environment to do a
+bunch of rollouts, get reward and train
+on that.
+Great. So so why do why am I excited
+about selfplay? Why do I think you
+should be excited about selfplay? So I
+guess this first point is
+the first point I have to go go in some
+some depth. So so in principle nothing
+bounds learning. And what do I mean by
+that? So if I take a bunch of
+demonstrations from humans and I train a
+model on that, I think it's clear that
+the model will never get better than
+those demonstrations.
+So the next step is okay, I'm going to
+create a bunch of environments out of
+the model learning those environments.
+That's regular RL. We have two problems
+there. One, if you ace all of the
+environments, you'll never get any
+better. Or the second problem is if I
+can't even get any reward in those
+environments, I will also never get any
+better. So selfplay on the other hand is
+going to say I'm going to keep on
+generating new learning signal with new
+tasks. learn it and just keep on
+improving hopefully forever.
+And indeed, we saw this was the case
+with two-player games like Go. It just
+kept on getting better beyond human uh
+performance and kept improving. So, the
+promise for LM is I can take some I can
+train on a bunch of human data. I get to
+like human level and then I can run
+loads of selfplay and go far beyond that
+and hopefully solve really interesting
+problems with with our models.
+But unfortunately, this is not how it
+works.
+So in practice if I run which we'll get
+into this talk if I run selfplayer for a
+long time it plateaus I the model stops
+improving at some point which is the
+exact same that happens when you run RL
+like as much as I'm trying to tell you
+there's a bunch of secret source going
+on like it doesn't actually play out.
+So basically this paper we try to figure
+out like why is this happening and then
+like do one step to solving the problem
+but by no mean by no means completely
+solve it. Okay. So to begin with we need
+to understand like the baseline LM
+selfplay algorithm pretty simple we're
+going to sample synthetic tasks from the
+conjecturer which is just our model
+conjecture and solver same model just
+given it two different names the model
+will then the solver then attempts them
+and we verify the correctness using
+some reward signal somehow like perhaps
+the conjectur wrote unit tests for us to
+check and then we're going to update the
+solver just on all the correct rollouts
+and then this is the key part the
+conjecturer gets updated ated on this
+reward which is zero if the prover if
+the solver could not solve the problem
+and one minus the solver rate otherwise
+okay what is that actually doing that is
+basically saying all the conjecturer
+must do is produce problems that are
+hard for the solver model and I think in
+principle that makes a lot of sense the
+idea is if the conjecturer can ace this
+I will keep on giving you problems at
+the frontier of your capability you will
+be able to solve them and learn from
+them and we'll just keep on expanding
+and expanding expanding and get better
+and better and
+Okay, so let's see how this recipe does.
+So we take in our paper like 3,000
+formal math problems. So this is just uh
+in lean for you can write out the
+problem statement in this coding
+language in math. So you write out a
+math problem in this coding language.
+You can write the proof in the coding
+language. Then you can automatically
+verify if it's correct. So we take 3,000
+problems and we run like our best RL
+baseline on it. And this is the amount
+of compute we put in here. And on the y
+axis we have how many problems you
+solve. And you can see it plateaus out
+and we fit a law and it asmmptotes at
+like 60%.
+And if we on the right hand side we're
+gonna say how much synthetic new task
+did we generate. RL generates no
+synthetic task. So by construction this
+stays at zero. Now I'm going to fill in
+the vanilla selfplayer with that solver
+rate reward. And I'm not going to show
+the left for now. We see as time goes on
+the conjecture gets better and better at
+its job. It keeps on generating more and
+more tasks on the frontier of the
+solver's capabilities which seems really
+good and yet these tasks are completely
+useless. The cell play does no better
+than regular RL.
+So this is not very promising. So now we
+need to understand why. And here what
+I'm visualizing or I'm literally showing
+you is one of the problems the
+conjecture generates late on in
+training. And we don't really understand
+this. I've highlighted in blue that the
+conclusion to the statement in lean. And
+if anyone's using that this is horrific.
+This is an incredibly complicated,
+overly complex disaster of a statement.
+And so what is basically happening is we
+reward the conjecture for producing
+tricky problems. But the easiest way to
+produce tricky problems is produce these
+basically messy, artificially complex
+and elegant problems. It is the exact
+equivalent of if I wanted you to get
+like 50% solve rate problem, I could
+just give you like a three-page long
+high school calculus problem and you
+would make some little mistake
+somewhere. But that was a completely
+useless synthetic problem for like other
+tasks we care about in maths for
+example.
+Great. So how do we fix this in a minute
+because I've been talking too slowly.
+So we've diagnosed this problem. Here is
+like roughly at a high level how we try
+attempt to solve it. So there are two
+parts of our algorithm SGS self-guided
+selfplay. We're going to take the set of
+problems we cannot solve the 3,000
+problems and we do two things. one for
+each of those problems we cannot solve
+we're going to get the conjecturer to
+produce a related problem to it. So once
+you prompt it to produce a synthetic
+problem that is related. So this way
+we're trying to ground the synthetic
+data distribution in a distribution of
+problems that we think is good at least.
+And next if you still just trained on
+the solvent rate reward you would
+eventually ignore this prior and still
+produce that junk. So we're going to
+introduce a new reward signal which is
+the model takes on a third role and it
+will literally judge it looks at
+synthetic problem and the target problem
+it came from and decide if these two
+things are actually related and not
+overly complex. So we call this third
+component a guide.
+Okay. So the algorithm looks like this.
+It's very similar. We for every target
+problem we haven't solved we'll sample a
+conjecture uh from the conjecture that
+is related to it. We then will attempt
+to solve them. And then what changed
+here is when we update the conjecturer,
+we now have this dual reward. One, we
+still want the problem to be tricky.
+That is important. So we can get RL
+signal on it for the solder. And we'll
+multiply it by this guide score. Great.
+Okay. There's a bunch of kind of
+subtleties we cover in the paper that I
+will skip over because we don't have
+loads of time. If you want to talk about
+I'm going to say largeish scale RL
+infra, the academic size. That's what I
+spent most of my time doing. So I would
+like to talk about that, but there is
+not time. So let's just look at the head
+headline results here. Here is basically
+the same type of plot. I've put the RL
+baseline on here. Recall that like
+standard selfplay is exactly in line
+with that. We've also put parallel
+sampling down here just to show you that
+indeed RL at least gives you a boost.
+And I guess I wouldn't be here unless
+our method works better. So the method
+does work better. Um like ground how
+much better it's doing. We we we were
+using a 7 billion parameter model here
+and this is it like 670B like big
+brother and we spend eight times as much
+compute doing the selfplay at this you
+yeah we do eight times compute the
+selfplay but we get like to the ability
+of that larger model at least it's pass
+up for ability so you spend a lot more
+compute but we are able to get this like
+little 7B guy to do as well as the
+bigger model but very sadly you will
+notice like this is not at 100%. So like
+the work is is by far not done. The
+problems itself plays like you would
+just ate all the problems here and so
+there's a bunch of well there's lots of
+future work but luckily a PhD is very
+long so I'll be able to work on that.
+Um but yeah that's the summary.
+Awesome. Thank you so much Luke Bailey.
+Okay uh next one we have Arnab Matei. Is
+that the right way to say it? Matei. um
+who is a researcher currently at Giga
+one of YC's fastest growing companies I
+think market cap is like 400 million 300
+million something like that now so
+really fast growing YC company uh PhD
+University of Washington focus on bandit
+learning um yeah please let's tell us
+about stream rag
+>> so um there's a paper by the group at
+meta and I kind of chose chose this
+paper to kind of maybe highlight some of
+the new emerging challenges that are
+coming up especially in a voice AI kind
+of setup. Um my goal with this talk is
+not more like about talking specific
+details about this paper but more like
+to highlight the good problems that they
+have identified and I feel like there's
+a lot of research that is to be done
+here and it also kind of closely mirrors
+what at least I do in my production uh
+setup like I look at these kind of
+problems I do the research and then I
+try to come up with a method that will
+work probably in production. So yeah,
+let's get started. This is a very
+classical setup where uh you probably
+ask a input question to an alm and it
+gives an output. And if you remember
+maybe from 2023 maybe there was a lot of
+hallucinations but especially like say
+around citations and all but over time
+maybe the hallucinations went down and a
+big role
+was uh rag like you kind of give the
+input query to a rag system. it kind of
+goes and figures out relevant
+information that needs to be provided to
+an LLM and then the LM probably gives
+you an output which is hopefully not
+hallucinated.
+Now uh a lot of voice AI uh startups are
+also coming up and
+a natural expectation with the voice AI
+is that okay you're having like a
+conversation like oh you can ask oh
+what's the weather like and the agent
+would reply like hey the weather
+currently is like 22°C
+and so on and maybe you can ask a
+follow-up question so it's more like
+conversational in nature
+and so even here as well you would like
+the output to We like there shouldn't be
+any hallucination. Especially in voice,
+we care about this even more because
+from a human perspective, it's difficult
+to kind of actively catch hallucinations
+when you're listening to it compared to
+like when you're reading it over text.
+So one might ask, okay, what's the issue
+with just using rag here? like can't you
+just take the input query take apply rag
+give the relevant information to the
+voice agent and get the output the issue
+is that rag would add a lot of latency
+um like for example if I ask a voice
+agent some question and the voice agent
+takes 10 seconds to reply that's not at
+all natural especially if you want to
+have some sort of natural conversation
+so that's where this paper kind of looks
+at A very clever idea I would say uh
+which is like instead of like waiting
+for the question to end and then
+activate your rag pipeline you kind of
+start analyzing the words that are being
+spoken by the user and somehow figure
+out a way to
+run the rag system while the question is
+being spoken. Like for example uh like
+you might ask like hey what's the
+weather today like I'm I want to decide
+based on that whether I want to go out
+or not. The main question is in the
+first part. So the second part of your
+question might be irrelevant. So we want
+um some sort of uh mechanism via which
+we can figure out okay uh when to call
+this rack system and appropriately get
+the right uh information.
+So this particular paper focuses on two
+approaches. Uh the first one is fairly
+simple. Um so it's called fixed rag uh
+fixed interval streaming rag. So the
+idea is like you divide the audio into
+certain blocks and after each block
+arrives you can like run rag on every
+block. So
+uh so after when the block B arrives you
+run your rag get the results for the rag
+RB and you keep on doing till this uh
+till the end probably. Now the question
+the main question here is like which
+block to consider because you ideally
+cannot like wait the entire goal was you
+cannot wait till the end and then run
+the rag. So what do you do? So the main
+uh maybe idea here is that rack pipeline
+has lot of mini components. So maybe
+some of the components are like easy to
+run or like more faster to run. So for
+example uh you can kind of get some
+documents very quickly and you can say
+okay for the entire query what were the
+top documents and for the intermediate
+query what were the top documents and
+are they matching or not? This is just
+one of the ideas which is from the
+paper. Uh and then based on that you can
+decide okay should I go ahead with the
+intermediate query and uh just do the
+entire rack pipeline on that. Um so the
+thing I want to stress is not the method
+per se but the point that okay when you
+are getting this uh input in chunks at
+what point can you stop and say that
+okay like this chunk is like super
+relevant for me. Uh so this is like an
+active question I would say like how
+would you do that? This uh paper does it
+in a very simple manner which is just to
+maybe look at the initial path of the
+rack pipeline and if they kind of match
+like if the end path matches the
+intermediate part then you go ahead with
+the intermediate and let the full rack
+pipeline complete. Another approach
+could be like you you can probably
+fine-tune a model to kind of trigger on
+its own like when to call the rack
+because in the previous approach you
+were calling rag on every single chunk.
+So maybe that's computationally
+wasteful. So what you can probably do
+is when a particular chunk arrives you
+can maybe fine-tune some model and ask
+it to decide whether
+uh this chunk uh is like in critical new
+information and you should generate a
+new query or the query that you
+generated based on the past chunks are
+good enough for you to just answer the
+question. And uh based on that you can
+generate the final audio.
+Yeah. So in in the paper they kind of
+describe a post- training pipeline. What
+they do is like they kind of uh for the
+partial uh spoken uh question they kind
+of generate some pseudo queries using
+some LLM and then uh they run a rag on
+that and they look at the retrieved
+documents
+and based on the retrieved documents
+they kind of decide okay is this uh
+partial query like uh something new or
+is it already like we already have the
+useful material.
+So in this okay um in this paper
+essentially they are kind of basing
+their decision based on the retrieval
+quality of the partial question so far.
+That's that would be my takeaway. But
+maybe there are different ways in which
+you can do this assessment. Maybe you
+can look into the semantic of the
+question so far like is the partial
+question so far good enough for me to
+answer this question just by looking at
+the question. No no no need to do this
+entire lag pipeline. So there are my my
+point is like you need not uh this need
+not be the only way there might be so
+many different ways and that's where the
+research maybe uh is required like while
+a user is speaking their question how do
+we like on like why instead of waiting
+till the end how do we like figure out
+okay this part of that question is good
+enough for us to go and do the retrieval
+yeah so that that's what they do
+probably I'll
+quickly give a glimpse of the results
+from the paper. Um
+this paper is a year old. So they were
+like yeah looking at some smaller open
+source models. Um so they were they kind
+of considered the rag benchmark
+converted into audio and uh showed that
+the latency kind of decreases for the
+synthetic data sets by 0.5 seconds and
+for human data sets like human spoken
+data sets by uh almost like 1.5 seconds
+and uh the accuracy
+uh comparison like uh if there was rag
+uh after the final query and streaming
+rags it kind of remains the same like um
+yeah so yeah so that's what the paper is
+about so like the key takeaway is like
+there are some interesting small
+problems here like but if you can crack
+the small problems it can lead to huge
+gains in the production yeah thank you
+okay next up we have Robert George. Um,
+come on up. Uh, thirdyear PhD at
+Caltech.
+>> Yes.
+>> Okay. My brother got his PhD at Caltech.
+>> Um, and, uh, you work on AI for math and
+science.
+>> Yeah.
+>> Um, and what are you going to tell us
+about?
+>> I'm going to tell us about lean.
+Basically, Luke already told a little
+bit, but I want to go more in depth. So,
+I'm going to be talking about lean and
+what I think is this new era of verified
+intelligence. Um so let's get into it.
+So again there's bunch of breakthroughs
+in the past like couple of weeks itself
+like first I want to go back like two
+years before you know like we said that
+IMO open and even deepine actually at
+the 2024 IMO got the gold medal then you
+know there's this very famous problem
+list which is very famous right now
+where people are trying to kind of solve
+new open unsolved odos problems and you
+know you can see that it's keep on keep
+on increasing with the new models from
+like open AAI depend and all. Um just
+two weeks ago OpenAI claimed to solve
+another big breakthrough 80-year-old
+Odosh problems. You know Terry Tower was
+has this promotional video at OpenAI
+which he showed really well about these
+kind of things. And then last week
+Deepmind released something also solving
+bunch of new not only ODOS problems but
+problems in like other different fields
+right but this paper is cool because
+they also use some kind of formal
+verification in the loop. So I want to
+say that you know we all took like high
+school calculus we took undergrad
+college math courses and all this you
+know informal math is very very flexible
+right um your your professor say
+sometimes you know proof by QED like you
+know sometimes it's like proof by
+intimidation or something that right
+there many of the steps are not fully
+written down but this is where I believe
+that you know formal world is like you
+have to be fully explicit right and I'll
+talk and introduce the language lean
+again before lean In past couple of
+hundred years, you know, people have
+been doing formal math a lot, but you
+know, lean has just kind of this really
+good design language just kind of taken
+off, right? So again, first thing is
+it's very easy to check if a proof is
+correct or not. You cannot fool this
+theorem prover. Secondly, uh it's
+scalable. Again, there's bunch of issues
+over there, but I can talk more about
+that soon. So before that I just want to
+give you like a precursor. So people do
+know about like um there was a thing
+previously like in the 1990s even right
+now actually 2020s and all this is
+there's this thing called automatic
+theorem provers which are basically like
+SMT solvers um they are basically um
+minimal effort from humans you know but
+they're very limited expressivity in
+what type of mathematics they can encode
+in some sense right and on the far right
+hand side you can see interactive
+theorem provers like lean rogue Isabel
+which are very have a much more stricter
+like expressive logic system. So it's
+based at least some of them are based on
+dependent type theory but much more
+effort from humans to kind of write down
+these proofs right like if you're
+talking about like 10 years people have
+been contributing to this very famous
+library called math lab in lean um
+there's a lot of human effort to kind of
+pick premises and all this and again we
+all know how good LLMs are right now at
+kind of combining with these kind of
+theorem provers to kind of do proof
+checking for like research level math
+right and it's so much news that I you
+know if If I go on Twitter right now, I
+can open up a bunch of posts saying how
+much progress past couple of hour
+probably in some sense right so first
+thing is I want to introduce why leen
+you know Luke mentioned this formal very
+messy language but I actually think it's
+a very beautiful language again one can
+argue no but um it's a very fast
+language again it's also people think of
+it as only a theorem prover but it's
+actually also a functional programming
+language right you can use it as a
+programming language itself so it's
+compile checking Um it's very good
+unified. So this is what like the proofs
+and programs. Um you can do like meta
+programming, you can do macros, custom
+automation, you know, you can I've seen
+people trying to even create like games
+on with using lean, right? It's actually
+super cool. So lean has something called
+the foreign face interface where you can
+do like external library bindings like
+you can do on the CUDA or something that
+um I want to point out the math liy. I
+think that is the coolest biggest
+formalized math library out there. um I
+forgot how many number of lines probably
+at least in a million or so but all of
+these are really high quality math right
+from like say topology to algebraic
+geometry and all this and again it's an
+interactive theorem prover so you always
+have to you know the human can sometimes
+be in a loop but it is also a very
+scalable language because you know not
+only frontier labs are pushing a lot of
+money into it and also the world is but
+um there's more data being generated
+either through synthetic or like a lot
+of people like even myself I do manual
+formalizations. Um so just very short I
+don't want to take time but this is how
+a simple lean code looks like like in VS
+code you have like an info goal view
+which shows like what are the current
+kind of sub goals. So goal is basically
+like what are you trying to prove at
+this step. So the first theorem is like
+you're basically showing associivity of
+addition of like natural numbers right
+like a plus b plus c is equal to a plus
+c plus b and each line in a proof is
+usually called like a tactic. So usually
+when people talk about like proof search
+they mean like you know you can search
+over this kind of tactic space there are
+methods where you do foolproof
+generation but you know these are the
+two different axis. So this is how lean
+code looks. It's not as bad as it seems.
+It's a steep learning curve. I think
+it's much better than even C++ in some
+sense like learning but um you at least
+get really um at least for me I get very
+happy when I see oh I've fully proven
+this theorem right there's no
+assumptions like I cannot like handwave
+or fool the lean kernel basically like
+you have to be fully 100% sure um now I
+want to talk about the formalization
+breakthroughs right I talked about
+informal but actually the first book was
+actually in 2020 Ilia and uh Stan was
+from open they released something called
+GPDF um this was first generative
+language model for automatic theorem
+proving mini F2F is just like a Olympia
+level kind of competition but you see
+the amount of progress like it's kind of
+exponential right like from open source
+models big players in China in the US
+Canada like across the entire world um
+last year's IMO you know again deep mind
+claimed to not have used lean I if you
+see the open air solutions some kind of
+DSL of lean kind of stuff in the
+solutions um but even Steve prover from
+China also got the IMO gold And then
+obviously there's a bunch of like axi
+improver there's harmonic AI like they
+got recently in the pakam they got all
+the 12 problems solved
+most of the odos problems now when
+people are saying they kind of um claim
+to have a solution using AI they also
+prove it um using like say Aristotle
+from harmonic um and then another
+amazing work was kind of this fields
+metal work from math inc and obviously
+the Google Google deep mind stuff in
+some sense right and again I love the
+fact that you know everyone's is talking
+about math and all but you know for me
+personally there's also these two other
+bubbles right like there's also code now
+one can argue what is program
+verification as well you know bugs are
+really expensive it's like a huge
+trillion dollar industry wide coding is
+all of a sudden really great like
+everyone is generating but we I want
+code that needs guarantees right I think
+that's like something which I'm very
+interested in and also AI for science
+matters like there's uh repro uh
+reproducibility and all this kind of
+stuff so I want to go through this
+really fast but um LMS can write code
+but can they prove it's correct um you
+know there's scale of generated code
+there's that of bugs uh how can you kind
+of capture human intent and the
+verification language and again in short
+I want to talk about like program
+verification is like there's these three
+concepts where humans actually always
+have some kind of like specification
+about like what they want their code to
+do so a proof is basically saying that
+the code kind of satisfies that
+specification um there's this work which
+I introduced called bridge where you can
+use this lean as a functions programming
+language to kind of elicitate the llms
+to kind of prove this kind of code
+better. Um so I like this code from max
+tagm where they say that we should shift
+from actually wide coding to like very
+coding right. Um verifiable coding will
+be like definitely I think a much more
+better way. Um and you should contribute
+to CS lab. This is started from Clark
+Barry's group at Stanford. There's bunch
+of from deep mind and all. But if you
+want to contribute to CS concepts and
+all, you should definitely contribute
+with CSL. Um I want to go through
+quickly just about one last work about
+uh torch which I recently introduced.
+This is the first unified framework for
+actually writing down neural networks in
+lean. So you have this kind of full like
+pytor style like tensor system.
+Everything compiles down to a shared
+intermediate representation. You can
+kind of prove properties of specs like I
+can show you some examples. You have
+like verified floatingoint arithmetic.
+you can kind of do even like neural
+network verification like certified
+robustness kind of stuff right and again
+there's bunch of applications which I
+show but I think one cool thing that
+I'll show this and the next slide is
+that you know you can show that the
+flash attention is equal to like at
+least in the spec level is equal to the
+uh normal standard attention right again
+we don't worry about like IO and all
+this processing also you can a very
+standard fact is like the attention
+mechanism is permutation in if you don't
+have position like curtains so I
+actually kind of trained a GP2 style
+like Karpathi's thing in torching itself
+fully natively in lean right and you can
+kind of prove properties about it and
+all this um one thing I think I can end
+with this slide is that thinking machine
+lab last year released something about
+um this kind of non-determinism even
+when you have like temperature zero um
+when you put it into your LM inference I
+actually kind of formalize this whole
+system in torch lean all the way down to
+like almost a GPU kind of like small
+cuda level kernel verification because
+the whole goal in this blog was saying
+that the tiny floatingoint arithmetics
+can flip the final argmax in the kind of
+the batch thing. So again there's a blog
+you can check it out on my website but
+uh I was very very cool that you can
+kind of do real life software
+verification
+um in some sense and uh again there's a
+bunch of different slides I have but I
+kind of want to end on this note just
+for the sake of time but you know I see
+a future where uh science like even code
+can be formally verified through a lot
+of building blocks which people are
+putting a lot of effort in and this is
+one of the examples that I think is like
+my fuse matter like kind of contribution
+to the ammo wall in some sense.
+>> All right, great job. Okay,
+for our last presentation, it's going to
+be the antithesis of lean
+and token maxing to the max. Um, very
+excited uh to introduce Luke Orthwine,
+his close friend. um we're friends in in
+uh in Woodside together. Um and did his
+uh CS degree at Harvard, then ran growth
+at WeChatad from 2012 till 2015. Uh
+which is why we call him the lion of
+Hong Kong.
+Um and now has been running his startup
+channel AI and is probably the most
+unhinged technical CEO that I know. So
+>> thank you Francois.
+Um yeah so the the idea behind this talk
+is sort of um what we uh at channel have
+done to try to take the the best
+advantage of sort of rethinking how you
+should do software engineering in this
+world of agentic programming assistance
+cla etc. Um and really you know the the
+ways in which uh I think many
+assumptions about what good programming
+is are now sort of the opposite of what
+you should be doing. Uh and these are
+sort of what we have have worked through
+ourselves and found very useful and
+wanted to share with all you guys to
+give some context. channel AI. We're a
+consumer entertainment uh AI business.
+Uh and we're really focused on the
+problem of automating as much as
+possible of not just software
+development but content development. How
+do you really create like an endto-end
+system uh that is pure AI that uh gets
+people to pay you money uh and stay
+engaged etc. Uh we've had pretty solid
+success with that so far. Um, and it's
+inspired us to think in our own
+workflows, how can we just sort of max
+this and and be as far ahead of the
+curve as possible. Um, and chess is an
+imperfect analogy to what programming
+used to be like, but I think the ways
+that it uh is useful is like yeah, maybe
+programming before you wanted to be very
+linear. You wanted to predict the
+future. You wanted to design very
+thoughtfully systems that would be like
+robust and work well uh and and be
+correct. Um, and even if you're trying
+to do something sloppily, it's still
+like a single threaded process where you
+only are worrying at a given moment
+about what's in front of you. Um, and to
+me, I'm a big fan of real-time strategy
+games using Agentic systems. Feels
+exactly like playing real-time strategy
+games to me. Uh, and there are a lot of
+properties of those games that are very
+different from chess. Um, one thing and
+especially if you look at like highle
+play uh there is no single aspect that
+you can do perfectly and like succeed.
+You have to be balancing many different
+things at once. You have to always have
+your economy running, your production
+running, your units doing something
+productive. You need to be engaging. And
+so this notion of like how do you
+maximally parallelize both what your
+systems are doing but also your
+attention so that you are adding the
+corrective
+uh feedback that's necessary as you
+learn new things as the map is exposed
+all this kind of stuff. Um anyway this
+to me feels like exactly what like
+coding with agents is like um and this
+what we'll talk about. Um so in terms of
+like tools we've built just to like
+ground this in a very simple thing. This
+is the LW stuff is just like our linear
+work trees. Um, a lot of people early on
+started using realizing how useful git
+work trees are when you do coding
+development. Having separate uh I assume
+everybody kind of knows where they are,
+but in case not like you know it was
+fine to have one repo on your machine
+when you were the only one doing
+development. Now you need to have like
+lots and lots of repos on your machine
+all doing development in parallel. Uh
+all compiling separately and like not
+stepping on each other's toes. Um and so
+the combination of like uh using work
+trees, using task management software,
+uh having the actual work itself be
+portable, um which is what the team bit
+comes in, and then like sticking in
+autonomous agents, one or many different
+ones on a given workflow. Um the way
+that we basically ship stuff, the way I
+ship stuff, uh is I have an orchestrator
+agent that's run by Claude usually, but
+could be codeex 2. Uh, I try to have as
+minimal a number of keystrokes as
+possible to go from like here's an idea
+of something that needs to be fixed to
+work being started on it because I can
+course correct that work later. Think
+like grabbing a unit and just like
+clicking across the map and you'll come
+back later to like make it work
+effectively. Um, status tracking,
+watching your mini map, it's the RTS
+equivalent uh from the orchestrator of
+all the different uh spawned workers
+that you have working. Uh, and then all
+those workers being instructed basically
+to try to go as far as they can, really
+put like a really low premium on their
+time and effort and a high premium on
+yours. So even if they're going to be
+wrong, even if they're going to need to
+be corrected later, it's better for them
+to push as far as they can before they
+ask for feedback. Uh, so that you can
+just have a lot of them running in
+parallel, even if it's wasteful from
+like a per per token standpoint. it's
+like saving you a lot of time or letting
+you do more things at once. Anyway, so
+they try and take everything all the way
+to a PR uh not just a PR but also like a
+summary that's well I'll get into that
+later anyway. So uh uh and then like how
+do you take each the results of every
+worker who completes something and like
+feed it back into the system so that the
+system learns and becomes better again
+like without the human having to type a
+lot of things or doing minimal work so
+they can do a lot of these things at
+once. Uh and then other pieces like how
+do you tag in other teammates? we'll
+also get into. Um, but anyway, this is
+very much like an RTS where you're like
+producing units, trying to move them
+around, trying to constantly adapt to
+stuff, but also with really high
+visibility, not just like spawning 20
+agents and like hoping that you'll, you
+know, solve this problem for me, make no
+mistakes, and it'll just work in the
+end, cuz that doesn't actually happen in
+production.
+Um, so like some general guidelines or
+or or practices uh that that that we use
+that I use uh at least um but but that
+we've we've uh spread through our team
+is like trying to run almost everything
+including scripts that you run because
+sometimes scripts are a lot better and
+save on context space than than just
+like doing everything by the LLM
+obviously but running everything from
+the cloud instances always like never
+typing anything outside of it if you can
+avoid it. Uh having this portability
+because a lot of times you start work on
+a ticket, you start work on something
+and actually the reason you're stuck on
+it is cuz someone else on your team or
+even maybe another machine. Maybe you're
+running it locally on your computer and
+then you're like, "Oh like I got
+to go home now, but I want this to run
+overnight and I make it really easy to
+move it elsewhere uh and let other
+people pick it up. Uh maybe it needs
+more compute to do something. Whatever.
+It needs more memory." Um, and uh, and
+then also just like always running in
+dangerously skip permissions mode like
+whenever possible. Uh, if you can't be
+running in dangerously skip permissions
+mode, do what you need to do to like
+make a sandbox so you can, but if you're
+having to give feedback at any regular
+pace, like you're going to go really
+slow. Uh, and then like so what yeah,
+what do the workers do? As I mentioned
+before, they're always trying to go to
+PR. Uh, they are not rigorously adhering
+to like the given spec you do. they're
+trying to learn and adapt to it as they
+go because your specs will be wrong. Uh,
+and it's okay for them to make
+assumptions because you can correct them
+uh as you catch them. Um, and then, you
+know, for like, for example, front-end
+development doing every everything is
+like pre-baked into the worker spawn. So
+boot the local dev server, run tests
+yourself on it, have it ready and
+waiting so that the human can just come
+and open a browser tab pointing to the
+right port and they can just test the
+thing as quickly as possible. Minimizing
+the number of human steps that need to
+be taken and like clicks to just move
+something forward to the next step uh
+step. Um and also just like lots of
+things baked in that are like what are
+things that we know really reliably? the
+agent's going to be bad about how do we
+learn about those things, bake them in,
+put them in uh to not just like the
+cloud MD file, but also like broader
+reaching graphs that you have of MD
+files uh which I'll get to later uh to
+make those things
+less of a problem. So, for example, one
+of like the really obvious things that
+Claude is super bad at today is
+predicting how long it'll take to do
+something. If you ask it like how long
+is it going to take to solve this
+problem be like a maybe like two weeks
+of like you know one engineer's work and
+in practice it takes like one prompt and
+it can do it in 20 minutes cuz it's
+trained on what it would have taken a
+human to do those things that's all it's
+like basis for training data the these
+systems haven't been around long enough
+for that to be updated and I think
+they'll like always be behind anyway so
+you can take all these things and be
+like no no never trust yourself in these
+ways uh and uh and then also like you
+people think a lot and a lot of times
+it's kind of true that like the code is
+the source of truth but the code is
+often like a really expensive source of
+truth for the agents to pull context out
+of and it's actually really cheap
+especially when you have all the context
+loaded in memory to like aggressively
+document things in a way that benefit
+future agents. So uh not just like
+writing comments in the code but also
+structured linked uh um sort of wiki
+style knowledge knowledgebased files
+that will make future agents have an
+easy time um basically take advantage of
+the context as much as you can uh and
+also helps the visibility of humans and
+and audit auditability of what you do.
+Uh, so macro by default, micro win it
+counts is another RTS principle. Like
+you can't win a game of RT uh like RTS
+game usually if you're just really good
+at moving your individual units because
+if you didn't make any units, you're
+just going to lose. Uh so yes, it's
+important to like deep dive and tunnel
+vision into certain things that are
+really critical. Some tickets for sure
+take a long time, but anytime you're
+like tunnel visioned into something, you
+should always be thinking, how do I
+spawn as many other little things that
+don't take my cognitive bandwidth as
+much and just like move those things
+forward? Um, so that always you're
+basically like maxing out your cognitive
+capacity. Um, and again, like things can
+wait. You can come back to them like 3
+days later. It's not that expensive and
+you can just ask Claude like remind me
+what the hell I was doing with this
+thing. All this stuff is really cheap.
+what's expensive but doesn't feel
+expensive is like not doing these things
+at the same time. Um anyway, so macro
+necessary, micro useful, but you can win
+honestly in RTS games and I think in a
+lot of things, including in programming,
+if you just macro enough, if you just do
+enough things, you'll kind of uh
+stupidly adjust your way towards
+something that's good if you're just
+always really quickly identifying
+problems and solving them. Um and yeah,
+this is gets back to like the high
+visibility thing. So, one of the things
+that I really like about you like how I
+set things up is it's not like a lot of
+agents that are kind of tucked away and
+that you have to like dig in hard to
+actually read what their ongoing stream
+is and what they're actually doing like
+like in an RTS game like you click
+buttons to immediately jump to different
+key points in the map so you can always
+be auditing stuff and always like catch
+it and correct it quickly if it's a
+critical thing. That true I that too I
+find is like super useful in
+programming. Uh because again like
+they're going to make mistakes all the
+time. They're going to like go in wrong
+directions and you definitely save time
+and value if you catch them early, fix
+them, course correct. Uh so you should
+be kind of like looking around between
+your different agents, monitoring them
+while you are also trying to have as
+many as you can. Um another thing to
+this point that I personally like a lot
+uh and is like a big thing in RTS games
+is audio. So, like the only way that you
+can manage a big army across the whole
+map is to have lots of audio cues where
+it's like your base is under attack or
+you know this guy's moving or whatever
+thing is happening. You don't have to be
+looking at you can hear and it's like
+okay I need to put my attention to
+this thing and you know based on like a
+lot of variety these audio cues that you
+can learn and they're good like
+pneumatic devices. Uh what's important?
+What do I need to act on right away?
+What don't I? So, like the way I run my
+personal setup is I actually have all of
+my individual agent uh like T-M sessions
+mapped to different Warcraft and
+Starcraft units uh that are colorcoded
+and themed based on the type of ticket
+it is. And then they play the actual
+sound effects from Warcraft and
+Starcraft units. So, I immediately know
+and like visually identify. I don't even
+have to read like this tab needs my
+attention. This thing's going on.
+Anyway, like to me it just seems like a
+natural way of like take advantage of
+these and and again like Cludes made all
+these things for me really quickly as
+like a side ticket that I was working on
+over time while I worked on eight other
+things. So it's like why not do these
+things and these these devices pneumatic
+devices uh or or whatever like cues for
+people are really optimized in gaming
+and they like know what good sound
+design is to like be memorable and
+otherwise catch your attention in
+different ways. Um, yeah, and like cult
+use of color, icons, anything that's
+just like quicker to read and process
+because I actually do think like these
+things matter a lot, especially if
+you're trying to uh really aggressively
+get a lot of stuff done and the sky is
+kind of the limit in how you can do that
+stuff. Another thing we built internally
+is like an APM tracker. Uh, and I'll
+just show quickly here. Um,
+so and this this is Warcraft 3, which is
+like one of the lower APM requiring
+professional RTS games, but this is what
+it looks like to actually play this game
+well uh at the at the top level. And one
+of the things that you'll notice is like
+no APM is not the uh the thing that like
+if you max it, you're the best player in
+the world, but nobody is good who
+doesn't have high APM. And so you can
+just kind of take that as a mental
+rubric like if I'm like thinking
+and like typing slowly and like am I if
+this was a competition, would I really
+be the best? Like do I really need to
+take that much time in everything I'm
+doing? and how much can I just take like
+lots of little micro decisions and you
+know fall toward the right uh the right
+goal or toward making things better. Um
+anyway, so this is just something like
+we we you know each of us run like
+personally on our computers and keep an
+eye on and it's just like just keep
+track of like are things moving and this
+this APM is not like clicks you have
+because I don't think that's like a
+great tracker for for for agent use. We
+use tool you tool calls. It's like how
+many tool calls are your agents doing
+per minute? Uh this minute, this five
+minutes, this hour, this day, this seven
+days, like how do you max all those
+things and have high numbers. Um and
+again, it's like it's it's one metric
+among many, but it's how are you
+actually being really productive or are
+you really doing the most you could be
+doing if you have a low APM? Uh probably
+not. So otherwise like things probably a
+lot of people know uh easy way to to use
+tokens more effectively is just like do
+a lot of things in parallel do different
+things with the same agent do different
+agents in parallel it will uh invariably
+like for complex tasks usually give you
+a better outcome than if you did it by
+yourself and just like in an RTS like
+you should be spending your resources
+you should never have your claude tokens
+like sitting unused that's really
+inefficient economy like use them all
+every hour period that you man. Um,
+knowledge base. This is like a really
+big thing that that for us I think is
+still like somewhat early on. But, uh,
+this whole presentation I made and
+started the exact same way that, uh, I'm
+just describing how I do tickets, which
+is I went to Claude, I took what France
+asked me to talk about, I pasted it in,
+I said, "Look at our knowledge base and
+how we do stuff." And put together a
+PowerPoint presentation based on the
+philosophies embedded in there and like
+what I've told you before. and he didn't
+like oneshot it, but it's like
+I maybe did like 15 edits to it, you
+know, and and got to this presentation.
+Uh, and then I refed it all back into
+the knowledge base and said like learn
+everything that I've said and all the
+the the advice I've given and
+corrections I've given and like make
+those better instilled in the knowledge
+base. And this knowledge base is
+basically just because like linked docs
+are much faster diverse by LLMs. And so
+uh and you can encode everything
+including business knowledge and indeed
+like Claude and and Codex are really
+good at coming up with features and
+stuff if they have enough knowledge
+about your business. Uh so trying to
+build this up in an automated way is
+super useful. People come up with their
+own tickets. Uh because if you have
+something you could do everybody you
+should just like do it. Everybody should
+be full stack all the time. Uh be
+reactive. Uh and uh even if agent does
+it way worse than you or slower than
+you, it's still better to have it do it.
+And uh it's easy to change things when
+they're screwed up. Satisficing is a
+word from economics is like do things
+satisfi like enough but not perfect. Uh
+really really key principle for like
+everything. Uh mix different ticket
+sizes at the same time. Uh you know in
+like we we've three and a halfx our
+output uh PRs per engineer per month. uh
+both because LM have made ourselves
+better, but like when we like really
+adopted this stuff broadly with everyone
+on the team this last month, we grew
+another 60% in our PRs per engineer per
+month. So like you're not going to get a
+lot smarter, but the thing you can train
+on yourself is like how do I act like
+people who are good at doing these kinds
+of things really well like RTS pro
+players? What does it look like to be
+like optimal in this and how can I learn
+the methods of doing it just like
+program like an RTS pro? Thank you.
+Okay, I think that's all we have. Um,
+now I think Vikica, we have cookies, ice
+cream, and popsicles and mochi donuts.
+Okay, what is a mochi donut? It's
+delicious. Okay. Um, yeah. So, thank you
+guys so much for coming. It was a lot of
+fun. Uh, I will send out a feedback
+form. Please review it and give me give
+me back your thoughts. um think about
+those uh call for presentations and
+calls for ideas. If you guys have ideas,
+let's let's definitely hear them. Um and
+uh looking for more papers coming up
+probably in in two weeks. I think we're
+already fully slated. Um and then
+basically the first one in July uh you
+know, we're looking to fill out as well.
+So if you wanted to present, please let
+me know. That's all I got. Thank you
+everyone.

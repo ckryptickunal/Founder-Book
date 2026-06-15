@@ -2,7 +2,7 @@
 type: entity
 title: OpenAI
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-06-16
 sources: []
 tags: []
 ---
@@ -107,3 +107,9 @@ An AI research and deployment company.
 - [[sources/HT0Sb33kaoA-sam-altman-s-advice-to-founders-don-t-try-to-rebuild-chatgpt|Sam Altman's advice to founders: Don't try to rebuild ChatGPT]]: AI research and deployment company
 - [[sources/v9xozD5rKpI-sam-altman-this-is-the-best-time-to-build-a-startup-ever|Sam Altman: This is the best time to build a startup ever]]: AI research and deployment company
 - [[sources/tcffqaIi-Jg-discussing-silicon-valley-s-bright-future-with-sarah-guo-elad-gil|Discussing Silicon Valley's Bright Future with Sarah Guo & Elad Gil]]: AI research and deployment company.
+- [[sources/sa-gpt-4o-gpt-4o|GPT-4o]]: AI research and deployment company
+- [[sources/sa-jakub-and-szymon-jakub-and-szymon|Jakub and Szymon]]: AI research and deployment company
+- [[sources/sa-reflections-reflections|Reflections]]: AI research and deployment company
+- [[sources/sa-the-gentle-singularity-the-gentle-singularity|The Gentle Singularity]]: An AI research and deployment company.
+- [[sources/sa-three-observations-three-observations|Three Observations]]: AI research and deployment company.
+- [[sources/wE1ZgJdt4uM-inference-diffusion-world-models-and-more-yc-paper-club|Inference, Diffusion, World Models, and More | YC Paper Club]]: AI research lab mentioned in the context of early development.

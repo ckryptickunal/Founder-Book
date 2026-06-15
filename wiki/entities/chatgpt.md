@@ -2,7 +2,7 @@
 type: entity
 title: ChatGPT
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-06-16
 sources: []
 tags: []
 ---
@@ -28,3 +28,6 @@ An AI tool that Magic Patterns customers use to generate initial prompts for the
 - [[sources/JhJPeF8DGL0-why-openclaw-broke-the-internet|Why OpenClaw Broke The Internet]]: A cloud-based AI model.
 - [[sources/xFQ5mIJdxhA-legendary-consumer-vc-predicts-the-future-of-ai-products|Legendary Consumer VC Predicts The Future Of AI Products]]: Conversational AI model.
 - [[sources/HT0Sb33kaoA-sam-altman-s-advice-to-founders-don-t-try-to-rebuild-chatgpt|Sam Altman's advice to founders: Don't try to rebuild ChatGPT]]: AI-powered chatbot
+- [[sources/sa-gpt-4o-gpt-4o|GPT-4o]]: AI chatbot interface
+- [[sources/sa-reflections-reflections|Reflections]]: AI chatbot based on large language models
+- [[sources/sa-sora-update-1-sora-update-1|Sora update #1]]: AI chatbot developed by OpenAI

@@ -2,7 +2,7 @@
 type: topic
 title: Career Strategy
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-06-16
 sources: []
 tags: []
 ---
@@ -27,3 +27,4 @@ Methods for young professionals to maximize long-term growth and success.
 - [[sources/ThsDDp3_Oro-how-to-learn-while-you-earn|How to learn WHILE you earn]]: The trade-off between risk and reward when choosing to join a startup versus starting one.
 - [[sources/dtnG0ELjvcM-my-200-million-startup-mistake-peter-thiel-asked-and-i-said-no|My $200 million startup mistake: Peter Thiel asked and I said no]]: Evaluating the benefits of big tech stability versus the creative freedom and potential upside of startups.
 - [[sources/eLelgy5zRv4-learn-earn-or-quit-my-job-career-advice-for-2022|LEARN, EARN or QUIT | My job/career advice for 2022]]: The balance between skill acquisition and financial compensation.
+- [[sources/pg-when-to-do-what-you-love-when-to-do-what-you-love|When To Do What You Love]]: Methods for choosing work based on interest, financial goals, and future flexibility.

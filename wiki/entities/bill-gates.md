@@ -2,7 +2,7 @@
 type: entity
 title: Bill Gates
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-06-16
 sources: []
 tags: []
 ---
@@ -25,3 +25,4 @@ Founder of Microsoft.
 - [[sources/pg-how-to-make-wealth-how-to-make-wealth|How to Make Wealth]]: Co-founder of Microsoft.
 - [[sources/2ymwrUvnd-A-did-you-know-that-these-companies-had-more-than-one-founder|Did you know that these companies had more than one founder?]]: Co-founder of Microsoft.
 - [[sources/eLelgy5zRv4-learn-earn-or-quit-my-job-career-advice-for-2022|LEARN, EARN or QUIT | My job/career advice for 2022]]: Co-founder of Microsoft.
+- [[sources/pg-when-to-do-what-you-love-when-to-do-what-you-love|When To Do What You Love]]: Co-founder of Microsoft.
