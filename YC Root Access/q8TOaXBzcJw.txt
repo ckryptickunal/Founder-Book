@@ -1,0 +1,260 @@
+Title: David AI: Powering the Voice Era of AI
+Video ID: q8TOaXBzcJw
+URL: https://www.youtube.com/watch?v=q8TOaXBzcJw
+Channel: YC Root Access
+Published: Unknown
+Duration: PT9M1S
+Views: 6257
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 245
+
+============================================================
+TRANSCRIPT
+============================================================
+
+Welcome everyone. I'm excited today to
+have David AI here who went through the
+batch in summer 24 and just announced
+their series A for $25 million. So tell
+us uh Ben and Tor what David AI is.
+Thank you. Yeah. Um yeah, David Aai is
+an audio data research company. Within
+audio we're focused on speech and within
+speech uh conversational data. So,
+conversations between people talking in
+different languages, dialects, accents,
+different contexts of conversations. Why
+is that so hard to find? I mean, it
+works for LLM from text from the
+internet. We found that there's no real
+like common crawl for audio. And on top
+of that, most of the audio that's on the
+internet is monoch single track uh which
+is not the format that the kind of
+bleeding edge model architectures for
+end speech models need in demand. We
+went really deep in trying to understand
+what solutions there are uh off the
+shelf for being able to separate audio
+that isn't separated at the source and
+it just wasn't sufficient. These models
+have very very low tolerance for any
+sort of bleed between channels and we
+identified the only way to get high
+quality data was to collect it separated
+at the source. Is a little bit
+interesting how this company ended up
+getting started. Tell us a bit about the
+origin story. Ben and I met at scale and
+um became close friends there and kind
+of first and foremost were excited to do
+something together and then we also
+started getting really excited about
+multimodal AI and specifically voice AI
+as kind of like uh the next evolution of
+bringing AI into the real world. Um so
+we applied to Y cominator while we were
+still at scale u with just an idea and
+like something to explore and we got in.
+So thank you for that. We left our jobs
+and
+then moved to TSF and immediately
+started building. The way that David AI
+came to be is we started off by reaching
+out to lots of YC companies that were
+training different kinds of multimodal
+models to figure out what kind of
+support they needed. And there was one
+company in particular that was training
+humanoid
+robots. And they were really excited to
+talk to us. And the thing they needed
+most help with was um audio data for the
+robot's voice. And for us, that was a
+bit of an aha moment that this like
+robotics company that's solving all
+these really hard kind of physical world
+problems needed the most help with audio
+data. By narrowing down and just
+focusing on audio and voice, it ended up
+secretly being a really good idea is a
+bit contrarian because people would
+think, oh, scale has the whole market is
+done.
+What gave you the confidence? Because I
+think when I when you guys were in the
+batch, you weren't sure. Remember doing
+office hours? You're like, oh, there's
+this thing when this like small startup
+and then you decided to go down the
+rabbit hole. Um, audio isn't just kind
+of calling customer support agents. It's
+also the way that you interact with
+robots, in wearable devices, in games,
+in like avatars, any kind of um real
+world AI use case where you're not
+interfacing through a laptop and a
+keyboard like requires some form of
+voice or audio. Um so it's bigger than
+you'd think. And then the other thing is
+I think people have thought for a while
+that to build a big company in the data
+for AI space you need to kind of like
+horizontally integrate and just like
+cover as much data surface area as
+possible. Um and just like build a
+company that's very nimble and can like
+hop from one thing to another when the
+kind of the tides shift. But like we
+believe that the best way to build this
+kind of company is to pick a vertical
+and go really really deep and build a
+deep product solve the hardest kind of
+hairiest problems within that modality.
+Um and find repeatability that way. You
+built this just in a weekend, right? In
+terms of tech, what was it? Yeah, we
+ended up building this phone calling
+application in over the weekend
+basically to get all of our friends and
+family to call in and and have some
+conversations to test out some of these
+kind of hypotheses of how to collect
+high quality audio data. And by the end
+of that weekend, we had our like first
+kind of small data set to go out and and
+bring to the world. But um that has now
+since evolved to this massive worldwide
+platform where people are um conversing
+in scripted and unscripted
+conversational settings. So, it's been
+pretty cool to see the progression. You
+actually closed some sizable contracts
+during the batch. I mean, you started
+small and then you got some big ones.
+Tell us about those. We started off uh
+talking to a few IC companies and this
+robotics company was our our first
+customer. It was a $1,000 contract. So,
+really small, but we were excited about
+it at the time. Through them, we kind of
+figured some stuff out and built a
+perspective on like audio and audio
+data. And we could bring that
+perspective to the next customer and
+then the customer after that. And by the
+end of the batch, we closed our first
+six-figure contract with a big AI lab.
+And things have kind of continued to to
+build up from there. And by continue,
+you mean right after a couple months
+later, you close actually seven figure
+contracts really quickly. Today, we work
+with most of the the big tech companies
+too and they have, you know, massive
+audio data needs. Um, and what's been
+exciting is to see how kind of our sales
+motion has kind of built on itself. And
+um, kind of the more data we collect,
+the easier it becomes. And really like
+we talk about this a lot internally. We
+never feel like we're selling. We kind
+of we have this data and it's up to a
+lab to decide whether or not it's
+useful. Um, and if it is, then great. If
+not, then then no. I think the cool
+thing about it is actually with setting
+up your company with focusing using
+audio and voice, you are actually
+building pretty much a audio data
+research lab. That's kind of how the
+company ended up being set up. It was
+not something that you could necessarily
+do at scale, right? We think about
+ourselves as like you said a kind of a
+data research lab. Um, and what that
+means is we try to build our own
+perspective on where we think models
+should go and what shapes of data would
+get them there. Um, then we do internal
+R&D to figure out if that data is
+working. And once we feel like we've
+struck gold, then we'll like scale it up
+to a really big data set and then we put
+it out in the world and if we did our
+jobs right, then the model companies
+will adopt that data. Um, that's
+different than the way that most
+companies in the space operate, which is
+more of like a professional services
+kind of model where a lab will go to
+them with a very custom kind of bespoke
+request. The data labeling company will
+kind of do a bunch of work to find the
+people and collect the data and then
+deliver it over to the customer.
+Customer will own that data. Um, and the
+company will take a take rate. I think
+that's how the space has traditionally
+operated and I think that business model
+works clearly scale made lots of money
+from it doing fantastic and they will
+continue to but we were excited to
+explore like a different way to go about
+it um like is there another business
+model and another operating model that
+works and um we think we found one. So I
+think the really cool thing is that one
+of the fastest growing categories for a
+lot of YC companies that are taking off
+is AI voice agent for vertical
+businesses. And at the end is all the
+way turtles down and you're the reason
+why a lot of these models are doing
+well. The voice apps are only as good as
+the models underneath them and the
+models are only as good as the data
+underneath them. And you know I think
+the the data layer in particular in
+audio doesn't get as much attention
+because of all these like awesome voice
+AI apps that are taking off. and we've
+been excited to kind of build a bit
+under the radar like kind of do the
+picks and shovels stuff that's kind of
+propping up these these applications in
+the space. So now that you're off to the
+races with all these big contracts
+growing, what's next for David AI in the
+next five years? Let's say the most
+important thing to being an audio data
+research company is having a strong
+audio research function. So that's a big
+focus of ours in the next few months um
+and years is to to build that out.
+basically builds the ability to um
+predict the future a bit or um know
+where we want models to go and what
+kinds of data we should go collect and
+in parallel like building the product
+and like the operation to scale up our
+data collection 10x and then 10x again.
+We feel like there's this massive
+opportunity ahead um for us to go grab
+and our big focus right now is is
+growing the team um across a bunch of
+different functions to enable us to do
+that. You guys are growing a lot. You're
+hiring. Tell us more about the roles
+you're hiring for. So, we're looking for
+uh researchers to kind of help us
+realize this data research company
+vision uh and predict kind of the future
+roadmap for data we want to go and
+collect. Uh and on top of that,
+engineers and operators to kind of help
+realize that vision underneath
+everything too. Congrats on the series A
+and thanks for joining us. Thanks, Dana.
+Thanks for having us.

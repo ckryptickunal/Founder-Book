@@ -1,0 +1,411 @@
+Title: How to Train your AI (Is Siri racist?)
+Video ID: OBdbV2rLZ0Y
+URL: https://www.youtube.com/watch?v=OBdbV2rLZ0Y
+Channel: Garry Tan
+Published: 2021-11-09T15:30:03Z
+Duration: PT14M40S
+Views: 6064
+Likes: 232
+Tags: Garry Tan, Garry Tan vc, initialized capital, Garry Tan initialized, Garry Tan initialized capital, Silicon Valley vc, sf vc, a16z, Andreessen horowitz, best Silicon Valley vcs, training ai robots, artificial intelligence, datasaur, datasaur ai, how to program artificial intelligence
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 384
+
+Description:
+If our future will be run by Artificial Intelligence, we need the best AI training possible. In order to remove human bias from AI and make it more useful, we need startups working on this problem. Today, we are talking with Ivan Lee from Datasaur, who is working on just that, and much more. 
+
+Datasaur is the best way to label your text-based training data.
+Check out the demo today at https://datasaur.ai/
+
+0:00 The AI Trainer of the future
+1:00 Is Siri Racist? How Does AI Training work?
+4:05 How
+
+============================================================
+TRANSCRIPT
+============================================================
+
+is siri racist are computers racist what
+does that mean for a world where
+increasingly computers are doing
+human-like things
+today we're talking with ivan lee the
+founder of datasore
+he's the right person to talk to about
+this because data source the best way ai
+and machine learning engineers can label
+text-based training data labeling is how
+humans and software engineers actually
+train computers to do the magic they do
+if our future will be run by ais then
+you can think of his software as the ai
+trainer
+just like training a human intelligence
+what you feed your ai matters a lot
+that's what we're going to talk about
+now let's go raise some really good
+machines let's get started
+[Music]
+[Applause]
+ivan thanks for coming on the channel
+great to be here gary you're obviously a
+true expert when it comes to nlp and ai
+you worked on the siri team back in the
+day why don't we start with that big
+icebreaker which is um is siri actually
+racist
+the answer to that is definitely a no i
+think what
+is happening is that as we have been
+training and building out a.i we're
+starting to notice that it's a mirror
+it's a reflection on our society
+so with all this ai when you teach it
+based off of what we've published in our
+newspapers online through our messages
+whatever we're teaching it
+it's starting to reflect back
+how we as a society function one of the
+things i've been really obsessed with
+lately is i'm uh
+brushing up on my body yard and you know
+in his book simulacrum and simulation
+that's one of the things he's sort of
+pointing out that all of society is um
+increasingly controlled by
+signifiers we do things because of sign
+value and these are really they're they
+don't exist on their own they exist as
+initially signifiers of uh what's
+actually out there in society so to the
+extent that human beings have
+racist thoughts or biases and if you
+ever take unconscious bias training
+you'll be shocked to find out like
+actually everyone has that that is what
+uh the ai and the ai models are really
+picking up like these things are really
+they're almost mirrors to the behaviors
+and even down to the level of the speech
+of human beings so ai itself is not
+inherently you know one way or another
+exactly and let's just take a step back
+here i don't think this is new a new
+problem even for ai itself right if we
+go all the way back to let's say henry
+ford days right a period of
+famous automation in human history
+we're talking about henry ford setting
+up
+you know his
+pipeline in a certain way and if you set
+that up well you end up with high
+quality if you set that up poorly if you
+have errors in how you are training your
+folks on how to build a car and you have
+errors there that'll reflect in the
+output as well right so what we're
+seeing is really the modern day version
+of that just at scale and with much more
+powerful models right the problem is
+there's a little bit of uh opacity when
+it comes to
+human
+understanding of what's going on with
+these ai models and how exactly it's
+making the recommendations to us on a
+day-to-day basis now one of the things
+that is
+surprising when you really get to know
+and uh you play with some of these
+models is it really is a black box you
+know you're feeding information in
+really just training data you know sort
+of as a child a human intelligence is
+trained by childhood
+uh you know artificial intelligence is
+trained by the data that you give it
+you're only as good as the data that is
+actually being provided to that ai which
+sort of brings us to what you're working
+on in datasore yeah so let me tell you a
+little bit about what we're doing here
+at datasore we are building out a
+platform where you can really just label
+that training data and out of all the
+the branches of ai we focus on a branch
+that is specifically focused on text and
+the human language
+and it's been really interesting we've
+been working on this for the last couple
+of years and we've seen such a wide
+diversity in use cases because human
+language is such a core component of how
+we communicate as a society right so
+we've seen very interesting use cases
+everything from
+health care and like transcripts between
+a doctor and a patient through to
+customer support calls through to yes at
+home digital assistants right and what
+you need to train and teach some of
+these assistants at home
+so i've been taking a step back i wanted
+to ask more about you know what do you
+think
+the future is for ai you know at the
+beginning of this we started talking a
+little bit about could ai be racist on
+its own um answer no you know there's so
+many other places where really this
+technology is at the core of a lot of
+decisions decisions that some decisions
+we have control over others that are you
+know beyond us that institutions
+sort of implement how do you think about
+that what is the future role of ai and
+what should we be thinking about that is
+a big question gary
+it's one that is very controversial and
+much talked about in the world right now
+we've got countries from china to the
+european commission to here in the u.s
+lawmakers trying to figure out how do we
+regulate ai i want to point to one
+particular scenario where
+it has been getting a lot of attention
+recently we work in natural language
+processing um the area of ai that's
+focused on text there's one situation
+that's really well suited we have a
+number of folks who are using uh nlp
+to read all the resumes that are coming
+in and at first glance that sounds like
+a great use case right you can process
+tens of thousands of resumes
+show the ones that are really most
+promising
+but we discovered some issues once we
+rolled this out into production because
+what happens is let's say a company has
+historically uh hired and over indexed
+on men
+what the ai learns by accident is that
+people named james and bruce might get
+hired more
+it might be more effective at the
+company and that's not what we intended
+to train it right so we quickly realized
+that there was this sexist bias to the
+ai
+so data scientists tried to resolve that
+by removing the names from the resumes
+but it didn't introduce this other layer
+where now there might be a bias let's
+say more men with resumes uh list that
+they like golfing right so now the
+hobbies and interests works as a
+secondary indicator that this person
+might be successful and that's not what
+we're trying to train the ai to learn at
+all so we have to be really careful
+about how we build and implement this ai
+we have to really inspect the data that
+we're feeding it and what exactly it's
+taking away from these examples yeah
+that makes a ton of sense basically
+the training data matters a lot is you
+know what i'm getting taking away from
+this and it requires humans with human
+intelligence to have that discernment
+because otherwise the potential for
+unintended consequences pretty large
+when you're implementing ai systems uh
+in really any context that's right i
+guess the best way to understand what's
+going on is actually even just take a
+look at a demo i wonder if you can walk
+me through what datasource looks like a
+lot of people might not have ever
+seen the what it looks like to train a
+nlp model the interesting thing for me
+is that not only can you help nlp models
+get quite a bit more accurate and much
+more useful through better data but you
+can actually use
+your own
+ai models to improve the labeling and so
+it sort of turtles all the way down yeah
+absolutely that was really the goal
+in starting data source right we
+recognize that many companies when it
+came to just the label data itself they
+were just using spreadsheets even at
+apple with all of our resources i was
+still resorting to basic spreadsheets to
+label all this text data so i knew we
+could do better and so what we've built
+out here at datastore is the ability to
+not only have a really comprehensive
+interface that allows you to set up
+whatever kind of nlp task you'd like but
+we also build intelligence in as you
+alluded to here we've loaded a basic
+news text article from cnn
+and what we're going to do today is just
+label some basic entities in this
+article and that way we will teach an ai
+algorithm how to identify the
+interesting entities from this article
+in the future
+so what we can do is uh select basic
+things like cnn and label this as an
+organization
+we can call the rib caribbean a location
+and saint vincent as another location
+and datasort also allows you to draw
+arrows from one entity to another and
+even label the relationship between
+these so we can say st vincent belongs
+to the caribbean
+but in addition to all these kind of
+basic labeling capabilities we also use
+ai itself to speed this process up
+so we shouldn't have to label basic
+things like starbucks and saturday and
+london from scratch we can actually use
+ai and predict everything that existing
+models already know
+so you can see here it's capturing
+things like friday and twitter and
+facebook and it applies everything that
+ai already understands about this
+article and now the human labeler just
+has to go through and label and validate
+or reject whatever the ai has predicted
+there but it's really cool to see how
+better tools frankly just need to exist
+and you know a lot of people probably
+just focus on the models themselves and
+they're not thinking about the tooling
+really but one of the more interesting
+things that i learned from
+you know sort of studying the facebook
+engineering team is actually one of the
+core
+values that they have as they actually
+try to invest a large percentage of
+their engineering team into just the
+tooling that makes the engineering team
+more successful so it makes sense that
+you would need best of breed kind of
+tools like that for ai and ai models and
+so this also makes it accessible to
+any team not just the teams at world
+class places like apple or google or
+places like that that's right the
+analogy i often like to use is you
+wouldn't have your designers working on
+microsoft paint right you want to give
+them powerful modern best of breed tools
+in order to do their work efficiently
+when it comes to labeling i think people
+underestimate what an important part of
+the model training process this is
+there are surveys industry surveys
+showing that these data scientists are
+really spending like more than half of
+their time just
+roping that data and cleaning it up
+labeling it so that they can feed it
+into their into their uh models
+so we're trying to make that part a lot
+easier we're trying to build best
+practices in so that it can be a lot
+more powerful and a lot easier to set up
+and get going makes sense so datasore is
+available now and um you know who's sort
+of like the ideal person to be using it
+a lot of our um users are essentially
+data science teams right machine
+learning teams who they
+are hired by their company they're
+excited to try out some of the latest
+models you know uh fine-tune these
+parameters but then they get bogged down
+by this specific element of the the
+machine learning cycle which is the the
+labeling portion uh they're the ones who
+are usually most excited to discover
+that there's already a commercial tool
+existing for this um they sign up and
+then uh it just streamlines this part of
+the process for them aside from that are
+you hiring right now
+yeah it's been a really exciting couple
+of months um i think you know we finally
+uh hit an inflection point um in where
+we were at in in the industry yeah we're
+hiring across all roles um would be
+excited to speak to anybody watching
+this video so software engineers product
+managers
+um designers sales folks
+really across all departments we're
+growing pretty rapidly these days
+well thanks for sharing um really sort
+of the state of the art of what everyone
+should be using for nlp today
+taking a step back i mean one of the
+things i like to ask about is a lot of
+people watching here also you know very
+sometimes very early in their careers
+they want to be doing what you're doing
+now uh what advice would you give to
+sort of 20 year old version of yourself
+just starting out you know you decided
+to follow tech but what did you have to
+learn the hard way i think something
+that i
+personally value a lot
+is curiosity
+this is something that i screened for um
+in the folks that join my company it's
+something that i wish you know i would
+have been
+if anything more curious uh because
+what's interesting about today's world
+is
+95
+of all human knowledge is recorded on
+the internet right it's available
+through
+channels like your own gary and people
+can really dive in and learn anything
+that they want
+so
+i find that the most important single
+most important characteristic is
+curiosity the willingness to dive deeper
+learn things for yourself figure out go
+into that rat hole on the internet and
+learn everything about a specific area
+right and by doing that i think you set
+yourself up for success i find that data
+and kind of learning is a snowballing
+process and we have to invest in
+ourselves ivan thanks for coming on the
+channel
+learned a lot about the future of nlp
+and especially labeling so if you're
+watching and you're really interested in
+basically
+helping us order all human knowledge
+through nlp this is the place to really
+you know reach out to ivan uh try
+datasore and thank you so much for just
+sharing your expertise with us today
+thank you gary
+[Music]
+[Music]
+you

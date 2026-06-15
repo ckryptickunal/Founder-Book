@@ -1,0 +1,927 @@
+Title: Why The Next AI Breakthroughs Will Be In Reasoning, Not Scaling
+Video ID: JiwiqYGw4iU
+URL: https://www.youtube.com/watch?v=JiwiqYGw4iU
+Channel: Y Combinator
+Published: 2024-11-14T15:00:18Z
+Duration: PT35M17S
+Views: 80932
+Likes: 1523
+Tags: YC, Y Combinator, OpenAI, o1, GPT-4, Sam Altman, Orders of Magnitude, The Intelligence Age, LLM's, Vertical AI Agents
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 904
+
+Description:
+There's an ongoing debate about whether AI scaling laws will hold or hit a wall in the near future. However, what's clear now is today's models already have the power to increase productivity in ways that would have been unimaginable just a few years ago. In this episode of the Lightcone, we dig into the results of a recent o1 hackathon hosted by YC to find out what can be unlocked when founders leverage a SOTA reasoning model.
+Chapters (Powered by https://bit.ly/chapterme-yc) - 
+0:00 Intro
+1:15
+
+============================================================
+TRANSCRIPT
+============================================================
+
+I remember about a year ago one of these
+conversations around are we going to
+have AGI what would that look like what
+one of the arguments for it was that
+well like at some point the AI will get
+good enough to just like design chips
+better than like humans can and then it
+will just like eliminate one of its
+bottlenecks for like getting greater
+intelligence and so it feels we're on
+the pathway to that in a way that we
+just weren't before the last episode we
+were talking about you know what are you
+going to do with these two more orders
+of magnitude since then Sam has uh told
+me that he actually wants to go to four
+orders of magnitude it's the worst that
+these models are ever going to be right
+now right this moment week to week you
+know there things that you couldn't do
+maybe a month ago that you could do
+really really well right now so that
+sounds like a pretty crazy moment in
+[Music]
+history welcome back to another episode
+of the light cone I'm Gary this is Jared
+Harge and Diana and at White combinator
+we've funded companies worth more than
+$600 billion and we fund hundreds of
+companies every single year so we're
+right there on the edge of seeing what
+is going to work both in startups and in
+AI recently Sam Alman wrote this pretty
+wild essay that predicted that AGI and
+Asi are coming within thousands of days
+seeing him on Monday he actually
+directly estimated you know between four
+4 and 15 years have you guys read this
+essay yet and what do you think yeah I
+read it and one one of the
+interesting places where I think we have
+a unique perspective is that we were we
+had a front row seat to the very
+beginnings of open AI because open AI
+basically spun out of YC and so what was
+cool to me reading this essay is that
+it's literally the same ideas that Sam
+was talking about in 2015 when he
+started open AI like he's been talking
+about this like basically since I've
+known the guy um and in 2015 when he
+said these things he sounded kind of
+like a crazy person and not that many
+people took him seriously and now 10
+years later it turns out he was right
+and actually we were much closer to AGI
+than anybody thought in 2015 and now it
+doesn't sound crazy at all it sounds
+like totally plausible I mean the essay
+itself is pretty much the most techno
+Optimist thing I've read in a really
+long time some of the things that he
+says are coming are pretty wild space
+colonies fixing the climate problem um
+your intelligence on to being able to
+solve abundant energy uh yeah I think
+he's basically ushering in this sort of
+Star Trek future on the back of
+literally human Intelligence being able
+to figure out all of physics yeah Sam
+was always a re like I I remember back
+when he was starting open AI one of the
+things that really motivated him to do
+it was he believed that when we actually
+had AGI basically it' be better at doing
+science than humans were and therefore
+would accelerate the rate of all
+scientific progress in every scientific
+field that was that was part of the
+motivation from the very beginning and I
+think is really connected to 01 even
+when Sam came and spoke at our at our at
+our batch a year ago this is long before
+01 was publicly released but it being
+worked on in you know in uh in secrecy
+by open AI that was the thing that he
+was most excited to talk about was
+giving GPT more advanced reasoning
+capabilities and I think this is the
+reason it's because like the thing
+that's missing from its ability to
+actually do science and like accelerate
+technological progresses it needs it
+needs to be able to like think through
+things one thing that really stred about
+o um in particular is if you read um one
+of the papers talking about it so
+capabilities and potential for the
+future it talks about how it does really
+well in chip design um and I remember
+about a year ago one of like one of
+these conversations around are we going
+to have AGI what would that look like
+like what one of the arguments for it
+was that well like at some point the AI
+will get good enough to just like design
+chips better than like humans can and
+then it will just like eliminate one of
+its bottlenecks for like getting greater
+intelligence and so it feels like that's
+already kind of like we're on the
+pathway to that in a way that we just W
+before Diana's going to show a cool demo
+of it doing exactly that it's fun
+because we run this um hackathon with
+opening eye and Sam came over and judged
+the winners and one of the participants
+was actually chip design this company is
+called diode computer I think we
+mentioned them earlier what their
+building is
+basically AI designer for circuit design
+and their previous product it could
+handle in the you think about PCB design
+there's four major steps the big
+expensive part that you need a lot of
+all of these need a lot of expertise
+it's like the system design how do you
+really put together the architecture of
+it how do you design all the components
+like the resistors I need the sensors
+the specific um processing units then
+you needs to go do the layout of
+schematics placing then doing the
+routing and routing is known to be a NP
+complete problem because as you have
+different layers in circuit boards
+there's interference and this is why
+companies like Nvidia Intel Apple have
+gazillion electrical engineers because
+this is a MP compete problem up to GPT
+for which is this company had built it
+actually put some constraints and was
+able to automate a lot of the uh
+schematic design that you as a human had
+to design what components it needed to
+go and the design and to some extent the
+routing it was simple which still pretty
+cool up to that point so they were able
+to automate all that but the thing that
+they demonstrated now with
+01 was actually able to do the system
+design and component selection which is
+crazy so it would be able to read all
+the data sheets and select the right
+components so the way the product would
+work it could say I want to build a
+wearable heart rate monitor with an
+acillom meter and a microcontroller very
+high level and given this constraint and
+looking at the database it would be able
+to match the specific Cel meter and
+microcontroller and heart rate monitor
+sensor and connect it and just output
+the end result what we are trying to
+build today is a wearable heart rate
+monitor something like you would see in
+a whoop for example um the o1 is amazing
+but one of the downsides is that it's a
+bit slow so we actually cached a
+pre-generated like system diagram the
+other one was able to generate it's
+pretty good it has a USBC connector an
+IMU like we requested a heart rate
+sensor um and uh like this is a
+microcontroller so I'm going to show you
+how you can go from this uh and like
+build a PCB so we are going to like
+build the project um the output of this
+is code we actually use arile which is a
+electronic SS code uh language and you
+can see that it took all the blocks in
+the block diagram stitch them together
+exactly how we want um and the second
+step is it actually is going to generate
+a layout for the board um and so now
+like we can directly open it and here
+you go here's the board it's uh quite
+it's quite nice uh there's still like a
+couple of like fine-tuning Steps
+required for example um we could like
+move like this USB type-c connector
+slightly um we can like change the shape
+of the board but but these are all the
+components um and then like thanks to
+the system that we built uh we can like
+call the auto router on this specific
+board and actually get a fully working
+uh printed circuit board back so this is
+uh actually one of the examples on the
+01 paper that it would do Eda but
+actually they went a step for forward
+because the example on the paper they
+described the Eda a step process is this
+set of tools for circuit design it does
+sort of the design of the schematic also
+the simulation and Bug verification it's
+easier to verify stuff than to select
+and write it so this company actually
+went a step further beyond the paper
+because the paper did mostly the last
+stages of uh verification and simulation
+I guess it's an interesting example of
+using different models for different
+tasks and in different workflows so in
+order to
+pick the correct components off the bat
+you know even before you you know place
+it on a circuit board you've got to
+actually have probably rag on structured
+you know taking unstructured data like
+PDF documentation and turning into a
+structured form that then 40 mini sounds
+like is being used to actually extract
+the data and then put it into um format
+for1 I think this is actually a very
+common pattern that we're seeing a lot
+of the interesting products built with
+they at you use different kinds of
+models so yes 40 minis for PDF
+extraction and then 01 for the reasoning
+because it's actually very hard to
+select the components for parts I know
+jar also work with a lot of heart tech
+companies and the whole part of
+selecting whatever the servos the motors
+the sensors it's like so is it takes a
+lot of thinking for human yeah the the
+other thing I think is interesting about
+this example is like during the batch
+before 01 came out diode had tried to do
+this with GPT 40 and it just flat out
+didn't work and then they basically
+tried the same thing the same promps but
+fed it to 01 and boom all of a sudden it
+worked and so there really is a sort of
+like step function capability unlock
+they were so excited when I talk to them
+and they show me they were they had this
+big smile it's like wow they themselves
+were super impressed this hackathon that
+Diana ran incidentally I I think it was
+a really interesting concept for a
+hackathon like most most hackathons are
+like people who are just sort of like
+building something that they plan to
+throw away um and the cool thing about
+this hackathon is it was all actual YC
+funded startups that have real
+businesses that have funding that have
+like a real thing with real users and
+they were all building actual features
+for their product that they plan to
+release to real users it was it was
+really cool I think for us to see how 01
+unlock capabilities for real companies
+not just like toy projects y there's
+another one that was similar in here in
+terms of reasoning for a one I think har
+you work with uh camper yep so want to
+tell us what camper does uh it's I mean
+the tagline is Dev for cat but basically
+they um let you create cat designs with
+just natural language like you just type
+in like you know something that you want
+to design and it just like spits out
+like a cat design for you so can you
+design me five air foils optimized for
+50 mph with a minimum drag to lift of 15
+at a 5° angle of a attack that's very
+specific y normally this would require a
+actually a mechanical engineer to be
+running all the simulations and solving
+through the equations and what you're
+seeing why it's like flashing is like
+running all the multiple simulations
+four of them at the same time so it's
+actually kind of like a co-pilot to uh
+solid works yeah they actually built
+there like initially they were going to
+build this as a plugin to solid works
+but they went for like the even harder
+technical approach which was like now
+this is just like a executable that runs
+on desktop and it essentially opens up
+solid works for you and and then just
+starts like clicking around in the UI
+pretending to be a person y nice and you
+saw there what was really cool earlier
+they flashed the math Trace so 01 was
+actually able to write all of these
+equations all these partial differential
+equations and solve basically naive
+Stokes questions to actually solve air
+foil that is really cool the last
+episode we were talking about you know
+what are you going to do with these two
+more orders of magnet magude since then
+Sam has uh told me that he actually
+wants to go to four orders of magnitude
+to get to a trillion dollar in uh you
+know sort of spend I mean pretty wild
+but on the other hand like you could see
+where that might go you know you could
+imagine an air foil is still it's you
+know very impressive and complex but
+sort of what we're capable of doing
+today in 2024 you could imagine
+abstracting that to like understanding
+the nature of physics I suppose like it
+it would be sort of hard to see that
+maybe in the current version of 01 but
+if the scaling laws hold it seems
+entirely plausible that you know far
+more difficult engineering challenges
+such as um you know room temperature
+Fusion like these are all sort of
+ultimately
+engineering FL mechanics there's weather
+prediction there's all these complex
+physical phenomenas that are very hard
+to solve and you need basically phds and
+to Sam's essay this is a glimpse into
+what Ai and where 01 is heading with
+with this Chain of Thought and reasoning
+especially like like Sam say the The
+Vibes are sort of training intelligence
+and this new age of intelligence and
+then the 01 paper
+just that I think this whole idea of now
+you can actually give like feedback not
+just on like the outputs and whether you
+got the correct answer but like on all
+of the steps to get there and like
+you're basically teaching a model how to
+think like the camper guys are
+mentioning too right the reasoning
+traces and they can probably go back and
+like fine-tune the various steps for
+like every output to make sure that the
+model's thinking how they want it to
+think that one that just is again very
+like the AGI conversations I feel like a
+year ago were all sort of in this
+direction of like what happens once you
+can actually start teaching the models
+to think better versus just like um
+spitting out the correct answers uh and
+then the scaling laws this is like even
+more surface area for like throwing
+compute at the problem right like now
+you can just basically put compute at
+the inference step and and iteratively
+have something come out that you know
+you can actually spend more money and
+more time and have a result that
+iteratively gets better similar to what
+you might expect from a human scientific
+organization yep maybe more consistently
+even di do you want to talk about the
+architecture and how they actually
+created A1 I think a lot of it is
+inspired
+from what they've been working for many
+years since the beginning of uh openi I
+think one of The Inspirations is a lot
+of the work they did with DOTA yeah does
+everyone remember when like before open
+AI was famous for GPT the one thing that
+he was like kind of famous for that at
+least people in the tech industry knew
+was DOTA was like winning video game
+competitions that was their first big
+breakthrough and the funny thing I think
+back then DOTA wasn't something that
+took the world for storm I mean maybe
+only the research Community kind of knew
+about it but it wasn't anything
+practical but what was impressing was
+beating a lot of the best DOTA players
+so DOTA is this complex game of
+resources and planning right and they
+implemented a lot of uh kind of
+reinforcement learning type of
+techniques in there which I think were
+also inspired early days from alpha go
+and Alpha zero as well on how it solve
+go it wasn't just brute forcing through
+it but actually having a rework function
+and and trying to solve towards it and
+even this is why there's just so much
+talk about Q learning because that's
+sort of the fundamental algorithm behind
+the family of algorithms behind RL so
+yeah so like because of DOTA they got
+really good at doing reinforcement
+learning that's how they got it to work
+they just had it play against itself
+like a million games um and then H how
+does that connect to to to 01 so I think
+this is where there's a bit of a big
+stepping function because how do you
+then incorporate that into the family of
+GPT type of model GPT is all generative
+based on predicting the next token and
+patterns and then getting those results
+to check that they're correct so I think
+a lot of it is you had to have a lot of
+data that was factually correct and fed
+into probably the model and the training
+and having a reward function function
+that get it to reason a bit more about
+the output and make sure that it's
+correct so they probably done a lot of
+um interesting techniques with that and
+there's probably a lot of secret sauce
+on the type of uh data sources they done
+maybe one of the speculations we could
+do is a lot of very factually correct
+information like math problems and
+science problems and things like that
+yeah and that's why I outperform so much
+on those yes yeah one of the things I
+think is interesting Gary to your point
+about the scaling laws is a lot of
+people are really focused on the next
+like scale up of the model like the GPT
+5 series of models which are being
+trained now and people are working on
+them and they are going to come out um
+but I think people may be
+underappreciate how big an unlock this
+other direction is because there's there
+there two research directions being
+explored in parallel right like one is
+the straightforward scale up of the
+underlying LM and then this 01 direction
+is like a totally orthogonal research
+direction in which you unha the model by
+having it do reinforcement learning
+while actually trying to do things in
+the real world and getting better at
+them the version that's come out so far
+it's still only 01 mini and if you look
+at the actual sorry 011 preview and like
+if you look at the performance aset they
+released like the full 01 model which is
+coming out any day now is a huge step
+function above even 01 preview which is
+what enabled all these incredible
+results of the hackathon Sam was just
+telling us that like o02 and 03 are not
+far behind and so like I think people
+maybe under appreciating just how big an
+unlock we're going to get yeah and 01
+also is really opaque still I mean if
+from a you know sort of business
+perspective this is a new method I think
+at Great cost to themselves they
+actually did create a new data set to
+train the chain of thoughts you know
+it's essentially a giant data set of you
+know given task X can you break it down
+and uh into you know break it down into
+parts and you know what's funny is this
+sort of rhymes with what Jake uh heler
+figured out for case text that if uh a
+given task that you give an llm is
+hallucinating or you know not
+consistently giving the output you want
+you're trying to make that particular
+prompt do too many things you need to
+break it down into steps and so what's
+funny is Jake's prescription is really
+two parts you know one is break it down
+into steps and then the other part is
+evals and it sounds like basically with
+01
+the chain of thoughts will replace the
+workflow so you might not need to break
+it down into steps yourself but the
+evals are still really important um even
+like in the aftermath of that episode
+with Jake heler it sounds like some YC
+alums are reaching out and saying that
+episode helped us figure out and unlock
+something really big like a lot of
+people really were just raw dogging
+their
+proms yeah they got to uh you have an
+example of the company you work with J
+that got to 100% yeah just by doing
+exactly what Jake recommended which is
+like having a really big eval set and
+being very careful about testing every
+step of your reasoning pipeline so one
+of the theories that I have now is
+ultimately like if you superimpose that
+on what is a moe I mean that's one of
+the key questions that everyone's sort
+of asking themselves right now you know
+okay like gp5 is coming two more orders
+maybe four more orders of magnitude are
+come in terms of a trillion dollar spent
+on more training that's pretty wild you
+know if I'm a rapper company or I'm
+trying to do vertical sass or I'm trying
+to you know build my own business what
+do I do my theory would be it's the
+eventss it's you know write the 10,000
+test cases and the only way you get
+access to the test cases that are
+proprietary data that are not a like
+commonly available is that you literally
+you know that's what a bunch of our
+companies in this current YC are doing
+they're doing the hard work of doing
+Enterprise sales they're getting
+embedded and sort of going quote unquote
+undercover into these uh you know
+sometimes really boring jobs sometimes
+really complex or Arcane jobs you know
+it's everything from you know I think
+accounts receivable all the way over to
+how do you do like Financial Accounting
+or forensic accounting like it's just
+all kinds of things that are really uh
+not readily available um you you can
+almost argue that anything that is
+consumer and publicly available on the
+internet that's going to be in the base
+model so then your Moe ultimately is for
+all of the other things that are not
+already online whether it's you know for
+case teex being a lawyer or maybe over
+here on science or you know in terms of
+building air foils like what you're
+trying to find is the the data that is
+proprietary in some use case some
+vertical that allows you to build that
+10,000 test case um even Val and then
+that's actually the value I mean this is
+just a crazy Theory but it's something
+that might might be what happens totally
+an
+interesting implication for startups
+based on everything you just said um is
+it may be worth thinking about who like
+of your customers picking the ones that
+will pay you a lot for that final like
+10% Like accuracy imp Perfection I think
+like camper are actually a good example
+of it where there's lots of interest in
+this sort of text to CAD design amongst
+like hobbyists or people who want to
+prototype things and get something up
+and running very very quickly um but
+there's also like a segment of the
+market where it's people who are
+literally designing like you know
+airplane Parts where there is no room or
+like margin for error and 01 makes it
+quite easy or easier now right to get to
+like the Prototype like you know 80% of
+the way there but I think the strongest
+technical teams have the option to go
+all the way and go after the segment of
+customers who want like a 100% accuracy
+and will pay a lot for it always go all
+the way yeah to go all the way but I
+think it's interesting because one one
+of the things that gets pushed is does
+01 or does AI in general actually make
+it commoditize a lot of the tech and
+make it less important to be a strong
+technical team um and it just seems
+unlikely to me it seems like actually
+the last it seems it's the opposite yeah
+yes like all of the value is probably
+going to be captured by like the
+strongest technical teams who can build
+on top of whatever the Bas level of tech
+is and get the final 10% yeah Gary I
+think it's the prompts it's it's the
+evals and it's also like the UI layer
+and the Integrations that go around it
+because like just the prompts themselves
+are not a product for a company to
+actually adopt camper like it needs to
+actually integrate into their existing
+tools it needs to have a well thought
+through UI and workflow and all the
+tooling to sort of make the prompts
+useful yeah well and then it's
+distribution right like how do you
+actually get in front of people do you
+establish your brand and then uh a
+perfectly good moat is difficulty
+switching actually and once you have all
+your data and it's working and you're
+paying $10,000 or $100,000 ACV sometimes
+a million to 10 million ACV uh you know
+man it's going to be hard to switch so
+all the classic modes still apply you
+know this is still software but you know
+you can unlock this capability and you
+know this is a moment you know another
+point to double down on the importance
+of evals is that that still applies on
+the world of 01 as Founders are
+wondering how am I going to still build
+the best product on top of it or1 does
+it change and everything we discussed in
+the episode with Jake ker applies
+because gigl is this company that uh har
+you work with yep and Gary too Gary
+right I adopted
+them may tell us a bit about what they
+what they do the full full back story is
+we fun them for a completely different
+um idea something like they're an Indian
+founding team and the original idea was
+something helping Indian Indian high
+school students apply to us colleges a
+very like nich idea but they're super
+cracked I AI Engineers researchers yeah
+and it just it just happened like we
+were like this is not a great idea AI is
+you know changing the world and you lit
+like you're research like that you've
+been doing at University or college is
+all aligned with like um in like
+fine-tuning llm models originally it
+wasn't even the AI version of helping
+Indian high school students apply
+to nothing to do AI actually so it's
+like a classic YC story was like these
+are two clearly brilliant Engineers um
+we don't like the idea at all but we
+should just fund them anyway and hope
+something works out and the idea they
+actually pivoted to initially which they
+raised a seed round for um was helping
+companies fine-tune um open source
+models so they could get to like
+equivalent performance um uh as you know
+at the time it was really only open AI
+but um what I think in general what we
+found is that those have not proven to
+be great businesses because just like
+the cost of the models has gone down and
+Al like you know the performance of the
+open source models has gone up you just
+haven't had to fine-tune as much as
+people thought you would need to because
+the models are just keep getting better
+it's kind of betting on the different on
+the opposite direction on AGI that let's
+just trust that these models are going
+to keep getting better and better which
+AO doesn't require as much fine tuning
+yeah and so they pivoted again into well
+like let's just find a ver like let just
+find like a we're really good at AI now
+we're like we experts in like find uning
+squeezing performance out of these
+models so let's just like find a
+vertical application for that and they
+went into um AI customer support which
+is like competitive but again I just
+think if you're an intensely technical
+team you can still find ways to squeeze
+out
+like a comparative Edge against other
+teams in the space and I think that's
+what they've done the problem with
+custom of support is you're dealing with
+very kind of squishy problems there's
+just so many edge cases it's just the
+space of things that could go wrong as a
+customer rep is enormous well it it
+seems competitive but the thing is
+hardly
+any adoption has actually happened like
+it's not like the world has replaced all
+the customer support agents with AI yet
+we can all see that it's going to happen
+but it hasn't happened yet and so from
+that standpoint like it's wide open what
+I what I found at least when I spoke to
+the G ml team last is that um part of
+the reason for the lack of adoption is
+that rules-based systems work fairly
+well for most like of the simple cases
+and there's just not trust or belief
+that you can like build AI that's good
+enough to solve like the real messy
+stuff and so most companies that were
+pitched on like an AI customer support
+agent were like well you can't actually
+go all the way and solve like the like
+hardest problems that take up most of
+the time and the rules based system
+works like totally fine for everything
+else and so I remember when they were
+first pitching this idea people would
+just be like this is just Overkill we
+don't need it a rules based system works
+totally fine but like seems like that is
+no longer the case yeah because they now
+have some really legit customers who's
+uh zepto just signed up okay so last
+time I did office hours with them they
+said that they automated 30,000 tickets
+per day and so they you know I think
+zepto had more than a thousand people
+working uh on those 30,000 tickets per
+day which you know 30 tickets a day and
+then uh the interesting thing was you
+know on the one hand you know this is
+probably one of the things that frankly
+everyone when they think about AI
+they're a little bit worried like you
+know are these jobs going to go away and
+uh the interesting thing about the zepto
+customer support uh job is that it's so
+not a fun job that I think the turnover
+rate was something like a few months
+like you most customer support agents
+only wanted to work there for you know
+six months or less so you this actually
+is an interesting case of when you know
+when something is incredibly rote it's
+literally replacing butter passing like
+these are sometimes not really actually
+good jobs and um you know hopefully
+those people can go and do something way
+more awesome with their time and you
+know beautiful brains then you know
+these wrote jobs apologizing for zepto
+orders that got misplaced exactly right
+but the crazy thing they figure out with
+01 is that to your point harsh their
+previous implementation before 01 was
+GPD Plus rules and all that and it would
+not be able to handle Mo most of the
+cases it would have about a 70% error
+rate now what they did is doing the
+technique like Jake keer described with
+really going hardcore on the eval plus01
+during the hackathon they got to only 5%
+error which is does a order magnitude
+Improvement the other Row in this is
+incredible too right this is what saying
+like the complex like the things that
+are like very complicated that take up
+lots of time and are expensive to solve
+would like essentially like they could
+not do them yeah so basically just like
+0% and that's what I'm that that's what
+they were encountering when they were
+selling this is a l of people like well
+actually all of the stuff that we want
+to automate are these like complicated
+edge cases that that Wast lots of time
+um and like they just they couldn't
+actually do any of that but like now
+they're at like 15% and that's with like
+01 preview alone oh that's is that 15%
+of just error so now they're at like 85%
+accur from Z to 85% it went from 0%
+accuracy to 85% accuracy yeah so the
+interesting thing here is that 01 it's
+not even 01 yet it's 01 preview and then
+uh it's such a new technique that think
+they're trying to protect their
+advantage right now so uh you know if
+you use 01 in chat GPT it looks like it
+will tell you what's really going on but
+apparently they have a fake model that
+just spits out things to give you the
+impression that it's breaking it up into
+steps and uh they've actually you know
+hidden it because they don't want other
+people to have access to that data yet
+um but the next step seems like it needs
+to be some interpretability some direct
+ability and then for that to happen you
+know I'd be curious if O2 ends up having
+that like you want to be able to see
+okay well show me the work show me the
+steps and oh like that step the third
+step you know can we rerun this but I
+want this to branch in this way or edit
+it I think this is one of the things
+that would be the next unlock is um
+right now it has the plan that it comes
+out the Chain of Thought but you cannot
+edit it so imagine now right now today
+o1 just output whatever 15 Steps to the
+problem that you need to solve and
+imagine now being able to edit each of
+the steps then you get into the super
+super fine to next level of uh Jake hel
+so this is the it's the worst that these
+models are ever going to be right now
+right this moment and you know literally
+week to week you know there are things
+that you couldn't do maybe a month ago
+that you could do really really well
+right now so that sounds like a pretty
+crazy moment in history so we've been
+talking a lot about the kinds of
+companies and ideas that get this wave
+of uplift from this model Improvement
+for 01 what are the kinds of ideas
+that are the opposite that are not
+getting benefited as much from 01 and
+perhaps maybe people even should pivot
+because they're getting they might just
+get deprecated from the improvements as
+01 02 03 I wouldn't go all the way and
+suggest they should pivot but I do think
+companies that are building AI coding
+agents or AI um program engineers I'll
+potentially um have stuff to think about
+here because it seems like o1 in
+particular is like
+outperforming on just you know solving
+programming problems essentially um and
+I I certainly know some of the teams I
+work in the past like a lot of what
+they've invested in is like the Chain of
+Thought infrastructure behind this stuff
+which is now just oan doesn't is not
+actually like any Leap Forward for them
+they've already like invested in that
+already and so I think that might be a
+function of um
+um basically the opaque nature of what
+the Chain of Thought is and once you get
+it to be directable that's actually I
+mean frankly that's what users and Cen
+are struggling with even right now like
+once it starts going down a certain path
+you can't really alter things like you
+you want it to ask you hey do you want
+me to do it like this or that and you
+know all of the systems are a little bit
+struggling with that right now I was
+going to ask the the inverse question
+tyana which is like each new model
+capability unlocks a new set of startup
+ideas like um a year ago doing startup
+ideas where like the AI agent would talk
+on the phone just like didn't work we
+had a bunch of companies that tried and
+all the companies didn't didn't work and
+over the summer it really started
+working and one of the trends from the
+the the past few batches that like
+anything around like phone calling is
+like blowing up right now because the
+models finally work so like with this
+new 01 series of models what are the
+startup ideas
+that like just became possible to
+connect to Sam's essay is a lot of
+things that are going to make the atom
+World physical world better because it's
+really good at math and physics so any
+startup that's working around mechanical
+engineering electrical engineering
+chemical engineering bioengineering all
+of these things that really will make
+our lives better I think really we are
+getting an unlock as we seen from the
+demos we highlighted that's exciting I
+mean it can't just be helping people
+click a little bit faster it's got to be
+things that actually create real world
+abundance for everyone and um that it
+might just be a little bit of a race
+like I think there's sort of the fear of
+AI out there in society right now and
+then um it's sort of up to the
+technologist to try to usher in this age
+of abundance sooner ra rather than later
+and if we can do that then um abundance
+will win out over fear so with that I
+think we're out of time for this week of
+the light cone we'll see you guys next
+time
+[Music]

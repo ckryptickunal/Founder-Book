@@ -1,0 +1,173 @@
+---
+type: entity
+title: Google
+created: 2026-05-26
+updated: 2026-05-27
+sources: []
+tags: []
+---
+
+# Google
+
+## Overview
+
+Major technology company mentioned as an example of an organization that hosted hackathons.
+
+## Source Mentions
+
+- [[sources/00YZWlvAMsQ-00yzwlvamsq|00YZWlvAMsQ]]: Major technology company mentioned as an example of an organization that hosted hackathons.
+- [[sources/21L-iujzy9U-21l-iujzy9u|21L-iujzy9U]]: Tech company, Trey's past employer.
+- [[sources/2RseTTRB2bs-2rsettrb2bs|2RseTTRB2bs]]: Technology company, mentioned as a platform where good actor behavior could contribute to a user's trust profile.
+- [[sources/Elm2p_TRPwk-elm2p-trpwk|Elm2p_TRPwk]]: Hosted the first TensorFlow meetup, a major player in AI.
+- [[sources/OLEjyBLo8sQ-olejyblo8sq|OLEjyBLo8sQ]]: Acquired Portable and employed Ian Fischer in Google Research.
+- [[sources/QkKeu1AyCQ0-qkkeu1aycq0|QkKeu1AyCQ0]]: A major technology company where Mukund Ja previously worked.
+- [[sources/Yr9mHKxOkLg-yr9mhkxoklg|Yr9mHKxOkLg]]: Large internet platform cited for manipulating search results to prioritize its own products and services, and found guilty of federal antitrust law violations.
+- [[sources/gz4AKzSBwTk-gz4akzsbwtk|gz4AKzSBwTk]]: A major technology company that operates an app store and is a key platform for in-app purchases.
+- [[sources/roI3LfxnqUk-roi3lfxnquk|roI3LfxnqUk]]: A technology company where Santi worked as a software engineer.
+- [[sources/pg-apple-s-mistake-apple-s-mistake|Apple's Mistake]]: Technology company known for search and Android.
+- [[sources/pg-a-unified-theory-of-vc-suckage-a-unified-theory-of-vc-suckage|A Unified Theory of VC Suckage]]: A technology company that successfully utilized large-scale VC funding.
+- [[sources/pg-be-good-be-good|Be Good]]: Technology company known for search and the 'Don't be evil' motto.
+- [[sources/pg-a-student-s-guide-to-startups-a-student-s-guide-to-startups|A Student's Guide to Startups]]: A major technology corporation.
+- [[sources/pg-cities-and-ambition-cities-and-ambition|Cities and Ambition]]: Technology company.
+- [[sources/pg-a-local-revolution-a-local-revolution|A Local Revolution?]]: Technology company founded by Larry Page and Sergey Brin.
+- [[sources/pg-a-new-venture-animal-a-new-venture-animal|A New Venture Animal]]: A major technology company used as an example of early-stage vulnerability.
+- [[sources/pg-don-t-talk-to-corp-dev-don-t-talk-to-corp-dev|Don't Talk to Corp Dev]]: A major technology corporation.
+- [[sources/pg-five-founders-five-founders|Five Founders]]: Technology company.
+- [[sources/pg-frighteningly-ambitious-startup-ideas-frighteningly-ambitious-startup-ideas|Frighteningly Ambitious Startup Ideas]]: Technology company known for search and software.
+- [[sources/pg-how-to-be-an-expert-in-a-changing-world-how-to-be-an-expert-in-a-changing-world|How to Be an Expert in a Changing World]]: Technology company.
+- [[sources/pg-hiring-is-obsolete-hiring-is-obsolete|Hiring is Obsolete]]: Internet company.
+- [[sources/pg-great-hackers-great-hackers|Great Hackers]]: Technology search engine company.
+- [[sources/pg-how-to-convince-investors-how-to-convince-investors|How to Convince Investors]]: Technology company noted for being rejected by many VCs.
+- [[sources/pg-how-to-fund-a-startup-how-to-fund-a-startup|How to Fund a Startup]]: Technology search giant.
+- [[sources/pg-how-to-present-to-investors-how-to-present-to-investors|How to Present to Investors]]: A major technology company cited as an example of a successful startup that faced early rejection.
+- [[sources/pg-how-to-start-a-startup-how-to-start-a-startup|How to Start a Startup]]: Search engine and technology company.
+- [[sources/pg-ideas-for-startups-ideas-for-startups|Ideas for Startups]]: Technology corporation.
+- [[sources/pg-microsoft-is-dead-microsoft-is-dead|Microsoft is Dead]]: A search and technology company that rose to prominence in the mid-2000s.
+- [[sources/pg-let-the-other-95-of-great-programmers-in-let-the-other-95-of-great-programmers-in|Let the Other 95% of Great Programmers In]]: A major American technology company.
+- [[sources/pg-ramen-profitable-ramen-profitable|Ramen Profitable]]: Technology company.
+- [[sources/pg-the-founder-visa-the-founder-visa|The Founder Visa]]: Technology company.
+- [[sources/pg-startup-growth-startup-growth|Startup = Growth]]: A search engine and technology company.
+- [[sources/pg-the-18-mistakes-that-kill-startups-the-18-mistakes-that-kill-startups|The 18 Mistakes That Kill Startups]]: Search engine and tech giant used as a case study for product-first growth.
+- [[sources/pg-the-hacker-s-guide-to-investors-the-hacker-s-guide-to-investors|The Hacker's Guide to Investors]]: A major technology company.
+- [[sources/pg-the-future-of-web-startups-the-future-of-web-startups|The Future of Web Startups]]: A major technology company known for its acquisition strategy.
+- [[sources/pg-the-hardest-lessons-for-startups-to-learn-the-hardest-lessons-for-startups-to-learn|The Hardest Lessons for Startups to Learn]]: Technology giant.
+- [[sources/pg-the-patent-pledge-the-patent-pledge|The Patent Pledge]]: Technology company known for its 'Don't be evil' motto.
+- [[sources/pg-the-python-paradox-the-python-paradox|The Python Paradox]]: A multinational technology company.
+- [[sources/pg-the-power-of-the-marginal-the-power-of-the-marginal|The Power of the Marginal]]: Technology company.
+- [[sources/pg-the-ronco-principle-the-ronco-principle|The Ronco Principle]]: Technology company.
+- [[sources/pg-the-venture-capital-squeeze-the-venture-capital-squeeze|The Venture Capital Squeeze]]: Technology company specializing in internet services
+- [[sources/pg-what-happened-to-yahoo-what-happened-to-yahoo|What Happened to Yahoo]]: Search engine and technology company.
+- [[sources/pg-what-business-can-learn-from-open-source-what-business-can-learn-from-open-source|What Business Can Learn from Open Source]]: Search engine and technology company.
+- [[sources/pg-web-2-0-web-2-0|Web 2.0]]: Technology company specializing in internet services.
+- [[sources/pg-what-the-bubble-got-right-what-the-bubble-got-right|What the Bubble Got Right]]: Search engine and technology company.
+- [[sources/pg-why-to-start-a-startup-in-a-bad-economy-why-to-start-a-startup-in-a-bad-economy|Why to Start a Startup in a Bad Economy]]: Search engine and technology giant.
+- [[sources/pg-where-to-see-silicon-valley-where-to-see-silicon-valley|Where to See Silicon Valley]]: A multinational technology company.
+- [[sources/pg-what-startups-are-really-like-what-startups-are-really-like|What Startups Are Really Like]]: A major technology company often cited as a benchmark for startup success.
+- [[sources/pg-why-startups-condense-in-america-why-startups-condense-in-america|Why Startups Condense in America]]: Technology company.
+- [[sources/pg-why-to-move-to-a-startup-hub-why-to-move-to-a-startup-hub|Why to Move to a Startup Hub]]: A leading technology company known for its search engine.
+- [[sources/pg-why-to-not-not-start-a-startup-why-to-not-not-start-a-startup|Why to Not Not Start a Startup]]: Technology giant.
+- [[sources/pg-why-there-aren-t-more-googles-why-there-aren-t-more-googles|Why There Aren't More Googles]]: Search engine and technology giant.
+- [[sources/pg-you-weren-t-meant-to-have-a-boss-you-weren-t-meant-to-have-a-boss|You Weren't Meant to Have a Boss]]: A large multinational technology company.
+- [[sources/sa-ai-ai|AI]]: Technology corporation involved in AI research.
+- [[sources/sa-don-t-read-the-comments-don-t-read-the-comments|Don't Read The Comments]]: Technology company.
+- [[sources/sa-employee-equity-employee-equity|Employee Equity]]: Large technology corporation.
+- [[sources/sa-employee-retention-employee-retention|Employee Retention]]: Technology company.
+- [[sources/sa-net-neutrality-net-neutrality|Net neutrality]]: Technology company
+- [[sources/sa-projects-and-companies-projects-and-companies|Projects and Companies]]: Multinational technology company.
+- [[sources/sa-the-engineer-crunch-the-engineer-crunch|The Engineer Crunch]]: Large technology corporation.
+- [[sources/sa-the-founder-visa-again-the-founder-visa-again|The Founder Visa (again)]]: Technology corporation.
+- [[sources/sa-technology-and-wealth-inequality-technology-and-wealth-inequality|Technology and wealth inequality]]: Technology corporation.
+- [[sources/sa-the-tech-bust-of-2015-the-tech-bust-of-2015|The Tech Bust of 2015]]: Technology conglomerate.
+- [[sources/sa-unit-economics-unit-economics|Unit Economics]]: A multinational technology company known for search and advertising.
+- [[sources/sa-us-digital-currency-us-digital-currency|US Digital Currency]]: Technology search engine company.
+- [[sources/JgFE5wrUL6A-founder-demo-matt-bolous-head-of-policy-safety-of-imbue|Founder Demo: Matt Bolous, Head of Policy & Safety of Imbue]]: Technology conglomerate and platform provider.
+- [[sources/Hk6A1WcJtPs-fireside-with-abigail-slater-assistant-attorney-general-for-the-antitrust-division-us-doj|Fireside with Abigail Slater, Assistant Attorney General for the Antitrust Division, US DOJ]]: Technology company
+- [[sources/F-Y4hDX4nmY-lightning-talk-with-wharton-s-leon-musolff|Lightning Talk with Wharton's Leon Musolff]]: Dominant web search engine provider.
+- [[sources/NCY0IUaiLOA-the-exit-interview-with-jonathan-kanter|The Exit Interview with Jonathan Kanter]]: Major technology company currently facing antitrust litigation.
+- [[sources/9ZQP7PfHnuI-exa-organizing-the-world-s-knowledge|Exa: Organizing the World’s Knowledge]]: A traditional search engine company.
+- [[sources/9CWbc6pekd8-ftc-chair-lina-khan-at-y-combinator|FTC Chair Lina Khan at Y Combinator]]: Technology giant
+- [[sources/p670juDb_5Y-wither-realignment|Wither Realignment?]]: Multinational technology company
+- [[sources/2SbBE9sxyYE-fireside-with-former-ftc-chair-lina-khan|Fireside with Former FTC Chair Lina Khan]]: Technology company and major player in AI development.
+- [[sources/hFodoGofMtg-fireside-with-ftc-chairman-andrew-ferguson|Fireside with FTC Chairman Andrew Ferguson]]: Technology giant currently facing antitrust scrutiny regarding its ad tech and search monopolies.
+- [[sources/MhsjuJaGLK4-fireside-with-epic-games-founder-ceo-tim-sweeney|Fireside with Epic Games Founder & CEO Tim Sweeney]]: Technology company and creator of the Android ecosystem
+- [[sources/4YzFuHk84K0-inference-chips-for-agent-workflows|Inference Chips for Agent Workflows]]: Tech giant developing TPU hardware.
+- [[sources/5_0dVHMpJlo-lecture-5-competition-is-for-losers-peter-thiel|Lecture 5 - Competition is for Losers (Peter Thiel)]]: Search engine and technology giant.
+- [[sources/uFX95HahaUs-lecture-9-how-to-raise-money-marc-andreessen-ron-conway-parker-conrad|Lecture 9 - How to Raise Money (Marc Andreessen, Ron Conway, Parker Conrad)]]: Technology company.
+- [[sources/17Yj1OWRm2U-hedging-your-bets-while-starting-a-startup|Hedging your bets while starting a startup?]]: A multinational technology company.
+- [[sources/0lJKucu6HJc-sam-altman-how-to-succeed-with-a-startup|Sam Altman - How to Succeed with a Startup]]: A multinational technology company.
+- [[sources/0LMK5JYkB94-ai-revolution-what-nobody-else-is-seeing|AI Revolution: What Nobody Else Is Seeing]]: Technology giant and search engine provider.
+- [[sources/2jOnoTEk-xA-aravind-srinivas-perplexity-s-race-to-build-agentic-search|Aravind Srinivas: Perplexity's Race to Build Agentic Search]]: Search engine and technology giant.
+- [[sources/3Fx5Q8xGU8k-competition-is-for-losers-with-peter-thiel-how-to-start-a-startup-2014-5|Competition is for Losers with Peter Thiel (How to Start a Startup 2014: 5)]]: Search engine and technology giant.
+- [[sources/43RhhwpiSk0-do-technical-founders-need-business-co-founders|Do Technical Founders Need Business Co-Founders?]]: A multinational technology company.
+- [[sources/4aMQPG9gPoM-better-ai-models-better-startups|Better AI Models, Better Startups]]: Tech giant behind Gemini 1.5 and TPU infrastructure.
+- [[sources/6606a2ka-jQ-yc-founders-made-these-fundraising-mistakes|YC Founders Made These Fundraising Mistakes]]: Search engine and technology company
+- [[sources/6bhlwWJDhtk-elad-gil-shares-advice-from-the-high-growth-handbook-a-guide-to-scaling-startups|Elad Gil Shares Advice from the High Growth Handbook, a Guide to Scaling Startups]]: Technology company.
+- [[sources/7xPnR21sDtE-paul-buchheit-what-are-some-things-successful-founders-have-in-common|Paul Buchheit: What are some things successful founders have in common?]]: Technology company specializing in internet-related services.
+- [[sources/86AblikwSlg-jeff-clavier-and-andrea-zurek-startup-investor-school-day-3|Jeff Clavier and Andrea Zurek - Startup Investor School Day 3]]: Technology company.
+- [[sources/D81y-kh11oI-should-your-startup-bootstrap-or-raise-venture-capital|Should Your Startup Bootstrap or Raise Venture Capital?]]: A multinational technology company.
+- [[sources/DvXN7fRTVds-matt-cutts-on-the-us-digital-service-and-working-at-google-for-17-years|Matt Cutts on the US Digital Service and Working at Google for 17 Years]]: Technology company specializing in internet-related services and products.
+- [[sources/ECLJ95XNxA4-silicon-valley-s-cargo-culting-problem|Silicon Valley's Cargo Culting Problem]]: Technology company known for search and early startup culture.
+- [[sources/GlALy_viycE-the-most-money-raised-game|The "Most Money Raised" game]]: A multinational technology company.
+- [[sources/GTUUVqee_yI-jessica-brillhart-immersive-director-on-vr-and-ar|Jessica Brillhart, Immersive Director, on VR and AR]]: Technology giant where Brillhart worked on VR and AR projects.
+- [[sources/JZLZQVmfGn8-transformers-explained-the-discovery-that-changed-ai-forever|Transformers Explained: The Discovery That Changed AI Forever]]: The organization where the 'Attention Is All You Need' paper was authored.
+- [[sources/IjPDIjge81o-startup-experts-discuss-doing-things-that-don-t-scale|Startup Experts Discuss Doing Things That Don't Scale]]: Technology giant.
+- [[sources/Ir3hGtg0Wog-the-path-to-100b-by-paul-buchheit|The Path to $100B by Paul Buchheit]]: Search engine and technology giant.
+- [[sources/KYQHPHYs2Os-ben-silbermann-at-startup-school-2012|Ben Silbermann at Startup School 2012]]: Technology company
+- [[sources/KeG7uf7e29E-vmware-cofounder-diane-greene-with-jessica-livingston-at-the-female-founders-conference|VMware Cofounder Diane Greene with Jessica Livingston at the Female Founders Conference]]: A multinational technology company specializing in internet-related services and products.
+- [[sources/K4s6Cgicw_A-startup-ideas-you-can-now-build-with-ai|Startup Ideas You Can Now Build With AI]]: Technology conglomerate.
+- [[sources/LHZKDTJJknE-simon-benjamin-on-architectures-for-quantum-computing|Simon Benjamin on Architectures for Quantum Computing]]: Technology company investing in superconducting quantum computers.
+- [[sources/MDB_TbJLJuw-what-are-some-things-you-ve-had-to-unlearn|What are some things you’ve had to unlearn?]]: A multinational technology company known for its massive internal infrastructure and high engineering standards.
+- [[sources/LzhXIBPYyxw-ben-silbermann-at-startup-school-sv-2016|Ben Silbermann at Startup School SV 2016]]: A multinational technology company where Silbermann worked before starting his own ventures.
+- [[sources/LSUviaN1eso-gmail-creator-paul-buchheit-on-agi-open-source-models-freedom|Gmail Creator Paul Buchheit On AGI, Open Source Models, Freedom]]: Search and technology giant.
+- [[sources/PJge-MV3Z5w-dalton-caldwell-s-whale-ama|Dalton Caldwell's Whale AMA]]: Search and technology company
+- [[sources/RD5EAMOh7fE-how-generosity-built-tech-giants|How Generosity Built Tech Giants]]: Tech giant
+- [[sources/SP7Ua8FKZN4-how-to-build-the-future-aravind-srinivas|How To Build The Future: Aravind Srinivas]]: Dominant search engine and technology company.
+- [[sources/TCPjk8Tpb5c-things-that-don-t-scale-the-software-edition-dalton-caldwell-and-michael-seibel|Things That Don't Scale, The Software Edition – Dalton Caldwell and Michael Seibel]]: Tech giant; source of stories regarding Gmail's origin and the MapReduce invention.
+- [[sources/UKVmfinc8qE-startup-hiring-advice-from-lever-ceo-sarah-nahm-with-holly-liu|Startup Hiring Advice from Lever CEO Sarah Nahm with Holly Liu]]: Technology company where Sarah Nahm worked
+- [[sources/VNxBZ7ka5J0-how-to-keep-your-users-startup-school|How To Keep Your Users | Startup School]]: A defunct social network by Google.
+- [[sources/Ygr3rx4hSsc-jessica-livingston-what-s-different-about-unicorns|Jessica Livingston - What's Different about "Unicorns"]]: Technology company.
+- [[sources/YFeb3yAxtjE-anthropic-head-of-pretraining-on-scaling-laws-compute-and-the-future-of-ai|Anthropic Head of Pretraining on Scaling Laws, Compute, and the Future of AI]]: Tech giant and cloud provider
+- [[sources/akOazwgDiSI-chris-dixon-at-startup-school-2013|Chris Dixon at Startup School 2013]]: Search engine company
+- [[sources/cPPLsLtE_sw-perplexity-s-competitive-advantage-against-google-comes-down-to-user-obsession-and-product|Perplexity's competitive advantage against Google comes down to user obsession and product taste.]]: A multinational technology company specializing in internet-related services and products.
+- [[sources/bSbPXrQ9Wf8-paul-buchheit-startup-investor-school-day-2|Paul Buchheit - Startup Investor School Day 2]]: Technology company.
+- [[sources/chAoH_AeGAg-should-you-quit-your-job-at-a-unicorn|Should You Quit Your Job At A Unicorn?]]: A major technology company.
+- [[sources/c-beGCkpcMs-advice-for-students-and-recent-graduates-on-finding-jobs-liz-wessel-of-wayup|Advice for Students and Recent Graduates on Finding Jobs – Liz Wessel of WayUp]]: Tech giant where Wessel worked as an Associate Product Marketing Manager.
+- [[sources/eUvMhQKrojE-hiring-a-faang-engineer-won-t-miraculously-save-your-startup|Hiring a FAANG engineer won’t miraculously save your startup]]: Multinational technology company.
+- [[sources/cqrJzG03ENE-the-truth-about-the-ai-bubble|The Truth About The AI Bubble]]: Technology conglomerate, developer of Gemini models.
+- [[sources/dy_QmBSSMqc-software-engineer-turned-youtuber-jarvis-johnson|Software Engineer Turned Youtuber - Jarvis Johnson]]: Technology company.
+- [[sources/fcfVjd_oV1I-how-to-not-get-screwed-as-a-software-engineer|How To NOT Get Screwed As A Software Engineer]]: A major technology company.
+- [[sources/hKw6cRKcqzY-inside-the-startup-launching-ai-data-centers-into-space|Inside The Startup Launching AI Data Centers Into Space]]: Technology company developing AI models like Gemini.
+- [[sources/haxZDcTWdOo-hiring-engineers-with-ammon-bartram|Hiring Engineers with Ammon Bartram]]: Large tech company known for academic-focused hiring.
+- [[sources/k4_3uluQsq4-dan-siroker-at-startup-school-2013|Dan Siroker at Startup School 2013]]: Technology company where Siroker worked as a product manager.
+- [[sources/kYdGzntCwX4-future-founders-conference-for-women-globally|Future Founders Conference for Women Globally]]: A multinational technology company.
+- [[sources/kVGvC7Ix_nc-signs-your-company-is-recovering-from-zirp|Signs Your Company Is Recovering From ZIRP]]: A major technology company often used as a benchmark for 'big company' culture.
+- [[sources/kEgeHOtsxrE-at-the-intersection-of-ai-governments-and-google-tim-hwang|At the Intersection of AI, Governments, and Google - Tim Hwang]]: Technology company focused on search, cloud computing, and AI research.
+- [[sources/o3hHO3S8Unk-john-preskill-on-quantum-computing|John Preskill on Quantum Computing]]: Technology company developing quantum hardware.
+- [[sources/oog7n_1fR-o-yc-sus-gustaf-alstr-mer-and-eric-migicovsky-discuss-growth-tactics|YC SUS: Gustaf Alströmer and Eric Migicovsky discuss growth tactics]]: Search engine and advertising giant.
+- [[sources/pQnOBHNKlgs-how-pitching-investors-is-different-than-pitching-customers-michael-seibel|How Pitching Investors is Different Than Pitching Customers - Michael Seibel]]: A multinational technology company specializing in internet-related services.
+- [[sources/qh8sHetf-Nk-why-should-i-start-a-startup-by-michael-seibel|Why Should I Start a Startup? by Michael Seibel]]: A major technology corporation.
+- [[sources/qnNHW6TYv5I-tim-brady-building-culture|Tim Brady - Building Culture]]: Technology corporation.
+- [[sources/tJ2C9a5GBOs-video-generation-as-a-primitive|Video Generation as a Primitive]]: Technology corporation developing advanced video generation models.
+- [[sources/t6fYl5f9iis-a-conversation-with-elad-gil|A Conversation with Elad Gil]]: Technology giant where Gil worked on mobile teams.
+- [[sources/tvK-CgzxSdM-casey-neistat-and-matt-hackett-on-live-video-s-struggle-for-interestingness|Casey Neistat and Matt Hackett on Live Video's Struggle for Interestingness]]: Technology giant.
+- [[sources/tzsmJtKZ2No-how-to-compete-with-amazon-and-google|How To Compete With Amazon and Google]]: Global technology company.
+- [[sources/v5w-0H-hq6E-paul-buchheit|Paul Buchheit]]: Technology company known for search and innovation.
+- [[sources/wH3TKpALlw4-starting-a-company-the-key-terms-you-should-know-startup-school|Starting A Company? The Key Terms You Should Know | Startup School]]: Technology company
+- [[sources/zVY-NF6ZvEQ-paul-buchheit-what-traits-do-startups-need-to-succeed|Paul Buchheit: What traits do startups need to succeed?]]: Technology company specializing in search and internet services.
+- [[sources/yz-fHidp1M8-making-music-and-art-through-machine-learning-doug-eck-of-magenta|Making Music and Art Through Machine Learning - Doug Eck of Magenta]]: Technology company hosting the Magenta project.
+- [[sources/zZN-3RpdjcY-anne-wojcicki-how-to-build-the-future|Anne Wojcicki : How to Build the Future]]: Technology company
+- [[sources/wl7t3QiXYOI-this-18-yo-asian-american-genius-got-rejected-from-16-colleges-because-of-racism|This 18 yo Asian American genius got rejected from 16 colleges because of racism]]: A major technology company.
+- [[sources/tcffqaIi-Jg-discussing-silicon-valley-s-bright-future-with-sarah-guo-elad-gil|Discussing Silicon Valley's Bright Future with Sarah Guo & Elad Gil]]: Technology giant.
+- [[sources/ROw1GMEP_14-getting-hired-at-google-after-20-rejections-hacking-the-process|Getting hired at Google after 20 rejections — Hacking the process]]: A multinational technology company.
+- [[sources/Xa6zsbXGQ5M-should-you-be-the-ceo|Should you be the CEO?]]: Technology company founded by Larry Page and Sergey Brin.
+- [[sources/JfxX7EeTf5k-you-can-build-a-better-product-than-google-a-startup-can-outperform-a-goliath|YOU can build a better product than Google. A startup CAN outperform a goliath.]]: Multinational technology corporation
+- [[sources/weQTRHu1Cq4-learning-vs-earning-how-to-earn|Learning vs Earning: How to Earn]]: Multinational technology company specializing in internet-related services.
+- [[sources/4r9ur7hz6WI-google-was-saved-by-antitrust-but-now-pulls-up-the-ladder-on-startups-w-jeremy-stoppelman-|Google was saved by antitrust, but now pulls up the ladder on startups (w Jeremy Stoppelman of Yelp)]]: Search engine and technology conglomerate.
+- [[sources/0iC_fK6arXI-how-any-dev-team-can-build-like-google|How any dev team can build like Google]]: Tech giant known for its extensive internal developer tooling.
+- [[sources/6WJjSvI8_E0-yc-partner-harj-taggar-s-500m-mistake-a-legendary-startup-advisor-shares-his-lessons|YC Partner Harj Taggar's $500M mistake: A legendary startup advisor shares his lessons]]: Technology company.
+- [[sources/GknGzw0Nqpw-why-i-started-a-vc-firm-too-much-money-chasing-too-few-good-people-and-ideas-is-totally-wr|Why I started a VC firm- "Too much money chasing too few good people and ideas" is totally wrong]]: Big tech company.
+- [[sources/Q4kPDixyGQY-build-your-way-to-getting-rich-steve-jobs-mindfulness-hack-explained|BUILD Your Way to Getting RICH -- Steve Jobs' Mindfulness Hack Explained]]: Technology company.
+- [[sources/WK_XwjhJl3k-6-skills-for-successful-startup-founders-maximize-your-chances|6 Skills for Successful Startup Founders: Maximize your chances]]: Technology company.
+- [[sources/9Fq15k9QPv8-you-can-beat-google-the-way-amazon-does-here-s-how|YOU can beat Google the way Amazon does. Here’s how.]]: Multinational technology company.
+- [[sources/hd9DD4t85fM-unknown|Unknown]]: Technology giant.
+- [[sources/vJbvzkXiex8-there-s-too-much-money-in-the-world-here-s-why|There's Too Much Money in The World. Here's Why]]: Technology conglomerate

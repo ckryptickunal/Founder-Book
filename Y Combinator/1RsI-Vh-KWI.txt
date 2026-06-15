@@ -1,0 +1,1970 @@
+Title: Cory Doctorow and Joe Betts-Lacroix on Adversarial Interoperability
+Video ID: 1RsI-Vh-KWI
+URL: https://www.youtube.com/watch?v=1RsI-Vh-KWI
+Channel: Y Combinator
+Published: 2019-11-27T17:12:47Z
+Duration: PT1H12M25S
+Views: 6281
+Likes: 142
+Tags: YC, Y Combinator, Cory Doctorow, Joe Betts-Lacroix, Adversarial Interoperability
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 1934
+
+Description:
+Cory Doctorow is a blogger, journalist, and science fiction author. He’s also the co-editor of Boing Boing.
+
+https://twitter.com/doctorow
+https://boingboing.net/
+
+Joe Betts-Lacroix is the CTO of VIUM and an Expert at YC.
+
+https://twitter.com/bettslacroix
+https://www.vium.com/
+
+Y Combinator invests a small amount of money ($150k) in a large number of startups (recently 200), twice a year.
+
+Learn more about YC and apply for funding here: https://www.ycombinator.com/apply/ 
+
+Topics
+
+00:07 - Adversa
+
+============================================================
+TRANSCRIPT
+============================================================
+
+alright guys welcome to the podcast
+excellent thank you so today we have
+Cory Doctorow and Joe Betts lacroix Joe
+could you start it off
+sure so Cory when I saw your talk at
+Burning Man it was last time and I heard
+you mentioned adversarial
+interoperability my my sort of nerd
+buzzer went off and I thought wow this
+is gonna be a really cool concept for
+the founders that way Combinator to
+think about yeah so I think most people
+are familiar with the idea of
+interoperability per se you know one
+thing plugs into another thing and we've
+all encountered a kind of indifferent
+interoperability where you know people
+who make your fridge don't care what
+kind of magnets you put on the door
+we've encountered like cooperative
+interoperability where the people who
+make your car actually go and adhere to
+a standard for the 12-volt lighter
+receptacle to make sure that when you go
+to the gas station and pay 50 cents for
+that you know USB charger thing that it
+always fits and works every time
+and and those are great and they're
+important and they're kind of how we
+build systems but there's another kind
+of interoperable interoperability that's
+really important to the history of tech
+which is adversarial interoperability
+and that's when I plug something into
+something you made without your
+permission even if you don't like it and
+maybe especially if you would prefer
+that I didn't in order to make your
+customer my customer and you can
+understand why companies that are very
+established don't like adversarial
+interoperability but people who are
+trying to start a company that's kind of
+where you'd want to start and it used to
+be completely standard right if you
+remember there was the there were a
+couple of moments and say the mac OS is
+history where adversarial
+interoperability was totally pivotal
+pivotal at one point Microsoft had not
+just dominance and the operating system
+market in the applications market but it
+was establishing dominance in the local
+networking market internets they had a
+product called SMB that was a
+proprietary networking protocol and
+although they made clients for SMB for
+other platforms they were deliberately
+very poor so that those systems would
+always be second-class citizens on the
+office network it was really bad for
+Macs
+is really bad for canoe Linux and other
+UNIX it really sold the hell of a lot of
+Microsoft systems and so very slowly but
+surely everything that wasn't on
+Microsoft OS was being squeezed out of
+the office land and this Australian grad
+student used a protocol analyzer to
+capture enough SMB traffic that he was
+able to replicate SMB he released his
+free open-source software he called it
+samba ide attracted a developer
+community and was became kind of a gold
+standard where now it's bundled in with
+with everything you use it's just part
+of you know the standard Linux distro
+and and it's it's in Mac OS and and even
+in mobile platforms and they did that
+even though Microsoft didn't want them
+to Apple then internally produced
+another set of adversarial interoperable
+tools that were really important in the
+in the mid-2000s when Microsoft
+dominance of the office market of the
+office suite market was really
+threatening Mac's ability to collaborate
+within those environments the their
+Microsoft's versions for the Mac always
+lagged the Microsoft versions and so the
+documents weren't really compatible
+excuse me so Apple reverse engineered
+Microsoft's file formats and they cloned
+them and they made a new suite called
+the iWork suite and they did this again
+without microsoft's cooperation and in
+defiance of microsoft's marketing
+strategy and in so doing they were able
+to make Mac's first-class citizens on
+the on the land and in the office
+environment so in both cases they were
+able to do this because there were very
+few legal recourses available to
+dominant firms that had taken over their
+field software patents were rare and
+thin the Computer Fraud and Abuse Act
+which is this 1986 anti hacking law that
+Ronald Reagan signed into law in a panic
+after he watched Matthew Broderick and
+wargames I'm not making that up had not
+yet been extended to cover Terms of
+Service violations as it would be
+eventually thanks to legal action by
+blizzard and Facebook where they were
+able to effectively say that
+violating Terms of Service was was
+hacking and potentially a felony the the
+we didn't yet have theories of tortious
+interference for for inducing users to
+break Terms of Service to break
+contracts the digital any improper right
+act and its prohibition on reverse
+engineering hadn't become widely applied
+yet so today if you were to try and do
+this like say you were to try and make
+Android devices first-class citizens in
+an iOS environment and in order to do so
+you wanted to reverse engineer iOS and
+allow yourself to sideload in apps into
+iOS and also to support the iOS API
+under Android you would find yourself
+running up against software patents
+Digital Millennium Copyright Act claims
+for circumvention you'd find yourself
+running up against Terms of Service
+violations and probably tortious
+interference claims this thicket has
+grown up around adversarial
+interoperability you know like every
+pirate wants to be an admiral everyone
+who goes up the ladder wants to pull the
+ladder up behind them and it's not
+unusual that they wanted to do that I
+mean IBM wanted to do that when they
+were dominating the mainframe market the
+difference is that we didn't let them we
+didn't equip them with these legal tools
+and in the years since we have created
+these legal tools that allow firms not
+just to dominate but to maintain their
+dominance not by making better products
+but by establishing a kill zone around
+their products where it becomes so
+legally fraught to make compatible
+products that nobody even tries mm-hmm
+well we have YC the this group of the
+little people who are striking out and
+wanting to create these these huge
+companies rather than letting the big
+companies do everything and one of our
+flagship publications or forums is
+hacker news there's this ethos of we are
+hackers and we get we can get there by
+hacking so I I would like to think that
+we can still hack and not get our heads
+hacked off is one of the
+so a friend of mine Aaron Patzer created
+something called mint and ended up
+taking a bunch of eyeballs from big
+banks and other financial companies by
+hacking essentially going doing
+adversarial interoperability with their
+websites by scraping which is sort of
+marginally legal you're like a virtual
+browser that he would just like take
+your password information and lock you
+in absolutely okay passwords from the
+users of course thoroughly and then and
+then everything just magically works in
+the background because there was no API
+at the time correct okay yeah and that
+allowed him to build a big startup that
+got sold for you know gazillions of
+dollars by one of those giants for
+financial corporations which is now and
+one of these monopolies that is trying
+to keep other people from doing similar
+things he also sold a bit early like it
+wasn't a billion-dollar company yet and
+do you think that if YC founders are
+using some of these tools that are kind
+of illegal ish or strictly illegal right
+now that they're gonna be forced into
+selling earlier because otherwise they
+won't be able to defend themselves
+that's a great question so let me answer
+it with a kind of theory of change
+because I don't think that the thicket
+is sustainable I think that um nobody
+really likes having a web that's just
+five giant websites filled with
+screenshots from the other four and and
+you know we you see it in the rhetoric
+of the big platforms when they describe
+their own failings they say well what do
+you expect from us were giant right so
+Zuckerberg so called free speech talk
+this week you know one of the things
+that he said was well how can we
+possibly make speech adjudications in a
+hundred languages for 2.3 billion people
+in hundreds of countries you know once
+you build a thing on the scale of
+Facebook you're gonna end up with some
+you know unfortunate ethnic cleansing x'
+but you know you can't make an omelet
+with a without breaking eggs and you
+know there is an obvious answer to this
+which is well if you can't do it at that
+scale
+maybe you need a smaller scale and given
+that we have gone from these big
+platforms and their inability to provide
+for use cases that are at their
+peripheries like women who are harassed
+by terrible men or whatever is
+intimidating and promotes inequality and
+makes people's lives miserable to these
+platforms and their inability to address
+these corner cases result in in acts of
+genocide you might imagine that we are
+headed for some kind of crisis in these
+firms so Lawrence Lessig the cyber
+lawyer who is the Special Master in the
+Microsoft antitrust case and co-founder
+Creative Commons and so on he says that
+the world is regulated by four forces
+one you're definitely familiar with its
+code right things that are
+technologically possible happen
+sometimes things that are
+technologically impossible never happen
+by obviously right
+there's markets right things that are
+profitable happen more often and there's
+law things that are lawful are more
+likely to occur than things that are
+illegal and then there's norms things
+that are socially acceptable are easier
+to do than things that are socially
+beyond the pale
+you know the question of whether or not
+someone like Jeffrey Epstein is welcome
+in your community has become one of
+enormous moment right and you know you
+can see that even though Jeffrey Epstein
+had billions at his disposal the fact
+that he was normatively beyond the pale
+really irked him right this this
+sociopathic monster of a man made it his
+life's work not just to pursue the
+terrible acts that he pursued with
+vulnerable young women but also to do so
+while not being socially unacceptable
+his whole goal in life was to be in
+company of wonderful people and you know
+you sometimes meet founders who cash out
+big businesses and decide they don't
+want to pay taxes and they give up their
+citizenship and they move to the grand
+Caymans or whatever and they discover
+after months or years
+that hanging out with like substance
+addicted sociopaths on yachts for you
+know every hour that God sends is a bit
+tedious right and that eventually you
+want to you want to put down your
+daiquiri get on a plane go back to a
+place where the action is happening so
+norms are also very important and so
+what I would say is that if you have a
+business that is doing something that is
+legally fraud but that business is doing
+something that people love that you are
+creating a constituency for a normative
+shift in how we think about this stuff
+and that you are also creating surplus
+capital that can be used to fund legal
+adventures to make this stuff more legal
+and that in the absence of such a
+constituency that change is going to be
+longer and coming and also much more
+chaotic when it arrives right a change
+that occurs without any kind of market
+constituency where that it's just it's
+purely normative generally involves like
+guillotines right firms when their
+interests are aligned with a new
+normative view in the world can ride a
+wave right they can they can be part of
+a legislative change that is also
+incredibly profitable for them and that
+they support for self-serving reasons
+but that has broad popular support
+because it is doing away with something
+that was manifestly unfair now they may
+find themselves on the wrong side of it
+later right and that's that's often the
+cycle the Pirates become the Admirals
+you know that the people who made phone
+radio and who played phonograms on the
+air and who faced down the collecting
+societies who said no music should ever
+be played on the radio that's piracy
+they were on the right side of history
+but when they sued cable operators
+thirty years later for putting
+broadcasts on a wire they were on the
+wrong side of history but you can be on
+the right side of history if you were
+involved in this kind of firm and you
+know the big big upsides are not
+creating another face book because there
+won't
+another Facebook the big big upside is
+creating the thing that happens once
+Facebook has been torn down and you know
+there is no future in mimicking the past
+so I'd be interested in talking about
+specific examples like Airbnb it's like
+writing change but I'm also interested
+in talking about this as it pertains to
+your career so as a creator copyright
+becomes really important for your
+livelihood so how your thoughts changed
+over the course of your life as a
+creator who sells their content yeah so
+I should mention I'm a science fiction
+novelist I'm yet a reasonably successful
+one 20-something books New York Times
+bestseller six-figure advances all of
+that stuff right so I'm definitely in
+the 1% yeah of literary creators and I
+like the idea of copyright in as much as
+I like the idea of being in an industry
+that has a framework that describes how
+stuff works right what's what's saleable
+under what terms what is unconscionable
+what are our enforcement mechanisms what
+are our remedies you know all that stuff
+having rules of the road is really
+important in an industry the specific
+rules that we've created I'm very
+skeptical of not least because we keep
+trying to apply them to non industrial
+contexts so every every industrial rule
+has to figure out who's in the industry
+and who isn't right if you create
+finance rules again something that I'm
+broadly in favor of and you say things
+that are Bank like need to account for
+themselves with the SEC or with the FTC
+or with some other regulator to make
+sure that bad things aren't happening
+and we say you are doing something Bank
+like when at least a million dollars
+changes hands and then you need to then
+you need to fill in some paperwork that
+might be a reasonable test of whether
+you are bank like or not but if then we
+have hyperinflation and a burger costs a
+million dollars buying lunch for a
+friend does not make you a bank well I
+mean flip it around and be like if you
+have a million dollars in net worth
+something flips in your brain and now
+you are an accredited and
+ester and can make insurance and sure
+what yes yes but imagine that suddenly a
+million dollars is worth a fraction of
+what it was your imagine that's
+something that used to only happen every
+now and again is now happening so you're
+back now and so not only are you a bank
+but when you give your kid allowance
+he's a bank too right so now we're now
+we have to say okay well this regulation
+whether or not the regulation was good
+the test that we're using to figure out
+whether you're in the regulation or
+outside of it needs to be revised with
+copyright the test that we use to find
+out whether or not you were in the
+entertainment industry is whether you
+were making or handling a copy of a work
+that involved creative labor and that
+made sense when every book had a
+printing press in its history and it
+made sense what every record came from
+from a record press and every movie went
+through a film lab and there would be
+some edge cases that it would capture
+that weren't actually part of the
+entertainment industry and sometimes
+those would go to court or they would
+just have a gentlemen's agreement to
+ignore it or whatever but the main body
+the first couple three sigma's was all
+people in the entertainment industry and
+if you can afford a printing press you
+can afford a lawyer to make sure that
+you're using your printing press well
+but the internet only works by making
+copies you know we have this like polite
+fiction that there's this way of getting
+data without copying it called streaming
+it's like a consensus hallucination like
+the internet is made out of like a
+cunning network of cardboard tubes with
+mirrors at the end that I'll get the
+picture from here to that not only that
+is with like 10 million concurrence
+right streaming is just downloading
+without a save button yeah right
+streaming as I'm sending I'm letting you
+download this thing and I think the
+client you're using doesn't have a
+saying you don't know how to yeah yeah
+you don't know how to hack one in right
+so everything we do on the Internet
+involves copying and you copy a million
+times before breakfast you know yeah
+that doesn't make you part of the
+entertainment industry and the idea that
+we're gonna take copyright law which is
+foundationally about regulating entities
+in the supply chain of the entertainment
+industry and use it as our first line of
+regulatory coherence for people's
+romantic lives and people's family lives
+in people's employment lives in people's
+education in their civic and political
+discourse right that when
+someone uses a song in a political ad
+that our first question is not a
+question about elections and election
+law but about entertainment law we've
+clearly put the horse before the cart
+not only that when we ask our fans to
+use copyright law to navigate their
+interactions with each other and with us
+we create the circumstance under which
+either our fans are always going to be
+in the wrong side of the law or the law
+will have to be so simplified in
+streamlines so that fans whose job is
+not to be in the entertainment industry
+can understand it that it will cease to
+be functional as like the technical
+framework for our work so you know I
+live in Burbank California I can walk
+from my house to Universal Warner and
+Disney and there's a very good Harry
+Potter theme park at Universal Studios
+that was made by licensing a bunch of IP
+from Warner I also live on a block with
+a bunch of kids who go to middle school
+with my kid and some of them write Harry
+Potter fanfiction when the lawyer
+Universal called the lawyer at Warner
+and said what are the terms on which we
+are going to conduct this extremely
+technical multi-million dollar
+high-stakes deal they did not have to
+use a framework that was so
+comprehensible that the 11 year old on
+my block writing Harry Potter fanfic
+could make sure the shoes on the right
+side of it
+and if they had to it would have been a
+nonsense and so there are a bunch of
+rules that I would like for a copyright
+but the most important copyright reform
+the thing that gets lost whenever we
+talk about copyright reform is that we
+should just stop asking people who
+aren't in the entertainment industry to
+give a [ __ ] about copyright if you have
+to be a copyright lawyer to read a book
+then either no one will read books or
+everyone who reads books will be wrong
+and so how do you think about remix in
+Andry publishing yeah I think that when
+it's cultural it's one thing and when
+it's industrial it's something else and
+can you define that sure so what I was
+gonna say is that like some industrial
+use is very obviously industrial right
+like if I write a book and publish it
+yeah it's obviously industrial
+supervised another way it's like
+for-profit not all industries for-profit
+so if I write a book and publish it for
+the Church of Scientology and it'll
+charge any money for it it still might
+be industrial okay right
+on the other end of the scale if you're
+writing fanfic and sharing it on your
+classrooms blog or you know Google
+classroom site that's clearly
+non-industrial and then there's some
+corner cases and crisply defining those
+is it's the work of years and you would
+still miss stuff so that's what we have
+judges who apply principles when when
+the corner cases matter most corner
+cases don't matter right most corner
+cases like oh well that guy is doing
+something maybe it's industrial but it's
+like if if there's a loss to me its
+measured in fractional sense and if
+there's a game to him its measured in
+fractional sense people who have blogs
+that have ads from ad brokers who have a
+few hundred readers a day those people
+are industrial ish no one is ever going
+to adjudicate whether or not their
+industrial because the stakes are so low
+that nobody cares they you don't care if
+they're industrial the people whose work
+they're using don't care if they're
+industrial it's just it's just a wash
+right so I like the idea of there being
+rules for industrial use but I think
+that those rules should err on the side
+of free expression so a good example of
+where that's worked as there was an
+african-american writer who wrote an
+unauthorized sequel to gone with the
+wind called the wind done gone and it
+was told from the perspective of the
+slaves right and it was about revealing
+the hidden white supremacist subtext of
+Margaret Mitchell's famous novel beloved
+novel now unsurprisingly the Mitchell
+estate was not happy that Margaret
+Mitchell's book was being brought into
+disrepute by this work that was derived
+from it but I think we can understand
+that artistically if you wanted to
+puncture the you know white supremacist
+subtext of the window and gone the best
+way to do I've gone with a win rather
+the best way to do it is to make close
+reference to that work especially if
+you're gonna do it in fiction is to have
+the same character same characters but a
+different point of view to understand
+what's missing what's omitted from the
+frame the Supreme Court agreed the
+Supreme Court said this is fair use and
+we're good right even though it was
+commercial came up from a publisher they
+charge money for it it was sold in
+bookstores it satisfied all the criteria
+for being commercial so those rules are
+robust practice of fear use I think is
+is great I think we could combine the
+European fair dealing approach where
+they have enumerated exceptions with the
+American for use approach where they
+have principles that are applied to get
+a kind of best of both worlds where we
+might say okay here a bunch of things
+that are always fair use right these
+these these kinds of things like if you
+take X seconds of a song it's always
+fair if you take X lines from a poem
+it's always fair but that's the floor
+the ceiling is if you are doing
+something that has some free expression
+Nexus that is critical and
+transformative and so on these things
+that are harder more nebulous it might
+require a judge then we can future-proof
+fair use because some fair uses are
+intensely technological right like we
+never had a question about whether it
+was fair use for like Dizzy Gillespie to
+blow eight bars of night in Tunisia in
+the middle of a solo but we had that
+question come up when it was Terminator
+X taking a couple of bars out of classic
+jazz or R&B composition and mixing it
+into a Public Enemy album and those fair
+use questions are gonna evolve as the
+technology evolves and the way that we
+address them should be in the hands of
+both judges and law makers so we should
+have judges adjudicate them if the
+answers become incoherent because we
+have different circuits making decisions
+or if they fall afoul of public
+sentiment that lawmakers might be
+enticed to change the law so the judges
+interpret the law differently so for
+example with deep fakes we're seeing a
+lot of opportunity for legitimate free
+expression things that are artistically
+or politically important that that are
+you know very exciting from an artistic
+perspective and yet we also see a lot of
+risky things that are happening with it
+including things that might be harmful
+to free expression that might be harmful
+to artists and their livelihood and so
+on and if we had a set of principles
+that could be interpreted you know like
+we do now with fair use where we have
+the four factors then we can start to
+build up a set of norms around when a
+deep fake is good and when a deep fake
+is bad and we'll have some liminal stuff
+in the middle that judges will continue
+to adjudicate and maybe eventually we'll
+get a law
+that will clarify matters although the
+idea would be that the law would would
+again form the floor and not the ceiling
+that we'd maintain the principles that
+could be used as the basis for the next
+set of law as deep fakes evolve and
+other kinds of technologically assisted
+creativity of all but you have to allow
+some freedom there right because if you
+write it all down the future happens and
+then it's not relevant I mean you know I
+alluded before to what happened when the
+phonograms yeah broadcasters it actually
+goes before the phonograms the
+photographs exist because they
+successfully fought off an effort by the
+people who made sheet music to prohibit
+recorded music John Philip Sousa you
+know the composer who was in the sheet
+music business went to Congress and said
+if the infernal Talking Machine is
+allowed to continue we will lose our
+voices as we lost our tails when we came
+down into the trees right so you know
+many points to Sousa for being an early
+advocate of the sadly still
+controversial theory of natural
+selection but but you know he clearly
+missed the boat here and so yeah so the
+the sheet music people she's through the
+record people who sue the broadcaster's
+who sue the cable operators who sue the
+VCR who sue Napster right right at each
+turn you have someone who who claims
+when I did it it was legitimate or
+public expression when you do it it's
+piracy which brings us back to
+adversarial interoperability where you
+know you have these firms that routinely
+engaged in adversarial interoperability
+who describe what they did as part of a
+kind of heroic effort to wrest control
+from dinosaurs who didn't understand
+what the future needed but who now
+describes themselves as guardians of
+propriety who mustn't ever be disrupted
+you know Zuckerberg and that um
+recording that leaked to the verge of
+his All Hands meeting describing you
+know Facebook's future and rubbishing
+Elizabeth Warren and her breakup plans
+she he says of Warren and the breakup
+plan if you're worried about political
+disinformation and other harms that
+arise from from Facebook you you must
+allow us to be as big as possible for
+who can generate the surplus capital
+needed to hire the army of programmers
+necessary to deal with the dysfunctions
+of our scale but for us right and you
+know this is an argument that's been
+made by monopolist since the Year dot
+18t
+when it was formalized as the bell
+system and given a license to operate as
+a monopoly with that came all kinds of
+special privileges like they had the
+right to decide what you could plug into
+the phone network all the way down to
+mechanical couplings they sued a company
+called Hacha phone that made a cup that
+fit over the handset of your Bell rental
+phone because you can only get a phone
+from Bell so that when you had a
+conversation into it it will be muffled
+and other people couldn't read your lips
+and they said mechanically connecting
+something to the handset of a Bell phone
+and dangers the long-term security of
+the bell system and after all the Bell
+System is now part of Public Safety it's
+part of security it's how we administer
+wiretap it's how we connect the police
+with their constituent you know the
+people they're supposed to be protecting
+and so on how are we to provide all the
+service unless you give us the monopoly
+windfall rents that we collect from
+monopolizing who can plug what into the
+system and you know it held back modems
+that held back the internet it held back
+you know early Usenet it was only the
+dismantling of the bail system that
+enabled the next generation to emerge
+and you know Facebook is positioning
+itself to become a state monopoly like
+the bail system was as is Google as is
+Apple right all of these companies they
+want to be when they say please regulate
+us right when they say please make rules
+to tell us when we're on the right side
+of the law what they're really saying is
+please fashion a kind of throne for us
+and when we sit upon it we will we will
+allow ourselves to be draped with golden
+chains right we will we will become kind
+of the the divine right of kings and you
+eres aristocrats in the regulatory world
+who are after all when you've only got
+five companies in an industry everyone
+qualified to regulate them as formally
+an executive at one or more of them
+right these aristocrats who are drawn
+from our executive suites will tell us
+how best to exercise our noblesse oblige
+a to the little people so that we can go
+on running it and you see this kind of
+state monopoly framework emerging again
+and again when people talk about
+regulating big tech what very few people
+are yet talking about is just breaking
+them up right well some but I think it's
+often I mean you saw it a couple years
+to go with the the hearing know many
+lawmakers have no idea of the scale how
+they work I mean I think what's UPS a
+great example or or Amazon is now
+involved in video surveillance on the at
+the behest as using of police forces all
+over the country and that's that's a
+situation where they have this creeping
+growing monopoly power but it's going to
+be likely enshrined or enabled as you
+say by these bastions of legitimacy in
+the country which is people who fight
+the crime and keep us safe and they're
+recruiting constituents right to their
+to their cause if they are part if once
+you ascribe state like duties to large
+firms you make it impossible to make
+them smaller because then they can't
+perform the state like duties right we
+can I think that we are at this point
+where we can decide that we're going to
+fix tech or that we're gonna fix the
+tech companies but we can't do both
+right if we fix the tech companies if we
+say in order to operate a social network
+you have to make sure that you're
+policing hate speech copyright
+infringement terrorism and every other
+kind of bad act then what you're really
+saying is that you can only have a
+social network if you're so big that you
+can afford the moderators to do all that
+work the reality is they're not going to
+do the work very well but also the
+reality is that if you give them 10
+years without having to look over their
+shoulder at a competitor that they're
+gonna be even more intransigent mm-hm
+and it's gonna be even harder to uproot
+them you know how if you look at the 18
+t antitrust case that finally broke them
+up in 1982 was a thirty-year effort to
+break up 18 T and it arrived at the
+moment in which Ronald Reagan was
+dismantling antitrust enforcement which
+is why immediately after they were
+broken up they started to reemerge
+because that they were like the last
+hurrah of antitrust enforcement in
+America so thinking about this kind of
+in the medium term for founders like
+strategically how would you advise
+someone so nobody knows when these anti
+these these anti adversarial
+interoperability laws can be invoked
+because the
+jurisprudence on them is very thin what
+you have is a whole ton of extremely
+risk-averse counsel and risk-averse
+investors who who don't you know they
+claim that their swaggering Lords of
+creation and they're as we were saying
+before we turn the mics on you know
+they're perfectly willing to say well
+I've got this idea I'm going to disrupt
+everything by turning every apartment in
+the city into an unlicensed hotel room
+but as soon as you say well I've got
+another idea
+Facebook doesn't have users it has
+hostages people hate it they lost 15
+million Americans aged 13 to 34 last
+year largest ever exodus of Americans
+from Facebook all those people landed on
+Instagram right I know what I'm gonna do
+I'm gonna offer a tool that just like
+mint logs into Facebook pretends to be
+you grabs all of the messages waiting
+for you on Facebook cleans out all the
+waiting queue and your favorite groups
+and then puts them into a new context
+for you where facebook can't watch you
+and allows you to reply to them and you
+know Facebook if you believe that they
+have 2.3 billion users which may or may
+not be true if they're you have 2.3
+billion users they have to support
+twenty three hundred one in a million
+use cases every single day which means
+that they're bought detection and their
+ability to distinguish a bot from
+someone who's just doing a
+one-in-a-million thing it's really
+really hard you know I have a friend who
+Raph Koster who designed a game called
+EverQuest and in EverQuest there was
+this thing where they they set up an
+equilibrium for crafting where if you
+crafted a shirt a sheep would disappear
+and then if you wore the shirt until it
+wore it were out a sheep would appear in
+the game and so there was an equilibrium
+between sheep and shirts okay what they
+didn't imagine was that there would be
+someone who would find making shirts
+meditative and who would just fill their
+house with with shirts until there were
+no sheep left in the world because while
+wearing the shirt it didn't wear out
+yeah okay so that person is a
+one-in-a-million very special player
+right but the world is full of
+one-in-a-million people yeah right a
+world of seven billion people has
+checked my math seven thousand seven
+thousand one in a million users yeah so
+every day yeah and so what if you said
+okay Facebook has double-digit urine
+your growth they're worth billions of
+dollars I just want to capture 2% of
+that market right that's still bigger
+than any payout you get from making a
+company to be aqua hired by Facebook and
+you get to be your own boss right you
+wouldn't have to work for the
+dysfunctional hornet's nest that is
+Facebook and and you'd also operate in a
+much lower stakes environment right you
+could you could create a thing that just
+peeled off all the anime fandom or all
+the you know even all the medical
+support groups right that's that's an
+area where Facebook is like really
+taking a lot of hostages I know someone
+who started a medical provider cancer
+provider group which people who have a
+cancer gene but don't have cancer yep no
+and Facebook actively courted them and
+so she brought her group there she
+established this group on Facebook and
+then she discovered a bunch of defects
+in the way that Facebook managed groups
+with highly sensitive information like
+having a gene that puts you at a high
+risk of cancer she discovered that you
+could enumerate the membership of any
+Facebook group even if you weren't a
+member of it and when she reported it to
+Facebook they said that is a feature
+request not a bug report we will send it
+off to the product team and when she
+made a big deal out of it they said okay
+we'll meet you halfway
+now you can only enumerate the full
+membership of any group you're a member
+of which is still potentially very very
+risky yeah right so imagine that this
+person who's you know currently suing
+Facebook over this imagine if they could
+have a Facebook alike that we didn't
+rely on everybody who used that group
+deciding to give up Facebook on mass
+which is a collective action problem
+that's very hard to solve and instead
+said okay here is the place where we now
+conduct our cancer provider thing we
+understand that everyone is over on the
+other one so it's got a bot it logs in
+as you it grabs your waiting messages
+from that group it brings them over here
+it lets you push them back over there it
+allows you to block off sections of
+messages that are encrypted to a shared
+key that can't be read if you're on
+Facebook so parts of it are just
+off-limits to Facebook's scrutiny and
+every message comes with a footer that
+says sent from this rival 33% of the
+member
+this group are now using it once it
+reaches 51% we're gonna shut it off
+don't miss you know don't miss the boat
+right that's a product I would use I pay
+to use that product if I were a cancer
+Prix driver and worried about Facebook
+it's taking all my data the thing is
+that right now people have this this
+all-or-nothing offer from Facebook
+either they get the support that they
+badly need to go on living their lives
+or they walk away from it and the quid
+pro quo is you have to let Facebook kind
+of plunder everything everywhere there
+are still some fringe communities online
+sure have their own sites they host your
+own stuff yeah the one host on Amazon
+but the ones that got courted by
+Facebook and slurped into Facebook yeah
+are now stuck there right there now they
+yeah the most part yeah and Facebook is
+you know what Facebook is good for and
+you know this kind of dovetails on to
+another important topic I think which is
+whether or not Facebook is a persuasion
+engine what what Facebook is mostly good
+at is finding people you know if you're
+a frigerator salesman you know you've
+had this conundrum all your all your
+life as have all your forebears since
+the dawn of refrigeration because the
+median person buys one or fewer
+refrigerators in their life this is why
+refrigerator ads appear beside you know
+freeways because you just gotta blitz
+them and hope someone's buying a
+refrigerator you know that the
+conversion rate on a refrigerator ad
+through normal means is probably like
+zero point zero zero zero zero zero zero
+one percent Facebook lets you find
+people have correlates of refrigerator
+purchasing and they don't have to be
+very good to improve a conversion rate
+that's that bad yeah right you can
+target anyone who's look for a new
+kitchen from Ikea you can target
+everyone who's read a refrigerator ad
+you can target anyone who's read
+refrigerator reviews any of those things
+right all those core let's bought a new
+house whatever and even if you multiply
+the conversion rate by a thousand which
+maybe you could yeah you're still at
+0.0001 percent conversion that's worth a
+lot and it's worth a lot yeah but it's
+not mind control yeah and so we hear
+people say well what Facebook does is it
+lets
+Cambridge analytic I find normal people
+and turn them into Trump voters right
+and and certainly Cambridge analytic a
+made that claim they think they cited
+all those junk science about the Big
+Five personality types and
+sentiment analysis and all this stuff
+that when you actually read the
+literature from people who don't work
+for companies peddling this crap they
+say oh you know it's thin to
+non-existent small sample sizes small
+effect sizes dodgy methodologies pea
+hacking like crazy you know it's just
+phrenology 2.0 right I haven't read it
+I'm not sure you know there people have
+been claiming to have mind-control rays
+for a thousand years no one is yet built
+a mind control ray if Cambridge analytic
+I had a mind control ray they could have
+made trillions just getting people to
+like yeah lay off the carbs and lose
+twenty pounds which right now is you
+know one of the biggest market
+opportunities we have and they would
+have found willing subjects as opposed
+to unwilling subjects Cambridge analytic
+is failure to exploit any of the things
+that you could actually get super rich
+from if you could control people's minds
+tells you that probably what they were
+doing was finding racists and convincing
+them that Trump was someone to vote for
+right not finding normal people and
+convincing them to be racist so what do
+you say about YouTube then because
+YouTube finds things that are like
+everything is it becomes a hub right and
+there's a little spoke and maybe this
+thing is a little bit more tantalizing
+and there may be the next things a
+little bit more tantalizing so this this
+raises this important question why is it
+that people are vulnerable to conspiracy
+theories right if what these algorithms
+do is find people based on traits yeah
+why is the trait of vulnerability to
+conspiratorial thinking seemingly on the
+rise right or you know I guess there's
+an alternate explanation which is that
+they found a previously untapped seem
+that we never knew how to find
+conspiratorial thinkers because they're
+all in Bunker's you know well just think
+about it's like one of your siblings but
+like they don't meet each other right
+right so maybe they're just so thinly
+dispersed that that they that we didn't
+know that maybe they were always there I
+don't think that's the truth though I
+think that we have some well-known
+correlates of conspiratorial thinking
+and the biggest one is conspiracies
+right when you live in a world in which
+there are a lot of conspiracies it's
+hard to know what's true so you know
+Putin's had a media strategy in his
+cabinet cheerfully admits that some
+opposition groups to Putin are secretly
+funded by him and a slush fund but he
+doesn't say which ones
+and so some of the groups that are
+agitating to overturn the Russian state
+are inauthentic and you never know which
+one you're in and so when you're in one
+of those groups and someone says I
+actually think the journey is on
+provocateur you're like maybe they're in
+a Jean provocateur right because we know
+that these groups are shot through with
+them yeah when you scratch a UFO just
+you find someone who knows an awful lot
+about military cover-ups not fake
+imaginary military cover-ups actual
+aerospace and military crafts of which
+there is no shortage when you talk to
+people primarily african-american people
+who believe that during Katrina they
+blew the levees to flood the black
+neighborhoods and spare the white
+neighborhoods inevitably they will know
+an awful lot about Tupelo Mississippi
+where 4050 years earlier that actually
+did happen right and when you scratch an
+anti-vaxxer you will find someone who
+will tell you chapter and verse about
+the opioid crisis and about the fact
+that the Sackler family weaponized some
+junk science and a few very vague early
+indicators about the addictiveness of
+opioids and and their safety and whether
+or not we're under treating pain and
+they suborn the regulatory process and
+the research process to create the
+opioid epidemic which claimed more
+American lives in the Vietnam War
+and made them richer than the
+Rockefellers in the process it's true
+right so that rise in conspiracies that
+we're experiencing now where there are
+there's tons of industry collusion with
+regulators there's lots of regulatory
+capture industries converge on sets of
+policies that if they were legitimately
+competitors you would expect that one of
+them would defect from the Census but
+they actually all line up behind the
+same thing look at the cable industry
+and its universal condemnation of net
+neutrality right if we had a competitive
+cable industry you'd expect to find a
+cable operator would say sign up with us
+we're the neutral one yeah and you know
+you have that here you have sonic but
+sonic is in single digits fraction why
+don't they don't they don't play on the
+national stage ting is another one that
+buys mom-and-pop cable operators and
+rolls out fiber loops but most most
+people don't have a competitive
+yeah you know you look at that photo
+that infamous photo of the tech leaders
+around the table with Donald Trump
+shower after ovulation
+so the first impulse you might have is
+to say how can they sell us out like
+that but the second impulse should be
+how is it that everyone who runs tech
+fits around a single table right and and
+once they do how hard is it for them to
+converge without an explicit conspiracy
+on a set of mutually beneficial policies
+like the policies that all of tech
+arrived at along with the big
+entertainment companies to do no
+poaching in California so California has
+a legislative prohibition on
+non-competes it's why we have Silicon
+Valley you know Silicon Valley was
+founded by a Nobel Prize winner who
+later went crazy right the guy who
+figured out how to make transistors at a
+silicon instead of gallium arsenide
+Shockley after he got his Nobel money
+and started the first semiconductor
+company here in Silicon Valley then went
+nuts became paranoid became an ardent
+eugenicist spent his Nobel money paying
+black and brown people to be sterilized
+and started wiretapping his colleagues
+and his family and it got so bad that
+his eight top hires these Hungarian
+mathematicians quit and started a
+company called Intel and if it hadn't
+been for the non enforceability of
+non-competes here in Silicon Valley in
+California that would have been the end
+of semiconductors right with it they
+would have been held hostage to the mad
+fancies of a eugenicist and so in
+California we have no enforceable
+non-competes so the big tech companies
+all got together in secret with the big
+entertainment companies and agreed that
+they wouldn't hire each other's
+employees top employer a lot of people
+gonna talk about this yeah so how did
+they get that right so how is it that we
+have all these conspiracies well those
+conspiracies are necessarily a function
+of market concentration because the
+collective action problem becomes
+insoluble when you have two too many
+people who have to be inside the
+conspiracy there are hundred cable
+operators it's going to be really hard
+for them to arrive at a single lobbying
+position when there's one per district
+when they've carved up the country like
+the Pope carving up the new world
+between Spain and Portugal and they
+never have to compete with each other
+very easy for them to agree that they'll
+scratch each other's backs and so I
+believe that the rising conspiratorial
+thinking is part of a an epistemological
+crisis right a crisis and how we know
+whether something is true because you
+know it is hacker ishes as anything to
+go okay well I'm gonna find out what's
+true by researching it myself
+sure that even the most ardent hacker
+can't do that forever you can't know
+everything about everything yeah but if
+there's a basic human trait though to
+like once you figure out a little thing
+you just apply it all the time right
+sure yeah and you're so you're arguing
+that has changed or is like a step
+function higher now yeah I think that we
+historically we used instead of
+understanding how things worked we
+understood how the process by which
+things were known okay
+we would say okay we have these
+truth-seeking exercises a regulator an
+expert body a blue-ribbon panel
+gather together take in competing claims
+from different people different firms
+people with self-interest academics
+whatever yeah sort through those claims
+show their work about how they arrived
+at a conclusion publish that conclusion
+along with their work along with
+registers of their interests you can see
+whether or not think might have been
+suborned they are get bound by strict
+ethical guidelines and then there's a
+whole rule of law set of fallback
+positions when new facts come into
+evidence if we need to revise our
+understanding the truth but the truth
+seeking exercise has become an option a
+good example of this is in West Virginia
+so West Virginia we think of as coal
+country it's actually chemical
+processing country it's the biggest
+industry and because it's highly
+concentrated like every industry Dow
+Chemical is basically swamps all of its
+competitors there so in the Campbell
+chemical industry lobbies and in West
+Virginia it's Dow and Dow um wid through
+its its lobbying arm just intervened in
+a regulatory process in West Virginia
+that was asking the question should we
+relax than the standards for how much
+chemical waste can go into drinking
+water and there's a national level
+that's set by the FDA and they were
+seeking to determine whether or not they
+could have a variance that would allow
+for more chemical processing now on its
+face that's not a terrible question to
+ask right there's certainly levels of
+waste Pro
+product then can go in your water
+without making you sick or harming you
+in any way and it would be silly to set
+that number at zero because then it
+would make the useful things that we get
+from chemicals
+more expensive but dows answer to this
+was of course we can afford to have
+higher levels of toxic waste in our
+drinking water those national levels
+were based on the national BMI and here
+in West Virginia we are so fat that the
+poison will be diffused in our tissues
+and besides West Virginians hardly drink
+water right so you remember when we only
+had medical marijuana in California not
+recreational marijuana and if you want a
+marijuana you had to write a reason for
+it and you could just write like you
+know trouble sleeping yeah right this is
+what you write in the box if you're Dow
+Chemicals and you know you get whatever
+you just want to know that you bought
+the truth right
+well if you don't know whether your
+drinking water is gonna kill you and you
+don't know whether the reinforced steel
+joist in your roof were sufficient to
+keep it from falling on your head and
+you don't know whether the tailpipe
+emissions from your diesel are gonna
+poison you and your family and you don't
+know whether your anti-lock braking
+system is secure or whether or not the
+credit bureau that has compiled a
+non-consensual dossier on you and all
+your financial information is about to
+breach it and you can't trust the
+process by which we determine whether
+those things are true or not then what
+you end up with is is instead of the
+rule of law you want to put the rule of
+man where you find someone who says a
+thing that you know to be true that
+turns out to be true and you follow them
+right it's like The Hitchhiker's Guide
+to the galaxy if you have the towel you
+probably have the toothbrush and the
+backpack and the Rail Pass so you follow
+people where they lead you once they
+show you that they know one true thing
+Donald Trump says the system is rigged
+the system is rigged he is going to rig
+it more but he is the only one in the
+Presidential Debates who will say the
+system is rigged
+you know Joe Biden doesn't say the
+system is rigged Joe Biden says let us
+return to the time in which we no longer
+we know we didn't talk about whether the
+system is when it's crazy like so
+well you're Canadian but yeah I I just
+got married and my wife is Dutch and so
+we came into the country we're doing all
+the green card stuff you know Trump said
+like we only want rich people coming in
+and I was like that's a terrible thing
+to say but having gotten just gone
+through the process it's always been
+this way no [ __ ] right exactly
+I have a green card I've been through
+the process I can tell you I know
+exactly where you're coming from yep I
+saw a recent study academic study about
+conspiracy theories and
+because people have been saying wow
+there's so many more conspiracy theories
+now and they used a method for analyzing
+that which is hard to measure over time
+conspiracy theories gone up or down yeah
+their method was to look at thousands
+and thousands of letters to the editor
+that are all well documented in the New
+York Times going back you know 75 year
+100 years or whatever and it's actually
+gone down like the the number of letters
+to the editor saying I think the system
+is rigged I think the the you know that
+there's a secret probable of people
+determining the price of wheat or
+whatever has I don't remember the exact
+percentages but from you know you know
+36 percent of letters down to 20 percent
+of letters today or so that's that's
+what it reflects an editorial change in
+what letters the New York Times
+publishes it absolutely could be yeah
+that that might be a very different it
+also may be like especially super
+recently a letter to the editor isn't
+the way that people communicated about
+the conspiracy theories anymore year sir
+yeah I might just tell you something
+about the conspiratorial beliefs of
+people who write letters to the editor
+as opposed to a belief per se I mean it
+is very interesting to look at things
+like the resurgence of the Flat Earth
+which I think you know it's it's a
+although I don't have an empirical basis
+for asserting it it certainly seems
+qualitatively like the bit like the
+belief in the Flat Earth is more central
+than it was yeah 10 years ago now in on
+its face there's never been a worse time
+to promote the Flat Earth right because
+people have seen the curvature of the
+earth they've been in airplanes right
+they've they've like attached a GoPro to
+a balloon at their local hackerspace and
+brought it up and brought it down again
+or even at their elementary school and
+so this belief in conspiracy when you
+when you ask those people to explain why
+they believe that there would be a
+conspiracy about the flat earth they
+will regurgitate a a kind of blend of
+real conspiracies and conspiracy
+theories that are predicated on the
+existence of real conspiracies yeah and
+and so the credibility of the system has
+been eroded through market concentration
+and and corruption right that's what
+corruption is right is it's when it's
+when true seeking exercises are suborned
+by parochial interests around them
+regulated in the public interest we
+regulate in a parochial interest so we
+have yet to talk about your work at all
+and I'm related to this or I'm
+interested in your predictions of the
+future yeah and especially in you know
+50 year future because Jo and I talked
+about this before we started recording
+and we're like man so many of these
+essays and like like speculative fiction
+works are like very near future at this
+point yeah well in the you know say like
+in 1992 Neil Stevenson wrote Snow Crash
+right and it was you know brilliantly
+prescient of a lot of things that would
+come and you could say even though those
+are kind of self referential like second
+life was probably explicitly based on
+having no totally when you got hired at
+Second Life they gave you a copy of snow
+pack Monday right so you and your you
+know fellow cyberpunk authors are not
+just predicting the future but also
+creating the future which is a
+fabulously creative position to be in
+and that in the past it seems like the
+things that came out of of those novels
+took ten years to happen you know
+whereas now it feels like it feels like
+they're all becoming closer turn well
+you know like Neal Stevens latest book
+fall he was talking about how the infirm
+the the Internet is going to just fall
+apart and be discarded and he calls it
+the miasma and and and if there's so
+much fake news and disinformation and
+and BOTS creating news that nobody
+trusts any of it anymore and they're
+just going back to to just like these
+little subnets where people are
+following other people they really
+really trust and and similarly like and
+radicalized your most recent book a lot
+of it seems very near-term
+like you're writing about things that
+are happening right now or are just on
+the verge verge of happening is that a
+trend you think because the works
+changing faster or I've always been
+pretty near future and the work that
+I've written I it's not all of it but
+but you know in the main thrust of my
+work is very near future I mean I was
+once
+nominated for a Hugo Award for a novel
+set a novella set like 500,000 years in
+the future
+among dueling solar system scale AIS
+that were fighting over you know where
+they're their major limitations were
+things like light speed lags and whether
+they're light cones intersected and
+stuff but but for the most part I've
+been I've kept things pretty close to
+here
+I don't think science fiction does
+predict the future i I think it can make
+the future which is exciting but I think
+that a the idea that the future is
+predictable is itself horrific ly
+fatalistic right like that I think you
+know whether it's the hacker mentality
+or the activist mentality you have to
+believe that the future is up for grabs
+that something different can happen
+there are some things that are like
+parameters that we probably can't change
+if a million people are born this year
+then in 18 years there won't be more
+than a million 18 year olds that's you
+know that's that's definitely true but
+the lower number is zero right yeah they
+could all die tomorrow right we could up
+that you know I've I've I've been to a
+Passover Seder I know that the firstborn
+can all be snuffed out and in one night
+so you know we we there's some things
+that we we don't that we can say with a
+certain degree of certainty but they're
+actually pretty trivial and I like to
+think that what you get when you read a
+science fiction story is insight into
+what that writer hopes for and fears
+about the way technology is interacting
+with human civilization and that when
+you find a science fiction book that is
+doing well in the world you find out
+what the world hopes and fears about
+technology and their civilization and
+that's hugely influential I as a founder
+look at science fiction as a menu of
+choices future do I want to bring about
+you know there were these and Snow Crash
+there were these tiny computers instead
+of the big laptops that were around just
+barely happening those days are desktops
+mostly there are these little ones that
+you know that that were put on the chest
+and so on and that was part of my
+inspiration for creating the world
+smallest laptop in the early 2000s right
+and which is now the Guinness records I
+guess
+but the menu of options is something
+that I you know it's great it's it's
+part of the creative process and and I
+would I would love that if for the YC
+community to avail itself of science
+fiction as part of the idea generating
+process because a lot of founders come
+into the YC with terrible ideas but
+they're like sometimes when they're
+fantastic founders they're like let's
+just accept them anyway because I know
+that the yeah and they're exposed to the
+richness of this network and the
+community here they'll realize oh
+there's a much cooler thing to do I mean
+that's the incredible downside of being
+in an ecosystem like Silicon Valley
+right because there's the groupthink and
+then all the sudden you just come out
+with the same derivative ideas which is
+why I like taking the full menu of
+science fiction and could be so creative
+and fun so I think that in terms of like
+what I see in the kind of near to mid
+term so first of all we are at a tipping
+point for our understanding of the
+climate risk mmm I have a model I call
+the the peak indifference model which is
+when you have a problem that's a long
+way off whose causal relationships are
+not crisply understood or or crystally
+demonstrated it can be hard to even
+convince people that there is a problem
+right like what's wrong with smoking
+smoking is fine I don't have cancer
+right now that if the problem is real
+and you don't address it if people don't
+believe that it is it's a problem then
+you build up debt right that over time
+you will experience more mutations and
+your likelihood of getting a tumor goes
+up over time the planet will get warmer
+over time the lack of encryption in the
+web will invite more surveillance
+man-in-the-middle attacks and so on and
+at a certain point that debt will be so
+onerous that the number of people who
+are indifferent to the problem will
+monotonically decrease without any
+outside action that day-to-day and
+week-to-week there'll just be more
+people who have cancer right or whose
+houses are on fire or whose lives are
+ruined by identity thieves right and so
+they now are no longer in need of being
+convinced that there's a problem but
+then they need to be convinced
+that there's a potential for a solution
+right that denialism can slide into
+nihilism very quickly absolutely if I
+spend 30 years unsuccessfully convincing
+that we need to care about rhino
+populations and then one day you wake up
+and you're like okay well there's only
+one left the logical next thing to say
+is might as well find out what he tastes
+like Yeah right
+like going back to what you said before
+there's no reason you can't use
+persuasion for positive chirp-chirp
+and so you know back to this idea that
+what the platform's actually deliver is
+the ability to find people who share so
+Leafs that that's critical it's also
+dangerous right it's what created the
+movement for black lives it's what
+created non-binary gender identities
+right that's you know these things that
+are like widely dispersed and not
+concentrated in any one place you know
+San Francisco was a nexus for gay
+liberation for lots of reasons but one
+is it's like where the Navy used to
+discharge people who men who had gotten
+into trouble for being gay right
+so they actually created they took a
+trait that was widely dispersed in the
+population and they created a locus for
+it and it became an attractor so if you
+were gay and you live somewhere else
+there was a higher than median chance
+that you would toddle off to San
+Francisco and so it created this but now
+we can do that without waiting for the
+accident of history right now we can now
+if you are trans or if you like a weird
+kind of manga or if you're trying to
+find people who want to buy
+refrigerators you can use the internet
+to do that you can use the platforms and
+they're non-consensual surveillance
+dossiers to do that the other thing that
+you can do with it is you can find
+people who might want to carry a tiki
+torch to the streets of Charlottesville
+change it out replace us right so it
+does allow every kind of idea that is
+not yet in the mainstream to find
+potential Co adherents and to build up
+community mutual support that you can
+then use to try and bootstrap what's in
+like the demi-monde
+into the into the wider world but I
+think I like this mental model of the
+pressure like the sort of the the ratio
+between the pressure for something
+that's been building up
+the and the indifference to it at the
+same time I'm like sure if as a founder
+to be able to to have x-ray glasses
+where you can look around and society
+and see where that pressure differential
+is the highest it was seems like it
+would be a great algorithm for finding
+your next startup idea how did you have
+suggestions if you're gonna skate to
+where the puck is going to be okay you
+know I think that one of the things
+we're at a tipping point for now is the
+understanding that concentrated
+industries and wealth concentration are
+both massive contributors to climate
+change and again there's this idea that
+you could either go with action or
+nihilism we might say okay well let's
+just find some feudal lords and and
+allow them to decide what we're gonna do
+now that the crisis is upon us because
+it's too late or we might say actually
+we're going to pursue pluralistic
+solutions again this is one of those
+things where I'm not making a prediction
+about which one we're gonna do I'm
+saying that you get to decide which side
+of that you're gonna be on are you gonna
+create a startup that that speculates on
+land that is not going to be flooded and
+sells it ahead of time right or can you
+be a part of stopping the rising of the
+sea from in the first place and you know
+this idea of I want to return to the
+idea of science fiction here people tend
+to mistake science fiction which a lot
+of things have gone wrong all at once
+for dystopias it is not dystopian to
+imagine that complex systems will break
+down engineers who assume that complex
+systems won't break down are not good
+engineers they're idiots right that's
+what leads you to build the Titanic and
+then not put any lifeboats on it right
+an engineer who understands that you
+know entropy is not just a good idea
+it's the law is someone who plans for
+graceful failure right who looks at the
+way things will break down and figures
+out how we can get them started again so
+the right dystopias when everything goes
+to hell at the same time and one thing
+going to hell takes the other thing down
+and there's a positive feedback and no
+one can but also where we are painted as
+the Fallen remnants of a once noble
+species that
+at one point figure out things like
+sanitation and civil civil engineering
+and so on but which has lost that praxis
+and could never recover it because we
+are we are fallen we have fallen from
+grace that's the road right the road is
+the idea that when the lights go off
+your neighbors are gonna come over and
+eat you right literally limine yeah
+right the actual lived experience of
+people have been in disasters is that
+the crisis is when the background
+refrigerator hum of petty grievance tops
+and you realize that you have much more
+in common with the people across the
+street than you ever had against them
+and people pitch in and help each other
+there's a wonderful Rebecca Solnit book
+called a paradise built in hell that's
+this closely researched historical text
+about how people behave in real
+disasters and it opens with the 1906
+quake here in San Francisco and the
+elites who lived in high ground
+experience and that sociologists they
+now call it elite panic they said that
+the pours were coming to eat them and so
+they sent out general Funston from the
+Presidio with his troops and he was
+convinced of - incorrect things one was
+that he knew how to use controlled
+demolitions to set fire breaks and the
+other one was that once he set the city
+on fire that he couldn't trust poor
+people to go back and fight the fires
+because they would loot and so that's
+how he came to burn down a quarter of
+San Francisco including the mission and
+the actual lived experience of the
+people who were not on the high ground
+the people who built temporary villages
+in what's now the Golden Gate Park and
+so on is is that there was this enormous
+feeling of coming together that everyone
+pitched in to help everyone else there's
+stories of like butchers who cleared out
+everything they had and just cooked it
+in what's now I'm what's the park at
+18th and just past eighteen Dolores Park
+which was then I think I believe a
+Jewish cemetery and they set up a cook
+pot and they cooked all the food
+prettier than a butcher shop and gave it
+out to people right so building for
+resilience building for recovery when
+you can see disaster on the horizon is
+not just an optimistic thing that is a
+kindness to your species it's also good
+mark
+cents right that we we are very soon to
+be in the market for graceful recovery
+not for luxury bunkers where you can wet
+the bed and wait for you know better
+people than you to rebuild civilization
+so that you can emerge with your like
+ar-15 and your thumb drive full of
+Bitcoin and like live out life in a
+enough Rosetta painting where you get
+like a harem and a bunch of mercenary
+guards like actually building stuff for
+recovery and resilience that's that
+there's a huge potential future market
+for that in terms of adversarial
+interoperability and what's going to
+happen to the platforms on the way you
+know our willingness to trust that big
+firms have our interests at heart and
+that the processes that regulate them
+are on the side of the public interest
+and not the side of the firm's parochial
+interest that that is coming to an end
+and so if you want to be where the puck
+is gonna be betting that when you do
+something that disrupts the big
+platforms that public sentiment and
+therefore lawmakers will be on your side
+is a good bet now many of those people
+will time it wrong right that many of
+those people will get there too early
+and sure yeah Aaron sports yeah and
+others right I mean you know power
+ventures was a company that scraped face
+book along with a bunch of its
+competitors like LinkedIn put it all in
+a single dashboard Facebook went after
+them using the Computer Fraud and Abuse
+Act which is the law that was used to
+prosecute Aaron they successfully argued
+that violating Terms of Service was a
+Computer Fraud and Abuse Act violation
+building on a precedent set by Blizzard
+when they went after people who made
+their own vena battlenet server call B
+NAT D and and and set this terrible
+precedent which shouldn't stand I mean
+it's it first of all I think of it if
+there was a circus blood it went to the
+Supreme Court they would lose but we
+should have we should have legislative
+clarity on this that you know you cannot
+create a felony out of thin air by
+sticking a sprawling garbage novella of
+legalese in front of your product that
+says doing anything disfavored by our
+shareholders is illegal yeah right I
+mean that the that should just not be
+how our law works it's not a just system
+of lots obviously not a justice and law
+not least because we're at the system of
+law when all of these firms who are
+deploy
+we're getting started none of them would
+have succeeded right
+so getting the scraping time right it's
+it's gonna be hard but you know hike you
+was scraping linkedin to produce
+employer Analytics LinkedIn turned a
+blind onto it until they launched their
+own analytics product then they tried to
+block them out and sue them under the
+Computer Fraud and Abuse Act not only as
+hi q1 in court and how to judge say you
+can't use the Computer Fraud and Abuse
+Act to legally punish people who scrape
+your site the judge also said you can no
+longer use technical countermeasures
+against high Q which is crazy I so
+they're like no rate-limiting nothing I
+mean none of the crazy I block their IP
+address is nothing you have to let them
+scrape you right because their this is a
+pro-competitive public interest base
+where was this 79th Circuit here really
+yeah
+so who have thought it right so the
+Ninth Circuit's really interesting
+because it's it's the tech circuit right
+down to the entertainment circuit
+because California has this dual nature
+so sometimes you get that conflict where
+you have crazy copyright decisions
+coming out sometimes you have ones that
+are like really skeptical of copyright
+claims and and it's very hard to guess
+which judge is going to jump which way
+but the other time where it gets weird
+is that some of the bench are like well
+I'm here to support new entrants into
+the market because that's the heart and
+soul of what makes Silicon Valley
+Silicon Valley and some of them are like
+I'm here to support the kings of Silicon
+Valley because they're what makes
+Silicon Valley Silicon Valley what would
+Silicon Valley be without Google now you
+know the same thing Google the same
+thing Silicon Valley would be without I
+don't know
+Dec it's great I mean literally I have
+been to the Googleplex when it was
+silicon graph yes I've been to it when
+it when it's the Googleplex I will
+happily visit it again when one of our
+high Q Plex and built on nothing but
+building better scrapers right right
+just circling back to YC founders then
+you think that they can now proceed
+because of this Ninth Circuit decision
+with with less fear and build some
+companies based on massive scraping so I
+am NOT a lawyer
+I'm not their lawyer but I will say that
+if I were talking to an investor about
+how I was gonna nibble Facebook to death
+I would be showing them the high Q
+decision and not every investor is gonna
+be convinced not least because a lot of
+those investors are now invested in
+companies whose bottom line depends on
+their not being scraping that disrupts
+their monopolies but money talks
+[ __ ] walks there's a market
+opportunity there it is clearly a giant
+market there are a lot of VCS and there
+are a lot of EC's and there is a and
+that if you do it you will be building a
+constituency for more legislative and
+legal clarity and also for a better
+public understanding that scraping is
+legitimate you know I I got onto this
+adversarial interoperability kick when I
+went and spoke at the 50th anniversary
+of the University of Waterloo's computer
+science program I'm a proud you Waterloo
+computer science dropout and I there
+whip-smart they call themselves you know
+the MIT of the north and just like
+McGill is the Harvard of the north
+that's right yeah yeah yeah it's
+hilarious as Canadian as possible under
+the circumstances the the QA afterwards
+the super-smart grad student said like
+well I hear what you're saying about
+Facebook and it's monopoly but how would
+I ever convince all my friends to leave
+it at the same time as me and if I
+didn't how would I talk to them I'm like
+are you kidding me you you're a grad
+student in an elite computer science
+program you know write a very small
+shell script done in one write like that
+that part has been solved for a long
+time and it is a recurring motif in the
+history of our industry and of every
+other technological industry you know
+where did cable TV come from cable TV
+came from slurping slurping down
+broadcast signals on a big antenna in
+rural Pennsylvania that was too far for
+anyone with a TV to reach either Philly
+or Pittsburgh and then charging money to
+retransmit them over wires to people who
+own televisions in the small town it was
+creative
+TV salesman and it was called community
+access TV our community antenna TV CATV
+before was called cable was adversarial
+interoperability you know if
+broadcasters had had the copyright or
+patent or Computer Fraud and Abuse
+defenses or whatever he would never had
+cable TV every industry has an incumbent
+disrupted by a new entrant not by making
+a thing that is totally disjoint from
+the new entrant not by asking people to
+leap the chasm from one to the other to
+let go of the vine they're holding on
+before they've got a secure handle on
+the next one everyone figures out how to
+allow the people to have a foot on both
+fields while they figure it out you know
+well I think that's consistent with a
+hacker spirit or the YC community and
+I'd love to see more of that happening
+thanks for the inspiration thanks so
+much
+all right if someone wants to read your
+work find out more about you where do
+they go I'm often the first quarry in
+Google so it's pretty easy to find me
+otherwise my personal site is called
+crap hound comm and as well as your
+podcast as well as my podcast and I'm
+one of the owners of a website called
+Boing Boing Boing Boing net and I'm dr.
+OH on Twitter
+perfect thanks so much thank you thanks
+you

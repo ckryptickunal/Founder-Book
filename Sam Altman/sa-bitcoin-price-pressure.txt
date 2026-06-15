@@ -1,0 +1,39 @@
+Title: Bitcoin Price Pressure
+Video ID: sa-bitcoin-price-pressure
+Channel: Sam Altman Essays
+Published: 2014-04-30 18:39:48
+Source: HuggingFace sgoel9/sam_altman_essays
+
+============================================================
+TRANSCRIPT
+============================================================
+
+The price of bitcoin keeps trending down. [1] This causes a lot of people to declare the end of bitcoin.
+
+It’s important to understand that the default price pressure of the bitcoin ecosystem is down. There are a lot of reasons for this, so I’ll just give a few examples.
+
+When most merchants take bitcoin for a purchase, they immediately sell for dollars (they can’t usually pay their vendors in bitcoin, they can’t pay tax in bitcoin, they don’t want to be exposed to the volatility, etc.)
+
+When miners mine bitcoin, they have to sell some of them to pay for the electricity in dollars (or, more likely, RMB). As the difficulty goes up and the price of bitcoin goes down, they have to sell a larger and larger percentage of what they mine. In fact, as far as I can tell, mining is currently unprofitable with any reasonable cost of electricity. It still makes sense to mine if you’re living in a dorm and don’t pay for electricity, or if you can’t pass a KYC check and are willing to pay a big premium to get bitcoin.
+
+The recent US and international tax changes and tax filings also caused sell pressure. This will continue to be the case until the US government takes bitcoin for taxes. If I ran the government, I would never do this—the US needs the dollar to remain the world reserve currency.
+
+There are plenty of other reasons, but the point is that bitcoin is different from many other financial markets, where the default pressure is up. [2]
+
+This doesn’t mean bitcoin is doomed. It just means that for it to succeed, we’ll need significant external buy pressure. As I wrote awhile ago, I think the key thing we need for this is people actually using bitcoin for transactions instead of speculation (and merchants willing to hold bitcoin balances). [3] Unfortunately, transaction volume still appears to be trending down. [4] Anecdotally, I hear from merchants who start taking bitcoin that after an initial spike they see almost no volume.
+
+The other way to get enough buy pressure would be if many people started deciding they want to hold bitcoin as a hedge or a speculation. This spurs occasional bubbles, but we haven’t yet seen it work long term.
+
+A declining bitcoin price does not mean bitcoin is failing. And even if bitcoin itself fails, I think the blockchain will be one of key technical innovations of this time period. In fact, in the most recent set of YC interviews, we saw more great blockchain companies than bitcoin companies. Maybe Ripple or Dogecoin ends up winning. [5] Or maybe something that hasn’t been invented yet.
+
+But it’s hard to imagine a future where the blockchain concept isn’t really important.
+
+[1] http://blockchain.info/charts/market-cap
+
+[2] Paul Buchheit first made this point: https://news.ycombinator.com/item?id=7570656
+
+[3] http://blog.samaltman.com/thoughts-on-bitcoin
+
+[4] http://blockchain.info/charts/estimated-transaction-volume
+
+[5] Speaking of dogecoin, as of this writing, it is the number 3 crytocurrency measured by daily volume, and if the market cap went up $10MM (about 25%), it would be the number 3 by market cap also.

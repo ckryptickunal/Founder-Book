@@ -1,0 +1,382 @@
+Video ID: 6g8qRhCI8AU
+URL: https://www.youtube.com/watch?v=6g8qRhCI8AU
+Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 375
+============================================================
+
+I'm excited to welcome today Thomas
+Wolf, the co-founder and chief science
+officer of Hugging Face. We're here
+today at beautiful San Diego for the
+Europe's 2025 conference. So, let's get
+started. Thomas, you had a very unusual
+career path before you became the
+founder of one of the best open source
+AI companies. You studied originally
+physics, then even did law and then
+started uh hugging face. Tell us about
+how that journey shaped
+eventually hugging face.
+>> Yeah, I mean even in physics. So I
+studied I was at Berkeley. I was working
+on laser fusion interaction in in some
+of the team I became the team that did
+the fusion experiments liver and then I
+worked on super connecting material. So
+even the physics part had multiple life.
+I guess one of the thing for me was
+always to try to work with people I
+wanted to work with even more than what
+I was specifically working on. So that
+was one of the defining moments
+and then I just think life is too short
+to do just one thing right. So once you
+once you once you did once you do one
+thing for six years like so I did PhD
+post and I was like I want to do
+something else. I really love writing. I
+was like I I'm very interested in law
+why not switching? So I switched to
+became a lawyer. Very different type of
+things like your time you have a you
+have a an amount you know your time cost
+$300 like you start counting the hours
+totally the opposite of PhD where you
+spend your hours on like nothing or like
+falling rabbit holes for two days or
+something like that. So very different.
+I think each of these kind of touch me
+taught me something in retrospect like
+like like science is this this idea that
+you can go really deep in one topic and
+you can actually explore these things to
+build. low is this idea that you for me
+was this idea that my time is valuable
+and I should have signed it very well
+and then and then hugging face was kind
+of by uh by accident. I I fell in
+entrepreneurship kind of like I needed a
+job in the US basically at that time. So
+this company was being created which was
+a game company and I joined and I just
+started this exploration deep learning
+that became this opens library that went
+viral and then we decided to pivot the
+company around this open source library
+and then we kind of found our mission
+along the way that building this idea
+that community opensource open science
+there's kind of a mutual win-win that's
+possible in the AI world instead of just
+racing and there is this idea that
+distribution of power is actually
+extremely powerful
+and and power catalyzing ecosystem
+instead of just cannibalizing them which
+is what you try to do. We try to be this
+platform on top of it people can build
+billion dollars company I think is very
+very uh exciting.
+>> That's very cool. I mean following this
+you've been one of the first proponents
+of really open research
+as opposed to the efforts that the big
+labs do. They keep it all private.
+What do you think are some of the things
+that the open-source community does a
+lot better to push AI forward? What are
+the strengths and also what are some of
+the limitations?
+>> Yeah, I think open source is probably
+the best thing that computer science
+brought to humanity. It was created
+really by you know this like couple of
+like deep hardcore computer science
+people against a lot of other
+possibility. Um I think this is even
+something that I want to see applied in
+in much more fields of research. I think
+there's many advantage. Uh there is
+obviously the collaboration aspect which
+is like if something is open source in
+particular code you can try to tweak it
+and like the way AI research is is
+progressing is still like something take
+this model and try to change positional
+embedding of things. So you need
+something to start from. If every day if
+every time you need to reinvent the
+whole model because everything is closed
+it's just much lower. So it it catalyze
+accelerate progress but then more than
+that I think it it's allowed to explore
+many areas. So just before the interview
+we're talking about interactive world
+model and gaming and how gaming can re
+be reinventing. The only way to really
+you know be able to do that or one of
+the way at least is you take a very good
+pre-trained model for instance an image
+and you just add some interactivity
+component and that's a very quick way to
+actually explore you know alternative
+use that maybe the person who trained
+the model didn't even thought about
+right so there is this kind of
+opening of possibility like the model is
+created it's a very strong base you
+basically people have distilled in it
+like a 100 million hours of GPU view and
+data and you can use that as a very
+powerful starting point to explore new
+use cases and if you don't have access
+to the model you've much more limited
+right just like TGPT you can basically
+use it for what OpenAI intended you to
+use it but if I want to use it outside
+of the training domain I don't know like
+very
+DSL specific DSL they didn't train of
+doesn't work basically so the only
+option is to have access to this and
+tweak it so I think It's really vital
+for exploration, creativity and and I
+think creativity like entrepreneur
+entrepreneurial creativity as well.
+Yeah.
+>> So one of the things now following on on
+this to the audience that are watching
+here a bunch of founders and builders.
+You've seen many people build on top of
+all these open-source models on hugging
+face. It can be easy to get a cool demo
+quickly,
+>> but it's actually hard to get something
+that actually passes the bar to build a
+good product.
+>> Yeah.
+>> So, what do you think are the things
+that the audience should think of?
+Things that look good but don't
+necessarily translate into real products
+for for users.
+>> I mean, to be honest, I think it's the
+same with closed model. So most of the
+company right when you want to build
+your product it most of the time you
+won't fall exactly squarely in this like
+good example where JGPT works and what
+happens so they start building the
+scaffolding all the time and say oh we
+need to pre-process we need to be
+careful about this edge case because now
+doesn't work and so most of the company
+I've seen building be on closour on top
+of open source they they have to anyway
+like in a way know their domain
+knowledge their domain really well and
+just like do kind of the
+productionalization of this model
+themselves and it involve lot
+scaffolding and hopefully as the model
+improve they're more reliable on a wider
+range and you can even like some of
+course you can sell your data and like
+hope that the next generation of model
+is going to be better because you get
+then more data to fine tune but I think
+we're still at this stage where it's
+quite rare that you can take a model out
+of the box and expect it just to work in
+production environment
+um the just the way you do it between
+close source and open source is quite
+different close source you mostly work
+with this kind of scaffolding I think
+and open source you have the option to
+fine-tune maybe to train it and of
+course the the associated drawback is
+that it's a non-trivial still like a
+non-trivial I would say operation to do
+so as a as a young startup where you're
+just like three you have to know you
+have to know if you want to allocate
+some of your time to fine tune the model
+or not and so I would say if if it's a
+core thing like like this interactive
+world model whatever you're fine tuning
+is a core thing because the feature
+doesn't even exist right but in any case
+you probably also want to to scaffold or
+or use I mean more and more by the way
+this uh fine-tuning I think is something
+that you can you can find framework that
+help actually do like tinker like a
+couple of new company emerging that try
+to help you do that so probably it's
+something you won't have to to fully do
+inhouse but yeah I think in any case
+there is no super shortcut from demo to
+production it's still a painful process
+but as part of the mode and the
+knowledge and like what you're building
+is also the pain also I mean that once
+you made it work you actually solve
+something non-trivial and that's where
+your company value lie
+>> so talking about pain
+>> you've been very good at delivering at
+hugging face these cutting edge research
+ideas and turn them into actually widely
+used tools and API especially with your
+role less the chief science officer.
+What is the hardest part about turning
+turning research into real products? I
+mean, we talked about pain. What what
+are some of the nuts and bolts of how to
+how do you get the best out of your
+teams and ship these products?
+>> I mean, in practice, I'm chief science,
+but what I really see myself more in
+terms of open source. So when I created
+transformer data set was kind of a chief
+product officer because this is kind of
+a product and your clients is basically
+the open source community and they're
+very difficult to please as clients
+because everything is free so they want
+actually the best. It's very easy for
+them to move from one to the other
+framework if they have to. So you really
+have to uh think a lot and I I think for
+me the key thing I've always tried to
+work a lot on is um I think there's
+probably two and they're both equally
+important. The first one is the kind of
+on boarding experience which is your
+first experience with a library.
+The number of abstraction you will have
+to learn to be able to master it. the
+like clarity like the the distance from
+I download this library to I run the
+first kind of ex non-trivial example of
+what I want to do which is this example
+where you're kind of wow you're like
+this is something I was not able to do
+before I had this library this should be
+an extremely pleasant experience in a
+way like just like you talk about this
+unboxing it's a bit the equivalent of
+unboxing a product so you want people
+when they come when they start the Apple
+experience
+>> it should be extremely obvious like the
+the abstraction you have you should they
+should be almost tangible and they look
+obvious to you. You should have very few
+abstraction because the more you have
+you each new abstraction you impose your
+user to learn is like a friction point.
+So this is very important and the only
+way to get this to work is I think to
+keep before you release or after before
+each time you add a feature to put
+yourself in the in the shoes of someone
+who is trying your library for the first
+time has no idea what are your abraction
+don't want to read the doc because no
+user of any software want to read the
+documentation so uh it shouldn't even
+have to write the documentation so
+everything should look really obvious.
+And it's it's getting harder and harder
+as you know your library more and more
+because you're you know you start to to
+to not have this fresh mind. So I think
+getting this fresh mind and so every
+time I prepare for release in the past I
+was always keep reiterating on this
+first step. I install I try this first
+thing. Does it look obvious? I install I
+try this first thing. So that's the
+first one. And then the second one is is
+where you put your level of abstraction.
+And there's always a cursor between um
+how is easy to use, how much control you
+give and how complex it is. And this
+cursor is something extremely hard to
+pinpoint really well. And I feel I feel
+like the only way is to try it a lot
+yourself on many use case and see where
+if you get this balance between
+flexibility, intuitiveness, right? Uh
+there's a lot of taste here. I think
+there's a lot of design and I think a
+good open source library overall is
+something that's uh extremely design
+opinionated.
+>> Now to close it off, imagine we get to
+the point which probably should happen
+at some point. The capabilities of
+open-source AI models matches those of
+the closed ones. So what should the
+world update about the priors of how AI
+innovation is done because so much
+funding goes into the private labs right
+how would the world change
+>> yeah maybe my take would be that I don't
+think this is so far off and I I feel
+like we had regularly this year this
+kind of challenging on the closest model
+yeah it started I mean the 2025 started
+with deepseek at the very beginning of
+the year saying boom and was the first
+moment the world realized oh there's
+this open source AI what is that and
+it's actually competitive more recently
+Kimmy Kimmy was also like really close
+to the state-of-the-art or not so far um
+I would say yeah for me the prior is
+that
+there is still probably uh I mean
+there's still value in training model I
+think and for sure this is something
+that will keep we keep continue pushing
+frontier but more and more I think the
+value and uh and that's also the
+direction of many frontier companies
+value will be the interaction the app
+layer with this model so the model is
+something but basically chipd is very
+interesting because the interaction
+friction is very low because it's a
+product that really works and even
+entropic has this type of aspect so this
+user interface and how you use the model
+in application or um application that
+exists on your application is I think
+where the value will really lie. So
+right now the interesting thing is that
+the the foundation model labs are also
+also attacking this but that's something
+you can attack without training models.
+So that's there's a lot of room for
+startups there to do amazing things
+>> which is awesome news for the audience.
+So what I'm hearing is that there's just
+so much more value to unlock at the
+application layer for models. If we're
+really now neck and neck in terms of
+foundation model performance,
+>> a lot of the cool things and value that
+exists is building the application
+stack.
+>> Yeah.
+>> Which is great for all the founders.
+>> Yeah.
+>> Great.
+>> 100%.
+>> Thank you so much for coming and
+chatting with us, Thomas.
+>> Thanks. It was a pleasure.

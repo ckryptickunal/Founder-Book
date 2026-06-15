@@ -1,0 +1,934 @@
+Video ID: UGYnC9zqa-k
+URL: https://www.youtube.com/watch?v=UGYnC9zqa-k
+Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 927
+============================================================
+
+[music]
+>> I am excited to welcome Sherwood from
+Sasabi, who has exited his first YC
+company and is coming back through the
+YC batch again for a second time.
+Sherwood, thanks so much for joining.
+>> Yeah, really excited to participate in
+the upcoming YC batch. Uh be back here
+for a second time. I think it's going to
+be a really different experience and to
+introduce Sasabi to to the batch and to
+into the world.
+>> Yeah, amazing. So maybe to start off, um
+tell us a little bit about what Sasabi
+does. Sasabi is an AI native
+observability platform. It's
+specifically designed for a fast-moving
+engineering teams. Um and one way to
+think about it is like it's like a
+DataDog or a Sentry, but instead of
+being built in 2010 or 2012, it's built
+in 2026 and it's aggressively AI native
+or uses a lot of AI agents.
+Um and the idea basically came from this
+experience I've had over the course of
+my engineering career where
+every time there's an outage in
+production, every time there's a bug, I
+would spend hours digging through
+dashboards and log searches and looking
+at flame graphs and kind of not really
+knowing what's going on and eventually I
+might get to the root cause, maybe not.
+Uh I felt like AI coding tools had
+gotten very powerful and the the part of
+my job that involved creating new
+software was was uh really changing, but
+the part of my job that involved
+maintaining existing software wasn't
+really changing.
+With Sasabi, customers can basically ask
+questions about how their production
+system is doing. They can ask things
+like why is production down or what does
+this error mean or which customers are
+affected or which commit is responsible.
+It makes it very easy to to find and fix
+production issues. Amazing. And you you
+kind of a controversial take on this and
+how you're building it that it's just
+built off of the log files, right? Tell
+us a little bit more about that.
+>> Yes, so one of the things that we say at
+Sasabi is logs are all you need.
+And it's actually one of three different
+sort of hot takes that we have. We call
+them our core principles. They're part
+of our manifesto which we we published.
+Logs are all you need specifically
+refers to this idea that we think you
+only need logs, like only need this
+specific type of telemetry to do
+observability well. Um and that's
+controversial because
+in the past for a long time,
+uh people would say that you need
+something called the three pillars of
+observability. You need logs, metrics,
+and traces.
+And that's because like these different
+data types serve different types of
+queries and then some data types are are
+large and some some data types are small
+and so for different types of things you
+you you end up end up end up using these
+different kinds of data.
+But the result is that you have three
+different things that you need to
+instrument. So for every engineering
+team out there, they need to implement
+logs, metrics, and traces for all of
+their services. That's a huge pain in
+the butt. Logs relative to metrics and
+traces are so much easier to use. Like
+every developer knows how to do a print
+statement and every developer knows how
+to read a log stream. And so we think
+that logs kind of represent the Occam's
+razor
+of observability. Like it's anyone can
+do it. Like it's the simplest possible
+way of of doing it. Um then there's
+another thing which makes this true,
+uh which is this AI paradigm shift. So
+in the past, logs were kind of the least
+valuable type of telemetry because
+they're mostly unstructured
+unstructured.
+Um
+that's that refers to the fact that like
+the log line contains like natural
+language and that's and uh you can't
+like have a machine read over it and
+derive a lot of insight. Well, obviously
+AI changes what's possible there and uh
+you can now have AI agents read all of
+your log lines and tell you what's going
+on. So that's the idea behind logs are
+all you need. Very cool. And obviously
+observability is changing a lot over the
+last couple decades, but um talk about
+how you got your start early on setting
+up observability at Brex.
+Yeah, so I started my career as a
+front-end engineer, but I was like the
+junior-most front-end engineer at
+Crunchbase originally and because you're
+junior, like you don't get to work on
+any of the important stuff. So my team
+was complaining about CI/CD and about
+how long their builds and deploys would
+take. So I went down this rabbit hole
+which is CI/CD and figured out how to
+make our deploys faster.
+And
+that led me to infrastructure and DevOps
+and which turned out to be something
+that was really fascinating for me. I
+got basically obsessed with this problem
+of like how do we make production
+reliable and how do we make developers
+more productive and allow them to to to
+ship faster and to ship higher quality
+code. So
+I was already kind of primed and
+interested in that space and then I went
+to join Brex where I was lucky to be
+basically the third infrastructure
+engineer at Brex.
+I think it was roughly employee 70.
+And they had just stood up what what
+they call their foundation team.
+My the second infrastructure engineer I
+think had joined the same week. So I
+can't quite call myself the second, but
+like really close.
+Uh and actually he works at Sasabi
+today, which is great.
+While I was at Brex, first we built out
+all of Brex's infrastructure that
+supported the company through
+hypergrowth. So all of our staging and
+and production environments, the
+microservice framework, CI/CD system.
+Eventually when we had rolled out like a
+lot of this basic infrastructure and the
+foundation team had grown a lot,
+we were in this position where we were
+starting to splinter the foundation team
+into different subteams and focus on
+different specializations.
+And we had found ourselves in a position
+where we had like
+50 different microservices running in
+Kubernetes as a part of our production
+cluster and they're all owned by
+different teams and some teams would own
+multiple microservices and it was
+getting hard to kind of know what was
+going on in production. And so
+the answer I didn't know at the time
+because I was too junior, but the answer
+is observability. Like this is the
+reason that observability exists to help
+developers or engineering teams ask
+questions about their production
+systems. And so
+I was fortunate to be one of the team
+members that helped start the
+observability team at Brex. And then
+while working on on observability at
+Brex, I became very observability
+pilled.
+Basically like the observability
+philosophy is that you can you can have
+integration tests, you can have unit
+tests, you can have QA processes, you
+can have like release processes. You can
+do everything you want like static
+analysis before the code goes to
+production to try to make sure that it's
+right and that it's going to behave
+well. But like nothing really prepares
+you for production. It's what reminds me
+of that um
+that Mike Tyson quote where he's like,
+you know, everyone's got a plan until
+they get punched in the face.
+>> Right.
+That's so true of of shipping software.
+Uh so
+once you're in a production, you just
+can't predict what's going to happen.
+You can only prepare yourself to respond
+and that's what observability is. And
+how long did you spend building that out
+at Brex? I worked on observability at
+Brex for about a year. In total, I
+worked at Brex for about 2 and 1/2
+years.
+The main things that we did while we
+were on that observability team was
+setting up auto instrumentation. So all
+of every microservice that gets created
+automatically receives a bunch of
+metrics and traces and logs. Um
+installing all the infrastructure that's
+responsible for capturing and forwarding
+that information to our observability
+systems. Setting up tools like DataDog
+and configuring them. Like I went I mean
+DataDog has like hundreds of modules,
+but I feel like I've explored every
+single one and every knob and
+configuration option and and tuned it
+appropriately for for the team at Brex.
+And then now I've done that at a couple
+different companies.
+Um and other things like making sure
+that every service has
+like a dashboard that covers all of the
+key metrics and
+and basic monitors. And driving SLO and
+SLI adoption, which is a little bit
+more that's some observability lingo
+that is more common in the the
+enterprise and SRE space, but basically
+making sure that every team knows how to
+use observability tools and is measuring
+their services.
+And talk about your decision to
+ultimately leave Brex and start your own
+company. Yeah, honestly I feel like I'd
+been waiting for a long time. I I
+started my career as a through a web
+development boot camp and that boot camp
+was here in San Francisco. I grew up in
+North Carolina, so pretty far cry from
+like Silicon Valley startup tech
+culture. And while I was at this boot
+camp, everyone I knew was reading Hacker
+News and
+wanted to work at the hot YC startup. It
+was like Stripe and Gusto and Instacart
+at the time.
+Uh And
+it was just an amazing experience for me
+and it it made me really want to work in
+startups and specifically to do my own
+YC venture-backed tech startup. So from
+the very beginning of my career like
+that had been my long-term goal. While I
+was working at Brex in I was living in
+New York with my roommate who was also
+an early Brex team member. He and I had
+relocated to New York together with Brex
+from San Francisco to help start this
+New York office. But the the pandemic
+happens and so we got stuck in New York
+with like a 2-year lease.
+And of course like what do you what do
+two like software engineers do like when
+they have a lot of free time and nothing
+going on. So we started talking about
+startup ideas and felt that we had a
+really special team and wanted to do
+something together and
+applied for YC and that was
+I guess the rest is history. Yeah. Um
+talk a little bit about how you came up
+with the idea that you originally
+applied with. My first company was
+called Opkit.
+We went through YC Summer 21
+and which was one of the COVID batches.
+And what Opkit was was a voice AI for
+health care company. So we built
+LLM-based voice agents to automate calls
+to insurance companies for things like
+uh eligibility, which is basically when
+the the provider tries to determine
+whether you have coverage or not for
+your procedure and for
+prior authorization, which is another
+hoop that insurance companies make you
+jump through to get certain procedures.
+And also to do claims to check on status
+of of claims that have been submitted.
+Um It's a pretty esoteric
+field. It's a very big big field, but
+it's a far cry from anything I'd done
+previous. Yeah, why did you decide to
+work on that?
+Yeah, it's I was well I guess to start
+with my my dad was a doctor growing up.
+Um so I had a little bit of a lens of
+like, you know, if if I know if what I
+know is like just software engineering
+and tech startups and you know, I need
+to have an idea that's like out in the
+real world, right? Like then that
+impacts real businesses, not like just
+tech businesses. So, the only field that
+I really knew anything about outside of
+technology was was healthcare. And I
+felt like I had access to my dad who's a
+subject matter expert and to his
+practice and his his colleagues and I
+could go interview the the staff and the
+the administrators there.
+Um so, it felt like an opening and it
+meanwhile like I was coming from a lens
+of having worked at Brex and having been
+very interested in fintech during
+fintech's like real rise from like
+during the second half of the 2010s. And
+was thinking about like what's next for
+fintech. It's seems like we've done a
+lot of like consumer fintech and now we
+have like the Brexes of the world, the
+Brexes and the Mercurys.
+Um maybe verticalized fintech would be
+what's next. And so, I thought why not?
+Like healthcare seems like a big
+vertical. Like there's a lot of money
+moving there.
+Um
+And in retrospect, I think
+uh Opkit was kind of like an MBA case
+study approach to to picking a company
+or picking an idea. It wasn't based on
+personal experience or insight or like
+or passion, candidly. It was based on
+this this real desire to start something
+and
+and grasping basically for for whatever
+I think I wherever there was an
+opportunity. Yeah. Did you ever consider
+moving outside of healthcare or for you
+know, the like you spent years working
+on Opkit?
+>> Yeah. Yeah, we spent
+>> Was it always like this is a healthcare
+company and we must stay within
+healthcare? Yeah. We you know, I regret
+not evaluating that like fundamental
+condition more carefully.
+I mean, actually I don't have a ton of
+regrets because I am here where I am
+today and like all
+those there are a lot of hard lessons
+learned from Opkit, but now Sizabi gets
+to benefit from all of them.
+But we went in like with a healthcare
+idea and I my my co-founder Justin and I
+love working together and we felt like
+we were learning a lot and making some
+progress. Slow slow and steady progress.
+Um and peeling back layers of the
+healthcare ecosystem and learning about
+new problems within the space. So, we we
+enjoyed it, but I don't think that it
+was the right thing for us to be working
+on. And
+one thing that I wish we had thought
+thought more about is like whether this
+is really playing to our strengths. Mhm.
+Um and I think that's like a great piece
+of advice for for YC founders and
+founders in general. It's like look for
+your personal expertise or um or or
+build based something something based on
+your prior experience. You probably have
+more prior experience than
+than you think. And there're probably
+more openings there than you realize.
+Yeah.
+>> You don't need to build a business in
+some other field just because it feels
+like whatever you're you've been doing
+is is not real. Yeah. Yeah, we tend to
+see that a lot. People that have a lot
+of experience in an area for years, you
+know, observability and even in fintech,
+you probably had a lot of fintech
+experience much more than than other
+people would.
+>> Yeah. And then explicitly saying, "I
+don't want to do that because I either I
+know too much about it, so I know, you
+know, all the problems or what's going
+to be difficult about it.
+Or I'm kind of burned out on it. And so,
+I'm going to go and do something that
+I've never done before and I don't have
+the depth of experience or insights on."
+Was there a moment when you were
+building Opkit maybe in hindsight
+looking back where you're like, "I
+should have known at this moment that
+this was not the right thing for us."
+>> I think what's funny was like we were
+definitely not the right team to start a
+healthcare fintech company or a
+healthcare AI company when we started.
+But progressively we became that team.
+So, ironically like if I had if I if
+Sizabi were a different kind of company,
+it could have been a healthcare or
+health tech company because we have now
+4 years of hard-earned experience in
+that space. And at some point it was
+like, "Oh, we've got 1 year of
+experience in this space and we're like
+know more than anyone we talked to." Um
+and I guess this is the definition of
+the sunk cost fallacy, but uh
+there were there were times when we
+especially during YC, which was at the
+very beginning of our company, which
+really kind of like kicked us out of the
+out of the nest so to some extent. Um
+where we evaluated it, but we I don't
+think we went deep enough about that or
+really reckoned with like what it would
+look like for us to spend the next 10
+years of our life working on a
+healthcare or health tech company. Um
+yeah, we should have thought harder
+about that. Yeah. Well, it's like the
+curse of the second time founder a lot
+of times is
+>> [clears throat]
+>> coming up with the idea to work on
+because you know too much. And one of I
+mean, you're describing naivete of
+jumping into this space that you knew
+nothing about and trying to learn as
+quickly as you can, but sometimes that's
+what's needed to just be able to Yeah, I
+I I think that's true. I mean, I think
+that if you're especially if you're like
+a really young person and you already
+you want to get started, you like you
+can be an expert at anything, but you
+have to be prepared to put a couple of
+years of experience in
+to to learn the ropes, to ramp up, to
+build a network,
+to gain trust with with people in the
+space. Yeah. Cuz um
+the those things are required, I think.
+They're preconditions for success. But
+if you have some experience, like it
+doesn't need to be hard. Like you can
+just trade on the experience that you've
+already gained thus far. And for Sizabi,
+I
+you know, if everything about Opkit was
+out of alignment with who I am and my
+background and my experience and my
+passion, with Sizabi like the first
+thing I wanted to do was to align
+everything with who I am. And so, I was
+like, "I'm going to build a tool for
+people like me
+based on my personal experience. Like
+it's going to be an observability thing.
+It's going to be a developer tool. I'm
+going to sell it to
+early and growth stage tech startups,
+which is like the only companies ever
+I've ever worked at." Um and I'm going
+to name it after Mobile Suit Gundam,
+which is a 1970s
+80s era sci-fi anime, which I love. So,
+I was like this is a symbolic act about
+making Sizabi
+in alignment with who I am. Yeah. And
+that's probably the most important thing
+that we most important mistake I think
+we made with with Opkit. Yeah. Yeah,
+talk about that maybe like the tail end
+of the Opkit journey and some of the
+lessons that you learned there and then
+what brought you back to starting
+another company
+and deciding [clears throat] to work on
+this. I guess to catch people up on
+Opkit, we were working for about two-ish
+years and we had built what's called a
+revenue cycle management software
+company where we were basically helping
+medical practices
+check patients' insurance when they come
+in,
+keep that information on file and then
+prepare and submit claims to insurance
+companies. We had built kind of a
+traditional SaaS tool for this. Um LLMs
+obviously happened in that time. And one
+one of the things we learned while
+working on Opkit is that there's a lot
+of operations that healthcare providers
+can only do over the phone with
+insurance companies. And that's we can
+maybe that's by design, maybe that's
+not.
+And so, we had built a call center in
+the Philippines of people who were
+calling insurance companies
+to support our the rest of our product.
+Um and we started using LLMs to to
+quality assurance on those calls and to
+do data entry and data extraction from
+the call transcripts. And then we built
+an LLM voice agent. So, I I think we
+were one of the first teams to actually
+build and commercialize an LLM based
+voice agent in healthcare.
+>> Mhm. Um it was very early. It was very
+hard.
+I think we really enjoyed the
+engineering challenge more than anything
+else, which probably points to to what
+we should have been doing.
+>> Yeah. And we did that pivot in our last
+or in our second year at Opkit.
+Um and so, then our
+we had about a year worth of runway left
+to build and commercialize that
+solution, basically retool the company,
+reframe it and then
+and go out and try to raise a seed
+extension to see if we can kind of keep
+things going. And got to the point where
+we had about 6 more months left of
+runway. We had prepared all of our
+materials. We had launched the products.
+Went out to fundraise. Some of our early
+conversations were were not that
+exciting.
+Kind of didn't seem like investors were
+super super interested and that led us
+to reconsider whether this was the right
+thing for us to be doing. So, um our
+decision was that it was not. And there
+was still plenty of time for us to go do
+something better. Mhm. So, we then
+started to seek out acquirers and talked
+to a lot of growth stage healthcare
+companies and growth stage fintech
+companies and that to be honest, that
+felt like more of the same. You know,
+we'd be
+be in a larger organization doing some
+of the working on some of the same
+problems we've already been working on.
+Mhm. Uh and then we talked to one AI
+sales tech company called 11x, which is
+based here in San Francisco, um
+that was growing super fast. They were
+building a voice agent. We we knew their
+CTO from from Brex.
+>> Mhm. And it seemed like
+a much more exciting place for us to be.
+We wanted to get closer to to AI. And
+so, we decided to join 11x. Very cool.
+Yeah, talk about the decision to leave
+that and then start Sizabi again and I
+mean, 11x was amazing and and
+I'm really proud of the product we built
+there and the team we our team came in
+and and did a lot of great engineering
+work there.
+But
+first thing we did was rebuild their AI
+SDR product, their sales rep. And
+that was probably like a 3 to 4-month
+long project of building it from
+scratch, cutting over from the old
+platform to the new platform and and
+scaling it and kind of getting it to
+steady state. And in month like five
+where most of that work had been done,
+we're now in sort of maintenance mode.
+And that's like, "Okay, well, I've now
+set up DataDog again. I've set up all of
+the observability tools and CI/CD tools
+that I always set up." And because I'm
+tech lead for this project, anytime
+something goes wrong, like I get a Slack
+message or someone like a go-to-market
+person comes and like taps on my
+shoulder. Um so, now I'm like the
+on-call guy. Mhm. And
+I found myself we had we're building a
+futuristic AI product using futuristic
+AI coding tools and then I would go to
+debug it and it was the same painful
+manual experience that I've had for my
+entire career. Uh and so, it was just it
+it was a painfully clear to me that we
+were going to do to observability what
+was already being done to like code
+generation or or the the act of creating
+new code. Mhm. Uh and I also realized,
+"Wait a second, like this is like the
+perfect company for me." Right? Like
+it's it it's completely aligned with my
+interests, my experience, my combination
+of experience and and now AI and
+and infrastructure and dev tools and
+observability. And you know, I'm a I'm I
+I've already been a founder, so I kind
+of
+it's not it wouldn't be a scary new
+thing. Like I know how to fund raise, I
+know how to build a team,
+I know how to do a big launch, and I
+know how to do press.
+Um
+So all of the I I felt like I had all of
+the right ingredients to do this company
+and that this was like the company I was
+born to to build. Yeah, talk about
+anything that you specifically want to
+do differently with this company based
+on lessons that you learned from
+building Opkit. Yeah, I mean the the big
+one was like build something I know.
+Leverage my personal experience, play to
+my strengths. Call it Sasabi because it
+should be
+it should be a representation of who I
+am.
+Um
+Another one is that I thought it should
+be fun.
+And I think as fun as Opkit was, like I
+I loved working with my co-founder, my
+best friends. I loved going to YC.
+Healthcare was like intellectually
+rewarding and and interesting and
+there were a lot of new experiences
+which were which was which was great. I
+can't say that it was like fun. You
+know, like we were pushing that boulder
+and the boulder never really they tell
+you like the boulder you get over the
+hill and the boulder starts to roll.
+Like it never really rolled for us and
+it was really hard.
+Um
+So my decision to start Sasabi was like
+when I start this new company, it's
+going to be fun.
+Um and so I I
+I think that calling it something that I
+I love and and building in a space that
+I love and working with frankly like
+customers and and other developers that
+I would be grabbing beers with anyways
+if I wasn't doing this if they weren't
+my customers.
+Uh was another thing another thing that
+I wanted to do to make it feel like like
+a better time. Yep. Yep. Talk about your
+future vision for Sasabi. Where's it
+going 5 to 10 years from now? Well, our
+our mission is to become the default
+observability tool for all companies in
+what we call the AI era, which I would
+say is
+probably starts with the agentic like
+the year of agents in 2025 and and
+forwards.
+Uh our vision is to create this world of
+self-healing software where software
+improves in self without human
+intervention or direction. And I think
+you know, one thing that I that I remark
+on or reflect on is the fact like
+companies like Cursor are automating
+this part of the software development
+role, which is like creating new
+features in apps. And that's obviously
+like a big part of the job in software
+engineering is like a trillion-dollar
+industry globally. So I like big
+opportunity. Cursor is a big company.
+But a much bigger part of my job as a
+developer is maintaining software that's
+already been written.
+And I think that is the opportunity for
+Sasabi and that's what we're focused on.
+So um
+I I think we definitely have the the
+chance to be like a really incredible
+and generational company building what
+we're building. Yeah, amazing. Talk
+about the decision to come back and and
+do YC again for a second time.
+>> Yeah, this one is interesting. I feel
+like there's like a lot of reasons not
+to, right? It's like
+uh I've already done YC, I'm already a
+part of the network, yeah I've already
+got access to book bookface. Um
+you know, it's on my resume, which I
+feel like that's what a lot of people
+want. So it's a little counterintuitive.
+Um
+I guess from a business perspective,
+the first thing that comes to mind is
+that YC is an accelerator and
+we need to accelerate. Like Sasabi needs
+to accelerate. Uh our opportunity is
+here today. Like we'll not be here
+forever. There are other companies that
+will try to do it and
+I don't want to waste any time. Like it
+feels like very ephemeral to me. So I
+I want my team to move fast. I think YC
+will help us move faster.
+Another thing is kind of um
+culturally I I want like to establish a
+culture at Sasabi that is kind of based
+on some of the or is imbued with some of
+the YC values. Like YC will create like
+it creates a deadline for us very early.
+It has many there are many smaller
+deadlines along the way, so we just have
+to get used to this this cadence of
+shipping quickly and
+YC also pushes you to get to market
+super fast, which I don't we have a team
+of engineers, right? We're like eight
+engineers something. So yeah, it's it
+would be very easy for us to just build
+forever and not commercialize. So
+I want that.
+Um
+And I I guess on a the last note related
+to
+for from a business perspective is get
+distribution and go to market.
+Um and this is like a little more
+tactical, but
+every YC company is a software company.
+Every software company has an
+observability solution.
+Sasabi should be that solution.
+Um I will be following in a tradition of
+great YC companies like Brax and Deal
+and Rippling that have sold into their
+batchmates really successfully.
+Uh and I I think that Sasabi can do the
+same thing. So I want to use that as an
+opportunity. Yeah.
+Then on a personal level
+my first YC experience was
+was remote.
+Uh we were one of the cohort batches. So
+it's really different experience. I
+mean, I'm here in this space today that
+I've actually I I've never been in this
+building before.
+Uh
+which I think is like
+points to the fact that I have not had
+like the full experience and it's been a
+dream for a long time. So I want I want
+to
+I want to stand on the stage at demo day
+and and actually have the experience and
+and make real connections with my
+batchmates that happened here in person.
+What's something you wish you knew at
+the beginning of this journey? You've
+you've been through the arc of starting
+one and
+>> Which beginning are we talking exiting
+it and starting a new one and
+maybe if there was something that you
+could go back and tell yourself
+at the beginning of
+the Opkit journey, your first time going
+around during YC. What what is the
+advice you would give yourself?
+I wouldn't want to give any advice that
+would actually change the outcome
+because I think I'm building the the
+perfect company today.
+And I I think all of the years of like
+eating glass with Opkit, like that's
+like my Glengarry Glen Ross period,
+right? Where I just like knocking on
+providers' doors and they're like don't
+want to take my meeting and
+we built a lot of grit and learned a lot
+about like how to build a startup under
+tough circumstances.
+So I'm really grateful for those lessons
+and would not give them away.
+Something that I might tell myself or
+maybe just remind myself
+is that startups are you know, a lot of
+people perceive startups to be short and
+fast, but actually we are in a long-term
+game. It's like a long horizon game. And
+the lessons I learned from Opkit, the
+relationships I built with investors,
+with customers, with other engineers,
+like I still keep up with my batchmates.
+Um
+the you know, I I I've many of my
+batchmates are starting other companies
+that I could sell into or
+like I could potentially recruit them.
+Like these are relationships that we you
+build over a long period of time and uh
+they compound. And so it's it's good to
+remember
+to remember that, be mindful of it. Uh
+Have integrity, be good to everyone you
+work with cuz you never know. Like 5
+years from now you might be asking them
+for money. Um
+So yeah, I I would I think that's a good
+good tip probably. For anybody that's
+watching
+talk about
+hiring and the ideal engineers to come
+and work at Sasabi. We are definitely
+hiring.
+We're hiring a lot of different roles. I
+would say that the
+ideal candidates are
+they're high agency, they learn quickly,
+they they love tools. It doesn't need to
+be dev tools specifically, but just
+tools. Like they kind of geek out on
+the the saw so to speak, like the thing
+that makes you helps you do the thing.
+Former founders are great. People I
+mean, former founders just like have to
+figure things out, you know, it's
+and uh
+they know what it's like to just do hard
+work to um to put in long hours or to do
+things that are unsexy.
+Uh they're also very flexible and I
+think right now with AI, we never we
+don't really know what our jobs are
+going to look like or what the what the
+org structure and the different
+departments are going to look like 2
+years from now. So we'll we need people
+who are flexible and self-starters.
+Uh
+on a more practical level, like we're
+looking to basically hire software
+engineers in a lot of different roles.
+So
+data and databases and infrastructure
+are hugely important to Sasabi. Like we
+build our own log ingestion and storage
+system. It's one of the things that sets
+us apart from a lot of other
+observability tools. And so we need to
+have best-in-class infrastructure and
+expertise at the database level or the
+storage level.
+Um we need full-stack product engineers,
+of course.
+And we also need like front-end and
+design engineers. So people who
+I like to say that we're building the
+linear of observability. Like it's going
+to look and feel amazing because
+you know, if you look at Datadog, it
+does not feel that way.
+Um
+So I want to I want to hire engineers
+who have who like appreciate aesthetics
+and design and
+and attention to detail. And so that
+that's where the front-end design comes
+into play. Amazing.
+Well, Shomik, thank you so much for
+joining.
+Super excited to work with you on Sasabi
+as well. I think you are going to build
+a massive generational company because
+you're building something that you know
+a lot about and that you're passionate
+about and that you have deep insights in
+and I'm so glad you came back home
+>> [laughter]
+>> to the thing Yeah, thanks for finding
+me. Yeah, that you know, you know, you
+know so well and really is the space and
+the idea and the business that you are
+the exact right person to be building.
+Yeah, I hope that I hope that other
+founders can kind of learn from my my
+story and and find whatever their like
+I've heard it referred to as a tombstone
+company. So I want other developer or
+other founders to find their tombstone
+company
+and and come do it here at YC. Yeah,
+amazing. Thanks for joining. Cool. Thank
+you.
+>> [music]
+[music]

@@ -1,0 +1,1337 @@
+Video ID: GciivYKTK_Q
+URL: https://www.youtube.com/watch?v=GciivYKTK_Q
+Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 1330
+============================================================
+
+[music]
+Really excited to be here today with the
+founders of Parahelp, Anker and Mass.
+Parahelp is one of the top agentic AI
+companies to come out of YC in recent
+years and they've always been at the
+cutting edge of building really
+sophisticated agentic AI systems. So,
+uh, today we're going to talk about
+Powerhelp. Uh, they just recently raised
+a a great series A. We're going to talk
+about that. Um, and we're also going to
+talk a lot about the technology behind
+the scenes and some of the cutting edge
+stuff that they've just released in the
+last few months that I think is going to
+really change the game for how the top
+agentic AI systems actually work. We're
+also going to talk a bit about the crazy
+origin story behind this company and a
+2-year pivot story that began in Denmark
+and ended in this um, awesome series A
+that they just raised. So, thank you
+guys for joining us today. Thank you.
+Parhelp has an incredible origin story.
+Do you guys want to take us back to
+Denmark and how this thing all happened?
+>> So, both Mass and I uh grew up in in
+Denmark. Uh and we often say we're from
+Copenhagen uh because that's what people
+know but we're not really uh both close
+to Copenhagen. Everything is close to
+Copenhagen if you've been in Denmark.
+[laughter] Uh I grew up uh in a village
+of 200 people. Uh and that also meant uh
+that I didn't really have anything else
+to do than be outside or code. Uh so I
+began coding very early on. Uh then as
+the classic consumer arc, I didn't
+really know what B2B SAS was uh and how
+to actually build anything of value
+there. Uh so when I went uh to high
+school, I met Mass. Uh we didn't go to
+the same high school. Uh Mass started
+already in middle school uh by building
+his own fashion company uh and designing
+there. Uh and then doing marketing as
+well. Uh so we met through a fellow
+friend uh co-founding uh an organization
+for young entrepreneurs in Denmark to
+get other high school students that were
+interested in this together. Startups
+are not really a thing uh in Denmark. I
+think uh one of the fun things we often
+tell people is that's actually not even
+a word for startup in Denmark. So people
+just say
+>> really there there's no Danish word for
+startup.
+>> No. Uh people just say how's your
+project going? But both mass and I after
+we found uh startups I found coding and
+mass designing and marketing. We had a
+hard time concentrating in school. Uh so
+we co-founded this club then instantly
+started to work together. I realized u
+that I was not very great at designing.
+Uh Mass was and we need someone there.
+Uh so Mass became really great at Figma
+uh and product uh and I then did the
+coding. Uh and then we built a lot of
+consumer apps during high school. Uh
+where I think a lot of founders uh
+that's also where our love of building
+the best product uh was born.
+>> And these were projects. This is before
+you started the like startup that became
+PowerHelp. This was just you guys were
+just like building stuff together for
+fun.
+>> Uh so we built uh a music app as an
+example uh where you could uh create
+collaborative playlist at events in real
+time uh and then reverse engineer
+Spotify's API to make that work uh
+really well. Uh then uh we built uh like
+an event finding app which I think is a
+very common tit uh idea [laughter]
+uh but that all of the
+>> you got it out of your system.
+>> Exactly. All of the nearby uh high
+school used uh and then in like the last
+uh year of high school I had also
+started to code solidity already in
+middle school. Uh so we're in the space.
+Uh then NFTts started to actually just
+explode in usage and all of our friends
+were asking how do I buy this and this
+seems way too technical. Uh and we
+didn't really trade a lot. were very
+into that but we thought there was an
+interesting opportunity to make it easy
+for our friends who were not technical
+at all uh and a super interesting
+product challenge. So where we raised
+our first round and got into a real
+startup uh was right after I graduated
+uh and massed one year left of high
+school uh we moved into a very small
+office above a McDonald's and uh I
+actually slept there for a while uh in
+Copenhagen. Uh then we built this
+investment app uh we were the first ones
+to partner with Stripe in Europe after
+many attempts of convincing them how our
+system worked. Uh so you could actually
+with Apple Pay buy an NFT and we then
+took care of all the technicalities. Uh
+then we also learned the hard way when
+we finally launched and got through the
+regulation uh that the NFT market uh had
+gone from few million users uh to a few
+thousand. The users that were left we
+had not really talked with users. So as
+soon as we actually started talking with
+them we realized likewise it says that
+these are not really users that care
+about anything else than the market
+going up or down uh and the product that
+we're very proud of. Uh but that didn't
+really matter if no one wanted to use it
+>> uh unless the market was up. We couldn't
+control that.
+>> Uh so we went into full pivot mode. Um
+and then actually inspired uh by another
+YC company called Slope uh where we read
+how they had pivoted. We did this where
+we would sprint for 3 weeks uh on an
+idea uh to actually like be courageous
+enough in trying an idea that seemed
+stupid perhaps because it was only 3
+weeks. So the cost fallacy wasn't that
+great if it didn't work. and then we
+would write a postmortem uh if we didn't
+pursue it uh to force us to actually try
+and build and sell something. Uh that's
+also where we traveled to San Francisco
+for the first time and visited some
+hacker houses and fell in love with it.
+U so in uh January of 2024
+>> and you guys were how old?
+>> I was 21 uh at the time and you were 19
+>> 18. Yeah. 18 20. Yeah. So when we got
+into uh YC I just turned 22. We traveled
+to San Francisco. We pivoted a lot and
+in January of 2024
+uh so um almost two years ago uh we then
+moved into a hacker house in Berkeley uh
+where uh we also uh met the same.dev dev
+guys that convinced us to apply for Y
+Combinator and there we begin exploring
+the B2B space uh and had this co-pilot
+which we got into with originally uh and
+then already at the retreat uh I
+remember we we uh discussed with you uh
+and could feel that we had customers and
+they were happy but they were not really
+happy and sales cycles were long uh
+because people were not feeling a
+desperate pain uh and then we had sonet
+3.5 launching uh and suddenly enabling
+and this was at least our pieces uh
+semi-reliable agentic change if we
+sampled uh and this is where we then did
+uh a few weeks later I think a classic
+mid-match pivot of deciding to go all in
+on end to-end resolution uh of support
+tickets and then mass sent in just one
+week 700 uh personalized cold emails uh
+I think and we basically kept that up uh
+all of our uh initial customers
+including captions and perplexity were
+called uh since we didn't really have a
+lot of connections uh at all if any in
+uh Silicon And we sent therefore emails
+to all of the companies we thought uh
+were cool. Uh and then pretty quickly
+realized uh that for especially software
+startups which all the companies uh we
+were admires of we could build a much
+better product uh if we focused on them
+and therefore focused on building deep
+integrations to their tools uh and
+focused on building the best solution to
+the knowledge management problem they
+all had uh which really no other
+verticals uh in the support space had.
+And so the the current idea for
+Powerhel, the thing you guys are working
+on now, that was a mid-batch pivot
+during YC after like a two-year journey
+that began with like Robin Hood for
+NFTTS in Denmark and somehow turned into
+like aic AI for customer support teams.
+So, a lot of pivots uh and I actually
+like Maz and I have always uh and
+sometimes we thought too easily uh been
+great at pivoting because as soon as we
+thought that this idea didn't really
+work and we had the gut feeling, we just
+couldn't work on something we didn't
+thought mattered a ton. That's also why
+we in some classes in high school had a
+hard time concentrating if we knew the
+subject. Wanted to build an hour startup
+which we thought uh was way more uh
+important. So we pivoted a lot uh until
+then uh finding parallel uh and suddenly
+uh feeling uh the pull uh way more than
+we felt uh ever before uh and since then
+uh it's been practicing continuing
+obviously to stay alive but as Delton
+says getting to the next level.
+>> Why don't you just tell us what is
+parel? So, Parah is an AI support agent
+uh for customer service uh that resolves
+support tickets into it and that means
+using tools such as stripe uh or similar
+uh to perform relevant actions and
+follow complex instructions
+>> and who's using parel now who are your
+customers
+>> par is built specifically for fastmoving
+software companies. Um we quickly
+realized uh during our beginning of
+parel uh that if we built a solution
+solely for them uh that would mean that
+we could build a 10x solution focusing
+on uh their problems and uh today
+parahul is used by companies like
+perplexity hun uh framer 11 labs uh
+riplets motorroom many of the fastest
+growing AI companies and also top AI
+>> so the thing about power is it doesn't
+just respond to tickets. It actually
+takes action to like solve the problem
+that the customer is reporting in the
+support ticket. Can you give an example
+of like an action that like you would
+take on behalf of a customer? One
+example would be a refund request. Uh so
+a customer comes in and they request a
+refund and uh the company then has a set
+of criteria that makes that customer
+either eligible or not eligible for the
+refund. Uh and then what parallel does
+is that parole first of all understands
+those criteria. Uh so we are able to
+follow complex instructions uh when uh
+handling such a ticket and then parole
+is also integrated into the billing
+system that they use. So that could be
+stripe for example where if the customer
+is then ellegible for the refund parah
+can go ahead and then process that
+action in stripe. Parel is actually
+directly connected to the company's bank
+account and the company has effectively
+authorized it to move money on the
+company's behalf without any human
+supervision. Is there like a human that
+has to authorize it or like they trust
+Power Help to just move money around by
+because they know that it's going to
+follow the the policy?
+>> It's actually uh both. uh we've even
+been the ones often pushing uh for human
+authorization for certain things because
+we've had customers uh being very
+quickly to trust uh because we are uh
+extremely uh reliable. Uh but we have a
+slack approval flow for sensitive
+actions uh where the agent the parallel
+agent basically goes and says hey I've
+just requested a teammate to look at
+this I'll get back to you. Uh but then
+because we build the agent to function
+not like a workflow but an actual human
+agent.
+>> We just know that there's an ongoing uh
+request that's pending approval. So we
+actually often continue to chat with the
+customer and answer other questions when
+uh one of the billing managers uh
+approves a Slack action. They just see a
+summary. Then we go and execute uh the
+necessary actions and follow up on the
+customer. Uh but there's also uh
+numerous billing actions for certain
+customers where we've had 99% success
+rate over a given time. When we first uh
+got into YC last summer, we're building
+a co-pilot.
+>> Uh and then talked uh with you uh about
+how we were kind of trying to help every
+ticket for a customer uh which meant
+that we didn't really have a lot of
+success uh because then there were a ton
+of tickets that were too complex. Uh and
+at the same time we're very fortunate
+timing wise uh because we saw Sonnet 3.5
+come out uh and if we just sampled a lot
+of Sonnet 3.5 tool calls uh and
+basically simulated multiple agentic
+actions at once every time we got a
+ticket uh and then use different
+heristics or them as a judge to pick the
+best path. Uh then we could actually
+call tools reliably uh and suddenly we
+got sold on tow bench and we could
+actually get to 50 or 60%. uh this was
+again last year now we are uh way higher
+for certain customers uh versus 20% from
+using simple uh rack and there we built
+a tool framework internally we still use
+uh where every tool uh this also works
+with MCPS uh but have a validate
+function uh that can run deterministic
+code checks uh if needed
+>> I want to go back to the list of
+customers that is that are using parhelp
+can you say again some of the really big
+customers that you guys have
+>> so a company like Perplexity happened to
+be our second customer uh that we
+onboarded.
+>> Perplexity was your second customer
+ever.
+>> Yes. Uh during the Y Combinator batch
+and what we initially saw and what we
+initially just wanted to test out with
+parallel was that we could resolve these
+complex tickets and that was the initial
+premise of Parl that we can do that and
+that resonated a lot with perplexity.
+they were growing extremely fast and had
+a lot of tickets that they wanted to to
+resolve to the highest quality possible.
+So that was what we we found working
+with perplexity and then we just decided
+to double down. Uh and since then we
+have onboarded companies such as uh
+Riplet also YC company, Photo Room,
+Framer, Hen um and 11labs many of the
+the fastest moving software companies
+>> and not just the fastest moving software
+companies but one of the things I think
+is interesting about that customer list
+is almost all of them are AI native
+companies like these are companies that
+were started recently that are
+themselves building agentic systems
+using LLM. Why are they using parahelp
+rather than building this themselves?
+>> Most of our customers find either by
+building it or trying to enable the
+default AI they have in their ticket
+system. Intercom has a default out of
+the box AI sendes front etc. But what
+happens there just like a customuilt
+system is that it works really well in
+the beginning uh for the subset of
+tickets where you don't need tools and
+then what happens is that they're not
+built for knowledge management for fast
+growing software companies
+>> because they are not by default
+connected and that takes a lot of work
+uh to all the context you have in linear
+in notion in retool and in slack uh and
+that's changing every day. This means uh
+that it starts out really well and then
+because nobody really maintains it.
+Nobody has built a great system around
+that then it actually diminishing uh
+diminishes uh in return and your
+resolution rate drops and even worse in
+some cases customers actually get a
+really bad customer experience uh
+because it's out of date uh and there's
+not any built-in review systems
+>> uh which is what we've just done uh with
+our research agent that can do real-time
+QA uh on how our AI agent parallel agent
+is performing. And then the other thing
+is that tools may sound uh pretty
+trivial to set up and a lot of other AI
+uh support agent solutions also have at
+least like on paper tool support. Uh but
+then uh as you dive in uh you find out
+that tools are way more than just
+calling the API endpoint. is having the
+proper guard rails and is also having
+the proper evaluations set up to make
+sure that when you have access uh to a
+stripe tool and therefore a really
+sensitive uh tool that's also connected
+to a customer's bank account
+>> uh then it should actually be called
+correctly and it should always be called
+uh correctly and having realtime monitor
+systems uh for that uh and an evaluation
+system which is what we've spent
+probably engineering wise the most time
+on building internally and just building
+more and more automated uh but how do we
+run evaluations
+and how do we run them at all times to
+make sure we're not regressing? Uh and
+that our agent like today we're handling
+thousands uh of tickets uh and curies
+daily uh
+>> per day.
+>> Yeah.
+>> There's thousands of customer support
+tickets being closed every day by pair.
+>> Exactly. And we're involved in uh etc.
+uh which means that we can't monitor
+this by hand at all. In the beginning we
+onboarded captions AI as the first
+company and then Plexity AI a week
+later. All of this within 4 weeks of
+pivoting. This also meant uh that we
+were unsure about a lot of things. Uh I
+and so we observed everything by hand uh
+and was like figuring out how do we run
+proper evaluations uh so we could
+actually sit and make sure the agent was
+steered in the correct way. Uh and
+obviously we can't do that anymore. Uh
+so having these automated systems built
+uh I would say is key and what most
+customers that tries to build internally
+even when they're great at AI figure out
+that it's actually much more than just
+setting up a one timet
+app or endpoint to our docs because
+making sure that evaluations continue to
+pass. We're not regressing and staying
+in touch with both product and
+engineering and marketing and sales at
+all times.
+>> Yeah. And the interesting thing about
+you guys is your customers are B2B
+companies. Their customers are this is
+not like the customers of like Door Dash
+or something or or like Uber where like
+the customers are just paying them like
+a few dollars per per transaction. Like
+their customers are very important and
+their customer support tickets are very
+important. So they really care about the
+quality of the resolutions to those
+tickets.
+>> Exactly. Uh and I think one of the
+milestones or metrics uh we're most
+proud of is that some of our companies
+have entrusted us with handling
+enterprise customers up to a thousand
+seats.
+>> Wow. Which is like pro probably a six
+figure customer for them and they're
+entrusting your agent to talk to their
+customer.
+>> And obviously we didn't start there. It
+wasn't an accident that was like going
+up from 20 members
+>> and then 50
+>> and then 100 and then seeing that we
+continued
+>> just just kind of following the
+progression of a human customer support
+agent, right? Which like probably starts
+with the small accounts and then
+graduates to like like the most
+important accounts, right?
+>> Exactly. And one of the interesting
+things there where we're now uh able to
+have larger customers is that we're
+actually also working uh and one of
+their biggest request uh is being able
+to work in Slack because that's also
+where B2B lives and a lot of our
+customers want us to work uh in Slack
+with their customers uh because that's
+where the largest accounts is uh and we
+can actually be on demand support
+>> 24/7 too.
+>> Exactly. And then we have the assistant
+uh of parallel which lives directly in
+Slack and on an interface and an app uh
+you can open that proactively says I
+need more of this, I need more of this.
+And what the assistant then does is that
+it builds this file system out of
+knowledge. So we've thought that it
+seemed like the model in frontier apps
+uh we're doubling down on memory as a
+concept. Uh so now an average uh
+parallel agent for a customer has 40
+memory files. uh I would say define that
+parah is at all times figuring out how
+to improve proactively uh by running uh
+monitoring and evaluations uh as tickets
+come in and every time the customers add
+a new feature or we see it automatically
+because it happens in linear or in the
+health center or someone takes us in
+Slack then the parallel agent goes just
+like a coding agent uh and does file
+edits per memory file uh to make sure
+there's no duplicates. So the core agent
+is actually quite simple because it has
+all of these uh very general tools uh
+that can then through complicated
+policies uh be used. Uh so one agent can
+respond in 15 seconds to a trivial
+question uh for a customer and then we
+can actually have an agent working for 3
+minutes uh because it has access to 15
+custom tools and it can go and look up a
+request ID in data dog uh to help debug
+with enterprise customer uh and it can
+go and look at SSO policies uh and at
+both internal and stripe data and
+combine it and then reason for a long
+time analyzing screenshots uh or similar
+to then get back to the customer uh with
+an answer that actually fits the way
+more complex question than just what's
+your pricing.
+>> Recently you guys released your sort of
+next generation agentic architecture for
+power. Can you explain how it works?
+>> Today uh we have two agents uh that we
+work on uh and build with our customers.
+Uh we have the parallel agent which
+works directly in the customer's ticket
+system. This enables customers to set up
+parallel extremely quickly uh because
+all you actually need to do is invite us
+as an agent to your ticket system. So
+you just send an email invite to the
+peril agent uh and then we're live uh
+without engineers needing to install any
+SDKs uh or connect any channels. And
+then we have the parallel assistant uh
+which is what we just launched a major
+upgrade uh to in terms of architecture
+uh which is what enables our customers
+uh to build and optimize policies uh set
+up tools uh and then test everything
+thoroughly uh before publishing to
+production. And the peril pers assistant
+is what has changed most uh the past 6
+months. Uh so in the beginning and a lot
+of our customers fast growing startups
+chose us and still chooses us because we
+can solve complex tickets. Uh this meant
+that we were running uh a lot of
+complicated evils into uh when
+onboarding a customer and because models
+were not intelligent enough we had to do
+this manually. In a lot of cases, we
+would run this uh via internal tools to
+actually make sure that the agent were
+optimized. Uh and if anything needed to
+be fixed, we would often have initially
+uh to go and actually prompt optimize
+this forward deployed engineering
+approach. This worked well. Uh but it
+also meant uh that we were finding
+ourselves writing a lot of custom prompt
+optimizations that couldn't be reused
+for multiple customers and we were
+therefore taking a lot of time as we
+grew a lot and had a lot of demand uh to
+actually onboard companies. Uh and
+suddenly we're falling behind in being
+the fastest solution uh for setup uh and
+a high resolution rate simply because we
+couldn't follow demand without hiring a
+lot of people uh that would do custom
+work per customer which as someone
+that's uh very product minded uh we
+didn't really like and then Opus 4
+actually came out.
+>> I remember you guys came to me and you
+were like our biggest bottleneck is we
+can't hire enough engineers to be for
+deployed engineers to be able to onboard
+all these customers who want to use
+powerhelp.
+>> Exactly. Uh and then we tried uh to hire
+a lot. We're still obviously hiring, but
+we actually we also found uh that we
+were probably not the best founders at
+building a super execution and ops. We
+were the best founders at building a
+product first company. So the engineers
+we wanted uh to hire were also the best
+at building product, not building a lot
+of manual work and being more
+consultant. Uh so we wanted to keep a
+small team and still grow extremely
+fast. Uh and therefore we actually over
+the summer uh had two months where we
+paused growth and rebuilt our agent uh
+architecture uh because OBS 4 launched
+uh and this model for the first time had
+enough intelligence on our internal
+benchmarks to actually be able to
+generate evil sets on the fly.
+>> Wow.
+>> So it's effectively like an AI for
+deployed engineer.
+>> Exactly.
+>> Yeah.
+>> Which meant uh that suddenly we didn't
+have to do
+>> custom forward engineering. Uh so we're
+still big believers in for deployed
+engineering as let's figure out what
+works best for a customer and then take
+it back to the product and build
+something generalizable. Uh but since
+launching this we haven't written a
+single custom evaluation set because our
+agent does it for our customers.
+>> Wow. I wonder if this is the next
+generation of the for deployed
+engineering
+trend that has overtaken Silicon Valley
+in the last two years. The knock on for
+deployed engineering has always been
+that it doesn't scale and like this is
+the answer. Like it scales if they're
+all agents.
+>> Exactly. And I and I think uh it's it's
+definitely what we believe as in as the
+next generation of vertical agents. Uh
+we took a lot of what we saw and thought
+worked really well with code agents. Uh
+which are definitely implemented far
+more wide than other vertical agents. uh
+which was uh in our uh eyes being able
+to run deterministic code and then the
+agent to optimize so it could actually
+work for much longer. Our agent can
+easily work for 30 minutes today
+>> uh or 40 minutes optimizing its own
+policies and running tests
+>> and then having a review system. So
+those two things uh we were extremely
+inspired by coding agents uh and then we
+thought that worked well and with open 4
+we could actually build something uh for
+something that was a bit more complex
+problem uh because our evaluation
+framework is quite complex in order to
+allow us to actually test complex uh
+scenarios but open 4 could manage so to
+say all of that context and also reason
+about how to improve it. And then the
+other uh big change we launched was this
+research agent. Uh so we can actually
+search with a grip like tool uh that
+does a gentic rack uh and also searches
+in semantics. uh we can search up to
+20,000 tickets at a time and then we
+look and analyze closely with a lot of
+sub agents uh to manage context uh up to
+500 uh tickets uh typically uh 50 to 500
+where we actually open the full ticket
+uh obviously with all sensitive
+information uh removed and then we look
+at exactly what was handled when did the
+AI agent uh transfer or how did the
+human handle it depending on what we
+want to analyze and then we provide a
+deep research report with sources uh and
+all the tickets uh we analyzed and then
+we suggest improvements proactively uh
+that can be implemented straight away by
+the support manager by just prompting uh
+the agent in the same session please
+I've just added this tool uh please have
+a policy that now calls this to solve
+this knowledge gap
+>> uh or our uh research agent actually
+being able to see what human agents
+replied in groups and then uh
+automatically saying it just looks like
+we need to have this policy which the
+human agent us and then I actually think
+I can sell 5% more of these tickets.
+>> The interesting kind of continuous loop
+that all this enables together not only
+the the research agent but also the
+configure and testing agent is that you
+can find these patterns in how humans
+resolve tickets and then you can also
+configure them and test them and publish
+them and have this continuous loop that
+at any given time uh optimizes the
+amount of tickets that the agent is
+capable of handling. Uh so it all kind
+of ties together and that's the
+interesting fly flywheel.
+>> So one of the stats we've seen since
+launching this uh for Perplexity uh as
+an example just two weeks ago and having
+this flywheel automatically set up that
+will ping them in Slack and then prompt
+them to give some information and then
+the agent testing it itself and
+optimizing is that we've seen their in
+resolution rate uh go up about 12 to 15
+percentage points uh depending on the
+day.
+>> Wow. just from this launching uh because
+they've actually made 250 plus releases.
+Uh this is 10 team members plus being
+able to make releases depending on what
+their subject matter experts in.
+>> And is making a release basically just
+responding to a Slack bot in many cases
+where it slacks the team asks them like
+hey how do I handle this and there's
+like here's what you do and then it's
+like cool got it.
+>> Yes, pretty much. Uh and then also often
+them opening a report uh that tells them
+a deep research report. Hey uh we have
+70% in trend resolution uh for account
+management email issues uh if you give
+me this policy or this tool
+>> uh then I think we can increase this by
+15% uh based on what we currently
+transfer uh and then our agent typically
+represents multiple paths in increasing
+resolution rate they choose one or
+multiple uh and just do what the agent
+suggest uh is very much like VIP coding
+uh in terms of we have human the loop
+approval but then we say we suggest
+implementing this policy. Uh then
+perhaps they give a few lines of
+feedback. The testing agent runs and
+based on results either says we're ready
+to publish or we should actually
+optimize these policies as well because
+two out of 10 test cases failed. Uh and
+it seems like we need stronger prompting
+here or we need to remove some outdated
+information here. Uh and then we catch
+all of those mistakes before going to
+production and this loop just runs until
+all test cases uh are passed uh and they
+can click publish. We often give the
+analogy to customers is that Parah is
+kind of like having a thousand super
+capable employees that are also getting
+better every day
+>> whose brains are linked together. So
+when there's a new piece of information,
+all 1,000 of them internalize it
+instantly versus with a real customer
+support team, you have to like
+communicate things to everybody.
+>> Exactly. Uh so what we are seeing uh
+with perplexity as an example uh which
+where we work super closely is that they
+all today I uh believe spend more time
+uh with parahul than actually responding
+to tickets uh manually uh because this
+is obviously where they have the biggest
+impact
+>> uh and
+>> so so it's enabling them to have much
+greater leverage as individuals.
+>> Exactly. Uh what we're launching next
+week actually a much requested feature
+uh is that we're launching a mass
+follow-up uh tool that the research
+agent can call uh automatically uh so a
+customer can actually say why do we have
+uh 700 uh open tickets uh in the student
+Q backlog uh if there were student
+promotion uh or similar then the parahul
+assistant uh agent reasons about this
+says I need ABC endpoint uh a way to
+verify uh or what should I respond they
+give the instructions and then instead
+of this actually only working for future
+tickets which it will obviously do by
+default it can actually say should I
+follow up on all of these
+>> 700 tickets
+and it's like okay
+>> just spawns a lot of parob agents in the
+ticket system uh this has been quite
+hard technically since 700 tickets at
+once and then to be able to handle we
+have a lot of spikes in our system
+[laughter]
+>> u but we use hatchet actually a y combin
+company we just switched to uh which
+we're very happy uh with so uh and and
+greater handling this. Uh but then we
+follow up on everything automatically.
+Uh and what's quite cool uh and exciting
+about this follow-up uh feature combined
+with research uh and having context from
+all of these systems uh is that we can
+actually start helping our customers
+with also being a customer success
+manager uh and upselling uh customers or
+going back to churned customers and tell
+them about new features. Uh because
+every time our customers launch a new
+feature or solve a bug, it can just say
+or the research agent prompts them
+automatically, should we follow up on
+every customer uh or reach out to every
+customer
+>> uh that ever requested this feature. Uh
+and then we can launch this agent and
+say, hey,
+>> this is now available uh on our Pro Plus
+plan. Uh so if you
+>> That's a super intelligence version,
+right? Like being able to go back and
+respond to everyone who ever asked about
+a feature with the last two years now
+that you finally shipped it.
+>> Exactly. Uh, and I think we're going to
+see more and more of this once support
+automation is actually at these like 85
+to 95%. Uh, and like the rest of those
+tickets you want uh a human to solve.
+>> Then the next uh frontier uh to actually
+have the best system is how do we make
+support make it as revenue enabled uh as
+possible uh and how do we actually
+prevent churn. Uh so we're also
+launching uh for our intercom or synes
+front uh agent a tool that can give a
+customer a discount uh so instead of
+churning uh you can get a discount uh or
+send the customer an upsell link and
+then you can easily define the policies
+you want around this
+>> and suddenly for certain customers we
+have
+>> hundreds of thousands of tickets
+resolved already. uh which means that
+the parallel agent has hundreds of
+thousands of emails of potential
+customers that could be upsold to
+business plans
+>> or expanded significantly more. Uh but
+the average uh team doesn't have the
+resources to do this of the overview. Uh
+but suddenly uh you actually do because
+you have parallel
+>> to your customers. How much of the value
+prop is like reducing cost spent on like
+hiring human customer support agents
+slash the fact that they just like can't
+hire enough good human customer support
+agent because like they're hard to find
+versus this stuff essentially being able
+to do stuff with power help that like
+would be impossible with humans.
+Actually being able to increase revenue
+by being able to upsell customers in
+like a previously unscalable way.
+>> It's much more the letter. Uh and that
+also ties into us only focusing on fast
+moving software companies. Uh so in many
+cases they don't have a big team today.
+Uh the the cost of support is not
+necessarily super big. Uh but it has to
+be big if they have to keep up because
+they have to hire a lot of people. So
+it's more so implementing parallel and
+then parallel being that 100 agents that
+they would otherwise hire. Uh and then
+as we also just talked about having this
+united brain of all those agents and
+being able to not only have the impact
+of one sole agent that could work 24/7
+uh but have the impact of if all uh
+agents uh that worked uh on specific
+tickets had a united brain uh and they
+could do all sorts of things uh and
+controlling that. And another
+interesting uh thing we've seen as a
+value prop that kind of spawns once a
+company is on boarded is that parub goes
+viral inside the company
+>> uh because uh support for a fast growing
+software company is kind of the
+knowledge brain and they start
+>> directing all of their knowledge dumps
+and information uh to the paral
+assistant uh and this also like prompts
+them for more knowledge. So very quickly
+uh we have hundreds of pages uh of
+knowledge that only lives uh in parallel
+which we then uh have a principle of
+making extremely easy to and accessible
+extremely easy to access
+>> for for the employees of the company as
+well. Exactly. They they also need like
+internal support. So we have ask SAM
+which we call our agent typically ask
+parah uh channels uh for sales
+>> uh and for engineering and for
+enterprise and for customer success
+teams uh and even for the support agents
+that are still answering like as a
+co-pilot almost uh so we have
+>> channels with hundreds of employees for
+some of our customers uh where it's just
+like proddding uh parallel and basically
+being an extension of what the support
+team actually served as a resource for
+before. Uh and now with this deep
+research uh we're not only able to say
+hey uh please tell me how I can improve
+resolution rate 10% which is how the
+support team uses it but the product
+team and engineering and leadership team
+can actually say how has our refunds uh
+evolved over the past month uh and like
+how is that correlated with sentiment
+and new features or box
+>> uh and then figure out like how can we
+cut uh refund uh percentage with 20%
+just by following the insights that
+peril can actually cross compare both
+refund uh analytics with actual customer
+conversations
+>> and even also for product feedback. So
+if they were to launch a new feature and
+they want to understand how a customers
+reacting to that feature uh then they
+can also service patterns in that and
+the product team can use that as a
+reference on how to improve that new
+feature. uh or even finding patterns in
+feature request uh and seeing a lot of
+customers are requesting that we build
+this. Let's actually prioritize this
+because we have the data now uh to do
+so. Uh the same for bug reports. So it
+it becomes this much more implemented
+tool throughout the organization because
+in many ways and that's software company
+specific but in many ways for software
+companies support is the epicenter of
+customer knowledge um and product
+knowledge uh which is the starting point
+for a lot of work uh for the rest of the
+organization.
+>> Can we see a demo?
+>> Definitely. Uh and I actually have it
+pulled up right here. Uh so what we're
+seeing uh is the parallel assistant
+which is what we just launched uh
+recently uh to be also in an app and not
+only in slack. This is not what's
+responding to customers directly. This
+is the parallel agent uh we call it
+which lives in a customer's ticket
+system and this is instead the parallel
+assistant which our customer in terms of
+their support managers use uh to
+actually create new policies create new
+tools uh test and also where deep
+research lives in terms of seeing the
+results of the parallel releases you're
+making.
+>> So the assistant is like the AI or
+deployed engineer. It's replacing what a
+previously a powerhel the job that
+previously a powerhel employee would
+have had to do talking to the customer
+and figuring how to update the power
+system. You've built a AI assistant that
+can just do that
+>> and and being what we believe is the
+future of how to manage an AI employee.
+Uh instead of having workflows uh you
+have this much more cloud code like
+experience
+>> where as you can see here so this is a a
+demo environment uh for Riplet uh as an
+example. Uh then we have an example uh
+of a and we see this pretty common uh a
+support manager saying what happens to
+they if a customer inquires about an
+enterprise plan uh on riplet and then uh
+our and the parallel assistant actually
+launches uh and very much like a coding
+agent it searches through everything it
+already knows and then it goes there was
+actually uh no knowledge found uh and it
+basically just tells hey this is uh what
+we do today we don't have this custom uh
+policy uh set up yet and this is uh an
+example uh of how a support manager uh
+would then direct uh the parallel page
+and track to act differently. They give
+us a policy uh to follow. So if a
+customer is inquiring about enterprise
+pricing or features uh and wants to know
+more uh as an example get a pricing
+quote etc. uh please direct them here uh
+and then follow this policy uh in terms
+of what to ask for and then we go uh and
+just like a codegen agent we actually
+update uh so this is all happening uh
+right now it's released uh but
+pre-release it's all happening in a
+sandbox environment
+>> and we go and update files u so this is
+uh a classic diff that a customer would
+see uh this is just to see that the
+agent is working typically they just
+review the entire output uh and actually
+that the agent the assistant uh agent
+review uh and test. Then it goes and as
+you can see uh this is a pretty great
+example because we actually update in
+many places uh where there was
+conflicting information uh which is what
+we found other solutions can easily miss
+uh or customers uh our customers can
+easily miss because they have to find it
+manually. Uh so we go and update both
+subscription and billing uh FAQs and the
+policies we have there. We update the
+discounts uh policies because there was
+something conflicting and we update
+product technical uh and feature
+questions policy. Our assistant agent
+actually implements uh this in a draft
+mode and says I suggest that we test it.
+>> Uh so what you see here is that we have
+this multi- aent system uh to manage
+context where we have four modes uh and
+we started in ask mode which is what do
+we know today. Then the customer said I
+want to do this and it automatically
+switched to configure mode which is the
+edit mode and now it says I think we
+should test let's go to testing mode. Uh
+and the last mode we have is this deep
+research mode. Uh so this is actually
+what enables uh customers with these
+like four sub agents to switch between
+modes in one session.
+>> Is each of these agents is it a separate
+prompt and like its own its own LLM call
+with it with its own like prompt because
+like the testing mode has like the
+testing mode agent prompt. Exactly. Uh
+and it also has distinct tools. Uh but
+it's it's built in a way uh where it's
+like unique prompts but then they also
+share uh common prompts u because it
+actually knows the parallel assistant
+knows that it's working in a session uh
+where it can as you can see it self
+prompt that we should go to this mode.
+>> Uh so we are primarily using uh modes as
+a way of knowing when we should compact
+a conversation uh to actually keep
+context limited. So that's kind of a
+great way of saying now we're starting
+something new. Let's take all the
+important context from the last uh but
+actually restart the message history in
+the cache. Then we go into testing mode
+uh because we click run. Uh and this is
+again all suggested uh by the agent. Uh
+so most of our customers just click run
+on everything suggested uh and then
+chimes in
+>> like uh pressing tap and cursor
+essentially. You're just like tap tap
+tap. Yep. Yep. Keep going.
+>> And then these test actually runs. Uh so
+as you can see we're dispatching test
+agents for enterprise plan handling.
+>> Uh we dispatch just one testing uh agent
+that has five test scenarios here. Uh
+and this can be everything from
+dispatching up to five uh sub agents
+that have five tests each if there's
+something complex.
+>> Uh it controls it itself. Uh and then
+everything passes which is also why it's
+then published. Uh and we have a work
+complete uh down here. Uh and we then
+show a preview of what was actually
+tested, what was the message. Uh but
+what happens behind the scenes is that
+the testing agent goes and creates in
+YAML and this evil framework we have.
+And obviously like again a code gen
+agent in terms of like passing this and
+making sure it all fits uh our framework
+and then it creates mock context uh for
+all of these user inquiries to actually
+have an enterprise state because that's
+obviously required or say things uh that
+incline that they could be a potential
+enterprise customer. Uh so when the
+agent actually checks in a given refund
+policy as an example if you're improving
+that uh and you say hey I want to change
+our refund policy uh so it's within 14
+days uh that you can get a refund not
+only within 7 days you can get a full
+refund uh or within 14 days you can get
+a prorited uh refund then the agent
+obviously have to make sure uh that it
+can actually create context necessary to
+test that scenario. Another thing we've
+seen is that for all of our customers,
+uh, we know when there's an outage.
+>> Uh, so we're connected to the status
+page.
+>> Uh, so if you want to test outage
+handling, uh, you obviously have to be
+able to
+>> to simulate
+>> and the agent to actually simulate that
+there is an active outage on the outage
+page, but there's also how do we respond
+when there's not an active outage?
+Because then we obviously want to
+troubleshoot further.
+>> This is super cool, guys. I feel like
+I'm looking at the future of how all
+Agentic AI companies will do customer
+onboarding. It's all going to be through
+a system like this. And it's not just
+onboarding, it's the continual
+maintenance. To your point earlier, just
+deploying a system like this is just the
+beginning. Then you have to keep it
+updated forever. If humans have to do
+that, it's just not ever going to work.
+It requires too much human effort. And
+like the answer is to automate this as
+well with something just like the power
+assistant that you guys have built.
+>> That's the bet. Uh and what's we've been
+extremely excited to see the response uh
+of so far.
+>> You guys are really at the cutting edge
+here. like there's a small number of
+companies that are playing around with
+this idea, but it's definitely not a
+mainstream thing yet. You're one of the
+first companies, I think, to get
+something like this really working at
+scale in the real world. We were
+pressured by the urgency we saw in terms
+of growth is everything uh and either we
+were doubling down on trying uh to hire
+a lot of forward deployed engineers uh
+like many others but our I think gut
+feeling was that uh we should build
+product that scales and where we're not
+writing custom code but we also want to
+grow uh so we need this to work today uh
+this is what caused a pretty intense
+summer sprint uh I would say uh of
+getting this out.
+>> Okay, thanks so much for showing us the
+demo. I feel like I got a peak into the
+future there. Let's talk a little bit
+about the series A um who led the round
+and uh tell us a bit about it.
+>> Yeah. Uh so Jack Almond uh at All
+Capital uh led the round uh and then
+Henabi also participated. Uh those were
+the new investors. Uh and then we're
+fortunate uh that all of our current
+investors uh also uh participated.
+>> My understanding is you guys were
+fortunate enough to have many offers
+from for the series A from many top
+famous firms. What made you decide to go
+with Jack Haltman and Off Capital? In
+the beginning, we we started to know
+Jack right after YC demo day uh because
+he reached out uh and we didn't get the
+chance to talk during YC fundraising uh
+and then he came by uh our apartment
+which was our office until until very
+recently uh a month ago uh multiple
+times and we talked really well uh and I
+think as you also uh told us uh if you
+are fortunate enough uh to partner with
+uh investors uh that you actually really
+like uh as well uh and are not only
+great investors uh then you should do
+had uh that's also why we chose our seed
+investor uh originally. Then we really
+like Jack. So when we started
+fundraising, we obviously had to talk
+[clears throat] with him. Then there
+were as you mentioned also a lot of
+other great firms in the run. Uh and
+Jack was definitely an all capital and
+underdog uh but we have also seen
+ourselves as underdogs uh in in general.
+So we kept talking with him and then he
+won us over uh and I think we talked
+with multiple of his founders there that
+all had really great things to say.
+David AI that was also in our batch uh
+being one of them and the main
+convincing uh argument uh that we also
+very much agreed to uh was that this is
+the first uh round where we actually
+have someone join our board which Jack
+uh have done. Uh so it means even more
+who you choose uh as a partner. uh we're
+very aligned with Jack and we very much
+liked his approach which Blake Robbins
+which led our seat round also had as a
+thesis where it's not a huge uh VC firm
+with a classic service team uh and many
+partners chiming in on everything uh but
+it's working really closely together
+with someone that can come by for coffee
+on a weekend in your apartment and
+actually talk through things and we feel
+like we can call about anything
+>> to wrap things up somewhere in the
+Danish countryside there's probably
+another young Anker and Mass
+watching this thinking about starting a
+company themselves. What advice would
+you give to that person?
+>> Our main advice uh and what definitely
+inspired us uh is to read and absorb as
+much as you can of the Silicon Valley
+history if you can't get uh to SF today.
+I found in sixth grade Paul Graham
+>> and his blog and that taught me what
+were startups. And then when I met Mass,
+we talked for hours about what was
+actually this crazy startup idea because
+again there's not a word for it. And the
+classic entrepreneur story you hear in
+Denmark is an MBA going to Mckenzie and
+then at 35 creating a medtech or an
+e-commerce or similar not
+>> uh the guy or girl at their parents'
+basement almost uh building an idea they
+thought or think is crazy uh but they
+really think is missing in the world. uh
+which is very much uh what SF is all
+about actually helping people realize
+that they can just do things uh and they
+should have the self-confidence uh to do
+so
+>> and and just do it. Uh that's also again
+and again what uh we have been good at I
+think looking back uh not being afraid
+of just jumping in uh to the deep waters
+and and just trying things out because
+that is ultimately the way that you
+learn the fastest. We don't have any
+credentials that naturally would lead us
+here. uh the the only thing that we have
+is that we have experienced a lot of
+different things by doing a lot of
+different things.
+>> In Denmark, there's a culture of being
+very afraid of failing uh which we feel
+is very unfortunate uh because Denmark
+is probably one of the if not the
+country uh where there's actually the
+least risk to failing
+>> because there such a big
+>> uh social security net uh like you get
+paid to study and education is free and
+you can pick it up at any time as an
+example. Uh the worst plan B you can
+have is go to a great university with
+great professors and get paid to do so.
+There's a ton uh of at least possibility
+of actually trying your crazy ideas. Uh
+but then there's just a culture of
+failing being bad.
+>> Uh so you kind of steer away from it. Uh
+and mass and I have failed a ton and we
+continue to try and fail as much as
+possible. uh we have this internal uh
+saying of as soon as we start uh
+thinking more about what we're afraid of
+losing in terms of playing defense uh
+and keeping our customers then we've
+already lost.
+>> Uh so we try to play offense as much as
+possible which also means failing a lot
+until that one idea then works.
+>> Amazing. What a perfect note to end on.
+Thank you guys so much. This was
+amazing. Thank you. [music]

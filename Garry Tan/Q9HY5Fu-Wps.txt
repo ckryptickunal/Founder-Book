@@ -1,0 +1,228 @@
+Title: Robots can see— they can even paint my nails | Clockwork Nail Painting Robot Demo
+Video ID: Q9HY5Fu-Wps
+URL: https://www.youtube.com/watch?v=Q9HY5Fu-Wps
+Channel: Garry Tan
+Published: 2021-08-13T14:30:08Z
+Duration: PT7M38S
+Views: 24262
+Likes: 757
+Tags: Garry Tan, Garry Tan vc, initialized capital, Garry Tan initialized, Garry Tan initialized capital, Silicon Valley vc, sf vc, a16z, Andreessen horowitz, best Silicon Valley vcs, Robotic manicure, nail painting, manicure robot, clockwork, clockwork sf
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 199
+
+Description:
+Today, I try the first nail painting robot ever open to the public. It happens to be from a company Initialized led the investment in, Clockwork. That Jetsons future we dreamed of is here!
+
+Visit https://likeclockwork.com to schedule an appointment and learn more about the future of cosmetics!
+
+0:00 Start
+0:10 Introducing Clockwork!
+0:33 Getting a Robot Manicure
+6:09 Clockworks next steps! (they're hiring)
+
+I’m Garry Tan, venture capitalist and founder at Initialized Capital. We were earliest in
+
+============================================================
+TRANSCRIPT
+============================================================
+
+[Music]
+what's up guys we are here in front of
+clockwork in the marina district of san
+francisco i'm about to try the first
+nail painting robot ever opened to the
+public you know that jetson's future
+full of robots we're gonna go see that
+right now let's go
+[Music]
+gary welcome thank you so much so this
+is it huh we can shake hands i know oh
+my god well i'm really excited to try
+this awesome all right ready to get your
+nails painted
+grab a seat okay so this is the machine
+and then it sounds like
+all i have to do is follow the
+instructions on here absolutely all
+right and it should just open the door
+for you we have what's called a
+cartridge uh which contains nail polish
+that you're going to put in there okay
+and i heard you wanted black so we have
+a black cartridge ready for you black
+nails for a black sole all right let's
+go
+uh i think i got this we'll see okay all
+right i insert the cartridge
+oh that was very satisfying
+okay and then you can close it now i
+close the door
+and the robot's reading the cartridge
+now
+and at any time if you want more
+instructions you can just press show me
+how and it's going to tell you what you
+what you need that's awesome
+all right it says the cartridge is ready
+so this was the outcome of you know more
+than a year of r d is that right i think
+it's almost been two and a half years at
+this point yeah
+we were pretty quick in getting our
+first prototype out i want to say it was
+eight months from ideation that we
+actually put a machine in front of users
+who had never seen it before
+and the reason was we really wanted that
+early feedback like are we missing
+something is this something people
+really want
+so i'm i'm super proud of the team for
+that being able to
+deliver so quickly i don't think uh it's
+easy for a robotics company to get
+something out that quickly i mean off
+the bat right now it's ready for for me
+a guy who literally like came in off of
+the street to be able to you know
+get my first nail done looks like
+there's a little divot here
+and then i need to make sure
+that's down and then i just insert yeah
+go all the way in
+there
+all right oh i have to say or press
+ready
+let's try it ready
+so walk me through what's happening
+right now right so those flashes that
+you saw were our two
+3d cameras taking a bunch of really
+quick pictures of your finger
+and they build a point cloud or a 3d map
+it's a very very
+high resolution map of your fingernail
+and that gets shipped to rei the ai
+figures out where the edges are and then
+the algorithms instruct the robot
+exactly where to go to paint your nail
+how does it feel that looks perfect
+actually all right now i can remove
+so that was pretty sweet that was my
+first nail painted totally by a robot it
+was awesome okay and then
+one of the things that's really cool
+about this is you can go from beginning
+to end like all ten fingers it sounds
+like in as fast as seven minutes i think
+i can do it in six because i'm now used
+to the process
+but we have had a customer trying it for
+the very first time who was done in
+seven minutes wow that is really fast so
+now it's ready for my next one and then
+i should pull this back yep and then
+so you know this stuff is powered by
+computer vision was that like one of the
+reasons why you started working on the
+problem in the first place like there's
+this
+new idea that computers can see one of
+the big motivations for us was how
+robotics was changing
+because of computer vision and the
+advances there
+robots can really come out of factories
+and prescriptive environments and into
+real life uh and so we can pull these
+kinds of things up ready
+the robot can hear as well it can what
+were some of the things that were the
+hardest to sort of figure out i mean it
+looks like
+it's working and it's not just a 2d
+problem it's actually a 3d problem so a
+lot of what we've used are things made
+possible by self-driving cars but
+self-driving cars don't need
+sub-millimeter accuracy uh because for
+us like we do need that if if we get a
+little bit of polish on people's
+cuticles or on their skin they won't be
+satisfied so being able to do this in 3d
+and with submillimeter accuracy was
+pretty hard to figure out and then
+ergonomically i think what's been
+surprising for me is the finger rest or
+or the hand rest as we call it because
+people's fingers are so different like
+the last thing i was expecting
+was that for a machine that can paint
+your nails fully autonomously that the
+hard thing would be where you place your
+hand so that was
+an unexpected challenge yeah i guess one
+of the things that's interesting is how
+much um
+you're never quite prepared for like the
+the robot to actually touch your nail i
+think that's a very surprising moment
+for a lot of people yeah but it's so
+accurate
+thankfully
+we actually have a bunch of layers of
+security woven in
+and
+one of the ultimate ones was anyone
+who's uncomfortable can just pull out
+their hand and it's just going to stop
+midway and back off i like the touch
+screen that's quite nice
+the touch screen also gives us a number
+of opportunities um to you know we have
+a captive audience quite literally um so
+we can use the touch screen for a number
+of things to make people's experience
+even better
+perfect
+hey what do you think it's pretty good
+actually do you like it yeah i mean
+my first robot nail painting is awesome
+awesome
+so a lot of people are watching this
+they're going to be like okay how do i
+try this out for myself so what we're
+trying to do right now is find partners
+all around the country we want this to
+be just a 10 minute walk from you in
+fact we really want it to be in
+corporate buildings or in retail stores
+where people already are which just
+really adds to the convenience factor
+and so you're still a startup growing
+really fast you know it sounds like
+you're hiring too we're only six people
+right now getting to this stage but
+we've seen so much demand and there's so
+much potential here that it's time to
+grow the team i'm just really excited
+about this sort of jetson's future where
+all of the things in our lives could
+basically be automated by robots like
+this i mean that is our goal to sort of
+not have people spend time on things
+that are just tasks for them and instead
+divert their energy to things that they
+love that's awesome so if people want to
+follow up with you like you know what's
+your website like do they sign up for
+your email list it's like
+clockwork.com oh i love that domain
+thank you well renuka thank you so much
+for having me today absolutely thank you
+for coming all right that's coming to
+you soon
+[Music]
+[Music]
+you

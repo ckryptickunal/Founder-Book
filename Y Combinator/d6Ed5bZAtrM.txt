@@ -1,0 +1,234 @@
+Title: How Scaling Laws Will Determine AI's Future | YC Decoded
+Video ID: d6Ed5bZAtrM
+URL: https://www.youtube.com/watch?v=d6Ed5bZAtrM
+Channel: Y Combinator
+Published: 2025-01-23T15:00:49Z
+Duration: PT10M12S
+Views: 40212
+Likes: 1110
+Tags: YC, Y Combinator, LLM's, Microsoft, Google, OpenAI, Anthropic, ChatGPT, Claude, Reasoning, o1, Scaling, Scaling Laws, Gwern
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 212
+
+Description:
+In the past few years, AI labs have adopted a “more is more” approach to scaling LLMs. By introducing more parameters, data and compute, they’ve been able to predictably improve model performance. But recently, there’s been plenty of debate within the AI community as to whether or not we may have finally reached the limits of scaling laws.
+
+In this episode of YC Decoded, President and CEO Garry Tan looks into both sides of the scaling laws debate and how a brand-new paradigm could potentially fo
+
+============================================================
+TRANSCRIPT
+============================================================
+
+the deadline to apply for the first YC
+spring batch is February 11th if you're
+accepted you'll receive $500,000 in
+investment plus access to the best
+startup community in the world so apply
+now and come build the future with us
+large language models are getting bigger
+much bigger they're also getting smarter
+over the past few years AI Labs have hit
+on what feels like a winning strategy
+scaling more parameters more data more
+compute keep scaling the models and they
+keep improving you know just like Mo's
+law we saw the doubling uh in
+performance every 18 months with AI
+we've now started to see the that
+doubling every 6 months or so but could
+that be coming to an end is the era of
+scaling finally over or are we standing
+right at the beginning of a brand new
+scaling Paradigm one that promises to
+revolutionize AI forever
+in November of 2019 open AI released
+gpt2 its largest ever model with 1 and
+A2 billion parameters the next summer
+they released its successor
+gpt3 which was something we'd never seen
+before Not only was gpt3 far more useful
+and usable it was also much bigger over
+100 times bigger than
+gpt2 the era of scaling laws had
+arrived before GPD 3 llms were already
+getting bigger but it was still anyone's
+guess whether or not that extra size
+data and compute would be worth it there
+was no guarantee that making your model
+100 times bigger would also make it 100
+times better what if they started to run
+into diminishing returns it wasn't until
+January of 2020 when Jared Klan Sam
+mandish and their colleagues at open aai
+released the influential scaling laws
+for neural language models paper that
+the field started to take
+notice think of training AI models like
+a recipe you have three main ingredients
+the model itself the data it's trained
+on and the compute power used to train
+it larger models have more parameters
+these are the internal values of the
+neural net that are tweaked and trained
+in order to make predictions these
+models are also typically trained on
+much more data measured in tokens which
+for llms are often words or parts of
+words finally training these larger
+models requires computing power which
+means more gpus running for longer using
+more and more
+energy what the scaling laws paper
+revealed was that by cranking up all
+three the parameters the data and the
+compute the result was a smooth
+consistent Improvement in model
+performance in the form of a power law
+performance it turned out depends much
+more on scale than on the algorithm
+later in the year more research from
+open aai confirmed that these SC aing
+laws worked for other kinds of models
+too on text to image image to text and
+even math the same scaling laws were
+there but back in early 2020 llm scaling
+laws were pretty much unknown outside of
+open AI that is except for one person
+the anonymous researcher and writer G
+was one of the first people to hone in
+on what he called the scaling hypothesis
+scale up the size the data and the
+compute and watch Intelligence emerge
+maybe intelligence really is just like a
+lot of compute applied to a lot of data
+applied to a lot of parameters um maybe
+morac and leg and Kur were right War's
+post brought scaling laws into the
+mainstream and over time what started as
+a quiet observation quick turned into a
+foundational principle for AI
+development but open AI research was
+just a part of the picture in 2022
+Google Deep Mind released their own
+research on scaling laws and they added
+an important missing piece it turned out
+that it's not just about making models
+bigger it's also about making sure you
+train them on enough data researchers
+were looking to find the most optimal
+model size and training data for a given
+compute budget so they trained over 400
+models of different sizes with different
+amounts of data and what they found was
+surprising their research suggested that
+previous llms like gpt3 were actually
+undertrained these models were huge but
+they hadn't been trained on enough text
+to fully realize their potential to test
+this they trained chinchilla an llm less
+than half the size of GPD 3 but with
+with four times more data and at one
+chinchilla was far better than models
+double even triple its size these
+so-called chinchilla scaling laws meant
+that training the optimal model wasn't
+just about making the model larger but
+also about having enough data to feed it
+chinchilla was a huge milestone on the
+road to training the frontier AI models
+we have today like GPT 40 CLA 3 3.5
+sonnet and others Labs learned they
+could trust in the scaling laws and get
+reliably better and better
+models so the future of AI is just
+bigger and bigger models forever right
+well recently there's been plenty of
+debate within the AI Community about
+whether or not we've finally reached the
+limits of scaling laws some argued that
+as the latest generation of models have
+gotten bigger and more expensive
+capabilities have started to Plateau
+there's a lot of debate in fact just in
+the last multiple weeks or have we hit
+the wall with scaling laws the current
+generation of llm models are roughly you
+know few companies have converged at the
+top but I think we're all working on our
+next versions too we're increasing gpus
+at the same like rate um but we're not
+getting the intelligence improvements at
+all meanwhile rumors have leaked out of
+major Labs about failed training runs
+and diminishing returns
+others have speculated that the lack of
+highquality data to train new models has
+also become a major bottleneck uh one
+practical issue we could have is we
+could run out of data for various
+reasons I think that's not going to
+happen but uh you know uh if you look at
+it very very naively we're not that far
+from right now data and so it's like we
+just don't have the data to continue the
+to continue the scaling curves so if the
+old scaling laws are beginning to lose
+their Edge what comes next what if they
+were for a new frontier for scaling from
+a brand new kind of model open ai's new
+class of reasoning models hints at a
+potential new
+Direction in a previous video we
+explained how 01 learns to Think Through
+complex problems using its own Chain of
+Thought and open aai researchers found
+that the longer 01 was able to think the
+better it performed it wasn't
+immediately clear how well strategy
+would continue to scale up but now with
+the recent release of its successor 03
+the sky seems to be the limit for this
+new paradigm of scaling llms 03 made
+headlines when it was announced as it
+smashed benchmarks that were previously
+considered far Out Of Reach for AI from
+software engineering to math to PhD
+level science questions 03 easily
+surpasses the old state-of-the-art
+results
+03 isn't just a small Improvement on its
+predecessors it's a huge leap and openi
+researchers say they have every reason
+to believe this trajectory will continue
+it may even be on a path to artificial
+general
+intelligence instead of continuing to
+scale up the model size during training
+it seems likely that researchers will
+shift Focus to scaling the amount of
+compute available to the model for its
+Chain of Thought also called test time
+compute by letting models think for
+longer llms like 01 and 03 can leverage
+more compute on the Fly scaling up their
+intelligence when it's needed for harder
+and harder problems scaling pre-training
+may have plateaued but by training test
+time compute open AI may have just
+opened up an entirely new paradigm for
+scaling laws potentially unlocking
+capabilities we never thought possible
+large language models are a key piece of
+the hunt to artificial general
+intelligence these same principles of
+scaling appear to hold for other models
+too image diffusion models protein
+folding and chemical models even World
+models for robotics like for
+self-driving one thing is clear it might
+be midgame for large language models but
+we are clearly still in the ear early
+game for scaling other modalities buckle
+up
+[Music]

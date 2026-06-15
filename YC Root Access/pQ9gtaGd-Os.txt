@@ -1,0 +1,1310 @@
+Title: Why become a product engineer? -- with Volley (YC W18) & Luminai (YC S20)
+Video ID: pQ9gtaGd-Os
+URL: https://www.youtube.com/watch?v=pQ9gtaGd-Os
+Channel: YC Root Access
+Published: 2022-10-12T23:32:04Z
+Duration: PT47M52S
+Views: 7531
+Likes: 117
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 1285
+
+Description:
+https://www.workatastartup.com/events/product-eng
+
+YC says: make something people want.
+
+Becoming an engineer at a YC startup lets you build products and try your hand at making something people want. An interesting role that's often overlooked is a Product Engineer -- a software engineer who codes every day and also cares deeply about what the customer wants.
+
+Join two YC founders for a discussion about what it means to be a product engineer and how you can become the next product engineer at a
+
+============================================================
+TRANSCRIPT
+============================================================
+
+[Music]
+foreign
+[Music]
+thanks for joining for those of you who
+don't know I'm Paige from Y combinator
+where I work on our work at a startup
+team essentially the team helping all of
+our Founders hire great people like you
+so this is why I become a product
+engineer
+this event was inspired because
+even at YC we hire product engineers and
+a lot of times candidates don't know
+what that role means today we have two
+wonderful Founders at YC companies who
+will share their experiences and kind of
+give more color behind what it means to
+be a product engineer at their companies
+so I'm James I'm the co-founder and CTO
+at Valley
+um I'm casava I'm one of the co-founders
+and the CEO of illumini
+awesome yeah so I'm just going to kind
+of talk a little bit about uh volley
+specifically for a minute just to give
+you the context there
+um
+um this is volley
+um we make games for Amazon Alexa and
+Google home
+um and we're kind of a game studio in
+that sense uh we have a bunch of
+products uh right now you're seeing song
+quiz which is one of our most popular
+um games on on both platforms uh it's a
+name that tune game this is Magic where
+it's like a little uh word game
+um and this is Hash sort of showing that
+you can play our games on fire TVs as
+well uh so anything with a microphone uh
+we're trying to make voice control the
+entertainment voice controlled games
+um we have a lot of products I guess
+which is why uh we have a lot of uh
+product Engineers working at Valley
+um and you know you can kind of check
+out our website uh yourself but this
+shows a bit about our most popular
+products so song quiz like I said is
+kind of a name that tune music trivia
+game super popular with families and
+friends it's like a social experience
+you can kind of play it in your living
+room and you can have a great evening
+kind of just trying to guess the artists
+and the titles of popular music
+um we also license a lot of brands from
+popular game shows that you probably
+will be familiar with so we have a game
+for The Price is Right and for Jeopardy
+for who Wants To Be A Millionaire Wheel
+of Fortune are You Smarter Than A Fifth
+Grader and then we also have like really
+casual games like question of the day
+which is like a daily trivia question we
+even have sort of stories that are um
+controlled on your Alexa and Google home
+for kids and Families trying to go to
+sleep so uh tons of stuff there's even
+more down here you can check it out
+um but yeah that's basically uh the
+overview of the the company uh we went
+through Y combinator in uh winter 2018
+uh so we've been around for a while
+um we're you know pretty uh big at least
+in my my view now I mean the biggest
+company I've worked at which is uh you
+know 70 people or so
+um and uh we're based in San Francisco
+uh headquartered there but we're pretty
+hybrid right now so like half of our
+employees are uh spread around the globe
+um primarily in the US but we've got
+people everywhere and uh we also
+um you know our hybrid even in the Bay
+Area so people are kind of coming into
+the office you know two to three days a
+week
+um it's been working really well
+um I can talk a lot more about this
+later on but we have this uh kind of
+structure to the company that that I
+think is similar to a lot of other game
+studios where there's a lot of little
+small autonomous individual teams uh
+that are kind of working on individual
+products at the company
+um and that's kind of how we've been
+able to scale our product catalog pretty
+quickly
+um to kind of become the leader in this
+new emerging space of voice controlled
+entertainment uh so yeah that's what
+we're working on
+um happy to dig in on any of those
+topics but uh just wanted to give the
+overview first
+um I've I put together a little deck
+quickly that I thought it can and run
+through but um fundamentally uh what
+alumni does is we take any kind of
+multi-click multi-step repetitive manual
+process and and make it one click
+um but before I tell you uh why and how
+we do this just wanted to share a quick
+story so I grew up in the southern part
+of India so most of my family are all
+sort of coconut Farmers um so for the
+longest time until I was like 10 years
+old basically
+um uh you know I lived in a coconut Farm
+then uh when I was 11 my parents kind of
+you know moved up to the city in in uh
+for the state I'm from and sort of
+stumbled upon Rubik's Cubes uh and got
+very good at solving Rubik's Cubes um
+ended up kind of breaking a bunch of
+world records and as a captain of the
+international team and got to kind of
+travel the world I'll I'll funded by the
+government and um that sort of Landon
+Bean going to this high school called
+the United World college and it says
+high school that brings together people
+from from you know 70 different
+countries to work on International peace
+and understanding
+um after I graduated I was like okay
+what's the craziest thing I could do to
+like live this United World College
+Mission which was to promote peace and
+so very naively decided to kind of cycle
+from Europe to Asia uh to promote peace
+uh and uh recycle about you know 2500
+miles across these nine countries and
+because of that kind of landed in the
+Bay Area for like a summit
+um and when I came here I kind of fell
+in love with Silicon Valley and
+um and uh you know no work visa no no
+money
+um but sort of was like let's figure out
+a way to kind of continue being here um
+ended up actually living off of
+hackathon prize money for six seven
+months and and sort of the first project
+that kind of came out of it um or so the
+the project that actually started to
+make money that came out of it uh became
+what we're working on today um which is
+lumini so uh sort of fast forward to you
+know um we're doing today
+um you know the reason I mentioned that
+story is because you know ever since I
+was 10 kind of efficiencies kind of
+embedded in in my personality
+um it's it's primarily because of some
+of these like you know in the end of the
+day when you sort of start talking to
+some of the teams you work with
+um primarily you know customer service
+um customer experience organizations
+um they face you know three or four
+problems so the first one um is that
+they have you know four or five six
+different systems uh that they jump
+between to find information and then
+perform uh tasks associated with their
+jobs
+um and you know uh unfortunately this is
+almost close to 50 or 60 percent of a
+customer service agents kind of blob uh
+and they only spend about 50 actually
+talking to customers
+um the second is sort of you know they
+spend a lot of time getting onboarded
+and ramped up uh to be able to uh you
+know actually do their job uh the third
+is you know engineering resources to
+build support tooling is close to zero
+um obviously you know engineers want to
+work on product
+and and so you know most most folks
+don't end up actually building any of
+the internal tooling the final is sort
+of security and compliance like you must
+have you might have seen the OCTA
+support breakout
+um but sort of the big hack that
+happened with OCTA and the primary
+reason was because uh the support team
+uh they're all tier one agents in in
+countries that are not in the US and
+they sort of have access to customer
+data and financial data that is very
+very sensitive um and the sort of yields
+like you know sometimes tens of millions
+if not hundreds of millions millions of
+dollars uh in support uh with an
+increased you know average handle time
+and lower customer satisfaction score so
+what we ended up building
+um was this external layer that sat on
+top of these existing systems to take
+any kind of multi-click multi-step
+process and make it one click and we do
+this using this technology we built
+called robotic process automation
+um and the reason this is sort of
+important in the context of product
+Engineers is because we are a very
+productive event driven org we actually
+everybody we hire for regardless of
+whether you're technical or not actually
+goes through a product interview because
+we fundamentally believe that you know
+everybody should be able to actually
+understand why uh you are building the
+kinds of things you're building for the
+customers and so we have this even even
+internally we ensure that every single
+person at the company uh is is having
+FaceTime with the customer on a weekly
+basis
+um you know we've raised about 20
+million dollars we're backed by some of
+the best um folks folks in the valley
+um all the way from you know General
+Catalyst to craft and and YC's
+continuity fund
+um and you know this is sort of talking
+a little bit about one of the you know
+uh one of the customers who work with is
+this very breakout high growth company
+called whatnot
+um that you know um started with us when
+there were kind of 15 agents or so and
+now they're in the hundreds of agents
+and and uh you know uh one of the things
+that these teams uh mentioned you know
+is that we're actually giving back the
+creative Joy of being a customer service
+agent because the end of the day when
+you when you talk to these folks they
+like joined and decided to do this job
+because they want to talk to customers
+and solve their problems but over 50 of
+their time they're actually not doing
+that
+um so we're a little over you know half
+a million 600k in Revenue um we're
+working with customers you probably know
+of you know Strava ordering um whatnot
+as I mentioned um we're also going to be
+uh we're just starting to work with uh
+door National Carta um and you know the
+next time you kind of order from
+doordash and and you want to refund uh
+they're gonna be processing all of that
+through illumini so
+um just a fun fact there um finally you
+know why you should join us um we've
+grown sort of 5x in the last five months
+but what I'm really proud of at Lumina
+is actually that product culture uh and
+and that comes from one underlying
+factor is that we're a 15 person team
+but we actually have six former YC
+Founders at alumni
+um and you know that drives this
+unbelievable amount of sort of
+um want to be customer obsessed and have
+this uh very humble um but very very
+um you know urgent and and and
+incredibly quick culture
+um and so that you know uh kind of
+drives us uh as a company
+um you know we're looking for sort of uh
+obviously uh you know I would hear
+product Engineers but also looking for
+folks to come in and and lead some of
+the teams we've built so far so you can
+find us here and uh I'll pass it back to
+Paige I think to switch it up
+okay awesome now let's start with the
+first first question for the two of you
+what is a product engineer
+um sure I can I can jump in um
+at volley
+um product engineering is super core to
+how we structured our engineering org
+um so like I said we have you know
+dozens of games and entertainment
+experiences on Alexa and Google home
+um and each of them are especially like
+the top six that we are focused the most
+on have their own product teams
+um and uh most people most Engineers on
+those teams are product Engineers
+um but we also have this whole other
+part of the engineering organization
+that we call Core Tech
+um which is really
+um you know how we've decided to split
+the organization we have core Tech and
+product
+um and everyone in these two separate
+you know divisions is is an engineer a
+software engineer but it wasn't that
+helpful to just put up you know job or
+export software Engineers when we really
+do think of these two types of roles and
+two divisions in the organization pretty
+differently so
+it's almost more helpful to start with
+quartet where we have
+um you know kind of the centralized like
+team that's working on our game engine
+so
+um many of you may know game engine
+companies like
+um Unity or you know Unreal Engine
+um and you know those companies tend to
+be like selling the engine I mean you
+know depending um but um to you know
+licensing the engine to other companies
+other game studios uh we were the first
+company to really want to build an
+engine that would run cross-platform on
+Amazon Alexa and Google home and kind of
+like make building games for these uh
+smart speaker platforms a lot easier and
+more efficient so we built our own
+internal game engine for that purpose
+and that's what the core Tech team is
+primarily doing
+um but they're also doing things like
+figuring out uh hey how does that engine
+get architect did and how does that it
+get deployed into production uh how do
+we debug how do we uh add features how
+do we like
+um make it flexible enough so that uh we
+can build all the cool products that we
+want to on top of it
+um so there's a whole infrastructure
+piece there's a whole devops piece and
+then there's the engine development
+itself
+um and
+on the flip side on the product
+engineering side you know those that
+those teams are really really focused on
+using the engine to build amazing game
+experiences so they're writing game
+logic maybe they're working with product
+management teams to design you know game
+features right like a new game mode
+um in Jeopardy we just launched the
+ability to like do uh kind of a final
+Jeopardy Style game mode
+um we used to kind of like just give you
+a set of six questions each day
+um but the Final Jeopardy comes into
+play at the end of the week where you
+can kind of wager based on how much
+money you've earned over the course of
+the week and it's a whole new feature
+that we've had to design and develop for
+voice
+um so that's an example of something you
+might work on as a product engineer
+whereas on the cortex side you'd be
+maybe working on you know the underlying
+systems that power all of our games
+um and yeah we uh like I said we have
+these kind of really small efficient
+autonomous teams
+um and the reason they can work so
+quickly and efficiently on on customer
+facing game logic and game features is
+because we have this other core Tech
+team that supports them and has solved a
+lot of really thorny problems about
+devops and deployment uh at scale so
+it's two very different worlds but
+they're tied very close together and
+it's almost as if the uh you know the
+product Engineers are customers of the
+core Tech Engineers internally in the
+company
+so uh on on our end the way we're
+actually structured is you know um we're
+not large enough that we're starting to
+separate any of these um and you know
+probably there's you know a point where
+um we will probably have to do that um
+the same way probably you know Wally's
+structured at the moment um but
+um at lumini um what it means to be a
+product engineer is that you're kind of
+spending
+um about you know uh 10 15 of your time
+um actually studying the customer
+um and spending time with customers uh
+on a weekly basis um and so that means
+going and looking at each of these
+customer sort of um channels and these
+communication setups um talking to users
+um and and then taking those insights
+um and then thinking about how does this
+tie back into the business case right
+longer term like how do we prioritize
+like the types of things um we need to
+build to drive the constant value
+um and double down on the value that
+we're today and then and then you take
+that layer and you think about that and
+then you actually go back down to
+building a very you know in in our case
+a consumerized Enterprise product
+um and so uh right now you know we're
+very very heavily uh focused on like a
+you know producty uh uh org uh not just
+within engineering but across the board
+um so question from Carol um do you have
+a product manager uh at the moment no um
+and I think that's the that's the
+advantage of sort of um where we are
+today but uh I think uh uh we're
+probably closer to that breaking point
+of like realizing maybe we do need a PM
+to start uh kind of tackling in so we
+actually just put out a first job rack
+for someone to come in and be a PM too
+um but that product engineer piece will
+continue to
+um uh to be uh to be the case and then
+uh to answer Scott
+um yes it is a hybrid of software
+engineer and a product manager but uh
+more 80 probably engineering and
+probably fifteen twenty percent uh being
+a PM
+and to kind of build off of that someone
+had a question about how the role of a
+product engineer might change for a
+company that's pre-product Market fit um
+pretty earlier on
+um and a company that's a little later
+stage
+um any thoughts on on that one
+for us like you know we started
+um you know we were a product
+engineering org from very pre-product
+Market fit times to now I would say
+we're sort of at the cusp of uh seeing a
+very strong signs a product Market fit
+just with the customers that we have and
+the usage and the ROI that each of these
+customers are getting
+um so it definitely changes from like
+everybody sitting in whiteboarding and
+figuring out all the crazy ideas that
+you want to do do a little more
+structured on like how do you how do you
+um you know how do you think about
+roadmap how do you think about
+um you know how do you think about the
+next phase uh of uh or or you start
+thinking a little bit uh in in months
+rather than like days
+um and so that probably is like one one
+shift that's happened uh is that similar
+James
+um or do you guys have something
+different yeah I mean it's really uh
+kind of similar to or like it's
+interesting to hear how you're set up
+right now because I think that's how we
+were at the same size company when we
+were you know 10 to 15 people we didn't
+have any PMS
+um we were maybe just starting to like
+ramp up the hiring there and part of the
+huge benefits of like going specifically
+um after hiring uh product engineers and
+and embedding kind of like product type
+um product sense uh kind of evaluations
+into the hiring process was that you
+know with you know you get these awesome
+Engineers but they they can make those
+decisions
+um for themselves that are like that
+maybe at larger companies would require
+lots of check-ins with the product teams
+and uh you know as a startup you want to
+be moving a lot faster than that uh so
+you want uh to almost like be testing
+for this in the application process like
+you know your initial Engineers do they
+have a good taste on product and uh are
+they making good customer facing
+decisions uh because like not there's
+not always going to be someone telling
+them exactly what the spec is should be
+like
+um uh you know in the early days
+um you know nowadays we've we've created
+a lot more structure um which is which
+is good I think we needed to
+um we have scaled up to
+um you know each team having multiple
+product Engineers a product lead and a
+data analyst so each game essentially
+has those uh discrete teams um and they
+are able to kind of create a lot of
+their own sort of rituals around uh you
+know uh their roadmap and uh their kpis
+and you know their timelines and they're
+moving really quickly
+um but it's yeah it's kind of that
+studio model except it's internal right
+like each game has its own
+um kind of dedicated resources on
+product analytics and um and product
+engineering essentially and then there's
+the uh underlying infrastructure team
+that supports all of our games sort of
+have crossed the company and that's been
+working really well the the thing that
+we've done to kind of standardize this
+so it doesn't get too crazy is we have
+this quarterly uh kind of
+kpi cycle essentially uh stolen from YC
+we call it demo day so if you're
+familiar with demo YC there's a demo day
+at the end of the uh the batch and you
+present it to investors for us
+internally we actually do that with each
+game with each team we you know have the
+uh the teams present the entire company
+about what they were trying to achieve
+that quarter and uh you know what they
+tried what worked what didn't work did
+they hit the kpi uh what they're going
+to try the following quarter and you
+know as we've scaled we've created a
+little more structure to these like you
+know these check-ins and uh you know
+standardization across the games but at
+the end of the day like the the product
+Engineers themselves are still doing
+very similar work to what they were
+doing in the when we were 10 people
+which is building great game and great
+game features that are you know played
+by the customer
+uh I think uh I think the one thing that
+um you know uh that's really interesting
+uh that you mentioned I think that's
+probably core to the product engineer
+title in general is actually autonomy
+um uh I think it's probably the the real
+differentiator between like a software
+engineer and like a product engineer is
+like the ability to go from like zero to
+one without necessarily like you know
+having to have like check-ins with like
+five different sets of organizations
+it's like really giving the power to
+like uh a technical person
+um to be like hey like this is the
+problem like figure it out and like you
+know all going from zero to one I think
+is like really the the big big
+um change
+yeah totally I think you're you're spot
+on it's like
+um you know we there's so many questions
+that come up and and designing products
+and uh you know when you're in an early
+stage team it's almost it's often more
+important that you just make the
+decision and commit to it and make it
+fast rather than
+um you know get it perfect or get it
+right before you launch or you know to
+even test it perfectly like just the
+reality of early stage pre-product
+Market fit startups is you you need to
+be moving super quickly
+um and uh you know that means that
+um you're you're probably creating
+problems down the line but for yourself
+but that's okay because like you might
+not make it to that point
+um unless you get the product out and
+and learn from the customer
+foreign
+that makes a lot of sense
+um and for some of the software
+Engineers who haven't been as like
+customer facing before what are some of
+the things that can kind of help them
+transition or think about like why they
+might be more interested in a product
+engineering role than just a software
+engineering role
+I think uh at least at lumini um you
+know
+I would say like about maybe about
+engineering org uh about you know 70
+percent are more introverted maybe even
+80 more introverted 20 more like super
+extroverted customer facing folks um and
+I think the the interesting part is
+actually
+um when you're making the transition
+from like not necessarily communicating
+with like an external facing party who
+you have a business relationship with
+um and then transitioning into uh
+context where you are communicating with
+them actively it's pretty crazy how much
+like customers love
+um when like Engineers are actually
+involved in the day-to-day like
+collaboration
+um because like Engineers like are the
+heart and soul of like you know the
+product that they're using and the fact
+that they have a direct line access to
+them in some in some form uh makes the
+customer so much happier and so much
+more open actually to accommodate uh
+whatever sort of um style of community
+education that they they want to have
+but also uh uh all in all the reason I
+say that is because uh as you make that
+transition from software engineer to
+customer engineer or product engineer
+um it's actually pretty uh pretty wild
+how welcoming that transition is
+primarily because it's driven by the
+customer uh in so many ways and
+um you get to the heart and soul of like
+why you're building what you're building
+and the real impact that it actually has
+like if you were to kind of build a
+button right like you'll actually be
+able to see like what does this like
+little button do for like the hundreds
+of thousands of people that like could
+potentially be using it
+um do all the way to like let's say you
+like you know we're a very founder
+driven organization like we we take we
+take a lot of inspiration from Rippling
+um and so we kind of have uh you know a
+little bit of a business unit as kind of
+um
+um set up and so uh you can actually at
+Lumina you can actually see like going
+from fully from zero to one on
+a new vertical potentially
+um like for example right now in
+customer service but the next sort of uh
+opportunity we're going to be tackling
+is actually sales Ops
+um and like going from zero to one on
+like taking what we've had and like
+getting it getting it up and running
+um you have that in that that that power
+um and and it's pretty
+um uh it's it's very very like sort of
+uh uh a different set of challenges that
+that I would say the new modern
+businesses are kind of starting to nap
+so it's more exciting than than scary
+yeah and I can add that uh volley
+um I think a good way to kind of prepare
+for the product engineering role would
+be you know if you're the type of
+engineer who's already uh you know
+thinking a lot about you know the
+customer Journey right the um you know
+the a lot of the uh problems that a
+customer might face in an application I
+think that's like a key skill set is
+like you're maybe you're able to
+um think of edge cases really really
+effectively right because you know maybe
+the customer is going to hit press this
+button or get to this flow and uh it'll
+be confusing or they won't you know
+they're they won't know where they are
+in the application or
+um it'll cause some issue Downstream
+like those types of thinking that type
+of like customer focused thinking is
+really important for a product engineer
+um and you can do it just in whatever
+engineering role you're in right now
+already
+um just kind of putting yourself in the
+shoes of the customer or the you know
+user in in the gameplay there in our
+case
+and you can also kind of like think of
+it as
+um you know something you can practice
+just by you know using apps yourself you
+know when whether it's a consumer facing
+app or
+um on your phone or you know a work
+application that you're using all the
+time like you know thinking about the
+feature set and what parts are hard and
+difficult and why they were coded in
+certain ways
+um can be really valuable like you know
+especially at your your current job like
+being able to you know feedback feedback
+suggestions up to the product leads to
+the product managers to
+um suggest you know product improvements
+or ask the questions of like why why was
+this design this way I think that's the
+the best practice for the types of
+decision making and thought processes
+you'll have to go through as a product
+engineer uh specifically
+great um and this is sort of related but
+a little different um so so if someone
+is
+a product manager and has kind of been
+in that role
+um what are some signs maybe that they
+would be interested in becoming a
+product engineer again and what are some
+technical skills that product managers
+might want to gain or freshen up on
+before they move into product
+engineering
+uh generally I think uh I've sort of
+seen the the other transition and just
+like going from engineer to PM I think
+uh PM back to product Engineers actually
+I would say like
+probably way more effective because
+you're kind of if you are like uh by
+background Technical and but you've been
+doing like PM work
+um then you've already gained all the
+like necessary like organizational
+Frameworks
+um to like run a product org but then
+now you're actually going back into the
+weeds and and building
+um which I think is like
+very very like it's I think that the
+signs are very simple which is like if
+you're having this itch to go back to
+want to truly kind of get your hands
+ready and build again
+um in in so many in so many uh ways but
+also not loser that not lose the the
+product touch and the the want to talk
+to customers regularly
+um making that switches uh probably uh
+very exciting
+um I mean on the technical side I think
+you just need to kind of be
+um up to date with sort of what what
+folks are using to build um you know we
+we kind of use the most modern kind of
+react node.js typescript
+um stack but that's like most most
+companies
+um in in case the the SAS world
+yeah I mean seconded uh here as well uh
+at volley it's it's node typescript
+react
+um those are the key Technologies to be
+aware of that you know to join a lot of
+startups like if you're if you're uh
+caught up to speed on those Tech that
+Tech stack you're gonna get a lot of uh
+interest uh as a uh you know PM who's
+interested in going back into
+engineering or you know learning uh you
+know switching into engineering and I
+think it just
+um yeah it's just like such a powerful
+skill set to have
+um especially if you are you know
+working on customer facing features like
+I think it's more it's like if you've
+been a PM and you're now going to come
+in as a product engineer you're going to
+be like probably uh interfacing with
+customers
+um potentially you know like
+um you know doing customer interviews
+potentially or um you know just
+designing the features that that are
+closest to the customer it's really
+valuable maybe more so than if you were
+gonna go in to like infrastructure
+engineering or devops or something like
+that
+cool if you think of your one or two top
+product Engineers what are the skills
+that they really excel at or like what
+is what are their superpowers
+so
+I think on on our team we actually had a
+recent YC founder join us
+um who was the CTO of a company and and
+um you know it's been like three months
+since he joined us and it's pretty like
+except he's been like exceptional
+um and I would say that the the reason
+um why uh that kind of ram time from
+going to zero to them being exceptional
+happened so quickly
+um was permanently I would I would say
+very much driven by ownership and a
+curiosity to
+um like understand the the core customer
+problem before doing writing any line of
+code it's like a very like yc-esque
+mentality which was like okay like
+here's the problems you're telling me
+let me go and figure out if that's
+that's really like like from an
+engineering standpoint really how
+um we should be approaching this right
+and so
+um basically you know we we had we built
+a core sort of uh V1 uh robotic plus
+automation engine
+um that we kind of defined as our longer
+term mode that like continuous
+continuously will get better
+um and so he went in and kind of like
+dug deep into like actually figuring out
+if that all kind of last and become uh
+become uh will grow with our customer
+base
+um especially because you know when
+you're so early uh in the journey like
+like we went from like like basically
+our with the with onboarding doordash
+our user base is going to 10x like over
+like a month period like and when you're
+kind of dealing with that kind of
+um scale on a month on month kind of
+basis like uh you everything is going to
+break very very quickly
+um and so you got to start like being a
+little more proactive especially in in
+our world which is like and maybe in the
+games world too but like I think in our
+world like if a customer service like
+system is down for like five minutes
+you're talking about like hundreds of
+customers not being able to reach you
+um and that's like
+potentially like losing customers like
+potentially like hundreds of thousands
+of dollars or maybe more in in business
+impact
+um and so when you're dealing with that
+kind of uh scale it's uh it's very very
+core um to be able to understand that
+problem and I think the person who
+joined our team was able to like really
+really take that and then uh reshape and
+kind of build our our PA engine like 2.0
+um in the last kind of three months um
+to get ready for the next phase and the
+I think the other part of it which was
+like the awareness of like him also
+saying hey uh to me is okay case about
+like you know like yes like you know
+um uh you know we'll build this is a new
+engine but this will probably scale for
+up to this point and then we'll probably
+have to like rebuild again right like
+and just having that awareness is also
+like probably very very key
+yeah I think that's uh spot on is like
+understanding the customer also like you
+know being very data driven I think it's
+just become a must in the uh current
+world and startups especially and you
+know I think when you're on a smaller
+team you know there's probably like one
+or two or three maybe at most you know
+top metrics that you're trying to like
+really grow especially as you're trying
+to achieve product Market fit or you're
+trying to get to the next round of
+fundraising like you know everyone tries
+to be very focused on improving uh you
+know a set of metrics
+um and everyone should be super aligned
+on that so a product engineer
+um who's really effective is going to be
+laser focused on the you know the work
+that needs to be done uh to move that
+metric uh whatever it is in your company
+uh for us at volley it's things like you
+know how many people are converting and
+buying a subscription in our games and
+uh how many people are retaining on the
+subscription essentially paying multiple
+months over months so you know those
+whatever that kind of focus of the
+business is you know you want to be
+super aligned there and uh
+whether it's like you know figuring out
+what are the trade-offs like if you're
+going to work on one thing or the other
+like how much does that affect the
+business metrics um and uh you know
+maybe there won't be you know the
+product manager product lead telling you
+exact making that trade-off decision for
+you you need to be a little bit more
+focused on uh you know letting the
+product letting product people in the
+company know or Business Leaders in the
+company know like what what how long
+this feature will take and what the
+trade-offs are in terms of How likely we
+are to hit our goals uh for the for the
+quarter of the year
+um so that's kind of like really
+important is to have that mindset of
+like you know being close to caring a
+lot about the business metrics I think
+um that maybe differentiates the role a
+little bit more from you know maybe you
+know more uh infrastructure oriented
+roles um on our team at least
+foreign from Alfonso here if you're able
+to share what kind of kpis do you use
+for product product development
+yeah
+um so I'm among all the ones that I
+mentioned you know it's you know we're
+selling subscriptions so we're kind of a
+freemium model
+um and you know essentially when a
+player discovers our game they get a
+free experience and then we're trying to
+upsell them into a subscription
+um you know it's really similar to like
+the mobile app store in-app purchase
+model uh and you see this a lot on
+consumer
+um Technologies consumer startups uh the
+subscription model is super effective so
+but there's really clear it's almost
+like SAS metrics if you're familiar with
+SAS metrics like they apply pretty well
+to the kind of consumer subscription
+model
+um so you know how many people are
+converting into the uh into the
+subscription and uh you know usually
+it's a free trial so how much are How
+likely are you to pay after the trial is
+completed How likely there are you to
+pay the following month or and also you
+know you want to be looking at like
+usage during the trial and usage during
+the first month and those types of
+metrics that kind of show you uh not
+only like are you maintaining the
+payment retention but the usage
+retention as well uh so those are a lot
+of the key things that we're looking at
+um and also of course like a huge driver
+of our business also is just like
+discovery of our products so there's a
+lot of work being done on marketing and
+growth
+um before the user even gets to a
+product
+um so there's a whole side of the
+business there as well
+oh yeah one thing I wanted to just add
+was like a lot of our product Engineers
+what they're what they're working on is
+not necessarily just like designing and
+shipping a feature for the game or not
+you know just like feed uh building and
+shipping a feature for the game
+um in in collaboration with the product
+leads but also like you know running a
+lot of Av experiments right so if you're
+someone who really enjoys that like you
+know learning from the a b tests that
+you're running in a product I think
+that's a great place to you know explore
+as a product engineer because you get to
+run you get to run a lot of experiments
+because like that's usually how we learn
+about the kpis uh you know what what
+drives the kpis and what we can do to
+hit our goals is by running lots of a b
+tests in the games
+uh I think uh you know uh like Patrick
+Collison who's like one of the founders
+of stripe had recently like spoken at
+like a YC reunion and like he's spoken
+about like sort of um like what what
+makes teams move fast
+um and and the thing he said was like
+it's it's like knowing knowing what like
+a customer wants uh figuring out the
+solution to that problem uh building it
+uh launching it and then actually
+knowing if it worked
+um and that Loop uh the faster and
+faster and faster you do uh the the more
+progress you're able to make as a
+company and so that's something we track
+very actively at the company is just
+like going from zero to one on like no
+like defining and scoping like this is
+what we're gonna solve for and then
+actually like releasing it and investing
+and surveying if this actually solved
+that problem like that Loop is something
+that we Define as like in some form like
+a kpi uh we look at just like from
+product engineer lens um but then other
+things we care about obviously are like
+you know who are very like uh numbers
+driven org and what that means is you
+know you know in the end of the day
+we're driving efficiency we're driving
+uh return on investment
+um and so these are folks that you know
+before using alumini they were able to
+get let's say
+um a hundred kind of uh tickets uh done
+uh now it's luminized let's say they do
+124. um that's like a 24 increase
+efficiency or whatever
+um like that's something you're
+constantly you know tracking
+um which is like
+um what does like usage look like what
+does ROI look like for each of these
+customers
+um and how do we continue to kind of uh
+double down and increase that um and so
+uh so just like quick two things but
+that's probably a few more
+and transitioning uh to more of kind of
+the career career side of working at
+your companies and being a product
+engineer what does the future of like
+you join a company as a product engineer
+than what
+I would say at lumini you know
+um we we have like it's something we
+just started to define a little more
+um clearly and probably it's like much
+more scoped out at James's company
+um but um I'm curious to hear but but
+sort of we have two paths right maybe I
+don't know yeah
+um but uh you know uh there's sort of
+the traditional sort of IC path right
+which is like uh continuing to uh you
+know uh continue to you know become Med
+senior staff level engineer and continue
+to influence product decisions uh
+especially if you don't want to be a
+manager
+um right I think there's lots of lots of
+folks um that we made with who are
+exceptional who end up like getting
+blocked at the at the top of their game
+being like Oh like I don't really want
+to manage but like I can't really do
+anything after this like we believe
+actually that like if you are a product
+person like you can continue to
+influence product very deeply without
+necessarily wanting to manage folks
+um and so that's probably the like path
+on the side but then obviously if you
+end up like you know wanting to manage
+folks there's obviously the you know the
+product engineering lead and then
+there's the head of engineering there's
+the you know VP of engineering CTO all
+the way up uh up the
+uh out that ladder um while continuing
+to you know be focused on product
+um or the other path is like you know
+you become a Pure product person and
+kind of become uh managing that
+um managing and managing you know the
+the engineering teams kind of dwell um
+and becoming that translation layer uh
+between customer success sales
+engineering and and actual customers
+um but um yeah I think uh or a little
+far away from that at the moment nah
+still 15 company so uh James yeah
+um no I think uh we have a pretty
+similar you know set of pass right you
+can uh level up like you said into kind
+of a product lead role or an Engineering
+Management role
+um and uh yeah what's I think what's
+interesting at Valley or unique is like
+the fact we have so many of these uh
+kind of games that are like you know
+fully staffed teams
+um you can actually move around a lot
+like if you come in at volley as a
+product engineer
+um and you're working on Jeopardy maybe
+that'll maybe it'll work on that for a
+year and say hey I really like this song
+quiz stuff it sounds like you're doing
+really cool stuff over there like we
+have a very
+um kind of fluid org in the way that our
+product Engineers can move between our
+games so
+um I think that's really unique and
+something people really value about
+volley when they get here is like you
+know they can uh they can learn the
+stack they can ship some awesome stuff
+on one game and then you know request
+kind of check out another game um a year
+later two years later whatever it is
+um and they're bringing all the
+knowledge from their their game into the
+other game and kind of that helps the
+business
+um and I think because of the way we've
+structured the architecture where all
+the games are running on the same
+internal engine
+um you know that's cross-platform it's
+uh it's a super quick learning curve to
+like get up to speed on the other on the
+new game that you're working on so uh
+and maybe it'll be like a brand new game
+that we're launching you know and we're
+trying to like staff up that team so
+um there's a lot of really cool just
+initiatives to work on
+um you know on all the on all the teams
+but I think like the ability to like
+kind of chart your own course is pretty
+unique at volume and really valuable to
+people leveling up in their careers
+really fast
+what is your favorite story from your
+company that is related to someone who
+works in product engineering
+can be technical can be non-technical
+well one thing I can I think that is a
+good story is just like you know don't
+be don't be afraid of like uh uh don't
+don't think too far ahead I think
+because if you if this sounds
+interesting you know like about being a
+product engineer and uh you know working
+at a small startup I know I know I'm
+sure a lot of people here aren't are not
+not used to working at startups or you
+know mostly worked at larger companies
+and that can be itself challenging or
+intimidating but like
+um you know what's amazing about these
+smaller companies and working in these
+customer facing roles is that you learn
+so many critical skills that apply
+no matter where what happens in your
+career
+um and you can you can level up really
+quickly in a startup and that's really
+valuable for your career and just the
+story I was going to say is like you
+know why combinator has work at a
+startup
+um where you can apply to work at
+companies like Illumina and volley but
+you can also there's there's even like
+work at a startup intern programs and
+we've hired people right out of Masters
+uh programs like they're they were an
+intern for you know three months and now
+they're managing you know a team of 12
+so uh you know a few years later so you
+can you can level up really quickly
+um you know and and also you know from
+from my perspective it's I love the the
+this work at a startup program exists
+because uh we get amazing applicants
+through that
+um that have gone on to do incredible
+things at volley
+I would I would you know uh second that
+uh uh what James just said like I think
+it's super super true like you know by
+by reaching out uh or just you know
+putting in an application or just
+shooting an email like doesn't mean you
+have a binding commitment to join that
+company just like kind of you know uh
+come chat with us uh uh it's our job to
+kind of show you the show you that it's
+possible um in the end of the day um but
+I would say the one thing that that sort
+of strikes me is like you know uh we
+were like a two-person company for a
+long time
+um and that was because like we were
+just kind of iterating that we kind of
+really found product Market fit um so
+close to like you know 12 18 months uh
+but the first person we actually hired
+was this like person like you know he
+was like 19 uh kind of just like I was
+hacking around right
+um never talked to a customer before but
+just kind of like like building things
+and and right now he kind of
+um obviously a little older but but but
+sort of um you know very much is like
+um
+uh you know every day uh the first thing
+he does uh on our daily kind of slack is
+like here's what like uh here's like the
+crazy insights I learned from like
+customers
+um like every week so like every
+conversation he has kind of summarizes
+the things about it and then like kind
+of shares that with the with the
+engineering work
+um and like that kind of shift that
+mentality from like not knowing how to
+like and this person was not like a
+first uh first language like uh English
+speaker either and so it was like kind
+of like for him it was like a
+combination of all of those things to
+come in and and
+um you know uh get himself up to speed
+then also like make sure uh he brought
+everybody along for that same customer
+Journey um which I think was quite
+beautiful so
+um yeah
+Amazing Stories thank you both again for
+joining us and sharing more about what
+product engineering is at your companies
+[Music]

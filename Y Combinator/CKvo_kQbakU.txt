@@ -1,0 +1,1046 @@
+Title: 10 People + AI = Billion Dollar Company?
+Video ID: CKvo_kQbakU
+URL: https://www.youtube.com/watch?v=CKvo_kQbakU
+Channel: Y Combinator
+Published: 2024-06-27T17:00:11Z
+Duration: PT38M24S
+Views: 214908
+Likes: 4934
+Tags: YC, Y Combinator, Jensen Huang, NVIDIA, Coding, Programming, Python, C++, Java, Rick And Morty, Computer Science, Education, Garry Tan, Harj Taggar, Diana Hu
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 1020
+
+Description:
+As AI continues to evolve and advance, a line of thinking has emerged that humans will no longer need to learn how to write code in the future. If so, could this mean that a staff of ten or less could create a unicorn? The hosts of Lightcone analyze this prediction and discuss whether it has merit.
+
+Chapters (Powered by https://bit.ly/chapterme-yc) - 
+0:00 Coming Up
+0:51 What Jensen Huang said about coding
+1:38 Now that computers can code, what does this mean for CS?
+3:16 How good are AI program
+
+============================================================
+TRANSCRIPT
+============================================================
+
+what is the state of this these AI
+programmers like is it reliable yet and
+where are we at well we just see
+software companies have way less
+employees and Converge on a point where
+you could have unicorns billion dollar
+companies that have like 10 people on
+them if we imagine a world where there
+could be companies less than 10
+employees maybe you could still be a
+family but is that still a good idea I
+have a controversial argument against
+what Jensen said this one will probably
+piss some people off
+[Music]
+nice welcome to another episode of the
+light cone I'm Gary this is Jared Harge
+and Diana and collectively we funded
+companies worth hundreds of billions of
+dollars and
+today we're talking about this one very
+controversial clip that lit up the
+internet from Jensen hang I going to say
+something and it it's it's going to
+sound completely
+opposite um of what people feel you
+probably recall uh over the course of
+the last 10 years 15 years um almost
+everybody who sits on a stage like this
+would tell you it is vital that your
+children learn computer
+science um everybody should learn how to
+program and in fact it's almost exactly
+the opposite it is our job to create
+Computing technology such that nobody
+has to
+program and that the programming
+language is
+human everybody in the world is now a
+programmer so what do you guys think is
+this true we're at the dawning of llms
+we infused the rocks with electricity
+and recently they learned how to talk
+and now they can code what does it mean
+I guess the question is are the are the
+next generation of Founders or young or
+anyone who's young looking to figure out
+what they want to do with the career
+should they still study computer science
+is that still a good bet on the long run
+and a lot of us spent a long time
+telling people over all of these
+Generations yeah you should learn to
+code if you're a non-technical Founder
+you should learn to code it's like the
+most important thing to do during
+college like definitely no matter what
+else you do learn how to code right so
+the question is that whether llms and AI
+is just going to automate all of these
+jobs and I think we have different views
+on it right we funded a couple a number
+of companies that are actually doing
+building coding assistance that are
+taking task of
+developers and what does the future look
+like for that I mean I guess the analogy
+that you could say I don't really agree
+with this but uh you could say that
+given um photography you didn't have to
+learn how to uh you know use a
+paintbrush in order to create
+representations of real life and uh
+today you can prompt using an you know
+using a diffusion model you can actually
+you know just write out what you want
+and an image will be developed for you
+will this transition to code and some of
+the question that Diana has done a
+little bit of research on and I think
+Jared you too is uh what is the state of
+this these AI programmers like is it
+reliable yet and where are we at related
+to to Jensen's clip is the launch of
+Devon which also like took the internet
+by storm and has inspired many Founders
+to go into this area including a lot of
+the companies that we've we funded in
+the in the past two batches it could be
+interesting to talk about that history
+and what the state-of-the-art is with AI
+programmers yeah so right now these the
+companies that I funded with companies
+like sweep we also work with fume um a
+lot of them are solving a lot of tasks
+for more Junior developers that have to
+do with like fixing the HTML tag here or
+a bug here and there that's fairly small
+but it's a a bit more difficult when you
+want it to actually build more complex
+systems like build me the distributor
+system of the back end that was scale
+that we cannot do today I think it's
+important to like to put context around
+Jensen street that like three months ago
+basically AI could not program usefully
+at all it was hitting like almost a zero
+and what really changed um I actually
+think think it goes back to before Devon
+I actually think the real unlock for the
+current surge of interest in AI
+programmers goes back eight months ago
+to when the Princeton NLP group released
+this benchmarking data set called sbench
+and sbench is a data set of GitHub
+issues taken from real programming
+problems and so it's a it's a good
+representative data set of real world
+programming task the kind of things that
+programmers actually do and um this data
+set finally made it possible for people
+to really tackle this problem Alum of
+building an AI programmer and to like
+try an algorithm and Benchmark it and
+see how good it is and to compete with
+other people on the internet Diane and I
+were actually just talking about how if
+you look back in the history of of
+machine learning a lot of the big
+unlocks came from somebody publishing a
+a benchmarking data set going back to
+the very beginning of deep learning do
+you want to talk about how deep learning
+actually got started really yeah so this
+uh Benchmark withu bench is very
+reminiscent of image net which was a
+groundbreaking data set from the lab at
+Stanford from f f Lee and it was a very
+challenging Dat Ass Say and one of the
+biggest one that had a lot of images and
+lots of classes where the task for uh
+algorithm was to classify and see what
+the image was because at the time like
+the biggest unsolved problem in machine
+learning this is like hard to believe
+was like to look at to to get a computer
+to look at a picture of a cat and be
+able to tell you this is the picture of
+a cat that was like
+totally intractable in 2006 for because
+a cat can have lots of variations it's
+actually a very hard problem because you
+have cats that are yellow they're black
+they could be in different positions
+they could be like sleeping they could
+be like laying down and they all look
+very different but how do you encode
+that when you have limited sets on that
+so before 2006 the traditional methods
+in machine learning were more
+statistical you would do things where
+more discriminant you would have things
+like support Vector machines you would
+use things with feature exraction that
+were with hand-coded uh signal
+processing feature
+extractors and with putting things in
+like the frequency domain or all these
+sorts of things that people try or
+wavelets whatever and people tried it
+and that data set was really hard the
+error rate was like really really high
+like over 30% 40% and for a bit of
+context human perception on this data
+set is about 5% accuracy more or less
+and error rate error error rate correct
+yes 5% error rate and then all these
+standard methods were like 50% or more
+or 30 above so which is really bad it's
+like way way bads so then came about
+Alex NE right Jared yep a group from the
+University of Toronto and they had
+trained a deep Learning Net using gpus
+and it was one of the first cases of
+people training deep learning networks
+using gpus and Alex net blew the
+performance of everybody else out of the
+water was way better than all the other
+techniques and I remember the day that
+that news article dropped it like took
+the like programming internet by storm I
+would argue that the AI race that we're
+in right now was is we're literally
+still riding the wave that was kicked
+off by Alex net in 2012 like it it it
+just kicked off this incredible race
+yeah it was the first time that at that
+point it was getting to that human level
+perception then people found this this
+this phenomenon of stacking neural Nets
+with lots of L layers people didn't
+exactly knew what was happening in the
+middle people treated like this black
+box was actually starting to work so the
+interesting learning from this lesson is
+that sweet bench is that moment in time
+where we can measure something and then
+we can get better at it because before
+with image net there wasn't big enough
+of a data set to do that so we will make
+progress in terms of programming but now
+the question is are we going to get to
+the point that we're going to get AI
+algorithms that are just as good as
+programing with the humans is coding
+like a image recognition task one of the
+reasons this wouldn't happen because so
+far like if you zoom out you have uh
+programming is one of the most promising
+early use cases for llms since they've
+like launched essentially right you have
+like the co-pilot term which really was
+the GitHub co-pilot specifically like a
+co-pilot for programmers data compute
+everything is scaling the models keep
+getting better um we now have like you
+said like a benchmark and like human
+attention focus on trying to make this
+better like what are the reasons we
+won't just this isn't just a straight
+scaling law oh I I think we will we're
+now at like 14% on sweet bench that's
+like the state-ofthe-art performance and
+it's still well below Human Performance
+I'm not sure what human performance
+would be but certainly a skilled
+programmer could probably solve most of
+s bench given enough time so like I
+think the swe bench mark is going to go
+like is I think we're going to see rapid
+improvements for for the reasons that
+Tiana mentioned but sweet benches it's a
+collection of small
+bugs in existing repositories which is
+quite different from like building a new
+thing from scratch and so even when we
+get to a thing that can solve you know
+half of sweet bench that's still pretty
+far from something where you could just
+give it instructions for an app to build
+and you could just go build the whole
+app yep I me the way I think about it um
+those was kind of what my question is
+really sweet B
+the kind of tasks that are in sweep
+bench analogous to image recognition but
+I think programming Falls in a different
+kind of category of problems that it can
+solve it is a bigger set because sweet
+bench is like a subset it's still like
+in this idealized world and maybe to put
+a bit of context I think in terms of
+engineering there's two categories of
+problems and how we model the world
+there's sort of the design world that is
+all like perfect where you have all the
+perfect engineering tolerances all the
+simulation data and all the laws of
+physics work perfect in that simulated
+world and then you have the reality
+which is messy I think the world of AI
+llms and all that I think do a good job
+with this design world but when you
+encountering real world a lot of stuff
+breaks and you end up with when I was
+working and building all these
+engineering system hot fixes that come
+in and it's like random magic numbers to
+make the system work or like you could
+imagine all the self driving car I'm
+pretty sure there's a lot of magic
+numbers because it's just the placement
+of sensors that like M kind of like
+physics physics you have all these
+coefficients of uh friction and they're
+not pretty like the laws of physics like
+Newton they're like beautiful equations
+in this Ideal World but in the real
+world when you need to get systems to
+work like engineering and systems and
+for startups they solve real problems
+you encounter friction and there's all
+sorts of coefficients of friction that
+depending on all the materials and that
+world is infinite so my argument is that
+I don't think LMS are going to be able
+to really Encompass and really manage
+the whole real world the real world is
+like infinite are you like going to the
+Jensen original video
+I you basically saying hey like
+basically the dream situation is you
+type in I want um an app that helps me
+share blah blah blah photos yeah and the
+software just magically figures out how
+to build it yeah and I guess one way
+like to build on that analogy like if I
+I I think the world that and Jenson was
+envisioning was a world in which
+programmers are like product managers
+today if you think about a product
+manager a product manager basically
+build an application by writing English
+right they write a SPC and then
+programmers go and they translate that
+into like working code and so maybe in
+the future that's how apps will be built
+is you'll just like write English and
+the like the the AI will take care of
+the translation which I think gets into
+like the heart of a this debate that has
+always happened amongst engineers and
+non-engineers in Silicon Valley which is
+how much of programming is an
+implementation thing it's just hey like
+you have the idea and the implementation
+are separate versus actually like you
+only get the ideas in the process of
+implementing and like Paul Graham is a
+huge proponent of the latter right like
+in multiple ways like in programming
+it's like the whole reason he's such a
+proponent of list from the early days is
+you want a very flexible language
+because you only get the good ideas once
+you start building and his philosophy
+actually uh translates over to writing
+where writing is literally thinking yeah
+your the process of actually writing is
+thinking and I remember um when I was
+learning how to do YC interviews
+watching him and being in the room with
+him and asking him like well how you
+know what are you exactly looking for
+and um one thing that he disabused me of
+was sometimes people would come in and
+I'd look at you know what they did in
+the past and you know I generally felt
+like well this looks like someone who's
+smart and with it and they did some
+impressive things in the past surely
+they thought through this and they just
+didn't say it in the meeting and uh one
+of the things Paul would always say is
+like oh no no no if they don't say it
+then they themselves do not know like
+the writing is actually thinking and um
+I guess to sort of torture this analogy
+but I kind of like it that um we have
+we're sort of in this moment where uh if
+we take the analogy of like the the
+camera like made it so that you don't
+have to paint anymore the subtlety there
+is that like Aesthetics in the world
+still exist and I think the Artistry of
+creating software or technology products
+is actually um in that interface between
+the human and the technology itself so
+my argument would be if you're doing
+backend software and you're writing apis
+and models um that might get a lot of
+help from these types of you know uh AI
+programmers right like you can actually
+strongly type this stuff and then you
+you can actually use language to
+translate that into uh saying what the
+product should actually do but there is
+still an Artistry in that interface of
+what should actually even do and how I
+think that's a very good point Gary I
+think maybe the other thing way to think
+about this Advent with lmsm programming
+if you think about the history of uh
+computer science and programming
+languages as we progress we became more
+and more in higher language abstractions
+so we started with in the early days it
+was just very very much like coding an
+assembly yes and it would took like so
+many lines of code to just do addition
+right then you went up and did a bit of
+things like with Fortran and then C++
+where you had to like really know about
+the metal still and manage your own
+memory then you went into things that
+with more uh dynamically typed languages
+you didn't have to think about the type
+like JavaScript and pyth right or duct
+typing right and now this is like a new
+thing with programming with English but
+you still need the Artistry
+craftsmanship to come up with the design
+and the architecture and interestingly
+the best programmers today even if they
+are programming in Python they've
+learned C and they actually like know a
+lot about how the computers like how the
+steps below the stack work even if
+they're using the the higher abstraction
+I was curious to ask um everyone here
+like another potential counter for
+example is the natural language to seel
+idea that has been around for years and
+years and has never really taken off and
+I always wondered how much of that is
+because it's hard to build and Implement
+and how much of it is it because it's
+actually like it's not as simple as just
+I need someone to like translate my
+thoughts into a squl query it's knowing
+like the right questions to ask about
+the data and like having some
+representation of how the pieces fit
+together you have to have some sense of
+like the relational database in your
+head at least the concepts to ask the
+right questions if it's true that that's
+there is some step before of like
+thinking involved then you can't just
+extrapolate from like hey it's it's just
+like we we started with like you know
+binary code and we just like abstracted
+all the way eventually to natural
+language there's going to be some like
+gap between like the highest level of
+abstraction you can get in actual
+natural language I think so I mean we we
+kind of looked into a lot of these kinds
+of ideas and fund this some companies
+doing this kind of this kind of idea um
+I think AI will get to the point that
+you could actually do the translation
+from English to SQL but I think the
+hardest part is not that the problem
+with all these data modeling why data
+engineering Orcs are so big because when
+I had to kind of manage these teams
+they're very messy the reasons because
+the hardest part is the data modeling
+because that's trying to encapsulate the
+real world and the real world is messy
+we have all these like annoying
+coefficients and frictions that we have
+to model it's like okay this person
+talks to who and this workflow Works to
+who and it's all very very messy that a
+perfect model and AI can't really
+encapsulate and you kind of need the
+human to kind of think through it yeah
+and that layer is like how do you put an
+llm to kind of par through that and
+translate to the business requirements
+of the data model because if the data
+model is wrong then it just causes all
+sorts of issues and that's where things
+get hard what do you think Jared I have
+a controversial argument against what
+Jensen said this one will probably piss
+some people off nice
+my argument is that even if everything
+that Jensen predicts comes true and in
+the future you will be able to build a
+great app just by writing English you
+should still learn how to code because
+learning how to code will literally make
+you smarter we have an interesting piece
+of evidence for this which is there's a
+lot of studies now that show that the
+way llms learn to think logically is by
+reading all the code in GitHub and
+basically learning how to code and I
+think programmers have long suspect at
+this that learning how to code made them
+smarter but it was kind of hard to prove
+with humans and now we have some actual
+evidence that this is really true
+there's definitely some evidence that um
+for some certain class of uh problems
+with llms you're way better off having
+the uh llm write code to solve the
+problem then to try to solve the problem
+itself exactly yeah so tool use is
+actually uh a very weird emergent
+behavior and property of these systems
+summing up it's like okay let's say that
+one thing is probably uncontroversial is
+there is ABS going to be some Sunset of
+programming work that will just be
+subsumed by llms maybe it's going to be
+jior engineering work like gluc code a
+whole bunch of certain type of
+programming work we can all admit does
+not involve High creativity High human
+reasoning I should worry more about all
+the Death shs where all this stuff is
+gets like outsourced that type of stuff
+that gets outsourced to Dev shops or
+even like Frank like Fang companies that
+have like armies of Junior employees and
+so one potential consequence of that is
+if we're not that far away from the
+junior AI software engineer is will we
+just see software companies have way
+less employees and Converge on a point
+where you could have unicorns billion
+dollar companies that have like 10
+people on them Sam mman had a recent
+comment about this that also when kind
+of viral on the internet the idea that
+in the future unicorns could have 10
+employees or few or fewer which is only
+H well it's never quite happened I think
+WhatsApp and Instagram are probably the
+closest to that ever happening yeah it
+feels like we've always had this has
+been a a thought for the last decade
+Plus at silic Valley and we've always
+had flashes of oh like Instagram gets
+bought for a billion dollars with like
+20 employees WhatsApp gets bought for
+$13 billion with 15 employees or
+whatever the numbers are but we've never
+seen like a sustained Trend that we can
+point to it's always like these flashes
+but maybe now we're at the point where
+we will just see a Trend it's
+interesting I feel like people who were
+new to Silicon Valley and new to being
+Founders they want to have more
+employees because employees are like
+correlated with status essentially yeah
+and we know the like more experienced
+Founders who've been doing this for a
+while and they are obsessed with this
+idea of having fewer employees having as
+few as possible because after once you
+like manage a large company with lots of
+employees you realize how much it sucks
+and that's why everyone that that's why
+this meme has has been around in Silicon
+Valley for a long time yeah it feels
+like there's often two types of people
+who really push for and are motivated
+for this smaller employee idea or
+smaller teams idea it's that profile and
+then it's also just Engineers who are
+naturally more inclined towards like
+computers versus people don't are not
+excited about the idea of like managing
+lots of people which toally the Paul gr
+thing like he was into this in 2005 long
+before it was like a trend in in Silicon
+Valley yep and it had to be a
+combination of foresight and personal
+preference right like just not wanting
+to be like in an office with hundreds of
+people I met up with um mark pinkis from
+Zinga here at YC recently and the most
+interesting thing he told me was I think
+at some point a company gets to about a
+thousand people and even the most
+forceful the most sort of with it CEO uh
+you sort of lose the capability to H
+really impose your will on the company
+right around when ,000 people and if I
+reflect on some of the founders that we
+interact with sort of regularly who have
+thousands of employees like that's
+actually uh sort of what their daily
+lived experience is like there these
+things that you know you know are sort
+of extremely true the company must go in
+this direction and then even then you're
+like a little bit boxed in and you're
+like unable to enforce that I have to
+say I feel like of Founders I work with
+especially s the younger hardcore
+technical Engineers I think they
+actually grow into the leading bigger
+teams and just viewing people as a
+resource that should be used well
+example I can have like Patrick hon of
+stripe I worked with him on our first
+startup together when he was like 19 and
+he was definitely the sort of archetype
+of incredibly intense engineer who
+wanted to be working on hard engineering
+problems all the time and view to too
+many people around as like a distraction
+from like the core work to not want to
+be hiring people and don't want to be do
+any of this stuff at some point I think
+once he started stripe like something
+changed where he realized that the way
+to achieve like his Ambitions was to
+just take an engineering mind like view
+the company as like another product that
+needs to be like engineered and built
+and people are a core component of that
+and I think he just embraced the I need
+to be a very effective leader hire a
+manager of people and so I'm not saying
+in this new AI world rpe wouldn't have
+less employees if it would started today
+but I don't think he would have this
+internal motivation to be like I need to
+just not hire anyone so much anymore it
+just be like more of like a expected
+value calculation of what is it better
+for me to Ultimate or is it better for
+me to like rally people and use them as
+a resource what do you all think I mean
+these are hard things for a young
+founder to sort of approach and actually
+these are sort of some of the reasons
+why my startup didn't go as far as I
+wanted it to uh I think the maybe most
+toxic or you know difficult thing that I
+struggled with was this idea that like
+somehow your startup is your family and
+you know there's actually a clip online
+of um I think Brian chesky of Airbnb in
+a prior era actually like you know
+saying that relatively emphatically and
+then today if you ask him he would say
+oh no no no this is definitely not a
+family uh a family has all these old
+weird traumas like imagine you know uh
+bringing home
+uh you know a boyfriend or girlfriend
+and they're like sitting with your
+family and you know they go back and
+they're like well what happened there
+like what you know why is that like that
+and it's like oh you don't want to ask
+you know like let's let's not ask about
+that right like you don't want to like
+that having a family be your model of a
+company is actually kind of a bad thing
+uh and the much more functional version
+of it is actually a sports team like
+here's actually what we're trying to do
+and you know basically we need to win
+I think wanting to win uh is sort of the
+ideal analogy whereas you know for
+family there's these weird things like
+oh we just want love and I was like oh
+no no that's not what a company is for
+that's not what a startup is for we're
+here to solve problems and win I guess I
+really wish that I uh had someone tell
+me that when I was uh you know sort of
+27 going through my first uh stint at YC
+I think that's a hard transition I
+personally went through that because we
+were we went from very small engineering
+team to a very large one once we went
+through nian was Pokémon go and all of
+that hyper success with Pokémon go is
+very jaring when you go from that small
+intimate team and go into like a
+engineering orc of like 500 people it it
+really that that that concept of going
+from this is your tribe and people and
+family where where you really know each
+other and everyone to getting the best
+the best performance out of everyone is
+very different and that's hard and what
+could be interesting with this era where
+if we imagine a world where there could
+be companies less at 10 employees maybe
+you could still be a family but is that
+still a good idea I don't actually
+believe this true was about talking
+about is Jared to your point of like
+programming just sort of makes you
+smarter um there's certainly some kind
+of learning Founders go through when
+they hire people build teams deal with
+conflict fire people learn how to get
+the most out of them um that probably
+just makes them more effective overall
+like maybe smart is not the word but
+like certainly makes you more effective
+figuring out how to work well with
+people and get the best out of them yes
+you you learn a lot about people in the
+process of having to build a company and
+a team yeah and I I was thinking about
+what you said Harge about Patrick
+hollison and how he went from being a
+programmer to like learning how to run a
+company and I was realized like that's
+that's not just Patrick Hollis that's
+actually like all of our best Founders
+are like exactly like that and sometimes
+people wonder how we can fund like you
+know 18-year-olds with no prior
+management experience and expect them to
+build a big company someday and it's
+exactly that it's because they treat it
+like an engineering problem yeah
+actually and that's where you C you get
+back to the sort of program is the small
+set basically it's like can you actually
+just treat everything as a programming
+problem it all just starts with video
+games and then learning to code so
+that's sort of the path this is
+something I take away from I read the
+Larry Ellison Oracle biography and like
+a bunch of nuggets from there but like
+one really interesting one is there's a
+period in time where he completely
+ignored just like the finance function
+at the company because he thought it was
+the most boring thing in the world and
+then Oracle went through a near-death
+experience where they weren't on top of
+their budgets and expenses and just
+almost ran out of money and he like
+forced himself to have to get on top of
+it so they would not die from running
+out of money again and like the only way
+he could do it was to be like okay this
+is just like I'm going to treat this
+like a programming problem like it's
+just numbers it's process like I'm just
+going to optimize this as though I would
+like coding and he got really into it
+and just actually started really
+enjoying the whole process of process
+optimization which then fed back into
+Oracle in a weird way because oracle's
+business was a lot of like going to
+companies figuring out which of their
+processes were messy and trying to sell
+them software to like solve it he
+experienced the problem himself and then
+he built the solution that he wanted and
+then he was able to sell that solution
+to everybody else cuz everyone else had
+the same problem y basically but again
+it all came from like an engineer who
+wanted to avoid a messy people process
+problem just taking it on and treating
+it like a programming problem and
+actually becoming more effective at it
+than like the team that was built to
+work on it I see this a lot with our
+technical program with our technical
+Founders who are doing B2B companies
+where they treat their sales org this
+way they definitely treat sales like a
+programming optimization problem yep
+it's like stereotypical actually so what
+do we think the net effect of this is
+going to be overall if
+AI you know makes us all more productive
+if AI can start taking away some of the
+junior programming work do we see a lot
+more unicorns does it make it possible
+for one company to become worth like a
+trillion dollars or do we see like a
+long tail of lots of like unicorns
+started by much smaller teams and do we
+think the teams will even shrink cuz um
+if we go back to predictions in the
+early 2000s there were a lot of people
+who were predicting that at as
+programming got more efficient companies
+would be smaller because in the in the
+90s to build an internet startup you had
+to build everything yourself you had to
+build you to have people who knew how to
+Rack servers you had to hire people who
+knew to optimize databases you had to
+hire like people to run payroll and then
+all of that stuff got like turned into
+like SAS services or infrastructure open
+source and so like you could focus on
+just your core competency and there were
+a lot of people who were predicting that
+this meant that companies would have
+fewer employees because they wouldn't
+need all those people that you needed in
+the past I remember racking servers but
+I bet a lot of people watching this have
+never even stepped foot in don't even
+know what that phrase means what is a
+you know what's a rack like how does
+that even work you just go and you know
+click a button on a website and like
+boom I have a server right like that's
+how it works right yeah and before rest
+we're looking at some data earlier and
+what we discover is is I it didn't
+happen actually like companies didn't
+get smaller and Harge discovered the
+reason why there's this concept in
+economics called the jeans parad stocks
+which is essentially once you make any
+um service more efficient like you make
+it cheaper to deliver you increase
+demand for it and so you actually just
+get more consumption and like examples
+would be Excel spreadsheets making it
+easier to do financial analysis did not
+decrease the number of financial
+analysts it actually just like increase
+them I think typewriters being replaced
+by word processor is kind of another
+example of where yes the strict role of
+being a typist and a typewriter away but
+the demand for people with word
+processing skills went way up so
+software became cheaper to make but at
+the same programmers became more
+efficient but it did not reduce the
+demand for programmers it actually
+increased the demand for programmers
+which I think we actually see it in the
+number of uh companies apply to YC there
+was this essay from PG just 15 years ago
+that he he couldn't imagine the world
+where we'd have more than 10,000
+applications per year and at this point
+we're getting over 50,000 applications
+per year more than that it is becoming
+easier to start companies more than ever
+because there's so much INF
+infrastructure built but at the same
+time the requirements to be good at it
+and be a good founder are higher I think
+it requires having even better taste and
+more craftsmanship to become the best
+founder now right yeah sometimes we joke
+that if we went through YC now in our
+younger self would we have gotten it
+it's actually very competitive now
+because the Baseline is just so much
+higher yep so there's this things that
+at the end you still need a computer
+science degree and engineering degree to
+really build that taste and
+craftsmanship to really have know what
+to build and build it well you need to
+whisper to the AI and llm but how do you
+even whisper to it you don't know how
+all this stuff works there's this
+amazing Rick and Morty uh meme where
+there's a little robot on the table
+passing butter and he goes up to uh Rick
+the master he's like what is my purpose
+and it says you pass butter and then he
+goes oh my God and the funniest thing
+about that is like you know there's so
+many people in the world who basically
+have that job and they're not like
+robots they're human beings you know
+like their nine to-5 is something that
+is incredibly rote and not that
+invigorating or exciting to them uh and
+yet that's like sort of their entire
+lives and how could we not celebrate the
+fact that now we have more software more
+tooling potentially robotics coming
+around the way like that might free that
+person from having to pass butter and
+they can go off and do something else
+something more creative like ideally
+maybe they learned a code maybe they
+learn to actually create things way off
+on the side in areas that uh open AI or
+you know sort of Microsoft or like
+whoever the tech Giants are like those
+companies can't do everything they
+probably shouldn't do everything not
+only that it's not clear to me that Lina
+con will allow that so you know given
+that actually maybe that's the opport
+Unity like rather than just a few
+companies worth a trillion dollars my
+you know my genuine hope and I think
+that we're trying to Manifest this world
+is actually thousands of companies worth
+a billion dollars or more and you know
+some of those might have a thousand
+employees some of them might only have
+10 some of them might even be just one
+founder sitting there doing that thing
+but at the end of the day ultimately
+making it better for a real customer a
+real problem a real thing in society
+that free someone from being a butter
+passing robot that's a human I think
+this such a good point Gary and I 100%
+agree with that I think part of it is
+we're in this world of post abundance of
+sorts where it's easier to it's easier
+to build things it's easier to get the
+infrastructure up and running if you get
+the right opportunity and there's a lot
+of capital too if you know where to tap
+but the bottleneck is can you enable
+this equation of human capital to flor
+and match that opportunity and get the
+smart people that can do it and have a
+lot of the ambition in front of this
+capital and this is why right now our
+job is one of the coolest we get to do
+that and enable this flourishment of a
+lot of people that maybe got have been
+passed in different situations and give
+them a chance to build these companies
+that will go against the trillion dollar
+ones right just a thousand billion
+dollar companies we have all definitely
+lived through and hugely benefited from
+this trend of
+the more powerful technology becomes the
+easier it is to get a company off the
+ground clearly like just open source
+software I mean I just think back to
+even when Jared and I first moved here
+like Rays was first taking off and that
+was a huge Innovation yeah oh that made
+me feel so powerful because before I had
+to use Java and it was so disempowering
+right you had rails and you had Heroku
+kind of like come in and just make it
+easy to like deploy and do like you know
+you could be your own CIS admin
+essentially and so I just think that we
+all that clearly made it easier for
+anybody to get their company off the
+ground it didn't necessarily mean these
+companies got much smaller we didn't get
+like lots of 10 person unicorns but we
+certainly got a more um a w cast a wider
+net of people who could prove out that
+they had an idea that people wanted with
+early signs attraction which then is
+what the kind of you need to attract
+like the human capital and the actual
+Capital to go out and scale these things
+so I think even if we end up in a world
+where like AI is not going to be able to
+to like build like your perfect complex
+distributed system and scale to like 100
+million active users even if it means
+slightly more people can take their idea
+and turn it into something and get it
+off the ground and get their first
+thousand users or their first bit of
+Revenue the human capital will come the
+actual Financial Capital will come and
+we'll just get more of these things
+which is great for everyone I love that
+hard and I think that will that's that's
+one prediction I think we can definitely
+agree is going to come true and how cool
+that is because there there must be so
+many great ideas that just never get off
+the ground because the person who has
+the idea just kind of can't go zero to
+one to to to getting that flywheel going
+Orting in front of the right people I
+felt very lucky that I I grew up in jail
+in the middle of this desert there's
+like nobody really worked on computers
+and they were just in the internet and
+going through YC was one of those
+moments that changed my life and the
+trajectory of it and really uplift it
+and I hope that happens for a lot of
+more people that we can work with
+well so it sounds like the verdict is in
+learn to
+code yes you should learn to code sorry
+Jensen is brilliant but he is not right
+every single time I think one thing that
+is uncontroversial is that over the last
+10 years there have been more unicorns
+started each year right like and that's
+been because technology has made it more
+possible for people to get their ideas
+off the ground I think I AI only
+accelerates that Trend right I think we
+should just expect to see more unicorns
+started per year than ever because it is
+easier to go from getting your idea to
+like a prototype to your first uses than
+it ever has been and at the same time it
+still table Stakes to be able to program
+and code because so much of the
+foundation knowledge you have to have
+good taste to build something great and
+you only get the good taste by going and
+studying engineering and computer
+science the most important thing to me
+that I really want to manifest in the
+world that I think we get to do all the
+time at y see is that there are people
+here who are crafts people or who could
+be Crafts People and those are the
+people who are going to go on to build
+the future so with that we'll see you
+next time
+[Music]

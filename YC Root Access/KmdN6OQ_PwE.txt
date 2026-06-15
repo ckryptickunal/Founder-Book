@@ -1,0 +1,1159 @@
+Video ID: KmdN6OQ_PwE
+URL: https://www.youtube.com/watch?v=KmdN6OQ_PwE
+Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 1152
+============================================================
+
+[music]
+Today I'm here with Verun and Esher,
+co-founders of Giger. Giger builds AI
+agents for customer support and are used
+by some of the largest companies in the
+world like Door Dash to handle millions
+of customer support calls. Verun is
+thanks so much for joining us.
+>> Thanks.
+>> Thanks. Thanks for having us here.
+>> This is a very competitive space, AI
+agents for customer support. Um, there's
+obviously very well-known and wellunded
+companies in the space like Sierra. So
+how has Giga um been able to stand out u
+and get an amazing customer like Door
+Dash?
+>> Firstly starting off with like Door Dash
+is a extremely meritocratic company and
+that's one of the massive volumes where
+we had to compete against like 20 plus
+vendors uh to win a logo like that. The
+fundamental approach which
+differentiated us from vendors like CR
+is we build product and they took a
+basically more of like a consultative
+palentry type approach which takes a lot
+of time to go live. If you consider Doda
+scale hundreds of millions of calls
+where if you say to build use case by
+use case it takes months to get it to
+solve the entire thing. For us we
+primarily built a product which makes it
+very very easier for them to go live for
+example compared to other vendors where
+we piloted it took them couple of months
+to go live. We went live in a week
+that's how fast it is and that's one of
+the major reasons and I can add more
+along the complexity side of parts.
+Yeah, just just you know like just so
+you know the although like customer
+support seems like you know fairly easy
+use case to solve uh but for companies
+at a scale of Door Dash who have
+millions of calls there are decent
+percentage or even like tens of
+percentage of calls where they are
+extremely complex where you have to
+coordinate with like multiple parties
+over a real-time call and that is
+something none of the other products
+seem to have like they didn't seem to
+support it and we were the only ones who
+built the product in a way which is very
+general and can also solve extreme
+extremely complex use cases at scale. We
+are live with some of these use cases
+right now. Um so majorly it's just like
+a purely product play.
+>> Many other AI companies take this sort
+of forward deployed engineer consulting
+approach um where they're almost
+building some amount of like custom
+software per customer to get it working.
+But you've been able to build something
+that mostly worked out of the box even
+for Door Dash's scale.
+>> Yes. I think that we have a rule within
+our company for the product team. It's
+like you don't build anything custom for
+any customer. Everything has to be a
+part of the core product. So you build
+something for Doash, every single other
+customer should be able to use the same
+product feature. So when we get like
+very complex use cases for some of these
+customers, we don't build it out
+separately. We just figure out how can
+we scale our product to support this
+much more complex use case. Now every
+one of our customers can also use the
+same feature for their more complex
+products as well. The reason I feel like
+most companies take the palenteer for
+deployed engineer model approach is
+because it's essentially too hard to do
+that.
+>> There's so much like custom work you
+need to do per customer to get the AI
+working consistently like 100% of the
+time. Um, how have you been able to
+solve that challenge? How are you
+actually able to have a product that
+generalizes across the enterprise?
+>> So, this is a bet we took a few I would
+say like pretty much like 8 to 9 months
+ago. Um this is something like I think
+very other few companies actually do it.
+So Python and programming is the
+fundamental way to build anything you
+want. And one of the approaches we took
+is that Python is a first party member
+within our product in the sense that you
+can write Python within the product to
+do stuff. And the bet we took was AI is
+going to write so much code down the
+line. AI is going to get so good at
+writing code you don't really need to
+write that much code yourself. And
+that's paying off like im immensely for
+us right now because someone from
+operations team on door dash can come in
+talk to our AI and write code
+effectively themselves and they just
+need to put in the business outcomes and
+then AI is going to write code for them
+and build like a very very complex use
+case without like much involvement from
+engineers. And since you can write
+Python within the product, obviously
+there are like very good primitives on
+where can you write, where can you not
+write, where can you inject custom
+Python code. Since the primitive is like
+literally Python, it makes our product
+by default extremely general. And it
+makes it very easy for us to add new use
+cases because we just need to develop
+protocols on top of these.
+>> Okay. So that's interesting. So it's
+almost like the forward deployed engine
+model is basically there's business
+logic that lives in the head of the
+customer's ops team or whoever they have
+to
+>> translate
+>> translate it's basically the four
+deployed engineers role is to like
+translate that business logic into code
+but you've actually just got AI doing it
+and so it's like the business logic is
+natural English they they're typing it
+into your system and your system is
+turning it into Python code that makes
+sure that the underlying product works
+perfectly for each enterprise customer.
+>> Exactly. And it may not be Python as
+well. We convert like for Doash, we
+convert tens of thousands of lines of
+JSON files, their internal JSON files
+into actual natural language,
+interpretable instructions and also
+Python code based on like their stuff.
+So it's majorly like we optimized it to
+an extent where even the FD part of a
+sales process is done by an AI. So it's
+part of our product instead of like a
+human actually doing it.
+>> You do have a forward deployed engineer.
+It's just sort of like an AI forward
+deployed engineer versus a human one.
+>> Yes. That's fascinating. And you were
+working on even as I understand it even
+when you were at IIT as undergrads you
+were working on finetuning of LLMs.
+>> Warun did like research internship at
+Stanford for training these like LLMs
+back when like even charges pre-charge
+launching right.
+>> Yeah it's a it's like it's not
+transformer is not not really a lot but
+yeah roughly. Yeah.
+>> Yeah. I think like you know our
+experience has majorly been around like
+fine-tuning these massive models like we
+were the first people to extend Llama to
+context length from 4 to 32K. we
+outperform cloud 2 and everything that
+immensely helps us because we know
+exactly what AI can do and where it's
+going to not where it's going to like
+you know just blow up and we will only
+automate the parts where we know AI can
+do really well and especially when when
+there are some of our products which are
+extremely token intensive and that's
+where you need to optimize for per token
+cost and that's where like you know all
+of our previous experience also helps
+immensely for getting maximum per per
+let's say dollar
+>> so going back to the door dash contract.
+So the speed in sales matters a lot. So
+it sounds like a big part of the reason
+you're able to win a huge contract like
+that is your time to show them the
+product worked was a week versus months.
+>> That's definitely one of the ma massive
+reasons. Other bio reason is just
+complexity of the use cases that one
+thing which I want to say is I mean this
+is a very common use case in door dash
+which happens a lot which no other
+vendor in the market was able to solve
+which is let's say if we are here at YC
+office we ordered food and you went to
+your home and it it happens a lot people
+order food with like office address at
+home and home address in office because
+they just keep switching and you ask the
+dasher saying that hey can you deliver
+it to my home because I'm at home it's
+on the way a lot of times dasher being
+the nice people they deliver it to your
+home and then they won't be able to
+market as delivered because it will be
+triggered by their fraud system because
+they're outside the geoence
+>> because they're not at the office,
+right? So then they make an outbound
+call to our AI agent asking, "Hey, uh,
+can you mark the order as delivered?"
+This is our AI talking to them. Firstly,
+our agent does this. We we check a chat
+history between you, the customer, and
+Dasher to see if you actually requested
+the address change. If not, while the
+dash is in the call with our AA agent,
+we make an outbound call to the customer
+in parallel. They're like right now
+there are two calls running and we ask
+you hey Hajj the dash is saying that he
+requested a new address did you actually
+request it yes or no once you say yes we
+go back and mark the order as delivered
+for the dasher this this is a one
+multi-party communication and we it's
+live right now in do dash so these are
+some of the complex use cases which we
+solve that's one of the that's one of
+the primary reasons that we are able to
+win over a company like do dash it's
+primarily ability to solve very complex
+use cases which stems from ability to
+write Python Yeah, it's like you know s
+I think like when we were starting the
+pilot they gave us this use case I
+remember looking at it I was like oh wow
+this is so interesting um and then
+initially like our product was able to
+do it to a decent extent but there was
+not like really very strong I wouldn't
+say like it would not be like the best
+experience but we changed our product a
+little bit and there's like a new
+protocol where you can make outbound
+calls from within a single agent so
+basically like a sub agent if you think
+and then like you know the experience
+becomes comes much more much more better
+and then like we are the only one who
+can do it like at such scale
+>> in this case the the complexity in that
+example is that you've essentially got
+you like a sub agent or two calls
+happening in parallel and they both need
+context on the what's happening on in
+each call
+>> pretty much it's like you know h like
+did you actually receive your burrito
+you order to IC's office because the
+dash is claiming that he delivered it to
+your home is that actually true
+>> and how does it work like so once if you
+call me and you verify that I actually
+wanted the burrito delivered there. Then
+once that call's completed, it tells the
+other agent that's on the other call
+that what happened. And then that agent
+knows to tell the dasher, hey, this is
+totally fine.
+>> And actually marks the order as
+delivered. Yeah.
+>> And then the the funny part here is like
+previously, yes, humans used to do it.
+It was a worse experience with humans
+because humans cannot stay on call with
+two people at the same time. Now like
+while we are on a call with the
+customer, the dasher can still talk to
+the AI. They can still ask about their
+pay. Previously, humans were like,
+"Okay, I'm going to put you on hold. let
+me talk to the customer and then put the
+customer on hold, talk to the dasher.
+Yeah. So, it's basically a better
+experience.
+>> This is I'm smiling because this is sort
+of like the u it's like the enterprise
+customer support version of her than
+>> maybe. Yeah. [laughter]
+Like the same agent talking to all these
+people at the same time. Are there any
+other ways in which the AI agents are
+actually better at customer support than
+human agents would be?
+>> Yeah, the first thought pointing is like
+we all hate hold times. I mean like I
+remember we have been hold for six hours
+for IRS which is like nuts. If it is 6
+hours I mean yeah firstly hold times go
+away that's like the biggest thing for
+all the thing all the agents and the
+second thing is like resolution times
+are like much faster you get to the
+resolution faster it's again saving you
+a lot of time multilingual is a very
+major thing for a company like u do dash
+and understanding multiple accents
+multilingual with multiple accents is
+very very tricky because a lot of even
+people with not native language try to
+speak in very broken English now you got
+to understand the entire thing I mean
+Yeah, that's uh those are some of the
+major benefits that we saw which is uh
+fundamentally like the seesat also went
+like significantly up for the for the
+dashers. Yeah.
+>> Okay. So now you've raised this huge
+series A um why did you raise the round
+right now and what do you plan to do
+with the money?
+>> Yeah, it's primarily to just deal with
+our demand. We have like a lot of
+customers on the pipeline and a lot of
+massive fortune 500 companies that are
+piloting with us and we need just need
+to serve them and deliver like high
+quality experience for all of their
+customers as well. That means we need to
+hire faster and scale faster.
+>> You actually have one probably the
+strongest sales pipeline of any startup
+I've seen. Um how has that happened?
+>> Firstly, our contracts as you know like
+very massive compared to like a lot of
+startups of our scale and that means
+that we generally tap to like sea level
+decision maker once they like the
+product really really well. It generally
+like cross travels a lot and they refer
+it to the other sea level expects who
+are friends. So I mean if it's is
+fortune 2000 how many people there
+should be like 2,000 people if you
+hypothetically think of every 1% of us
+to 10 people it should be like pretty
+easier for you to like get a warm
+network to all the intros. I think
+that's the primary reason I mean ours is
+a very I mean if you think of AI in
+general the only impact it can make is
+like customer support or coding or the
+real use cases which we are seeing in
+the market and we are becoming like sort
+of like board's answer to like what's AI
+strategy in this company and Giga is
+becoming one of answers. I think that's
+the reason which we have like a stronger
+pipeline to add anything else
+>> and I think like you know obviously
+getting into the door is one thing but
+once you go there and talk to these
+people who are like sea level execs they
+are obviously very curious about the
+product and the results we have like you
+know delivered for Door Dash and also
+like you know the the innovation we have
+on the product even though they're not
+very technical people just talking to
+them about it gets them so excited okay
+this is this is going to transform my
+business and that's the excitement we
+see and that's how we just like push get
+pushed up. Yeah, I think you guys are
+just the the epitome of what's really
+unique about AI startups right now is
+that by having the technical expertise
+that you do, you're able to build the
+product that actually works. And just
+the product that works um is enough to
+get a giant company like Door Dash as a
+customer and then that's going to spread
+via word of mouth and open up all these
+other Fortune 500 companies that want to
+work with you. And I just don't I think
+that was very hard to do in the past
+because most people could get the
+product to work reasonably well or at
+least well enough to close the sale. Um
+uh but now we're in this new era where
+if you don't have the skills technical
+skills that you two have as founders,
+you actually just can't get the products
+to work.
+>> It's definitely mix of market plus great
+product. I would say as you know all the
+companies are thinking what AI that they
+need to do and customer support is one
+of the massive things of them. Yeah. Why
+do you think customer support has taken
+off and become such a competitive space?
+As you know like you know currently AI
+models like you know the recent ones
+they can get gold medals in IMO they can
+get like gold medals in IOI and the
+biggest challenging part there is like
+you know just the context let's say an
+model can get like gold medals in IMO
+why cannot it do like the job of a
+manager in an enterprise the biggest
+reason is it doesn't know everything the
+manager knows but if you think about
+like programming and customer support as
+verticals a customer opens up a chat
+with you or some conversation with you
+you'll learn everything about the
+customer in context and you will solve
+it. So the context scope is fairly
+narrow for customer support and coding.
+Coding is also kind of similar. You
+learn, you look at all the files, you
+threes and then you come up with an
+approach. Obviously like AI is here to
+just make people more productive and
+optimize a lot of these enterprise
+processes. Customer support and
+programming according to us at least is
+are the ones with like which are really
+fit well to deal with the current
+context limitations of the current LMS.
+Um and it's just going to get like you
+know as context gets better and
+everything these models are going to do
+everything.
+>> Yeah. And people try I mean right now
+people are like even trying to
+proactively give more context as well
+even that also like solves the solves
+the issue and more and more use cases
+get unlocked but customer support is
+definitely one of the
+>> yeah customer support is like in that
+sweet spot where yes you need to know a
+lot of the policies and everything. Yes,
+you need to know a lot of the customers
+but it's not like too much the people
+people problems and things like that.
+It's not just too much for the LLM to
+just get confused about.
+>> Yeah. The reason we're to spend so much
+time on just like the product and the AI
+for deployed engineer stuff, this is
+going to be gold that like the
+especially the audience that watches
+this stuff is very very deeply
+interested in this kind of stuff and
+we've spoken so much on our content
+about like the four deployed engineer
+model and there's so much interest in
+that. So AI for deployed engineer is the
+first like I don't think anyone's ever
+heard that before.
+>> Yeah. It's like if you're building an AI
+product, you need to build your own FD.
+>> Yeah.
+>> Yeah. you guys basically this is going
+to position you as like at the cutting
+edge like it's basically like everyone
+else is sort of doing the human for
+deployed engineer part and you're
+already like leaps and bounds ahead
+because it's the AI is doing the full
+deployed engineer part. So Giger is 20
+people today um and you're going to be
+hiring aggressively. How do you think
+about the culture you want to build as
+the team grows? I want to start off with
+saying that not everyone is fit to join
+us. Um, and the people we hire, they
+need to be like extremely smart and very
+mission aligned. And as an engineer,
+like how I would like put the role as in
+in our company is that we are one of the
+only companies or we are one of the few
+companies where you can have direct
+impact on potentially like billions of
+people if you join us. We are here to
+transform like you know B2C enterprises
+to a massive degree and it can it it's
+starting through customer support. We're
+going to expand into other verticals. We
+will transform a lot of these
+experiences a lot of consumers have with
+these B2C companies and the direct
+impact let's say we go live with one of
+the big like fortune 500s which have
+like billions of customers and we
+automate support for it you are
+basically making the experience better
+for billions of people and that's one of
+the ways like you know they need to be
+very impactdriven they need to have the
+drive to make a lot of these experiences
+really really good. Yeah, it's it's
+primarily a little bit of like a very
+high agency and very raw IQ is what I
+would put at it. And right we have like
+some of the amazing people who are
+joining us. We have literally convinced
+a guy to not join open a and anthropic
+who were paying us like ridiculously
+high amount than us to join Giga.
+>> So as a startup even one that's growing
+as quickly as you are. Um how do you
+convince people to join you instead of
+joining meta or open AAI and the giant
+amount of money that they pay? It's
+primarily directly because the amount of
+impact see the by the way this was a
+back end engineer and one front end
+engineer who are like getting competed
+by had a both competing offers the thing
+was the impact that he's going to make
+on any of these companies I mean opening
+is a massive company it's not a small
+company anymore and the impact he can
+have at Giga can the code literally
+which he writes can be transformed to
+hundreds of millions of people
+potentially every customer of Door Dash
+will get a sim or like any one of these
+massive customers who work with us will
+get get the direct impact. A lot of
+people who are not motivated by money,
+who want their work to be used by a lot
+of people get motivated uh to join gig
+again but this is also not going to last
+to us if you become thousand people but
+again right now is a sweet spot where
+you build something which impacts a lot
+of people. Our primary mission of the
+company is to build a world towards
+perfect execution and we'll try to
+optimize every single thing in this
+massive enterprises and try try to
+optimize every process and every
+operation process and make it more and
+more efficient and execution driven. Uh
+that's one of the biggest missions and
+we will so we're starting with support
+and we'll go to every single opex heavy
+thing in these massive companies and
+we'll try to optimize it.
+>> So you think you'll go beyond um
+customer support at some point? We're
+already like customers are literally
+like asking us to like uh it goes
+something like this right some big of
+what are the biggest OPEX things in the
+company uh support where they have like
+a lot of uh hundreds of thousands of
+people and then there's compliance
+there's like a bunch of other things in
+the in these companies and they're
+literally asking us can you guys since
+you're doing this can you also do this
+so we're already seeing a lot of
+interest uh in in these things and what
+one more interesting category of people
+which we have seen work out for Giga
+very very well are former founders who
+just wants to have high agency and a lot
+of impact. We already have these
+customers. We are already running pilots
+with them. We can they can work and
+directly work with the end customer and
+build a massive impact. That's one more
+category where we are seeing a lot of
+success who are of the people who are
+being really successful in giga former
+founders.
+>> How about we talk about the two of you a
+little bit actually I'm curious about um
+tell us a little bit about your founding
+story like how did you two meet each
+other um decide to start a company
+together and give us the origin story.
+So we both know each other since like
+2019 when we both went to IIT Karakpur.
+Um and then like Vun is like really
+passionate about startups. I think like
+since he was like six or seven and then
+he has been reading program essays, Elon
+Musk essays and all of that. [snorts] Um
+and then he has been trying to do a lot
+of startups during the college and then
+we eventually applied to YC in 2023 and
+you were our interviewee.
+>> Yeah, you applied with a completely
+different idea. [laughter]
+>> Applied with an Yeah, you should tell us
+about the idea. Oh, our idea was to
+build an education platform for college
+students in India to get jobs and that
+was the idea we applied with and I think
+you know this as well like you know when
+we came into the interview your entire
+questions were like oh can you vun you
+have this experience here can you talk
+about like what other companies can you
+build from this experience and then we
+we were like so surprised we were like
+okay
+>> I mean I I rehearsed for this interview
+so much I mean like there are like 10 YC
+founders who interviewed interviewed me
+and I mean I know answers to all the
+questions which is like why this what's
+the big time and everything and you come
+to the interview and you ask for a
+completely different question which is
+like a [laughter] pick a new idea and I
+was like what and it's it's a
+>> and then and then our thought process
+was like okay VC likes people who are
+very gritty so we should stick with the
+idea we came in [laughter] with we're
+like no h like yes there are other ideas
+but we'll do this and then I think like
+one of the questions you asked was oh if
+we don't if y doesn't take you are you
+going to keep doing your company and
+then We said yes but I think you knew we
+[laughter] knew we wouldn't have done
+it.
+>> Um yeah I think Y is one of the reasons
+like we even exist at this point in time
+>> is honestly like kudos to you for just
+taking a bet on us. Uh I don't I mean it
+we got into this instance stage I mean
+like we had uh we both had like a high
+frequency trading offers paying us more
+than 600k out of college and [laughter]
+I applied to a bunch of IV leagues and I
+got into all of them and at that point
+of time YC was always this like
+northstar who one company who I mean I
+thought that YC was one of those things
+which creates this massive generation of
+companies.
+>> Yeah that was always something that
+stood out for me. I was always curious
+about this. you don't think it'll last
+as you. But yeah, like I mean I feel
+like turning down quant jobs if you're
+in in America and you grew up in America
+is sort of like one level of risk to do
+a startup but like being growing up in
+India and like turning down like super
+high paying jobs offers like must just
+be how did you think about the risk of
+doing that and were your friends and
+family supportive of it?
+>> India is like generally like not a
+risk-taking. There's like very low risk
+>> and friends don't like their friends
+outgrowing them typically. So it's it's
+always tricky. My dad thought literally
+I was like crazy. I mean
+>> I mean maybe he was he was right
+probably. Yeah.
+>> I mean like I mean I clearly remember I
+got like this highest paying job out of
+ever out of all I this high trading firm
+is paying me this much amount of
+>> because you guys had some of the highest
+ranking scores at IIT. Right.
+>> He he not me. [laughter]
+>> Where did you rank at IIT?
+>> I was like third in in KGP Karapur. Um
+but I mean the reason we decided to do a
+startup I think like for War Vun it was
+majorly around like passion and he's
+like okay I just want to do this like
+even if I go to like you know let's say
+this HFTs I'm still going to want to do
+a company I will do it like regardless
+of what I want to do. For me it was more
+along the lines of like I was just
+logically convinced that okay just doing
+a company than working at like let's say
+these HFTs for 3 years is still a better
+outcome for me even if I fail uh by
+going into IC. That was just like a
+logical conclusion I came to. I was
+like, "Okay, sounds good. Let's actually
+give it a shot." And then, yeah,
+>> for me to be honest, it was just doing
+the hardest thing possible. I mean, it
+translates to a lot of our company
+culture as well, just picking up the
+hardest problem and solve it. I thought
+genuinely like a lot of rich people and
+powerful people build their own
+business. So I thought I wanted to do
+something along those lines and I
+thought it was super hard and yeah
+>> it's kind of surprising because this
+aspect of okay we want to pick the
+hardest problems to solve kind of
+translates so well because we go into
+these sales calls and then we talk to
+these let's say sea level people a lot
+of the other competitors generally ask
+them okay what's the biggest chunk of
+support problems we can solve how can we
+get you to 70%. We don't do that. We go
+them and ask them what's the most
+complex issue you have. Let me go and
+solve that for you. And then you trust
+me to take over the rest of the entire
+support ticket. And I mean this is my
+personal metric to build a product. I
+want to get every single one of my
+customers to 98% resolution. And not
+because I believe it's a very good like
+ROI. Yes, it is a good ROI, but I
+genuinely believe like you know it's a
+better experience for the end customers
+to get like an AI which can solve 98% of
+your issues. The biggest reasons humans
+still say like agent a human human this
+is like classic behavior we see is
+because there is no trust there is no
+trust that AI can actually solve
+majority of the problems but if you
+build an AI which can solve 98% of the
+problems why would they not like you
+know talk to it
+>> to me it's just like the the area to
+build a startup now is different feels
+different post chat GBT than before and
+in particular it's just there is a real
+return to being a deeply technical
+founder um and you can just build your
+company a different way like going in I
+think it's going in and being like,
+"Give us your like building your whole
+sales process around just give us your
+most complicated like
+>> and then I'm going to show it to you
+that we can do it." [laughter]
+>> Yeah.
+>> Yeah. I remember so I remember the
+interview. I remember you guys being
+very stubbornly attached to your like
+college student idea. Um talk us through
+like actually um going through YC and
+you even had like difficulties getting
+into the country like just tell us the
+whole journey.
+>> No uh first I was more curious on why
+did you take us in?
+>> The core thing we do is just invest in
+people. So it was very very clear to me
+even in the 10 minutes and from reading
+the application that two of you like
+extremely high IQ um uh extremely
+determined um that yeah the fact that
+you were you had mentioned that you were
+turning down the HT offers and you were
+turning down actually I was impressed by
+the fact that you were even willing to
+turn down um your research offer from
+Stanford um so in general a lot we do at
+YC is try and find people who are like
+unusual compared to their peers and so
+the fact that you are like IIT and yes
+I'm not I wasn't born in India but my
+parents from India and I just know
+culturally it's so risk averse that I
+was like, wow, like if they are willing
+to take this amount of risk, they're
+probably quite unusual people. And in
+the 10-minute interview, it was clear
+just that not just that you were smart,
+but you just had a certain intensity
+about you. And yeah, one thing I've
+learned doing this for a while is there
+sort of yes, like I didn't like the
+idea. It was probably not very obvious.
+Um, and it is a bit of a high-risisk
+strategy to keep defending the idea
+anyway, but I [laughter]
+but I don't know. I' I've learned that
+if you're sort of if you're just smart
+and intense enough like I think those
+people actually are always just sort of
+stubbly attached to the idea. Um this is
+actually it reminded me a lot of the
+Amplitude interview. Amplitude is now a
+public company doing analytics and this
+is like a decade ago. Spencer Skates the
+founder of that company also really
+really high IQ very intense person. He
+had an idea to build like a um voice
+assistant for you while you were driving
+but this is like 12 that yeah wasn't
+really possible. Um, but he just
+defended it so intensely. I remember the
+interview thinking like anyone who's
+this smart and this intense, you just
+sort of have to invest in and work with
+them. And it took them like a year and a
+half to find like the amplitude idea and
+it took you guys like a little bit of
+time as well. But I just that intensity
+I think is quite rare. That's why that's
+why we funded you.
+>> Yeah. Uh, coming to the YC thing. Uh,
+yeah. We thought it would be so easy to
+get into US to be honest that we go
+there. [laughter]
+>> No. in the interview. I think when you
+gave us the offer, you were like, "Okay,
+when can you show up in like, you know,
+in the US?" You were like, "Okay, we'll
+be there in a week." And then and then
+you were like, "Okay, are you sure you
+can be there in a week?" We were like,
+"Yes." And then actually like we could
+have gotten there gotten here in a week.
+We did have like a visa interview
+scheduled. And then we went to the visa
+interview like the I think like the
+entire B1 B2 visa system is like kind of
+like, you know, it needs a clean up. But
+we went there, they asked us like, "Hey,
+are you married? Do you have kids?" We
+were like, "No." And they were like,
+"Okay, you're rejected." We were like,
+"What?" And then we come back.
+>> Your your interview was at least like a
+little longer. Mine was like just three
+questions. Married, salary, how much is
+your salary? I was like, "I have my own
+company." And I was trying to explain
+what Y is to that guy. And he was like,
+"No, it's done."
+>> For a minute, I was just like I did not
+even realize that people can reject you
+on a visa interview. Oh yeah.
+>> I was like, "What's happening with my
+life? It's just u
+>> Yeah, I remember. So then cuz this was
+for the summer 23 batch and so then we
+basic you had to do the batch remote
+essentially, right? So I didn't actually
+meet you in person um probably
+>> until like January 2021.
+>> So it's kind which is getting close to
+like almost close to a year since um the
+the first interview probably like 9 to
+10 months after the interview.
+>> The instant crazy thing was everything
+became harder, right? I mean we don't
+know what our peers were working on and
+it's it's we I mean it's it's our first
+time trying it out as well. Then we put
+it to finetuning and we picked a really
+vertical where we can nail it. that
+definitely by on that note it definitely
+felt to me like the you getting here
+being Silicon Valley and being here at
+YC in person definitely really helped
+accelerate the process of finding like
+the new idea right
+>> a lot and a lot to be honest it's
+extremely helpful because I mean I
+remember back in I was India this was
+again thanks to Gary Tan that reason the
+fundrise happened right I mean I I was
+asking my peers how much money they were
+like raising and they're like there like
+60 interviews scheduled for everybody I
+remember asking I was like how I have
+only eight eight investors am I doing
+anything wrong
+>> this is for you dem day fund raise.
+>> This is where demo day fundra and you
+were like no no just go with it go with
+the flow and everything and almost
+surprisingly almost all of them end up
+investing and Gary Tan told from our
+seed investor from uh Nexus you must
+invest in giga and they took a bet on us
+and it's a I mean that really that fun
+really helped us a lot because we're
+back in India and it's
+>> yeah I think like just having zero peers
+and then like we both are like okay we
+just quit everything and then now now we
+are stuck in India we want to be there
+And then we don't even have like
+especially with the education YC really
+helped us because you connected us with
+a lot of people in education education
+and you were like you were like pretty
+determined to get us off of that idea
+[laughter]
+>> and then and then we spoke to a few
+people we were like okay yeah that
+doesn't make sense let's pick something
+where we are good at we picked like
+fine-tuning and then they inference that
+vertical and then yeah it's majorly
+because of Gary I think our seed got
+done pretty much
+>> I remember so like the timeline was
+basically you applied with the student
+idea you pivoted into the finetuning as
+a service idea like
+>> in a in a month
+>> in a month. Yeah. So hitting almost the
+midpoint of the batch and then you
+raised at demo day on the fine-tuning as
+a service idea.
+>> Um which actually I remember it got
+pretty decent traction like early on.
+What exactly happened to that idea?
+>> Okay, so for some context, we were
+basically training these open source
+models, fine-tuning them for specific
+use cases to get really good performance
+outperform like let's say cloud or GBT4
+or whatnot. And then back then GBT4 was
+the only real smart model and it was
+like crazy expensive. If you remember
+the prices it's like $32 $32 for million
+tokens or something. It had a good
+traction because people were optimizing
+for cost and we were like okay it's good
+it's good. People want to optimize for
+cost and then we're going to train these
+models and you can use our inference and
+then we had like decent revenue as well.
+And the biggest issue with that idea was
+it was like a broken funnel. people
+would come in yes they would be happy
+like it's nothing wrong with the product
+but then open AI or anthropic like you
+know they just released a new model
+which is like let's say as smart as GPT4
+but like let's say 10 10 times cheaper
+which actually happened with like GPT40
+it was like I think four times cheaper
+and then we saw our customers they were
+like okay we want to move to OpenAI now
+because this new model can do this new
+other things and our fine tuned model
+was trained for this use case we had to
+retrain it and then it was just a lot of
+like you know continuous iteration we
+had to do to keep up. And it felt like
+we were kind of betting against the AI
+wave than betting into the AI wave. It's
+like, okay, if OpenAI stopped making
+better models, we would be doing really
+well. If OpenA continuously made better
+models and cheaper models, we would be
+doing worse. So that realization we got,
+I think in February or March 2024, we
+were like, okay, we don't want to bet
+against AI, let's just go into something
+where we bet on AI.
+>> Okay. Um and then how did you come up
+with the idea for Giga?
+>> We were pivoting and trying out like a
+bunch of different ideas and one of the
+some of the thing we're at that point
+we're trying to even build a software
+engineer. So we're we're definitely like
+jumping on like a lot of ideas again
+Nexus might introduce Zeppto founders
+and they told that customer and that's
+when we got to know that like customer
+support is like one of the real problems
+and they became one of the first
+customers. So you got you were
+introduced to Zeppto and you just went
+to talk to him in general about hey like
+what are your problems using AI?
+>> Yeah we tried like a little bit of
+hypothesis I think there was one of our
+mutual friends who again another YC
+founder who worked at Uber to automate
+their support and they were saying
+talking about support problems just made
+a hypothesis Zeppto might also have
+similar problems.
+>> It was a shot in the dark and [snorts]
+it kind of worked. Yeah, we we spoke
+with them and then like you know they
+were like okay there's this huge event
+coming up in India we need to hire a lot
+of people we if we can help use AI to
+automate support it would be massive
+help because we don't have to hire like
+what 2,000 people or something um and
+then we were like okay this is the first
+application problem so we flew to India
+we were in SF flew to India we went in
+we went and sat in their call centers
+for like you know days and then observed
+how they support people do this work and
+then the solution we built was like so
+custom, so random. It's like they didn't
+have API. So we built like a web
+automation solution on their CRM which
+was very hard to scale but we scaled it
+anyways and then it was like a very
+custom solution for Zeppto. We built out
+>> and that sort of laid the foundation for
+the product as you have today.
+>> Yes.
+>> Yeah. At that point of time we realized
+that we are not going to do consulting
+again.
+>> Yes. Oh yeah. No, we were like okay this
+is no way going to scale and then that
+was where we got our determination like
+we have to build a product. there is no
+way we can scale this because and then
+it was a very interesting product
+challenge as well like we knew all the
+kind of support problems Zeppto had and
+we knew all the kind of support problems
+for a few other companies and now the
+problem was how do you build something
+the in the most simplest way which can
+solve all of these different problems um
+that was basically the product problem
+we had to solve. Okay. So, if we look
+ahead to the future a little bit, um I
+mean you guys right at the cutting edge
+like you're you're operating at your
+agents operate at like probably like the
+largest scale of any agents in the
+customer support space. Um where do you
+see this space evolving of AI agents in
+the enterprise in general and especially
+as the models themselves get more
+powerful?
+>> This is the bet we are also making. Um
+data and context are the are the most
+important things and AI gets better the
+companies with the most context and data
+would be able to perform the best. Even
+if like open a had a much smarter model
+but it does if it doesn't have the
+context it cannot do much within an
+enterprise and that's where we are
+heading as well. We start with customer
+support. We provide a lot of value to
+our customers. That sets us up to win a
+lot of these other operations within
+these enterprises. And the vision of our
+company is like you know this is this is
+maybe like you know a decade away
+potentially but we want to build a
+platform where the next trillion dollar
+businesses are built on top of and we
+want to build the most efficient op ops
+automation platform in the world and we
+think we are like you know very well
+positioned because customer support is
+one thing people are looking to automate
+right now and next things would be like
+you know something much which involve
+more context and since you already solve
+support you have like all the context
+about potentially any kind of issue
+customers might face that will make you
+make better judgments in other verticals
+within the company. Um so that's where
+we think like the market is heading
+towards like you know potentially
+consolidation rather than like you know
+point solutions for each of these AI
+verticals.
+>> Since we have context from every single
+customer and what the past interactions
+and what are they looking you like both
+like very micro and macro level view of
+what's what all the customers are asking
+it helps us solve other customers other
+issues in the company very better.
+>> Yes. It's like I mean fundamentally
+every company is an optimization
+function on top of like value you give
+to your customers and if you understand
+the value you give to your customers and
+the issues they are facing you can write
+that function in a really good way.
+>> For Giger itself like when you think
+about how big the company could be are
+there are there existing big companies
+that you look at that you you aspire to
+either because of something they've done
+and how they built the product or the
+size of the company today.
+>> I think we aspire parts of different
+companies. So Salesforce I think we
+really aspire like the way they built
+the most general product and I mean
+obviously like you know we don't like
+the design of Salesforce but obviously
+like they built the most general version
+of CRM pretty much and open AI I think
+they are always at the forefront
+innovating and things like that. So
+different parts of different companies
+are something we aspire but I don't
+think we are looking to be like oh we
+want to be the next open AI or we want
+to be the next Salesforce or something
+like that. different parts of different
+countries is like I mean anthropic for
+some I think has a very very good taste
+>> yeah taste and a lot of great talent
+compared to open air right now who are
+going to them yeah
+>> verunisha that was fantastic thanks so
+much for joining us that's all we have
+time for today congratulations on the
+round and I'm looking forward to seeing
+giga continue to grow into a giant
+company thanks
+[music]

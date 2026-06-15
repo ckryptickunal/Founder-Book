@@ -1,0 +1,1297 @@
+Title: At the Intersection of AI, Governments, and Google - Tim Hwang
+Video ID: kEgeHOtsxrE
+URL: https://www.youtube.com/watch?v=kEgeHOtsxrE
+Channel: Y Combinator
+Published: 2017-06-16T15:05:18Z
+Duration: PT40M6S
+Views: 4386
+Likes: 60
+Tags: YC, Y Combinator, Tim Hwang, Google, Podcast
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 1273
+
+Description:
+Tim Hwang is the Global Public Policy Lead on AI and Machine Learning for Google - https://twitter.com/timhwang
+
+Read the transcript here: http://blog.ycombinator.com/at-the-intersection-of-ai-governments-and-google-tim-hwang
+
+YC's podcast is hosted by Craig Cannon - http://twitter.com/craigcannon
+
+============================================================
+TRANSCRIPT
+============================================================
+
+all right everyone so today we have Tim
+Wong uh and we are live from Tim Wong's
+apartment in San
+Francisco um all right man so I think
+the easiest way to do this is just
+introduce yourself okay cool uh so well
+thanks for having me on the show Craig
+uh my name is Tim hang I'm uh Global
+public policy lead on AI and machine
+learning for Google MH and so what do
+you do for your job uh so public policy
+is a pretty fun job it's a combination
+of a couple different things um on one
+hand uh I work a lot with sort of
+government and Regulators uh and Civil
+Society trying to figure out actually
+like what you know Google's position
+should be on a whole range of issues
+everything from you know whether or not
+uh machine learning is going to take all
+the jobs uh to uh whether or not you
+know we can make sure that these systems
+are uh fair and non-discriminatory um
+and then internally I work with product
+teams and researchers to kind of keep
+them reprised of what's Happening uh on
+the political scene worldwide okay and
+so what does that mean does that mean
+traveling around and meeting with people
+how do you find that yeah it's a lot of
+meeting with people actually so um we
+end up kind of talking with people from
+a whole range of different kind of
+sectors and whole range of different
+backgrounds um particularly because AI
+is uh you know this kind of emerging
+technology um a lot of what we're doing
+is kind of just trying to assess like
+how different parts of the society are
+thinking about itm and so I think the
+with AI you and then policy on AI you've
+kind of like nested two obscure things
+that people don't really know what
+you're talking about so uh could you
+just back up a little bit and explain
+like what doing policy for Google
+actually means in the context of AI uh
+sure definitely so uh you know I think
+the really interesting thing about AI is
+basically that um you know a lot of the
+modern techniques in artificial
+intelligence if you even asked people
+like a decade ago they would have told
+you like this is never going to be a
+thing it's a complete dead end why are
+you doing this research uh and it really
+has kind of exploded in in a completely
+unexpected way in the last few years and
+so really a lot of the challenge has
+been like okay everybody's kind of
+wrapping their heads around what the you
+know even what the business impact of
+the technology is
+but there's increasingly a lot of people
+trying to figure out like what the
+social impa of the technology will be
+and I would say policy really sits at
+that interface between these really cool
+technological capabilities that are
+coming about and then like what Society
+in general is going to do about it and
+so what would be like a tangible example
+at Google of like a policy that you guys
+have worked on to to figure out uh sure
+so uh there's a couple of really
+interesting problems that we've been
+we've been working on very closely so
+one of them is this question about
+fairness in machine Learning Systems um
+and for example to give you one really
+concrete challenge we've been thinking a
+lot about is uh in order to uh debias a
+system right once a machine Learning
+System is behaving in a biased way one
+way of trying to deal with it is
+collecting more diverse data okay but
+one of the big problems is when you do
+that you end up collecting lots and lots
+of data about minorities which raises
+all these really interesting questions
+around privacy and and what have you and
+that ends up being a really interesting
+problem because it's both a technical
+challenge right which is like can you
+collect an adequately diverse data set
+but on the other hand like also this
+policy question which is what is society
+comfortable with you collecting and like
+what are the practices and that ends up
+being a really interesting tradeoff um
+that you have to navigate if you're
+interested in these problems and so what
+do you actually have to do like are you
+going doing like user interviews with
+people or is it just uh guessing yeah
+part of it's user interviews part of it
+actually working with like people who
+know right like it turns out that issues
+of privacy particularly minority privacy
+are like not new problems and so a lot
+of our work is actually like talking
+with people who are like experts in that
+space right people have worked on you
+know bias and discrimination questions
+on the past uh and a lot of data
+scientists and trying to get them to
+talk to one another because I think what
+right now we're really trying to do is
+kind of bridge these sort of human
+values on one hand with like a lot of
+what's happening on the technological
+side and so if I'm a company and I'm
+like I can't afford a policy guy like
+Tim and I will be dealing with large
+amounts of data that may or may not
+discriminate against people are there
+any like obvious no goes that you would
+tell someone well I think it's uh it's
+to be sure that you're like
+interrogating the data right like I
+think that's like one important place to
+start now I think one of the interesting
+things about machine learning is that
+there's like lots of potential points of
+failure and like I think every single
+interesting point of failure is being
+investigated right now um but I mean one
+of the most common problems is just that
+you don't adequately think through your
+data and so the machine does what the
+machine does right which is trying to
+optimize against your objective function
+that you give it and and it will often
+maximize in ways that you don't expect
+and that is in fact part of the problem
+right so I mean one of the examples that
+I always think about is uh you know we
+have this project uh that we released it
+was called Deep dream and one of the
+problems in computer vision is trying to
+figure out like what the computer
+actually thinks it sees when it looks at
+an image and so you go through this
+process and you basically the whole
+process you show it an image you ask it
+like what do I have to do this image to
+make it look more like what you think
+for example a sandwich looks like and
+you edit the image slightly and you keep
+repeating this process until you know
+kind of you show out like what is the
+ideal thing that the computer thinks it
+is and it turns out that when when you
+ask it to see like ask it to reveal what
+like a barbell looks like you know
+barbells always show up with human arms
+attached to them right yeah and so like
+that's really interesting problem right
+because you've trained barbells on
+photos that always have someone holding
+the barbell and so it ends up learning
+this completely bad representation and
+what do you got to do I mean a big part
+of it is just like the Consciousness
+around like oh that can happen and like
+how do you interrogate your data set to
+make sure it doesn't have those problems
+and you guys are doing some interesting
+stuff around adversarial data right yeah
+that's right so I mean I think
+adversarial examples and generative
+adversarial networks are like some of
+the hottest points in the research right
+now it's almost become a joke that
+there's like just like so many what they
+call Gans out there right now that's
+just like every everybody has a gan so
+what does that mean what does that stand
+for so a general adversarial Network so
+there a very particular way of kind of
+setting up machine learning um but avac
+serial examples lead to these really
+fascinating results where you know you
+can take a picture of a panda and That's
+a classic example and you edit a couple
+of the pixels and it like basically like
+the computer will be like yep that's
+definitely a giraffe and it still looks
+like a panda to humans right which is a
+really fascinating thing and so what
+data are you seeding into that image to
+make it think it's giraff well a lot of
+it I think is basically you're editing
+particular pixels within the image that
+we know will set off the machine to
+behave in certain ways so cuz it turns
+out basically that like we always assume
+that a computer will see the same thing
+that we do um just based on the visuals
+but how we process is actually
+completely different from from machines
+um this researcher David Weinberger did
+this awesome article recently which is
+basically trying to argue that like you
+know machine learning it's it's it's
+generating knowledge but one of the most
+interesting things about it is that it's
+generating knowledge in maybe a way that
+like is completely different from our
+the way our human brains work and like
+that ends up being a really interesting
+challenge is like how do you like
+understand the knowledge that you're
+getting and how do you understand like
+the reasoning behind the knowledge that
+you're getting from machine Learning
+Systems well that and maybe that's a
+sensible segue into like how people are
+investigating the impact of AI as it
+relates to like Automation and what
+humans are good at doing and what
+computers are good at doing yeah right
+and so when you travel around you meet
+with people you meet with different
+countries like how are people gauging
+the effects of Automation in AI right
+now and and and its effects over the
+next like you know decade yeah I think
+um so it's an evolving picture right and
+I think right now I think everybody is
+just surprised at all of the things that
+machines can do that we thought that
+humans were going to be good at for the
+foreseeable future right so like go is
+the canonical example but there's all
+sorts of really interesting kind of like
+reasoning and other things that like
+machines are engaging in now and and uh
+and so one thing I always tell people is
+basically that everybody always wants to
+think about AI as if it were like this
+huge meteor just crashing into the Earth
+where they're like what do we do when
+the AI arrives right and it just like it
+doesn't just turns out that it doesn't
+work like that right and in fact like
+what we really need to get to is like
+thinking about like how particular you
+know technical capabilities will map
+onto the economy and that's what a lot
+of the work is happening on right now
+okay and so yeah let's go into some
+examples yeah sure so so for example one
+really interesting question is this
+adversarial example
+everybody
+itely will automated but that's aacy
+because certain cases like you may
+really worry about the security of your
+systems right so if someone for example
+can like hold up a photo and cause like
+a security camera to be like oh it's
+definitely Tim open the door right like
+that ends up being a real reason why you
+would not necessarily want to implement
+a machine Learning System for you know
+access control for instance and so
+that's actually really interesting
+because that means that if we don't
+solve that research problem that means
+that we will be limited in the kind of
+domains that machine learning enters
+into and I think that's what we're
+really interested in right now is like
+what are these kind of Gateway research
+questions that if we got through would
+like totally change the nature of like
+who when and why someone would implement
+this stuff and so are those things
+collecting the interest and like the
+momentum of the research Community
+because like I can see a certain
+direction where it becomes incredibly
+product focused right where I'm like I'm
+a researcher I'm incredibly talented
+like figuring out if the security camera
+is going to work with an adversarial
+Network like maybe not might not be of
+highest interest to me is that like
+blocking people or is like the general
+concept enough uh I mean I think right
+now it's a little bit unevenly divided
+right it turns out that like research
+interest is not necessarily like policy
+relevant interest right and so in some
+cases they're overlapping right so I
+think there's a lot of interest in
+adversarial examples there's a lot of
+interest in like what are attacks
+essentially that you can put on these
+machines to get them to behave in ways
+that you don't expect that seems to be a
+place where like security which is like
+very much a policy interest will map on
+quite nestly to security as like a
+research interest okay but for example
+things like fairness right like I was
+talking to a machine learning researcher
+the other day who was basically like
+look I could not in good faith advise a
+grad student to work on machine learning
+fairness issues because it's not just
+it's just not considered a serious
+problem in the field right and like
+that's just like that has less to do
+with like the field and more like the
+Norms of the field right and then that
+that ends up being a big issue right we
+don't have coverage on certain types of
+things in in practice might actually
+really limit like where these
+Technologies are are implemented well I
+think it's a it's a material issue right
+now like there's a gap between product
+understanding and like actual deep
+research yeah that's right and I I say
+this to a lot of people like you know
+everybody's always like so what skills
+do we need to teach people in the future
+because of machine learning and I think
+like one enormous skill will be like
+domain knowledge because like coming up
+with like a technical capability is just
+like one part of this huge picture right
+which is just like okay so then like how
+do we actually introduce automation a
+way that like makes sense to people and
+like that's like a huge task and so I
+don't know my personal prediction is
+that like interface and like how we
+effectively collaborate with machines
+particularly with these two new types of
+models um like how that effectively done
+is still a big open question and we'll
+seem to be increasingly in higher demand
+as you suddenly have access to these
+capabilities right so what I've been
+wondering then is like does for example
+like you know tensorflow or you know any
+one of like the the machine learning
+apis um
+does that become the new AWS for
+products or do people have to build
+their own to create like a defensible
+company um I mean I think there's still
+like so I mean like cloud services will
+have the same impact on the economy that
+they always have right and I think this
+is one interesting thing is all these
+companies are now competing for offering
+Cloud ml services and the upshot of that
+basically is that the like amount of
+like you don't need a PhD and machine
+learning to get all the benefits from
+machine learning right and I think that
+will shape the space for sure okay cool
+so then what are the other areas like
+aside from um aside from the first one
+we talked about for Automation and work
+like where where are other people
+interested well so I think I'm the other
+thing we're really interested in uh and
+I'm really interested in is kind of like
+is it possible to pull off machine
+learning with less and less data right
+and so you know there's a couple
+examples of that but one of them is like
+ones shot learning right where people
+are basically working on the ability to
+teach machines with like a much smaller
+number of examples now that actually has
+a really big impact on the game because
+that means that you can Implement
+machine learning effectively in
+situations where it's like really
+expensive to collect lots of data
+there's also one really cool interface
+between VR and AI that's happening right
+now where the whole idea is like uh
+there's a project called uh Universe
+from open Ai and another project called
+Deep Mind lab which basically like
+imagine you need to teach a robot to get
+through a maze well you could have it
+physically run through that maze
+millions of times or you could just have
+a virtual 3D environment that you cause
+a computer to run through and it learns
+how to do that in Virtual space and then
+basically you you put it into uh in
+practice in in a real robot and so
+that's a really another exciting way
+where you don't necessarily need like an
+expensive physical setup to collect the
+data that you need in order to
+accomplish tasks in the real world okay
+so then what like I I guess what I'm
+curious about then is like how are these
+countries like preparing for this like
+you know again not a meteor strike but
+like perhaps a gradual shift over 20
+years 30 years um to a very different
+world than what we have right now yeah
+and I think you're right now you're
+seeing like a bunch of different ideas
+out in the space um you know some for
+example like basic income right
+Universal basic income which would like
+fundamentally reshape you know like the
+social contract and how we think about
+doing for example like welfare in a
+whole number of countries and like so
+you see book proposals like that uh I
+think you see a number of proposals that
+are more like focusing on education so
+like what are skills that people will
+need in the space and that that ranges
+everything from like everybody needs to
+be a programmer to like oh well we need
+to really encourage like computational
+thinking right which is like the ability
+to work effectively with data right and
+so like there's a couple of different
+options out there some of the more
+interesting ones uh that I've heard of
+that are a little bit more obscure right
+like so some people have said like oh
+well maybe we need like automation
+insurance so in the future your employer
+will provide you with like a contract
+that says if your job turns out to be
+replaced by AI at some point in the
+future um we'll pay out at some kind of
+rate right so people are like
+experimenting with lots of options right
+now I think what we actually need in the
+space is like more experimentation
+of B
+oftice
+what if it were rolled out at anyel of
+scale and so like I mean it's cool
+seeing ycr and a couple other places
+like experiment with this mhm and so
+where um where is attration happening
+then with all these experiments like I
+it seems very limited but is it all like
+in northern Europe or I know there's a
+basic income study in India at this
+point um who seems to be focusing most
+on this area yeah we're seeing a lot of
+different uh countries engage in this um
+I think northern Europe is kind of
+leading the way in terms of their
+willingness to kind of experiment with
+some of these models and I think they've
+got a couple things going for them right
+like on one hand I think they have a
+skilled labor force right that like uh
+is is relatively expensive right so I
+think that they are seeking and excited
+about AI in large part because it's a
+prospect to bring for example
+manufacturing back to the country right
+because allows them to compete on the
+same footing as like other countries
+that have offered like lab labor for
+like much lower cost right right so like
+that's one thing that that's that's good
+for them I think the other thing that's
+also encouraging a lot of experiments is
+that they have a lot more coordination
+between government industry and labor
+which is making it more possible to
+experiment with these sorts of things so
+I think in in a really interesting case
+like it it turns out that maybe northern
+Europe is actually a little bit ahead in
+its ability to kind of experiment
+understand some of these programs and
+then as a like Google or alphabet as
+like this International institution at
+this point how are you guys thinking
+about interacting with different
+countries as this happens yeah so we're
+we're investigating at the moment right
+so the question is who on the research
+side should we be working with and what
+are kind of programs that we could
+support that will help us give a better
+handle on this picture right because I
+think like look ultimately like it's a
+technology company right and so we know
+that we don't have all the talents
+necessarily to like evaluate like you
+know what is a proper like social
+welfare program but on the other hand we
+do think it's actually really important
+that we like encourage a better societal
+understanding of like how to deal with
+these Technologies and so so I think
+we're very much in the mode of like how
+can we support this okay and I think
+that's partially through potentially
+resources but also potentially like
+expertise as well right like we if if
+you want to know anything about machine
+learning we got people who can tell you
+about that now we have to marry that up
+with people who have a good
+understanding of how this will impact
+Society either through economics or
+otherwise and do you ever feel like the
+information you're disseminate
+disseminating is like guiding the
+conversation and guiding the future or
+like people are like playing into the
+game like it's intentional or it's just
+like opened up I mean I think it's very
+open right I mean I think like you know
+I think it's easy particularly in the
+valley to be like oh my God these big
+companies but like we're only one part
+of a much larger larger picture about
+what's happening in the economy I like
+totally think that's the case right like
+you know like we talk about Ai and
+automation but we might also want to
+talk about like demographic shifts
+happening in the economy like what's it
+mean that we have an aging Workforce
+right or like what's it mean that we
+have like falling Workforce
+participation in the United States right
+like those are actually trends that like
+that are almost as large as like what
+someone comes up with a lab and presents
+at a machine learning conference and so
+like I think it's actually really
+important that like we look at this all
+in a bigger perspective okay and so what
+do you guys do to like keep that in mind
+I imagine you just have like a whole
+policy team to manage that s kind of
+what we're responsible for is like
+keeping track of a lot of this stuff
+right and like getting a better
+understanding of like who is researching
+in the space um because as I said you
+know like I think we're still really
+early on in this technology right like
+again if you had asked someone 10 years
+ago whether or not neural were going to
+be a thing they'd be like yeah I don't
+know it probably wouldn't work right but
+like if we're at a phase right now where
+like suddenly has become technically
+real I think now that understanding is
+just starting to percolate out to a
+bunch of other fields who are like okay
+well I guess this now we got to assess
+what's going on and so do you see
+companies and and organizations and
+countries like locking their Gates
+because they're scared because it feels
+new like it's obviously massively hyped
+but there's also some reality behind it
+um has there been a negative reaction
+yeah I wouldn't say so I mean I think by
+and large what we're seeing is that a
+lot of governments are just really
+curious they actually want a better
+understanding of what's going on so in
+many cases I think what we're seeing is
+like people asking you know like what is
+happening in the technology okay so I
+think you know the phase of what to do
+about it is still on its way right so
+that you like give them you know the
+PowerPoint deck and they're like oh okay
+I kind of get how this works and then
+they go home you know whatever to like
+Japan and they're like okay they think
+about it that's how works yeah I think
+so I mean this is how government
+progresses right is like I think like
+they ask questions to get information
+and then there's like a long process of
+figuring out what you do around it right
+but I mean that isn't to say like there
+isn't like laws and other regulations
+being passed that have relevance for
+machine learning right so one of the
+most interesting aspects of the gdpr
+which is a new privacy regulation in
+Europe is uh the potential for this what
+they call kind of a right to explanation
+so the idea is for certain kinds of
+automated decision-making it might be so
+significant as to require or give
+citizens the right for uh that system to
+be able to produce some kind of human
+understandable explanation for what it's
+doing and like that raises all sorts of
+interesting challenges about like how
+you actually pull that off and so like I
+would say like I don't want to make it
+sound like no governments are taking
+action but I think like that's that's
+the beginning part of it right like and
+I think like by and large The Stance of
+most governments have been to like
+understand what's going on do you think
+someone's doing it particularly well
+now um yeah I mean I I was really
+excited by some of the stuff happening
+out of the UK okay so last year they
+actually did a report that was on kind
+of like giving a an account of like the
+risks and opportunities from artificial
+intelligence and I think there was like
+a really good account of that so and
+then last year with the uh under the
+Obama Administration um there was a
+really good report that they did as well
+on the topic okay and so like can you go
+specific on that uh yeah sure so I mean
+I think the what we at least have it in
+the uh what we at least had in the the
+US case right was basically a report
+that like really focused in on like okay
+what are the real concrete risks here
+yeah and part of the idea was to Pivot
+away from discussions that were just
+like okay the main thing we've got to
+talk about here is whether or not robots
+are going to destroy us right like or
+decide to take over right which I agree
+is like kind of an interesting scenario
+to consider but like right like there's
+a lot of like core near-term problems
+that need to be dealt with and I think
+that was one thing they did that was
+very useful so well aside from the stuff
+we've talked about where what do you
+find to be particularly exciting both
+like here like at a you know local Bay
+Area level as far as like research and
+then at you know Global International
+research level moving this stuff forward
+yeah so I think there's two things that
+I find really interesting right now one
+of them uh is the intersection of
+machine learning and art right so like
+largely this is a technology we've been
+using to solve like pretty pragmatic
+things right which is like how do we
+ensure that we can adequately recognize
+like cats in photos um but like what's
+really interesting is a bunch of people
+are kind of playing around right now
+with the intersection between like oh
+could I use this for like artistic
+purposes so's really
+fun Google called a experiments which is
+a lot of kind of like things like this
+which kind of demonstrate the kind of
+artistic possibilities of Technology we
+also have another program called magenta
+which is looking into machine learning
+and music and like whether or not
+there's ways of kind of creating better
+creative collaboration between humans
+and machines on that front H and and
+have you experimented with it personally
+uh yeah some of it's really fun there's
+one project which is basically like a
+melody generator like you play some
+notes on a piano and then the computer
+will play alongside like harmonize with
+you yeah exactly right and you kind of
+like improvise with the with the
+computer which is super cool uh there's
+another project called maroder cam which
+you get on your phone okay which is like
+you take a couple of photos of things in
+the room and it produces this like
+boopin like electronic dance hit that
+has like that uses the words of the
+objects in the room as like a rhyming
+you know set of lyrics super cool yeah
+and a great example of like how the
+technolog is becoming like really
+accessible because again if you wanted
+to like do that like 10 years ago it
+would have required like a huge amount
+of money and like you know a bunch of
+phds has try to work on this problem
+right yeah I'm I've been fascinated with
+that like how it's become distributed
+just even in the past like year like I
+you I told you about all the speech to
+Tech stuff that I'm working on like man
+like the Fidelity of it is shocking just
+in like one year right right and so it's
+gotten like way better which I think is
+super interesting um I think the other
+thing is also like trying to figure out
+like uh there's these like really
+unexpected things that emerg too so the
+other thing that's I think is really
+cool right now is there's a paper that
+came out from Deep Mind I think earlier
+this year that was kind of like if you
+get two machines to talk to one another
+they will eventually and you can set up
+another computer to basically say like
+oh I can read what you're saying I can't
+read what you're saying you can
+basically train these two systems to
+come up with the rudiments of encryption
+without even necessarily needing to
+program encryption into the computers
+which is also like super cool as well
+they they learn how to accomplish that
+task and it's not like very good
+encryption but like the basics are
+basically learned by these systems so
+long as you give them good reinforcement
+on like okay that's still cognizable I
+can still understand understand what
+you're saying versus like a third party
+being like oh I can't do that oh man and
+so do you have thoughts on like how this
+will become distributed in such a way
+that any day like we'll be interacting
+with it in our everyday lives as just
+like fun projects like will it be
+existing in the Art Space will like be
+uh you know like training new
+programming languages for folks to work
+on when they're younger yeah I mean I
+think like there's there's you know as
+talking to Peter norvig who is like one
+of the researchers we have is's like one
+of the you know founding fathers of AI
+and he had this really interesting
+thought which is basically that like we
+may be approaching the period where we
+actually have to entirely rethink how we
+teach computer science because like
+machine learning is such a powerful tool
+and also cognitively it works in a way
+that's like totally uh you know
+counterintuitive right so like I do less
+software than I used to but like
+definitely when I was in the trenches
+doing coding work it was very much like
+okay like let's get a bunch of smart
+people in the room let's come up with a
+bunch of rules and then like get get
+those rules into the Machine versus as
+much different kind of mode of thought
+right which is basically like let's
+present the machine with a bunch of
+examples and then verify whether or not
+the machine has learned the proper
+lesson and so his idea is like actually
+we may actually really want to think
+about how we' read like think about CS
+from like the very first moment you step
+into a classroom which I think is like a
+super compelling idea because it was
+always thought of like oh machine
+learning is just going to become this
+complement to like how you do uh
+programming but I wonder whether that
+software in the future will actually
+look more more like machine learning
+focused right and like you actually
+change your entire approach to
+programming systems oh man that's
+fascinating I mean it's already kind of
+gone that way in that like many CS
+programs are so technical you actually
+never build a web app like like you can
+go through Stanford Cs and never build a
+web app yeah and I think it's a very
+natural Trend that like you know we're
+getting to higher and higher levels of
+abstraction so like in some ways machine
+learning is this like ultimate level
+abstraction where it's like even if you
+wanted to understand what's happening in
+like a neural net like it might be
+actually like kind of difficult to do so
+right yeah I mean I guess so but I I see
+it becoming like there's just new ways
+of thinking about how you ought to be
+programming right like how you structure
+the code because at a certain point
+things will just become abstracted and
+you won't have to do it anymore like I
+think about it in the context of like
+you know parse creating an API right
+like that will exist for many things
+like I could see like a Squarespace type
+thing but for like a proper web app
+right and you just drag your database in
+go you never even think about it that's
+right yeah yeah and so ironically like
+programmers might lose their jobs way
+sooner than they think um particularly
+interesting because like we actually
+like there's this emerging research
+right now which is using machine
+learning to train machine Learning
+Systems yeah whereas like this meta
+level where like right now there's a lot
+of handwork that goes into building a
+model so it learns the right
+representations but like if a machine
+can do that in the future it gets even
+more abstracted where you may not even
+need to be like a specialist because in
+some ways the machine kind of like codes
+itself so so I think one thing that a
+lot of people are curious about is how
+you're actually going to build a
+business around AI
+um so just for like we can start Broad
+and then go more narrow do you think AI
+will be like dominated by Massive
+companies like Google Facebook um or
+will you know they'll be very successful
+AI products on the small scale M yeah so
+I actually think that there's actually
+like a ton of room for competition here
+and it' be interesting to see how all
+the various companies find their niches
+in the space um I think there's two
+really interesting Trends right now
+right I think one of them is the
+emergence of like Cloud platforms right
+where basically all the companies have
+Bas have said like there's a long tale
+of uses that we would never be able to
+like take advantage of but we may be
+able to like provide the services that
+like power those Services right and so
+like for example Google is offering like
+Cloud ml right now uh and I think it's a
+really interesting development in the
+space which I think creates a lot of
+opportunity uh because it means that
+there's all these industries that might
+not necessarily be like AI Industries
+they might be able to like seize the
+benefit from the technology so that
+seems like a pretty huge thing to me um
+I think a second one which is really
+interesting is like some of the oneshot
+learning stuff we talked about earlier
+right which is basically that the amount
+of data you need in to pull off certain
+types of machine learning applications
+is going down over time and what that
+tells me is that there might not be
+necessarily a first mover advantage in
+this space where you may actually have
+collected a bunch of data but if it's
+not the relevant data and also the
+amount of data you need is going down
+over time then the real big challenges
+less data and actually more your ability
+to build like good interfaces and good
+experiences around the technology
+yeah I've been wondering about that like
+as I play around with it and build like
+tiny little web apps and stuff like how
+much of this is just entirely reliant on
+the product as like it's all plug
+andplay and so to a certain extent like
+folks can almost guess which techniques
+you're implementing which apis you're
+using and if they're faster with better
+engineers and then they have like the
+Magic Touch of like the product person U
+I don't see any reason why they can't
+just jump ahead yeah right right and I
+think we're maybe fooled by like the
+nature of the field right now where it's
+like ah we got to get like the most
+researchers to go and compete on this
+thing and like that is like a big
+important part of it because they're
+producing a lot of like the
+breakthroughs in the space but it is I
+think important to consider too that
+like there's still like this big open
+question of like how this actually
+becomes like effectively part of product
+oh well absolutely I mean um we did an
+interview at Buu and it may or may not
+come out before years uh so we might do
+like a fourth wall jump but um they
+explicitly are focusing on things for
+over 100 million people and you're like
+oh okay well I can build plenty of
+successful startups or businesses for
+less than 100 million maybe even a
+million um and so yeah I think there are
+just all these fantastic opportunities
+for people and yet folks seem to be
+focusing on very similar implementations
+you know whether it's like chatbot or
+like you know customer service which I
+guess is effectively the same thing um
+why do you think that is is it they just
+like follow what seems to be like the
+market leader or these like the most
+obvious yeah I think people are also
+still trying to figure it out right like
+um and I can't I think we can't avoid
+like that AI is like a technology but AI
+is also like like a position it's a
+marketing position right which is I
+think is actually like a really key part
+of the picture right was like why do we
+think about like Siri or like the Google
+Assistant as like AIS but we don't
+necessarily think about like the
+Facebook news feed as an AI right like
+these are all systems that are all
+powered by Machine learning but there's
+something about like it's it's
+representation as like oh yeah this is a
+machine that talks to you that like
+makes our brains snap immediately to
+like pop culture you know equals AI
+right and I think that ends up being a
+really big part of it too is that
+there's a lot of incentives to like
+correspond to what we think of as AI um
+even though like some of the most
+powerful AI applications may not even
+come in the form of like a personified
+you know personality well I think that's
+a that's a super interesting angle it's
+like out here seemingly it makes sense
+to like raise your money as like an AI
+business but like when you look at
+Facebook right Facebook if you log in
+doesn't say AI anywhere uh and clearly
+they have a lot of people using it um so
+I wonder if it is like a massive
+positioning thing that many companies do
+end up missing because you just have to
+get like the nerdy people interested in
+it to sell it to raise the money if
+you're going to do Venture back or
+whatever uh but then your end user is
+like why am I paying all this money for
+this like chat bot this thing I mean
+like for example yeah if you want to
+talk about like one of the most critical
+applications of machine learning to date
+it's like spam filters right like spam
+is like this incredibly huge systemic
+problem on the internet it is like
+largely contended with by Machine
+learning right now like that's like
+largely the tools that we use to deal
+with it and like that's like an
+application that we never think about
+right like so like with many
+Technologies the most important
+applications will be some of the least
+visible H so what um what are you
+excited about what are you going to
+build what are you going to build space
+yeah uh I got to think about it some
+more I mean I you know I'm really
+interested in these kind of like small
+scale machine learning projects um I
+think we might have talked about it
+earlier but like uh we had this really
+crazy story where it turned out that
+there was this cucumber Farm in Japan
+that was using machine learning to build
+like a really cheap machine learning
+like robot that would sort cucumbers it
+turns out like cucumber sorting is a
+really big problem in the machine in the
+in the Cucumber farming space right and
+and that was basically just trained
+using like 3,000 or 4,000 like photos of
+cucumbers uh and that was sufficient to
+train a model to do like a pretty good
+job at like sorting cucumbers and like
+so like I I'm really interested in this
+kind of like artisanal machine learning
+where like it's like what are these kind
+of like very specific daily problems
+that I have and it's a good way of I
+think wrapping my head around like okay
+what are actually going to be like the
+practical uses not necessarily like the
+like Cadillac uses that I think we're
+being we're seeing right now which are
+like the demonstration uses of the
+technology and then you can open up like
+Tim's General store online yeah people
+like download like Tim's cucumber app
+right yeah I mean U my uh I I cracked my
+iPhone uh earlier and um was getting it
+fixed this morning and the guy had an
+entire box of assorted iPhone screws
+from a from literally like an iPhone you
+know iPhone one uh to an iPhone 7 now
+and these are just like he's got like a
+side hustle uh buying and selling
+iPhones that are like broken online and
+if they're totally damaged he just like
+strips all the components but he spent
+like half like trying to figure out what
+screw would fit so like there you go you
+can like use like Tim screw identifier
+right right like it's super handy stuff
+uh yeah I think it will be like just a
+lot of small things like that um and
+what's particularly interesting is like
+going back to a little bit what we're
+talking about earlier like what is the
+cost of solving a problem through
+machine learning and what is the cost of
+solving a problem through like
+traditional coding right and that's
+actually maybe one way of thinking about
+the problem right like for example for
+computer vision right like now the
+economies are way in favor of machine
+learning just way easier to design an
+effective machine learning IM image
+recognition system with yeah with ML
+than it is with like traditional kind of
+coding techniques and I think that's
+actually one really interesting way of
+thinking about is for a given task how
+long until machine learning is like the
+preferred way of solving this problem
+with the computer it totally makes sense
+as like new kinds of entrepreneurs pop
+up in these like very small Niche things
+that are essentially like one developer
+projects that previously like might have
+even seemed like way too laborious to
+spend your time engineering like you're
+never going to pay someone to do it
+you're not going to do it yourself but
+you know you start plugging into like
+these Cloud ml things and all of a
+sudden you have this app um as far as
+distribution I don't know like I've
+heard more and more people talking about
+like localizing certain things to the
+device which makes them amazing yeah um
+have you experimented with that yet yeah
+so we're actually working on a little
+bit of research around that I haven't
+played around with it myself but uh for
+example there's a couple papers around
+what they call Federated learning where
+which is exactly working on this premise
+which is the bet is okay well what
+happens in the future where the edges of
+our Network like the phones like have
+way more powerful processing power like
+is it possible for us to basically do
+the majority of the training for these
+systems like on device and with like
+basically a lot less data kind of like
+flowing into the cloud and the idea was
+basically like the the local model would
+update and it would share its learnings
+with all the other devices in the
+network um and it's like a really
+interesting way of thinking about how
+you actually do this
+because what you ideally want to have is
+uh models that are loaded on the device
+right and can also train on the device
+as well right because right now one of
+the ironies is that there's bigest
+disparity between like training is
+computationally intensive data intensive
+and then actual execution right which
+can be actually like pretty low low uh
+computational test it also creates a
+giant latency problem with everything
+that's like in Big quotes AI right now
+like you know most people if you give
+them Siri they're like it's constantly
+broken but if you communicate with it in
+a way that's like you didn't understand
+let me go again immediately afterward
+all of a sudden the experience entirely
+different yeah and latency ends up being
+really key not just for like
+conversational interfaces but you think
+about like you know for example like how
+do we deal with like using this in
+medical right where you need may need a
+response really soon if you're going to
+use it for like diagnosis or whatever
+totally like if this thing turns into a
+robot surgeon arm and I move it to the
+Amazon like I can't rely on my like you
+know hot spot connect it that's right
+yeah yeah and so yeah I think again
+we're like talking about implementation
+which ends up being like this really big
+piece of the AI picture which is still
+being worked out like we know we can get
+machines to do these remarkable things
+the question is like what do people
+actually want out of it so I guess one
+of the last questions I have for you is
+you know people are interested in AI
+machine learning across the board uh or
+at least people paying attention to this
+are into it if someone wants to get more
+into it and they're thinking about like
+H how do I position myself like what
+should I pay pay attention to where
+should I focus cuz like you know now
+tens of thousands of people are checking
+it out um what would you say what would
+you focus on so I think there's two
+really interesting problems in the space
+right now that like desperately need
+more people to get involved in and more
+people to kind of like like organize
+events around okay so one of them is I
+think this like security uh thing right
+we're like in the traditional computer
+security space we've got like events
+like Capture the Flag where people can
+kind of like show their medal in their
+ability to kind of like secure
+compromise systems I actually think we
+really need that in the machine learning
+space and I be really excited to see
+that which is like so imagine a game
+where like you have to train a machine
+learning model on a set of data and then
+people will take turns trying to like
+get past your computer vision system for
+which I think would be super cool to do
+um and I think like that's one big piece
+of it that I think would be really cool
+for people to work on I think the second
+thing that's about to be in really
+strong demand is thinking about the
+visual dimension of this right which is
+like happens on a couple levels that's
+both like the interface of how you work
+with machine learning systems but also
+just like visually how you represent a
+neural net like if you've read the
+technical papers one of the things that
+you'll see is just like that's like
+largely written by Machine learning
+experts and so like they don't really
+have a good sense of like how do you
+visually portray what a neural net is
+doing and that stuff ends up being
+incredibly important for people to like
+both understand the technology um and
+and also be able to like use it
+effectively and so I think that's
+another thing that's about to come on
+the way is like basically a really high
+demand for people who understand this
+research and could give it good voice in
+terms of like representing it visually
+and then if someone isn't into machine
+learning yet MH what would you recommend
+they read study uh watch what should
+they check out so I mean I I think it's
+really nice because we're now living in
+a world where there's a lot more
+resources for how to learn about machine
+learning so I'm a huge fan of Ian
+goodfellow's textbook on deep learning
+um it was really funny I was in
+Cambridge picking up a physical copy of
+this text book cuz MIT press is the
+Publishers and the guy selling me the
+book was like this is like the Harry
+Potter of technical guides because it
+had been like flying off shelves so
+aggressively uh so it's it's really good
+though it's it's reputation is very
+welld deserved okay um and I you know
+one of the things I've been thinking a
+lot about is kind of like the history of
+all this right like it's important to
+recognize that like AI has been through
+this hype cycle before and there have
+been long AI Winters where this
+technology is totally oversold itself
+and it's like important to understand
+those Dynamics so two books I'll mention
+one of them is John markov's machine of
+loving grace uh which is all about kind
+of like the history of AI and
+particularly its competition with the
+notion of uh uh IIA right intelligence
+augmentation okay which I think is a
+really interesting battle that we're
+having right now right in terms of like
+what this technology is really about and
+what it should be used for um a second
+book which is great which is also by MIT
+press is cybernetic revolutionaries okay
+which talks about basically the Chilean
+iend government so it's basically the
+socialist government like during the mid
+20th century um and they tried to
+basically set up a project called
+project cyers where they were like let's
+automate the entire economy so all
+factories will have to produce data
+links that will connect to a single
+Central Command Center where we will
+like actively control the economy uh and
+it's a great initial another example of
+kind of like oh like kind of like the
+the history of cybernetics but also it's
+like implications for like what people
+tried to do back then that I think
+useful for like you know making sure we
+understand what the limitations of the
+technology are today that's very neat I
+haven't read that I will absolutely
+check it out um cool man so if anyone
+wants to follow you online where do they
+go oh sure I'm uh I'm on my website is
+at Tim hang t mhw n.org uh I'm not the
+Korean pop star of the same name uh and
+I'm also on Twitter at Tim hang so tihw
+n g very cool all right thanks dude yeah
+thanks for having me Craig

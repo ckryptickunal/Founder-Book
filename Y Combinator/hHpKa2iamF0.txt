@@ -1,0 +1,1138 @@
+Title: An AI Primer with Wojciech Zaremba
+Video ID: hHpKa2iamF0
+URL: https://www.youtube.com/watch?v=hHpKa2iamF0
+Channel: Y Combinator
+Published: 2017-05-17T15:58:08Z
+Duration: PT55M
+Views: 19526
+Likes: 265
+Tags: YC, Y Combinator, Podcast
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 1112
+
+Description:
+Wojciech Zaremba is a cofounder of OpenAI: https://openai.com
+
+OpenAI is a non-profit AI research company, focused on discovering and enacting the path to safe artificial general intelligence.
+
+Read the transcript here: http://blog.ycombinator.com/an-ai-primer-with-wojciech-zaremba
+
+YC's podcast is hosted by Craig Cannon - http://twitter.com/craigcannon
+
+============================================================
+TRANSCRIPT
+============================================================
+
+hey uh today we have voy zemba and we're
+going to talk about AI so voy could you
+give us a quick background uh I'm a
+Founder at open AI uh I'm working uh on
+robotics I think that uh deep learning
+and AI is uh great application for uh
+robotics uh prior to that I spent a year
+at Google brain and I spent a year at
+Facebook a research and uh same time I
+graduated from uh uh I I I have finished
+my PhD at NYU can you explain how you
+pulled that off that seems pretty rare
+so the great thing about the both of
+these organizations is that they are
+focused on Research so throughout my PhD
+I was actually publishing papers over
+there uh yeah I I highly recommend both
+organization uh as well as of course
+open AI yeah okay so most people
+probably don't know what open AI is so
+could you just give that quick
+explanation so uh open AI um focuses on
+building AI for the good of humanity um
+we are a group of researchers and
+Engineers um collaborating together who
+essentially try to figure out what are
+the missing pieces of artificial of
+General artificial intelligence and how
+to build it in a way that would be uh
+maximally beneficial to humanity as a
+whole uh open AI is uh greatly uh
+supported by Elon Musk and Sam Altman um
+in total um We Gather an investment of
+$1 billion in the group which is quite a
+lot and so what are I mean I know some
+but uh what are the open AI projects so
+there
+is several large projects going on
+simultaneously we have also we are doing
+also basic research so uh let me first
+enumerate um uh large projects
+um these are uh robotics so in terms of
+Robotics we are working on um
+manipulation we think that manipulation
+is the complet it's the one of the parts
+of Robotics which is the most unre
+unresolved sorry just to clarify what
+does that mean exactly so it means that
+um so so in robotics there are
+essentially three major uh uh three
+major families of tasks one is
+Locomotion which means how to move from
+let's say how to walk how to move from
+point A to point B second is navigation
+U it's say you are moving in the
+complicated environment such as for
+instance a flat or um a building and you
+have to figure out actually uh to which
+which rooms which rooms have you visited
+before which not and uh where to go uh
+and the last one is manipulation so
+means um you want to grasp an object
+let's say open an object uh Place
+objects in various locations and the
+third one is the one which is currently
+the most difficult so it turns out that
+when it comes to arbitrary objects Uh
+current robots are unable to just grasp
+an arbitrary object for any object it's
+possible to hand code a single solution
+so say as long as let's say in Factor if
+you have uh same object uh like I don't
+know we are producing glasses and there
+there exist a handc coded solution to it
+there there is a way to uh by code to
+write the program saying let's place a
+hand in the middle of the glass and then
+let's close it but there is no way so
+far to write a program such that it
+would be able to grasp an arbitrary
+object okay gotcha and then um just very
+quickly the other open a AI projects
+going on so another one has to do with
+uh playing a complicated computer game
+uh and the third one uh has to do with
+playing large number uh of uh computer
+games and you might ask why it's
+interesting uh and in some sense we
+would like to see yeah um that so so
+human is uh has an incredible skill of
+being able
+to learn extremely quickly mhm uh and it
+has to do with a prior experience so
+let's say even if you haven't played
+ever a volleyball if you try it out for
+the first time in within 10 or 15
+minutes you would be able to grasp uh
+how to actually how to play and it has
+to do with all the prior experience that
+you have from a from different games if
+you would put the child or like if you
+would put an infant uh on the volley
+ball uh court and ask us him or her to
+play it would fail miserably but I mean
+due to the fact that it has experience
+coming from large number of other games
+uh or let's say other uh life situations
+it's able to actually transfer uh all
+the knowledge so uh at open AI we're
+able
+to pull together large number of
+computer games and computer
+games can be it it's quite easy to
+quantify how good they are in the Compu
+game currently best AI system so so
+first of all it's possible for many
+computer games to write the program that
+solves it pretty well uh or plays it
+well and there are also results uh from
+let's there are results uh in terms of
+reinforcement learning or in terms of
+so-called deep reinforcement learning
+showing that it's possible to learn how
+to play a computer game these are uh is
+that like the initial results are coming
+from Deep Mind uh and
+um but
+simultaneously
+um simultaneously it takes extremely
+long time like in terms of real-time
+execution to learn to play computer
+games so uh for instance uh Atari games
+uh when for for instance in terms of
+real time execution it takes something
+around three three three years of of
+play to learn to play Simple games uh I
+mean it it can be hugely paralyzed
+therefore it takes few days to train it
+on current computers but
+uh but it's way shorter for human we can
+in 10 minutes we can kind of teach it
+how to play and win yes okay and is that
+through you giving it feedback so the
+way how it works in uh case of computer
+games um the feedback comes from
+computer from the score so it looks at
+the score in the game and tries to
+optimize it and U I say that's kind of
+reasonable but I would say simultaneous
+it's not that satisfying to me so the
+reason why it's not that satisfying to
+me so so the Assumption uh underlying
+reinforcement learning is that there
+there is some uh some environment and I
+environment you are an agent and uh
+you're acting in environment by
+executive actions and getting rewards
+from the environment and rewards might
+be thought as let's say pleasure uh or
+so and the main issue is that it's
+actually not that easy to figure out
+what are the rewards in the real world
+uh further on other underlying
+assumption is uh in being able to reset
+environment to kind of get to repetitive
+the same situation and so the system can
+try uh thousands or millions of times to
+actually finish a game uh so so there
+are some small discrepancies people also
+believe that it might be possible
+somehow to hard code into system rewards
+but I would say that's actually one of
+the big issues that it's kind of
+unresolved like when I look how my
+nephew plays computer game he actually
+he doesn't look in on scor because he
+cannot
+read and
+still yeah they can play pretty well so
+I mean you can say maybe reward is
+somewhat different maybe reward comes
+from um I can uh seeing a nice uh
+hearing nice voice in the game or so but
+I would say that's something what is
+very unclear how to uh how to build a
+system and what system should optimize
+so some sense if we have a metric that
+we want to optimize it's possible to
+build a system that could optimize for
+it but it turns out that in many cases
+it's not that easy and I would say
+that's
+actually one of the
+motivations why I wanted to work on
+robotics because in case of Robotics uh
+it's way closer to the uh system that we
+care about so what I mean by that um for
+instance let's say you would like your
+robot to uh repair scramble XS for you
+and so the question is so how to how
+should I build a reward and in computer
+games actually the nice thing is they
+are getting reward extremely frequently
+so let's say anytime you kill an enemy
+or let's say want die it's quite great
+but in case of scrambling eggs it would
+mean or the way how people write rewards
+for systems it would
+mean distance from hand to a pen then
+let's say somehow you have to quantify
+what's the if the egg is uh uh uh if you
+were able to crack open an egg or let's
+say if the U if you fried it
+sufficiently and how to how to kind of
+quantify it turns out to be extremely
+difficult and U also there is no way
+even to reset the system how to reset
+the system to the same place so okay
+these are like a fundamental issues and
+the reason why I'm personally interested
+in robotics is think that actually these
+challenges will tell us how to solve so
+let's start by defining a couple things
+so what is artificial intelligence what
+is machine learning and then what is
+deep learning okay these are pretty good
+and this these are pretty good questions
+okay uh so artificial intelligence is
+actually extremely broad uh the it's a
+extremely uh broad domain and machine
+learning is sub part of this domain and
+Essence artificial intelligence consist
+of any writing any software that um
+tries to solve some problems through
+some intelligence it might be handc
+coded uh solution rules rule based
+system yeah so pretty much it's actually
+very hard to say what is not artificial
+intelligence you can say that so initial
+version for instance of Google search
+was uh based on
+um it's it was avoiding any machine
+learning and it was uh
+uh there was like a welldefined
+algorithm called page Rank and
+essentially page rank uh counts how many
+incoming links are from other websites
+and that's artificial intelligence it's
+essentially system that does intelligent
+things for you and then um over the time
+uh Google search started to use machine
+learning because it was it helps to
+improve results uh but
+simultaneously they wanted to avoid it
+for some time as it's more difficult to
+to interpret the results and it's more
+difficult to actually understand what
+system does so what is machine learning
+MH uh machine
+learning uh it's
+essentially way
+of be building or let's say that's
+a you
+have data mhm and you would like to
+generate Based on data program with some
+Behavior so like the most common example
+which is still sub branch of machine
+learning soall supervised learning so
+you have pairs of examples X comma Y
+which means like I would like to Map X
+to Y for instance either if given email
+is Spam or not spam or let's say if an
+image uh what is the category of an
+image or for instance uh um to whom
+should I recommend given product
+uh and based on this data you would like
+to generate a program some sort of the
+blackbox or some function that for new
+examples would be able to give you uh
+similar answers and that's an example of
+supervised earning but the sense machine
+learning
+means that you would like to generate
+program from data okay and this usually
+uses uh statistical machine learning
+method so somehow you count some how
+many times given events given events
+occurred or so okay gotcha and then the
+third being deep learning so deep
+learning um that's Al that's a kind of
+uh that's uh one uh Paradigm in terms of
+machine learning okay and idea behind
+is ridiculously
+simple
+okay
+so
+um people realized that um if you want
+to as I said machine learning means that
+you get data as an input and program as
+the output and deep learning says the
+the the computation of the program the
+the the what I'm actually doing with
+this data should involve many steps okay
+not one step but many okay and pretty
+much that's it in terms of meaning of
+deep learning so you might ask why it's
+so popular now and how it's so different
+from what was there before so in turns
+out that if you assume that you do one
+step of computation let's say that you
+take your data and you kind of have
+single if
+statement uh or small number of if
+statements then like a like for instance
+say if you have a don't know let's say
+your data is U are is a recording from a
+stock market and they saying you're
+going to sell or buy depending on value
+is bigger or smaller than something
+or if um if let's say depending on who
+is the new president or so you you are
+making some decisions so a sense turns
+out that in case of models that are
+based on single step people are able to
+prove plenty of stuff mathematically and
+in terms of models that require multiple
+steps of computation uh mathematical
+proofs are extremely weak and for a long
+time models that do single step of
+computation they were outperforming
+models that do many steps of computation
+but recently it kind of changed and it
+it was for many people it was obvious
+for a long time that true intelligence
+cannot be done in single step mhm but it
+would require many steps but uh so far
+many systems actually they worked in the
+way that they had kind of
+very very shallow mhm they were very
+shallow but simultaneously extremely
+gigantic so what I mean by that you
+could uh generate let's say
+for for the task of Interest let's say
+it's a recommendation you could generate
+large number of features let's say
+thousands of them these are features
+saying uh for instance from um let let's
+say you want to do movie recommendation
+you can say is movie longer or shorter
+than two hours is it longer or shorter
+than 1 hour that's there are two
+features you can say uh is it drama is
+it triller is it something and you can
+generate million of these and
+then uh or let's say 100,000 that's
+actually quite reasonable value and then
+your shallow classifier can um determine
+based on the combination of uh these
+features either to recommend it to you
+or not okay uh in case of uh deep
+learning you would say let's kind of
+combine it for multiple steps and that's
+ESS I that's entire difference and in
+case of deep learning uh
+the most
+successful uh embodiment of deep
+learning is in terms of neural networks
+okay so let's define that too so neural
+networks it's also extremely simple
+concept and that's something that people
+came out
+with long time
+ago and means and and uh it means as
+follows
+it's you have an input this might be say
+vector or it might have some additional
+structure like let's say image so it's
+kind of a matrix two
+dimensional
+and
+you neural network it's a like a it's a
+sequence of layers layers are
+represented by matrices and what you do
+is you multiply your input by a matrix
+mhm and apply some nonlinear operation
+and multiply It Again by a matrix and
+apply nonlinear operation you might ask
+why would I even need to apply this
+nonlinear operation turns out that if
+you would
+multiply by two matrices M it can be
+reduced to multiplication by single
+Matrix like a a composition of two
+linear operators can be uh written as
+single uh linear operator you could
+multiply these matrices together and the
+result of the and and you could condense
+it into single Matrix okay and
+nonlinearity is something um like the
+the the the classical non larity but
+there so so
+say there are extremely large number of
+variant in terms of what I said uh
+but U what I just describ is so-called
+feed forward neural network so it
+essentially takes input multiplies it by
+matrix nonlinearity multiplies it by
+matrix examples of nonlinearities there
+is something that that that one which is
+classical something called uh sigmoid so
+sigmoid is a function that um it has a
+shape of s character S letter it's kind
+of close to Z
+for negative values it grows uh to half
+at zero and then goes up to uh one uh
+when the values are larger it kind of
+modulates the input and that's the most
+classical uh version of activation
+function it turns out that the one which
+is even
+simpler empirically works way better
+which is called re Rectify linear unit
+it and this
+one
+is ridiculously simple re is just
+maximum of 0 comma X so when you have
+negative value you set zero you have
+positive value just copy the value and
+that's it so you might ask
+so first of
+all what are the successes of that deep
+learning why we actually believe that it
+works why what change and
+why it's so much different than it was
+before and there like some few
+differ uh this is a good good question
+no it's exactly where I was going to go
+but I was going to uh ask beforehand um
+yeah why um why neural networks are a
+thing now as opposed to in the past the
+main difference is all the sudden we can
+train them to um solve various problems
+and let's say one family of problems
+these are problems in supervised
+learning so better than any other method
+they can map these examples to labels
+and then on the hold out data on test
+data they outperform anything else and
+in many cases they get superum results
+and is that just a function of like
+computational power that we have access
+to when it comes to models and neural
+network is an example of model there is
+always a question so how to figure out
+parameters of a model so there is some
+training procedure and the most common
+procedure for neural networks is soal
+stochastic radient descent it's a also
+ridiculously simple procedure and um
+turns out that empirically it works very
+well so people came out with vast number
+of learning algorithms stochastic
+radient descent is an example of one
+learning algorithm there others let's
+say there is something called heavan
+learning that motivate like that's
+motivated by the way how U neons uh in
+human brain uh uh learn but this one so
+far empirically is uh working the best
+okay um so then let's go to your the
+question you asked yourself which is why
+now like what's happening to make people
+care about it right now um
+so
+uh so since 20 years ago um there
+were several small differences in terms
+of how people train your networks and um
+there is a large increase in comput
+computational power um so I can speak
+about the major advances mhm so uh
+number one advance I would say that's
+even the the one advanc that's actually
+an old one but it seems to be uh
+extremely critical something called
+convolutional neural network okay um
+what does that mean yeah so
+uh it's actually a very simple
+concept so let's say your input is an
+image and U um let's say your um image
+is of a size 200 by 200 um has also
+let's say three colors so uh that would
+um um the number of values in total is
+actually 12,000 mhm uh so if you would
+actually squash into a vector this
+Vector would be of this size okay and
+then you can think that if you would
+like let's say to apply neural network
+to essentially multiply it by a matrix
+and let's say if you would like to have
+output of them multiplication of similar
+size let's say
+20,000 then all the sudden The Matrix to
+multiply it would be of a gigantic size
+okay and learning learn learning consist
+of estimating parameters of a neural
+network it turns out that empirically uh
+that wouldn't essentially work that uh
+uh if you would use uh algorithm of back
+propagation you would get quite poor
+results and people realized
+that u in case of
+images you might want to
+multiply by little bit special Matrix
+that uh uh also allows to do way faster
+computation so uh you can think that
+neural network as it applies some
+computation to the
+input uh so neural network applies some
+computation to the to the input you
+might want to constrain this computation
+in some sense so um you might think as
+you will have several layers maybe
+initially you would like to do very
+local
+computation and it should be pretty much
+similar in every location so we would
+like
+to apply the same computation in the
+center as in the corners maybe later on
+you need some diversification MH uh but
+you want to
+pre-process image the same way so the
+idea is
+that when you take an image or any
+actually two uh dimensional structure so
+other example is you can take voice and
+it turns out that you can by applying
+fer transform you turn voice into image
+and all the uh it's like a two
+dimensional it's a yeah so you take a
+waveform yeah and you apply for your
+transform okay uh and uh essentially uh
+on the x axis you have time as the uh
+Speech uh uh goes on and on uh Y axis
+you have different
+frequencies and that that's an image and
+speech recognition system
+they also they they treat sound as it
+would be an image I didn't realize that
+that's really cool okay so so that's why
+I'm saying that the the technique that I
+could the also like a kind of as a
+Sidetrack the cool thing about neural
+networks
+is it used to be the case that people
+specialized in processing text images
+sound and these days this is the same
+group of people people M that's really
+cool they we are using the same method
+so coming back to what is convolutional
+neural
+network um yeah as I mentioned You' like
+to apply the same
+computation uh all over the placing
+image and essentially convolutional
+neural network uh uh says when we take
+an image uh let's just let's just
+connect uh uh
+neuron with local uh uh local values on
+the image and let's copy the same
+weights over and over again M so this
+way you
+will multiply kind of uh multiply values
+uh in the center in the corners by the
+same uh uh same values in the in the
+Matrix okay so and input and add so
+input to the convulsion is an image and
+output is kind of also an image uh can
+think that that there is also some
+specific vocabulary so in the the this
+kind of three-dimensional images like
+you have height and uh you have also
+depth M so let's say in case of image
+that's three dimensions and then you
+apply convolution you can kind of change
+number of uh depth Dimensions usually
+people go to let's say I don't know 100
+Dimensions or so okay gotcha and then
+you kind of have several of these layers
+and then there are so-called fully
+connected layers which are just uh
+conventional matrices so I would say
+that's one of advances that actually
+happened 20 years ago
+already uh and another one which is it
+might sound kind of
+funny but for a long time people didn't
+believe that it's possible to train deep
+neural networks okay and they were um uh
+they were thinking quite a lot about uh
+what what are the proper learning
+algorithms uh and it turns out
+that um so so so let's say when you
+train a neural network you start off by
+initializing weights to some random
+values and it turns out that it's very
+important to be careful to what
+magnitudes you initialize
+weights and if you set it to right
+values and I can even give you some
+let's say intuition what it means turns
+out that then simplest algorithm which
+is called stochastic rate in this end
+actually works pretty well okay so some
+sense as um as I said that say layers of
+neural network they uh kind of
+multiply uh they multiply input by
+matrices and a property that you would
+like to retain it's you don't want the
+magnitude of the values to blow up and
+also you don't want it to shrink down
+and if you kind of multip if you choose
+random initialization it's easy to
+choose some initialization that will
+kind of you know turn the the the
+magnitude will keep on increasing and
+then if you have 10 layers and let's say
+in each of them you multiply by two two
+two two two and then the output all the
+sudden is of completely different
+magnitude and uh learning is not
+happening anymore and if you kind of
+just choose them and it's a matter of
+choosing variance or like a magnitude of
+initial weights huh and if you set it
+such that let's say output is of the
+same magnitude as input and everything
+works so basically just adjusting those
+magnitudes was what proved that you
+could do this with a neural network yes
+oh wow okay that's kind of ridiculous
+that let's say people haven't realize it
+for a long time but that's what it is
+and and when did when and where did that
+happen and it happened actually at the
+University of Toronto oh okay so the at
+the jeffre Hinton lab so the crazy thing
+is U people had several schemes in terms
+of how to train deep neural networks and
+one was called generative
+pre-training and uh so let's say there
+was some scheme what to do uh in order
+to get to such a state of neural network
+that all the sudden you can use this
+trivial algorithm called stochastic
+radient descent so there was like a anti
+involved procedure mhm and at some point
+um Jeffrey asked his student to you know
+compare it to uh like the simplest
+solution which would be adjusting
+magnitudes and like a showing how big
+difference there
+is that's crazy man oh my God okay so
+the a question that's a little bit
+broader is just like then what has
+happened in the past say five years to
+excite people so much about AI so I
+would say the most
+stunning um were so-called um imet uh
+results
+mhm so first of all I should tell you
+where was computer vision 5 years ago
+then I will tell you what what is image
+net and then I will tell you about the
+results so so um computer vision is a
+field where essentially you try to make
+sense of images like a computer tries to
+interpret what is on images and it's
+extremely simple to say oh here on an
+image there is a Cow Horse or or so but
+uh for computer image is just the
+collection of numbers so it's a large
+Matrix of numbers and it's very
+difficult to say oh um like how to it's
+very difficult to interpret what's
+the content and it was the case that
+people came out with various schemes how
+to do it and you know you could imagine
+I don't know maybe let's quantify how
+much of a brown color there is such that
+you can say it's a horse
+mhm like guess simple stuff but uh
+people of course uh came out with more
+clever Solutions
+but a systems where quite bad I mean you
+could Feit the picture of a sky test
+system and it was telling you that there
+is a
+car not so good yeah yeah so um then um
+um then F Fe Lee F Fe Le is a professor
+at Stanford uh she together with her
+students uh she uh she she collected a
+large data set of images and uh
+data set is called imag net it consists
+of 1 million images and 1,000 classes so
+that was by the time actually the
+largest uh data set of images and a
+class just to clarify being like car
+might be a class uh yes so there is um
+the the data set I would say it's not
+perfect um it has for instance it
+doesn't contain uh people that was one
+of constraints over there it contains
+large large number of uh breeds of
+dogs so that's the that's the query
+thing about it but uh same time I mean
+that's the essentially data set that
+made deep learning happen uh types of
+dogs um no the fact that it's so large
+so so what happened there was like a
+plenty of teams actually participating
+in imate
+competition and
+um uh and uh um let's say even as I'm
+saying there is 1,000 classes over there
+so if you have a guess random guess then
+probability that your guess is correct
+is essentially 0.1% the metric there was
+slightly different you actually if you
+you make five guesses and if one of them
+is correct then you are you are good
+okay because there might be some other
+objects and so on and
+um um and I remember when I for the
+first time when I have seen that SU made
+you know that system that someone
+created a system that had 50% error I
+was impressed okay I was like oh man
+it's like like 1,000 classes and it can
+it can say like with
+50% uh error what is there I was quite
+impressed but then during competition
+like a pretty much like all the teams
+got around a 25% error rate there like a
+there was a difference by 1% or like a
+for instance a team from University of
+Amsterdam some Japanese team like a
+plenty of people around the world and a
+team from University of Toronto uh led
+by Jeffrey Hinton uh and that's like on
+team was Alex ruseski and
+iasus uh they actually got to something
+like 15% so let's say pre all other
+teams they were like a 25% the
+difference was 1% yeah and the these two
+guys they got to uh 15% okay yeah uh and
+uh crazy thing is that within um so so
+so so within following three years on
+this data set the the error dropped
+dramatically I remember like next year
+the error got to let's say 11% 8% I was
+kind of You Remember by by that time I
+was wondering what's the limit how good
+uh can you be and I was thinking 5%
+that's like that's the best and even uh
+even they're they're like a humans
+trying to see how far they can get if
+they spend uh arbitrary amount of time
+on let's say looking on other images and
+kind of comparing to be able to figure
+out what is there I mean it's it's not
+that simple for human for instance if
+you have plenty of breeds of dogs and
+like who knows but but let's say if you
+if you can uh if you can use uh some
+external images to kind of compare and
+soone that uh that that helps but in the
+sense within several years people got
+down I believe to 3% error and that's
+essentially superhuman
+performance
+um and as I'm saying uh it used to be
+the case
+that systems in computer vision you take
+a picture of a sky they were telling you
+it's a car and all the sudden you are
+getting to superhuman performance and it
+turns out that these results actually
+are not just limited to computer vision
+that people were able to get uh amazing
+uh other systems let's say speech
+recognition or so so cuz that's like the
+underlying question right because like
+it's not I mean to someone not in the
+field like me it's not necessarily
+intuitive that computer vision computer
+image recognition would you know seed
+artificial intelligence so I mean like
+what came after that so so in the sense
+the uh the crazy thing is that the same
+architectures yeah uh worked for various
+tasks and all the sudden that
+the that fields which seem to be
+unrelated they started benefit from each
+other um so as I mention it turns out
+that problems in speech recognition can
+be of in very similar way you can
+essentially take speech apply for your
+transform and then speech starts to look
+like an image and you apply similar
+object recognition network to kind of
+recognize what are the sounds over there
+and like a
+PHS uh and uh so PHS are like a kinds of
+sound so that and uh then you can turn
+it into text and so that's where so it
+went to speech after images and then
+yeah then the next big thing was
+essentially
+translation uh translation was extremely
+surprising to people that's the result
+by ilus cover MH
+so uh translation is an example of
+another field that actually leave there
+by its own MH and uh one of the crazy
+things about station is input is of a
+variable length and output is of
+variable length and it was unclear even
+how to kind of consumed with neural
+network how to produce variable length
+input variable length output and uh uh
+and
+Yia came out with an idea there is
+something called recurrent neural
+network so I
+mean let's say recar neural network and
+conversional neural network they
+shared an idea uh which
+is you might want to use the same
+parameters if you are doing similar
+stuff mhm and in case of convolutional
+network it means let's share the same
+parameters in space so let's say let's
+apply the same uh transformation to the
+middle of image as in the corners and so
+on and in case of recurr neural network
+the says as will be reading text from
+left to right I can consume first word
+can create some hidden state
+representation and then uh then the next
+time step when I'm consuming next word I
+can take it together with this hidden
+representation and generate next hidden
+representation and you are applying the
+same function over again and this
+function consumes hidden representation
+and next word hidden representation and
+word hidden representation and word so
+it's uh It's relatively simple the cool
+thing is if you're doing it this
+way regardless of length of your
+input uh you have the same size of a
+network M mhm and the way how his model
+uh work and that's described in uh uh in
+paper called sequence to sequence
+essentially
+consume um word by word uh sentence that
+you want to translate and then when
+you're about to generate translation you
+essentially start emitting word by word
+and at the end you when you emit a DOT
+that's end that's so cool and it was
+quite surprising to People by the time
+they got to decent performance they were
+not able to beat
+U uh phrase based systems and uh now
+it's it's like outperform
+like a long time ago already
+uh and uh
+yeah one uh other issue that people have
+so with uh neural network systems like
+in case of translation the problem with
+deploying it on the large scale is that
+it's quite computationally expensive and
+U um it requires a and and in deep
+learning literature there are various
+ideas how to make things way way cheaper
+computationally after you train it so
+it's possible to throw away large number
+of weights or essentially turn floats uh
+32bit floats into uh smaller size uh
+numerics uh and so on and so forth and
+pretty much that's the reason why things
+are uh not largely deployed in
+production systems out there but neural
+network based Solutions are actually
+outperforming anything what is out there
+there are a couple more things I would
+like to just Define for a general
+listener um so there are a couple words
+being thrown around a lot so narrow AI
+General Ai and then Super intelligence
+um can you just break those apart sure
+so pretty much all AI that uh we have
+out there is narrow Ai No One built so
+far General Ai No One built super
+intelligence so narrow AI means
+artificial intelligence so it's like a
+piece of software that solves a
+single PR defined problem MH General AI
+means it's a piece of software that can
+solve huge vast number of problems or
+all the problems so you can say that
+human is General it's generally
+intelligent because you can give an
+arbitrary problem and human can solve it
+okay uh but for instance battle opener
+can solve only battle opening right uh
+so pretty much when we look at any tools
+out there at any software uh our
+software uh is good in solving single
+problem for instance uh our chess uh
+playing programs cannot drive a
+card and for any problem we have to
+create a separate piece of software and
+gener en artificial intelligence is an
+exam is a software that could solve
+arbitrary problems so how we know that
+it's even doable because we uh there is
+an example of a creature that has such a
+property
+yeah and then Super intelligence is just
+I assume just the next step yeah
+essentially super intelligence means
+that it's uh more
+intelligent than human um yeah cool so
+given all of that given that like we're
+basically at a state of narrow AI across
+the board at this point um where where
+do you think is like what's the current
+status of this stuff um where do you see
+it going in the next five or so years so
+as I mentioned there since machine
+learning there there body is also
+paradigms so the one of them is
+supervised learning there is something
+called unsupervised learning there is
+also something called reinforcement
+learning
+and so far the the supervis learning
+Paradigm is the only one that works so
+remark remarkably well that it's ready
+to be applied in business applications
+uh all other are not really there uh
+and um say you ask me where we are so we
+can solve this problem other problems
+they require further work it's very
+difficult to plan with ideas how long it
+will take to make them work the thing
+which is very different with
+contemporary artificial intelligence is
+that we are using precisely the same
+techniques across the board MH uh uh
+simil
+the majority of business problems can be
+framed as supervised learning and
+therefore they can be solof with current
+techniques M uh as long as we have
+sufficient number
+of input examples and what we want to
+predict and as I mentioned the purse can
+be uh extremely rich like output might
+be a sentence M and uh
+current systems work pretty well with it
+and nonetheless it requires an expert to
+uh train it yeah and so then given the
+um given like pretty substantial hype we
+see um what do you think of it all the
+the field is simultaneously underhyped
+and overhyped
+so uh from per perspective of business
+application as long as you have pairs of
+EX
+examples pairs from like a that indicate
+mapping like a what's the input what's
+the output it's we can pretty get pretty
+often get to superhuman performance mhm
+uh but in all other fields we are still
+not there and it's unclear how long it
+will take so give some example let's say
+for recommendation systems you have um
+often companies like Amazon they have uh
+examples of million millions of users
+and they know what they bought when they
+were happy or not and that's an example
+of a task that is pretty good for neural
+network to learn what to recommend to
+new users
+simultaneously uh Google
+knows uh what is the good search query
+for you because on the search result
+page you are clicking on the links that
+you are interested in uh therefore they
+should be displayed first
+uh and uh in other fields it's actually
+quite often more difficult like in case
+of let's say apple picking robot mhm uh
+it's difficult to provide supervised
+data telling how to move an arm toward
+uh Apple therefore that's way more
+complicated same time the problem of
+detecting where apple is it's well
+better defined and can be outsourced to
+human to annotate plenty of images and
+to uh give localization of the apple and
+quite often the rest of the problem can
+be uh uh
+prescripted by uh uh by
+engineer uh but the problem of how to
+place fingers on an apple or how to grip
+it it's uh it's
+not well scientifically solved mhm and
+so um I have a couple questions then at
+this point if if people were to be
+interested in in learning more about Ai
+and um and maybe you know working with
+open AI or doing something um how would
+you recommend they get involved and and
+educate themselves so
+say um good place to start is corsera
+corsera is pretty good there is also a
+lot of tensor flow to
+tensorflow is an example of a framework
+to train neural networks okay
+uh uh also uh Andre car
+patties uh class at Stanford it's
+extremely accessible uh you can find it
+on I believe on YouTube mhm yeah and
+then like in terms of um actual
+exercises so um in case of uh tensor
+flow tutorial
+um many of the problems uh so so I
+believe in case of Andre's class there
+there there there might be homework uh
+and in case of tensorflow exercises it's
+quite often easy to came out with some
+random thought after let's say reading
+like a I mean you can take for instance
+uh let say like the simple task over
+there is let's
+classify um let's classify digits and
+let's classify pictures of digits let's
+assign them uh classes you can try maybe
+download some some images from some
+other source like a flicker let's try to
+classify it to tags okay so so given
+that you guys are working on um with
+robots at this point um one of the other
+like things that's thrown in like kind
+of part and parcel with AI is automation
+uh specifically of like a lot of these
+low-level Blue Collar jobs what do you
+think about U the future maybe the next
+10 years of those jobs so I believe that
+uh we'll have to uh to offer to people
+uh basic income I I super strongly
+believe that actually that's the uh only
+way
+so I don't think that it will be
+possible for 40 years old taxi driver to
+reinvent uh himself every 10 years I I I
+I I think it might be extremely hard uh
+uh other crazy thing
+is people Define
+themselves through job and that might be
+another big social problem
+simultaneously they might not even like
+their jobs like a if you ask someone
+would you like your kid to uh to to sell
+in the
+supermarket to be a seller in the
+supermarket they would answer no and uh
+maybe it's possible to leave in the word
+that uh there is abundance of resources
+mhm and people can um just enjoy their
+life I think we're going to have to um
+figure out a way I mean maybe maybe will
+always find purpose but I think like
+making it easier to find that purpose
+will become much more important in the
+future if automation actually happens to
+the degree people talk about um and what
+about um what about just like you
+influences on you that like maybe have
+inspired you to work uh with robotics
+and in AI are there any like books or
+films or any media that you really
+enjoyed there is pretty good book called
+homod uh actually this describes the
+history um of humans and uh then speaks
+then has various predictions about the
+future or where we are
+heading that's one pretty good mhm
+um I mean there is nowadays there is
+like a plenty of movies about Ai and how
+it can go wrong what's the best one I
+think hair is pretty good okay yeah X
+makina is also pretty good cool all
+right do you have um any other last
+things you want to
+address um I think no no thank you okay
+cool thanks man

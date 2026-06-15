@@ -1,0 +1,44 @@
+Title: Gmail creator Paul Buchheit on the very first version of Google’s “Did you mean?” feature
+Video ID: _ZR1dWrkogA
+URL: https://www.youtube.com/watch?v=_ZR1dWrkogA
+Channel: Y Combinator
+Published: 2024-08-28T23:51:51Z
+Duration: PT58S
+Views: 14092
+Likes: 455
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 28
+
+============================================================
+TRANSCRIPT
+============================================================
+
+one of the earliest kind of magical
+features that we added was the did you
+mean uh you know the spell correction
+and so that actually comes from
+originally just my inability to spell
+I've never been very good at spelling my
+my brain doesn't like arbitrary patterns
+so like when I was in school math was
+easy because it's predictable but
+spelling always made me struggle um and
+so when I started at Google one of the
+first features I added was the spell
+corrector because I was looking at the
+query logs and I would see that I'm not
+the only person with this problem like a
+third of the queries were misspelled or
+something like that so it was like the
+easiest quality win ever was just to fix
+the spelling wait wait so you built the
+original spelling corrector at Google
+somehow I didn't um I did the first did
+you mean feature um and so but I built
+it just based off of kind of an existing
+spell corrector library and then but it
+would give really dumb Corrections like
+if you typed in Turbo Tax it would try
+to correct it to turbot axe turbot being
+a type of fish uh

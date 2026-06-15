@@ -1,0 +1,701 @@
+Title: Exa: Organizing the World’s Knowledge
+Video ID: 9ZQP7PfHnuI
+URL: https://www.youtube.com/watch?v=9ZQP7PfHnuI
+Channel: YC Root Access
+Published: 2025-09-03T14:36:49Z
+Duration: PT18M40S
+Views: 7183
+Likes: 150
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 676
+
+Description:
+Exa is one of the most ambitious startups in search, taking on a problem Google never fully solved. Fresh off an $85M Series B at a $700M valuation, its mission is bold: to organize the world’s knowledge once and for all.
+
+Will Bryk, co-founder and CEO of Exa, sat down with YC General Partner Nicolas Dessaigne to share how his team is building a search engine from scratch — for the systems that will shape the future.
+
+Learn more about Exa at https://exa.ai.
+
+Apply to Y Combinator: https://ycombi
+
+============================================================
+TRANSCRIPT
+============================================================
+
+[Music]
+So today I'm very lucky to be joined by
+Will Brick, the co-founder and CEO of
+Exa.ai. Exa just announced an incredible
+round series B of 85 million at 700
+million valuations. That's crazy.
+Congrats.
+>> Thank you.
+>> So to get started, can you tell us what
+problem you're solving?
+>> I mean the problem is that there's this
+new hit on the block. It's called AI and
+it needs to search the web. And so
+traditional search engines like Google
+and Bing, they weren't built for this
+world. They were built for humans. And
+so X is actually a search engine built
+for AI.
+>> What's different from a Google or normal
+search engine when you are targeting AI
+instead of humans?
+>> Yeah. If you think about a human versus
+AI, they are not the same. So like a
+human is like this lazy creature that
+types in a few keywords, gets a list of
+links that clicks on the links, like
+likes UI, all these things. An AI is
+like a super crazy like can like you
+know can type out a whole paragraph
+explaining what it needs like can scan
+like a thousand results and only wants
+the highest quality knowledge. And so if
+you're optimizing a search engine for
+this creature as opposed to this one,
+you're going to end up making all sorts
+of design choices. So for example, you
+need to be able to support more complex
+queries that an AI is not lazy and it
+can make those queries and you need to
+be able to support like a ton of results
+returned to the search engine. You also
+need to uh support like all sorts of
+customizations that customers that own
+the AI want to make. So it's just a
+whole different world really.
+>> So at the end of the day like this AI
+they work for a human. So how does human
+interact with the end result of that
+actions?
+>> Yeah. Because I mean ultimately
+everything is for the service of
+humanity. We're not just trying to make
+AIS happy. So I mean basically we serve
+companies. There's another there's
+another difference like we're not a
+consumer search engine like Google or
+Bing. We serve you know companies,
+enterprises, startups. Uh and they you
+know have some sort of product or
+application that it has AI inside it.
+And whenever that uh application or
+product needs to search the web, it'll
+use ExoA. So like Exa is powering under
+under the hood a lot of these systems,
+these AI products that a lot of us use
+every day.
+>> So if I understand correctly, I mean
+when I look at the market, I've not seen
+anyone else trying to do what you do
+today. Yeah.
+>> And people are relying on Google or
+maybe Perplexity, but there is no other
+product. Like how do you explain that?
+>> Okay. So there are a couple reasons why
+you don't see other companies doing
+exactly what we're doing. And it's
+because one, it's extremely hard. So
+like building a search engine from
+scratch, like people have been scared
+about doing that since Google existed.
+uh and like it takes years of research
+development. So you kind of need a team
+that's crazy enough to do it. But then
+also a very unique thing is our business
+model which is like we're not trying to
+be a platform that humans go to. We're
+trying to be search infrastructure that
+works under the hood on all these
+applications. That's just like a whole
+different like idea that no one really
+thought about and we just like were fine
+doing that. Like we are very happy
+serving the world and being search
+infrastructure like no one needs to know
+there's X underneath the hood and that
+just allows us to build all these things
+that like companies like Google and Bing
+just won't. And I think you have two
+products, right? An API and web set.
+What's the difference?
+>> This is very akin to uh OpenAI where
+they have, you know, their FA or they
+used to have their GB40 and then they
+would have their 03 uh they have their
+fast G40 and their slow thinking 03. And
+so we we also um we have, you know, our
+fast search uh that is synchronous and
+returns very fast. Uh and then we have
+our like slow one called websites. And
+it could take a minute or even 10
+minutes or some cases a day uh to get
+you the highest quality results. And I
+think the point here is that uh when AI
+systems are searching the web, they need
+a whole diverse spectrum of of latency
+profiles and so X is building that.
+>> So you started Exa uh before Chad DPT
+was even released, right? Uh at that
+time if I remember correctly, you were
+even trying to compete with Google to do
+a web search
+>> and like first maybe why did you try to
+do that and then second like what did
+change when chat GPT was released?
+>> Yeah. Yeah, sure. So we started EXO four
+years ago. This is way before chat came
+out. So this whole idea of search for
+AIs, it wasn't really uh it wasn't on
+our radi. Yeah, there was no AI to build
+search for but what we wanted to do was
+build a a better search engine than
+Google because at the time GB3 had
+recently come out. This is summer 2021
+and it was magical, you know, it could
+like understand a whole paragraph of
+text at like a deep level and at the
+same time there was Google which felt
+like it hadn't changed in a decade. So
+the idea for Exo was like what if we
+could build a search engine that could
+understand you on a deep level and give
+you exactly what you wanted and we kind
+of built it for ourselves like we want
+for humans. We built it for humans, but
+not we were like, you know, nerdy type
+of human. And the thing about nerds is
+like they want the highest quality
+knowledge. And so we were trying to
+build a search engine that like didn't
+give you SEO, it didn't give you ads, it
+just gave you super high quality
+knowledge, exactly what you asked for.
+And it turned out uh when Chach came out
+and we started getting all these
+requests for like API access for these
+AI systems to use search, the thing we
+had built was perfect for these AIs
+because, you know, nerds and AIS are
+actually very similar. They both want
+the highest quality knowledge. So we
+were the whole time we were actually
+building the ideal search engine for AI
+systems. uh we just didn't know it.
+>> And how fast after CHADP was released
+did you change direction?
+>> Pretty fast. So we we had this search
+engine that we had we launched on
+Twitter. It got a lot of excitement like
+Andre Carb with you retweeted it. It was
+pretty cool. Then chat came out two
+weeks later. Uh and that stole a lot of
+the thunder in the Twitter world. And
+then we pretty quickly started getting
+requests for API access cuz people
+started I mean the like the actual
+access to like uh chach level tech like
+came a little bit later like a few
+months later. But then we started
+getting API requests and at first we
+kind of just like dismissed them. We
+were like no no no like why would you
+even need an API access to the search
+engine like no we're building this like
+new type of technology. We didn't really
+think about it. And then, you know, I
+got requests from some one of the first
+ones was some uh VC uh in Germany and
+that was interesting. And then uh my my
+roommate was like building like all
+sorts of projects. And then at some
+point like we were like, "Oh, wait a
+second. There's something here." And
+there was actually this this big moment
+when me and Jeff were chilling in his
+room and like we were like, "Wait a
+second. What if we're a search engine
+for AIS?" And it was like and the second
+we said the the the expression, it all
+like clicked into place and was like,
+"Oh my god, that is the world that is
+coming." And it became very obvious. And
+this was like many years ago. So it
+still there weren't many AIs to serve,
+but it was very obvious where the world
+was going.
+>> And so did you change like direction
+like the next day?
+>> Yeah, right. Pretty much right away we
+started like building an API and like we
+were like okay let's give it to these
+customers. So we built an API. It was
+just a wrapper over our current search
+engine and then like with some uh
+pricing.
+>> Was that contran at that time?
+>> Yeah. I mean no one like we were the
+first ones to say search engine for AI
+and it sounded crazy at the time. Uh it
+doesn't sound that crazy anymore.
+>> Were there any other uh contran bets
+that you made in the early days? Yeah, I
+mean there were a lot. It's a very
+contrarian company I would say which I
+love. Like I I almost always do the
+thing that other people aren't doing.
+Like once people start to do a lot of
+things I want to do something different.
+A big one was just when we set out so
+again like four years ago we set out to
+build a new type of search engine. We
+were like okay how are we going to do
+that? Well we're going to you know the
+bitter lesson applied to search. We're
+just going to figure out a way to like
+pour a ton of compute into a search
+engine. How do we do that? Well we need
+to get a big GPU cluster. Uh so we were
+like okay let's raise a seed after YC
+and spend half of it on GPU cluster
+which was like insane that we had that
+conversation it was like an insane thing
+to do but but from first principles it
+made sense because we're like we need to
+develop new research in order to make a
+new type of search engine though it
+makes sense to spend most of our capital
+on that and yeah I mean in some ways we
+didn't follow a lot of YC advice but
+like we didn't talk to users you know we
+uh we just like you know focused for
+like a year and a half uh building a new
+type of search engine which which
+actually like turned out pretty well for
+me.
+>> YC's next batch is now taking
+applications. Got a startup in you?
+Apply at y combinator.com/apply.
+It's never too early and filling out the
+app will level up your idea. Okay, back
+to the video.
+>> Let's speak maybe a bit about the
+product and some of your choices. I
+mean, you decided to call the web
+yourself, right? Why not rely on an
+existing search engine? Yeah, I mean
+there's definitely partly an the
+identity thing here where it's like no,
+we're building a search engine from
+scratch, but also it it turned it was
+the correct uh business decision because
+by owning the full stack, we have full
+control over the technology and can like
+customize it for customers in all sorts
+of ways. And customers really care about
+you having your own search engine for
+various reasons. One is customization.
+Like, hey, I only want to search over a
+thousand domains. Like there are a lot
+of enterprise customers who want that.
+And like if you're wrapping Google, you
+can't filter to a thousand domains. It
+doesn't let you. or um you know if you
+want to get a thousand results instead
+of a hundred like you you only can do
+that if you own your own search
+technology. Uh then there are other
+things like zero data retention like if
+you want true zero data retention for
+like a financial customer which
+basically all of them need you need to
+have your own independent search engine.
+So and that's just a three like there
+are like tons of reasons and it it
+turned out to be totally the right call
+uh to build their own search engine just
+control our own destiny. Speaking of
+like crazy bad here, you also decided
+like very early on to build your own
+model like like there were like already
+some open source models. Why not just
+pick an open source model and fine-tune
+it?
+>> At the time the open source models were
+pretty bad. They're still bad. I think
+um the open source community like models
+for uh for like like language like like
+language modeling like generating text
+are pretty good. But in terms of like
+open source search engine models,
+they're they're they're very bad because
+like you take the best off the shelf
+embedding model and you uh you try to
+make a search engine out of that, it'll
+be really bad because these models are
+meant to search over like hundreds of
+thousands of documents, like millions of
+documents, not like hundred billion web
+documents that are very chaotic. And uh
+there are all sorts of reasons why like
+offtheshelf models don't really work
+well for search.
+>> And so I guess you are like constantly
+training this model. Like what does your
+infra looks like?
+>> We're constantly trying to think of ways
+we could pour more compute into the
+model to make it better. Uh and so
+that's why we have like like you know at
+first
+>> do you still have your own hardware? Uh
+>> we do have our own hardware. So we we
+we've leveled up to like uh from our
+original cluster now we have like a $5
+million GPU cluster. So 144 H200s. We
+call it the exa cluster because XA means
+18 uh 10 to the 18th and uh and it's 18
+nodes. But now we're going to get you
+know even way more compute with this
+series B. We're basically trying to uh
+teach this model about the entire
+world's knowledge. How is that different
+from like an touch like
+>> oh uh well an LLM is trained on the
+world's data but then it it compresses
+it into like a set of weights and like
+the problem is like it can't memorize
+the whole web. So like even if you just
+think about it from an information
+theory argument it's like the web is
+like you know a huge amount of pabytes
+and then like the GB4 size model is like
+a few terabytes. Like you literally
+can't fit the whole web into into the
+weights of this model. So, and that's
+why like an LLM will know when Albert
+Einstein was born, but it doesn't know
+when I was born. Uh, because it just
+hasn't memorized everything. And like
+the knowledge on the edge is is the most
+valuable knowledge. Uh, so so both like
+LLMs can't memorize the whole web, but
+also the web is constantly changing. So
+you're LM are always going to have to
+rely on search.
+>> So how do you make sure the results are
+actually good? Like how do you evaluate
+uh the results? like with just normal AI
+research like uh evals are extremely
+hard and uh it's hard to get like one
+eval that captures everything you want.
+>> Is there a benchmark out there that
+works for what you're doing?
+>> No. So uh there's really none. So like
+that that even makes it harder. So not
+like not only is there not you can't
+make one eval but and you you always
+have to have like a diversity of evals
+but then also like there there's no
+standardized evals around search
+engines. And so we're basically making
+those all inhouse and we want to be
+thought leaders here. like we want to
+publish we want we want to publish
+papers about like our eval how we run
+them so that other people can contribute
+and like really start that movement to
+have eval around search engine because
+it's so important uh but it just doesn't
+exist so it's been hard to evaluate the
+model and uh there's a lot of secret
+sauce that goes into the emails
+themselves
+>> but you're still going to publish some
+benchmark others can compare themselves
+to
+>> yeah yeah looking forward to that okay
+awesome looks like your customers your
+users are AI agents now right mostly
+like at least it's changing
+>> how do you see that evolving do you
+think that a few years from now it's
+going to be mostly agents.
+>> Yeah. I mean uh companies are at
+different stages of of uh integrating
+LLM. So like some people just use you
+know one LM call and then some people
+are doing building full full out agents
+and I think like over time everyone will
+move towards agents because they're just
+like smarter better. Uh they have
+different properties right like an agent
+can um take a longer time. Agents make
+more sense in uh products or workloads
+that are asynchronous. So I think like
+over time, yes, everyone moved towards
+agentic systems, but I mean an agent is
+really just like heav heavy calls of
+LLM. So it's not that different.
+>> Does that uh change the product in any
+way? Like how you're going to build the
+product.
+>> Yeah, I mean you can imagine what the
+world looks like with agents like I one
+thing we always do at X is like imagine
+what the world looks like and then build
+for that world. Uh because if you're
+building for the current world like the
+like AI changes so fast that like you're
+going to be outdated within a year. So
+like what will the world look like?
+Well, yes, there will be agents doing
+all sorts of taking all sorts of
+actions. And for example, one thing they
+might do is do like a hundred searches
+uh within one request. So you talk to
+your agent and then it does 100 searches
+in the background. Well then what do you
+need? Well, you need those searches to
+be really fast because like if it goes
+from like a second to 100 milliseconds,
+suddenly you've just 10x reduced the the
+latency of that
+>> latency is kind of like going to be high
+priority. Let's now talk maybe about the
+news you're announcing. So that crazy
+size B raising 85 million at 700 million
+valuation.
+>> Why now? Why is that much? Yeah, I mean,
+some would argue that that's not enough
+to build a a search engine from scratch.
+>> So, you're doomed,
+>> right? Uh, no, no, no. There there's a
+lot you could do with $85 million. Uh,
+and we've been very like frugal and
+clever about how we spend the money. Uh,
+for example, you don't have to index the
+entire web, but yeah, I mean, we're
+going to basically scale up everything.
+So, scale up uh our GPU cluster uh so we
+can do like way more research way
+faster. Um, we're going to scale up like
+our crawling and processing of the web.
+Uh, which the web is pretty big. So like
+uh uh it's not too big actually. It's
+actually it's it's manageable. We're
+getting to the point where it's like
+manageable. Um and then of course hire
+the best people in the world.
+>> Looking ahead, uh what does search looks
+like like five years from now? Like both
+for agents and for humans?
+>> Search 5 years from now is kind of I
+think of it as like the search that we
+should have had when I was born.
+>> Like you know cuz like we're a
+civilization that made it to the moon.
+Like we should have full access to the
+information in our world. Like there's
+so much information. There's so much
+knowledge out there and it's actually so
+hard to to find it and you know like you
+know whenever you like stumble upon
+knowledge you're like oh I wish I knew
+that before like that experience should
+go away and so like one way you can
+think about the world in 5 years is like
+any sort of request for information that
+you need should just immediately happen
+and you have no no blocker so for
+example like recruiting is an
+information blocker right now like you
+are a company that needs people to hire
+you should know all the people you need
+to hire convincing them is another thing
+but at least you should know about them
+like why why would you ever not like you
+should know who are all the engineers
+that perfectly match your company. And
+so that's like a search problem that we
+want to solve. Or for example, if you're
+trying to do sales, uh like you want to
+sell, you know, you're you're trying to
+sell to a certain type of company, you
+should know about all the companies in
+the world and if any new one comes out,
+you should immediately know about them.
+Like that there's like this coordination
+problem in the world that we just accept
+as normal. It's not going to be normal
+in five years. We're going to look back
+and be like, how on earth did they
+function without perfect information?
+>> Sounds like it's use cases you already
+are serving today, right? Yeah, we're
+already serving those use cases today
+and like they're very good, you know,
+far better than a lot of the stuff that
+exists out there, but um it could be
+perfect. I want it to be perfect.
+>> And speaking of hiring, I I guess that
+you'll hire even more now.
+>> Oh yeah, for sure. We're definitely
+>> What are you looking for?
+>> Yeah, we're looking across the board. I
+uh really the fundamental thing is like
+people crazy enough to build the next
+generation of search. We typically hire
+not for experience, but for like extreme
+like intelligence and hunger, extremely
+good engineers who are excited to like
+scale up a search engine to like a
+trillion pages. researchers or people
+who want to do AI research. You don't
+even need that much experience. But if
+you like you want to do experiments, you
+want to create training data, you want
+to create evals, like X is a great place
+to like learn those things rapidly and
+then just like become an expert. I mean
+also like just go to market people who
+want to sell like there's like a huge
+market for this like uh there's like a
+huge opportunity and so like also like
+change a lot of lives like like there
+are a lot of people there are millions
+of people using us now.
+>> You had that fun hack like these mass
+puzzle posters.
+>> Oh yeah.
+>> Can you tell us what you did there?
+>> We try to do creative things. So like uh
+in this case it was uh we were like okay
+how can we like hire people better? I
+had maybe we could do something fun like
+in the physical world cuz no one does
+that. And we were like oh wait what if
+we just put like posters around the
+city. Okay what will be on the posters?
+Why don't we make it like a puzzle
+because if an engineer sees a puzzle
+they're going to like a moth to a flame.
+They're going to want to solve it and
+then the puzzle will link to Exa and
+that'll be all this cute thing that will
+make them like Exa.
+>> Did you hire anyone?
+>> Yeah. Yeah. We hired one person from it.
+So that was like in terms of expected
+value was pretty high. Like it it took
+us like an hour to think of the idea,
+you know, an hour and a half to think.
+How many people applied?
+>> Oh, like 100 probably. Yeah.
+>> Okay. 100. And got one good hire out of
+that. Oh, that's that's worth it. Let me
+conclude maybe with a couple of
+questions about like more your
+entrepreneur like journey. What would be
+one thing uh you'd love to have known
+when you started?
+>> If I had known how constant the
+challenges are. Okay. So, every day I
+come to the office and there are four
+really hard problems like four fires and
+four amazing things happening. And that
+just never changes. And so like in the
+beginning maybe I was like a little like
+nervous about that stuff and like
+stressed but now I get excited about it
+because it's just part of the job. So I
+think just like the acceptance of there
+will be always problems and like a
+startup is almost like a sequence of
+problems that you solve until you look
+back and you're like holy cow we built
+this amazing thing and just like
+accepting that philosophy early on I
+think would have helped.
+>> Yeah. So so just said like it's super
+hard every single day you wake up and
+you have like only so many new
+challenges every day. Why do you do this
+man?
+>> Yeah. Right. It's kind of crazy right?
+Why devote a lifetime to stress? Well, I
+think it comes back to what I said about
+a noble cause. So, you know, we started
+this company really to organize the
+world's knowledge for real, like
+complete the mission that Google kind of
+never completed. And I know that's super
+important for the world and and I've
+been thinking about that for a long
+time, even way way before EXA. Like
+that's why we started and that's what
+keeps me going on the most fundamental
+level. I would say there's this new uh
+interesting motivation now which is just
+the game. Like it's just so fun and like
+you feel yourself leveling up. It it
+feels almost like a video game where
+you're like leveling up and then like
+the second you level up to like 10
+people and then 20 people, 30 people,
+then suddenly you have a new problems uh
+that are completely different. It's just
+thrilling to level up, level up your
+team, like build something together. And
+so that was something unexpected that it
+keeps surprising me and how like varied
+the problems are and crazy and they get
+harder but you get smarter and that's
+just it. It's
+>> you want to see what's next.
+>> I want to see what's around. I want to
+see what's on level 42 and you know 57
+and then I don't know what the final
+boss is but it's probably crazy. So was
+there any big challenge you faced along
+the way?
+>> I mean yeah there have been tons. I
+think one interesting one is uh you know
+right around the time chatbt came out
+when we were building our search engine
+there were rumors that Bing was like
+combining LLMs with search and we were
+like oh no is that going to like solve
+search and you know we were worried
+about Bing chat and then when it came
+out it didn't matter at all and I think
+the the learning there was you know
+don't worry too much about competitors
+uh because like you know they're
+building whatever they're building and
+often it fails and they have all their
+problems and like if you focus on what
+you're doing and just like if it's a big
+enough market you're going to dominate
+in whatever you're doing so like you
+know over the years like there have been
+so many like oh no is like Google going
+to do this is is Bing going to do this
+is open I going to do this and it's like
+it doesn't matter
+>> so you don't really care about
+competitors anymore
+>> I mean I think about them and it's
+important for like marketing and
+strategy but what matters more is uh
+team execution and like speed and
+velocity
+>> thanks thanks so much will for joining
+us today it was great to learn about
+your journey with XAR and can't wait to
+see uh what's next for
+[Music]

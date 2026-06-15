@@ -1,0 +1,322 @@
+Video ID: OLEjyBLo8sQ
+URL: https://www.youtube.com/watch?v=OLEjyBLo8sQ
+Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 315
+============================================================
+
+[music]
+My name is Franis. I'm a visiting
+partner here at Y Cominator. We're here
+with Ian at Nurups uh to learn a little
+bit about Poetic and your background and
+your big uh announcement.
+>> Great.
+>> Uh maybe introduce yourself.
+>> Yeah. Uh I'm Ian Fischer. I'm
+co-founder, co-CEO of of Poetic. Poetex,
+a new company we just started like back
+in June, mostly XDep Mind folks. We just
+announced a pretty exciting result where
+with Poetic on top of Gemini 3, we have
+54% on the AR2 private test set
+evaluation, which is, you know, a very
+very exciting uh increase over the
+previous state-of-the-art.
+>> How much is that over Gemini 3? Yeah.
+So, Gemini 3, I think, uh, who don't
+quote me on this, and that's a weird
+thing to say in front of a camera, but,
+uh, I think it was they were at like
+33%.
+Uh, 31%.
+>> So, you got like a 17% bunk.
+>> Uh, yeah. But the the the more fair
+comparison is, uh, Gemini 3 Deep Think,
+which got 45% but cost twice as much as
+Pic.
+>> Oh, right. Right. I see.
+>> Yeah. 9 10 percentage points better and
+half the cost.
+>> Remind me uh your background.
+>> Uh, yeah. So this is a part it's
+actually my third company. Second
+company was a YC company uh called a
+portable. Uh we sold that to Google in
+2015. And uh when I joined Google, I uh
+realized I really wanted to be doing
+machine learning research. It turns out
+that was a really good place to be doing
+machine learning research. So I switched
+into Google research uh and just did
+fundamental research for for a while.
+But then LLMs came along. It was clearly
+the most important thing happening. So
+refocused uh my research direction. This
+led to the genesis of poetic. Uh I
+realized there was this um uh there was
+a much faster and cheaper way to do
+recursive self-improvement where the AI
+is making itself smarter and of course
+you know many people are going after
+this. uh there's a a lot of competition
+in the space both from the major labs
+and from other startups like poetic
+which I think is great right you know
+who knows what the actual right answer
+will be but um uh you know recursive
+self-improvement is kind of the holy
+grail of AI if we can get the models to
+just make themselves better then we you
+know we can sit back and relax uh you
+know of course there are differing
+opinions about whether or not we should
+want that obviously wants to do this
+safely um I think you know most most
+people want to do recursive
+self-improvement safely. So, we have a
+particular perspective there as well.
+>> Tell me about um I guess the story of
+like you you targeted ArcGI, you're
+running it, the Gemini 3 comes out,
+you're running this procedure on top of
+it and you're seeing it hill climb like
+what are your thoughts? Did you expect
+it to be as good as it was? Like it was
+fully in expectation or this was like
+beat expectation
+um and then when you finally got the
+results you're like wow this is cool.
+>> Yeah, it's you know it was really
+interesting. We were actually really
+focused on ARK one. Uh we weren't paying
+that much attention to ArcGI 2. We we
+like ran our models on ARK 2. Uh just to
+make certain, you know, it's like
+reasonable
+>> API models, right?
+>> Yeah. Yeah. With the different API
+providers. Um but uh we you know we were
+getting very exciting results on ARK one
+and we figured you know it's like it's
+easier. We'll like start with that. ARK
+2 seems really hard. We were in a really
+good position. you know, I I don't want
+to um I don't want to like overclaim,
+you know, I think what Kodex's done is
+like very good, but Gemini 3 came out.
+It was it's a really quite astonishingly
+good model.
+>> So, a little bit a little bit of
+technical background, the recursive
+self-improvement loop, what it does is
+like we run it on other tasks that we
+can evaluate. Uh so the our system is
+improving itself by improving other
+systems, right?
+>> And and you don't have access to the
+weights. So the only thing you can
+really the only thing in your action
+space to change is the prompt itself.
+It's the prompt and the system around
+the prompt like so you know the the
+system that we are using it you know
+it's like an ensemble um that calls uh
+you know the underlying model in this
+case Gemini 3 um multiple times to
+refine each ensemble member is
+independent and is refined its own
+answer and then they we combine them
+with some voting scheme that works well
+>> and there was some DSPY stuff that was
+similar way back when that I've tried
+and I've not really seen it be super
+Great. Um, and you guys are, you know,
+like in the same spirit but meaningfully
+better.
+>> Yeah. So, DS DSPY is a very cool
+project. Uh, and I, you know, I wish I
+wish I could hire the the people who
+made it. Uh, if you're watching and
+you're thinking about like leaving your
+job offer.
+>> Yeah. uh but I think you know there
+there's some uh you know trade secret
+insights that that we have that go a
+little bit beyond um that and uh seem to
+make a big difference. So basically the
+system is an output of our system the
+the RKGI solver is an output of of our
+system uh and it was really designed and
+and and trained on ARK one. So we never
+trained at all on ARK 2. So when Gemini
+3 came out uh we saw this big uh jump in
+performance also on ARK one relatively
+large we were at like 89% with other
+models and then we got to 95% with
+Gemini 3 on ARK1 and of course we had to
+try it in R2 and we saw like you know
+kind of holy cow moment of like this is
+amazingly good. Um and you know I think
+that the thing driving the performance
+improvement there is the Google team has
+done some somehow in this particular
+model they've done a really good job at
+uh having a model that is good at coding
+writing code for like visual problem
+solving better than you know kind of all
+the previous models that had been out
+>> u of course opus uh 45 4.5 came out from
+anthropic um in a similar you know
+pretty quickly thereafter after and uh
+its quality seems to be pretty similar
+to Gemini 3. It's it's more expensive.
+What we saw is like we could just
+replace Gemini 3 with Opus and get uh
+you know similar results.
+>> I guess what's next for you guys?
+>> Other benchmarks you want to go like
+more benchmarks proving more stuff out
+uh productizing other ideas more
+research all the above.
+>> All the above. Yeah. Yeah. Yeah. So we
+have some more benchmarks in mind that
+we think are you know really high impact
+benchmarks that we might be able to make
+uh you know an interesting dent on. Um
+we won't say which ones so that uh not
+everybody's like um jumping in front of
+us but uh uh you know you can probably
+guess what some of them would be.
+>> How how big is Poetic?
+>> Oh yeah. Poetic is currently six people.
+>> Wow. We have six people and you state
+the art. That's pretty impressive. Um
+yeah, they I I mean I'm really honored
+to be working with the team there.
+Everybody is fantastic.
+>> Yeah.
+>> Um we have a seventh person joining who
+is also fantastic starting January. So
+um
+>> and the DSPY team coming soon.
+>> Yeah. Yeah. [laughter]
+Um I mean do you think that obviously
+ARC AGI um AGI is in the name and so do
+you think that uh RSI recursive
+self-improvement is a path to AGI or do
+you think that this is just like it's
+just gives you a nice bump it's like
+dropout you don't do dropout you do drop
+out you just get like a nice 3 4% bump
+>> yeah that's a it's a really nice way of
+of putting it like I I I think that both
+things are true right like you want that
+uh that bump from doing this because you
+know as we showed in our um initial blog
+post well it's a little bit it's a
+little bit of a hack. I I don't again
+don't want to over claim things here but
+on RKGI because they allow you to
+present two solutions uh that allowed us
+to actually outperform the underlying
+models while being cheaper. We we we
+only provided one solution but because
+of the bump in performance we were able
+to still do better than when the
+underlying model was providing two
+solutions. Right? So, in general, if
+you're only allowed one response, poetic
+will always be more expensive. Um, or at
+least at least the same price, right?
+But, uh, if you're allowed, you know, if
+you're dealing with multiple response
+settings, then quite could be cheaper,
+but it it should always be better. Uh,
+and so you always want that bump. But
+then coming back to the original
+question, uh, does this lead to AGI? I
+mean, I don't believe it's the only
+path, but I believe it's like, you know,
+the most exciting in my mind, it's the
+most exciting path, and it is a path to
+AGI and beyond.
+>> Um, did you actually stop it from hill
+climbing and say it's good enough or did
+it actually plateau?
+>> I stopped it. It uh Yeah, this RKGI was
+fairly expensive to run the hill
+climbing on.
+>> Okay. So, you need money.
+>> Yeah.
+>> Then you could have gotten even better,
+>> right?
+>> We can solve that in the world.
+>> Yeah. Yeah. [laughter]
+We know how to do that.
+>> Yeah, if anybody has any money who's
+listening. Uh but yeah, you know, we
+want to service our customers, right?
+And we can't be like, you know, out of
+money when we need to run experiments
+for our customers. So, yeah.
+>> What else are you most excited about uh
+coming up in the future for you guys?
+>> You know, there's the benchmarks, but uh
+yeah, we're starting to have
+conversations with with customers uh
+around how we can help them. Uh we're
+very excited about that. you know this
+is a company that's doing research uh
+but we always intended it to be a
+company that makes a real difference in
+the market right like we want to solve
+important problems for actual businesses
+uh along the way to uh you know while we
+run our recursive self-improvement
+>> right yeah
+>> I mean I just see it so obvious because
+like in the action space of things that
+if you believe Sam that the models are
+only going to get better
+>> and you should and you want to use them
+the only thing in your action space to
+you know uh condition the model on what
+you want it to do is the prompt and the
+and it's just prompt engineering right
+and just like try stuff really is the
+answer and then you have some evals and
+you're just trying stuff and then
+testing the evals and it feels like
+we're back to like feature engineering
+and just like hog sift surf descriptors
+again like back in the day and like but
+that's not you know clearly not the
+answer like get the whole thing of deep
+learning since 2012 is get yourself out
+of the out of the loop. So, it makes a
+lot a ton of sense. I'm really excited
+for you guys.
+>> Yeah. Yeah. I mean, the the way you're
+putting it is is really nice that like
+uh you know, this um relates back to
+research that we were doing at at Deep
+Mind before we left where um we were
+building systems like what Poetic can
+build, but we were doing it manually.
+And so the poetic technology is
+completely different from that research
+that we did in that uh you know that was
+like we put together a car by hand right
+uh and now we've like built a factory to
+build cars which is something completely
+different but you know we were in you
+know we are quite intentionally
+automating ourselves automating prompt
+engineers automating people who are
+building agents it's a power tool right
+um
+>> well I'm really excited for you thanks
+for joining us
+>> yeah thanks so much
+>> thanks

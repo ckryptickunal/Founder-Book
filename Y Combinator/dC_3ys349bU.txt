@@ -1,0 +1,851 @@
+Title: The ML Technique Every Founder Should Know
+Video ID: dC_3ys349bU
+URL: https://www.youtube.com/watch?v=dC_3ys349bU
+Channel: Y Combinator
+Published: 2026-01-22T15:01:12Z
+Duration: PT27M11S
+Views: 37559
+Likes: 876
+Tags: YC, Y Combinator
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 827
+
+Description:
+Diffusion is the foundational machine learning framework behind state-of-the-art AI image and video generation, including Sora, Midjourney and Google Veo. In this episode of Decoded, YC General Partner Ankit Gupta sits down with YC Visiting Partner Francois Chaubard to discuss how diffusion works, walk through a code sample, and explain why everyone training models should understand it.
+
+Apply to Y Combinator: https://www.ycombinator.com/apply
+Work at a startup: https://www.ycombinator.com/jobs
+
+
+============================================================
+TRANSCRIPT
+============================================================
+
+Welcome back to another episode of
+decoded. Today, I'm sitting down with YC
+visiting partner Francois Chahbar to
+talk about one of the most important
+topics in AI today, diffusion. Francois
+has been doing computer vision since
+2012 when he started in Feifei Li's lab.
+And after a decade running Focal
+Systems, he's currently back at Stanford
+finishing his PhD working on
+diffusion-based world models for AGI.
+We're going to break down what diffusion
+is, how it's evolved over the past
+decade, and how it's used today.
+>> [music]
+>> Francois, thanks for being here. Thank
+you for having me. Well, we just got
+back from NeurIPS. We just spent a lot
+of time talking to researchers and
+thinking about all the newest models out
+there. Um, I think we saw diffusion pop
+up over and over and newer versions of
+this type of uh approaches that are not
+autoregressive LLMs. And so, I wanted to
+talk to you about those today. So,
+first, why don't we start by defining um
+what is diffusion? Diffusion is a very
+fundamental machine learning framework
+that allows you to learn any P data, any
+probability of data for any domain as
+long as you have the data. So, you're
+trying to learn some data distribution.
+>> That's right. Now, in a sense, all LLMs
+or all machine learning models are about
+learning data distributions.
+How does diffusion in particular, what
+what stances it take or what approach
+does it take to being able to learn
+distribution?
+>> Yeah, I mean, I think you can use
+diffusion to to always do that. The
+thing where it stands out in particular
+is mapping from high dimensions to high
+dimensions, especially in low data uh
+regimes. So, say I only have 30 images
+of Gary, which I actually have some code
+that we're going to walk through.
+>> Okay. Um, I only have 30 images of Gary
+and again, we're in this 1,000 by 1,000
+by three uh
+uh dimensional space and I want to map
+to another three three million
+dimensional space with only 30 training
+samples and I can still do it. And it's
+pretty pretty powerful in that way.
+Okay, cool. So, so you have this ability
+to use relatively small amounts of data
+compared to the dimensionality to learn
+a P data.
+>> That's right. Um, what's the what's the
+basic process by which diffusion works?
+Like, just walk through like at a very
+high level and we'll walk through the
+math a little bit later, but at a very
+high level, how does this process
+actually work? We take some sample of
+the data, an image of Ankit, an image of
+Gary,
+and we just hit it with noise. And then
+we just keep hitting it with noise and
+we create this train of of noised up
+images. It's very easy to create noisy
+images, right? It's hard to create get
+walk backwards and create from noise
+images of you or Gary. And so, then we
+flip it and then we try to have teach
+the model to reverse that process. And
+that's basically it. Okay, cool. So,
+it's basically a
+a noiser and a denoiser and the denoiser
+is the model that you end up training.
+>> Exactly. Yeah. You will uh you will
+basically teach your force and and give
+it uh noised up images and then have it
+learn intermediate representations to
+get to back to P data.
+>> Cool. Nice. And what kind of stuff is
+diffusion used for today? What are our
+some applications that it's widely
+deployed in? It's honestly surprising
+how uh
+uh applicable this process is. I think
+the the uh original 2015 Joshua Sohl
+Dickinson paper was on CIFAR-10, which
+is just images. Um, and I think it's got
+it has its roots in images, but it is
+far uh uh more sprawling than just
+images. As you've seen, we you know, uh
+uh DeepMind just won the Nobel Prize for
+doing this exact procedure on protein
+folding.
+Uh you can drive cars with this with the
+diffusion policy paper, which is like an
+insane result. Um, you can um
+uh predict the weather. Um, there's
+really no limit to the things that this
+can do. Yeah, it's pretty incredible to
+see. I mean, you have these image and
+video generation models that seem to be
+really advancing over the last few
+years. Stable Diffusion is the one I
+think many people have heard of and then
+newer versions of it seem to be using
+this as well. And then yeah, in the
+world of life sciences that um my
+company was in, too, I think we see this
+newest generation of life sciences AI
+companies are heavily investing in these
+set of technologies. There's a model
+called DiffDock that works really well
+for predicting uh small molecule binding
+to proteins. And then yeah, AlphaFold,
+especially the newest AlphaFold version,
+has used diffusion pretty heavily. It's
+really cool to see the same core piece
+of technology applied to so many
+different domains.
+>> Yeah, yeah. This class of models has
+evolved over the years and, you know,
+there's a whole slew of papers someone
+could read. So, you should probably go
+read the papers to learn all the
+details. But maybe at a high level we
+can try to trace out a few of the key
+innovations that happened starting with
+the paper you already mentioned that now
+led to the newest versions of these
+models. So, how would you map those out?
+Like, what was the the first kind of
+turn of the crank from this very
+high-level diffusion process you uh
+outlined? What was the first version of
+that that started to work?
+>> Yeah. So, I think the the 2015 original
+Joshua paper
+um is put up all the key pieces, all the
+key components of modern diffusion. And
+so, like now we're just playing with
+different things. So, the scheduler, how
+do we add noise, at what weight? Like,
+that's a whole part that we can discuss.
+What's the loss function? Should I
+predict Should the the deep learning
+model condition upon X of T predict uh
+the actual data X of T minus one or
+should it predict the error that was
+just added to it? Uh or should it
+predict the velocity, which is the error
+divided by the time? Uh should it
+predict the velocity of the the start
+and the end? That's called flow
+matching. There's so there's all these
+different plays on what the loss
+function is. So, in all of those, the
+idea is still to do denoising.
+>> Yes. Uh but the objective for each of
+them is somewhat different from each
+other. I mean, they're all pretty
+closely related, whether it's basically
+a delta between two things or the
+previous step or the first step. How do
+these all actually come together? But
+these are series of papers that happened
+one after another. Yeah, I think we just
+kind of hill climbed on this
+uh Fréchet inception distance metric.
+That's kind of a kooky weird
+um measure to see how good an image is.
+Um, but we just kept getting better and
+better and better on it by like doing
+these little tricks. And so, like it
+turns out that predicting the actual
+data itself is actually quite hard and
+like maybe predicting the error is
+actually easier. And then predicting the
+velocity was even easier than that. And
+then predicting the uh global error
+across the entire diffusion schedule is
+even easier than that. And like just
+kept finding easier and easier ways um
+to to basically uh sample from noise to
+data. And here, when you say easier,
+were
+was the ease largely driven by it was
+mathematically simpler or it was easier
+to implement and engineer or simpler to
+reason about or what
+>> What got easier, really?
+>> It actually is that, too, but I didn't
+mean it that way. What I actually meant
+was it's easier for the model to learn.
+Um, but it is also, and we'll go through
+some coding examples, the math actually
+got easier.
+>> Yeah. And like the the the code got
+smaller, which is actually opposite
+oppositely true in uh most of uh the
+case in most machine learning. You
+actually things get more complicated. I
+think we started with UNets and that was
+like the predominant architecture. We
+didn't really talk about architectures
+that much, but then we got into these uh
+diffusion transformers and like this
+cross attention mechanism and things
+like that. And so, um yeah, we just kept
+getting better and better at reducing uh
+FID. Hm, interesting. Should we dive
+into some code examples?
+>> Let's do it. Let's do it. I'll walk you
+through I made about uh 1 2 3 4 5 6 7 of
+these that I implemented um with varying
+levels of success. But uh the the all
+the structures are going to be the same.
+So, the the Joshua paper, the
+non-equilibrium uh thermodynamics paper,
+uh you can see here here are some nice
+images of Gary you can see here. Very
+nice. This is the what I could find
+online. Nice. Um and then
+>> are images of Gary that you've
+downsampled so that they're 1,000 by
+1,000 or they're they're smaller, I
+think.
+>> by 64. 64 by 64. Yeah, they're really
+small. This is a very small example.
+Yeah. 64 and then I randomly augment it
+to create more data. Great.
+>> Um cuz I was I was lazy and that was
+easier than uh downloading more images
+of Gary.
+>> [laughter]
+>> Didn't want to didn't want to get
+security called on you. Exactly. So, and
+then wait, I implemented this diffusion
+schedule and this is probably one of the
+most important like of all the parts of
+diffusion to that's difficult to
+comprehend, I would say that the noise
+schedule is actually the hardest part to
+understand and that I really like I
+struggled with myself. And so, if you
+can see here, the noise that's added
+from time step uh zero to T to 10 to 25
+all the way to 100,
+uh it's clearly destroying the
+structure. Yes. And then we want to
+train the model.
+>> is basically random static. Exactly. And
+we want to basically reverse this and
+from here get to here and have the model
+get to that point, get to this point,
+get to my
+etc.
+And so, uh the interesting part, and
+this is Joshua really you know,
+uh implemented almost everything that we
+needed for diffusion. Um, and there was
+just a few little tweaks that were
+missing and he didn't he didn't scale it
+up. That's to me the the parts that um
+uh were were were missing. And if you
+see here the um
+the noise schedule, so it would make
+sense to me that I would have linear
+interpolation between uh the image and
+the noise. And I would start with like
+one and zero, one being the image and
+zero being the noise.
+>> And you gradually add it.
+But if you do that, it actually is
+massively unstable because the
+instantaneous amount of error that
+you're adding is very small in the
+beginning.
+>> Right.
+Like, on a relative basis.
+>> basis. And then at the end, you have to
+to destroy all that to get to complete
+noise, you need to add a lot of error.
+And so, like if you're a model and
+you're just looking at this little chunk
+of the noise schedule, then you have to
+handle a lot of error in one step. And
+on this side of of the schedule, you
+need to handle such small amounts of
+error. And what you actually want is
+constant rel- like relatively constant
+amount of error being introduced every
+single time step.
+>> Right. And that the the cumulative sum
+of all that error actually ends up
+looking like this
+uh like this curve here. That's the uh
+the pink curve.
+>> Yeah. Yeah. And so, they called this a
+beta schedule. Beta is the diffusion
+rate, the rate of diffusion that I'm I'm
+doing while I'm rolling this thing out
+from time zero to time T, capital T. And
+and so you can see here the the beta
+schedule. So we we have usually have
+some beta min to beta max. And then we
+one minus that is the alpha. And you can
+think about the beta as like how much
+noise I'm adding at every time step. And
+you think about the alpha as how much
+signal is being retained. Yeah, being
+retained. And then the term that really
+matters is the alpha bar and these are
+the weight weights that are used and it
+has this kind of like one minus sigmoid
+looking thing.
+But that's basically the noise schedule.
+And once you get that right, really this
+this this part here then everything kind
+of else just works. And then I trained
+some model and then we can actually So
+there what was the training objective
+again? So you were adding this noise and
+the training objective was to do what
+exactly? The train in this case it's to
+minimize the KL divergence between the
+distribution the real distribution and
+the distribution that I'm learning. And
+so
+I won't go through the code for this one
+cuz it's a little bit hairier but you
+can kind of see the result on these
+generated images
+after a 100 diffusion steps at inference
+time. And you can see that the Frechet
+inception distance is 222 which is like
+extremely high today. Like today modern
+modern day would be like maybe like
+eight or 10 or something. And what's
+interesting here is I mean you kind of
+scroll through it there but it's and you
+mentioned it there's quite a lot of code
+that it actually takes to do that KL
+divergence base loss. I suspect that in
+these later models you're going to show
+it it gets significantly simpler. So I'm
+just mentally noting that cuz I suspect
+there's going to be interesting contrast
+to draw between these two. Yeah, so the
+next one I would like to show is flow
+matching which is it's just so beautiful
+and simple.
+And this was out of meta
+Yarin Lipman
+where he basically said we don't need a
+lot of this stuff. What we need to do
+forget the if you think about the
+noising process as being this like
+I start from data. I randomly sample a
+vector
+of noise and I just go in this
+direction. And then I do it again. I go
+in this direction. I do it again. I go
+in that direction. I go in this
+direction that direction. And then I'm
+here at noise. And then you have to
+teach the thing to go in the exact
+opposite path. And you have to do this
+very circuitous path. And so at test
+time it's actually quite expensive. You
+have to do We've all waited for you know
+chat GPT or to or midjourney to like
+make an image and takes a while. What
+it's doing is like a thousand calls to
+the model again and again iterating
+through to get to that point of your
+data. Instead And like intuitively it's
+like okay we're doing the circuitous
+path but surely there's a shorter path
+between those two. And so that's what
+makes flow matching so cool to me at
+least is that they said forget all of
+that intermediary results. There is a a
+velocity a global velocity between the
+noise and the data and it's just this
+direction. It's just this straight line.
+And I don't care where you are go in
+that line. Wherever you are you're over
+here go in that line and teach it to go
+in that line. And that's what flow
+matching does. And so I'll show you the
+code
+and it's really quite simple. It really
+is quite simple. And so this pretty
+cool. So
+here you go. The
+you basically have like 10 15 lines of
+code that is the most powerful machine
+learning procedure ever. So I I have
+some data I an image of Gary.
+I have some noise that I I I some
+isotropic Gaussian noise that I sample
+from.
+There's some time that I'm I'm trying to
+index into in the diffusion schedule.
+And I'm and I create XT which is the
+image at the noised up image that's
+somewhere between extremely noisy and
+not noisy at all. And and that's
+basically just this sampling procedure.
+It's T times data
+plus one minus that times noise. That's
+right. And then I compute the velocity
+which is independent of the time. I
+don't care where you are it's just the
+global this global velocity which is
+this the noise minus the data and then
+it I return that back to my training
+loop which is the shortest amount of
+code training loop [laughter] I've ever
+written which
+it's five lines of code.
+I have my batch. I have some time. I
+sample from that function I just
+explained before.
+And then I have my prediction from the
+model. I feed it in this some
+element
+some noised up image somewhere between
+lots of noise and little noise is X of T
+let's call it. And I just want it to
+predict the velocity that I want to go.
+And this is also really powerful cuz
+here you know you have model abstracted
+but that model can be any model. So you
+can put in whatever the relevant model
+is for your distribution whether that's
+a protein model for proteins or if it's
+an LLM for text or an image based model
+for images that is a very clean
+abstraction as long as you can then
+predict this velocity and then move in
+that direction. That's right. This code
+here has nothing to do with images. It
+could be weather data. It could be you
+know stock market data. It could be
+trajectories from a robotics in a
+teleops setup.
+It could be proteins. It could be DNA.
+It doesn't really matter. It's all the
+exact same code.
+And so and then also we haven't talked
+about the architecture. So like this
+model here could be anything you want it
+to be. Like it could be a RNN. It could
+be a
+U-Net which is typically you know
+traditionally is. And and modernly they
+use these diffusion transformers doing
+this cross attention mechanism. And so
+it can be whatever you want.
+But it's all that is independent from
+whether or not you're doing flow
+matching or not. I think this is like a
+really profoundly
+interesting result in that especially
+this
+I think we often assume as models have
+gotten more sophisticated that they
+become less accessible for people to
+understand but this is quite literally
+10 lines of code
+>> [laughter]
+>> that explains essentially all of the
+most important kind of mathematical and
+fundamental foundations of the models
+that we all see as generating basically
+like magical AI results on our phones.
+Of course there's lots of engineering
+how you scale them up you know that that
+model could be a 100 billion parameter
+transformer. Data centers you know GPUs.
+Yeah 100%. So it's the engineering
+that's the really hard part there but a
+lot of the basic machine learning math
+is actually quite straightforward.
+That's right.
+And so there's a bunch of these like
+tangent fields to diffusion that all
+have some different interpretation on
+what's actually happening but it's all
+the same exact math. And most people
+learning diffusion actually get quite
+confused because if you talk to
+some
+you know probabilistic graphical model
+people they'll say oh this is a
+probabilistic graphical model and what's
+actually this is a hidden Markov model
+and what we're doing is we're learning
+this like Markovian thing or whatever.
+It's like okay fine but like it's just
+noise minus data.
+>> [laughter]
+>> And like you should just show that
+first. And then like if you think about
+it from like a physics perspective and
+and there's all this stat mech people
+that have that interpretation.
+There's a whole bunch of these different
+interpretations. I think it's it gets a
+little bit confusing.
+And then the whole stochastic
+differential equation people like
+thinking about that this is an SDE. And
+I think that's all fine and it probably
+is helpful to think about but in terms
+of teaching it it's actually quite quite
+simple which is powerful.
+So if we go back to here
+you can see that this just literally
+predicting the velocity. Your goal is to
+have the model predict You're minimizing
+the loss between predicted velocity and
+velocity.
+>> velocity. That's it. And that's super
+stable
+and it's it's really clean. And then at
+test time for the
+physics people this is like a Euler step
+kind of thing that you're doing where
+you call the model a bunch of times
+and you iteratively refine. So back to
+the hill climbing that we were talking
+about I'll grab some random
+noise here X and I just do and I call
+basically reverse that that
+noising process to denoise denoise
+denoise and It's literally Euler's
+method. Like you're you're using the
+velocity to point in the direction you
+want to in the direction and just keep
+going keep going keep going until you've
+done the number of steps. The one thing
+that I really don't like about diffusion
+as it's done today is that I can't keep
+calling it
+beyond if I only trained on 100
+diffusion steps in my diffusion
+schedule. If I change that at test time
+it doesn't work. And so you can't like
+oh I want to even better so I'll call it
+even more. That doesn't You can't I've
+tried it it doesn't work. There's
+various tricks people try there but
+yeah. Yeah. And so like the there's
+games played that is actually quite
+exciting. All the expense
+>> But what I was trying to be clear here
+here you're saying that's not relevant.
+It's not relevant. In this type of model
+you don't have this time dependency.
+Well so you do. So at this time if you
+change for example the number of steps
+if you double it. Let's say that and you
+expect to get even higher resolution
+images. It actually will just turn into
+like white. Like it actually just like
+doesn't work at all.
+So you can't step beyond number of steps
+that was trained. That's an important
+detail. There are tricks that people are
+doing to try to compress that
+representation. So like if at train time
+I train for 100 steps and at test time I
+want to do 10 steps. Then what you can
+do is you can do distillation into the
+model to try to have the 10 step model
+learn the 100 step models thing. But
+then you still got to train with 10
+steps. And so like if you're training
+with with X steps you have to be using X
+steps at test time. I see. Interesting.
+You've talked about this concept of a
+squint test why don't you define the
+squint test for a second. Tell me a
+little about where this comes from and
+then I'd be curious to hear how you
+think about diffusion models in the
+context of general intelligence broadly.
+Yann LeCun has this like interesting
+lecture where he talks about
+our discovery of flight and that we
+didn't need
+flapping wings. We kept trying to mimic
+a bat
+and how that was a waste of time. And
+to that I say you're 100% right. However
+we did need two wings. Then you look at
+the Wright brothers' original plane and
+you squint and you look at a bird,
+you're just like, "Hmm, while we have
+helicopters and we have jets and things
+like that and rockets, like we we got
+there eventually." And so there's many
+elements in the set of things that can
+achieve flight and they have different
+pros and cons.
+And there are many elements in the set
+of things that can achieve intelligence.
+We are the only existence proof of it at
+all. And like I'm sure there will be
+more elements in the set and maybe LLMs,
+broadly speaking, can get there. But if
+I squint and I look at LLM setup, which
+I I see this, you know, monolithic stack
+transformers, the same thing, stack
+stack stack, and there's three stages of
+training. We do this pre-train,
+you know, SFT, you know, post-train, and
+then no learning at at all beyond that.
+And it produces exactly one token at a
+time.
+>> Right, so in order to token. In order to
+token at a time and it never goes
+backwards. And then you look at a brain,
+massively massive amounts of recursion.
+You have one learning procedure the
+whole time. You have these two lobes
+that with a corpus callosum that between
+them that's kind of going back and forth
+like this and we think and then I
+definitely don't think in one token at a
+time. When I write code, I don't write
+one little character at a time. I never
+go backwards. And I kind of like I'm
+going backwards, I'm recursively
+improving. I'm going backwards again and
+again. I'm I'm thinking in concepts.
+>> There's just like dynamic process that's
+emitting concepts and then higher-level
+higher-level concepts and then
+lower-level manifestations of them.
+>> I'm sure that may be happening inside
+the LLM, but it's like it's almost like
+stuck. It can't do more than in one step
+even though if it might want to cuz it
+has to is the way that we we trained it.
+>> Right, like it might have all that in
+the LLM, but then it's it's sort of
+bottleneck ultimately by all the emits.
+Action space is one is one
+>> token at a time. And so I think that
+that's where I think about diffusion,
+there's like a two main things that
+diffusion gives me. It doesn't get me
+all the way to to pass my squint test,
+but it gives me two things that I for
+sure the brain is doing. Number one, the
+entire all of biology and nature
+leverages randomness. Randomness is
+good. And what is diffusion doing? It's
+leveraging randomness. If you give me
+data and I noise it up and from that I
+can learn about the data. And like is
+the can the brain add noise to input
+data? Absolutely. Like absolutely.
+Neurons are massively random.
+This log-normal distributions, spike
+patterns, and things like that. And the
+other one is this emission of one thing
+at a time versus thinking in concepts
+and then decoding into a big chunk of
+text and thought and revisioning of the
+previous thoughts and things like that.
+And so I think diffusion gives me both
+of those things for sure. People
+probably heard of stable diffusion as a
+very common application of this. People
+it's an image generation model that was
+pretty widely available for the last few
+years.
+What people may not be so aware of is
+all the other ways that diffusion is
+used in the last few years in products
+that people are widely using. So what
+are some of the areas on which diffusion
+is most widely accessible? Yeah, it's
+really any mapping from very
+high-dimensional P data to very
+high-dimensional action spaces or P data
+that you may want to map to. And so I
+mean, yeah, of course everyone knows
+generating images cuz we've done
+Midjourney and things like that
+and even more modern versions of that
+with Sora and VEO and Flux and SD3 now
+and things like that.
+And we've generating videos which is
+just images stable together
+and and video gen and image gen and
+things like that. However, there's so
+many more applications that now we're
+seeing that's the most exciting part in
+my my view of all the new applications.
+And so whether or not you're
+now creating sentences, I mean diffusion
+LLMs was one of the biggest topics that
+we saw at NeurIPS.
+Whether it's continuous diffusion LLMs
+or discrete diffusion LLMs.
+That's it's writing code now.
+It's creating proteins. I mean DeepMind
+has won the Nobel Prize for that. There
+is robotic policies, this diffusion
+policy thing which I think might
+actually be one of the biggest
+uses of it and will result in like
+robots actually working and Rosie the
+robot actually working.
+There's weather forecasting for the
+GenCast.
+It's the most accurate weather
+forecasting system in the world.
+It's really anything. Even like I
+mentioned Harrison working on the
+diffs, diffusion for failure sampling.
+Just like sampling from for failures and
+like bad things that could happen. We
+can do that as well. So a lot of the the
+products where we see people actually
+using AI, especially for things other
+than just text-based chat, a lot of them
+are using diffusion, especially on
+images, videos, increasingly now things
+like code, the life sciences. So yeah,
+pretty pretty wide birth of things.
+>> Yeah. In fact, I would say the only two
+holdouts right now where state of the
+art is not diffusion,
+diffusion has eaten all of AI except
+two. AR LLMs still are outperforming
+and gameplay and things like AlphaGo.
+And so MCTS is still state of the art
+for those types of things. And so we
+haven't seen diffusion really take step
+in those two fold those two areas, but
+more research is needed. So to bring the
+conversation to a head now, how should
+people think about this research area?
+Either as researchers contributing to
+the field or as founders looking to
+build a new product?
+Yeah, I mean I would think about maybe
+this falls in two camps. If you're
+training models yourself
+or if you're using models and and you
+know, not in the business of training
+models. If you're in the business of
+training models, I would seriously look
+at diffusion. I don't care what your
+application is. You should be looking at
+this procedure
+even if it's just to get a latent space
+that you can then train off of. And so
+there's no application in machine
+learning that I I don't think you should
+be heavily looking at diffusion
+procedures
+as a fundamental piece of of your
+training loop.
+In the in the case of people who are are
+not training models, I would just like
+update your prior on how good these
+things are getting. And if you just look
+at in the last 5 years on how good image
+generation got from Midjourney when it
+first came out to VEO and Sora and Flux
+and SD3 now, it's like it's like 1,000
+times better, right? The answer was just
+scale it up. And that takes time and
+that takes money and all those things
+and data. And now you apply that to
+proteins. You apply that to DNA. You
+apply that to robotics policies. A
+self-driving car. I mean it is
+skate to where the puck's going to go.
+All these things are going to work and
+we're watching it happen. It may cost
+money and time and you know, those kinds
+of things, but those are those are
+solvable things. Those are tractable
+problems that we can go solve. And also
+the core procedure of diffusion is
+getting better. That's another major A
+lot simpler. A lot simpler and it's
+getting like it's we're just working
+better. And so skate to where the puck's
+going to go. Bet that Rosie the robot
+will work in people's homes. Bet that
+the the protein folding is only going to
+get better and now we're going to apply
+that to DNA and all these other
+metabolomics and things like that.
+>> We we see founders develop new models
+for robotics or for text generation or
+for video using diffusion. Um and we see
+founders who are using all of these
+methods coming from other places build
+companies on top of them. And it seems
+like there's this whole new wave of
+companies that can be built on either
+end of this now. Right. I think it's
+going to redefine the entire economy.
+Thanks so much for joining us. We're
+going to keep digging in on topics
+related to machine learning research
+like diffusion. Can't wait to see you at
+the next one.
+>> [music]

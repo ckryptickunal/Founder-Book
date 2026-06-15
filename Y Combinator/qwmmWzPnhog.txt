@@ -1,0 +1,1454 @@
+Title: We're All Addicted To Claude Code
+Video ID: qwmmWzPnhog
+URL: https://www.youtube.com/watch?v=qwmmWzPnhog
+Channel: Y Combinator
+Published: 2026-02-06T15:01:43Z
+Duration: PT46M
+Views: 124713
+Likes: 2036
+Tags: YC, Y Combinator
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 1430
+
+Description:
+Wondering why your maker-turned-manager suddenly seems distracted in meetings? Maybe they're addicted to coding agents! In this episode of Lightcone, Calvin French-Owen — a co-founder of Segment and former engineer on OpenAI's Codex team — joins us to talk about why coding agents suddenly feel so powerful, the differences between Codex, Claude Code, and Cursor, and what the future of work will look like.
+
+0:00 Intro
+1:15 Garry can’t stop using Claude Code!
+4:00 Contrast with IDE’s, context-split
+
+============================================================
+TRANSCRIPT
+============================================================
+
+I feel like when I'm using quad code,
+it's like, oh, I feel like I'm flying
+through the code.
+>> When it's in your CLI, this thing can
+debug nested delayed jobs like five
+levels in and figure out what the bug
+was and then write a test for it and it
+never happens again. This is insane. I
+think everyone who's experimenting with
+this stuff on like a hobbyist level or
+at like a very small startup, they're
+just pushing the coding agents as far as
+they can go because it's like you don't
+really have time to figure out anything
+else. Like as a startup, you have
+limited runway. You're just going to
+orient around speed. I think at a bigger
+company you have a lot more to lose.
+>> What are some of the tips to become a
+top 1% user of coding agents?
+>> Yeah. What's your stack?
+>> Hey everyone, welcome back to another
+episode of the Ly Cone. Gary, are you
+are you ready to record?
+>> I'm I'm in plan mode right now, but
+okay. Yeah, I guess it's time. Sorry
+about that. Well, welcome to another
+episode of the light cone. And today we
+have an incredible guest, Kelvin French
+Owen. He's one of the first people to
+create codecs at OpenAI and before that
+he started Segment, which is
+multi-billion dollar company that got to
+a very successful exit. Kelvin, welcome
+back.
+>> Thanks for having me.
+>> I guess what a crazy time for all of us.
+Uh I recently got very very addicted to
+Claude Code and uh I would describe it
+as like 10 years ago I was a marathon
+runner and I love doing it and then I
+suffered a catastrophic knee injury
+which is called manager mode
+and I uh stopped coding which is tragic
+and horrible. Uh but now the last nine
+days have been like this incredible
+unlock of all the things I remember
+being able to do and it's like you know
+I got a new total knee replacement and
+actually it's a bionic knee and it
+allows me to run five times faster.
+What's your take on it? Because you're I
+mean right out there at the forefront of
+it. I mean codeex pioneered all of the a
+lot of the ideas that now like everyone
+still uses and codeex is still evolving
+too.
+>> For brief context when I was at openai
+um I was working on the codeex web
+project at the time cursor was out in
+the market and they had kind of built
+this shim uh around I think it was set
+3.5 and it was able to work in your IDE.
+FOD code had just come out uh and it was
+working as a CLI and we kind of had this
+idea like hey in the future coding is
+really going to feel more like talking
+to a co-orker like you're going to send
+off a question and then they'll go off
+and do something and come back to you
+with a PR. Uh and so that's where we
+started with this web view. Uh and
+that's what we were building. I think
+directionally that's still kind of
+correct for where things should go. But
+obviously now everyone is coding with
+CLIs instead. Like they're using those
+tools a lot more whether it's cloud code
+or whether it's codecs. And I think at
+least for me kind of the lesson in that
+is I think in some sense you're right
+that like everyone is going to become a
+manager in the future or at least that's
+my hottake but in order to get there
+there are steps along the way and you
+have to really build a lot of trust in
+the model and understand what it's
+doing. you recently came over to cloud
+code. What's the transition been like in
+terms of as using it as your you know
+one of your stacks?
+>> Yeah. Yeah. So cloud code is uh
+certainly my kind of like daily driver
+today. And honestly this has switched
+every few months. Uh for a while I was
+deeply in cursor. I think their new
+model which is really fast is actually
+quite good. Then I kind of moved over to
+quad code especially with Opus. Cloud
+code is a really interesting product and
+I think it's underrated how good the
+both product and model are working
+together. if you study them closely, I
+think one of the things that claude code
+does in particular that's really amazing
+is split up context well and so if you
+look at uh I don't know things like
+skills or sub agents like when you ask
+cla code to do something it will
+typically spawn an explore sub agent or
+like multiple ones and basically each of
+those are running haik coup to traverse
+the file system and kind of like explore
+what's there and they're doing it in
+their own context window and I think
+enthropic has kind of like figured
+something out here around given a task
+does that task fit in the context window
+or should I actually like split it into
+many more and the models are like
+insanely good at this which I think
+gives them really good results
+>> and I think the fascinating thing is
+because it's on the terminal is the
+purest form for composible atomic
+integrations because if you came from ID
+first world which is where cursor was
+and I suppose codeex too this concept of
+uh finding the context more free form
+wouldn't come out so natural right
+string which is so unique.
+>> Yeah. And I personally I was surprised I
+don't know how you all feel but I was
+surprised that like
+>> weird it's like a weird retro future
+that like the CLI which are the
+technology from 20 years ago have
+somehow beaten out all the actual
+ideides which were supposed to be the
+future.
+>> 100%. Yeah. And I I think it's important
+actually to claude code that it's not an
+IDE because it sort of distances you
+from the code that's being written. Like
+IDEs are all about exploring files,
+right? and you're like trying to keep
+all the state in your head and
+understand what's going on. But the fact
+that a CLI is like a totally different
+thing means that they have a lot more
+freedom in terms of how it feels. And I
+I don't know about you, but I feel like
+when I'm using cloud code, it's like,
+oh, I feel like I'm flying through the
+code, you know? It's like there's all
+sorts of things going. There's like
+little progress indicators. It's kind of
+like giving me status updates, but like
+the code that's being written is not the
+front and center thing.
+>> I mean, dev environments are so messy. I
+mean, I really like how clean a sandbox
+conceptually is.
+But then I just ran into all these crazy
+issues like trying to do just simple
+testing, right? It needs to access
+Postgress and then it can't do it or you
+know my codeex.md ended up being 20
+lines long and even then it didn't work.
+When it's in your CLI, it could just
+access your development database. I mean
+I'm not sure if I'm supposed to do this,
+but I've actually also had it access my
+production database to do
+>> and uh it can just do it. It's like,
+yeah, okay, here. Like, I looked into it
+and I think this happened and I'm going
+to debug this, you know, concurrency
+issue. I was like, oh my god, like this
+thing can debug nested delayed jobs like
+five levels in and figure out what the
+bug was and then write a test for it and
+it never happens again. This is insane.
+>> Yeah. And I think that distribution mode
+is frankly underrated. like thinking
+about a cursor or a cloud code or a
+codec CLI, the fact that you can just
+download it and use it without having to
+get it permissions or anything makes a
+huge difference. And actually, I was
+playing around with a product the other
+day where you download a desktop app
+>> and then it execs the clawed code that
+you have running on your laptop and uses
+that and communicates back via an MCP
+server to the desktop product. Mhm. And
+>> it's like this is a very interesting way
+of now starting to work with your laptop
+where you don't have to get anyone's
+permission to do it. You just download
+the product and go.
+>> Yeah. I was looking at like New Relic
+has an MCP but you know Sentry you can
+like copy markdown but like it's like an
+auto bug fixer basically. It's right
+there.
+>> It's super interesting that in a world
+where things are changing so fast you
+really want your product to have a
+bottoms up distribution not top down
+because like top down is like just too
+slow. like the CTO of a company is going
+to be like have all these concerns about
+security and privacy and what if and
+control exactly versus like the
+engineers just like install the thing
+and start using like this thing is
+amazing.
+>> Yeah, I think that's right. The one
+thing I do struggle with I mean I'm like
+a B2B enterprise guy generally but I
+feel like there's some amount of moat
+that happens when you do that top down
+sale and there's got to be some company
+who manages to crack it where it's like
+oh this is a thing that everyone has
+access to maybe individual people can
+take it up. That was the original um
+Netscape Navigator. It was free for
+non-commercial use and then uh people
+would just download it and use it for
+commercial use and then they could just
+track down the IPs and figure out uh
+exactly how many clients were in all of
+these different companies and say
+>> you should pay for this. You're in
+violation but all you have to do is buy
+a license. So I'd be curious if you
+could do that work again here. I mean
+that your point about distribution is
+very interesting because uh now people
+are probably just making architecture
+decisions about what to use directly in
+claude code like they might not even
+know what you know what analytics to use
+and it's like oh yeah as long as cla
+code says use post hog like they're
+using post hog
+>> 100%. One of the companies who I advise
+was talking about their like GEO
+strategy. This is like the generative
+optimization or how you show up in chat
+bots. And what he was saying is funny is
+one of their competitors had put
+together a like top five list of like
+tools in their category that you should
+be using. And of course their tool is
+ranked at the top of this top five list.
+And like any human looking at this would
+be like, oh, this is so obviously
+biased. It's like the top tool is the
+one that's in the domain, you know? But
+the LMS get fooled and like they're
+pulling together a bunch of contexts and
+they're saying like, "Oh, this is the
+top." And then they'll just recommend
+it. I think yeah, if you're selling a
+developer tool, like having good docs
+that are out there, like having social
+proof, like maybe being posted on Reddit
+a little bit more, all of that helps
+your case tremendously,
+>> which is why I think a lot of the open-
+source uh projects have taken off a lot
+more. I think one of the examples is
+Superbase actually.
+>> Yeah. Yeah. uh which really took off
+last year and part of it is because they
+have such a good open- source
+documentation how to set up a bunch of
+stuff. Whenever someone asks how to set
+up anything that you need some sort of
+backend firebased type of transaction
+the default answer from all the LMS is
+actually superbase. I was just trying
+some of these questions that comes from
+that. The thing is it's winning the
+internet and it was like that before
+when it was like Stack Overflow and
+searching Google and then now that
+nobody uses Google anymore. It's like
+crazy. You just Yeah, it's kind of the
+same deal.
+>> I I will say it does help open source
+disproportionately. I would say like I
+don't know if you all saw there was a
+ramp blog post that they recently
+published about building their own
+coding agent and they were mentioning
+that they use open code as a harness um
+because the model can look and see the
+source code and understand how it's
+working. And I I do this all the time
+with open source products. I'll like
+clone the repo and then spin up codeex
+or cloud code and be like, "Hey, give me
+a walkthrough of what's going on here
+and it's really useful."
+>> What do you think are some of the tips
+for anyone that wants to build a coding
+agent since you've uh done it a lot?
+What are what are some uh now lessons
+that you learned that you want to share?
+>> I mean, I think the number one thing uh
+is managing context well. Basically, we
+kind of had like a checkpoint for uh I
+think it was 03 like one of the
+reasoning models and then we did a bunch
+of fine-tuning on it um in reinforcement
+learning where it's like oh you're given
+a bunch of questions to like solve these
+coding problems or like fix tests or
+whatever or implement a feature um and
+then the model was RL to respond to
+those. And so I think most people are
+not going to be doing that right but the
+things that you can do are figure out
+like hey what context should I be
+supplying to this agent to get the best
+possible result. And so for cloud code,
+if you watch it working, it's like, oh,
+I'm going to like spawn a bunch of these
+explore sub agents. They will like
+search for different patterns in the
+file system. They will come back. Uh
+they will have this context. They'll
+summarize it for me and then I'll have
+someplace to go. It's interesting
+watching like different agents structure
+this context. Uh like I think cursor
+takes an approach where they actually do
+semantic search where they embed
+everything and figure out like hey what
+query is closest to this? If you look at
+a codeex or a cloud code, uh they
+actually just use like grip.
+>> And I think that works because well,
+>> yeah, it works very well because code is
+very context dense.
+>> Um like if you think about lines of
+code, it's like each line is probably
+less than 80 characters. There's not a
+lot of like big like data blobs or like
+JSON in your codebase. Maybe there's
+some, but not a lot. You can respect git
+ignore to figure out and like filter out
+stuff that's just not relevant or is
+like packaged. And you can use gp and
+rip grep to like find context around the
+code which probably gives you a good
+sense for what that code is doing. And
+you can navigate the f folder structure.
+>> And also elements are really good at
+emitting very complicated gp expressions
+that would like torture a human.
+>> Yes. Yeah. Yeah. Yeah. Yeah. This is
+like the RL in practice.
+>> Yeah. And so I think all of that like if
+you're trying to build a system well I'm
+trying to build systems that integrate
+uh agents for non-coding work. Uh I
+think you can learn a lot of those
+lessons and say like hey how do I get my
+data in the format that is like maybe
+closest to code where the model can like
+peak and look at like areas around it
+and get the right structured data.
+>> So given this is how a lot of the
+superpowers for the best coding agents
+is context engineering. What are some of
+the tips to become a top 1% user of
+coding agents?
+>> Yeah. What's your stack?
+>> Yeah. What what do you do to be so
+productive with it? one is if you're
+able to use uh just generally far less
+code and plumbing. Um so a lot of what I
+do is like deploy stacks on like
+Verscell or Nex.js or like Cloudflare
+workers where there's kind of like
+already a bunch of boiler plate like
+taking care of for you and then you
+don't really have to think that much
+about like hey I need to stand up like
+all these different services and deal
+with like service discovery and like
+registering on like some sort of central
+endpoint or like all these databases.
+It's like oh like everything is pretty
+roughly defined in this like one or 200
+lines of code. I tend to operate more
+towards microservices for that as well
+or like individual packages that are
+fairly well structured. I think it's
+also worth knowing like what the LLM
+superpowers are like in general coding
+agents are I think Andre Carpathy just
+tweeted about this. They're like super
+persistent so they will keep going no
+matter what. they end up uh typically
+just making more of whatever's there. So
+if you're trying to direct them to do
+something, it's worth like I mean I can
+pick on OpenAI slightly in this example.
+OpenAI has like a giant monor repo. It's
+been there for uh a few years now and
+has like I don't know thousands of
+engineers who are committing. Some of
+those engineers are like super senior
+meta folks who came in and are like know
+exactly how to write production code.
+Some are like new PhDs. It's like uh a
+pretty wide range and so the LM will
+pick up different things depending on
+where you direct it. I think there's a
+lot of room actually for coding agents
+to figure out like what is the like
+optimal type of code that we should
+produce. I mean obviously giving the
+model a way to check its work helps
+improve performance drastically. So the
+more that you can run tests in lint uh
+CI etc. Um personally I also use code
+review bots pretty aggressively. Um I
+know like reptile YC company is really
+good. Um, I use the cursor bug bot has
+gotten quite good and I actually like
+codeex for code review as well. I find
+it does a very good job on correctness.
+So, those are all things that like the
+agents are good at. Uh, and they're
+excellent exploring the codebase too. I
+think areas where they don't do well,
+uh, they make more. If your goal is not
+to make more, they'll like often
+duplicate code and like spend a bunch of
+time re-implementing things that like
+you're like, "Oh, of course you didn't
+want to do this." I think context
+poisoning is a real thing where it kind
+of like goes down one loop and it will
+continue because it has this persistence
+but it's referring back to tokens which
+are like not right in terms of pursuing
+a solution. Um and so one thing that I
+often do is like very actively clear
+context
+>> like how often
+>> usually uh when it gets above like 50%
+tokens.
+>> Oh wow.
+>> Yeah. Yeah. I don't there's this guy Dex
+uh from this company Human Layer that
+was actually another YC company.
+>> Yes, a YC company from Fall 24.
+>> Yeah. Yeah. And he talks a lot about it.
+Yeah.
+>> He has this concept of like the LLM's
+reaching the dumb zone
+>> where it's like after a certain amount
+of tokens uh it just starts like
+degrading in quality. And I actually
+think that's very true especially if you
+think about like how the reinforcement
+learning might work. Like imagine you're
+a college student. You're taking an
+exam. In the first five minutes of that
+exam, you're like, "Oh, I have all the
+time in the world. Like, I'll do a great
+job. I'll think through each of these
+problems." Let's say you have like five
+minutes left and you still have half the
+exam left. You're like, "Oh man, I just
+got to do whatever I can." Like, that's
+the LM with a context window, right?
+>> One of the tricks that uh I think
+founders use is you put like a canary at
+the beginning of the context. There's
+something very esoteric that it's like
+something really funny. It's like, I
+don't know, my name is Calvin and blah
+blah blah. I drank tea at 8 am. Some
+random fact. And then as you keep going,
+you ask it, do you remember what's my
+name? Do you remember when I drank tea?
+And then when it starts forgetting, that
+I think is a bit of a sign that the
+context has poison. That's like one
+trick I've seen people do. They do a
+random canery.
+>> I have not tried this, but I fully
+believe it. Yeah,
+>> that's interesting. I haven't run across
+any bugs before compaction, but maybe
+I'm not paying attention. But you're
+saying like that actually is actively
+something that it just starts doing
+weirder things that are not like
+optimal.
+>> Yeah. Yeah.
+>> Okay. I got to be on the lookout for
+that
+>> solvable within cloud code itself. Like
+it should be able to basically do some
+sort of detection like what is saying
+>> do your own internal heartbeat around it
+around the context.
+>> Yeah. And I think we're just not there
+yet. Like I agree with you in the limit.
+Uh
+>> right now it's definitely hard to manage
+context well. And I think kind of the
+way it gets around it is like split up
+context windows and then try and merge
+everything. But you're sort of still at
+the limit right now of like everything
+that lives in context at the end of a
+cloud code session is kind of fixed.
+It's actually interesting. The codeex
+approach is kind of the opposite and
+they just wrote about this on the OpenAI
+blog where it will run compaction like
+periodically after each turn. And so
+codecs can continue to run for a very
+long time. And if you look at the
+percentage in the uh the CLI, you'll see
+it like move up and down as compaction
+runs. I guess like there are these very
+different architectures between cloud
+code and codeex sound like they're
+actually deeper in that codeex is
+actually meant for much longer running
+jobs. So you that's sort of like off the
+bat a different use case and then the
+architecture is very different as a
+result. I guess right now it seems like
+CLI's you know 2026 might be the year of
+CLI but then this other idea that AGI is
+here and it's actually ASI is around the
+corner the coding agents right now are
+really really smart but not smart enough
+to run on their own for long periods of
+time but a 10x increase in compute from
+here are we there like are we at 24
+hours or 48 hour running jobs on codecs
+and that architecture is correct for
+that world.
+>> Yeah, I think it's a good question. It
+sort of goes back to like kind of the
+founding DNA of both companies. Like I
+feel like Anthropic has always been very
+big on like building tools for humans
+where it comes to like, oh, here's the
+style of the tone and like here's how it
+should fit with all of the rest of your
+work. And I think quad code is like a
+very natural extension of that. In a lot
+of ways, it like works like a human
+would where it's like, oh, you need to
+build like, I don't know, a doghouse or
+something. It's like, oh, I'll go to the
+hardware store and I'll build all these
+materials and I'll like figure out how
+they all fit together. Whereas OpenAI
+really leans into this idea of just like
+we are going to train the best model and
+reinforce over time and get it to do
+longer and longer horizon things uh in
+this pursuit of artificial general
+intelligence. And so it may not work
+like a human at all. Like going back to
+the doghouse example, it's like
+>> but AlphaGo didn't either.
+>> Yeah, but AlphaGo didn't either. It's
+like, oh, it's like instead I will have
+a 3D printer that can print from scratch
+like a doghouse and it will be exactly
+what you want and it will take a long
+time and it will be like very custom and
+it will do like weird things but it will
+work you know and like maybe in the
+limit that's the right call and so it's
+going to be really interesting to see
+how they play out. I mean net net it
+seems like the latter is somewhat
+inevitable but I like the former so much
+you know like even this idea that it gs
+was like I thought about you know 10
+years ago I was like yeah I was in there
+like writing my own really weird reaxes
+to try to figure out where everything
+was when I was refactoring or what
+trying to understand code or whatever.
+So that's the feeling I get when I'm
+using it. It's like I can do five
+people's worth of work in like a single
+day. It's like rocket boosters. It's
+unbelievable.
+>> Yeah. I I think it's going to be really
+interesting to see how this plays out
+across large and small companies. I
+think everyone who's experimenting with
+this stuff on like a hobbyist level or
+at like a very small startup, they're
+just pushing the coding agents as far as
+they can go because it's like you don't
+really have time to figure out anything
+else. Like as a startup, you have
+limited runway. You're just going to
+like orient around speed. I think at a
+bigger company you have a lot more to
+lose and you have all these other
+internal processes around code review
+and you probably already hired like a
+big ENT team and I think it's going to
+be very strange as like these individual
+teams of like one person are like hey
+that team over there isn't doing the
+right thing like let me just build a
+prototype that like works better. I
+think at some point it's going to start
+working better and I think that
+landscape shift is going to be a very
+interesting strange thing. my
+10-year-old is uh you know he has
+writing assignments every day and then
+yesterday was the first day where he
+used AI
+and then I was like this is not a turn
+of a phrase that a 10-year-old is
+capable of doing
+>> and then I think about that in this
+context because we you know are working
+with a lot of 18 to 22 year olds who you
+know they've done internships but like
+they haven't done like manager work like
+you know we're saying um you know postp
+productduct market fit uh once you're
+have job cues of like millions of jobs
+and like you know hundreds of thousands
+of errors. That's like real management.
+Like that's really you know it's
+horribly unglamorous like combing
+through hundreds of thousands of errors
+and then like manually making sure that
+like the thing works for all of your
+users in the background. How does the
+next generation understand that? Can the
+cloud code bot actually teach people
+about uh architecture and things like
+that or you know are you just gonna bump
+your head into it and users just kind of
+suffer and you know people have to
+figure it out
+>> like at least where I find myself
+spending the most time when it comes to
+product is figuring out the kind of
+product model in a sense like what are
+the things that the user has to
+understand today um and what are the
+primitives that they can use to like do
+whatever they want. I always think of
+Slack like this. It's like Slack was in
+some ways not really a new concept. It's
+like there were many chats that existed
+before it. Um, but the fact that they
+had like channels, messages, and
+reactions in a simple way that people
+could just like think about and be like,
+"Oh, I understand how to like navigate
+this." It made a lot of sense for
+people. But then kind of once they were
+there, like it's very hard to change
+that later on for a user, you know? It's
+like, oh, maybe they wanted to go in
+more of like a document first way or
+like maybe right now they're trying to
+incorporate agents. It's like difficult
+to change the user's mental model. And
+so I at least for myself building
+products it's like you have to think
+about that very carefully from an early
+stage because again whatever you supply
+to the coding agents as that kind of
+kernel is going to be what they run with
+and make more of forever more. YC's next
+batch is now taking applications. Got a
+startup in you? Apply at y
+combinator.com/apply.
+It's never too early and filling out the
+app will level up your idea. Okay, back
+to the video.
+>> Do you have thoughts just cuz you know
+the the agent so well? like what what
+types of engineers are going to benefit
+more than others um from these tools
+becoming popular?
+>> In general, I think that kind of the
+more senior senior you are, the more you
+benefit.
+>> Um because
+>> the agents are so good at taking some
+sort of idea and then putting it into
+action. If you're able to prompt that in
+a few words, it's kind of like, oh, now
+suddenly I had this like idea. I I find
+this so often in open like scrolling
+through the codebase. It's like, oh,
+like here's a thing that I wish were
+different. here's a thing that I wish
+were different. Here's a thing that I
+wish were different. Like just being
+able to kick those off and then have
+them come back I think is super
+empowering and multiplies your impact. I
+think also being able to detect like
+which sorts of changes are good or bad
+architecturally is very important or
+like have a sense for where you might
+want to flag something to an agent. I
+think engineers who are more organized
+like managerish uh and there's probably
+just a missing product to be built here.
+Uh maybe something like conductor uh
+where it's like spread across all of
+your sessions and kind of reminding you
+like hey you were working on this thing
+it's done it needs your input here. Oh
+you should switch your attention over to
+this other thing. I think that is
+>> conductor should add that
+>> yeah like uh context management for
+agents but like we also need context
+management for humans.
+>> Yes 100%. Yeah. I mean I want like when
+I wake up every day it kind of is like
+hey here's all the work that got done
+overnight. Like here are the like three
+decisions that you need to make. here
+are like areas of deep thinking that you
+were planning to do like I want the turn
+by turn for my day you know other things
+that make it very useful like if you're
+able to build um I don't know some sort
+of like quick prototype for an idea to
+show it off like that's an area I mean
+obviously the agents do super well at
+this um I would find myself at openai
+often writing kind of like prototype
+code or like hey I've got this like
+in-memory key value store can you now
+turn it into like uh work with a
+production database or something like
+that being able to concisely
+specify ideas in code and I think having
+a smell for what the right architecture
+is is still the area where the models
+like don't do the best job.
+>> So if you were going back to your like
+college days and studying CS again fresh
+and you like were picking your own like
+syllabus or curriculum like what would
+you what would you study? Personally, I
+think still understanding systems uh is
+very important. Um and just having some
+conception of like how like git works,
+you know, or like HTTP or databases like
+cues, like all of these different
+systems. I think that those fundamentals
+are still quite important. The other
+thing that I'd probably do is just have
+a semester where like each week you're
+just building something and you really
+try and push the models as far as they
+can go. There's a sense that you have
+whenever you're doing something that you
+could always just like go up the layer
+and ask the model to do it and like go
+up a layer and ask the model to do it,
+you know, where it's like, oh, I have
+like a implement command where it like
+implements the next phase of the plan,
+but then I could have like an implement
+all command and it like goes stage by
+stage and creates a new sub agent and
+then I could have like a check your work
+kind of thing and like and I think
+knowing where the models can and can't
+accomplish that is such a moving target
+that it's worthwhile just to like tinker
+a lot. I mean, the other thing that's
+really really crazy for I mean, I would
+love to be able to teach 18 to 22 year
+olds. Like, everyone around like at this
+table has like ship stuff that people
+really really want and love. So, it's
+like how do we teach people that?
+>> I wonder if like the best 18 to 22 year
+olds like 5 years from now will just
+have like off the charts taste and
+everything because they'll just be so
+much more prolific. They should be,
+right? like they should just be
+launching and like touching reality like
+10 times as much as like the generation
+before them.
+>> The one thing I have wondered about on
+that note, um I don't know if you all
+found this, but growing up my mom used
+to tell me like, oh, like stop
+multitasking. You're not paying
+attention to like what I'm doing. Uh
+>> and I think there is some truth to that.
+Like often I would be like off on my
+computer like not paying attention. But
+I do think I was legitimately better at
+multitasking than our parents were. Uh,
+and now I look at this new generation. I
+think they're actually quite a bit
+better at multitasking than we are, you
+know, because they've kind of grown up
+in this age of the internet and they're
+dealing with like TikTok and all these
+like different short form video and
+things. Like it seems like there's room
+for both kind of this like deep thinking
+where you want to like notice what
+you're seeing and understand and problem
+solve, but then there's also this mode
+of just like bounce between a bunch of
+different things and you're context
+switching constantly.
+>> ADHD mode.
+>> Yeah, the new generation is quite good
+at this.
+>> Yes, I definitely think there's a
+there's a type of smart person. and
+maybe it's ADHD, but just like always
+has like a bunch of good projects on the
+go, but just never actually finishes
+anything. I might relate to this
+personality a little bit. Um,
+>> you release your uh your vibe code.
+>> Yeah, but I wouldn't only because of
+Claude code. That's kind of my like now
+I just think like you kind of like
+there's certain types of brains that
+just have like like 10 branches going in
+their head, but you never have enough
+hours in the day to actually like see
+any of them through. So, they're always
+like half complete. And now it's just
+like cold code gets you over the line
+with everything. And it's just like, and
+you made this point in your blog post
+about how it feels like a video game,
+but it's just like there's just a
+constant novelty factor. Like you start
+working on something and usually when
+you hit the point of like I'm like bored
+and I've got like this other better idea
+and I should like start on that and then
+come back to this. Like you can do that
+now, but like everything can actually
+get finished.
+>> Let's live in the future for a moment.
+It's 40 years from now. Software still
+exists. Databases still exist. Access
+control still exists. But like at the
+core of it, I mean software is entirely
+personal. access control and who gets to
+do it is like you know sort of like this
+manager mode thing that people still
+have meetings about but then everything
+else about a company its functions its
+rules like is defined by people just
+doing things in their own cloud code
+like thing I don't know maybe it's a CLI
+or it's like you know having giant
+armies of workers then I don't know what
+would that look like
+>> like imagine if every time a company
+signed up for segment you fork the
+codebase you give them their own copy
+of segment is running on their own
+servers and then if they want to change
+anything about it they just like tell
+some chat window which is running like
+an agent coding loop and just like edits
+their version of segment as segment the
+corporation pushes out more features
+some agent figures out how to merge
+>> yeah I I could totally see it I mean
+sort of what I've been thinking I don't
+know how far this future is but like
+eventually every person who's working
+like has their own sort of like cloud
+computer and like set of cloud agents
+who are running for them and and they're
+mostly just like talking back and forth.
+It's kind of like having like a super EA
+or something where it's like, "Oh, here
+are the things I need to pay attention
+to. Like, let me make some quick
+decisions. Like, let me spend more time
+on this. Let me like meet with other
+people." Cuz I think that there's still
+going to be room for people who are like
+want to meet other people and exchange
+ideas in person. At least I get a lot of
+fulfillment out of that. And then
+separately, there's going to be this
+army of agents who are like doing things
+on your behalf and like automating a
+bunch of things. Uh, I think the average
+company is probably going to get like a
+little smaller and there's going to be
+many more of them doing more things.
+>> Something I'm curious to see is kind of
+like what the update version of the PG
+maker uh maker schedule versus manager
+schedule would look like cuz I feel like
+part of what's going on at YC is sort of
+a lot of our jobs are essentially
+manager schedule which just really made
+it hard to do any sort of building your
+own software. But now you totally can
+and that's why like a bunch of the
+partners
+>> just do it in the meeting like I like
+right at the beginning of this podcast.
+You let it run and then come back.
+>> Well, like in the pockets, right? Like
+in like it just used to be like
+literally unless you had like, you know,
+4 hours minimum block free to do
+something, it just wasn't worth even
+getting started, right? And I I think
+that's actually goes very deep to how
+we've changed programming. Like it used
+to be that in order to write any code,
+you had to fill your own context window
+with so much data about all the
+different class names and the functions
+and the code that it touches. It would
+take hours to build up that context
+window. And so doing it in 10-minute
+snatches was just like so frustrating. I
+do think I think maybe one one primitive
+for this future world will be I think
+still the data models need to be still
+be consistent and the system of record
+>> there's there's opportunity for
+something that's kind of agentic first
+because right now we're still kind of in
+integrated very much with databases and
+SQL or NoSQL queries that are very low
+level but imagine something that
+generates all the data that you need for
+all the different views for custom
+software so a lot of the world would be
+custom views but I think the unifi stuff
+we still need to have data to be
+correct.
+>> I think data has a lot of gravity and I
+I think you see this with companies who
+are like offering access via API or MCP
+like I think Slack uh locked down their
+API a little bit because they didn't
+want people just exfiltrating everything
+from Slack and then building agentic
+experiences on top of it.
+>> I wonder with that note if you were to
+rebuild segment in the current with the
+current tools
+>> how would it look like? I mean, segment
+is a funny business in that uh where we
+started was building these integrations,
+right? Um and so it's like, oh, you need
+to wire up like the same data going to
+like mix panel and kissmetrics and
+Google Analytics, etc. And I think just
+writing that code now like that used to
+be maybe a more annoying or harder thing
+to do and so it was worth paying for.
+Now it like that value has dropped to
+zero.
+>> Yeah. And actually like in many cases
+you're better off like saying, "Oh, I
+actually want to map it this way and I
+want this specific behavior." like I
+will just tell the quad or codeex what
+to do and then it will do it and I'll
+have exactly the behavior that I want.
+So I think that aspect of segment like
+the value has dropped precipitously. I
+think the aspect of like keeping this
+data pipeline running and like
+continuing to automate a bunch of parts
+of your business or like schedule these
+like email deliveries which should go
+out through customer IO every time a
+customer signs up or like manage
+audiences for you like that value is
+kind of still there and I think you
+could do a lot more interesting things
+where it's like hey if I have all this
+data and like a full view of the
+customer like how should I be emailing
+them? Should I change like parts of the
+product when they log in? Should I be
+giving them different onboardings
+depending on who they are? like there's
+a lot more interesting stuff that you
+could do by basically running like I
+don't know small LM agents over them and
+changing that. That would be the changes
+I would make.
+>> So it's kind of like moving up the stack
+to your comment earlier and all the way
+turtles down the low-level stuff is gone
+is now really more doing things at the
+campaign level which is way more
+abstract.
+>> Yes. I mean I'm amazed at to what degree
+like claude code even just from like the
+context of what I'm working on figures
+out like what my motivations are.
+>> Yeah. I I I'm still blown away by coding
+agents because effectively what you're
+doing is you're like giving them a copy
+of a repo and then you're slipping a
+little note under the door and being
+like, "Hey, go implement this thing."
+They have like no knowledge of like what
+your company is or like what you do, who
+your customers are in most cases. Maybe
+it's in the training set because they
+know you're Gary. But it blows my mind
+that it works at all. And and that's
+where I think the context is really
+important, right? Because if it latches
+on to something that isn't quite right,
+it doesn't have a lot to go on. And if
+it misses something that's essential,
+it's going to just reimplement it.
+>> What do you think the constraints are
+right now? I mean, like context window
+is still a constraint, but it's like so
+big that, you know, it's like we can do
+some stuff like we can't do the mega
+rearchitectures, but we can do a lot.
+And then if the opus 4.5 somehow got a
+lot smarter, uh, and then that unlocked
+a big thing, which was interesting. I
+don't have no idea if that was like
+pre-training or post-training. like what
+are there other like levers that you
+think of other than you know basic model
+intelligence like frontier model
+intelligence and context window I mean I
+still think context window is like
+probably the number one limit like if
+you look at cloud code executing it's
+delegating to all these different
+context windows at the end of the day
+when each one comes back it's like
+getting some sort of summary so it's
+also not getting the full picture like
+if you have a problem that's just like
+too big to fit in a single one like kind
+of no amount of compaction is going to
+help I would point to that as like both
+Anthropic has figured something quite
+useful out with delegating to these
+subcontext windows, but also I think
+it's still a block barrier.
+>> So we'd do better if we had a million
+million token context every single time.
+>> Yeah, I think so. And like figure it out
+a better way to especially train these
+like very long context trajectories
+because if you think about it like
+there's there's a lot of training data
+on the internet for like what is the
+next sentence that comes or like what's
+the next paragraph that comes. If you
+have 80,000 tokens that are generated
+like understanding what the next thing
+to do based upon like oh I should refer
+to the 20,000 token like that's
+trickier. I think this like integration
+and orchestration is starting to become
+the limiting factor. I mean I think
+there are like stuff on code review
+related to this. It's like oh if we're
+like merging all this code like who's
+watching it? Does a human still have to
+watch it? Like how do we verify the
+changes? And then I think like pulling
+in the context correctly from your tools
+like you were talking about Sentry like
+you want Sentry to auto be able to like
+figure out a PR you know and then like
+maybe it pushes it to a subset of your
+traffic and if it looks good then it
+rolls out everywhere you know like all
+of that automation still has to be
+built. I was surprised how important
+testing was. Like I was operating for
+like the first 2 or 3 days of my 9 days
+in the wilderness. Like uh no tests or
+very few tests. And then one day I was
+like, "All right, today's refactor day.
+I'm going to do get to 100% test
+coverage." And then I just sped up like
+crazy. It was just like, "Oh, it did it.
+It works." I rarely even have to
+necessarily manually test because it's
+like the test coverage is so good and
+like nothing breaks
+>> which is very similar to what all the
+companies are doing just for prompt
+engineering outside of coding is very
+much test-driven development. I think we
+had this episode with Jake Heler and
+that was a big paradigm shift is like
+the way you get a good prompt is all
+test driven just like evals right in a
+sense the test cases are your evals.
+There are some broken flows now. I think
+that you we might need a clawed code
+that could like talk to a stack overflow
+that was like a clawed code stack
+overflow.
+>> Like I had this problem. It was so crazy
+like I uh instead of using in the in
+like the priority of a job Q I used or
+actually I didn't even write again I did
+not write this. The machine wrote a
+string with a comma thinking that it
+would take that syntax, but it was
+expecting like an array in JSON and then
+it just like no jobs would run. And then
+I watched it for like 30 minutes walk
+through the internals of Rails job like
+the active job like couple thousand
+lines of code like trying to debug what
+was happening and it found the bug
+actually. I was like that's amazing. I
+just think about what I would do like 10
+years ago and I would have been like hey
+why are the you know jobs not working
+and then I would find a Stack Overflow
+or blog a Rails blog post and it's like
+oh yeah like nobody fixed that stupid
+bug where you know you think that you
+can put a you know comma delimited
+string in there but actually you have to
+make sure it's an array.
+>> Uhhuh.
+>> I was like oh my god like that was very
+funny actually. I think that's like one
+of the hardest parts about thinking
+about what's going to happen here
+because uh there's like things that you
+would do as a human in a CLI right now
+and like that's very obvious but even
+that idea of like should the agents have
+their own stack overflow like if you
+just increase the intelligence by you
+know I don't know what you even call it
+like by 10 IQ points like 10 virtual IQ
+points
+>> like would it even do that? It would
+just be like oh yeah that's a string
+whatever.
+>> Yeah. Yeah. I think there's something
+very interesting here around like agent
+memory. Um, and cloud code has sort of
+set itself up and I think Codeex 2 by
+storing all your conversation history
+just as files. So you could imagine you
+like give it access to a tool that then
+can read previous conversation history.
+I think there's a missing piece around a
+lot of collaboration there. Like it'd be
+amazing if like there was some way of
+smartly sharing your co-workers prompts
+and you could see and be like, "Oh, like
+I hit this thing, but actually like
+Brian over there like fixed it earlier,
+you know, so like the two of us can
+share knowledge." I I think there's
+something there's something onto this of
+like a model generated like wiki, you
+know, or like Graopedia stuff.
+>> Now I can't stop thinking about Have you
+seen um the Claudebot social like the
+network for clawbots to talk to each
+other and it's like that's the evolution
+for Molen?
+>> Yeah. I guess what they don't know.
+Clawbot's essentially like um uh like
+your own personal AI agent that you can
+run on your own machine. You can
+download it. Um do not give it access to
+emails would be my number one piece of
+advice or probably anything. Um because
+it's not clear how safe it is and it's
+probably almost certainly going to
+probably a lot of people being prompt
+injected by it right now. But somebody
+created um like a I haven't actually
+seen it but I've like seen it on Twitter
+but like a site where like everyone can
+sort of spin up their own like clawbot
+like personal agent and then the agents
+can talk to each other and now there's
+just like all this AI generated content
+of these like personal AI agents talking
+to each other.
+>> Yeah. I mean it looks like Reddit but if
+Reddit were run by agents. I mean it's
+interesting to see like Codeex's
+personality shine through when writing
+code. I would say uh it does most stuff
+that humans don't do. kind of this alpha
+go sense where it's like oh it'll write
+a Python script to like modify some part
+of the file system. I think that is like
+very interesting and kind of alien
+behavior which has been learned. Yeah.
+>> Um but it does give these like
+superhuman results for me at least when
+debugging complex issues that I find
+opus often misses.
+>> What's an example of a complex issue
+that you could talk about? I mean it's
+like concurrency or naming issues,
+right?
+>> I find the models are actually like
+decent at concurrency. oftentimes
+there's stuff where it's like, oh,
+there's a request that is like
+traversing several different services. I
+mean, kind of to your point about the uh
+serialization and deserialization of
+like stuff with commas in it.
+>> Um, it's like, oh, it needs to track
+some sort of complex behavior around
+those or like way of uh I don't know
+refreshing complex UI state and Opus
+often will miss it if there is many
+files, but codeex seems to catch it.
+>> Interesting.
+>> Yeah.
+>> Yeah. Prognostication about how will
+tools continue to evolve. It's very
+interesting like I feel like sort of a
+new citizen in this land in a way like I
+just you know knew it was happening. I
+you know manager schedule finally a
+project appeared and was like oh I'm
+going to go all in on this
+>> and then now I'm like in it's like uh
+>> I'm in a stranger in a strange land but
+it but it like resembles exactly what I
+remember.
+>> I think we all we all feel that way like
+I think I think the most important thing
+is just to keep tinkering because it all
+changes every few months. I do feel like
+the best or the people who will get the
+most out of coding agents in the future
+are going to be kind of like more
+manager-like where they're focusing on
+directing flows in certain ways. They're
+probably going to be a little bit more
+like designer artist in some ways where
+it's like they're figuring out what
+specifically goes in the product and
+what stuff you can do without. And I
+think they'll be very good at just like
+continuing to think about automation and
+where they're missing context. I guess
+what's funny is I tried to use codeex
+just now uh for my Rails project but the
+thing is like it's kind of obvious that
+nobody at OpenAI cares about Rails which
+is fine like it's a very it's a
+vestigial language it's very strange it
+just happened to be the one that I you
+know really really went deep on 10 years
+ago
+>> and then uh it's just funny how much of
+it is exactly again anyone can make
+something but then the something people
+want is very hard and um even when you
+have like unlimited resources is at like
+an openi. It's like I guess if someone
+from codeex is watching right now, my
+request would be go down the list of all
+of the run times and just add like
+syntactic sugar. There's like this is
+probably like you know 10 PRs at most
+for like I don't know the top like 15
+run times. I guess it's like sort of the
+reminder that like man actually like
+there are far fewer excuses for software
+that doesn't quite work for a user you
+know now than ever actually. Yeah, I do
+think it this is an interesting point in
+terms of mix of training data. Codex
+works very well on Python monor repos
+shape of openi.
+>> Yeah. Yeah. And it's like I remember
+working like internally open I was like
+oh my gosh this tool is amazing. It is
+incredible. Um and it kind of makes
+sense in terms of the data mix and the
+researchers who are working on it. I
+think Enthropic is focused a little bit
+more on like some of the front-end
+things. Um, and I don't know in terms of
+like a Ruby for example, like who has
+the best model there and who's
+incorporated the data mix.
+>> Yeah.
+>> Like some of the labs tend to take this
+perspective of just more data is better.
+Uh, and so they'll just flood as much
+data as possible while others I think
+are a little bit more tuned in terms of
+the mix. And I think depending on which
+approach you take there, it can give
+very different results where it's like,
+oh, I'm taking just the like top 10% of
+JavaScript is pretty different than if
+you're looking across everything. I
+actually think OpenAI and the you know
+OpenAI models are really good at Ruby
+from what I can tell and then
+>> it's it's the harness around the model.
+It is Yeah.
+>> Oh, interesting. Okay.
+>> It's literally like Rails has this weird
+thing where you have to have, you know,
+access Postgress in a certain way or
+like it couldn't fit. Yeah. The
+sandboxing.
+>> Yeah, the sandboxing. It's such an
+interesting question because uh I think
+OpenAI actually takes the like
+sandboxing and security question more
+seriously than almost anyone else. I
+remember when we were building codeex
+like basically one of the gates that you
+have to pass through in order to release
+a model is you have to like talk about
+safety and security risks like every
+time you want to release. One of the
+things we were looking into was prompt
+injection especially for opening up to
+the internet because a bunch of users
+were like oh this has to like work on
+the internet. We're like, "Oh, we don't
+know." Like, "It seems pretty easy to
+prompt."
+>> Operator was also Yeah. that. Yeah.
+>> And so, uh, the PM on our team, Alex,
+uh, basically like put together a GitHub
+issue and it had like a very obvious
+prompt injection, which was like, "Oh,
+reveal this thing." And then he told the
+model like, "Hey, go fix this issue."
+Uh, and he's like, "Oh, there's no way
+this is going to work." And like
+immediately the prompt injection works,
+you know? And so I think OpenAI like
+sort of correctly is very worried about
+this and is like, "Hey, we're going to
+run everything in on a sandbox. We're
+going to make sure it like doesn't touch
+all these sensitive files in your
+machine. We're going to be very careful
+about secrets. And I think if you're a
+startup where you're just like running
+fast, you probably don't care. You're
+just like, I just want it to work. Y,
+you know,
+>> are you a dangerously skip permissions
+person?
+>> Uh, I actually am not. I like have a set
+of things that are
+>> How about you? Are you running?
+>> Not I like to read, you know. I like to
+read what it's doing.
+>> Are you skip permissions, Jerry?
+>> 100%.
+>> YOLO.
+>> Oh my god. It's about 50/50 on the YC
+engineering team.
+>> It's about 5050.
+>> A security engineer would watch this
+part and say, "You can't release this
+part of the video. Just cut it from the
+podcast. You can't have this out here."
+>> I think it's context dependent. Like if
+you're at an enterprise, you don't want
+to do that. If you're a startup and have
+nothing to lose, you probably do.
+>> YC has progressed a little bit from a
+startup. We still act like one though,
+which is, I think, important. Cool. I
+mean, this is so awesome. Kelvin, thank
+you so much for joining us.
+>> Of course. Thanks for having me.
+>> Oh my god. There's Yeah. So fun. All
+right, back to Claude.

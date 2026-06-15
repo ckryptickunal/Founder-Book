@@ -1,0 +1,864 @@
+Title: How To Build Generative AI Models Like OpenAI's Sora
+Video ID: fmI_OciHV_8
+URL: https://www.youtube.com/watch?v=fmI_OciHV_8
+Channel: Y Combinator
+Published: 2024-03-28T17:05:44Z
+Duration: PT34M6S
+Views: 85177
+Likes: 1968
+Tags: YC, Y Combinator
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 842
+
+Description:
+If you read articles about companies like OpenAI and Anthropic training foundation models, it would be natural to assume that if you don’t have a billion dollars or the resources of a large company, you can’t train your own foundational models. But the opposite is true.
+
+In this episode of the Lightcone Podcast, we discuss the strategies to build a foundational model from scratch in less than 3 months with examples of YC companies doing just that. We also get an exclusive look at Open AI's Sora!
+
+============================================================
+TRANSCRIPT
+============================================================
+
+a lot of the Sci-Fi stuff is actually
+now becoming possible what happens when
+you have a model that's able of
+simulating real world physics wouldn't
+it be cool if this podcast were actually
+an Infinity AI video one thing I noticed
+that like the lip syncing is like
+extremely accurate like it really looks
+like he's actually speaking Hindi how do
+YC companies build Foundation models
+during the batch with just 500,000 this
+is literally built by 21-year-old new
+College grads and they built this thing
+in 2 months I think he like locked
+himself in his apartment for a month and
+just read AI papers you can actually be
+on The Cutting Edge in relatively short
+order and that's an incredible
+[Music]
+blessing welcome back to another episode
+of the light cone today we're talking
+about generative AI first there was GPT
+4 then there was mid Journey for image
+generation and now we're making the leap
+into video Harge we got access to Sora
+and we're about to take a look at some
+clips that they generated just for us
+yep should we take a look okay so here's
+the first one the prompt is it's the
+year 2050 a humanoid robot acting as a
+household helper walk someone's golden
+retriever down a pretty Treeline
+Suburban Street what do we think I like
+how it actually spells out help it's
+like a flex like I can spell now yeah
+which was not true with the image models
+it always screw up the text image stable
+diffusion Dolly were we were notoriously
+bad at spelling text so that is a major
+advance that no one's really talked
+about yet I me it's wild how high
+definition it is like that's
+almost realistic and the other really
+cool thing is the physics the way the
+robot walks for the most part is very
+accurate you do notice little kind of
+like Shuffle that's a little bit off but
+for the most part is believable and the
+way the golden retriever moves I have a
+golden retriever so I can personally
+vouch that like they perfectly modeled
+the life yeah you have one right like
+your dog right yeah perfect a perfect
+representation of how a golden retriever
+walks I also like that um with with
+Dolly and stable diffusion as you got as
+you made your prompts longer and longer
+it would just start ignoring it and not
+actually doing exactly what you told it
+to do and like we gave it a very
+specific prompt here and did exactly the
+thing that we told it to you can see
+it's not it's still not exactly perfect
+so I think towards the end you see is
+like a floating dog something in there
+okay I I I was going to call out a
+couple other imperfections here which is
+that like the street is not a street
+guys like caret it's a yeah and like
+what what's up with that it's like a
+weird it's like not quite a sidewalk not
+quite a street yeah but in the future we
+won't need cars anymore and then like
+only one side structure is like jumping
+there's this a floating object thing
+here's a floating object on the right if
+you if you watch carefully which looks
+like a little dog or something I'm not
+sure this is still a real breakthrough
+if you look at you know some of the
+stuff that meta put out um I mean I
+always think about what is it Will Smith
+trying to eat a plate of spaghetti and
+that looks insane um and it's sort of
+just what you would do if you fed the
+previous frame into the same model to
+try to generate the next frame and it
+just wasn't durable and that wasn't too
+long ago yeah the other thing that I
+find really impressive about this s
+videos is that they have long-term
+visual consistency so it's like a minute
+long and like all the houses are similar
+architectural style there's no like
+discontinuity all the trees look similar
+it's clearly all takes place in the same
+world next one's a drone camera circles
+around the Golden Gate Bridge The View
+showcases the Magnificent Cliffs and
+ocean waves with views of San Francisco
+in the background the view is stunning
+captured with beautiful photography that
+is the Golden Gate that is the Golden
+Gate knows what the Golden Gate Bridge
+looks like and I think you can see
+alcatra there a little bit too yeah I'm
+like like the the high definition is
+amazing and you can see the city in the
+background as we asked for it's
+definitely not geographically accurate
+but yeah like the terrain is not quite
+actually the way it is in the real world
+but it it looks visually kind of similar
+yeah and you can see it's not quite
+perfect cuz early on in the clip if you
+look at sort of one of the um Columns of
+the bridge from a particular angle it
+looks disjointed like can you see that
+one oh yeah the back yeah and then it
+sort of lines up when we get to this
+angle Al also if you go back to the
+beginning of the clip and you look at
+the cars driving on the bridge they're
+driving on the wrong side of the road
+like like that one's about to cause a
+traffic accident maybe there's some data
+from the UK maybe yeah there is I guess
+the other detail is is in computer
+Graphics incredibly difficult to
+simulate fluid and it's still a little
+bit wonky with it with the waves they're
+a little bit static yeah I I've seen
+other Sor Clips where it captures the
+motion of water just incredibly one
+thing I'm really curious about it's just
+how Sora Works under the hood and just
+how they're generating these videos so D
+could you even say a brief like a uh a
+primer on just like what's actually
+going on and one thing I was
+particularly curious about is like is
+this like a new model like it um or is
+this like an extension of the
+transformal model that we all know about
+as um powering chbt I think the tldr and
+the really cool thing here it is really
+a combination of a transformer model
+which typically has been mostly used for
+text and a diffusion model which has
+been used in which is a lot of the tech
+behind dially mid journey to generate
+images so it's combining these two and
+then adding a temporal component so you
+can see the consistency between frames
+and the time and I think the key thing
+that uh open AI did was to train this
+with videos and with what they call
+SpaceTime patches so it is like this uh
+basically this 3x3 Matrix of pixels so
+you have the space spatial and then
+patches of uh temporal which is like
+multiple frames create a video and the
+way they do it they have a variation of
+the sizes of these patches they could be
+size smaller to bigger in XYZ basically
+right and then they basically train all
+this in in this giant architecture
+whicha is really expensive and so are
+the patches are these SpaceTime patches
+the video equivalent of tokens sort of
+because I think there's a lot of Prior
+work behind uh Sora because the first
+thing is Transformers have been mostly
+applied to Tex and one of the prior work
+Arts was uh Google's work on
+demonstrating that you could do
+Transformer models not just for English
+text but for images so that was a
+foundational paper that came back in um
+I think they published it in 2020 and
+the paper was called image is wor 16 x
+16 so they call it a visual Transformer
+so they demonstrated that you could
+create and use Transformer models for
+image recognition task because the State
+ofthe art up to then was convolutional
+Nal networks which was very expensive to
+compute so that was one piece of the
+puzzle the other piece of of the puzzle
+was um kind of the SpaceTime
+concept and I think a sum of that comes
+from stitching some different work on
+the past this um this other paper World
+model they came out in 2018 that
+separated is for robotics actually that
+separates the detection piece so that's
+kind of the perception of the visual
+part and then the other piece is the
+memory model for the temporal aspect and
+the temporal aspect in the world model
+paper uses irn
+and then there's a controller model that
+combines it so what I mean they don't
+explain too much openet this is just a
+bit of just me looking at it I I don't
+know this is one of the things that open
+eyes a bit Cy about it but we can only
+speculate It's a combination of like
+robotics Papers Plus Transformer plus
+text and then how much more expensive is
+it to generate one of these videos
+compared sharing the text like I'm like
+how do we even think about that oh man
+so imag the GPT 4 is like a trillion
+parameters and that imagine is only two
+Dimensions right text it's just the
+Matrix of 2 by two now this is like a
+order magnitude so I can imagine it's
+like at least one order magn 10 trillion
+okay that's amazing probably 10 times
+the amount of gpus I can only imagine I
+think it was about 20 30,000 I forget
+exactly the number of gpus that took for
+G pt4 okay what's crazy is that we have
+companies within y see that have also
+been able to achieve similar types of
+functionality and they clearly have way
+less resources than open AI does and so
+I'm curious how they manag to do that
+and the way the way I kind of think
+about this is that there's the
+components of building one of these like
+foundational models like data compute
+and expertise should we talk through
+some of the YC companies and how they've
+managed to like hack each or all of
+those things basically how do YC
+companies build Foundation models during
+the bat with just 500,000 yeah I think
+it's is an important topic because I
+think because people know how much money
+open AI is spending on gpus there's this
+meme going around that in order to do
+this you need to like have raised like
+billions of dollars and have like a data
+center full of gpus and we've actually
+seen that is not true there's actually a
+bunch of companies in the current batch
+witer 24 right now that just in the time
+of the batch with just the 500k that YC
+gives them have actually built really
+awesome foundational models that are
+producing like magical results should we
+look at some of these demos and see how
+talk about how they managed to get this
+to work yeah uh let's start with
+infinity AI Infinity AI is coming in the
+current batch and what they do is they
+make deep fake videos of a particular
+person so for example they have an AI
+replica of Elon Musk and you can just
+tell Infinity AI what you want Elon Musk
+to say and they will produce a video of
+Elon Musk saying exactly that thing
+watch a demo yeah let's see a demo let's
+watch the demo speaking of IC companies
+training their own models did you guys
+see the infinity AI demo last week yeah
+they're a company in my group Infinity
+allows people to make videos by just
+typing out a script wouldn't it be cool
+if this podcast were actually an
+Infinity AI video that'd be super cool
+you think they'd be up for that well
+guys I have a surprise for you here we
+are was pretty
+good so special thanks to the infinity
+AI team who made a model for of the Lite
+cone podcast and the way that they did
+this is they literally just downloaded
+our YouTube videos from the first three
+episodes and they train their model on
+that and the cool thing about these
+models now is like you don't need that
+much data once you've trained the
+foundation model to adapt it to learn a
+new person so just the like hour or so
+of YouTube video that we had was enough
+for them to get a really accurate
+representation I could talk about
+another company so I'll explain what
+synlab is synlab is an API for creating
+real time lip syncing and the crazy
+thing about this team is that they
+trained the models on a single A1
+100 and is generating these CS of
+results so let's take a look at
+it I'm guessing this guy doesn't
+actually speak Hindi no no okay okay one
+thing I noticed that like the lip
+syncing is like extremely accurate like
+it really looks like he's actually
+speaking Hindi yeah and if we put it in
+this framework that you were mentioning
+har with how YC companies do this
+there's different vectors is uh
+computation data set and speed so they
+kind of hacked all of those so for the
+data set the clever thing they done is
+on heard of chaining a video model video
+Audio model with so little resources is
+they compress a lot of the data and low
+rest video so you don't need the highr
+video because if you have a highr of
+1080p versus let's say the
+241 version that's like a factor
+quadratic Factor less because it's two
+Dimensions right so they done that the
+other thing that enabled them to really
+move a lot faster is the deal that we
+did with aure where we have a dedicated
+GPU cluster for companies in the batch
+they've been able to iterate 100 times
+faster than they were before in the
+batch so a lot of companies out there uh
+they decide they need to do fine-tuning
+they need access to gpus and they just
+can't get it or you've got to pay an arm
+and a leg and prepay for a year in
+advance and maybe you'll get it in 2025
+but if you're in the YC batch turns out
+you can get them yeah you get over half
+a million in credits and you and there's
+no uh contention for resources you
+actually get instant access within 24
+hours for a GPU cluster which is pretty
+cool cuz YC invest half a million doll
+but I think all the companies in the YC
+B to train these models I think they
+literally didn't have to touch the YC
+money to train the models like that was
+all extra free money like unrelated to
+unrelated to the YC investment should we
+talk about sonado so sonado is another
+company in the winter 24 batch um and
+they have built a text to song model so
+you can give their model lyrics to a
+song and tell it who you want to perform
+the song like you can tell it I want
+Taylor Swift to sing a birthday song for
+my dog and it will make exactly that
+song there's only like two or three
+models in the world that have ever been
+trained that actually do this and I
+think sonado is actually the best one oh
+wow um and the really cool thing is that
+the founders of sonado are literally
+like 21 years old so Harge to your point
+about expertise this was not built by
+like PhD machine learning researchers
+who have been working in machine
+learning for like 10 years or something
+this is literally built by 21-year-old
+new college grad
+and they built this thing in months and
+they did it basically they just taught
+themselves just like went online and
+they like figured out how to do it that
+is very impressive should we take a look
+at it yeah so this is um a song that
+they made for the YC batch and it's like
+a power March about white
+[Music]
+combinator fine in the heart of the
+valley where futes are made found
+of is this how we're going to open the
+badge yeah from now that's a good idea
+we need big uh orange banners behind us
+and we have to wear um military Garb
+though with orange Armory Gary we could
+do our own song for demo day AI
+generated I think we have to now you
+have
+to this is very impressive one thing I
+really like about this is like you can
+actually understand the lyrics like it
+we really does do the lyrics but it
+really does sound like someone is
+singing it this is the first time I've
+heard AI vocals like that yeah and to
+your point of Jared there's another
+company that also didn't have the
+expertise of PhD of machine learning it
+is called metalware they're building a
+co-pilot for hardware and these were
+Founders who used to work as Hardware
+Engineers of SpaceX and they had to
+build all these Hardware Designs so
+they're very familiar with building
+hardware and they when they came into
+the batch they decided to build
+basically a co-pilot for Hardware design
+and they didn't have much AI background
+and they figured it out and one of the
+cool things about them is they also
+trained a foundation model for this
+because it was there's no model
+available for this and they were able to
+do it during the batch and in that same
+framework of the things that they hack
+with data and computation in terms of um
+the data they got away with using less
+data but more high quality what they did
+is they took a bunch of figures and
+information from textbooks on hardware
+and they scanned all of that and Ed that
+as input which is clever right the other
+problem the other thing because they
+didn't need as much data then they could
+choose to work with a model that's less
+computationally intensive so they
+actually use GPT 2. five which seems
+counterintuitive because the
+2.5 GPT only has like one billion plus
+parameters I think I think it's one
+billion right yeah versus gbd4 is like
+trillion yeah and they were able to get
+away to use less computational resources
+because they use a smaller model and
+better data and then they could do all
+these Hardware design copilot tasks
+which is really cool so when you kind of
+constrain a lot of your tasks
+and you're very specific and the data
+set is very high quality that's another
+way you could hack and build a
+foundation model during the patch and
+therefore all different kinds of
+applications not just generating video
+text there's one that I really excited
+in the current badge called guab they're
+building a explainable foundation model
+because one of the
+things with all these Foundation models
+and deep learning is kind of this
+blackbox magic nobody know what's going
+on that you put in the data it kind of
+predicts the label and you have no idea
+how that happened the prior to deep
+learnings you could because you could
+have the weights and understand which
+feature indicated and gave the weight
+for the label so this team is building a
+foundation model that can explain the
+outputs and they trained a model doing
+the batch nice as a Founder like when is
+it the right call to invest in building
+your own model versus just using one of
+these in open source models and
+fine-tuning and tweaking it to fit what
+you need well I guess it depends right
+depends on what you're really looking to
+build if you're in a very specific and
+it can be Niche space you can get away
+with training Your Own Foundation model
+like the metalware guys but if you're
+let's say doing something more with
+language GPT 4 gets you quite further
+along so depends on the task too right
+so is it so if we're thinking about it
+as like the Daya computer expertise like
+we're basically saying expertise is
+maybe overrated like we're like proving
+that if you're just like smart and like
+willing to read the papers you can
+figure it out compute there are way like
+being in YC is one way to get around
+that like you can get credits and you
+can take some of that cost off and so
+then is it like the data piece is sort
+of where all the edge is like if you can
+find high
+quality um S I say like high quality but
+not like giant data sets that's the the
+hack oh yes let's talk about uh find so
+find is this company that's building a
+co-pilot for software the answers that
+they're generating are even better than
+stack Overflow interesting and these
+were also kids out of college with not a
+lot of like a background and they done a
+very clever hack to build their own
+model for the data they created a bunch
+of synthetic data for programming
+competitions so they would have a bunch
+of those data sets
+generated and that got like a lot higher
+quality imagine that it's like basically
+infinite if it's synthetic it's
+interesting cuz I feel like synthetic
+data has been looked down on by it was
+controversial yeah initially yeah why
+like why was it originally controversial
+and why does it actually seem to be
+working it seemed like circular it
+seemed like it would be impossible for a
+model to generate its own data and how
+like how can you learn from the data
+that you generated s yeah it wasn't
+obvious that such a thing could be
+possible it seemed to like violate some
+like conservation of energy I remember
+it was like the the meme that was going
+around on Twitter was like the mosquito
+drinking its own blood and like this is
+how synthetic day works yeah um but then
+it turns out it actually works
+interesting I think maybe this is
+related to the idea that you know uh
+some of these you know llms are actually
+capable of reasoning and once you can
+reason maybe that's the part that sort
+of spins up the flywheel and makes it
+possible
+and you know there are other interesting
+analoges that I think there's a healthy
+debate out there whether or not this
+will come together but you could look at
+self-driving car models are often
+trained on massive amounts of simulation
+data instead of actually real drive time
+you know sometimes by a factor of 10 to
+one or more and that might end up being
+true for some of the generative AI
+models too is it possible Sora will do
+that as well like Sora generate its
+own video to continue improving it own
+model probably I know open doesn't share
+much about their data sources because
+that's part of the secret sauce but 100%
+they're using uh video footage that's
+generated from Unreal Engine probably or
+Unity One of These game engines because
+they have a full physics simulator so
+you could create multiple as scenes of
+the same uh let's say if you have a the
+example of the car driving on the on the
+cliff they could generate it from all
+multiple camera angles because what that
+game engine does you can position the
+camera anywhere and you could basically
+generate all the footage on all possible
+camera views the physics part of this is
+really interesting I you most people
+when they seeing these Sora demos or
+just generally get this concept your
+mind goes to oh this will be cool for
+generating films or video games that
+like like entertainment but if what
+you're saying is it can actually like
+simulate the real world there's probably
+going to be lots of like further
+reaching implications for that like what
+are some of like what happened
+in America and so and like no commercial
+company has been able to create their
+own version because it's too expensive
+to do it the old school physics-based
+way and so what's really cool about atmo
+is instead of using the old school
+physics way they've trained a
+foundational model and using machine
+learning it's like a million times more
+efficient to run the same calculation or
+something like that and because of that
+this startup which is only raised a seed
+round is actually able to make a WEA
+prediction model that is more accurate
+than the Noah funded one that cost over
+a billion dollars interesting what's
+really surprising about the text to
+video is like just how far reaching like
+the implications are so you can go Way
+Beyond just generating like video games
+like we can do weather like what what
+are what are other examples of cool
+things that we could do if we can
+generate like have a physics simul of
+the real world well there's a bunch of
+companies that are applying it to
+biology Diana do you want to talk about
+a couple of those yeah so it turns out
+all these Foundation models are great
+function approximators for anything so
+function they're general purpose
+learning algorithms and the human body
+can be simulated with with functions too
+so one of the companies uh that we
+funded as well is called theuse bio
+they're building generative AI for
+proteins so what they're doing is
+building these big models to be able to
+create new molecules for new types of
+drugs and new kinds of uh Gene therapies
+and in order to hack this aspect of how
+do they make progress with not as much
+resources they had a lot of expertise
+this is a different than than the set of
+Founders we talked about that don't come
+from the background of your eye namada
+the founder she has she published some
+very legit papers in nature before this
+she had a lot of expertise in terms of
+how to Short Circuit the computation
+Loop what she did is build custom
+kernels on the the models so that the
+the whole process of building the the
+foundation models is a lot faster with
+less resources so one the other company
+in the current batch is a pyramidal do
+you want to talk about them they're
+building a foundation model for the
+human brain which turns out they're
+predicting EEG signal which could be
+used for all sorts of applications from
+predicting stroke to reading at some
+point they could your brain could be
+read perhaps and what EEG signals are
+they're also Pearl so sort of like Sora
+Sora has like the
+images plus images over a time stamp so
+that's video so EG is the same thing
+it's just a electrical impulse but over
+a time period so they kind of do
+something similar with chunking
+SpaceTime chunk but for EEG so they're
+able to train this model and the way
+they were able to train and iterate
+during the batch they were experts in
+the space so they also did a lot of
+hacks around the computation where they
+found a way to um divide a lot of the
+sequential data into chunks sort of like
+what Sora has done and that actually
+reduced the runtime complexity by
+quadratic which is like impressive and
+they could get a single run of a
+iteration of a initial model with just
+800 hours of compute GPU compute which
+is really cool one thing that's really
+cool about that is like if people sat
+down and tried to think of different
+applications for foundational models EG
+would not be the one that would like
+immediately come to mind and to me that
+suggests that there's probably a lot of
+other application areas like EEG data
+that just people haven't thought of yet
+yeah it's like who would have thought
+that EG is sort of like videos it's just
+this whole concept with SpaceTime you
+SpaceTime lots of things it's also
+possible that um applications of AI that
+people thought would exist will now
+exist like robotics I think is a good
+one a huge one you remember I think we
+talked about this in a previous episode
+about how when Sam was starting open a
+he talked about they originally thought
+that you know AI in robots and AI in the
+real world would be like the first
+application and I remember I went over
+to the open AI office in like the first
+year or two and they had all these
+robots trying to like learn how to solve
+the Rubik's Cube by like reinforcement
+learning Y which is also kind of an
+interesting side note because like
+opening ey is so wildly successful right
+now that it's easy to think that they
+knew that like they they had this like
+straight line path to get there but it
+was definitely not that it was like a
+Meandering path they pursued a bunch of
+dead end ideas like the reinforcement
+learning robots that didn't work well
+even the researcher working on
+Transformer architecture at open AI was
+like off in the corner I think at the
+start like it wasn't clear even within
+open ey that that was going to be the
+the thing the right thread to pull on
+right but so like the Sor and just like
+text to videos PR interesting because
+again if we have a real physics
+Simulator for the world like that
+potentially getting plugged into robots
+is like a breakthrough to make the sort
+of the AI robot a reality we actually
+have a company in the current YC batch K
+scale Labs that's working on consumer
+humanoid robots um and yeah yeah and
+they have like pretty cool demage very
+early but like a lot of the Sci-Fi stuff
+is actually now becoming possible the
+cool thing about uh Ben who the founder
+for K scale he was the guy that built
+the foundation robotics model for Tesla
+y oh cool he put it into the Optimus um
+Prime robot as well oh awesome the about
+the real world is governed by the laws
+of physics and it turns out we have a
+bunch of equations that can describe it
+for different things like weather
+there's also the space um for example
+there's this company that we funded
+called draft a that is building AI
+models for cat design so CAD follows a
+lot of the laws of physics with Newton
+right with Force Shear Etc and a lot of
+uh software behind solid works and
+AutoCAD run on these really all kernels
+that basically again solve these giant
+pols of lots of equations so that when
+you do a design of a structure and you
+want to calculate the force and the
+tolerances is accurate because you don't
+want a building to just flop right so
+what they and it's very expensive I mean
+whenever you build all these models in
+cat and these kernels are super old and
+they kind of at the end of the day they
+run on these equations that compile I
+don't know to some wild thing like
+fortrans because they haven't not been
+updated what uh draft a is doing they
+are short secreting some of these with
+AI models that can do some of the
+predictions so there's a lot faster and
+cheaper in terms of computation there's
+a lot of uh geometry computational
+geometry computation behind the scenes
+that's really cool that's a perfect
+example of just like a valuable problem
+to solve that the general purpose model
+is just all going to get around to
+specializing it that's a great point and
+there's a lot of startups that are very
+worried that if they like go into AI
+they're going to get run over by open AI
+or other foundational model companies
+and so one solution to that is like
+train your own model that's doing
+something else yeah a great Point uh
+there's actually a YC company called
+playground run by our friend suel Doshi
+that is a good example of actually you
+probably can go up against people who
+are really well funded and come up with
+something that is far better what we're
+looking at here is the newest version of
+playground
+2.5 and you're they're hot on the heels
+of mid Journey but at the same time like
+the models that they've actually even
+released open source go toet to toe
+against St you know the latest versions
+of stable diffusion and in a lot of
+cases way outperform that and they've
+done it on far less money than stability
+Ai and other teams in the space so I
+think suil and playground are really one
+to watch to sort of you go toe-to-toe
+with mid journey and in the long run
+potentially beat it because I would
+never bet against suil DOI that guy is a
+Beat
+the image quality is super impressive
+that is looks so cool and maybe some
+some of the audience would have thought
+that suil comes from an AI background
+but he doesn't yeah he started mix panel
+before when he was uh
+19 and playground is also an interesting
+G on something that Harge was talking
+about last night which is the phenomenon
+of companies pivoting into AI because
+playground actually did not start with
+this idea when it started it was a
+completely different idea and a couple
+of years in Sue after raising a bunch of
+money suale hard pivoted the thing into
+Ai and he literally just taught himself
+AI I think he like locked himself in his
+apartment for a month and just read AI
+papers and then he built playground so
+don't be afraid I mean I think that
+that's one of the most interesting
+things that we've seen across many of
+these different examples that if you're
+looking for a reason why you can't
+succeed guess what you're right but on
+the other hand the field itself is so
+new so brand new that that if you spend
+6 or nine months literally reading every
+paper and then meeting all the people
+who are in the space and they'll meet
+you um you can actually be on The
+Cutting Edge in relatively short order
+and that's an incredible blessing
+totally it's a really important message
+actually right because we're all we're
+all grateful to Sam and open AI for like
+bringing this field forward and making
+all of this stuff possible but at the
+same time all of the news headlines tend
+to be around the companies that are
+raising like huge amounts of money or
+about you know like Sam like himself as
+a world celebrity at this point but you
+can actually like compete with open AI
+for very valuable like verticals and use
+cases by training your own model without
+having to be samman or having a $100
+million so we're out of time for today
+but we could talk for hours about the
+crazy things that we're seeing in AI
+being built by people who are probably
+not that different than you who's
+watching right now uh a lot of the world
+right now is looking at people like Sam
+Alman and Dario amade and some of the
+luminary figures who have really pushed
+forward the whole space but remember all
+of these people started someplace and we
+hope that white combinator might
+actually be the place for you to start
+just like it was for Sam Alton back in
+the day that's it catch you next
+[Music]
+time
+[Music]

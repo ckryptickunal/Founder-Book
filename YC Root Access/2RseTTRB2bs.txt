@@ -1,0 +1,1027 @@
+Video ID: 2RseTTRB2bs
+URL: https://www.youtube.com/watch?v=2RseTTRB2bs
+Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 1020
+============================================================
+
+[music]
+So today I'm here with Kyle Kotkas. He's
+the CEO and founder of Verif. Verif is
+an online identity verification
+platform. They power identities for
+companies like Instacart or Bumble or
+Uber. Carl started Verif straight out of
+high school and today Verif is one of
+the leading ID verification companies in
+the world. They have over 600 employees
+uh growing almost 100% year-over-year
+and are profitable.
+Welcome Carol.
+>> Thanks for having me. Great to be here.
+>> Carol, tell me about Verif. What do you
+guys do?
+>> We enable any website and mobile
+application to match the person with a
+government issued ID. And we are taking
+passport,
+driver's license or ID card and match it
+with a selfie we've taken within a
+single flow. Got it. We are working on
+building towards the future where the
+passport is issued by Verif
+>> not only by the governments
+>> to enable um borderless experience and
+and make honest people trust it.
+>> How did this get started back in 2015?
+>> It was uh spring 2015 when I got
+connected with transfer wise.
+>> Yeah. now wise and this was like one of
+the fastest growing companies in Dal in
+Estonia
+>> and when I started to talk with them and
+we got a couple of other topics sorted
+out that I found out that requires
+improvements
+>> then they said Carl we'd like to
+leverage your skills maybe you can have
+a look on our identity verification what
+can be done there to
+improve it and Um I was like yeah let me
+have a look and this is an area where I
+thought first time after going through
+the flow that let me try the tricks that
+I did try to hack the system
+>> eventually. Yes.
+>> Yeah. But it was something where I
+wanted to do when I was still living on
+my home island growing up on a farm
+>> and when I wanted to order goods that
+wasn't delivered by the local shop then
+it was eBay.
+>> Yeah.
+>> And then setting up an eBay account um
+was easy but the payments globally were
+powered by PayPal
+>> and debit account required uh uploading
+an ID. Mhm.
+>> Within a week they let me know that
+you're not 18 years old, you can't use
+those services.
+So then I felt it was like an
+instruction for a kid living on an
+island. So I changed my date of birth,
+uploaded the same ID and all of my
+orders got confirmed. And this topic I
+didn't think of doing anything like
+wrong or hacking back as a kid. It
+rather felt like an instruction and
+somehow it worked. And then 2015
+I started to test the system.
+>> How how old were you in 2015?
+>> I was 20.
+>> 20. Okay.
+>> And for me it was the thing like yeah
+let me try it out. Let me try out the
+things where I'm now having a skill set
+of Photoshop Illustrator instead of a
+paint and let me try to pretend to be
+somebody else online. And um what I
+found out that this problem
+still wasn't solved.
+>> Yeah.
+>> After analyzing it all, it became clear
+that identity verification wasn't
+accurate, didn't scale, kill conversion
+and the cost of doing fraud, having just
+pictures was super super low.
+>> And this was an era when I went there, I
+showed to Vice team. [snorts]
+So
+>> did you build that first version
+yourself?
+>> Yes.
+>> Wow. And eventually it was for me
+presenting saying there's no way to
+improve it. It all needs to be built
+from ground up.
+>> Yeah. And was wise using external
+provider at the time or
+>> Yes, they were using external partner.
+>> Got it. Got it. And you came in, you
+built your own thing. You were 20 years
+old and you showed something that was
+working better than what they already
+have.
+>> I mean this is eventually how I got
+started by going in depth into this
+industry. But the conviction was super
+clear. Instead of three pictures, you
+need to have over thousand data points.
+>> Got it. that enable you to have
+objective decisions at scale like video
+from the beginning till the end instead
+of pictures that was just not fit.
+>> So how does verify
+everyone has used ID verification just
+don't remember using it like how does it
+work?
+>> Verif enables uh every website the
+mobile application to make sure that
+people are truly who they say they are.
+M so for this purpose we are using
+devices camera where people need to
+follow instructions given on the screen
+to take a selfie and their ID and this
+en enables us to see if the person
+voluntarily real time with valid
+identity is behind.
+>> So if I am trying to buy something on a
+website and require my identity you will
+ask me to take a photo of myself take a
+photo of the ID or something like that
+>> something like that. Yeah,
+>> majority we are using today government
+issued IDs but in very many markets we
+are already able to leverage government
+registries without the need for an ID or
+using additional insight of
+>> so in the US this is the experience but
+in other countries you have a different
+experience based on what the government
+is like
+>> exactly because where government is
+identities are the best form today still
+um every country is different with their
+identity maturity
+and adoption and you always would love
+to leverage the best tools for the task
+at hand.
+>> Yeah. What was the level of fraud in
+2017? Like how easy was it to to fraud
+the systems that existed if you wanted
+to fake your identity either your age or
+something else?
+>> The key part what they noticed needed to
+be fixed was that globally identity
+verification was only driven by the
+compliance demand. M
+>> it was mainly financial services and
+this also meant that companies did as
+much as needed and as less as possible
+>> because complying with regulations don't
+prevent fraud
+>> and eventually you need to go so much
+more in depth
+>> and Estonia was actually a good example
+for me where I noticed that digital
+identity infrastructure is actually
+powering every single service
+>> whereas financial services are only 5%
+and the only reason how you can do it is
+that you're having the most accurate
+verification experience.
+>> So this meant that uh I started to
+tackle it from the infrastructure lens.
+how we are not going to be a vertical
+SAS for a compliance but how we can
+actually go and solve the problem which
+is like uh identity verification isn't
+scaling gs conversion and is not
+accurate and this eventually meant that
+um on a global scale companies very many
+levels in financial services try to
+tackle the fraud with the transaction
+monitoring after the fact and identity
+verification layer was used more as a
+check mark and over time when we started
+to have more realtime realtime payments
+then meant there was no time to do any
+transaction monitoring and this pushed
+so much more emphasis on the accuracy
+identity as well.
+>> Got it. Got it. So this became a tool
+from from being a compliance and you're
+required to verify people's identity.
+>> Basically ID verification is now a tool
+to fight fraud among other tools.
+>> Exactly.
+>> Yeah. I believe like
+the way how it started eventually on the
+market maturity as well then
+all the fintex back in the days that
+were mainly like growing and driving
+growth and seeing it as a compliance
+then many told me that yeah Carl you've
+just built nuclearpowered submarine
+going for island hopping
+>> we just need something more simple
+>> so what it meant that actually first
+customers were like traditional banks in
+the Nordics that actually were the ones
+that really needed to prove out that
+online identity verification
+>> done by verif is even more accurate than
+physical facetoface authentication.
+>> So was your first customer? Was that the
+banks or was that Uber?
+>> It was actually banks and then it was
+Uber.
+>> How did you get Uber as a first
+customer? Cuz you had Uber when you
+applied to IC. How did you get Uber as a
+customer? So when I started back in
+2015, it took 6 months to get product
+ready
+>> to start with local banks
+>> and this was something that I started
+and then a couple of months later Uber
+in Estonia for driver on boarding
+>> wanted to do
+strong verification so they can actually
+be able to
+have people on boarding with online
+courses without the dependency on an
+office space and meetings And this was
+eventually an era that Uber had very a
+lot of autonomy for all the city teams
+and this is an area that we pushed out.
+>> Got it. Got it. So you were basically
+the provider they could use in Estonia.
+>> Exactly.
+>> Got it. Okay.
+>> Were you full-time for the full two
+years like 2015 16 before you applied to
+IC?
+>> Like a full-time. Yeah. Yeah. Yeah. It
+was like
+>> the moment I finished my secondary
+school. It's been my
+>> life's work since.
+>> Wow. This is the only job you've had.
+>> Yes.
+>> Wow.
+>> This is this is exactly there where um I
+ended up having like first 60,000 euro
+investments.
+>> Yeah.
+>> That also meant I needed to become
+profitable within six 7 months and then
+it eventually meant I'm growing
+very closely with the customers and
+having a conviction what it truly takes.
+>> Going going back to the office hour in
+in Estonia in 2017. Uh do you remember
+what I said? I think I was insisting on
+US because I said hey we had this
+problem in in at Airbnb. Why are you in
+Estonia?
+>> Exactly. And uh when we kept on talking
+about the US experience in your life
+here you also mentioned like in US some
+people are using SSN number which is
+like a public secret like
+>> like keep it secret but please add it
+everywhere and still use as a form of
+identity which
+>> yes it's crazy.
+>> And then we thought about it. Yes, this
+is exactly the part as our fit are
+global tech with global volumes and US
+is definitely where the majority of
+those businesses are.
+>> And then you chose to apply to YC. Did
+you know about YC before the event or
+>> Yes, I did know it. I didn't know if we
+are like um
+ready yet to actually take
+with a crisp plan a topic that will um
+apply. So it was actually a native when
+um we have a had a great discussion and
+I felt like okay we might be so I'll
+give it a shot.
+>> Okay. And then you applied and then you
+interviewed with me and Michael I think.
+>> Yes. Exactly. And I thought the
+interview went great. Uh I was really
+impressed. You have basically a working
+product that you built yourself that was
+a problem that I was familiar with that
+I thought a lot of companies here would
+use. But there were two problems.
+What were the problems?
+>> Uh I still remember I was in Mountain
+View and then I got an email.
+>> Yeah. where Michael called out that um
+we truly believe in the market
+opportunity and the product you've built
+but um you're like a solo of founder and
+your cap table is already messed up.
+>> Yes. What does it mean to have your
+capture build messed up? You sold how
+much of the company?
+>> Uh we need a longer story but back when
+I got this message I already thought I
+got it all sorted out.
+>> Yeah. But um it actually gets back to
+the level where I started on building
+verif and um getting to work with
+initial
+customers and prospects. Then um one of
+the banks said like we'll start to use
+this product but um it requires
+additional security certifications and
+maturity to be bank ready
+>> and uh they asked how much does it take
+to actually build
+um and sort those topics out.
+>> Yeah. And then I said like yeah it takes
+60k and um all in all I got pretty fast
+an investment from the bank to actually
+be able to sort those topics out.
+>> Yeah.
+>> And the moment we kept on going forward
+then
+>> in a year and a half already more tech
+investors came on board. Yeah. [snorts]
+>> And they came to say that Anar love what
+you're doing. We definitely like to
+actually help you to scale it further.
+And uh I signed the term sheet 5,200k
+and then the investor said like Carl
+>> before we are like signing it off can
+you send me the cap table?
+>> Yeah.
+>> And this time honestly I googled what
+does cap table mean. So eventually I
+sent him a cap table
+>> and he was giving me a call and he
+wasn't like over the moon. was like,
+"Carl, are you the most craziest or the
+dumbest person I've ever seen as you've
+sold
+95% of the company for €60,000?"
+Like, yeah, what's what's your case
+about it? And then I said like, yeah, I
+needed to gather the initial investment
+to get going.
+>> Yeah.
+>> Because
+for me it was like Bill Gates owns 3% is
+doing okay. But it was Carl, you are not
+going to do it. You eventually need to
+solve it.
+>> I actually have the email here. So let
+me let me actually read the email that
+we sent you. Hi Carl, unfortunately
+we've decided to not fund Verif. We were
+excited to buy the potential of your
+product and believe that good
+authentication online is a large and
+growing problem. What concerned us was
+the cap table and the lack of
+co-founders. We think it take 10 years
+to build a large company and you need a
+team of founders and investors that are
+bought into that long-term vision. I
+encourage you to address these issues
+and consider reapplying to YC. Um, what
+happened two weeks later?
+>> The moment I got this email, [sighs]
+I didn't want to wait until the next
+batch and I started working right away.
+It was starting to figure out how I can
+actually on board also
+towards longer vision
+>> a team. And I was talking with Taner who
+was one of the early employees at Verif
+to bring on board as a later stage
+co-founder and then going back to the
+investors where I honestly thought that
+I already was able to sort those things
+out in the past,
+>> right? But um making sure that I'm
+aligned with everyone what it takes for
+us to go from
+50 50 cap table with investors and the
+team
+>> into 75
+25
+and um when I sent you the email back
+that I got it fixed then you said like I
+pack your bags and see you in two weeks.
+>> Yes. But uh it was still quite the
+journey to actually get the gap table
+fixed and sort those things out ending
+up of me taking a 1 million euro
+personal loan sorting and resetting up
+until
+getting it fixed and here we are 10
+years later
+>> within two weeks of getting the
+rejection you have sorted out the cap
+table you've added a co-founder and then
+you were inc is there a lesson that you
+want to give to other founders to maybe
+feel like they're stuck in a similar
+position.
+>> Nothing is broken. Everything can be
+fixed.
+>> Yeah.
+>> Oh boy. It was busy two weeks already
+before the batch.
+>> And then you joined YC and you came up
+to as probably the first time and I was
+like here are a bunch of intros to
+companies that I think need what you're
+building and you met with all of them
+and they all seemed quite excited but
+not to become a customer. like some of
+them became customers but others were
+like we want this in-house we'd like to
+buy your company. So you had more almost
+as many people saying would like to be
+customers saying we'd like to buy
+verifies.
+>> Yeah. But uh the bigger ones
+after like having initial tests and
+topics done they said like yeah you're
+we'd like to have and and by
+instead of service your company as some
+said like yeah you're not big enough for
+our big volumes and this takes a little
+bit more topics and
+>> and eventually it was pretty pretty hard
+as I really wanted to get them as our
+customer and Um it also got to a level
+where some said like we are not going to
+sign a contract otherwise
+>> because they knew if you would sign a
+contract then you would have a very easy
+fund raise
+>> off that contract with like some of
+those famous wise companies.
+>> Exactly. But overall the key part for me
+was still the case that I just bought
+back my company fully.
+>> Y
+>> I not sold that underneath any other
+company I can
+>> grow faster than we could do
+independently. And the biggest part of
+Verif is actually the fact that we are
+independent. We are able to actually
+deliver industry wide cooperation
+against the fraud and and
+move towards driving lease friction for
+the honest. So all what it meant was
+there was quite a lot of money.
+>> Yes. I I I remember the office like
+basically people offering you many tens
+of millions to for the company and which
+instantly would have um changed your
+life. But you've already done all this
+work to take over the company yourself
+to make it your company again. Um, and I
+think we had a conversation of like
+something like, will you have an idea
+this good again or something like that?
+And you were like, no, this is this is
+the company that I'm running. And you
+said no to all of them. And then you
+grew 3x during the YC batch. And then
+you came to demo day and it turns out
+that you and me were not the only people
+that recognized that this was a
+>> real problem. What happened? What
+happened? So like what happened sort of
+like throughout the batch and then
+remember coming out demo day
+>> I think the batch was was great. It was
+truly leveraging the fullest and making
+sure that no door
+>> is locked. you just haven't knocked
+enough and making sure how I can
+actually talk with a lot of uh companies
+in the area
+>> and um we were like growing well and
+profitably and I remember when we had
+this demo day presentation where very
+many companies were like calling out
+about their team and then
+>> I tried to have my team slide there as
+well that uh this is the only thing that
+I've undimen [laughter]
+your bios of the founders was not the
+thing. It was like it was the fact that
+you were growing with like
+>> I think Michael even said like Carl
+please do leave out the team slide focus
+on growth [laughter]
+>> and then it was the time we like built
+those slides together.
+>> Yeah.
+>> And um and it worked.
+>> So in a way like the product didn't
+change. You were the same product at the
+end of the batch as you were when you
+interviewed. What happened after YC?
+after YC it was actually the part that
+um we raised 1 um 23 million I took
+actually a flight back after 3 months to
+tell in Estonia and what ended up being
+the case that Estonia was like like I
+feel is so so small even smaller than my
+home island so I ended up um saying no
+to those different offers at hand and
+having this 1.2 2 million to actually
+keep on having the right talent to go
+and scale.
+>> And this was the area that the moment I
+landed,
+>> I ended up having multiple term sheets
+on
+>> Oh, my series A term sheets.
+>> Series A term sheets.
+>> Wow.
+>> That we started to discuss and they said
+like um uh who is who is this crazy
+Estonian who doesn't care about money
+and wants to solve identity. So yeah,
+here's money any investment. And we
+actually found a very very good partner
+that helped us and um right after YC we
+closed 7.7 million A. So going forwards
+it was all about how we can make it
+scale now. How we can actually leverage
+the video that has a chance to work on
+all the low and like high latency low
+connectivity internet levels and this is
+where Estonia with Skype engineers was
+the best and this was an area we started
+to have very solid infra team to really
+make sure the media analysis comes in
+handy. Then how we can actually make all
+the insights to work the best and
+starship has one of the like Skype
+co-founder was founded it being the best
+engineer on itself but they had a very
+solid talent on how we can make the
+automations work with insights. Then we
+got to the level that um blockchain.com
+was one of the companies in the crypto
+space.
+>> There was kind of two two things that
+happened after YC. We'll talk about the
+co in a second but first there was a
+crypto kind of boom basically and crypto
+is all like it wasn't some of the
+companies were regulated which means
+they all have to do ID verification
+>> yeah but um why verifold
+better accuracy than any compliance tool
+out there Right.
+>> And this was an area when blockchain.com
+came to us and said like yeah we are
+having
+>> $120 million worth of stellar airrop
+which was $50 promotion at signup and
+how people are able to get it
+>> and
+>> when you give away free money you have
+fraud.
+>> Yes. And eventually it was one of the
+areas where $50 was so much more worth
+actually outside US and Europe where we
+had our automation experience.
+>> Oh, I see.
+>> And this was the part where we started
+to have the volumes we've never seen
+before.
+>> Mhm.
+>> At the rate of uh coming it very very
+globally. That also meant we needed to
+just keep up with a base and have a team
+on how we can actually domesticate those
+wide volumes whereas we can still
+leverage also the insights for the
+global establishment and product reach.
+>> So it also meant that actually we hired
+around 200 people within
+>> and that was manual people were people
+that manually verifying identities or
+was engineers or mix? It was um mix but
+when we needed to actually scale
+together with growing volumes it was
+like building a plane while while
+figuring out where the plane is.
+>> Y
+>> and this was very very exciting uh times
+as you always need to keep on growing
+with the customers and
+>> but it also was the case that we had
+like very big customer concentration in
+the in the early days.
+>> Yeah. So crypto came, you caught on with
+some major customers and then COVID
+came.
+>> Yeah.
+>> And in a way for many companies, the
+first couple months of COVID were scary
+because it basically meant like volume
+was going down and people weren't doing
+things.
+>> Yeah.
+>> I remember you mentioned at some point
+to me that you were on the last flight
+back from US from San Francisco.
+>> The first couple of weeks
+>> was in a way long but again short for us
+all as it was very weird. We don't know
+how the world is going to happen and
+what's going to work.
+>> But what it meant was actually our
+volume skyrocketed. Companies eventually
+came to our
+platform. They started to figure out how
+we can have like bank on a traditional
+level
+>> because the usage of online services
+went up and everybody worked from home.
+So you have to also verify that people
+working from home are who they are.
+>> Exactly. remote examinations, notorized
+contracts, all the services relied on
+identity verification.
+>> And this was an area in the first two
+weeks that volume skyrocketed. But at
+the same time, the existing customers,
+they felt like they don't know how the
+world's going to look like. So they are
+also delaying, let's say, invoices and
+stuff. So it was a weird setup at the
+beginning but eventually
+>> it showed that everybody are in need
+actually to have a trust infrastructure
+that enables you to make sure if people
+are truly who they say they are
+>> when we are all at home.
+>> Yeah. after co after you got started
+getting these new customers. It seems
+like a pretty straight straight ride
+like basically since like 2022 or and up
+until today the company has been growing
+very well and very steadily and now
+you're profitable. How would you
+describe the last three years of the
+company? There is always uh so much to
+do
+>> and of course I have another 20 years in
+me on building very and trying to always
+learn what are the things that can be
+done but the company as an organization
+is changing very very fast. We also need
+to ensure that the team is growing
+faster in terms of their personal growth
+>> right
+>> than the company itself. So what it
+means is that you're becoming a coach of
+a soccer team
+>> where your success depends how
+>> successful your players in your team are
+going to be.
+>> So you can't be in a position that
+you're going to actually run on your own
+>> and try to actually be there now you're
+>> a coach now.
+>> Yeah. But another area was also to make
+sure that how you can manage the
+organizational growth and the design.
+Back at those times of raising a lot of
+financing then it also got to a level
+where organization was getting very
+complex
+>> and despite us leaning in on investments
+we weren't meeting our full potential by
+having
+>> the right structure in place.
+>> Right. Right. So I think it was always
+managing it out how we can be that
+organization is not having like one
+manager for two or three people and how
+we can actually keep
+>> multiple trial and errors in like
+perfecting the organization.
+>> Exactly. So this is something that has
+been always as a top task at hand
+>> on how to make sure that the
+organization is
+as flat as possible.
+>> And you were there uh at the founder
+mode event when when Ryan Chesky spoke
+about founder mode. Did when you were
+thinking about that was there
+conclusions or were there learnings you
+draw drew from that that you sort of
+applied to the the business?
+>> So it was pretty interesting to have
+this talk that we all have gone through
+right
+>> similar tasks at hand.
+>> It makes sense like it's like no one has
+experience from scaling company before.
+You have to sort of like learn it as
+you're doing it.
+>> It's been a learning experience
+>> but oh boy how much there is still to be
+done on this one.
+>> And then the last thing to happen is AI
+and deep fix. Yeah.
+>> And in the last couple of years, maybe
+you can say, it's been relatively
+straightforward to create fake fake
+identities like you can create thousands
+of documents of the kind that you are
+verifying. Um, and probably anybody can
+do this at this point. First, I want to
+kind of ask like how have you
+experienced this? You've told me some
+stories like before this interview how
+your customers have experienced this.
+Can you give us some examples of like
+how are fake entities uh or or deep
+fakes actually messing up society in a
+way or messing up this this the this
+product?
+>> Like number one deep fakes haven't been
+anything new.
+>> Yeah.
+>> Uh the fact um that over the past 10
+years it was at the beginning more of a
+Hollywood production. Now it's in the
+hands with very low cost for everybody.
+>> Okay. So what it meant was also the case
+that um if you're having a single credit
+verification methods that only let's say
+is relying on media
+>> right
+>> or biometrics
+>> or something that is single credit
+>> then the cost of
+>> doing fraud pretending to be somebody
+else is now lower than ever before.
+>> Okay. So what we've been able to see at
+the moment how AI has actually created a
+lot of um challenges of the companies
+who have not been able to actually get
+uh more robust verification in place and
+still relying on pictures for this task
+at hand
+>> then they are not having fun fun times.
+>> Right. Right. But uh the key is to truly
+make sure that how we can actually move
+fast as a whole industry,
+>> how we can actually all contribute into
+this trust infrastructure as
+>> this is going to be one of the most
+important datas towards our growth.
+>> Yeah, I'm I'm curious. So Sam Alman
+recently said that banks who
+authenticate with voice to like have an
+your voice being your identity and that
+isn't sufficient for for verification is
+basically already broken and you can fix
+that and bypass that authentication
+layer. I'm assuming that defects can do
+anything at this point. Um like like how
+will you sort of like where where does
+this go from here? like like how will a
+company like verif
+of the customers if you can if you can
+effectively
+>> um deep fake everything around a human
+entity like again I would imagine the
+government's really system where a
+government have a central system where
+there sort of like an you authenticating
+with the central system is pretty safe I
+would imagine but maybe not
+>> but in your case you are still most of
+the the the authentication methods is on
+the client side is on like all the
+information I'm giving is already here
+>> yes can voice be um spoofed.
+>> Yeah.
+>> Yes.
+>> Can just video or pictures? The answer
+is yes.
+>> But the source gets actually down to the
+ability to have a lot of data points
+>> that enable you to see beyond the
+obvious
+>> whether everything is good or not. M and
+what it means is that during the
+verification step, leveraging the users
+behavior within the flow together with
+an accelerometer and the video movement
+connections up until getting to the
+point where you're able to see whether
+the device at hand is having the real
+camera, not injected media. I see. So
+all of those multiple layers enable you
+to accurately say if it's a real human
+being with their valid ID.
+>> But if you just have a layered approach
+like one approach
+>> then it gives you false comfort and this
+can't be used. So that's the reason why
+we are seeing quite a lot how much the
+world is going to already change
+>> because I would imagine at the same time
+as this is happening getting easier is
+getting more important for everyone to
+verifying myself for everything like I'm
+I'm now verified on Airbnb as a guest
+right like every guest on Airbnb is soon
+be verified
+>> exactly because the fact that we are
+having all access to those tools is also
+meaning that those fraudsters who are
+unfortunately pretty highly funded who
+can actually outsmart
+>> h they are also having access to those
+tools at hand.
+>> So you we're basically in an arms race
+right now.
+>> Exactly.
+>> Because we need to maintain the trust of
+the platform. Imagine somebody is on a
+dating platform.
+>> Mhm.
+>> And they are like on this dating
+platform and they are like talking with
+someone
+>> that speaks their mother tongue.
+>> Mhm. And within a week there's a
+discussion. Okay, you seem nice. Let's
+meet up.
+>> But eventually the person is like can
+you pay for my flight ticket because uh
+it's pay
+>> payday is going to be 3 days out.
+They're going to pay this ticket
+and eventually
+somebody just defrauded someone
+>> they thought is a real human being. Mhm.
+>> But they were chatting with an AI the
+whole time.
+>> They were chatting with an person having
+1,500 conversations at the same time.
+>> So what it means is that people still
+want to date, but they want to date with
+real human beings.
+>> And if you also start to see across the
+board how important
+>> actually is for our platforms, the
+trust.
+>> Yeah.
+>> Like Airbnb changed the way how we can
+actually trust you sleep in someone
+else's home. Yes,
+>> we are not going towards the scale of
+Facebook marketplace to do it.
+>> Right. Right.
+>> Airbnb showed it.
+>> Uber proved it on right hailing and now
+for the whole industry it's important as
+otherwise AI is not enabling us to put
+it for the good use.
+>> Yeah.
+>> And if you would redesign a new identity
+system from the ground up, you you had
+free you can do whatever you wanted. How
+will you design a new system that
+everyone had to adopt?
+>> Eventually when we we are thinking today
+the identity journey of every single
+company be it the financial services to
+build up and meet compliance or
+marketplaces to build up trust then all
+the
+new customers of theirs need to go
+through
+three questions.
+>> Yeah.
+>> Is this person really who they claim to
+be? Mhm.
+>> Is this person trusted?
+>> Yeah.
+>> And is this trusted person still behind
+already verified account?
+>> Right. Right. [snorts]
+>> So this means that all the companies no
+matter the sector is like identity,
+trust and authentication.
+>> So from our side we are working on
+answering all of those three questions
+for the companies and on boarding new
+people.
+>> Right.
+But that's an area why we are calling it
+the trust infrastructure as it's not an
+identity alone because if I just know
+Kustaf is Kustaf I also would like to
+know if Gustaf
+>> is trusted so I can provide a white love
+treatment with least friction on the
+funnel and not to always go through
+every single
+>> so if I'm a customer of Verif in the
+future I I want to know not just am is
+Gustav Gustav but also is there a
+history of Gustav being a trusted person
+or is
+Exactly.
+>> Yeah.
+>> Because if you are only relying on
+identity which is government issued ID
+then it means for the first 18 years
+that your son of your parents born
+>> in Sweden.
+>> Yeah.
+>> But uh
+>> there's nothing no information.
+>> Exactly. But our identities are so much
+more complex than that. Tech has already
+driven a lot of globalization.
+Whereas now by leveraging trust
+infrastructure we can see that okay
+you've been a good actor at Uber,
+Airbnb, PayPal, Stripe, Google, you name
+it and everybody benefits.
+>> And this builds up so much stronger
+source of an identity than government
+society ever can be.
+>> So if you are an 18 or 20 year old uh
+founder looking watching this video uh
+what advice would you give to that
+person? Let's say they don't have as
+much experience. They haven't gone to
+university yet. what what kept you going
+and what kept you successful at that at
+that age?
+>> I think from the part where
+you'd like to become a founder then you
+truly need to have a conviction on the
+problem at hand you'd like to solve
+>> and then you start to think about the
+technology at hand. I've seen too many
+times u no matter what is important at
+the moment where people wanted to just
+build an app
+>> Mhm. or people wanted to have something
+on blockchain or up until
+>> today AI but is a problem we'd like to
+deploy them as technologies right
+>> to solve
+>> and once you're approaching this on on a
+level like this then um you are also
+having a conviction of getting
+>> through the good and the hard times
+luckily is the part that good never like
+bad never lasts forever but
+unfortunately good as well. So you
+always got to stay on your track and
+keep on going.
+>> Got it. Got it. Okay. What's next for
+Verif?
+>> We are going to keep on driving the
+industrywide collaboration.
+>> Mhm.
+>> Against fraud up until we can show that
+this is not the business
+>> Yeah.
+>> to be in
+>> and also
+keep on working towards driving least
+friction for the honest. Mhm.
+>> And this is a long track on really
+making sure that you can answer all of
+those three questions. Is this person
+trusted like the same one trusted or
+still behind this account?
+>> And keep on building the strength, keep
+on building towards
+a pattern of identity that no matter
+where we go in the world,
+>> we can take our trust with us.
+>> Okay. We can have access to the services
+and we can enable global businesses to
+grow globally,
+enable actually so much better
+experience for their customers and keep
+the world going as a result.
+>> Okay. Thank you Carol for coming back to
+IC. Thank you, K.
+[music]
+>> [music]

@@ -1,0 +1,509 @@
+Title: Parker Conrad's Billion Dollar Startup Lessons: Do unscalable things, then scale them (part 1)
+Video ID: M93xlPxQADE
+URL: https://www.youtube.com/watch?v=M93xlPxQADE
+Channel: Garry Tan
+Published: 2020-01-13T14:54:15Z
+Duration: PT15M31S
+Views: 74863
+Likes: 1954
+Tags: startup, ycombinator, rippling company, garry tan, conrad parker, parker conrad, scale, venture capital, zenefits, zenefits demo
+Transcript Language: English - Subtitles (en)
+Auto-generated: False
+Snippets: 339
+
+Description:
+Today we're going to hang out with Parker Conrad. He created Rippling. He's one of the best product-focused CEO's I've ever met. Today he's going to share some of the most hard-won startup lessons that I've ever heard. And he hasn't talked about it anywhere else.
+
+Hear about his startup journey
+☠️ Spending 7 years grinding it out on a startup that wasn't working
+🧨 Finding product market fit by doing the unscalable
+💎 Getting it right with Rippling: Using software to actually scale operations
+
+Rea
+
+============================================================
+TRANSCRIPT
+============================================================
+
+Today we're going to hang out with Parker Conrad
+He created Rippling. He's one of the best product-focused CEO's I've ever met.
+Today he's going to share some of the most hard-won startup lessons that I've ever heard.
+And he hasn't talked about it anywhere else.
+Let's go check it out. This is part one. 
+(piano music)
+Dude, thank you so much for hanging out.
+- Yeah, no, thanks for coming by.
+So Parker, what is Rippling?
+- If you're a founder or CEO,
+one of the things you probably
+noticed at your company
+is that there's a lot of
+just irreducible admin work
+involved in running a business.
+Could be getting hired, it
+could be getting a raise,
+a promotion, getting
+married, having a kid,
+moving to a new address,
+eventually leaving the company,
+and each of those life
+cycle events for an employee
+create, have this set of implications
+across all or some subset of
+your different business systems
+that today, you need to
+handle manually and by hand,
+but with Rippling, we
+automate that end-to-end.
+So, we get people added to
+all the right email lists,
+the right Slack channels,
+we get them a computer,
+all the right softwares installed,
+they're enrolled in the
+right insurance benefits,
+get 'em paid correctly.
+- Yeah.
+Taking a step back, why did
+you start working on this
+to begin with, why startups?
+Walk me through your path to here.
+- Actually, in 2006, I was working in L.A.
+for a pharmaceutical company,
+and I had a great life.
+I was living two blocks from the beach
+with my beautiful girlfriend, now wife,
+had this great commute up and down PCH,
+was getting lots of atta-boys at work,
+but I sort of sat around, I looked at it,
+and at the company I was working at,
+you had all these different levels
+that you needed to move up in your career,
+and you had to spend two years
+here and two years there.
+At a certain point, I realized that,
+if you added up all the time it would take
+to get anywhere in your career,
+I was like, I'm gonna be dead
+before I accomplish anything.
+And around the same time,
+my roommate from college
+wanted to start a company,
+and so we did the absolute
+worst thing that you can do
+to start a startup, which is, we said,
+we decided we wanted to start a company,
+and then we sort of started looking around
+and thinking about
+well, what should we do?
+We came up with a bunch of stuff
+that it turns out nobody really wanted.
+We built a wiki for stock research.
+We ended up pivoting the
+company every six months
+for seven years, we were constantly
+trying to sort of find something.
+- I remember, because my
+first interaction with you
+was actually maybe renting space from you
+down the street in Southern Market.
+- Oh, is that right?
+At the office that's now a restaurant?
+- There's this tiny
+little hole in the corner
+of the basement that
+could've been our startup.
+- So yes, I was at that
+company for seven years
+of slow, grinding failure.
+We talked to 70 different investors.
+Everyone turned us down.
+I mean, we raised a little bit of money,
+and we made it last,
+and we stretched it out,
+and we were constantly a month or two away
+from missing payroll.
+And eventually, my co-founder
+and I had a falling-out,
+and I left the company,
+and I started Zenefits the
+day that I incorporated it,
+basically my last day at SigFig.
+- Yeah, I remember, and
+then you applied to YC,
+and I remember very distinctly
+reading your application.
+The thing that really jumped out at me
+was that you had
+identified that, basically,
+regulation was coming to sort of shake up
+this ossified industry of insurance.
+- So, when I started Zenefits,
+no one was looking at the
+health insurance market.
+Yeah, I talked to a few investors,
+I was like, are you guy,
+this wasn't one of the trends
+that people were thinking about,
+but it seemed like an industry
+that ran on information.
+There were no physical goods, exchange.
+When you think about health insurance,
+you gotta enroll, they have
+to make payments to doctors,
+but it seemed like it's
+the perfect industry
+to be run by technology.
+- Totally.
+This is a very common thing, actually.
+People always ask me, as an investor,
+what's hot, what's the trend,
+and my reply is always, don't ask me.
+I can only tell you what
+happened six months ago
+or three months ago.
+You have to go and find
+something that's happening
+that nobody's working on.
+- That's right.
+- What is it that really speaks to you,
+that you think is a real opportunity?
+Only then can you find something
+that could be really big.
+- So, the reason I started Zenefits
+is that I had dealt with
+setting up insurance
+for my previous company,
+and it was super painful.
+The only way to enroll people
+was via the fax machine,
+so every time we hired a new employee,
+I needed to stop off at
+Kinko's to send in a fax,
+because we didn't have a fax machine,
+and that was the only way
+to get someone enrolled.
+And so, I was like, gosh,
+there's gotta be a better
+way to do this online.
+Being a broker, being the
+person that helps companies
+get up and running with insurance,
+and services, the plans,
+was just this incredibly
+lucrative revenue stream.
+I mean, I have been beaten up
+so much trying to raise money
+that I had sort of given up
+on being able to do that,
+and so I figured if I can get into YC,
+maybe I'll be able to raise a
+few hundred thousand dollars.
+There's so much cash in being a broker
+that maybe I just never raise again.
+Maybe it'll be a really big company,
+but honestly, I was thinking, man,
+maybe I could just be
+a reasonably successful
+tech-enabled insurance broker
+and make it work as a business.
+- Yeah, totally.
+But it turned out that
+you were able to grow
+faster than I think
+anyone in Silicon Valley--
+- Yeah, it turns out
+that's the kind of business
+a lot of companies wanna invest in.
+- A lot of investors
+wanna invest in things
+that are growing massively
+When I started a company
+and the underlying metrics
+were no good, there's nothing
+that we can do to raise.
+- In order to support that growth,
+there's sort of two pieces
+to the full-stack startup.
+It's the software that automates,
+and then there's the people.
+- Fundamentally, my view of
+what went wrong with Zenefits
+is that I made a decision very early on
+that we were gonna scale the business
+faster than our engineering team
+could really support it.
+And so, we thought,
+look, what we're gonna do
+is not everything's in place yet,
+not everything's fully automated.
+What we're gonna do
+is, companies are doing
+all this admin work; we're
+just gonna do it for them.
+And it was a classic YC do
+things that don't scale,
+which is absolutely the
+right way to start a company.
+The corollary to that,
+though, is eventually,
+you have to scale them.
+- That's the part two.
+And the majority of companies
+actually don't get to that point,
+so we don't hear about that enough.
+- So, what happened is we
+scaled out this manual process.
+We had a ton of people
+doing things manually
+behind the scenes, and that
+led to a series of problems,
+and one of them is it
+actually made it a lot harder
+to automate things,
+because once things are
+being done manually at scale,
+it's incredibly difficult
+to go back and automate it.
+The program's too complex,
+it's too hard to build software
+to replace what people are doing.
+And the second thing was that,
+when we were doing things manually,
+there's always an error rate around that,
+What do you say to
+founders when you meet them
+who are in that situation?
+- People are able to achieve, accomplish
+so much more than they think they can,
+and as a founder, it's your
+job to push the company,
+and to challenge them
+and try and understand
+why can't we do this much more.
+- We have a growth knob, basically.
+- Yeah, why can't we
+continue turning this knob?
+There are certain levels
+that I wouldn't turn it past.
+One of the mistakes we made,
+in our efforts to get demos
+and get companies
+interested in our software
+and schedule demos for our sales team,
+those started to slow down.
+And one of the mistakes we
+made as we looked at that,
+and we said, well, it's twice as hard
+to schedule a demo now,
+so let's do twice as much
+of whatever we're doing
+to get the number; now we need
+to hire twice as many SDRs
+to schedule the same number of demos.
+And that was a mistake.
+Once things started to bend like that,
+we should've pulled back and said,
+this is actually an indication
+that something's going wrong
+and we need to fix and address
+those underlying issues.
+And look, one of the perils
+of growing really quickly
+is all of this happened in
+the space of six months.
+- Absolutely.
+The blink of an eye.
+- Yeah, it was like things
+started to slow down,
+and seven months later, I was gone.
+So, there wasn't a lot of time
+to course-correct or adjust,
+but that's, I think, one of the things
+that we should've done.
+The other red flag for us
+was that the gross margins
+at Zenefits started getting really hairy.
+We had all these people
+doing things manually,
+and one of the other downsides to that,
+in addition to the ones we mentioned,
+is that you have just many
+fewer degrees of freedom
+if things start to slow down.
+The cost structure is so high.
+- And that's one of the things that often,
+in hyper-growth, especially
+past the Series B,
+growth investors really
+want gross margins to expand
+because of network
+effects or other things,
+so if it goes the other way,
+then you have a double
+whammy in that next round.
+- We didn't really get
+questions about gross margins
+in our Series A, and
+really even our Series B.
+And then, suddenly, in Zenefits' Series C,
+it was the only thing that
+people were focused on.
+- So, think about this earlier,
+that's a pretty key thing.
+- Yeah, so, that was actually
+one of things with Rippling,
+the sort of central thing
+that we did differently
+is that we decided from day one
+there were gonna be no
+ops inside the company.
+We weren't gonna do anything manually,
+and that meant that it had
+to be software end-to-end.
+We had to do the hard
+work of building software
+to connect to insurance companies,
+to do our own in-house payroll system,
+all these kinds of things.
+The advantage of that, though,
+was that it meant that it
+was software end-to-end,
+it meant that the error
+rate is nonexistent.
+It doesn't mean that
+we don't make mistakes,
+but software errors, you make them once,
+and then you fix it, and
+they don't happen again.
+Human errors recur continuously.
+It means that the financial
+footing of the company
+is much stronger.
+We took it to an extreme
+early on with the company,
+where, for a long time,
+we didn't even have customer support.
+We were just doing that,
+I was doing that myself,
+a lot of the engineering
+team was doing support,
+which meant, of course,
+that the product got
+better really quickly.
+- Totally.
+With Rippling, you've been
+able to build it on bedrock,
+which is very powerful.
+- Yeah, look, I wouldn't
+have been able to do that
+if it weren't for, quite frankly,
+firms like Initialized that invested
+a big chunk of capital in us upfront,
+because Rippling was, for two years,
+it was me and 40 engineers and no one else
+and basically very little revenue,
+and we were just building.
+We had this view from day
+one that we needed to build.
+The right answer was actually,
+it wasn't that we did
+too much at Zenefits;
+it was that we needed to do more,
+and so we needed to rebuild everything,
+an all-in-one payroll
+benefits and HR system,
+like Zenefits, like Gusto.
+We needed to build it
+in a way that it worked
+for large companies and
+not just really small ones,
+and we needed to build the
+entirety of Okta and 1Password
+and what those guys did
+and this whole device management system,
+and that we would tackle
+this employee record
+across the entire company.
+We knew that was gonna be really hard,
+we knew it was gonna take a long time,
+but we thought, I think
+we were pretty sure,
+that if we could build
+all of that in one system,
+that system would be
+different, it would be better
+in a really fundamental
+and foundational way.
+Not just incrementally
+better, but 10-x better.
+If we could make that work, then we'd win,
+and we'd win really big.
+It was only possible because
+we raised a seed round
+that you guys were the first money in,
+that ended up being a
+$17 million seed round.
+It was a massively
+large upfront investment
+before we had really any product traction,
+and that allowed us to
+really spend the time
+to build this and build it right.
+- In that respect, in a
+way, almost a moon shot,
+but you knew where the moon was,
+and in fact, you were
+halfway there last time.
+It's almost the opposite of
+your first startup experience.
+You knew the product
+market fit was attainable,
+and you just had to get there.
+- So, Rippling was different
+than all my other companies
+in that, if I was to write
+out the spec on day zero
+of exactly what we were gonna build
+and where we are today,
+it hasn't moved, three years later,
+it's moved almost not at all.
+And I think that's not
+true for most start,
+certainly not true for my other companies,
+I think not true for most companies.
+And the reason was that
+I think I really saw
+what worked at Zenefits,
+and I think a lot of people misunderstood
+why Zenefits worked when it was working,
+because people thought Zenefits
+was online health insurance,
+Really, you need one
+system that handles everything.
+It's a more foundational
+piece of business software
+that manages one employee record
+across every business
+system in your company.
+- I love that.
+That's one of the biggest problems
+that a lot of founders face.
+They actually put the engineering
+ahead of the business need,
+ahead of the actual problem people have,
+and in the end, you're a
+solution in search of a problem,
+and that's the opposite
+of how you've been able to build Rippling.
+- Yeah.
+Well, as you know, that's the YC way,
+starting with a problem that you have
+and looking for the right way to solve it
+rather than technology and searching
+for what it can solve.
+- Make something people
+want, do un-scalable things,
+and then the big lesson here is part two,
+actually scale it, which
+you've been able to do.

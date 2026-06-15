@@ -1,0 +1,18 @@
+---
+type: topic
+title: Free Inquiry
+created: 2026-05-26
+updated: 2026-05-26
+sources: []
+tags: []
+---
+
+# Free Inquiry
+
+## Overview
+
+The necessity of debating 'bad' ideas to prevent the degradation of intellectual progress and innovation.
+
+## Source Mentions
+
+- [[sources/pg-the-four-quadrants-of-conformism-the-four-quadrants-of-conformism|The Four Quadrants of Conformism]]: The necessity of debating 'bad' ideas to prevent the degradation of intellectual progress and innovation.

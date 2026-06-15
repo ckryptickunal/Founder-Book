@@ -1,0 +1,1096 @@
+Title: Why Vertical LLM Agents Are The New $1 Billion SaaS Opportunities
+Video ID: eBVi_sLaYsc
+URL: https://www.youtube.com/watch?v=eBVi_sLaYsc
+Channel: Y Combinator
+Published: 2024-10-04T14:00:41Z
+Duration: PT37M6S
+Views: 443039
+Likes: 7447
+Tags: YC, Y Combinator, SaaS, Vertical AI, Open AI, o1, ChatGPT, Jake Heller, Garry Tan, Diana Hu, Jared Friedman, Casetext, Thomson Reuters
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 1073
+
+Description:
+As LLM’s become exponentially better it is clear that vertical AI agents are key to the next generation of billion dollar SaaS companies. In this episode of the Lightcone, the hosts sit down with YC alum Jake Heller, the co-founder and CEO of Casetext (which sold to Thomson Reuters for $650 million in cash in 2023) to discuss what it takes to build a successful vertical AI company and overcome resistance from industry veterans and skeptics.  
+
+Chapters (Powered by https://bit.ly/chapterme-yc) -
+
+
+============================================================
+TRANSCRIPT
+============================================================
+
+this is their first ever experience
+talking to this Godlike feeling you know
+AI that was all of a sudden doing these
+tasks that would take me when I practice
+like a whole day and it's being done in
+a minute and a half the whole company
+all 120 of us did not sleep for those
+you know months before gbd4 we felt like
+we had this amazing opportunity to run
+far ahead of the market that's why
+you're the first man on the moon
+[Music]
+yeah welcome back to another episode of
+the light cone I'm Gary this is Jared
+and Diana Harge is out but he'll be back
+on the next one and today we have a very
+special guest Jake heler of case text I
+think of Jake is a little bit like one
+of the first people on the surface of
+the Moon he created uh case tax more
+than I think 11 12 years ago actually
+and in the first 10 years you went from0
+to $100 million valuation and then in a
+matter of 2 months after the release of
+GPT 4 that valuation went to a liquid
+exit to Thompson Reuters for $650
+million so you have a lot of lessons
+about how to create real value from
+really like large language models I
+think you were of um you know our
+friends in YC one of the first people to
+actually realize this is a sea change
+and revolution and not only that we're
+going to bet the company on it and you
+were super right so welcome Jake happy
+to be here one of the cool things I
+think about Jake story and reason why we
+wanted to bring him on today is that if
+you just look at the companies that good
+Founders are starting now it's a lot of
+vertical AI agents I mean I was trying
+to count the ones in s24 we have
+literally dozens of the YC companies in
+the last batch for building vertical
+specific AI agents and I think Jake is
+the founder who is currently running the
+most successful vertical AI agent it's
+by far the largest acquisition and it's
+actually deployed at scale in a lot of
+mission critical situations and the
+inspiration for this was uh we hosted
+this Retreat a few months ago and Jake
+gave an incredible talk about how he
+built it and we thought that it'd be
+super useful for people who watch the
+light cone who are interested in this
+area to hear directly from one of the
+most successful builders in this area
+how he did it so how did you do it
+well first of all like like a lot of
+these things um there's a certain amount
+of luck over the course of our decade
+long uh Journey we started investing
+very deeply in AI uh and natural
+language processing and we we became
+close with a number of different
+research Labs including some of the
+folks at open Ai and when it came time
+for them to start testing early versions
+uh we didn't realize it was gbd4 at the
+time but what was what was
+gbd4 we got a very early kind of like
+view of it
+and so you know months before the public
+release of gbd4 you know we as a company
+were all under NDA all working on this
+thing and I I'll never forget the first
+time I saw it it took maybe 48 hours for
+us to decide to take every single person
+of the company and shift what they were
+working on from what the projects we
+were then working on at the time to 100%
+of the company all working on building
+this new product we call co-counsel
+based on the Jeep D4 technology how many
+people was that we're about 20 people at
+the time so you took like 120 people and
+completely changed what they were all
+working on yes yes yes in 48 hours yes
+and for the people watching uh casex
+originally I mean had always been in the
+legal space you're a lawyer and you
+built something for yourself and you
+know sort of the first versions of it
+were actually sort of uh annotated
+versions of case law actually yeah
+that's exactly right so in the very
+early Origins the company the mission of
+the company what we're always focused on
+is how can we build something that
+brings the best of technology to the
+legal space um I as a lawyer I actually
+like the job a lot the parts of my job
+that I hated the most was when I had to
+interact with the technology that
+lawyers have to use um regularly to get
+the job done I remember thinking and
+this is like 2012 when I was at a law
+firm if I want want to do something
+really trivial I had like a new iPhone
+at the time I can go on Google and find
+like movie times or where's the closest
+open Thai restaurant with vegetarian
+options that was super easy but if I
+wanted to find the piece of evidence
+that was going to exonerate my client
+and and make it so he doesn't have to go
+to jail for the rest of his life or the
+um key legal case that will help me win
+a billion dollar lawsuit well that's
+going to be like 5 days in a row till
+5:00 a.m. every day it's like there's
+got to be a better way what is the
+process as a lawyer you would have to
+read the Stacks and stacks of documents
+pretty much yeah um right before I
+started practicing before everything
+went virtual or like
+online uh you would literally be in a
+basement with Bankers box is full of
+documents reading them one by one by one
+to try to find you know all the emails
+in a company like fiser or Google to see
+if there is potential fraud or um and
+then if you wanted to find case law
+slightly before my time you'd literally
+go to the library and open up books and
+just start reading and you know new
+products were coming out that were some
+of the first web-based research tools
+but they were pretty clunky it was just
+hard to find the relevant information
+you couldn't do contrl F or any of this
+stuff basically basally not yeah and
+what was interesting about your is you
+also happened to be the rare breed of
+having also computer science training so
+this must have driven you nuts yeah
+exactly I mean in the law firm I'll
+never forget I was building like browser
+plugins to go on top of the the tools I
+was using just to make my like life more
+efficient and effective and actually one
+of the reasons I left the law firm to
+start a company and apply to YC was I
+got in trouble with the general counsel
+who thought like hey why are you
+spending all your time you know doing
+this Tech stuff and also made at the
+time very clear that that my Law Firm
+owns all that
+technology so I decided to do something
+different so do you want to tell us a
+little bit about the first 10 years of
+case text the sort of like long slog in
+the pre llm era one of the lessons here
+I think that I took away from that time
+period is that uh when you start a
+company you may not get the exact right
+you may have like the right kind of
+general direction you know there's a
+problem you're trying to solve it but it
+could take a very long time to figure
+out what the solution is for us for
+example you know we saw that there was
+this kind of combined issue of like bad
+technology in the legal sphere but also
+like this very like a lot of lawyers use
+content to do things like research and
+understand like what the law is and so
+we thought okay well we can do the
+technology better but how are we going
+get this content and we spent like a
+couple of years trying to get as Gary
+said lawyers to annotate case law and to
+provide information so it's like a ugc
+site like user generated that was a big
+focus of ours like the kind of onew
+punch of better technology but also
+better content um we you know at the
+time our heroes were like stock overflow
+and Wikipedia and GitHub and other kind
+of Open Source or ugc kind of websites
+and it was a total failure like we could
+not get lawyers to contribute their time
+and information and and I think these
+are just different populations the
+typical Wikipedia editor has more time
+on their hands than they know what to do
+with and so they're adding not all but
+but many do and they're adding content
+for free um and and altruistically
+lawyers bill by the hour their time is
+incredibly valuable they're always
+running out of time they had no time to
+kind of contribute to some ugc site so
+we had to Pivot and we started investing
+investing very deeply at the time it was
+not called AI it's just like natural
+language processing and machine learning
+and saw that first of all we didn't need
+to create all this ugc like to to
+replicate some of the best benefits of
+what our competitors had in these big
+content databases some of it you can
+basically do even then kind of automated
+basis and then also uh we were starting
+to create these user experiences that
+were
+you know a lot better than what our
+competitors could offer based on then at
+the time what seems kind of quaint like
+AI stuff like you know the same
+recommendation algorithm that powers
+Pandora and spotify's like recommended
+music you can use they look at basically
+is how this song relates to that song
+people listen to this also list to this
+and this and this right similarly we
+looked at okay cases that site to you
+know other cases they all reference
+earlier opinions you know they they kind
+of build out this network of citations
+and we found ways that we can check a
+lawyer work they'd upload their work so
+far and be like well everybody who talks
+about this case talks about this case
+too and you missed that um so cool
+experiences like that but the truth is
+until the very end until co-counsel a
+lot of what we did were relatively
+speaking kind of incremental
+improvements on the legal
+workflow and one of the things that's
+kind of weird about this is um when
+there's just an incremental Improvement
+it's actually pretty easy to ignore a
+lot of our clients
+they never say this literally but you
+kind this impression you walk into the
+room their office and you try to pitch
+them a product and you say this is going
+to change everything about the way you
+practice and they go well I make $5
+million a year I don't want nothing to
+change this technology PL it's not I do
+not want to introduce anything that has
+the opportunity to make my life at all
+worse um or potentially worse or
+potentially more efficient because they
+build by the hour it was really only
+after like much later when chat GPD came
+out you know the time we were privately
+and secretly working on gp4 chat GPT
+came out and all of a sudden every
+lawyer in America probably in the world
+saw oh my God I don't know exactly how
+this going to change my work but it's
+going to change it very substantially
+like they could feel it and the same you
+know guys and gals were telling us I
+make $5 million a year why would it
+change anything about my life we like I
+make $5 million a year this is going to
+change something I need to be ahead of
+this the technology itself and we'll get
+into a second really changed what we can
+build for life employers but also the
+market perceptions of what was like what
+was necessary really Chang as well and
+for the first time in our 10 years you
+know even before we launched Co counil
+publicly based on GPT 4 they were
+calling us like you know we know you
+work on AI we need to get on top of this
+what can you know what can you show us
+what can we what can we work on and I
+think it's because the change was not
+incremental anymore it was like
+fundamental and all of a sudden they had
+to pay attention they could not ignore
+it I guess uh the mental model I have
+for you is there's this concept of the
+idea maze you know the founder goes in
+the beginning of the Maze and they're
+just like feeling around like actually
+uh in the arena talking to you know
+customers learning like where are the
+walls which which path to go should I go
+left or right like and then um as is
+actually common for startup Founders in
+the idea maze you will actually reach a
+dead end and then usually you have to
+Pivot yeah and then I think you have a
+very interesting story because you were
+sort of towards the end of maybe like
+one of the uh you know parts that
+weren't going to get you all the way to
+product Market fit but then lm's Dro and
+then it's like the maze got shaken up
+yeah and then you are actually much
+closer to product Market fit than
+absolutely anyone else
+that's yeah I it's exactly right that's
+why you're the first man on the moon
+yeah yeah I think I think there's
+there's cly something to that and the
+thing is you know each time we got
+progressed through that maze it felt
+like maybe now we're at product Market
+fit you know we were making real Revenue
+before we um launched co- counil and we
+had real customers and they said really
+great things about us I keep on thinking
+about this article written by Mark
+andreon in like the early 2000s uh I
+think it's called the only thing that
+matters and in it he describes the what
+it feels like to have product Market fit
+he lists things like your servers will
+go down you can't hire support people
+and sales people fast enough you're
+going to eat for a yearfree at bucks the
+the kind of famous Woodside you know uh
+Diner where where a lot of VCS will take
+you
+the press and I read that early on in my
+like like you know career and I was like
+okay well that's like
+hyperbolic but when we launched Co
+counil it was literally exactly that our
+servers were going down we could not
+hire support people fast enough we
+couldn't hire sales people fast enough I
+ate a lot of bucks you know um before we
+was a really big day if we in the ABA
+journal or some other you know legal
+specific uh publication we were on CNN
+and MSNBC and like you know all of a
+sudden everything changed and that's
+real product Market fit looks like I
+think Mark Mark was even in like 2005
+whenever the article came out exactly
+right about it looked like in 2023 can
+you talk about that crazy time because
+it was only two months from when you
+launched co- counil to getting bought
+for $650 million so like what happened
+in those two months well to to be clear
+the transaction only closed six months
+after we launched but it was two months
+the conversation started and so uh so we
+started building CO counil and and for
+just just to uh to kind of background
+purposes the idea we came up with again
+like 48 hours like a weekend after
+seeing gp4 was um and it's something
+that not but kind of still sound crazy
+today but it's feel felt crazy at the
+time which is this AI Legal Assistant by
+which we mean it's like almost like a
+new member of the firm you can just talk
+to it um not unlike how you might talk
+to something like chat GPT today uh and
+give it tasks like I need you to read
+these a million documents for me and
+tell me if there's any evidence of fraud
+happening in this company and then
+within a couple of hours it's like I've
+read all the documents here's what the
+summary is or summarize documents or do
+legal research and put together a whole
+memo after researching you know hundreds
+or thousands of cases answering the
+lawyer's initial research question and
+and so in that sense it was this like
+really powerful extension of the
+workforce of these law firms that was
+the concept from the beginning and we
+made an very early initial version of it
+and we started because we couldn't you
+know under our agreement with open AI we
+could not be public about this product
+but they did let us extend the NDA to a
+handful of our customers and so we
+started having our customers use it
+and so you know for months before gb4
+was launched publicly we had a number of
+law firms un like they had no idea
+they're using GPT for but they were like
+seeing something really special right
+this is actually even before chat GPT so
+they this is their first ever experience
+talking to this Godlike feeling you know
+AI that was all of a sudden doing these
+tasks that would take me when I
+practiced like a whole day and it's
+being done in a minute and a half right
+and and so as you might imagine like it
+was it was nuts I mean first of all the
+whole company all 120 of us did not
+sleep for those you know months before
+gbd4 was like publicly launch therefore
+could publicly launch the product we
+felt like we had this amazing
+opportunity to run far ahead of the
+market something really beautiful
+happens when everybody's working super
+super hard which is you iterate so
+quickly past and actually I I still see
+some companies out there they're stuck
+where we were in the first month of
+seeing gbd4 right um and I think it's
+because they're just not like as
+intensely focused and engaged as as we
+were were able to be during those like
+couple like about 6 months or so before
+the public launch of gbd4 you kind of uh
+to do this transition you had to shake
+the company you kind of went into deep
+founder mode because there was a lot of
+uh push back from employees I like oh
+this thing was working why should we go
+into throw ourselves into the deep end
+of AI and tell us about that founder
+mode moment for you and so first of all
+like this is especially true you running
+a business for 10 years because they've
+seen you wander through that Maze and
+and bump it to dead ends and a lot of
+those folks have been there for uh most
+or all that time watching you know me as
+the founder saying we're definitely
+going this direction it's definitely
+going to work and sometimes it doesn't
+and you only get so many of those with
+employees right so this was maybe my
+last one that I had with some of these
+folks and they're like here Jake goes
+again with this crazy new technology and
+some idea we're gonna invest deeply in
+and and yeah it took some some a job to
+convince people and if you imagine like
+what some of the different roles are if
+you're in the go to market role if
+you're if you're selling or marketing a
+product and we're making you know we're
+growing 70 80% year-over-year we're
+between $15 and $20 million in ARR
+things weren't like terrible right um
+that's great yeah we're great yeah we
+but like so they were like what why are
+we even the board you know some of the
+members like I get this immediately some
+of them had to be persuaded right um and
+about the founder mode moment like one
+thing that really worked for me is uh I
+led the way through example I built the
+first version of it myself um wow even
+with 120 person company with like a
+whole bunch of Engineers and lawyers and
+stuff like mhm before that you like
+opened up your like IDE and actually
+built the thing yourself oh yeah and
+part of it was uh the NDA only extended
+at first to me and my co-founder that
+was it that was a blessing though it it
+turned out to be like perfect and even
+after the NDA got extended a little bit
+we kept it pretty small at first for the
+first like you know little bit of time I
+made my mind within 48 Hours whole is
+going to do this but we actually only
+told the company I think a week and a
+half afterward first got access during
+that week and a half like we built the
+very first version like prototype
+version of this and and again I I won't
+I'll never forget this the timing is
+just so funny like we saw it on like a
+Friday we had it all weekend long we're
+working with it and then Monday was an
+executive offsite where everybody came
+all my Executives came and they expected
+we're we're going to be talking about
+how we're going to hit our sales Target
+for the next quarter how and it's like
+guys we're talking about none of that
+you know we are talking about something
+totally different right now let me show
+you something on my laptop you know uh
+so yeah I I built the first version
+myself but going through that process me
+and and and then a handful of other
+people I think was really helpful and we
+also brought in customers early and that
+helped convince a lot of people as soon
+as like a skeptical sales or marketing
+or whatever person or even an engineer
+was on the other line end of a zoom
+call uh where um a customer was was
+reacting to the product in real time and
+giving us their honest reactions and
+like seeing the look on their face again
+you have to imagine it's almost hard to
+imagine that the world was like pre-
+chat GPT but then there some of these
+people were seeing that that exact idea
+for the first time and they were they
+were just blown away and that really
+changed Minds quickly I mean we saw
+people go through like existential
+crisises live you know on Zoom calls
+like oh my God you see their expression
+change exactly in all kinds of ways it's
+like what am I going to do lot the very
+common reaction amongst the senior
+attorneys we showed it to was like well
+that got up retir soon like you know i'
+have to deal with
+this and some of this was um really
+driven by GPD 4 coming out like you had
+access to three you had access even to
+two I think we had access we were we
+were in a close relationship again with
+a lot of the labs but including open ey
+and they kept on showing us stuff kind
+of early on in its development and
+they're like well can you build
+something with this for legal and every
+time we're like no this sucks like you
+know by by time we got to three and 3.5
+it was like okay well this is plausible
+sounding English and sounds kind of like
+a lawyer so kudos for that but it is
+just making stuff up wildly like we just
+didn't it's very hard to connect it to a
+real use case especially in legal where
+it's so important that you actually get
+the facts right the you can't
+hallucinate um you can't even you know
+make the wrong kinds of assumptions and
+we had to do a lot of work with those
+earlier models to even get them close to
+usable and they just weren weren't
+really I mean like one one like totem or
+like one example along the way is when
+gbd 3.5 came out the study was run um
+and it showed that gbd 3.5 got a 10 10th
+percentile on the bar passage right so
+like it did better than some people
+actually but the 10% of them yeah
+probably the ones who just filling out
+randomly basically um when we got early
+X gd4 we're like let's run the study
+again too and we work with open AI we're
+like we going to confirm this this test
+is not in the training set and it wasn't
+totally new test to it and the test we
+ran it did better than 90% of the test
+takers right so it's like a big
+difference and and also we started
+runting some tests like okay here's like
+four or five cases to
+read um using those cases write a memo
+responding to this question and we we
+did a lot of prompt work to get it to
+essentially just do it accurately to
+cite the actual things in the in context
+uh that we gave it and not make things
+up and we're like okay well this is very
+different than we saw before so is is a
+big moment for us and and honestly I'm
+not sure what the mindset was of the the
+researchers we were working with but it
+almost felt like by the time we were
+having that meeting it felt like one of
+those other meetings we' had in the past
+where we were getting ready to say like
+this this is not going to work for legal
+keep on trying and I think they saw us
+go through maybe some form of the
+existential crisis on that call that our
+customers did we were like oh wait this
+is super super super different I guess
+you know today we have 01 we have you
+know chain of thoughts reasoning um I
+think a lot of people look at it as it's
+not merely the text itself but also the
+instructions that lead up to you know
+the workflow but you know way at the
+beginning nobody knew any of this stuff
+how did you start you had your sort of
+tests that you had written for previous
+versions of the model they outperformed
+but then there's this moment where you
+say okay well now it's something but
+what do we do next and how do we do it
+so the process that we started with then
+it's actually not too dissimilar to what
+we're doing today it started with a
+question of like okay well what problem
+are we trying to solve for the user
+right the user wants to do research uh
+legal research um so and they want like
+a memo answering their question with
+citations to the original source so like
+that's the end result and then we're
+like well how do we go from that end
+result like working backwards almost
+what would it take to get there and what
+ends up happening a lot uh with the
+things that we built for coals we call
+them skills which felt very unique in at
+the time I think a lot of companies Now
+call their AI capability skills so when
+you're building these skills um it turns
+out it usually takes a lot of work to go
+from like say the customer inputs
+something say like a set of documents or
+a question or what have you to the end
+result that they're looking for
+and the way that we thought about it was
+how would the best attorney in the world
+approach this problem and so in the case
+of research for example the best
+attorney would you know get the request
+save from a partner and then break that
+request down into like actual search
+queries that run against these these
+platforms and sometimes they use special
+search syntax it looks actually proba
+like SQL almost right so like from the
+English language query you have to break
+it down to these different kind of
+search queries maybe a dozen different
+search queries you being really diligent
+and then um they'd execute the search
+queries against these databases of law
+they come back with say like 100 results
+each and then they you know the most
+diligent best attorney would sit down
+and just read every single one of these
+results that come back all the the case
+law statutes regulations and you start
+to do things like make notes and uh
+summarize and kind of compile like an
+outline of what your response might be
+like line by line or paragraph by
+paragraph actually yeah 100% And you
+start like just taking out those like
+insights you're getting from what you're
+reading and then finally based on all
+that work and all the citations you've
+gathered Etc then finally you put
+together your your you know research
+memo and so we're like okay well each
+one of those steps along the way for the
+vast majority of them those were
+impossible to accomplish with previous
+technology but now they're they're
+prompts think step by step yeah think
+step by step yeah exactly but we
+actually broke it down each each you
+know so getting to the final result may
+be a dozen or two dozen different
+individual prompts Each of which might
+by the way be thinking step by step them
+themselves but um and for the for each
+of those prompts you know as part of
+this like chain of of actions you take
+to get to the final result we had a very
+clear sense of what good looks like and
+we were able you know we had a Ser
+series like a battery of tests before
+but this got way more intense where we'
+write at first maybe a few dozen tests
+and then a few hundred and a few
+thousand for every single one of those
+PRS so you know if if the the the job to
+be done in the very beginning of this
+research process for example is taking
+the English language query and breaking
+it down into search queries we had a a
+very clear sense of what good search
+queries look like and wrote like a gold
+standard answers for giving this input
+this is what the outpa looks like right
+and so our prompt Engineers um and I was
+one of them at the very beginning we all
+just kind of in it together we're
+writing these English language prompts
+to try to you know write the test first
+basically and wrote These English
+language prompts to try to get it so of
+1,200 times they got the right answer 1,
+1,199 times or what have you so sort of
+like um test driven development oh yeah
+really approach from doing software
+engineering to to to prompt that's
+exactly right and and the funny thing is
+I never really believed in test driven
+development before prompting like I was
+like the code works it doesn't it's fine
+like you'll see it when you but like
+with prompting actually think becomes
+even more important because of the kind
+of like nature of these llms they might
+go in Crazy directions unexpectedly and
+so you know you might very easily add in
+a set of instructions to solve one
+problem you're seeing with these sets of
+tests and then to break something with
+these sets of tests so so that that
+exact kind of theory of test development
+applies you know 10x more I'd say in the
+world of prompting there's a lot of uh
+sort of the naysay are saying that a lot
+of companies are just building GP
+rappers and there's not a lot of Ip
+getting built but it's actually there's
+a lot of finesse to how you explain all
+of this like can you tell us about all
+of that and how much more there's to be
+built oh yeah I I mean I think the thing
+is when you're actually trying to solve
+a problem for a customer and actually
+doing the job in our case of like what a
+young associate it might do and do it
+really well there are many layers of
+things you have to add in to actually
+get the job done and by the time you
+like add that all up you're not like a
+GPT rapper you're a full application
+that may include in our case proprietary
+data sets like the law itself and our
+annotations to the law that we added
+automatically it may include um
+connections into customer databases in
+our case in legal they have these very
+specific legal specific document
+Management Systems um you know so
+connecting into those is like very
+important um it may include uh something
+as subtle as like how well you OCR and
+like what OCR programs you use and how
+you set those up when you're doing that
+task of you know one of the tasks that
+the co counsil does for example is
+reviewing large sets of documents once
+you start working a lot of documents you
+see like stuff there handw ring all over
+it and they're like tilted in the scan
+and there's this crazy thing that they
+do in law where they print four pages on
+one page to save like room and LR is
+going to read it directly across but
+actually goes you know 1 two 3 four so
+by the time you've dealt with like all
+the edge cases frankly uh not even
+before you hit the the large language
+model like everything else up to the
+large language model um there might be
+dozens of things you buil into your
+application to actually make it work and
+work well and then you get to the
+prompting piece and writing out tests
+and very specific prompts and and the
+strategy for how you break down you know
+uh a big problem into step by step by
+step kind of thinking um and and how you
+feed in the information how you format
+that information the right way um all of
+that also becomes like you know your IP
+and it's very hard to replicate very
+hard to build and therefore very hard to
+replicate which is all the business
+logic which is all even all the very
+successful SAS companies with very
+specific domain you need very very
+custom esoteric Niche Integrations like
+plug into this esoteric law database
+yeah absolutely two things I think about
+it all the time it's like basically all
+SAS for a while was just like a SQL
+rapper right like if you think about
+like very successful companies like
+Salesforce they built that business
+logic around basically just databases
+and connections between like tables and
+a database and sometimes bridging that
+gap between um something that like
+either a very technical person can do
+but most people can't and making
+accessible or um bridging that gap
+between that almost works like you can
+do a lot of cool Demos in chat GPT
+without building a line of code but that
+almost works and works you know 70% of
+the time but going to 100% of the time
+is a very different kind of task and
+people will pay $20 a month for the 70%
+and maybe $500 or $1,000 a month for
+something that actually works depending
+on the use case right so there's a lot
+of value gained going that last mile or
+100 miles whatever it is yeah can you
+talk about how you went from 70% to 100%
+because I think the other knock on this
+technology that we hear a lot is like oh
+these LMS hallucinate too much they're
+not accurate enough for real world use
+but as you said earlier like the use
+case that you're working on is a mission
+critical use case there's like a lot at
+stake if the agent gives bad information
+to lawyers who are working on important
+court cases how did you make it accurate
+enough for lawyers who are conservative
+by nature to trusted this test driven
+development framework first of all goes
+a long way because you can start seeing
+you know patterns and why it's making a
+mistake and then you add instructions
+against that pattern and then sometimes
+it still doesn't you know do the right
+thing and then you kind of really ask
+yourself okay well was I being super
+clear in my instructions uh you know am
+I including information doesn't you know
+it doesn't it shouldn't see or too much
+or too little information for it to
+really get the full context and usually
+like these things are pretty intelligent
+and so usually you can kind of root
+cause why you're failing certain tests
+and then build to a place where you're
+actually passing those tests and just
+getting it right you know and and one of
+the things we learned is if it after
+passes frankly even like 100 tests the
+odd that it will do on any random
+distribution of like user inputs the
+next 100,000 100% accurately is like
+very high one of the things that strikes
+me that is tricky like many Founders we
+work with are very tempted to just raw
+dog it yeah there's like no evales no
+test driven we're just like Vibes only
+prompt engineering and maybe I mean you
+switched over to this uh very quickly
+then like was it just obvious from the
+beginning you're like we just can't do
+it that other way we should not raw dog
+any of these prompts yeah I think I
+think the the biggest thing first of all
+depends on the use case for a lot of
+things that we were working on For
+Better or For Worse there was was a
+right answer and if you get the wrong
+answer lawyers are not going to be happy
+about it you know I had been a lawyer
+myself but also been s lawyers for a
+decade and every time we made the
+smallest mistake in anything that we did
+we heard about it immediately right and
+so I had that voice in my head maybe as
+I was going through this process um and
+that that how was the learning from the
+10 years of slogging through pre- LMS
+you're like no it has to be 100% oh yeah
+oh yeah that's probably true of way more
+domains than we realize actually it
+could be um because and the other thing
+that we we're thinking about a lot is
+you can lose faith in these things
+really quickly right you have one bad
+experience especially if it's your first
+bad your first experience is bad and
+you're like you know maybe I'll check on
+this AI stuff a year from now especially
+if you're like a busy lawyer not a
+technologist so we we knew you had to
+make that first encounter the first week
+really really work for the lawyer or
+else they're not going to invest in it
+deeply so let's talk a bit about open AI
+01 because it is very different model I
+mean up to this point with gbd4 and all
+that previous generation the analogy in
+terms of the intelligence is sort of the
+kind of system one thinking and the
+Daniel canaman type of uh intelligence
+right he has this whole economic theory
+want the Nobel priz around it system one
+thinking is just very fast is kind of
+these decisions that humans make very
+intuitively and based on patterns and LM
+are fantastic at that but they're
+terrible at the executive function
+because what I'm hearing with all the
+stuff that you're describing is kind of
+you're just giving the the llm like
+executive function is like how do you
+think right how do I manage you it's
+really that slower
+thinking and I think aan is exciting we
+haven't seen things built yet because it
+just got announced few days ago right I
+think it's getting to that system to
+thinking and I think this is has been a
+big area of research which I saw a lot
+in uh news a year ago where a lot of the
+researchers were excited to unlock this
+because this is the missing piece to our
+AGI let's talk about what are your
+thoughts on one and how this changes so
+so first of all I think 's a very
+impressive model um like with other
+things we gave it the kinds of tests
+that we knew were failing and the degree
+of it's not just math degree of
+thoroughness precision intelligence
+applied to some of these questions and
+sometimes it's the stuff that you
+wouldn't wouldn't expect you need a
+super smart model to do like in one of
+the tests that we run we give it uh
+lawyers real legal brief but we edited
+very slightly some of uh that lawyer's
+quotations to the case to make it a
+wrong quotation or wrong kind of
+summarization of his case so he this
+like 40 page legal brief you alter
+things with just adding the word like
+not can change the meaning of something
+entirely right and then we give the full
+text of the case as well to the AI and
+we say well what did you know what did
+the
+lawyer uh get wrong about this case of
+anything and literally every llm before
+that would be like nothing it's
+perfectly right and it's just not a
+precise thinker about some of the the
+very nuanced things that we altered
+about the brief to make it slightly
+wrong and then one got gets it like
+immediately like you said like it thinks
+actually for a while like it sits there
+for a minute you're like is this
+anything thing on you know like but then
+then it starts answering and it's like
+oh well you know changed an and to a
+neither nor so those are the kinds of
+tests that you kind of expect even
+frankly earlier AI like LMS to be able
+to pass but just could not and all of a
+sudden o1 is even doing these things
+that take like like precise detail
+thinking obviously we don't have the
+internals on o how o1 really works we
+have you know this broad idea of chain
+of thoughts seemingly we know that if
+open AI had a giant Corpus of internal
+monologue of people thinking through
+doing things step by step 01 would be
+even a lot better it sort of rhymes with
+uh the thing you did to you know put
+your first uh step on the moon right
+like you it rhymes with break it down
+into you know uh chunks where you can
+get to 100% accuracy instead of just
+throw it all in the context window and
+you know maybe magically it will work
+yeah do you think that that's what's
+happening then I think there's a good
+shot that that they've had you know
+maybe change what their contractors are
+doing instead of just doing you know
+input in answer out they were doing
+input in how would I think about solving
+this problem and then answer out but
+then it you know the interesting thing
+is then it's kind of limited by the
+intelligence of the people writing those
+instructions and one of the things that
+we're investigating for what it's worth
+with o1 is can we prompt it to tell it
+what to think about during its thinking
+process and inject like again like we've
+hired some of the best lawyers in the
+country how would the some of the best
+lawyers in the country think about
+solving this problem and maybe you know
+we have no conclusive evidence one way
+or the other yet that this dramatically
+improves things is so early uh and just
+just not enough time yet has passed
+there's a chance that that one of the
+new prompting techniques with L1 is
+teaching it not just like how to answer
+the question what examples of good
+answers look like but how to think and I
+think that that's another like really
+interesting opportunity here is is um
+injecting domain expertise or um just
+your own intelligence I'm just so
+thankful because I think you're sort of
+sharing the breadcrumbs and you know
+where there a great many other spaces
+where this technology is just beginning
+I mean you go to pretty much any company
+people have no concept of what's just
+happened yeah like they actually
+literally still repeat all of those sort
+of tired tropes of oh you better be
+fine-tuning or all the I mean these
+things are just not connected to like
+what we're seeing day-to-day with
+startups and Founders trying to create
+things for users what I'm kind of glad
+for is that we get to actually share
+this news like this knowledge cuz like
+even the things we talked about you know
+hey you should probably do evals like
+there's a lot of alpha in getting to
+100% not just 70% these are sort of the
+breadcrumbs that will actually go on to
+create uh all of the billion dooll
+companies maybe thousands of them
+actually we hope so I mean I think that
+you're about start to see a lot of other
+fields like law really level up when you
+don't have to spend you know millions of
+dollars in six months literally in a
+basement reading document by document by
+document right when you when you
+actually can just get past that and get
+just the results and now you're thinking
+strategically and intelligently and the
+unlock for these companies I mean they
+currently pay again millions of dollars
+in salaries for these jobs to be done
+each of them right so for any company to
+come out with a AI that can do even % of
+that the value is like really there and
+I just want to encourage people to not
+kind of give up based on those tropes
+right like oh it hallucinates too much
+it's too an accurate it's do whatever
+there's for an example of anything it's
+like there's a path and you can do it
+and there's some good news in that uh
+you know what the jobs aren't going to
+go away they'll just be more interesting
+that's what I think yeah well with that
+we're out of time but Jake thank you so
+much for being with us thanks for having
+me see you guys next time
+[Music]
+now
+[Music]

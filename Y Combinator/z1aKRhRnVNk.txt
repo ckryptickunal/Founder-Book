@@ -1,0 +1,798 @@
+Title: How To Start A Dev Tools Company | Startup School
+Video ID: z1aKRhRnVNk
+URL: https://www.youtube.com/watch?v=z1aKRhRnVNk
+Channel: Y Combinator
+Published: 2024-11-26T15:01:12Z
+Duration: PT32M57S
+Views: 66316
+Likes: 1452
+Tags: YC, Y Combinator
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 773
+
+Description:
+In this episode of Startup School, YC General Partner and Co-Founder of Algolia Nicolas Dessaigne explains the ins and outs of starting a dev tools company from the ground up. He'll explain how to find the right idea, who should be a part of your team, and whether or not you need a sales and marketing team when you're ready to go to market.
+
+Apply to Y Combinator: https://yc.link/OfficeHours-apply
+Work at a startup: https://yc.link/OfficeHours-jobs
+
+Chapters (Powered by https://bit.ly/chapterme-
+
+============================================================
+TRANSCRIPT
+============================================================
+
+[Music]
+hello my name is Nicola D and I'm a
+group partner here at YC before that I
+was the co-founder and CEO of algolia
+algolia is a search API used by millions
+of developers to build a great search
+experience in their apps and websites
+and it's relevant today because today
+we're going to speak about death tools
+and how to start a def tools company so
+here's what we're going to cover first
+we'll discuss about the funding team and
+how to find your idea then how to start
+the company from the prototype to the
+MVP and finally we'll dive into the go
+to market including sales and marketing
+for def tools but first what is the def
+tool so a def tool is software that is
+used by developers to help them build
+product
+and that includes a lot of aspects from
+coding testing debugging documenting
+deploying running it's all of the gamut
+of aspects of that job and it's a broad
+category then you can think about idees
+like vscode API like strip twio or
+algolia my company library and
+Frameworks like react not GS or
+longchain or even infrastructure or
+cloud services like AWS or vers so and
+many other tools Docker terraform data
+dog GitHub you get it it's very diverse
+and at YC we've supported many of these
+Dev tools hundreds of them and we
+already have two public companies gitlab
+the open source GitHub and peder Duty
+that started as a simple alerting system
+and now is used by half the 14 500
+companies and many others you probably
+know about strip Docker Hoku super
+segment poog Apollo airb and also alonia
+of course and we've learned a lot from
+them so let's dive in and start at the
+founding stage well first you need a
+founding team and the key aspect of
+death tool is that you are going to
+build a technical product for developers
+obviously you need to be a developers
+yourself most of our co-funding team for
+Dev tools are all developer teams
+and the great thing about death tool is
+that developers are actually using de
+tools every day so when you are building
+a de tool you are basically helping
+yourself in your action of building a
+product so let's take a step back and
+chat quickly about what are good and bad
+death tool ideas and as a profess let me
+start by telling you that with the
+Advent of llms and a in general it's
+actually very difficult to know for sure
+today what's a good or bad idea the bad
+ideas the ideas of yesterday could
+actually be possible to make successful
+now thanks to llms some ideas are
+actually more difficult than others
+developers every day are going to work
+on things they are actually not going to
+like like documentation QA testing and
+these become obvious ideas for them to
+fix for others the problem here is that
+they are not the only one to think about
+it and that creates a lot of noise and
+that's why there are so many of these on
+the market do you really want to build
+the next yet the next QA tool for other
+developers H I don't know another way to
+look at it is the difference between
+build time and runtime ideas so Doug QA
+testing all of these ideas are build
+time ideas things tools you're going to
+use when you building the software it
+happens that these ideas are mostly nice
+to have you could build your product
+with them what's more interesting are
+runtime ideas why because at run time it
+becomes really critical it's must have
+products if you bet on a on API for
+example you cannot run your own product
+if it's down that's why it's more
+critical and it's way better idea for f
+tools the other advantage of these
+runtime ideas is usage because the more
+your customers are going to grow usually
+the more they're going to use your
+product so your incentives are align
+think about stripe for example if their
+customers sell more product they make
+more money everyone is happy much better
+idea another quick category uh that I
+can touch upon is libraries and
+Frameworks these can be greater is
+usually open source but they can also be
+very challenging to monetize think about
+pandas for example very difficult to
+make money out of that the one way you
+can monetize these ideas is by offering
+a hosting service think about next GS
+and Verso for example okay last point I
+wanted to touch on this idea which is
+the llm and AI Trend actually with this
+change in the world there are many new
+death tools being created and it's
+awesome it's so exciting to work on the
+de tool that's going to help these
+companies building nlms but it's also a
+time where the market is very nent so a
+obuse great idea is llm observability
+well uh it's obuse right anyone building
+with LM they want to know how they are
+doing they want to be able to evaluate
+them guess what many other companies
+think the same thing and that's why you
+have dozens if not hundreds of such
+companies out there it doesn't mean that
+it's a bad idea but I think that if you
+are starting in that space you need to
+have a clear idea of how you are going
+to differentiate yourself or are you
+going to win against all of these
+competitors okay which leads me to a few
+mistakes people often do the first one
+is waiting for the perfect idea you are
+going to wait for a very long time let
+me go back to this llm observability
+ideas I would actually encourage you if
+that's the idea you have just start
+that's okay even if you don't
+differentiate yourself right away that's
+okay you learn as you go and eventually
+you'll be able to pull it off or you'll
+change your idea which leads me to my
+second mistake sticking with the wrong
+idea for too long you may not realize
+but
+50% of the companies in YC eventually
+pivot from their first idea it's huge
+and it's also true for death tools
+finally last mistake thinking you need a
+business founder in the team I know that
+what I start when I created agolia we
+need up creating agolia with two Tech
+coers but it crossed our mind hey we
+don't know how to sell we need to hire
+or to find some other co-founder who
+knows about sell no it's actually ways
+understand you think to s to learn how
+to sell your product actually we check
+the numbers
+74% of YC def tool companies had only
+Tech co-founders and that's compared to
+45% for all of the other companies okay
+so now that you have a team and an idea
+where do you start well there is only
+two things you have to do build and talk
+with users there is no specific order
+you can actually start by talking with
+users because they're going to help you
+figure out out if your initial IDE is
+good or you can start by building a
+prototype so you can get easier feedback
+from users let's speak about that
+prototype the most important thing here
+is not to over engineer it you should do
+that quick and dirty and I know that it
+can be very difficult for some
+developers out there especially for
+experienced Engineers who Pride
+themselves on robustness and scalability
+of their code but the truth is that the
+most important thing at that stage is to
+iterate as fast as you can all of th I
+would assume that you'll throw away 90%
+of all the code you write so your goal
+at that stage is just to identify the
+10% of what you building that's actually
+valuable as fast as possible and then
+later on you can refactor this 10% only
+and avoid wasting a lot of time as
+youate of course you'll want to speak
+with users and get feedback it's
+completely okay to show them a prototype
+please don't wait to have a perfect
+product just show them a prototype and
+start Gathering feedback as early as you
+can and that will eventually lead you to
+an MVP a minimal viable product and this
+word the V is important valuable you
+need to provide value to your customers
+it's much better to be 10x better on a
+very tiny thing for someone who cares
+about it well working for a niche is
+completely okay once you have real
+customers who love your product it will
+be very easy to expand from there let me
+give you the example of algolia well
+today algolia is a very broad large like
+full featured search engine right but
+when we started to be honest it was just
+a glorified autocomplete very minimal
+but that product was so much better than
+whatever else was available at the time
+that some people cared enough about it
+and when when we started demonstrating
+it we didn't have much to show actually
+I still remember our first customer that
+first meeting when I did demo using a
+command line to index uh content uh we
+didn't have any API client yet we didn't
+have any admin UI yet just a command
+line and then a very simple web page to
+show the search that was enough to close
+a $2,000 a month contract okay you have
+built something you can show users so
+the next step is to talk with users
+I know that many developers many techers
+actually introvert and they don't like
+speaking with users or with customers
+like they don't like sales well you may
+not realize but as you are building a
+death tool you have a huge Advantage you
+know your audience you are your audience
+you are a developer yourself you speak
+the language of your customers you are
+uniquely qualified to understand them so
+you'll see it actually will be way
+easier than you think please don't wait
+wait for the product to be ready you
+want to learn ASAP right away if you are
+solving a real problem then people will
+be ready to pay for but how do you find
+these users two things outre and
+launches let's speak about Outreach
+quickly death tool co-founders often
+plan to have a bottom up adoption model
+where individual developers are going to
+come inbound try the product and convert
+or maybe becom their Champions U at
+bigger companies well I have some bad
+news for you nobody knows you yet so to
+get there first you need to get people
+to know about you and there is no other
+way to do that than outreaching and
+finding them yourself but you need to be
+smart about it start with your network
+your previous colleagues or classmates
+and then you expand from there um
+friends of friends you can leverage
+LinkedIn you can find like specific HS
+over there but please please personalize
+your messages
+like don't copy what you can see out
+there sent by marketers actually your
+developers I'm sure you hate these
+messages so don't do the same just ask
+yourself would you be excited to open
+your message then ask your co-founder
+ask other developer friend would they be
+excited to open your message and then
+read your email and then possibly act on
+it well you simply iterate until they do
+now let's speak about launching you can
+launch many times and that's what you
+should do here to get more
+attention the best place to launch for
+death tools I would AR you is Hacker
+News Hacker News is a community of
+intellectually curious people many of
+them are developers and there is that
+section in hacka news called show Eden
+that's the perfect place to launch and
+gather feedback on what you are building
+again like when you we writing like kind
+of this Outreach messages please don't
+do marketing don't try to sell your
+product just explain plainly and simply
+what's new and interesting in what you
+are building that will be very engaging
+for the community and they'll share
+comments to you engage with these
+comments don't let them unanswered try
+to engage with people asking questions
+some of them are going to be haters and
+be rude well you should engage with them
+too but your goal is not to convince
+them it's just to convince any other
+readers who are going to read how you
+reply to these haers just be classy here
+one of the great example here is segment
+um they simply did an experiment by
+launching their next idea on Hacker News
+and it blew up they got hundreds of
+votes and so many comments that they
+knew they were onto something and that
+became their idea another example is AMA
+olama helps companies run llms on their
+own machines well it started as a
+comment on a comment on another post on
+Hacker News and just from that they got
+a few people interested and and then
+shortly after they launched their
+product it complete took off on Hacker
+News they got like again hundreds of H
+votes and they knew they were on do
+something and they didn't stop there
+they launched again and again every few
+months each time they had like new
+things to share and that continued to
+fuel their growth uh creating a lot of
+excitement in the community Hacker News
+best place to launch the last thing I
+wanted to touch upon here in that
+section is you should do things that
+don't scale so again you're here to
+learn as fast as possible from your
+users what they like or not about your
+product a great example of a team that
+did things that don't scale is stripe
+early on the stripe team were going to
+their customers small startups and they
+help them Implement their own product
+sitting side by side front of the
+computer coding with them that was not
+only a great way to make sure that users
+were going to be satisfied we going to
+be actually excited about what they were
+building but it was also a great way to
+gather invaluable feedback very early
+from their users so it's completely okay
+to do things that don't scale if they
+lead to faster learnings okay and here
+are a few mistakes to avoid so remember
+the goal is to go fast and trade fast so
+please don't choose a text tag because
+it's cool because you want to learn it
+no you should took it because of your
+expertise with it so that you can
+iterate as fast as possible other
+mistakes we we touch not talking with
+users please get that feedback as fast
+as you can which also means avoiding
+overbuilding before getting that
+feedback maybe a small thing here be
+careful about that feedback be careful
+about not misunderstanding some of the
+developer feedback back for example they
+may share they may tell you how you
+should beat your product you don't care
+you just want to know if they would use
+your product or not and why or they
+could tell you hey you know what I could
+build this in a week I don't need it
+well guess what you just build it
+yourself in a week you you should not
+mind about that just move on and
+continue improving the product last
+mistake some teams do is hiring too
+early very early on you don't even know
+if your product uh is providing value
+please don't hire anyone until you have
+convinced yourself you're working on the
+right idea let's now talk about go to
+market and the first question you should
+ask yourself about go to market is your
+business model what explicitly should
+you be open source open source has
+become one of the main go to market for
+death tools and it definitely works as a
+business model as many companies have
+proven like data breakes elastic ashic
+cob gitlab all aome great companies I
+would argue that you must be open source
+if you are working on things like a
+library or framework that's what today
+expecting for the market developers
+wouldn't Implement on top of a new
+framework that is not open source you
+should also be open source if you are
+dealing with data especially sensitive
+data a new database would need to be
+open source or an API connecting with
+sensitive data in a CRM or maybe an EHR
+needs to be open source you could be
+open source but probably don't have to
+be open source if you are working on
+other things like an API or maybe an
+application like a butt cracker maybe in
+that case it's not as important but
+still could be your differentiation open
+source has quite a lot of benefits your
+customers are developers well as you
+know already developers prefer working
+with open source tools it's also going
+to help you create more awareness
+through the community it can be also
+your differentiation like you could be
+the open source version of X think about
+post and amplitude or super base and
+Firebase or airb and five TR great
+approach speaking of airb you could also
+receive contribution from the community
+in the case of airb they got a lot of
+connectors contributed from the
+community but I would be careful on that
+one most cases you shouldn't count on
+them because the quality of the
+contribution may not be up to your
+standard and then you have to deal with
+the contributors and that could be more
+actually more difficult than you think
+but in most cases I would say that you
+should not count on them good
+contributions are actually pretty rare
+and last benefit but not the least is
+the trust and it's actually very
+important for large Enterprises in the
+Enterprise real take the example of met
+Plum for example who is building a open
+source EHR the fact that they are open
+source I would argue probably help them
+shorten their sales cycle with
+Enterprises by a year or more there is
+one thing you need to think about
+however when you are creating an open
+source project maybe not at the start
+but pretty soon it's
+monetization if you cannot monetize your
+product you don't have a company at some
+point even if it's later in the life of
+the company you need to earn money there
+are many variants out there but it's
+good to look at the common approaches
+some of the common ones are hosting
+having a cloud offer so your customers
+may use your open source free
+self-hosted but they could also pay for
+you to host it so that they don't have
+to maintain it sometimes Cloud version
+also have like some additional features
+like Team Management another one is
+being open core in that case you usually
+have a a special offer typically an
+Enterprise offer that have advanced
+features that are not in the open source
+version or maybe they're on a def
+license common features are typically
+the ones that are going to to be
+necessary for Enterprises like SSO o
+lugs Disaster Recovery slas these kind
+of features and finally some open source
+companies charge for support and
+services but I would actually discourage
+you to follow that monetization pass
+because your incentive becomes to build
+the most complex product possible so you
+can charge for support and services
+which is a bad incentive and if your
+product doesn't need too much support
+then people are going to turn and not
+renew their support contract and what if
+you are not open source well for these
+Dev tools they are usually following one
+of two approaches either they usage
+based like apis aloia too stripe and so
+they charge based on the usage their
+customers do uh possibly they have a
+volume discount or Enterprise specific
+options that are on the side and the
+second approach is having some specific
+plans typically like a good better best
+approach good is going to be the self
+serve option um that's going to solve
+the problem of Developers for a very low
+price for the better options usually are
+going to be interacting with engineering
+managers who are going to care about
+collaboration that's going to enable
+teams still can be self- served and the
+best option is higher up you are talking
+to the CTO it's all about security audit
+logs Disaster Recovery SLA and in that
+case it's usually a sales Le approach
+let's speak about sales so as a quick
+reminder from what I was saying earlier
+don't fear Outreach even if most death
+tools are going to end up being bottom
+up and rely on inbound really heavily no
+one knows you that first and so you need
+to start with Outreach that period of
+founder Outreach is how you start as you
+get more well known that's when you'll
+get inbound usually you are going to
+have at that point more Self Serve leads
+and then eventually you end up hiring a
+sales team to sell to bigger icons
+Enterprise so should you hire a sales
+team well I would argue that you should
+wait as long as you can start by selling
+yourself don't delegate away the truth
+is that you are the only person in the
+company today capable of selling your
+own product if you as the founder cannot
+sell your product nobody else can as a
+rule of Thum I would wait to get to
+about 1 million AR before hiring your
+first salesperson and even then try to
+hire people who are technical or at
+least understand developers because
+developers don't hate speaking with
+salese actually remember our first sales
+peoples at aolia they decided to change
+the title on LinkedIn and instead of
+like being sales I can't EXA they called
+them themselves product specialist and
+the nice thing here is that they
+actually had to own that stages they had
+to understand the product intely so it
+was kind of like a great incentive for
+them to be better at product and a great
+way for them to open doors with
+developers who don't want to speak with
+sales another example post hog did you
+know that team the sto is also their
+sales leader not a business leader their
+sales leader is also the CTO is see
+sales as a nuring problem which is an
+awesome approach for a death tool if you
+want to learn more about sales you
+should also watched pit talk about
+Enterprise sales another startup school
+video so is it different to sell a de
+tool from selling any other product yes
+it is you should have build a sales deck
+developers like don't want to waste
+their time reading through a sales deck
+you should show not tell just two
+demonstrations I think that's the best
+uh sales approach you can do for de to
+at aloia we didn't have a sales deck
+before we got to 10 million AR so even
+our sales like proper account exacts we
+are just showing
+demonstrations uh when they were selling
+and that was working so much better for
+everyone you should lean completely in
+the tech aspect of your product for
+example at Alia we sell a lot to
+e-commerce players and what we realized
+is that when the buyer is not Technical
+and want a turnkey solution we always
+not always but most of the the time we
+actually lose the deal but when the
+buyer is technical or if tech has a lot
+of influence in the decision we win way
+more often so we realized by leaning
+into that aspect of our product we are
+an API we are not like a turnkey
+solution well we ended up like finding
+our ICP and having better success
+selling okay and the last thing that is
+also true in with inev tool is that most
+of them are bottom up what that means is
+that a lot of people are going to s
+serve even within
+Enterprises so instead of going top down
+just pitching your product directly
+sales should also check if some of the
+Enterprise employees are already using
+the product and they should then focus
+on helping management understand what
+the product is already doing for them
+and how much more it could help them if
+they were to pay for more like new seats
+or features or additional usage okay so
+the last uh topic I wanted to touch in
+this video is developer marketing your
+goal is to create a lot of awareness for
+your product because you want inbound
+the first thing you should do is find
+your community so it could be Hacker
+News or some subreddit or some Discord
+out there that is related to what you're
+working on but be careful your goal is
+not to sell your product just yet here
+just be helpful just establish yourself
+as the expert and of course people are
+going to start knowing you and trust
+your brand your company that will help
+you down the line uh people will think
+about you when they have that problem
+launch of that's very important we
+discussed about uh the example of AMA
+before uh but that should also be done
+for the life of your company some
+companies even do launch weeks and have
+been very successful for that it works
+great for open source for example super
+Bas is doing that once a quarter buring
+all their news in one week a quarter to
+make as much noise as they can other
+things you can do make your
+documentation a first class citizen
+documentation is often an after start
+for developers they prefer coding than
+actually documenting their code I would
+argue that documentation should never be
+an after it should be part of the
+product documentation is marketing
+that's how people are going to interact
+with your product that's actually the
+first place people are going after your
+homepage and maybe the pricing page
+stripe and other de tools have really
+raised expectation there developers have
+become very demanding that something you
+should invest in at algolia we decided
+that the feature was not ever done until
+the dock was done and documentation
+should be written by developers you know
+Alia even when we Cruise a team and at
+some point Point uh we created that
+documentation team their role was not to
+write the documentation for the
+developers they were here to help
+developers write better documentations
+for example they built a tool where it
+would automatically insert API keys for
+people who would be logged in so that
+when they copy pass the code it would
+work right away out of the box uh which
+made the documentation ever more useful
+for our customers speaking of things
+that developers should do I would
+include support there you should make
+support a huge part of your marketing
+your users are developers right
+developers hate speaking to these Level
+One support people who don't know
+anything about the product they are
+supporting Engineers should do support
+and that's going to to lead to two great
+things one your users are developers and
+when they interact with developers who
+speak their language are going to be way
+more satisfied actually I have examples
+where someone would reach out to support
+and then the developers like the person
+doing the support was able to actually
+fix the bug and deploy in production in
+like 20 minutes and so that kind of like
+blew the customer away like they were so
+impressed so excited about the product
+and two it's going to help your own
+developers much better understand your
+customers needs because they're going to
+face the pain as they supporting them
+and that's a great way for them to be
+the better product taking the example of
+aloya again we actually waited until
+hundreds of employees before we built a
+dedicated support team and then we
+actually asked our best engineering
+manager to build that team support was
+never a second class citizen for us so
+developers are doing documentation
+developers are doing support all of that
+is your marketing should you even hire
+marketing team or when should you do
+that well similarly to sales I think
+founder should lead marketing
+for a long time maybe forever actually
+to be honest even at later stage I don't
+know a single death Tool company that is
+happy with their CMO when they have a a
+traditional marketing background why
+because traditional marketers they don't
+really understand the Persona they don't
+really understand developers only other
+developers do and developers really hate
+being marketed that please don't insult
+their intelligence you know that because
+you are developers right well early on
+at aloria we were actually asking every
+single engineer in the team to do what
+we called a marketing hack every single
+months a hack could be writing a simple
+blog post or could be speaking at a
+Meetup or could be building hack new
+search all of our best marketing at
+aloya was done by developers I would
+encourage you as you build your
+marketing team to make sure that you
+have a lot of developers in your
+marketing team because they are the ones
+who know how to speak to your customers
+you may ask what about Dev advocate well
+I love the idea because that means
+having developers in your marketing team
+but it's also a very IL defined role
+with often a lot of very fuzzy
+expectations so it's difficult to
+measure difficult to build
+accountability for so my recommendation
+here would be to wait and first leverage
+your existing engineering team and ask
+them to do some form of marketing or Dev
+advocacy and probably at Ser day or
+later it start to make sense to hire
+dedicated Dev Advocates even then think
+about hiring from within or from your
+committee for example if your open
+source could be contributors or active
+or helpful Discord members these are the
+best Dev Advocates candidates to join
+you so let's wrap up and recap what you
+said here start now please don't wait
+for the perfect idea because as you are
+going to build your product even if it's
+not the perfect idea you'll do the Reps
+you learn and that will lead you to the
+best idea if you don't start you'll
+never get anywhere build quickly please
+please don't over engineer you need to
+have that very fast iteration Pace where
+you can learn from your users as you are
+building crappy quick and dirty is
+completely okay early stage and then you
+refactor what actually matters spend
+time with with your users like there is
+no way you're going to learn if you
+don't speak with your users learn from
+them do things that don't scale go to
+their office spend time with them launch
+early you might have seen many of our
+videos where we say there is no shame in
+launching early people won't remember
+you if it doesn't work out but you could
+get invaluable feedback that will lead
+you to work on the right product to
+build the right thing that people need
+as you are building a de tool you should
+consider open source as your Market
+observe the market observe other players
+how they build their product and figure
+out if open source is the right thing
+for you but don't dismiss it think about
+it add before making a choice don't
+forget you are the best sales person for
+your product no one else is going to
+know your product or your audience as
+well as you do learning to sell is way
+easier than learning how to speak with a
+developer and finally you are also the
+best marketing person for your product
+you know the language of developers you
+know how to speak with them you know
+where they're spending their time the
+community you know how to access this uh
+audience okay that's wrapped up for me
+today thanks for watching the video and
+if you are building a Dev tool don't
+forget you can apply to YC anytime
+[Music]

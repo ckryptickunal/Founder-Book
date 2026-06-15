@@ -1,0 +1,1433 @@
+Title: A.I. Policy and Public Perception - Miles Brundage and Tim Hwang
+Video ID: be0NSfPRoWg
+URL: https://www.youtube.com/watch?v=be0NSfPRoWg
+Channel: Y Combinator
+Published: 2018-04-25T08:14:25Z
+Duration: PT45M50S
+Views: 2297
+Likes: 49
+Tags: YC, Y Combinator, Miles Brundage, Tim Hwang, AI, A.I., Policy, Public Policy, Law, Oxford, Artificial Intelligence, Craig Cannon, Podcast, Future of Humanity Institute, Harvard-MIT Ethics and Governance of AI Initiative
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 1409
+
+Description:
+Miles Brundage - https://twitter.com/Miles_Brundage - is an AI Policy Research Fellow with the Strategic AI Research Center at the Future of Humanity Institute - https://www.fhi.ox.ac.uk/. He is also a PhD candidate in Human and Social Dimensions of Science and Technology at Arizona State University.
+
+Miles recently co-authored The Malicious Use of Artificial Intelligence: Forecasting, Prevention, and Mitigation - https://arxiv.org/abs/1802.07228
+
+Tim Hwang - https://twitter.com/timhwang - is th
+
+============================================================
+TRANSCRIPT
+============================================================
+
+alright guys I think the most important
+and pressing question is now that
+cryptocurrency gets all the attention
+an AI is no longer the hottest thing of
+technology how are you dealing with it
+yeah been Hamner of Kaggle had a good
+line on this he said something like
+great thing about cryptocurrency as
+people no longer ask me about whether
+there's an AI bubble and yeah it's hard
+to compete with the crypto bubble or
+phenomenon whatever you want to call it
+it's actually yeah good development
+right like I mean the history of AI is
+like all of these winners and like
+having another hype cycle to kind of
+balance it out might actually be a good
+thing yeah absolutely
+let's talk about your paper to start it
+off mile so yeah what is it called and
+yeah where do you yeah it's called the
+malicious use of artificial intelligence
+and there's a subtitle like forecasting
+prevention and mitigation and it's
+attempting to be the most comprehensive
+analysis to date of the various ways
+which AI could be deliberately misused
+so not just things like bias and lack of
+fairness and an algorithm that are not
+necessarily intentional but deliberately
+using it for things like fake news
+generation and you know combining AI
+with drones to carry out terrorist
+terrorist attacks or offensive cyber
+security applications and you know the
+essential argument that we make is that
+that needs to be taken seriously the
+fact that AI is a dual use or even Omni
+use technology and that similar to other
+fields like biotechnology and computer
+security we need to think about whether
+their norms that account for that so
+things like responsible disclosure when
+you find out about a new vulnerability
+is something that's pervasive in the
+computer security community but hasn't
+yet been seriously discussed for things
+like adversarial examples where you
+might want to say hey there's this new
+misuse opportunity or way in which you
+could fool this like commercial system
+that is currently you know running
+driverless cars or whatever and so there
+there should be some more discussion
+about those sorts of issues mmm okay and
+so is it going into the technical
+details or is it kind of a survey of
+where you think things yeah so most of
+its a general survey but then there's
+like an appendix on different areas like
+you know how to deal with the privacy
+issues how to deal with you know the
+robustness issues and
+you know different places to look for
+lessons okay and so Tim have you been
+focusing on any of the stuff while
+you've been here at Oxford or is your
+work totally unrelated it's somewhat
+related actually I mean I would say that
+I've mostly been focusing on what you
+might think of as a subset of the
+problems that miles is working on where
+he's sort of saying look AI isn't gonna
+be inherently used for good and in fact
+there's lots of intentional ways to use
+it for for bad right and one things I've
+been thinking about is the sort of
+interface between these techniques and
+the problems with disinformation and
+like whether or not you think these
+techniques will be used to make you know
+ever more believable fakes in the future
+and what that does to the media
+ecosystem so I would say it's like a
+very particular kind of bad actor use
+that miles talking about mm-hm and so
+when you're doing this research for both
+of these topics are you digging into
+actual code like how are you spotting
+spotting this in the wild yeah so I mean
+my methodology is really kind of focused
+on looking at what is the research
+that's coming out right now and like
+trying to extrapolate what the uses
+might be right because I think one of
+the really interesting things we're
+seeing in the ad space is that it is
+becoming more available for people to do
+right like you've got these cloud
+services you know we've got the tools
+are like widely available now and so I
+think what's really missing is like the
+ability to kind of figure out like how
+you do it right like what is the
+methodology that you use and the
+question is can you see papers that are
+coming out and saying hey we could
+actually use it for this somewhat
+disturbing purpose and then kind of
+extrapolating from there to say like
+okay well what would it mean for it to
+get used more widely mm-hmm
+yeah yeah so like reading papers saying
+what the hot areas are and and you know
+cases in which some sort of potentially
+negative or positive application is you
+know on the cusp of getting just
+efficient enough to be used by a wide
+array people or you know the hyper
+parameter optimization problem is close
+to being solved or whatever sort of
+trend that you might see like might be a
+sign that certain technologies are going
+to be more widely usable not just by
+experts but potentially and you know a
+huge range of applications for the
+purpose of this report that I recently
+wrote you know we got a ton of people
+together including Tim at a workshop and
+we talked about you know technical
+trends and you had people and like
+cybersecurity and AI and other areas
+sort of you know
+compare best guesses of what's possible
+and then prioritize what the risks are
+and what to do about them
+so I think you know a lot of I think
+often like pulling together different
+disciplines is a good way to think about
+what what's possible and then one other
+thing that I'll point out is that you
+don't necessarily have to even look into
+the technical literature to find you
+know discussion of these sorts of misuse
+applications today because it's like a
+hot topic already so things like deep
+fakes for you know face swapping and
+pornography is like a huge media issue
+right now that actually happened while
+we were writing this report and then we
+like added something later about it
+because we we talked we characterized
+the general issue of you know fake
+videos and yeah you know misinformation
+and AI as making that more scalable
+because you know potentially requires
+less expertise and like while we're
+writing that this deep fake thing
+happens and it's you know democratizing
+in some sense the ability to like you
+know create fake videos so it's yeah
+it's quite a live issue right I think
+there's a really interesting question
+here particularly when you think about
+like prediction about like there's the
+realm of what can be done and then
+trying to understand like what's likely
+to actually happen
+Mrak this seems to be the really
+challenging thing because there's like
+lots of terrible uses for almost every
+technology yeah
+right but we see certain users more
+prominently than others right and I
+think that's actually where the the Robo
+on this sort of stuff is and actually as
+part of this prediction problem yeah and
+and yeah so that's why you kind of have
+to yeah I mean first of all have some
+humility about like you know what what
+you can predict like you know if it's a
+if it's a fully general-purpose or a
+fairly general purpose technology they
+can be steered in a bunch of different
+directions or applied to a bunch of
+different data sets then you know you
+should expect it if it's super widely
+available a bunch of people are gonna
+find new uses for it so that I mean that
+I think that's a reason to sort of look
+upstream at the papers and see like
+where the technical trends are because
+then you can say like well you know
+maybe this is not yet ready for
+primetime for any application or like
+this is starting to be like fairly
+general purpose yeah I mean a good
+question for you models is whether or
+not you think that like we'll see like
+the virtual uses be the ones that happen
+first the versus the physical ones right
+so some people have said okay well you
+could use AI to really make you know
+hacking much easier right we might be
+able use it to write create these like
+fakes right which were already
+but I'm wondering if those threats kind
+of evolved in a way that's like
+different or maybe even earlier then you
+know threats of like you know if people
+talk about like Oh what happens if like
+someone built a drone that goes out and
+yeah that rhythms to go hurt people yeah
+it's hard to say I mean I think one you
+know you're a stick that I've used is
+that you know stuff in the physical
+world is often harder and yeah that like
+it's both more expensive and less
+scalable is you have to buy actual
+robots and then there's often Hardware
+issues that you run into and like the
+general problem of perception and
+perception is much harder in the real
+world and in like you know static
+datasets but you know we're seeing
+progress like just a few days ago there
+are a bunch of cool videos from sky do
+of their autonomous drone for like
+tracking people doing sports and flying
+around and seems to be pretty good at
+navigating and forests and things like
+that so you know maybe technologies like
+that are sort of a sign that you know
+there'll be much more both positive and
+negative uses in the real world but but
+yeah I think in terms of you know
+near-term impact I think you know those
+sorts of things that have those
+autonomous features still aren't super
+easy to use for an end users outside of
+like a particular domain so I'm not sure
+that like anyone could just easily you
+know repurpose it to you know track a
+particular person or whatever I think
+it's sort of for that domain application
+and I don't know how expensive it is but
+yeah probably more expensive than like a
+twenty dollar drive right I think about
+like what is like what's like the first
+harm that comes out of the gate yeah in
+a big way because I've debated often
+like okay so like say there's a horrible
+self-driving car like incident that
+occurs right like maybe that turns
+society off in general to the whole
+technology and like there's a big
+categorical outlawing of it you like I'm
+like okay that that's kind of not so
+good right but at the same time I'm kind
+of like okay well what if like hacking
+becomes a lot more prominent in a way
+that's powered by machine learning but
+like we know that like I don't know the
+response to like huge data disclosures
+or huge data compromises it's like
+actually quite limited public response
+right and that seems not so good either
+is basically like people either overrun
+overestimate the risk or underestimate
+the risk depending on like what happens
+first yeah yeah people are starting to
+get kind of desensitized to the you know
+these mega disclosures and and so maybe
+they won't even care if there's some
+adaptive malware thing that that you
+know that we might be like whoa that's
+that's kind of scary but it could be
+that you know something truly
+catastrophic could happen if you sort of
+combine the scalability of AI and
+digital technology in general with like
+the adaptability of human intelligence
+for like finding vulnerabilities if you
+put those together you might have like a
+really bad you know cyber incident that
+will actually like people make people be
+aquo this AI thing yeah so that's
+something that worries me a lot but it's
+sort of like a moving goalpost on the
+positive and negative side right like so
+you know newsfeed for instance like you
+could call that AI to a certain extent
+right as it's feeding you information
+people get mad at newsfeed they don't
+get mad at AI right so like the notion
+that the public would generally turn on
+something like that seems almost
+unrealistic right because you want to
+point at one thing right I mean I think
+that's it is basically like what the
+public thinks about as AI is an AI right
+what we're actually talking about is
+like this weird amalgam of like popular
+culture some research explanations that
+make it to the public you know all these
+sorts of things and there's so much
+about like what is what does the public
+actually think AI even is which is
+really relevant to the discussion right
+because right like the newsfeed
+assuredly is AI right it uses machine
+learning uses the latest machine
+learning to do what it does we don't
+really think about it as AI right
+whereas like the car is like a I mean I
+think a lot of robots kind of fall into
+this category where even robots that
+don't involve any machine learning are
+thought of as AI fry and like actually
+impact a discussion about AI despite not
+actually being related to it at all and
+like absolute sense well then it sort of
+becomes a design challenge right it's
+like why these self-driving cars are
+shaped like little bubbly toys right
+there's so much less intimidating when
+you see it just like bump into like a
+little bollard on the street here
+whatever but yeah the robot like the
+factory robot for instance like those
+are terrifying to people but they've
+always been terrifying there's no
+difference here but surely there are
+positive things that you guys notice you
+know you're going around to these
+conferences like what what are what
+questions are people asking you about AI
+what is the public concerned about
+positively and negatively hmm so I think
+there's two things that are really on
+top of minds that I think keep coming up
+with in the popular discussion around AI
+right now and also among like research
+or circles that's right so the first one
+is the question
+like international competition and like
+what it looks like in the space so this
+is a question of like it seems like
+China's making a lot of moves to really
+invest in AI in a big way what does that
+mean about like these research fields
+right well like the US and Canada and
+Europe sort of stay ahead in this game
+will they fall behind and what does that
+mean if you think that like governments
+are gonna see this as like a national
+security thing so that's like one issue
+I hear a lot about the second one I
+think is around the issues of like
+interpret ility right which which I
+think are really big concern which is
+these systems make decisions can we
+render some kind of satisfying
+explanation for why they do what they do
+and I use the word satisfy specifically
+there because there's lots of ways of
+trying to tell like how they do what
+they do but like this question of how
+you communicate is a whole nother issue
+and those seem to be like two really big
+challenges I'm sure miles has any other
+things yeah I mean there's a lot going
+on the whole like fatty metal community
+fairness accountability and transparency
+machine learning and and now there's
+like fat star so it's like more general
+than just machine learning at conference
+series and and you know broader
+community has been doing a ton of
+Awesome work in this on those sorts of
+issues but you know in addition to the
+transparency thing that Tim mentioned I
+would also mention robustness so that's
+a huge concern and pretty much you know
+if you look at the like offense and
+defense and competitions on adversarial
+examples like the often stems like we
+don't really know how to make neural
+Nets robust against deliberate or even
+unintentional things that could mess
+them up like you know they do really
+well according to you know one single
+number of like you know human versus AI
+performance but then if it's slightly
+outside the distribution they might fail
+or if you know someone's deliberately
+tampering with it so that's a huge
+problem for actually applying these
+systems in the real world and and I
+think you know we'll continue to see
+progress on that but we'll also see
+setbacks where people say well this this
+proposal you had for for defending you
+know no that's actually doesn't work and
+then there are all sorts of other things
+besides just adversarial examples like
+you know there was a recent paper called
+bad Nets they talked about like
+backdoors and neural network so
+essentially like someone can put trained
+neural network on github or wherever and
+then you know it seems to work fine but
+then like you know you show it some
+special image and then it goes wrong so
+yeah there are issues around that in
+terms of positive applications one area
+that is super exciting and that it's
+there's so much work on it that I've had
+to like sort of you know take a step
+back and like not even try to like tweet
+all the interesting stuff I see on it is
+a health so there's like pretty much
+every day on archive there's a new paper
+that's like you know superhuman
+performance on you know this you know
+dermatology task or this like you know
+you know this esophageal cancer task so
+there's like a ton of activity in that
+space and there's that specific to for
+instance like image recognition like CT
+scan type so there's a lot of image
+recognition I think that's like kind of
+the low-hanging fruit yes there's all
+this progress in a recognition and like
+things like adversarial examples aren't
+necessarily a problem in that domain
+like you're you're hoping that a patient
+isn't like fiddling with their image or
+like putting you know a little turtle on
+their chest when they're getting scanned
+and then it like gives the wrong answer
+so so yeah there's tons of applications
+there but there's also just more general
+machine learning stuff like predicting
+you know people relapsing and like
+having to come back to the hospital and
+like went ones optimal time to like you
+know send people home or like given this
+huge data set of people's you know
+medical history is what's the best
+diagnosis so there's a lot other other
+applications yeah there's a workshop end
+nap there's a workshop at nips appears
+back was it two years ago that was
+basically like AI in the wild it was the
+name of it and I think that's like a
+really good way of framing up a lot of
+the issues that we're seeing right now
+is like we're moving out of the lab in
+some sense where it's like okay the old
+tasks used to be just like could we
+optimize this algorithm it to kind of do
+this thing better but like now there's a
+bunch of like research trying to figure
+out like what do we do when we confront
+like the practical problems of deploying
+these things like in the world and and
+that links a lot of the inner ability
+stuff it links a lot of the safety stuff
+it links these questions that are
+specific to health like I think all
+these come out of a fact that like the
+technology is really finally becoming
+practical and so you have to solve some
+of these really practical questions mmm
+and so as far as like deploying this
+stuff in the wild in the health use case
+like who is using it right now where are
+we seeing it a lot of its pilot stuff so
+like maybe a hospital here yeah Medical
+Center there I am not sure of you know
+at any super widely deployed ones except
+for like apps for very specific things
+like you know
+looking at skin lesions and stuff but
+yeah as I said it's something that's
+like so active that like I'm not the
+best person to ask because it's just
+like I like haven't even you know tried
+like you know assess what what's the
+hottest thing in this area this is just
+like everyday there's like Oh new pilot
+on this and but but a lot of it you know
+as Tim said is like at this age where it
+might get rolled out but it hasn't yet
+been rolled out so they're like pilots
+on the one hand but then there's also a
+lot of stuff that's just training on
+offline data and they're like well if we
+had implemented this it would have been
+good but you know they're issues around
+interpretability
+and you know fairness and stuff like
+that that would you know have to be
+resolved before was actually widely
+deployed right I mean one of the
+interpretive debates that I'm loving
+right now is basically so Zakk Lipton
+this machine learning researcher did
+this great paper called the doctor just
+won't accept that right and it's
+basically a reference to that that trope
+and a lot of the discussions where it's
+like well the doctor won't accept that
+it's like not Interlake it's not
+interpret bull I mean it's not
+interpreted well and like he's
+challenging I think what is like a
+really big question right which is like
+will they care in the end like will
+interpretability actually matter in the
+ends and like are we actually in some
+ways is like the field actually like you
+know over indexing on that or maybe in
+the very least not thinking as nuanced
+as it should be about like what kinds of
+interpret er actually needed or expected
+in the space and I think that's like one
+big question is just like you know will
+these things become the norm for the
+technology or will you know the market
+kind of adopted even without those those
+things and I think you're worried about
+the safety of these technologies ends up
+being a question question not just of
+like can we develop the methods but can
+they be something that's just like
+expected that you use when you deploy
+the technology because it's possible
+that if you just sort of leave it to the
+market that will just kind of rush ahead
+without actually anything you know how
+to build a microphone yeah you're
+totally fine using it there's always
+things in like you probably see it with
+like you know anti-vaxxers mm-hm they're
+like the old-school homegrown version
+maybe that they don't want to accept it
+but the rest of the world seems totally
+fine then yeah and I just another point
+I think there likely to be differences
+cross nationally not just like
+international in terms of who's gonna be
+willing to accept what is you know
+countries in the European Union might be
+like much more and the European at the
+EU level there might be a lot more
+regulation
+these sorts of things you know there's
+this whole discussion around right to an
+explanation and the general data
+protection regime in China there's like
+much letter I haven't seen as much
+concern about interpretability though
+there are some like good papers coming
+out of China but in terms of like
+governance I haven't gotten the sense
+that they're gonna like hold back the
+deployment of these technologies for
+those reasons and then in the US maybe
+it's like somewhere between the two I
+mean it's a real battle of like I was
+reflecting on this because I saw a
+debate on interpret ility recently where
+some researchers were like no one cares
+let's just roll ahead with this stuff so
+just a pause reaction let's define that
+just in case someone is listening who's
+not like an AI yeah sure so I think the
+most colloquial way of talking about it
+is interpret E is kind of the study of
+the methods that let you understand like
+why a machine learning system makes the
+decisions that it does right an other
+way is like kind of like an audit to
+understand how you got this out that's
+right exactly right and there's two sets
+of problems there one of them is can you
+actually extract like a meaningful
+explanation to like
+technicians and then there's the other
+question of just like from a user point
+of view like you know just like a doctor
+or someone who's not like a domain
+expert on machine learning yeah being
+able to understand what's going on right
+okay right and the debate I think
+focused on just like does it matter
+right because I think there's some
+machine learning folks who are like look
+if it works it works you know and and
+that's ultimately gonna be the way we're
+gonna move ahead on this stuff and some
+people say no we actually want to have
+some level explanation and I actually
+kind of got the feeling that in some
+ways this is sort of like machine
+learning fighting with the rest of the
+computer science field right cuz like
+when you're learning CS it's very much
+about like can you figure out like every
+step of the process right and like you
+know where as machine learning has
+always been like empirical in some sense
+right like in the sense that like we
+just let where the data tells us train
+the system right and like those are
+actually two ways of like knowing the
+world that are actually debating on this
+question of interpretation it's it's
+sort of like statistical significance
+and bio where is like I don't know it
+works five out of five hundred times
+like therefore it works fine it's not a
+computer yeah and so and what are people
+pushing for like for instance you know
+we're in the UK now in the u.s. how are
+the conversations different hmm so I
+mean I think there is certainly very
+different regimes around like what is
+sort of expected from explanation right
+because I think and this actually spent
+stems from some really interesting
+things about like how the US thinks
+about privacy and how the Europe thinks
+about privacy but I would say in general
+I think the u.s. moves on a very
+case-by-case basis so the regulatory
+mode is basically to say look in medical
+that seems to be a situation where like
+there's like particularly high risks and
+like we want to create a bunch of
+regimes that are specific to medical
+whereas in Europe I think there's like
+broader regimes where the frame is
+for example automated decision making
+okay right and and the gt-r applies to
+automated decision making systems which
+is very broad and the actual
+interpretation will narrow that
+considerably but you start from a big
+kind of category and you narrow down
+versus an approach I think which is
+taking much more like just starting from
+the domain that we think is significant
+so it's it's more patchwork II I guess
+in that sense yeah you would agree so I
+I'm curious about your PhD what are you
+working on and you're almost done so
+yeah so I'm studying science policy and
+the work amend dissertation is on like
+what sorts of methods are useful for AI
+policy and you know the the problem that
+I posed is that there's so much
+uncertainty like there there's
+uncertainty as we were just talking
+about about what where AI will be
+applied but then there's also you know
+deep expert disagreement about how long
+it will take to get the certain
+capabilities like a human level AI or
+even if that's like well-defined and
+that let alone what happens after so
+I've been taking more of a like scenario
+planning approach like let's think about
+multiple possible scenarios and I've
+done some you know workshops and I'm
+trying to understand you know is that a
+useful tool and also can we do like your
+models that sort of Express this
+uncertainty and in some sort of formal
+way yeah there's a lot of like history
+you've looked into there too yeah yeah
+yeah so I mean I I think that one way to
+yeah so I mean people have been talking
+about a ai ai ethics and AI governance
+for a long time but there hasn't been
+much dialogue between you know this
+world and then the other worlds of like
+you know science policy and public
+policy and and you know one way to think
+about is that AI is sort of less mature
+in terms of its you know methodological
+rigor la
+you know the best we've sort of come up
+with is like let's do a survey of some
+experts where as an you know you look at
+something like climate change
+you know they not they not only like you
+know do surveys of experts but also like
+synthesize that expertise into like an
+IPCC report that's supposed to be a
+super authoritative and has you know
+error bars for everything and like
+levels of confidence in different
+statements they have this whole process
+they have models of different possible
+futures given different assumptions
+everything sort of much better spelled
+out in terms of you know the links
+between assumptions and policies and
+scenarios so I think yeah I'm trying to
+take one small step in that direction of
+like more rigor and more sort of clarity
+of you know what what are the actual
+disagreements mm-hmm are you guys um are
+you familiar with the history of policy
+because I was driving over here with my
+girlfriend and she asked me like has
+this like policy ecosystem around AI
+always existed around CS like for
+instance you know when rioting started
+where people at questioning the policy
+of like what does this mean is this like
+a new phenomenon given that you know you
+can establish for a lack of a better
+word like like a personal brand and like
+disseminated it out to the world or you
+know have their you know kind of always
+been policy advisors and isn't in as
+many number as you guys like working
+directly with governments and companies
+and stuff like that yeah I don't know
+about writing but definitely early
+actually yeah but but certainly things
+like nuclear weapons and nuclear energy
+and you know solar energy and coal and
+you know cars there were people debating
+the social implications and there were
+calls for regulation and there were
+conflicts between you know the incumbent
+interests and the start-up innovators so
+I think you know those sorts of issues
+are not new I think what's more new is
+as you said there's like an ability to
+spread you know views more quickly and
+to have sort of global conversations
+about these things mm-hmm yeah I mean I
+think it's just sort of linked to the
+notion of like having specialists
+develop policy at all like I think
+that's like kind of the history of this
+right which is like when do certain
+situations become considered so complex
+as to require someone to be able to like
+be like okay I can
+become an expert on it and be like the
+person who's consulted on this topic and
+I think a little bit about like what is
+like this supply of policy and then also
+like what is the demand for policy right
+so like in the nuclear war case right
+like governments have a lot of interest
+in trying to figure out how we avoid
+like chucking nuclear bombs at one
+another I think so like suddenly there's
+a really strong demand there's also like
+funding there all these like there's all
+these reasons for policy people to kind
+of enter the space and I think AI is
+sort of interesting in that it kind of
+like floats in this median zone right
+now right where it's sort of like you
+see this happen a lot where people like
+AI it seems like a really big deal but
+then they get into the room and they're
+like so what are we doing here exactly
+like what what what is what is policy
+and AI and I think that is part of the
+challenge right now is trying to figure
+out like what are the things that are
+really valuable to kind of work on if
+you think this is going to continue to
+become like a big issue because right
+now the technology is nascent in a way
+that we can argue about the relative
+impact of it at all right and then and
+then we can argue about like does it
+make sense to actually have kind of like
+policy people like you guys I mean
+obviously there are a lot of machine
+learning papers coming out all the time
+but you're very much at the forefront
+like oftentimes I feel like you're sort
+of like ahead of the curve a little bit
+like anticipating the needs and demands
+of a company or of a government and so
+like planning head for the future like
+are you just like waiting for data to
+come are you like getting within
+companies to like see what they're
+working on you like learning about the
+hardware how are you spending your time
+to figure out what's coming next
+yeah I mean a lot of is just talking to
+people talking to people working on
+hardware and you know in in industry and
+academia and like what they're working
+on and and sort of you know I mean I
+find it personally helpful to have some
+some sort of predictions or you know you
+know explicit model of you know of the
+future and you know written some like
+blog post about this like my forecast
+for like short-term so like in 2017 I
+made a bunch of predictions I found that
+to be a super useful exercise because
+then I could say okay what was I wrong
+about and was there like were there
+systematic ways in which I can sort of
+be better about anticipating the future
+next time yeah and I think we had asked
+interesting question about like what is
+what is policy expertise because it's
+like different in different situations
+yeah so imagine like the the nuclear
+case and then you actually knew the
+nuclear case is pretty interests
+because early on the experts from a
+policy perspective also were like the
+physicists right and like you can
+imagine that existing actually in a
+field we're in a technical field which
+is society is like okay what do we do
+with this technology and the response is
+well the scientists working on it will
+tell you about right but is sort of
+interesting in that like there has been
+kind of the development of a community
+of people that I feel is fairly nason
+which i think suggests to me that like
+at least with two options right like one
+of them is that like the field could be
+like the technical field could be doing
+more policy stuff but isn't right now or
+though it's an arbitrage maybe yeah I
+mean that's maybe one way of thinking
+about I mean but there's also like this
+other question of just like what are
+other things that might help to inform
+the technical research okay right like I
+think a lot of my policy work really is
+like translation work right we like talk
+to policy people who are like well I
+understand like liability mm-hmm and I'm
+like well you know this is it's mixed up
+because of AI because of ABC reasons
+right and so like it's bringing like the
+technical research to an existing policy
+discussion there's also the reverse that
+happens right which is basically like
+researchers being like what is this
+fairness thing right and you're like
+well it turns out that you can't just
+create a score for fairness like there's
+these really interesting things that
+people have written about you know like
+how do you think about translating that
+into the machine learning space as well
+which is kind of where you can read like
+fat ml doing and so I think that that
+translation role is like it's by no
+means certain but in the AI space seems
+to have been like a useful role for
+people to play again thinking about like
+what is the plot like policy supply and
+policy demands yeah absolutely
+yeah I think collaboration is
+super-important between people
+interested in the societal questions and
+the technical questions and and you know
+it's rare not just an AI but in other
+cases to like have the answer like you
+know readily available so with like the
+IC IPCC for climate change like they
+have to go back to the lab sometimes and
+do new studies because they're trying to
+answer policy relevant questions so I
+think AI might be the sort of case where
+there's sort of this feedback loop
+between people saying okay here are the
+questions that AI people need to answer
+like here the assumptions we need to
+flesh out like in terms of you know how
+quickly will we have this capability and
+and so forth that that you can't just
+find that existing on archive like the
+answers aren't just lying out there
+ready to be taken by policy people I
+think there needs to be this sort of
+collaboration yeah I'd love to actually
+look into the history of how
+evolved in the climate science right cuz
+you can imagine situation we're like you
+hear this from some machine learning
+people sometimes or just like I just
+programmed the algorithms man like other
+people have to deal with like I don't
+know the implications of that right and
+like yeah presumably you could actually
+have that in the climate space as well
+where research could be like all I do is
+really measure the climate man like you
+decide if you want to change the
+missions like gross not my deal but
+clearly like that field has Macon taken
+the choice to basically say like in
+addition to our research work we have
+this other obligation right which is to
+engage in this policy debate right right
+and and I think that is really
+interesting is like what does the field
+actually think it's responsibilities
+even are and then like how do other kind
+of like skills or talents arrange
+themselves around that so then the
+question ends up being like Tim you were
+at Google before mm-hmm Neri we're at
+the future of humanity Institute and how
+do you guys deal with policy both within
+an institute and within a company like
+what are the differences and how do
+those relationships work yeah definitely
+so I've got kind of a weird set of
+experience I think just because like I
+was yet doing public policy for Google
+so that was like very much on the
+company side of things and then now I'm
+doing a little bit of work with Harvard
+and MIT on this ethics and governance of
+AI and I should have been doing work
+with the Oxford internet Institute as
+well and it is interesting like the
+degree to which you know you actually
+find that like people in both spaces are
+often concerned about the same things
+but the the constraints that they
+operate under are very difference right
+so you know both sides I think like I
+talked to a bunch of researchers within
+Google who are like very concerned about
+fairness I talked to researchers outside
+of Google who are in civil society right
+who are very concerned about fairness
+have you found the same to be true yeah
+yeah so I think there are people worried
+about the same issues and a bunch of
+different domains but they they differ
+in terms of you know how much time
+they're able to focus on them and what
+sorts of concrete issues they have to
+answer so like if you're an industry you
+have to sort of think about the actual
+applications that you're rolling out or
+like you know fairness as it relates to
+this product you know assuming that
+you're working on the application side
+they're also researchers who are
+interested in the more fundamental
+question but in terms of you know
+different institutions and you know if
+you're in government you might have a
+broader mandate but you don't have the
+time to like drill down into every
+single issue you need to sort of rely to
+some extent on experts outside the
+government who are you know writing
+reports and things like that and then if
+you're in academia you know you might be
+able to take a super broad perspective
+you're not necessarily as close to the
+you know cutting-edge research and you
+have to sort of rely on having
+connections with industry so for example
+at the future humanity Institute we have
+a lot of relationships with
+organizations like deep mind and open AI
+and others but you know that we don't
+have like a ton of you know GPUs or
+UVU's here like running the latest
+experiments outside of you know some
+specific domains like safety so yeah I
+think you know having those different
+sectors and dialogue is super important
+in order to like have have a you know
+synthesis of you know the what are the
+actual practical problems were pressing
+what are the governance issues we need
+to address across this whole thing and
+then like you know what are the issues
+we need people to drill down on and
+focus and like do sort of you know free
+rein you know wide-ranging exploration
+of that are like further down the road
+and so what does the population look
+like here of researchers I'm curious in
+the sense of like who's around like
+influencing your ideas like what are
+their backgrounds what are they working
+on yeah so it's at the future of
+humanity Institute it's a mix of people
+so there's some philosophers an ethicist
+there's some political scientists
+there's some mathematicians and you know
+it's it's basically a mix of people who
+are interested in both AI or not
+everyone's working on AI but AI and
+biotechnology are too like technical
+areas of focus but also more general
+issues related to the future of humanity
+as the name suggests so it's pretty
+interdisciplinary like people aren't
+necessarily working just in the domain
+that they're coming from like the
+mathematicians aren't necessarily you
+know trying to you know prove math
+theorems but rather just like bringing
+that mindset of you know rigor to their
+work and trying to like you know break
+down the concepts that we're thinking
+about yeah I'm curious about this too
+because I've never really understood
+this about FHI is is sort of the
+argument that like thinking about
+existential risk there's like practices
+that apply across all these different
+domains or do they kind of operate as
+sort of like separate research we should
+pause there to like is the existential
+risk at the crux of the FHI being
+founded yeah so it's it's a major
+motivation for a lot of our work so
+book superintelligence by our founder
+you know talked a lot about existential
+risks associated with AI but but it's
+not the entirety of our focus so we also
+are interested in you know long-term
+issues that aren't necessarily
+existential and also making sure that we
+get to the upsides so I think I'm altima
+pretty optimistic about the the positive
+applications of AI so I think you know
+we do a range of issues but yeah there
+but like to Tim's question there are a
+lot of people who come at this from sort
+of you know like very conceptual and and
+like you know utility maximizing you
+know philosophical perspective of like
+whoa if we were to like lose all the
+possible value in the future B's
+humanity to stop that would be you know
+one of the worst things that could
+possibly happen and so like reducing the
+probability of existential risk is super
+important even if AI is you know decades
+or centuries away and even if we can
+only you know decrease the probability
+you know of that happening by like 0.1%
+or whatever in expectation that's like a
+huge amount of value that you're
+protecting so before we wrap things up
+I'm curious about your broad thoughts
+like what should we be concerned about
+in the short term around AI and in the
+long term and then how did the two mix
+together
+yeah definitely I mean so I think this
+is one of the really interesting things
+is that at least within the community of
+policy people and the kind of
+researchers right that there has been
+this kind of beef yeah well I mean maybe
+beef is a little dramatic but a small
+beef you know between like what we might
+call like yeah the long term like you're
+talking about which is like people were
+concerned about AGI an existential risk
+and all these sorts of things and then
+sort of the the short term people saying
+like well why do we focus on that when
+there's all these problems of how these
+systems are being implemented right now
+and and yeah I mean I think that is one
+of the kind of enduring sort of features
+of the landscape right now but I think
+it's interesting question as to whether
+or not that will be you know the case
+forever I I don't know like I know miles
+you've had some thoughts on yeah yes I
+think there are common sort of topical
+issues over different time frame so like
+both in the nearer and the long term we
+would want to worry about systems being
+fair and accountable and transparent and
+maybe the methods will be the same or
+maybe they'll be different over those
+different time horizons and I think
+they're also going to be issues around
+security over different time horizons so
+so yeah I think that you know there's
+probably
+more common cause between you know the
+people working on the immediate issues
+and the long-term issues then then is
+often perceived but in some people who
+see it as like a big trade-off between
+like who's gonna get funding or like you
+know this is getting too much attention
+in the media but I think actually you
+know the the goal of most of the people
+working in this area is to like maximize
+the benefits of AI and minimize the
+risks and it might turn out that some of
+the same governance approaches are
+applicable like it might turn out that
+setting that actually solving some of
+these near-term issues will set a
+positive precedent for solving the
+longer ones and start building up a
+community of practice and links with
+policymakers and expertise in government
+so so yeah I think there's a lot of
+opportunity for fusion yeah what makes
+the models I mean you're in kind of like
+the this kind of safety community and
+like do you hear people talking about
+like I mean I use the phrase fat AGI
+which i think is just not fascinating as
+a term just because it marries together
+these two concepts so well yeah but I
+don't know if that's is that being
+talked about at all yeah so I think
+there yeah there's common cause in the
+sense that you could sort of so I mean
+what take a step back so one term that
+people often throw around in the like AI
+safety world particularly looking at
+long term AI safety is value alignment
+so how do you actually learn the values
+of humans and not you know go crazy and
+do I mean you know to put it yeah but
+but I think you know you could frame a
+lot of current issues as value alignment
+problems so things around bias and
+fairness so I think ultimately you know
+that there's a question of how do you
+extract human preferences and how do you
+deal with the fact that humans might not
+have consistent preferences and some of
+them are biased so I think you know
+ultimately those are issues that we'll
+have to deal with in the near term and
+like might take a different form in the
+future of AI systems are operating you
+know with a much larger action space
+they're not just like classifying data
+but they're you know taking you know
+very long-term decisions and thinking
+you know abstractly
+but yeah I think you know ultimately the
+the goal is the same it's still like get
+you know the right behavior out of these
+systems mm-hmm and that was very
+interesting cuz the example that you
+just gave was saying you know a lot of
+the fairness problems
+we're dealing with right yeah we
+actually value alignment problems yes
+like the problem there is basically the
+system doesn't behave in a way that's
+like consistent with human values yeah
+so that's the fairness case and then
+yeah so like you know that's the F in
+the fat ya acronym I mean to take
+accountability and transparency I think
+there's also common cause so you know
+one of the issues I've been toying with
+recently is that that transparency might
+be a way of avoiding certain you know
+international conflicts or it might be
+part of the toolbox so historically in
+arms control agreements like around
+nuclear weapons and chemical weapons
+there been things like on-site
+inspections and you know satellite
+monitoring and you know all these tools
+that are sort of bespoke for the purpose
+of the domain but the general concept is
+we would be better off cooperating and
+we will verify that that behavior is
+actually happening and so that you know
+if if we detect defection by the Soviet
+Union or the Soviet Union detects
+defection from us then they can respond
+appropriately but you know we can build
+you know trust but verify and Reagan's
+terminology and I think if if you
+actually had the full development of the
+phat methods and you had accountability
+and transparency for even general AI
+systems or super intelligence systems I
+think that would open up the door for a
+lot more collaboration if you could sort
+of credibly commit to saying okay you
+know we're developing this general AI
+system but you know these are its goals
+or this is how it learns its goals and
+you know we're sort of you know putting
+these hard constraints on the system
+such that it's not gonna attack your
+country or whatever yeah I think it's I
+mean one of the things that's so
+intriguing about it though is like the
+reason why I like fat AGI for me is like
+huh it's like kind of like kind of a
+crazy idea is because I know typically
+in like the literature around AGI it's
+very much like the idea that it would be
+accountable and that it could be
+transparent is usually considered
+impossible right because like yeah yeah
+so complex and so powerful that it would
+like that nothing could buy us yeah I
+mean we're making the move you're making
+is to say like actually we might we
+might be able to do it yeah well there
+differences of opinion on like how sort
+of interactive the development of you
+know an AGI would be and
+and you know the extent to which humans
+will be in the loop you know over the
+long under the end right and so I mean
+Paul Christiano at open AI for example
+has a lot of really good blog posts and
+you know some of these ideas are in the
+paper concrete problems in AI safety
+about you know about the idea that you
+know corrigible what he calls core
+ability and what others have called core
+ability might actually be like a stable
+basin of Attraction in the sense that if
+a system you know is designed in such a
+way that it's able to like take critical
+feedback and its able to say okay yeah
+what I was doing was wrong that might
+sort of like stabilize in a way that
+it's like continuously asking for human
+feedback so it's possible that
+accountability is you know an easier
+problem even for very powerful systems
+than we realize like you know there are
+powerful you know maybe Trump aside
+there are powerful people in the world
+who actually seek our critical feedback
+and like are aware and like more topical
+yeah want to hear diverse inputs and
+like we want to make sure that they're
+doing the right thing right right but
+this is actually really interesting
+because it's like it's both short term
+and long term again right just like if
+we could get the research community to
+have certain norms around ensuring that
+like we are seeking to build corrigible
+systems yes right yeah that might set
+the president that the idea that
+eventually arrives yeah will be one
+which is actually consistent with phat
+yeah right versus like not right we
+actually have control over the design of
+the yeah thing I've always had such
+trouble understanding like the people
+who thought there are these AI engineers
+that we're trying to take over the world
+with their AG is like no they're gonna
+die too like all the incentives the
+incentives are aligned just like imagine
+this apocalyptic scenario but do you
+guys have you have strong opinions on
+people working in public first working
+in private I know there's like somewhat
+of a debate around development mmm-hmm
+yes you mean like working in the US
+government no no sorry uh Juvenal in Yin
+on like trying to build an AGI okay I
+think some amount of your data or
+training data yeah publicly vers private
+yeah so that's a super interesting
+question and I think you know we sort of
+broached the the topic and in this
+report on the malicious uses of AI
+because I think there might be specific
+domains in which you know maybe it's not
+maybe in a world in which you know isn't
+necessarily the world we're in today but
+maybe in a world in which you know there
+are millions of driverless cars and
+they're all using the same like
+convolutional neural net that is like
+vulnerable to this like new adversarial
+example that you just came up with you
+might want to like give those companies
+a heads up before you just like posted
+on archive and then someone can like
+cause tens of thousands of car crashes
+or whatever so I think you know we might
+want to think about norms around
+openness and those specific domains
+where you know the the idea is until
+like never publish but it's to like have
+some sort of process but yeah as far as
+general AI and and research right now
+the community is pretty open and I think
+it's sort of both in the you know broad
+interest and in the individual interests
+of companies to be fairly open means
+they want to recruit researchers and
+researchers want to publish so I think
+yeah there's a pretty strong norm around
+openness but if we were in a world where
+there was like more widely perceived you
+know great power competition between
+countries or where the safety issues
+were a lot more salient or there were
+some like catastrophic misuses of AI in
+the cyber arena then I think people
+might think twice and it might be
+appropriate to think twice if if you
+know your concern is that you know it
+that the first people to you know press
+the button if they're not you know
+conscious of all the safety issues could
+cause a huge problem yeah I'm very Pro
+open publishing like I think like it
+should be the default and and it's like
+I'm I'm still disputing situations where
+I'm like you shouldn't publish on this
+stuff just because like I think it is
+actually to the benefit of everybody to
+know what the current state of the field
+is because it allows us to make like a
+realistic assessments regardless of
+whether or not you believe in AGI you
+believe in super intelligence like you
+know like it's useful just to know like
+what can be done because even if you're
+thinking about the more prosaic like bad
+actor uses right like it's useful to
+know like what are the risks and we
+can't do that an environment where like
+lots of people are kind of holding back
+and so so it's important to know the
+state of the field at any given time so
+we can actually make realistic public
+policy otherwise we're really operating
+in the dark yeah that's a great point
+okay so so my last year you wrote about
+predictions for 2017 or 2018 yeah okay I
+made the predictions early 2017 and then
+I reviewed them like a month ago okay
+this year 2018 you can you get a whole
+year has not prepared you can have a
+three year get a three year time frame
+then
+even more three more sure yeah I think
+there will be superhuman Starcraft and
+dota2 probably in that time horizon I in
+I think early 2017 that would be the end
+of that I gave like 50% chance by the
+end of 2018
+so this gives me more runway like seven
+seventy percent confident that you know
+that you know they'll be superhuman
+Stark I'm actually less familiar with
+dota2 so well I'll say just Starcraft
+alright okay Tim I think meta learning
+will improve significantly so this is
+basically treating machine learning
+designing machine learning architectures
+as if they were their own machine
+learning problem mhm it's something that
+basically is done by like machine
+learning specialists right now and the
+question is how far will machine
+learning researchers go and replacing
+themselves essentially and and I think
+that will get really good in ways that
+we don't expect and your insight into
+why that will happen is what there's
+some of the results that we're seeing
+from the research right now just like it
+just seems like these networks are able
+to kind of tune their parameters in a
+way that at least I would have not
+expected and so it's it's cool seeing
+that that adapts in advance these are
+all positive things all right guys well
+thanks for your time giving us
+you

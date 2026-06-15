@@ -1,0 +1,211 @@
+Title: Catch bugs locally faster with the last code linter you'll ever need (Trunk.io with Eli Schleifer)
+Video ID: EdMJxU-0SPE
+URL: https://www.youtube.com/watch?v=EdMJxU-0SPE
+Channel: Garry Tan
+Published: 2021-11-30T15:30:03Z
+Duration: PT6M19S
+Views: 11562
+Likes: 402
+Tags: Garry Tan, Garry Tan vc, initialized capital, Garry Tan initialized, Garry Tan initialized capital, Silicon Valley vc, sf vc, a16z, Andreessen horowitz, best Silicon Valley vcs, bug software, code linter, code linter software, best code linter, best tools for developers
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 187
+
+Description:
+This week we're sitting down with Eli Schleifer of Trunk.io. Eli and I worked together at Microsoft when we were both 22, and since then he and his cofounder ran huge engineering teams for Uber's autonomous car division. Their new service is like having an extra staff software engineer just to make sure your team works together well and your code is in good shape.
+
+Try Trunk (it's free for small teams and open source) launching today at https://trunk.io
+
+I’m Garry Tan, venture capitalist and fou
+
+============================================================
+TRANSCRIPT
+============================================================
+
+today we're sitting down with my old
+friend ellie schleifer on the day of his
+first products launch if you're writing
+code with the big team you need trunk
+today's video is mainly for software
+engineers so it's okay to skip this one
+if you're not one of those
+let's get started
+[Music]
+ellie congrats on your launch today of
+trunk you're one of the best engineers i
+ever worked with way back in the day uh
+when we were starting our careers at
+microsoft so so what is trunk we are
+like devex in a box so what we're
+announcing today is the launch of trunk
+check it's our first product it is the
+metal enter and it's basically what we
+call like the the one linter to roll
+them all you know trunk check is all
+about making sure that in your
+repository every single tool your static
+analyzers your linters your formatters
+are all being run on all the
+technologies in your repo even the most
+basic repository today tends to have
+five to ten technologies in play so you
+might have your core python code or your
+core rust code
+the truth is you also have docker files
+and terraform formation files and you
+have batch scripts all these things have
+formatters linters analyzers have to be
+run and you do not want to have someone
+on your team maintaining that because if
+it's someone maintaining it that means
+they're forgetting to maintain it what
+you want is basically a tool to take
+care of all this for you so that's what
+trunk check is you install trunk into
+your repository every single one of your
+engineers has hermetically downloaded
+and installed versions of every single
+tool in your repository that is being
+run um i'm gonna do is we're gonna do a
+demo for that today on the open source
+repository uh the repository is called
+yaml cpp it's a very popular c plus plus
+uh um yaml parser let's take a look so
+the first thing we do is we run trunk in
+it so i already have a curl down trunk
+onto my machine i run trunk in it
+um and what you'll see quickly is uh the
+first step we do is we analyze the
+repository in this case we say analyze
+all your files we found 402 files in
+your repo and we actually turned on 11
+different linters and this included
+stuff for client format which is your c
+plus plus formatter action link because
+this repository uses github actions
+black which is an awesome uh python
+formatter build a fire for the bazel
+tools flakey get leaks i-sword printer
+all these tools commonly turned on not a
+one-offs by individuals but here we've
+done that all for you and literally in
+seconds so we've turned down the 11
+linters we kind of tell you here are the
+things we've turned on for some of them
+we've put in you know
+reasonable defaults for those linters
+but beyond that you know it's up to you
+to go and tweak them to your heart's
+desire all of these tend to be open
+source uh tools that people are running
+one off but what we're saying is this
+should all be managed by a meta tool
+that's gonna make sure it's all being
+run and the big value here is that it's
+being run for you on your box locally
+this is not a job that's happening in ci
+traditionally if i'm running like a
+super lender at a github what happens is
+i do a bunch of code and i send that off
+to github right well now github has now
+become like a 10-minute asynchronous
+process to tell me that i have like a
+spell check problem or that my files are
+not sorted correctly that's ridiculous
+like you wouldn't tolerate that from
+google docs to wait 10 minutes to tell
+you you misspelled something you
+shouldn't wait 10 minutes for your
+linter to tell you you have a lending
+problem not only that it's expensive it
+means because not only are you running
+your linters in the cloud but also
+you're running all your unit tests and
+integration test suites those cost money
+they also burn machines and while that's
+happening you're just like twiddling
+your thumbs and we kind of think that a
+lot of engineers get stuck in like rinse
+wash repeat cycles so we're going to
+solve that for you with trunk check so
+as soon as i've installed this i've
+initialized it i'm going to run trunk
+check
+and what we'll do is we'll call here
+sample
+5 which is going to say find me five
+files for each link you've turned on run
+it and show me kind of what my results
+are because we just turned this thing on
+and quickly you can see here a bunch of
+issues popped up i have python issues i
+have formatting issues i have problems
+with my markdown so when you run trunk
+init you actually generated this trunk
+yaml file
+inside the trunk yaml file we believe
+everything should be configuration as
+codes you can see here in the enabled
+list here are all the linters that have
+been turned on along with the versions
+for each of those lenders so as new
+versions of linters come out you can
+change that version that is pegged
+inside your trunk.yaml file and now
+that's the new version that's going to
+be used as new versions of tools come
+out often those new versions actually
+represent security fixes or better rules
+that could be enforced on that
+repository with one run trunk check
+space upgrade you'll get we'll go check
+the internet find all the latest
+versions of those tools and we'll peg
+those back in your yaml file and you
+commit that now everyone is running
+those new versions of the tools you know
+linting is static analysis and security
+checks and it sounds like you can
+actually find really high severity bugs
+and it's somewhat normal for you to do
+that when you uh you know drop trunk
+into
+pretty much any code base out there so
+not using this is like driving drunk
+then
+yeah absolutely
+just last week i came across a very
+popular open source security tool uh
+installed this uh installed trunk onto
+that repository ran it instantly picked
+up two high severity security issues in
+golang in this project now if you looked
+at the commit history of this repository
+two years ago someone ran golang ci land
+on it very popular go uh formatter in
+linter
+what we turned out is well no one has
+run it since then and that's what trunk
+is all about make sure that you're
+always running the latest versions of
+these tools if you're running old stuff
+there's deceptive security problems we
+want to make sure that you're always
+running the best and latest of
+everything
+so ellie where can people get trunk it
+sounds like it's available today it's
+open source and it's free
+absolutely so it's open source it's free
+for open source projects uh free for uh
+small teams to use through for
+commercial uses go to trunk.io you can
+get the link right there download it
+love for people to try it out and uh
+take it for a spin
+that sounds great
+thanks man congrats on the launch today
+thanks for talking gary
+[Music]
+[Music]
+you

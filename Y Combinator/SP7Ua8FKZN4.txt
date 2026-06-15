@@ -1,0 +1,958 @@
+Title: How To Build The Future: Aravind Srinivas
+Video ID: SP7Ua8FKZN4
+URL: https://www.youtube.com/watch?v=SP7Ua8FKZN4
+Channel: Y Combinator
+Published: 2025-02-21T15:00:42Z
+Duration: PT34M39S
+Views: 140359
+Likes: 2765
+Tags: YC, Y Combinator
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 928
+
+Description:
+YC General Partner David Lieb sits down with Aravind Srinivas, the co-founder and CEO of Perplexity, to discuss his origins in Silicon Valley, what it's like to compete with Google, and what the future of search could look like.
+
+Apply to Y Combinator: https://ycombinator.com/apply
+
+Chapters (Powered by https://bit.ly/chapterme-yc) - 
+0:00 Intro 
+0:51 Aravind’s early days in AI
+3:45 What made Aravind start a company
+6:35 The first iterations 
+14:10 Realizing Perplexity had potential 
+19:02 “The 
+
+============================================================
+TRANSCRIPT
+============================================================
+
+we release the ability to ask follow-up
+questions that double the engagement
+time on the site and also increase the
+number of questions every day so I was
+like okay there's something here it's
+not worth killing and pivoting to
+Enterprise it was not like I want to go
+and kill Google like that sort of a
+motivation it was more like what is an
+idea of that scale and ambition is
+something like this today my view of
+perplexity is a more intelligent Google
+search that's really useful in certain
+scenarios what do you want me to think
+it it in 3 or 4
+[Music]
+years welcome back to another episode of
+how to build the future today we're
+joined by Arvin shavas co-founder and
+CEO of perplexity which in less than
+three years has grown to more than a N9
+billion valuation thanks for joining us
+thank you for having me David how did
+you get into this world I was pretty
+interested in AI deep learning research
+uh that's actually what got me into the
+US I was an underr in India came here to
+the US for doing my PhD here at Berkeley
+life really changed when I got to do an
+internship at open aai and Ilia s was
+there I still remember the day I first
+met him and I was very prepared and had
+all these fancy ideas that I thought
+were very interesting and he listened
+for 5 minutes and said all this resource
+is useless feels really bad to hear that
+so I got used to you know hearing the
+right things even if they're
+uncomfortable and then he told me the
+only thing that matters is he drew two
+cir circles one big circle called it
+unsupervised learning and then inside he
+said reinforcement learning another
+Circle and he said this is Agi every
+other research doesn't matter this was
+around the time when they were building
+gpt1 okay they didn't even call it
+gpt1 uh when I saw the research I went
+back to Berkeley and said I was working
+a lot on RL that was the rage at the
+time because of alpha go and deep mine
+right but that was kind of like chasing
+the friend so I went back to my
+professor and said hey we have to
+actually go and study unsupervised and
+generative models and generative AI so
+then I got into that and uh did more
+internships at Google and during my
+Google internship I stumbled upon this
+book called in the Plex so I would
+launch jobs during the day training runs
+and then um go and read these books in
+the library because interns don't have
+any other thing to do right and we feel
+amazing that oh like these guys actually
+Were Once Upon a Time grad students like
+me and now I'm working as an intern in
+their offices and reading reading the
+book book it's it feels nice it would be
+amazing to start a company like that in
+future where there's a lot of research
+there's a lot of like AI at the same
+time it's very grounded in product
+building uh it's very difficult to do
+that uh and I spent a lot of time
+thinking about it I even spoke to IIA
+about it and like where we said there
+are probably only two problems where uh
+you can work on AI and also build
+product at the same same time one is
+like search and the other is sub driving
+car because all your product roll outs
+are becoming data points for improving
+the underlying AI in the product and
+that'll make the product even better and
+that'll lead to more users and more
+usage will lead to more data points and
+it'll become a flywheel and uh it should
+also be on the AI completeness path it's
+sort of a buzzword to say this but
+basically what it means is better AI
+should keep making your products better
+so that that way you can keep working on
+your company until AI is solved right
+and once it's Sol okay sure we'll worry
+about all those you know imp but your
+company gets better as AI gets better as
+opposed to your company gets run over by
+somebody else exactly so searge is like
+one of those problems yeah so you're at
+this moment where you kind of have this
+realization that you want to start a
+company how did you get the kind of
+activation energy to quit your great job
+at open Ai and go do that how did you
+find your co-founders I came across this
+blog that um one of the
+former YC Partners Daniel gross wrote
+but it was like how to build the next
+Google um and I think basically the core
+idea is like you could do so much more
+with better query reformulation so you
+take a query and you just add some
+suffixes uh so if someone's looking for
+reviews of a movie uh just suffix site
+colon rodent tomatoes.com if someone's
+looking for uh reviews of some uh new
+Gadget uh do site call in that
+corresponding subreddit you can get away
+with a lot of these suffixes and like
+our special strings to like filter
+results and and already make Google uh
+so much better even with the existing
+Goog Google ranking uh I'm not even
+talking about the ads problem just
+simple ranking and then you can do more
+sophisticated things of like classifying
+queries and he was talking about how
+llms could automatically figure out
+these suffixes and I was pretty
+interested in that okay that that seemed
+like okay maybe uh generative AI might
+be um as in like I used to just call it
+llm so General models could be a better
+way to build search engines too I also
+was pretty interested in like trying to
+do something agent like when deep mine
+had this um Android environment that
+they built where like they they kind of
+wanted to prototype a mobile app using
+agent uh that knows when to use what
+apps and control the apps um that's when
+I I spoke to my uh co-founder in CTO uh
+his name is Dennis we had written the
+same paper a day apart so we we knew
+each other and he was a visiting student
+in my lab and we used to talk about I
+with brainstorm ideas of how like we can
+build agents to control the Android
+environment so we we were definitely
+chatting about doing a lot of things but
+never concretely about any company or
+product the first thing that anyone
+would tell you is like why why you work
+on this of course Google's going to do
+this right it's not even like you go
+build a better Google Docs uh Google
+will eventually do it because it's a
+secondary thing for them so companies
+like notion can still be funded this is
+their core crownwell so why would you
+even try I think the reason it actually
+made sense this is again after launching
+the product we realized this not before
+um so there's like some benefit to being
+ignorant ignorance is bliss uh is that
+if people stop clicking on links the ad
+economy kind of dies now you can there's
+a lot of you know Nuance to this but
+that core Insight was only uh realized
+by us after launching so so once we
+realized that I thought okay we were on
+to something and that kind of took us
+last two years yeah walk us through like
+the first iterations of your
+experimentation like I know you did a
+bunch of demos that were very dissimilar
+from perplexity yeah so I was like adash
+is enough to go and pitch to The in
+first seed investor of ours elot Gil
+that like hey like um you know I want to
+disrupt Google um but I kind of want to
+do it from pixels from a glass and I
+think that's way you know you're not
+competing with people typing on the
+search bar they just seeing even at that
+point you like knew in your mind I want
+to go after Google or like yeah yeah it
+was not like I want to go and kill
+Google like that sort of a motivation it
+was more like what is an idea of that
+scale and ambition is something like
+this it was also around the time when
+multimo models were slowly beginning to
+work so I thought like if you were on
+the trajectory of improving technology
+you could build something pretty amazing
+my investor rightfully said like not to
+work on it in the beginning so we
+focused more on searching over like
+specific verticals or data sets or
+databases tables actually and we were an
+Enterprise kind of focused company
+except like nobody wanted to give us
+their data I remember I used to you know
+hustle for calls with like bitbook or
+crunch Bas as because I kind of wanted
+to build a demo that would first make
+sense to an investor and that way we can
+keep you know raising some capital and
+then actually hiring good people and
+then go and like do the real thing and
+so crunch base add all this data which
+will as but they they just don't want to
+give it to us and so um next best step
+Twitter yeah Twitter pre Elon CEO
+moments uh academic access was allowed
+legal so we um um built a database of
+Twitter we organized it in the form of
+tables we Tred to do it with the openai
+Codex modeles this was even pre gbt
+3.5 we we wrote a lot of templates oh
+for these kind of queries these are
+example sequels and then the model would
+do kind of rag they pull queries in the
+templates and then write the actual SQL
+based on the template sqls and that was
+the only way to get it to work reliably
+and then we had a lot of call backs in
+case errors happen it'll automatically
+correct it uh and then it will go and
+query the database and then retrieve the
+records it was very nice and it was a
+chat UI you could chat you could
+Converse you could plot and this was
+like the first real like product or demo
+that you guys watch yeah yeah we did it
+very fast like took only a month to do
+this um because there like three people
+only but that energy in the beginning is
+insane and they showed it to a bunch of
+people and they all allowed it main
+there are two reasons one something like
+that never existed before like uh you
+could never actually goarch exactly to
+this day even today right and then uh
+also people lowed I finding all these I
+think I think the social search of like
+knowing who other people are following
+whose streets are they liking whose
+streets are they not liking who did they
+unfollow this week mhm you know those
+kind of diffs it's all like funny so you
+launched this Twitter search thing yeah
+how did you transition from that to now
+what we all know as perplexity yeah so
+we had that right and then we were
+trying to do something similar to that
+for many different databases GitHub like
+if coders could go and search about Reb
+host or LinkedIn if you could like
+almost be a recruiter just say but even
+now it's pretty hard I want to say like
+I want all the people who worked uh who
+who have been C Founders you know who
+and and who also worked at C C or D
+startup because they would know what it
+means to be Scrappy it's very difficult
+to like using the LinkedIn UI to do that
+you cannot do that right for whatever
+reasons people don't want to give their
+data their pay wall like you know such
+technology if it exists we'll be
+creating like way more value but some it
+doesn't exist for many other reasons we
+were beginning to see how like even with
+the capability of the models at that
+time in 2022
+um pre 3.5 turbo uh things were actually
+pretty reliable to the extent where like
+people would like use this and find
+Value I actually read this um polyram
+tweet I think uh like where if you try
+to often when you when you figure out
+the better solution when you try to Sol
+solve a harder version of it but you end
+up with a simpler Solution that's more
+General and scalable that's what we
+realized like okay like there's one way
+of doing these things where we go to
+each of these domains and like try to
+build an index of it and put it into
+specific formats like tables and then
+have the
+llm like like read that uh in a
+structured language SQL or you could do
+the other way where you just keep it
+unstructured and expect the llm to do
+most of the work at the inference time
+at at at the time of the query and and
+don't do all this work in the indexing
+time and clearly we knew that if if
+second is where the world is headed uh
+where the models will get smarter and
+smarter
+it gives you an advantage to build it
+that way because it's it's more General
+and uh you also stand a chance against
+the Legacy system that Google has built
+which is a lot more in the first style
+so we thought okay we would try to build
+a more General solution and then we
+prototype this thing one weekend
+actually actually John Schulman's theme
+had already published this thing called
+Web GPT at the time so I was pretty
+aware of it opena I even had a bot when
+I worked there called the truth bot
+which John John bill with this steam
+okay where you could ask it a question
+and it'll go and search the web and then
+it'll give you an answer uh with some
+with some sources and um it was very
+slow and it was built with the 175b gp3
+model so incredibly slow and inefficient
+it was more agentic like it would
+actually be like an RL agent that
+decides if it wants to click on a link
+and browse it scroll okay this is very
+slow so what we tried is a very simple
+uh heuristic version but much faster
+which is okay you always take the topk
+links that a search API provides you you
+always only take the summary Snippets
+that the index is already cached so
+there's no scrolling there's no clicking
+and you always feed all those links into
+the prompt so there's no selection ask
+you to write a summary with sources in
+like the academic format and that's it
+when these models were're getting to a
+point like 3.5 turbo sort of models were
+beginning to come um this actually
+started working much better yeah
+instruction following capability
+increased enough that you didn't have to
+do it very very uh rigorously got so so
+you kind of did like the the dumb
+approach um betting on the fact that the
+the AI would get good enough that would
+make all of
+that uh right timing I would say one
+year ago and John and his team tried
+like the models were just so so much uh
+worse that like if you tried the dumb
+approach it just wouldn't work and so
+therefore you would conclude that you
+need a smarter approach okay but then
+when the modeles began to be much better
+instruction following the dumb approach
+actually works and that fixes a core
+product ux problem of latency you are
+used to uh like like links appearing
+instantly on a traditional search right
+even then by the way the first version
+we launched which is the answer version
+uh took 7 seconds or something to um
+because we didn't even have this concept
+of streaming answers we we would wait
+till the entire answer was generated we
+couldn't control the verbosity so
+sometimes the answer would be very very
+big we even had to hardcode a prompt
+saying only write five sentences or
+something like that or 80 words to keep
+it fast yeah exactly okay so you
+launched this when was the first moment
+that you thought like oh I'm on to
+something here so we tweeted it okay I I
+I was while writing the tweet I was like
+um you know people are going to ridicule
+it it's going to make mistakes blah blah
+blah first moment of virality came and
+one uh annoyed uh like intellectual
+academic came search for herself uh it
+said she it gave a biography in the past
+tense and she's like I'm still alive
+what the hell but actually what happened
+was there was a person with the exact
+same name and
+spelling uh who died and LM thought she
+died and she gave a it gave a past tense
+okay actually thought that was pretty
+clever reasoning on the modotto except
+it's not even higher order to know that
+they're different people so then that
+got us a lot of attention people were
+beginning to start thinking okay look
+the sources thing is good but can we
+really trust the answers these things
+are uh saying and then um that got into
+into this trend of people uh like
+searching for themselves this is
+something that keeps happening time and
+again with all consumer products when I
+got a chance to speak to Mike ker uh
+that vacation uh he said the same that
+even though you can click on your own
+profile icon and go go back to your
+photos people always love to go to their
+profile on Instagram by typing their
+username on the search bar it's such a
+human habit yeah so we a lot of people
+start putting their Twitter handles or
+social like usernames and then it would
+Mash all their activity across the
+internet including stuff they did in the
+childhood like many years ago and then
+give like this interesting summaries and
+they would screenshot it and share it
+yeah so I thought there was something
+there there something driving it that
+you but I still wasn't sure yeah and
+then we release the ability to ask
+follow-up questions that double the
+engagement time on the site and also
+increase the number of questions every
+day and number of people number of
+questions every day was increasing
+exponentially so I was like okay this is
+there's something here it's not worth
+killing and pivoting to Enterprise you
+have this like initial momentum and you
+you said earlier it wasn't until
+hindsight that you had the idea that
+like oh we actually have a chance of
+competing with somebody like a Google um
+when did that realization happen in this
+journey how' that go down so I never
+really thought about the Google
+competition in a serious way to be very
+honest um because I knew that like the
+they cannot make this exact product on
+the Google homepage it's so hard to know
+when a query is purely informational or
+not and then the Google search page is
+already like so cluttered that's the
+answer box the knowledge panel uh
+there's some ads there's some links
+there's you know like perspectives from
+socials all these social cards it's all
+too much information so that it's
+clearly like feels like you know fast
+food and like healthy meal difference
+for using Google and perplexity on even
+informational queries I was more worried
+about like Microsoft in the beginning uh
+because they were launching Bing chat in
+fact on the day we agreed to uh have a
+term sheet like hand Shook on a term
+sheet uh with with with with one of the
+Venture Capital investors Nea here uh in
+in San Road after like one week of
+torturous pictures and we just having
+like uh uh like coffee and then the
+Verge leak screenshots of Bing chat and
+um I was like okay like uh there's this
+30-day due diligence period right and
+one of the other investors would give me
+a term sheet he just increased it to 45
+days you know you could see the diff
+yeah right it was done sneakily and I
+knew why clearly he also text what do
+you think about this thing okay okay I
+get it I get it getting a little
+sheepish and then the other person I
+hand with like he text me the night
+saying hey do you have time for a call
+tomorrow okay like clearly like this is
+it right so I told my co-founder look
+maybe they're going to uh back out or
+ask us to Pivot so um maybe we should
+just try to sell the company and like
+get it done you know this is not going
+to go anywhere the person actually who
+hand shook said look I'm not going to
+ask you to Pivot I'm not going to ask
+you to like do anything different uh you
+guys keep going and uh we already word
+is word and I I was like damn that's
+that's pretty impressive and then the
+next week actually Google also releases
+a Blog from Sundar saying they're
+announcing something called The Bard
+with just screenshots so we knew that
+like this is going to get pretty big and
+competitive but we were like look it's
+at the end um Microsoft was never really
+good at consumer products for a long
+long time you can't suddenly change that
+uh so they actually messed up the
+opportunity in my opinion totally Google
+obviously I knew that they're going to
+have their own problems challenges so I
+felt like there was space for someone
+else here yeah having spent almost a
+decade at Google myself um I see a lot
+of the culture of the early days of
+Google like the things I've learned
+about Larry or about SAR and I see a lot
+of that in the way that you have built
+your product like there's a lot of
+attention to detail feels like you are
+the primary user of the product yourself
+like is that a thing that you
+deliberately tried to do yeah I did I
+did deliberately try to do it uh one
+thing that Larry said is like you know
+we we uh I keep reminding everyone in
+our company about it the user is never
+wrong so even today while testing a new
+feature um it didn't work uh but there
+was some ambiguity in the query so the
+person I was talking to the engineer and
+say Hey you know this is not good what
+else could theyi have done here and you
+know what they should have done it
+should have come and clarified to me
+right and and asked me hey I'm not sure
+either it's this or this which one did
+you actually want
+and then I should have clarified and
+then it should have gone and done
+instead of saying I don't know that is
+the user is never wrong principle the
+other way of Designing products is like
+make the user be a better prompt
+engineer mhm blame the user and tell
+them to be a better prompt engineer
+teach them educate them get them to do
+it the way that the product wants to do
+it yeah exactly enterprise software is
+more like second kind yeah but magical
+consumer products are more the first
+kind age right like in Google why should
+uh Google have handled typos they need
+it right we should have all been great
+at English it's like Larry says he was
+never good at spelling and that's why I
+think the true story is YC partner Paul
+buite he was just annoyed by it and he's
+like someone should build that yeah
+exactly and spell check corrector it's
+all there similarly Auto suggest why is
+it there like easier right similarly uh
+cached results I was even reading
+somewhere where Larry wanted the
+homepage to have the a simulation of the
+weather outside your home so that you
+don't even need to type the weather
+query is this already there so I was
+very influenced by that style of design
+like including like subtle things like
+Chrome search bar if you've already gone
+to a site it's already there you just
+have to click enter after typing the
+first two letters so that influenced me
+to like make sure we have the cursor
+ready to type on the search bar you
+don't need to take your mouse and place
+it there it sounds like your your main
+metric that you care about is number of
+queries per day which is exactly what
+Google did I think in the early days
+right it's hard to grow that uh
+uh without like retention in the long
+run you cannot just uh pay for a user
+and get that number up user could
+install your app and maybe you can even
+game it where when they install as one
+query automatically submitted but a
+repeat query doesn't need to be
+submitted yeah I think the only counter
+example which I don't think is happening
+in your case is the product is not
+serving their needs and so they need to
+issue a bunch of queries to get what
+they want which is kind of the opposite
+of like Larry's approach on Google was
+you should be on Google as short as
+possible cuz trying to get you somewhere
+else to solve your so that's not
+happening I mean sure I'm sure there are
+some errors and stuff but most of the
+followup queries actually we see are
+like completely irrelevant to the first
+query because they just want to keep
+continuing the session or questions that
+they never even knew they wanted to ask
+but they want to keep asking so so I
+presume your team has grown a bunch you
+raised a bunch of money um how do you
+manage the team how do you operate your
+team on a week to week or or cycle to
+cycle basis with that you know number of
+queries per day is our primary metric so
+every All Hands we start with that
+number okay I don't believe in this um
+putting a TV and having the metric you
+know being seen every day because I
+think that's also distracting but I I do
+think like it it makes sense to take a
+look every week see the weekly growth
+rates um see the monthly growth rates
+and like if something declined then
+discuss about it figure out ways to
+actually freak out if something declines
+we do and something grows was like look
+into why where so we are very data
+driven and we shareed across the company
+actually I've been trying to share to
+the users too so that they feel like uh
+you know it's it's an something that's
+actually happening right in front of
+their eyes and and they want to be part
+of it there's no hierarchy like if if
+there is some bug to be fixed if I know
+some particular person's working on it I
+can go and talk to the person directly
+nobody else feels threatened because I'm
+going and talking to that person there
+is no feeling that because I'm raising a
+bug uh uh it's like oh they are going to
+be fired or something uh because I
+raised like 50 bugs a day so you know
+like it's more like they understand okay
+this it's important for the product to
+feel uh great and if it doesn't feel
+good for ourselves then the user is also
+not going to feel that in fact we have
+way more incentive to go use our own
+product but the user doesn't so the
+standards for the user should be even
+higher so always feel like a user I
+think that culture is there company I
+love that and and did you intentionally
+select for that when you were hiring
+like people who were very product
+Centric and in the details I wouldn't
+say I I explicitly had that as a
+Criterion but I look for people who
+cared about doing good work if you don't
+care and you're just reading it as a job
+then it's very hard for you to get
+excited about things and I think so much
+of it feeds off of the founders and like
+your culture your DNA and sounds like
+you're that type of person that obsesses
+over the details and you're just going
+to naturally want to hire people who
+share that trait yeah I I do get pissed
+off if answers are wrong and I do get
+pissed off if people on Twitter are
+saying like perplexity is degrading or
+like you know but a lot of the things
+this some things are actually not true
+but I do try to see you know leave aside
+the cynicism um even if it was someone
+who's like a hater y but if there was
+something true there and I want to still
+know yeah I I love seeing you engage on
+Twitter with customers is that the
+primary way that you talk to users or
+are there lots of other ways that you
+are talking so I mainly use x Twitter
+people are just like super like brutally
+honest there and uh I think in email
+people are a lot more polite yeah which
+is okay too like I I like both sides but
+I think the brutal honesty brings out
+the worst bugs and uh things that people
+are afraid to say oh and in person is
+the worst where you go show someone
+something and they're just going to tell
+you good things even if they hate it I
+kind of like don't like any hey what hey
+tell me what do you think yeah you're
+always gonna say nice things right
+you're gonna grow your company
+presumably you're going to need to hire
+more people how do you avoid the fate of
+becoming a big slow company well it's uh
+beginning to happen already a little bit
+right we're not as fast as we used to be
+I think some of it is not because of
+people it's it's also because things
+breaking in production people start
+losing trust in the product like today
+we deployed some change and then someone
+got rated that there was some uh front
+and Bug somewhere it was actually
+something in the backend but people are
+just assuming things I think like uh
+fast loading all that stuff matters and
+not every new engineer uh has the full
+context of the code base in their head
+the earlier ones to there's some tension
+in like moving fast and breaking things
+if you do want to like grow to mass
+Market usage uh so that's mainly slowing
+us down I would say uh and I haven't we
+haven't quite figured out like the best
+way to do this fast I mean we do have
+staging deployment testing AB test and
+all that stuff's happening and that's
+naturally slowing us down and like
+getting things out to production widely
+other than that I would
+say uh the obsessive detail oriented
+people uh they're only that many people
+in the world so obviously you cannot
+expect engineer number 250 to be like
+that M uh but I I I try my best to still
+like you know go flag bugs to whoever is
+working on whatever new feature uh and I
+kind of like know who's working on what
+even at the size I still try I think our
+co-founders are amazing they they care
+and they push that principle when
+they're like building their teams so uh
+we we we are trying our best I'm not
+saying it's us we figured it out cracked
+it uh but at least like we're trying to
+fight the entropy here I think that's
+the only thing you can try right and
+it's a uphill battle but if you keep on
+it yeah okay let's talk a little bit
+about the future um you know I've seen
+you you're most recent launches are kind
+of like in different directions more
+verticalized or more specific around
+shopping or or other things where do you
+want to take it like today my view of
+perplexity is a more intelligent Google
+search that's really useful in certain
+scenarios where do you what do you want
+me to think it of it in three or four
+years if you go and research what's the
+best sweater to buy or uh which the best
+hotel to stay in this location
+perplexity will give you a great answer
+but where do you actually go and fulfill
+the demand you go to Google and who gets
+credit for that monetarily Google Google
+we we got nothing maybe we get you a pro
+subscription but then someone else will
+undercut us and give it away for free
+with like cheaper models or whatever
+they have bigger cash reserves so the
+challenge is like you want to be uh one
+place where people can have the endtoend
+experience they start with a problem in
+their mind and they seek your help you
+give them the answers
+and you also help them fulfill the
+action it's difficult because uh people
+think like at the if you have an answer
+of like oh like what watch does uh Bezos
+wear MH I think he wears some omega or
+something um I personally thought it
+would be amazing if it not only gave the
+answer but it also had a product card
+for the specific Omega watch with a buy
+button and I just click buy and it's
+done but there are other people in the
+world who think that's an
+it's not even an ad right they think
+like that company is paying us to do
+this so this is where like some of the
+tension with uh the early adopters who
+love the adree informational
+experience with like what is actually
+needed to get Mass market and really be
+useful on a daily basis comes from and
+there are so many other things like
+checking the score of a game or quickly
+getting to a website uh if you just
+wanted to get a docs link of an API or
+if you just wanted to go and book flight
+on United the answer could just be a
+link the answer could be the weather for
+tomorrow that's the temperature or
+someone's age should be like you going
+type like Elon Musk Networth you'll just
+get the answer in like less than a
+second on Google right in perplexity
+it'll pull the right Source maybe it
+might be more accurate than Google but
+people don't care about like some of
+this Minor Details so what you need to
+build is this amazing
+orchestration of small models uh typical
+knowledge graphs uh
+widgets llm streaming answers and more
+complicated multi-step reasoning answers
+but user doesn't care like user is not
+going to tell you like when to use what
+you decide that AI nobody talks about
+like when to use what that that's s of
+router that that orchestrator I think
+that's the hardest thing to build and
+whoever builds that and and and and can
+operate that at a scale of billion users
+and also knows how to monetize like some
+of those queries really well right is
+going to be the next Google cuz they'll
+have the search bar everything will they
+they know exactly what to do they'll go
+and ask clarifying questions they it
+truly understands the user and also does
+tasks for you and and also lets you like
+surf the web in the typical way all
+in-one experience you could even argue
+maybe nobody will ever be able to build
+this because it feels like a daunting
+task but I could say whatever Google has
+already built is the closest system to
+something like this agre so the next
+generation of this clearly can be buil
+MH you just have to like persever and
+work for a decade or two on this problem
+if I talk to people at Google they would
+say yep that's what we're building in
+fact I know they've been saying that for
+more than a decade um probably same at
+open AI probably the same at anthropic
+when you look at the people that you
+likely will be competing against in the
+next 10 years um what do you think is
+the piece that's maybe going to give you
+the edge to to win Obsession about the
+user and good product taste there's a
+lot of these things that require a lot
+of domain knowledge out of the list you
+mentioned Google is the only company
+that actually has the product taste to
+do this and and arguably like you know
+all the distribution in the world
+everything right except the Dilma is
+also there it's funnily like you know
+it's a search company but it's it's also
+an ads company and search is kind of
+almost exists in service of the ads comp
+yes not in the other way and you could
+argue okay that's outside the search
+Revenue every quarter which is like
+close to 200 billion a year MH there's
+still like 100 billion and so other
+other places YouTube and Cloud but the
+margins are all coming in search right
+cloud is only like recently profitable
+YouTube is not never going to be a high
+margin business because number one they
+they don't serve ads on subscription uh
+like users and number two like they have
+to pay the creators they have to pay the
+Media Partners so it's never going to be
+as High margins of search so you're
+arguing basically the stock price is
+going to be their encumbrance correct CU
+like ball TR is like like crazy it just
+automatically uh you know panics if
+search Revenue goes down but search
+Revenue has to go around in in a world
+where people are just directly talking
+to AIS and agents are doing stuff for
+them that doesn't mean they're not going
+to do anything about it they're still
+building Gemini and like the new app the
+hypothesis is that like they're not
+going to be able to easily put it on the
+ore Google where they already have all
+the billion users and that's true right
+right yeah you're you're arguing that
+whoever wins this in the long run will
+kind of by definition need to come up
+with a new monetization model a new
+business model yeah there's like a ton
+of other problems to solve like for for
+shopping or travel or like all these
+things like which which Merchants do you
+use or like which hotels do you plug
+into or you know who's the middleman
+there and who handles the booking and if
+a customer wants to cancel stuff Google
+actually saw these a lot of these
+problems too right they're not just like
+oh a page rank or like a map reduce or
+um you know all these advances that they
+made in like visual like deep learning
+and and and like Bird Transformers it's
+not just that that is great but they
+also did a lot of other boring work of
+bringing Google Finance Google shopping
+Google flights I feel like perplexity is
+better position to do these things than
+open air and Tropic because we have it
+in our DNA to care about the user and
+the product uh we're not just talking
+about reasoning and models right we but
+we are pretty much familiar with all
+those things and we are very much
+capable of taking the latest open source
+models and serving them ourselves and
+fine-tuning them and post training them
+and doing evals we're not like AI
+illiterate we're not going to like spend
+all our band with building data centers
+and chips and like trying to just talk
+about like breaking the most reason
+coding a math benchmarks I think there's
+value in that but it's quite autal to
+like building the next generation
+information experience all right Arvin
+thanks so so much for joining us it's
+great chatting thank you for having me
+again
+[Music]

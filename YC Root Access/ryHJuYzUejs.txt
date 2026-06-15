@@ -1,0 +1,478 @@
+Title: How Diode Is 10x-ing Hardware Design
+Video ID: ryHJuYzUejs
+URL: https://www.youtube.com/watch?v=ryHJuYzUejs
+Channel: YC Root Access
+Published: 2025-07-23T14:44:15Z
+Duration: PT15M29S
+Views: 8958
+Likes: 264
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 457
+
+Description:
+Davide Asnaghi and Lenny Khazan started Diode Computers with a question: why does hardware design still move so slowly? Drawing on their backgrounds in software and electrical engineering, they set out to reframe circuit board design as a software problem. One that AI could help solve.
+
+They went from building a tool to catch design mistakes to creating an end-to-end AI-powered system that generates production-ready boards. Along the way, they discovered that most companies didn’t want a better 
+
+============================================================
+TRANSCRIPT
+============================================================
+
+[Music]
+I'm excited today to welcome the
+founders of Dio, Davidid and Lenny. They
+just closed their series A for 11.4
+million led by A16Z. And you guys just
+went through the batch just a year ago
+in the summer 24 batch. So pretty quick
+growth. What are you guys building?
+>> Diet is using AI to automate circuit
+board design. You can think about us as
+AI enabled design shop for printed
+circuit boards.
+>> Who are the customers that are using
+you? So, it's been a pretty rapid growth
+within just one year.
+>> Yeah, we we've been very lucky. We work
+with Fortune 100 companies as well as
+larger like uh startup companies like
+physical intelligence which is robotic
+foundation model company and Seronic
+which builds autonomous boats uh as well
+as like smaller startups that need board
+design.
+>> Take us to the beginning. So just a year
+ago both of you were still in your
+previous jobs when you had applied to YC
+and in fact you were still in your jobs
+few days before the batch started. Tell
+us about that journey. What what were
+you doing? How you decided to work
+together?
+>> Yeah our origin story actually goes
+quite a bit before that. Um so back
+during COVID when I was uh still in
+college I was a software engineer at
+this company that was also building
+hardware and I realized like kind of the
+interesting problems at this company
+were happening on the hardware side and
+so I asked to join their hardware team
+and had the good fortune of getting
+assigned a day as my intern mentor uh
+who graciously took me under his wing
+and showed me the ropes of what it's
+like to be building hardware um and I
+kind of got exposed to to this world of
+building physical things. Um and thought
+it was super exciting and super fun. So
+fast forward to you know the previous
+job where we were working together. Um,
+we were also working on a hardware
+product. I was, you know, more on the
+software side. Davity, you know, a bit
+more in touch with the electrical side.
+And, and we found that despite working
+with like, you know, the some of the
+best engineers I've worked with in my
+career. Um, you know, we'd find that,
+you know, circuit boards would come back
+with like silly mistakes in them because
+the tooling wasn't there to help you
+out. And as a software engineer, I'm
+used to being able to make mistakes,
+find them in 30 seconds, and fix them.
+And I realized very quickly that in
+electrical engineering, that's basically
+not how things work. And that was kind
+of the origin of how we decided to kick
+things off and see if we could do
+something to improve this state of the
+art.
+>> We had some experience designing u
+custom silicon and we saw like
+incredibly talented engineers basically
+oneshot these very complicated uh like
+TSMC designs and we just wanted the same
+for printed circuit boards. We we just
+found that the tooling was not um up to
+par. I was personally like very
+enthusiastic about how large language
+models uh can start to parse the
+documentation and c like they were able
+to catch those silly mistakes but you
+needed to give them like a
+representation on like to understand
+what the electrical design would look
+like and so we effectively applied to YC
+um with this idea of will give us your
+electrical design and we'll spot the
+mistakes. You spoke to over hundred
+people in the first couple weeks of the
+batch, have all these user conversations
+and you found out people didn't really
+want that.
+>> That's right. It was actually quite um
+quite interesting and very humbling.
+Like the original problem statement was
+I like am able to design printed circuit
+boards, but I want the software to tell
+me if I'm making some mistakes the same
+way that a compiler will tell me if I'm
+making mistakes while writing software.
+But when we went out and like pitched
+this idea and we we really built a lot
+of like infrastructure and like
+interesting stuff like we had this
+generative pipeline that would like
+create boards and then inject mistakes
+into them we could use to like
+reinforcement train the algorithm that
+would catch them. People basically told
+us we don't make mistakes like we don't
+need this. I'm sorry. Whether that's
+true or not it doesn't matter but it
+really speaks to the fact that like
+talking to customers is really really
+important. And so like at some point we
+had to recognize that the the pain point
+was not finding the mistakes within the
+uh existing design but it was actually
+like generating that design itself.
+>> And there was some interesting happen
+stance from you guys just being in the
+YC batch that you got more lucky to find
+the right problems because you were
+surrounded by all these ambitious fellow
+YC batchmates that you then stumbled
+into the actual idea for diode. tell us
+about that journey.
+>> Um, that's right. After like uh an
+office hours where we actually told you
+like, hey, like I don't think that the
+verification stuff is working out. We
+will we'll need to go back to the
+drawing boards. We were very somberly
+like having lunch with a really good
+friend of ours uh who who happened to be
+selling like uh edge models to robotics
+companies. And like he basically told us
+look like I don't know if this can be
+useful to you but we consistently hear
+that all of our customers seem to want a
+custom Jetson or uh like development
+board and like the Jetson or is a edge
+GPU made by Nvidia like very common for
+like developing robotics application and
+we realized this would be like very easy
+for us to do and very easy for us to
+generate and from that like kernel of
+information which I don't think we would
+have really stumbled upon so quickly if
+we hadn't been surrounded by other YC
+batches
+like batchmates. We went we went out and
+like closed our first deal like right
+away. That was like a really interesting
+moment from an other YC company.
+>> You got an instant yes on your first
+user conversation whereas the previous
+time you talked to over 100 people and
+they were all basic lukewarm pretty much
+nos. Right.
+>> That's right. That was a really good
+validation. The interesting part is that
+people didn't want a component of the
+solution. They wanted the solution. they
+didn't want just the tool that makes
+their job a bit easier. Like the biggest
+pain point was that there's not that
+many people that can actually design
+circuit boards um in the US. Uh and so
+for for a lot of companies, it's hard to
+like find the right talent and like
+bring it in house in the early stages of
+like prototyping and even for larger
+companies, it's very often that they
+outsource this type of projects if you
+don't have bandwidth to do all the
+things that you want to do. And so it
+turns out that uh diode can really help
+with that. like generating boards is
+where the pain point is at.
+>> Which is super interesting because in
+the process of building the software to
+verify circuit boards, you had built one
+part of the type pipeline that would
+generate boards to really go through the
+iterations of them and that's what
+people wanted.
+>> That's right.
+>> It was a bit counterintuitive as well
+because you both I remember we had this
+office hours and you were confused. It's
+like how do we even build this into a
+venture scale business, right? because
+you are effectively selling at that
+point services to design boards. So how
+do you guys square that? How how did it
+come about?
+>> I think that um the realization came
+from the fact that for the first time in
+a very long time we can design software
+that makes us incredibly productive at
+like solving the problem end to end. And
+the 8020 problem like a lot of products
+in the AI world kind of fail because you
+will never be 100% correct in every
+single thing that you do. Uh but when
+you are like an expert in a specific
+domain and you can solve the 8020
+problem um it now becomes possible for
+you to actually like package this
+solution and sell it as effectively like
+services as a product. It's working in a
+way that um we hadn't anticipated
+before. uh but we really take ownership
+on our product and the output of our
+work and this is what our clients demand
+in terms of solution like we use AI to
+automate the internal working of diode
+but then this is not something that we
+just put out into the world without
+verifying that the output is actually
+correct uh we own the verification
+pipeline and we make sure that anything
+that we deliver to a client will
+actually work that we have like
+acceptance criteria with them uh it very
+much resembles like traditional
+development it's just faster um and uh
+more efficient.
+>> Yeah, I think the core insight here is
+if you could reframe the PCB design
+problem as a software problem. You can
+take all the great learnings that have
+happened in the world of software both
+in terms of verification and compilers
+that will tell you if you're making a
+mistake as well as applying all the
+great research and and work that's going
+into automating software engineering and
+uh make that accessible to the world of
+PCB design as well. And you're basically
+able to benefit from from that with the
+work that we do for our customers. So I
+think the really cool thing is you
+basically have software margins for this
+PCB design services because of AI,
+right? And this is only possible now.
+Tell us about what would happen using
+the largest models and latest one.
+>> Yeah, I think the interesting thing is
+like if you look at those models today,
+they know everything they need to be
+electrical engineers. They have the
+innate knowledge of uh how circuit
+boards work, how they need to get wired
+up, the rules that electrical engineers
+spend years learning as well. They just
+like don't really have the mechanism to
+do the work that an electrical engineer
+does cuz traditional tooling is very
+visual and graphical. Hasn't really
+changed much since maybe the 80s or so.
+And so all you really need to do is
+basically just convert it into a form
+that's similar to what they're used to
+doing, which is writing code. And then
+all of that knowledge that they have can
+start being expressed into the boards
+that they design as well. And so you can
+kind of unlock this like latent
+capability that these models already
+have.
+>> Um, another interesting learning is that
+one of the reasons why this hasn't
+happened yet is that traditionally like
+incredibly smart electrical engineers
+have been trained in this very visual
+way. And so there are some benefits even
+for humans to like reason about things
+in code. That's why like um RTL or the
+regist transfer language for custom
+silicon is written in code. But the the
+the the workforce we have currently is
+very like traditionally trained in
+visual processing. And so because the
+models are really the ones writing this
+code, we can now let them write it and
+just like export a visual representation
+to our users, which is what they're used
+to. So we don't need to actually teach
+humans that have incredible domain
+knowledge about code. We can just like
+generate it in the back end as a
+implementation detail. I personally
+happen to think that like reading that
+code is very enjoyable. Uh but we we
+don't want to force it on anybody and so
+the output that we give is very
+traditional but it just allows the model
+to have an intermediate representation
+that they can modify.
+>> I think one interesting stat you shared
+is just the two of you you've been able
+to decide design over 100 boards in the
+last couple of months which is crazy. A
+regular electrical engineer would only
+be able to output a couple. I think it
+depends on the complexity of the boards.
+Um, but there are incredibly talented
+engineers that are also fast. Um, but we
+have to manage a lot of different
+clients. Uh, and it would be impossible
+to do uh without the like software tools
+that Lenny and his team build inside
+diode. So like the way that we divide
+the work inside diode is that I had the
+electrical engineering team, Lenny has
+the software team. And so we are
+effectively their first client. And in
+the early stages, especially during the
+batch, it was just the two of us. And so
+he would like craft these incredibly
+high-end software tools that I would use
+to speed up myself. Um, that was
+incredibly valuable. I I've always
+personally like really wanted to have
+these tools. Uh, there are some open
+source tools in the world of electronics
+like Kik, which are incredibly like big
+fans of um, but he really built a
+fantastic layer on top that allows us to
+go even faster than that. So you've done
+very interesting technical choices to be
+able to serve in these very old school
+industries selling to aerospace medical
+device. That's not a easy feat because a
+lot of them tend to be very conservative
+with adopting new tech. What are the
+technical choices you've done that you
+actually close this large Fortune 100
+and all these cool tech companies in
+hardware? Yeah. So I think there's a lot
+of really interesting technical
+questions and problems we have to solve.
+Um the first of them is even just
+designing the language that we use to
+represent the schematics. We have this
+kind of novel challenge of designing a
+language that works really well for
+humans and also works really well for
+LLMs because we want LM to be able to
+generate this code. And LM have, you
+know, millions and millions of lines of
+code in their training data. And so if
+you design a language that's very
+familiar to them, they'll do a much
+better job at not making syntax errors
+and kind of writing code in a way that's
+natural to them. But at the same time it
+has to be something that's intuitive and
+readable for the humans like on David's
+team to go and review the code, write
+some of their own as well. Um, so I
+think that was kind of an interesting
+set of challenges we had to make. And
+then once we design the language, we
+have to design the infrastructure in a
+way that's easy to compartmentalize and
+deploy in settings where there's really
+rigorous security requirements. For
+example, working with aerospace
+companies where it needs to run on an
+air gap system, for example. Um and so
+we have this kind of really tight rust
+compiler which is uh implements the core
+logic of our um implementation but we
+also then have you know bindings to was
+so we can run this in the browser and
+have nice visualizations and compile
+schematics in real time locally um for
+our users to review. Um we can
+automatically generate configuration
+blocks for configurable modules where
+users can go on the website change the
+configuration of their buck converter or
+what have you and see the schematic get
+recompiled in their browser in real
+time. And this is all kind of enabled by
+this kind of uh really tight isolated
+like offline core component that uh
+powers the the infrastructure we've
+built.
+>> I think this is one of those companies
+that only you two could have built
+because it's a unique way of uh
+approaching hardware design for circuit
+boards as a software problem with with
+Lenny right and the experience on
+hardware. So what are you excited about
+the future? I I personally love the fact
+that I see the world around me changing
+incredibly fast and I see like AI really
+10xing our software development speed.
+But the the thing that excites me the
+most is taking this incredibly powerful
+um like set of forces and actually
+applying them to uh like the physical
+world like designing physical object in
+physical space. I think this this is
+really the next frontier. This actually
+has been fantastic for recruiting.
+There's a lot of really smart software
+engineers that are looking for the next
+like Everest to like uh climb and and we
+really think hardware is the next
+frontier of like really hard challenges.
+Hardware and like generating these
+boards and putting them in the real
+world and making sure they work reliably
+and using AI to solve these problems is
+really what I think will like move
+civilization forward.
+>> What are the kinds of people that you
+want to hire? Well, I mean, I think on
+the software side, um, you know, we want
+people who are curious and excited to be
+exploring like entirely new frontiers
+with open-ended questions. Um, like I
+said, we have a lot of questions where
+we know what the problem we solve is,
+but the solution can look one of 10
+different ways. And so, we need people
+who are excited to kind of go and and
+try experimenting and prototyping and
+answering these kind of open questions.
+Um, so kind of fun researchy type
+problems, but at the same time, we need
+to ship products, we ship boards, and so
+it's like very practical and applied.
+And I think the the other kinds of
+engineers who we really love working
+with are people who are excited to build
+cool experiences for our customers and
+users to interact with the boards we
+design, right? So, we have to be able to
+hand over the designs to our customers
+and they need to be able to inspect
+them, review them, give feedback. Um,
+and so building these kinds of like
+great interfaces, I think, is um also
+something we're really excited to press
+the accelerator on.
+>> Well, congrats against on your series A.
+>> Thank you. Thanks, Diana.
+[Music]

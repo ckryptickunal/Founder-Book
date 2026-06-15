@@ -1,0 +1,643 @@
+Title: Design Masterclass with the best designer I’ve ever met (Raphael Schaad with Cron Calendar)
+Video ID: 2MrNSjJFBBI
+URL: https://www.youtube.com/watch?v=2MrNSjJFBBI
+Channel: Garry Tan
+Published: 2021-11-18T15:30:00Z
+Duration: PT22M47S
+Views: 58515
+Likes: 2301
+Tags: Garry Tan, Garry Tan vc, initialized capital, Garry Tan initialized, Garry Tan initialized capital, Silicon Valley vc, sf vc, a16z, Andreessen horowitz, best Silicon Valley vcs, cron, best email software, superhuman email, cron calendar, best calendar apps
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 619
+
+Description:
+Raphael Schaad is one of the best designers I've ever had the chance to work with. He and the team at Cron created the last calendar app you'll ever need. Request early access at: https://cron.com
+
+Today, we're talking about how to take a design from an idea on paper to reality. What does it look like to create something from just an idea, and how do you do it? Raphael walks us through his process, which is a master class on how you can do this for yourself.
+
+To get more behind the scenes design
+
+============================================================
+TRANSCRIPT
+============================================================
+
+today we're talking about design going
+from sketch all the way to reality at
+initialized we funded a company called
+cron they're building the best calendar
+experience that you always wish you had
+google and apple they have unlimited
+resources but they still give you a
+bug-filled frustrating experience i've
+worked with hundreds of designers and
+rafael is one of the top designers i've
+ever worked with he did amazing work at
+flipboard the mit media lab how can i
+tell he's among the very best
+because he thinks about the very last
+mile that last bit sanding down
+all of the sharp edges so today
+is about looking at what it takes to
+create the best user experiences in the
+world from a true practitioner from
+sketch to prototype code to reality this
+is cron
+let's get started
+[Applause]
+raphael thanks so much for hanging out
+with us and showing me really the first
+step in how
+any designer should start which is
+actually the sketchbook actually paper
+and pen
+yeah which i have to confess like as a
+designer i always started with pixel so
+this is this part was extra interesting
+to me because look at this thing it's
+like
+it's uh you know beautiful on its own
+we're looking at new chron core
+um you know what's going through your
+head as you just start you know working
+on this looks like this is actually even
+the bones and framework for the world's
+best calendar app what could be the top
+level nav and totally and it looks like
+there are a couple different options
+here even yeah yeah so you know i love
+sketching personally um because it's so
+low commitment to start on paper
+exploring ideas speed for an entire new
+product or a feature within like an
+existing product and i think sketching
+can be great for not just designers but
+really anyone
+because anyone can you know draw
+basically right we all drew us as kids
+and so um when i explore uh ideas
+usually this is kind of the first step
+and you see like it varies a lot kind of
+what this looks like
+sometimes like entire kind of ui
+components sometimes i'm really thinking
+through like a detailed uh problem and
+then one of the important things is that
+it helps me to think and explore options
+but also it's great kind of to snap a
+picture share it with a team and so it's
+a way to communicate so sketching to me
+is exploration and communication i mean
+one of my favorite things about quran is
+as a designer founder you've found a way
+to bring just sort of all of the
+like the last mile sort of the 10 000
+paper cuts that most products sort of
+subject you to and you're sort of
+thinking about it at such a deep level
+that you know even at the level of
+something like this where there's
+adaptive precision like where your mouse
+clicks will have an effect on whether
+you snap to the you know hour marker or
+the 15 minute marker um you know what's
+going on here yeah it's like this is
+actually about feedback for that
+adaptive precision that's right yeah so
+usually when you kind of imagine like
+the standard calendar grid um before you
+click you don't really know yet where
+like a chip and event chip is going to
+be created
+so uh oftentimes you're kind of off by
+30 minutes right because you just were
+one pixel above where the engineer kind
+of drew the the invisible line so here
+i'm just kind of thinking a little bit
+through options different options how
+could you kind of minority reports that
+kind of know before you click where the
+event will be created so this is
+something that's not in the product yet
+and i just started to uh explore options
+here so that's kind of what we're seeing
+on the on the left page and still a work
+in progress but this started a while ago
+in the sketchbook and it's an idea that
+we're now putting in software oh that's
+awesome
+and i guess you know one of the things
+that's really interesting about being at
+this paper and pencil stage is that
+it's really about
+no judgment right which is actually a
+really important design principle if
+people aren't designers that's like one
+of the first things they should really
+sort of open their mind up to like this
+is the uh improv stage like an improv
+comedy yeah there's no such thing as no
+it's always yes and yes totally i love
+that you're you're saying that because i
+think um so sometimes i'll i'll kind of
+ask um in a design process i'll ask you
+know everyone to participate and for
+other designers but also engineers pms
+to also sketch and sometimes i'll put a
+time limit like within the next five
+minutes everyone come up with like eight
+sketches and oftentimes what you find is
+that sketch number seven or eight is
+actually not any worse than your first
+idea and so what that tells us is the
+more you explore basically the more
+better ideas you have
+and so initially it's totally about what
+we call in design process design
+thinking deferring judgment so ideas
+from everyone and as many as possible so
+go broad not deep yet for someone who
+wants to do this type of design at the
+paper level like what would you
+recommend it looks like you know i've
+never seen these pens before
+yeah so so here's what i use um this is
+usually a sketchbook because otherwise
+like loose pages i it's cool to like put
+them up in an office environment but
+here
+i have everything together and then i
+just snap pictures and share them on
+slack especially these days right um and
+yeah so so these are pens that i use you
+see everything is very black and white
+and uh just with like use color to
+highlight maybe a few interactions but
+that that's it everything else is just
+about the form and the function
+um and so yeah i use these copic pens um
+they're my personal favorite they're
+like fantastic pens um made in in japan
+um to kind of just quickly like render
+things um
+but uh it doesn't have to be like that
+so this is just my practice i've been
+doing it for a very long time but i
+think everyone can you know become
+visual and can draw a stick figure
+basically and add some texture to an
+idea i mean it sounds like one of the
+key things to keep in mind is um
+it really is like a sket if you've ever
+taken a drawing class the first part
+that people tell you to start with is
+actually the high level form right like
+you literally you're drawing you know
+using pencil a sketch of what it might
+be yeah is that sort of one of the
+processes that you use like you know see
+how it feels and then like successively
+do
+more and more higher fidelity options
+so i think that's actually where i leave
+usually the medium of sketching yeah and
+go to
+uh design tool awesome and and you know
+for sketching you can really it can be
+as simple as if you for example have an
+idea about like an like a i don't know
+like a new
+um profile um view in in your app or
+whatever um you know that is kind of
+like an idea but then like you know just
+make make it visual like add like a
+little you know avatar maybe it looks
+like like this here um and then suddenly
+like you brought this idea to life and
+really everyone can and should be uh
+doing that and you can see how you're
+feeling about it and if you don't like
+it you make a new version yeah totally
+yeah yeah it's very cheap to just
+continue the next one and then once you
+have these explorations you're on to the
+next step oftentimes
+you know people say design is not only
+how it looks but also how it works right
+so i would kind of take that to one step
+further and say design is not just how
+it looks how it works but also how it's
+built and so certain things i cannot
+explore you know in for example a
+prototyping tool or or certainly not
+sketching and so what i personally like
+to do is jumping into code like the
+actual medium that the you know software
+is going to take shape in and prototype
+in the actual medium because only
+only like that you can really explore
+certain integrated details yeah that's
+awesome um and so yeah so in this in
+this particular case we're looking at um
+some prototypes that i built usually
+just with rocks and sticks really like
+html css javascript that's it no
+framework nothing okay so here we're
+looking at um a prototype where you see
+kind of a familiar grid from calendar
+and when you hover with the mouse really
+nothing happens but when you pause to
+potentially click and drag an event you
+see that you get this indicator and this
+is one of the variants um that we saw in
+the sketchbook earlier that kind of
+started to exploring code like how could
+this you know work and you can kind of
+use the mouse and um uh just gonna land
+somewhere maybe kind of like go quickly
+to another area and then you land
+somewhere it's like ah this is where the
+event is going to appear so you can
+really at this point feel how
+the interaction you know sorry what what
+does that tell the user what do i expect
+to happen
+when i click here and you know this gray
+line for instance at this moment really
+indicates it sets expectations for
+what
+what will happen like if i click and
+drag now i'm going to start
+at the hour mark for example or 15
+minutes after exactly and i love that
+you said feel because so often
+internally when we build something
+um and for example
+a teammate will ask um you know will
+this work that in that way and then my
+response will usually you'll you'll feel
+it yeah and then that's sort of what the
+job of the designer is actually to sort
+of feel empathy for the user because
+they're
+when done right are millions if not you
+know potentially billions of people who
+are going to feel what you feel in that
+moment totally yeah and it's also you
+know they're certainly kind of like a
+designer curator i have an opinionated
+take on something angle but also really
+really important to test with users
+because i might think something works
+and it's cool and obvious and then you
+know i talked to five people and four or
+four of them was like what that what
+what are you talking about like this
+makes no sense i think one thing that
+really blows me away uh when i you know
+meet founders like yous that to be able
+to go from the design step all the way
+into the code is actually very
+remarkable and there's this possibly
+apocryphal story about steve jobs where
+when they were actually designing the
+mac
+he sort of drove his engineers crazy
+because he you know was trying to get
+the right feel for uh you know the size
+of buttons and how much shading would
+you put on uh you know a dialogue box
+and the corner radius famously right and
+so he drove them absolutely crazy with
+like oh change to this change to that
+and then i think one of the top
+developers at the time just made a uh
+slider tool that was sort of like the
+first no code visual builder
+yeah to help and he just gave it to
+steve and he was like
+you figure out the settings and then
+we'll just use that yeah yeah and so
+it's interesting because um you know in
+that case steve was the person who
+wanted to feel and it was the engineer
+who had to sort of implement and deal
+with it but um that highlights where
+it's so much more powerful for you to be
+able to be in the sketch and then in the
+design and then also in the code like
+making it feel the way you want it to
+feel yeah like being a designer and
+engineer it's just that's just so
+powerful
+yeah it's i mean
+it's fun to be able to kind of bring
+things that you put in a design tool and
+then really bring it to life um without
+having to
+bother an engineer every time so i i
+really like being able to explore some
+ideas with code um
+but you know like like actual
+engineering is like a whole other
+discipline thinking about drop network
+connections and caching performance so
+these are baby baby prototypes and a
+very specific purpose um the the steve
+jobs uh story that you mentioned um you
+know the wiggles when the icons wiggle
+yeah um in the iphone original iphone
+had that like that exact wiggle
+um steve jobs was never happy with it
+and so he drove the engineers like you
+were saying with the magnus crazy about
+like that exact wiggle and so the
+engineer was like okay i can't get it
+right like every steve review like i'm
+not getting it right let me just build
+you know he can flip the page or flip
+the springboard um the home screen and
+he has like a bunch of sliders there
+like this is the angle this is the you
+know repetition
+um then another slider maybe four like
+how quick it bounced et cetera and then
+you know steve would go there and like
+like perfectly gonna set the sliders and
+then give the phone back to the engineer
+and engineer read these values and now
+like put them as constants
+into the
+into the uh code base basic of the
+original i i was like doing that over
+and over
+yeah amazing yeah
+all right so
+now we're
+into the third part of bringing
+something from a sketch all the way to
+reality this is the reality part
+um and then what are we looking at this
+is actually google calendar and how they
+do time zones yeah so this is you know a
+simple control where you select a
+certain time zone like typical lists
+that you know you have seen a hundred
+times and used you know thousands of
+times probably right um pretty standard
+nothing seems you know all that wrong
+with it except i can't you know type and
+go to like you know zurich for example
+like i have to go and kind of know which
+offset it is etc no um
+jumping over to
+cron for example when you add a new time
+zone here and i can add as many as i
+want for distributed teams etc um where
+do you grow up gregory oh fremont
+california okay so i think of gary you
+know of like fremont like boom
+um not as gary in gmt minus seven and so
+boom we just jumped to you know the san
+francisco time zone or la time zone um
+gmt minus seven and so what you saw
+there was like this little control where
+you know i interacted with it for a
+split second that just typed frame and
+did the right thing um but if we kind of
+look at this control um
+it feels uh very different and more
+powerful more empowering and quicker
+than what we were looking at earlier and
+so
+i can kind of quickly show you like you
+know going from sketching to
+uh interaction design to actually ui
+design like what are the little tricks
+that designers use to make you know a
+simple control but if used you know
+hundreds of times actually add up like
+small different just to make it better
+yeah it's the little things that really
+matter at this level yeah and so uh okay
+so so this is kind of what's in the
+product right um the way it works um but
+let's look at um here so design tool um
+we're in figma and um let's look at
+this is how google does it yeah exactly
+so this is kind of like nothing is wrong
+with this right it's like a standard
+time selector um but let's start doing
+some cleanup here so
+one creates a visual hierarchy so we're
+going to do is
+we're going to split out the detail
+label here
+we can get rid of it
+here
+boom
+and so you already kind of see by
+splitting it out it creates some visual
+hierarchy we can use some some color to
+create contrast like this was all white
+here i'm using a detail color that i've
+predefined and here i'm now going to go
+into
+another
+kind of text default color that i have
+um defined
+uh
+here
+and so oops and so here we kind of see
+like okay so now we have like a light
+gray a dark gray um it starts to create
+some uh some hierarchy also removed the
+parenthesis because they're very
+repetitive here and so when you kind of
+do these small tweaks we go from by
+creating visual hierarchy we go from
+something that looks like this to
+something that looks like this already
+like a little better um let's take it up
+a notch so um step two um i'm going to
+really like sweat some typographic
+details so for example note how it's
+kind of jagged here right and this is
+also you know in the original one it's
+kind of like jagged it's because um the
+plus is wider than like the just kind of
+you know
+hyphen yeah exactly so so let's take
+this here and let's actually
+delete that and then on mac os you can
+hit control command space and you get
+into this what people may be organized
+as the emoji selector but i use it all
+the time for design so for example if i
+you know this here was it's just if i
+press the hyphen on the keyboard this is
+what you get unicode point you know it
+shows all of that but if you type in
+minus you can actually get uh an actual
+um it's not the hyphen minus not the
+minus symbol it's the minus sign yeah
+it's like the mathematical
+minus not just like the hyphen right
+it's different unicode and so if i
+insert that note how um
+how this is now the same width as the
+plus oh interesting right subtle yeah
+and then another thing we're going to do
+is use tabular figures you mentioned
+like the monospace
+font they're not quite going to use a
+monospace font but we're going to use
+this tabular figures it's just like a
+fancy way of saying
+fixed with numbers basically
+um and so that was a different
+distinction than using monospace yeah so
+here
+we have now that so no i'm gonna go back
+and that's control c
+control yeah for an excel like
+experience you need to use tabular
+figures all line up so because a one is
+much narrower than like a zero right um
+but here the one takes up the same width
+as the zero and so so this is kind of
+what we um did here we're going to
+toggle back and forth um so you see the
+difference here right it's subtle but it
+makes a big difference yeah and so if we
+apply this to all um oh another thing
+we're going gonna do here um this is
+just um this is just you know space
+uh and then minus again and then space
+however um we're gonna use um give it
+some more room so we're gonna go back
+into this little selector here and i'm
+gonna give it um a so if i type in space
+there's actually many many spaces right
+yeah um so we're going to give it an n
+space takes up the width of an n unit
+and then the i'm going to do that here
+as well
+and then the
+minus here um looks a little a little
+small now a little insignificant to kind
+of you know tease the time zone name and
+the city um apart and so what i'm gonna
+do here is i'm gonna use a n-dash
+so
+let's see here i'm going to use an
+n-dash and so this is this is what it
+looks like now so if we apply this to
+all of them what it looks like now is
+this here all straight lines as you see
+here yeah
+exactly and you can like okay so we have
+british summertime london gmt plus plus
+one right so so it makes it very easy to
+scan and then you know kind of uh final
+final step is um add some some more kind
+of visual hierarchy with sections make
+it functional with this kind of recent
+section we have uh kind of primary or
+priority time zones here often use time
+zones and then the whole you know long
+list and that you can not only scroll
+through in a visual nice way but also
+you can
+filter it by just typing uh you know
+time zone operations time zone offsets
+popular cities airport codes and even
+some easter eggs for example try typing
+like gotham city and see what happens
+i'm not sure if that's san francisco or
+new york but it could be there though
+i'll try it out um this is so cool just
+because i you know
+you can feel these things but just to
+see the level of detail and thought put
+into every pixel it's just i don't know
+it's absolutely remarkable right to see
+from one end to the other i mean
+this is what it means to sand down all
+the edges
+to sort of
+you know a platonic ideal of design
+perfection in a way at the pixel level
+anyway but it's not just how it looks
+it's how it works right these are all
+incredibly functional changes that um
+you come to really expect and will
+design things yeah
+so i'm i'm really impressed man it's
+like it's fun i love i mean i i love my
+job like i get to you know make things
+better for for for myself because i love
+those
+details and getting it just right and
+putting in the extra mile um but then
+the even more rewarding part is that
+once you made it one software you know
+it's just like it goes out to everyone
+and everyone can benefit from these
+small improvements that that's that's
+dope so whenever i can kind of push an
+update and i know like oh you'll you'll
+get it and everyone else that's that's
+awesome so
+this has been just really cool to see
+the level of detail that you've put in
+uh from the sketchbook all the way
+to the actual finished product and cron
+is something that is now going into
+private beta so you can go to kron.com
+right now and sign up to join the list
+and you could be one of the first people
+who gets access to basically how
+calendar should be
+yeah we're trying to reimagine um the
+the calendar for the modern age and
+i'm super passionate the whole team is
+super passionate about this
+we want to live in a world where
+everyone makes the most of their time um
+super important i think there's you know
+a bunch of kind of important things you
+have in life health that you have um
+love relationships etc and and time and
+why is it so so precious right because
+the one that's non-renewable um you know
+you can get healthy again you can
+rebuild relationships but time like this
+moment that we have here right now gary
+is gonna be gone forever we cannot bring
+it back and we chose to spend it the way
+we're spending it right now and everyone
+chooses kind of how they spend their
+moments and so
+building you know the software that
+basically a lot of people run their
+lives by and reimagining it for the kind
+of next generation of productivity
+software i'm super excited about the
+whole team um is excited about moving
+the world a little closer to a place
+where everyone makes the most of their
+time
+thank you so much for bringing this
+craft up to the next level thank thanks
+gary super fun to work together and i've
+been really enjoying kind of jamming on
+some design things hopefully people
+yeah yeah i can learn something pick
+something up follow the journey so this
+is from sketch all the way to the
+reality that's right
+good stuff man
+[Music]
+[Music]
+you

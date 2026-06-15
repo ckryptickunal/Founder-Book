@@ -1,0 +1,293 @@
+Title: Infisical: The Open Source Security Stack
+Video ID: qDumDlXcMkg
+URL: https://www.youtube.com/watch?v=qDumDlXcMkg
+Channel: YC Root Access
+Published: Unknown
+Duration: PT10M33S
+Views: 3760
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 278
+
+============================================================
+TRANSCRIPT
+============================================================
+
+Today I'm excited to welcome Inysysical
+who just announced your series A led by
+Eladgill. So we have here Vlad Mul and
+Tony. So tell us what Inysysical is.
+We're an open-source secrets mention
+platform. So we help developers across
+all types of companies you know from the
+fastest growing AI companies like
+Hugging Face to very large Fortune 100
+enterprises like LG. We help them manage
+sensitive credentials across their
+infrastructure. um and yeah solving lots
+of very complicated problems in the
+security and infrastructure spaces. What
+are these secrets you manage and how
+many are you managing? Yeah, I mean you
+can think about secrets anything that's
+sensitive for developer infrastructure.
+So anything from database access tokens
+to certificates to API keys to any types
+of credentials that developers have to
+manage and at this point it's billions
+and and you know north of 10 billion per
+month uh that we are processing at
+Infysical. Let's go back to the founding
+origin story of Inysysical. How did all
+the three of you meet and decide to be
+co-founders? Sure. Uh so we all met at
+Cornell uh throughout college
+essentially. We were hacking together
+different side projects over the years
+um ultimately which culminated in
+physical and you know this isn't our
+first rodeo working on something um we
+had worked on a different project uh
+before but it was just only a matter of
+time uh in terms of figuring out you
+know what is it uh to build next and
+that became in physical I remember you
+guys had actually applied with that
+previous idea and didn't get into YC on
+the first try uh but you kept working on
+it and found another idea which became
+in physical and God in in your second
+try. And how did you land on this new
+idea? It's a bit of a kind of esoteric
+idea for new college grads. Yeah, I can
+I can speak a little bit about it. Um,
+so yeah, Tony mentioned we worked on
+like a number of uh different things
+before in physical and one of the common
+themes that uh they all had was the ENV
+file and uh this is something we've seen
+kind of time and time again and uh it
+it's you know it's it's difficult to
+kind of pass around sensitive
+information even with a smaller team. Um
+and so we wanted to go out and solve
+thev file. How do you make sure that
+things are syncing between teammates?
+And so that was really the core focus
+when we started because you were hacking
+all all these projects and you kept
+having to add all these secrets
+somewhere. Yeah, exactly. And and that's
+kind of how we started uh in physical
+and so we started off with this uh
+problem set which obviously evolved into
+a ton of other things but that was kind
+of the start of it. when you had applied
+to the batch with this idea, you were
+actually closed source and then during
+the batch you decided to open source it
+and that became a key advantage from
+you. You went from zero to 5,000 GitHub
+stars in the span of just like less than
+two three months and now two years later
+you're at 18,000 and over GitHub stars.
+Yeah. Uh I mean even during the NYC
+interview one of the questions you asked
+us back then was like you know why are
+you not open source and and I think at
+that point you know we we were building
+in physical it was closed source which
+is kind of like a simpler SAS tool that
+developers could sign up for and we got
+into IC but then eventually growth kind
+of flattened out and you know it wasn't
+really growing that much and so we were
+talking to to you and and you know in
+general like what we we should do and
+the problems that we kept hearing from
+people right is that they want to have
+more trust and they want to manage these
+secrets. on their own infrastructure.
+And so for us kind of like going open
+source look kind of like in the
+retrospect actually is a very logical
+decision because you know people feel
+much more comfortable about it and and
+they're able to satisfy a lot of
+different compliance and security
+requirements that these enterprises
+have. I think the wildest thing I
+remember during the batch you actually
+got a lot of very big enterprises using
+your product because of this. And the
+crazy thing is that just couple months
+later, one of those users ended up
+becoming a big customer and it's like a
+Fortune50 company. Tell us about how
+that happened. Exactly. I mean a lot of
+people who find us, they eventually, you
+know, at this point we have like very
+big developer mind share and developer
+community around in physical, right? So
+a lot of people who find us, they, you
+know, might have been self-hosting in
+physical for a long time. Maybe in their
+home labs, right? Like maybe they're
+using it for some weekend projects.
+maybe they are starting to adopt it
+within their company because it's easy,
+right? And for self-hosted solutions,
+you can just do it very easily. And so
+with this company specifically, right,
+it was like some people who actually
+used in physical uh at at the old
+company and then they switched to to a
+new enterprise and they also introduced
+in physical there and it's also a very
+big channel for how developers and
+companies adopt in physical too. Very
+cool. And that got you to close this
+Fortune50 company. You also got this
+large semiconductor company using your
+same deal, right? Yeah, I mean at this
+point it's you know any industry you
+name it, banking, uh healthcare,
+government, defense. So anything and and
+it's kind of like crazy to think that
+you know at this point in physical
+security is a very non-trivial part of
+world's infrastructure out there. So
+there's an interesting thing about your
+company is that at the surface people
+could think that you're going after a
+very competitive space because as you
+started the company there were exist
+existing solutions like Hashi Corp vault
+or AWS secrets management but you guys
+did something special because you closed
+some large deals like tell us about this
+big contract you got going on this is a
+different one. Yeah, I mean there's a
+lot of different contracts. One that
+comes to mind is a big defense federal
+defense company with north of 20,000
+employees. They decided to go with in
+physical over some of the existing
+solutions that you mentioned. Um, and
+when I think about why they chose in
+physical, I think about our core product
+philosophy, which is to make security
+more accessible to all developers and
+all engineers at large. And that's
+something that other existing
+competition in the market hasn't done
+really well. Um, we exist in a market
+with a lot of legacy tooling in place, a
+lot of very cumbersome technology that
+takes in the order of, you know, I think
+the average uh deployment time for this
+type of tooling is in the order of 21
+months. That's crazy. Um and so when you
+can reduce your deployment time from 21
+months down to just a few months or even
+a few weeks um becomes a magical
+experience for a lot of these customers
+and you know that's why they turn to
+Infysical over other solutions. So so
+what's the tech underneath my duel?
+Yeah. So uh in physical is really uh
+interesting because it needs to be it
+needs to really accommodate a lot of
+different environments and this is
+different from uh a lot of other
+products that that are on the market
+right we need to uh be as simple as
+possible to deploy in on premise right
+that's where a lot of our largest
+customers are um and uh unlike other
+products right you're really only
+thinking about getting the feature out
+to production here every time we think
+about you know making a new feature, a
+new project that we're working on, it's
+it's always how do we uh how is the
+self-hosting experience going to be for
+customers? And uh unlike other secrets
+management tooling that are on the on
+the market, um we really really care a
+lot about how the solution is uh going
+to be deployed on prem and that comes
+with a lot of interesting engineering
+challenges, right? And so uh one of the
+common challenges with uh you know
+secrets manage other secrets management
+tooling is that they treat the
+application um as a database and so that
+makes it really difficult to scale up um
+in high availability settings right and
+so in physical is actually stateless and
+so this is a big difference um is
+because you can let's say that you you
+want to scale up your fleet right uh
+within physical you can essentially just
+replicate across because all the
+containers are stateless versus uh other
+secrets management tooling where you
+actually need to make sure the data is
+persistent on each of these new replicas
+before you can even think about scaling
+up. And so there's a lot of overhead uh
+that that comes up. That's cool. So how
+are you guys feeling about in physical
+in the future? Super optimistic. I will
+say I think when I think about in
+physical in the future there's really
+two things. Uh the first thing is to
+continue forward with that mission of
+making security more accessible to all
+developers. I think what started as a
+open-source secrets management platform
+is now becoming much more. It is now
+launching into from secrets management
+into certificate management within
+physical PKI into SSH access with our
+new product line in physical SSH into
+encryption as a service within physical
+KMS. You know, we are working our way
+towards from becoming just this secrets
+management platform into a much fuller
+uh open-source security infrastructure
+platform. And the second thing that I
+think is really interesting is to think
+about uh this AI world that's coming up
+in front of us and what in physical's
+role essentially is in that future
+world. Um and so I think in the past
+we've mainly been thinking about users
+and machines accessing infrastructure
+and the tooling built around that. But
+what's interesting here is now we almost
+have a new kind of actor and this is in
+the form of an AI agent which also needs
+access to resources and even needs to be
+able to trust and talk to each other as
+well. So I feel like there is a future
+kind of uh world here where in physical
+will secure access uh for AI agents to
+infrastructure.
+So this is really cool future where
+you're going after lots of stuff to
+build. So tell us a bit about the kinds
+of roles you're hiring for. Yeah, I mean
+we are hiring across 15 plus different
+positions right now spanning through
+engineering to go to market as well. So
+anything from front end and full stack
+engineers over into account executives
+and also even on the operational side as
+well in terms of recruiters too um and
+even devril as well. Um, so really
+there's a lot of different uh positions
+uh to fill. Okay, very cool guys. So,
+thank you so much for coming and joining
+us. That's it. Thank you. Thank you.

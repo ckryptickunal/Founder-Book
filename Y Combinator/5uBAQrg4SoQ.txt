@@ -1,0 +1,215 @@
+Title: GPT-4.5 = Big Model Energy | YC Decoded
+Video ID: 5uBAQrg4SoQ
+URL: https://www.youtube.com/watch?v=5uBAQrg4SoQ
+Channel: Y Combinator
+Published: 2025-03-11T14:00:07Z
+Duration: PT8M26S
+Views: 31262
+Likes: 414
+Tags: YC, Y Combinator
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 187
+
+Description:
+Apply to AI Startup School in SF: https://events.ycombinator.com/ai-sus 
+
+GPT-4.5 is here, and it has major big model energy. OpenAI's largest model to date, it excels at natural conversation, creative tasks and complex planning. YC General Partner Tom Blomfield breaks down why 4.5 matters, how it fits into the broader trajectory of AI development, and what founders need to know.
+
+Chapters (Powered by https://bit.ly/chapterme-yc) -
+00:00 - Intro
+01:55 - GPT-4.5
+04:28 - Testing
+05:38 - Limitation
+
+============================================================
+TRANSCRIPT
+============================================================
+
+GPT 4.5 is finally here and it's open
+ai's largest and most humanlike model to
+date it's really the next step in
+scaling up unsupervised learning it has
+a lot more deeper understanding of the
+world and of Human Experience 4.5 excels
+at natural conversation creative tasks
+and complex planning it also
+hallucinates far less than previous
+models however reactions have been
+somewhat muted largely because it's lach
+Mark improvements over gbt 40 are
+relatively speaking incremental still
+this launch is an important Milestone
+and could be the foundation for the next
+generation of models so let's decode
+what sets 4.5 apart and what it tells us
+about the future of
+[Music]
+AI after GPT 4 was released early in
+2023 anticipation started building about
+what would come next but months came and
+went and the widely anticipated GPD 5
+never arrived through 2024 rumors
+swirled around the internet about
+mysterious internal projects named
+strawberry and Orion fueling immense
+speculation throughout the tech world
+and finally in December open AI revealed
+the first of these new models 01 a model
+capable of reasoning or systematically
+thinking through complex problems step
+by step clearly surpassing gp4 in maths
+coding and logical tasks anticipation
+then shifted towards another rumored
+open AI project Orion which some
+speculated to be GPT 5 recently though
+Sam Alman confirmed that Orion would
+actually be released as GPT 4.5 and now
+it's finally here 4.5 is by far open
+ai's largest model yet potentially more
+than 10 times the size of GPT 4 and it
+represents a step forward in scaling up
+pre-training and
+post-training the final result is the
+model that users can interact with today
+but if it's not a frontier reasoning
+model what is GPT 4.5 actually for
+according to open AI researchers 4.5
+stands out for its emotional
+intelligence you can have much more
+deeper conversations about maybe more
+Curious facts that for all or even one
+or three many don't really you know know
+about but also we think that it has a
+much better understanding of what humans
+want that really gets what you mean when
+you ask for something and that's been
+really the the like magical experience
+for people at open for myself working
+with the model GPT 4.5 achieves around
+61.9% accuracy on benchmarks like simple
+QA which evaluates how effectively
+models can answer single relation
+factoid questions that compares to GPT
+40's
+38.4% it also Cuts hallucination rates
+dramatically down to roughly 37% from
+GPD 40's
+61.2% practically speaking this means
+4.5 is more trustworthy for General
+inquiries than 40 on the creative side
+GPT 4.5 seems to really shine whether
+you're drafting emails generating
+imaginative stories telling jokes
+brainstorming new ideas GPD 4.5 produces
+distinctly more humanlike Pros than 40
+on the two benchmarks that evaluates a
+model's persuasive power make me pay and
+make me say 4.5 easily surpasses models
+like 40 and 01 early High taste testers
+on Twitter and other social media have
+also pointed out that 4.5 is often
+capable of actually being quite funny
+and seems to understand irony in a way
+that other models fail to grasp in our
+own testing of 4.5 before its public
+release we found the model to be far
+better on these sort of softer
+subjective tasks than other models
+unlike 01 or 03 which are measured more
+in hard metrics researchers relied in
+part on Vibes testing when measuring 4.5
+outputs our key evaluations is working
+with humans who try out the mods who
+give us feedback on you know is this
+better than gp4 uh where is it better
+where is it worse and then and that's
+something that we can adapt to and we we
+do a lot of work with these trainers
+that's what we call them to kind of
+align on what does it mean for something
+to be good and then we use their
+feedback to improve of course the
+problem with that is that it's quite
+hard to come up with specific
+evaluations of subjective areas like
+writing quality emotional intelligence
+and model feel what is good writing
+right like what is good writing to you
+what is good writing to me I think that
+really depends on context it depends on
+the audience we're definitely trying to
+capture some of these things in
+evaluations but it's just much more
+subjective which is why we're putting it
+out there we really want people to kind
+of try it out and tell us if they have
+the same experience that we're having
+but GPT 4.5 is not without limitations
+for one it's far more expensive than any
+other open AI model right now per input
+token 4.5 is 30X more expensive than 40
+and per output token it's 15 times more
+such high costs mean GPT 4.5 is likely
+not yet a suitable option for those
+looking to deploy the model at scale in
+terms of capabilities as expected when
+compared to specialized reasoning first
+models like 01 GPT 4.5 Falls notably
+short in things like structured
+reasoning domains including complex stem
+tasks advanced math problems and tough
+coding challenges so what's the bigger
+picture here GPT 4.5 shows that scaling
+unsupervised learning continues to yield
+valuable improvements in accuracy
+emotional intelligence and creativity
+even if these gains are now perhaps more
+incremental than what we've previously
+seen the era of scaling pre-training may
+not be completely over but reasoning now
+appears to offer the most potential for
+squeezing gains out of scaling compute
+that is to say investing more at
+inference time rather training looking
+ahead Sam mman has suggested that the
+two paradigms unsupervised pre-training
+models like GPD 4.5 and specialized
+reasoning Focus models like o03 will
+converge into a unified architecture
+that we might see in GPT
+5 we do think that reasoning is going to
+be a core capability of future models
+but these two paradigms they sort of
+they're not exclusive they they actually
+complement each other really well so you
+could imagine that a model that has the
+the knowledge and the intuition of GPT
+4.5 but then combined with reasoning
+that would be really strong model so GPD
+4.5 is a crucial Bridge towards that
+future models could soon blend vast
+World Knowledge creative fluency
+emotional nuance and advanced reasoning
+all in one model the implications are
+incredibly exciting the era of choosing
+between broad understanding and Powerful
+reasoning May soon come to an end GPT
+4.5 provides a glimpse into that future
+one where AI systems combine the best of
+both
+paradigms I have news for you guys YC is
+throwing our first ever AI startup
+School in San Francisco on June 16th and
+17th Elon Musk SAA nadela Sam Alman
+Andre karpathy
+Andrew Ang and f f Lee are just a few of
+those confirmed the world's top AI
+experts and Founders who will teach you
+how to build the future it's a free
+conference just for computer science
+grad students undergrads and new grads
+in Ai and AI research and will even
+cover your travel to SF but you have to
+apply and space is limited Link in the
+description to apply for a spot

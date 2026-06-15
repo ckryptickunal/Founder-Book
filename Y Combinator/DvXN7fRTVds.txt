@@ -1,0 +1,1810 @@
+Title: Matt Cutts on the US Digital Service and Working at Google for 17 Years
+Video ID: DvXN7fRTVds
+URL: https://www.youtube.com/watch?v=DvXN7fRTVds
+Channel: Y Combinator
+Published: 2019-12-04T13:32:28Z
+Duration: PT1H5M10S
+Views: 9020
+Likes: 179
+Tags: YC, Y Combinator, Matt Cutts, USDS, US Digital Service, United States Digital Sevice, Webspam, Google, Matt Cutts Google, Matt Cutts USDS, Matt Cutts Webspam, Craig Cannon
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 1770
+
+Description:
+Matt Cutts is the Administrator of the US Digital Service and previously he was the head of the webspam team at Google.
+
+https://twitter.com/mattcutts
+
+The YC podcast is hosted by Craig Cannon.
+
+https://twitter.com/craigcannon
+
+Y Combinator invests a small amount of money ($150k) in a large number of startups (recently 200), twice a year.
+
+Learn more about YC and apply for funding here: https://www.ycombinator.com/apply/ 
+
+***
+
+Topics
+
+00:00 - Intro
+
+00:18 - Working at Google in 2000
+
+2:30 - Did
+
+============================================================
+TRANSCRIPT
+============================================================
+
+Matt Cutts welcome to the podcast thanks
+for having me no problem so for those
+who don't know you you are the
+administrator of the u.s. digital
+service and previously you were at
+Google where you were the head of the
+web spam team and also the seventy-first
+employee yeah in the year 2000 mm-hmm
+what was Google like in 2000 oh man
+so we had three people start that day
+and that was a new record at the time
+now you know you've got like yeah
+hundreds of people starting each week
+but the crazy thing is it was a startup
+back then you know so late nights
+working crazy hours I remember one of
+the first project I worked on was safe
+search okay and so at one point at like
+2:00 a.m. I got something working and I
+was really happy so I was gonna head
+home and I was like speeding because I
+was like super excited I got this thing
+working got a speeding ticket and so I
+literally remember like working every
+weekend until at some point people were
+like oh three or four years in we don't
+work on weekends anymore and I was like
+oh now the cultures changed a little bit
+but it's super weird to be like the
+people who were just folks you know a
+meet or Lucas or whoever then eventually
+became entire departments you know sales
+departments and people who dealt with
+logs and privacy and but it back then it
+was just like a small group of people
+it's crazy how do you because I know the
+the story with PV creating Gmail is just
+like a one guy goof yeah let's see if we
+can do this right how did projects get
+delegated and chosen how did it all work
+well it was funny because I start out I
+did Save Search and then there was this
+ski off site okay like everybody fit on
+one bus 150 person bus back then so that
+was a great introduction to the company
+and I was skiing and on a lift with a
+manager and she was like hey Matt you
+like doing front-end programming and I
+was like sure I like fun in programming
+and then like boom guess what you're in
+the ads group now
+I don't want to be in the ads group but
+there were only like five people and
+they needed to help miss I was like
+trying to help out we did like
+geolocation and it took like a year to
+claw my way back towards you know
+ranking so you know it was very informal
+it was very much like here's a problem
+we got to go swarm and tackle it even
+writing SafeSearch was because there was
+a partner that wanted it you know and so
+we're like okay can we build this in
+time I'll make it it was so on and like
+a self-hosted version really of a white
+yeah okay it's to what degree did you
+feel like the success of Google was
+certain at the time completely uncertain
+I mean if you go back I think Google had
+raised like twenty five million dollars
+from you know like Kleiner Perkins and
+Sequoia or whatever and so as I recall
+the dot-com crash happened like March of
+2000 winter apocalypse everybody was
+like this is gonna be terrible and and
+so it wasn't at all clear that we were
+gonna be able to make it I remember when
+Alta Vista I was worried they were gonna
+crush us because like you know number
+ranking signals and if they had twigged
+and caught on fast enough they even like
+copied our appearance they had a little
+front end that you could set it where
+you could be like I think they called it
+like goofy we've had like rainbow
+colored so it looked a little like
+googly but they didn't get the quality
+right so we we were okay from that point
+of view but it was it was non-stop for
+several years I mean trying to make sure
+that in those early days Microsoft
+didn't realize how much money was coming
+from search engines right but also
+Adwords and later Adsense like can you
+walk through that product development
+because I'm so curious yeah yeah what
+what did you start your like think oh
+this might not be a thing and then like
+a certain type of ad takes off or yeah
+that's something it failed so it was it
+was wild because back then people were
+like do you have sales people sell stuff
+which was the default you know so you go
+to the the most profitable folks and do
+you sell by CPM cost per thousand or do
+you sell my cost per click there was
+this thing called overture where people
+could bid on things and so there was a
+whole bunch of shifts in strategy where
+people are like let's figure out how to
+do this so at one point I was in the ads
+group and they said we're gonna do this
+prototype of self-service advertising so
+we're going to make some little ad
+on the right-hand side and uh oh man I
+forgot to turn off caching when I ran
+that in spearmint and I nearly melted
+google at that point is that cool
+they're just dynamically serving them
+constantly to everyone well no no this
+was this was super super prototype so it
+was like the ads were like pool tables
+and PlayStation and I forget what the
+third one was or any search for no but
+in order to show enough you had to have
+it in the experiment for like 30% of
+people not that many people were
+searching for Playstations or whatever
+and so I turned off caching for 30% of
+Google which radically like racks were
+melting down and the sort of stuff so I
+remember we looked at the click-through
+rate and and it was really low because
+we just picked some copy you know we
+hadn't done any AP testing we're like
+would you like to buy a Playstation now
+kind of thing and as I recall Marissa
+was like this is not good for the user
+experience and Larry Page was like well
+maybe but I could imagine click-through
+going up so let's let's explore this a
+little bit more that surprises me
+because I've heard stories about banner
+ads for example in the beginning having
+crazy click-through rate
+so why was that not working ah you know
+the only thing I can think of is the
+copy probably sucked it was off on the
+right hand side people probably didn't
+know what exactly is this thing over
+here
+and it was kind of fun because they were
+like multicolored ads back then you like
+thrown in pictures and trying to make no
+pictures but I remember like a one pixel
+darker color boundary like there were
+really pretty ads but I think people
+just didn't even know to click on them
+and it turns out having people willing
+to put in the a/b testing makes a huge
+difference and the first self-service ad
+we got for Adwords but I think for a
+lobster company like you could buy
+lobsters in Maine and have them like you
+know pectin dry ice and shipped you and
+that was the point when we were like oh
+there's this whole long tail of people
+who want to reach people who are looking
+for the things that they're looking you
+know selling pretty social media all
+yeah holy did you do like a user said
+you like call the person in Maine up I
+mean like what made you choose to do
+this I hope that they got in touch with
+them be like a pizza shop in San Jose
+right not a lot yeah right I really hope
+they got in touch and we're like did you
+know you were the very first one yeah
+and I remember I went to a search
+conference a few years back and somebody
+was like hey I was one of the first
+AdWords advertisers and I was like oh
+cool what did you do and he was like it
+wasn't family safe and I was like oh
+yeah and he was like talking about how
+he tweaked all the key words and did all
+the testing but people were willing to
+put in that work because you could get
+you know you could find these little
+cavities where nobody else was searching
+and like if you found the right word you
+could actually get great click-through
+rates and a great response I think you
+see it today with YouTube right like
+people realize like oh there's nothing
+for this kind of flat earth search
+therefore they're just like yeah so we
+used to call that the evil unicorn
+problem or at least I used to call it
+that because people come to Google and
+they'll search for something like Flat
+Earth right and there's no good answers
+because you're looking for the most
+reputable useful results to give people
+and like there's not that many
+legitimate folks who are like oh yeah
+it's totally flat so but you still have
+to show 10 results unless you like
+change the interface to say you're in a
+untrusted area which we experimented
+with that later and and so like the
+folks who realize there are people
+searching for evil unicorns you know
+everybody thinking unicorns are perfect
+nice whatever but you can still search
+for evil unicorn and then you gotta have
+ten results for you han unicorn and so
+it's sort of this lacunae like a lack of
+information and so when there's not
+high-quality information you still end
+up showing something and so the folks we
+realized they can make Flat Earth
+content or whatever we're filling in a
+gap and so at that point you're just
+like hey listen we're a common carrier
+to a certain extent whatever comes
+through so it's through gets really hard
+with common carrier and publisher and
+two-thirty and all sort of stuff so
+there were there were literally people
+who sued us because we took action on
+them because we considered them spammers
+like there was literally selling
+PageRank like I will link to you and the
+amount of money is based on the amount
+of PageRank I have and then we took
+action and they were like that's unfair
+and we're like like wow like we rank the
+search results and so there was one
+called search King and a result of that
+lawsuit
+was that search results are protected by
+the First Amendment so that was that was
+a useful Court precedent and then there
+was one called kinder start where they
+were saying PageRank is an algorithm and
+so you have no ability or right to like
+zero out somebody's PageRank or to take
+action but if you follow that to the
+natural logical extreme like then you'd
+never be able to like tweak or adjust
+the search engine or like manually say
+oh I haven't you know this one's spam
+but we haven't caught it yet or
+algorithms aren't ready yet so we're not
+allowed to take action on it and so we
+won that lawsuit as well but it was
+super interesting to see how people
+thought about search whether it was like
+a newspaper or whether it was like a
+card catalog at a library or like a
+magazine and you know people just want
+high quality relevant results they don't
+want to delve too deeply into you know I
+don't want it they we tried giving
+people knobs yeah you know where you
+could you know tweak how reputable
+something would be and nobody nobody
+nobody ever used it now they click on
+the first five or whatever typically yes
+so where do you fall now with things
+like YouTube where you just go deep deep
+deep and you might not even know you're
+in it so I think one good thing about
+Google you know having left there
+several years ago now is that the people
+really care about trying to do the right
+thing yeah and so trying to return
+high-quality relevant results and and
+the same thing for YouTube it's a
+different silo within Google but a lot
+of the DNA is the same and so when you
+see you know searches for something that
+doesn't actually exist and so spammers
+are ranking for it on YouTube like a
+YouTube wants to take care of that and
+so I think some of the recent stuff
+where people are like getting getting
+down a rabbit hole I'm sure that there
+are engineers thinking very hard about
+how do we solve this problem and make it
+work better yeah okay I could talk to
+you about Google back in the day for a
+very long time I want to be careful but
+I was curious so being early on the web
+spam team and then running web spam
+you've read these stories about content
+moderators like oversees looking at
+horrible stuff yeah were you exposed to
+that yeah I mean yes more so with safe
+search where you were trying to detect
+yeah you know pornography and and
+non-family say things and for a while
+Larry and Sergey shared an office for a
+long time because they were on the road
+and that you know we were tight on real
+estate yeah and so for a long time I had
+the cubicle right outside of there in
+his office and this was right when I was
+working on safe search and so I was like
+oh man I trying to see if I could find
+stuff that had slipped through and if I
+did I would you know try to tweak word
+weights and stuff like that and so at
+some point Kohl Preet who was our first
+lawyer at Google came by and he was like
+hey um hey Matt we know you have to like
+look for pornography it's part of your
+job it's a vital thing that you do but
+like oh it kind of weirds out when
+visitors are coming it looks kind of
+like you're looking at porn and we know
+you're doing it for work but could you
+put like a whiteboard up to why I was
+like okay I can I can do that so yeah I
+did I did it end up seeing a lot of
+stuff but but it was a little bit of a
+different time like safe search was just
+towards pornography and spam was more
+like buy cheap viagra and loan
+consolidation stuff and so it wasn't
+nearly as bad as a lot of the content
+moderators um had to deal with there
+there is one aspect though in which once
+you've seen all the different ways in
+which people try to spam and cheat and
+break the rules
+you can't unsee that like it's the
+blackhat mindset like once you realize
+hey here's the thing where people can
+recycle the conference badges my mind
+immediately goes to what if that's not
+the conference and then people have free
+conference badges that they can then use
+for their friends on the last two or
+three days of a conference like I you
+literally can't look around the world
+and not think about how is somebody
+gonna abuse that system right so now do
+you feel that people are like
+fundamentally evil no no so even it was
+funny whenever we were working with
+there's a lot of publishers and websites
+that do search engine optimization seo
+and and there was a little bit of folks
+early on who were like oh that's all
+evil that's a hundred percent you're
+trying to manipulate things therefore
+bad therefore take action and there was
+a VP of engineering his name was Wars
+who who really had the right approach he
+was like look these are small businesses
+they're trying to do the best they can
+to make sure that they rank well because
+they think they have some of the best
+services on the internet so we shouldn't
+begrudge
+trying to rank well we should give them
+good things that they can do like make
+your site better you know make it faster
+make it easy to navigate and so that was
+that was really kind of a turning point
+where a lot of folks who might have been
+like antagonistic towards SEO sought
+more like this is energy which can be
+channeled in a positive way which i
+think is critical because you know folks
+are just trying to do the best thing for
+their business there's a few that are
+yeah of course
+sad actors yeah but for the most part
+you know people just want to know give
+me the ground rules make sure that
+everybody's behaving consistently by
+that if there's somebody I see violating
+the ground rules can I tell you about
+that and will you take action on that
+and so trying to make sure that people
+know the right positive things to work
+on and the right negative things to
+avoid yeah I think helped defuse a lot
+of the tension where where it shouldn't
+be
+se owes or websites versus Google it
+should be or a search engine it should
+be working together to give the best
+results yeah that makes sense
+another thing that's interesting about
+your time at Google was just how long it
+was thank I think the average tenure now
+is two years or less a tech company I
+don't know I yeah I stayed there for a
+month short of 17 years it's a good run
+yeah yeah so how did you think about
+your work over that long long period
+because you came right out of a PhD
+right you didn't didn't finish yeah
+maybe someday my dad's like you I don't
+think I'm gonna go back dad I'm good in
+the beginning late year and I see right
+how long is it before you're managing
+people would have that whole progression
+look like yeah I got to code for about
+five years before they it's like in 2004
+2005 yeah okay so worked on Safe Search
+worked in the ads group and then I was
+on quality was on quality for the rest
+of my time at Google and and was funny
+because for for a while I was like spams
+gonna be an issue and it was it was not
+a popular opinion within Google yeah for
+a long time people thought because
+they've had the algorithm was so good
+yes they thought Google couldn't be
+spammed
+and it was because I worked on safe
+search and I found a loophole that I was
+like oh no oh there's gonna be a problem
+here yeah so you use an example on the
+history of the internet podcast where
+like someone bought an expired domain
+turn it into a porn site
+yes stuff like that exactly and so after
+that you know I remember having an
+argument with a very early employee of
+Google who was like well that's easy you
+just solve expired domains and then
+you're done but that doesn't take into
+account guest books and award programs
+and fake awards that you'd give just to
+get links to people and social
+engineering and data and so it was
+almost like you could see this thing
+coming down the horizon and everybody
+else was busy they were working on other
+stuff the Google was great at the time
+like back in 2000 its you'd have a hard
+time convincing people like there was
+ever gonna be spammed so there was some
+tension there for a little while and but
+eventually started work on spam and
+after a little while longer again this
+one great VP of Engineering named doors
+was like he invited me to his office one
+day and he was like Matt bearing in mind
+that you can't say no how would you like
+to manage the web spam team and at the
+time I was just a lowly engineer as well
+oh I guess I can't say no right so I
+guess I'm a manager now that you're
+managing tactic now negotiation because
+if they realize think I'm like or I
+could go work somewhere else or I could
+just say no yeah but it actually worked
+out because you you become less
+productive but you enable so many more
+people to become productive yeah and so
+really kind of worked on it for the rest
+of my time at Google being a manager and
+and and trying to guide and help people
+to you know partner with them to figure
+out how to make the quality of the
+search results better if you were thrown
+back into Google right now how would you
+be thinking about deep fakes oh man so
+the idea that you can create a video
+which has somebody you know falsely
+superimposing someone else's picture is
+a super hard problem because like in
+theory okay you could do content and
+we're hashes where you could say this
+video is extremely similar to this other
+video except for like these pixels but
+then people can
+like change the histogram and like add
+some noise and I had a Chiron or
+something so it's fundamentally a hard
+problem I in general with web spam the
+philosophy was do as much as you can
+with an algorithm catch the residual
+with you know manual spam people who are
+you know well-trained and extremely good
+at being able to catch things and then
+use that as the training data for the
+next wave of algorithms ok but
+fundamentally like when you're
+synthesizing new content as opposed to
+just republishing old content that's a
+lot harder to detect ok that's a tricky
+one so yeah the job is not over yet at
+Google no and I think the main thing is
+just have policies like if you have a
+good reason to believe that there's a
+deep baked how do you how do you handle
+that process because I don't think
+you'll be able to completely automate
+the detection but that's a problem
+already right with like do platforming D
+monetizing or monetizing yeah it's the
+same issue totally so after that quite
+amazing tenure at Google what motivated
+you to join us ts so it was interesting
+I was in Nebraska at the time we had my
+wife because I was working part time and
+and my wife had said why don't we do
+something fun and I was like okay you
+get a pick what's next yeah and she's
+like well my family lives in Nebraska
+seems great so I'm like alright let's
+try that and after like eight or nine
+months I was like Nebraska is wonderful
+the people are really nice but I also
+want to try something new for a little
+while did you go to the Berkshire
+meeting I did you did the Berkshire
+Hathaway meeting you buy one share
+Berkshire Hathaway which you can buy for
+like a hundred forty bucks yeah and then
+you can go to this meeting and watch
+them grilled you know Warren Buffett for
+eight hours like and they also give you
+like free you know honey but listen yeah
+Dairy Queen stuff so so that was that
+was a fun like April May kind of ado but
+it was interesting because I saw ton of
+people that I really respect going to DC
+to try to make a difference in
+government and Mikey Dickerson who was
+the first guy to run the u.s. digital
+service had come back to Google he'd
+given a talk and talked about the impact
+that you could have and so at that point
+you know I was like alright something
+interesting is going on here I want to I
+want to see what's going on
+and had an amazing six months the
+election happened and they needed
+somebody who could sort of steward the
+u.s. digital service and make sure it
+would still be in good shape because the
+person in front of me was an appointed
+official Mikey was a political appointee
+yeah and so they needed a sort of
+interim Acting Administrator and so I
+was willing to fill in for that be the
+Accu minute well and to be clear like a
+bunch of people stepped up like yes you
+know some folks left but at this point
+something like 75% of the people who are
+in the u.s. digital service joined
+during the trump administration because
+we've got this sort of two to four year
+tour of duty model mm-hmm so we're not
+supposed to stay forever hmm we're
+supposed to come in and bring in skills
+from the tech industry make systems work
+better inside government and then and
+then head back out again
+yeah and so a fair number of people like
+I there's about 10% of us yes has been
+around longer than I have so at some
+point I need to find the next version
+yeah yeah hand the baton too so so can
+you just everyone maybe has heard about
+it but doesn't exactly know what you
+work on can you just like break it down
+absolutely so the u.s. digital service
+started when healthcare.gov went down
+caught on fire the website was spinning
+shrapnel everywhere they turn on CNN to
+see whether the website was back up or
+not and it turns out like you know a
+bunch of contractors had done good work
+but the integration points when things
+were supposed to connect were not really
+all that well tested and so bringing in
+best practices like let's get everybody
+in a room try to do a blameless
+postmortem
+let's head monitor monitoring you know
+site reliability engineering practices
+those kinds of things like that was what
+allowed healthcare to go up to make it
+through the enrollment period and so
+after that people said you know we need
+more technologists in government how
+many hundred million dollar boondoggles
+do you have where you spend a bunch of
+money you spend three years writing the
+requirements then four more years right
+in the tech and by the time you're done
+it doesn't work or it doesn't work as
+well as you expect it and so the u.s.
+digital service is sometimes we're a
+little like a SWAT team when a system
+goes down you know u.s. Transcom has a
+database it's down or something like
+that we try to work with them and try to
+figure out how to get it back up we also
+do discovery sprints where we'll come in
+for two
+weeks and we'll say we think this is the
+problem you might think this is the
+problem but it turns out over here is
+the bigger constraint and then we'll do
+anything from months long engagements to
+years long engagements so we've worked
+with USCIS you know to try to help
+immigrants become citizens faster
+Veterans Affairs trying to claim you
+know health benefits and everything like
+that and so it's it's fascinating
+because you were a federal employee but
+you come in for a limited tour of duty
+anywhere from six months to two years to
+four years and then a lot of folks head
+back into industry but a surprisingly
+large number of them say it turns out
+I'm ruined
+for private industry like yeah once you
+have helped make a student loan wizard
+that literally helps your sister yeah
+you know fix her student loan and be
+able to get a car and have a better life
+like you're like why am I gonna go work
+on uber for dog walkers or how to
+deliver weed to people better which is a
+it's a fine work on but you're not you
+don't save in the world if you're doing
+that and so a lot of people are like
+forming startups in civic tech they're
+helping to build state digital services
+they're you know doing consultancies all
+the way down to some folks who decide to
+stay in government which is really
+exciting because then you've got you
+know people with good emotional
+intelligence hopefully good technical
+ability who can say that's not the way a
+computer works
+oh dude we're gonna get to that that's
+like the whole Facebook hearing oh my
+god but I'm curious about who makes up
+your team like do you have people like
+writing COBOL patches look like we do
+have one guy who taught himself COBOL
+for fun really yeah because there's a
+lot of COBOL yeah yeah like a bunch and
+in fact I could show you a picture of a
+and there's I won't name the agency but
+there's a room where they file bugs by
+printing out COBOL on paper and being
+like the the room is sorted by line
+number yeah yeah yeah it's it's super
+scary um but so we're about 1/3
+engineers one-third designers one-third
+product managers we also have people who
+are like procurement experts you know
+who helped decide how to buy things
+better we've got an amazing talent team
+you know it's always good to have a
+lawyer to help you make sure you know
+how big is it how many folks we are
+about a hundred eighty people and and
+it's fascinating because you've got
+everything from folks who you know have
+been in government and wanted to
+maximize the amount of bureaucracy that
+they could hack to you know folks who
+are like Facebook engineers you know we
+had a staff software engineer come from
+Google who she could only come for the
+summer but we were like come on down you
+know and and let's see how much work can
+we can get done and its really
+gratifying to see people do that that's
+cool so yeah do you have a different
+kind of onboarding process given that
+you know the tour of duty is limited
+yeah okay most of the time if you want
+to join the federal government you could
+OSI called usajobs.gov okay we you know
+if you're interested in joining the US
+service go to USGS gov slash apply and
+and you can literally do it in 90
+seconds Michael if your browser has
+autocomplete it's like your name email
+address that kind of stuff in a resume
+so if you've got a resume ready you just
+upload that guy what happens then is you
+know if you're a designer designers look
+at your resume if you're a product
+manager product managers look at your
+resume we actually do one sort of
+technical interview that's like okay you
+know how good of an engineer are you can
+you write some code and then if that
+goes well then we'll do a follow-up
+technical interview and one emotional
+intelligence interview you know we don't
+want to hire jerks mm-hmm it goes to a
+hiring committee that determines whether
+this person is minimally qualified okay
+so it's and then we're always hiring we
+have sort of this rolling when it's not
+like we have batches we're like the
+application phase is always open and and
+it's fascinating because like you know
+these folks could probably earn a little
+bit more money although the government
+can pay up to a hundred sixty-five
+thousand dollars a year it's not best so
+not a salary that's cheaper and deceive
+and in San Francisco right now and so
+it's we try to streamline the candidate
+experience and make sure it's not you
+know as government II as it as it often
+is you're trying to join a server like
+yeah hiring its startups and knowing
+that what that experience is like yes
+very different yes let's go back to the
+Facebook or
+yeah the tech in government how are you
+guys thinking about educating people in
+government about how how the computers
+actually work yeah so you know there's
+Jen pahlka at Code for America which is
+an amazing nonprofit I think has said
+and there's a lot of people who use this
+phrase that government is who shows up
+and so there's a you know there's
+amazing amount of passionate people on
+Capitol Hill and throughout government
+but I'll give you one stat HUD Housing
+and Urban Development has 8,000 plus
+employees according to the statistics
+the number of IT experts like there's a
+job classification 2210 blah blah blah
+we'll just say I treat people the number
+of IT people under 30 at HUD is zero so
+you know if you can get one good
+technical person to come in it can make
+a huge difference you can have a huge
+impact and so you know a lot of the
+times you might have thousands of people
+on Capitol Hill but you know they have
+to be experts on a bunch of stuff farm
+bill and you know yeah all kinds of
+stuff and so technology is not
+necessarily their core expertise and so
+getting some technologists who are
+willing to like come and say you know
+this particular product is actually
+snake oil you know or we evaluated this
+and it looks great you know people are
+even if it's just the process of
+selecting a contractor like the dirty
+little secret is the government doesn't
+do as much work as the contractors who
+you know they they you know bring on
+board to do stuff and so if you get a
+bad contractor or if you don't know what
+good looks like because they write agile
+agile agile all over the the requests
+from I'm a certified scrum master 9,000
+or whatever it is I'm sure there's great
+yeah I'm not saying it's but it is I'm
+gonna start using the line if you don't
+mind yeah but it's also the case that
+like for one procurement we said okay
+instead of writing a pile of paper which
+says how good you are why don't you
+submit some code to it and work to us
+and we're gonna have engineers actually
+grade the quality of your code and so if
+you get better
+tractors you get better results whenever
+you know the finished work product is
+done and have you figured out a way to
+give someone a feedback loop that's fast
+enough that makes them feel like they're
+having an impact because like alright
+say let's just say I'm like I'm amazing
+I'm the best software engineer at Google
+I'm gonna go join HUD am I not just
+gonna be pushing a rock up a hill for my
+entire career
+okay so there are definitely days where
+you feel like in government you were
+pushing a rock up a hill yeah we
+sometimes use the metaphor of paper cuts
+oh no and so so it took us four years to
+get access to slack for example get
+permission to be able to use slack at
+least within our particular group but
+every so often you have those
+breakthrough days where you're like we
+actually convinced this person that this
+policy doesn't help people and actually
+hurts people or yeah I could I'm hem the
+scale of the impact is large it's huge
+like if you can if you can shift the
+ship of state by one degree
+yeah that's tens of thousands of
+veterans who are getting benefits or
+tens of thousands of small businesses
+we're getting certified faster and more
+accurately and so yeah there's hard days
+but it is super deeply meaningful and if
+you absorb a few of the paper cuts you
+make it a little bit easier for the next
+person so like if by the time they show
+up they can get a good laptop on day one
+that has access to some modern tools
+they're like oh you know what working
+for governments not that bad I'll take
+the next three paper cuts and then the
+person behind me totally have an easier
+job that's great yeah I remember hearing
+that VA story about like you need like
+downgrade your version of Acrobat to use
+this product it's so sad but yeah so and
+I have to say like the one thing that I
+try to avoid and I've not done it well
+so far in this in this interview is
+giving more credit to our federal
+partners because like what you find is
+people who know the right answer or who
+are deeply dedicated committed
+passionate but for whatever reason don't
+always have the power to like get the
+right answer knew the right level or or
+to push through some some regulation or
+or you know we
+overcome some resistance and so if our
+goal is to come in and find those
+amazing people who are trying their
+darndest to try to make sure that the
+right thing happens and give a little
+bit of extra wind beneath their wings
+you like that's a fantastic model
+because it's not like we're not the
+world experts on you know how this part
+of government also 180 people so it's
+like you couldn't exactly yeah so and
+that's why you know just being able to
+find the the leverage points where we
+can enable good things to happen and
+work with and collaborate with federal
+partners who are the true subject matter
+experts and the real like heroes and the
+story like that's when things really go
+well okay so sometimes you kind of like
+drop in and you're like a PM basically
+like making that happen okay I got you
+all right there are a bunch of questions
+for you
+yeah from the Internet's yes so we're
+gonna just knock some out okay so
+Michael Wang asks how does USGS decide
+whether to outsource something to a
+private company or build the software
+in-house yeah that's a great question
+because it kind of goes back to this
+last thing we talked about like
+fundamentally that's going to be the
+federal partner that we work with that's
+making that decision and so it's like do
+you buy do you build you know can you
+use something open-source or off the
+shelf you know you know commercial
+technology and so it's it's rarely the
+case that u.s. digital service is making
+that precise call it's more like we
+might do a discovery sprint dig into
+something for two weeks and be like you
+know what this off-the-shelf software as
+a service product will work just fine
+for the 90% case and then sometimes it's
+like no you have to build your own
+grants management software but we'll
+help you find a good contractor or help
+vet them or or help make sure that the
+contract is written well those kinds of
+things and so you know if you can just
+buy something commercially or or
+repurpose some open source like great
+you should not reinvent the wheel but if
+if you've got a really unique need then
+us doodle service is there to try to
+help figure out okay how do we how do we
+fill that with the minimum amount of
+work and and money cool all right next
+question
+Spencer claw Clark asks it would seem
+that the government is far behind in
+private industries technology to what
+extent is this true and what can be done
+about it in addition to that how should
+we gauge the product in here go after we
+gauge the progress of institutions like
+the USDA
+has such a good question so I sometimes
+joke and this is not a not intended to
+be a knock against them again the
+amazing people who are trying their very
+best to make things happen in government
+but I sometimes joke that government
+technology is frozen in 1995 and the
+reason that I picked that date is
+because bug bounties which you know are
+just an idea of like if I find a
+security hole I'm gonna alert a company
+and the company gives you money and says
+thank you bug bounties were invented in
+1995 by Netscape which was a browser
+that came before Firefox for those of
+you who weren't who weren't Morrison
+yeah exactly and and then the federal
+government had never done bug bounties
+before 2016 so the defense didle service
+which is a amazing group of individuals
+at the Pentagon ran something called
+hack the Pentagon and later hacked the
+army hacked the Air Force Act the
+Marines they've done a ton of bug
+bounties and it increases the security
+of our country in all kinds of different
+ways it's cheaper faster you find more
+security holes it's like like bug
+bounties are fantastic you like you look
+at your quiver of tools it's a great
+tool mmm so that bug bounties were not
+put in a place until like 2016 now the
+government is sort of thinking more
+about vulnerability disclosure policies
+bug bounty is that kind of stuff now
+we're kind of at a phase where I've seen
+even just in the three years that I've
+been in government a lot of folks like
+ok how do I move to the cloud how do I
+make sure that it's secure
+you know so if you think Amazon Web
+Services was introduced in like 2006 ish
+if you can in 3 ish years go from 1995
+to 2006 instead of going on one year per
+year you're doing like 3 years per year
+so like if if an a and again not to
+claim that that is all the work of the
+u.s. digital service because there's
+amazing groups there's 18f which is a
+group in the General Services
+Administration there's a ton of super
+leaning forward chief information
+officer CIOs
+so a whole bunch of people all
+collectively pushing the government
+means that you know if we're moving
+through bug bounties through you know
+on-premises email on to people thinking
+about how do I move my stuff to the
+cloud my gauge of progress is hey we're
+only 13 years behind instead of you know
+23 years behind and so so that's pretty
+good progress from our standpoint that
+seems awesome and in particular your
+progress like how do you rank yourself
+there yeah you know I think the fact
+that we are the US Steel Service is
+still here we're still working on
+projects that matter we're hiring and
+we're able to have an impact for me
+that's like if we've got good work to do
+that's the primary you know measure
+success that I care about okay cool
+Steven Sturgis asks with Ganz a general
+adversarial networks getting more and
+more powerful is the USGS thinking about
+the future of data authenticity that is
+such a good question and it makes me put
+my webspam hat on so you can use again
+to like make a fake person that doesn't
+actually exist and so you know a picture
+of someone that looks completely real
+but is just invented by a computer which
+is a huge problem for someone like spam
+because you can ask for a turf comments
+and be like I am Bob Smith and here's a
+picture that doesn't look like any other
+you haven't just stolen someone else's
+picture so it makes it harder to figure
+out is this comment authentic and is
+this data authentic
+luckily the profit motive to spam
+government like there is some but
+primarily the sorts of spam that we've
+seen are things like fake comments you
+know on the FCC or you know various
+other places The Wall Street Journal had
+a good article about that so typically
+the u.s. digital service is more like
+we're implementers you know if there's a
+system or a process that needs to be
+examined we are happy to help there's
+this amazing group called the office of
+the federal CIO and they think more
+about policy okay so you know what
+should the federal government data
+strategy look like which the federal
+'men federal cloud strategy look like
+those kinds of things and so you know
+how much open data should should people
+have and so I think all of those are
+hugely important data authenticity at
+least as far as with people spamming or
+creating fake data is a
+little bit outside the scope of the
+kinds of things that we typically see
+you know as we do see more movement
+toward like data interoperability so
+that might be a way where you could be
+like okay this seems like fake data
+because it's like two standard
+deviations out from what the typical
+stuff seems like so you could do those
+kinds of things but we haven't honestly
+the kinds of problems we run into at the
+u.s. total surface are more like here's
+a paper process can we make it
+electronic here's an electronic process
+but it sucks can we make it you know
+like private industry would do where you
+can do it on your phone and it's you
+know no no obvious glitches yeah and
+there's so much work to be done just on
+that sort of metaphor you hit
+bleeding-edge can totally yeah that
+makes so much sense all right we have
+another Google question so John
+Dougherty asks how difficult was it to
+communicate Google's algorithm changes
+and evolving SEO best practices without
+leaking new spam tactic oh man good
+question from John so it was it was
+interesting because it was I would go to
+search conferences and a lot of Googlers
+would go to search conferences and we
+would pick up you know what are people
+talking about as far as blackhat tips
+and tricks or like what are they talking
+about on search forums and stuff like
+that so we got a lot out of that
+participation we would learn and then we
+had to be careful about how we
+communicated but at a very high level my
+goal and I think a lot of how Google
+communicated the goal was to say look
+here's where the puck is here's where
+the puck is going to be like move toward
+where the puck is going to be like make
+a site that works on like we were saying
+you need to have a mobile site you know
+way early before everybody realized
+mobile was gonna be such a big thing you
+need your site to be fast you know you
+need to think about you know do you are
+you practicing you know good design
+those sorts of things and so it usually
+wasn't that hard because you're like
+look most sites if you do a site audit
+there's things where you could just say
+move toward this mountain top yeah and
+you'll be good there were definitely a
+couple of signals or dimensions that I
+had to be careful about I talked to a
+partner at YC at demo day and they were
+sort of saying I just have to be
+hundred percent honest because it's like
+five thousand founders I can't keep them
+all in mind and so like as if you're
+honest you don't know you don't keep
+track of what you're saying so they're
+what might be times when I could you
+know I was I was I did my best to always
+be honest but I might you know frame
+things in a way that's like here's the
+positive way to talk about it and leave
+out you know and you could probably make
+some money in the short term doing it
+this way right but it historically
+wasn't too bad it wasn't that big of a
+deal okay Vanneman zero to five for
+exactly totally legit completely trust
+this comment
+how can smart tech folks better
+contribute to regulatory and policy
+discussions in government mmm-hmm it's a
+great question I mean there's a lot of
+stuff happening at the federal level but
+there's also a lot of stuff happening at
+the state level and even down municipal
+city County sort of stuff so what I
+would say is you know show up show up to
+the City Council meeting show up to the
+you know the state legislature and say I
+can help answer some policy questions
+there's a guy who literally was like
+buying DVDs of the Virginia State
+Legislature and their transcripts and
+like getting them turned into you know
+actual transcripts and then just making
+that available to more people and so
+there's like all these grassroots ways
+to like encourage people to understand
+how government works the other thing I
+would say is like smart tech folks you
+should run for office like we need
+people who like we don't have that many
+computer scientists who are elected
+officials especially at the federal
+level so like it's not you know it it's
+hard I'm sure but like it's it is a
+thing that is possible to do right and
+so especially at the state level or at
+the federal level like you would be
+amazed how much of a difference it makes
+to just show up and be like hey I'm a
+resource if you want to hear about X Y
+or Z you know I'm kind of the world
+expert on this fart so like if you have
+questions about whatever happy to help
+yeah cool
+I mean also not for nothing they're a
+bunch of government tech startups that
+have gone through YC yeah based in DC
+man in other places totally there
+yeah you can do this in a for-profit way
+yeah yeah and there's a whole new
+generation of contractors that are like
+hey you know we see a bunch of
+opportunity so like yes you can go the
+nonprofit route you can go into
+government you can offer your resources
+to free you know you can be a consultant
+but you can also form a company like
+people have started to gnaw on our own
+health care and there's so much you know
+redundant waste in there there's like a
+decade's worth or a generations worth of
+stuff to be done there there's a bunch
+of stuff to be done in government as
+well yeah totally
+all right Roenick asks well they say hi
+Matt nice to hear yes what's your best
+pitch to high-performing startups in the
+Bay Area to adopt more of a human
+centered design mmm-hmm
+says something that the government has
+been moving towards surprisingly well
+but that fast-moving startups have
+neglected yeah you know there's this
+there's this myth that like the lore
+about Steve Jobs was always like well if
+I ask people what they want you know
+they'll tell me they want faster horses
+and cars or something and so yes there
+is room for the occasional fifth
+standard deviation genius who's like I
+know they think they want this but they
+really need this right no an iPod or
+whatever and but most of us are not
+Steve Jobs we're just not and so if you
+talk to users you can only get so far
+off base like it's amazing to me you
+know I went to a some place recently and
+I was filling out the you know the
+register on the iPad and the lobby kind
+of thing and they asked for an email
+address and but they don't have like the
+@ sign yeah go hunt down and press shift
+shift shift you know to find the @ sign
+and it's just like watching a user doing
+the journey map a seeing what the pain
+points are like people underestimate how
+important it is to be beloved like just
+goodwill like one of the things that
+people love the most about Google was
+the logo right and it's like that's not
+hard to do but it's like it's worth
+putting a few people on coming up with
+cool fun pac-man logos you don't think
+it contributes to your bottom line but
+but it kind of does like whenever
+Zuckerberg got testified and grew
+in front of Congress the market cap went
+down like a hundred and twenty nine
+billion dollars in one day and I always
+had a hard time at Google you know
+saying okay
+yes we should talk to webmasters and
+publishers and SEO search engine
+optimizers but how do you know how many
+people should be allocated to that like
+it should be at least one right the
+first one helps but then you don't know
+how far you go until you get to
+diminishing returns so we always had a
+hard time quantifying like what is the
+value of goodwill and I think like
+losing 129 billion dollars in market cap
+in in one day is like one really good
+measure of goodwill about whether people
+like you or not and so like don't wait
+until the congressional hearings roll
+around this is a dangerous conversation
+right because I think a lot of tech
+companies like okay how do I get out
+there more without offending the other
+side right so they're just like waiting
+through very carefully like oh if I make
+just to make it very simple yeah like if
+I make the right like me by allowing you
+know gun videos and whatever gun has
+whatever the left will hate me so like
+how do you do that so I would say yes
+there's like two percent of issues that
+might be hyper partisan and divide
+people and polarize people but there's
+like 98 percent of issues that are like
+I was literally trying to buy insurance
+the other day and there were had two
+websites open and the first website was
+like okay step one we're gonna need you
+to make a login it's going to be this
+password six to thirty characters do
+that the second website was like tell us
+your personal information
+tell us your credit card number which
+one do you think I gave my four hundred
+dollars worth of insurance money to the
+second one that was like super easy and
+like no pain points yeah and you could
+literally see like one was like 1980
+style static websites and the other one
+was like hero images you know and cool
+stuff so but design is not just what is
+pretty of course it's not it is thinking
+about the user and how to make sure that
+they have a good experience and I
+honestly think that is like a secret
+competitive advantage whenever you talk
+to you know a random company and they
+think about you know what is my Net
+Promoter Score and no yes you know Net
+Promoter scores have their own issues
+but like if you're not seeing
+Kien about how much your customers like
+you you probably have a competitor who
+is thinking about that totally it's an I
+mean it's a so much that it's a cliche
+oh I see but we're basically shove
+people out the door you can go talk to
+their you yeah and and like you'll learn
+and we see that with search engine
+optimization as well if you talk to five
+users and say what would you type to
+find this page or you know what would
+you here's your problem how would you
+type it like you will be radically
+surprised by the kind of words they use
+you know is it a USB Drive thumb drive
+you know USB disk like this kind of
+stuff so if you've got a friend who's
+afraid to insert you know a USB Drive
+into their computer you know you you got
+to think about why are they afraid what
+makes them afraid what kind of words are
+they using all that kind of stuff yeah
+do you have an opinion on the size of
+your data set this is like a constant
+debate among some folks I mean I feel
+like the first 9 or 10 people you talk
+to get you the biggest amount of value
+yeah the team that we have at Veterans
+Affairs has literally talked to 5,000
+veterans now that's over a course of
+like four years right but I mean we we
+built one feature and it was so if
+you've been discharged for like other
+than honorable reasons so traumatic
+brain injury PTSD Don't Ask Don't Tell
+whatever and it's really hard to get
+your paper upgraded because you have to
+like it depends on the service you might
+have to fill out a form you might have
+to send it to VA or DoD Veterans Affairs
+or Department of Defense
+what is paper upgraded me so so that you
+can get an honorable discharge okay so
+that you're eligible for health benefits
+and all sorts other stuff and and it was
+crazy because we launched it people love
+it and somebody was like well who told
+you to build this you know where does
+this fit into the the software
+development lifecycle and the enterprise
+planning you know whatever and the
+answer was the veterans told us to build
+this yeah and so it took one person her
+name was Natalie by the way taking the
+ball and pushing really hard and she got
+this amazing group of folks who helped
+her and and now that community of
+veterans has like a tool that they
+really want and it is it is amazing like
+yep the first ten veterans you talk to
+our
+the most helpful but the 5,000th will
+still help you make your product better
+super interesting yeah yeah I remember
+one time I was at a post office in Japan
+and they had a bunch of different grade
+glasses tied to the stand where you
+filled it I was like this is so perfect
+Wow like you would never think about it
+until you see the four hundredth person
+like leave their glasses there yeah oh
+this is what they want right here
+yes and it's crazy to me that like there
+are some companies that people love yeah
+you know Vanguard or TiVo or pick your
+favorite right and typically they love
+them because they delighted them in some
+way or or it can just be like a lot of
+people like Google because it's just
+like I show up it's always up I get the
+answers I need it's fast it is as
+relevant as I think humans can
+reasonably achieve or whatever and then
+I leave yeah and just the sheer like
+being able to deliver over deck you know
+two decades now a product that just
+works and then gets out of your way and
+doesn't annoy you doesn't show pop-up
+ads or whatever like that is a way to
+engender a lot of goodwill with people
+yeah yeah I mean just thoughtful this is
+like so it doesn't have to be cute you
+know to be thoughtful right it's whimsy
+is you know maybe God you know but yeah
+but delight or just caring for the user
+is huge yeah all right Adam Hoffman asks
+what are legislators the government and
+the general populace populace most
+getting wrong in how they conceptualize
+the Internet oh man that is such a good
+question I'm not sure I have a great
+answer I mean most people are not at the
+level of like Ted Stevens was where he
+was like the Internet is just a series
+of tubes you know like people have a
+more sophisticated conceptualization now
+I think you know the Internet is a huge
+big place and you've got everything from
+great actors to bad actors a lot of the
+times the kinds of times when people
+like want to pass a law or something to
+forbid something on the internet you can
+just say like well what if somebody were
+doing it offline how would you how would
+you treat it and a lot of the same
+metaphors apply the other thing is like
+you don't need to specify this specific
+mechanism you don't need to say you can
+fax something because if you if you
+bacon the code or into law that this has
+to be faxed right
+that's gonna affect things for the next
+30 years until there's a new law that
+supersedes it and so like baking in the
+idea of what you want but not hard
+coding the specific technologies that
+are used or a little more likely to make
+something evergreen so that it's just
+like the data can be electronically
+transmitted and then you don't care if
+it's via fax or chat or whatever you or
+protocol buffers or JSON whatever might
+yeah it does you know you don't know
+hard coding and something to a specific
+technology I think that that's probably
+the best I can offer on that one
+okay makes sense next question
+Rafael Ferreira asks is it possible to
+live without Google I think there are
+some interesting questions like beneath
+this step so he says how do you think
+Google affected people and searching for
+answers in content now that everything
+is just in one click mm-hmm that's such
+a good question because yeah people
+lived without Google at least up before
+1998 right then tens of thousands of
+years but now I've been to a restaurant
+up in Toronto where they literally have
+a little indentation where you both put
+your phone in and then you put the the
+wooden thing like a Faraday cage yeah
+it's like it tucks your phone away where
+you have to be present with the person
+and it was hilarious because I went to a
+dinner that was at that restaurant and
+like three or four times during dinner I
+was like oh well I can just look up you
+know when the Eiffel Tower was invented
+or whatever and then uh and but the food
+plate is sitting on the little you know
+phone holder and so you're not able to
+get to your phone but at the same time I
+do think that we're a little more like I
+feel like my attention span has gone
+down you know you got you don't have
+time for boredom anymore instead you
+just hop on Twitter when you have five
+minutes to waste Twitter is a great way
+to waste thirty five minutes you know I
+I see it often times with friends I
+haven't I did it myself to like online
+dating as an example you you get in this
+like eternal optimization problem yeah
+often times you don't think like oh I
+have to do a full load out if I'm gonna
+load something else in here but but you
+see people like oh I can get someone
+who's like 10 percent more funny or yeah
+Oh same with restaurants right yeah this
+place could be better right could be a
+cooler phone holding thing well and it's
+strange to me that you know there's
+somebody who just wrote a book called
+how to break up with your phone in 30
+days okay so you start doing that by the
+way I it failed horribly I tried that as
+a 30 day challenge I'd still have my so
+clearly didn't break out that much but
+just like I have been trying to spend a
+little more time being active on
+weekends instead of being on my computer
+all the time I've actually lost like 5
+pounds doing that so I'm like yeah we
+could all step away and do a little
+forest bathing or you know that kind of
+thing as opposed to just like you spend
+3 hours on the computer and then you're
+like wouldn't I actually accomplish yeah
+so so I think this is kind of putting
+their finger right on the pulse which is
+like maybe the pendulum will swing the
+other way maybe will be a little bit
+more mindful and like okay I will do
+this thing with the computer and then
+I'll put the computer away and talk to a
+friend
+or you know visit with somebody
+hopefully we'll see TV meanwhile all the
+dark patterns in the world and all the
+infinite scroll no indicate no way yeah
+yeah hmm I did use like piehole to block
+most of my time wasting sites okay so
+like I have too many stuck to it you
+like to open the browser on your phone
+and then as you do so I like have to
+turn off Wi-Fi to like be able to access
+Twitter now but it you know it helps cuz
+then you're like you think at least for
+a second before you get back on there
+I like grayscale scale makes your own
+terrible it's so boring let's say you
+take a picture and you're like I don't
+know if it's a good picture or not yeah
+that's uh and also just taking time I
+feel like you know I've gone away for
+like a week but off offline and it's
+shocking how quickly you can like batch
+process at all when but then when you
+think about it's like wait I probably
+spend like 10 hours a week in email yeah
+then I just did a whole week of email in
+one hour
+yeah like why am i refreshing this
+cousin yeah totally
+it feels like you know with the latest
+version of the iPhone and with the
+latest version of Android like the
+pendulum starting the swing the other
+way like digital well being they store
+the features I think that's super cool
+yeah it's exciting yeah
+okay so Tim woods asks which job was
+more fun and why that is not fair I love
+all my jobs okay so at Google you know
+you could get a haircut and oil change
+and do your laundry on-site and you know
+see : Powell and like yeah I mean crazy
+it was a great place yeah it was a ton
+of fun the people were phenomenally
+talented so on a sheer superficial fun
+level Google is pretty fun
+but I gotta say like working at the u.s.
+digital service often hard often
+difficult often frustrating off the
+charts meaningful like you know there's
+a lot of people who say happiness is not
+this hedonism kind of did you enjoy your
+day and how much candy did you eat it's
+like did you work on something that
+you're gonna feel good about you know on
+your deathbed kind of stuff yeah so
+they're radically different and I would
+not have been able to do the job at the
+u.s. digital service without my time at
+Google and I'm incredibly grateful for
+it and and they're a ton of people work
+hard to make Google a fun place and a
+you know a great place to work but man
+the people at the u.s. digital service
+are folks who are just incredibly noble
+and will sacrifice and will wake up
+every day and try to sometimes push a
+rock up a hill and a lot of days the
+rock just comes back down 90% of the way
+yeah so that kind of perseverance and
+seeing people willing to do that in
+order to try to make services work
+better for the American public is it is
+super inspiring fundamentally they're
+just different though like I say all
+else equal in some like crazy alternate
+reality where Google salary and USGS
+salary equalizes do you think there
+would be a swing because I mean purpose
+is super important right you see like
+even these people who like go for early
+retirement like they need to do
+something you have to do something with
+yeah yeah do you think more you think
+it's really like a salary difference
+yeah salary is part of it I've heard
+people say why on earth you have to take
+a drug test which you do haven't to join
+the u.s. trail service or why do I have
+moved to DC the summers they are hot and
+humid and they suck all good feedback
+I'm like oh we can solve some of those
+problems we would solve those I hear
+from a lot a lot of people who are
+looking for more mission and purpose
+right now yeah like if you think about
+you know the me2 movement you know some
+of the stuff affecting the tech industry
+like people don't always feel good to
+admit which company they're working for
+now or they don't feel good to say yeah
+I'm just making a little you know a
+little bit more money for this
+particular billionaire or I'm adding
+infinite scrolling so that people spend
+more time you know or in my game or my
+app or something like that
+and so it is it is super interesting to
+me if I go to a random conference like
+xoxo which is a neat design conference
+and I'm like have you you know
+considered government service the hit
+rate is incredibly high hmm it might not
+be the right time for that person they
+might want to you know work at a
+different level of government or you
+know they might have certain political
+proclivities but like a large fraction
+of people are like no that's that's on
+my list at some point maybe I need I was
+talking to somebody earlier today who
+was like for right now I need to earn a
+little more salary but you know in two
+years or in four years I would love to
+do this to the point where they were
+like let me come shadow you for a little
+while that's cool and yeah so um so it's
+really inspiring to see that that a lot
+of folks are like they and if you think
+about it there's folks who have student
+loans you know who are a veteran or
+their mom or dad is a veteran like
+almost everybody interacts with the
+government and almost everybody sees
+ways that those interactions could be
+better well I mean as I told you before
+we started recording I just interacted
+with the USCIS yeah I have some opinions
+about the product right and okay so a
+lot of folks are like I am NOT the
+world's 10x best engineer can I still
+contribute something to government and
+and as we were saying before you started
+recording like a lot of the stuff that
+we do at the u.s. digital service is not
+rocket science it's like hey show me the
+status of my claim online so I know do I
+need to wait two years for my disability
+claim or am I going to get helped in two
+months and like you know adding a
+progress bar to see where you are in the
+process or making a form work on a phone
+like a lot of people have those skills
+so if you're if you're listening right
+now like you can do you know like a
+six-month tour you can get a leave if
+you're at a big company for six months
+and not have to you know give up all
+your stock options or stuff like that
+that's what I did I signed up for a
+six-month tour and that was three years
+ago and so we do practice commitment
+escalation full disclosure but it is
+also a hundred percent the case that
+like you know there is good work to be
+done and at you know two-thirds of trust
+in government according to McKinsey so
+maybe take it with a grain of salt and
+two-thirds I'm always scared when it's
+such a random number ID but they say
+two-thirds of trust in government is
+driven by the interactions that you have
+with government hmmm so if you want
+people to trust government more and for
+it to function more effectively and
+efficiently and sort of regain trust in
+an important critical pillar of society
+you know consider a short tour we got a
+couple more we're gonna knock it out we
+good yeah helpers
+okay so Sneha curry asks what is Matt's
+view of the ongoing debate about
+backdooring encryption for so called in
+quotes a lawful interception mmm-hmm so
+fundamentally I'm a technologist I have
+a math degree I have a computer science
+degree I have a master's in computer
+science I have a PGP you know like I
+have done the public key encryption and
+my technical assessment is that well let
+me let me start answering in a slightly
+different way a lot of the value that
+the u.s. digital service does is not
+within a specific silo but looking at
+the seams between silos because maybe
+Department of Defense and Veterans
+Affairs don't talk to each other and so
+it's when those service treatment
+records are transitioning from a from a
+service member to a veteran that things
+might get lost in translation or fall in
+between the cracks and it's the same way
+with security like you can have a full
+frontal assault with a really great
+protected system that's you know really
+locked down but if you have some little
+seam over here on the side like a
+recovery method that's not two-factor
+authentication that's actually just tied
+to your phone
+then all somebody has to do with sim
+swap and maybe socially engineer you
+know a customer support rep but pick
+your favorite carrier to maybe get
+access to your accounts and then drain
+your bank account or your your
+blockchain wallet whatever it is so like
+it is often not the case that it's the
+primary system that gets cracked the
+hackers don't care about how elegant it
+is they just want to get in yeah and so
+it's those seams where two systems join
+that things often you know where there's
+a problem
+so as a technologist I do not support
+having a backdoor in encryption at the
+same time that's my personal opinion
+that's my personal technical assessment
+but I'm also a government employee and
+so there's processes in which you know
+people participate in making policy
+decisions so if I'm looped in that's
+gonna be my point of view
+you shouldn't have backdoors because it
+represents a vulnerability where bad
+actors and criminals and all sorts of
+folks and other nation state governments
+would totally attack it but I also abide
+by whatever policy processes are run so
+I say my best I try to convince people
+of what I think but then when the policy
+decision gets made you know that's the
+policy just you know and then that's
+what party lines yeah yes anyone asks
+you about breaking up tech companies
+only in a personal capacity okay no yet
+although I will say so unexpected plug
+the Federal Trade Commission Commission
+is looking for a technology sort of
+coordinator who can basically bridge
+between two worlds and translate
+government to technology and back and
+look at you know you know if a
+technology company is doing a B or C you
+know why are the potential reasons for
+that you know what is the business model
+and and why would they structure things
+that way so if that's an area of
+interest to you the FTC has an open
+application I think I've tweeted about
+it recently I'll try to retweet about it
+and so that's a super interesting
+position where you you you could go in
+and just like I talked about you know
+mmm having my opinions about encryption
+how that might or might not affect
+policy you could go in and say here
+here's my take FTC on you know this
+small company or this big company or
+this technology practice
+and it's not necessarily an engineering
+kind of position it might be like a
+product manager you know because those
+are the sorts of folks who often
+translate between the different worlds
+okay so there's a bunch of places in
+government to slot in there's also a
+group called Tech Congress that tries to
+bring technology people into Congress as
+staffers so that you can help translate
+policy and say here's a good idea here's
+a bad idea you know be a sounding board
+for people within Congress and so
+there's a bunch of ways to participate
+in those kinds of discussions that's
+awesome all right last time what's a
+website if someone wants a job if you
+would like a job please go to USDA's gov
+slash apply we will have actual people
+looking at your resumes we could use
+engineers product managers designers
+lawyer
+recruiters like if you are a person who
+can get to yes and you're a good
+bureaucracy hacker we would love to talk
+to you yeah cool thanks Matt thanks so
+much for having me
+you

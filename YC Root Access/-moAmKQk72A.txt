@@ -1,0 +1,981 @@
+Video ID: -moAmKQk72A
+URL: https://www.youtube.com/watch?v=-moAmKQk72A
+Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 974
+============================================================
+
+Customer obsession is everything and
+like learning from the customer. You
+simply don't know what you don't know
+and just like launching early quickly,
+always talking to the customer. The
+customer is our religion is what I like
+to say. [music]
+I'm really excited to be sitting down
+today with the founders of Magic
+Patterns, Alex and Teddy. Magic Patterns
+has some big news. They just announced
+that they raised a series A.
+Congratulations, guys.
+>> Thanks very much, Jared. Yeah, I just
+announced our our series A from Standard
+Capital, and we're super excited.
+>> We're going to talk today about what
+Magic Patterns is. We're going to do a
+demo of the product. It's a super cool
+product that demos really well. We're
+going to talk about how you can use it
+for your startup if you're working on a
+startup, and we're also going to talk
+about the backstory of the company. But,
+um, first, how about we just talk about
+the news of the day. Tell us a little
+bit about the series A that you just
+closed.
+>> Yeah, thanks. So, we just closed a $6
+million series A from Center Capital,
+which is Dalton's new fund. Uh Dalton
+was our YC partner actually, and he spun
+off to start YC for series A. I'm super
+excited because we've been working with
+him for a long time now, three years,
+and and you know, we raised this money
+to to grow faster and to scale the team.
+>> For folks who don't know, what is Magic
+Patterns? Yeah. So, Magic Patterns is an
+AI design tool that helps anyone, but
+especially product designers and product
+managers build a prototype and visually
+communicate.
+>> How does it work? How do you use it?
+Describe what the interactions like.
+>> Yeah, totally. So, on magic
+patterns.com, you can just prompt
+anything you'd like. So, let's say I
+work as a product manager at Door Dash
+or something like that. You can go to
+magic patterns, prompt, I'm thinking
+through an onboarding flow on how to
+order food, right? and paste that into
+magic patterns and then you will get
+back an output.
+>> And who's using it today and how are
+they using it?
+>> Yeah, our customer base is largely
+product managers, product designs and
+even website builders. Um, a lot of them
+will use it to pretty much go from an
+idea in their head into something
+tangible that you can click around that
+you can visually see. Um, and they'll
+often share those with any stakeholders,
+any of their users. We've seen people
+sell these demos even. Um, so it's an
+amazing way just to go from idea to
+something tangible.
+>> And so is this mostly people building
+standalone websites where you're
+building the whole site? Is it like
+people at like an existing company
+building like doing a demo of a new
+feature or a component? And then when
+they get the final thing for magic
+patterns, is that the production code
+that people end up using directly or is
+it more like a prototype that then ends
+up being inspiration for the production
+code?
+>> It's largely the second half a
+prototype. um although it's a
+combination of people starting from
+scratch or they're a part of an existing
+company with a lot of existing product.
+So we've spent a lot of time actually
+focusing in on how do we like let people
+bring in their existing brand, their
+existing components, their existing
+product all into magic patterns so that
+AI can actually work with what you
+already have versus necessarily starting
+from scratch. Since we've recognized
+like 90% of the new features or product
+work, you're building on top of the
+existing stuff instead of starting from
+scratch.
+>> Interesting. And I hear you guys have
+been growing pretty explosively
+recently. Can you talk at all about how
+many people are using this and uh how
+it's been growing?
+>> Yeah, totally. So, the summer for us was
+explosive. It was pretty crazy. For
+context, uh up until very recently, we
+were only just us two at the company,
+only two employees. You're looking at
+the entire company right here. Since
+then, we have hired. Um, but yeah, over
+the summer with just two people, we
+crossed a million dollars in ARR.
+>> Wow. With no employees, just the two
+founders.
+>> There were no employees. Yeah,
+>> that's crazy.
+>> Um, so we stayed very very lean. Um, and
+it's been it's been growing quickly.
+>> I'm sure you guys get this question a
+lot. There there are other companies now
+that will like take a prompt and create
+a website from it. Uh, I think some of
+the best known are Lovable, Bolt,
+Replet, Figma, Vzero. help us understand
+like how does this fit into that
+ecosystem?
+>> All absolutely amazing products. But
+it's it's interesting once you we've
+been doing this since GPT35
+like is when we the first version of
+Magic Patterns was GPT35 and when we
+started we always were focused on front
+end and product design. Um so one thing
+that makes Magic Patterns different is
+there's no database that we spin up.
+There's no, you know, if you type in I
+want a login panel for an onboarding
+flow, we're not spinning up
+authentication and things like that
+because instead it's all about how do I
+get back output very very quickly to
+then visually, you know, iterate on it
+and communicate it to stakeholders.
+>> And so how should I think about when I
+would use magic patterns versus when I
+might use another product that like
+seems related in this category?
+>> So I think it's when you want to
+visually communicate something rapidly,
+right? like you're not worried about oh
+what database am I going to use or like
+trying to spin up a full stack app
+versus hey I'm just you know creating a
+a prototype
+>> and you know like candidly like we've
+gotten a lot of requests like over the
+years and we've thought many times like
+hey is it time to add a database is it
+time to add backend functionality but I
+think one of our insights is that the
+more you question these people and the
+more you try to learn about what they're
+trying to do with these tools 99% of the
+time you really don't need a database
+where you don't need, you know, a
+backend tool to really help with that.
+It's only really if you're trying to
+build like a real functional app that
+you're trying to send to production um
+that you would need some such a thing.
+Um but at least for our users, um we
+found that the visual communication
+aspect, you really don't need a database
+and it just complicates things like
+exponentially.
+>> When I finish building something with
+magic patterns, can I host it on the
+public internet? Can I like put it under
+a.com domain name? Do you guys host the
+host the finished websites yourselves?
+How does that work?
+>> We do. So the minute you prompt
+something, you immediately get back a
+URL that is hosted by us. Um, however,
+you can also hook up your your custom
+domain and so we actually have a lot of
+website builders too. Um, so if you want
+to small business, you run a small
+business and you want to host a website,
+you can do so on magic patterns with
+your custom domain. So it's interesting
+we have like many many use cases that we
+didn't really even intend out we didn't
+intend to solve like from day one but
+because you get back working code you
+>> what are some of the most like
+surprising use cases?
+>> So we have a driving school in the
+United Kingdom that hosts their website
+on a we have a hotel in Ghana that hosts
+their website with us and then we have
+very very large enterprises that host
+their websites uh with us actually.
+>> Shall we take a look at the demo?
+>> Let's do it.
+>> Great. So, show us Magic Patterns.
+>> So, this is the dashboard of Magic
+Patterns. Um, it looks very similar to a
+lot of other tools out there. Um, but
+you'll notice there's a few subtle
+differences such as things like uh you
+can create components. Um, you can
+import from Figma. Um, but just like a
+lot of great tools,
+>> I can import from an existing site.
+>> Yeah. So, like to your point, if I
+already have a site,
+>> Yeah. How would how people use that?
+>> Yeah. Yeah. So, we actually have a
+Chrome extension um that lets you
+essentially take a snippet from any
+website that you're on. So, the really
+amazing part is
+>> supposed to try and do it from a
+screenshot. You can actually I can
+actually reuse the existing HTML and
+CSS. So, it doesn't just like
+reimplement a bunch of new classes.
+>> Exactly. Yeah. We take the styles on the
+page. And it's actually funny. This is
+this originated from one of our earlier
+ideas before we got to magic patterns.
+>> Um so, it felt like a full circle moment
+for us.
+>> Interesting. But just like any other
+great of these tools, um start from an
+empty input box. Um a lot of folks will
+use chatbt to come up with their initial
+prompt. Um but we may maybe go ahead and
+run a fun idea. Um if that sounds great,
+>> let's take it for a spin.
+>> Cool. So came up with this prompt here.
+Um thought it'd be funny to do a quick
+LinkedIn humble brag generator. Um so we
+can go ahead and run this and we can see
+how magic patterns works.
+>> LinkedIn humble brag generator. to it.
+It's like this is like I'm going to post
+something on LinkedIn and this will
+write a LinkedIn post for me. That is a
+humble brag.
+>> Exactly.
+>> Okay, that sounds fun.
+>> Okay, so as it's thinking now like what
+is happening in the background? What is
+it doing?
+>> Yeah, so under the hood we are using
+like the top foundational models uh to
+really do the all the big heavy lifting.
+Um, we do a lot of work under the hood
+to make sure like reduce things like
+errors, hallucinations.
+Um, we also inject a lot of our own like
+system, I guess, some of our secret
+sauce to make it more designoriented
+>> and really focus on like the polish and
+uh design aspects of of this vibe coding
+world, if you will.
+>> Is it able to try the software itself?
+Like, can it try its own page and like
+feed back into the code? Not at the
+moment, but that's something we would
+love to add is like a review agent where
+you can just have it go in and and
+nitpick your your site to pieces.
+>> Yeah.
+>> Um, we do have this polish command that
+I'll be able to share once this finishes
+generating. Um, but the idea behind this
+command is that it'll automatically go
+in and improve and tidy up your design
+um, without you having to actually
+provide a specific prompt.
+>> Okay, we got a humble brag generator.
+>> Awesome. So, we can click around and
+you'll see that it's actually like fully
+functional. Um, we can go ahead and
+click around. It's fully interactive
+with just some parts that uh our
+customers love is that you can actually
+create something that's usable. Um,
+>> so we came up with all of these options
+on its own, right? Like we gave it the
+general prompt of like a humble brag
+generator, but like the the idea of like
+these particular sliders and these these
+option buttons, that's its own
+inspiration, right?
+>> Exactly. And so it's really cool to see.
+We have lots of designers who come to
+us, our customers, and they say, "I
+have, you know, my my task is just to
+make something new." And that's all I
+that's all the context they have. Make
+something new, make something better.
+But so they come to Magic Patterns for
+that inspiration and that brainstorming.
+>> Okay. Can we generally humble brag?
+>> Let's see what it comes up with.
+>> Um,
+I'm incredibly honored to share that our
+team successfully launched a product
+that exceeded all expectations. Okay.
+Yeah. Yeah, that's a pretty good humble
+fact. Okay, let's let's try cranking it
+up all the way. Oh yeah, let's do like
+maximum ridiculously humble and thank as
+many people as possible.
+>> And yeah, we should absolutely include a
+failure story. That's actually success
+story. That's that's classic LinkedIn
+right there.
+>> Oh, thought leadership.
+>> Yeah, one of my favorites.
+>> Okay,
+>> I think another important thing to call
+out here, which is, you know, maybe for
+people that work in software who who
+know how to code, interactions aren't
+that big of a deal, right? But for
+designers who back in the day had to
+drag and drop and do fancy prototyping
+and these crazy editors and there's this
+learning curve to creating interactions
+like that is the old way of of
+designing. Um and so it's pretty wild
+how just the fact that you get
+interactions on your first prompt is a
+big deal to us.
+>> Yeah. It's actually it's it's not just a
+looks like prototype. It's a works as
+prototype. All the all the UI elements
+are totally wired up and work like the
+very first version.
+>> Yeah.
+>> Totally. Like if you were to design this
+in like a traditional tool like a Figma
+for example, you would maybe need like
+three to four different frames showing
+all the different states, you would
+maybe attach like a Google doc as well
+explaining like you know how the sliders
+work when the what happens after you
+click generate versus this is just all
+encapsulated in one URL.
+>> Yeah. And I assume this is like it
+automatically wired itself up to like a
+like a open AAI API in order to actually
+like work and return the final post,
+right?
+>> I think this one might be hardcoded, but
+it's something that we do
+>> actually hardcoded. Interesting. So it
+actually wait it generated hard-coded
+versions for every possible combination
+of these UI elements and saved it in the
+JavaScript
+>> most likely. Yeah, we can take it a look
+at the code. What's kind of uh
+interesting obviously every manage
+patterns design comes with code but like
+we very intentionally our prompt are
+structure around okay make this um like
+dynamic and and interactive but without
+having to
+>> put those together very fast.
+>> Yeah. Without having to bother spinning
+up like a server to actually hit open AI
+or something like that. Oh yes, do it
+here and see all the different options
+that it comes up with
+>> because when you when you're on a team
+like as a product manager and you're
+building something for the first time,
+you know, we've talked to our customers
+like nine times out of 10 it's they
+don't really need to see what actually
+it might return if you hook it up all
+the way, right? Like they're just trying
+to visually communicate their ideas.
+>> Interesting. So this is a great demo of
+what it's like to use magic patterns
+from a blank slate. like I just had this
+idea and I'm just creating a brand new
+website from a cold start. I feel like
+most of the demos of tools like this are
+like this. It's this like blank slate
+thing which demos well in the video but
+probably doesn't reflect like 95 or even
+like 99% of actual usage which is like
+iterating on an existing thing again and
+again. And so you guys earlier said that
+you'd be willing to show the more
+realistic real world usage pattern of
+like somebody doing like deep iteration
+on an existing product.
+>> Can we take a look at that?
+>> Yeah, totally. So this is a real website
+um that someone created um one of our
+customers created.
+>> It's a YC company, right?
+>> It's a YC company. Yeah. From our batch
+actually to say, you know, we figured
+document.
+>> We figured no better place to show it
+than while filming uh this video. So
+>> perfect.
+>> Yeah. So this is an example of a
+company. They had an existing product,
+existing themes, like existing logo. You
+know, they kind of know what's going on.
+They're not starting from scratch,
+right?
+>> Um, so this is their existing website
+that uh was built in Magic Patterns. Um,
+but it might be fun to show.
+>> Okay, wait. So, so if I go to pigeon
+documents.com, this is a real YC
+company. This entire page, this is all
+built with magic patterns, including
+like all these like visual things like
+the scrolling logos and this like
+animated thing over here and like these
+animations. All that's from you guys.
+>> That's all magic patterns.
+>> Wow. That would have taken so much time
+back in the day to like write the
+JavaScript to do that. That's crazy.
+>> Yeah. As front end developers ourselves,
+we've we've also found a huge massive
+value ad and doing things like
+animations, like things that would
+typically take a lot of time to tweak.
+>> Um, it turns out AI is just really
+really good at these things.
+>> Amazing. Can you actually show us what a
+real what the workspace behind this
+production website looks like when
+they're actually building it inside of
+your product?
+>> Yeah, absolutely. So, this right here is
+the original editor behind uh this live
+website here. Um, and we scrolled it all
+the way back to the first version. Uh,
+you'll see that there's actually over
+700 nearly 800 different iterations.
+They've done 773
+versions of their website in your
+product.
+>> Yeah. And the cool thing is you can see
+like, you know, this was a long project.
+And the cool thing is like you'll see us
+over time. So it's something that
+they've come back to and it's really
+easy to update. you know, instead of
+working with like an agency where it
+might take an extra few cycles uh to,
+you know,
+>> wait a week for them to be like ready to
+actually like do your small change, you
+can just just go in here, ask for any
+change you want. Right.
+>> Exactly. And I think it's amazing that
+anyone now can really build a beautiful
+website.
+>> Yeah. I know the team at Pigeon actually
+like the the folks who who built this
+who have been using Magic Patterns are
+actually not technical. So, right,
+previously they probably could not have
+built a website, right? Again, they're
+hiring an agency for $20,000. Uh but
+instead, they're just using magic
+patterns to prompt.
+>> Wow. Okay. And so this is the original
+version. So this prompt that we're
+looking at here, this was like the v0ero
+of their website when they didn't have a
+website. This is like what we just did
+with the LinkedIn post generator, right?
+Where they're just like, "Please, magic
+patterns, build me a website." Um and
+this is a super sophisticated prompt.
+Like how did they just type all this
+stuff out themselves?
+>> Yeah. So it's interesting. We actually
+see a lot of folks kind of chain AI
+tools together. Uh we see them, you
+know, go into chat GPT and give chat GBT
+like the initial kind of prompt that
+they want to use, tell it about their
+styles. They'll get a prompt back and
+then feed that into magic patterns.
+>> Okay. So that's what this is. Obviously,
+this is a this is a chat GBT generated
+prompt from a earlier pre-prompt.
+>> Exactly. Yeah. And it's it's so
+interesting to see how folks like chain
+chain all the AI tools together,
+>> right? Totally. All right. So this is
+version one. Can you show us like
+version 776 and how they got there?
+>> Let's do it. So, let's go all the way
+towards the end. Maybe 772 or um it'll
+take a minute to load it here, but
+you'll see it looks completely different
+from iteration one. Uh and we can scroll
+through here to see what it looks like.
+Um but as you can see, this was all
+edited just through natural language
+prompting. So, we can like take a peek
+through their prompt history here. Um,
+and you'll see it's all just a lot of
+prompts. Um,
+>> well, okay. Okay. So, like here's here's
+like how they made a website animation.
+This is what I was like wondering about
+earlier. Wow. So, they just explained
+exactly how they want the animation to
+work and it it literally just built
+exactly what they asked.
+>> Yeah, exactly. And one thought I'll have
+is I think it's it's pretty cool how you
+can go from version one to version 700
+in like a millisecond just through our
+version drop down because again there's
+no database like we're not worrying
+about
+>> um database migrations or going back and
+forth. Again it's just like visual quick
+um ideation.
+>> If this was in git through normal like
+source control version history it would
+be a lot more complicated to go back and
+look at earlier versions.
+>> Exactly.
+>> Awesome guys. This demo is super
+impressive. Yeah.
+>> Yeah. Thank you. Shout out to Pigeon
+Documents who I see coming.
+>> Yeah. Yeah. Maybe we could actually go
+back in time and talk a bit about the
+history of the company, how you guys met
+each other, how you ended up actually
+building this thing. It's kind of a
+crazy story. You guys pivoted like a
+million times. The story goes back like
+eight years or something at this point.
+So like take us back to the beginning.
+How did you guys even meet each other?
+And
+>> totally. Yeah. So Teddy and I met at at
+Dartmouth College. We lived together our
+our senior year. Uh the company name
+actually our CC Corp is called North
+Park Labs. North Park is the dorm we
+lived in uh at Dartmouth together. Cool.
+Um and we did this cool project in our
+web development course as a as a group
+project. And what we worked on was a
+text message analyzer.
+>> It would analyze your your iMss, your
+funniest group chat, your top word that
+you sent, your funniest whatever emoji
+you use the most. And Teddy told me
+earlier the actual origins of this text
+message analytics app and why you guys
+decided to build a text message
+analytics app. Can you can you say
+[laughter] camera what it was?
+>> Yeah, we got in an argument over who
+texted our girlfriends more. Um and it
+was for some reason a heated debate and
+we realized, hey, like we're learning
+how to code
+>> code. We we could Yeah. And as instead
+of just arguing about it, we could
+actually write code to calculate who
+texted their girlfriend more.
+>> Exactly.
+>> Exactly. So yeah, so that's where that's
+where the group for was born. The
+craziest thing is 5 years later for fun
+while we're living in San Francisco here
+together. Uh Teddy and I actually
+monetized the app. We charged $299 a
+month to unlock premium features, unlock
+more analytics on this. And then we
+applied to YC with this idea
+>> with the text message analytics idea.
+>> Our YC application we applied one time
+was iMessage analytics. Was this when
+you were still in school?
+>> No. So, this was after we had worked a
+little bit. So, Teddy worked at Robin
+Hood as a front-end engineer and I
+worked at Live Ramp as a front end
+engineer.
+>> After college. Okay. College. So, so in
+college, you guys built this app.
+>> It was like a fun project that you
+worked on. At the time, were you
+thinking that this would be a startup
+that you would like apply to Y
+Combinator with and like raise money for
+and like turn into your full-time like
+work or is this just like a fun but
+basically was a bet initially that then
+became like a project? How are you
+thinking about it?
+>> It was totally just for fun, right? Like
+again, originally just trying to figure
+out who was on their phone more, who was
+texting more, right? So, it's totally
+for fun. Um, but obviously we have been,
+you know, we're always interested in
+startups and interested in building
+software and products together, but no,
+we did not set out to like make it a
+company.
+>> And did you guys always plan to start a
+company together? Like did did you talk
+in college about like oh like should we
+drop out and start a company? like was
+this something that was on your minds or
+like or like not not not really?
+>> No, it was definitely on our minds.
+We're always like thinking through
+ideas. Um but you know what's cool is
+looking back like we were just doing it
+all wrong sense of like you know um
+searching for solutions like not trying
+to solve our own problems. Like the only
+the only startup idea that was solving
+our own problem was the text message
+analyzer, right? Okay. Versus all the
+other ideas that we were kind of
+fumbling around with in in college and
+things like that.
+>> Okay. So, you were definitely flirting
+with the idea of doing a startup in
+college, but you didn't really do it.
+You graduated college. You went and you
+worked at a couple like pretty big
+companies, right? Uh, Live Ramp and
+>> and Right. Okay. And then you converged
+at a YC company where you both worked
+for a while, right? Can you talk about
+that?
+>> Yeah. So, we worked at uh a winter 19
+company. I was the first employee and
+then they asked who's the smartest
+engineer you know so we can hire the
+next employee and we hired Teddy saw
+that grow to to several employees. Um
+and that was really great because it
+showed us how to move really quickly um
+you know ship product to customers just
+a completely different world being the
+first employee at a YC company versus uh
+you know that thousandth employee at a
+public company.
+>> Interesting. Do you do you think that
+going and working at this company like
+was that actually like instrumental to
+actually being founders of this company
+yourselves?
+>> Yeah, absolutely. I think we learned a
+lot about what actually matters in a
+startup and a lot of that is moving
+fast, listening to your customers and
+really just listening to your customers.
+Honestly, that was our biggest lesson. I
+think um we learned uh I think we went
+in you know as engineers very focused on
+code quality like building scalable
+systems. Um but the founders of the
+startup um they helped instill like hey
+like you know listen to your customers
+and you know building trying to design
+your scalable systems for a million
+users doesn't really matter when you
+only have five.
+>> Okay. So then you you're working at this
+YC company and then how did you end up
+deciding to split off on your own and
+apply to YC?
+>> It tell we'd always like talked about
+starting a company together right even
+going back to the earliest college days.
+So, we were kind of playing around again
+with that iMessage analyzer where we
+decided to monetize it and charge $2.99
+a month for like analytics. It's just
+kind of a side project. And, you know,
+we're like, we should apply to YC. And
+so, we applied to YC with this idea.
+We're both looking at each other like,
+this is not what even is this business
+idea. Uh, and so, yeah, we applied to YC
+and got an interview and got in.
+>> Were you surprised that you got in since
+you guys weren't even very convinced of
+this idea yourselves?
+No. [laughter] Yeah. No. Like because
+you know they always say like you know
+YC does this great job of marketing
+saying hey we invest in the team not the
+idea. Um and so that's what gave us the
+conviction to to to apply right. Um so
+we you know we had faith that it was
+time to start uh start a company. But
+what was interesting and where we've
+kind of struggled is we get into YC uh
+our our our partner Zan and he says,
+"Okay, welcome. You're in YC, but and
+you're you can do whatever you'd like
+for your your company. We're not your
+boss, but we would highly recommend you
+do a different idea than text message
+analytics."
+[laughter]
+>> And how how did you guys take that? Were
+you like, "Oh, they don't believe in our
+idea." Or were we like, "Oh, thank God."
+>> No, we're like, "Thank God." Right?
+Because we we also too felt that like we
+knew we were kind of just applying with
+an idea to show, hey, we know how to
+work together, build software together,
+monetize software, right? Um but we knew
+that's why we applied to YC, right? For
+that guidance of somebody telling us,
+hey, let's be real, like this is not a
+big business. This is kind of an indie
+hacker project.
+>> Okay. And so then what happened during
+the batch? How did you guys find another
+idea? And did you find magic patterns
+immediately or were there many ideas in
+between?
+>> Yeah, so we we did not. So Dalton told
+us, our YC partner told us, you should
+do something that you're familiar with.
+What did you guys do in your old roles?
+And Teddy and I had both worked as
+front-end engineers where our entire job
+was taking Figma mockups and converting
+them to code. Like that's what we did
+every day. So we always kind of hovered
+around design tooling. And some of the
+existing features in our product today
+in magic patterns were some of those
+early product ideas actually like our
+Chrome extension was one pivot we did.
+We worked on a design token manager, you
+know, storybook on steroids, all these
+different front-end toolings we were
+pivoting around uh during the batch.
+>> I mean, you guys were in the winter 23
+batch. You actually couldn't really have
+had the idea for magic patterns back
+then because the AI models couldn't
+write code like to save their lives at
+the time, right? like it like it
+wouldn't have ever worked back then,
+right? Even even if you even if like you
+could take a time machine back and show
+your former selves in January 2023 the
+current idea, I don't know that you
+could have built it.
+>> Hilariously, one of the first ideas we
+pivoted to after the iMessage analytics
+one was an AI landing page generator. It
+was called Dreamer, actually.
+>> Interesting.
+>> Um, but uh yeah, we tried AI for a
+little bit. It was just not good. So, we
+actually ended up hard- coding a lot of
+the templates. It ended up being like a
+hard-coded template generator.
+>> Um, but yeah, we moved off of it because
+we were like, you know, the AI is just
+not good enough right now.
+>> Interesting.
+>> Yeah, it's an interesting example of
+like we were almost too early at that
+point. Totally. Um,
+>> and then how did you end up coming back
+to the effectively a successor to
+Dreamer?
+>> Yeah. So, um, near the end of the batch,
+>> yeah, near the end of the batch, we were
+working on a component library editor,
+but there was no AI at the time. Um, it
+was, you know, you could, it was used by
+designers who could spin up like a
+button and then click export and it
+exported the code to React. And we had a
+couple customers actually, but it was
+not growing. Uh, and demo day was like a
+complete failure for us. We barely
+raised any money, like didn't raise any
+money during demo day. And so, actually
+three months after demo day, we finally
+looked at each other and said, "Okay, we
+have one customer, but this is not
+working." Um what if because and then we
+asked that customer said what are the
+problems with our existing product and
+they said oh well it's just too hard to
+use it's it's clunky like I have at the
+time we're basically recreating like
+this entire editor to edit the component
+right and they said it's too clunky and
+we just looked at each other and we're
+like what if we added AI to this uh and
+you could prompt for your changes
+>> and then that ended up being the
+precursor to the current magic patterns
+idea. Yeah, exactly. So when we when we
+pivoted for the final time, we looked at
+each other and we said, "Let's do an
+internal hackathon." There's only two
+people at our company, by the way. We
+said, "Let's do an internal hackathon.
+I'm going to mess around with like GPT."
+At the time it was GPT35. I'm going to
+mess around with GPT35. Just understand
+how this works. This is June 2023.
+And Teddy uh built this amazing
+collection of components and posted it
+on on Product Hunt. I got product of the
+day. And then at the end of the
+hackathon we said what if we merge the
+two and we were able to create react
+components with with AI. I think it's
+important to note too when we did this
+in this was yeah June 2023 all these
+products that we know today like did not
+exist.
+>> Yeah.
+>> Yeah.
+>> And then what's happened between then
+and now?
+>> A lot of foundation models changes. Um
+so you know it's funny even looking back
+at some of the earlier generations on
+side on top or inside of Magic Patterns.
+um it was not good. It still was like
+really bare bones like you would type in
+a Spotify clone and get back like three
+buttons. Um so that's been a huge help
+for us um is just the increase and
+improvement in foundational models. But
+I think the second thing is we've kind
+of narrowed down on the use case that we
+wanted to focus on
+>> and that's really helped us build like
+what really matters inside of the
+platform. So part of even like after we
+landed on this magic patterns idea, we
+still like micro pivoted around on like
+what the main value of magic patterns
+was um at one point we were trying to
+build like a design tool that generates
+inside of Figma. Uh we were trying to
+sell like it as a productionready code
+tool at some point. Um so even then it
+took a few micro pivots. What was the
+last micro pivot or the most recent one
+where you sort of like got to the thing
+that is like most close to like the
+current current product?
+>> Yes. So when we first launched Magic
+Patterns being front-end engineers, we
+thought that the code was going to be
+production ready. We were we thought we
+were selling to front-end engineers as
+well that they were going to take the
+code and bring it into at the time VS
+Code like cursor also had not been
+popped off yet
+>> and we thought they were going to bring
+it into VS Code. One of our first
+customers was AppSumo and we were like
+like literally our first customer of
+magic patterns and we were you know
+selling to their engineers and then we
+noticed something interesting from this
+customer [snorts] engineers were not
+using it they were like ah this code is
+not production ready why don't I just
+use cursor but instead their PMs were
+using it
+>> their product managers were using it to
+visually communicate and so that's where
+it was like we learned from our
+customers
+what the actual problem that we were
+solving is
+>> interesting. When was this like the this
+this like last key insight that like
+completed the puzzle?
+>> Uh this was like November 2023.
+>> November 2023. Okay.
+>> Wow. What's what's your lesson from all
+of this like pivoting around and like
+for for folks who are who are listening
+or who who are who are thinking about
+their their own startups or working on
+their own startups like what can they
+take away from this?
+>> Customer obsession is everything and
+like learning from the customer. you
+simply don't know what you don't know.
+And you might have this idea of, oh,
+we're going to sell the front-end
+engineers and the code's going to be
+production ready and then you introduce
+it to somebody and they're like, no,
+that's not good at all. But instead,
+there's this other use case, right? Uh,
+and just like launching early, quickly,
+always talking to the customer. The
+customer is our religion is what I like
+to say.
+>> So, before we wrap up here guys, um,
+what are some things that the audience
+can do with magic patterns? Like right
+now,
+>> you should go to magicpatterns.com, try
+us out. We do have a free tier. So,
+everyone is welcome and we encourage
+everyone to try out Magic Patterns.
+>> And um also, are you guys hiring?
+>> We are hiring. We're hiring engineers uh
+and and sales uh people. So, check us
+out on magicpatterns.com/careers.
+And I remember that you guys said that a
+key part of your story was working as
+some of the first employees of another
+YC company is probably at a similar
+stage to Madic Patterns is now when you
+guys were their first employees. I
+wonder who were the future like YC
+founders were like working at Magic
+Patterns in the next year could play
+that role in their journey.
+>> Exactly. Like we were the first
+employees at a YC company and so whoever
+uh joins us, right, we know what it's
+like. We know how exciting it can be to
+work at a startup and if you have your
+own ambition of starting your own
+company, we believe we're a great place
+to work, right? To to learn how it how
+it's done.
+>> Amazing guys. Congratulations on the
+series A and all the success so far and
+thank you so much for sitting down to
+talk with us.
+>> Thanks, Jerry. Really appreciate it.
+>> [music]

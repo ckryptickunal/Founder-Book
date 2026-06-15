@@ -1,0 +1,42 @@
+Title: Focusing on data quality over quantity, Metalware built a foundation model with less compute.
+Video ID: rbmov2w4ohI
+URL: https://www.youtube.com/watch?v=rbmov2w4ohI
+Channel: Y Combinator
+Published: 2024-05-14T18:44:40Z
+Duration: PT1M
+Views: 34583
+Likes: 1412
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 26
+
+============================================================
+TRANSCRIPT
+============================================================
+
+there's another company that also didn't
+have the expertise of PhD of machine
+learning it is called metalware when
+they came into the batch they decided to
+build basically a co-pilot for Hardware
+design and they didn't have much AI
+background and they figure it out in
+terms of um the data they got away with
+using less data but more high quality
+what they did is they took a bunch of
+figures and information from textbooks
+on hardware and they scann all of that
+and use that as input which is clever
+right the other thing because they
+didn't need as much data so they
+actually use GPT
+2.5 only has like 1 billion plus
+parameters versus gp4 is like trillion
+and they were able to get away to use
+less computational resources because
+they use a smaller model and better data
+so when you kind of constrain a lot of
+your task and you're very specific and
+the data set is very high quality that's
+another way you could hack and build a
+foundation model during the batch

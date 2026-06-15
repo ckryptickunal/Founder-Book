@@ -1,0 +1,1113 @@
+Title: AI Is Eating Logistics
+Video ID: KTmxaMdUbHA
+URL: https://www.youtube.com/watch?v=KTmxaMdUbHA
+Channel: Y Combinator
+Published: 2025-11-14T15:00:47Z
+Duration: PT33M41S
+Views: 67038
+Likes: 1155
+Tags: YC, Y Combinator
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 1086
+
+Description:
+Logistics is a multi-trillion-dollar industry that quietly powers the entire global economy — and it's shockingly manual.
+
+Ryan Petersen, founder & CEO of Flexport, joins the Lightcone to break down how AI is finally touching the physical world: making shipping cheaper, speeding up global trade, and automating work that used to live inside emails, spreadsheets, and phone calls.
+
+Chapters:
+00:00 Intro
+00:51 What is Flexport and what are they doing with AI?
+03:17 When did AI tools become serious a
+
+============================================================
+TRANSCRIPT
+============================================================
+
+Logistics are very scale-driven
+industry, and so the bigger you get, the
+cheaper you get. Our take is that we can
+make the price of shipping anything by
+ocean container shipping between 8 and
+10% cheaper over the next few years, and
+AI is a big part of that. So, our AI for
+that saved us 2% of our ocean freight
+spend while improving transit time 20%.
+Usually, that's a trade-off. It's like
+you're either faster or cheaper, but not
+both.
+>> you're at $2 billion a year revenue and
+just getting started.
+Welcome back to another episode of the
+Light Cone. We've got a real treat
+today. We have Ryan Petersen of Flexport
+with us. He went through YC in 2014, and
+he is easily one of the most awesome
+founders I've ever met.
+>> [laughter]
+>> Ryan, thanks a lot for joining. Thank
+you. To start, Ryan,
+what is Flexport, and what are some of
+the things in AI you're actually
+implementing right now? So, Flexport is
+a global logistics company built around
+a modern tech stack. And that means we
+help companies ship cargo from point A
+to point B across any mode of transport,
+so air, ocean, truck, and rail, and get
+that cargo delivered hopefully on time
+and in full at a lower cost thanks to
+the tech. What we're doing with AI is
+man, it's an exa- I have to make an
+exhaustive we'd have to extend the
+length of the podcast to pull that off,
+but starts with customer user
+experience. What can we do with their
+data? Getting them better access. How do
+we load containers in the optimal way?
+How do we put that container onto the
+right ship at the lowest cost while
+maintaining or beating
+transit time expectations. Automating
+just tons of work that's done in email
+or that you or phone or work that you
+wouldn't even do because
+the cost is too high for a human, but
+actually does create some value that's
+worth it with AI. So, most contracts in
+logistics come in giant Excel files,
+thousands of rows, and you know, dozen
+tabs. You can't just feed that to OpenAI
+and get an answer get a structured JSON
+file back. It needs intelligence, but
+writing code and then having AI write
+the code. You write a parser that
+ingests it, and then have AI that can
+write those parsers for you learning.
+It's an endless list, and we feel like
+we don't even know all the things that
+they can do. It's still pretty new. So,
+basically, one of the most uh
+human-intensive things now can be
+streamlined to the point where actually
+it might uh affect GDP in the world. Our
+take is that we can make the price of
+shipping anything by ocean container
+shipping cheaper by between 8 and 10%
+cheaper over the next few years, and AI
+is a big Not the only part of that, but
+a big part of that. As our our business
+model, the way we think about it is as I
+call it scale economies shared.
+Which is the bigger you get, the cheaper
+you get. The more automation is a form
+of scale. And the bigger you get or the
+cheaper you get, you lower your the
+lower your cost, you give that share
+that with your customer, which will make
+them do even more volume with you.
+There's scale benefits that come
+Logistics are very scale-driven
+industry. Uh and so the bigger you get,
+the cheaper you get. Like the Costco
+model. I like I like I love Costco even
+though I don't shop there. I just love
+the business. Uh You keep driving down
+the price. That makes you more
+attractive, more competitive, and and
+just keep going, yeah. And you're at $2
+billion a year revenue and just getting
+started.
+>> Just getting started, yes. Something I'm
+curious about. So, from Opentel, we work
+with all the startups, and we've seen
+like AI over the last couple of years go
+from like when ChatGPT launched, and
+then like some startups in the batch
+start playing around with it, and it's
+become like progressively more serious.
+Um I think you're the first person we've
+had on the show who's like running a
+company at scale that was founded
+pre-AI. Mhm. What's like What have the
+last few years been like for you from
+that perspective? From like ChatGPT
+launch, like at what point did it start
+becoming like a thing you were paying
+more attention to?
+>> Like so many other people as of November
+of 20 Was it 2022? It's already been a
+few years since the ChatGPT launch. Been
+personally obsessed ever ever since
+then. It's interesting to watch it take
+hold at the company, and in some cases
+not take hold, and you then saying like,
+"Come on, guys. We can't be this boomer
+company. Like everybody needs to be
+using this." We're trying to drive that
+sense of paranoia from the from the top,
+from me, but but many others in the
+company maybe even more paranoid than me
+or more enthusiastic excited than me as
+well uh to say that story that we say of
+like, "Well, we're the only large
+logistics company founded since the web
+browser." And I know there's a kid in
+the next YC batch who's saying, "Hey,
+we're the only freight forwarder
+[laughter] founded since ChatGPT in
+November 2022." Like And he's got a
+point. Um so, we we have to be leading
+on this. This is true of all incumbents
+in an industry. They have some real
+advantages when it comes to AI and
+benefiting from it. And one is the scale
+of the data.
+Two is the domain experience to know,
+"Okay, which problems should we be
+solving?"
+Uh and some of those problems are small
+enough that you shouldn't start a whole
+company around the problem. It's maybe a
+feature, but not a company. Um but for
+them, it's great. It's a valuable
+feature that they could add. And third
+is distribution. Like when we build or
+any large company builds a great AI
+product, the next day it can be used by
+thousands of companies. Whereas a
+startup doing that has to go beg people
+for their data to train the model
+and trust get earn their trust to have
+that data from a security compliance
+standpoint. And then third,
+get the customer. Get, you know, so
+that's the huge advantage that any
+incumbent will have, and we think we we
+definitely feel that we have that
+advantage at our scale. Um but
+the flip side where I think we also have
+an advantage is that we are a silly
+young company relative to our industry,
+but young in terms of our tech stack.
+Like we build our own tech. Therefore,
+we can implement and integrate AI and
+just add it wherever we want. Most of
+our competitors treat AI treat
+technology period as IT as a service
+that they pay for. Uh many cases like
+desktop app or like Windows remote
+desktop is very common in our industry.
+Uh but still, it's it's something they
+buy, and therefore, you don't control
+the code base.
+If you wanted to add AI to automate
+something or do something, you're like,
+"It's not really It's hard."
+>> Has it been a specific moment since
+ChatGPT launched where you started as a
+company
+taking it more seriously or or cuz I My
+opinion is like the first version was a
+toy. Even within the YC batches, like we
+sort of see some founders playing around
+with things, but it wasn't clear that
+they'd actually be like companies
+founded on it. So, I'm just curious
+what's like founder running large-scale
+company
+You saw that you're like, "This is
+really interesting to me personally."
+Like was there some moment where you're
+like, "Oh, like we should probably try
+and like build something or do something
+internally with this?" Yeah, I think a
+lot of it has come through in our
+hackathons. But there could be an
+interesting metric here is like what
+percentage of hackathon projects first
+of all used AI? Like we're building
+something with large language models.
+Uh and which percentage of the projects
+actually you decided to fund and push
+into like, "Hey, let's actually make
+this thing real. It's not just a hack."
+>> Is hackathon something you've done for a
+while? Is that like a company
+>> Yeah, we usually do two a year. Okay.
+>> Uh I think now we're like kind of
+religious about two every year, but um
+but one to two a year. Uh where And for
+us, it's
+very much a free-for-all. You can build
+anything you want. If you look now at
+the last two hackathons we've done, it'd
+be like 90%
+LLM-based projects. In my I haven't
+studied it, but I'm just like feeling my
+feeling my gut. Whereas probably 18
+months ago, there were like four or five
+Interesting. We There's probably 50, 60
+teams that do a hackathon project each
+time. In the beginning of Flexport, I
+was very much of this idea that like you
+just let let the people get smart people
+and get out of their way and go execute.
+Uh and
+>> Oh, that sounds like manager mode.
+>> It was I I I I had way too much manager
+mode, and I had this idea of like human
+beings are going to flourish if only
+they could be set free. They don't
+[laughter] want to be told what to do by
+the man. That's why I started a company.
+I don't want to be told what to do. And
+I went through my own Chesky moment of
+founder mode and recognizing how you got
+to be way more tops-down and directive
+and tell people what to do and get
+people aligned and rowing in the right
+direction. And that's been my evolution
+the last 2 years at Flexport. I've been
+pretty way more hands-on and hardcore in
+directing the business. But then, as I
+see these hackathons, I'm like, "I never
+would have come up with that idea
+in a million years." And then I I got to
+let these guys build what they want to
+build and flourish. And so, I'm starting
+it out come back on myself and say,
+"Where's the room in our product roadmap
+for bottoms-up innovation?" Uh
+Certainly, you see it in these
+hackathons and
+trying to maybe even start making sure I
+do the hackathon timing before we say we
+do our kind of roadmap exercise every 6
+months or so. We we should probably do
+the hackathon right before that. So,
+that when you see a great idea, you can
+budget it instead of after budget.
+>> a noteworthy change here that's
+happening for you that um I mean, I
+think most uh companies might throw a
+hackathon, and then in most hackathons,
+the 90% of the projects are just like
+toys, and you never return to them
+again. Like, you know, someone gets a
+nice participation trophy, and that's
+it.
+>> Yeah. But like it sounds like the
+difference right now in the age of LLMs
+and age of intelligence is that these
+hackathon things are actually turning
+into real product lines and features for
+you.
+>> Yes, and and at the very least into
+debates in my head of being like, "Man,
+I've got to do that." But also, I lost
+We're going to We're going to crush
+everybody with just our regular roadmap.
+Uh but I had this after the very last I
+think our last Our next hackathon's in 2
+weeks. Our last was 6 months ago. I I
+remember thinking afterwards, I'm like,
+"You know, we could just only do that
+stuff, and we'll also win."
+>> Huh. Yeah. Maybe win faster. Maybe. It's
+highly unlikely that the person at the
+top now knows best what the best
+implications are applications are.
+That it's It's just as likely that
+someone on the front lines closer to the
+problem is going to go, "Hey, look.
+Watch. It can do this." You go, "Oh,
+man. I never would have guessed it could
+do that."
+>> You kind of need engineers who are just
+really into it and have been playing
+around with it and just like understand
+how to like build the products in the
+first place to come up with the ideas,
+probably.
+>> Yeah. Engineers, and engineers being
+really close to the business is
+something we've always prided ourselves
+on. Like really being in the weeds. And
+one of the other things that we've done
+uh is create a program for non-engineers
+to learn AI skills. Uh and it's a kind
+of formalized program. So, your manager
+has to agree, but you get 1 day a week
+for 90 days. It's a 90-day program. One
+day a week where we teach you
+kind of a AI boot camp vibe coding and
+different ways to apply and this is a
+new program. So we're only about 6
+months into this. We'll see how it works
+out, but people love it and you are
+seeing gains, but the the promise of the
+leader who created this and convinced
+the managers to give up someone for 20%
+of their time to go into it was I will
+return them to you as 10 times more
+productive than their peers.
+I'm sure we haven't achieved that or it
+would show up in the metrics, but that
+is the you know, that's the idea. How
+are you training all these folks to
+level skill in AI? What are what are the
+sorts of things they're learning?
+Certainly it's it's cursor and a set of
+related products like that that like I
+think we're using something called
+Streamlit, but probably there's YC
+company. I don't know. Maybe she use
+Replit or something, but it's similar
+ideas. You can spin up uh
+build your own little apps. Um
+build workflow automation tools to say,
+"Okay." Cuz a lot of what Flexport is,
+we call it freight forwarding.
+Uh I've often joked it should be called
+freight email forwarding. You're like
+taking docs and sending it on. So how do
+you look at a person's
+job and there's no one better to look at
+it than the person doing the job
+and saying, "Oh man, I'm doing the same
+thing over and over again. What if I
+instead
+It's like if everybody was an engineer,
+they would and I've thought about this
+in the past is saying, "Hey, what if I
+took one group of engineers and
+and hire them as engineers as a big bait
+and switch and then tell them,
+'Actually, you're just moving freight.
+Sorry.'"
+And watch them automate their way out of
+the job, right? And you're sort of
+saying, "Okay, I I never really wanted
+to do that to an engineer cuz I feel
+like I'd
+just have a revolt of
+But now you're kind of like, "Well, I
+could do it to a non-engineer who's
+already doing that job and turn them
+into a you know, a lightweight no low
+code Which is cool. Yeah. It's going the
+other direction where you're taking
+really all these super domain experts
+and now they can finally build and they
+can automate themselves out of it
+instead of getting the engineer to do
+it.
+>> Yeah. And that that program started on
+our Amsterdam We have an engineering
+office in Amsterdam. It started there.
+They did it without me knowing about it
+for the first six few months and then
+now we're like, "Oh, this is great.
+Everybody loves it." So we're we're
+starting to bring it global to other
+offices. I wonder if you could share
+some examples of the AI projects that
+you have rolled out that have been most
+impactful over the last couple years.
+Both customer facing features, but also
+like any internal operational things
+that you guys have automated that maybe
+the customers have no idea about.
+>> Yeah. Um the customer facing one
+probably the most impactful. Like a lot
+of what you care about from logistics
+companies your data
+what's going on with my supply where uh
+the types of data that people are
+looking at. So the way Flexport works,
+you place orders to your factories
+through Flexport. So I'm replenishing my
+inventory. I'm buying things. I'm
+placing purchase orders. So those flow
+out to the factory. Factory becomes a
+user. There's a nice network effect
+there. Once the cargo's ready, they
+place a booking.
+Uh and then we execute that a booking to
+move the freight. Come pick it up on
+this date uh and we'll execute it
+by air, ocean, truck, rail, whatever and
+move it across the world for you. So
+that's kind of the the loop that we're
+trying to run. So you care a lot about
+the data for on-time performance, skew
+level performance, cost. You care a lot
+about that. There's customs attributes
+here that are
+super important with tariffs and
+everything's happening. So being able to
+get that data is one of the core areas
+that Flexport shines already
+historically. With AI and this did start
+as a hackathon project. We just built
+like natural language ability so that
+you don't need to know SQL. You don't
+need to build dashboards. You just type
+your question
+and it generates those graphs, charts,
+tables. Don't think it does maps yet,
+but it should. And it works and that is
+done one one customers love it, but two
+is it's
+about 25% of our account management time
+is spent helping people generate
+reports.
+Mhm.
+>> That's the
+>> Got it. another huge metric for us is if
+we're cheaper, we'll
+more people will choose us. It's not
+that we just started using AI with uh
+LLMs. Um
+we've had a machine learning model for
+doing planning for and planning in the
+sense of logistics means
+let's say on a containerized basis. I've
+got a container, which ship should it go
+on? Therefore, you need all the
+contracts, their price. You need the
+sailing schedules like how long is it
+going to take, which route, variability
+all the around those both those things.
+So our AI for that
+saved us 2% of our ocean freight spend
+while improving transit time 20%.
+Usually that's a trade-off. It's like
+you're either faster or cheaper, yeah,
+but not both. Uh so huge win there.
+Customers don't they care a lot about
+those metrics. They don't care how we
+did it. And for that one, was the unlock
+parsing a bunch of unstructured like
+emails and data that you get from the
+shipping companies that have this, but
+it's all like in like a big paragraph
+where like you couldn't just like run a
+simple query on it before. Sort of,
+yeah. The way to think about it is um
+you've got if you just put a container
+on the cheapest contract, you you may
+not it's an optimization. Okay, which
+one's the cheapest, but also the
+fastest. You know, I'm I'm trading off.
+So that that's one thing that machines
+are better at. Uh and then it's the
+scale of that. So on a given week, we
+have about 2,000 containers that get
+canceled by our customers.
+They place the booking and then they
+say, "Oh, actually the cargo's not
+ready. The factory is late." It's just
+inevitable. It's going to happen. What
+software does that humans could never do
+is go through 10 times a day and taking
+each one of those containers and saying,
+"Okay, I lost this container. It's been
+canceled. Is there another container
+that was meant to depart one week from
+now?" And I'll grab that and move it
+forward. That's how you get the 20%
+transit time increase. And then the
+optimization piece of is just find the
+cheapest contract like a solver out, you
+know, algorithm to go find it.
+>> can't do that because it has to happen
+really quickly.
+>> Cuz this happens 10 times a day for
+every container in the system. Okay. You
+know, it's just like you would you maybe
+you could, but you wouldn't.
+>> You'd have to hire like an army of
+people doing it.
+>> It would be crazy. If you calculate this
+first principle, sounded like that first
+version was using classical optimization
+problems and you had certain data about
+all these shipments, inputs, outputs and
+scheduled.
+What do you think is the delta that you
+could get with AI now that you could
+harness all the unstructured data? What
+kind of efficiencies could you get?
+>> be able to get a lot more now that
+you're starting to see a tool use
+because the tool itself is incredibly
+powerful and I don't think an LLM will
+outperform that, but the LLM can use
+that tool. And it could do other things
+outside of that. So you can we'll see.
+We haven't started to do that yet. So
+we're still actually still using that. I
+mean actually email people or call them
+up and Yeah, but it could you assign the
+LLM the same solver problem, but it is
+going to default to use this tool and
+then it'll also say, "Yes, maybe this
+container I'm not sure if I could move
+it forward. I should ask the customer."
+Would be a good idea, actually. Email
+them, "Hey, is it okay if I bring you
+this container early?" Like the solver
+still there, but then uh basically the
+agent is the user. Yes. Instead of right
+now there's not really a user or there's
+a there's someone who's approving the
+plan and so you could make that person
+upstream of the solver uh choose the
+solver as one of many tools. So that'd
+be interesting. We haven't done that
+yet, but and then the other thing is so
+just routine work. Uh
+For example, you've got a lot of email
+communication with your customer base.
+So how do you take this You you say,
+"Hey, I want to place a booking for a
+container."
+Translate that into a booking. Uh LLMs
+are quite good at that. Or um a big use
+case today is verifying warehouse
+addresses and and other information and
+getting appointments. I've got to
+deliver to a warehouse.
+Quite costly to call the warehouse and
+be like, "Do I have the right address?"
+You're not going to do it every time and
+then you have a lot of misses where
+your address data was bad and your truck
+got lost, you know, it's a pain in the
+ass. Um so LLMs now before we deliver,
+we if we haven't delivered to the site
+in the last 3 months,
+there's an LLM agent does email and
+voice. Interesting. Wow. So if
+necessary, it'll actually call the
+warehouse and be like, "Hey,
+can you confirm that 2:00 p.m. tomorrow
+is a okay time to deliver this?"
+>> Yes. Yes.
+>> Oh, very cool.
+>> great because you're turning this
+previous communication protocol, which
+is very much uh I suppose very lossy to
+work sort of like the internet like TCP
+fully acknowledge and you can get
+guarantees. And sometimes it's not
+replacing work, although I'm very happy
+to do so, but like in some cases the
+work would have been too expensive, so
+you just didn't do the work. To do this
+phone call. And even if a human could do
+it, it's like not worth it. Another good
+one is just messages. So like the way we
+communicate with our customers, some of
+it's email, but a lot we try to drive as
+much as possible through our messaging
+applications inside the inside the
+Flexport platform. There's a huge amount
+of signal in that. Just customer
+sentiment.
+If if if a customer in AK with AI, we've
+trained the model to detect unhappy
+customers in the way that they message
+us.
+And then that creates an automatic
+escalation to the manager of the the
+front-line person saying, "Hey, this
+person seems upset."
+>> [laughter]
+>> There's a lot of emotion in logistics,
+you know, it's your stuff. Your business
+is on the line. You need to get it
+delivered. Infiniteless uh we we in fact
+we measured at the beginning of the year
+we had automated 20% of the work. It was
+pretty low scale of automation. We're
+going to finish this year at 50% and we
+had set a goal for ourselves next year
+of 80. We thought 80 was actually the
+upper limit of what could be automated.
+It's not scientific, but now we feel
+like, "Oh, it's probably closer to 90 to
+95 current and then that'll get way more
+so as
+LLMs keep progressing. How will that
+affect like the total cost of ocean
+freight? Like if all the human work gets
+automated, does stuff actually get
+materially cheaper?
+>> Yeah. Uh it's 10% of the end cost that
+the
+buy the the importer exporter pays for
+their freight. 10% uh if you look at the
+full P&L, about 10% is the labor cost in
+the freight forwarding layer of
+logistics. Wow. So So when AI is like
+fully rolled out, like stuff will
+actually get 10% cheaper. Well, the
+freight moving the stuff. The cost of
+moving it, right? The stuff itself
+depends on what what the ratio is, but
+yeah. But like the transportation costs
+of like international freight is
+actually like 10% auto On containerized
+ocean freight, that's our that's our
+view is that we can drop the price of
+everything by around 8% and maybe it
+goes to 9% uh over the next few years by
+doing this. That has some uh
+big economic ripples in terms of
+if it's becoming cheaper to ship things
+across the ocean, is it going to create
+just more trade? I mean, this is a trade
+war, but Exactly. It's very hard to
+control for that in the mirror where
+where tariffs just made everything like
+10 times more expensive, but at least
+we're doing our part.
+I mean, the white pill on AI right now
+is, you know, this hope and sort of
+possibility that uh AI rolled out
+properly across society would increase
+GDP 7% a year.
+So, this would be maybe
+>> 7% a year will double you in 10 years is
+the the law of 72.
+>> Yeah, yeah. That is the hope, right? And
+I think more people should talk about
+that and and everyone's so worried about
+automating away the
+jobs.
+And I just think that
+misunderstand the role of companies in
+the in society. Like, the role of
+companies is not to employ people.
+It's to deliver goods and services. And
+in fact, whoever employs the least
+number of people will have the lowest
+cost
+and win. And that's how they benefit
+society is lowering costs and making
+things more available for us to buy and
+sell. And then there's this idea, well,
+how are people going to make money if AI
+is doing all the work? And I I I think
+that that very much misunderstands human
+nature. That we'll we'll just want more
+things. Like, there's an infinite desire
+inside the the human soul can never be
+satisfied.
+Without God. Uh
+we need more stuff. Like, we got to have
+more. We got to have more. And so
+>> We're trying to return to uh the garden.
+We may get a return to some to I I think
+that actually the internet first we
+haven't quite reconciled this on like a
+spiritual philosophical level the the
+emergence of these technologies and
+uh and AI we're not even beginning to of
+what it means for us, but there's a
+period in history
+called the Axial Age. It's about 500
+years BC.
+And that's when um coins really started
+to spread. What you had with if you
+think about it with coins is taking
+transactions between two people and make
+and really uh making them very in in
+personal. You no longer care who you're
+doing business with. I don't need to
+check the ledger.
+>> Does this guy owe me money? What's my
+relationship? Do I trust him? Just like,
+here, take this thing. So, and it it
+actually led to this breakdown in
+societies because uh
+we just stopped being so
+knowing your neighbor. Like, you used to
+only do business with your neighbors.
+Now you could just do business with any
+old person. The internet kind of
+does that at scale. What happened in the
+Axial Age you had this breakdown of
+ability for of trust and you started to
+get degeneracy and all kinds of like
+things that start to break down in
+society. And
+simultaneously across the world you had
+four major prophets that emerged um
+Yeah, well, prophets as of sort. You had
+Buddha, you had Laozi, Confucius, and
+Socrates. They all lived at the exact
+same moment in time right as coins were
+taking hold.
+>> Fascinating. As like, hey, we need to
+we need to kind of like get our hands
+around how how do we behave in this new
+world? And so, I do think there there's
+an opportunity here. Maybe it could be
+you, Gary, at Y Combinator
+>> [laughter]
+>> to be the next the next Socrates. Yes,
+uh I I'm in, but I might not be the
+right person. [laughter] Right? I mean,
+I particularly like this idea that like
+the idea that what are humans going to
+do is a little bit invalid in that you
+know, that's a little bit like going
+back 5 800 years and saying like, oh my
+god, all of us are farmers.
+And then what are we going to do when
+modern agriculture comes? Yeah.
+>> like we figured it out. Like, we you
+know
+>> the printing press. Yeah. Right? What
+are what are what are the monks going to
+do? They're transcribing words all day.
+There's no more jobs for transcription.
+Like
+>> So, there will be implications for
+society and morality and how people
+relate to one another and obviously like
+>> And we we have no idea what this is.
+It's early days, but history does kind
+of repeat and there's lessons there and
+figure out, okay, how does this But the
+human nature doesn't change much, right?
+You can't satisfy humans. You're just
+going to want more stuff. The more money
+you have, the more classically, right?
+Cliché. Like, the more you have, the
+more you want.
+>> [snorts]
+>> That's not going to go away. So, if you
+give people a lot more stuff, it's not
+like, oh, I'm going to quit working.
+Most people aren't like that. I'm going
+to get a lot of stuff, I'll just quit
+working. You find out you're miserable.
+You want to keep producing, keep
+contributing. One of the interesting
+things that has been percolating around
+the Weiss community among young founders
+and like AI researchers that we've been
+talking to is this idea that like there
+going to be humans in the loop. The
+humans in the loop may well be uh some
+some might be like government mandated,
+right? You know, in fintech there's a
+lot around uh you cannot have an AI
+algorithm like approve loans for
+instance. There are like requirements
+from the government in these highly
+regulated industries to have humans in
+the loop. Uh and then
+>> In customs brokerage as well, we have to
+have a human that's approving the
+transaction before before we clear
+customs. Yeah. And so, vibe coding's
+happening. There's this idea of you
+enter a prompt, it comes back with a
+bunch of stuff, and then you just click
+accept all changes without reading any
+of it, right? Do you think this might
+happen? That would this happen at
+Flexport? Would this happen
+uh more broadly across all businesses?
+Like, what if businesses are at the core
+like hyper-intelligent AI that uh has
+access to all your systems of record,
+knows what to do, optimizes constantly,
+and then you have sort of like
+government-mandated
+liability sinks that are humans in the
+loop. Ideally, the organization still
+actually serves human needs, in which
+case like the decision to use, you know,
+vendor A or vendor B sometimes boils
+down to who brought me to the nicest
+steakhouse last. So then like the model
+for companies ends up being ASI of some
+sort, like some sort of AI process at
+the core of each company. But then, you
+know, humans attached to it as either
+like decision-makers in like you know,
+accepting or preventing liability and or
+holding relationships with other
+relationship holders at other companies.
+>> Yeah, and presumably you're still
+relating with
+you're still here to serve humans.
+You know, once we get to a world where
+AI is serving AI, then fair enough, you
+don't need to learn that much from the
+uh
+record of human history cuz there's no
+more humans involved in the loop. And I
+don't have a lot to
+say about that. But as long as there's
+humans there, there's going to humans
+are going to want to relate with other
+humans and have a relationship and
+think we're pretty pretty pretty far
+from humans
+preferring to work with AI than to work
+with other humans. We're seeing where AI
+is doing more and more
+work. Uh you know, another good example
+is uh and just that you made me think of
+with your bank, you know, you have to
+have an approval approver is that even
+our our humans in customs brokerage
+across the industry, we benchmark to
+make about 2% mistakes. And they file
+the entry
+with 2% and we built this sort of like
+AI spell checker. The two-digit code for
+Australia versus Austria, you could
+easily get that wrong. Uh and AI will
+figure out like, oh, this thing is not
+made in Australia, it's made in Austria.
+I guess one question for you, Ryan, is
+if you were to start Flexport today, how
+would the company be different? Not that
+different, I hope. The things that
+Flexport did really well compared to all
+the other tech companies who have tried
+and failed in our space both before we
+came along and in parallel
+is um we didn't look at ourselves as a
+pure technology company. We're willing
+to pick up the phone and solve problems
+with humans, drive down to the port
+still to this day. Like, I we've got a
+new customer who's asking us to do
+something really weird.
+We need a crane on the truck to unload
+this thing that we don't have that. It's
+not typical what we do. And I just said,
+take the customer and I need you to
+drive there and follow the truck and
+make sure this goes well.
+>> [laughter]
+>> So, I I would not change that at all and
+I think that's that that's the mistake
+that a lot of
+tech uh people will in traditional
+markets will fail at cuz they're like,
+oh, if there's no API,
+I can't do it. If my agent is unable to
+do this task, I guess the task can't be
+done. No tool use for cranes.
+>> Yeah, and it might take you a long time
+and you should not try to automate that
+last that tail of things. You started
+and grew Flexport like especially in
+those first few years during the era
+where just like more money coming into
+like there's more venture capital each
+year coming into startups. And like you
+had like multiple fundraising rounds.
+Like, in in what ways was like that
+capital like an advantage? And I feel
+like now it's sort of somewhat back
+there in the AI world now. Like, the
+rounds are heating up. There's more
+money flowing in. It's just sort of like
+post like the 2022 crash. Yeah, what's
+your advice to the founders now who are
+in these like companies that are growing
+and have options to raise like huge
+funding rounds. Like, how should they
+think about it? Every company is super
+unique, so don't listen to advice on the
+podcast. Like, get get someone
+[laughter] who's like paying attention,
+you know, knows the details of your
+business, which no one will know better
+than you. Generally, capital is a
+beautiful thing. Having it in your bank
+account gives you a lot of advantages.
+Uh all you really need to care about at
+the end of the day is price per share
+cuz if you issue more stock, like the
+number
+as long as your price per share goes up,
+you you are richer.
+Uh doesn't matter how many what percent
+you own until it comes to control. So,
+there's two things that matter. Do you
+control your company legally or
+otherwise? Culturally also works, but do
+you really have control over your what's
+going to the decisions that are getting
+made? And do you have a job? And and
+price per share. And that all That's all
+that matters. I think I still think
+that's true. That's always how I thought
+about it. There's been a lot of dilution
+to our investors, but the price per
+share went up and everybody's made
+better off. I didn't take away anybody's
+shares. So, you're better off. The part
+that I underappreciated and that I now
+I'm going to take very very seriously is
+the degree to which money just wants to
+spend itself. And
+you will
+end up making a lot of mistakes where
+and the biggest mistake is believing you
+for sure every company has a lot of
+problems.
+And you start to default to like, oh,
+we'll just use money to solve this
+problem. And the way that that manifests
+itself is, oh, I got this thing that we
+need to do. Okay, hire someone to do it.
+And you feel like you just end up very
+bloated. We had too many people. You
+start to really slow down. And it's just
+a super bad cultural
+approach to problem-solving. Like,
+you're going to solve the problems, not
+the new people that are going to you're
+going to hire. So, I I give this advice.
+Only one founder's ever listened to me,
+but I tell founders who who friends of
+mine who raised a large round, and sure,
+go raise a big round. As long as you're
+up round, like you're doing good, great,
+raise a large round.
+Then do a hiring freeze for 90 days.
+Do the next day to tell your team
+culturally like, "Nope, the money's not
+going to solve our problems. We're going
+to solve our problems." And keep that.
+And then if sure, go hire. But it's cuz
+it's super It happened to us over and
+over again where you're just like head
+count got out of control. All the plans
+look good.
+I want to fund all the
+We're doing budgeting for next year and
+I'm like, "It's so painful not to
+Yeah. add OpEx, add engineers, whatever.
+But you got to stay disciplined and the
+money will easily make that stop.
+>> [snorts]
+>> So, I'm really psyched to hear about
+this idea that AI is actually
+transforming your business in pretty
+fundamental ways. It's like coming
+bottom up. What does Flexport look like
+in 2035? One cool thing [snorts] about
+Flexport is the way our vision has
+evolved. I mentioned we started as a
+customs broker. Now we do all
+end-to-end, all the way from factory
+floor
+to consumer's doors. Like we have a
+e-commerce business that does
+fulfillment, retail store distribution,
+etc. So, we want to take that globally
+to where you can really ship anything
+anywhere by any means, any mode, in any
+quantity, and do it all via code. Like
+all available via APIs or voice or it's
+just like easy to execute transactions
+at the lowest cost, automate away the
+cost. And so that brands, companies of
+all kinds
+don't spend time thinking about
+logistics. Logistics should be this
+utility that just works. Just like you
+don't spend time thinking about the
+electrical grid.
+You flip the light switch, you get
+power.
+You go back to doing your thing, which
+is making something people want and
+talking to users, right? That's what I
+think our company should do. Our
+customers should be doing that all day.
+Like make great products,
+make a great brand to sell those
+products. And we'll take care of
+everything in between in the most
+automated, fishable, efficient, reliable
+ways possible on a global basis. So
+today and we have a long ways to go to
+actually make all that true. First off,
+the automation stuff I talked about
+making progress, but we got to keep
+going. And then the global aspect. So we
+have employee We ship cargo to and from
+147 countries last year.
+But we only have employees in 22
+countries.
+And therefore, people on the ground that
+can do the work.
+Yes, we are automating that work. And in
+fact, it's easier for us to automate our
+own employees' work than it is some
+third-party company
+that's doing work. You know, even though
+they're in our software, it's very hard
+to automate. We don't know what they're
+doing.
+Um so [snorts] we want to be in every
+country
+by 2035, certainly. Uh in fact, our road
+map has us covering 95% of all container
+trade with our own people doing all the
+work in the country
+uh in 2028.
+So by 2035, I think we could
+realistically say, "Look, we'll be
+everywhere that's that's legal." And
+that is a big extension of our original
+vision. And I didn't have all of that in
+mind when I did YC Demo Day. My pitch
+was like, "We'll do customs and then
+we'll add some other stuff." But it
+wasn't like,
+"We will cover the Earth."
+Any two points on Earth, whatever you
+want to move, we'll move it. Uh and so
+yeah, it's a very ambitious
+goal. The good thing is I really
+genuinely we're going to win on tech.
+We're winning. We're going to extend our
+lead there relative to our peers, our
+competitors.
+We're behind them on the global side.
+And that's super fun. If you told
+25-year-old me that like, "Oh, Ryan,
+your job this year is we got to launch
+Flexport in Indonesia, Australia, Japan,
+Philippines, Turkey, and Poland, and
+France." I'd be like, "Oh my Really? I
+get to go to all those places and
+talk to the locals and stuff." So, it's
+a it's a pretty fun
+moment in our history, but also really
+challenging, but fun kind of
+challenging, you know. No better kind.
+>> [laughter]
+>> Ryan, thank you so much for joining us,
+man. It's always a pleasure. All right,
+we'll see you guys next time.
+>> [music]
+[music]

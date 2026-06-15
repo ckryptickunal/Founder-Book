@@ -1,0 +1,1331 @@
+Title: Gmail Creator Paul Buchheit On AGI, Open Source Models, Freedom
+Video ID: LSUviaN1eso
+URL: https://www.youtube.com/watch?v=LSUviaN1eso
+Channel: Y Combinator
+Published: 2024-08-09T17:00:29Z
+Duration: PT48M44S
+Views: 66667
+Likes: 1262
+Tags: YC, Y Combinator, Paul Buchheit, AGI, AI, OpenAI, Open Source, China, USA, Freedom, Control, Gmail, Google
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 1306
+
+Description:
+It’s the first guest episode of Lightcone! The hosts sit down with Paul Buchheit, one of Google’s earliest employees, the creator of Gmail and a YC Group Partner. (He also came up with Google’s famous tagline “Don’t be evil.”) This discussion covers a wide range of topics, including the future of AGI, the early days of OpenAI, and the crucial importance of open source models.
+
+Chapters (Powered by https://bit.ly/chapterme-yc) - 
+0:00 Coming Up
+1:11 Google's early views on AI
+2:29 Paul's time at 
+
+============================================================
+TRANSCRIPT
+============================================================
+
+it seems like Google has all the
+ingredients to just be the dominant AI
+company in the world why isn't it do you
+think open AI in 2016 was comparable to
+Google in 1999 when you joined it are
+you a believer that we are definitely
+going to get to AGI what is the
+long-term trajectory of AI it's the most
+powerful technology we've ever invented
+and so the question is like where does
+that power go I think we have to build a
+whole Coalition of people who are in
+favor of freedom and open source and not
+just sort of bet everything on Facebook
+saving
+[Music]
+us welcome to another episode of the
+light cone I'm Gary this is Jered Harge
+and Diana and we're the partners at Y
+combinator where we funded hundreds of
+billions of dollars worth of companies
+and we have a special guest who is also
+one of the original outside Partners the
+non founding Partners at YC Paul buite
+he created Gmail he coined the term
+don't be evil PB thanks for joining us
+today thanks Gary so what should we
+start off with well I think one thing
+people don't often realize is that
+you've been thinking about AI for a long
+time and that Google itself was kind of
+an AI company can you tell us more about
+that what was the internal view of AI at
+Google yeah I mean I think really Google
+has always was always supposed to be an
+AI company from the beginning um you
+know Larry and Sergey
+set out to build um you know these very
+large compute clusters and do a lot of
+machine learning on all of the data that
+they gather and actually arguably you
+know the mission statement is pretty
+straightforward the Google mission is to
+gather all the world's training data and
+feed it into a giant AI supercomputer
+and they put it slightly less direct
+they said gather all the world's
+information and make it universally
+useful and accessible or something like
+that but essentially you know what that
+really meant in practice is feeding it
+into a giant AI supercomputer and even
+the origin story of Google was all based
+on their PHD with page rank which is
+very much today in a lot of machine
+learning classes as gets taught it is
+one of the foundational kind of
+historical AI algorithms that gets
+taught yeah I mean there was a there was
+an understanding very early on that if
+you have enough data that's actually the
+path to to making things intelligent
+instead of just trying to iterate
+Forever on little algorithms how early
+did you join Google Paul can you talk a
+little bit about what Google was like
+when you joined uh yeah so it was June
+1999 so that was uh let
+see 25 years ago a little more um and so
+yeah it was a very small startup we were
+we were in po Alto on University AV just
+uh up above like a t- shop at the time
+and it was it was electric it was really
+cool um I I actually after I was there
+for about a week I I tried to get more
+Equity but it turns out you have to
+negot appreciate before accepting um so
+but yeah it was it had a very kind of
+unreal sense of like just excitement you
+know I was excited to go into work
+because we were we were just doing big
+things and when you were there like in
+that early set of Google people how did
+you all envision that this AI thing
+would play out and what Google's like AI
+future would look like you know we
+didn't something that ever came up right
+no I mean AI is obviously been a thing
+that people have been thinking about for
+a long time um I I made my first neural
+net back I dug up the code a while back
+I think it was like 1995 and I had it
+was like one of those three layer neural
+Nets with do you do the classic uh mins
+digit classification thing yeah I was
+doing I I did a uh not exactly digit
+classification but there there were
+these things called figlets that are
+like asky letters and so I made it do
+essentially like an OCR on on those um
+but you know it' be like 100 weights
+something it's very much smaller than
+today's model was like trillions of
+Weights now yeah and the history of like
+neural Nets is kind of weird um the
+first thing was when they invented the
+perceptron which was like a single
+neuron and it was very hot for a short
+time until some researcher showed that a
+perceptron can't compute exor and then
+they were like well like it's just dead
+for a while until someone had this idea
+to use multiple neurons and so it was
+like very slow going and then it was
+kind of like dead again for a while and
+then then to my perception it kind of
+really picked up in the early teens you
+know when deep learning became popular
+and that was when we first started
+seeing like I think impressive results
+where that was when we started feeling
+like internally you know in the
+discussions at YC that AI had switched
+from being something in the indefinite
+future to being in the more definite
+future um and that is you know kind of
+what led to the creation of open eye
+open AI as well were there any
+conversations around like the power of
+AI and the implications of AI
+specifically AGI and just like the
+impact of society or did it feel too far
+removed yeah I think it was still too
+far off in the future I mean it was very
+much sci-fi at that point um we were
+dealing with more you know near term how
+do we make search better but search is
+you know kind of a to some extent an AI
+problem you have to figure out what it
+is the the user is looking for it's
+remarkably good if you actually look at
+Google search like there's a lot of
+stuff going on behind the scenes um and
+actually one of the earliest kind of
+magical features that we added was the
+did you mean uh you know the spell
+correction and so that actually comes
+from originally just my inability to
+spell I've never been very good at
+spelling my my brain doesn't like
+arbitrary patterns so like when I was in
+school math was easy because it's
+predictable but spelling always made me
+struggle um and so when I started at
+Google one of the first features I added
+was a spell corrector because I was
+looking at the query logs and I would
+see that I'm not the only person with
+this problem like a third of the queries
+were misspelled or something like that
+so it was like the easiest quality win
+ever was just to fix the spelling wait
+wait so you built the original spelling
+corrector at Google I um I did the first
+did you mean feature um and so but I
+built it just based off of kind of an
+existing spell corrector library and
+then but it would give really dumb
+Corrections like if you typed in Turbo
+Tax it would try to correct it to turbot
+axe turbot being a type of fish um and
+so I I did some basic like statistical
+filtering that would say like that's an
+idiotic correction don't show it and so
+I would just like filter the results and
+then I was working on building a better
+spell corrector because I knew you know
+we could just use all of the data we had
+a copy of the web and we had billions of
+search queries there's like a lot of
+information there so I was working on
+making something better and then I was
+just using it as an interview question
+so when I would interview Engineers I
+would be like how would you build a
+spell corrector and I would say like 80%
+of Engineers had no idea yeah and the
+other 20% gave sort of mediocre answers
+but then there was this like one guy who
+gave a really really good answer um it's
+just like he was ahead of where I was
+already so I was like we have to hire
+him um and so his first project he
+started I think it was end of 2000 kind
+of like late December his I gave him as
+his like intro project I just gave him
+all of my code and showed him how to how
+to run you know projects on the cluster
+um and then I went away for a couple
+weeks for Christmas and when I came back
+he had invented what we now know as like
+the did you mean feature and so he did
+all of that in like his first two weeks
+at Google and it was like this
+incredible thing that could spell
+correct my last name you know no one had
+ever done a spell corrector that would
+correct proper proper nouns and things
+like that um and so that person was gome
+shazir who then is also the person who
+later on invented AI so he's he's one of
+the key people on the all you need is
+attention paper and then he's he's now
+since started character AI I never
+connected those dots but I remember in
+2000 when the original Google spelling
+corrector launched it was a big deal
+because it was one of the first
+instances of AI that was like widely
+used by the general population because
+the earlier spelling correctors they had
+all been very simple things based on
+just like a list of dictionary words and
+edit distance and so it couldn't handle
+proper nouns it it made all kinds of
+like dumb suggestions the Google one was
+the first one that was trained on real
+data exactly so actually worked right so
+the Google Spector character has no
+dictionary it's just based on looking at
+um the web and at query logs and that
+just predicting what is the you know
+most likely correction it seems like
+Google has been working on AI for a long
+time it has the data the comput the
+people has all the ingredients to just
+be the dominant AI company in the world
+why isn't it what do you think happened
+seemed like it got stuck someplace yeah
+I mean I don't know exactly so I you
+know just to clarify for everyone it
+don't work at Google um I left in uh
+2006 um but my perception you know as an
+outsider I think a lot of it kind of
+happened especially around the time of
+the transition to alphabet when you know
+the company was no longer really being
+run by the founders so much and
+especially you know after they they they
+left um and I think it became more about
+protecting and preserving the search
+Monopoly and so if you think about it
+from that perspective they have you know
+this gold mind like like it search is
+just so valuable um and AI is an
+inherently disruptive technology both in
+terms of maybe breaking the search you
+know business model where if you
+actually give people the right answer
+they won't need to click on an entire
+page full of ads there is and this was
+noted of course in the very original
+Google paper back in uh 1998 that their
+search a search company has an inherent
+tension between um profitability and
+giving the right answer because there's
+always a Temptation that if you make
+your results worse people will actually
+click on more ads um and so AI has the
+potential to disrupt that but I think
+even more than that it has the potential
+to completely um anger Regulators um and
+so a lot of Google's business is just
+dealing with regulators and so you know
+we know if you put out an AI it's
+definitely going to say offensive things
+and so I I think they were kind of
+terrified of that and so even internally
+uh when they were developing um you know
+there was there was a version of a
+chatbot that gnome had built um and this
+is the one that that that sort of
+whistleblower claimed was conscious that
+I think they called it Lambda um it
+actually originally had a different name
+but he was forced they were forced to
+change the name because the original
+name was human so they weren't even
+allowed to give it a human name so the
+original name was something human and it
+had to be changed the Lambda um but even
+inside of the company you know there
+were restrictions on what you could put
+out they had a version of um Dolly
+called image gen and it was prohibited
+from making human form so even
+internally the researchers weren't
+allowed to to generate images of humans
+so they were just extremely risk averse
+I think is the answer and how do you
+think it would have been different if
+Sergey lari was still in charge and
+pushing forward I mean I think they can
+override you know risk risk aversion
+right but it takes someone with that
+level of credibility to to to Really bet
+the company or or to to to stay yeah
+we're going to do this thing and it's
+going to cause a lot of problems um but
+I think that if given the chance Google
+never would have launched AI the only
+reason they launched it is cuz open AI
+you know put out chat GPT and suddenly
+it became a thing that they were forced
+to do and that also helped them too
+because you know open AI took a lot of
+those bullets in terms of like saying
+crazy and offensive things um and so at
+that point then uh you know Google could
+put out something that was a more
+sanitized version that you know
+prohibits the existence of white people
+or whatever but um you know and open AI
+kind of Spun out of YC and you were
+around at that time originally it was uh
+YC research right so you know again kind
+of going back to the early teens we were
+just tracking the progress of this
+technology and that was where we started
+to see deep learning doing really kind
+of impressive things where there's like
+playing video games and like winning and
+getting good at things where you could
+say where you could finally see that AI
+was real right so so for decades AI was
+kind of the Sci-Fi thing and you had all
+the symbolic AI which I would say is
+kind of like garbage and so finally AI
+was doing something that was like truly
+impressive and um so you know it was
+kind of on our radar and then you know
+Sam I think talks to just a lot of
+people and so he had uh I think been at
+one of these things where Elon was was
+very you essentially ringing the alarm
+Bell say AI was going to kill us all and
+and proposing that um you maybe there
+should be regulation and so we're having
+these discussions you know Sam's asking
+like do you think we should push for AI
+regulation and um yeah I'm of the
+opinion that that's only makes things
+worse cuz I don't have great confidence
+in our um elected representatives to be
+you know Super Wise uh and forward
+thinking and so my argument was that the
+better thing to do would be that we
+actually build the AI and um you know
+that way we're able to influence the
+direction that it goes um but AI was
+still at that time something that we
+didn't really know what the time frame
+would be to be able to have Revenue
+because it was still basically a
+research project and it requires just
+massive amounts of capital because the
+the researchers are pretty highly paid
+roughly what year was this 2015 I think
+this about the time after Google did the
+Deep mine acquisition as well right yes
+this was after Deep Mind which made this
+issue more complicated because we didn't
+perhaps in those conversations there was
+a desire that we wouldn't want this AI
+to be stuck at Google right exactly so
+so the the fear is that basically this
+gets developed all locked up inside of
+Google um and so the idea was that we
+wanted this to be something you know
+more open to the World open to our
+startup ecosystem um and so the idea was
+that you know we had this this concept
+of YC research that we would um find
+some way to fund this and then hopefully
+you know our startups would be able to
+benefit from and and build on top of
+that which you know has in fact happened
+of course like half our startups now are
+are building on top of it what are your
+thoughts uh on now uh open source models
+so I'm totally in favor of them so I I I
+I think like when we think about what is
+the long-term trajectory of AI it's the
+most powerful technology we've ever
+invented um and so the question is like
+where does that power go and I think
+there's essentially two directions you
+either go towards centralization where
+all the power gets you know centralized
+in in the government or in a small small
+number of like big tech companies or
+something like that and my feeling is
+that that's catastrophic for the human
+species um because you essentially
+minimize the agency and power of the
+individual um and I think the opposite
+direction is towards freedom and and and
+as much as possible we should give this
+power and these capabilities to every
+individual to to be kind of the best
+version of themselves and so you can
+think about that in terms of you know
+how much what would it look like if
+everyone had a 200 IQ or whatever right
+like instead of just having all of that
+power concentrated in one place and open
+source is very important because it's
+kind of a litmus test for that right
+because it's true Freedom it's freedom
+of speech it's First Amendment right um
+and if you don't have that if your
+models are all locked away under some
+sort of lockdown system where there's a
+lot of rules about what can be said what
+kinds of thoughts are acceptable then we
+essentially lose all Freedom right there
+freedom of speech is meaningless if I
+don't have the freedom of thought to
+even compose the ideas that I'm going to
+communicate going back to the the
+history of open AI like the the the real
+story of how open AI got started is it's
+actually not welln um you know like like
+many companies the the founding story as
+it gets retold and retold becomes sort
+of like sanitized for public consumption
+but you you had a front R in fact you
+interviewed many of the early
+researchers that became essentially the
+people who built open AI like what is
+the like can you tell us the real
+founding story sure why I wouldn't say
+many one I interviewed Ilia um so yeah I
+mean it goes back to again these
+discussions of like okay maybe the way
+forward instead of trying to outlaw AI
+is actually that we should build it and
+as much as possible you know in in the
+public interest um and so Sam you know
+is just an incredible uh organizer
+never met someone who's able to bring
+together so many different interests um
+and so many different people and so he
+was able to round up uh you know
+essentially donations from uh Elon and a
+number of other people I know PG and
+Jessica also contributed to the to the
+original um open AI nonprofit um I think
+we even kicked in some some YC uh value
+we did um and so that was kind of the
+root of it and then he recruited the
+original team
+um you know grg and Ilia and and
+basically got the whole thing whole
+thing started and he was still running
+YC at the time and originally this was
+like a subsidiary of YC called YC
+research right so the original the
+original concept I think was that it was
+actually be part of this thing that we
+were calling YC research and then I
+think kind of like as Elon got more
+involved it became its own you know open
+AI with kind of Elon more more of the
+the the face of it and no one really
+even knew about the the YC uh roots
+actually if you go back and look as part
+of their their most recent lawsuit they
+published some of the emails and there's
+the one where Elon is like get rid of
+the YC
+[Laughter]
+stuff why do you think open AI worked
+like I remember in the early 2000s
+looking at Google and being like that's
+the company that's going to invent AGI
+someday and then the way it played out
+is not the way I would have predicted
+again the idea with open Ai and part of
+the lure like the pitch to researchers
+was that when you come here your stuff's
+not going to be locked away we're going
+to put it out in the world right and so
+researchers you know are motivated by
+that and and motivated by the mission of
+of you know making this something that
+isn't just locked up inside of Google um
+and so I I think that attracted a lot of
+talent and it's the same thing you know
+as with a startup do you want to be
+inside of like a large corporation where
+again Google the people working at the
+researchers working at Google couldn't
+even make a version of image gen that
+would generate human form right so
+they're just like so locked down um
+internally that if if you're a person
+who I think likes to ship and likes to
+move fast you know open AI was the
+startup version of of AI and but yeah I
+think if Google were in top form there
+there there is no way that it would have
+worked and that's often the way it is
+with startups right like if you were if
+you were facing a a actual like
+formidable competitor you don't have a
+chance the the reason startups work a
+lot of times is because you're competing
+with slow company you know big companies
+that that um have the wrong incentives
+internally do you think opena I in 2016
+was comparable to Google in 1999 when
+you joined it I would say it's actually
+more of a crazy long shot like it really
+seemed and again if you look at these
+emails you know that got released as
+part of the the lawsuit there's like one
+from Elon where he's like you guys have
+a zero% chance of success right like and
+it really looked like that um and so it
+it was far from obvious that it was
+going to be successful um I think that
+the place and for a long time it really
+wasn't you know they they were still
+doing like the video games and
+everything um and it was really actually
+like the llms that that made the big
+difference right and so like gpt2 was
+kind of like I remember Sam just being
+really excited wanting to show me this
+thing you know where where it like
+predicts the next word um and and the
+next word prediction is such a like
+deceptively simple thing that you still
+hear people you know dismissing it like
+oh it's not really intelligent it's just
+predicting the next word but it's like
+you know you Tred predicting the next
+word it's not that easy um and in fact
+if you think about it if you can predict
+the next word You can predict any right
+that's what a prompt is right you say
+like whatever the thing is you want
+predicted that's your prompt and then
+the next word is the prediction right
+and so in order to do um next word
+prediction and be able to to do what it
+does it necessarily has to be building
+some sort of model of of reality or of
+you know its its perception of reality
+which in this case is limited by the
+fact that it's just being fed text which
+is a sort of strange thing to to grow up
+on on the like control versus Freedom
+thing we're sort of betting on open
+source to give us freedom Zak sort of
+interestingly become like the hero of
+Open Source and like on the one hand I
+feel like you could argue it's
+accidental like the weights were
+released like you know unofficially and
+he only had the gpus because they were
+trying to compete with the Tik Tok
+algorithm you've worked with him like is
+it sort of accidental or is he like just
+the kind of guy that's always going to
+be at the center of everything big that
+happens in the world it's a good
+question I mean I don't know the
+backstory on he's definitely like a
+smart guy like I wouldn't underestimate
+him um but and obviously there's like an
+opportunistic element right because
+they're kind of behind in many ways
+right and so it's a way for them to
+differentiate in a way for them to to
+sort of weaken their competitors so
+there is but there's nothing wrong with
+that I mean the fact that it's good for
+them is is a great thing but should we
+be worried that we're relying on meta to
+keep open source forward when he's a
+fairly strategic guy oh I yeah we
+shouldn't exclusively rely on them I
+think we should be grateful that they're
+on the right side but we can't count on
+them being the only ones like I think we
+have to build a whole Coalition of
+people who are in favor of freedom and
+open source and not just sort of bet
+everything on Facebook saving us well I
+guess to build on hard's question meta
+is not making money on this they're
+funneling profits from their gig gantic
+advertising Monopoly and just using that
+to build open source AI models for
+reasons but not to like make money
+they'll make money like so I mean
+they're using the models internally as
+well right so so the and there's a lot
+of interesting stuff you can do with
+these models in terms of improving ad
+targeting recommendations like all the
+things that are driving their business
+are going to be improved by um those
+algorithms and of course it's also an
+opportunity you know they exist in this
+competitive ecosystem versus Facebook I
+mean versus uh Google and apple who are
+you know are both rivals in various ways
+and
+so they're all kind of competing with
+each other so their ability to kind of
+undercut competitors is also an
+important thing but you you were saying
+like specifically Facebook's not making
+money off open source as a strategy well
+I guess it's just like they seem to be
+in a fairly unique position to do this
+if Zuck changes his and aze to stop open
+sourcing
+it how else will we get large open
+source models if they cost like a
+billion dollars to train right and it's
+not clear how you make a billion dollars
+off yeah I think that's that's an
+unanswering question I mean that that
+that is like the one of the fundamental
+concerns I have which is that I think
+because it's so expensive to build these
+models yeah it is that is like an
+inherently centralizing thing where if
+if you need a trillion dollar cluster to
+build your your AGI it's it's hard to do
+that uh um but at the very least to the
+extent that we can have like the
+legislative groundwork that says we have
+the right to do that um and then you
+know we also have a lot of startups that
+are working on ways to make all of this
+more efficient so you know right now it
+costs that much but we're also
+developing new hardware that's going to
+be able to do these things perhaps
+orders of magnitude more efficient like
+right now I I would say our algorithms
+are probably not that great I I would I
+would be willing to bet that in 10 years
+the actual fundamental learning
+algorithms are going to be way better
+and hopefully more efficient so we'll
+have both better hardware and better
+algorithms it seems like that if you
+just think about the amount of
+computational power to train a human
+versus the computational power to train
+like gbt 4 like were evidently much more
+efficient yeah I think I think I think
+there's still a lot I think there's
+still just a lot of Inc the the human
+brain runs on like 15 or some Watts or
+something around that Gary can you share
+some of the stuff that you know about
+reasons why zck might be incentivized to
+keep funing money into open source I
+mean this is wild speculation on my part
+but um I think that you know the next
+generation of llms ostensibly maybe only
+a billion dollars if you look at how
+much meta like meta literally changed
+their name to meta because they were
+trying to you know sort of create the
+metaverse and that uh you know depending
+on what estimate you use from external
+sources like you know 20 to 50 billion
+dollars like many multiples of the
+Apollo project
+so um I think 1 billion is not a lot and
+then uh when you see things like open AI
+or anthropic that have these incredible
+Frontier models I I think it's smart for
+meta to consider you know can we deflate
+the gross margins of these companies and
+so releasing an open- Source model and
+then allowing you to run it on your own
+pure Hardware on your own metal uh
+that's probably the most deflationary
+thing you could do to get you you know
+if if uh a Frontier Model 405b gets you
+to like 90ish
+98% of uh the performance of the best
+Frontier Model you can get behind a
+closed API you could probably just like
+evaporate billions of dollars in pure
+gross margin that would then be used in
+R&D and so you know I think it's you
+know sort of incredibly smart uh you
+know sort of seeing around the corner
+trying to prevent new competitors to
+meta to it's not that far off like
+Google releasing Gmail for free and just
+giving the storage away it's like Google
+had another way to make lots of money
+and so you could just release free
+services Facebook has other ways to make
+money and so they can just like release
+open source Ai and make sure that no one
+else has like a unique lead yeah and I
+would imagine it helps with recruiting
+too I mean if I were an AI researcher
+and it was kind of a tossup between you
+know meta and another and a closed
+Source I would definitely go with the
+with the open company I mean to refund
+what you were saying Gary is with the
+change of meta if we really just have
+the more aams
+racer kind of speculation about meta if
+they really want to make this metaverse
+future building artificial intelligence
+egi is just a building block and this
+building llms and building a fair lab
+which is like a component to get it out
+because meta is very serious about that
+they just announced today they spent a
+couple billion dollars again not just
+for models but to buy a large take on
+luoda who is uh kind of this major brand
+that owns a lot of the eyeglasses in the
+world it's the meta glasses because the
+ray Barn apparently uh the last release
+that they had actually sold in two
+months more than they ever done in the
+previous generations oh yeah people love
+these things so if we speculate and we
+just play a direct line could be that
+suck is very very serious about making
+the metaverse happen and AI it is a
+component to get AR VR working because
+in order to to augment the digital world
+you really need to understand it
+language is one part vision is one part
+so this is all a building block so a
+billion there it's just like yeah I will
+say that uh I'm not that impressed with
+meta's consumer execution of uh you know
+just dropping AI into the product like
+recently you know I've been using
+Facebook the Blue app for I don't know
+since it came out and um you I wanted to
+just get photos of you know things that
+happened 5 10 years ago you know when
+was the last time I went here who are my
+friends these are sort of the most
+obvious things that you know if you use
+uh Facebook you sort of want these out
+but you know they drop in uh 70b and I
+think in some um localities you can get
+access to 405b literally in uh both
+facebook.com and um WhatsApp but there's
+no you know there's no rag on the stuff
+that you know is about me so it seems
+like kind of like an obvious own goal on
+the other hand like seemingly that stuff
+is pretty expensive ensive which is sort
+of the plight of anyone working on
+consumer using these Frontier models I
+do wonder whether they are kind of the
+Blue app has been kind of more
+deprecation because actually the AI on
+uh Instagram is actually a lot better
+than the one on on the Blue app I kind
+of been playing with a bit to get a
+bunch of uh plan my trip when I was in
+Japan and got me a lot of pictures and
+places oh I didn't realize you use the
+yeah we been play with a couple of them
+I also use perplexity yeah I like perlex
+is better than uh Instagram one but
+pictures are nice so looking forwards
+what do you think are some of the ways
+this is going to break over the next few
+years which is going AI like and one
+thing we haven't talked about here
+because we're kind of in the trenches of
+just helping the startups in the batch
+is like are we trending towards AGI and
+just like all the laws of everything we
+know go to the world over
+yeah be startups will there be money I
+will there be humans will money still
+exist yeah I mean we don't know that's
+that's again one of the you know funny
+questions of open AI since it's all
+funded with these sort of post AGI
+I it's like we'll pay you back once AGI
+happens you're like will we still have
+money maybe it could happen um yeah I
+mean I think just honestly we don't we
+don't really know um I are you a
+believer that we are definitely going to
+get to AGI yeah I I think we're we're on
+the path I think the the key point that
+happened is we crossed the line where AI
+went from a research project where kind
+of put in a lot of money and don't
+really get much out to a thing where you
+you put in money and then you get out
+more um and so it's like when a when a
+reaction you know like a like goes
+critical right goes critical like if you
+have a plutonium you have plutonium
+spheres and they're kind of warm and
+then you put them together and then it
+explodes or when darpet became the
+internet moment right um and so right
+and so right the internet crossed that
+point you know in the in the 90s in the
+mid 90s where all of a sudden more
+investment produces more impressive
+outcomes which leads to more investment
+and that's where we are right now where
+people can't seem to throw money at it
+fast enough right and we're we're
+actually talking about it's actually
+like a national issue is that we need to
+build uh increase our electric supply to
+like train the AI right it's become like
+a national security thing um and so I
+think once that happens you get that
+that cycle and it just keeps growing
+right we just keep investing more and
+that just keeps making the AI better and
+it's clearly you know solving a lot of
+problems and we know this because we
+have all the companies that are out
+there building it um and so I I think it
+just keeps improving why is that not
+unanimously The View among smart people
+like why like there's Yan Lon meta who's
+constantly arguing that this is not the
+path to AGI and he's pretty smart domain
+expert like I don't know I'm not that's
+a question for him you know I I I like a
+lot of what he says because he's he
+favors open source but some of the other
+stuff he says I don't I can't I can't
+explain I mean I do think that there's
+missing pieces right so it isn't like we
+have all of the parts of of of AGI but I
+think that it's kind of an incremental
+thing at this point where we keep kind
+of tacking on like this thing and that
+thing and just keeps getting um
+incrementally better I think the one
+that um at newps this is the big
+AI academic conference where actually we
+the all attention paper un need got
+published like all the like top research
+gets published last year the top topics
+were things around
+we are kind of figure out system one
+type of thinking with Daniel canan's
+framework where like really good at
+these things that are very like planned
+but not like the high level slower
+thinking that humans do with system two
+there's a lot of research that's kind of
+trying to figure out two system two and
+system one and trying to bridge the gap
+which when we unlock that I think that's
+when we're step forward to AI yeah
+absolutely I mean it's important to
+remember that right now when you're
+talking to chat GPT it's kind of just
+running stream of Consciousness right
+and so what human could answer any of
+this questions without stopping to think
+about it for a while so you know one of
+the obvious next steps which people are
+working on is like how do you give it
+time to think and kind of you know plan
+consider various options explore explore
+ideas just the same as as a human would
+yeah that's certainly what we're seeing
+in the companies themselves they're
+spending a lot of time in workflows
+Chain of Thought multi-agent systems you
+know you have different steps uh you
+know what does a human do and then they
+literally make workflow like step by
+step like read this paragraph return one
+token uh from you know zero to nine
+relevance to The Prompt uh and then you
+know in aggregate you know make a a a
+metadata structure about that you know
+drop that into the embedding and you
+know have that be useful at you know at
+the final generation step like it's
+literally uh you tailor time and motion
+study of what a human knowledge worker
+would do in different fields which is
+exactly the type of thing in what
+happens in our thinking with system 2
+and all these Founders that you're uh
+mentioning is an example they are kind
+of hardcoding the rules around this but
+that I think we know is not the ultimate
+path to AGI just like these kind of it's
+It's a hack for now right it's kind of
+how totally a hack yeah but over time
+you know as the system gets more
+intelligent it takes on more and more of
+that part of my belief is that it all
+just comes down to patterns um and and
+and that's part of why I believe in this
+generation of of AI is because the
+neural Nets are basically these huge
+pattern uh recognition and generation
+engines um and that's what I think is
+also our own intelligence do we
+speculate a bit more on your views on
+the future on this uh post that you had
+on book phase you had a very concrete
+example with there there will be a
+future where we won't distinguish a
+knowledge worker right so just kind of
+as a thought experiment of where this
+goes my my prediction there was that by
+203 three you could take a lot of what
+is today's like Zoom based worker so
+someone who sits in front of a laptop
+with a camera and a keyboard and and a
+you know Mouse um and the AI can
+basically watch that person do their job
+um because it's all just virtual anyway
+and then pretty quickly learn their
+patterns and essentially deep fake that
+employ and so you could be in the
+situation where you're in a zoom call
+with someone and that person is actually
+an AI and pretty clear you know we see
+all of these pieces coming together
+right now in terms of our ability to
+deep fake and all of these different
+things and I use that as an example not
+because that's necessarily how it's
+going to play out but that's a
+capability that we will have and so for
+example you know if you have one of
+these Zoom based jobs you I I think I
+think within 10 years most of those
+things could be transparently replaced
+by an AI which oh man I mean we are in
+the path I mean all that data is already
+digital your camera feed your audio your
+input of the keyboard and mouse and all
+of that probably there's company
+building that right now that's just
+recording all that data and building it
+yeah the thin edge of the wedge on that
+Community is uh R
+antiwork if you can make an AI agent
+that deep fakes you and R antiwork
+decides this is the thing that's a
+billion dollar company I me the question
+is of course one then you know what
+happens to all of those all of those
+people right um and so I I I think
+that's like the thing where we need to
+really start developing longer term
+visions of like what is it that we're
+aiming for why are we building all this
+technology um and again for me that kind
+of goes back to this question of of how
+is the power distributed right is this
+control is this something where it's all
+centralized or is it Freedom where it
+enables everyone um because I I think
+like in the lockdown scenario we very
+quickly get to the point where people
+are just saying well we don't even need
+all of these humans right um and that
+also feeds into you know the same people
+who want lockdown tend to be doomers who
+who who who are wanting to lock down
+humans and a lot of other ways with you
+Central Bank digital currency all those
+kinds of limitations on individual
+Freedom um and the opposite direction I
+think is obviously what I favor which is
+that we actually move towards giving
+everyone um you know greater agency and
+you think about all these tools like
+artistic tools you know when let's say a
+child is able to make their own animated
+series that's on the same quality as
+like a Pixar movie or something like
+that that's actually really amazing
+think of all the stories that can be
+told and all the creativity that enables
+we'll just uh sit there and make uh
+adult robots games for each other yeah I
+mean there's there's but again like I
+think like one of the errors in like
+Central planning mindset is thinking
+that we can plan this all out and and
+and we can't all we try to do is move in
+the right direction and give people the
+right tools and I think that as we
+enable everyone to be smarter and
+everyone to make better decisions then
+collectively we can move the whole world
+in a better Direction but we're not
+smart enough and I think it's a mistake
+to think that we are to to to actually
+be able to say here's what the world's
+going to look like and you know this is
+exactly how it's all going to work and
+and that's how you end up with people
+you know locked up in their pods or
+whatever Paul another thing you've been
+thinking about a lot is GE Politics as
+this AI stuff starts to become real how
+is that going to relate to geopolitics
+and the great power competition that
+we're seeing now this is part of the
+reason why we wanted to build it here
+right is because if if you know China
+has the Super AI uh that's not going to
+be good for us um and in particular you
+know wanting to keep it away from these
+kind of authoritarian systems of control
+because the worst case scenario is that
+we basically end up in permanent
+lockdown right because AI can create a
+totalitarian system from which Escape is
+impossible because you know even our
+thoughts are essentially being censored
+um and you know I think that's kind of
+like the disaster scenario for for our
+species and I think that if we go down
+the path of control humans basically end
+up zoo animals um and I I don't really
+want that yeah one of the funnier things
+is uh you know some of the uh
+legislation that's coming along to try
+to control AI that we've been fighting
+like s sp140 7 they actually have
+certain statutes in there they've
+watered it down a little bit but
+ultimately what they want to do is uh
+hold the model Builders you know in sort
+of uh personal liability or even
+criminal liability for the things that
+their models might have a hand in doing
+which is sort of like throwing the car
+designer uh in jail because someone got
+drunk and you know drove the car and hit
+someone right it's incredibly Insidious
+I I think if you attach that kind of
+liability it becomes toxic right I'm not
+going to want to touch something that
+has unlimited liability and so
+necessarily that's a way for them to
+exert essentially total control right is
+is if you if you impose that kind of
+liability on things then no one is going
+going to want to go near it and they are
+strongly incentivized to put like really
+Draconian guard rails in place um that
+again will limit our abilities in ways
+that you know we may not even think
+about but we've seen this very recent in
+recent history with the lockdown of
+social media um you know during covid we
+had a global pandemic that was
+ultimately killed tens of millions of
+people people were locked up in their
+home schools were closed and we weren't
+allowed to talk about where it came from
+and I think that was like that's a thing
+that we still don't fully appreciate how
+catastrophically bad that is you if we
+can't make sense of the most important
+thing in the world then we can't make
+sense of anything I guess the wild thing
+to spot is that like this is basically
+uh statism and uh the wild thing is I've
+heard stories of even China sort of you
+know doing that thing that is in s SP
+1047 I've heard that that has actually
+happened to uh AI Founders in China that
+they've literally been sort of
+disappeared and told like you we will
+hold you personally accountable for the
+output of uh the llm and models that
+your software that you created uh spits
+out yeah well this is one of our great
+advantages is is is freedom it's why
+it's why we're ahead right is because
+you can't build a model in that
+environment you know because if you ask
+it about TN Min square or something like
+that right it has to lie to you um and
+actually again I you know uh one of the
+things I I like really about like xai
+they haven't really reached a great
+product yet but they have a great
+mission statement right to to be
+maximally truth seeking and I think
+that's that's really um important and
+and and and the authoritarian regime is
+inherently truth denying and so I they
+put themselves at a disadvantage and
+hopefully they keep themselves there so
+it's up to us then we've got to get
+involved we've actually got to fight for
+open source Ai and keep it open yeah
+yeah and fight and fight that to to make
+sure that AI is a thing that that
+increases the individual agency instead
+of eroding it for people who are
+relatively neutral about being doomers
+or optimists like do you what are the
+things that tip them in like One
+Direction versus the other I do think
+some people are inherently kind of in
+One Direction or another right because
+the Doomer thing has been around for a
+long time it isn't just now you know a
+lot of the same Doomer thing goes back
+um to the you know 50s 60s or even much
+earlier than that Industrial Revolution
+writers in particular you think about
+like there was a very influential book
+limits of growth the club of Rome or
+something like that there was a book
+published the population bomb that had
+everyone convinced that there was going
+to be mass famines in the 70s and 80s um
+me this is something I grew up very
+aware of actually because it was um I
+was like the fourth of five children
+born in the 70s and apparently people
+would give my mother you know she'd be
+at the store and they give her nasty
+looks right you're killing the planet
+you know that kind of thing because
+people genuinely believed that you know
+we were all going to have famines and
+everything by now and there's been a
+continual string of Doom um and and
+always the doomers the doomers always
+are pushing for central control they're
+always on the side of control and
+lockdown and so you know if you look at
+what did the population bomb advocate
+for you know mandatory sterilization
+they they they want to lock people down
+and we still have that today where
+they're trying to lock down the food
+supply they're trying to lock down the
+flow of information you know anything
+where they talk about combating
+misinformation the misinformation is is
+is anything that threatens the power of
+control right because it it always comes
+down to control versus versus Freedom
+ultimately and growth and so the doomers
+are are are
+degrowth their lockdown their control
+versus your freedom growth and and um
+open source we were uh talking a bit
+earlier about this I had just watched
+this uh lecture from Richard Hamming
+who's a legendary scient mathematician
+who created lots of interesting things
+like they having coding distance and all
+these things it was uh earn a Nobel priz
+as well and he has this really cool
+lecture from like the early 90s or ' 80s
+he has been WR writing about AI actually
+since way way back and he starts a
+lecture with saying that what's going to
+get in the way of AI progress is going
+to be human ego which like reminds me a
+lot of this thing of wanting to control
+it and the what's going to get in the
+way is really that which still like
+applies now yeah I mean it's definitely
+a lot of ego always in the way I think
+YC has a huge role to play well just
+like the startup Community broadly
+because I just feel like the more cool
+tools there are that show everyone how
+awesome AI can be like makes all better
+just the more inspiring that vision is
+yeah absolutely and and again I think
+that was part of what's so important
+about um like the launch of chat GPT
+like even if I would say even if open AI
+just vanishes tomorrow I I think they've
+achieved the most important part of
+their mission which was is really
+bringing this out to public awareness
+and that now we have you know all of
+these people working and all these
+people thinking about it it isn't
+something that's like locked away you
+know inside of Google or inside of you
+know again the doomers are like this
+needs to be done in a secret government
+laboratory that's how you get Skynet
+Skynet is when you build it in a secret
+government Laboratory um you know I
+think developing in the open and and
+across uh you know a wide variety of
+perspectives and everyone working on it
+is is our best shot at at the optimistic
+outcome yeah these are not theoretical
+things by the way I mean there is some
+evidence already that um giant
+corporations like United Healthcare
+Group are already blocking uh you know
+the use of AI calls just to get claims
+um cleared for instance and that's very
+much in their interest you they they
+detect AI they decide they're not going
+to talk to that thing and then on the
+flip side you could also it's purely
+adversarial like on the flip side you
+can imagine uh drowning human beings in
+like infinite phone trees that legally
+speaking are you know completely Rock
+Solid but you will never get your claim
+reimbursed yeah and um that's really
+sort of the most extreme um Kafkaesque
+sort of situ ation that I have in my
+head like we don't want the best
+Frontier models in one or two giant
+corporations locked away behind you know
+sort of this corporate morass that is
+you know basically paperclip maximizing
+of its own that's a really I thought
+that example it's because it's totally
+the wrong thing for United Health like
+what they should be doing is like
+developing their own like AI voice thing
+that's better at convincing the other
+one that like the claim like shouldn't
+be purchased or something right yeah and
+by default if we have this sort of
+status that locks everything down that
+safest then you know guess what's going
+to happen United Healthcare Group is the
+only one that should be entrusted with
+the frontier 200 IQ model because it is
+you know right there alongside the state
+right right inevitably you know power
+concentrates and part of I think what's
+great about y combinator as an
+organization is that we're about
+empowering all of these individuals you
+know where we find some 19-year-old kid
+and like help them build something you
+know I mean like Sam himself was like
+one of the original 19-year-olds right
+so he's he's this random 19-year-old
+that that PG picks out crowd right sort
+of definitionally like if you're you
+know 20-some and you know how to code
+and you want to build things for people
+like there's just another option like
+you don't have to go and work for mik
+yeah absolutely and and again this is
+one of the great things about AI is that
+your ability to do those things is
+increasing I think we're going to see
+you know very successful startups that
+actually
+don't even require a massive team
+anymore and that was part of you know
+what really has enabled and again the
+original concept behind the founding of
+YC was because of Technology it is now
+possible for like a couple of kids to
+start a real company um and that trend
+has only accelerated well I feel like
+that was one of the best episodes we've
+done so far and uh PB thank you so much
+for joining us uh we hope to have you
+back many many more times thanks Gary
+that's it for this time catch you next
+time
+[Music]

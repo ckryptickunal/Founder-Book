@@ -1,0 +1,920 @@
+Title: Office Hours at Startup School 2013 with Paul Graham and Sam Altman
+Video ID: syoqjYLDs48
+URL: https://www.youtube.com/watch?v=syoqjYLDs48
+Channel: Y Combinator
+Published: 2013-10-26T23:25:52Z
+Duration: PT29M8S
+Views: 79565
+Likes: 786
+Tags: YC, Y Combinator, George Saines, Nick Winter, Karen Cheng, Finbarr Taylor, Ryan Petersen, CodeCombat, 100, Flexport, Sam Altman, Paul Graham, Startup School
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 894
+
+Description:
+Office Hours at Startup School 2013 with Paul Graham and Sam Altman
+
+CodeCombat: George Saines, Nick Winter
+
+100: Karen Cheng and Finbarr Taylor
+
+Flexport: Ryan Petersen
+
+============================================================
+TRANSCRIPT
+============================================================
+
+We have to sit up straight. We have
+lower seats. This is not
+right. Admiral Rickover would not stand
+for this. Um, okay. Uh, George Nick. Um,
+what are you working on? So, we are
+building a multiplayer programming game
+for teaching people how to code. So,
+like Code Academy, but actually a game.
+A game. So, how do you how do you win
+the game? So you just beat more and more
+levels until you're an awesome
+developer. So you sort of get points
+somehow for it. It's like it's
+competitive learning. Like you learn a
+program, you get more points or
+competitive. So there's multiplayer. Is
+it like write code to kill a bad guy?
+Yeah. So the first level you got your
+guy, you write code to move him around
+and then you kill another guy. So it's
+like right in the middle of you're
+killing dudes. All right. So you're
+motivated. Yeah. Instead of you know
+what is your name? What's the length of
+your name as a string? Yeah. Okay,
+that's cool. But like no, I kill that
+ogre. Yeah. What you do right away? It's
+not just badges. Not badges. Um, is it
+launched yet? It is actually. We
+launched it yesterday. Oh, well the beta
+things move fast around here. Check it
+out.
+Did you launch because we told you you
+were going to be in office hours?
+Actually, no. We just a coincidence. It
+is somewhat unfortunate because we
+didn't have time to prepare. The launch
+went crazy. Yeah. But they were I got
+home uh from the from the dinner last
+night and I get on a a hangout with
+these guys and they're just um at the
+server terminal control seeing and
+restarting the server because it's under
+so much load. Uh so how's it doing now?
+Not much better unfortunately. We can we
+can only serve a certain fraction of the
+traffic that we're getting and that's
+been going on for 24 hours. How did you
+start working on this? Um I wanted to
+learn to code about a year or two ago. I
+had been a semi-technical co-founder at
+my first startup and I tried Code
+Academy. I tried a whole bunch of these
+and I just couldn't stay stick with it.
+It wasn't engaging enough for me. And so
+these guys, my two co-founders were
+like, "Hey, why don't why don't we
+actually make a game?" So you were the
+original guinea pig. I was. They thought
+you can't keep motivated using existing
+stuff. We'll make a game where you can
+kill people. Well, you know, it was it
+wasn't just that. Our our first startup,
+the customers kept coming to us and
+saying, "We keep using your your your
+company your um product because it's
+like a game." And we hadn't intended
+that at all. And what was it? It's a a
+company to teach people Chinese
+characters. I see. And so we thought,
+well, if we can do that inadvertently,
+what would happen if we actually made a
+game?
+So how far can you learn how to program
+by like how much can you teach people,
+right? Because I can remember the kind
+of crappy programming I did when I was
+in high school where I didn't really
+understand what I was doing. Um, so if
+you look at the stuff that's on, you
+know, top coder or hacker, how can you
+force people to learn advanced concepts
+when all they really need is like to
+have the right library calls, right? Can
+you make advanced concepts produce
+advanced weaponry? So the uh the
+software engineering part of learning to
+be a developer, that's something we can
+add later. Focusing on core programming
+for now because once you get motivated
+enough, it's like, okay, now I want to
+build this app. But you have to get
+through different levels, right?
+Presumably, you get more and more
+sophisticated. But you could get more
+sophisticated just by writing more and
+more
+access force to learn more about
+programming in order to make more
+powerful weapons. Uh so you can have
+things like okay your code needs to run
+this fast in this one you need to learn
+how to use recursion. This is the only
+methods available to you in this one.
+You need to figure out how to do like an
+anonymous function passing method here.
+And generally, if you make the levels
+hard enough, which you're able to do
+when they have a reason to complete it,
+they try really hard, then you can get
+them to do harder and harder stuff is
+natural progression of the game. Have
+you run beta users through this yet? Uh,
+quite a few actually. What did you learn
+from it? Like what went wrong? Well, the
+first thing that went wrong was that we
+we started at too high a bar because I
+had worked in a kind of a semi-technical
+role in my first startup. We assumed a
+whole bunch of prior knowledge that was
+totally untrue for our beta users. Um so
+you know we started out like you know
+writing for loops which were like oh
+well that's that's simple and then we
+got people with no programming
+background and they didn't even know how
+to complete a line like they didn't know
+the concept of formal notation is the
+single biggest obstacle. Correct. Right.
+What's the most advanced concept you're
+teaching now? So so far we had some dev
+levels where it was like okay you're
+going to need to figure out the
+targeting strategy for your artillery.
+So you're going to fire into the center
+of a group of dudes and your your
+soldiers backed up by the artillery have
+to avoid your shots. So you have to make
+sure that they don't chase into your
+like line of shooting. What era of
+technology is this? Wait, so it's a web
+game and you're doing everything in
+JavaScript. No, no, no. What? What era
+of like combat? Fantasy. So you're a
+wizard and you're casting spells to
+control your soldiers and your and your
+heroes and that sort of thing. I see.
+How many users did you guys? There's no
+Apache helicopters or anything like
+that. No, unfortunately we don't have
+the pre-industrial plus magic. Yeah.
+People keep saying do robots. We could
+do robots. It's one fantasy. You can
+make up anything. Yeah. Right. How many
+users did you guys get yesterday? So, we
+we maxed out the server at 15,000
+people. We had 200 concurrent, but we
+really don't know because we were
+actually people were just getting 404s.
+Why not just spin up a bunch more
+servers? We weren't architected that
+way. We We didn't think we get nearly
+this much traffic. We just posted it to
+Reddit. That's it. Yeah, we we posted it
+to Reddit and we got swamped. Not even
+the main Reddit. We actually people on
+the Reddit threads were just like there
+were repeated things that were saying,
+you know, like, "Oh, the hug of death.
+Hug of death. Hug of death." and you
+know 404 not working. So that's they
+were scrambling all last night to do
+that. Do you know if it's people that
+didn't know how to program before that
+are mostly doing this or if it's just
+people that want to play a fun game. So
+the the people that know how to program
+already, they're like, "Okay, when's it
+on GitHub? When can we this is awesome.
+Let's get on here." We had like 20
+people yesterday being like, "Oh man, I
+want to help out and when can we pull
+when can we clone?" Yeah. So we're
+thinking open sourcing in the next
+couple months to really capitalize on
+the interest. But most of the people,
+yeah, they're on the learn programming
+subreddit. They're like, I don't know
+any programming. This is great. And they
+they beat all our levels and we're like,
+crap, we need more levels. We're just
+trying to focus. Do you guys know
+anything about the gaming business?
+Like, do you know how to make games?
+We're learning is this quick is the
+quick answer there. Okay. Because
+there's probably certain best practices
+in the gaming business and probably
+whatever they do would be the first
+would be the starting point. Yeah. So,
+if you're just wondering how much to
+open source, I don't know how much they
+open source things in their world, but
+whatever they do is probably the the
+default thing to start with. Yeah. We
+actually that was the first thing we did
+when we started the company was we
+realized wow none of us are professional
+game de design designers. Let's find and
+talk to game designers and so we had uh
+we've got this kind of core group of
+people that are advising us mostly just
+telling us when what we've built sucks
+but um it's been very helpful thus far.
+Is there anything they told you that
+changed what you were doing? They said
+make robots and said people understand
+robots. Yeah. They said make robots
+because when you have like controlling
+your units via code, people think,
+"Okay, that's natural if you're a
+robots." When you say, "Oh, it's a
+spell. You're a wizard." You're adding
+to the fantasy. And it's like, "Oh, it's
+a little bit hard to understand." See?
+Okay. So, is it robots now? No. Oh, so
+that's hard to change the art, right?
+The art is Yeah. All right. H and are
+you guys now just going to create as
+much content as you can while people are
+Yeah, we just finished the level editor.
+So now the hope is we can finally turn
+out three levels a week using our
+awesome live coding drag and drop thing
+as opposed to like hard coding all the
+coordinates and be like ah does it work
+now? Yeah. So growth first. How many
+people do you have? Is it just you two?
+No, we have one one guy that's manning
+the servers right now. He's keeping it
+keeping it alive. Hopefully keeping it
+Scott keep it alive. This is the same
+team from the first startups. We've been
+working together for six years now.
+Yeah. How did you originally meet? So I
+was his roommate and I lived down the
+hall from my co-founder.
+college roommate.
+Did you guys study? Were you guys
+programmers? Yeah. So, Scott and I did
+CS and George is the econ film guy. And
+then we graduated like, "Oh, let's not
+get jobs. That's going to suck." What
+are you talking about? And then and then
+we did the startup and then three months
+later it crashed and like a lot of the
+reason people startups is because they
+don't want jobs. Yeah. Right. No. Ser
+honestly seriously if if we've if we are
+looking at some someone's application
+and they worked for a long time for a
+large company that's that's actually bad
+to us because like the the best startup
+founders probably could not stand that
+three months at IBM did me in like
+sophomore year like oh no more how are
+you guys going to make money with this
+so it's a recruitment model basically
+the the people that the leads that we
+generate through the coding challenges
+um provide us with the opportunity to
+qualify people before before we even get
+in touch with a potential uh company and
+can you possibly train these people good
+enough to make them valuable employees?
+The the recruiters we talked to said yes
+absolutely companies are interested in
+the developers on your site and we're
+interested and so let us know when you
+have something. Recruiters famously say
+all sorts of crazy stuff. Yeah, they do.
+So that's yet to be validated. Yes,
+indeed. The other people in the space
+that we talked to also say the same
+things. People running coding challenges
+and doing placements and the boot dev
+boot camps and that sort of thing. Yeah,
+we splooked actually one Y cominator
+company and he we asked him how he had
+done his recruiting. He said we sent uh
+a group of qualified recruiters a
+spreadsheet. I said, "How how did that
+turn out?" He said, "Oh, we had 50
+placements in six months." So I said,
+"Okay,
+is it is it time?" You're out of time.
+All right. Nice meeting you, guys. Thank
+you.
+Thanks.
+Yeah. Okay. Okay, guys. You guys wait
+come back back for a second. Uh you
+didn't realize that but that was your Y
+cominator interview. Um you're in the
+next batch. Uh you are applying right.
+Nice. Awesome job.
+No pressure I guess. Nice show. We just
+sort of decided to do that on the fly. I
+mean that was the that was the first
+time I talked to them. Um Awesome. Hi
+Karen. Hey I'm Finnb Bar. We are making
+give00.com.
+What what is it? Give it 100. No, you
+can look at me. Okay.
+We're making a video site where you sign
+up, you choose something that you want
+to get better at, and then you share a
+video of your progress every day. So,
+what would be a typical example? Like
+what's the most is is it launched now?
+It's in private beta right now. Okay.
+So, what do you anticipate being the
+typical use case? Like what sort of
+thing would people get better at? The
+most common one right now is dancing.
+The reason for that, The reason for that
+is because I made a video of myself
+learning to dance in a year and I put it
+online. It ended up going You mean you
+spent a year learning to dance? I did
+spend a year learning to dance. What
+kind of dancing? Uh, robot dancing.
+Okay. It's all robots today. Um, Ron
+Code, you hear this? This is the new
+trend, robots.
+So, I ended up getting several hundred
+emails from people who said, "Hey,
+because I saw this video." It wasn't a
+video of an incredible dancer, but it
+was someone who started off not knowing
+how to do it and getting better. So, was
+this a video you put on YouTube and a
+lot of people looked at it? Yeah. So,
+was this what led to the startup? Yeah.
+Okay. So, you made this video of
+yourself learning to dance and then you
+thought if other people did something
+like this, it would encourage them to
+dance, too. Yes. Ah,
+what what sorts of things are people
+mostly showing themselves besides dance
+learning? Um, they How many beta users
+are there, by the way? We have a invite
+only beta 50 people and then we have
+Yeah, there's like 4,300 or so on a
+waiting list. Yeah. Um, they are um
+there's a nine-month-old learning how to
+walk. There's a woman who's recovering
+from a multiple sclerosis exacerbation.
+She's relearning how to walk. There's
+people who are learning how to ride a
+unicycle. Um, learning a new language.
+uh learning how to code, learning
+design. Why haven't you accepted the
+rest of the weight list? Um well, we're
+kind of just like ironing out some kinks
+in the product and getting it to the
+stage where we think it's going to be
+really engaging. Is it not engaging
+enough now? Well, it is. We actually
+have some really awesome engagement
+stats. Well, if it's engaging enough
+now, you've ironed off out ironed out
+enough kinks. Sure, we have. I think
+really the major things that I'd like to
+see personally are the kind of social
+sharing features because when we kind of
+open the floodgate and have lots and
+lots of people come onto the platform.
+We want to kind of maximize on that and
+you know if a lot of them come on and
+share it and then leave like they could
+have got a lot more people to come in by
+that point. So so they're not sharing it
+enough now. Well, there's no way for
+them to share it right now because it's
+totally a private closed beta. Like
+nobody else can see it, right? We really
+just are we're kind of just
+experimenting on our first batch of
+people getting their feedback. Um, and
+then we're going to launch in the next
+couple weeks. Do they always make videos
+of their progress? Yes, it's video.
+That's how it works. We started off as a
+photo and video site, but then we cut
+out videos. We cut out photos because
+the videos were more interesting. So,
+how do people make videos of themselves
+learning to code? Look how much faster I
+can type. You know, there actually there
+is someone who's learning how to touch
+type. Um, but they they sometimes talk
+into the camera. They talk about what's
+challenging, what they're struggling
+with. um they'll show actual code,
+they'll show what they actually built.
+How many views does an average video get
+out of like a potential 50? Um so the
+view counts, we're seeing about a
+thousand views a day. Uh and we have
+roughly between 20 and 30 of our kind of
+small group of users are coming back to
+website every day. Um 20 and 30 out of
+50 come back to the website every day.
+So unique kind of unique visitors. It's
+not like the same 20 to 30 every day.
+It's like people will kind of wait a few
+days and then upload a batch of videos
+at once. So, so the videos are hosted on
+your site, not YouTube. That's right.
+Yeah. But we want to use YouTube, we
+want to piggyback off of YouTube as a
+marketing channel the same way we did
+with my video. So, we'll take really
+compelling um 100 day challenges and we
+will turn it into a viral video. We'll
+put it up on YouTube and say made with
+100. It seems like that would have been
+really important to test during the beta
+is will people share these on YouTube
+and do they get watched? Well, I guess
+our our test for it is my video which
+has um 3 million views and was shared
+widely. But you don't put it on YouTube.
+Well, the video clips themselves are on
+our site, and that's something that you
+can go on every day and see the same
+people every day, see their clips. No,
+Sam was saying you should have tested
+putting it on YouTube specifically. Oh,
+the clips, the 10 the 10-second clips
+themselves. Yeah. I mean, I think like
+the kind of format that we have on the
+website where you kind of have this
+gallery of 10-second clips and you can
+just kind of see them all and consume
+them all kind of in context and in a
+sequence is like really powerful. So you
+have a view with a page with a whole
+bunch of little videos on it and you can
+see from the beginning to end person's
+progress story that's the most
+compelling part about it. If you
+envision like Paul Graham I'm Paul
+Graham I am learning to like pick which
+startups I'm learning to
+pick I'm learning to pick which startups
+for Y cominator for 100 days. Then you
+see day one, day two, day three and then
+as you hover over each video it just
+starts playing. So you can you can watch
+it for a second or for 10 seconds. We
+cap it at 10 seconds because I have a
+short attention span and I'm building
+this for myself. What do you think will
+be the most popular things? I don't mean
+the most popular things by number of
+people who do them. I mean what will be
+the most popular things for third
+parties to come and watch? That's a
+really good question. Like people who
+are not the people who are practicing
+like what do what you've said you built
+this yourself. What what do you want to
+watch? Like what are you excited about
+watching other people learn? I want to
+see a good story. I want to see someone
+who is struggling and and is against all
+odds, like doesn't think they want to do
+it. I want to see like Phil Libbon at
+his 3:00 am hour saying, "I'm out of
+money and I just got an email from this
+investor and I want to see video of that
+rather than just hearing him talk about
+it." I think like today we I don't think
+he would have used your system. No,
+seriously. Not for like starting a
+startup. Maybe someone in this room
+will. More for learning how to how to
+dance or something like that, right? Um,
+but what do you think will be not I I
+mean what specific type what genre of
+stuff will it be people learning how to
+dance? Do you think that will be the
+most popular stuff or will it be babies
+learning to walk? I think there's some
+we're seeing some because the babies
+learning to walk part actually sounds
+pretty exciting. Like parents would love
+to be able to document their kids'
+progress. I'll tell you the thing. If
+you don't have kids, um, one of the big
+problems about being a parent is the
+memories of the current kid overwrite
+the memories of the more recent the sort
+of recent past. No, like I it's I'm so
+sad. I can't really remember what my
+four-year-old son was like when he was
+three. I see three-year-olds and I
+think, "Oh, yeah. I remember when he was
+like that, but only vaguely because my
+god, I got this four-year-old like
+jumping up and down in the on bed in on
+the bed in my mind, right?" Um, they're
+very if you wait till you have kids.
+I mean, I think there's going to be like
+a number of real kind of killer
+categories which would be very
+interesting. The children one is
+certainly very very compelling when you
+see this kid like crawling learning to
+kind of open a door and then like his
+parents hold his hands and he's kind of
+taking baby steps. And you do you have
+videos that implicitly have these the
+structure of like sequences, right? But
+they're not organized that way. They're
+just like on your iPhone, right? In
+chronological order, you know? They're
+not like the series of the kid trying to
+say some phrase or something like that.
+How good are the users at sticking with
+the whole 100 days of making a video
+every day? So, good question. Um, so out
+of the users that we have, there's an
+average of uh around 18 videos uploaded
+per user. Um, so I guess we have some
+people who actually our kind of earliest
+implementation of the product was send
+us videos via Dropbox every day. Uh, so
+we have some people now who are actually
+up to kind of in the 80s. Yeah. So was a
+guy beatboxing who we've got him from
+day one through to day like 85 I think
+and he's pretty awesome. But he's like
+beatboxing. Beatboxing. Yeah. So
+yeah, exactly on day one. Yeah. Exactly
+like that. So he he like starts off and
+he's like not very confident, not very
+good, but you really see like over time
+the amazing improvement in him and
+that's like what we're trying to get at.
+Are people like encouraging each other
+to stick with it? Is the is the point of
+this that the community will make you be
+more likely to Sure. Sure. Absolutely.
+So that's definitely part of it as well.
+So we have these kind of commenting and
+kind of propping features where people
+say, "Oh, this was a really awesome
+day." Uh actually I think like our most
+commented on and most kind of liked
+video we've got somebody learned to
+unicycle and one day she uploaded a
+video where she had kind of a bad fall
+and kind of fell over and everybody was
+like oh that looks really sore but you
+know keep at it keep going you're
+getting there. You really can you can
+people make their stuff semi-private?
+Yeah, there's a feature to make your all
+your videos private because a lot of
+people they don't want to share when
+they're going through it but maybe once
+they're good they're or they want a
+group of their friends to be able to see
+it like it's their kid. Yeah, that
+that'd be an interesting thing for us to
+implement. You know, the kid thing, the
+kid walking is very different from
+someone teaching themselves how to
+unicycle. Don't be don't like like um
+overoptimize too early. Like let it grow
+into whatever it's going to grow into.
+Maybe it'll end up being kids or the big
+thing or maybe not. Who knows? But be
+empirical about it and don't don't like
+wire in some out outcome too early.
+All right. Is it time? Thank you. All
+right, you guys. Thanks.
+[Applause]
+Sounds pretty good, too.
+Hey, Ryan. Hey, Paul. Hey, Ryan. Hi,
+Sam.
+You don't know how odd this is for us.
+This is the brother of someone we funded
+in the past. And except for having a
+beard, he seems identical. It's very
+disconcerting. Um hopefully that's a
+good thing.
+Yeah. Um he meant Yeah.
+All right. What are you working on? It
+says, "Oh, that's your username." What's
+the startup? Uh, it's called Flexport.
+We're the first licensed US customs
+brokerage built around a modern web
+application. A customs brokerage. Yeah.
+Whenever you import a product from
+another country, you have to clear it
+through customs. What does a customs
+brokerage do? Collect tons of documents
+and organize them and file uh forms with
+US customs to clear your goods to show
+that this is a legal product and you pay
+the right taxes, etc. Is it is it one of
+these things where dealing with the
+government is so awful that you need
+like a specialized group of people whose
+whole job which is also a field of
+licensed uh Oh, they're they have to be
+licensed. Oh, yeah. Heavily licensed. It
+takes years to get the license. So, the
+government trusts them. Yes. They're not
+going to lie. Correct. Right. So, the
+government kind of rubber stamp the
+paperwork. You go through an FBI
+background check as well to get the
+license. I see. And what do you actually
+do? You like file forms for this import?
+Yeah. So you anytime you there's based
+on what the product is, there could be
+like 120 different forms you have to
+file. So we have to take the what the
+product is, determine which forms are
+needed, fill those out for the uh
+customer, file them electronically with
+the government. So there are existing
+customs brokers, right? And you are
+going to somehow you're going to take
+you're going to be an instance of
+software eating the world. Yeah, like
+you're going to eat customs brokers. Uh
+yeah. Um so what do you do like is it is
+it somehow scalable if you write
+software? Like what what do you do
+differently than an existing customer?
+Um, well, first of all, we don't use a
+fax machine. Well, unless the customer
+really wants to. All right. Um, so yeah,
+it's it's an online dashboard to allow
+you to organize all these documents and
+help you understand which documents are
+needed. And then we actually collect
+those documents for you instead of
+asking you to go get it. Um, and then
+we'll file it. So I I can just come to a
+website, type in what I'm importing, and
+have it come in the US, and you'll take
+care of everything else. Yeah. Will the
+Will the experience for users be as
+simple as a customs broker? Or are they
+going to have to do a little bit more
+work? No. No. Way less work. It's less
+work. Oh, absolutely. I mean, we do the
+work for you. But doesn't a human's
+customs broker like sort of interview
+out of people what they're importing?
+Like the person says they're importing.
+We're not removing the human element.
+So, we're pairing you with a licensed
+customs worker. We have customs brokers
+on staff and it's more of aations tool
+to like enable it. It's sort of like
+Uber. Uh, yeah. I haven't used that
+analogy. It's kind of like teleporter
+for products instead of for people.
+Okay. If Yeah. Yeah. How much does
+someone pay a broker to import like a
+million dollars of goods? Uh, it's
+usually it's not dependent on the value
+of the goods, but it's like between $100
+and $300 per shipment. And there's 30
+million shipments that enter the US
+every year and are filed with a customs
+customs entry. 30 million. Yeah. And
+then that's just tip of the iceberg. So
+really, I mean, the logistics, how many
+of them use customs brokers? Yeah. Yeah.
+Use a customs broker. I mean, you can
+have a if a big company will have a
+customs broker in staff. Yeah, I would
+think like Apple scale. You got Yeah.
+You hire customs workers. We'd like to
+make it so you don't have to hire a
+customs broker because our software is
+easier to use than than maintaining that
+division of your company. Do you have
+customers now? Yeah, we have three
+customers right now. Um that are
+importing stuff. Yeah, we actually have
+a waiting list of like 300. The biggest
+oil company in the world signed up. Uh
+we were a little scared of like creating
+an energy crisis, so we told him to hold
+off for a bit, but we have a super
+tanker approaching the port of San
+Francisco right now. Um how did you get
+those customers? Um I so I was in the um
+industry for like 12 years and I know a
+lot of uh importers. Um are you
+currently a customs broker? Uh I have a
+I'm not a personally I do not have a
+customs worker license. I have a customs
+worker that works for me and they're
+kind of teaching me everything. So you
+guys have you already been doing the
+manual version of this? So uh over the
+years I've probably imported about a
+thousand containers and cleared them
+through customs. Okay. my companies that
+I've worked with uh worked for my
+brother's company is uh one of them I
+used to work for my brother um so yeah
+so you do know how to do this yourself
+yeah sure why has no one done this
+before um well why the existing
+companies haven't done it before is kind
+of obvious there if you go to a customs
+broker convention you wor by 40 years
+probably um the uh why no startups have
+done it well first of all I mentioned
+it's highly regulated it's hard to get
+the license um and actually Until
+recently, it wasn't possible to clear a
+shipment except at your local port. So,
+if you built a software startup to do
+this, you could only help people
+importing into the port of Oakland,
+unless you had an office in every port.
+Really? Uh, in 2007. If you're not doing
+the clearing, though, aren't you just
+matching them up with a customs broker?
+No, no, we are a licensed customs
+brokerage. We actually do the clearance
+and file it electronically with customs.
+Okay. So, you guys are kind of the
+customs broker of record. Yes, we are
+the So, it's not quite like Uber. Yeah.
+Yeah. I didn't quite get that analogy to
+be honest.
+You have the same mortant sense of humor
+as your brother
+too. Office hours with him always a
+little bit prickly.
+Um. All right. Uh, so how are you going
+to get all of the customs, all the
+importers to switch to this? Um, well,
+presumably they have these like
+long-standing relations with their
+custom brokers. Yeah. and and the kind
+of importers to a large degree have this
+figured out to by definition, right?
+They've been doing it. They know how to
+import goods. Um so, but every every
+time you import a product into the US,
+it's public record that product. And my
+last company actually sells that data.
+We we aggregate every time you import
+something. Yeah. We've collected 300
+million of those shipping manifests and
+sell subscriptions to access it. So, we
+know every single America. So, you have
+the customer list. Yeah, we have every
+importer in America in a database. So we
+can Wow, that's very convenient. That
+helps. Wow. Um, so how far along are
+you? Have you got sort of this like a
+sort of beta version that um the MVP
+product, it's a web app. You can sign up
+for it. Um, we're not taking new users
+right now. Um, but uh that's just a
+matter of me wanting to feel like
+everything's super tight and nice user
+experience, but it has the it has the
+fun the functionality initial version is
+going to have to have. How how many
+shipments have you done with your first
+three customers? How much what how many
+inbound shipments have you done? No, so
+the first clearance is happening in
+November. So we've got these guys lined
+up ready to go. We've got the uh but the
+first shipment actually the government
+shut down 3 weeks ago stopped us from
+they won't take a new broker. The guy
+whose like job it is to onboard us was
+furoughed but he's back in his office
+and I filed the forms on Monday.
+That whole I was hoping to have that
+done and be able to come up on YC app
+and say hey uh cleared our first
+shipment already. See you idiots in the
+government, you are actually slowing
+down innovation.
+[Applause]
+How how much do you make? Uh do you have
+a sense of like on average how much
+you'll make per customer? Yeah. So,
+well, for each clearance, the gross
+margin should be about 75%. Uh it
+doesn't take a lot of time to It's kind
+of So, you can be like really hands-on
+and hire a lot of people to help through
+the process. It depends. How much do
+people pay for one clearance? We're
+going to charge $100 to to do it. Um, no
+matter the size of the shipment. Yeah,
+pretty much. It's actually not about the
+size, but like there's some things you
+might charge extra for like clear
+certain if you want to do an F something
+that has to clear with FDA, there's
+extra paperwork. We might charge extra.
+It seems that people would pay a lot
+more for like a 777 full of iPhones
+than, you know, like one little shipping
+for the Well, now they're going to pay
+more in taxes to the government, right?
+But as far as the broker, it's still
+just one form or whatever. Do current
+brokers charge flat rates no matter what
+the shipment is? No, they charge more.
+And you know, I'm kind of looking at a
+little differently where the uh
+brokerage is just the way that we enter
+the much larger logistics space because
+once I'm your customs broker, I know
+everything about your supply chain. So
+you sell you freight, uh warehousing,
+inspection, you hook them up with trucks
+or something like that. I someday I
+would like to be doing all those things,
+but are other brokers doing that sort of
+these services after you get it into the
+country? Um yeah, but I don't know that
+they look at it as like their their
+primary way that they're going to make
+money. They would never go into it as a
+loss leader, for example. And I don't
+know if I'll do that either. I like I
+don't like burn rates, but H. So, how
+much do you think you'll be able to make
+like in, you know, once the thing
+launches? Yeah. Well, the um logistics
+globally is a $2.3 trillion industry.
+No, no, I just mean when you do, the
+customs broker. I just like to say the
+word trillion.
+Yeah. You know, really big markets are
+bad for startups, not good. Yeah. If you
+say a too big number, the investors just
+they just don't believe it, right?
+You know, it's it's really hard to say.
+I mean, I I I've kind of modeled out and
+say like, okay, we can make about $30
+million a year in profit just being a
+customs brokerage if you get say 1%. I
+don't like to do that kind of compound
+analysis, but you know, each customer is
+probably worth um maybe $200 or $3,000 a
+year and I think we can get as many
+customers, but the whole business is
+three billion a year. Yeah. 30 million
+is 1%. Yeah, exactly. The customs
+clearance business, it's about five
+billion a year, right? Based on the
+number you said earlier, the whole US
+customs about three. Yeah. Um, now I
+don't have exact figures for that, but
+based on the number of shipments that
+are cleared and what people charge for
+those shipments, are you going to hire
+just an army of sales guys and go down
+that list? Um, possibly. My last company
+had an army of sales guys and it wasn't
+that fun to manage, but um, things that
+aren't fun are still sometimes working
+sometimes. It's the way to make the most
+money. So, I'm not, you know, I have to
+do it better than I did the last time.
+So, it's more fun. We got We got to end.
+All right. Boy, that was an interesting.
+Yeah. All right. Thank you for coming.
+Thanks, guys.

@@ -1,0 +1,976 @@
+Title: Mathematical Approaches to Image Processing with Carola Schönlieb
+Video ID: TINnOrH_jc4
+URL: https://www.youtube.com/watch?v=TINnOrH_jc4
+Channel: Y Combinator
+Published: 2018-05-09T16:06:28Z
+Duration: PT41M31S
+Views: 4448
+Likes: 89
+Tags: YC, Y Combinator, Carola Schönlieb, Math, Applied Math, Image Processing, Turing Fellow, Alan Turing Institute, Cambridge’s Department of Applied Mathematics and Theoretical Physics, Image Analysis, Programming, Podcast, Interview, Craig Cannon
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 950
+
+Description:
+Carola Schönlieb - http://www.damtp.cam.ac.uk/user/cbs31/Home.html - is an applied mathematician at the University of Cambridge. 
+
+She’s also a Turing Fellow at the Alan Turing Institute - https://www.turing.ac.uk/ - and the head of the Image Analysis group - http://www.damtp.cam.ac.uk/research/cia/ - at Cambridge’s Department of Applied Mathematics and Theoretical Physics - http://www.damtp.cam.ac.uk/ 
+
+In this episode we cover mathematical approaches to image processing.
+
+The YC podcast is hos
+
+============================================================
+TRANSCRIPT
+============================================================
+
+we ought to start with a little bit of
+your background so what did you start
+researching and then what are you
+researching now okay so I started out my
+research in mathematics in Austria in
+Vienna where I actually didn't look at
+image processing or imaging at all I
+started out with so-called partial
+differential equations which are
+equations of a function and its
+derivatives so you like they can express
+change over time or space and they are
+models for various natural phenomena and
+physics and biology lots of things are
+explained by these differential
+equations and my first paper again had
+nothing to do with image processing it
+was actually on the con hillard equation
+which is an equation that describes
+phase separation and corseting and
+alloys in metallic alloys for instance
+so when you cool them down to a certain
+temperature you have a you have a
+mixture of two and you if you cool them
+down to a certain temperature they are
+starting to separate from each other and
+korsun out and build these larger areas
+and so there is an equation that models
+this kind of phenomenon which is to
+cannulate equation okay and my first
+paper was on the stability analysis of a
+certain type of solutions to disk and
+hillard equation stability analysis
+meaning that if you perturb your initial
+condition a little bit how much is your
+stationary solution that is when you let
+time evolve infinitely okay how you know
+when a stationary state is a state of
+where the system is in no change okay
+how much do these stationary states
+differ from each other when you just put
+up the initial condition a little bit
+and this is in the context of creating
+alloys or building structure alloys for
+structures or what was there any
+particular purpose well the purpose is
+allotted with these differential
+equations to simulate certain phenomena
+mm-hmm and so if you understand how
+stable these stationary states are so if
+you are at a stationary state and then
+you perturb the stationary state a
+little bit is it going back to the same
+stationary state or is it going
+somewhere completely different so you
+kind of understand
+and how the system how these systems
+react to perturbations that are
+naturally occurring because we are in
+real life and things happen gosh okay
+yeah so it's more an understanding of
+the physical processes involved in you
+know mixture of alloys for instance or
+things like that and where you at a
+Technical University where you would be
+likes focusing on alloys or this was a
+personal interest actually you know a
+lot of Applied Mathematics on the
+continent which is everything else okay
+basically here in Europe is applied
+mathematics very much means that you're
+what you're doing is inspired by
+applications but eventually you end up
+with a mathematical problem so it was
+really the driving factor was well we
+were interested in analyzing this
+equation and and there were techniques
+coming up that they're kind of cool yeah
+so it was just a kind of intellectual
+interest in this equation okay it was
+the driving factor for this particular
+paper but then during writing this paper
+[Music]
+research at UCLA researchers at UCLA in
+particular the group of Andrea patate C
+used this same equation to do image
+restoration and image restoration
+meaning you have a digital image and
+there is there are parts of this image
+which are damaged for some reason or
+which way which which are where you have
+objects which are occluding some other
+object of interest that you want to get
+rid of the occlusion or something like
+this so you have one part in the image
+that you somehow want to replace by
+something that is suggested by the
+surrounding okay area of this of this
+region so is this similar to like
+content-aware fill in photoshop exactly
+okay but this predates the Photoshop
+development I assume it actually does
+and I mean also to content-aware I feel
+is actually very much based on some of
+the things that have been initiated by
+people like Andrea bethought see so I
+mean the technique is different in what
+Photoshop is using
+but it's still based on research in
+mathematics in fact yeah it's a
+differential equation maybe if you want
+if you wish that this more it's not a
+convenient equation of it is a different
+type of differential equation that is
+non-local is taking patches and images
+and kind of copy and pasting them into
+the region that you want to replace yep
+but anyway so she used the chameleon
+equation to do that and that was a kind
+of eye-opening moment and then I moved
+into image processing still sticking to
+differential equations at the time and
+actually looking at image restoration so
+it is Photoshop content-aware field type
+problem and yeah that and that was
+basically my PhD my PhD was about image
+restoration okay and during my postdoc
+then I moved more and more into what is
+called inverse imaging problems where
+what you are observing or what you're
+measuring in the first place is not an
+image like when you take a photo
+you know the digital image is an image
+so but there are certain applications
+like in biomedical imaging where what
+you're observing is not an image
+directly but is some transform of this
+image like an image tomography for
+instance okay
+think about CT for instance computer
+tomography what you are what the CT Tom
+what the tomograph is measuring are
+projections of your 3-dimensional object
+which is whatever you have in your body
+and from that you want to reconstruct
+the objects all right projections
+meaning in the CT sends a particular
+sense which is that you send x-rays
+through the body and what you're
+measuring so you're sending them through
+what you're measuring at the other end
+is the attenuation that they feel when
+they travels through the body depending
+on which type of tissues they hit and so
+that's what you're measuring on the
+other
+and and you can model that by saying you
+what you're measuring is a is a line in
+isn't it's an integral along the line
+that the X ray takes through your body
+where you're integrating over the
+attenuation that it feels yeah and so
+from that and that is a very old problem
+it goes back to rod on it's called the
+rod on transform what you're measuring
+is not an image but it's the ronald
+transform of your image which are line
+integrals over the image density that
+you want to reconstruct right the gutter
+consists then where density is different
+in different parts of your body and then
+you can see organs in your body and
+stuff like that right and so they'll the
+likelihood of there to be some amount of
+it missing that you need to fill or
+recreate or denoise is much higher than
+an image yeah that's obvious that's
+quite obvious because well first of all
+we are in a finite dimensional world so
+you know you don't have all possible
+infinitely many line integrals of your
+body measured yeah and then it's not
+even you know it's not even that would
+be still okay if you're measuring as
+many line integrals as your
+corresponding to the resolution of the
+image that you then want to compute from
+these line integrals but then very often
+it's not like that because you don't
+want to you want a very high resolution
+image because you want to look at all
+the details in the body right but you
+don't want to measure so many line
+integrals because you don't want to
+radiate the patient so much you don't
+want to send some x-rays through through
+the patient so you have a lack of data
+you you don't have as much data as you
+want the you know for the high
+resolution image to reconstruct and then
+there is noise because these are
+measurements right and there is always
+noise and measurements and so were you
+doing denoising work as well at the same
+time it's it's it's it's integrated in
+the reconstruction approach so in in in
+the mathematical algorithm that
+reconstructs an image or do you know the
+three-dimensional yeah inside of your
+body from these line measurements
+there's the denoising is integrated into
+into this reconstruction step coming you
+know from from these line integrals
+reconstructing is for you
+gosh okay and so what I know about
+denoising mostly through audio like a
+Fourier transform and that kind of thing
+so how are you doing it with an image
+how are you denoising in the algorithm
+so so with images it depends of what you
+think is important in an image that will
+determine how you're going to dino is it
+okay a very successful assumption that
+has been made for designing image
+denoising approaches isn't as has been
+and still is that the most important
+information that visually guides you of
+what this image is showing you but also
+that helps you if you want later want to
+quantify something indium which are the
+edges and the image this is the most
+important thing where our boundaries
+between different objects okay yeah when
+you think about it what really what
+really makes an impression on you of
+what this image shows are colors you
+know and to the end the boundary between
+these colors where are the colors
+changing and these are the edges in the
+image interesting and to preserve those
+and not make them blurry blur blur blur
+doubt is something that a lot of
+research in image denoising has gone
+into so image denoising methods which
+can preserve edges in an image and so
+the fourier you know fourier type
+techniques are good they can smooth out
+your noise by changing my two high
+frequencies yeah but they will take away
+two high frequencies everywhere right
+which means they will also take away two
+high frequencies that correspond to
+edges where the image function is
+changing rapidly yeah so you're looking
+to the Delta
+is a very high frequency component of
+your image and but this is a component
+you would like to keep yeah okay so you
+want to differentiate between the high
+frequency components in the image which
+is which are just noise and two high
+frequency components which correspond to
+these very characteristic features that
+you want to keep and so you know their
+various techniques but one very
+successful one is total variation
+regularization for instance which is a
+technique that has been used a lot by
+people in image denoising you know that
+models just this assumption that you
+have sharp discontinuities medium
+filtering is a is a is a maybe simpler
+thing to understand or that people might
+have heard about which is not exactly
+total variation denoising but it's
+related gotchu so median filtering
+instead of gaussian filtering right we
+work also filtering corresponds to your
+Fourier taking away to high frequency
+stuff okay sure you know it's so funny
+when I was doing Photoshop of the onion
+we were always actually interested in
+blurring edges because one of the most
+obvious things to spot a photoshop is a
+sharp edge and a soft edge in the same
+photo so for instance like if I were to
+cut you out and then put you in front of
+the white house if the photo has a
+slight blur so like the depth of field
+in the photos like say like a 1.4
+aperture which creates a very very like
+shallow depth of field so there's a lot
+of blur but if you're crispy someone can
+immediately spot that you were dropped
+into the photo so it was all about
+blurring the edges oh to trick someone
+into thinking that it was in the same
+photo yeah so so in your context these
+these algorithms that will handle the
+edge sharpness are they hand coated or
+are using machine learning to create
+them how does that work so they are
+classically hand coded and this is maybe
+something that is now you know more and
+more being replaced by other things
+where image denoising nowadays I think
+the best image denoising approaches are
+actually coming from deep neural
+networks okay so you know these hand
+crafted methods get more and more beaten
+in terms of performance
+by some of these neural network
+approaches they get beaten in certain
+scenarios though they get beaten on the
+on the type of examples they have seen
+already or similar type of images that
+they have seen already right if you
+present them with something completely
+different right if they if you only
+train them on photographs of animals or
+whatever right and then you present them
+with a CT image over the CT scanner will
+they will not be able to handle that so
+that is one of the things I think we're
+still hand-crafted models have a certain
+justification of existence in a sense
+because there is not there still you
+know although we can do GPU programming
+and everything there is still not enough
+computational power to train a machine
+to know everything to learn everything
+about the world right and so I think a
+lot so while you know in certain
+scenarios if you know what you want to
+apply your image denoising approach well
+it's like the image net thing from like
+almost 10 years exactly yeah if you know
+that then it's fine
+and that's good but if you if you want
+you know think about for instance one
+big thing in CT let's say or in
+different types of biomedical imaging
+let's say MRI the aromatic resins
+tomography the the type of image that
+you get the resolution the contrast and
+everything very much depends on how you
+do the acquisition how many let's say in
+the CT case how many x-rays you have you
+could have been shooting through the
+patient but also also and that is
+actually connected to what I just said
+also the type of scanner you're using
+are you using G or Siemens or Toshiba or
+whatever they they have different
+settings and they have different ways of
+going from the measurements to an image
+and so you know if you train an
+algorithm for instance and
+your own network on one of these
+scanners it doesn't mean that it works
+on the own images of another scanner
+really so they're producing entirely
+different data I thought they were just
+like basically the same tools inside
+with a different logo well it's so so
+this is the other interesting thing is
+not entirely different like you might
+not spot also visually what the
+difference is but this is one of the
+things that also people start you know
+more and more hopeful he started you
+know do some research and understanding
+this that even small perturbance s that
+are but that are consistent yeah in
+small differences that are consistent
+between the different scanners might
+contribute to your algorithm than
+failing you know I don't know if you
+have seen these adversarial errors where
+you do a little perturbation and then
+all of a sudden it classifies the image
+into something completely different
+right so yeah so I think the the the
+really very exciting and for
+mathematicians in particular the
+exciting opportunity that neural
+networks are now offering in contrast to
+these handcrafted models yeah are that
+they can go beyond just saying here I
+want an algorithm that look that
+preserves edges right which is a very
+simplistic view of the world yeah but on
+the other hand that there are lots of
+unknowns in these algorithms on the one
+hand that mathematicians I think should
+be exploring and try to bring some of
+the analysis and some of the
+methodologies that help us to understand
+why these handcrafted models work
+because we can prove properties about
+the denoising abilities of these methods
+of how stable they are for instance to
+perturbations in the images we know we
+know how that works so we can prove
+things about them we have Aero estimates
+and things like this and to bring those
+over to neural networks I think would is
+very exciting but for that
+bringing some structure into these
+neural networks is also important and
+that might on the other hand when you
+think about these new networks having
+these 100 millions of parameters that
+that are adapting that are adapting
+themselves to the data maybe in some
+case it would be better to not have a
+million parameters but have a
+intelligent structural way of reducing
+the search space right and as such bring
+some structure into the problem which
+helps you make statements about
+stability and things like that and also
+statements about what the algorithm is
+actually doing yeah
+because so that is another thing right
+because since when you look at these
+handcrafted models you have started with
+a hypothesis right you have started with
+our policies of edges are important and
+image right and then you've you come up
+with a mathematical algorithm that is
+exactly doing what you wanted to do
+right you know then you have to make
+sure that it is actually doing what you
+want
+it doesn't code is bad then it's not the
+coldest bed or your model is bad maybe
+you have to change your model in a
+certain way okay but you understand why
+things are happening yeah if you have
+millions of parameters and then you know
+you train this algorithm to do something
+and then you get a parameterization then
+there's a 1 million different parameters
+how are you ever going to interpret that
+there are ways you know what machine
+learning people are are trying to
+interpret classification results for
+instance yeah you have these salient
+features that you can detect and image
+what was important for the
+classification to do this or this yeah
+but it's still limited and I think yeah
+there are lots of very very cool
+opportunities and so are you guys
+working on hand stitching the two
+together at this point like what's the
+status with the current research yeah so
+they're they're different people are
+trying to do different things so I can I
+can first tell you
+what I've been doing over the last
+couple of years so the last couple of
+years what I've been doing is I've been
+trying to starting with these more
+handcrafted models nothing to do yet
+with neural networks I started with the
+handcrafted models and then for certain
+parts and these models where I wasn't
+quite sure about our edges really the
+only thing I'm looking for for instance
+I've tried to parameterize them in a
+certain way okay but not with with a
+million parameters but maybe with ten
+parameters or something like this
+and then learn these parameters from
+actual examples that I would like my
+handcrafted model to spit out mmm and
+this is what we call PI level
+optimization or a parameter estimation I
+mean people have been doing this for a
+long time but now I think the motivation
+comes more from you know there's a
+certain interpretation in terms of
+machine learning that is kind of
+exciting that where people are yeah yeah
+even more more more more interested in
+so this is one way and levels of
+parameterization vary in this context
+but the good thing is you haven't
+handcrafted model in the end that you
+still understand right and that you can
+still prove things about you still have
+guarantees on your solution you know you
+have guarantees that if you you you
+don't have these adversarial errors that
+if you put have a little bit you get a
+completely different result this is
+really something you don't want right
+the other thing is and do this this is
+more blue sky and this actually goes a
+little bit against what I said before
+which is we have been starting to use
+steep neural networks for problems in
+computer tomography for instance and
+there at the moment we cannot prove a
+lot of things but we can see some ways
+of how to combine these more handcrafted
+models with neural networks and a sense
+of what you feed them with for instance
+the prior information you feed them with
+the data maybe not just a measurement
+or maybe also the information that the
+measurements are actually line integrals
+okay of the 3d object that you want to
+reconstruct yep
+and doing this in a kind of iterative
+fashion where you always go back to the
+fact that I actually remember neural
+network these are line measurements that
+I'm feeding you with remember this and
+then you you you do another sweep
+through neural network with it but then
+how does that work in the context of
+building out a model around say like I
+mean I don't even know in an MRI how
+many images are created or like 10 or
+lines are monitored but like say you
+have 10,000 images but you want to
+create a combination of a hand coding
+algorithm and machine learning system
+mm-hmm how do you go about tagging all
+that stuff what do you mean exactly how
+are you going to so what I understand
+you're saying it's like yep giving it
+more data than just like the original
+source material yes and so how do you do
+that with a Morse like at larger scale
+ah computationally you mean yeah okay so
+computationally we're doing this in a
+sequential manner okay so we're not so
+you can do it in different ways but in a
+sequential manner means that you're not
+feeding it to 10,000 images at the same
+time but you're doing it bit by bit and
+you're adapting your objective towards
+this okay another thing about
+computational performance is also of
+course that the optimization that is
+underlying but this is not just the
+problem that we have that you know
+neural networks have in general is that
+you do not necessarily need to solve
+your optimization problem your training
+exactly and maybe sometimes or most of
+the time you actually don't want it want
+to save it exactly because you only have
+a finite amount of training examples and
+so when you think about what these
+neural networks are doing they're trying
+to minimize the loss over the training
+examples that you have but this loss is
+only an approximation of many many many
+many more images that you want your
+neural network
+to work right for and so very often you
+do not want to solve that exactly you
+don't want to minimize your losses actly
+for this training set okay and so there
+are different types of optimization
+methods that people are using but the
+main thing in machine learning is
+stochastic optimization so you don't
+minimize X you know exactly for all the
+variables that you have but you randomly
+pick a certain amount in every sweep
+through the network that you're
+optimizing for and then you randomly
+change which ones you're optimizing the
+next sweep and so on and just so I
+understand
+minimizing lost why don't you want to do
+that so what you're minimizing if you so
+if you're so the loss let's say it could
+be the least squares error yeah between
+let's let's go back to denoising let's
+say you want you you want to train your
+neural network to optimally denoise
+images by saying for this training set
+where I have both noisy and clean images
+I want that if I sum over the difference
+between the denoise image so you feed
+your neural network with a noisy image
+it gives you a denoise image you want
+that this denoise image is closest in a
+least square sense to the clean image
+that you know in this case because you
+have a training set you have a label you
+have a true label for this noisy image
+which the label in this case is your
+ground truth image okay and you want
+your denoising method which is new this
+neural network to produce the noise
+images such that all of them are in the
+least square sense closest to the
+original label to the ground label just
+a clean image okay and you want that to
+work over all the images on the training
+set gotcha okay okay so but let's say
+you have 10,000 of these images that you
+both know the clean and noisy image if
+you would perfectly fit to this training
+set if you would perfect
+minimize this loss function you could
+think and again you know people are not
+really understanding this and I and I
+also don't really understand this but
+conceptually the idea is what you
+actually want to minimize is not the
+lost just over training set but it's the
+loss over an infinite amount of images
+which you then want to denoise right
+okay but you don't have all these
+infinite amount images so why would you
+want to very accurately minimize the
+loss over this finite amount of images
+maybe you don't maybe you only
+approximately want such that you still
+have freedom right such that it could be
+optimal also for more images that you
+don't have is so if you in other words
+you get you could train it on the wrong
+thing and it could only work for you
+know like denoising photos of apple
+trees exactly yeah and then you're in
+the same place that you were in yeah
+exactly
+okay so the idea is if you only do it
+approximately you might be able to
+generalize it more but all of this
+really I mean there are some attempts to
+understand this but all of this is not
+really is I'm hand waving here because I
+can't really say anything mathematically
+about that but I have you pushed your
+research into practical practical
+applications at this point like are you
+working with you know companies or
+student groups or anyone else so mine
+collaborations are actually with people
+in academia but from other disciplines
+so we have been collaborating a lot in
+recent years with people in the hospital
+and the University Hospital in Cambridge
+so with clinicians and medical
+physicists different types of
+applications you know one of the things
+I I said before is that I got more and
+more interested in these problems where
+you don't measure an image directly but
+only indirectly via these x-rays for
+instance so yeah
+developing algorithms which which can
+get the most out of very limited amount
+of data the most out of in terms of very
+high resolution images is something we
+have been collaborating a lot with
+people in magnetic resonance tomography
+in particular in
+the N Brookes Hospital which is the
+local Cambridge Hospital here but also
+with people in chemical engineering
+where one of the driving factors for
+people in chemical engineering is for
+instance there is a there is a group
+here which is the magnetic resonance
+Research Centre where they look in
+particular at processes through
+processes which are dynamic so they they
+have these tubes filled with water and
+then they pump certain things through
+and they want to understand what the
+dynamics of this process are so now if
+you think about not just having a static
+3d object but having something that
+changes over time as well and now
+thinking back about how many x-rays not
+in magnetic resonance tomography DS
+arnott x-rays but just going back so not
+sending through as so many x-rays means
+you don't have a lot of data to
+reconstruct break which now if you want
+to track something dynamically also
+means you're not measuring a lot per
+time step if you want to have a very
+high resolution over time
+it means per timestamp you can't acquire
+as much data as if you would have you
+know if you just have one second for
+reconstructing your organ inside the
+body uh-huh at this particular time
+stamp and then you then the organ is
+moving again and you need to go to the
+next time stamp and so on
+you have less data for reconstructing
+each time stamp as if you would have a
+static object and you would have 10
+seconds to acquire this instead of one
+second you can measure much more right
+right and then you reconstruct just one
+image but now we have maybe you want to
+reconstruct not just one image in 10
+seconds but 10 images because we want to
+see something evolving over time right
+so here also the challenges are along
+these lines of getting high resolution
+out of limited data not a thing which is
+not connected to indirect measurements
+so much then
+than these applications in magnetic
+resonance MOG Rafi is that we have
+collaborations with people in Plant
+Sciences for instance so they are
+interested in monitoring forest health
+or forest constituencies let's say from
+from airborne imaging data so they fly
+mostly in my collaboration they fly so
+not so much satellite but more flying
+they fly over forest regions and then
+they require different types of imaging
+data they acquire just photographs okay
+aerial photographs hyperspectral imaging
+data or multispectral imaging data which
+means you do not only have RGB but you
+have a broader range you cover a broader
+range okay over the light spectrum so
+also the invisible light so you don't
+have just three channels sure you have
+200 channels yeah and hyperspectral
+imaging is interesting sort of spectral
+component that you get from these
+measurements gives you an idea of what
+the material properties are of these
+trees so it it it tells you something
+about what really yeah so this is so so
+so the spectral component tells you
+something about the material that you
+that you are looking at so in other
+words like the light spectrum of how
+they reflects light back they have a
+different signature in the light
+spectrum okay and so the intent would be
+to figure out you know say for instance
+like an invasive tree that was taking
+over an area they could figure that out
+by just by flying right over it
+gotcha okay and then the other thing so
+this is one and then or two aerial
+photographs and hyperspectral imaging
+and then the third thing that they often
+acquiring are lidar measurements yeah
+where you do not just get kind of a
+planar picture of the trees but you
+actually get a 3d model of the trees
+yeah I was just watching a documentary
+about that about searching for my in
+rooms with lidar flying I really like
+flying over the Yucatan Peninsula or
+something essentially like saying like a
+week
+take 20 years for an archaeologist to
+like dig around in the dirt or where you
+just fly over and look for the hard
+stuff and let's see what happens yeah
+yeah very interesting and and our people
+also looking to this in the context of
+you know for instance like denoising a
+camera footage from anything you know
+like security on one hand yeah I haven't
+done so much working that myself but
+there are of course you know the I mean
+CCTV cameras are everywhere yeah I mean
+it's like it's kind of a terrifying
+output of figuring out this research
+right like being tracked everywhere like
+in the UK in particular like I imagine
+people are looking to do this right you
+know it's quite funny because when you
+think about these crime TV shows CSI
+whatever Miami or whatever they're
+always these so you told you have very
+pixelated image and you press a magic
+button man and you can zoom in you can
+see everything so when you think it's oh
+this is ridiculous
+of course you can't do that but you
+can't do it now maybe you know if you
+have all these machine learning methods
+which have learned to look at just
+pixels and then know what what is the
+motive what is a very probable match in
+terms of high resolution maybe at some
+point you can do it but then you don't
+know haha if you're right or wrong right
+just just by chance I was reading a New
+Yorker article from I think 2010 about
+this guy in Montreal allegedly finding
+five hundred year old
+fingerprints using different kinds of
+like spectral photography so I don't
+want to give away the whole thing about
+and then there was an ensuing lawsuit
+actually from him to The New Yorker
+saying they like it was libel but the
+basically what happens was like he was
+accused of faking these fingerprints
+that may or may not
+oh yeah and like copying them from a
+real one duplicating them onto the back
+using like proprietary methods to find
+them out but you are interested in doing
+it whether whether or not it's legit
+like you want to do it you want to work
+I work so I mean I'm going to tell
+people that it's fake yeah is it like
+yeah what direction are you going with
+with art so it kind of in Cambridge it's
+not well okay let me say bit more so
+when I again during my PhD in Vienna
+there was a collaboration that we had
+with physically conservator with
+conservatives who are we're looking at
+at particular wall frescoes at frescoes
+in an old apartment in the city centre
+of Vienna which are called the night Hut
+frescoes I'm not going to more into
+detail but they were in the process of
+restoration this Friendly's yes these
+frescoes and so that was my first hand
+experience there and there the idea was
+that you know takes them a long time to
+physically restore these wall paintings
+and once you have restored it there is
+no way back right you need to decide
+what to do yeah because then it's it
+sticks and so what our idea was to help
+them by creating a virtual template of
+how the restoration could look if they
+do this or it isn't right yeah so
+because the important part is a fresco
+is actually part of the wall chemically
+it's not paint exactly yeah exactly but
+even with paintings you know if you do
+something if you do if you manually
+really you know physically restore them
+yeah you've done it I mean you can still
+maybe you know try to do I mean you're
+you are your your your treat your your
+your just well you're changing a
+historical piece right of the world
+price I mean this is yeah yeah anyway so
+so coming here to Cambridge
+I got to know people in the Fitzwilliam
+Museum which is the which is a Museum
+here in Cambridge and there they're
+interested in illuminated manuscripts so
+I met a very good colleague of mine
+who's - who is the keeper of manuscripts
+in the Fitzwilliam Museum got interested
+in this idea of virtual restoration
+because illuminated manuscripts are so
+fragile that you that the culture is you
+never physically restored them you never
+physically restored and they you know if
+they get damaged or altered over time
+you leave it Wow okay you leave them
+like this and so there the idea was
+couldn't we create a virtual restoration
+and you know kind of exhibit the
+original manuscript and the virtual
+restoration next to each other and so
+last year there was an exhibition in the
+Fitzwilliam Museum which is which was
+called color and in this exhibition we
+had one piece which was in a page of an
+illuminated manuscript which had been
+altered over time actually manually over
+painted okay
+and what we did was that we exhibited
+the manuscript and next to it the
+virtual restoration where we took off
+the over paint and yeah and that has led
+to add to other things but I mean this
+is so this is kind of the idea that you
+don't physically change something but
+you you virtually do it which is you
+know nothing damaged you just yeah
+virtually create a digital copy of this
+manuscript and you play around with it
+so you're not only going like back in
+time to see maybe like restoring it to
+its original you know vitality like its
+original color but you're actually like
+going deeper into the layers like this
+is an agent over yeah yeah go further in
+yeah with imaging and then you kind of
+apply everything you might already yeah
+Wow
+so if someone's really excited about
+this kind of research if they want to
+get into it what would you point them to
+where should they get started
+depends what their background is okay
+yeah say they have like you know they
+have a CS degree they're interested in
+imaging so they're like technical but
+they haven't done anything in particular
+like in this field okay so so what I
+would advise is to look so I think in
+particular when you think about the US I
+think some of the cool things that came
+out of image in image processing in the
+last couple of years were from UCLA so
+if you look at some of the idea applied
+math faculty there and some of the
+online lecture material or you know
+youtube videos of some of their talks I
+think that would be a good source to
+look at so I mean very classically names
+are Stan oh sure Andreea patottie I
+mentioned Malik Pomona Stephano SWAT oh
+there are lots of people there is not a
+name is Casey I can tell you beer yeah a
+few more things afterwards but I think
+just to look for mathematical approaches
+to image processing I think it would be
+the first thing I would do there are
+very good introductory books to look at
+that explain a bit of the basics great
+but yeah I would first start reading a
+little bit in these more general
+foundational books and then I think just
+citing from that you immediately come go
+to the you know more modern recent years
+research I think that would be a that
+would be a good way just not you can
+catch up to you maybe or apply here
+awesome well thank you so much thanks
+for making time yeah thanks
+you

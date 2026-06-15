@@ -1,0 +1,747 @@
+Video ID: M57MeOY-n3g
+URL: https://www.youtube.com/watch?v=M57MeOY-n3g
+Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 740
+============================================================
+
+[Music]
+really excited to be sitting down today
+with the founders of Arty, Robin and
+Jacqueline, who just announced that they
+raised a series A. Congratulations on
+the series A, guys, and thanks for
+joining us.
+>> Yeah, thank you so much.
+>> To start with, do you want to just tell
+everybody what RD is and perhaps you can
+tell everyone about the series A you
+guys just raised?
+>> Yeah, so Arti is a real time data
+streaming platform. Um what that means
+is we help companies move data across
+their systems in real time. So imagine
+you have production data in Postgress.
+We will stream it over as changes happen
+into you know a snowflake as things are
+changing under the hood. We just raised
+a 12 million series A from Dalton
+Caldwell, Paul Bai, and Brian Berg from
+Standard Capital. And we're really
+excited to be chatting today.
+>> Let's rewind back to the beginning. You
+guys were in summer 23. maybe tell us a
+bit about like how this got started and
+how you ended up working on this.
+>> Yeah, so this all started with my
+background where like depending on the
+various companies and roles I was at, we
+were either using like you know data
+bricks or bitquery and what have you and
+the same thing kept popping up. I would
+be asking my data team to ask for faster
+and fresher data. when I was working on
+growth at open door, I wanted faster
+data so I can experiment do faster
+experimentation or I wanted to
+operationalize certain use cases using
+like a tool like retool and I was
+basically always told some variant of
+like this is too hard for my data team
+or like we don't have the capability or
+resourcing to build this. So like unless
+it's a company P 0 don't don't don't
+bother. So then I tried to buy a tool.
+Then I discovered, you know, the manage
+batch players out there and found that
+they were like really good at getting
+set up, really good for SAS data sources
+like HubSpot and Zenesk, but completely
+different buyer persona, right? Where
+like you know the SAS data sources,
+they're more geared towards business
+users or like marketing users. And what
+I wanted was a production database and
+that's more geared toward like infra and
+platform engineers. And because of the
+fact that like they just weren't able to
+keep up with the load, we ended up
+having to try to build something in
+house. I had a team try to build this
+for about a year and by the end of it,
+it wasn't production ready. So then I
+pulled a plug and then started to ask
+questions around like at every company
+at a certain data scale needs to build a
+tool like this to be able to use some
+sort like a change data capture
+mechanism and just spending a year to
+two years building a Postgress to
+Snowflake connector just seems weird
+like just seems nonsensical. Yeah. It
+seems like not anyone's else's core
+competency.
+>> Exactly.
+>> Like you should be focused on your
+product, not not building like a weird
+data connector.
+>> Yeah. And then that's when I was like,
+okay, well, if it doesn't exist, let me
+just build it myself. And that's what
+that's all that's that's ultimately what
+started RD.
+>> What are the companies where you saw
+this problem?
+>> When I was at Zenus, we ended up
+rebuilding like our enterprise data
+warehouse a few times. We were already
+using change data capture. So Zenes open
+sourced this tool called Maxwell. We
+were trying to use that for like data
+integrations and just doing that alone
+was still too hard. Then I joined open
+door postgress to snowflake and again
+had the same problem. We were trying to
+build something like this but just
+didn't have the capability to really
+build it.
+>> When you tried to build this before
+already at these previous companies
+engineers spent like a whole year trying
+to build this and like failed to build
+it.
+>> Mhm.
+>> How long did it take you to build it at
+like at at as arty?
+>> Okay. Before AI got good, we were when
+we started this, it took us about six
+months to build this. Now, if I if I had
+to like really if I if I had to redo
+again, probably it would take like two
+to three months. Wow.
+>> But did take six months because it was
+it is a hard problem.
+>> Yeah.
+>> And you know during the batch, it was
+funny because we didn't fully make our
+product like fully self-s served yet. We
+onboarded our first customers using
+Google sheet and like tracking back
+progress using that. And then during the
+YC batch, we made it so that like it
+appeared self-s served so that customers
+can onboard tables. But what it would do
+ultimately was send me a Slack paint to
+be like, "Hey, go on board this table."
+And then it's funny because we had a
+customer in New York. They onboard at 8
+a.m. So it's like 5 a.m. for us. And
+then they're like, "Wait, it's been
+stuck for a couple hours." By the time I
+woke up, I saw like, "Oh, I need to I
+need to kick off a back fill for this."
+And then Yeah. It took us like probably
+almost 10 months to fully make this
+product self-s serve. Got it. Do you
+remember how far along you were at the
+time that you applied to YC? Had you
+started writing code? Did you have any
+of this working?
+>> Yeah.
+>> Yeah, we started probably like 6 to 8
+months before YC was when the idea
+really started to come together. So by
+the time we started YC, the base
+infrastructure was built. We had to
+build the UI and to make it usable, but
+the underlying infrastructure was built.
+And we spent most most of IC actually
+learning to talk to customers, how to
+sell and and all of that stuff.
+>> Yeah, let's talk about that because the
+thing about this product is it's like
+unlike a lot of SAS tools that YC
+companies make, this is infrastructure
+like companies who are using this if it
+breaks, it's like a big deal and so like
+has to be reliable from the get-go. And
+also I assume really small companies
+don't have this problem, right? So like
+the only people who have this problem
+are like pretty big companies where it's
+like pretty high stakes to deploy this
+kind of infrastructure. They have to rip
+out some existing thing and replace it
+with RD.
+>> How did you guys get your first
+customer? So our first customer was
+Substack and um they what they needed
+was they had this like massive Postgress
+database and they needed a system that
+could reliably get data out without
+impacting or putting any load on their
+application and then reliably move it
+into Snowflake with relatively low
+latency. And I think there there
+definitely was hesitancy like this is
+you know just to set a baseline anything
+that needs to be real time is by
+definition like mission critical. Yeah.
+>> So this is like this happened
+>> and this was your first deployment. So
+like you had built this product that
+literally nobody was using.
+>> Substack has like millions of users
+>> and they were considering deploying this
+thing in production for their millions
+of users that no one had ever used
+before.
+>> Yes.
+>> Okay.
+>> Obviously you know they they learned
+about us. They were very intrigued. Um,
+they gained confidence through the PC
+actually like really testing us, pushing
+through billions of rows, putting very
+tight constraints on what we could how
+we could connect to their database and
+then they saw that it worked. But I
+think the alternative
+is they would have to build it
+themselves. And
+>> and had they gone on some journey like
+what Robin was talking about where they
+had tried to build this thing for a year
+and like hadn't worked.
+>> Yeah. Or something like that. I mean
+there are companies that have built this
+in house and they they are you know
+incredible like uh Door Dash, Netflix,
+Instacart, they have massive teams that
+have spent not just one year but like
+multiple years making it truly
+production ready to guarantee data
+integrity guarantee there's never out of
+order rights and then there's always
+failures but how do you recover from a
+failure without having to do something
+like very disruptive? Those are all edge
+cases and failure modes that they baked
+in into their platform. Today, what we
+what we have is something that what they
+have, but like packaged into a product.
+Back then, we obviously didn't have all
+of the bells and whistles baked in, but
+even then it was you guys need to hire a
+team of maybe five to seven somewhat
+distributed systems understanding
+knowledge, maybe one person that has
+built it before just to ensure that
+there's a higher success rate of this
+project and then give them like six to
+12 months. Um, and so the alternative if
+it worked and it was one month PC, um,
+it just seemed like a better, lower risk
+way to go.
+>> And how did you get in touch with them?
+>> It was a cold email.
+>> It was a cold email. Wow. So,
+>> and this was when we were very bad at
+writing cold emails.
+>> But I guess just the need was so great
+that they just went with it anyway. It
+>> you were just making something that they
+really needed.
+>> Yeah. I even remember the timing. It was
+a cold email that went out around like
+between 8 or 9:00 a.m. Within an hour,
+uh, the head of data responded and was
+like, "Can you chat this afternoon?"
+>> It was Friday. Uh, we chatted an
+afternoon and and he was like, "Okay,
+great. Um, when can we try the product?"
+And so we spent the like next two days
+trying to build as much into the UI as
+possible so they could actually like see
+something outside of the infrastructure
+and starting the next Monday went ahead
+and deployed.
+>> Wow. Because every one of these
+deployments is so mission critical. This
+is not the kind of company that like
+gets hockey stick growth early or easily
+because every one of these customers is
+like Substack. they have to make a
+really big bet on you guys that you're
+going to run a foundational piece of
+their infrastructure. What were the
+first six months of YC like?
+>> It was pretty slow. Um I mean we did
+manage to get during YC about like seven
+or eight customers.
+>> Okay.
+>> Um and most of them were smaller uh more
+like early adopters. But um
+>> Substack, if I remember correctly, was
+really the first big customer that took
+a bat on you for like a long time. Like
+that one came really quickly
+>> right off that cold email. But then it
+took How long did it take before you got
+another Substack scale customer?
+>> It probably took another 9 months.
+>> Yeah.
+>> Before we had another one.
+>> You know, that's a funny parallel cuz I
+don't know if you guys know the origin
+story of Substack, but they had the same
+thing
+>> where their very first customer of
+>> Substack was this really famous blogger
+>> and um HubSack was in in my group as
+well. And so, um, I remember during the
+batch, they thought because the first
+customer was so big and came so quickly,
+they thought that was just like how it
+was going to be. And then, like, during
+the batch, they did not close any other
+big customers. And it actually wasn't
+until over a year into the company that
+they closed a second customer comparable
+to the first one. One thing that's
+always impressed me about the two of you
+is how much you've been able to build
+with initially just Robin and then with
+like a very small team.
+>> Um cuz like that whole first summer when
+you were deploying to Substack and these
+seven customers and running all running
+you know I don't know how how much data
+like millions of rows
+>> they were doing about one to two billion
+during the batch
+>> month. One to two billion rows of data.
+It was just the two of you working on
+this, right?
+>> When you crossed a million ARR,
+>> which is a like a a a huge milestone for
+a company, typically companies at least,
+you know, in in the preAI era would
+have, you know, 10 to 20 employees at
+the point that they they crossed a
+million AR. How how how big was Arty?
+>> Uh, it was the two of us and two
+engineers
+>> at a million ARR. Mhm.
+>> That's pretty crazy.
+>> How do you guys explain that? Like what
+did you do that made that possible?
+>> You know, we I think we followed the YC
+advice. Um we take all the YC advice
+very seriously and one of them was we
+have to be very careful about how we
+grow. A bad employee is worse than no
+employee at all. Um, and then the other
+one was, you know, like what is the
+biggest constraint to growth? Um, like
+don't hire unless that position is
+literally the biggest constraint to
+growth. And maybe we went a little too
+far um with some of that advice because
+there are periods of times like even
+right now where we're we just feel so
+understaffed because there's so much
+that we need to do now. Um, and we're
+we're we're changing that and we're
+accelerating hiring. Um but at the time
+you know because sales and having these
+enterprises trust us to power mission
+critical um infrastructure
+I wanted to keep that within myself
+because the more that I can be on the
+ground talking to customers
+understanding uh objections fears uh
+understanding how they're using the
+product the better the faster that we
+can actually iterate and so I think
+actually having sales having Having the
+founders run sales in the engineering
+side so closely actually made us move a
+lot faster. Like people are constantly
+surprised by how quickly feature
+requests feedback
+gets implemented into into the product.
+>> Yeah.
+>> Because during the batch you were just
+building the product and you were just
+selling the product and that's all there
+was.
+>> Yep. I was basically a very good SDR for
+the first year, year and a half of the
+company.
+>> Yeah,
+>> we're a ven diagram that doesn't
+intersect.
+>> Actually, that's a good segue to um the
+two of you. You guys have a interesting
+co-founder relationship because you are
+also married.
+>> Do you guys want to talk about what it's
+like to be married to your co-founder
+and may maybe even how you guys decided
+to work together? Was it was it was it
+was it something you guys were worried
+about?
+it initially
+>> we met around like 10 years ago roughly
+this time in San Francisco. Um when he
+actually so he was at open door and he
+was telling about this like streaming
+pipeline that he was going to build and
+when he came to me about the idea um I
+was actually very skeptical.
+I wasn't deep in the space and I was
+like this sounds like something very
+practical. I feel like someone already
+built it and we just need to do some
+research and and figure out the market.
+>> Um, and then I got deeper and deeper and
+I basically got sucked in because I was
+talking to these engineers and I
+realized how much time and effort was
+being spent dealing with this problem.
+So I was like, okay, seems to be a
+structural thing like this is the way
+it's done. It seems very broken there.
+There seems to be a pretty clear
+opportunity here. Um, and funny enough,
+there was a slight bit of concern
+>> because we we just didn't see a lot of
+examples out there where, you know,
+married co-founders creating great
+companies together.
+>> Um, but we, it was really funny. We
+basically looked at like, okay, how do
+we like how do we fight normally and
+like are they productive? Do we feel
+comfortable how we fight like normally
+that it would translate well into,
+>> you know, in a working environment? And
+basically we got enough conviction off
+of that and we kind of jumped head first
+into it. There were a lot of things that
+we were a little
+>> You guys both had jobs, right? You you
+both quit your jobs to do this.
+>> Yeah.
+>> Yeah. We quit at the same time. I think
+it was like January 1st or 2nd that year
+and we just jumped head first. We we
+were a little naive. We were, you know,
+we were like, "This is such a great
+idea." Um, I think if Robin just builds
+it and I set up the business, uh, you
+know, pe people will just people will
+just buy it. Um, that was the initial
+initial thought. So, we were like, you
+know, this this is this is pretty
+compelling.
+>> What has it been like
+working together for the first time in
+your lives because you guys met and had,
+you know, a more normal marriage before
+you decided to also be be co-founders.
+How has it changed your relationship and
+your lives? I would say it's actually
+brought us a lot lot closer. Um having a
+deeper understanding of how we think
+about problems because they're very
+different. Um one interesting thing is
+we usually land at the same outcome but
+the path to get there the way we think
+is just completely different.
+>> I will say what has been very helpful is
+feedback cycles.
+Um I'm like
+because we are married um there is a
+layer of filter that is naturally
+removed.
+>> You know when you're frustrated with
+your co-founder when there's something
+that doesn't feel quite right but it's
+not that serious yet.
+>> I think there's an there's an
+inclination to keep it in
+>> with us. Every little thing every little
+thing an inkling of a thought gets
+discussed. Yeah.
+>> Um, and I think because of that, there's
+nothing that's like pulling the company
+back at any point in time like and we
+can again I think it's just the moving
+faster part. We can talk about things
+faster and move a lot faster.
+>> Do you guys have rules to keep a work
+life boundary or do you not try and try
+to just like take advantage of the fact
+that like your your work and your life
+is all inextricably caught up? We have
+had discussions about it and we've
+decided it's not a good move.
+I don't think we have a life outside of
+Arty at the moment.
+>> It's hard.
+>> There there would be nothing else to
+talk about.
+>> Yeah.
+>> During the process of building Arty, you
+guys solved some really difficult
+technical challenges like this is why
+people are paying you a lot of money for
+this product. This is really hard to
+build. Do you want to talk at all about
+I don't know were any of those
+interesting to talk about? Yeah, data
+processing honestly is like a series of
+accumulated battle scars that you just
+learn and build resilience towards such
+that when you deal with another edge
+case, you're just like better prepared
+for it because like you know like we
+have customers that you know try to get
+something like like an RD like
+architecture set up. You can set it up
+relatively easily on your local
+environment, but it's a completely
+different scale when you bring it into
+production scale and in terms not not
+just in terms of volume, but also like
+complexity and unknown unknowns. So, we
+we spent we're still spending time
+learning like just little things like
+why does MongoDB allow month to be
+greater than 12?
+That doesn't make sense. Or like a year
+can break y like how does that work?
+like just little things like this that
+we just have to constantly keep an
+accumulation of like these are the known
+problems how do you deal with this so
+build that then the second thing becomes
+like okay we we built a backfill method
+that's like we do a online backfill so
+like what companies like Netflix have
+built it's called DB log what that does
+is like they basically backfill and
+stream at the same time and the
+streaming changes get accumulated into
+like a Kafka or something similar and
+once you're done with the backfill you
+drain the Kafka topic Right? So that
+your database on its own doesn't just
+accumulate like changes while you're
+backfilling because backfilling could
+take days. So we built that mechanism
+but then we onboarded our next customer
+and then they had 10 billion rows for
+one table and that took about that would
+have taken like two and a half months
+like okay built this method that works
+great. Then every single data source we
+have to go in and like learn how to make
+them extremely efficient. So like for
+Postgress as an example, we're now like
+querying the underlying systems like
+columns to be able to grab that data
+faster. So do it more at like IO speed
+rather than like through a SQL engine.
+That's one. Another one is like we're
+now building out a SQL
+SQL server connector. And why that's so
+hard is because change data capture
+through SQL server the right way as
+opposed to like doing it through what
+they recommend you which is more or less
+backed by database triggers. it's not
+very performant. No enterprises want to
+use that. So then to do it quoteunquote
+the right way, you basically have to
+implement this backdoor method that's
+not documented.
+>> And I would say like even going on the
+customer side as we with each customer,
+we learn something new because everyone
+has messy data, but the messy data
+always looks different. And then there's
+different scales of data. There are
+people with single tenant database
+designs because they came like it was
+those on-prem databases and now you have
+20,000 30,000 databases that you need to
+ingest and merge into one table or some
+unified tables into the data warehouse
+because that's how you want to do
+analytics. How do you do make a
+one-click solution for stuff like that?
+or you're sharting your database because
+you're growing so fast as a company and
+then you're sharting it again. Those are
+things that tend to break like ordering
+guarantees or like schema evolution
+tends to break down. Um fixing all of
+that and making sure the product still
+works under those like weird situations.
+>> Yeah. Another example that I have is
+like so we use Kafka and like one thing
+that we also found out through Kafka was
+like we spent a year debugging this one
+problem. Basically like when Kafka goes
+gets overwhelmed sometimes it rebalances
+some consumers. So then like you
+basically have to reestablish your
+connections. We found the library that
+we were using the SDK had an ordering
+problem when it comes to rebalancing. So
+then as a result like we're publishing
+the messages just fine but then when
+we're reading it sometimes it's reading
+out of order. So then the data now is
+wrong on the destination. We found that
+on the consumer side, on the publishing
+side, and then what we then had to do is
+like debug the actual SDK to find out
+that like they weren't implementing like
+the Kafka improvement plan like Kip
+correctly. So then we have to switch
+vendors like it's like just little
+things like that that's like it's pretty
+it becomes pretty gnarly.
+>> So the CFKA SDK library that you were
+using had its own bug.
+>> Yep. And I think this is actually an
+interesting like from the standpoint of
+your customers, they don't care that the
+problem isn't some like CFKA S SDK
+library. Like their bug is your bug and
+so like you you end up having to like
+take responsibility for the whole thing.
+Yeah.
+>> Yeah.
+>> They might be they might be like okay I
+understand but like okay what's next?
+or like even if you know um a customer
+accidentally shoots themselves in the
+foot,
+>> that's technically still your problem
+>> because where are the guardrails? Like
+why didn't you prevent that from
+happening in the first place?
+>> Yeah, totally.
+>> Okay, so we talked a bit about the early
+days. I want to wrap up by talking about
+where RD is now.
+>> Can you talk a bit about like what what
+the current customers are like, what the
+current business is like? What's the
+scale you guys are operating at?
+>> Yeah, so it's it's really exciting. We
+talked about some of like started off
+with Substack doing a couple billion
+rows a month. Over the last 12 months,
+we've now processed over 700 billion
+rows of data and that's up almost like
+12x from the year before.
+>> Okay. Um, and so as we look into the
+future, it's really and and you know
+with more companies
+really looking at real-time data as
+important to deploy like AI workloads,
+agentic AI use cases, um, we are really
+looking to increase the reliability, the
+scalability as we go from 700 billion to
+trillions of rows processed um, and and
+growing the team to make that happen.
+How much are you growing the team?
+>> We are going to triple the team.
+>> Triple the team this year
+>> if everything goes well. Yes.
+>> Wow. Amazing. What kind of people are
+you hiring?
+>> Engineering, sales, marketing,
+operations,
+um sales engineers,
+an in-house recruiter to help us hire
+all. Actually, the most important is an
+in-house recruiter to help us hit our
+hiring goals because it's not happening
+without them.
+>> Yeah. Yeah. So guys, is there any advice
+that you would like to pass on to the
+next generation of founders?
+>> I would say my biggest advice is not to
+think too much or overthink something
+and you know either you take the YC
+advice, just try it. It may not always
+work, but at least you just do it. you
+can observe what's happening and then
+make tweaks that way instead of staying
+stuck um trying to think if this is like
+the best path forward. Sometimes just at
+some point you stop discussing just just
+go do it and that can help learnings a
+lot faster.
+>> Yeah. Can you guys talk a bit about like
+the product roadmap the plans for 2026?
+You're kicking off by announcing your
+series A in January but you've got a big
+year ahead of you. Yeah, I'll talk about
+the high level and feel free to jump in
+but uh when we started we started with
+CDC with databases part of the reason is
+the back Robin's background but part of
+it is like databases tend to be the one
+of the highest volumes one of the most
+complex and it's your production data um
+there is just a real-time need to have
+access to your production data as we
+look into the future um we have launched
+an events API to get event data through
+some similar process streamed into
+snowflake data bricks redshift um and
+then expanding into a lot more sources
+and destinations where real time matters
+>> just to give you a couple examples so
+the the idea the value prop events API
+is like you hit this events API within 1
+to 200 milliseconds you can query in
+snowflake and the reason why we're
+building this also is because the
+snowflakes data bricks and red shifts of
+the world. They're all starting to
+launch their own streaming APIs as well.
+They're all relatively new like Snowpipe
+streaming just came out not that long
+ago. Same with Bitquery Storage Rider
+API. So like this is all just in perfect
+time for us to be able to build
+something where like instead of having
+you, you know, write this data to a
+destination and then wait a couple hours
+for this warehouse syncing job to run,
+we're just doing literally doing 100
+milliseconds. Another example is like
+we're thinking about building the
+destinations that such as like elastic
+search where like you want to be able to
+ingest an update from a postgress so
+that you can index it correctly for
+search. Again, it's just like another
+another thing that makes a lot of sense
+given the real-time nature.
+>> Yeah.
+>> Well, amazing guys. Congratulations on
+the series A and on hitting 700 billion
+rows. That's pretty crazy. Uh thank you
+guys so much for for joining us.
+>> Yeah, of course. Thank you.
+[Music]

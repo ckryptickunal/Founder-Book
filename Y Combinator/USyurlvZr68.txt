@@ -1,0 +1,837 @@
+Title: Diana Hu on Augmented Reality and Building a Startup in a New Market
+Video ID: USyurlvZr68
+URL: https://www.youtube.com/watch?v=USyurlvZr68
+Channel: Y Combinator
+Published: 2019-08-28T09:24:41Z
+Duration: PT35M45S
+Views: 14168
+Likes: 263
+Tags: YC, Y Combinator, Diana Hu, Escher Reality, AR, Augmented Reality, Niantic, Pokemon Go, VR, Gaming, Podcast, Interview
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 801
+
+Description:
+Diana Hu cofounded Escher Reality, which went through the Summer 2017 batch of YC. They were acquired by Niantic and she is now the head of their AR platform.
+
+https://twitter.com/sdianahu
+https://www.ar.dev/
+
+The YC podcast is hosted by Craig Cannon.
+
+https://twitter.com/craigcannon
+
+Y Combinator invests a small amount of money ($150k) in a large number of startups (recently 200), twice a year.
+
+Learn more about YC and apply for funding here: https://www.ycombinator.com/apply/
+
+***
+
+Topics
+00:0
+
+============================================================
+TRANSCRIPT
+============================================================
+
+all right Diana whoo welcome to the
+podcast thank you for having me here
+correct so maybe we should start from
+now and then go backwards in time so
+you're working on a are at Niantic after
+your company our reality has been
+acquired how did you serendipitously
+stumble into AR into AR well a ours is a
+funny feel is not like a single
+discipline AR is a culmination of so
+many fields to really build a great
+experience for augmented reality you
+need of course part the computer vision
+aspect to be able to take sensor image
+data to understand the world graphics to
+render it then there's actually a lot of
+engineering to make all this run in real
+time so systems distributed systems to
+make the experience just gel together
++ together working at some point in
+devices you have like hardware optics
+and there's so many of those pieces into
+it and personally I've come from a very
+diverse technical background I've done
+before I worked a lot in a cloud
+television before and recommender
+systems and doing analysis on television
+streams with computer vision techniques
+that was one space I was in the space of
+semiconductors at Intel we understood a
+bit a few things of our hard work and
+coming into AR was interesting point
+because is such a kind of that I really
+do think it's the next technology
+evolution so we went from desktop mobile
+and next one in terms of representing
+information in a very rich way it's
+going to be the space of makes reality
+with AR VR and beyond mm-hmm and that
+will take many many disciplines to join
+in to do something interesting
+and the reason coming into AR was that
+part plus just I think always been
+interested in in some sense of the
+possibilities of what AR could do it's a
+lot of curious very very curious about
+that what it could take
+to be able to see information blend in
+in the real this is this concept of like
+pixels photons where as where's the line
+to now between pixels and photons do you
+recall the the kind of a first exposure
+you had to it where it clicked
+where it clicked yeah first exposure so
+I think part of it is the thing that I
+really enjoyed about AR is about being
+engaged in reality instead of escaping
+it where imagination to show or tell a
+story is really use to engage even more
+so more deeply with more layers of
+information represented rather than
+really skipping it where the magic and
+an AR it's not it's not just whimsical
+the reason why magic is so magical is
+that in AR is that you see a lot of the
+digital representation believable there
+and the first time I couple projects
+that I there's some in the past I did
+help some startups bill some some
+projects way way back one of them was
+building a 3d life failure display so
+basically you could see 3d without
+glasses it's like oh that's really cool
+psych Holograms and in Star Wars
+so that was one part and then you start
+peeling the onion or water all the
+pieces needed from the technology and an
+ARS fundamental piece to build this new
+kind of infrastructure to just change
+the way we do computation for
+information mm-hmm and so obviously like
+Natick you're working on games mm-hmm
+at what point do you think AR becomes
+this kind of like first-class citizen in
+media you know alongside video photo
+I guess audio yeah I think it will it
+will take time because we're at the
+early stages I think the progress of
+technology
+has like different cycles I mean if you
+read some of the work by like Carlota
+Paris was a cannot economists talking
+about innovation cycles there's like big
+two stages stage number one is when
+technology gets installed quote-unquote
+so installation types of technologies
+are when the applications are not ready
+to be built because you really need the
+tooling to be able to express those
+applications and examples of types of
+installation types of technologies are
+just like network infrastructure
+operating systems programming languages
+all these levels of abstractions that
+are needed because you're not going to
+let's say an example today it would be
+crazy to program a website based on
+assembly right mm-hmm so you really need
+those abstractions to be built to be
+able to have a richer way of creating
+experiences that are more advanced
+because you know you want to kind of
+build on top of the abstractions always
+so AR is kind of that face of really
+building the the installation phase you
+know solving all the hard problems so
+that you get to a very expressive world
+in the future that I imagine where they
+are programming AR could be just as
+simple as spinning up a website because
+right now the streak wire a lot of very
+specialized some understanding to create
+a our experiences users there's things
+with 3d 3d environment development that
+are very good mix for game this is why
+game is also very good for you are in
+the early stages that's kind of part one
+and just to give you just to close this
+the second stage for for this technology
+cycle is the deployment phase that is
+when really you see the explosion
+because you have this kind of solid
+infrastructure built on deployment is
+when you have all these applications
+built into different industries at at
+that point let's say just to give you
+another example like the installation
+face removal just getting the hardware
+devices and the operating system with
+iOS and Android and then the deployment
+was all this proliferation of apps and
+it jokes explodes when the tooling and
+level abstractions is right enough
+mm-hmm so for ER just to close that
+we're not there yet at all there's a lot
+of groundwork that needs to be
+there's some early choke is because you
+do need examples of applications to be
+able to inform and build the right kind
+of OS infrastructure to accelerate that
+and in particular for Niantic is a
+exciting place to be because we do build
+a lot of real-world games that are in
+the bread of butter and function is a
+very good information internally the
+company to really take that knowledge to
+really build this this platform that we
+call it the real world platform the
+Niantic real world platform yeah and
+going further than that as you talk
+about you know expanding past games and
+other you know markets what are what are
+the signals you're looking for that
+you're even building the right thing you
+know you're like think about it in the
+context of like product market fit right
+like how do you even know you're going
+in the right direction because you can
+make analogies so though you know the
+software stack and in the web but like
+it could be the wrong direction right
+yeah I could totally be the wrong
+direction right I mean it's just kind of
+making educators guess sometimes yeah
+and the thing about ARS actually is not
+a completely new concept the concept of
+augmented reality actually has been
+since came out way way back even in the
+seventies or with the first actually the
+first VR headset might have been even
+the six I don't recall the exact date
+yeah but it was by this kind of monster
+thing called the sword of Damocles it
+was like this giant thing yeah okay it's
+like early in days where people were
+just exploring things - how what would
+it mean to display things directly to
+people's retinas but of course the
+computation power wasn't there the
+optics were in there there's a lot of
+challenges not quite there yet but
+things with a are more concretely got
+head start in the 90s with flight
+simulators mm-hmm but I was like super
+high end stuff that it's only available
+to like the government right yeah and it
+takes couple cycles to really get the
+technology at a price point ready for
+consumers mm-hmm so kind of in the
+process of it so I think the timing and
+knowing AR has been it's not necessarily
+new new new but it is kind of the timing
+is
+getting there there's a couple things
+that are exciting why we decided to
+tackle AR and one of the things actually
+about starting companies you can have a
+great idea you can have a great team and
+also great investors but sometime the
+timing it's just something you don't
+control and you could have all those
+other things be amazing but the timing
+is so hard and that's what gives you
+some time that multiplier effect and the
+fact of it it's just so many things
+coming back to the first question things
+outside your control and in the
+environment so for your AR it came to be
+two coupled trends and technology that
+really made sense so a couple of them
+one it is AR is tagging a law along a
+lot of the infrastructure that the
+mobile mobile world built like it is
+very easy now to build like a phone if
+you want it there's like the supply
+chain for all the components sensors and
+cameras and even processors associate
+and that is easy and that is getting
+reused and in fact for a lot of a
+version survey are headsets to hit the
+consumer price point mm-hmm so riding
+that wave was like building on top of
+that infrastructure built by mobile like
+repurposing and swapping some things and
+still the optics needs to be figure out
+but a lot of those can be reused from
+the mobile space so second technology
+trend that really hitting for AR to be
+something real
+besides more law Moore's law everyone is
+familiar with it we're computing getting
+faster every 18 months twice kind of
+kind of kind of sometimes I mean now
+it's more about many cores so you could
+do more complex computation for
+algorithms in tiny devices right the
+other thing is I don't hear many people
+talk about but there's many versions of
+Moore's law but for other other things
+like kumys law okay it's very similar
+every 18 months with the exact same
+computation is gonna be a half third
+power efficiency so what that means
+which is if you really look at the
+numbers the last time I looked at it the
+iPhone 7
+beats and all benchmark for CPU and
+power and sorry for CPU loads or GPU
+loads when you compute something as much
+as any MacBook Air that has been
+launched at a fraction of the power
+isn't that crazy right that's insane
+tells you how powerful mobile devices
+and computation Scott's and at the exact
+same it's like you think of a MacBook
+Air is like pretty beefy chunk a
+computer could do a lot of things yeah
+and your iPhone 7 Pizza at a fraction of
+the power yeah and you could apply that
+to if you really track it is really
+getting to that that point where you're
+having compute that's becoming a lot
+more power efficient and to get to
+headsets and they are it would at some
+point hit that magical total power costs
+which they want to be in the
+single-digit what wait so you feel so
+you feel certain constraints on the
+actual hardware side and then getting
+there so shrinking so that's another one
+yeah
+power efficiency the third one another
+law their law is Edmunds law okay comes
+from he was the CTO for Nortel okay the
+predictor way way back talking about the
+technologies with speed bandwidth of a
+wire line so basically if you have wired
+connection for each internet Wireless
+does the other one and the other one you
+call it the call in nomadic but one
+nomadic really means in our language is
+like 3G cell tower LTE 5g type of
+connections okay they all kind of also
+moving exponentially as well
+tracking behind the other ones so at
+some point the concept is that right now
+our LTE connection is just as good or
+better than dial-up in the 90s relative
+to a r44 networking right so that
+applications built in a R and D are
+there will be very data hungry because
+there's a lot of you're pushing pixels a
+lot of content it's not just with mobile
+apps is a lot of a kind of more tech
+the formation yeah pixels are expensive
+so at some point the thing that's
+exciting right now is just to give you
+some numbers to is like 4G or LTE right
+now your cell cell connection is about
+one megabit with what 5g infrastructure
+is supposed to get juice can I get you
+to 10 gigabits it's like 10 times more I
+guess like hundred times more times yeah
+yeah
+tens of megabits ooh thank you a bit
+which is as much as you would get in
+your wireless at home so expanding that
+out if you know if you're thinking about
+starting a company in a relatively I
+mean light as you described like ARV are
+its kind of been around for 50 years
+whatever but relatively nascent area
+what is your advice for like a founder
+thinking about starting something
+because you went you went through the
+whole thing right like you did YC like
+raise money you got a choir like all
+that like you know kind of like more
+traditional sort of stuff yeah how would
+you tell a founder to strategize around
+like even choosing a product to build
+and yeah it depends for the industry the
+challenge with spaces with AR and VR is
+that there's a lot of unknowns right
+okay and it's hard to be the space right
+now when there's so many things are
+moving is super difficult I mean I know
+kind of a sense AR is following on the
+footstep was what's happening in VR and
+the maturity cycle a bit okay
+where for VR it was at some point I mean
+the highway when oculus got acquires
+like hyped up the whole space yeah right
+after that has been difficult for
+sometimes to raise money for that space
+for content creators can be difficult
+sometimes I mean not impossible but
+sometimes difficult for AR has some a
+bit of that is people still right now
+testing the waters what is like the a
+killer app for AR that's so early to be
+determined I mean the one that we see
+right now is the Pokemon go and antics
+they're one of the few
+maybe only a are games that is
+significantly profitable so it's hard so
+as a founder starting right now
+well my bed one and would have been
+talking about this technology trend on
+economic cycle it is personally thinking
+betting more on the installation phase
+kind of style of companies which have to
+do more with core technology that gets
+built out because a lot of those there's
+tons to do there's so many problems to
+solve before any of that before they
+ before going into the application
+right right those I think have better
+chance right now if you ask me about now
+later cuz swing and change but those are
+some of the companies I see an a are a
+bit better chances right now right so
+you can kind of like have conversations
+with investors around tooling around
+developers those are the kind of paths
+you found yeah more interesting yeah but
+it's also a bit challenging because as a
+tooling and infrastructure company if
+they investor go into a tree okay
+through your customers who are
+developers make money right yeah are
+they just like kids goofing around in
+their basement yeah just this hard to
+kind of have to sometimes find the
+believers and that so creating
+technologies in kind of this emerging
+tech sometimes it's difficult because of
+this yeah
+finding what was that process like how'd
+you find the right right folks so and
+one sense we we had the good timing that
+Eric it just got launched at that time I
+mean that's another funny story when it
+got launched so there was a lot of
+positive enthusiasm for the space around
+that yeah that was one the other one we
+were lucky to really get connected with
+investors I really believe in this
+future and with us that it would take a
+long time so we got backed up early
+investor for our seed round was Jeff
+Claire from encore capital who really
+was with a with us in really believing
+where all these pieces were coming about
+and and really taking that
+mm-hmm and besides I was also founders
+fun also seeing that vision with us that
+yes this makes us so kind of finding
+those those kind of people so we're
+those folks through demo day through
+intros how did they find you because I
+think we're invariably people are asked
+me to say how do I find the right
+investor to support my my vision so part
+of it is through the wisely brand
+carries a lot of gravitas in a sense
+hopefully part of it is before demo day
+we had show one of the first AR
+multiplayer cross-platform at that time
+point in time is like two years ago
+mm-hmm that worked and that created a
+lot of that kind of a lot of that buzz
+that we got contacted mm-hmm and that
+that was one of the big things is a
+really driving the technology to have
+provable points with emerging think you
+kind of have to show that it's doable
+and where is going to give a sense
+instead of so it was actually building
+it like a minimum knowing functional
+products a demo yeah which is a bit
+different than I you know other founders
+friend with sometimes that that that
+first first thing is really having more
+actual paying customers or early when
+when the technology is more
+straightforward yeah it's more about
+like nailing down the the market uh-huh
+for us was kind of nailing down the tech
+early on okay and then once you showed
+people they were like either I don't
+think so not right now what were the
+what real responses like I think when
+they saw it the demo we showed was pong
+in a are we took a classic one that's a
+classic game and showed it how it would
+you have a ball of fire bouncing on the
+ground over the wall and it would scorch
+the ground and that just really
+connected with people it's just that
+kind of thing that people's like oh wow
+so it took some time to figure out that
+exact that was a weird more technologist
+to come up with that so that was working
+with a lot I guess whatever I'm kind of
+asking is like you know the people
+didn't say yes who maybe gave you a no
+or like you know maybe if this develops
+further which is basically no how did
+those conversations play out because I'm
+trying to like put myself in the shoes
+of someone else who's trying to raise
+money in one of these like newer markets
+yeah the thing about those is that at
+times it is but it's kind of scary to
+bet in this space one is very unknown
+and it is finding kind of really those
+investors that are independent thinkers
+because it's sometimes it's funny is
+when someone invests then all the other
+people follow yeah that's kind of an
+yeah but you keep trying it sometimes
+just connecting those and I think I
+rather really take someone really on
+board with with the vision to be with
+you whether mm-hmm
+whether the future do it that's that's
+way better yeah but but yeah I mean with
+everything is only for us it's a bit of
+an anomaly how it happened but we they
+get some nose but it's okay
+you kind of go and keep trying right
+worked out worked out yeah so related to
+working out
+you are now at Niantic as a founder I
+mean because you guys weren't around
+that long before the acquisition oh yeah
+that was super I mean it had to be one
+of the fastest and YC yeah we're just
+joking was like I don't know if that's a
+good record to set yeah yeah for better
+or worse for sure but regardless it
+happened so there are there are some
+founders who have been on the podcast
+before who are now at larger companies
+that have acquired them what's your
+advice just to a founder who's now at a
+big company who is managing people
+leading team workout stuff how do you
+make the most of it because you would
+just put you know you're kind of like
+your heart and soul into something that
+you started and there's there's a degree
+of passion in your thing that's really
+hard to feel for someone else's thing
+mm-hmm so how do you make it work and
+and get satisfaction out of it it's a
+very good question I mean
+part of it for us why Niantic was a good
+fit is that the vision of what Asha
+reality started as we are still building
+it so that's a huge motivator to
+continue do that
+mm-hmm to do that that's huge to be able
+to at least do that I know it's not a
+luxury for every acquisition but to be
+able to do that and still have some of
+the freedom and the trust from for the
+founders that my antek is great mm-hmm
+the other thing is I guess the way like
+to tell Niantic still also startup but
+is a much larger scale the way sometimes
+is thinking about it is kind of taking a
+sure which was a seed stage skipping it
+and going into series B okay it's like
+skip fast-forward it's what it felt like
+the other thing is to take this
+opportunity and reframe it a bit is
+still a very valuable space to learn
+other kinds of skills so now it's kind
+of more taking in that hyper growth
+company I mean we when we join the
+company I mean from last year to this
+year is like at least 5x it's a crazy 5x
+employees yeah so that kind of growth
+and be part of that that was look so
+exciting and learning other kinds of
+skills and reframing those because it is
+kind of leading in a bigger bigger scope
+mm-hmm and that's that's part of it that
+kind of worked out on it I know it's
+like a lot of it comes down to
+relationship with people's having a good
+rapport with the leadership executing
+and getting all those all those things
+aligned and I know sometimes can be can
+be difficult because there's different
+cultures right it's kind of like
+immigration immigration yeah there's
+there's a mutual respect for things that
+we can learn from from each other and
+work together as eventually there's a
+path to feel as a single company to feel
+like now I feel as that Niantic employee
+right it's not and that is when it
+starts kind of more working out to
+really feel that that bought into where
+Niantic is going and that I am excited
+with
+we're going yeah and at this point it is
+it is excited to see all the things that
+we're done I mean a lot of the demos
+that we showcase last year created the
+splash where they are where a lot of the
+work in my team yeah great and all the
+things this year announced a Niantic
+that are also great renounce the
+developer context where we allowed
+invited me to the contest invited a ten
+selected selected that's a word select
+the ten developers to work on our
+platform to see what else they could
+build outside of the Niantic world so
+that was like started as a conversation
+with one of the leaders at Niantic I'm
+gonna with it who was one of the
+platform he leads a platform the early
+parts of a platform for non tech sort of
+the conversation last year and then it
+became a thing this year yeah and it's
+been great to be welcomed by by people
+like like ahead and to work on something
+bigger together right I think if we
+executed this as as Escher it would have
+been at a smaller scale that what you
+know intake we were able to do at
+Niantic or a longer timeframe or a
+longer days or both yeah we got the
+luxury of the rest of the nine thick
+machine to get this out did you find
+that there were tricky elements
+culturally and like transitioning the
+team together there's always those when
+you join it I mean right when you join
+ya those kind of happened and part of
+its having taking time patience to work
+through those things and having faith in
+the long term it's kind of making it
+happen and so the this is funny you
+mentioned it already but like it's all
+tied back to also you being an immigrant
+to the US and that whole experience so
+you should explain it because it's
+actually super interesting story but to
+set it up you emigrated from Chile to
+the US during high school but maybe you
+can provide the backstory yeah perhaps I
+think us you integrate with different
+things in your life it is a series of
+immigrations to that context
+yeah think of it that way so but of a
+bit of a summary of a life story I grew
+up in Chile I'm still a Chilean citizen
+and the way ended up in the u.s. is or
+Chile maybe start with that my parents
+were trying to find a better life
+outside of China because of all the
+situations that was that was happening
+back in the 70s so they applied for a
+visa and when wherever it took them
+first and the first place that they
+follow was Chile because another family
+member had been there so they went there
+mmm so then I was born and normal life
+things happen right so I didn't know
+anything about the US I knew I had an
+aunt in there but apparently my parents
+also applied for a family piece a
+lottery to the US before I was born
+mhm and happenstance which is really
+bizarre that went through when I was
+around 16 17 and then my parents says
+like that it was very difficult to
+immigrate because you leave all your
+roots learn a new language
+unknown environment start your scratch
+your life from scratch from zero your
+drop in the middle and do that it's like
+we've done that once already
+we could do it again but it's really
+hard but think of it I take this
+opportunity to do something I know there
+was scene that I've been always curious
+and been good at tinkering with things
+and math it's like take this opportunity
+to do some things like you might end up
+doing something interesting I was like I
+never had to take that chance because
+otherwise I would regret it forever and
+then moved with my aunt for a bit for
+and then like the last two years of high
+school in there and I was boot camp for
+me to catch up with everything because
+the education chill is not great just
+for comparison you learn kind of algebra
+like in your senior year so it did a
+crunch
+for a lot of things in a year and
+because in a year and caught up to
+calculus in a year up to calculus like
+that pre carved geometry and all that
+algebra crunch it in one year Plus also
+physics and all these things as up
+English English I've been an ESL I was
+still an ESL college so I had to take
+ESL when I went to when I went to
+college self English was hard yeah still
+hard so that was kind of the resilient
+part of really understanding what what I
+could do and it was it was really
+challenging I mean coming to this new
+space and being by myself in school and
+it was the hardest thing I had to do
+back then and also all of that and
+because I had to really do something
+good out of it and it was hard for my
+parents too because they were earning
+and pestles and then I was living in
+dollars so I really wanted to figure out
+how to cut college short - yeah so then
+I managed to also take AP classes in the
+last year and finished college early and
+then go to job and take loans and pay
+all that back and that's kind of the
+story of immigrating and through those
+lots of lessons through that it feels
+almost like a different person yeah but
+yeah I was very focused on on that goal
+I to really graduate do something
+interesting and ended up doing
+engineering in computer science because
+that seemed to be what its gonna good at
+and so as someone who then worked in a
+big company mm-hm started a company what
+advice would you share for other
+immigrants to the US around starting a
+company and and even maybe perhaps
+bigger than that like just like
+motivating yourself to leave a big
+company and go out and do your own thing
+yeah so with the one about immigrants I
+think the thing that's exciting about us
+versus SHL and imagine other countries
+as well is a lot of this
+positive determinism mentality yeah but
+really intrapreneurial where people
+really want to go out of them because
+things are in a state of abundance in a
+sense in the US with stability mostly I
+mean yes there's a lot of not for
+everyone but yes mostly yes here at
+least yeah
+more so than let's say in other
+countries it is still very challenging
+other parts of the u.s. poverty lines
+but during that the level abundance when
+you do get into those environments is
+something that frees you up
+psychologically to really explore and
+it's exciting coming as a immigrant
+because you get more like-minded people
+I think it's in the u.s. where I found
+more people that kind of thought like me
+mmm more so than when I was in Chile to
+really explore and try things out and
+there will be challenges of course
+coming from depending as an immigrant
+what type of company you start there are
+some that need more understanding of the
+cultural norms or laws are you kind of
+some tiny need to be more have more
+years in the u.s. to do but there's
+certain things that they don't have any
+barrier in those and those are great to
+start in fact actually this is actually
+a very coated quoted a lot a lot of the
+big tech companies have been started by
+mmm every guy's right is there something
+about that yeah about about having gone
+through now it's a version of the human
+installation and deployment right yeah
+absolutely I didn't mean I think that
+just immigrant mentality is wonderful so
+right now you know July we're in the
+middle of the YC batch you know in spite
+of being acquired and for you know a
+large accompany Rena what would be your
+advice to people in that in the batch
+right now to to make the most of it and
+to be honestly make the most afterwards
+because I think that's something that
+often stresses people out yeah there's a
+lot of angst about what to do your life
+and so I see the pinnacle or things like
+that it's
+but it's a process in your life to keep
+always we committing to what you're
+doing but devices YC is a great time to
+really get your think that ycs amazing
+is really taking that really brittle
+stage of companies and C to make them
+pass that because that's kind of the
+incubation stage where a lot of
+companies have a lot of difficulties I
+mean we did - and with YC gives a lot of
+focus on direction because that's part
+of the things like a start-up you're
+limited resources limited time and
+you're competing sometimes with larger
+companies that may be going after the
+same space with a lot more resources but
+what are the things that you can do
+different and like the bigger companies
+and it's things with doing activities of
+high leverage that there's advice from
+YC that big companies wouldn't do
+because they don't scale Corning quote
+and as part of that is sometimes just
+doing things by hand right like
+sometimes big companies wouldn't just do
+like a very brittle hacked-up demo yeah
+things like that so really taking
+advantage of that and YC is great for
+fund raising your C and getting to know
+also your batch mates mm-hmm I think you
+never know sometimes a lot of these
+things are might be the current company
+are working in with but this is like in
+the future we're in the space it's not
+meant to be a kind of zero sum or finite
+you will live many lives it might be
+this current company hopefully is this
+one that you're building that'd be great
+that'd be great but sometimes it doesn't
+but there's a lot of awesome people that
+you can get to know as well yeah it's
+something I need to do more often
+actually all right thank you so much for
+your time
+yeah I'm gonan thank you
+you

@@ -1,0 +1,657 @@
+Title: Design Tips to Convert More Customers | Design Review
+Video ID: tJTxDqjO4vg
+URL: https://www.youtube.com/watch?v=tJTxDqjO4vg
+Channel: Y Combinator
+Published: 2023-10-26T17:00:40Z
+Duration: PT23M50S
+Views: 46496
+Likes: 1061
+Tags: YC, Y Combinator, yt:cc=on
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 635
+
+Description:
+Think of your website like a journey. Arriving on the landing page is just step one. From there you need to convince the visitor to dig deeper and to ultimately sign up or purchase your product. And the sites that do that well have at least one thing in common: good design.
+
+For this episode of Design Review, Aaron Epstein is joined by YC’s newest Group Partner, Pete Koomen, to cover some of the seemingly small things in a page’s design that can ultimately have huge impacts. Pete knows a thing o
+
+============================================================
+TRANSCRIPT
+============================================================
+
+it's one thing to get somebody to your
+website it's another to actually get
+them to sign up or convert So today
+we're going to look specifically at how
+well your sites convert clicks to
+customers welcome to another episode of
+design
+[Music]
+review today we are lucky to be joined
+by my colleague Pete kumin thank you for
+joining Pete Pete previously was the
+co-founder of optimizely so Pete why
+don't you to tell us a little bit about
+uh optimizely optimizely builds
+experimentation software among other
+things and helps thousands of companies
+run AB tests so for example you can use
+optimizely to run an AB test where you
+compare several different versions of
+your homepage and then measure
+objectively which one of these gets more
+people to convert into customers and I
+saw firsthand how small changes can
+sometimes have a big impact on how your
+users behave awesome super relevant so
+Pete one of the things that I think
+we're going to be looking at for for a
+lot of these websites today is their
+conversion funnel or conversion flow
+maybe you can explain to everybody what
+do we mean when we say conversion funnel
+or conversion flow yeah sure so a
+conversion funnel is just a set of steps
+that a user has to take starting with in
+most cases landing on your website right
+and then maybe clicking learn more and
+entering their email address and maybe
+entering a credit card until they
+finally convert and that conversion
+isn't always a purchase it could just be
+entering an email but it's it's
+essentially whatever this company wants
+their users to do once they land on the
+website so from hitting the website to
+the goal that you have the primary
+action you want people to take all right
+well let's see how well these websites
+do that yeah all right first up we have
+rivet so let's take a look here rivet
+multiplayer Made Simple open source
+solution to deploy scale and operate
+your multiplayer game I'm being told to
+click the computer but also to click the
+sign up button so I'm a little confused
+about what I'm supposed to do but let's
+spend a bit of more time trying to
+figure out what this is well let's see
+here there's a lot of different call to
+actions here and the call to action is
+uh the button or the main action that
+you are encouraging people to take on
+your website so you're right we've got
+to click to start we've got a sign up
+we've got tutorials and templates we've
+got open rivet up here in the top Corner
+we've got a search bar although that's
+secondary we can star the Rebo star the
+re yeah so there's a lot of things
+competing for my attention here and I I
+think one of the things that that I've
+found is the more things that you have
+competing for somebody's attention the
+less likely it is that they're going to
+take any of those actions it's almost
+like a a paradox of choice basically I
+just think this isn't clear and uh the
+first thing I would probably experiment
+with is just reducing down to a single
+call to action and seeing what impact
+that had do they want me to sign up do
+they want me to play with what looks
+like maybe a demo I'm not sure yeah oh
+and they're asking you to open a second
+tab to play with I'm very curious about
+this um okay so we got click to start
+it's interesting one says sign up one
+says open so open makes me think that I
+can just open it and start using it
+right now sign up makes me think I need
+to sign up before I can then actually
+start using it I'm curious let's follow
+their click to start here and see what
+happens okay so maybe this is a video
+tanks press enter to join oh there you
+go okay ah so the ASD
+W so what I assume is happening here is
+this is showing their product that is
+actually making this a multiplayer mode
+although I don't see another player here
+so I assume that's what they're trying
+to show but it's not clear to me and I
+can't actually figure out how to play
+the game um so maybe some instructions
+would be um I'm curious what happens if
+you do open rivet so this opens a new
+tab learned guest 1876 looks like you're
+logged in as a GU okay so now it's
+asking me to register
+I'm just not sure what are we looking at
+is this rivet yeah I'm not sure it says
+gives you access to joining groups
+editing your profile adding friends and
+much
+more okay register it's asking for my
+email now what happens if we go back and
+we do sign up will this take me to the
+same
+page oh so this is a beta sign up this
+is different and I assume this is a type
+form yeah powered by type form okay so
+looks like there's some beta they're
+collecting email addresses on there's
+something that I can register to but I'm
+not sure exactly joining groups editing
+your profile and adding friends so is
+this to like be a participant in a
+game it's not clear to me serving
+millions of players at scale okay so
+it's being used by
+somebody so I assume this is targeted at
+developers and they've got docs up here
+yeah but I'm still not clear do you want
+me to play tanks do you want me to open
+rivet which asks me to sign up to join a
+community I guess or do you want me to
+sign up which make takes me to a beta
+seems like these should all just be one
+thing
+right I know what advice do you have for
+them to to improve this here well when I
+look at Pages like this I kind of ask
+two questions like one does this
+convince me that I want to sign up and
+then two does the sign up process talk
+me out of it and right now I'm still
+having a hard time kind of figuring out
+what this is and who
+for and as far as the signup process
+goes I'm still not clear even after
+we've played around with this what what
+the what this company wants me to do
+here and so I think that making it
+clearer basically what this thing is and
+who it's for and then giving me a clear
+call to action as a next step if I'm
+interested uh I think could have an
+impact here yep awesome thank you rivet
+for uh letting us check out your site
+thank you and next up we have
+decoherence let's let's take a look okay
+create what can't be filmed
+H right pretty abstract it looks like
+some kind of AI art maybe that looks
+like it maybe AI generated videos since
+they can't be filmed but I'm definitely
+guessing here yep okay here we go AI
+video generator bring any idea to life
+so this is clearer to me than what is
+currently above the fold at the top so
+maybe they want to move this up um
+okay and so we got a video here the call
+to action here is to start a free trial
+no credit card required all right that's
+a plus that helps um let's take a quick
+look through here all right let's check
+out the video
+[Music]
+sure all right so it looks like it's
+animating individual images right to
+create a video scene with panning camera
+um so I get sense of it it looks like a
+a real thing M and let's see use cases
+so oh yeah music videos there we go um
+footage stock footage educational
+content okay so it's giving me some
+ideas now I've got another try now okay
+text is all you
+need all right I like the big style here
+it's very visual which I think is
+important for a product like this um
+because people ultimately want to see
+how it works and so here we are and
+they're showing some of how you create
+these animations so that's cool um I
+like that they start basically with the
+outputs which seem actually really
+interesting and good and maybe convince
+me that I want to go through the trouble
+of understanding how the whole flow
+Works yep it looks like another thing
+that they do really well before we even
+click the button is they repeat the call
+to action throughout the page so if
+you're at the top you're like oh yeah
+this sounds cool start free trial I
+click it right there if I start
+scrolling down I learn a little bit more
+I'm like okay this is interesting oh and
+now there's a try now right there that I
+can click once I'm convinced if I'm not
+convinced I keep scrolling I get further
+down to the bottom start free trial
+again so they keep repeating the same
+call to action over and over which is
+likely going to increase the conversion
+rate so let's see what happens when we
+click on
+it welcome log into decoherence okay so
+it's just a Google
+login and we're in okay all right that's
+pretty easy yeah I think so sometimes
+we've seen that by offering lots of
+different signin options it actually can
+reduce the friction to getting people to
+sign up if I don't have to create
+another new username new password I have
+to remember store somewhere I can just
+connect with an existing login whether
+it's Facebook or Google or whatever else
+makes sense for your product that can
+increase conversion rates a lot and I
+like how everywhere on the homepage just
+kind of guided us into this exact same
+point yeah seems like we've gotten here
+should we try to create a new project
+that's sure sort of the first thing it
+looks like that we'd have to do here
+yeah choose CH your ASP sure one to one
+so one thing that's jumping out at me
+here is is that uh once we landed on the
+kind of projects page and now that we're
+in the product itself uh there's nothing
+really guiding us around and I might not
+be the best person to to look at a UI
+like this because I'm not a film editor
+and I don't have experience with tools
+like this but I'm I'm definitely on my
+own and I have to figure out a lot one
+thing that I've seen work well is adding
+kind of gentle guiders as as I kind of
+go through my first product experience
+showing me around maybe guiding me
+through the process of creating my first
+film or my first project yep it looks
+like they're maybe trying to do that a
+little bit here
+where this oh you're right that's not my
+video yeah says welcome to right I had
+the same reaction when I saw this which
+is is this the starter video here um
+that it's getting me to and it's it's no
+it seems to be this is the person who's
+going to show me around but that is not
+obvious
+um and they've got a red box here which
+I assume is drawing my attention but it
+almost makes it seem like there's an
+error oh that's interesting and there is
+actually an error down here scene does
+not have a description but like we just
+got here so um seems like that's a
+default State and I notice I've got some
+kind of coins up here which looks like
+some kind of credits or mon okay this is
+I guess the free trial yeah and there's
+the pricing yeah so what I like about
+this is It's reducing the friction to
+actually get you in and experience the
+product um I think whenever we see that
+usually one of the best ways to improve
+the conversion rate is to actually
+reduce the number of steps that it takes
+to get in the door every product has an
+aha moment where when the users see it
+they go oh wow this is amazing this is
+the thing that I've been looking for I
+have to use this and the problem is a
+lot of people Implement too many steps
+too many clicks too many things that get
+in the way and create more friction to
+getting there so what I usually
+recommend is if you actually go through
+and map out your conversion funnel every
+single step that a user needs to take
+from when they first land on your
+website until they get to that aha
+moment where they experience the value
+and figure out which ones you can
+actually cut which ones you're seeing
+drop off if you're measuring the
+conversion rate from one step to the
+next and you can usually figure out some
+really uh impressive low hanging fruit
+that you can do to improve the
+conversion rate all throughout your
+funnel MH and is a great point and you
+can also use those kind of analytics to
+figure out how far somebody needs to get
+before they're likely to sign up yep
+right and that's that's a great clue for
+when that aha moment actually happens
+for a lot of your users yeah I've seen
+this working with Founders in the past
+too where we we get on a whiteboard and
+we map out the conversion funnel and all
+the steps and the aha moment is at like
+step seven and they realize they don't
+actually need steps two four five and
+they cut them out and all of a sudden
+the aha moment becomes like step two yes
+and and things improve a lot from there
+one other thing that I want to show
+really quickly here that I thought was
+really good if we go back to um this is
+they're saying no credit card required
+and I think a lot of times it can be
+scary for users to say like start a free
+trial and and you go in the back of your
+head like uh how long you're going to
+try to upsell me or charge my credit
+card or I don't know if I can trust this
+and so if there's some objection that
+people have then you can address that
+right out of the gate right there on the
+page and just say oh no credit card
+required so that makes it almost a Nob
+brainer really low risk to click that
+button yep and I think just to add on to
+that while I'm still in this place where
+I'm trying to figure out what this is
+and do I actually want to go through the
+trouble of learning more and and going
+into the product one question I can
+imagine people asking is who else is
+using this thing and I didn't
+see I don't think I kind of saw any of
+those they had some use cases but it
+wasn't they made it up or if somebody
+else had used their product for it and
+so if there are great creatives that are
+using this product
+already this is a great place to tell me
+about that right and doesn't you know
+you don't have to do that some if there
+aren't there aren't right every startup
+starts somewhere uh but uh that's
+definitely an opportunity super cool
+thank you decoherence this was great all
+right next up we have solve intelligence
+let's see write patents with AI get high
+quality patents in less time request a
+full demo sounds like a sounds like a
+commitment yeah I might have actually
+missed that um it's it's very small
+relative to everything else yeah it's
+got the same color background like I was
+looking at this and then I was down at
+the moving demo um I guess there's not
+much else on the page here so no the
+contact us button is a lot more visible
+and that's way off to the side so that
+says something y yeah but again we have
+two different things like contact us or
+request a full demo it looks like just
+looking at the URL hovering they go to
+the same place which is the contact form
+yep so
+okay
+um so back here I get what this is from
+this one sentence description and then
+the sub headline
+here this shows me the product is real
+but I can't quite tell what's happening
+here I just put in a headline and it
+just writes out an entire patent for me
+I guess
+so pretty smart but if I had missed the
+first 10 seconds of that because I was
+reading the headline I think I'd be very
+confused if I just kind of jumped into
+the video at this point I think yeah I
+agree and to be honest I my reaction to
+this is a bit of skepticism is is all
+you need a headline to write a full
+patent yeah oh I see so it looks like
+they're they're dropping in some kind of
+PDF I don't know this this makes me ask
+more questions than it
+answers yeah yeah okay another thing I'm
+not quite sure is is who is this for is
+this is this is this for lawyers who
+want to spend less time writing Pats is
+it for people who don't want to have to
+hire a lawyer and they want to write
+their own thing maybe it doesn't matter
+I don't know yeah yeah it's not clear um
+I think one of the things you know if if
+you're going to show a screenshot or
+you're going to show a video of an
+actual product a lot of times it's hard
+for users to orient themselves around a
+scale down version of a screenshot
+showing all these like features and
+small text and and everything it's hard
+to figure out what's going on um and so
+usually what you want to do and it looks
+like they're doing it a little bit here
+is zoom in on the specific thing that
+you're trying to show and sometimes you
+can even um almost blur out the rest of
+it to make it really clear where the
+user should focus in um that can help uh
+people understand much faster yep text
+overlays as well and slowing down in
+these key points where it's very
+important that I understand maybe I
+don't know what is being dragged into
+there and what it's doing there's
+definitely an opportunity to to help
+bring us along better here yep and then
+you made a great Point earlier which is
+um social proof more evidence trust here
+is actually really important because
+this is about writing patents with AI
+and that's expensive to file and if I
+write a patent with them and I spend all
+this money to do it and it gets re Ed or
+something because the AI wasn't good
+enough or didn't write it in the right
+way I'm going to be upset and
+so something that convinces me that I
+can trust this either because other
+people use it or because you know 100
+patents have been approved that were
+written by this you know maybe it's too
+soon or the product's too early to tell
+but something like that would give me
+more confidence using this I think I
+think that's a great Point getting if
+the AI gets it wrong the downside is
+potentially enormous for something like
+this yeah and then if we go back to the
+request to demo I think this
+is up here they're starting to address
+your question around who is this for
+okay for everybody yeah so whether
+you're a patent attorney an inventor or
+just interested in what we're
+building um but putting that on the
+homepage I think would be helpful too
+many people won't make it to this step
+there going to be a lot of drop off
+there but is it usable you know all they
+have is contact us and request a full
+demo um and so it just takes me to this
+contact page where I have to fill out
+all this
+information um and so if there was some
+other way for them to maybe show me um
+like get me right into a demo live um
+maybe there's work they have to do to
+open that up I'm not sure y but that
+would make it easier if I could just
+jump right in start playing with it and
+figure out if I could trust it or not
+yep I agree yeah this is one where it
+seems like there's there's a lot of work
+they can do at the top of the funnel to
+increase the chances that someone's
+going to be willing to go through and
+fill out this form and convert yep
+awesome thank you solve intelligence
+okay next up we have in event let's
+check it out so let's see go beyond
+inperson events go be live live events
+with the ultimate all-in-one event
+management software for all
+events okay all right this one I like
+the call to action cuz they have enter
+your work email and book a meeting right
+there very clear we've definitely tested
+this in the past at my former company
+and if you have a button that says like
+book a meeting and then clicking that
+pops up a form to collect an email
+address if you actually just embed the
+form directly in the page it can
+actually significantly increase
+conversion rates believe it so I think
+this was smart yep and they've got the
+they've got some social proof right
+there they've created 1.1 million events
+presumably with this software MH uh I
+get the sense that this team knows what
+they're doing y run run live meetings in
+in real life
+experiences I'm not parsing that run
+live meetings in real life
+experiences TV like broadcasts or
+virtual events with the award-winning
+inevent platforms
+yeah that's a bit of a mouthful yeah I
+think I'm still a little confused on
+what this product does yes and I guess
+okay so like live broadcasting virtual
+workplace online classes fundraising
+I'm still kind of confused on if this is
+software to manage in-person events or
+if this is so like an online community
+or Zoom like thing to be able to
+broadcast events online yeah and the
+wording is like is very ambiguous about
+that go Beyond Live Events does that
+mean you just make your Live Events
+great or you're not doing live events at
+all and managing a virtual event yeah I
+am
+housing H trusted by over 900 cop okay
+okay here we go build event websites and
+landing pages and they have an email
+build oh go back I'm not ready to move
+yet custom email Builder and automation
+okay provides you with professional
+studio okay so it seems like it's kind
+of all those things oh this is out of 10
+so that's long just a small tweak here
+is that you you deliberately moved back
+and then they continued skipping you
+forward yeah yeah maybe a simple thing
+is if my mouse is hovering here don't
+Auto
+move it's funny how people do that like
+you'll use your mouse to kind of follow
+along with where you are and so it can
+be a good indicator for where people are
+actually paying attention yeah I think
+what I'm getting from this is that I
+have to read through 10 different
+paragraphs and 10 different screens to
+figure out what this product does which
+this is a lot yeah this is too
+much um and I think one of the things
+that we found in the past is that when
+you bury things behind tabs or a slider
+or something like that nine times out of
+10 it's not going to be seen like how
+many people are going to make it to 10
+out of 10 here and sit here like we did
+for 30 seconds or a minute most people
+will not do that yep um so if you have
+important stuff as nine out of 10 or 10
+out of 10 most people are just never
+going to see it yes so I would recommend
+the things that are most important
+distill down to the most important
+features and then put them all just
+directly down the page I think people
+will scroll agreed okay now we're at
+least getting into some specifics here
+where you know something like this I
+think would have been helpful up at the
+top yes okay and then here's who it's
+[Music]
+for did we just get past some actual
+case studies is that what that okay
+these are these are quotes from okay
+that's helpful yeah so clearly one of
+the things they have going for them is
+they've got a lot of people that are
+using this and they're doing a good job
+of showing that off like this feels like
+a real thing that a lot of people are
+using um let's take a look at some of
+the call to actions so this one good
+reinforced up here with a button book a
+meeting good same text same color uh
+makes it pretty clear scroll down it
+sticks that's great so no matter where
+you are you can always click on that
+button to find the call to action I
+really like how clear this team has made
+it that they have a lot of people using
+this software it's probably the single
+most important thing on this homepage
+and uh like you mentioned there's a
+clear call to action and they've gotten
+rid of what looks like almost all the
+friction in taking it so that seems
+really positive um there's definitely
+some fit and finish things here with
+just links that might be a little broken
+or maybe confusing once we scroll down
+things got a little more confusing and I
+would love to just see this same kind of
+clarity of purpose that we see right
+here reflected through this entire
+landing page I think being more specific
+about what they do right up front it
+seems like they do a lot and they've
+probably been around for a while you
+know building out a a really full
+featured product and they want to show
+that off um which is you know virtual
+events webinars all these different
+things um but I think being even more
+specific will make it more obvious if
+this is something that I could use yes
+yeah for example instead of go Beyond
+Live Events just event management
+software for Live Events webinars like
+even that would have made it much
+clearer to us yep awesome nice work in
+event all right that does it for this
+episode Pete thank you for joining us it
+was awesome yeah it was great to have
+you you really appreciate it and thank
+you to all the founders for submitting
+your websites and uh definitely let us
+know down in the comments if there are
+any uh tips or reviews that you found
+especially helpful it will definitely
+help shape future episodes thanks for
+watching and we will see you on the next
+design
+review

@@ -1,0 +1,639 @@
+Title: The REAL potential of generative AI
+Video ID: hQC5O3WTmuo
+URL: https://www.youtube.com/watch?v=hQC5O3WTmuo
+Channel: Y Combinator
+Published: 2023-02-28T15:53:15Z
+Duration: PT20M3S
+Views: 485619
+Likes: 9599
+Tags: YC, Y Combinator, yt:cc=on
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 618
+
+Description:
+What is a large language model? How can it be used to enhance your business? In this conversation, Ali Rowghani, Managing Director of YC Continuity, talks with Raza Habib, CEO of Humanloop, about the cutting-edge AI powering innovations today—and what the future may hold. 
+They discuss how large language models like Open AI's GPT-3 work, why fine-tuning is important for customizing models to specific use cases, and the challenges involved with building apps using these models. If you're curious 
+
+============================================================
+TRANSCRIPT
+============================================================
+
+you've heard of large language models
+like chat gbt chat GPT chat GPT chat GPT
+they can answer questions write stories
+and even engage in conversation but if
+you want to build a business that uses
+this technology you'll need to ask
+yourself an important question how do I
+take this role model and this raw
+intelligence and actually customize this
+to my use case how do I make it really
+good for my user so that it's
+differentiated and better than what's
+out there this is Raza Habib his company
+human Loop enables large language models
+to have even greater superpowers we can
+help you build differentiated
+applications and products on top of
+these models the range of use cases is
+that now feels to be more limited by
+imagination than it is limited by
+technology you can replicate your exact
+writing style customized tone fact check
+answers and train the model on your
+company's unique data we really hope
+that this is a platform on top of which
+you know the next million developers can
+build llm applications in our
+conversation we explore the secrets to
+building an app that stands out what
+made it so good that a million users
+signed up in five days was a fine-tuning
+exercise the impact of generative AI on
+developers they're you know finding a
+significant fraction of their code is
+being written by a large language model
+and what the future of large language
+models might bring to society as a whole
+it's an ethical Minefield there are
+going to be societal consequences on the
+path to AGI potential benefits are huge
+as well but we do need to tread very
+carefully
+let's start like Basics and high level
+like what is a large language model and
+why is it that they've suddenly sort of
+made a splash I assume they've been
+around a lot longer than the past year
+or two yeah so language models
+themselves are are really old Concepts
+and old technology and really all it is
+is a statistical model of words in
+English language you take a big bunch of
+texts and you try to predict what is the
+word that'll come next given a few
+previous words so the cat sat on the mat
+is the most likely word and then you
+have a distribution over all the other
+words in your vocabulary as you scale
+um the language models both in terms of
+the number of parameters they have but
+also in the size of the data set that
+they're trained on it turns out that
+they continue to get better and better
+at this prediction task eventually you
+have to start doing things like having
+World Knowledge you know early on the
+language model is learning letter
+frequencies and word frequencies and
+that's fairly straightforwards and
+that's kind of what we're used to from
+predictive text on our phones but if the
+language model is going to be able to
+finish the sentence today the president
+of the United States acts it has to have
+learned through the president of the
+United States is if it's going to finish
+a sentence that's a maths problem it has
+to be able to solve the immense problem
+and so where we are today is that you
+know I think starting from GPT one and
+two but then gbd3 was really the one
+that I think everyone said okay
+something is very very different here we
+now have these models of language that
+they're just models of the words right
+they don't know anything about the
+outside world there's loads of debates
+about whether they actually understand
+language but they are able to do this
+task extremely well and the only way to
+do that is to have gotten better at
+under you know some form of reasoning
+and some form of knowledge what are some
+of the challenges of using a pre-trained
+model like chat CPT so one of the big
+ones is that they have a tendency to
+confidently or hallucinate
+stuff I think Matt Friedman describes as
+alternating between spooky and kooky
+sometimes it's so good that you cannot
+believe the large language model was
+able to do that and then just
+occasionally it's horrendously wrong and
+that's just to do with how the model is
+originally trained they're trained to do
+an expert prediction and so they don't
+necessarily know that they shouldn't be
+uh dishonest yeah sometimes they get it
+wrong sometimes they get it wrong but
+the danger is that they they confidently
+get it wrong so uh and very persuasively
+you know very authoritatively they get
+it wrong and so people might you know
+mistakenly trust these models
+um so there's a couple of ways that you
+can you know hopefully fix that and it's
+an open research question but the way we
+can help you with with human Lube to do
+this today is we make it very easy to
+pull in a factual context to The Prompt
+that you give to the model and so the
+model is much more likely to use that
+rather than make something up and so
+we've seen that as a very successful
+technique for reducing hallucinations
+terrific and this is a an element to
+building a differentiated model for your
+use case absolutely add an element for
+making it safe and reliable right yeah
+you know I think when chat GPT came out
+there was a lot of frustration from
+people who didn't like its personality
+the tone was a bit obsequious and it's
+you know it'll defer it doesn't want to
+give strong opinions on things
+and and to me that demonstrates the need
+for you know many different types of
+models and tone and customizations
+depending on the use case and depending
+on the audience and we can help you do
+that can you talk a little bit about
+what it means to fine-tune a model and
+and why that's important if you look at
+what the difference is between chat GPT
+or the most recent openai text DaVinci 3
+model and uh what's been in the platform
+for two years and has not gotten as much
+attention the difference is fine-tuning
+like it's the same base model more or
+less they took you can see it on the
+open a website it's one of their code
+pre-trained models and what made it so
+good that a million users signed up in
+five days was a fine-tuning exercise and
+so what fine-tuning is is gathering
+examples of the outputs you want
+um first for the tasks that you're
+trying to do and then doing a little bit
+of extra training on top of this base
+model to specialize it to that task what
+opening I I think did first and others
+have followed to do is to first uh do a
+fine-tuning round of these models on in
+input and output pairs that are actually
+instructions and the results that you
+would like from the instructions so
+there's a human generated pairs of data
+and then to further fine-tune the model
+using something called reinforcement
+learning from Human feedback where you
+get human preference data so you show
+people a few different Generations from
+the model ask them to rank them or
+choose which of two they prefer and then
+use that to train a signal that can
+ultimately fine-tune the model and it
+turns out that reinforcement learning
+from Human feedback makes a huge
+difference to Performance like it's
+really hard to to understate that in the
+instruct GPT paper that openai released
+they compared you know a one or two
+billion parameter model with instruction
+tuning and rhf to the full gpt3 model
+and people preferred that despite the
+fact it was a hundred times smaller
+anthropic had this very exciting paper
+just a couple of weeks ago where
+actually were able to get similar
+results to rhf without the H so just
+actually having a second model provide
+the evaluation feedback as well and
+that's obviously a lot more scalable and
+what data do developers need to bring in
+in order to fine-tune a model
+so there's this kind of two types of
+fine tuning you might do they might just
+show up with you know a corpus of books
+or some background they just want to
+fine-tune for tone they have their
+companies chat logs or tone of voice
+from marketing Communications and they
+just want to adjust the tone right or
+all the emails they've sent all the
+emails they've sent for example that's
+kind of almost extra pre-training I
+would think about it as but it's fine
+tuning as well and then the other
+fine-tuning data comes actually from in
+production usage so once they have their
+app being used they're capturing the
+data that their customers are providing
+they're capturing feedback data from
+that and in some sense it's it's being
+automated at this point right like human
+Loop is taking care of that data capture
+for you and it's making the fine tuning
+easy so you have an interaction with a
+customer that you're that the llm
+produces and the customer sort of gives
+a thumbs up or thumbs down as to whether
+that was helpful to give you a concrete
+example you know imagine you give the
+email example imagine that you're
+helping someone draft a sales email
+um and so you generate a first draft for
+them and then they either send it or
+they don't so that's like a very
+interesting piece of feedback that you
+can capture they probably edit it so you
+can capture the edited text and they may
+be or get a response or they don't get a
+response to all of those bits of
+feedback are things we would capture and
+then use to drive improvements of the
+underlying model got it if a developer
+is trying to build an app using a large
+language model and is doing it for the
+first time what problems are they likely
+to encounter and how do you guys help
+them address some of those problems okay
+so we typically help developers with
+kind of three key problems one is
+prototyping evaluation and finally
+customization maybe I can sort of talk
+about each of those so at the early
+stages of developing a new large
+language model product you have to try
+and get a good prompt that works well
+for your use case that tends to be
+highly iterative you have hundreds of
+different versions of these things lying
+around managing the complexity of that
+versioning experimenting that's
+something we help with then the use
+cases that people are building now tend
+to be a lot more subjective than you
+might have done with machine learning
+before and so evaluation is a lot harder
+you can't just calculate accuracy on a
+test set and so helping developers
+understand how well is my App working
+with my end customers is the next thing
+that we really make easy and finally
+customization everyone has access to the
+same base models everyone can use gpt3
+but if you want to build something
+differentiated you need to find a way to
+customize the model to your use case to
+your end users to your context and we
+make that much easier both through fine
+tuning and also through a framework for
+running experiments we can help you get
+a product to Market faster but most
+importantly once you're there we can
+help you make something that your users
+prefer over the base models that seems
+pretty fundamental I mean it's
+prototyping and getting you the first
+versions out testing and evaluation and
+then differentiation this seems pretty
+fundamental to to building something
+great I think so I mean we really hope
+that this is a platform on top of which
+you know the next million developers can
+build llm applications and we've worked
+really closely with some of the first
+companies to realize you know the
+importance of this understood the pain
+points they had and you know in a proper
+YC approach have have tried to build
+something that those people really
+wanted and I think we got to a point
+that now we're seeing from other is that
+it really does solve acute pain points
+for them and it doesn't really matter to
+us what base language model you're using
+we can help you with the data feedback
+collection with fine tuning with
+prototyping and that those problems are
+going to be this you know very similar
+across different models and really we
+just want to help you get to the best
+result for your use case and sometimes
+that'll mean choosing a different model
+I wanted to ask how is the job or role
+of a developer likely to change in the
+future because of this technology it's
+interesting I've thought about this a
+lot I think in the short term
+um it augments developers right you can
+do the same thing you could do faster to
+me the most impressive application we've
+seen of the large language model so far
+is GitHub co-pilot I think that they
+cracked a really novel ux and figured
+out how to apply a large language model
+in a way that's now used by I think 100
+million developers and many people I
+speak to who say that they're you know
+finding a significant fraction of their
+code is being written by a large
+language model and I think if you'd ask
+people will that happen two years ago no
+one wrote that on there one thing that
+is surprising to me is that the people
+who say to me they use it the most are
+some of the people I consider to be
+better or more senior developers you
+might have thought this tool would help
+Juniors more but I think people who are
+more accustomed to editing and reading
+code actually benefit more from the from
+the completions so short term it just
+accelerates us and allows us to do more
+um on a longer time Horizon you could
+imagine developers becoming more like
+product managers in that they're writing
+the spec they're writing the
+documentation but more of the grunt work
+and more of the boilerplate is taken
+care of by models
+um I don't know long enough time Horizon
+I mean there's very few jobs that can be
+done so much through just text right
+we've like really pushed it to the
+extreme we've got GitHub and you have
+remote work Engineers can do a lot of
+their jobs entirely sitting at a
+computer screen and so when we do get
+towards things that look like AGI I
+suspect that developers will actually be
+one of the first jobs to see large
+fractions of their job be automated
+which I think is very counter-intuitive
+um but also predicting the future is
+hard so yeah what do you think the next
+breakthroughs will be in llm technology
+ah so I actually think here the roadmap
+is like
+quite well known almost like I think
+there's a bunch of things that are
+coming that we are kind of baked in we
+know they're coming we just have to wait
+for it to be achieved one thing that I
+think developers will really care about
+is the context window so at the moment
+when you sort of use these models as a
+limit to how much information you can
+feed it every time you use it and
+extending that context window is going
+to add a lot more capabilities one thing
+that I'm really excited about is
+actually augmenting large language
+models with the ability to take actions
+and so we've seen a few examples of this
+that's a startup called Adept AI that
+are doing this and a few others where
+you essentially let the large language
+model decide to take some tasks so it
+can output a string that says you know
+search the internet for this thing and
+then off the basis of the result
+generate some more and repeat so you
+actually start treating these large
+language models much more like agents
+than just text generation machines well
+if something we have to sort of expect
+or look forward to is uh you know AI
+taking actions can this technology just
+fundamentally be steered in a safe and
+ethical Direction and how
+oh gosh that's a tough question
+um
+I certainly hope so
+um and there are and you know I think we
+need to spend more time thinking about
+this and working on it than we currently
+do because as the capabilities increase
+it becomes more pressing
+um
+there's there's a lot of different like
+angles to that right so there are people
+who worry about just like end safety so
+people like Elias utakovski just like in
+order to distinguish himself from just
+normal AI safety he just talked about AI
+not kill everyone right like he thinks
+the risks are potentially so large that
+this could be an existential threat and
+then there are just the shorter term
+threats of social disruption people feel
+threatened by these models there are
+going to be societal consequences even
+to the weaker versions on the path to
+AGI that raise serious ethical questions
+um the models bacon biases and
+preferences that were in the model and
+the data and the team that built it at
+the time that it was being constructed
+um so there are it's an ethical
+Minefield
+um I don't think that means we shouldn't
+do it because I think the potential
+benefits are huge as well but we do need
+to tread very carefully how strong is
+the network effect with these models in
+other words
+um
+is it the case that the in the future
+there may be one model that sort of
+rules them all because it will be bigger
+and hence smarter than anything anyone
+else could build or or is that not the
+dynamic that's at play here so I don't
+think that's the dynamic that's at play
+here
+um like to me the barriers to entry of
+training one of these models are mostly
+capital and talent
+um like the people needed are still very
+specialized and very smart uh and you
+need lots of money to pay for gpus
+um but beyond that I don't see that much
+secret sauce right like the you know
+opening eye for all the criticism
+criticism they get they actually have
+been pretty open and deepmind have been
+pretty open they've published a lot
+about how they've achieved what they've
+achieved and so the main barrier to
+replicating something like gpt3 is can
+you get enough compute and can you get
+smart people and can you get the data
+and more people are following on their
+heels
+um there's some question about you know
+whether or not the feedback data might
+give them a flywheel I'm a little bit
+skeptical of that that it would give
+them so much that no one could catch up
+why that seems pretty compelling if like
+if they have a two-year Head Start and
+yeah thousands and thousands of apps get
+built then the lead they have in terms
+of feedback data would seem to be pretty
+compelling so I think the feedback data
+is great for narrower applications right
+like if you're building an end user
+application then I think you can get a
+lot of differentiation through feedback
+and customization but they're building
+this very general model that has to be
+good at everything yeah
+um and so they can't kind of like let it
+become bad at code whilst it gets good
+at something else which others can do I
+see got it now let me ask you probably
+the hardest uh question here
+um open ai's mission is to build AGI
+artificial general intelligence so that
+machines can be at the cognitive level
+of humans if not better do you think
+that's within reach like the
+breakthroughs recently mean that that's
+closer than people thought
+um or is this still for the time being
+science fiction so there's a huge amount
+of uncertainty here and if you pull
+experts you get a wide range of opinions
+even if you pull the people who are
+closest to it if you chat to Folks at
+openai or other companies you know
+opinions differ but I think compared to
+most people's perception in the public
+people think it's plausible sooner than
+than I think a lot of us thought so
+there are prediction markets on this
+metaculous sort of pulse people on How
+likely they think AGI will be and I
+think the median estimate something like
+2040. and if you even if you think that
+that's plausible
+um that's remarkably soon for a
+technology that might you know up upend
+almost all of society what is very clear
+is that you know we are still going to
+see very dramatic improvements in the
+short term and even before AGI a lot of
+societal transformation a lot of
+economic benefit but also questions that
+we're gonna have to wrestle with to make
+sure that this is a positive for society
+um so yeah I think on the the short end
+of timelines you know there are people
+who think 2030 is plausible but those
+same people will accept there's some
+probability that it won't happen for
+hundreds of years you know there's a
+there's a distribution if you take it
+seriously you know I think you should
+take it seriously
+and it's very hard to take it seriously
+even like having like made that choice
+of like I'm going to accept that by 2030
+it's plausible that we will have
+machines that can do all the cognitive
+tasks that humans can do and more
+and then you ask me like okay Reza like
+are you building your company in a way
+that's like obviously going to make
+sense in that world of like I'm trying
+but it's really hard to internalize that
+intuitively
+Stuart Russell has a point where he says
+you know if if I told you an alien
+civilization was going to land on Earth
+in 50 years you wouldn't do nothing and
+there's some possibility that you know
+we've got something like an alien
+arriving
+soon right soon an alien arriving soon
+yeah you heard it here first
+um so uh let me ask you what is what is
+this new technology mean for startups oh
+man it's unbelievably exciting it's
+really difficult to articulate there's
+so many things that previously required
+a research team for and that felt just
+impossible that now you just ask the
+model like honestly stuff that during my
+PhD I didn't think would be possible for
+years or that I spent trying to solve
+problems on where you want to have a
+system that can generate questions or
+can do something or be a really good
+chat bot like chat GPT like a realistic
+one that can understand context over
+long ranges of time not like Alexa or
+Siri that's a single message
+um the range of use cases is like now
+feels to be more limited by imagination
+than it is limited by technology and
+when there is a technology change dis
+abrupt where something has improved so
+much and YC teaches this right there's
+sort of a few different things that open
+up opportunities for new applications
+um and we're beginning to see it you
+know a sort of Cambrian explosion of new
+startups I think the latest YC batch has
+many more startups we see it at human
+Loop we get a lot of uh inbound interest
+from companies that are at the beginning
+of their Explorations and trying to
+figure out how do I take this raw model
+and this raw intelligence and actually
+turn that into a differentiated product
+you know hopefully we have some AI
+Engineers or aspiring AI Engineers uh
+listening today and might be interested
+in working at human Loop are you guys
+hiring and and you know what kind of uh
+culture and Company you're trying to
+build we we absolutely are hiring we're
+hoping to build a platform that's you
+know potentially one of the most
+disruptive Technologies we've ever had
+and that ideally will be used by
+millions of developers in the future
+um and there's going to be a lot of
+doing stuff for the first time uh and
+also inventing novel ux or UI
+experiences so full stack developers
+were comfortable like genuinely really
+comfortable up and down the stack I do
+deeply care about the end user
+experience who will enjoy speaking to
+our customers and they're fun customers
+to work with because we're working with
+startups and AI companies who are really
+on The Cutting Edge they're really
+innovators
+um you know if that if that sounds
+exciting to you it will be very hard
+lots of it will be very new
+um but it'll also be very rewarding well
+this has been really fascinating uh I
+think what my crystal ball says is that
+one day in the future uh literally
+millions of developers will be using
+your tools to build great applications
+using AI technology so I wish you luck
+and thank you again for your time thank
+you ollie it's been an absolute pleasure
+[Music]
+thank you
+[Music]

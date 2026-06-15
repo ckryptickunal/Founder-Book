@@ -1,0 +1,846 @@
+Title: Jim Goetz and Jan Koum at Startup School SV 2014
+Video ID: 8-pJa11YvCs
+URL: https://www.youtube.com/watch?v=8-pJa11YvCs
+Channel: Y Combinator
+Published: 2014-10-14T16:12:17Z
+Duration: PT29M13S
+Views: 37671
+Likes: 349
+Tags: Y Combinator, Startup School SV 2014, YC, SUS2014, Jim Goetz, Jan Koum, Startup School
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 824
+
+Description:
+Jim Goetz and Jan Koum at Startup School Silicon Valley 2014
+
+View the annotated transcript, and add annotations of your own, on Genius: http://tech.genius.com/Jim-goetz-jim-goetz-and-jan-koum-at-startup-school-sv-2014-annotated
+
+============================================================
+TRANSCRIPT
+============================================================
+
+so this is really cool uh this is the
+first time we have had uh a founder and
+a board member up here together and I
+think it'll be a really interesting talk
+for that it's also the first time these
+two guys have ever spoken together and
+potentially last hopefully not um so
+there is a lot to talk about here uh
+this is you know one of the most
+exciting startups of the last many years
+um but before we jump into what happened
+with WhatsApp I want to talk a little
+bit about Yan's background um uh so
+maybe you could talk about sort of
+growing up in Ukraine and that
+influenced your thoughts about coming to
+Silicon Valley and startups and WhatsApp
+uh sure so uh thanks for having thank
+you for coming here is exciting to see
+so many people here um yeah I grew up in
+Ukraine and I came to United States in
+1992 uh I was 16 at a time and I've left
+you know my dad stayed in Ukraine and
+I've left a lot of friends and people I
+went to school with and so uh part of it
+part of what I experienced was it was
+really hard to kind of keep in touch
+with people you know back then like
+think back to 1992 there is no internet
+there's no emails there's no Skypes
+there's nothing you just you just have a
+phone you don't even have a cell phone
+for the most part you just have like
+this landline and you know to call
+somebody have to like sign up with MCI
+or AT&T and it was just like all this
+kind of like weird weird international
+dialing stuff you had to do and and uh I
+think part of it is part of that
+influenced me and then I think also
+growing up in a country where um
+education was really valuable and there
+was a lot of kind of focus on just uh
+learning and studying uh influ in me
+like I came here and I was able to
+quickly start learning about computers
+and pick up computer science um and also
+growing up in a country which didn't
+have a whole lot of kind of advertising
+it was very kind of clean very uh basic
+life and then you uh actually we have a
+slide of this I think
+work all right
+uh we got Yan's resume wow
+um okay so you have a somewhat
+non-traditional path to starting a
+company or at least uh in the current
+world I think this is probably how it
+happened for a long time um you spent it
+looks like nine years at yah nine years
+at Yahoo uh and you also dropped out of
+college to join Yahoo right you have
+that in common Sam yeah well I think get
+to start WhatsApp um so I was wondering
+if you could talk about sort of your
+your path from how you decided to drop
+out of college and go to Yahoo and then
+how your experience at Yahoo shaped uh
+what'sapp and how you came together with
+Brian there sure I actually the funny
+story about me and and Brian is that we
+met even before joined yahu because he
+he technically interviewed me he was my
+co-founder was actually one of the
+people who interviewed me back in 1998
+and I think we also Matt earlier when I
+worked at uh this interesting young
+auditing auditing company I was doing
+like computer security audits um and so
+I was actually recruited in tahu by one
+of the co-founders at yaho David Pho who
+I worked with for a long time and who
+was a big role model and a mentor in in
+many ways uh because when I joined Yahoo
+it was still a pretty small company we
+had like maybe 500 servers or 400
+servers and over nine years we grew to
+thousands of servers and so to see that
+growth and to experience all the
+technical issues that you have to deal
+with um when it comes to scaling the
+company was was extremely uh useful when
+we ended up uh starting WhatsApp because
+we didn't have to uh make the same
+mistake twice we were able to basically
+uh look at what worked at yaho and what
+didn't work at Yahoo and we're also able
+to tap into our Network we had a really
+good network of very skilled very senior
+server Engineers who joined us at
+whatsapp some who already left yaho at a
+time some who were still at yaho that we
+were able to recruit and convince them
+to to join us and we were able to have
+this very small team of Engineers um
+supporting obviously a lot of users at
+whatsapp because we learned so much
+about scaling and managing servers and
+so that experience and that mentorship
+from David uh and Jerry at yaho was
+really valuable to us how many Engineers
+did you have at the time of the WhatsApp
+acquisition Engineers probably 20 25ish
+supporting about 400 million active
+users yeah that's pretty incredible so
+just a couple quick anecdotes about uh
+Yan's resum he didn't know we were going
+to present it today this was in the
+Sequoia archives we collect resumés at
+times and try to share them with the
+portfolio but a lot of you are thinking
+about starting starting a company which
+is wonderful but I also think Yan took a
+different path he actually joined a
+great company during their growth years
+and I think learned a great deal from
+David Pho and just the whole experience
+in fact much of the approach to
+leadership that I think Yan embraced at
+whatsapp was formed at Yahoo he watched
+Yahoo hire hundreds of Engineers every
+month and realized the lack of focus was
+creating challenges for the company and
+then over time Yahoo as they look to
+monetize as a public company spent a lot
+of energy on Advertising which created a
+distraction if you will for the consumer
+and I think Yan's passion around
+Simplicity and no advertising and also
+just the approach to focus came from
+that experience at Yahoo I want to share
+one FAL anecdote for those of you that
+are um looking at Crucible moments Jan
+was at San Jose State in a computer
+science class and Philo called him and
+said where the [ __ ] are you and Yan said
+well I'm I'm in class and David said get
+your ass in here and that was a crucible
+moment I think set Yan on this wonderful
+journey and I I think it's great to have
+kind of FAL in the mix and yeah David
+claim doesn't remember that ever
+happening but I think that was what
+probably caused me to drop out I was
+like well okay I guess I have a real job
+to do so like you you were working while
+you were still a student I was trying to
+do both I was trying to like go to
+school parttime and work full-time and
+and that only lasted for about two weeks
+and I was like well [ __ ] I really love
+working at Yahoo and so we're using
+FreeBSD operating system which was a
+really passionate and still am I'm
+really passionate about and it was like
+a dream job for me and the learning
+experience that I was getting there was
+just like mind-blowing can can you tell
+us about the moment that you decided to
+start this
+company well so the interesting thing is
+that I don't think I ever decided to
+start a company in fact now that I look
+back I was like well I never thought
+that I'll be starting a company I
+thought I was just I would be building a
+product and I think a lot of great
+companies actually start out that way
+people just want to build a products
+they not thinking of starting a company
+because starting company requires it you
+have a general consult bis def team and
+they Char and you have to look for
+office space and have to make sure your
+employees are getting paid it's just
+it's it's a lot of kind of complicated
+and you've been there you've done that
+it's it's very um not that exciting as
+compared to building a product and so we
+started out just trying to build um a
+messaging app and you know now looking
+back I must have been so naive to things
+that I could build an app that millions
+of people would use I was just like oh
+yeah it's easy to do right this turns
+out it's not so easy we had a lot of
+challenges during the way on our way but
+it basically started out with me buying
+an iPhone in January of 2009 um I took a
+year off after Yahoo and I kind of
+travel and spent a lot of time just
+figuring out what to do and uh in
+January of 2009 I bought an iPhone and
+this was literally like three or four
+months after SDK uh for iOS came out and
+people were trying to figure out what
+they can do with it and uh we started
+just playing around was was the uh phone
+and SDK and trying to build bu an app
+and our original idea was actually not
+messaging our our original idea was a
+status indicator I don't know if if a
+lot of people know about this but
+because we built all this quality code
+that could figure out who your contacts
+are who your who your um friends are for
+based on your contact list we were able
+to Pivot into messaging because we
+already had that Foundation we had a Ser
+piece written and we had the client code
+written for iPhone and so in the summer
+of 2009 when when the status thing
+wasn't working out so well for were like
+well let's try messaging and we were
+able to just kind of put the backand
+piece and drop it in and and just go
+from
+there so uh I I forget exactly when you
+two met each other and decided to work
+together um but I know it happened sort
+of relatively quietly and there weren't
+a lot of people paying attention and I'd
+love to just hear the story of how you
+guys met and and decided to partner
+together well to be clear I don't think
+Jan was interested in talking to anybody
+in the investment Community nor anybody
+in the carrier community including CEOs
+or handset manufacturers including CEOs
+he essentially ignored those emails and
+he had phenomenal focus on any customer
+email but certainly my initial emails
+were rebuffed without a reply no
+response at all
+uh eventually clearly I did
+respond there were enough people at
+Yahoo that uh I think we collectively
+knew together uh along with Brian where
+we eventually were able to secure a
+brief interaction uh at the Red Rock
+Cafe for the those of you that are in
+Mountain View and uh Yan was an aini and
+his first
+uh stare was a bit intimidating and I
+didn't get him to smile for maybe five
+minutes and I thought I'm definitely in
+trouble I remember Red Rock that that
+definitely happened and and I
+remember um I have an amazing coffee by
+the way um and uh yeah I remember our
+our interactions and we were trying to
+figure out uh me and Brian has always
+kind of focused on building a company
+and building a product that can sustain
+itself and uh we were actually getting
+Revenue at that point already because
+our iPhone app was paid and uh our other
+platforms were free we were actually
+doing Blackberry in Nokia I don't think
+we had Android at the point yet um but
+uh we were probably one of the few
+companies that decided to build for for
+Blackberry and Nokia at the time and I
+think that gamble paid off for us
+because a lot of those people who were
+using Nokia five years ago who were
+WhatsApp users and now using Android or
+iOS and they're they're keeping uh
+they're still using Whatsapp because of
+the connections and group chats that
+they have um but uh you know I think uh
+we we were able to um choose our uh
+partnership and our investors because we
+were able to monetize our IOS app we
+were actually having revenue and we were
+able to pay for electricity and pay for
+servers and pay salaries to some of our
+early employees and so we weren't in the
+this situation we're like well we need
+to raise money otherwise we're going to
+go out of business tomorrow so we were
+we were able to kind of Leverage um our
+situation and take our time and make
+sure that we carefully partner with the
+people who we think will support us in
+building what we were set out and do you
+remember what about Jim and Sequoia made
+you want to partner with
+them well I think um I think nervous
+laughter from Jim I I think squa in
+general is is I mean first of all they
+they've been an amazing partner for us
+uh but I think in General if you look at
+the history of squa um you know they've
+supported companies like uh Cisco and
+Apple and Google and yaho and
+and I I think growing up in Silicon
+Valley and I lived here for 22 years
+there's there is this Heritage that uh
+SE has that um and pedigrees that a lot
+of um
+other Venture funds don't have and I
+remember I remember sitting uh after we
+got a few different term sheets I
+remember sitting and talking to Brian
+and uh I was like uh we were trying to
+figure out what to do I was like Brian
+look like five years ago if somebody
+told us we would have a term shet from
+sequ and we were starting this company
+we would be like nobody would believe us
+we wouldn't believe this ourselves and
+now we have this opportunity we should
+just we should just do it and go for it
+um and
+so we also got some advice I mean Jeff
+Ron who who was one of our coor
+co-workers at yaho I remember me and
+Brian drove over to Jeff Ron's house
+uh it was like 11:00 p.m. it was like
+the scene from James Bond movie because
+nobody knew about us and we didn't want
+to tell anybody we were raising we
+didn't want to get any attention and we
+got to his SC at 11:00 p.m. when
+everybody was asleep and like Joff was
+kind of looking at very ches and he goes
+like sequ company is always a sequ
+company and we're like okay well that
+makes
+sense kind of and and Jim what about
+what's that made you so excited at that
+point well look we were looking at the
+messaging space so we were at the time
+um we had built a system we called early
+bird that was tracking the activity on
+the app stores and WhatsApp had become
+dominant globally not in the US in fact
+they were well down the charts in the US
+but in maybe 35 of 60 countries who were
+moning at the time there were one or two
+and uh we had been looking at the
+messaging space and group messaging and
+had concluded that uh this pay model
+they had crafted and just the utility
+experience it reminded me and many of my
+partners at Chrome just the simplicity
+and then for the next few months it was
+all about trying to get to Jan and Brian
+because they didn't have an address that
+was publicly available there was no
+signage on the building I knew that they
+were in Mountain View but we we
+literally walked the streets of Mountain
+View to see if we could intersect with
+these guys you actually had people just
+sequ Partners walking down the street it
+was actually the partners walking around
+yes but but I'll say this about Brian
+and Yan Yan's being too modest the level
+of focus we all talk about Focus but the
+level of focus that Yan had at WhatsApp
+to the product and to the client is
+absolutely shocking I've never had an
+entrepreneur as focused as Yan and
+whether it was Executives from various
+companies or CEOs or Partners from
+various firms Yan ignored the vast
+majority of that activity including the
+pr inbound and stayed focused on the
+product and I think that served the
+culture incredibly well well we just
+didn't have time we were such a small
+team you know Brian and me would spend
+hours answering customer support emails
+right so you know you spend how long did
+that last how many users did WhatsApp
+have the last time you answered
+regularly answered customer support
+emails I still do a little bit today
+obviously I don't spend hours answering
+customer support emils today but people
+who write into me somehow as I find my
+emails they write in and I try to answer
+and try to help and I still run zphone
+beta program to this day so uh but I
+think at around 150 to 100 million we
+started hiring like dedicated customer
+support folks
+and and and we we actually have we
+actually have a lot of we focused a lot
+uh on our customer support and
+localization our customer support team
+is is probably one of the most diverse
+teams that exist because we have to
+support Italian French Turkish Arabic
+Hebrew all these languages and they they
+help users and they translate the app at
+the same time so this is actually
+something that I want to dig in on uh
+you know WhatsApp had this approach that
+was very different than most startups um
+you know like ignoring seoa is not
+something most startups do ignoring the
+Press is not something most most
+startups do um charging for a consumer
+product uh I remember in like you know
+2011 or whatever people would still say
+well what'sapp is never going to work
+because they charge a dollar and it's a
+viral app and that's just going to kill
+it right there so how how did this sort
+of culture of being sort of like anti
+sort of Silicon Valley standards come
+about and how important was that to the
+company um I think well first of all me
+and Brian are Engineers so by definition
+we just hate meetings we just want to
+like sit behind our computer and just do
+[ __ ] work right it's just like don't
+don't yeah don't make us go to meetings
+please like
+um and so and so when when you have to
+meet press or you have to meet uh other
+people you know it takes you away from
+being in front of your computer getting
+work done and when when you're running
+at 80 to 90 hours a week speed and all
+you do is want to work you don't have a
+lot of time to to take meetings um the
+thing about uh charging is actually very
+interesting we used uh this lever to
+charge to actually slow our growth and I
+know it sounds very counterintuitive
+because like well why would you want to
+slow your growth um we wanted to slow
+our growth so we could better support
+our existing users so we could build
+servers that don't crash so that we
+could build product that doesn't drop
+messages so that we could answer their
+customer support emails and you know a
+lot of people were telling us what you
+doing is wrong you should really be
+growing as fast as you can and we're
+like no no no no we want to build the
+infrastructure first and and it's it's
+very similar a little bit to Facebook in
+early days they were doing colleges only
+um and they weren't open to to the
+entire world uh and that that's kind of
+similar to what we did we uh wanted to
+slow our growth so we could really focus
+on existing users and we wanted to make
+sure that we have our existing users
+happy and that when people sign up they
+have a great experience and that the app
+works and it's fast and the servers are
+up and running all the time um and
+that's part of why we we charge for iOS
+and sometimes we would have like
+promotions at the end of the year we
+would make it free and we would have
+like an infl of new an influx of new
+users um but all we just kind of wanted
+to stay under the radar which is why we
+didn't do press um we felt that why did
+you want to stay under the radar right
+so we felt that if if people were
+talking about us or writing about us in
+the press it would be distraction to
+employees it would be distraction to me
+and Brian because we would have to um
+comment on it internally or uh you know
+do something about it and and we just
+felt that if if if we don't talk to the
+Press uh which we tried not to do for
+the most part
+um we would be able to focus on a
+product and and that was our strategy
+and I think that worked for us because
+we really were able to focus on the
+product so I I think there's no
+marketing inside of what'sapp right I
+don't believe there's a finance
+individual or
+organization um there are essentially
+two people who are in non-technical
+roles one of is right here in nage and I
+think we describe his role as business
+operations and over time with the
+regulatory issues we begrudgingly or
+Beyond begrudgingly uh hired a wonderful
+GC
+so this is a company that's very rare in
+terms of its functional structure and
+and one of our challenges at seoa was to
+avoid encouraging Yan to go higher
+marketing team or follow up on that Tech
+crunch request because the authentic Yan
+and Brian was a very different anti-
+valy company in a number of
+ways related to this approach um other
+than deciding to charge could you talk
+about you know the best or one of the
+best product decisions you made that
+sort of is somewhat counterintuitive or
+was at the time
+oh man there's so many um I think the
+two biggest ones that people couldn't
+WRA their mind their head around were
+two first we chose not to do usernames
+we we wanted to use phone number and um
+we had a lot of people asking us to the
+usernames and I was like well why would
+you want to introduce this an extra
+layer of handshake between two people
+when you already have their phone number
+in your address book and we always
+looked we always looked at SMS as this
+uh very simple way for people to
+communicate and stay in touch and you
+know by actually growing up in Russia
+and Ukraine um I would go visit every
+couple of years and I would like I
+remember going back to Ukraine in
+2004 and 2005 and like basically
+everybody was using SMS and then I came
+back to United States and I was telling
+my friends about it and they're like
+what is SMS right and so um we we wanted
+to have that Simplicity of of uh just
+using the phone number it's like if you
+know somebody's phone number and it's in
+your address book he probably calls them
+we probably text them while you should
+also be able to Whatsapp them um and the
+second one was that we didn't want to
+use usernames I think I think the
+ability to tap into your address book
+and use that as a graph to to build a
+network and not do the usernames which
+probably like the biggest one yeah at
+the time I remember no one else was
+using the phone book as the network
+everyone does know uh what about the
+worst product
+decision it's the worst product
+decision
+um I don't know we have all like we try
+with every release to like get rid of a
+feature that we don't think that useful
+or get rid of the settings that don't
+that don't that's not that useful the
+problem is like when you have the number
+of people that we have you can't just
+like easily remove stuff CU there's
+always like a million people or two
+million people that find something
+useful and it's like well you don't want
+to like upset them um it's like a small
+percentage it's like 0.1% but absolute
+numbers that's a lot and so I think
+there's probably a couple of things that
+I I think are not that great we have
+this broadcast feature that we can
+probably improve on or maybe at some
+point um get rid of it alog together or
+maybe improve it probably is a better
+thing to do um the status thing we have
+you know we started with it so I can't
+really
+like be very negative about it because
+that's how what how we started but the
+status functionality is there it's
+Legacy but I don't think anybody uses it
+at some point we probably need to clean
+it up and then uh three people asked me
+to ask this this morning uh why did you
+choose earling
+oh um it's it's one of those intuition
+intuition things it I knew nothing about
+earling and when we um actually still
+don't we have a lot of Engineers who do
+uh and and we actually have like a
+really small server team we probably
+have like seven or eight people
+supporting our entire user base on on
+the backand um who are insanely
+brilliant who wake up in the middle of
+the night and fix servers um the thing
+about earling is that I was looking for
+an open source uh chat server to drop
+into these back ends that we've built
+that could identify which of your
+contacts were WhatsApp users and I was
+thinking like okay well we can probably
+use xmpp which was uh an open protocol
+for messaging and I was looking for an
+open source xmpp server and I couldn't
+find one there was one written in C but
+it was like outdated there was one
+written in Pearl and I knew that
+wouldn't be able to scale and then like
+I came across earling I'm like what is
+this earling thing it was like the first
+the first time I've heard of it so I
+started researching fishing it and it
+turned out probably one of the best
+engineering decisions was we ever made
+by just we were forced to because there
+was nothing else to use um it allowed us
+to scale really well it's like built for
+what we need to do it it's a functional
+programming meage language it has
+message passing it lets you like cluster
+servers into nodes and you have this
+like um key value database built into it
+called theia that is really cool that
+like synchronizes all the data across
+the servers and uh we we obviously took
+did a lot internally um we we have a
+couple of guys who like specialize in
+tuning erlang but uh you know part of it
+was just like we had no choice it was
+the only one available at a time and it
+worked really well for us okay so I want
+to talk about the uh the Facebook
+acquisition and how that all came to be
+but I actually have another
+slide all right um this is is that a
+word that's your
+car this is the night before the final
+signing um Yan had sent me a picture we
+had just left uh Fenwick and West in
+Mountain View and for the prior four
+days we were kind of cooped up 18 20
+hours a day because we had no Finance
+function Yan Sor and we were responsible
+for all the diligence materials and we
+we left around 2:30 a.m. after things
+were wrapped up and Yan on his way home
+didn't have a flat his tire blew out at
+75 mph he almost died that night uh and
+this is the exchange thankfully uh uh
+Yan was able to pull over and change the
+tire but this is one of those little
+things that happened in the deal Dynamic
+so when people talk about did the deal
+almost blow up yes it did
+actually uh so if you could rewind a
+little from this sort of the you know
+very end of the deal H how did the
+conversation first begin with you and
+Mark and how did you think about that
+and becoming part of another company um
+we met probably two years ago and uh you
+know as as as time went on we got to
+know each other and we realize that um
+Facebook has kind of gone through a lot
+of stuff that we would probably have to
+go through like either going IPO or
+something and so also build this
+tremendous infrastructure and they have
+uh a lot of people doing things like
+finance that you know we didn't have and
+um they have an amazing legal team and
+they have a b uh Corb Dev and a bdef
+team and um when me and Mark would talk
+we realized that we we share a lot of
+kind of common goals and common Vision
+you know Facebook's mission is to make
+World more open and more connected and
+when you think about what WhatsApp is
+doing it's helping people to stay in
+touch it's helping people to stay
+connected and the other thing that we
+kind of realize that you know we would
+always talk about is how a lot of
+companies are very focused on building a
+product for Silicon Valley and kind of
+thinking about well if I can build a
+product that will take off in Silicon
+Valley or maybe I can have users in the
+United
+States Mark always has this like Vision
+about well you know there is 6 billion
+people in the world which is why he has
+taking initiative with internet.org
+because he wants to have everybody
+connected and we always grew
+internationally um really fast in early
+days and we still continue to do that
+and so we always kind of had this like
+world view of of our products and so it
+it made sense as we got to know each
+other and uh kind of shared our Visions
+to to merge and and you know is that
+slide gone yeah and and the night before
+the announcement obviously as Jim said I
+had that little
+accident were there other are there were
+there other companies that you would
+have sold to or was it the the
+particular Vision match with Mark that
+made you want to do this I think we just
+really decided that we wanted to do it
+together I think it was a really good
+fit uh philosophically and and just
+culture-wise as well I mean they're so
+focused on what they're doing and we're
+always been so focused on our mission
+that you know it just makes sense for us
+to do it together how' the conversation
+between you two go as you were thinking
+through
+that um well I think you know a lot of a
+lot of people talk about uh uh we tend
+to focus on kind of the numbers but you
+know we were never focused on the
+numbers we were more focused on how can
+we make it work so it's successful how
+can we uh make it work so that we
+continue to uh grow and uh you know me
+and Brian are still obviously around and
+will be around and we continue to lead
+WhatsApp and we're in monu so we're uh a
+little bit separate from the menal park
+office because it will allow us to focus
+on completing a mission which we still
+don't think is done I mean we we really
+do want to connect everybody and
+everybody with a smartphone when we
+started out people would ask us what's
+your goal in the early days in 2009 2010
+and I would say well I want WhatsApp to
+be on every single smartphone um back
+then there was like only 200 million
+smartphones so it was easy but today if
+you think about it like we we're not on
+every single SmartPhone by far in fact I
+think we should be doing a much better
+job we I'm sure a lot of you here
+probably don't use WhatsApp and you know
+that's partially our our fault and we
+should make sure that no matter how much
+success we had that we stay focused on
+and keep keep our eye on on making sure
+that every single person has WhatsApp on
+their phone yeah just to interject Sam I
+I I think um Yan was never focused on
+the money uh at a human Dimension you
+know the first stop he had here in
+Mountain View was at the food stamps
+line in the welfare office and social
+services and if you think about being an
+immigrant and starting in the bottom 1%
+and and having this ambition to connect
+to your family and friends and and Yan
+didn't mention this but he lost his mom
+uh and his grandmother while I was at
+Yahoo and I think that formed a big part
+of who he was and as important as U
+monetary gain can be to the people in
+the audience I think Yan's passion
+really centered with connecting the
+world and creating it uh in an
+economically attractive way that would
+allow people to kind of interact with
+one another across country boundaries
+and I
+think I get to give uh the the the
+Facebook team and Zuck a lot of credit I
+think they understood how important that
+was to Jan and I think that's reflected
+in the board seat and two years of
+wonderful conversations were over time I
+think they came together on the business
+and I think that's what allowed the two
+companies that come together we've
+definitely seen at YC the people that
+make the most money from startups are
+the ones where that is not even the you
+know number two and number three goal
+right uh you kind of have to not be
+shooting at it for it to really work out
+it's it's this crazy thing um so to wrap
+up uh to whatever degree you can talk
+about it what's what's sort of in the
+future for WhatsApp and what are you
+most excited besides getting on every
+phone
+well
+yeah our job is not very sexy we come
+into work and we just try to fix crashes
+and try to make our protocol faster and
+more efficient on a wire and you know we
+just focus on little details like how
+can we make uh our application start up
+faster how can we make our application
+more reliable how can we make sure that
+our iCloud backup works or that we uh
+doing the right thing when you switch
+phones or when you switch SIM cards
+there's a lot of kind of edge cases that
+we need to think about and we're we're
+we're far from getting it right and you
+know for us uh for us to get it right is
+is a lot of hard work and that's what
+everybody's focused on we still have a
+lot of work to
+do all right thank you guys so much for
+coming ink you thank you
+all

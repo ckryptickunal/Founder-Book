@@ -1,0 +1,39 @@
+Title: Andrej Karpathy on why we still need humans in the loop
+Video ID: hTT5o2AoewQ
+URL: https://www.youtube.com/watch?v=hTT5o2AoewQ
+Channel: Y Combinator
+Published: 2025-06-24T21:46:23Z
+Duration: PT39S
+Views: 50761
+Likes: 996
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 20
+
+Description:
+Andrej Karpathy talks about the importance of GUIs for working with AI systems—and why we still need to keep a tight leash on agents. Even with fast output, the human remains the bottleneck.
+
+============================================================
+TRANSCRIPT
+============================================================
+
+I think guies are very useful for
+auditing systems and visual
+representations in general. And I think
+guies for example are extremely
+important to this because a guey
+utilizes your computer vision GPU in all
+of our head. Reading text is effortful
+and it's not fun. But looking at stuff
+is fun and it's it's just a kind of like
+a highway to your brain. We have to keep
+the AI on the leash. I think a lot of
+people are getting way over excited with
+AI agents and uh it's not useful to me
+to get a diff of 1,000 lines of code to
+my repo. I'm still the bottleneck,
+right? Even though that 10,000 lines
+come out instantly, I have to make sure
+that this thing is not introducing bugs
+and that it's doing the correct thing,
+right?

@@ -1,0 +1,1333 @@
+Title: How Stripe Built Their New Website
+Video ID: ypzNhwpmOD4
+URL: https://www.youtube.com/watch?v=ypzNhwpmOD4
+Channel: Y Combinator
+Published: 2026-04-22T14:01:37Z
+Duration: PT43M37S
+Views: 71126
+Likes: 1944
+Tags: YC, Y Combinator
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 1313
+
+Description:
+Even the most successful websites eventually need a redesign. Take Stripe for example. After six years with the same homepage, they recently unveiled a brand new site that reflects how the fintech giant has evolved over the past few years. So when is the time right for a new landing page? And what should you prioritize in the redesign? In this episode of Design Review YC’s Aaron Epstein sat down Stripe’s Head of Design Katie Dill to pull the curtain back on their high profile redesign and to dis
+
+============================================================
+TRANSCRIPT
+============================================================
+
+Today, I am thrilled to welcome Stripe's
+head of design, Katie Dill, back to the
+show. Katie and her team recently
+launched a brand new Stripe homepage.
+She's going to take us behind the scenes
+of the new website and talk about how AI
+is changing her team's design process.
+Welcome to another episode of Design
+Review.
+>> [music]
+>> Katie, thank you so much for joining us
+again. Well, thank you for having me.
+It's nice to be back. I saw along with
+everybody else when you launched the new
+Stripe homepage, and I thought it would
+be amazing to have you on and kind of
+take us through the old site and
+things that you wanted to change about
+it and update cuz I know it's been a few
+years since you launched that one, and
+then take us through the new one and
+talk a little bit about the process that
+you used in order to get to where you
+guys landed with the new one. I do enjoy
+good design crit with you, so let's do
+it.
+>> let's jump into the original site. So,
+how long ago did you launch this one?
+This one was from 2020. Okay, so we're
+talking about 6 years ago at this point.
+>> Yeah, kudos to the team. I wasn't there
+at the time, but I do think that they
+built something that stood the test of
+time quite well.
+We weren't, you know, "Oh my gosh, we
+have to change it. It's been too long.
+It's just, you know, it doesn't work
+anymore." It actually was standing up
+quite well. And when we endeavored to
+change it, it was because the business
+had just evolved beyond the point of
+what this story was was being told on
+this site, and I'll explain that a
+little bit. Of course, we wanted to kind
+of freshen it up as a part of our brand
+that also had been evolving and becoming
+more sophisticated and reaching you
+know, a broader set of users, but still
+it was it was a good site. So, I can
+point out a couple of things that we
+aimed to change.
+>> Yeah. So, one, you know, this
+evolved over time. We certainly had
+changed the words on the site and
+exactly how it was portraying what we
+do,
+and then also some of the the product
+shots that we were including,
+um, then of course our users as we, you
+know, continue to evolve and
+um, help more in different categories or
+larger enterprises or uh, growing
+startups.
+But then as you go down the page, we
+were articulating the number of things
+that we do. And this is actually one of
+the things that had evolved the most
+over the last couple of years because
+our product suite was evolving. And so,
+for example, we started with payments
+being a main part of our business, but
+over time, uh, payments is just one part
+of it. We and now, today, serve, you
+know, multi, uh, national enterprises in
+many categories including helping them
+with subscriptions, helping AI companies
+with usage-based billing, tax, revenue
+recognition, platforms like Shopify and
+helping them move money for the
+businesses in their, um, on their
+platform. And so, these stories were
+coming through here, but you were kind
+of only getting a glimpse of the product
+offering that Stripe provided. And so,
+this was probably the biggest thing that
+we realized that we needed to change.
+So, we needed to adjust that. And the
+other piece is that, you know, the page
+grows quite long. There's a lot of
+trying to be told here. Right. Uh, we
+were doing that thing that happens over
+time where you kind of add on and add on
+and we're kind of losing the the
+narrative, uh, with the site. And so, we
+thought to
+think about ways that we could, uh,
+update that narrative. Now, of course,
+you could adjust that what was here, but
+we realized it was also time to refresh
+the visuals. Uh, it I don't think that
+the, you know, the visuals came out of
+fashion, but it also just didn't feel
+like it took the sophistication of how
+the business itself evolved. Uh, and we
+were seeing it, honestly, in the way
+that our teams were kind of rolling out
+this design language. There wasn't a lot
+of clarity on how do we use this
+12-degree bar? How do we use colors and
+overlays? Um, how do we use our
+typography? Um, the gradient wave that's
+at the top is certainly an element, but
+it didn't really scale well. So, we had
+to create a new design vision for our
+language and then update the story. It's
+interesting because you mentioned that
+visually I look at this and this looks
+like a site that could have been
+launched yesterday.
+And I think that's a testament to how
+Stripe has always been so far ahead of
+the game from a design perspective that
+you could have a site that's 6 years old
+and obviously you you made updates to it
+over the years. This wasn't literally
+the site that you launched 6 years ago.
+But clearly it has stood the test of
+time, which is really impressive and it
+makes sense that you've got all these
+different customers now. It seems like
+the approach that you took with the old
+one was just keep adding sections that
+would target different types of users
+and hopefully people would scroll until
+they hit the one that's right for them.
+And it sounds like maybe you've
+rethought that for the new site that you
+launched. Yeah, I mean like perfect
+example, you know, AI is very big part
+of our business. It's both like how we
+build, what we build, and who we build
+for.
+>> Mhm. Like over 78% of the Forbes AI 50
+use Stripe. And they are using our
+products to help them scale really fast
+and help them monetize in new ways,
+right? So, usage-based billing so that
+you can
+make the right moves for your inferences
+costs and how your users are actually
+using your product. And it's a tile on
+the website.
+>> [laughter]
+>> So, the story was missing. Like what
+we're actually building wasn't coming
+clear. And so, when we realized, okay,
+now it's time to update our site. I
+would say there's a couple of things on
+that front, which is one first
+principles. What are we trying to do
+here? Like what is the point of a
+website anyways? I remember being in a
+meeting where Patrick asked, like well,
+what is the point of a website? I think
+one part of it is it's
+it's your manifesto whether you
+explicitly call it that or not. Because
+you're demonstrating who you are, what
+you are doing, and why you do it. And in
+some indirect ways, right? It's just
+like the nature of the way that you
+build your site, how you present
+yourself, what colors you choose, what
+typography you choose, the details that
+you choose to care and the ones you
+don't, and then of course how you
+articulate what you're doing and what
+you offer. So, we set out to make sure
+that the story was extremely clear for
+who we're serving and how we're serving
+them. And what we care about. And so
+that's where, you know, honestly,
+painstaking hours over a year or more is
+what, you know, ended up going into
+this. Partly because in some ways we
+weren't rushing to get something out.
+Like when we're when we're building
+something for our users, it's like,
+"Okay, it needs to be out." Like and it
+needs to be out tomorrow because they're
+dependent on this. This was like it was
+for ourselves in a lot of ways. And so
+we certainly could take the time to
+sniff out the right design and, you
+know, get on that scent. Um and, you
+know, what there were many weeks and
+months of design exploration where we
+liked it, but we're like, "No, that's
+not it. Yeah, we're not ready to, you
+know, wear that shirt for the next 6
+years
+or whatever it might be." And so it's
+financial infrastructure to grow your
+revenue is the first one,
+which is the exact same for sentence.
+So, that has remained consistent and it
+seems like what [clears throat] you
+wanted to add here was the extra things
+here
+that would catch other people Yeah. that
+where Stripe would actually be the right
+product for them, too. Yeah. One of the
+things that's interesting is I like
+looking at sites and trying to figure
+out what is something that only this
+company could do that nobody else could
+do. And one of the things that stands
+out to me is the GDP counter that you
+have here. It's not many companies that
+could
+that could have a live counter of the
+percentage of the global GDP, not even
+just US GDP, that is running on Stripe.
+Talk about the decision to put that
+right up at the top as well. Well, I
+would imagine a lot of, you know, people
+watching and people building websites
+are thinking about, "Well, how can we
+demonstrate the the impact that we're
+having, the the reason why you should
+trust us, the social proof, what users
+trust us before?" These are important
+messages. They they help the you know,
+the the potential customer understand
+like whether or not this is a brand that
+you could trust and okay, good to know
+that you done it for others. As I
+expressed earlier like we're you know,
+trying to help everybody from a micro
+entrepreneur who's going to grow a
+startup into hopefully great success as
+well as these large enterprises. It
+matters a lot to them whether or not
+that Stripe is dependable, reliable,
+trustworthy and can operate at their
+scale. So we ask ourselves well, how do
+we express that? How do we help you see
+that we can? Of course, one of the ways
+is that we tell you about the users that
+use us and you can see that scrolling up
+across the bottom. But another way is
+like you know, the actual enormous
+impact that we have had the the
+privilege and the responsibility of
+serving in and that can actually be
+quantified in the the GDP. Yeah, I love
+that. And uh the other keyword here too
+is billionth. You know, like that just
+signals if you do billions of
+transactions, Stripe is right for you.
+Yeah, YC companies. Yeah, right.
+>> [laughter]
+>> You got this. Yeah.
+Yeah, very cool. Okay, take us through
+uh the other sections that you you put
+underneath that. Yeah, all right. So
+this next section is uh what we call our
+Bento. And so this is probably the big
+area that's seeking to solve some of the
+problems I talked about earlier about
+really expressing kind of like the scale
+of the product offering. And so before
+you saw like okay, we do issuing, do we
+do payments? Uh but here we're trying to
+depict a little bit more of the solution
+set. And so payments yes, we do
+payments. We do online payments. We also
+do terminal. Uh billing is you know,
+what we were talking about earlier about
+usage based billing or um you know,
+could be fixed fee subscriptions. Any
+number of these types of things are a
+lot more adjustable and um customizable
+to the businesses we're serving. Uh we
+talked a little bit about the the role
+that AI plays in the organizations and
+so we wanted to make that clear. Our
+issuing product, stable coins.
+And then of course, the way that we uh
+provide for platform businesses and
+marketplaces. And so what we're trying
+to do here is not overwhelm you with too
+much going on. I mean that I know it
+there is a lot on this page, but we you
+can see that there's a very little text.
+We're just trying to get the point
+across to give you enough of a sense of
+like, okay, this may be for me. And then
+what we're really trying to do is show
+rather than tell. So, hence the imagery.
+And then the quick way that you can gain
+more insight is we do this kind of
+overlay, this larger modal, so you don't
+actually have to go off your course.
+You're not We're not taking away page
+yet, but we can give you a little bit
+more of a sense of what this is all
+about. There's many products layered
+into this, right? Like, you know, we on
+that bento, it's 1 2 3 4 5 6, but that's
+we know I don't think we have many many
+more dozen products on top of that that
+we can't express all on one page. That
+would just be too much and it'd
+overwhelm you. So, we want to give you
+essentially progressive disclosure as a
+way of of getting towards the more
+details behind the products and more
+things that we offer.
+>> Yeah, that's very cool. I don't know
+that I've seen this specific design with
+the bento box and the models that you
+can pop up that give more information
+directly on the page. It's an
+interesting smart choice because rather
+than take people to a dedicated page,
+you keep them right here, show them what
+they want. You give buttons to to jump
+to the next section or you can keep
+scrolling down if this is not the right
+thing that you're looking for. Yeah,
+that that you want it to feel light. You
+want it to feel easy to kind of explore
+and engage and you're taking them on a
+journey for sure. You want to help them
+get to where they're going.
+Um, but yeah, I think if we left people
+off the page, you know, when it might be
+too early for them to have made their
+decision on what what they're actually
+going after. Uh, so this is really just
+a bit more of a browse experience and
+it's a gives them a a bit more of a a
+chance to explore. YC Startup School is
+back. We're hand selecting the most
+promising builders in the world and
+flying them out to San Francisco for
+July 25th and 26th to discuss the
+cutting edge of tech. Apply now for a
+spot. Okay, back to the video. Yeah,
+it's interesting. Another thing that
+stands out to me is how much animation
+you use um in each of these cards. Talk
+a little bit about about that and and
+how you can do it without making it too
+overwhelming or distracting for people.
+>> Yeah, it's a difficult balance to get. I
+mean, this is where prototyping and
+experimentation like I remember this one
+where it's like we had too many lines at
+first and then we had too few lines at
+first and the the ball was moving too
+fast. Uh so, you do have to really
+fine-tune, bring it in. You know, one of
+the things as I kind of pointed out
+earlier and when we you're building a
+website like this, you are either, you
+know, both directly and indirectly
+expressing your company's manifesto. So,
+what one of the things that we are
+trying to express is the care that we
+put into the work that we do because if
+you see the care that goes here, then
+you you're right to assume that we also
+put that care behind the scenes in the
+way that we move money, in the way that
+we protect uh a company's information.
+These are important details to express.
+It's also, you know, the idea of making
+the site feel a little bit more alive,
+you know, that there's a presence here
+is something that I think the motion
+does really well. You were right though,
+if you go too far with it, it becomes
+distracting, it becomes annoying, nobody
+really wants to engage with that. And
+so, it's just delicate movements and
+really just like trying to fine-tune it.
+Um and then also thinking about the role
+that when somebody engages with it,
+that's where, you know, you bring
+certain things to life and make sure
+that you're like responding and this
+gives the feedback to also register
+like, "Okay, I can click on this." You
+might not have known that otherwise. We
+try to engage in that way. This is where
+where we're basically these are kind of
+like the the big important metrics that
+can help you understand again the kind
+of the scale of what we build. Um and,
+you know, of course, there were versions
+where we could just put the numbers
+there. Uh but what we intended to do
+with this is to just add a little bit of
+interest. It is
+loosely communicating the intention of
+these uh
+metrics. It's not really a data viz, of
+course, uh but it gives you a sense of
+like, okay, here we're
+talking about global scale, here we're
+talking about uptime, and so you kind of
+get the sense of continuity here,
+but really it's just fun. It's just
+beautiful.
+And then there's, you know, it changes
+depending on what time of day, but if
+you want to go ahead and see what it
+would be like at night, you can come in
+and check it out yourself. It feels like
+we're entering an era now where websites
+can be fun again. Yeah. They were fun
+early on, and then it got to a point
+where every SaaS website looked exactly
+the same, and it's really cool to see
+you focused on things that are just fun
+for the sake of being fun.
+>> Yeah, I mean, I'm I'm a
+AI hopeful that the creation of these
+tools that can help us move so much
+faster, and basically get to like get to
+good almost like instantaneously and
+almost for free, and now great, we can
+take that time to then push it that next
+level and to create something that is
+really interesting and playful and
+beautiful. Yeah, I think what's
+interesting here that's it's maybe worth
+for anybody watching to pay attention to
+is that these aren't animations for
+animation's sake or interactivity for
+interactivity sake. There's there's an
+intention and a purpose behind
+everything that you're doing, and it's
+connecting to the specific message that
+you're trying to communicate with each
+of these numbers, and it's easy to look
+at it and go like, oh yeah, it's just
+like a fun kind of thing, and it is
+that, but it's not random. Yeah. And
+a lot of thought goes into that, I'm
+sure. Like, talk about some of the
+different things that you explored, or
+were people even against putting this in
+thinking, well, what value does it have
+and every inch of the screen has to
+have, you know, directly measurable
+value.
+>> Yeah. Well, what's also interesting is
+it's this section that the site didn't
+launch in December. Mhm. So, we we ended
+up launching in January, and
+we were at a stage with this where like
+we had something good, like we had, you
+know, all four animations, but they
+didn't move quite the way, you know, we
+thought would feel really smooth and
+really intentional and the extra detail
+of how they transition from one to the
+next just like felt a little cludgy and
+wasn't quite as smooth as it could be.
+And it was
+decision, you know, a group decision
+that we should wait and we should do it
+right. We could have well, let's just
+only do three or let's just only do one
+or maybe you don't make them move. Um
+and you know, for sure what we don't
+want to get in the habit of is just like
+pushing timelines out to the end of
+time. But this was a decision that it
+was worth it to get it done well and
+make it actually a kind of joyful
+experience that demonstrates, you know,
+that love and care and the technical
+ability. And you know, it was over the
+holidays and so pushing it another week
+was was not going to be, you know, the
+end of the world, but also a really good
+thing in the long run about how it feels
+within the overall composition. Yeah,
+very cool. So this area is um a place
+where we're we're talking about our
+users, but we created these images so it
+brings together Stripe the brand and the
+the companies that we serve. So each one
+of these is custom made uh and it's you
+know, intended to express a bit of the
+brand that we're highlighting as well as
+the Stripe brand with the parallelogram.
+You could look at this and you could be
+like, oh yeah, great opportunity to use
+AI as did we. We're like, great, we're
+going to use AI and it's going to be
+awesome and we're going to get these
+done in a you know, a day. Now of course
+like the reality is, you know, building
+with AI is actually also, you know,
+something that is
+um it requires the love and care and
+attention of the makers and so there was
+definitely a process behind it, but
+these are really just meant to bring
+some interest and you kind of again as
+you're trying to express through
+visuals, a lot of people scroll really
+fast through the website, right? At
+least I do. I don't know about you. But,
+when you're you're trying to get them to
+like take a beat, almost like a song,
+you know, it's like what are those like
+key moments of punctuation? And where do
+we want, you know, folks to slow down
+and take a note? And also, when are we
+trying to express something like, you
+know, trying to communicate uh the type
+of brand that we work with, especially
+if you're, you know, not familiar with
+them. Mhm. And now we've moved to a
+darker background.
+Is there something intentional behind
+that now? Well, this is an area that
+we're talking about our integrations and
+the way that our APIs work.
+Uh and certainly there's, you know, a
+developer language. Uh not everything
+has to be in dark mode, but um it is
+actually something we have done in the
+previous site as well, and so we wanted
+to carry that forward. This is uh the
+area that we call Squeezy Boy.
+>> [laughter]
+>> Um and uh design is definitely more fun
+when you can give everything a fun name.
+Uh but it is uh an area where we're
+we're kind of just showing some of the
+things that are comings and goings, and
+uh so this is our Black Friday Cyber
+Monday uh city that we had built. Um
+our webs- our uh
+podcast Cheeky Pint. Uh so this will
+always be changing with different things
+that come through. Uh but we wanted to,
+once again, you know, have a little fun
+with how we portray these things, make
+it easier, and um also inviting to
+engage with. Um certainly added more
+challenge to it. Like, so for example,
+how do you get an image that when it's
+this size is going to make sense as much
+as it's going to make sense when it's
+this size?
+>> Right. Uh so this was tricky to to build
+it right. And so you know, quite a bit
+of iteration on that, but I think the
+team found a clever way. It's amazing
+seeing the finished product here, and
+everything is so polished and and put
+together, but I think it's really easy
+to miss all the work and the iteration
+and the process that goes on behind the
+scenes there. I would love for you to
+take us through, show your work on all
+these different sections and all the
+iterations that you went through to
+ultimately end up at this point.
+>> Well, okay, we're starting here on the
+top where we have this wave.
+Uh I've worked at Stripe now for 5 years
+and I cannot even tell you how many
+different variants of a wave or gradient
+or gradient wave that I have seen and
+been a part of.
+Um I think we are trying to find every
+possible solution. On this project, you
+know, we knew we wanted to bring a lot
+of kind of color and joy to the
+experience. And we knew that a wave or a
+gradient wave like we had before is
+key way to do that. And we enjoy that
+part of the brand. But which wave? How
+to do it? What's going to stand the test
+of time? What could be on there for 6
+years potentially?
+Uh and you know, give you a you know, a
+bit of joy when you visit but not overdo
+it. And what's super cool is that our
+wonderful eng team created this tool
+where we can experiment and get the
+right wave.
+>> Perfect wave. Exactly. So, you could
+just like tweak, do I want that much
+blur? No, not that much. Do I want a
+more grain? Nope, not that much. Let's
+see. We want to also switch it on the
+scale. Do How do we want it rotated? How
+thick do we want? How much texture do we
+want? You know, the reality is is all of
+those factors matter so much. Like what
+exactly is the color? Like that's a
+little like that yellow isn't right,
+right? That's not the what we ended up
+with. Like we want to find just the
+right color mix, just the right texture,
+just the right movement. And having a
+tool like this was essential to make
+that happen. And then, you know, we
+first get it right and like, "Okay, we
+see how it is here." And then becomes
+the building process. Like how do we
+actually build it so it's also
+performant and is going to, you know,
+operate really smoothly on anybody's
+computer. And and I noticed some buttons
+here. It looks like you can save the
+state. So, do you create different
+variations of these and then kind of
+test them against each What was the
+process even of using this tool? Yeah,
+before we even got in that tool, we were
+even just trying to get centered on
+well, what is it that we're actually
+trying to achieve with the wave? What
+are we talking about here? Like well,
+how vibrant do we want to be or do we
+want like prefer it muted? Like some of
+these were really interesting, but is
+that the right feel for the page or not?
+You know, there this is one of our
+previous waves from one of our event
+sites, which was monochromatic but also
+really bold or do we want to be a little
+bit more diverse and more rainbow-like?
+And so we looked at each of these kinds
+of ways of thinking about it and then,
+you know, essentially had discussions
+about like, well, is it flat or an
+object with a form?
+And these great discussions help us
+tease out what we're we're actually
+trying to do and of course, you know,
+Patrick is was heavily involved in the
+site as well and so we had many
+discussions with him is like this this
+wave feel right? Because when you're you
+know, creating a new homepage it's
+almost like yeah, you're deciding what
+you you know, clothes you're going to
+wear for the next many years. So it's a
+big decision. It's amazing seeing
+the literally infinite variations that
+you could come up with here. I imagine
+that makes it harder to just make a
+final call. What is that process? Who
+who decides and and
+you know, how how do you decide like
+this is the one that we're going with
+and and move on from this cuz you could
+probably spend forever Yeah, oh it's
+very very true.
+Usually well, for something like this
+Patrick was definitely a part of the
+decision-making process and so usually,
+you know, with the team we will look at
+quite a large range. Then we will down
+select to you know, a
+subset of those and say like, okay,
+these are the ones that we're
+comfortable with. Like we don't want to
+put in front of Patrick ones that we're
+like definitely not comfortable with or
+wouldn't recommend. Although it's it's
+always helpful to show kind of like the
+process and what we did explore. But
+then we look at the ones that are likely
+a very good fit and then we'll have a
+conversation about what you know, feels
+right for him and luckily, you know,
+he's also exceptionally decisive and has
+very good taste and so we usually can
+use that as a conversation like okay,
+this one feels right. But I'll also
+admit I mean this is one of the
+blessings and the curses of the design
+process is that something that could
+feel great here on or on a board or in
+isolation,
+all of a sudden feels very different
+when you actually put it in place and
+you feel it, you feel it with the rest
+of the typography and the the logos on
+there and the various other things and
+also just like sit with it for some
+time.
+So we definitely evolved it over time.
+Something that may have felt right at
+one point starts to feel, you know, just
+like it it it it isn't going to stand
+the test of time and then we want to
+change it. Yeah, so at what point in the
+process do you go from looking at a
+bunch of different variations on this
+like flat to an object with a form or
+quiet to turbulent and then actually get
+it coded up and working live in the page
+so that you can get a a sense of what it
+actually feels like live. I mean, I
+would say the goal is as quickly as
+possible to get it in the state that
+would be like the way a user would
+experience it because it is really hard
+to judge anything in isolation in a way
+that isn't like that user would be.
+You're That's what you're trying to do
+is just like put yourself in their shoes
+and then see what that would feel like.
+Sometimes we're just we're not there
+yet. Like it could take some time to
+code it up and so we want to, you know,
+start to down select just so we know
+like should we code, you know, these
+five versions or, you know, these five
+versions and so we would start perhaps
+with something that's more of just like
+a static visual and just get a sense,
+okay, we want to go over here over
+there. But that's where that tool comes
+in hand because this allows us to
+essentially, you know, get many versions
+[clears throat] at once.
+>> Right. And so we can play with them
+together. Yeah, and one of the other
+things that you might not get to
+experience just playing with it in
+frames is it it comes behind the text
+there and so you have to change the text
+color and make sure that the text is
+readable and and not distracting and and
+it interacts with all these other
+elements on the page that are really
+important, too. Right. You talked about
+a few different Bento variations. Oh,
+yeah.
+>> to see some more of those. Yeah, so this
+is the Bento where we're trying to
+communicate a lot of different things
+that we do
+>> Mhm. and what what's the right way to to
+communicate this? We looked at a ton of
+different things. And so what we're
+trying to figure out is, you know, if
+you're what kind of user are you? Are
+you a
+micro-entrepreneur with a small business
+or are you a large enterprise? Are you
+interested in billing or are you
+interested in connect these things? Do
+we want to show you them all in one
+screen? This might be an approach so we
+can get there faster because of course
+on any website the more you scroll down
+the less users get there, right? So what
+if we just squished it all in? Well,
+that's a lot. It's pretty type heavy.
+We're not doing a whole lot of showing
+versus telling.
+We looked at these kinds of sections and
+this is a little bit more similar to our
+original site that I showed you where
+you just kind of like pass through
+section by section. This felt like a
+little too scrolly telling, right? And
+they're just like kind of you want to
+get to it and you want to get to it
+faster and you want to be able to get a
+a quicker sense of what we offer.
+Then we have here a essentially
+an accordion. So you could press these
+things to then open them up and see what
+we have. This one we actually did take
+to user research and unsurprisingly it
+was not a quick way for people to really
+digest a lot at once because it requires
+effort. You know, what even if it's not
+a lot of effort, right? But you
+you want them somebody to tap on it or
+you want them to scroll over it. And you
+know, otherwise you're you're in trying
+to introduce something to them like
+manage a marketplace end to end. Like
+you might know what that means. But you
+might not. But would you would you be
+interested enough to click through? And
+most people just don't click tabs. Yeah,
+exactly. So that's why you know, again
+this didn't feel right and a more visual
+one
+was definitely a better choice. But
+there's a lot of different variants here
+in the way that we explored how to
+communicate this. And then again, you
+know, it's just we have to remember that
+when people are coming to this site
+they're in a more of a lean back mode.
+They're in more of a browse mode. So,
+the idea that you're going to put your
+most important messages a click away is
+going to be tough. And so, that's where
+the Bento kind of one at the end of the
+day because it was just so much more
+visual
+and I would say kinder to the users
+because it meant that they could be in
+that lean back position. Talk a little
+bit about the process and maybe how you
+used AI in building this. Well, so yeah,
+let's start with the images and then but
+there's other parts of the process
+there. But these were certainly
+a type of thing that lend themselves to
+AI. I think AI is really good at these
+pictures that seem, you know, super
+real.
+And so, this is kind of what we're going
+for.
+Now, it seems like it would be pretty
+simple to ask a, you know, an AI like,
+you know, free pick or whatever of like,
+you know, give me a parallelogram inside
+this thing. But the reality is, you
+know,
+the nuance of the details really
+mattered to us. Like you couldn't just
+put something that sort of got there. It
+had to feel like it was, you know, at
+the same level of love and care as these
+other things. What was really kind of
+funny was the process here
+because, you know, one wouldn't have
+thought that bubbles would have taken so
+much of our attention. But they sure
+did.
+So, here was a version that we had for a
+different user that is not depicted on
+the site just right now.
+And you can kind of see like, okay,
+yeah, it's an ice cube and the bubbles
+and, you know, generally what do you
+think? It looks looks okay?
+Looks real? Yeah, ship it.
+>> [laughter]
+>> This is the team's thoughts on the
+matter. And so, each one of these things
+is actually a critique
+of, you know, where it just doesn't feel
+quite real.
+>> Right. The example
+from
+Urban or U R B N is the, you know, how
+well does this all feel like the right
+Urban
+layout? Now, gets a lot of it right, but
+when you take a double look, Um, arm
+isn't quite right. He doesn't quite have
+a hand. Um, you know, that shadow isn't
+exactly how it would be. Uh, and so the
+the detail in each of these little
+nuances, like each pixel, basically
+needs the same uh, amount of attention.
+So, I think what AI is helping us do is
+it's helping us speed up our process and
+certainly helping us explore more. We
+can look at, you know, 20 ideas in the
+time it normally would have taken to
+look at two. However, the it doesn't
+replace craft. It doesn't replace taste.
+It doesn't replace, you know, the
+attention to detail to ensure that
+you're getting each of those things
+right. Um, we're really excited about
+how it's sped up prototyping and sped
+up, you know, experimentation. So, it's
+like, you know, how should these
+accordions move? Should it replace this?
+Should push that? Uh, we can mock that
+up really fast. And then saves engineers
+countless
+hours and and designers as well as
+they're exploring different varieties.
+It's also really great for user testing.
+Um, if we want to be able to change all
+the words in here, uh, so that it feels
+one way for one user that we're talking
+to or versus another, we can do that
+really easily with AI prototyping. I
+would say even during that time period,
+you know, what we were exploring was,
+you know, feels old-fashioned a year ago
+versus uh, how we explore it today. How
+about uh, like the role of designers,
+you know? It's it seems like it's not
+just um,
+pushing pixels in frames in Figma. Yeah.
+Talk about what the designers on your
+team are doing and and the role that
+they play in uh, in actually building
+this. What designers at Stripe endeavor
+to do are to create things that feel
+like they push the status quo forward.
+That kind of all harks back, right, to
+the idea of like what what is the global
+progress that we can provide. And we
+want to do that via design as well. We
+want to create things that are
+exceedingly easy to use, that are also
+really, really powerful, and that can
+help people solve problems, or help them
+build their business, or help them
+accomplish what they're trying to do,
+but do so in a way that actually just
+brings a little joy to the day, too. You
+know, because frankly, that's part of
+progress as well. It's that like a
+beautiful world is definitely a better
+world. I want to live in that one. And
+so, designers are trying to create
+things that are going to be really
+intentional for our users, but also do
+so that's, you know, in a creative and
+thoughtful and differentiated way. And I
+would say the tools that we're using are
+allowing for that now, hopefully better
+and faster. You know, as we talked about
+earlier is that, yeah, I think AI can,
+you know, give us opportunity to keep
+the base, like to raise the floor
+essentially, to create baseline products
+maybe that are like the seven out of 10
+really quickly, really easily. But then,
+what do you do with that extra found
+time? Do you just like ship that and
+just like, you know, ship more sevens
+out of 10s? Like, boy, I hope not. What
+instead we want to do is, you know, get
+the things that are just like, okay,
+that's a very typical modal to, you
+know, accept somebody's email address to
+sign them up. Like, maybe you don't need
+to reinvent the wheel there. Like, as
+long as that is like a really good
+version of that, then we're good. But
+now, can we spend the time to think
+about new paradigms of interaction?
+Like, for example, people are using
+agents to build their businesses now.
+They're using agents to basically do
+everything under the sun. So, what is
+your agent experience? How good is that?
+What is the the user's experience going
+to be like when they are traversing, you
+know, the internet or their tools in
+that way? And so, that's where I think I
+would say designers are putting more
+time now is thinking about those new
+paradigms of interaction and trying to
+think about like, what is great
+experience or user experience or agent
+experience look like for tomorrow? We
+have incredible new tools that are
+available for everybody. And one of the
+trends obviously that that we've been
+seeing a lot of is everybody within a
+company now having the ability to ship
+code and improve products and update the
+website and, you know, the core product
+that customers are using, which I think
+is really powerful. And one of the
+questions that I think that that comes
+out of that, um especially from a design
+perspective, is how do you keep it so
+there's this cohesive design language
+and it stays to the bar that you is so
+important to you and the rest of the
+team without being directly in the flow
+of how new code gets written and shipped
+and going live on the site.
+>> Yeah, I was really interested to see and
+be a part of the evolution of design
+systems in this way because design
+systems have always been a way to help a
+team scale. So as an organization grows
+and you can no longer just know what the
+right thing is because you know, there's
+10 of you seated around the table and
+you're all just talking about every
+single thing you do. When you scale,
+like it helps the organization make
+decisions together and ensure that
+there's coherency in the user's
+experience. With AI tools, I think that
+we're going to see a whole new wave
+where these systems are, you know, kind
+of managed by the AI tools and that can
+help us scale things a lot more quickly.
+And so for example, as I mentioned, I,
+you know, drew a sketch of what I wanted
+to see built and then I put it out in
+the AI tool and then it uses the
+components from our design system to
+piece that together for me and get a
+like the the rough version. Then I want
+to, you know, push it here and there and
+actually, you know what, that component
+isn't really fit to purpose for what I'm
+trying to do here. So this is where
+we're going to need to push from that.
+And so then can the AI tool help me
+actually expand the design system and
+actually help to grow it for the use
+cases that we need. And so I think
+there's a lot that is going to be
+facilitated in terms of bringing more
+high-quality things at that like
+baseline. But honestly, I mean, this is
+what people have to choose to do because
+sometimes it's so easy when you put it
+in the, you know, the AI tool and it
+spits back a thing and you're like, "Oh,
+that that was fast and that was easy and
+that that's pretty good." And you will
+like you can feel it in yourself just
+being like, "Yeah, I guess that's
+enough." But it's like the reality is
+like don't be wooed by, you know, just
+how easy that was to achieve, but
+instead ask yourself like, "But is this
+really is this really great?" Is this
+like have I really hit the mark? Is this
+really going to achieve the goal? Is
+this really going to feel like it's
+well-crafted and put, you know,
+intentionality behind it? And then, you
+know, sometimes that takes, you know,
+another rev and another turn and, you
+know, the the way that, you know, our
+tools today can allow you to kind of go
+back and like, "No, tweak this little
+bit and tweak that little bit." Uh and
+essentially the merging of design and
+edge tools in one allows you a lot more
+of ability to kind of customize that.
+So, you don't need to accept slop and
+you shouldn't accept slop. You should,
+you know,
+hunt for, fight for the right solution.
+>> Mhm. What are some more principles like
+that that you try to instill in your
+team? I mean, I think I think I think a
+part of it is, you know, the reality is
+and I think we may have even talked
+about this last time we talked, like the
+gravitational pull is to mediocrity.
+Like it is just so easy to accept good
+enough.
+>> Mhm. And I think it really, really takes
+intentionality and you really have to
+think about like, "What is the cost of
+accepting good enough?" And I think in
+that one decision you're just like,
+"Well, it's just fine. Like it's just
+like ship it. Like it it you know, it
+achieves it. Like, you know, I really,
+you know, we we've got too much to do."
+And, you know, is it like that database
+thing we were talking about before? Like
+it's it's pretty good. You know, we got
+like wouldn't it be great to like get
+the team on something else and you you
+like weigh all these other costs and you
+think about it and you end up making a
+decision to go for good enough. But
+think about if you made that good enough
+decision
+every day, all day, every day. And then
+think about how many companies do that,
+right? Like how many companies really
+stand out to us as like exquisite and
+exceptional and that like really hold
+that bar up. That it reminds you of just
+like how hard it is to fight that fight
+of like, "Well,
+I if I let this slide, you know, what
+else am I going to let slide? And what
+is that like composite going to be?" And
+then I think a lot of people make
+decisions based on, "Well, you know, the
+team put so much effort in. Like, I'm
+going to, you know, upset the team if I
+don't go forward." It's like, "Well, how
+happy is the team going to be if the
+product is just meh?" Fight the
+gravitational pull to mediocrity and do
+not leave well enough alone.
+And really look for the thing that's
+going to make a difference. I think the
+other thing that we talk a lot about
+internally and I think is really
+important for folks to consider when
+they're building products and
+experiences is what is the user going to
+experience at the end of the day. You
+know, we get a little too caught up in
+our own world. We're too comfortable
+with it. And so, what I would always say
+is just like
+realize it the way a user would.
+Prototyping, not presenting. Don't try
+to communicate to, you know, the
+stakeholder of like, "Well, this is why
+we did this and this is, you know, the
+trade-off that we fought against and
+this and that." It's just like, if
+you're there to talk about whether or
+not this is the right solution or not,
+then you should be asking of like,
+"Well, how is this going to feel at the
+end of the day for the person that's
+going to be experiencing this? And, you
+know, does that feel good?" Without all
+of that knowledge, do I think that part
+is is the right one?
+Um that makes a big big difference.
+Um I would also say when we're exploring
+different products and like what are,
+you know, what is actually ship-worthy
+or not? You think about like what the
+trade-offs are. It's like, "Is this
+going to negatively impact somebody's
+day? Is this going to be something that
+erodes trust? If you don't get this
+right, is this going to make it to the
+front page of the news?" So, like, what
+what are the trade-offs when you're
+making a decision? And I guess like a
+lot of the things that I'm talking about
+here are the things that it sound like
+I'm looking for perfection. And I think
+that's also a dangerous pursuit because
+of course like your product is only as
+good as what's actually out there,
+what's shipped. It's not what we've been
+thinking about, it's not what we were
+talking about, it's not our intention
+and what we're pursuing, it's what's
+actually available to the people that
+are your your serving.
+And
+I think progress is probably more
+important than perfection in that case.
+And a lot of times it's not out there
+until you actually can learn and
+understand whether or not it's
+effective, especially with AI tools and
+the way that you know you you really
+don't know how people are going to use
+it and how it's going to respond and how
+they're going to evolve with it until
+you can bring it actually to market. And
+so I think you have to have a kind of a
+rubric in place about what are you know
+the essential pieces to a successful
+product. I wouldn't call it an MVP, it's
+probably like an MVQP, like a minimum
+viable quality product. Uh because again
+you don't want to lose trust by
+experimenting with something out in the
+world. Uh but you certainly want to
+learn from their experiences. It feels
+like something that's becoming even more
+important these days um with all the
+advancements in AI is QA. Yeah. And
+testing and you know you talk about
+having the voice of the user and the
+perspective of the user in your head as
+you're designing.
+Um and part of what you do at Stripe,
+which you told us about last time, is uh
+walking the store. Oh yeah. And um and
+you actually go in and you test all of
+the products yourselves and you do that
+as part of a company culture and a
+requirement that everybody does.
+Everyone is expected to do that. Um
+which I think is really important. How
+has that changed more recently um either
+within Stripe or certainly with all the
+changes with AI that have been
+happening? Walking the store is such an
+important part of building products and
+experiences because again it like at the
+end of the day you're trying to
+understand what the user is going
+through. And when you're building
+something it's so easy to be like, "Oh
+yeah, we're in our product. We're in it
+all day. I'm thinking about my product
+all day. But what you're thinking about
+is, you know, that next feature that you
+launch. And it's really easy to lose
+sight of what's actually out there. It's
+kind of funny like how you can create
+something. You're like, "Oh, when you
+shipped it, we did all these bug bashes
+and it was great." But then you use it
+and maybe you use it a month later or
+maybe you use it, you know,
+6 months later and it's evolved. It's
+changed. And the reason why is because
+probably somebody else shipped
+something. else shipped something. And
+now it's like, you know, it's in your
+home when you've updated the dining room
+but none of the other rooms and all of a
+sudden the light switches don't match
+and the colors are off and every other
+room now looks bad. You have to think
+about how that composite works together.
+And, you know, for Stripe, for example,
+we have a number of different business
+areas, right? We have our money movement
+business, we have our revenue business,
+we have our payments business. And these
+organizations need to focus and they
+need to stay true to their mission and
+what they're trying to get done. But if
+they don't think about how their product
+intersects with each others and how a
+user might go from, "Well, I use
+subscriptions and I use payments and I
+use tax." How are these things all going
+to work together? Then they're really
+missing the user experience. And so
+walking the store helps people see kind
+of the forest through the trees and see
+how all these things connect. And yes,
+we do
+basically it's like a part of the
+culture that everybody does this. Uh we
+do have a program that we talked about
+last time, essential journeys, where we
+have
+a subset of these journeys
+kind of like on a scoreboard and like
+are they, you know, red, yellow, green,
+how good are they? But everybody should
+be exploring the store, different parts,
+imagining themselves as different types
+of users, experiencing different sides
+of it, and trying to find the the dead
+ends. We also do this every Friday where
+the founders do it in front of the whole
+company where they're walking the store
+one to just instill how important this
+is and kind of raise awareness and also
+to help people think about how do you
+see not everybody has the same attention
+to different types of details and so I
+might see something that you might not
+because of my discipline or my
+disposition or you know that the user
+that I talked to earlier that week and
+so the thing that I'm interested in and
+so when we do these things together we
+see the value that different points of
+view bring. So I really love to walk the
+store with like an engineer in the room
+and a product leader in the room and a
+data science in the room because we're
+all looking at it very differently and
+we're all going to point out different
+things and that is what like gets us
+closer to really actually understanding
+what a user might feel. Well Katie this
+has been incredible. Thank you so much
+for coming and I feel like it's so rare
+to get an honest peek behind the scenes
+and showing the process and all the
+steps that you had along the way so
+really appreciate you sharing that with
+us.
+>> It was a lot of fun. I'm always happy to
+talk about behind the scenes. I think
+the blood sweat and tears and the effort
+that goes into it is something that's a
+part of the work but is often not talked
+about. I love [music] hearing it from
+other designers and I'm always happy to
+talk about myself. Thanks for having me
+on. Awesome. That does it for another
+design review. Thank you for joining us
+and we'll see you on the next episode.
+>> [music]

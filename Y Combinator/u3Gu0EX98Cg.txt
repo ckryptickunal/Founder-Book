@@ -1,0 +1,1719 @@
+Title: Brian Donohue on Operating Instapaper Through an Acquisition
+Video ID: u3Gu0EX98Cg
+URL: https://www.youtube.com/watch?v=u3Gu0EX98Cg
+Channel: Y Combinator
+Published: 2018-11-14T14:45:31Z
+Duration: PT1H8M14S
+Views: 3687
+Likes: 56
+Tags: YC, Y Combinator, Brian Donohue, Instapaper, Pinterest, Podcast, Interview, Betaworks, Acquisition, Craig Cannon, Startup, Tech
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 1681
+
+Description:
+Brian Donohue - https://twitter.com/bthdonohue - is President of Instapaper - https://www.instapaper.com/ - and a Product Engineering Manager at Pinterest - https://www.pinterest.com/
+
+You can find him on Twitter - https://twitter.com/bthdonohue
+
+The YC podcast is hosted by Craig Cannon - https://twitter.com/craigcannon
+
+***
+
+Topics
+
+00:00 - The history of Instapaper
+
+8:00 - Free competitors enter the market
+
+10:00 - How Brian joined Instapaper
+
+14:15 - Transitioning from paid to freemium
+
+19:00
+
+============================================================
+TRANSCRIPT
+============================================================
+
+hi Bryan so Instapaper has a very
+curious like lineage in history could
+you just explain that sure
+so Instapaper was started by a single
+guy named Marco Arment and he built the
+entire products and service and operated
+it from 2008 to 2013 Marco beside
+Instapaper is was previously known for
+being the CTO of tumblr and instantly
+Bert was kind of his side project that
+he worked on while he was at tumblr so
+my impression was he would work nights
+and weekends he eventually launched this
+thing it had quite a bit of fanfare
+early on even though it was just a
+bookmarking service at the time yeah so
+it was early days App Store so this is
+even pre App Store so we're talking
+about an ure 2008 Marco launches this
+this bookmarking service called
+Instapaper
+and essentially just a website and a
+bookmarklet so you could save articles
+using the bookmarklet and all was was a
+website coming into like March or April
+2008 he launched the reading mode for
+instapaper using its text parser so the
+text parser would take an article from a
+website extract just the text and the
+images and provide just the reading view
+and experience so if used Instapaper
+you're pretty familiar with this it's
+one of the core value propositions and
+then in August 2008 he launched with
+basically the App Store launch he
+launched in Sniper for iOS which
+leveraged the book marketing service and
+the text parser to kind of create
+Instapaper experience that kind of were
+familiar with today yeah and I think it
+was the first time where you had this
+combination of bookmarking experience
+this text parser that would extract the
+important parts of articles and then
+also the mobile application where it was
+kind of all the articles were saved
+offline and kind of available to you
+wherever you were I think in the early
+days of Instapaper
+in that 2008 App Store world instant
+papers solved three key pain points
+consumer pain points the first one was
+if you remember early i phone days there
+early mobile networks were really slow
+and it was like
+possible to load a website so you'd be
+waiting forever things becoming pretty
+progressively and then when a dude load
+it was impossible to read the content
+because there's no such thing as the
+mobile web
+until you to pinch to zoom and try to
+zoom in on this column and it and then
+you'd be like panning around and it was
+like this really weird experience I
+think the third thing was that the
+iPhone was kind of primed to be a
+reading device because it was always
+with you but for a lot of reasons it was
+not really a good reading device because
+there were no good reading applications
+the screen wasn't really good and so
+instapaper comes along and it lets you
+save articles the articles are perfectly
+formatted you can sync the articles
+while you're on Wi-Fi and then access
+them from anywhere and so I think it
+solves and then also like back in the
+AppStore days in 2008 there were not a
+lot of really useful mobile applications
+I don't think there were like a lot of
+at fart apps yeah things like this
+and so I think at the time became was
+pretty revolutionary and installed a lot
+of pain points yeah and as such kind of
+had a pretty huge addressable market
+which is almost anyone with an iPhone
+right and as the iPhone user base grew
+and so people kind of grew alongside it
+now
+you fast forward to 2018 most of those
+things are no longer problems you have
+LTE networks that are super fast the
+mobile web has its problems and there's
+various efforts to try to solve them
+like accelerated accelerated mobile
+pages from Google but at the end of the
+day you can still load a website and
+read it pretty easily and then the third
+one is there's actually tons of reading
+applications now and iPhone is a main
+reading device for a lot of people
+whether they use Kindle or Apple News or
+New York Times or Wall Street Journal or
+you use some aggregator like reddit or
+hacker news or Twitter it's fairly easy
+to read on your phone now and so I think
+the market has shifted from something
+that had kind of like a pretty wide
+appeal in the early days to something
+that's far more niche now and basically
+the use case for instance
+is you are kind of like a voracious
+media consumer you you source content
+from a lot of different places that
+might be directly from publishers it
+might be from news ideas like reddit
+Accra news you mean it may be from
+social like Twitter or Facebook and you
+essentially need a place to stage all
+that content temporarily until the time
+that you have enough time to kind of
+read it in bulk right go through it in
+bulk and I think the the market size for
+that is is fairly modest and I think
+that's part of the reason that both
+pocket and Instapaper wound up landing
+at larger companies back in 2016 and
+readability wind up shutting down
+because actually I think the market
+appeal for that product is fairly
+limited and it's not one that's like
+massively growing over time but did you
+notice when Safari launched the reading
+list a decrease in users so when that
+happened I believe it was 2011 or 12 I
+wasn't involved in speed for no time and
+I haven't looked at those historical
+trends to see if that was the case but
+it's not just so far it's actually a lot
+of a lot of applications save for later
+became a feature of a lot of things so
+like YouTube New York Times Wall Street
+Journal Safari all these things have
+like this reading list save for later
+like I found this thing and I want to
+come back to it but I don't have time
+right now
+yeah and so I think all those things
+kind of chip away at kind of like the
+usefulness of this core service and
+there is a large user base who's still
+using it daily weekly monthly and it's
+been kind of a big privilege for me to
+have the opportunity to service those
+those types of people but yeah let's
+let's go back to the intermediate time
+between the creation and now because I
+think that's instapaper stories
+particularly interesting so talk about
+the time how beta Works acquired it sure
+so the story that I've heard and I
+joined beta work shortly after the
+acquisition and joined the Institute
+paper founding team the bad works and
+thank you the story is that Marco wakes
+up at 2:00 in the morning he's like a
+little restless he's trying to figure
+out what to do with instapaper I think
+there were a couple factors there couple
+reasons why I and I haven't talked to
+mark about this directly so this is kind
+of my hypothesis but I think one was
+Marco was probably interested in working
+on some other projects like overcast
+which is his his current podcasting
+service its mobile app and service that
+he runs I think also in 2012 and so the
+timeframe for this is late 2012 in April
+2012 an important thing happens in this
+history which is a read it later Inc
+which was a read later company
+originally for Firefox both for Firefox
+built mobile apps and so on they they
+wound up launching relaunching and
+rebranding his pocket and so this is
+April 2012 and in doing so they launched
+they won had raised a lot of capital
+they had several engineers working on it
+and they had launched I've is and
+Android applications for free in the App
+Store now instapaper had no Android
+application and the iPhone app was $3.99
+to download and in relaunching pocket in
+2012 I think you know I've looked at the
+the downloads for Instapaper and they
+just start tanking after April 2012 and
+so I think you know you have this
+dynamic where you have this service
+that's really strong but there's a free
+competitor that's also really strong and
+people will always seek the free
+competitor so I think the combination of
+fatigue from running the service and
+pocket launching as a free application
+2012 led marco to rethink what he was
+doing with Instapaper
+and so the story is he wakes up at 2:00
+in the morning he creeps downstairs he's
+trying to think about what to do with
+Instapaper
+he reaches out to john Borthwick who's
+the CEO beta works now
+John Borthwick and bata works had
+invested in tumblr in the very early
+days in their seed round John Borthwick
+had Marco Arment come to beta works and
+talked about mobile app development so
+they had a good relationship there
+already and Marco basically said to John
+you know I've been thinking about what
+to do with instapaper
+I've been thinking about a long-term
+home for it and I think beta works could
+be that home and so they eventually
+worked out a deal where beta works would
+have a majority share of instapaper
+and Marco would retain some ownership
+and into the paper and continue to act
+as an advisor and beta works the
+understanding was that beta works would
+continue to invest in Instapaper staff a
+team around it and continue to build it
+so that's that that was announced in
+April 2013 and so you figure that
+probably took like about four four
+months from December 2012 which is my
+understanding of the timeline uh-huh and
+at which point you get hired by beta
+works to run it and then you run
+Instapaper within beta works for a
+couple years and then how did the
+Pinterest thing happen yeah so I think
+we should just back up a second and so I
+was hired in July 2013 and I was not
+hired to run Instapaper I was hired as
+an iOS developer for Instapaper and so I
+had started a company the company had
+never got more than a few thousand
+people who signed up for it it was a
+location-based social networking company
+and so I started in 2011 by 2013 it was
+really not working I had gone to beta
+works for an investment and they had
+said we're not interested investing in
+this space but we really like you and we
+want to work with you and it doesn't
+matter if it's next week a month when I
+have six months from now a year from now
+just keep us in the loop let us know how
+it goes and we'd love to have you here
+and so when the company folded I went to
+beta doric sounds like look new job and
+actually the person was talking to his
+Nick Charles oh you know as well and so
+I said hey I need a job and the
+opportunities were done not done which
+got shuttered within a few months of my
+joining
+this this gift search engine called
+giffy which I was like the thing from
+the 90s like this is crazy but I do
+wonder what that road would looked like
+if I had taken that one and then the
+third one was Instapaper and in Super
+was this pretty prestigious application
+that was like a long time in the app
+store I had used it in the past I was I
+was kind of interested in it so I
+interviewed for that job I joined as the
+iOS developer and I think a lot of the
+the skills I had from starting a company
+and that perspective had carried over
+there were a lot of gaps in terms of who
+was writing blog posts who was doing the
+marketing who was building product
+strategy and so on and so forth and so I
+just slowly started to pick up some of
+those things and there's a whole story
+about how I became into the leadership
+position I don't know if you yea go into
+okay yeah well so essentially what
+happened is even in my first interviews
+I had said to the to the person running
+it who's a beta works partner named
+Andrew mcLaughlin he I said to him that
+I did a competitive analysis of across
+instapaper pocket readability and I'd
+said to Andrew that I didn't think
+Instapaper could compete as a paid
+application in the market with strong
+free competitors yeah it just didn't
+make any sense
+yeah at the time did they have a
+subscription model after the paid were
+they doing like freemium mm-hmm so at
+the time pocket was totally free okay
+for everything every feature everything
+was free okay I think readability was
+the same and so you had Instapaper which
+had a 399 app download in 2013 and and
+going back in time it had actually been
+more expensive and then also a $1 per
+month subscription for search
+functionality so I have this full text
+search feature where if you had saved an
+article about Obama you could search
+Obama and it would surface the article
+right even if it was in the title mm-hmm
+so even in that early interview I
+basically said like Instapaper should be
+a free application and as I was hired I
+kind of advocated for this direction
+there was a lot of pushback from it from
+leadership where because the app
+downloads were 40 to 50 percent of
+revenue from Instapaper there was a lot
+of hesitation around just eliminating it
+and so what I did is I had been in touch
+with representative Apple via one of
+their education programs and I told her
+that we were interested in having
+instapaper participate in free a path
+week and so free app of the week is a
+program that the app store runs where
+they take a paid application they make
+it free they put it like right in the
+front page of the app store or what used
+to be the front page of the app store
+and give it like a pretty prominent
+treatment a couple weeks later she got
+back to me and said there was a slot it
+was like sometime in December 2013 and
+so basically I had gone to Andrew who
+was running Instapaper at the time and I
+said listen we have this opportunity to
+do free app of the week I want to test
+the hypothesis of making its debate for
+free and so what I'd like to do is give
+a two month free trial to instapaper
+subscription for everyone who signs up
+during the free app of the week trial
+period and I want to measure how many of
+them we convert after the two months and
+when I want the hypothesis to be is to
+see if we can continue to build the
+business by transitioning from a paid
+application with a subscription to a
+freemium application and so we had a
+couple chats we eventually went through
+with the free app of the week we
+executed on this plan in that time in
+that one-week period we had more app
+downloads than we had an aggregate over
+the past two years and we increased
+their subscriptions by like 10 to 15
+percent and so we basically had it so
+that three weeks before it expired there
+was a little yeah notification that came
+up in the app and then like a couple
+days before it expired there was a
+couple of notification that went up in
+the app saying like your free trial is
+going to expire consider consider
+subscribing so what did that percentage
+breakdown of new users how many
+subscribed so so the way this worked was
+was interesting I think we had
+over a million downloads of the million
+downloads
+I think only 650,000 people created
+accounts meaning that like people
+download it and just can you use it
+without an account no and so they never
+opened it or they open it and we're
+likes I forget it so that you do have
+the create account I've been to to get
+the experience and then of those people
+many turned out yeah I think we retained
+maybe 15% of them and then of the 15% we
+got some of them became subscribers I
+don't want to target members because
+because you can work out the percentages
+but we had a 10 to 15% increase in our
+subscription base yes and so basically
+what approved is that I think it proved
+a couple things one is that the paid app
+download was a major cap on our growth
+and that we were not able to compete in
+the market with strong free competitors
+as a paid application and that too when
+people use the application we could
+convert them in a pretty predictable
+reliable way and that they would convert
+and see the value once they would
+started using it and so what I had
+proposed and this is January 2014
+basically after we executed this
+successfully John and Andrew were like
+you can be a general manager so I set
+out the plan for 2014 and the plan was
+preciate forward it was make the
+application free and by the first step
+was creating more features for the
+subscription package and then increasing
+the price of subscription from one
+dollar a month to three dollars per
+month and then making the application
+free and so over the next eight or nine
+months we built rebuilds highlighting
+and then we capped highlighting so you
+can make I think five or ten highlights
+per month but after that you need paid
+subscription we built text-to-speech
+which we offered for free but we had a
+playlist feature where you could select
+multiple articles new text-to-speech and
+that was paid and so we try to strike
+this balance between like the free
+aspects of the feature and kind of like
+the more Pro and like what you would
+have to pay for and then we did a couple
+of other small things and then in
+September 2014
+we made the application free and
+launched a new subscription pricing so
+we did that across iOS Android and web
+and and then after that I was promoted
+to CEO in the leadership position and
+that's kind of that right kind of how I
+went from like the iOS guy into into a
+leadership position we took a pretty big
+hit I think which was expected on the
+revenue side for a couple months but
+within six to eight months we had
+recouped what we had lost and the on the
+monthly revenue and we were actually
+back into a growth trajectory which
+which was awesome to see and then a lot
+of my focus moving from that late 2014
+to mid 2016 when we sold it to Pinterest
+was getting kind of the the business
+fundamentals right making sure that we
+had control over our costs and as we
+continue to grow our revenue hit a place
+where we were breakeven and profitable
+and that was kind of my main goal moving
+through 2016 and then so I think that's
+kind of okay cuts up both as much as I
+know
+so yeah that's right and so do you know
+what motivated the acquisition interest
+from from Pinterest yeah so we had
+fielded some interests even going back
+in 2015 from them from from other
+companies okay
+there were two large media companies in
+New York and one one media company on
+the west coast one of the large New York
+media companies sent us a letter of
+intent for a large sum very large so it
+was um an eight-figure range yeah as big
+and so we were like you know we're at
+beta works and we're talking about it
+and talking about like the long term
+prospects of Instapaper and and whether
+or not this made sense and I think
+everyone felt like this this was a good
+outcome at least for the shareholders
+yeah so you think I think sometimes you
+think about the people who use the
+product you think about the employees
+anything about the shareholders I think
+unfortunately in technology and
+motivations of each of those groups are
+usually very different mm-hmm or
+sometimes very different and not always
+clear and not always clear now and so I
+think what's great now with the the new
+incarnation of instigator since we've
+spun it out to Pinterest is those things
+are very in line yeah I think we should
+spend time talking about yeah but I
+think in this case the motivation was
+largely around the shareholders and so
+we went ahead with this letter of intent
+we did all the diligence with these
+people I did like deep tech diligence
+with these people there's like there's a
+picture on my Instagram from back in
+2015 where I'm sleeping at my desk with
+my feet on the desks like someone
+someone took a picture of me I just and
+I remember it was like I just launched a
+big app update and done all this tech
+diligence and I was like I was exhausted
+I was wiped and then I think we had an
+eight week quiet period where they were
+due diligence and so on and so forth and
+in week six they pulled out because of a
+strategic change in direction and and it
+was it was really rough I mean I
+remember it was actually Halloween 2015
+actually remember really well because I
+member getting pulled into a conference
+room being told like they they backed
+out and that was that I I went out and
+got pretty drunk that weekend and just
+like trying to take my mind off of it
+I felt okay about it until the Monday I
+got back to work and I was like oh man
+has to actually like built this company
+again like I was like I was in the more
+like alright we're like gonna do this
+thing and it's tough like you get all
+your emotions tied into it you think
+it's gonna be a big change it's at least
+a new chapter
+yeah and back and not to mention like
+the significant amount of money that
+would have been yeah yeah and so I I
+think yeah I think like there were there
+were a lot of things where you were on a
+certain trajectory there and I was like
+I know I was like looking at houses oh
+wow you really gonna do work I mean I
+was like it was it seemed like a done
+deal I was like gonna put a down payment
+on the place and like Sawan us or you
+know right in South Brooklyn somewhere
+and and then it's just like boom now
+you're back to coming back to where you
+were and I think what's hard to because
+I like the whole team knew about it the
+whole team there's like three or four of
+us all right but still I mean it's kind
+of rough to go back to everyone and be
+like hey by the way this isn't happening
+anymore and so I was pretty deflated I
+think like as as you might expect we
+went back to the other large media
+company the West Coast media company and
+started those conversations again and
+then Pinterest had been talking about it
+works separately about things they're
+corporate of have been talking about it
+works they mentioned that they were
+interested in news we had a meeting with
+our Corp dev the I had a meeting with
+Andrew and and the guy was trying to opt
+out at the time I didn't think the
+meeting went particularly well like I
+was like you know it's kind of like this
+feels like a waste of time I don't know
+why we keep why we're doing this like
+spending at new conversations whatever
+yeah and and then eventually we got
+connected with the head of product at
+Pinterest a senior PMI Pinterest there
+was some connection from with Andrew and
+senior PM from the Google days and so
+they knew each other and was very
+friendly and and then we continued talks
+with them so but these initial talks
+were in December 2015 and the
+acquisition happened like signed and
+done in August 2016 so you're talking
+about a nine-month process and it wasn't
+all on I mean it was like we had talks
+and I cooled off and I came back and
+then there was like a negotiating period
+or whatever just to kind of illustrate I
+mean from the time that we fielded
+initial acquisition interest until a
+time that we sold the company was over a
+year's thirteen months and so these
+things like take a fairly long time and
+you may you know have a party that's
+interested and pulls out and and so I
+learned a lot from from the whole
+process so so like psychologically for
+someone in your shoes you know what do
+you tell them at this point like you
+know
+don't look at houses until you have a
+check or yeah how do you manage the
+psychology of it yeah
+so I would say definitely don't don't
+count your eggs before they hatch right
+I mean that's like that's the expression
+I think it's it's tough when you are so
+close to something I mean like you know
+we were all like when we signed the this
+LOI
+right we were like high-fiving and stuff
+it was like I wasn't impression it was
+like a done deal
+yeah and to back out of an LOI is from
+like a business perspective like usually
+they're non-binding but it's it's I
+think pretty frowned upon and it can
+damage your integrity and your
+reputation and so on and so forth and
+typically it's not done I learned later
+on that you can add breakup fees to
+these and so you know I didn't know a
+lot about this stuff and this is my
+first time going through this process
+and so that you can basically say like
+if you do pull out you have to pay more
+X yeah
+and that can kind of just incentivize
+them from from doing all this work and
+then I think also like yeah when in the
+pull out that there's some other issues
+like it sends a signal to the market
+like maybe something is wrong yeah for
+sure when that definitely wasn't the
+case but managing psychology I mean
+definitely it was definitely a roller
+coaster I would say you know you have to
+like be very calm collected don't don't
+shop for houses until the money's in the
+bank
+because there's no point and and yeah I
+just like try not to try not to get too
+down on the down swings right but then
+ultimately you landed a Pinterest moved
+out to California you got soft that's a
+lot yeah how's that going that's good so
+yeah beta Works is in New York I'm from
+New Jersey I grew up in in the New York
+area and so as part of the deal it was
+understood that we would all be moving
+out to to Pinterest and when I say we
+all instapaper it was me doing all the
+engineering and like all the leadership
+piece there is someone doing customer
+support maintaining the parser doing
+kind of
+a variety of other things marketing and
+then there was a designer of the three
+of us to moved out to Pinterest designer
+decided to to go do something different
+and how's it been I mean this is a big
+difference between New York or San
+Francisco and it's not something I want
+to get into necessarily on the podcast
+I've gotten really into like hiking and
+all the outdoor stuff yeah thank you
+you're kind of into that too so I think
+I think that's that's been awesome
+working at a large Silicon Valley
+company has been awesome
+I've learned a ton about building
+products at scale processes for doing
+that even just like some of the
+methodologies that are used are vastly
+different than what I've been exposed to
+at smaller scale startups I think of
+kind of my career as like the scale at
+which I've shipped software so in the
+first company I started out of college
+no customers
+we just demoed it a little bit yeah the
+company I started after that we had
+6,000 people signed up for it
+Instapaper has millions of registered
+users and Pinterest has a quarter
+billion monthly active users so that's
+kind of how I think about like that the
+career trajectory of building software
+and when I started at Pinterest a lot of
+the initial work was around doing
+Instapaper integrations and so we did a
+variety which which we can talk about
+and then once I completed those
+integrations I started doing a lot of
+Pinterest specific work first as a
+individual contributor he's not for
+engineer and now starting this year in
+January I have been managing a team of
+engineers building a new feature yeah
+interest so I'm managing a team of eight
+very talented software engineers who are
+great and I care about very much and and
+yeah so I've learned a ton about
+managing a larger company and I'm
+curious about how it's gone managing it
+within Pinterest we had Cortland Allen
+from indie hackers on the podcast a
+while ago and now that's within stripe
+and that that's been an interesting
+process for him and in most part for the
+most part it's been good like he's been
+able to like get off the gas in terms of
+like raising the sponsorship money well
+and just focusing on the community in
+the forum and the content how has it
+been for you and how do you manage that
+thought process while you also have a
+job working on you product at Pinterest
+yeah sure so in late 2016
+we were at Pinterest we did the
+acquisition in August and around
+November December we had a conversation
+with Pinterest leadership about some
+options and directions for Instapaper in
+2017
+and I think I presented like four or
+five options one was one was putting it
+staffing a whole team around it and
+treating it as a business unit and
+trying to grow it the second one was
+staffing some data science around it and
+seeing what kind of news based insights
+we can get on an aggregate basis and so
+I was always pretty adamant about not
+sharing personal data in any way shape
+or form but aggregate information about
+the number of saves on a URL might be
+interesting might help to power some
+features within Pinterest the third
+option was to put in a maintenance mode
+and just kind of have me and and brodien
+the other person for the Instapaper
+maintain it and so that would be kind of
+like more on the side and and doing that
+and then the fourth option was shutting
+it down and so I was something that we
+discussed
+I thought that it was pretty low
+investment to keep it running and that
+there would be a lot of upset people if
+we shut it down and that it didn't make
+a lot of sense when we had people
+willing to do it and we could do it in a
+sustainable way
+mm-hmm so it was an option but a non
+option kind of it was like we tried
+heavily to steer away from that and so
+they asked me for my recommendation and
+my recommendation was to put in
+maintenance mode at the time and just
+treat it as a side thing that I
+maintained the reason being is that
+treating as a business unit I just felt
+that every dollar put into Instapaper
+could maybe return 70 cents a dollar
+like it would be pretty challenging to
+have it kind of be an investment that
+had a solid return but I felt pretty
+strongly that every dollar into
+Pinterest would you have $1 $10 $25 30
+and so it didn't seem to make a lot of
+sense to put tons of resourcing instant
+it's the paper when there's so much work
+to do on Pinterest and that there was
+much more reliability for getting value
+out of the work done in Pinterest right
+and then on the data science we talked
+about it a little bit and decided I was
+just too so most of that work myself and
+so we got some agreement that we would
+kind of put it keep it in the
+maintenance in the maintenance mode and
+then essentially I dedicated three four
+hours a week to instant paper and
+regularly launched new app updates and
+fixes servers and do things like that
+but large large parts of my focus
+shifted to working on Pinterest right
+and then and I forget when you told me
+you were gonna spin it out but at what
+point did you guys decide you're like
+you know what we're gonna take this
+thing on its own again sure so we had
+that conversation late 2016 through 2017
+we did a variety of updates starting in
+early 2018 so this year yeah I was
+thinking a lot about Instapaper long
+term trajectory it felt to me that given
+the current course it would be out of
+path for shutdown just like drawing out
+things and I think all things in life
+have a certain trajectory that could be
+people businesses products yeah but
+that's the sad reality of a lot of these
+things that get acquired by big
+companies they have I mean obviously not
+a tremendous amount of users that love
+it but like some some amount of users
+that love it and then they just like
+kind of die quietly as people like you
+know get promoted or like buy a house
+somewhere and leave and go to another
+company yeah it's interesting that
+you're like no we want to keep this
+alive yeah let's take it yeah I think it
+is interesting I think there's a couple
+of reasons why we were able to make it
+work yeah
+just to touch on what you said though a
+lot of people were angry about the
+pension side position and a lot of
+people on Hacker News say people were
+listening this podcast were angry about
+the acquisition and they had seen I
+think a lot of applications that they
+loved by the wayside and very similar
+things so whether it was mail box with
+Dropbox or sunrise with Microsoft or
+parse of Facebook I mean there were tons
+these things that were these like really
+beloved applications I had a cult
+following and a lot of users and they
+got bought by the big companies they're
+no longer kind of in line with the
+mission of the original thing they get
+integrated or shut down or whatever
+turned it to open-source or something
+exactly and so I think the reason we
+were able to make it work for an instant
+paper is instant paper was always run by
+a very small team I've always felt that
+with our existing user base we could
+monetize and cover costs so I think a
+lot of these things like some of the
+ones I just mentioned they require lots
+of Engineers they require lots of
+upfront capital and they've been they
+basically need to continue to have these
+C's pump more money into them you can
+continue to grow so they can eventually
+become self-sustainable but they're not
+self sustainable usually in the forms
+and they were acquired in and I think
+that in the case of instapaper was very
+different it was built by one person ran
+by one person for a long time when I
+came there were three or four other
+engineers as they left I picked up
+back-end responsibilities Android
+responsibilities website
+responsibilities and I basically got to
+a part point and I think a lot of people
+think Instapaper is like a big thing
+with a lot of people I mean basically
+from late 2014 through now I've been the
+person doing all the backend engineering
+all the iPhone engineering Android was
+starting 2015 but it's basically just
+been me doing all the stuff and so
+because of that
+I can reduce kind of one of the largest
+costs in a company which is the human
+cost right and in doing so I was of the
+firm belief that we could cover our
+server costs with the existing usage and
+with like a reasonable conversion rate
+on the existing usage I had the benefit
+of looking back at a lot of the
+historical data on how many subscribers
+we had what the growth rates look like
+and so on and so forth
+and I just felt like this was the type
+of product that could continue for the
+foreseeable future I knew that it wasn't
+ever going to map to a Pinterest
+top-line metric or KPI or OKR or
+whatever you want to call them and so
+basically in early 2018 I had emailed
+the CEO Pinterest Ben Silbermann
+the subjects and Instapaper and I just
+said hey can we chat
+I basically had a conversation very
+similar to like what we just discussed
+which was that it felt like the current
+trajectory was for a shutdown I didn't
+feel good about that I didn't feel good
+about taking away this product from the
+many people who use it just because it
+didn't map to some top-line metric or
+okay our KPI that it had been my
+privilege to serve these people and I
+wanted to continue to serve them for the
+foreseeable future and that I thought
+the the two ways we could put into the
+paper back on a trajectory where it
+could survive for the foreseeable future
+is to either treat it like a business
+unit within Pinterest which I said my
+recommendation was the same
+recommendation who may even late 2016
+which is that that doesn't make sense or
+we can spin it out into an independent
+company and so we talked a lot about it
+as part of the the discussion we agreed
+that it would be like a handshake
+understanding that this did not mean I
+was leaving Pinterest so the only thing
+that would change here is the the
+ownership of Instapaper and so now that
+Instapaper spun out I run it in a very
+similar fashion I was at Pinterest I
+dedicate
+my nights and one day on a weekend per
+month and I fixed all the issues
+launching your app updates and so on and
+I am trying to build into the paper into
+a thing that can sustain himself for the
+next 10 years he's been around since
+January 2008 celebrated our 10th
+birthday in January and I want it to be
+a thing that can last for another 10
+years it's awesome Ann and you you did
+raise a little bit of money now that
+it's spun out yeah right so what were
+the terms on that what are the
+expectations yeah sure
+so we raised $80,000 from friends and
+family yeah very ragtag like six people
+so to kind of give you the average size
+I think the largest check was from me
+which was 13,000 and then most of the
+people had ten some people open a five
+the the pitch was interesting because
+our express purpose is not to try to
+like grow this into a huge thing and
+like exit or do anything crazy like our
+thing is to make this a long-term type
+of business and again like trying to
+align like what our customers want which
+is they just basically want this service
+last forever I think right what the
+operators want which is again just to
+kind of make it so that this is a
+longevity thing and then kind of
+aligning what the shareholders the
+shareholder pitch they're so essentially
+what we said to shareholders was we
+structured it as preferred shares and so
+we basically said that we're gonna sell
+you preferred shares at this price and
+your preferred shares will automatically
+convert to common shares when we give
+you back 125 percent of your investment
+so basically what we're saying is we're
+going to have a 25% increase on their
+investment and we'll automatically
+convert them from from preferred to
+common shares and then after that mmm
+any dividends to investors would be done
+across the normal common share equity
+split and so the pitch to them was that
+you have this 25% return any timeframe
+on your investment we said within a year
+I think based on current trajectory it
+looks like maybe more like 16 months
+we'll be able to get there maybe 18
+months and then on a yearly basis if we
+can afford to do a small dividend will
+anta get you 10% monthly investment
+return I'm sorry
+yearly investment return on your
+investment and so there was some risk
+upfront here but I think all the people
+who were involved there were like a lot
+of excavator works people might ant put
+in money so it was very friendly you
+know I think right and and not like life
+breaking amounts of money very small
+amounts of money and so there's some
+risk but I'm happy to kind of report
+that things are going very well that we
+do have a lot of people who are
+converting to interview for
+subscriptions we are now cashflow
+positive which is great like couple
+thousand dollars a lot of that was
+around significantly reducing our server
+costs tons of work around that but also
+just continued growth in the
+subscription offering one thing that I
+am trying to piece together is that a
+lot of the subscription offerings a lot
+of new subscribers are you early
+subscribers and so we need to we need to
+basically account for that revenue as we
+realize it so there's an accounting
+practice called deferred revenue so
+while we're cashflow positive I don't
+know I don't know how we're doing
+against our deferred revenue and I think
+we want to do it accounting on a
+deferred revenue basis meaning that we
+would realize the revenue from the
+yearly subscriptions in each month that
+we actually offer the service so if you
+subscribe for a year in August then we
+need Naga store 30 divided by 12 and
+then the rest throughout the rest of the
+year so we're cashflow positive I still
+need to figure out a deferred revenue
+basis how we're doing as a business
+because we need to spread that money
+over the whole year ready for server
+across any kind of prediction for those
+for those people over the year we've
+been
+this is our third month in business
+we're starting to set up books and kind
+of do things like that so still early
+scrappy days of the new instapaper
+it's cool man yeah so you got some
+questions - I let's see if there's
+anything that are specifically Pinterest
+or later all right
+so yeah let's do this one that from
+djaro
+whoo-hoo sounds like you know what types
+of product integrations could Pinterest
+have done with instapaper yeah so there
+were two main ones that we talked about
+I think I touched on one which was
+taking the aggregate signals from URLs
+from Instapaper so how many saves yeah
+how many reads they got how many likes
+they got we essentially score those four
+Instapaper and that powers a feature
+called
+instapaper daily in spate for daily each
+day of the interview for daily gets
+rolled up into a weekly email called
+Instapaper weekly it's kind of like the
+best article saved every day do you name
+all the stuff crashing it with a name
+the products yeah okay so the daily the
+daily was I think I'd named the daily on
+the weekly the daily was more a group
+effort at the weekly was just kind of an
+obvious long we've talked about doing
+like a monthly thing - what are you
+gonna call it the monthly oh no that's
+the idea so pretty social Scott
+describing so essentially we we score
+those using something called insta rank
+which is done by one of the beta works
+data scientists and we essentially took
+all the URLs and scores from each day
+for instant paper and we made them
+available to Pinterest with the idea of
+having some news based feature within
+Pinterest I think one thing that was
+interesting is I looked at the
+intersection between URLs that we saw in
+instead of paper or we had signal on and
+it's a paper meaning that there was some
+save read like on in a given day and
+then compared those to the URLs that
+were in Pinterest in each each day and
+what I found is that on day on the first
+day that we saw those links only 16% of
+those links were in Pinterest so we
+actually see like a much different set
+of humorous on a given day and then over
+time I think within seven or eight days
+Pinterest gets to like 60 70 80
+ten of the links that we're seeing so
+there's still like a you know different
+set of overlap there but given the
+nature of the types of links that
+Instapaper has which is very news based
+and the types of links and the
+experience that we were looking to build
+within Pinterest which is like some sort
+of news based recommendation system by a
+time Pinterest gets those links a lot of
+those links are out of the news cycle
+yeah and so it's kind of the data the
+data is difficult to use and so we built
+some experiences around integrating
+those signals around having ranking
+recommendations for news articles using
+those signals but there were these big
+gaps where like it took time for these
+to make their way out to Pinterest
+whereas on instant paper we kind of have
+like yeah all these people distributed
+on the internet who were saving that
+stuff to their accounts and doing it
+like very fast as the news breaks and so
+that was one reason that product
+integration I think didn't work
+I think Pinterest is also this
+algorithmic recommendation engine that's
+heavily based around things that are
+kind of more long-term evergreen like
+recipes fashion a fashion has cycles but
+home decor whereas there's much
+different cadence for news and it kind
+of changes like the way we do
+recommendations that wait so we're a lot
+of people just saving like short form
+news articles instant paper is that
+common I just assumed you would read
+those and then anything that's long you
+actually save so there's two big use
+cases for instigate where there's like
+the long-form one which i think is what
+you're describing but there's also the
+like I want to be able to find this
+stuff again right this is more
+searchable archive yeah and so people
+will save things that they have read and
+I do this too I save even like pretty
+small things like I've saved things like
+campfire recipes so if I go backpacking
+or just eating some area just so I can
+like kind of get to it really easily and
+that offline which in nature you might
+be offline so those the two key use
+cases I've had a lot where I've read
+this like article
+about startups or entrepreneurship or
+whatever yeah and I wanted to recall it
+and get the thing back like pull up the
+article again and doing a Google search
+sometimes it's like yeah like I can't
+remember which which blog it was on or
+so and so forth but it's much easier to
+do if you have kind of your own personal
+search index and if you subscribe plug
+for instance or yeah you can search
+through all articles you say yeah it
+should do a full text search okay cool
+so so we do get both and we do get kind
+of a different cut versus what Pinterest
+gets at least on day zero which is when
+when that recommendation is most
+important the only other thing that we
+kind of looked into was kind of doing
+like an offline reader mode for for
+Pinterest mmm I think for various
+reasons like at the scale of Pinterest
+and so on and so forth it's would be
+very difficult to do that people save a
+lot of things in Pinterest and I think
+the expectations are a little bit
+different like people expect that all
+their instant paper stuff will be
+available if we built that expectation
+for Pinterest we'd have to store like
+ton tons and tons and tons a stuff any
+massive videos and just just so many so
+much more content because the nature of
+the service is actually very different
+and so something we discussed in
+actually when we were talking about
+spitting it out we discussed like maybe
+this would be a place of value and I
+talked to the head of product about it
+and I said like there's so much stuff
+that is important for Pinterest right
+now and this seems like the type of
+thing that seems like a nice idea but
+will be infinitely deprioritized behind
+like the many other more critical things
+we need to do and so I don't really see
+that as something that's viable like are
+you gonna staff people to do this
+project and he was like no and so I said
+yeah because it doesn't it doesn't
+really make sense to do like all those
+like super technical features that's
+funny like I think about overcast in
+this way like overcast I don't have the
+numbers but it seems to be very highly
+adopted among nerdy people who want like
+crazy granular control over like
+notifications per show offline downloads
+show but the average person doesn't care
+at all yeah and so for Pinterest like
+focus on that seems yeah yeah and I
+think in sleepers is actually very
+similar right I wouldn't describe them
+as nerdy I would say they're very
+there's continued people who are very
+particular about the features that are
+in the product they want massive control
+over the features in the product they're
+very privacy focused and I think Marco
+has built a large audience of these
+people right so I think what's cool
+about Marco is that he has this audience
+and so when he launched his products he
+launches them directly to this audience
+yeah and they typically go and they
+download buy subscribe use the products
+that he builds and they do it because
+mmm Marco is the same type of person who
+wants kind of that control those privacy
+settings and so on and so forth yeah so
+I think it's a great model it's very
+cool a lot of people look up to him so
+I've got some silly questions in here
+all right here we go
+Ryan Hoover from producthunt he asks I'm
+curious how he and the team a very small
+team balance simplicity with new feature
+development and product expansion yeah
+this is a really good question we've
+built basically our product roadmap base
+always historically based off of user
+requests so people that write in and we
+track all those user requests and
+essentially we build a model based on
+like the most requested features it was
+like always oh it's a big thing even
+going back to 2014 when I got put into
+the general manager role for instant
+paper I built this like little this
+little table this 3x3 table and the
+things that I want to evaluate features
+on were did users request it does it
+give us a competitive advantage can we
+build it into the business model and
+then evaluating all the features based
+on that and we essentially built a road
+map based on what users want thinking
+about monetization a little bit and then
+also does it give us a competitive
+advantage a lot of the features that
+we've been requested are very power user
+features so people want to like do
+highlights they want to create
+adaptations they want
+to be able to export all their
+highlights and annotations to a
+third-party service like Evernote or
+something like that I'd be amazing
+Kindle Amazon exactly I think actually a
+lot of people want to take all their
+highlights and put them into one place
+this notion of like a commonplace book
+where like all your learnings are kind
+of in one spot and so I know Ezra Klein
+who's the editor in chief of Vox uses
+instapaper to Evernote and then puts his
+Kindle highlights and Evernote using
+some service I think it's called
+clippings IO and together he kind of has
+them all in one Evernote so again it's
+like this searchable memory bank
+exactly right of all the things that he
+reads huh and and so many of the
+features are very power user features
+some of the other ones are speed reading
+text-to-speech again like people use
+Instapaper in their car while they're
+driving right so they'll put the
+playlist on and just go or use the iOS
+voice speech-to-text yes speech yeah yes
+so your fault yeah so we use the speech
+synthesizer there are a couple new iOS
+voices that are really great so there's
+one called Samantha that's really high
+quality and the the one that most of the
+most of our users request is called Alex
+so Alex is I think it's like a couple
+hundred megabytes download but you can
+kind of go into the voices and iOS
+settings and if you have that downloaded
+we can detect it use that by default hmm
+so our strategy here for for building
+that is to keep the product really
+simple for the majority of people it's
+already pretty complicated product where
+it's like okay you're gonna use this
+thing but you're gonna find stuff
+elsewhere and then put it in here and
+then come back to it it's already like
+it's already over like the browser
+extension is like well it said too much
+yeah yeah you're like gotta install this
+here and then it's a challenge and so
+our strategy for simplicity with new
+future development and it's not a great
+strategy is we just hide all the
+features we put them kind of in hidden
+places and I think our our idea and our
+philosophy behind it is the people who
+want those features are going to go out
+of their way to go find it and we don't
+care about moving metrics on specific
+features or whatever
+what we care about is the overall
+product and keeping it simple and so
+most of those features like
+text-to-speech
+and speed reading if you go into the
+reader view you press the share button
+there in the bottom sheet there and they
+may be kind of pushed back based on what
+other things that you have there and
+what you've configured and if you scroll
+on the bottom sheet you can get to the
+text-to-speech or the speed reading
+features if many people don't know they
+exist I think there's a question know it
+existed there's a question on here that
+says ken Instapaper be voice enabled so
+we can yeah we can cross that's a yes
+there was one Raymond Dirk asked about
+the speed reading so I love rapid
+reading mode but would also love a voice
+enabled mode where the Google assistant
+or Siri reads it speaking out I'd use it
+on my Google home to listen to news that
+worse yeah so so we do have a voice
+enabled mode yeah for for text-to-speech
+I think that the home assistant one is
+interesting and so I looked into
+creating alexis skill for Instapaper
+in early 2016 now and I think at the
+time it was it was very difficult to do
+because you can only pass 500 characters
+in a response and then Alexis skill at a
+time now Amazon has more recently
+launched Amazon Poly which kind of has
+some of the Alexa functionality for
+developers on AWS and more recently
+pocket has done an integration with poly
+so they actually send articles to poly
+and I can I think what poly returns is
+like an mp3 yeah alright and so you can
+use poly with your alexis skill i assume
+you could do it with sweden I also you
+know I think the challenges poly has
+some costs associated with it and I
+haven't done the math to figure out like
+what percentage of users would use this
+and what the cost would be but it might
+not be feasible for us to do even with
+our existing premium model yeah it's
+like based on the volume of usage for
+each individual user I'm not sure it
+would make sense right but it's
+something that I'm still looking into
+that's particularly just for the Google
+home and Alexa
+type of environment right how's that
+unique consideration I think yeah but I
+guess you could always just play it on
+your like home speaker yeah you could
+always use on your phone and then put it
+wherever you want right all right cool
+have you tried any of those like
+Lyrebird type integrations where it does
+a straight up voice emulation so I'm not
+familiar with that but we did try a two
+different third-party mm-hmm
+text-to-speech companies there was one
+called ivona which i believe is actually
+an amazon company and there was another
+one we use that that's slipping me when
+embedding those with the mobile
+application it blew up the size of the
+mobile application like hundreds of
+megabytes and so we looked into
+downloading the voices asynchronously
+and like basically you download the app
+and then you download the voices
+separately kind of felt like it was a
+lot of work even just actually linking
+the the text-to-speech library just to
+do the functionality blew up the binary
+I think two times the actual download so
+I was does that materially affect that
+number of downloads you get I think only
+if you exceed the App Store mobile
+download limit so that's changed at the
+time it was 50 megabytes I think I
+believe now it's 100 or perhaps more but
+I think at the time and speaker was 20
+or 30 Meg's right now it's 50 Meg's and
+linking these text-to-speech libraries
+blew it up to like 70 Meg's so at the
+time I think it would have dropped app
+downloads I think now it's a little bit
+easier to do on cellular networks and
+other elements are higher but so we're
+basically looking at that and then we
+have to pay for these things and trading
+off against this free stuff that yeah
+comes with iOS devices already and we
+can use no problem
+and it's like fairly good and probably
+the quality will improve over time and
+so it was a very short-lived type of
+experiment yeah we're a massively
+changed the app for a small percentage
+exactly right okay so Brian Kim asks any
+growth hacks that worked well
+so we didn't focus too much on growth
+acts I think our I think our focus has
+always been on delivering good product
+it's always been our best growth I and
+so is that in the best growth that's
+always like basically like when we
+shipped features that our users wanted
+that our competitors didn't have we were
+able to get more users using that now I
+think of growth hacks in a more simple
+way growth hacks basically is when you
+take your product you take a link to it
+and you post it somewhere else to try to
+take users from another service right
+and so if you're Airbnb your growth hack
+is posting a craigslist if your genius
+your growth hack is making sure that
+your Liris pages are at the top of
+Google searches for those lyrics there's
+a variety of other ones but essentially
+they involve go into this other service
+and pulling their users that involves
+kind of publishing some some content
+maybe they're their apartment listings
+maybe their lyrics or so on and so forth
+the content that we have on the service
+is saved from our users and they're from
+media publishers or bloggers and we
+would never republish that content and
+that content is specific to that user
+yeah and so a lot of those types of
+growth hacks and tactics don't really
+work for its the paper there is a
+variety of things we could do you can
+publish like SEO pages of collections so
+we could like have some collections of
+articles and try to publish those it's
+just never been a big focus area for us
+I think probably our biggest growth hack
+was removing the paid download right and
+and demonstrating that that paid app
+download that we removed back in 2014
+was a massive barrier to our growth and
+today Apple actually goes out and
+recommends tap developers that they have
+subscription in their apps and they
+don't do out downloads I think in 2013
+2014 that was less obvious right best
+Egyptians were kind of a key piece here
+yeah yeah well it's so much more
+sure now yeah it was back then all right
+Gustav from my seat is curious about
+your personal reading habits so how do
+you make time for focus
+catching up on everything you save and
+what are your best productivity hacks
+related to this sure so you need to make
+that educated time to do this I've
+learned and I honestly save more than I
+read and read less often than I would
+like I found that when I was offline so
+for instance when I was in New York City
+in the subways back in 2014-2015 there
+was no internet service and so there's
+nothing else to do so I would read ton
+on insta paper that is changing rapidly
+I think even in airplanes now most of
+them you'll have Wi-Fi I've gone back to
+New York and almost every subway station
+you have LTE yeah I live here in the bay
+I take Bart there's basically service on
+the entire BART line and I find that
+more and more there's less time I'm
+offline where I'm going into the paper
+and so I do need dedicated time on the
+weekend or nights to actually go through
+it and read them there's times like are
+we a little bit during lunch especially
+if it's work specific articles I think
+the best productivity a hack I have
+that's instant paper related is on the
+mobile application if you press the
+ellipsis button in the top right you can
+press there's a sort option and you can
+sort by shortest article and then I'll
+go and I'll just blow through a ton of
+short RT is and just do them really
+really fast and I'll leave kind of a
+bigger meteor ones for later I think
+another one that I do is I'll go through
+periodically and I'll just delete a
+bunch of stuff that I know I'll never
+get to especially like there's tons of
+Donald Trump articles in there that are
+like just just know like like that piece
+is about Trump yeah and they're just no
+longer relevant because so much has
+happened between now between today and 2
+or 3 months when I saved it yeah that
+it's just no longer interests
+hanger relevant and so I'll go through
+and I'll delete a bunch of things like
+that or like this company raised this
+money like I'm like I don't really need
+this actually so I think those
+combination of things are the the best
+productivity hacks I have around it but
+making time to actually revisit the
+things that you save is very difficult
+we've thought about building features to
+help with that but it is really hard to
+build that type of feature and not
+making it massive and massively annoying
+for the person using it and make them
+feel bad about the same thing as
+exercise exactly until you really want
+to do it doesn't happen exactly just
+guilt exactly yeah do you ever see uh I
+don't want to mess of it and these names
+Dan Williams in London he made a Chrome
+extension that was like send to kindle
+but it didn't do anything it was like
+javascript:void and it's like you could
+just click it it would trigger that
+thing and I actually did install it for
+awhile because I realized like going
+back to my instapaper or pocket or
+whatever I was using at the time I could
+pretty easily ascertain the stories that
+I'm actually gonna read and having more
+discipline around that was what allowed
+me to get I mean I've never at like
+inbox zero on any of this stuff but
+closer to it right
+also greyscale have you experimented
+with that on your phone I haven't I know
+it's like a big thing people are doing
+grayscale Plus airplane mode yeah yeah
+it [ __ ] done yeah because you found just
+so lame yeah after that you can actually
+read I think the last thing I want to
+talk about is yeah all your hiking
+ambitions sure what's your what's your
+training strategy lately
+sure so yeah it's interesting I I'm from
+the East Coast I was not into nature I
+think you know if you live in New York
+there's you kind of get sucked into the
+city and the vibe in the Bay Area is
+very different and I think the thing
+that I've really loved about living here
+is the easy access to nature and so I
+started just by like exploring and
+hiking I didn't like a lot of my like
+first hikes here you know just like my
+first like ten mile hike things like
+that I think as I started pushing the
+upper limits on hiking and doing things
+like ownio cemetery and doing Half Dome
+and doing like these 16 mile hikes
+I got into more like camping backpacking
+doing much longer hiking mm-hmm
+and so I think this year I've done like
+ten backpacking trips like all over the
+place which has been pretty you did some
+big ones you're not just doing like
+casual stuff right like you did Whitney
+did Shasta another big ones this year
+yeah so think those those are the two
+big ones so from backpacking it's kind
+of been like yeah well some of these
+mountains look really awesome right and
+so mountain climbing is super dangerous
+thing and so when I did Shasta at least
+where it was like heavily snow and ice I
+went with a company that brings people
+up there yeah I'm not trying to like die
+on the mountain like you know right yeah
+it's dangerous if you don't know what
+you're doing exactly so but it's tied in
+math Shasta which was great I didn't
+Mount Whitney this year which was
+extremely hard Mount Whitney is the
+highest peak in the lower 48 it's in
+California here it's in the Eastern
+Sierras near the Nevada border I did
+that one basically in a day and went up
+and came back it was 13 hours 8,000 feet
+of elevation gain
+I got a massive headache at the top
+which sucked if I do it again I'm
+definitely gonna sleep overnight because
+II went from Lone Pine right you went
+from the east side yeah you start I
+slept in the parking lot like right
+outside the parking lot yeah and I think
+that it's like six thousand seven
+hundred feet or seven thousand feet now
+and then you go up to 14 five so it's a
+pretty big lift for one day yeah there
+is a campsite at 10,000 feet I just
+didn't get a permit for it
+otherwise I'm not a masochist I would
+have been a and so I have been doing
+these like pretty intense workout
+routines for mountain climbing
+specifically and it started with just
+the Shasta one it was like a 12-week
+mountain climbing routine heavily
+focused on endurance so a lot of cardio
+a lot of like long cardio sessions
+yesterday I did an hour on the
+Stairmaster with 20 pounds in my
+backpack and just just kind of doing
+things like that and I think what I've
+realized is like you you do hit these
+walls but the more you can kind of like
+you know you like where you feel like
+you want to give up and then where you
+can like
+through them and get used to like
+hitting the wall breaking through it
+breaking through it and doing that in
+the gym versus on the mountain is is
+kind of a good strategy and so I have I
+have some more ambitions like I don't
+think I'm ever going to like want to do
+Everest right like this like that's a
+little like real climbing like too
+extreme he's climbing I would I would be
+interested in that I just I want to
+balance like having a good time outside
+with being safe oh you know yeah but
+there's the whole categories like type 2
+fun and yeah I agree with you I I fall
+into the camp of enjoying the suffering
+not the dangerous part yes exactly and I
+think with Everest like if you need to
+put oxygen on in order to get up it's
+like you know maybe just you know I know
+people do it but it just seemed I know
+people do it without oxygen and those
+people are awesome yeah but it just
+seems to me like maybe a step beyond
+what what my ambitions are there but I
+would like to do like Mount Rainier
+there's a couple in South America that
+I'm kind of interested in doing at least
+like on here and it's kind of been like
+a whole new thing for me
+this this whole area and and so
+something I've really enjoyed living out
+here in California and exploring cool
+man well if someone wants to get in
+touch with you or reach out to you on
+the Internet's what should they do
+sure Twitter is probably the best place
+my Twitter handles bth Donoghue I
+usually give out my email too but it's a
+lot of people about it so if if you
+reach out to me on Twitter I will give
+you my email address and we can chat but
+I think that's probably will start with
+Twitter : alright thanks for making time
+yep
+thank you
+you

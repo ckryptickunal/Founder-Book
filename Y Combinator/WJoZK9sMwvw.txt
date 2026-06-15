@@ -1,0 +1,875 @@
+Title: How To Design Better AI Apps
+Video ID: WJoZK9sMwvw
+URL: https://www.youtube.com/watch?v=WJoZK9sMwvw
+Channel: Y Combinator
+Published: 2025-05-23T14:00:59Z
+Duration: PT30M8S
+Views: 97105
+Likes: 2279
+Tags: YC, Y Combinator
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 853
+
+Description:
+In this episode of The Breakdown, Tom and Dave are joined by fellow YC General Partner Pete Koomen to lay out a new vision for how AI should actually work: not as a chatbot bolted onto legacy software, but as a customizable tool that helps people offload the work they don't want to do. From editable system prompts to agents that act more like collaborators, they dig into what it means to build AI-native software—and why the future belongs to products that let users teach machines how to think.
+
+
+
+============================================================
+TRANSCRIPT
+============================================================
+
+We're using old software development
+techniques to build these features and
+we're not actually taking full advantage
+of what AI can do. I think the promise
+of AI for many of us is that it allows
+us to build software that the user can
+program to do whatever they want using
+only natural language. Steve Jobs
+describes software as a sort of as a
+bicycle for the mind. This feels like I
+don't know like a rocket ship for the
+mind.
+[Music]
+Welcome to another episode of The
+Breakdown. Today we're lucky to have
+Pete Kumman, our partner here at YC.
+Pete was the founder of Optimizely,
+which built software to help companies
+AB test. Pete, welcome. Thank you. Happy
+to be here. So, Pete, you recently wrote
+an essay which caused a bit of a stir
+and basically told everyone on the
+internet who was building AI agents they
+were doing it completely wrong. So, tell
+us more about that. Sure. uh when I use
+AI in my day-to-day life, I've kind of
+had two radically different experiences,
+right? On one hand, when I use tools
+like cursor and wind surf to build
+software with AI, it feels like the most
+powerful tool I've ever used, right?
+It's this feeling of being able to
+create anything I want. Anything I can
+picture in my head, uh you know, will
+materialize in front of me with these
+tools. And it makes me so excited about
+AI. Uh, and then I've had a lot of other
+experiences a lot of times when I'm
+using existing apps that I'm used to
+that have incorporated AI into them
+where it doesn't feel that way at all.
+Um, it actually feels like more of a
+chore, right? Like using the AI actually
+creates more work for me than uh just
+doing whatever it was myself. The
+example that I chose in my essay uh was
+to pick on the integration that the
+Gmail team built between their AI model
+Gemini and Gmail's uh interface that uh
+this is a little draftw writing agent
+that can create email drafts for me
+given some instructions. Yeah. And the
+underlying Gemini model is pretty
+phenomenal, right? Gemini is amazing.
+The model itself is absolutely
+incredible. We've been using it a lot at
+YC to automate our own work. I'm so
+impressed with what they built. Um, but
+a lot of that power, I think, is hidden
+behind a UI that makes it really
+frustrating to use. And that was really
+the focus of my essay. The feature that
+I chose as my example was this little
+draftw writing agent that shows up in
+the Gmail interface. And uh, what it
+does is I can put in some instructions.
+So, in this case, let my boss Gary know
+that my daughter woke up with the flu
+this morning and I won't be able to come
+into the office today. and it will spit
+out an email draft for me to make your
+life easier. To make my life easier.
+Exactly. So, here is the email draft
+that I got when I put that prompt into
+the UI. Dear Gary, I'm writing to inform
+you that my daughter woke up with the
+flu this morning. As a result, I won't
+be able to come into the office today.
+Thank you for understanding. Best
+regards, Pete. And if I got this, I'd be
+like, Pete has been has his brain taken
+over by like or he's been fished and I
+need to report fishing like something's
+going horribly wrong. accounts been
+hacked, right? There's two big problems
+with this. The first problem is, like
+you're pointing out, that doesn't sound
+anything like me, right? If you got this
+email, you wouldn't you would assume
+somebody else wrote this. My account got
+hacked. I got fished. And then the
+second problem is that the draft or
+rather the prompt that I used to explain
+what I wanted in the draft is roughly as
+long as the draft itself. Yeah, that was
+my contention here. Right. On one side,
+you have using AI makes you feel like a
+superhuman with unlimited powers, and on
+the other hand, using AI is is
+frustrating and adds more work. Maybe
+we're jumping ahead a bit a little bit,
+but the ideal experience, I think, would
+be something like telling the AI, hey,
+my daughter's ill, like figure out my
+calendar today. And then it go through
+your actual calendar and then figure out
+each person and then write the
+appropriate email in the appropriate
+tone. Right? That's perhaps we're
+skipping all the way to the end, but I I
+think that's exactly right. These AI
+models are now capable of doing things
+like that where it's actually
+anticipating all of the things that will
+need to happen as a result of my
+daughter waking up with the flu and
+helping me do those things. But that's
+not what we've built, right? That's not
+what what the team has built. So Pete,
+like the people who work on Gmail, I I
+know a lot of them. They're not dunes,
+right? Not at all. Yeah. They probably
+don't use the feature themselves is my
+guess cuz I don't use that feature. So
+how did we get here? Like how did this
+happen? I know many people who work for
+Google. They're incredibly smart. Uh why
+did they ship a feature that ostensibly
+nobody, including probably them,
+actually uses? I don't know. Part of the
+problem is that we're using old software
+development mentality, old software
+development techniques to build these
+features and we're not actually taking
+full advantage of what AI can do. And so
+I'll explain what I mean by that, right?
+And I'll go back to these two problems.
+Let's start with the tone problem,
+right? This doesn't actually sound like
+me. Why is that? Well, what's actually
+happening under the hood when I ask this
+Gmail agent for a draft is that this
+Gmail agent, this little UI, combines my
+prompt, which is the one we we just
+talked about, with what's called a
+system prompt. And the system prompt is
+the text that explains to the AI who it
+is and what its job is. And this gets
+reused every single time. And in the
+Gmail case, I don't actually know what
+that system prompt says. This is it's
+been hidden from the user. I'm not
+allowed to see it, let alone edit it
+myself. But we can kind of guess what it
+says, right? You know, and I've got a
+little caricatured version of this in
+the essay. The system prompt here is
+something like, "You're a helpful email
+writing assistant responsible for
+writing emails on behalf of a Gmail
+user. follow the user's instructions and
+use a formal businessy tone and correct
+punctuation so that it's obvious the
+user is really smart and serious. I
+actually built a little demo so that you
+can see the impact of a system prompt on
+the email draft, right? And so we
+combine our sort of supposed Gmail
+system prompt with my user prompt here
+asking for the draft and we generate the
+draft and we get something like this.
+Right? Again, it's an email that seems
+perfectly reasonable. It does what I've
+asked but it doesn't sound like me. So
+just digging in like we are guessing
+what the the system prompt might be in
+this case but it seems we've guessed
+close because the output is basically
+what you get when you use Gmail
+relatively similar. And so like just to
+point out the the system prompt that we
+have created here um is one that is
+generic. It would apply to all users in
+exactly the same way. It's one that's
+like safe. Um you've explicitly told it
+um use a businessy tone, look smart and
+serious. Don't say anything that might
+make the parent company of this product
+look bad. And that's got to be the
+overriding concern for a lot of these
+companies, right? We don't want the AI
+to say anything that's going to
+embarrass Google. I I remember it was
+either Google or Facebook released like
+a scientific model like pretty early on
+and then very very quickly pulled it
+back because it was saying some it was
+hallucinating sometimes. And so I think
+like Google were really on the cutting
+edge of this transform technology and
+were like leap frog by open AI just
+because they was too cautious to put
+stuff out there. Yes. Yeah. I think
+that's probably a big part of this,
+which is that, you know, my my little
+supposed version here is probably
+incomplete. There's probably a whole
+bunch of additional text in the real
+system prompt about not embarrassing
+Google and all of the different things
+it should avoid doing. If you say
+anything bad about Sundar, you're fine.
+And we've seen this recently as uh these
+system prompts kind of get leaked at
+times. And it's a big deal because
+everybody's we see the system prompt now
+for this AI assistant or this one. And
+if you read those system prompts, yeah,
+they're quite elaborate. uh and they
+have direct instructions to avoid
+certain problems. You can see the mark
+of the HR team in that system probably.
+I think there's a deeper issue here
+which is that we're designing features
+like this in a way that looks a lot like
+software that we've been building for
+decades, right? And so just to
+illustrate what's possible, let's
+imagine that Gmail allowed me to not
+only see but edit this system prompt for
+myself. I might write a version that
+instead of saying you are a generic
+Gmail writing, you know, email writing
+agent, my version might just say you're
+Pete, right? You're a 43-year-old
+husband, you're a father, you're a YC
+partner, you're busy, and so is everyone
+you correspond with, and so you do your
+best to keep emails as short as
+possible, right? What I've done here is
+I just take the little program in my
+brain that is used for writing emails,
+and I've done my best to explain to
+Gemini how I do that. And if you just
+take that same user prompt asking for a
+draft of an email explaining that my
+daughter's sick and you use my system
+prompt rather than the generic
+one-sizefits-all Gmail system prompt.
+The draft we get, "Hi Gary, my
+daughter's sick with the flu, so I can't
+come in today. Thanks." That sounds like
+an email that I would have written.
+Totally. By editing this system prompt,
+I'm able to explain to the AI model how
+I write emails in general so that I
+don't have to do it every single time.
+And so going back to your question, why
+did the Gmail team hide decide to hide
+this system prompt away? My contention
+is that a lot of AI app developers,
+including the Gmail team in this case,
+are treating the system prompt the same
+way they've been treating code for
+decades. For, you know, as long as we've
+had a software industry, there's been a
+division of labor between me, the user,
+and you, the developer. The user does
+not see the code. User doesn't see the
+code. The developer is the one who is
+responsible for building the system,
+defining the system. It's all hidden
+away, and it's abstracted behind. an
+interface that I can point and click
+around to do something. It's more or
+less one sizefits-all software. That's
+the only way we've been able to build
+software up until now is oneizefits-all,
+right? If you're building an online bank
+software or a piece of AB testing
+software, your job as a developer is to
+go and talk to hundreds or thousands of
+users and synthesize all of their needs
+together into one common set of features
+that you're going to build in your
+oneizefits-all piece of software. sort
+of lowest common denominator software.
+Exactly. Exactly. And that's I think the
+Gmail system prompt in this case you can
+think of as the lowest common
+denominator email writer. It's the safe
+anyone could use this thing. But what it
+results in is emails that no individual
+would actually write. Yeah. No one's
+getting fired, but this is not the
+software that's going to take over the
+world. That's exactly right. You think
+that developers today are using AI in
+the previous generation of software
+development that they've been used to?
+Yes. Um, and so you use this phrase, the
+AI horseless carriage. Maybe tell us
+what you mean by that. This is a
+reference to early automobile designs
+that looked a lot like uh carriages with
+the horse replaced with an engine,
+right? And there were all sorts of
+problems with that design. You know, for
+example, there's less suspension on
+carriages, which didn't work at high
+speeds with a vibrating motor, right?
+That the center of gravity was higher,
+which made turns harder at high speeds.
+Basically uh inventing the motor was
+only a small part of what was needed to
+produce a vehicle that could take
+advantage of the it only became useful
+once you redesign the entire That's
+exactly right. Right. Yeah. And this
+phenomena we we see over and over and
+over again in technology like some some
+ones that I have lived through when the
+internet came about. Um a lot of the
+first search engines were literally just
+like digitized yellow pages. It was just
+a directory of listings. And now of
+course we think like that's silly kind
+of like Craigslist right that's what it
+started with when mobile came out the
+first mobile apps or a lot of the first
+mobile apps were basically just websites
+wrapped in a native app wrapper but they
+didn't take advantage of any of the new
+technologies available on the mobile
+phone like GPS like multi-touch and it
+takes a few years typically to get to
+the useful bit of the new technology and
+I guess what what you're claiming Pete
+is we are like not there yet. I think
+the the deepest problem here is that
+when the when the Gmail team set out to
+build this, they kind of asked, "How can
+we slot AI into the Gmail application?
+How do we replace the horse and put an
+engine in?" That's exactly right. And
+the the problem with that is that Gmail
+is an application designed for humans to
+do work in. Right. The real promise of
+AI, I think, for many of us is using AI
+to automate repetitive busy work, right?
+And a lot of the time I spend on email
+is repetitive busy work, right? It's
+it's work that doesn't really need my
+full brain power, but because we haven't
+had the technology requires it, right?
+And so I give a little example in my
+essay of just, you know, using these
+simple techniques, what you could do
+with an email inbox. And here's that
+example. So this is an example of an
+email inbox. It's got a bunch of
+messages on the right hand side and
+there's an agent operating in this inbox
+and it's an instead of an email writing
+agent, it's an email reading agent. On
+the the left hand side here, you can see
+this is a system prompt that I wrote
+that just tells this agent what to do
+with each email. And the agent can
+assign a label to an incoming email. It
+can archive it. uh it can put a color on
+that label and it can write a draft.
+Right? Those are the things this agent
+can do and my instructions are just what
+to do for each email. So if the email is
+from my wife, draft a reply and label it
+personal. If it's from my boss, draft a
+reply and make it priority one, right?
+Which is just one one notch lower than
+emails from my wife. Uh and for anyone
+else at YC where I work, a YC label and
+give it priority two, right? Right? If
+it's from a founder who needs help, call
+it, you know, put a founders's label on
+it. Make a right. This is my sort of
+internal again mental model for how I
+organize my email. And I'm just
+explaining to Gemini how I do this work
+so that it can do it on my behalf. One
+thing I find interesting about this is
+this is really the code. This is the
+programming you are doing for this
+agent. But if you read it, it's pretty
+accessible, right? It says if it's a
+techreated email, label it tech. If it's
+somebody trying to sell me something,
+archive it. And this is like a a great
+example of how the LLM technology is
+actually good enough to let
+non-programmers program these apps. You
+know, the way that I think of these
+these these models, a super smart, you
+know, fresh grad right out of college
+that can do anything pretty well, but
+has no idea what to do, you know, and
+the missing step is giving me the
+ability to teach it how to do work that
+I don't want to do, which is what I've
+done here. And you're right, it's
+completely accessible. One of the sort
+of pieces of push back I got when I
+started talking about letting users just
+write their own system prompts was like,
+well, most people aren't technical. They
+don't know how to do that. Which I think
+is true. This isn't a skill we're born
+with. But in doing this myself, I found
+it really intuitive. It's basically like
+thinking of the way that I make a
+decision and then trying to explain to
+this AI model how to do it. And as long
+as you can kind of um watch it do the
+job and and give it feedback by by
+adjusting this prompt, it's pretty
+intuitive. And so, for example, here,
+here's what happens when I apply this
+little agent to each one of the emails
+in this inbox.
+Amazing. I love this. Um, this is a this
+is an essay. Uh, but it's not static. I
+love the fact that you've built this
+little widget so people can actually go
+in, they can edit the system prompt
+themselves to kind of reformat it the
+way they want and rerun it. I think it's
+such a smart way to to convey this kind
+of idea. One of my favorite things is
+building demos. And this felt like an
+intuitive way to start talking about
+some of these concepts. And this is just
+another example of how powerful AI makes
+you feel when you're building with it.
+When you're just interacting with these
+models. How did you build this by the
+way? I vibe coded the whole thing. So I
+wrote, you know, this is I mean like
+ironically enough, these AI models are
+not actually that useful to help you
+write things from scratch, right? The
+part where I used AI was describing a
+demo that I thought would help
+communicate the the point I was trying
+to make and then watching it appear,
+right? Like it's it's absolutely
+magical. It's astonishing how good these
+uh especially the coding agents. I mean,
+I rebuilt my entire my um I was on
+Tumblr and I migrated my blog to custom
+software I wrote in one hour on a train
+journey. The coding agents especially
+just seem so far ahead of of all the
+other general purpose agents right now.
+Yes. And to me uh like we will have
+caught up when everybody uh has the same
+experience that we have when we're using
+these coding agents in their particular
+domain. Right? So when accountants can
+build uh accounting agents that do just
+all of the repetitive workflows on their
+behalf, when lawyers can build lawyering
+agents that do the repetitive workflows
+on their behalf is basically every
+profession I think will have its cursor
+moment or its windsurf moment. Why is
+cursor windsurf or claude code so far
+ahead of you know, lawyer agents or
+accounting agents. I think there's two
+reasons. Um, the first is that these AI
+models are incredibly good at processing
+text, right? So, if I can write a good
+description of a thing I want, they can
+process that description, that prompt,
+and turn it into a bunch of code. Right?
+This is going back to why it was so
+annoying to write that original email
+prompt is like these agents aren't good
+at writing from scratch. They're good at
+processing instructions and doing and
+and turning them into to some text
+output, right? For code, that's actually
+really useful, right? If I can describe
+in English what I'm looking for, an
+agent can output code that does this and
+it's remarkably effective. This is just
+a domain where these agents are are
+really powerful. I think the other
+reason though is that developer tools
+are power tools, right? Developer tools
+by definition allow you to to get to the
+bare metal, right? to get under the hood
+of what whatever it is you're working
+with. And so the teams that built these
+these tools allowed me full access to
+have this agent do whatever I wanted it
+to do. They didn't spend a lot of time
+making sure that I didn't do anything
+that was embarrassing to Windsurf or
+embarrassing to anyone. I'm allowed to
+just interact directly with the model
+and use the full power. Whereas I think
+a lot of a lot of other domains were
+still using this sort of like kid glove
+mentality of like oh don't don't let
+them use the full power of these models.
+I hope we're able to move beyond u this
+this moment in time where there's so
+much assumed liability on the part of
+the application developers for what
+these models do. Well, I think the
+interesting point is if you do change
+the model where the user is in charge or
+at least has access to the system
+prompt, then the u repercussions of that
+are on the user and not on the company
+that built the tool. Yeah. It's like um
+Google put Gmail out and if you write an
+email full of profanity that's on you,
+right? Like exactly the same way like if
+you change the system prompt to act
+like, you know, a violent jerk, like
+that's on you. That's not on Google.
+Yeah. It's it's a shift in mentality. Uh
+giving giving AI to the user as a tool
+and they can use it for whatever their
+purposes are versus feeling like you as
+a developer have to be responsible for
+everything these these models output and
+therefore you nerf it and it's not
+useful. So I broadly agree with
+everything you've said so far but I I
+had some questions and the first one is
+do you think u the vast majority of
+people are able to write these kind of
+system prompts? I think the answer today
+is
+no. But I think the answer to that in
+the near future will be yes. Why is
+that? When I was growing up computers
+were still seen as a power tool that
+only nerds really knew how to use,
+right? Um, and today that's just no
+longer the case. All of us use computers
+all the time. It's no longer like
+remarkable or interesting for somebody
+to use to be able to use a computer,
+right? And so what happened is we all
+just sort of figured out how to use
+these things and the interfaces got
+better, right? It's it's the tech the
+tech got better and we learned how to
+use it in time. And so it is
+unremarkable, right? And I think the
+same thing is going to happen with
+prompting. So I think this is actually
+going to happen a lot faster with
+prompting because pro writing a prompt
+is a lot more accessible than you know
+operating your file system manager on on
+your computer. You don't need to
+understand much except to be able to
+explain yourself in English or whatever
+language you speak. Having done this uh
+several times my myself now it's
+surprisingly intuitive. Right? Thinking
+about okay how do I write an email?
+Right? It's it's a bit of a toy example
+but it's kind of fun. You can write your
+little internal algorithm for it and
+then you can watch and if it gets the
+tone right, your system prompt is is is
+right. Yeah. And I agree with you on
+that. I think basically everyone will be
+able to do this. I'm not sure everyone
+will want to or to have the initiative
+or agent like we're three founders
+sitting here. We love to tinker with
+this stuff. Like you're telling me about
+your mom using uh like my mom uses Gmail
+every day, but is she going to write a
+system prompt? Like probably probably
+not. Yeah, maybe. I So I don't know. I'
+I've learned not to be pessimistic about
+what what users can learn. Um, but I
+agree with with the point, Rich, is that
+I don't think I'd want to write my own
+email writing system prompt from
+scratch. I'd like to have that option,
+right? But I've been using Gmail for 20
+years, right? And there are 20 years of
+my email history that a good product
+could use to to create a draft prompt
+for me, right? The idea that, take a
+human analogy, you hire a new employee,
+you hire an assistant. The idea that
+you're going to sit down and write out
+30 pages of instructions of how you do
+every single thing in your life is
+possible, but none of us actually do it.
+You sort of you give this gradual
+training and if they were able to go
+through and read all your previous
+emails, they kind of learn and then you
+um you kind of interact with them step
+by step and they write a few emails and
+you check the drafts and when you're
+comfortable, you say, "I didn't want to
+check the drafts anymore. Send it." And
+then if you spot something that's not
+quite right, you say, "Oh, no, no, no. I
+would have phrased that this way or this
+other way." and the human would take
+that feedback and edit their own system
+prompt. So, so Pete, you've been
+actually doing this at YC, right? You've
+built some internal tools that our
+finance team or our legal team uses. Um,
+and it's it feels like the interaction
+has been exactly what Tom just described
+where you literally go sit next to a
+finance person and you ask them like,
+"Hey, tell me how you do this this
+workflow. Like, show me what you do."
+And then you write some system prompt
+for them. They try it. It doesn't do it
+quite right. they edit the system prompt
+with you. So, it's kind of this like
+back and forth iterative model that
+you're suggesting. Yeah. And I'd go
+further than that. I think there's like
+a missing tool in AI app development,
+which is like not everyone has a pizza
+next to them, but you could have an AI
+system prompt writer sitting next to you
+to take you say, "No, this wasn't right
+or I would have rewritten it like this."
+And it will translate that back into a
+system prompt and kind of self-edit or
+autoupdate. Absolutely. Right. And and
+these are great examples of um UI
+conventions that we just haven't figured
+out yet, right? And and you can see
+people are experimenting with different
+models here. Some of the foundation
+model labs have started building memory
+into their into their chat bots, right?
+Which is that's one um mechanism for
+taking context that I've shared over
+time and storing it forever, right? Um,
+I haven't had great experiences with
+that because again it's it's sort of
+it's treated like a black box where I
+can't actually see what it has
+internalized and what it's stored. My
+big contention here is that because this
+is all just English, we no longer have
+to treat these things like black boxes.
+The system prompt is almost like this
+this document that you don't have to
+edit if you don't want to. But in the at
+the limit, if there's something really
+goes wrong, you can go in and tinker
+with it if you want. But probably for
+most people, the AI will autogenerate
+it. it will um look through your
+previous work to to customize it to you
+and take your feedback on ongoing basis
+to kind of edit this system prompt and
+you know the kind of break glass case is
+you go and edit the file and be like no
+no no I really don't want this to happen
+but I I'd suggest I think in in 5 years
+for 99% of people they're not touching
+the system prompt but the system prompt
+is custom to them. I think that's
+possible. It'll be interesting to see
+how this plays out. Some of the work
+that we've done at YC, building agents
+to automate some of the repetitive work
+that we and our teammates do on a
+regular basis actually suggests to me
+that writing prompts is going to be part
+of the day-to-day flow for a lot of
+people. I agree in the short term, but I
+I think my contention is like there's a
+a higher level of of abstraction on top
+of system prompt writing that you
+shouldn't actually have to go and edit
+the system prompt that you're able to
+like nudge or like say no no that okay
+here's a new term sheet that's a new
+term we've never seen before and here's
+how I would think about it and the goes
+thank you very much I will take that
+distill it down into system prompt and
+and autoedit system prompt rather than
+Alex having to look up this like 50page
+document and go like I'm going to change
+that specific line you know what I It's
+like a a level of abstraction on top of
+raw kind of raw dogging the system
+prompt. I think we'll probably have
+tools that make it easier to teach an AI
+over time rather than going up and and
+editing in, you know, a 10 or 50page
+prompt uh every time every single time
+you want to do this. And I hope that
+developers stop treating these prompts
+like black boxes. Being able to look at
+the ground truth of what this agent is
+being instructed to do on my behalf is
+incredibly valuable and it seems to be
+totally missing from a lot of
+applications. I 100% agree with that.
+So, so we've been talking a lot about
+the prompting, right? And and Tom is
+kind of saying like there's a going to
+be a bunch of innovation on how we write
+system prompts or how we edit them or or
+iterate on them. In the essay, you also
+talk about tooling which I think is a
+really important and interesting topic
+as well. Talk talk to us about that.
+Yeah, sure. So, so if developers aren't
+the ones who have to write all these
+system prompts from scratch, what are
+they going to focus on? I think the
+promise of AI for many of us is that it
+gives us software or it allows us to
+build software that the user can program
+to do whatever they want using only
+natural language. The thing that these
+agents need in order to be able to do
+anything useful, we call tools. If we go
+back to my little email reading agent
+here, the tools that this agent has
+access to are a tool for labeling an
+email, a tool for archiving an email,
+and a tool for writing a draft. You
+could imagine many other tools that
+would make this agent more powerful and
+more able to do a lot of the busy work
+that I have to spend my own time on
+right now, right? And so, a lot of the
+emails I get are not emails that take a
+lot of my brain power to handle, but
+they just need to get done. Paying
+bills, right? doing introductions and
+handoffs, right? The number of times
+that I've had to create a draft and put
+this, you know, a certain person in BCC
+and like um it's maddening to have to do
+this stuff uh over and over again. The
+point is is that an email in a lot of
+ways is like my inbox uh you know it's
+my to-do list or a whole bunch of chores
+in life, right? The very few emails that
+I write are really heartfelt original
+thinking. A lot of it is sort of
+transactional, you know, and with tools,
+this email reading agent could handle a
+lot of that, especially across things
+like Slack and your calendar and your
+notion or your Jira or your linear or
+whatever. There's a company in the
+current batch called Den basically
+building cursor for knowledge work
+that's trying to chain together all of
+these different MCP servers, which
+basically a way to call tools for agents
+so that if your boss, you know, your
+bossy sends you a message on Slack and
+says, "Hey, uh, review these terms and
+conditions." You pull it from Google
+Docs, you review it, maybe the AI sends
+it via email to your legal team, they
+review it, and then you publish it by
+GitHub. And all of this is controlled
+via one place with kind of agents
+calling these tools from different
+places. And you just sort of sit sit
+back. It's like a Steve Jobs described
+software as a sort of as a bicycle for
+the mind. This feels like I don't know
+like a rocket ship for the mind. It's
+incredibly powerful, right? Right. And
+we built a we built an early version of
+this inside of YC and we're already
+seeing employees of YC automate parts of
+their job that are easy to automate. And
+and the difference that these tools
+provide is it takes an agent which
+previously could only be basically like
+a Q&A, right? A question and answer
+thing into something that can go off and
+accomplish things in the world on your
+behalf. Yeah. I I kind of hate the the
+kind of chatbot paradigm. Like it was
+the easiest. It was the way to bring the
+most basic LLM experience to the whole
+world. You know, we had GPT before chat
+GPT and chat GPT brought it to the
+mainstream, but now every product is
+just embedding this chat agent in it.
+It's like that's not the way this stuff
+should be used in almost every case. I
+totally agree because we started with
+chat bots, a lot of us developers and
+users are sort of anchored in this place
+where the thing that LLMs are great at
+is producing text. uh where I think what
+we're what we're trying to argue here is
+these LLMs are capable of automating
+work on our behalf, accomplishing things
+in the world on our behalf so that we
+don't have to. And that's the promise
+and I think that's an amazing future. I
+look forward to it. Me too. This has
+been so interesting. Pete, how do you
+think founders should be thinking about
+this when building their companies?
+That's a great question. I think this is
+one of the most exciting time to be a
+founder because almost every tool that
+we've been using for decades can be
+rethought from the ground up with AI and
+I think the AI native version of a lot
+of tools will look different from the
+versions we we're used to using. Right.
+What I what I showed here looks pretty
+different from an email client that I've
+been using for most of my life. Yeah. So
+they've got to go beyond simply like
+embedding a chatbot inside their
+existing product. Yes. Instead of asking
+how do I insert AI into my tool, it's
+how would I design this tool from
+scratch to offload as much repetitive
+work from the user as possible so they
+can focus on what's important. All
+right, Pete, thanks for joining us
+today. Thank you for having me. See you
+on the next episode.
+[Music]

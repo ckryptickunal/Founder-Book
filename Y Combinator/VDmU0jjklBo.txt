@@ -1,0 +1,208 @@
+Title: Anthropic’s Claude Computer Use Is A Game Changer | YC Decoded
+Video ID: VDmU0jjklBo
+URL: https://www.youtube.com/watch?v=VDmU0jjklBo
+Channel: Y Combinator
+Published: 2024-12-06T15:00:41Z
+Duration: PT7M54S
+Views: 141525
+Likes: 2799
+Tags: YC, Y Combinator, Anthropic, Claude, Haiku, Sonnet, Computer Use, AI, AI Agent, Garry Tan, Dario Amodei
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 180
+
+Description:
+The age of AI agents is here. Models can read, see, talk, and now, even use a computer all by themselves. One of the first out of the gates is Anthropic’s Claude Computer Use.
+
+In this episode of YC Decoded, President and CEO Garry Tan dives into how Claude Computer Use works, what it can do, and how it may change AI forever.
+
+Apply to Y Combinator: https://yc.link/YCDecoded-apply
+Work at a startup: https://yc.link/YCDecoded-jobs
+
+Chapters (Powered by https://bit.ly/chapterme-yc) - 
+00:00 - Intr
+
+============================================================
+TRANSCRIPT
+============================================================
+
+the rocks can talk but they can also
+read they can see and now they can use a
+computer browsing the web clicking
+buttons typing text all by itself the
+age of AI agents is here one of the
+first out Gates is clawed computer use
+anthropics brand new AI agent let's dive
+into how it works what it can do and how
+it may change AI forever
+[Music]
+in October anthropic made waves when it
+released a set of upgraded models Claude
+3.5 Haiku and a new 3.5 Sonic they also
+released something special computer use
+but they're not the only ones in the
+space we already know Sam Altman is
+working to recreate Samantha from the
+movie her and open AI is said to be
+releasing its own agent operator in the
+new year Google is working on something
+similar too the landscape for AI agents
+is growing fast and so far anthropic is
+the first of the big AI labs to get into
+the game right now Claude computer use
+is still in public beta as developers
+put it to the test but already it's
+looking like a complete GameChanger so
+how does it work Claude had the ability
+to understand images for a while so the
+next step was to train it on how and
+when to perform specific actions like
+clicking buttons or writing text based
+on what's displayed on the screen Claud
+has has had for a long time since since
+Claude 3 back in March the ability to
+analyze images and respond to them with
+text the the only new thing we added is
+those images can be screenshots of a
+computer and in response we train the
+model to give a location on the screen
+where you can click Andor buttons on the
+keyboard you can press in order to take
+action and it turns out that with
+actually not all that much additional
+training the models can get quite good
+at that task it's a good example of
+generalization for this anthropic needed
+to train Claude to recognize exact
+locations on the screen down to the
+pixel anthropic was then able to train
+Claude to understand what's happening on
+screen and to reason about how it should
+use its software tools to do tasks for
+example it might help you automate
+boring and repetitive tasks cla's going
+to start taking screenshots of my screen
+and quickly realizes that the ant
+equipment company isn't actually in the
+spreadsheet luckily we get a search
+match and Claude then starts scrolling
+through the page looking for all the
+information it needs to fill out this
+form to get started with computer use
+developers have to run it in a virtual
+machine or container like Docker you'll
+also need an anthropic API key once
+that's all set you can then open a
+dedicated browser window which shows the
+user prompt on the left and cla's
+activity on the right Claud starts by
+analyzing The Prompt and deciding which
+tool to use as it works it takes a
+screenshot at each step to check its
+progress making sure the task is on
+track if adjustments are needed Claude
+Loops back to try different actions or
+tools until it completes the task this
+repeatable Loop of deciding evaluating
+and acting is called the agent Loop and
+it's how Claude handles complicated
+step-by-step tasks all on own so what
+else can computer use make possible in
+their own demos anthropic shows us a few
+different tasks like this one of Claude
+helping to plan a sunrise hike at the
+Golden Gate Bridge it searches the web
+figures out some important details and
+then creates an event in Google
+Calendar in another example Wharton
+Professor Ethan mollik puts CLA computer
+use to the test by feeding it a video of
+a construction site and prompting Claude
+to monitor the site and look for issues
+with safety you'll see Claude takes
+screenshot after screenshot analyzing
+different parts of the site making note
+of all the gear and materials and trying
+to spot any potential issues it even
+finishes up by putting everything
+together in a nice neat spreadsheet
+automated OSHA compliance check by now
+it should be clear that computer use is
+a step forward for AI up until now
+developers have had to make tools to fit
+the model coming up with custom
+environments where AIS use specially
+designed tools to do different various
+tasks now we can make the model fit the
+tools that's a powerful change computer
+use opens up so many applications
+businesses can automate repetitive tasks
+and increase efficiency while the
+average user can save time on routine
+things like booking flights or ordering
+food it's easy to see a future where AI
+agents handle most of the Drudge work
+for us and for developers computer use
+massively lowers the barriers to entry
+llms have already made tasks like coding
+way more accessible to the average
+person and computer use takes that a
+whole step
+further computer use is still a work in
+progress so it has some bugs and
+limitations it's much slower than
+typical models and has a tendency to
+crash from time to time so reliability
+is still an early concern occasionally
+Claude will misstep in its tool
+selection get confused or even sometimes
+Veer off task during one session that
+anthropic shared on YouTube Claude
+unexplainably started searching for
+pictures of Yellowstone National Park
+out of nowhere in the middle of its task
+to be fair humans get distracted and
+sometimes do that too Claud does have
+guard reils since it could easily be
+used used for abuse it steers clear of
+things like account creation or content
+generation for social media it's also
+vulnerable to prompt injection a
+security risk where the model can be
+tricked to follow different information
+or prompts embedded in the online
+sources it visits rather than sticking
+to the original prompt imagine a website
+prompt injecting Claud to upload the
+contents of your password manager that'd
+be bad anthropic thought about and tries
+to keep users safe by keeping actions
+contained to a secure virtual machine
+limiting access to sensitive data and
+strictly controlling approved sites
+however many of these limitations could
+be lifted soon because this beta is just
+the beginning anthropics already said
+that computer use will rapidly improve
+to become faster more reliable and more
+useful for the tasks users want to
+complete plenty of startups are getting
+into the mix too just recently a YC
+company Kura released their own browser
+agents that seem to outperform Claud
+computer use on the web Voyager
+Benchmark achieving a new
+state-of-the-art in the near future llms
+with the full ability to use and
+controll computers will reshape
+everything how developers write software
+how CEOs run their companies and even
+how we all live our daily lives each new
+groundbreaking appc application will
+transform how we work connect and live
+this kind of AI won't just be an
+assistant it'll take on entire tasks
+that once needed whole teams or
+companies so what will you build with
+computer use
+[Music]

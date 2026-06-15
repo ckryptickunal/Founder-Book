@@ -1,0 +1,988 @@
+Title: Karn Saroya on the Capital-Light Way to Start an Insurance Business
+Video ID: WvBSU4pjnX8
+URL: https://www.youtube.com/watch?v=WvBSU4pjnX8
+Channel: Y Combinator
+Published: 2019-02-27T13:52:50Z
+Duration: PT34M26S
+Views: 4868
+Likes: 84
+Tags: YC, Y Combinator, Karn Saroya, Cover, Insurance, Tech, Podcast, Interview, Craig Cannon
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 951
+
+Description:
+Karn Saroya is the CEO and cofounder of Cover, which was in the YC Winter 2016 batch.
+
+https://twitter.com/karnsaroya/
+https://cover.com/
+
+Cover is a nationally licensed insurance brokerage. You can use their app to take a picture of property you want to insure and they’ll connect you with their insurance partners so that you can get the best price and coverage.
+
+The YC podcast is hosted by Craig Cannon.
+
+https://twitter.com/craigcannon
+
+***
+
+Topics
+
+00:08 - Karn’s intro
+
+00:33 - Using computer 
+
+============================================================
+TRANSCRIPT
+============================================================
+
+all right and so today we have Karnes
+Roya the CEO of cover which was in the
+winter 2016 batch of Y C so carne what
+does cover do for us all thanks for
+hosting me I appreciate it so you can
+think of cover as a multi-line national
+property insurance entity our customers
+download our apps we ask a couple simple
+underlying questions and they take
+pictures and videos or things they want
+to ensure so this could be cars they
+could walk us around their homes pets
+jewelry electronics we basically make a
+market for just about anything you can
+take a picture of mm-hmm
+and it's processed with computer vision
+not humans crowd on the home side it's
+computer so we use it a tensor flow
+based camera to identify catalog your
+property so that when you need to make a
+claim there isn't much of a fuss that's
+put up by an adjuster okay
+and now is it assessing more than what
+the object is or is it just like this is
+a bicycle no no that's actually I mean
+so the value of us being a visual app is
+twofold one you know it it plate we're
+acting as a sophisticated frontline
+underwriter we're proving as a property
+existed in a given time place and
+condition okay and that helps materially
+improve our lost runs okay and then for
+the customer you know what it means is
+that there there can't be very much
+pushback in the instance of a claim you
+have proof that your property existed an
+adjuster can't come back and say that
+hey that television that you're trying
+to claim is actually something that's
+like a you know a inferior model or
+something yeah got you and so are your
+are your models constantly adjusting per
+person rather like so should I be
+photographing everything okay so so it
+again it's just a tool for us it's not
+it's not necessarily the central tenets
+of what we do a big a big part of it is
+to simplify the onboarding of getting
+insurance okay I'm making it a bit more
+natural on native mobile okay and then
+this is kind of an interesting
+divergence for you because before you
+had a style startup yeah before that you
+were in consulting right so maybe maybe
+you should explain like how you ended up
+here
+because I think it's yeah it's yes yeah
+sure so I was a management consultant in
+a past life so I was at Oliver Wyman
+specifically in their financial services
+practice and I got a CFA at some point I
+went to MIT studied finance so you know
+I was in there finance and risk practice
+a little bit of insurance work it was
+great
+it helped pick me it helped me pick up a
+little bit of Polish the two years that
+I was there certainly can model things
+and you know build PowerPoint slide
+decks and that you know that was
+certainly to my benefit I you know I'm a
+person of the experience that I had
+there but at the end of the day you know
+I I kind of wasn't getting what I wanted
+out of the experience that the wrist the
+risk adjusted returns to being a
+professional services like managing and
+salting or banking or private equity are
+great but you know because because
+they're great I view them as like
+temporary and so you know I'm looking at
+it I'm like the long run eventually I
+can you know use reversion to the mean
+and and I kind of want to make make the
+jump to something where I'm building
+things I'm taking risks and you know
+that that just gelled better with my
+personality so did you find that you
+were struggling to care while you were
+consulting or you just didn't feel there
+was sufficient upside well I was
+learning to code well as consulting okay
+and so and so I was like well I'd rather
+be a maker of things than an advisor
+right and so so it's fine one of the one
+of the questions I kept like percolating
+in my head I was like you know we're
+paid millions of dollars to advise banks
+to do things and you know to improve
+operational processes and you know I
+kind of wondered why the partners that I
+worked with didn't build a bank right
+and I posed that question to a couple of
+the partners and the answer was hey man
+like we make a lot of money doing this
+yeah we're not gonna end up taking these
+were single quite frankly the scope of
+building a bank is way way larger than
+the thing that we focus on whether it's
+like you know in insurance context
+solvency related in the in the banking
+contact stress testing related or you
+know operational or something to that
+effect
+yeah I mean I was like well I'd be the
+guy that wants to build a bank right and
+so I made a jump and it was kind of it
+was kind of ad hoc
+I you know we the the very first thing
+that I built with an aunt who's our CTO
+was actually a body scanner and so so we
+use the you know three Kinect sensors
+because it's like a depth sensor webcam
+three points of perspective to get a
+body form and we thought that we could
+use math to shave away clothes and you
+know use that body form to inform like
+sizing decisions on internet yep right
+so super creepy thing you know you know
+and I think if we had made a couple of
+logical checks before we had ventured
+off to do this thing like why aren't
+their body scanners in every mall in
+America I probably could would have
+realized that if this was something that
+you know consumers would have done and
+people would be there to be like a war
+for mall space like mall space across
+America and now was this something that
+was intended to be a start-up or did you
+just think it was a cool side project it
+was intended to be a startup so we're
+going to see left at that point yeah we
+had left we were pitching the gap and
+like a fair number of yeah you know
+large large retailers and brands and so
+we didn't get traction on that the
+technology was particularly cool and so
+we stepped back and thought about hey
+like what are we actually trying to do
+here we're effectively trying to predict
+yeah you know the the sizing and
+stylistic preference is of our customers
+and so you know over the course of like
+a weekend we build a super simple app
+where we we scraped a whole bunch of
+like lifestyle blogger and fashion
+bloggers content and threw up outfits in
+a single like a throw up outfits and
+allowed people to scroll and DoubleTap
+on individual parts of an outfit right
+yep so all we wanted to see that was
+that you know somebody would indicate a
+preference for like a blouse or like a
+handbag or like a hat or a pair of shoes
+lo and behold like the activity was
+insane yeah right and so we were picking
+up users so we so so we event we even
+eventually step back we pulled it pulled
+it back and then we built that something
+that would register the unique
+structural elements of individual items
+that people would interact with so like
+if you if you you DoubleTap them like a
+handbag we know at the price point the
+colors huh the unique structural always
+computer vision again yeah so actually
+it was even more rudimentary than that
+we're just tagging everything
+it was super manual okay and so so that
+would that was working and eventually we
+start we start against a point where we
+were we were predicting what people
+would want to see next
+all right and and so with with style
+kick actually we apply to YC like four
+or five times leaner we interviewed
+three times actually yeah and and by the
+the last time I was interviewed we had
+400,000 active users and sort in the
+business was based sort was it sort of
+like supply so it was like a it was a
+marketplace so eventually what we had
+was were designers you know influencers
+uploading looks you know and we were
+earning affiliate income doing that okay
+and at that point so you had four
+hundred thousand active users yeah how
+much money were you guys making out of
+those not nearly enough just barely to
+cover our hosting costs and the reason
+for that is a lot of the stuff that was
+being sold was was super high-end so you
+know back then on a foreign screen or
+smaller yeah you know selling a pair of
+300 jeans wasn't an impulse price you
+know purchase it was something we ended
+up acting much more likely gen to a
+desktop purchasing experience you know
+and in retrospect you know what we
+probably would have done a step back and
+looked at was actually working within
+that but you know the the marketplace
+native mobile e-commerce system the
+things that were working like wish right
+so impulse price purchases 5 bucks 20
+bucks where you didn't need to think
+twice about what you were buying yeah it
+was also working we know we relied
+heavily on influencer marketing to grow
+to eventually million actors this was
+2014 it was like 2013 13 yeah and so if
+we step back was we would have
+recognized that there were a lot of
+these you know individual brands that
+were starting to stand up on top of
+Instagram yep and we probably could have
+gone the route of building built
+actually building out a fashion brand or
+you know selling selling products of our
+own record so the lossy is a great
+example of that
+those are the types at work either you
+went vertical or you went impulse price
+purchase mm-hmm because something in the
+middle which is never gonna happen you
+or did you consider you know a full
+desktop interface where people could
+save and then purchase we did I think
+you know so I can Etta port a and
+a far fetch and a bunch of guys went
+that route yeah I think we just ran out
+of steam
+yeah I mean okay yeah yeah and you know
+in and around the time we were running
+out of steam you know we got some other
+folks at Shopify particularly well Craig
+Miller who's the current CP oh so T
+shoes a VP yeah like a GM there and you
+know we had a long-standing relationship
+and ultimately we decided to join
+Shopify and run a mobile product team so
+you know we were there for a little
+little under a year we're building
+experimental marketplace apps for them
+we still had the itch right like we knew
+we knew that we could build you know
+really beautiful mobile products style
+kick itself was you know featured just
+but every market yeah you know on the
+app store
+on the page repeatedly we were at number
+one for style and my France it's crazy
+you know we're driven millions of people
+through the app so we knew how to drive
+distribution of your native mobile and
+so we started thinking about you know
+what is the next thing that we want to
+do we knew we want we want it to be
+mobile because that was one of our core
+strengths we knew we could drive
+customers we wanted to make sure at this
+point that the basic economic model
+worked right and so we did we built
+things on weekends you know we drafted
+like Northern Ontario and Muskoka and
+just have a couple of beers
+and think about what we wanted to build
+so we tried you know things in health
+care we considered entertainment against
+Natalie work for Russell Simmons and
+it's kind of the impetus of us moving
+forward style kick okay there were a
+couple things we tried you know and
+eventually we just we settled on
+insurance and the reason was you know we
+we had been working with insurance
+brokers in the past so help us pick up
+policies for for style kicking for
+ourselves but this is not necessarily
+obvious right because you were in
+Toronto yeah and now covers in the u.s.
+yet with a more competitive market right
+yeah so I mean what really got what
+convinced you that this could work
+yeah so so I think what we wanted to
+prove was that the pipe was big enough
+to drive a significantly sized business
+right I mean at the end of the day it
+was a back of the envelope math that
+that showed us that this could this
+could work right a single auto policy
+that we sell in California the average
+premium is something like
+$1,600 just as a distributor of
+insurance never mind underwriting or the
+you know moving down the margin stack
+yeah you know we earn anywhere between
+200 and 300 dollars of that policy in
+perpetuity right and so if you think
+about what churn looks like an insurance
+like a very very good broker is churning
+10% per year right a good broker is
+turning 15 percent so the LTV on a
+single auto insurance policies thousands
+of dollars right which is why you see
+Geico and State Farm spend billions of
+dollars a year trying to acquire a
+disgusting yeah there because they're
+just massive and but you also in the
+beginning knew that you couldn't afford
+to underwrite this stuff yeah correct
+yeah correct I mean so so we were
+thinking about what's the like the
+capital light way yeah venturing yes
+business and so the firt the very first
+version of cover was super simple right
+it was we didn't have any licenses
+because we weren't selling any insurance
+we didn't know anything really about
+insurance distribution it was it was
+just a handful of views leading to a
+camera view with the preamble that said
+take a picture or something you want to
+insure that's it and we launched it and
+we we know we use the methods that we
+used to grow style kick to grow cover
+you know we ended up being a number one
+ranked insurance app in Canada the
+second day and during YC you were
+actually feet like two weeks into until
+launch like we were featured for like
+under the best new apps in the United
+States right now again look we didn't
+have insurance licenses like we didn't
+know anything about insurance all we
+would see you is that every 60 seconds
+we're getting an insurance request right
+so how do those conversations with
+investors go because I think you could
+yeah as just a distributor we're I think
+a common pushback would be like oh wow
+isn't this just like running to zero
+mark yeah yeah so I think like any
+purely gen business is just relying on a
+marketing arbitrage right to continue to
+exist and there are lots of examples of
+that insurance I don't think that you
+can build a durable business it's just a
+legion you know a legion service for a
+couple of reasons one those MO arbitrage
+opportunities eventually dissipate the
+second is you're not building any brand
+like equity or value and you're
+certainly not you know doing your
+customers a service by vacuuming up
+their contact information and selling it
+on 10 times so juice you know average
+revenue for use it right especially
+especially as a startup venture back
+yeah yeah and so and so we were like
+well we knew exactly what we needed to
+do we're like okay well we need to start
+owning like the actual customer service
+like the cut the the selling experience
+and eventually more yeah and so during
+YC we were like okay well we're
+committed to get licensed we're
+committed to getting licensed across the
+country we're committed to getting as
+many insurance markets as we can on the
+cover platform so that when a customer
+comes in the door irrespective of what
+it is they're looking to cover we're a
+competitive place and so we stood up a
+national insurance brokerage in under 12
+months right so we were in 49 states
+with 30 carriers in under 12 months
+which is I think enough to show that you
+know we could de-risk ourselves from an
+execution perspective because that's a
+non-trivial thing to do
+and so I know how much did you have to
+raise to accomplish that so that was YC
+so if you're in winter 2016 yeah so by
+winter 2017 you were in that position
+Yeah right and so we raised I mean we
+raised 3.2 million bucks and I so
+slightly some of it before demo day a
+lot of it after Deming huh
+we actually had most of our seed round
+still when we raised hooray
+and so a big part of it was we knew that
+there would be there was going to be a
+ramp so we didn't make our first hire
+for probably the first year and a half
+right we knew that it would take a
+little bit of time to get everything to
+before we could start to scale but yeah
+we raised our a as soon as we were in a
+position to be able to be selling
+insurance business okay and so when you
+raise your a did you feel that you had
+product market fit I mean if you take a
+look at our reviews reviews we reviews
+the reviews okay like for cover I think
+we do I mean we do everything we say
+we're gonna do right you know a customer
+comes in the door we make the the
+underwriting application process super
+simple you know we do not spam our
+customers with phone calls or emails
+every single one of our customers gets a
+dedicated text line where they can text
+us back and forth to ask questions it's
+a it's it's a truly like I think I think
+millennial first experience which is a
+cliche thing to say but it's like the
+thing that we do so so yeah I mean like
+we do what we say in you know we didn't
+doing well because of it mm-hm and so
+when it comes to growth you guys just
+raised a bee yeah
+on 18 correct it's still compared to
+Geico
+you know nothing yeah a tiny amount of
+cash yeah no we have meet their other
+two sure text editor of raise hundreds
+of millions dollars now right yeah slow
+drop them in the bucket well in the
+insurance market there are five hundred
+billion dollars in insurance premiums
+that are written just in the property
+market in the United States every year
+right and so so look like that that's
+not of concern to us because one we
+don't take balance sheet risk yet I mean
+eventually we may be because we can be
+pretty opportunistic about the types of
+requests that are coming in and whether
+we want to stand up products for those
+so and yeah in practical terms for
+people aren't it's what does that mean
+that means that like if we see if we see
+a lot of customers who are coming in for
+a specific thing right like maybe it's
+home or maybe it's auto in a given
+geography and we're writing it
+profitably we should be we can actually
+just step in and underwrite the business
+ourselves meaning that we take the risk
+or we we price the risk take part of the
+risk and sell the rest of it on okay
+right and if we take any risk at all we
+need be we need to hold the capital in
+reserve to be able to take that risk
+right right now we we did not right and
+so which is why we can we can be fairly
+capital light in in so focus mostly on
+you know the distribution aspect of the
+business and acting as sophisticated
+frontline underwriters right so we're
+being actually pretty prudent about the
+types of risks that we we do send to our
+carrier partners mmm okay yeah I mean
+you can think of insurance as three
+discrete businesses right like
+distribution which is a business center
+of itself underwriting claims servicing
+and you know regulatory overhead folks
+who are attacking you know every aspect
+of this at once we're probably not gonna
+get any of them right and burn a lot of
+money right out the gate
+and those are the folks that have tended
+to raise hundreds of millions of dollars
+to get to at the point right well I
+think our our goal right now is to make
+sure that we're continuously iterating
+on the best possible front-end
+experience making sure that we're
+proving out that the product itself is a
+good way a mechanism to filter out bad
+risks yeah and then move into
+underwriting and maybe the rest of the
+stock okay
+yeah gotcha and so how how does your
+lead-gen work now yeah we acquire
+exclusively through your apps so the App
+Store Google Play really just highly
+rated so it's all search yeah so I mean
+yes so we were the beneficiaries of like
+pretty decent ASO very early on yeah and
+we run a lot we run a lot of paid but we
+take it generally speaking like a
+portfolio approach to growth right so
+manok like you we would acquire via all
+the channels you expect they say
+consider and read it like what have you
+we're good at ASO we're starting to
+build up cover comm that'll probably be
+a fair material entity for us yeah and
+then we we build things that are like
+what we consider be pre insurance right
+and so these are tools that we think are
+useful to our customers irrespective of
+whether they buy insurance from us right
+away or not yep a good example of that
+it's like in chin in the cover up price
+drop alerts you don't have to buy an
+insurance from us what we can do is just
+programmatically market you em every
+time we see like a violation fall off of
+your record you know or a claim fall off
+of your record oh you're coming up for
+renewal that's a service you don't need
+to pay for but it's pretty valuable
+because you don't have to think about it
+yeah that's pretty another example is
+you know for certain markets
+we're giving away access to a defensive
+driving school right so if you go
+driving over calm you know if you a very
+stylized example in Texas you know if
+you go to defense a defensive driving
+school you can get a violation knocked
+off of your record or get access to an
+insurance discount right so it can be
+material if you're like 10% of the
+overall premium so they're talking about
+hundreds of dollars right usually those
+things like there are there entities
+that charge anywhere from like 25 to 150
+bucks to go through that course it takes
+like a couple hours we we're a
+technology company we just build it and
+give it away for free yeah and so and
+that can be funneled directly into our
+products so you know in Texas there are
+like four hundred eighty thousand people
+in over the course last eighteen months
+that went through defensive driving
+school Wow just in Texas right and and
+so it's like if you think if you think
+about like hey where can I be like where
+are my customers not and how could I
+build product to you know facility
+transition of those customers from those
+sources to the actual
+the apps you can you can build fairly
+durable its distribution and were you
+thinking about these kinds of programs
+when you're NYC or is this just by
+talking to your customers figuring it
+out I think it was observing the types
+of things that like you know folks were
+we're asking like do you have a
+defensive driving really yeah like will
+literally ask us do you have military
+discount do you have this you have that
+and we're like oh well maybe we haven't
+considered this and I should go build
+something okay to support this the other
+thing I do is like I really like I read
+a lot of insurance rate filings and so I
+it's a weird thing to do but I get I get
+to get a fuller appreciation of the way
+that one the filings are structured but
+also discounts that are generally
+speaking available to our customers
+geyser and how we can build product to
+make it easier to access those discounts
+right and so yeah when someone might be
+shopping around they're gonna start
+comparing these things and this fringe
+benefit might matter a lot to them yeah
+and yeah me and Geico for example has
+this weird you know affiliate discount
+where if you own a share of Berkshire
+Class B stock you get a percent discount
+on Geico right really just quite easy
+yeah well if there you go now you know I
+should take advantage so so you you
+mentioned cover comm and I forgot to put
+this in my notes but you guys just
+bought this domain for recently right
+yeah so this is we've never talked about
+this on the pockets but you spend a lot
+of money yeah and I got all that crap
+for it too on News yeah really yeah I
+mean it look like the crux of it is like
+what's the ROI on buying you know
+something like that yeah look it buying
+a very expensive domain is not gonna
+make or break your business like because
+we bought CARICOM does not mean we're
+gonna be successful it also doesn't mean
+that we're gonna fail right we're gonna
+we would fail if we did something
+fundamentally wrong or you know continue
+to build on something I didn't have
+product market fit we know we have
+product market fit people buy our
+products people spend thousands of
+dollars of those so from from my
+perspective it was hey look
+right now we're super surgical about how
+we acquire right like we have to be
+because their capital constrained at
+some point or another we know that like
+an equilibrium
+we are competing on general awareness
+right we're in the trust business and
+any minor change right in conversion
+given super-high LTVs is gonna make a
+huge impact right if you have a $2,000
+LTV and conversion moves up a couple
+bits yeah up or down a couple dips when
+you have tens of thousands of people
+coming in through every single day the
+domain pays for itself yeah very very
+quickly yeah
+and so you know outside of that if we're
+competing on general awareness yeah we
+we care about discoverability right that
+matters we care that we're discoverable
+you know and and we own it's like one of
+the more common words in the English
+language and so in other words you would
+say if you have the cash do it
+I think it's on a case-by-case basis I
+think it if it makes sense for your
+business and you have to have like a
+very good sense of what the underlying
+economic model is right like we can do
+the sensitivity analysis it's like minor
+changes in conversion and how that
+eventually affects the bottom line for
+us yeah
+and for us it's like if we're writing a
+million policies a year it's gonna
+actually takes like a couple thousand
+policies like less than a couple
+thousand policies to pay for this cuz it
+was a nine hundred so we paid 750 for it
+and okay a broker peace yeah okay gotcha
+if you have any pro tips it's just I
+mean look like the guy that we worked
+with if you're actually considering you
+know banya domain who's great you know
+yeah super as a professional I was
+introduced to us by Arjun set the set
+tribe and it's like on our board just
+our lead investor but a lot of the folks
+in this bit of super shady right you you
+should be pretty careful I would
+recommend using a broker irrespective
+like the general trading Asst you know
+the initial bids that we were getting or
+in like the million and a half to two
+million dollar range right and I can
+guarantee you that if we had tried to
+buy it after our B or C we'd be looking
+at like five six million dollars right
+okay so did they know it was you know
+then okay yeah we procs it we had a
+broker who proxy through another broker
+really so that yes I've heard about
+people who owned many like of these big
+teal deals they will only work with the
+customer yeah yeah I mean I you know I
+think
+we were lucky enough to have network
+access yeah it's not necessarily afford
+to everybody but it saved us a lot of
+money yeah that's great
+so to go off on a tangent a little bit
+you are engaged to one of your
+co-founders yeah yeah right so so I got
+I got engaged to Natalie who heads up
+all the product at cover when we were at
+Shopify because we think we were
+thinking that we would you know be there
+for a while okay and this would be a
+little bit more stable than you know the
+the ups and downs of for a wedding
+budget for a wedding yeah give him a
+house Shopify stock is done yeah yeah so
+so we we were a shop fire like okay this
+is gonna happen like well plan a sale we
+have some time now yeah
+then we applied to YC right and so we
+were like oh so many times like what's
+another time this we applied in like you
+know we got in alright and it was like a
+basic prototype we didn't have any users
+really which is I guess the way the
+world goes and then like two weeks later
+we flew from Toronto to California right
+and you Zeus to the last minute to get
+some housing yeah and since then it's
+been a rollercoaster right because like
+we've you know we did YC raised our seed
+started scaling of team building up a
+business and it's been a pretty
+aggressive run we're probably gonna get
+married this summer okay yeah very
+exciting and so how do you how do you
+manage that relationship you know
+because they're obviously you know
+relationship tension co-founder tension
+and then ya deal with you know employees
+at the same time yeah yeah I think
+like--look commingling professional and
+personal risk like especially if you're
+starting a start-up yeah I mean it's not
+necessarily a recipe for success right
+to be quite frank I think we're the
+beneficiaries of having worked on two
+businesses together am being have being
+acquired in a Shopify and working on the
+same product team right and there's like
+a clear division
+you know the scope of responsibility a
+role she she she's an exceptional
+designer she's an exceptional product
+person she got you know style kick and
+cover featured on the front page of the
+u.s. app store simultaneously which I
+think very few people like a vet can
+have claim to and I trust her completely
+to take care of that function right I
+work on the rest of the business so I
+work on the insurance aspects of the
+business I'm thinking about what do we
+need to do to continue to deliver an
+exceptional product experience what
+products should we be standing up who
+should be we should be working with yeah
+they're very different roles right right
+so that that helps a lot but I think it
+it's a net it's been a net benefit right
+because it cohesiveness of our
+co-founder team I think is like not as
+you know it's pretty atypical you know
+in and I went to high school with
+Natalie I am engaged to Ben was our
+first hire into into style kick and so
+we've been working with him for six
+years right that helps a lot yeah and it
+it's like one the strength of that core
+team because they're all you know like
+awesome and what they do it's helped us
+hire very well and when it comes down to
+the actual tactics that you use to make
+sure the relationship you know the
+conflicts will obviously happen but it
+doesn't implode like what are the
+tactics say yeah yeah I mean like
+eventually you feel out you know with
+your partner what you need to do to
+deescalate you know you you will know
+who exactly to put buttons you can push
+and you shouldn't be pushing and you you
+know you step back and you realize that
+you're on the same team mm-hmm and that
+like helps certainly you have to put any
+rules in place in terms of you know like
+living together working together I don't
+think there are no hard and fast rules
+actually our co-founders still lived too
+you know yeah so I mean we're as tight
+as you can get I think yeah so now that
+you guys have raised your series being
+and yeah are quite large you have two
+offices so you have to Toronto and your
+San Francisco office now as the CEO how
+do you manage that and how do you make
+sure everyone's come yes so an end an
+end is full-time in Toronto
+Nataly flies between the two offices
+okay I mean most of products it's in
+Toronto we have some we have seen some
+senior engineering in San Francisco
+sales lives in San Francisco insurance
+operations lives in San Francisco mhm
+so I mean the folks are running their
+respective functions or where their
+teams are right and then I make an
+effort to be wherever we can be and we
+run these off sites like we're we're
+heading to Vegas next week okay the
+entire what the entirety of the team
+will be together okay yeah so again
+division of labor we invest we've
+invested in firms and like a very high
+quality you know AV equipment to make
+sure that you know at least
+communication is a solved problem okay
+and in terms of culture how do you keep
+people on the same page yeah so that's
+interesting I mean actually I think the
+cultures are the individual cultures are
+pretty different right like one is very
+product oriented and we have a sales
+office in in San Francisco is like super
+rambunctious right like I actually don't
+have a problem with that
+as of this point I think what my job to
+it primarily is is to make sure that
+we're all aligned and what the ultimate
+goals are for our organization right and
+we're trying to build it a fair and
+sustainable insurance entity at the end
+of the day right we know what we need to
+do we need to make getting insurance
+easier we need to make it fairly priced
+for individuals for whom it should be
+fairly priced we need to be in around
+when claims are being made and helped
+facilitate those claims so that our
+customers have positive experiences
+around that because that's the ultimate
+function of an insurance company right
+and yeah effectively act in that
+advisory capacity and scale that across
+just about any line of business okay an
+insurance that we can that make sense
+and so as an international founder we
+have a million questions coming in from
+Twitter all the time every it's like oh
+how do you deal with this as a
+international founder plying away so
+you're doing my CEO or post YC
+essentially I think the most common
+place of anxiety where people are like I
+think I can figure this out and a
+three-month term longer term what is
+your advice to those people like how do
+they make it work yeah so so look like a
+we were we were all in San Francisco and
+decided to open a Toronto office
+right because we know the market we yeah
+we knew where to look we have a pretty
+good and as a super high quality team
+right that decision we made concertedly
+because we had intention in doing that
+okay I mean if you're talking
+specifically about hey like if I'm an
+international founder should I stay in
+the Bay Area or should I be somewhere
+else you know my objective opinion on
+that is this is the beating heart right
+like this is a beating heart of
+everything technology and you should
+have a presence here you know absolutely
+if you can get your visa issues resolved
+yeah I mean even even we had issues like
+an an was stopped the border like three
+times turned around I had to get a one
+which is kind of ridiculous but that
+stuff happens you just have to work
+through it yeah it happens to everyone
+and it's like you make it through yeah
+but obviously neither of us are lawyers
+so yeah consult so the the new batch is
+starting yeah you guys haven't been out
+for that long winter 2016 so it's in
+recent memory still what advice would
+you give to the people just entering the
+batch yeah so so actually I ran a start
+school batch right so there are a couple
+of the companies that were in my batch
+are now in YC and certainly like I've
+been doing this for a little while like
+which yeah pre coaching folks who are
+writing YC one of the folks the first
+folks I did it before was Austin
+Atlantis cool okay cool and I have being
+like one of the first investors give me
+the opportunity to be one of the first
+investors in land of school to look I
+think I the core advice that I give is
+actually not that different from what YC
+partners give right it's like hey focus
+pick a KPI make sure you're growing that
+that KPI
+you know everyone implicitly knows that
+a couple inches deep into your startup
+everything is held together by duct tape
+and glue you the bet that folks are
+making on you is that eventually you're
+going to figure it out
+right so so go into it with that in mind
+make sure you hit your KPI and you talk
+about it right because it's important to
+actually talk about your successes and
+an outside of that the typical advice
+you know is don't hire anybody because
+you shouldn't be hired
+don't go to conferences or parties that
+are not directly related to the KPI so
+if it's gonna make you revenue
+if we're gonna build revenue doing it
+fine but otherwise don't be doing it
+yeah and otherwise like don't get
+distract this is like a three-month like
+sprint for you to truly accelerate what
+you're doing right yeah and either get
+to you know YC is like forcing a
+function right it's like if you're if
+you're not you don't have proc market
+fit it's gonna help it's gonna help you
+determine you don't have product market
+fit pretty quickly and if you do have
+product market fit it's gonna be like
+okay fine it's an accelerant yeah and
+what about post YC I know I know there
+are many companies who kind of go
+through a lull and they need to
+decompress for you know a week or
+something yeah but yeah you guys find
+your rhythm again yeah I think I mean
+we're the beneficiaries of having done
+this is second time the ups and downs
+are not as aggressive right like the
+highs are not as high the lows are not
+as well and so we kind of just kept our
+heads down all the lessons we learned
+from the first time around were compost
+mm-hm and so we could we have two pretty
+good cadence of just making sure we're
+hitting our goals and communicating that
+to investors just why we raised in a
+pretty quickly right but yeah you just
+you keep doing what you were turning
+during YC yeah you should be okay okay
+cool man well this has been great thank
+you so much yeah thanks for having me I
+appreciate it
+you

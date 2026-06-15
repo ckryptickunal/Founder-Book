@@ -1,0 +1,69 @@
+Title: Employee Equity
+Video ID: sa-employee-equity
+Channel: Sam Altman Essays
+Published: 2014-04-18 18:26:47
+Source: HuggingFace sgoel9/sam_altman_essays
+
+============================================================
+TRANSCRIPT
+============================================================
+
+Startup employees often do not get treated very well when it comes to stock compensation.  New ideas float around occasionally, but lawyers are usually averse to trying new things, and investors don’t feel that they have enough incentive to try something new for employees.
+
+There are four major problems:
+
+1) Employees usually don’t get enough stock.
+
+2) If an employee leaves the company, he or she often can’t afford to exercise and pay taxes on their options.
+
+3) Employee options sometimes get unfavorable tax treatment.
+
+4) Employees usually don’t have enough information about the stock or options.
+
+Here are some proposed solutions:
+
+1) Startups should give employees more stock. Value is created over many, many years. Founders certainly deserve a huge premium for starting the earliest, but probably not 100 or 200x what employee number 5 gets. Additionally, companies can now get more done with less people.
+
+It’s very difficult to put precise numbers on this because the specifics of every situation matter so much. Perhaps the best way to think about it is to try to come up with a total compensation package with the same expected value (using the company valuation of the last round, or a best-efforts guess if it’s been a long time since the round) as the employee would get at a big company like Google. As an extremely rough stab at actual numbers, I think a company ought to be giving at least 10% in total to the first 10 employees, 5% to the next 20, and 5% to the next 50. In practice, the optimal numbers may be much higher.
+
+One problem is that startups try to have very small option pools after their A rounds, because the dilution only comes from the founders and not the investors in most A-round term sheets. The right thing to do would be to increase the size of the option pool post-A round, but unfortunately this rarely happens—no one wants to dilute themselves more, and this leads to short-sighted stinginess much of the time.
+
+Option pools are complete fiction; boards can increase them whenever they want. It should never be used as a reason for not making a grant.
+
+2) Most employees only have 90 days after they leave a job to exercise their options. Unfortunately, this requires money to cover the strike price and the tax bill due for the year of exercise (which is calculated on the difference between the strike and the current FMV). This is often more cash than an employee has, and so the employee often has to choose between walking away from vested options he or she can’t afford to exercise, or being locked into staying at the company. It’s a particularly bad situation when an employee gets terminated.
+
+This doesn’t seem fair. The best solution I have heard is from Adam D’Angelo at Quora. The idea is to grant options that are exercisable for 10 years from the grant date, which should cover nearly all cases (i.e. the company will probably either go public, get acquired, or die in that time frame, and so either the employee will have the liquidity to exercise or it won’t matter.) There are some tricky issues around this—for example, the options will automatically convert from ISOs to NSOs 3 months after employment terminates (if applicable) but it’s still far better than just losing the assets. I think this is a policy all startups should adopt.
+
+As an aside, some companies now write in a repurchase right on vested shares at the current common price when an employee leaves. It’s fine if the company wants to offer to repurchase the shares, but it’s horrible for the company to be able to demand this.
+
+3) Tax treatment on ISOs sounds good, but there’s an issue with AMT (Alternative Minimum Tax) and employees often end up paying more tax than they were expecting.  NSO gains are taxed as ordinary income. RSU gains are also taxed as ordinary income.
+
+Tax optimization is a second-order issue, and for an immediate solution, I think extending exercise windows to 10 years is the most important thing to do. But longer-term, we should figure out a way for employees to be taxed on their stock compensation the same way as founders (whether or not capital gains should be taxed less than ordinary income is a separate discussion, but in any case I think the tax treatment should be the same).
+
+I think this may be doable. Ideally, employees would just get restricted stock (not RSUs), and then when they sold it’d be taxed as long-term capital gains. The problem is that as the company grows, the stock has a non-trivial present value, and if an employee were granted stock then they would then owe immediate tax on the value of the grant.
+
+I think there are a lot of ways to fix this. The easiest would be if the IRS would agree to not tax illiquid private stock until it gets sold, and then tax the gain from the basis as long-term capital gains and the original value as ordinary income.
+
+Another might be to create a new class of employee stock. Today, in an early-stage company, common shares are usually worth much less than preferred shares. It might be possible to create a class of shares with less rights than common and thus worth even less. The idea would be to convert these shares into common on an acquisition or IPO, but before that, they would be non-transferable and have no value. If it were possible to create a class of stock that the IRS agreed had next to zero value, it might be possible to grant employees this sort of stock, have them owe a tiny bit of tax on it now, and then have normal long-term capital gains treatment years later when the startup goes public.
+
+4) Most startups do a bad job of helping employees think about the value of their options. At a minimum, any startup should tell a prospective employee what percentage of the company the equity grant represents (number of shares is meaningless). Some startups are very hesitant to do this—they don’t want to disclose the number of shares outstanding. Employees should demand to know what percentage of the fully-diluted shares their stock options represent, and be very suspect of any startup that won’t tell them.
+
+A specific question worth asking is some version of “so if I have 0.5% of company and it gets acquired tomorrow for $100 million dollars, will I get $500,000?” There are many ways for this not to be the case—there can be a huge liquidation preference, for example—that most employees don’t know to think about. So it’s worth asking about a specific scenario.
+
+While you’re asking questions, another good one to ask is “how much money did the company lose last month, and how much is in the bank?” This is better than asking how much runway the company has, because most founders calculate that off of a plan that assumes revenue growth which does not always materialize.
+
+I have two other thoughts about stock-based compensation at startups.
+
+First, I think employee stock and options should usually not be transferrable. It causes considerable problems for companies when employees sell their stock or options, or pledge them against a loan, or design any other transaction where they agree to potentially let someone else have their shares or proceeds from their shares in the future in exchange for money today.
+
+I think it’s fair that if founders sell stock, they should offer an opportunity to employees that have been at the company for more than a certain number of years to sell some portion of their shares. And some companies offer an employee liquidity program even when the founders don’t sell any shares themselves. But otherwise, I think it’s reasonable for employees to wait for an acquisition or IPO.
+
+Second, I think it’s time to consider other vesting ideas. The standard at startups is 4 years with a 1-year cliff. So you get 25% of your options after you’ve been there for a year, and 62.5% if you leave after 2.5 years.
+
+It’s possible that 4 years is now too short—companies are often worth more than they were 10 years ago, but they take longer to reach liquidity. I’ve seen some startups offer 5 or 6 year vesting schedules. To compensate for this, they offer above-market grants.
+
+Another structure I’ve seen is back-weighted vesting. For example, 10% of the grant vests after the first year, and then 20%, 30%, 40% in the following years. Again, the startups I know that do this tie it to above-market grants, and I think it helps them select for employees that really believe in the company and want to be there for a long time. (Also, companies that have vesting schedules like this usually do it for founders too.)
+
+Finally, a third structure I’ve seen is a new way of thinking about refresher grants. For a company using options, it’s nice to grant employees options early while the strike is low. It’s possible to give “forward-dated grants”—i.e., you can give a high-performing employee a refresher grant today where 1/3 of it starts vesting immediately and the other 2/3 starts vesting when their initial grant is fully vested. This guarantees them a low-strike price and presumably a relatively large grant in a few years. Dustin Moskovitz at Asana does something like this, and I think it makes a lot of sense.
+
+These are just a few of the ideas I’ve seen about new ideas for employee vesting. But I think they’re worth considering—the default 4-year grant does not seem to be the best option.

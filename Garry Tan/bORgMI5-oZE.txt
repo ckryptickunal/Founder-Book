@@ -1,0 +1,788 @@
+Title: Masterclass: Fighting scammers online (How founders can build Trust and Safety teams)
+Video ID: bORgMI5-oZE
+URL: https://www.youtube.com/watch?v=bORgMI5-oZE
+Channel: Garry Tan
+Published: 2020-07-29T14:30:03Z
+Duration: PT21M22S
+Views: 5874
+Likes: 163
+Tags: trust and safety, fighting scammers, scammer, spammer, fighting spam, airbnb trust and safety, berbix, garry tan, y combinator, initialized, initialized capital, eric levine, steve kirkham, masterclass, trust and safety council
+Transcript Language: English - Subtitles (en)
+Auto-generated: False
+Snippets: 541
+
+Description:
+Steve Kirkham and Eric Levine were the early builders at Airbnb that created the Trust and Safety team. They fought for billions of dollars of transactions and beat scammers day in and day out. Learn how they built that team and how you can use their newest product Berbix to protect your online platforms and build marketplaces like Airbnb that matter. 
+
+Every business in the world is moving online— and the smarter founders can be about building Trust and Safety within their companies, the faster
+
+============================================================
+TRANSCRIPT
+============================================================
+
+Hey everyone. Today we have a real treat.
+We get to sit down with the folks who created the trust and safety team at Airbnb
+Today everyone knows that Airbnb is a multi-billion dollar marketplace 
+that has brought together people from all around the world who didn't know each other.
+And they can do it based on the the trust and safety methods that were developed
+by these founders...
+Steve Kirkham and Eric Levine were the folks who created that team
+And today, they work on Berbix, an instant identity verification service.
+Yes, it can spot fake IDs.
+They have a pure software solution that is instant that is near zero marginal cost.
+That's a really big deal because if you know who you're doing business with
+you can do a lot more of that business on the Internet.
+This is a really powerful idea that will power an entire new generation
+of online marketplace
+We're going to learn a lot about fighting bad people on the Internet. Let's get started.
+- One of the things that has been amazing
+in my time getting to know you guys,
+is both of you are such experts
+in terms of trust and safety, period.
+Walk me through as early
+members of the Airbnb
+trust and safety team- What was that like?
+- Well, I have to rewind to 2012.
+I came in as one of the
+first product managers
+on to the kind of first proactive
+trust and safety efforts at the company.
+And of course, Airbnb had
+this kind of infamous incident
+in the summer of 2011
+when a host's house here in the Bay Area
+unfortunately got vandalized.
+And that certainly got
+into motion at the company,
+the need to kind of stack
+up a special operations team
+to kind of respond to bad
+activities as they occur.
+But then there was this
+need quickly thereafter
+to get a little bit more proactive.
+So, my starting state
+was a full time engineer,
+a half of a data scientist,
+and an already signed contract with Jumio,
+who is one of the identity
+verification providers
+at the time.
+And I spent kind of the
+first few months there
+pulling together and launching
+what was known as Verify ID.
+A feature on Airbnb.com that takes a bit
+of an online presence
+and tries to attach it
+or corroborate that with
+an offline presence,
+most notably a photo ID, to kind of prove,
+are you who you say you are?
+- And then is that about
+the time you met Eric?
+- About the time I met Eric.
+- Yeah, so I ended up joining
+the trust and safety team
+about little under one year
+into my tenure at Airbnb.
+Was always attracted to things
+that were the highest
+priority, highest impact things
+that I could work on.
+Turns out that was trust and safety.
+there was a lot of need and
+a lot of challenges there.
+Ended up joining forces with Steve
+a little bit into that tenure,
+and built out a lot of the
+early machine learning systems
+that we use for trying to
+get tech fraudulent behavior.
+Had a happy relationship
+from there forward,
+trying to stop bad actors together.
+- Earlier, you were mentioning
+the verification process
+that was really sort of core to Airbnb
+and that's how you knew who
+you were doing business with.
+This was a new type of
+offline marketplace.
+So, the verification piece
+actually enabled that.
+You have a bunch of
+well known online fraud.
+That was not necessarily solved
+but the playbook was written
+through the late '90s and 2000s.
+This is, a charge back
+risk, account takeovers.
+Potentially even like certain scams,
+and it's not like we have
+a good handle on these
+even today in 2020, but
+there's certain things you do
+as you scale as an organization,
+and there's certain
+protections you put in place
+to mitigate those sorts of risks.
+But there was no playbook for offline--
+- Yeah, you had to write it.
+- And that's of course
+where Airbnb's kind of
+core user experience actually occurred.
+Wasn't Airbnb.com, it was
+in homes around the world.
+And that's where tying
+together this notion
+that it just increased the importance
+of actually answering the question,
+who is on the other side of the screen?
+Who is actually touching that screen
+or who's actually typing on that keyboard?
+- Yeah, Airbnb is
+fundamentally built on trust.
+You're not going to have
+someone staying in your home
+if you don't trust that
+there's some amount of vetting
+or verification processes
+happening behind the scenes,
+because you've no idea
+who might be showing up.
+And so, like this is really
+the sort of core piece
+of technology that enabled
+the Airbnb experience
+to work successfully.
+Is ensuring that people
+had this level of trust,
+that they could put their faith in Airbnb
+trying to stop a lot of these bad actors.
+And there would have been
+a lot more bad actors
+on the platform, if not
+for a lot of the efforts
+that we did to practically stop those,
+or reactively react to
+situations as they occurred.
+- You were mentioning one
+of the proudest moments
+for both of you, was to figure out
+what the fraudsters
+were really trying to do
+and then preventing them
+from doing that thing.
+What was the top example for that?
+- One of the key principles
+on the trust and safety team
+that we tried to abide by,
+was really trying to
+understand the motivations
+for the bad actors that
+were attacking the platform,
+attacking the users and trying to defraud
+in one way or another.
+And that was to really understand
+the different types of motivations.
+By far, the most common
+motivation that we found
+was a financial one.
+Bad actors are financially motivated.
+They are essentially running a business,
+even if it's an illegal business.
+And they are trying to
+take money out of a system.
+For Airbnb, there are a lot of ways
+one could imagine trying to
+attract money from that system.
+One of the most common ways
+is to, you could imagine
+in an account takeover
+sort of situation.
+Let's say a host with
+a high value property
+has their account taken over by a phishing
+or a spear phishing attack.
+And the payout information is changed
+to some bad actor's bank
+account information.
+You could imagine that
+a lot of actual money
+could change hands, be
+attracted from the system
+in that way.
+- 'cause they're thieves.
+Damn thieves, comin' in.
+- So, a lot of our efforts were to,
+in this particular arena,
+were to try to figure out ways
+that we could actually stop people
+from changing those payout information
+to some illicit payout system.
+- Yeah, so certainly, the
+importance of protecting
+when money is either
+coming in or going out
+of a particular system,
+is kind of paramount.
+And there's a bunch of common practices
+that banks have always
+had to put in place,
+but that gets a lot more difficult
+when you're dealing with
+consumer marketplaces, why?
+'cause you have near unfettered access,
+where it's so easy to
+sign up for an account.
+It's so easy to be able to
+potentially even spear phish
+another consumer on that platform.
+There are some basic protection one needs
+to kind of put into place,
+'cause you're not just
+answering the question,
+are you who say you are?
+You're answering that
+question kind of over time.
+Are you still who you said who you were?
+- Like right now, when you were changing
+the bank account to Nigeria.
+- Precisely.
+And that's what's so important,
+to be able to have a very hot, reliable,
+and a very high accurate tool or means
+by which to re-ask and
+re-answer that same question
+for the most sensitive of actions.
+And one would be considerable 
+money is changing hands.
+- I think one of the
+interesting things here
+is that the way people figure out
+if you're who you say you are is IDs,
+but then it's an offline process.
+They sort of throw it to Mechanical Turk
+or the equivalent of that,
+and you basically kind of
+have like a bar bouncer,
+holding up the ID and making sure
+that, oh, is that for real.
+But people use fakes all the time.
+And for a webcam, or over
+an image that's uploaded,
+how are you actually
+going to figure that out.
+And that's something that you
+guys have actually solved.
+- Yeah, and it's actually, was
+one of the biggest pinpoints
+we had during our time at Airbnb.
+Where we were working with a
+number of different vendors,
+and we actually went out to the market
+and did a multi vendored approach
+halfway through our tenure there,
+and really went out to
+try to find a vendor
+that could reliably check an ID
+in a virtual environment,
+and unfortunately what we found is,
+you're right, Garry.
+A lot of those legacy providers out there
+have effectively tried to mimic
+an in-person ID check.
+And they quite literally
+take images of an ID
+and then outsource.
+They have teams of hundreds
+or thousands of folks
+that will review those IDs,
+and that waiting period, that delay
+until Airbnb got an answer
+was incredibly frustrating.
+Not just to us as a platform,
+but of course to our guests and hosts,
+which are sitting there, wondering,
+okay, is this good or is this bad?
+- So Berbix is their software, right?
+- Precisely, and that's
+really the inspiration
+to founding Berbix, was we
+literally built the company
+we wish would have existed
+when we both started
+at Airbnb back in 2012.
+- Even this scenario of when
+you change the bank account,
+when you're trying to get money out,
+can you do a verification
+in that moment real time?
+And that's something
+that you probably wish
+you could have done, and
+you probably could do
+some form of it in the past,
+it just wasn't quite right.
+- Especially when you have
+such sensitive actions,
+like changing the bank
+account information.
+If we were to check someone's ID
+and it came back as an inconclusive,
+and we had to ask that host to come back
+and try again, there is so
+many challenges that occur
+when you have this asynchronous
+verification process,
+where you can't actually,
+like you have to put users
+into this weird purgatory situations
+where you're not sure
+if you can trust them,
+you're not sure if you can't,
+because you can't get
+an answer immediately,
+and you have to be able
+to roll back any changes
+that were made during that time.
+And that's, a lot of
+like technical complexity
+to a system that could
+otherwise be a lot simpler
+with the sort of automated,
+instant verification processes
+that we put our stake in
+the ground on at Berbix.
+- Yeah, to make matters worse,
+what effectively was happening
+is even though those
+providers were taking minutes,
+sometimes an hour to get a
+response back to the platform,
+when that response came back,
+they were still making mistakes.
+And sometimes pretty blatant,
+obvious and frustrating mistakes.
+And that's where, when Eric
+and I set out to found Berbix,
+we put a stake in the ground from day one.
+Fully automated ID checks.
+We cannot have a human in the loop.
+Our customers need to
+get an instant response
+each and every time, and
+that's exactly what we built
+from the ground up.
+And able to actually detect
+fake IDs in real time
+better than even the legacy providers
+that are using humans
+to manually review this.
+- There are just so many
+interesting new use cases
+that are enabled, that
+basically you can do.
+For instance, you could
+imagine a social network
+that would never have real name trolling,
+because you could actually verify
+that those were real people.
+Or using this across every type of offline
+and online marketplace.
+There are just so many
+more that could exist
+now that Berbix exists.
+- You're right, Garry.
+And what we've really done here
+is you shouldn't even think about us
+as an identity verification provider,
+or one that checks IDs, we do that.
+But the value we actually
+provide to platforms,
+is the ability to enforce uniqueness
+in the real, physical world.
+And that's what's so important,
+is the ability to tie, have
+a one to one relationship
+between a virtual accounts on a platform
+and a real, bonafide individual
+in the actual physical world.
+And that's very much
+where a lot of the social media platforms
+have really fallen down,
+as you can have a single
+person in the real world
+controlling tens, hundreds,
+thousands, tens of thousands
+of handles out there.
+And that's where a lot of
+things start breaking down.
+- Yeah, in crypto we call
+this Sybil resistance,
+and it's pretty fundamental actually.
+Zooming out a little bit,
+I'd love to talk about-
+a lot of the people who are watching this
+are trying to work on their own startups
+and trying to start new marketplaces.
+They might have to start
+a trust and safety team.
+I wonder, when should they think
+about starting that process?
+- Yesterday, would be my
+quippy answer to that question.
+And certainly not necessarily building
+a trust and safety team,
+but thinking about what you're building
+through a trust and safety lens.
+And this was what was so
+fundamentally important,
+and something that we
+kind of learned by trying
+and failing a bunch of
+times, all at Airbnb,
+which is, putting yourselves in the shoes
+of the very bad actors that
+either today or tomorrow,
+will likely attempt to do
+something bad in your platform.
+And again, as Eric already alluded to,
+certainly our time at Airbnb,
+and if you just look at the
+fraud ecosystem in general,
+money typically drives the vast majority
+but not all of the kind of
+fraud vectors out there.
+So, putting yourselves in the shoes
+of like how might somebody extract value
+from either me and my business,
+or worse yet, those users
+in my particular platform?
+- Eric, sounds like there are a bunch
+of different types of bad actors
+that you've ran across in your time.
+- Yeah, there certainly are.
+I can sort of enumerate some of those.
+Of course, you have your
+premeditated bad actors.
+These are people who come to your platform
+with the explicit intent to cause harm,
+extract money or do something
+knowingly fraudulent.
+Then you have your
+opportunistic bad actors.
+You can imagine if you're
+staying in an Airbnb or something
+and you see a wad of cash on
+a night stand or something,
+and you decide to swipe it
+in the heat of the moment,
+because you don't think
+you're going to get caught.
+These are not people who
+come to your platform
+with the intent to cause
+any sort of harm per se,
+but they cause harm nonetheless
+because they think they
+can get away with it.
+So, those are the first
+two distinct categories,
+and the third category is
+an accidental bad actor.
+These are usually people
+who just don't understand
+the actual standards and
+expectations of a platform,
+do something in violation of that
+and maybe causing harm
+inadvertently to other users
+or themselves in the process.
+So, you really need to think
+about these different bad actors
+in very different lenses,
+and think about the ways
+that you can mitigate
+the harm that they can cause.
+- Those are the ones who say sorry.
+Like, whoa, whoa, sorry.
+Sorry, I didn't mean to do that.
+- That's right.
+- And that's what's so interesting.
+Where it's like premeditated bad actors,
+they have a bit of a signature,
+'cause they, as Eric
+alluded to beforehand,
+they're almost running a business.
+So, it's like they're trying to maximize
+their return on investment.
+What is their investment?
+Well, it's their time and energy,
+and the return is extracting money.
+That's the very basic thing
+about how fraud works.
+- You want to drive their return
+on investment to negative.
+You don't want them to be
+able to actually extract value
+from the fraud that they're engaging in.
+- The next question everyone wants to know
+is how do you actually stop them?
+- And so what's so interesting about this,
+is when you think about these
+different types of bad actors,
+you have these premeditated ones
+that as Eric alluded to, are
+really operating businesses.
+They're trying to maximize ROI.
+Their investment is their time and energy,
+and the return is monetary.
+So, what you want to
+do is you want to waste
+more of their time and energy
+or decrease or try to cut off
+the actual return they're getting.
+And what's so interesting is that's where
+certain types of friction,
+like even an ID check
+can actually dissuade or
+otherwise encourage bad actors
+to follow the path of least resistance
+and go defraud a platform
+with far fewer protections.
+- You know what Paul Graham did once
+with the Hacker News?
+He actually created a super
+slow server just for trolls,
+and people who were trying
+to hack Hacker News,
+and he would just feed the
+data back super slowly.
+It was like wading through mud basically,
+for someone who...
+He would hell ban them
+and throw them on the super slow server,
+and that was exactly what you were saying.
+If you just make it much more
+difficult and much slower
+to mess with you, they'll
+just go some place else.
+- Exactly, but then you also have
+the opportunistic bad
+actors, as Eric pointed out.
+Now, those are a lot tougher
+to catch ahead of time,
+because they act.
+There's no malicious intent ahead of time.
+They act as any accidental
+or typical person would act.
+But then they do something opportunistic,
+and they violate the
+standards and expectations
+of a particular platform.
+Let's say for example, you as a platform,
+wanted to ensure that
+person doesn't come back.
+They're no longer invited to participate
+in that community on that platform,
+you'd want to prevent them
+from coming back a second time.
+This is again where enforcing
+uniqueness is so key
+'cause you want to keep
+the same bad actors,
+be them free benefit or
+potentially opportunistic
+away from your platform,
+at least know when they're
+signing back up again.
+And that's where banning something
+like an email address or phone number
+only gets you so far.
+You need something much more unique
+that ties an individual to who they are
+in the real physical world,
+to be able to mitigate risk at scale.
+- Yeah, and I'll add, for
+those opportunistic bad actors,
+large part of the
+motivation of those people
+is that they believe that
+they will not get caught,
+or that there will be no consequences
+for the bad activity that they do.
+That's a big part of the reason
+why you want to do something
+like some identity verification
+where you can ban someone
+from your platform
+because, first, you don't
+want them to be coming back.
+Second, having something like
+a government issued photo ID.
+If they're breaking a law,
+you could potentially follow
+up with law enforcement
+in those cases, in order to
+make sure that they understand
+that there is potentially
+some consequences
+for those sorts of bad activities
+that are actually illegal.
+And then for the actual
+accidental bad actors,
+given that they're the ones who say sorry,
+really what you want to do
+is you want to clearly convey
+the standards and
+expectations of your platform
+so that people know that
+they're doing something wrong
+when they're doing something wrong.
+And that it's not just purely
+people not understanding
+what's expected of them.
+- Where can people find you
+if they want to ask you questions
+about their own trust
+and safety headaches?
+- Please, check out our
+website at Berbix.com.
+You can see there the kind of
+first product that we built
+based on all of the
+trial and tribulations.
+Building proactive trust
+and safety at Airbnb.
+And feel free to reach
+out to either of us.
+Steve@berbix.com.
+- And I'm at eric@berbix.com.
+E-R-I-C.
+- So, a lot of people who are watching
+my YouTube channel are
+actually just starting out
+in their careers, and for me,
+it's like hard to believe, I'm 39 now,
+and I've been writing code for a while.
+I don't know, I kind of miss
+those days just starting out.
+What sort of advice would you have
+for the 19, 20, 22-year
+old version of yourselves
+just starting out,
+starting off your career?
+What are some of the things
+that you learned along the way
+while building such an
+important thing at Airbnb
+and then now building your own startup?
+- Yeah, so for me, I think the
+biggest lesson I would give
+20-year old Eric, is that a lot of times
+you're not going to really get permission
+to do the things that
+are the most important
+and the most impactful.
+And that a lot of times,
+people need to own
+their own impact, to
+find those opportunities
+for really driving the
+changes that they want to see
+within their organization or elsewhere.
+And a lot of times, you
+just need to go and do it.
+And certainly, 20-year old Eric
+coming out of a very
+on-rails life of high school,
+college, even my early
+time when I was at Google
+prior to joining Airbnb,
+I felt like a lot of the next things
+were fairly spoonfed to me,
+and that joining a company
+like Airbnb in the early days,
+and then of course starting a company.
+Nobody's going to tell you what to do.
+Nobody's going to really have a good sense
+for the best things for
+you to be working on
+at any given time.
+And so you really have
+to own your own impact.
+- That's awesome.
+- And similarly,
+I'd probably tell 20-year old Steve
+that impostor syndrome is real.
+To be very blunt.
+- I feel that.
+- Similar to kind of Eric,
+is like, it's easier to ask
+for forgiveness than permission
+and just having to do.
+A lot of times, it's internal struggles
+as opposed to external pressures
+that kind of give you some hesitance
+as to, oh, am I able to do that?
+Surely, there are smarter
+people than me here.
+Yeah, there could be,
+but that doesn't mean
+that you won't be just as
+successful as they are.
+And that's probably one of the lessons
+that I very deeply
+appreciate trying to give
+to those younger than me, that
+impostor syndrome is real.
+Read the Wikipedia article on it,
+and there's countless great
+resources online now in 2020,
+to kind of help change
+those mental hurdles,
+if that's something
+that you struggle with.
+- Yeah, I think people ask themselves,
+hey, it feels like I'm kind
+of making it up as I go,
+is that normal?
+And the answer is yes.
+Everyone's making it up.
+But the cool thing is,
+you get to make it up.
+That's the empowering
+and awesome thing.
+- And that's the great thing
+about being founders.
+- Yeah, you know it.
+Guys, Steve, Eric, thank you so much
+for sitting down with me.
+I feel like very time I talk to you,
+I learn more about these software systems
+that we get to build.
+Being able to verify who
+you think you're talking to,
+actually is that person.
+Through a web browser,
+through a mobile experience,
+that's just, that's like table stakes.
+That's a fundamental building block
+of what we're trying to do.
+People say software eating the world.
+You can't eat without knowing
+who's on the other end.
+- Absolutely, and that's
+gotten even more important
+in the current worldwide
+situation that we're in,
+with that many more interactions
+actually happening remotely.
+- Guys, thank you for building
+one of the building
+blocks of the internet.
+So, really appreciate the time.
+- Thank you, Garry.
+- Thank you, Garry, this was great.

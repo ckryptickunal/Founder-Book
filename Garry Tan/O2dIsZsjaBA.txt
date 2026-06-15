@@ -1,0 +1,342 @@
+Title: How Facebook could have built Threads 30X faster & cheaper
+Video ID: O2dIsZsjaBA
+URL: https://www.youtube.com/watch?v=O2dIsZsjaBA
+Channel: Garry Tan
+Published: 2023-08-22T19:11:48Z
+Duration: PT12M40S
+Views: 26411
+Likes: 795
+Tags: Garry Tan, Garry Tan vc, initialized capital, Garry Tan initialized, Garry Tan initialized capital, Silicon Valley vc, sf vc, a16z, Andreessen horowitz, best Silicon Valley vcs, red planet, Facebook threads, threads, threads failure, code automation
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 314
+
+Description:
+Join the upcoming beta: https://redplanetlabs.com/
+
+What if I told you they could have made Threads with one engineer and under 10,000 lines of code, at least 30X faster and cheaper?
+
+If they were using Rama by Red Planet Labs, they could have. This new data backend platform just dropped this week, and I think it’s one of the most important developments in software engineering in decades. 
+
+0:00 My startup wouldn't have died
+1:18 Don’t repeat yourself 
+2:50 200X less person hours with autoscalin
+
+============================================================
+TRANSCRIPT
+============================================================
+
+Facebook spent 25 person years to create
+threads 25 to 50 Engineers spent seven
+months straight working on it but what
+if I told you they could have made
+threads with one engineer with under 10
+000 lines of code at least 30 times
+faster and cheaper if they were using
+Rama by Red Planet labs they could have
+this new data back-end platform just
+dropped last week and I think it's one
+of the most important developments in
+software engineering in decades the
+creator of Rama is the prior creator of
+Apache storm and literally wrote the
+book on Big Data his name is Nathan Mars
+and I'm proud to say I was one of the
+First Investors back at initialized when
+I first met him I realized if Rama had
+existed in 2008 my startup posterous
+wouldn't have died and if you're
+watching your startup might not die
+today because you got to see this video
+watch to the end to find out exactly how
+a brilliant new abstraction for data
+structures means you won't be burning
+Runway to recreate the wheel of data
+again and again let's get into it
+[Applause]
+foreign
+ERS write software that works with data
+is still stuck in ideas created 40 years
+ago but if we build it for modern
+systems with lots of disk lots of ram
+lots of CPU and knowing it's going to be
+in a cluster and we do it with the right
+abstractions built right into the data
+system you get something magical it's a
+totally new approach to building
+backhand system
+um and what Rama does is it integrates
+and generalizes every aspect of what it
+takes to build a back-end system at
+scale and it enables you to build
+back-end applications in 100 XLS code
+most devs today use some mix of MySQL
+postgres Oracle mongodb redis Snowflake
+and each of those systems is from the
+ground up a new system to store index
+and retrieve data but with that is a
+whole new set of code and tools we're
+literally repeating ourselves over and
+over again in that data stack each new
+data stack is a new code base new set of
+servers new devops needs and more
+surface area for bugs and so what Rama
+does is it enables you to build
+applications in fundamentally different
+ways because it's such a general purpose
+system you don't need to combine dozens
+of pools together you can just use this
+one tool if we look at like one piece of
+Rama
+um to see like how is it possible it
+could be so general purpose it able to
+do what all these databases can do
+combined you can look at how Rama does
+index in
+my favorite thing about incredible
+technical teams is they're able to back
+up these strong words with a real feat
+of strength in Nathan's case one of the
+key examples he shipped was a full
+server implementation of Mastodon a
+Twitter like social network but one that
+actually scales now with his code to
+Twitter scale so we built a uh on a
+scalable clone of Mastodon which is
+basically the same as Twitter when you
+compare it or the consumer product and
+the amount of uh cost it took Twitter to
+build the consumer product was about a
+million lines of code and 200 person
+years of time
+uh the cost for us to build essentially
+the same thing on top of Rama with 10
+000 lines of code and only nine percent
+multiplied so it's a 100x less code but
+actually more than 200x less
+personalizers Rama allows developers to
+do this in a fraction of the time
+because the abstractions Nathan and the
+team created enable auto scaling and
+extreme expressiveness the main
+difference between what we built and the
+open source Mastodon is the fact that
+ours can scale
+um the open source Mastodon cannot
+cannot scale anywhere near what we can
+so like in our instance that we have
+live right now massive.com we're running
+it with 100 million Bots posting 3 500
+statuses per second and an average fan
+out of 408 which is many orders of
+magnitude beyond what what the vocal
+Source mass of them can possibly do and
+we're less code than them or our back
+end is at least 44 less code
+um in their exits less code to do the
+same thing as the Holy Grail of software
+and that's why Rama is such a crazy Leap
+Forward
+[Music]
+what Nathan has figured out is how to
+help software Engineers do the most
+basic things they try to do everywhere
+else in their code but haven't been able
+to do in how they use data systems today
+don't repeat yourself
+d-r-y
+Rama is d-r-y dry for how you store and
+retrieve data the programming model
+isn't new but the way it integrates the
+pieces together has never been done
+before
+what makes Rama so powerful is how much
+it integrates and generalizes each of
+these pieces
+on the left are Depots these are
+distributed durable and replicated logs
+of data if you're familiar with Apache
+Kafka peoples are very similar except
+integrated with the rest of Rama Depots
+are append only replicated logs they're
+the fastest way to stream data to disk
+next are etls extract transform load
+topologies these consume data from
+Depots in parallel to produce indexes
+which we call partition States most of
+the time spent building Rama
+applications is spent programming etls
+which are programmed with a pure Java
+API
+next are partition states which we
+usually refer to as P States P states
+are how data is indexed in Rama and
+they're also durable and replicated they
+serve the same purpose that databases do
+but they're much much more powerful the
+last Concept in Rama is queries when you
+think about scaling Twitter or Mastodon
+this is where complex scaling operations
+that might happen at the app level can
+be brought down into the data layer and
+scaled automatically like the
+denormalized fan out of feeds for posts
+going to followers there are two forms
+of queries in Rama the first is ad hoc
+queries that can retrieve or aggregate
+data from one partition of One Piece
+date these are called Point queries the
+second are query topologies which are
+predefined queries that can look at any
+or all of your P States and any or all
+of the partitions of your peace days
+instead of trying to fit all your data
+inside these simple but ultimately two
+unstructured forms of tables columns and
+rows or even Json blobs these Concepts
+let you create data structures that
+really mirror the underlying information
+that you're trying to represent
+p-states do in Rama what databases do in
+traditional architectures and you can
+understand p-states in contrast to
+databases when you look at databases
+they all have fixed indexing models what
+they call data models there's key value
+document column oriented graph and so on
+a better way to think about indexing is
+in terms of data structures a data model
+is just a specific combination of data
+structures key value is just a map a
+document data model is a map of maps
+column oriented is a map of sorted maps
+and so on databases that support
+secondary indexing just materialize
+additional Maps alongside the primary
+data structure
+a database like redis is a little more
+flexible allowing your values to be sets
+for lists but ultimately all these
+databases and their underlying data
+models support a very small number of
+data structure combinations we're
+talking about just a handful versus the
+infinite number that are possible
+building back ends has always been like
+this at least since I've been alive so
+it can be hard to see this as a
+limitation but this is like if in
+regular programming you could only use a
+handful of data structure combinations
+and nothing else none of this is
+abstraction for abstractions sake when
+people conceived of SQL databases they
+didn't have a sense that people in the
+future would have plentiful access to
+data centers where the dominant way to
+scale would not be bigger servers but
+more servers Rama is built for this
+reality and this abstraction allows you
+to keep the data structures in one
+system instead of many
+but this is the reality of back-end
+development from databases being so
+restrictive if you can't fit a use case
+onto your databases data model and you
+need to deploy another database with
+another data model deploying and
+maintaining multiple databases is
+expensive if no databases data model
+fits your needs then you might need to
+make your own database from scratch
+which is extremely expensive and
+unfortunately not that uncommon
+Rama's p-states are completely different
+every p-state you create can be whatever
+data structure combination you want and
+you create as many P States as you need
+to support all your use cases when
+Nathan says new databases this isn't
+merely just partitioning data in yet new
+database clusters often in companies
+you're using a whole new stack mongodb
+redis and back when I was running
+systems for my startup at some point I
+realized I was just doing a crude
+version of partitioning across new
+database like runtimes and if you're
+doing that you lose the ability to join
+that data across systems to do useful
+things and not only that you're actually
+compounding the problems of scaling Data
+Systems just because you've moved a
+table or data to one microservice to a
+separate stack doesn't mean the problem
+is solved it just means that you need to
+Shard that data further later and then
+you've got two problems because you are
+tracking entire Tech Stacks contracts
+Port contacts logins auth backup and
+then all of those other things that are
+necessary when you add servers all of
+this in a modern data stack is a waste
+everything about Rama is inherently
+distributed and scalable and so we
+deploy around the cluster you tell it
+how many partitions and how many workers
+to deploy it on
+um and then
+um Rama has this great built-in
+monitoring which basically tells you
+when it's going to need more resources
+and then it's literally just a one-liner
+to terminal saying okay I'm going to
+increase this application and currently
+running cluster
+it's currently running with 20 workers
+let me increase that to 38 and so the
+one liar you press enter takes a couple
+minutes for Rama to
+um execute the transition
+um and then that's it that's all it
+takes so that's Rama in a nutshell it
+truly is possible to change your
+abstraction and get a massive boost at
+my startup posterous we got stuck in
+MySQL scaling hell and I never got out
+of it and our startup suffered for it
+better software is possible and it's
+here today so in terms of what's
+available right now so number one thing
+is we've released a build-a-rama that
+anyone can try out and use it lets you
+build full Rama applications and run
+them within a simulated cluster
+environment
+um so that's um we've on our
+documentation that's available on our
+website you can find the details on how
+to access
+um and we're not going to hide behind
+the fact that Rama has a learning prayer
+it definitely has a learning curve
+um but the benefits are so extreme that
+it is well worth your time to to learn
+it and the best way to learn it is to
+start with the documentation
+um the documentation contains a six-part
+tutorial that that gently introduces
+introduces the concepts and culminates
+in building a complete social network
+end to end and only 180 lines of code
+the rest of the documentation does deep
+guys on all the aspects of Rama so come
+check it out at rentonlabs.com Link in
+the description right now to try Rama
+for yourself the startup that you save
+might be your own that's it for this
+week thanks for watching all the way to
+the end and I'll see you next time
+[Music]
+thank you
+[Music]

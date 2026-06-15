@@ -1,0 +1,2310 @@
+Title: Lecture 8 - How to Get Started, Doing Things that Don't Scale, Press
+Video ID: oQOC-qy-GDY
+URL: https://www.youtube.com/watch?v=oQOC-qy-GDY
+Channel: YC Root Access
+Published: 2014-10-16T22:45:03Z
+Duration: PT52M14S
+Views: 372223
+Likes: 4095
+Tags: startup, class, sam altman, CS183B, Y Combinator, Startup Company (Website Category), walker williams, stanley tang, justin kan, twitchtv, doordash, teespring
+Transcript Language: English - via dotsub (en)
+Auto-generated: False
+Snippets: 1243
+
+Description:
+Lecture Transcript: http://tech.genius.com/William-sydney-walker-lecture-8-doing-things-that-dont-scale-pr-and-how-to-get-started-annotated
+
+Lecture 8 features 3 speakers:
+Stanley Tang, Founder of Doordash, covers How to Get Started.
+Walker Williams, Founder of Teespring, covers Doing things that Don't Scale.
+Justin Kan, Founder of TwitchTV and Partner at Y Combinator, covers Press.
+
+See the slides and readings at startupclass.samaltman.com/courses/lec09/
+
+Discuss this lecture: https://startupcl
+
+============================================================
+TRANSCRIPT
+============================================================
+
+Yeah.
+Thanks for having me, Sam.
+I'm Stanley.
+I'm the founder of DoorDash
+and it's really amazing to
+be here because it wasn't
+actually that long ago
+where I sat in your seats I
+was class of 2014.
+Graduated in CS, as well as
+my co-founder, Andy.
+And, for those of you who
+don't know what Doordash is,
+we're building an on-demand
+delivery network for
+local cities.
+And I wanna start off with
+this photo that I
+took just a few months ago,
+and I think
+this was the night when we
+just raised our series A.
+And I took this photo as I
+was walking back
+to where I lived.
+I actually lived in Robly at
+the time, on campus.
+And, I took this photo
+because I realized just how
+ridiculous the combinations
+of things I was holding in
+my hand at that time, and
+I was holding my CS 247
+homework.
+And then, I had my tax
+forms,
+since it was April and I had
+to fill out taxes.
+And then also that yellow
+speeding ticket,
+and then right below that
+was a $15 million
+dollar piece of paper I just
+signed from Sequoia.
+And that kind of summarizes
+just how ridiculous our
+journey has been, you know,
+starting at Stanford.
+Doing this while I was at
+Stanford, and
+then transitioning this into
+an actual startup, and
+I want to share that story
+with you today.
+It all began two years ago,
+actually,
+in a macaron store, it was
+my junior year at Stanford.
+This was fall quarter, and
+at that time, I was really
+passionate about, you know,
+how do you build technology
+for small business owners?
+And I sat down Chloe, the
+owner of,
+you know, Chantal Guillon,
+a macaron store in Palo Alto
+at that time.
+Just interviewing her, you
+know,
+trying to get feedback on
+this product prototype we'd
+been working on.
+And also just learning
+about,
+you know, what her problems
+were in general.
+And it was during this
+meeting when Chloe first
+brought up this problem of
+delivery.
+You know, I remember she
+took out this really,
+really thick booklet.
+And she showed me pages and
+pages of delivery orders.
+And a lot of these orders
+she had to turn down because
+there's no way she could
+have fulfilled them,
+as she had no drivers and
+she was the one who ended up
+having to personally deliver
+all these orders.
+And that was a very
+interesting moment for us.
+And then we felt next, over
+the next course of,
+over the course of the next
+few weeks, we talked to,
+you know, around another
+150,
+200 small business owners,
+and when we brought up
+this idea of delivery, they
+kept, you know, they kept,
+you know, agreeing with us,
+saying yeah,
+this is a really big problem
+for us, you know.
+We don't have a delivery
+infrastructure.
+It's such a huge pain for
+us.
+There's not any good
+solutions out there.
+And which led us to wonder,
+you know,
+delivery is such a common
+thing.
+You know, it's such an
+obvious thing.
+Why hasn't anyone solved
+this before, right?
+Like, we must be missing
+something here.
+So, we thought maybe because
+people have tried this in
+the past, right.
+But they failed because
+there wasn't consumer demand
+for this.
+So we thought, okay, how can
+we test this hypothesis?
+You know, we were just a
+bunch of college kids at
+that time.
+You know, we didn't own
+trucks or
+delivery infrastructures, or
+anything like that, right.
+We can't just spin up a
+delivery company overnight.
+So, how can we test this
+assumption we had?
+So we decided to create a
+simple experiment
+with restaurant delivery.
+We spent about an afternoon
+just putting
+together a really quick
+landing page.
+And, when I went on the
+internet,
+I found some PDF menus of,
+you know,
+restaurants in Palo Alto
+stuck it up there and
+then had a phone number at
+the bottom, and
+which was our personal phone
+number, actually.
+And that was it, we put up
+the landing page,
+we called it
+PaloAltoDelivery.com.
+And this is actually what it
+looked like.
+You know, super, super, you
+know, simple, ugly,
+like honestly, we weren't
+really expecting anything.
+We just launched it.
+And all we wanted to see
+was, you know,
+would we get phone calls
+from this?
+And if we got enough phone
+calls, then maybe
+this delivery idea was
+something worth pursuing.
+So we put it up there,
+we weren't really expecting
+anything, and
+we were driving back home.
+And all of a sudden we got a
+phone call, you know?
+Someone called, they wanted
+to order Thai food.
+And we're like, oh wow, this
+is a real order.
+Like, you know,
+we have to do something
+about it, right?
+So, so we were in our cars,
+and we're, like,
+okay, like, we're not doing
+anything right now.
+Might as well just, let's
+just swing by, you know,
+Siam Royal, pick up some Pad
+Thai and
+let's just deliver it to
+this person, and
+let's try to learn how this
+whole delivery thing works.
+And we did.
+We
+delivered to this guy up in
+Alpine Road.
+I remember, he told us, I
+was asking, oh,
+how did you hear about us?
+What do you do?
+And he told us he was a
+scholar.
+And then he handed me his
+business card, and it
+said he was the author of a
+book called Weed the People.
+And that was like our first
+ever delivery, right?
+It was like the best
+delivery, first
+delivery/worst delivery you
+could have asked for.
+You couldn't make this stuff
+up.
+And, again, in the next day,
+we got, you know, two more
+phone calls.
+But yet, the day after that,
+we got five, and
+then it became seven, and
+then it became ten.
+And then, soon, we started
+gaining traction on campus
+with paloaltodelivery.com
+which was pretty crazy.
+Because think about it,
+right, this was a landing
+page.
+You have to look up PDF
+menus to place your order,
+and they have to call in.
+This isn't exactly the most
+professional looking site,
+yet people were still, we
+kept getting phone calls.
+We kept getting orders.
+And, that's kind of we knew
+we were on to something,
+when people were willing.
+All right.
+We
+knew we found a need people
+wanted,
+when people are willing to
+put up with all this.
+So I think another key point
+to remember is
+we launched this in about an
+hour, right.
+Like we didn't spend, you
+know.
+We didn't have any drivers.
+We didn't have any
+algorithms.
+We didn't spend, you know.
+We didn't have a back-end.
+We didn't spend 6 months
+building like a fancy
+dispatch system.
+We didn't have any of that.
+We just launched.
+Because at the beginning,
+none of that is necessary,
+right?
+At the beginning, it's all
+about testing your idea,
+trying to get this thing off
+the ground.
+And figuring out whether
+this was
+something people even
+wanted.
+And it's okay to hack things
+together at the beginning.
+At YC there's a mantra, we
+like to
+talk about is doing things
+that don't scale.
+So at the beginning we were
+the delivery drivers.
+Now, we would, you know, go
+to class and
+then after class we'll go,
+you know, deliver food.
+We were the, you know,
+custom support.
+Like, I sometimes had to
+take phone calls during
+lecture.
+We spent afternoons just
+going down University Avenue
+passing out flyers about,
+kinda promote DoorDash.
+I mean, we didn't have any
+dispatch systems.
+So what we had to do was,
+you know,
+we used Square to charge all
+of our customers.
+We used Google Docs to keep
+track of our orders.
+we used Apple's Find My
+Friends to keep track of
+where all of our drivers
+were.
+You know, stuff like that.
+Just figuring out like
+what's,
+just hacking together
+solutions,
+just trying to get this
+thing off the ground.
+In fact, at one point we
+were growing so fast that
+Square actually shut our
+account down because we
+were under suspicions for
+money laundering.
+>> Think about it, we were
+getting small chunks of
+like $15, $20 orders coming
+in at a rapid pace.
+It was, yeah.
+Luckily, my co-founder Tony
+worked at Square, so he just
+e-mailed some buddies there
+and everything was solved.
+>> Yeah, and another thing
+about doing
+things that don't scale, is
+that it also allows you to
+become an expert in your
+business.
+Right?
+Like driving,
+helps us understand how the
+delivery process worked,
+you know.
+We used that as an
+opportunity to talk to
+customers, talk to our
+restaurants.
+We did dispatching which
+helped us figure out,
+you know, how we manually
+dispatched every driver.
+And that helped us figure
+out, you know,
+what our driver assignment
+algorithm should look like.
+We did customer support
+ourselves, you know?
+Getting real time feedback
+from our customers.
+I remember, you know, for
+the first few months when we
+got started,
+we would manually e-mail
+every single one of our
+new customers.
+And at the end of every
+night, and
+just asking them oh,
+how was your first delivery,
+how did you hear about us?
+And we would personalize all
+these e-mails, right?
+Like if I see someone order
+chicken skewers from
+Oren's Hummus, I would say
+oh,
+like, I love Oren's hummus.
+You know, how were your
+chicken skewers?
+How did the first delivery
+went?
+You know, just feedback like
+that was really valuable and
+customers really, really
+appreciated that.
+And I remember one time,
+this is during YC, we were
+out of, we just came out of
+a meeting with one of our
+restaurant partners, and,
+you know, we wanted, we
+heard about this ice
+cream store that just opened
+up, you know,
+on University Avenue, called
+Cream, and
+we wanted to go try it out.
+And then, all of a sudden,
+our co founder back at our,
+you know, office/house
+texted us saying, oh we need
+drivers on the road, we, we
+got a huge spike and demand.
+So we debated for maybe, you
+know,
+ten seconds like should we
+go get ice cream or
+should we go deliver?
+Obviously, we went and
+delivered.
+But that kinda became our
+motivation on,
+you know, scaling, right.
+Like if we can scale then,
+you could go get ice cream
+next time.
+So yeah, I think that kinda,
+and now,
+of course, we've scaled up
+across different cites.
+Now you have to worry about
+building out
+automated solutions and
+dispatch systems, and
+figuring out how do you
+match demand and
+supply, and all that fancy
+technology stuff.
+But none of that mattered at
+the beginning.
+Because at the beginning,
+it's all about getting this
+thing off the ground and
+trying to find product
+market fit.
+So, just to summarize.
+So the three things I would
+say that I learned from
+doing DoorDash is first,
+test your hypothesis,
+you wanna treat your startup
+ideas like experiments.
+T he second thing is launch
+fast.
+We launched in, you know,
+less than an hour,
+where we released a full
+landing page.
+And finally, it's okay to do
+things that don't scale.
+Doing things that don't
+scale is one of your biggest
+competitive advantages when
+you're starting out.
+And you can figure out how
+to
+scale once you have the
+demand.
+And, maybe once you've
+scaled,
+then you go get that ice
+cream.
+Thanks.
+>> Sure.
+>> How did your first
+customer hear about you?
+>> Yeah.
+So the question was,
+how did our first customer
+hear about us?
+Our very first one, I have
+no idea.
+We just launched
+PaloAltodelivery.com.
+We didn't do any marketing.
+So I assume he just must
+have
+typed in Palo Alto delivery
+into the web browser.
+And then after that,
+we didn't do, we did barely
+any marketing.
+I think I sent out like one
+email to my dorm.
+And that was about it.
+It was all through word of
+mouth and
+that kind of just validates.
+You know, just how strong of
+a need you found.
+You know, when people just
+start talking about you and
+they're willing to put up
+with all this, you know,
+terrible user experience,
+terrible design, and
+stuff like that.
+>> When you started, it
+seemed so obvious that you
+were wondering why no one's
+done this.
+What's your answer now?
+With that.
+>> Yeah, I mean, looking
+back, I think,
+I think the biggest thing is
+mobile.
+The fact that now everyone
+has one of
+those in their pocket.
+And we kinda saw that trend
+and thought, you now,
+what if you can design, you
+know, a delivery system
+that's entirely based off
+mobile, where you don't have
+to have any infrastructure
+or delivery fleets.
+Instead, you could, you
+know,
+instead of hiring drivers
+full time,
+purchasing vehicles, what if
+you can tap into a more
+on demand pool of
+independent contractors, and
+only send orders to them
+when they have time.
+So, that's kind of the, the
+insight we had,
+we, everything was done
+through mobile.
+Yeah.
+>> Did you know you were
+gonna be a startup, or
+just making some money on a
+website, at first?
+>> Yeah, I mean, at the time
+we just wanted, we're all
+really passionate about
+building technology for
+small business owners.
+And honestly, this delivery
+things came out of
+an experiment, right, with
+the landing page.
+Like it was literally an
+experiment.
+We didn't, we weren't
+expecting anything and
+it just took off, and we
+went with it.
+And logistics was always
+something we were
+really passionate about as
+well.
+You know like logistics,
+transportation.
+It was kind of the perfect
+fusion of, you know,
+how do you help small
+business owners do delivery?
+Back there.
+>> Do you launch the mobile
+app first or the website?
+And how long did it take
+from idea to
+your first launch?
+>> Yeah, we started with
+this landing page right
+here.
+Took us an hour to launch.
+>> How does DoorDash stand
+out in
+a space filled with and
+other companies.
+>> Yeah, the question was
+how does DoorDash stand out
+among a very competitive
+space.
+I mean, at the beginning, I
+mean for us, consumer demand
+has never been the problem,
+even up until now.
+So, for us it's just about,
+you know, finding a need and
+just focusing on serving
+that demand.
+So, in the beginning,
+competition doesn't really
+matter when you're getting
+started.
+>> Yeah, question was how
+long it took for
+us to incorporate into a
+company?
+When we went through YC.
+So, we launched in January
+2013, and
+then we did YC that very
+summer, and we, when we
+decided to take this idea
+through YC, we incorporated.
+>> One more?
+Yeah you.
+>> What do
+you plan to do next, or
+where do you plan to go
+with this besides like food
+delivery?
+>> Yeah I mean, the question
+was where do we plan to
+go beyond food delivery?
+I mean for us, when we
+started door dash it
+was always like I said
+about.
+Helping small business
+owners and
+figuring out, how do you
+service for
+any local merchant, whether
+you are a Macaron store or
+a restaurant or a furniture
+shop.
+I mean, that's still our
+focus,
+that's like the long-term
+vision.
+For now we're just focused
+on rush on
+delivery as a way to scale,
+but
+ultimately that's where we
+want it end up in.
+>> Cool.
+>> Thanks.
+>> Okay, next is Walker
+Williams from Teespring,
+Teespring at the YC, you're
+in Africa?
+>> Yeah.
+>> I almost rejected them.
+Sounds like a dumb idea but
+now they're doing hundreds
+of millions of
+dollars a year of revenue so
+very lucky to have him.
+And Walker's gonna talk also
+about doing things
+non-scale.
+>> All right.
+Thank you guys for having
+me.
+My name is Walker.
+I'm the CEO and founder of
+Teespring, for
+those of you guys who don't
+know what Teespring is.
+We're an e-commerce platform
+that allows entrepreneurs to
+launch products and
+apparel brands without
+risks, costs or compromise.
+Today the company is about
+180 folks and
+we ship tens of thousands of
+products each day,
+and I wanna talk to you
+about one of the most
+fundamental advantages you
+have as a start-up and
+that's you're able to do
+things that don't scale, and
+I define things that don't
+scale as things that
+are sort of fundamentally
+unsustainable.
+They will not last,
+they will not bring in the
+millionth user and
+where they break, it's
+usually time, but
+it could be a number of
+other things.
+But it's really growth
+strategies that won't take
+you to a million users and
+there's three real places I
+wanna focus on today.
+First one is finding your
+first users.
+The second one is turning
+those users into champions,
+and the third one is finding
+your product and market fit.
+So finding your first users,
+the first thing you have to
+understand is that there is
+no silver bullet for
+user acquisition.
+Everybody and this includes
+me when we got started,
+you look for that, that
+dream solution,
+that pay-per-click campaign
+that has tremendous ROI.
+Some accelerating
+partnership that's gonna
+springboard you into the
+stratosphere, an affiliate
+agreement, something that
+solves it for you.
+But the reality is for
+the vast majority of
+companies and
+in fact, for every company
+that I've had the chance to
+speak to CEO of, that's just
+not possible.
+Those are unicorns and
+most of the companies that
+from the outside look
+like they've had this dream
+growth curve.
+The reality is that those
+first users were impossibly
+hard to get and let me tell
+you about
+the story of a ridiculously
+unsustainable business.
+So, this is teespring in
+2012.
+When we first got, when we
+first launched the business
+couldn't have looked worse
+it took days of meetings.
+We had to offer free design
+and
+days of revisions back and
+forth.
+We'd have to launch the
+product ourselves.
+We'd have to do the social
+media.
+All the sell like 50 shirts
+for a local non-profit, and
+generate $1,000 of revenue,
+anybody looking in would
+have said.
+You guys need to give up,
+this is a terrible idea.
+But as time went on, those
+users started to
+add up and I think something
+you have to
+understand is that when you
+first launch a company,
+just by virtue of the fact
+that it's a new product,
+you're gonna be bad at
+selling it, right?
+You've got no idea what the
+paying points of customers
+really are.
+You've never sold it before.
+You don't have any success
+stories to point to or
+testimonials.
+Those first users are always
+going to be the hardest, and
+so it's your responsibility
+as a founder to do
+whatever it takes to bring
+in your first users and
+it's gonna be different for
+every company.
+The common thread that I
+hear is founders need to
+spend personal time and
+effort.
+A lot of their personal time
+and
+effort to bring those users
+in themselves,
+it can mean a number of
+thing.
+Everything from sending 100
+emails a day, getting on
+the phone and just calling
+as many people as you can,
+going through a network,
+if you have a network like
+Standford or Y Combinator.
+Anything you can do to get
+that first user and I really
+equate it to pushing a
+boulder up a hill and
+if you think of like a very
+sort of smooth hill,
+when you get started.
+The incline is the steepest
+in those first inches are
+the hardest and over time as
+you get farther and farther.
+The incline stays out, it
+gets easier and
+hopefully, eventually you
+reached a point where you're
+at the top of the hill and
+the boulder starts to
+roll on its own, and so
+those first users,
+you just cannot focus on ROI
+in the sense of time.
+Do not expect to spend an
+hour and
+return thousands of dollars.
+Maybe Stanley is one of
+those unicorns that was
+a pretty incredible story.
+But for most of us those
+first users
+are going to take a lot of a
+hand holding, a lot of
+personal love and that's
+okay, that's essential for
+building a company, and the
+one sort of caveat of that
+is that I don't recommend
+giving away your product for
+free and there's plenty of
+exceptions to this rule.
+But in general cutting costs
+or giving the product away
+is an unsustainable strategy
+I wouldn't recommend.
+You need to make sure that
+users value your product and
+people have a different,
+they treat products that
+are free in a much different
+way than a paid product and
+often times it can give you
+a false sense of security if
+oh, we're getting all these
+users surely we
+can convert them over to
+paid.
+The second aspect is what
+happens when you get those
+users, how do you turn those
+users into champions and
+a champion is a user who
+talks about and
+advocates for your product.
+And I'm a firm believer that
+every company with a great
+growth strategy has users
+who are champions and so
+really the easiest way to
+build.
+Turn a user in to a champion
+is to delight them with
+an experience their gonna
+remember so
+something that's unusual or
+out of the ordinary an
+exceptional experience and
+the easiest way to do this
+early and
+again something that is
+completely unsustainable,
+it's not gonna scale forever
+is to just talk to
+those users and people will
+say this all the time,
+and you hear it.
+It's one of the sort of core
+tenants of why
+combinators talk to users
+but I cannot stress
+how important it is that you
+spend a large chunk of your
+time talking to users, and
+you should do it constantly,
+every single day and as long
+as possible.
+Today at Teespring,
+I'm still the catch all
+email address, so
+anytime somebody misspells
+support or writes an email
+address that doesn't exist,
+I get that email, and so
+I still do about 12 to 20
+customer service tickets
+every single day.
+I spend hours each night
+reading every single tweet,
+probably a little bit OCD,
+but that's okay.
+I read through all the
+Teespring communities.
+You're never gonna get a
+better sense for
+your product than actually
+listening to real users, and
+especially in the early
+days, you're just,
+the products you launch
+with, and
+the features set you launch
+with, is almost certainly
+not going to be the feature
+set that you scale with and
+the quicker you talk to
+users and
+learn what they actually
+need,.
+The faster you can get to
+that point.
+So there's three ways to
+talk to your customers,
+you can run customer service
+yourself,
+up until Teespring was doing
+about $130-$140,000 a month
+my co-founder Evan and
+I did everything in customer
+service.
+This is one that there's
+gonna be an instinct to
+quickly pass off and that's
+because it's painful.
+Even today, when I open our
+customer service
+portal, I have like an
+emotional reaction where my
+stomach sinks because it
+sucks talking to users
+who have had a terrible
+experience and it's painful.
+It's something that you love
+and you put so
+much effort into and you've
+gotten it wrong or
+they've had a terrible
+experience or
+somebody didn't treat them
+right.
+But it's so important that
+you go through that and
+learn what you need to
+build, what you need to fix.
+The second step is to
+proactively reach out
+to current and churned
+customers and
+churned customers are
+customers who have left, and
+this is one that often falls
+by the wayside in sort of.
+The pursuit of new customers
+but you wanna make sure that
+your customers are having a
+consistent, good experience.
+You don't wanna just leave
+those current users as
+sort of, you don't want take
+them for granted and
+then when a user actually
+leaves your service,.
+You wanna reach out and
+find out why both because
+that personal outreach can
+make the difference between
+leaving and staying.
+Sometimes people just need
+to know that you care and
+it's going to get better and
+because even if you can't
+bring them back
+there's a chance that you
+can learn from the mistake
+that you made that caused
+them to leave and fix it so
+you don't churn users out
+the same way in the future.
+And the final one is, again,
+the one that I'm probably
+too OCD about, but
+it's social media and
+communities.
+You need to know how
+people are talking about
+your brand.
+You need to reach out and
+make sure that,
+when somebody does have a
+bad experience and
+they're talking about it,
+that you make it right.
+Problems are inevitable in
+start-ups,
+there's gonna be issues,
+you're not gonna have the
+perfect product,
+things are gonna break,
+things are gonna go wrong.
+That's not important, what's
+important is to
+always make it right, to
+always go the extra mile and
+make that customer happy.
+One detractor who has had a
+terrible experience on your
+platform is enough to
+reverse the progress of
+ten champions.
+It's all it takes is one
+person out there to say, no.
+You shouldn't use those guys
+for X, Y, and
+Z reason, to ruin a ton of
+momentum.
+So even if it's there's
+examples in the early
+days where we would mess up
+massive orders.
+We would print the colors
+slightly wrong,
+it would be the wrong size
+and
+it would be like half of our
+GMV for
+that month and we would know
+we got it wrong.
+The customer would be
+unhappy and
+sort of this instinct is
+well, it's only a little bit
+off or it's not completely
+wrong it'll be fine.
+But the reality is you've
+just got to bite the bullet
+and make sure that's it
+right, and those customers,
+the customers that are often
+originally the most
+frustrated tend to turn into
+the biggest champions and
+the longest term users.
+And the last one I
+wanna talk about is finding
+product and market fit and
+what I mean that is that I
+mentioned this earlier.
+But the product you launch
+with will almost certainly
+not be the product that
+takes you to scale and so
+you're job in those early
+moments or
+those early days of a
+start-up.
+Is to progress and iterate
+as fast as possible to reach
+that product that does have
+market fit and as engineers
+you're instinct is gonna be
+to build a platform with
+beautiful clean code that
+scales right?
+You don't wanna write sort
+of duct tape code that's
+gonna pile on technical
+debt.
+But you need to optimize for
+speed over scalability and
+clean code and sort of an
+example of this is,
+in the early days,
+we had a couple enterprise
+customers come to us.
+Sort of bigger non-profits
+and
+say, hey, we really like
+your service but
+you're missing these
+fundamental things.
+So we can't, we're not gonna
+use it and we looked at sort
+of what it would take to
+build out those features and
+we weren't sure they were
+gonna work long-term, but
+we wanted to try it.
+And my co-founder Evan who
+is our CTO and a million
+times better developer than
+I am, sort of run the map
+and figured out that if we
+did it the right way.
+It was gonna take about a
+month to build out
+these features and
+in a start-up, a month you
+live in dog years.
+A month is a year and that
+just wasn't gonna do.
+So he actually went out,
+duplicated the code base,
+duplicated the database and
+was able to
+basically build a completely
+different product that he
+didn't have to worry about
+the existing users for,
+to serve these enterprise
+customers.
+We gave them the tool,
+they on-boarded, they
+generate a lot of revenue.
+Eventually, we learned what
+features were core and
+we integrated them into the
+core product, but
+what would have taken a
+month,
+we were able to do in three
+to four days.
+A great rule of thumb is to
+only worry about the next
+order of magnitude.
+So when you have your tenth
+user, you shouldn't be
+wondering, well, how are we
+gonna serve a million users.
+You should be worried about
+how are we gonna get to 100?
+When you're at 100, you
+should think about 1,000.
+It's one of those things
+where necessity is
+the mother of invention of
+all inventions.
+So, when you hit that
+breaking point, like
+the Twitter Fail Whale is a
+great example and Teespring.
+There were months, month
+stretches where
+every single night, the site
+would crash, every night and
+during the day and every
+single person on the team
+would go to sleep with their
+phone on loud under their
+pillow so that inevitably,
+when the buzzer went off,
+we could quickly get up,
+restart the servers and
+go back to sleep and this
+would happen daily.
+But the reality is that it
+was worth it and
+you'll end up with these
+huge pain points and
+all this technical debt and
+regret.
+But it's worth it, just to
+get to that end goal and
+that product fit faster, you
+will make it work,
+you will survive that those
+sort of bumps are just speed
+bumps and speed is so, so
+important early.
+So, the lesson that I've
+been learning lately is
+you want to do these things
+that don't scale as long
+as possible.
+There's not some magical
+moment,
+it's not the series A, it's
+not when you hit a certain
+revenue milestone that you
+stop doing things that
+don't scale.
+This is one of your biggest
+advantages as a company,
+and the moment you give it
+up.
+You're giving your
+competitors that are smaller
+that can still do things,
+that advantage over you.
+So, as long as humanly
+possible,
+as long as it is a net
+positive,
+you need to be spending time
+talking to your users.
+You need to move fast in
+development,
+as fast as possible.
+But don't give it up
+willingly, it should be
+ripped from you, and so sort
+of trying to practice what I
+preach I wanna give you guys
+my email address.
+If you guys have any
+questions,
+if you wanna learn about
+Teespring,
+if you wanna print some
+t-shirts, fingers crossed,
+just shoot me an email.
+I'd love to help and I'd
+love to speak to you.
+And the last thing is we've
+created an official how to
+start a start up tee with
+Sam.
+And all proceeds are going
+to Watsi.
+I couldn't miss this
+opportunity to sell.
+So if you guys wanna grab
+one of the official tees,
+just go to
+teespring.com/startup and
+it's supporting a great
+cause.
+Thank you.
+Sure.
+Go ahead.
+Yep.
+The T-shirt printing
+business, it seems like it
+has a lot of So what made
+you, what convinced you, to
+think this is a viable
+market even with all that's
+going on in the world today?
+Sure.
+You know, so the question
+was, the T-shirt printing
+business has a lot of
+competition.
+What would convince us to
+get into the market?
+I think there's two factors
+to it.
+So first, I completely
+agree.
+From the outside, people
+have been telling us
+that this is a silly idea
+since day one.
+And sort of that every order
+of magnitude we reach,
+people will come and say
+hey, that's a terrible,
+terrible idea why are you
+doing that?
+But the reason that we
+launched Teespring is
+because we ran into a
+personal pain point where we
+had a need and we looked at
+the current solutions.
+I was a student at Brown,
+and
+I was trying to create a
+remember the bar shirt for
+a dive bar that got shut
+down.
+And I realized that nothing
+needed,
+nothing matched my needs.
+And so, because I knew that
+I had that pain point.
+And I knew there was market
+fit and
+I had seen people adopt the
+product.
+I knew there was something
+there and
+it was also one of those
+things where you,
+you can sort of feel the,
+you can sort of
+feel the wind on your back
+where people are adopting
+the product quickly, the
+pain point is clearly there.
+It's not a met need.
+So, I would say that
+oftentimes great ideas start
+by looking like silly ideas.
+And then you can sort of
+feel out whether or
+not there's a scalable
+business here by how people
+are adopting it.
+Is it possible to bring
+customers aboard?
+Sure.
+Are non-profits your biggest
+customer base, like?
+No.
+You know, today our
+biggest customer base are
+entrepreneurs who
+are trying to build brands
+and businesses.
+You know, we have a little
+over a 1,000 people that
+make their full time living
+on
+Teespring today via brands
+they've launched and
+the other side is
+influencers,
+so YouTube stars, Reddit
+communities, bloggers who
+want to add product
+merchandise as a way to sort
+of create a brand and and
+monetize that affinity.
+So those are our two biggest
+markets.
+We still do work with a lot
+of non-profits and
+love working with them.
+It's still a part of
+our business just not the
+majority.
+Thank you.
+Yeah.
+All right, now we'll have
+Justin talk.
+Justin was the founder of
+KeyCo, and then JustinTV,
+which Twitch and is now and
+he's going to talk about PR.
+Cool.
+Well, while I wait for
+the slide to happen, I
+started a bunch of startups
+but I think you've heard a
+lot of awesome, you know,
+kind of how did I get
+started stories.
+So I'm gonna talk about
+something very specific,
+that people always have
+questions with,
+which is press and how do
+you get it.
+How does it work?
+It's something, this is kind
+of like an abridged
+version of what we talked
+about at Y Combinator and
+hopefully you guys will find
+it helpful.
+So, you know, a lot of
+people,
+I think when they first get
+started with
+entrepreneurship think about
+getting press and being in
+the press as something that
+happens magically.
+They think about it as like
+something that,
+you know, journalists out
+there like,
+trying to find the best
+stories and
+really, you know, like,
+discover the,
+like, it's like a
+meritocracy which is like,
+absolutely not the case.
+So before you think about
+press, one of the things you
+really want to think about
+is who you want to reach and
+like what's you actual goal.
+Right?
+A lot of people,
+like I know when I got
+started I
+wanted to just be in the
+news because I
+thought that's what like you
+did as an important company.
+And it turns out if you
+don't have any goals
+you're not gonna achieve
+them.
+Right?
+I mean that's true of
+pretty much everything and
+with press,
+if you just like, aimlessly
+want to be covered,
+it's not really going to do
+anything for your start up.
+So getting like, in the news
+is nice because you can send
+it to your mom or your, and
+say hey, I have a real job.
+You know, look, we're in the
+New York Times.
+But if you don't have a
+actual goal for
+your, like a business goal
+with it,
+it's really just like, not a
+good use of time.
+So, you know, there's many
+different goals.
+One example is, you know,
+you might want to,
+with Social Cam, which is a
+spin off of Justin TV,
+it was like an app that was
+kind of
+like video Instagram.
+And our goal was really to
+be known as a video,
+like Instagram app, and
+like be thought of in that
+context when it was,
+you know, time to pitch to
+our,
+like Silicon Valley
+investors and influencers.
+And so, we really wanted to
+get in, like tech press and
+kind of be positioned as
+this new, hot social app.
+With Exec, one of my goals
+was a second,
+like to get customers.
+So, Exec was like,
+a cleanings, local cleaning
+service and
+our goal was to get people
+in San Francisco to use it.
+It wasn't like useful to get
+the national press because,
+you know, 99% of those
+people couldn't use it.
+So, we really targeted
+initially a lot of,
+you know, like SF Chronicle,
+and like local San Francisco
+press that would directly
+talk to people who could
+potentially use our app.
+For Twitch which is probably
+the thing that you
+guys mostly know.
+It was you know, Twitch was
+ESPN for gaming or kind of
+like a live streaming
+community of gamers.
+And our goal was to with
+press was like to
+reach the gaming industry.
+Cuz like when we started now
+it's like 55 million
+uniques and
+like people in the gaming
+industry know about it.
+But when we started nobody
+really knew that like,
+it was a place to advertise,
+and
+like, it wasn't like know as
+like a, you know,
+we were a very nascent small
+gaming community.
+And our goal was to like get
+people in
+the gaming industry, whether
+they were developers or
+advertisers, to think about
+us as like
+an important place where
+influences were, so
+we really targeted industry
+trades and game depth logs.
+Places where like gamers
+wanna have games speed,
+stuff like that, the
+industry was reading.
+So, you know,
+what's an actual story, I
+think there's, you know,
+there's a bunch of different
+types of stories but
+these are usually the ones
+that you see in,
+you know, start ups.
+Those are like product
+launches,
+like you let us launch a new
+version of your app.
+There's fundraising for
+whatever reason, you know,
+press loves to write about
+fundraising even though it's
+not very interesting.
+So, you know like, if you
+raise a $1 million
+seaground, pretty much you
+can get that covered.
+Milestones or metrics like
+you've achieved a $1 million
+dollars a week in revenue,
+that one of our, the,
+the company that bought Exec
+just announced that they,
+they achieved a $1 million
+dollars a week in
+revenue and was covered
+pretty widely.
+Business stories which
+generally happen when
+you're already a successful
+company.
+Someone like New York Times
+or New Yorker, business
+magazine will wanna cover
+the story of your start up.
+Usually don't have to worry
+about that in the beginning.
+What I like to call stunts,
+which are like,
+I don't know if you guys
+remember, but
+a couple of years ago, this
+YC company called WePay
+dropped a block of ice with
+money frozen in it, outside
+of the PayPal like, a PayPal
+developers conference.
+Cuz they were like, PayPal
+was like no, in the news for
+freezing, you know, like
+various developers accounts.
+And so that was like, you
+know, widely covered.
+Because it was just so,
+you know, kinda of an
+interesting thing and
+it really, it got them in
+the story, right?
+They wouldn't have been
+talked about in
+the context of PayPal, at
+all really.
+Hiring announcements,
+if you're a big enough
+company and
+you hire someone really
+important,
+people will wanna cover
+that, and
+then contributed articles
+like you writing some sort
+of industry overview or some
+opinion piece in like
+maybe a tech blog or stuff
+like that.
+So those are like, you know,
+basically any of those
+things can be stories.
+One of the things that
+people usually don't
+think about.
+Is that, like, you really
+have to think about,
+like, everything, when you
+start a start up,
+you think that everything
+you're doing is interesting.
+But that's not true for,
+like, other people.
+Right?
+Like, what you really need
+to think about is, like,
+objectively if I
+wasn't the founder of this
+company, would I wanna,
+like, read a story about
+what I'm pitching.
+Right?
+So, you know,
+you have incremental feature
+release or 2.01, you know,
+feature release might not be
+interesting.
+Just because you added like,
+you know, find your contacts
+in Facebook or something.
+Like you have, you really
+want to take a step
+back before you invest the
+time in like actually trying
+to pitch a story and think,
+does anyone,
+will anyone actually wanna
+read this?
+Because what people are, you
+know, journalist and
+bloggers are looking for,
+is things that people
+actually wanna read right?
+The other thing is like,
+you don't actually have to
+be very original.
+Your press in these doesn't
+have to be original.
+It just has to be like what
+I like to call,
+original enough, right?
+So you don't wanna be the
+second cooler company
+To raise $5 million on
+Kickstarter, right?
+That's like.
+That the first guy gets all
+the news.
+But like if you're there,
+I think the first video game
+console to
+raise $10 million on
+Kickstarter like Ouya was,
+that was like, it was like
+$1 million is 24 hours.
+That was huge news because
+they
+were kinda like the first in
+that category, right?
+Even though other people
+have raised a lot of
+money on Kickstarter before.
+So just like think about
+your stories in
+the context of like where
+they are in
+the like what else has been
+written about and if
+they're like kind of novel
+enough and they haven't been
+something that was like just
+written about in the news.
+So what are the actual
+mechanics of
+getting a story?
+This is like pretty
+tactical,
+so what if you want to get
+your news in, you know,
+the press, basically there's
+some easy, simple steps.
+So it's basically, it's,
+getting press is like,
+you think of it like a sales
+funnel.
+So you're gonna talk to a
+lot of people,
+and not all of them are
+gonna convert.
+Right?
+And so
+you shouldn't be upset when
+someone,
+like one individual person
+or reporter or
+whatever doesn't write your
+story.
+The first thing is you have
+to think of a story, right?
+It's gotta be one of those,
+probably one of those things
+that I listed up before.
+The second step is,
+you wanna get introduced to
+a reporter or multiple
+reporters who are gonna
+write about your thing.
+It's like much, much easier,
+just like any sort of
+business development to
+actually get in touch with
+them through someone.
+It's like, you know, rather
+than cold emailing them,
+the best thing to do I've
+found is like, you wanna
+go to entrepreneurs who were
+just written about,
+like your friends who maybe
+started a start up and
+they were covered on
+TechCrunch,
+get them to introduce you to
+your, you know,
+that reporter who wrote
+about them.
+The reason that's good is
+because like,
+from the entrepreneur's
+perspective, like
+the easiest thing to do in
+the world, is introduce you
+to a reporter who already
+wrote about them, right?
+They don't, like need
+anything else from
+that reporter.
+They're actually doing that
+person a favor for
+stories interesting.
+It's not like you're asking
+for
+interest to investors, or
+potential, you know,
+people that they would wanna
+hire, employees.
+And then, from the
+reporter's perspective,
+they're getting intro to
+someone who, you know,
+they already vetted as
+interesting.
+Like, they're getting an
+answer from someone who
+they know they
+thought was interesting
+enough to talk about.
+And so, like by the
+transitive property
+you're basically gonna,
+they're gonna think you're,
+you know, probably
+interesting.
+So you get like an email
+that's like,
+you know, from this guy that
+introduces you to
+the reporter, and
+you want to get in contact
+with them with enough time
+that you can actually get
+them to like write a story.
+Probably a week in advance,
+or more.
+Because they're not gonna,
+like, drop everything their
+doing to just write about
+your news.
+So, a lot of people,
+especially first time
+entrepreneurs will come and
+say,
+like, Justin I'm watching
+this product tomorrow.
+Like, can you get me in
+this, you know,
+TechCrunch or something.
+And that's, like, probably
+not gonna happen unless you
+already have a relationship.
+The best way to do it, so
+the best thing to do is,
+like, give yourself some
+lead time.
+Get that intro in advance.
+And then, so then you
+should,
+like, once you've set a date
+for your news to go out,
+you're gonna launch your
+product, like in two weeks,
+you have this intro, you set
+up some sort of meeting and
+you really wanna get the
+reporter to,
+like, invest time and effort
+into you.
+Because they don't,
+like there's kind of a
+sunk-cost fallacy at play.
+Basically if you,
+the more time they spend
+with you, the more likely
+they are to like actually
+write something.
+So you, the best thing to do
+is to get a face to
+face meeting.
+Lots of people, report
+bloggers actively don't want
+to meet you face to face.
+But like, if not that, then
+get like a phone call,
+right, and get on the phone
+with them.
+The worse thing to do is
+like,
+just have an email exchange,
+right?
+Because it's very easy for
+them to like forget about
+it, ignore it.
+So you wanna like, actually
+try to get in contact with
+them, set up a meeting.
+Okay.
+So, then
+the next step is actually
+pitch them.
+What I usually do is
+actually write out all
+my new, like the story that
+I would want to see
+published like in bullet
+points.
+And I like, will write out
+the story,
+like my ideal story and I
+will memorize it.
+Like the entire like set of
+bullet points and when I
+have a conversation with
+them, if it's in person,
+I'll like walk them through
+this, like I'll have
+a conversation that's like
+structured like my outline.
+And they'll be like taking
+notes, right?
+And then they'll go and
+transcribe those notes into
+a story.
+And so it's like a tell it,
+like what I wrote will
+eventually be translated
+into a actual story.
+And, you know, by preparing
+you can actually you know,
+much more easily control the
+conversation and
+not forget critical things
+like, you know,
+your co-founder, mentioning
+your co-founder's name.
+Or like,
+what all the features in
+your awesome app are.
+If it's, I'm doing this on
+the phone, I will like,
+have this bullet points in
+front of me and
+I will make sure to like
+walk through
+a conversation that includes
+all of those things.
+So, you know, you do that,
+they,
+you have a pitch, they, they
+take notes.
+They're gonna write the
+story of this time.
+And then, the next thing is
+like, follow up,
+like a couple days, or day
+before your actual news goes
+out, you want to send them
+an email that says, like.
+You know, this is the time
+we're launching the app.
+Like, thanks for meeting,
+here's like collateral like
+maybe if you have like a
+video or photos or
+something you want them to
+include screen shots.
+Like how to spell your
+co-founders' names and
+your name.
+Just like include all the
+information that I
+really care about and I bold
+it right?
+And then that's it.
+Then hopefully the day comes
+you press submit on
+the release to the app store
+and
+at the same time they
+release their article on
+TechCrunch and you are
+famous.
+Okay, so a lot of people ask
+us about PR firms.
+so.
+You know, I think in the
+beginning.
+It's kind of like everything
+else you do at a start,
+you want to do it
+yourself before you hire
+someone else to do it.
+And it's actually pretty
+easy,
+especially with tech press
+who,
+you know, and bloggers who,
+like, constantly need new
+things to write about.
+You know.
+I strongly encourage people
+to, like,
+try it themselves and kind
+of get started by learning
+the process themselves
+before they hire anyone.
+One thing I'll say is that
+like firms can,
+can only help you with like
+kind of the contacts and
+the logistics, but it can't
+help you
+know what's interesting
+about your company or very,
+you know, I've never had
+anyone whose been able to
+tell me what the stories
+that I'm producing are.
+They've only been able to
+tell me,
+you know, like you're you
+know, like here's a the,
+here's a list of reporters
+that you might wanna contact
+So, you know, you really
+have to be responsible for
+thinking about like,
+what's interesting about
+your company and
+what are you doing, you
+know, what's the road map of
+interesting things that
+you're working on.
+They're also really
+expensive.
+You know, I think we were
+spending between $5,000 and
+$20,000 a month which is
+like a very, for
+various firms that's a lot
+for a start up, right?
+You should, it's generally.
+Not a good use of money, I
+would say.
+Especially in the very early
+days.
+You know, getting press is,
+is a lot of work.
+So you should really make
+sure it's worth it.
+You know, like I said it
+really,
+getting press doesn't mean,
+it feels like,
+it's like a vanity metric.
+Right?
+It feels like you're being
+successful because lots of
+succesful companies.
+You know, like Google and
+Facebook, are covered in the
+press all the time.
+But it doesn't actually mean
+you're successful.
+It doesn't, you know,
+actually give you, you know,
+mean that you're getting,
+you're making money,
+you're getting users, you're
+making those users happy.
+it's, you know,
+sometimes it's a really good
+strategy for
+getting your first 100, or
+200, or 1,000 customers.
+But it's really not a
+scalable user acquisition
+strategy, so it's something
+that's really just like a,
+you know, a boot strap.
+You can't, like,
+just get, like, infinity
+articles written about you.
+Like, eventually people are
+going to,
+like, get tired of hearing
+about your company, and
+usually that happens pretty,
+pretty quickly, right.
+The whole point about news
+is that it's new, and so
+it's, it's pretty, pretty,
+pretty hard, unless your
+Google, to get covered in
+the press like every week,
+you know, with something.
+to, you know, if you decide
+it's worth it though,
+like you do wanna have like
+a regular heartbeat of news.
+So that's like something
+where, you know,
+you're planning out those
+types of the, what,
+your thing about what your
+doing, that matches those,
+you know, maybe seven story
+types in the future like,
+you know, when I was You
+know, working primarily on
+marketing and, and PR, it
+would be, I would like,
+make a schedule on like a
+calendar.
+Have what, when we're gonna
+launch things and like,
+make sure to space them out,
+but like have them,
+you know, appear regular, at
+regular intervals so
+that people like didn't want
+to forget about us.
+And we could kind of
+maximize our coverage.
+And, you might really want
+keep your, you know,
+contacts fresh.
+It like, really a
+relationships business.
+So once you, someone writes
+about you,
+you should keep going back
+to them for, for
+more, for writing about,
+you know, to write about you
+in the future.
+It's kind of like, you know,
+when, when basically people,
+you know, you're more likely
+to do something for
+someone you've, like,
+already done something for.
+Yeah, you really, like,
+it's, if you just, you know,
+I would try to establish
+good,
+good relationships with a
+couple reporters over time
+that you can go to to, you
+know, break news.
+And it, it will come in
+handy later if you ever
+have, are in the position,
+if you're fortunate enough
+to be in the position where
+people are writing negative
+things about you, you know,
+having relationships will
+help you, you know, kind of
+get your side of the story
+out, The last thing is like,
+you know, it's kind of
+Golden Rule really, or
+maybe more like a pay it
+forward really applies here.
+Like, you should really help
+your
+fellow entrepreneurs get,
+get coverage because they
+will help you get coverage.
+The best way to get covered
+is really through these like
+warm introductions.
+And so you know, whenever
+I'm meeting with reporters,
+I always help like.
+Throwing out the names of
+like other things that I
+think would be interesting
+stories for them.
+And usually that comes back.
+They, the, the reporters
+like it, because they,
+it's like helping them find
+interesting stories.
+And you're more likely to
+get, you know, leads
+back from entrepreneurs that
+you help out.
+So, if you're interested in
+learning more about press,
+here's two resources that I
+really liked.
+Jason Kincaid, who was a
+former TechCruch reporter,
+just a really, really great
+overview that covers a lot
+of things I just talked
+about, in more depth and
+from the, you know, blogger
+side.
+That was a really great
+book.
+And then kind of an evil
+resource is this book
+Trust Me, I'm Lying.
+Which was written by the,
+one of the a former marketer
+at American Apparel.
+And he talks about like a
+lot of ways that he
+pretty like, evilly actually
+manipulated the press, but
+I think it's a pretty good
+look
+into like the psychology of
+like how people, you know,
+things spread on the
+internet.
+You know, how stories spread
+on the internet and
+that, it's a.
+Might be valuable to take a
+look at.
+Cool, that's, that's
+basically it.
+One question?
+Just 1?
+>> 2, 2.
+>> 2 que, Okay, 2 questions.
+Or zero questions.
+>> When is the right time to
+start worrying about
+press altogether?
+>> When is the right time to
+start worrying about press
+altogether?
+I think it's a really good
+way.
+Like if you just.
+The first time I launched,
+you know,
+my first products in our
+first startup.
+For a lot of them we got
+like zero attention.
+And we didn't really know
+how to even get
+a hundred users.
+I think it's a really fine
+way to
+get a hundred users and a
+lot of.
+Companies in YC where they
+first launch their
+product will encourage them
+to get out and
+just do one TechCrunch story
+to, like, get a few
+people to see it, and it's
+good to get in the practice.
+I wouldn't, like, obsess
+over getting, like,
+coverage in multiple outlets
+or
+anything like that in the
+very beginning.
+All right, anything else.
+There.
+>> It seems like
+the biggest story
+>> Yeah.
+>> Great, so like much of a,
+how much of
+a role did you guys actually
+play in getting that
+out
+>> so,
+Twitch, you know, had this
+thing called Twitch plays
+Pokemon where developers set
+up like a Pokemon,
+like Gameboy game that was
+controlled by chat, so
+millions of people would be
+typing in A or B, and like.
+The character would wander,
+wander around aimlessly.
+And that was like a huge
+news story and I think that
+what we did was you know,
+there's a couple parts.
+One, we set the stage by
+having other news
+stories that, so when
+someone from the BBC would
+Google like Twitch and be
+like what is this
+crazy thing that everyone on
+Reddit is talking about?
+They would, like, have some
+context.
+The other thing is,
+like, we didn't come up with
+the idea for twit, right?
+That was, like fortuitous.
+But we helped, like, give it
+legs by, you know,
+making the company available
+to talk to the reporters,
+and, suggesting follow-up
+stories about, like.
+You know, there were
+stories,
+not just about Twitch plays
+Pokemon,
+because a hundred thousand
+people were watching this.
+Pokemon game, but because
+you know, it finally like,
+there were stories when they
+beat the game.
+And there were stories when
+they launched Twitch
+plays Pokemon, you know,
+Crystal, or
+whatever the next Pokemon
+version was.
+And like, and so
+we kind of gave that story a
+little more legs.
+But we didn't, you know,
+originate it.
+It was the community really
+who originated it.
+All right.
+I think that's it.
+Thank you very much.

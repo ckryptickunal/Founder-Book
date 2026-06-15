@@ -1,0 +1,1331 @@
+Title: YC Tech Talks: Climate Tech with Charge Robotics (S21), Wright Electric (W17) and Impossible Mining
+Video ID: 2OPhFqmdLQc
+URL: https://www.youtube.com/watch?v=2OPhFqmdLQc
+Channel: YC Root Access
+Published: 2022-07-22T20:28:30Z
+Duration: PT47M20S
+Views: 4267
+Likes: 34
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 1303
+
+Description:
+YC Tech Talks: Climate Tech,  July 20, 2022, 3 PM PDT
+https://www.ycombinator.com/events/climate-tech-talks-2022
+
+What hard problems are climate tech founders thinking about every day?
+
+Meet five of YC's climate tech founders. Three founders give tech talks on interesting problems in their technology domain or market. Two founders then give 1-minute company pitches.
+
+-------
+0:19 Event overview
+0:34 Tech talk by Jeff Engler, Co-founder of Wright Electric (YC W17): Making Boeing-sized electric pl
+
+============================================================
+TRANSCRIPT
+============================================================
+
+[Music]
+i'm paige amora i work at y combinator
+i'm on our work at a startup team so
+we're the team that helps our portfolio
+companies hire
+for this event we'll do um three tech
+talks these will just be about a
+technical topic that the founders find
+interesting or a bit about their company
+as well
+and then we will have two quick pitches
+um to hear about other companies and
+then we'll initiate breakout rooms
+so with that let's
+go to jeff
+i'm going to talk for 5-10 minutes or so
+about
+the electric airplane industry and in
+particular energy storage
+i'm going to cover a few different areas
+first a little bit about
+the aerospace industry and the
+particular market segments that we're
+working on
+number two some of the main technology
+challenges and then some of the major uh
+opportunities in the energy storage
+space especially funding opportunities
+which i think will be relevant for early
+stage startup companies um and happy to
+take questions at the end um just
+briefly about us we went through yc in
+2017 we're about 20-25 people uh we're
+based up in albany new york we're funded
+in addition to private uh investors by
+nasa the us department of energy the u.s
+air force and the u.s army as well
+very briefly the carbon footprint in the
+aerospace industry is is very very bad
+um you would have to eat vegetarian for
+over a year to offset the carbon from
+even a single relatively short
+round-trip flight
+we focus on electric uh solutions to the
+aerospace industry because um there's a
+bunch of research that's come out that
+um other different technologies
+involving combustion things like
+biofuels or electro fuels or even
+hydrogen combustion um when stacked up
+against um jet fuel aren't even you know
+necessarily that much better
+and electric technologies have the
+potential to be substantially lower in
+total greenhouse gas emissions um so
+what this chart looks at is not only
+carbon but it looks at carbon nitrogen
+oxides contrails and a bunch of other
+things as well and tries to get to a
+total global warming equivalent and what
+you see is that
+you know in some cases combusting
+hydrogen is substantially worse
+um and you know electric is sort of uh
+in many ways the best environmental
+solution
+um when we looked at the aerospace
+industry we were you know surprised to
+see that when companies like boeing
+announced a new airplane that has let's
+say a 15 improvement in fuel burn
+compared to a previous airplane a lot of
+the underlying benefits come from
+engines so for example the 787 which had
+a 15 fuel burn benefit over the 767 a
+lot of that came from propulsion
+technologies
+we then looked at the aerospace industry
+we thought wow there's a lot of people
+working on relatively small airplanes
+but unfortunately small airplanes
+smaller than 100 passengers represent
+smaller than five percent of the carbon
+footprint of the entire aerospace
+industry and in fact actually most of
+the carbon footprint of the aerospace
+industry is airplanes larger than 100
+passengers and in particular in what's
+called the narrow body segment so that's
+the seven three sevens the seven uh the
+a320s a typical airplane like you might
+be on carries sort of 100 to 200
+passengers and so that's the industry
+that we work in um for you know for for
+sort of the business development people
+on this call we're this is an enormous
+market uh these are companies that are
+each worth 100 billion dollars um there
+are expected to be 30 000 new narrow
+body airplanes purchased over the next
+20 years
+billions and billions of dollars of jet
+engine sales per year and billions of
+gallons of jet fuel so this is a large
+potential market opportunity if you
+could create the underlying technology
+and so what's needed number one
+propulsion and number two energy storage
+propulsion essentially being ultra
+lightweight engines energy storage of
+ultra lightweight ways to store
+electricity
+so this is our um uh electric engine
+that we built uh it's basically meant to
+be a replacement of a jet engine of a
+narrow body class airplane
+so it's a couple megawatts in power
+which is about 3000 horsepower
+substantially more powerful than
+anything that's out there in the
+aerospace industry
+in-house developed inverter designed for
+high altitude operations
+just finished some testing at the faa
+technology center and planning for um
+faa part 33 certification
+in the
+2025-2026 time frame so that's kind of a
+little bit about what our company does
+what we're planning to do as our next
+step is we're taking a 100 passenger
+airplane and we're
+removing one of the four engines and
+replacing it with our electric engine to
+make it essentially an electric test bed
+so this is one sort of quick point to
+the group if anybody is working on
+propulsion technologies and is looking
+for a relatively inexpensive way to do
+testing please reach out to us because
+we're already going to have this
+platform in place i mean we're happy to
+do testing with you if you're working on
+technologies like this um the nice thing
+about this airplane is it's a four
+engine airplane but it can actually fly
+on three of the four engines so we're
+using basically one of the four engines
+as a um as a laboratory in the sky
+um i want to talk now a little bit about
+energy storage requirements um
+so
+no lithium ion battery is going to get
+to you know greater than 750 watt hours
+per kilogram um typically um you know
+lithium ion battery best case scenario
+is going to get up to 400 450 500 sort
+of absolute best case scenario so you
+really need to be looking at new
+chemistries
+and what what this industry is really
+looking for is even above a thousand
+watt hours or 1500
+you also need high c rates you need
+relatively high discharge it doesn't
+have to be as high as the vertical
+takeoff and landing airplanes but you
+know sort of three to five uh c's uh
+also has to be altitude capable
+and in terms of energy storage what you
+really need is electricity you don't
+necessarily care if it's a battery so
+the two different technologies that have
+been mostly
+in development are sort of energy
+carrier technologies
+and then one quick note if you look on
+the right this is essentially the energy
+profile so you have a huge amount of
+power um up front during takeoff and
+climb out and then you have about a
+third of the power needed during cruise
+and this is a similar path so you see a
+huge spike in power needed right here
+and then it sort of drops off for the
+power that's needed it's about you know
+a third to a quarter of the power needed
+so
+two different major technologies under
+development and this is what we would
+encourage people in this group to work
+on i'm very happy to talk about this
+with people later number one aluminum
+air fuel cells or other metal air
+chemistries and number two hydrogen fuel
+cells so in terms of aluminum air
+aluminum air is is generally in the
+category of other metal air chemistries
+zinc air for example has been used in
+hearing aid batteries since the 1970s
+forum energy is a company that's raised
+about 300 million dollars maybe even
+more than that um to focus on an iron
+air battery so it's a new chemistry
+that's sort of
+it's it's something it's old but it's
+new a lot of people are working in this
+space and actually at the most recent us
+department of energy rpe summit in uh
+earlier this year there was specifically
+um a group that was talking about
+putting together uh funding related to
+this topic
+the disadvantage of this is that you
+can't uh recharge these batteries uh you
+have to recharge them uh by taking them
+you can't recharge them by plugging them
+in you have to recharge them by sending
+them back to a facility so there's a lot
+of operational challenges with this but
+at the same time it's a major advantage
+um i just have two more slides
+a lot of people are also working on
+hydrogen fuel cells obviously everybody
+knows what a hydrogen fuel cell is but
+there's a lot of applications
+potentially in the aerospace industry
+and um people are looking at
+technologies that could be greater than
+a power density of two kilowatts per
+kilogram by 2030 and that's sort of what
+a lot of people think of as the number
+that's needed for large aerospace
+applications so if you're working for
+example on ultra lightweight fuel cells
+aerospace is a great industry for you to
+be in
+the last thing i want to say in this
+space is there's a lot of money going
+into the space right now so you know
+everyone wants to go get venture capital
+money as i mentioned form energy has
+raised a whole bunch of money in this
+space but here's just
+four different opportunities or three
+different opportunities that are sort of
+live opportunities to raise money if
+you're in europe there's the clean skies
+i think they've put up 700 plus million
+euros work in this space um ati fly zero
+is a program out of the united kingdom
+the us department of energy is doing a
+lot of work and then there's obviously
+other things as well so we think this is
+a strong space because it's a huge
+potential market there's a lot of money
+going into the space and
+major opportunities to revolutionize the
+us aerospace industry so i'll pause
+there i wanted to keep this speech
+relatively short please feel free feel
+free to reach out to me um take down the
+email address i'm not going to be able
+to stay for a breakout session but if
+folks want to schedule one-on-one call
+um happy to do so so thanks very much
+for the opportunity
+you have a couple of questions here in
+the chat
+um how were your relationships with the
+doe in the air force established
+oh great question um you know so uh
+let's see we've had um
+a few different contracts with nasa a
+few different contracts um
+with the air force and with the army
+um
+some of them are sort of serendipity
+nasa puts out a request for a proposal
+and it's exactly the thing um that
+you're working on and that's a sort of
+luck but you know it occasionally does
+happen um
+but
+sometimes also you you
+these organizations have open
+solicitations so for example with the
+air force um we're we're we're being
+funded now to turn on to an ultra
+lightweight generator for them
+and that came about because
+we found a unit within the air force
+that was looking for an ultra
+lightweight generator we said hey we
+could we could do that for you um and
+then we sort of put together a proposal
+together so i would say it's um
+maybe the short answer is
+um
+some uh advice that uh that i was given
+during the yc batch sort of try
+everything you can think of and then try
+it again and then try it again and try
+it again um so it's you know it'd be
+nice to say like oh it's just an easy
+path but really i'm just sort of trying
+over and over
+um
+let's see what do i think of the ion
+engines which made flight a couple years
+back um i don't know as much about ion
+engines but if you send me some
+information i'd be happy to talk with
+you about it
+um are these the ones that came out of
+mit um that are uh they they
+i think this is the concept that it's a
+um
+uh
+um essentially a no moving air concept
+if that's what you guys are talking
+about i saw the video too and it's like
+absolutely insane um it looks like it's
+relatively small
+but you know obviously there's there
+should be tons of money going into that
+space
+next comment it could be cool to use a
+catapult agree 100
+catapults or ramps or other things i
+think have a big opportunity um it's
+just that's a lot of infrastructure on
+the ground um but no i love that concept
+as well
+um
+yeah so that's yeah that's exactly uh
+that's the concept um you were talking
+about how does an engine compare to
+engines used for smaller planes like
+that were used for firefighting is it
+adaptable to that purpose in fact it is
+actually um the airplane that we're that
+we're working on this um
+100 passenger airplane called the
+bae-146 so i'll go back to it
+it's actually used in the united states
+as a firefighting aircraft so it is
+adaptable for that purpose
+um i think that's the last question so
+thanks everybody
+next up we have max from charge robotics
+uh hi everybody uh first i just want to
+say thanks to paige for setting up this
+event um
+my name is max justice uh co-founder and
+cto of charge robotics
+we were in the y combinator summer 2021
+batch
+and charge robotics uh builds robots
+that build large-scale solar farms
+when i talk about large-scale solar
+farms i'm talking about like what you
+see in the background of this slide here
+so
+these are pretty huge sites uh they're
+often hundreds or thousands of acres
+large um
+generating hundreds of megawatts to
+sometimes gigawatts of power
+um
+so a couple quick things to know just
+about the solar industry in the us
+right now about four percent of our
+power in the u.s comes from solar
+and by 2050 it's going to be about half
+so there is a tremendous amount of solar
+that needs to get built
+in the next few years
+the problem is that labor is actually
+the key bottleneck preventing
+solar adoption right now so if you think
+about it it kind of makes sense like
+these sites are built often out in the
+middle of like very rural areas
+and getting hundreds of people out there
+for months or you know sometimes years
+at a time
+is just really challenging
+um
+and so you know as charge robotics like
+i don't really know how to source 300
+people to get them out to a solar site
+for a year but i absolutely know how to
+ship a couple of shipping containers
+full of robotic equipment out there uh
+to build the site uh so that's kind of
+our thesis we think that robots are the
+right solution
+to solving this labor shortage
+um so if we're talking about deploying
+robots to build solar farms
+i think it's important to kind of
+understand the sorts of tasks that these
+robots are going to be doing
+and so i want to talk about how solar is
+actually built today
+there's kind of three main mechanical
+steps that go into basically every solar
+farm that gets built
+first is pile driving so you send out a
+crew and they
+hammer these large metal i-beams into
+the ground in a huge grid this covers
+the whole site
+then you send out another crew
+and they bolt tens of thousands of these
+large metal rails between the i-beams
+and those are actually what support the
+solar modules
+then you send out another crew
+and they bolt the hundreds of thousands
+of solar modules onto that racking
+structure uh so those three steps are
+common to
+again basically every site that gets
+built today
+um
+and i think one thing just to note here
+that's uh kind of funny is that
+basically everything on a solar site is
+really heavy uh so like a single solar
+module um like one of those rectangles
+weighs like 50 or 60 pounds um so as a
+single person like you really don't want
+to have to carry one very far
+and so what they do on these sites is
+called material staging so they send out
+crews with forklifts and they basically
+move pallets of materials kind of like
+close to where they need to go
+um and the idea is that you know if i
+need to pick up a solar module it's
+maybe only 10 feet from where it needs
+to end up
+um and so what this made us realize is
+that kind of no matter how we're
+automating the solar industry a key
+primitive that we're gonna end up
+needing is this like stuff mover this
+robot that can move things from point a
+to point b
+um on the solar site
+and so that's actually what we built uh
+towards the end of last year uh
+beginning of this year um is a giant
+robotic forklift and that's kind of what
+i want to talk to you guys about today
+um
+one second i think
+i just realized that uh
+i didn't have it in video clip sharing
+mode so it might be a little choppy
+all right
+i'm just going to unshare and be sure
+really quickly
+all right that should be coming through
+a little smoother now
+um so yeah this is how we built that
+robot our robotic 25 000 pound forklift
+so the vehicle of choice for this
+application uh turns out to be this
+thing called the telehandler
+it's basically a big forklift it has
+these massive tires um and the kind of
+relevant thing to know about these is
+that they're already used on solar sites
+uh today these are super common vehicles
+they navigate crazy terrain
+um and the construction workers on these
+sites kind of know how to how to operate
+with these uh already
+and if you're gonna automate one of
+these vehicles uh
+there's a whole bunch of different
+systems that you have to control from
+software um so you have the fork angle
+um as well as the boom extension angle
+you need to be able to move those just
+so that you can pick up pallets
+there's also steering
+throttle and brake
+as well as gear shifting because you
+need to be able to go from forward to
+reverse this is kind of like the bare
+minimum set of stuff that you have to
+control from software to be able to
+build this vehicle
+uh the first system that i want to talk
+about as the hydraulic system in the
+vehicle so there were two systems that
+we needed to control that were on the
+hydraulic circuit here um that's the
+steering and the brake so for the
+steering um this is kind of the sort of
+complicated looking hydraulic circuit
+for this hearing system in the top left
+here
+we ended up deciding just
+in the interest of time
+to basically bypass that entirely and
+3d print a custom bracket
+to bolt to the steering column um so
+this actually ended up working uh great
+like we ended up 3d printing a bunch of
+different pieces
+and then just buying an off-the-shelf
+motor and motor controller and gearbox
+to control the steering so this is kind
+of what we ended up with this is
+actually what we shipped uh to our first
+pilot deployment
+uh the other hydraulic system was the
+brake uh so similar to the steering uh
+we ended up mechanically actuating this
+so we had a steel cable going from the
+brake pedal uh to a linear actuator
+sitting underneath the vehicle
+um and
+what is sort of nice about this design
+is that if i'm a person sitting in the
+cab of the vehicle i can jam on the
+brake
+and this cable will just go slack and
+it'll still function like a normal brake
+pedal and so this was actually a design
+philosophy that we decided to use for
+all the systems in the vehicle that we
+could at least so
+for example if you
+move the joystick as a person in the cab
+that manual input will actually override
+any automated control of the vehicle so
+this is kind of a philosophy to
+automating vehicles that we
+that we tried to use everywhere
+the next systems that we automated that
+i wanted to talk about today um sorry to
+interrupt i think there's a
+i don't know if it's a zoom window or
+something but it's blocking part of your
+slide
+uh is it on the right hand side that guy
+yeah you're right on it now
+oh okay yeah weird that's the
+thing with all the faces in it i'll just
+minimize that
+uh that should be better
+so
+yeah so next i'll talk about the
+electronic systems so uh that's the
+joystick the throttle and the gear
+shifter
+so the the first step in getting these
+systems working was to do uh was to
+reverse engineer this thing called the
+can bus
+this is a a protocol that's common to
+basically every vehicle that you've ever
+been in uh it's used to send data from
+system to system inside the vehicle
+and so if you want to take over control
+of some system inside the vehicle you
+can figure out what can messages it's
+sending
+and then send those messages for
+yourself so the the trick then becomes
+how do you figure out what the relevant
+can message is um and so what you can do
+is basically take all the can messages
+and graph them
+and then if you move the relevant input
+or change some variable and you see for
+example a line on this graph like shoot
+up then you know that it's very likely
+you found the the relevant message
+and you can start sending that message
+for yourself
+for the signals that weren't on the can
+bus we built this custom cable that sort
+of just kind of went in between the the
+main computer inside the cab and the
+rest of the vehicle and then we could
+just splice into signals directly
+and so when you tie all that work
+together uh you end up
+uh with a vehicle that you can control
+completely from software so um this was
+uh pretty shortly after we got the
+vehicle uh do not try this at home uh
+this was uh when we got the boom working
+on the canvas so we we quickly kind of
+whipped together this interface that i
+had on my phone
+um
+and then uh yeah i was able to
+you know
+take the telehandler for a ride uh
+through remote control and actually when
+we were in y combinator um
+a demo that we we put on was we sent
+that webpage to one of our batchmates
+who was in mexico and she was able to
+control the telehandler from another
+country which i thought was was kind of
+funny
+and there you can see kind of when we
+got the joystick working we had it
+ripped out and everything's running off
+my laptop there so this is this is what
+the early days of charge robotics look
+like
+so yeah then we wrote uh kind of a full
+autonomy stack and got this thing
+deployed onto an actual solar site in
+iowa back in march um so i'll skip
+through this video just because it's a
+little bit long um but
+we dock with uh an actual palette of
+solar modules
+uh we do some path planning
+we
+you can see the vehicle
+uh following a path here and it's
+localizing off of some cameras that are
+mounted to the vehicle
+we
+drive to the
+final location and we put it down so
+yeah this was back in march
+and
+with that deployment behind us uh we
+started moving on to our next major
+project which is actually
+um
+building this portable robotic factory
+uh let's see if i can advance yeah so uh
+portable robotic factory um basically
+there's a bunch of solar hardware that
+needs to get assembled on site
+and so we're building uh this factory
+that fits in the form factor of a
+shipping container uh that we send out
+to the site and it produces those
+assemblies so these are massive
+assemblies like i mentioned everything
+on the solar site is heavy uh these are
+36 foot long uh panels they weigh uh
+several hundred pounds um and uh
+yeah
+it's basically like a car factory like
+you'd see you know like an automated
+tesla factory or something but made
+portable such that we can ship it to a
+solar site so here's one of the arms
+that we got in the mail a couple weeks
+ago
+um so with that in mind if this is the
+sort of work
+that sounds exciting to you
+we're currently hiring for mechanical
+engineers uh so i'd love if you could uh
+reach out uh if this is the sort of
+thing you want to be working on but uh
+thanks very much
+thanks max
+we have some questions for you in the
+chat um so joshua's asking
+does the one elevation or two terrain
+surface especially uh irregularities or
+slopes limit your deployments
+got it um so yeah for the most part
+these sites are quite flat uh just sort
+of by design it adds a lot of cost to
+the site uh if they have to do a lot of
+breeding um so like if the land's not
+flat enough they actually send out
+construction equipment to flatten the
+land
+so it's it's very well specced how flat
+these sites are in general um and for
+the most part we are focused on the
+biggest flattest sites
+um
+what type of control theory are you
+using pid baby pid all day every day
+that's uh that's what we use to get this
+prototype working uh as we kind of
+advance our technology um
+we're almost certainly gonna be using
+some some more advanced stuff but uh for
+the purpose of that prototype it was all
+pid
+uh and then uh it was pure pursuit was
+the the path following algorithm because
+we had a ackerman steering vehicle
+um
+so cool how much time in labor discharge
+saves a typical solar project site oh
+sorry uh how much time in labor does
+charge save a typical solar project site
+also curious who your first customers
+would be and why thanks good luck yeah
+so um
+uh it turns out that labor is something
+like 30 of the project costs and of that
+uh mechanical installation is about half
+of that so uh what's kind of crazy is
+that there's this labor shortage is big
+enough right now that we don't really
+need to charge less than human
+contractors
+charge for people to be really
+interested in our product um so for
+example we signed some lois with some of
+the largest solar construction companies
+in the country for about 31 million
+dollars and those contracts were
+actually priced at the same price of
+human labor uh so
+people are just desperate for more
+installation labor periods so we don't
+actually need to charge less than people
+um
+how many fewer people are needed out of
+deployment site by using a robotic
+forklift some of the videos seem to show
+a few workers watching the forklift yeah
+i was one of those people in that video
+that was uh
+this was very much like a prototype
+deployment uh this thing is not uh ready
+to you know it's not a product yet um
+our our complete system uh will
+require dramatically fewer people than
+than conventional labor today so a
+single one of our systems can do the
+work of something like
+uh several dozen people i i hesitate to
+give an actual number but our models uh
+have it as something i think it's like
+between 70 and 100 people
+um and that's for a complete system so
+that's like six of the the robots that
+you saw
+uh how are you controlling the forklift
+exact positioning uh yeah we're going to
+be using rtk gps uh so we weren't for
+that demo but all these sites have an
+rtk gps base station on them
+so that's what we'll be using to aid our
+localization
+how long does the forklift last per
+charge uh how long does it take to
+charge fully uh so
+fun fact they burned thousands of
+gallons of diesel per week on solar
+sites we did the math to make sure that
+these sites offset themselves relatively
+quickly
+but every vehicle that you see on these
+sites is diesel-powered including the
+one that we automated
+uh what is the most labor-intensive part
+of the entire project uh
+so you hear varying opinions on this uh
+but i would say the most popular opinion
+and the one that i share is that it's
+the module installation step uh that
+takes a lot of work um it's just those
+things are really heavy and you have
+like you know hundreds of thousands of
+them
+so that's i'd say the most labor
+intensive part um
+if there is that much of a shortage
+can't you charge more
+uh
+potentially
+it's a great point um
+uh very very possibly yeah
+and also there's things that you can do
+with robotic installation that uh it's
+easier for robots than for people so you
+know one thing that we're excited about
+is we can produce a certificate that
+shows that literally every bolt on the
+site was torqued to within the proper
+specifications which like you know
+person just can't really do very easily
+are you considering making an electric
+model um right now we're mostly not
+focused on like building construction
+equipment we're focused on uh using
+off-the-shelf stuff wherever we can i
+think it would be very cool if we could
+use off-the-shelf uh electric
+construction equipment but we have no
+plans to build that in the immediate
+future
+um
+and then i think there's one last
+question
+i've seen some projects that are also
+trying to automate the module
+installation with robots are you
+thinking about something like this in
+the future yes so um when i alluded to
+the robotic factory that we're building
+towards the end of my presentation
+that is the step that will be doing the
+module installation so the robot that i
+showed you in that video was really a
+prototype
+that did one thing well which was move
+materials around
+our goal is to do complete mechanical
+installation of the site so that
+includes eventually doing pile driving
+installing all the racking structure
+installing all the modules so that's the
+the vision of the company
+cool i think that was it um thank you
+guys very much uh and again if you're
+interested in working on this uh feel
+free to shoot me an email at max charge
+robotics.com or just go to charge
+robotics.com we have the careers page
+but uh thanks again
+and next up we have oliver oliver from
+impossible mining
+hello everybody i'm super excited to be
+here i'm oliver i'm the ceo and
+co-founder of impossible mining and we
+are building underwater robot vehicles
+which collect battery metals from the
+seabed and we're doing it in a way that
+really doesn't harm
+the the ecosystem that lives down on the
+seabed
+we're actually a b corp
+and so that's really much
+very much in our dna
+so if we talk a little bit about the
+problem i mean we want everyone to drive
+an ev
+you know we want to move away from
+fossil fuels and gas and and the good
+news is there's a lot of growth coming
+um but the down side is that all of this
+needs a lot more critical minerals
+battery metals in fact
+an ev needs something like six times the
+amount of metal of a traditional
+uh gas vehicle and that's really driven
+by the battery
+and so we've got a need for all of this
+material whilst we also want to have
+good esg we don't want to hurt the
+planet in the process of the transition
+so the fundamental problem with the
+supply chain is the fact that we don't
+have enough of this material the esg
+characteristics are pretty poor and the
+material that does exist in the ground
+tends to be controlled by china
+a lot of places in indonesia and africa
+are under the influence of china so here
+in the west we really need to solve this
+problem
+so our approach is to really go after
+what are called polymetallic nodules i'm
+actually going to hold one up on the
+camera here so this is a rock that forms
+over millions of years on the seabed and
+it's super rich in battery metals
+it actually is
+the world's biggest resource of nickel
+and cobalt
+it also has copper and manganese and
+there's estimated to be something like a
+hundred trillion dollars
+worth of these battery metals just lying
+on the seabed on the floor so we don't
+have to blast or cut we just have to
+pick them up
+now the challenge in picking these up is
+how do you do it and our competitors are
+basically building dredging technology
+this is a short clip from uh their
+approach these are massive machines they
+get
+they get lowered to the seabed floor and
+they generate all of these sediment
+plumes these clouds of dust effectively
+that that really destroy wildlife and
+they indiscriminately remove everything
+by basically squirting water into the
+sediment and then sucking it up over
+this long
+riser tube
+we don't like that approach so what
+we're doing is we're building fully
+autonomous robots and
+here's a little animation of of what
+we're building
+so these robots will be launched from a
+traditional um shipping container vessel
+they're fully autonomous they have a
+battery pack they have a built-in
+buoyancy engine allows them to go up and
+down and we use a parallel fleet you can
+see others returning once they get to
+the seabed they don't actually touch the
+seabed they use the buoyancy engine to
+maintain mutual buoyancy and then they
+use cameras and ai to selectively pick
+up the rocks avoiding any that contain
+life this could be sponges
+or corals or other forms of life and we
+actually leave behind a certain percent
+to maintain the habitat once the payload
+is full the battery pack adjusts the
+buoyancy engine to make the vehicle
+float to the surface where it's
+recovered
+now the payload will be emptied
+the battery pack will be swapped and any
+maintenance is performed and now the
+vehicle can be redeployed on on the next
+mission
+um and so you know we're basically
+building the team in canada to build
+these robots and we're just in the
+process of testing our first proof of
+concept
+we were a yc winter 22 company
+um and so we announced uh just a few
+weeks ago that we had closed over 10
+million dollars in in funding so we're
+quite well funded at this seed stage and
+now we have to build these proof of
+concepts and and so we have four uh
+roles that are currently open um in
+collingwood so collingwood is a a town
+north of toronto actually on the
+georgian bay and we've just rented a
+very large 10 000 foot square
+facility and this is where we will be
+building these robots and and so if
+anybody uh is in the area and is
+interested please spread the word i
+would love to have you come and join us
+and and help us deliver this vision of
+making it easy and
+less environmentally damaged for
+everyone to drive an ev
+okay thanks i will attempt to answer any
+questions let me see let me scroll back
+um okay
+dimension size of these nodules uh yeah
+i'm holding one up they are about two
+inches diameter uh they vary a little
+bit but they're relatively small um they
+form over millions of years there's like
+huge numbers of them
+uh what's the relative density against
+the water um they they have they are
+they have some some weight so they're
+just lying you know they're rocks they
+lie on the seabed uh not attached but
+they're there
+will they
+control the food
+we rent um we have designed our robots
+so that they will work with traditional
+shipping containers
+and that's a big part of lowering the
+cost of collection
+and so we need minor modifications to a
+traditional shipping container vessel
+and we also use that vessel to not only
+launch and recover the vehicles to
+charge them but also to transport the
+payload the actual modules uh to port
+where they'll be processed uh in to get
+the metals out
+um uh how deep is the machine able to go
+so uh
+unfortunately these nodules these rocks
+they only form in areas of water that
+have been that for millions of years
+typically three to five millions of
+years
+and so that means they have to be deep
+so the typical depths are about
+five thousand to six thousand meters so
+you know three and a half to four and a
+bit miles deep very very deep
+are you using rgb cameras are
+hyperspectral we're using rgb
+at that depth there is no light
+and so we provide our own illumination
+we're using visible light and
+potentially infrared
+and just using traditional images
+uh how are you treating the biologics
+what will be on the surface
+um not 100 sure about this i mean there
+are lots of studies that show there are
+corals there are sponges and there's
+also other forms of fauna that lay eggs
+and so our ai will detect these and
+avoid picking up those nodules
+we will also
+choose to leave a certain percent behind
+for working with a team of marine
+scientists to kind of co-design this
+collection vehicle
+how environment economically viable
+versus others uh rare earths
+yeah we think it's really economic
+we want to be about a third of the cost
+of the dredging
+but if you take a brand new mine on land
+there are real issues with that first of
+all in the us it takes eight to twelve
+years to permit mainly because nobody
+wants a mine in their backyard and you
+often have to displace people often
+indigenous people and so that goes
+through the courts so we think the
+permitting will be a lot quicker
+secondly we have a very high grade
+resource
+this nodule has
+nickel cobalt copper and manganese at
+much higher grades than we find on land
+all the high high-grade metals on land
+have already been mined
+also on land they're typically very
+remote so you have to build a lot of
+infrastructure you have to build a train
+line or a highway
+to get there and on land you don't
+typically find four medals in one so all
+of these things will come out to be much
+less costly
+uh who owns the rights to the minerals
+great question
+there are two jurisdictions if it's
+within the exclusive economic zone of a
+country i.e 200 nautical miles off its
+coast it belongs to the country if it's
+outside of that it's in areas beyond
+national jurisdiction or the high seas
+it's regulated by a united nations body
+called the international seabed
+authority or the isa
+and they were established in the 1990s
+and they have issued something like 32
+expiration permits
+uh are these on international waters uh
+yeah okay so yeah if two jurisdictions
+you're in international waters it's
+regulated by the isa
+or you're in the jurisdiction of a
+country like the cook islands
+that has established their seabed
+minerals authority that is issuing
+permits and regulating
+can these rocks be treated in existing
+facilities to extract the minerals or
+you need new facilities great question
+um you need some modification
+of the traditional refining but actually
+we also have a team that is trying to do
+a really innovative way to do this using
+naturally occurring breathing
+metal breathing
+bacteria so we have a team in la that is
+attempting to uh to do that
+why are you not using sonar um we
+actually do have sonar on the vehicle
+and that's mainly for when it is being
+deployed
+to make sure that it doesn't hard
+impact the seabed it's for maintaining
+neutral buoyancy
+but specifically we feel that rgb camera
+works better for the vision system and
+picking up and the fact that we control
+our own uh lights uh means that it's
+relatively easy
+uh how long are you out to see how much
+material do you harvest per hole
+we will do about three million metric
+tons in a year that will generate about
+two billion in revenue
+we have a cycle time of about two weeks
+so every two weeks the shippers are
+coming and a new crew is going on
+station
+uh won't you cry extra metallurgical
+isolation yeah we talked about that we
+have something called bioextraction
+that we're working on to do that
+why collingwood um incredible
+engineering talent
+the university of waterloo is is very
+close by and that's where our cto went
+and also access to the georgian bay
+uh environmental purpose of these rocks
+and are they part of an ecosystem uh yes
+um life has evolved uh to use them as i
+mentioned there there is
+life that uses them to lay eggs it's the
+only hard substrate and so it's really
+critical in our approach that we don't
+remove all of them we leave a certain
+percent behind so that life can exist
+do you intend
+lbs or other spectral density analysis
+um we don't need to choose which rock to
+pick up the percentage of the metal in
+each rock doesn't vary from one rock to
+the next they're all pretty much the
+same so the distinction to pick up the
+rock or not is based on whether any life
+is on it or we want to leave it behind
+good on you for knowing your numbers
+are far away from building the prototype
+um we built for yc at the start of this
+year um we built the arm in the test
+tank and we now have the shallow water
+proof of concept in the water uh we are
+hoping to be able to demonstrate that in
+the fourth quarter of this year
+um
+okay why seven percent i don't know what
+that refers to but uh anyway i should
+probably stop there and um hand over
+you know please feel free to to reach
+out to me um my email is you can reach
+me at
+oliver at
+impossiblemining.com
+in this next portion of the event we
+will have
+two quick pitches to hear about two
+other climate companies
+we'll start with inside muji meats
+i am inza i'm ceo and co-founder of
+mujimeets as you probably know meat is
+one of the biggest drivers of climate
+change but fortunately nowadays we have
+meat alternatives so you probably all
+heard of companies such as impossible
+and beyond but you might also have heard
+that on top of that that grown meat is a
+big emerging trend
+the entire meat alternative industry has
+one big problem though which is they
+can't produce good whole cuts so if you
+go to your local supermarket and you
+look at your real meat section you see
+like steaks fillets chicken breasts
+whatever but if you look at meat
+alternatives you will find only ground
+meat and maybe some sausages and patties
+muji meat is a habit spin-off that
+develops a scalable 3d printing process
+to produce whole cuts at mass production
+level and just to give you a sense of
+how cool the technology we're working on
+is we do have a corresponding nature
+publication that completely blew up and
+it broke the record for most number of
+readers a nature paper ever had in the
+first month after publication
+and yeah we are a growing team we hire a
+large variety of backgrounds from
+electrical engineers to buyer engineers
+to food scientists so if you have any of
+these profiles or are just generally
+interested in our mission um i'm happy
+to get in touch with you
+does anyone have one question for india
+can you please describe what the printer
+is like
+okay yeah um so there's two main
+differentiators that are relevant for us
+so for once you probably know 3d
+printers most of them have only one
+nozzle per printing hat and we print
+with more than 250 nozzles at print per
+printing hat which sounds very easy but
+there's a very complicated pressure
+regulation system behind that the other
+main differentiator is that we can do
+the material switch within each nozzle
+up to 50 times per seconds and which is
+much faster than if you all only have
+one material per printing hat and always
+need to relocate that and it also
+enables much more precise
+structures and textures if that makes
+sense um and next up we have josh
+hey everybody oh yeah great to be here
+thanks for
+allowing me to present and i'm josh
+santos the co-founder and ceo of noya
+and neue converts existing cooling
+towers into carbon vacuums
+if you have never seen a cooling tower
+before they look kind of like this
+they for our purposes at least are
+basically just big boxes with huge fans
+that move lots of air
+we take advantage of this moving stream
+of air sitting on top of a facility that
+has already been constructed
+to capture carbon dioxide directly out
+of the atmosphere we do that with a
+machine that looks kind of like this
+our machine consists of a few key
+components that we are developing
+entirely in-house
+we're developing something we're calling
+the contactor where air plus
+our carbon capture material contact each
+other and come together that material
+gobbles the co2 up as it's passing
+through our equipment on its way into
+the cooling tower
+the second thing we develop is a way to
+move the material from the contactor
+beyond to where it needs to go
+our material is a solid and so we're
+basically using some fancy conveyor
+belts think um conveyor sushi but for
+climate
+the last piece of equipment we're
+developing is something called a co2
+regenerator it's called that because it
+regenerates
+the co2 that we capture into a pure
+stream it also regenerates the material
+that we are using so that we can use it
+again to gobble up more co2 i would be a
+bad ceo if i told you that this is
+exactly what it's going to look like
+it's not it's the vision but we are
+designing to this and we just uh
+finished
+our first build and we're hiring lots of
+folks we got
+different kinds of engineers like
+chemical mechanical electrical
+manufacturing controls
+and uh we're hiring some materials
+scientists as well um we're hiring the
+electrical engineer actively and the
+rest are coming later on this year so if
+you're interested in cooling towers or
+uh carbon capture let's talk you can see
+my email there and that's probably my 60
+seconds
+does the load change during use i'm not
+sure exactly what load uh you're
+probably referring to the cooling load
+or the electrical load required to cool
+and then where are you storing the solid
+end product i know i said one question
+but all good so the the cooling tower
+with our equipment retrofitted is
+designed to be able to perform up to 95
+or more of its peak cooling capacity
+we're able to do that because of the
+specific type of material that we're
+using that essentially provides both a
+low pressure drop across the material
+and also a high surface area as air is
+flowing through it we actually store co2
+in a gaseous form
+excuse me on the liquid form it's
+regenerated as a gas we then compress
+into liquid and we store that in a big
+tank in the service area of the
+buildings or industrial sites that we
+are retrofitting
+foreign
+[Music]
+you

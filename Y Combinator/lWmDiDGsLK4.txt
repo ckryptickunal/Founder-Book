@@ -1,0 +1,1053 @@
+Title: The Future of Software Creation with Replit CEO Amjad Masad
+Video ID: lWmDiDGsLK4
+URL: https://www.youtube.com/watch?v=lWmDiDGsLK4
+Channel: Y Combinator
+Published: 2025-09-12T14:01:21Z
+Duration: PT42M2S
+Views: 113551
+Likes: 1987
+Tags: YC, Y Combinator
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 1031
+
+Description:
+Amjad Masad is the co-founder & CEO of Replit, now valued at $3B after a recent $250M Series C. He's spent nearly a decade making programming accessible to all—and with the rise of AI, that vision is closer than ever.
+
+In this talk from AI Startup School on June 17, 2025, Amjad traces the arc of computing from mainframes to personal computers to a future where AI agents can create software on demand. He explains why the value of traditional software will approach zero, fundamentally reshaping ho
+
+============================================================
+TRANSCRIPT
+============================================================
+
+I was asked to talk about the future of
+software. So, a lot of this talk is
+going to be about what we're doing at
+Replet, where we think the future of
+software is headed and some kind of
+trying to make some predictions or try
+to think out loud about really what the
+future holds. my mental model for for
+our business and really for the moment
+we're in today. If you think back uh uh
+on the future on the history of
+computing, mainframes were kind of the
+the first mainstream computing devices
+as mainstream as it gets back then. And
+to use a mainframe, you needed to be an
+expert. And then PCs came around and
+initially PCs were kind of toys. you
+bought a Mac and you did Mac Paint and
+things like that. There wasn't real
+business use case. I mean, people like
+made fun of Apple at the time
+uh until the Excel sheet. The Excel
+sheet was the first software that was
+actually useful on computers. And now
+PCs run world economy. Like they
+actually if you go at a data center,
+it's also only PCs. It's x86 computers.
+So you go you go from something that was
+used by a small group of experts that
+had to to have a lot of training to
+something that started sort of as a toy
+and is used by by everyone. Same thing
+with software engineering like uh the
+modern software engineering career you
+can sort of trace it back to the u 70s
+with the rise of maybe uh uh Unix and
+the C programming language. That's when
+people started uh kind of being trained
+to become software engineers. You still
+needed four, five, six years of uh educ
+college education. You need another two
+or three years of uh training on the job
+to be able to actually do the job very
+well. I think today software is going
+through the same transition
+from something that only experts do
+to something that anyone can do.
+And this is what we're really rep uh
+building replet for. I've been working
+at Replet for like almost nine years
+now. And our vision has always been to
+solve programming to like make
+programming so make it so that anyone
+can uh write software. So we built um an
+IDE, we built uh language runtimes, we
+built like a online sandbox environment,
+we built deployments, we built cloud
+services around all of that. And then
+when AI came on the scene, we realized
+that the ultimate expression of our
+mission is to make it so that you don't
+have to code. code is the sort of
+bottleneck to actually getting a lot
+more people making software. So around,
+you know, late 23, early 24, we decided
+to put all our resources into agents. At
+the time, agents sort of barely worked,
+but you could tell by looking at a few
+benchmarks that were headed there. So,
+SWEBench is a software engineering
+benchmark. Uh it is basically a
+collection of um issues on on GitHub
+from major repositories and the unit
+tests and pull requests sort of end
+state of those issues and uh and the way
+you test an agent is you put in an
+environment and have it solve some of
+those issues. You could tell like in in
+22 sort of it barely worked. 23 started
+sort of working and you could tell early
+sort of early 24 where we're on this
+trend where you could tell that software
+engineering is getting automated or like
+big parts of software engineering is
+getting automated. Uh and now we're
+probably I think this is like a little
+outdated. We're like at 70 80%
+Sweetbench. Now if this benchmark gets
+saturated doesn't mean that we automated
+all of software engineering but we're on
+on our way to make really useful
+arguably it's already here really useful
+software engineering agents and by the
+way this is true of any agent if any any
+of you are building sort of agents
+startups uh just like
+really believe that it's coming really
+really like I I keep telling my team we
+need to be okay with building crappy
+products today
+because two months down the line the
+models will get better and your business
+your product will suddenly become
+viable. So to today's kind of the moment
+for for uh for agents so rapid kind of
+went all in on agents but agents that
+can write code uh is actually the easy
+part. The hard part is the
+infrastructure around it. Sometimes I
+call it the habitat for which the agent
+uh lives in. So what you need is you
+need a a virtual machine, ideally in the
+cloud, ideally not on your computer
+because you know agents can actually
+also mess up your computer. They could
+do a lot of scary things. So it needs to
+be sandboxed. Uh it needs to be
+scalable. If you're running a product
+like Replet, you need to be able to, you
+know, scale up to like millions of users
+and uh you need to be able to support
+every language out there, every uh
+package out there. Um the way uh
+software engineering agents are trained
+today is they're trained on standard
+Linux environment. They need to be able
+to use the shell. They need to be able
+to write to files, read files. Uh but
+they also need to able to install
+packages either system level packages,
+Linux packages, but also language
+packages. And many cases agents want to
+actually use more programming languages.
+And so a lot of environments today where
+people are trying to build agents are
+very constrained. But what you what you
+want is an environment as open as
+possible similar to the kind of
+environments that software engineers
+work in. So what kind of other things
+you need to ship real software you need
+deployments, you need databases. Uh
+really think about everything you do as
+a software engineer and all those tools
+need to be accessible uh to software
+engineering agents. So actually I saw
+earlier today if you were at uh
+Karpathy's talk he he talked about how
+you know the the coding part is the easy
+part. So sort of similar to the points
+I'm making but he talked about all the
+different things that are really
+unsolved but in reality we actually
+solved a lot of them. So replet of the
+gate comes with o uh agents are actually
+not very good authentication. It's
+better to use a service built-in
+service. So replet actually one line of
+code we turn on co uh off. So when ask
+replet agent to integrate off uh it will
+actually just use replet off. It will
+just like basically turn on setting and
+and then uh you have user authentication
+you have user management those users
+information are being stored in the
+database. You can also obviously deploy
+the app you can uh link a domain to it.
+We have secrets management secure ways
+of kind of uh using API keys. We have
+background jobs. You know, a lot of
+applications need to be able to run
+continuously in the background,
+especially in this era of agents.
+Storage again, uh, you know, agents need
+to be able to store things. They need to
+be able to grab things from the web,
+images, documentation, whatever, and
+store them for the application to use
+them in the future. Few other things on
+the road map, universal model access.
+So, it's really a pain right now to ask
+the model to like to ask for an
+application that can generate an that
+can do something with an images or
+videos. You have to figure out which
+model to use. You have to go get an API
+key and do all of that. Pretty soon, any
+model that you ask for at Replet, it'll
+be just available in your app directly.
+We'll handle the the billing and the API
+integration, all of that. Payments is
+very important. Payments not just for
+your users to pay for your application.
+Say you're you're building a startup on
+Replet. You're you're an entrepreneur.
+you obviously need to collect uh user
+payments, but also I think some sometime
+in the future you would want your agent
+to have some kind of wallet to be able
+to go uh pay for services. So let's say
+you know your your agent decides that it
+needs a Tulio integration and replet or
+whatever system you're using doesn't
+have a tool integration, it should be
+able to go put in its credit card and
+provision that service in the in the
+background. A more radical idea is that
+your agent needs to be able to like hire
+people. For example, if it hits a
+capture and it doesn't know how to solve
+a capture, it should go and task grab it
+and ask a human to go solve the capture
+for it. Whatever it is, there's a lot of
+tasks that you still need humans for and
+you would want your your agent to be
+able to uh to have money to pay for
+services. And similarly, agent to agent.
+Um, you would want your agent to be able
+to go on the on the market and find
+other agents that can it can hire. Too
+many YC startups are building uh agents
+sort of agents for accounting, agents
+for sales and so you need your software
+engineering agents to be able to
+integrate those agents as well. So it's
+so I I know a lot of people think of MCP
+as such an agent to agent tool but
+actually MCP is a more traditional RPC
+protocol. So it's not really going to
+solve this. Another model on our sort of
+business or technology is think about
+sort of the level of autonomy. So when I
+started working on what Replet would
+become like years ago, perhaps decades
+ago, the state-of-the-art code assist
+was a language server, right? That's
+IntelliSense if you're using VS Code.
+And you can think of it as level one
+autonomy. You know, if you think about
+the uh sort of drive assist in
+self-driving cars or like in cars, you
+know, would be kind of the lane assist,
+that would be the first level. Uh AI
+code completion co-pilot, that would be
+level two. Uh level three is what we
+worked on um when agent when replet
+agent first launched. Agent v2 I I would
+call it almost 3.5. It can work up to 10
+15 minutes on its own but it still needs
+your input every now and then to test
+the app and make sure the app is
+working. And right now we're working on
+V3. I'll talk a little bit more about V3
+in a second. Uh but V3 is sort of level
+four, right? Like you're almost there.
+It still needs some of your attention,
+but it it kind of works fully uh
+autonomously.
+Bore Plus, which I assume we're going to
+get to in the next couple of years, you
+can really spin up a thousand agents,
+give them a lot thousand problems and
+and reliably be confident that like 95%
+of them is going to work. Like we're
+going to have a really high reliability
+rate. any kind of engineer or product
+manager really anyone can spin up
+hundreds if not thousands of engineers
+to do work on their behalf. So they need
+very little supervision and therefore
+you can uh increase your impact
+exponentially as as a as a programmer.
+So what we're working on right now with
+uh Asian v3 is uh that you know it's
+based on uh basically three uh three
+pillars. One is uh end to-end testing.
+So today computer use is um so in models
+what's called computer use if you've
+used openi operator it's the idea that
+models can go into a computer you know
+click around and use a computer like a
+human does they're slow they're
+expensive they're not very good but this
+is what I talked about earlier you want
+to build a product at the edge of what's
+possible right now the edge of what's
+possible is like computer use in my opin
+is really at the frontier of what these
+models could do and I think over the
+next 3 to 6 months they're going to get
+a lot better and it's going to enable an
+entire new market and also probably
+start to automate a lot of real jobs
+once we have app testing uh you know
+this this kind of annoying thing that
+replication does where keeps ask asking
+you to do QA for it'll start doing QA on
+its own and that will allow it to work
+you know 30 40 up to hour maybe two
+hours of work. Sort of the hype today is
+test time compute. If you think about
+the sort of 03 uh or like oer models or
+deepseek R1 the kind of main insight
+there is the more tokens the model is
+able to consume or produce
+uh the more intelligent uh it gets. Now
+today with something like 03 the model
+is generating a lot of tokens and trying
+to reason but a lot of it is sort of
+synopsistic. It doesn't get feedback
+from the environment. It's almost like
+it's just sitting in place and thinking.
+What you'd want in a real computer
+environment is for the model to generate
+hypothesis and test its hypothesis in
+real time. So at Replet, we built a uh
+fully transactional reversible uh file
+system. So when you're on on Replet,
+every edit you make to the file system
+is an atomic snapshot in time. And that
+allows us to have very cheap copy and
+write forks of the file system. And so
+our idea for this is that um anytime
+there's a tough problem or basically if
+you have a lot of budget you can have it
+on all the time but every time the agent
+is making a big change it forks itself
+and the environment in number of times
+to solve this problem in different ways
+and then find the best solution and then
+take that solution merge it into the
+main branch.
+So think about you know the idea of
+simulations like when you're thinking
+about the problem you're often
+simulating different branches of things
+that you could do you have different
+hypothesis you want to test and so we
+want to also
+uh give agents the ability to do that.
+So at any given problem generating a ton
+of different ways of doing it and then
+testing all of them in parallel. This
+will bring up reliability of agents by I
+think two to three folds. So that's
+sampling and simulations. And then
+finally is uh for the uh model to be
+able to generate tests for every feature
+that it creates. Today replet replet
+agent often creates a feature and then
+later on breaks that feature but also
+true of clot code and cursor and all the
+others. So we want to make it so that
+once the agent makes a set of changes or
+feature, it always has tests that it
+runs on every change to make sure it's
+not breaking the software. This is
+actually harder than it sounds like it
+sounds like okay write tests and let's
+run them. But often actually models are
+pretty bad at generating unit tests. So
+there's still a lot of work uh to do
+there. It needs to be fast as well so so
+that it happens on every change. So I so
+that's what we're working on with V3.
+That's a lot of infrastructure work.
+Want to create the best habitat for
+agents to to live in and be able to u
+the most be the most reliable possible.
+But like let's fast forward to like what
+I talked about with like level five
+autonomy. Really the most autonomous
+system we can think of.
+>> YC's next batch is now taking
+applications. Got a startup in you?
+Apply at y combinator.com/apply.
+It's never too early and filling out the
+app will level up your idea. Okay, back
+to the video.
+>> My prediction is that all application
+software will go to zero. In other
+words, software will be dirt cheap, that
+no one will be making money on the
+traditional type of SAS software. I'm
+not saying this will happen tomorrow or
+even next year. I gave up on the the um
+trying to predict timelines. I know it's
+going to happen on the order of years.
+If anyone with one prompt can generate
+any kind of software of any type of
+complexity, then um the value of
+applications will go down to almost
+zero. So what does that actually look
+like? So today you know in the startup
+ecosystem in the tech ecosystem there's
+all these generic generic SAS you know
+vertical SAS software and any of you
+who's running a small business or even a
+bigger business you you probably have
+bought you know dozens and dozens of SAS
+software just to uh just to run your
+business even today you're able to
+replace large parts of those software by
+using something like replet agent or
+writing your own software uh I think in
+the next few years. This again this will
+go from uh you know maybe 15%
+replaceable to 100% replaceable. So this
+will really fundamentally change the
+software market. Uh just to give you a
+story uh one of our colleagues at Replet
+uh Kelsey was uh she works in HR uh
+she's never written a line of software
+in her in her life and she wanted an
+orchar software. She had a few bespoke
+needs like she wanted to connect it to
+ADP, our our sort of payroll software
+and and she had a few features that that
+she wanted and she went on the market
+and she couldn't really find an org shot
+software that exactly fits her needs.
+They were very expensive that were going
+to cost tens of thousands of dollars a
+year. So she decided to make it. She
+took a week, less than a week, three
+days, and she made orshot software that
+we're using today that we can go out on
+the market and sell it as a SAS product
+for tens of thousands of dollars a year.
+So that's like mind-blowing, right? I
+mean, it's HR professional can make
+software to run their work. That's
+happening today. Try to project that out
+a couple years later. Like the software
+business fundamentally changes, gets
+disrupted. Not only software but I think
+how we work, how businesses works, how
+corporations work will will
+fundamentally change.
+Today
+we have these roles you know uh
+companies like to specialize since the
+industrial revolution when factories you
+know became the main mode of creation.
+the sort of modern uh special, you know,
+specialization in the economy kind of
+emerged where one person is making one
+part of the the the product. It goes on
+a factory sort of um assembly line and
+another person is responsible for
+testing it, another person responsible
+for assembling it. And so this this um
+specialization has been the way the
+economy has been trending for a long
+time. And it sort of makes sense, right?
+You want to uh specialize people as much
+as possible. You want them to be as as
+replaceable as possible. And so this is
+how the modern economy is built. But
+once your HR professional is also a
+software engineer is also potentially a
+marketer is also potentially anything
+because they can learn anything. There
+are AI agents that can do anything for
+them. really, you know, you go into the
+world where jobs will become less
+specialized, less um siloed. And in
+fact, we started, we're seeing it today
+and we're at Replet the way we're
+structuring our orchard and our business
+based on this idea. We're building for
+the first time, we're building a like a
+actual product team, product management
+team. And our product team is actually
+made of designers, engineers, and
+product managers all almost always in
+the same person.
+So we're trying to merge a lot of roles
+together and create this generalist
+employee. So the the arch will start to
+look more like a network than a
+hierarchy. So it'll look more like an
+open source project than a than uh it
+will look like a traditional company
+hierarchy with a marketing department,
+sales department. Every employee will
+like wake up in the morning and their
+mandate would not be write this
+marketing email or you know make this uh
+optimize this button. Their mandate
+would be make the business work,
+generate value for the business. So
+everyone is sort of an entrepreneur and
+that will really disrupt and
+fundamentally change how companies work.
+It's a model that really we haven't you
+no one has really embraced or or or even
+started to talk about but really you
+know think it through if everyone has
+access to a general purpose software
+engineering agent and sort of agent for
+every possible role obviously domain
+expertise is still important but is not
+as important as it used to be. It's
+exponentially less important and this
+also affects how people build
+businesses. it affects the opportunities
+that are available for us in the future.
+One uh really interesting book uh that I
+read this book is was written in the 80s
+which is insane given how good the
+predictions were. So I'm just going to
+read this. Ideas will become wealth.
+merits wherever it arises will be
+rewarded as never before. In an
+environment where the greatest source of
+wealth will be the ideas you have in
+your head rather than the physical
+capital alone, anyone who thinks clearly
+will potentially be rich. The
+information age will be the age of
+upward mobility. The brightest, most
+successful and ambitious of these will
+emerge as truly sovereign individuals.
+Now, some of these various is a bit
+dated. The information age perhaps we
+call the intelligence age today.
+But this book predicted things like uh
+crypto, remote work, all sorts of things
+like that. And this idea of like a
+sovereign individual, someone so uh
+empowered by technology, so empowered by
+these uh uh agents
+uh that is able to create enormous
+amount of wealth uh individually is is
+uh is is going to be the norm. Think
+think about um someone like Satoshi.
+Satoshi created a single person created
+a trillion dollars worth of value. I
+don't know what the market cap exactly.
+Perhaps it's more than trillion dollars
+of Bitcoin. But like that's a single
+person. They wrote the paper. They wrote
+the software. They put it out there and
+it became a big thing. Obviously there's
+a lot of people. It's a big market right
+now. But it was created by a single
+person and we don't know who they are.
+And I think that's going to be a common
+occurrence in the future. The really
+great thing about it is really um the
+access to opportunity will be universal.
+The idea of merit being rewarded
+wherever it arises doesn't matter if
+you're in Silicon Valley or anywhere
+else in the world. If you can think
+clearly and you can use some of this
+technology. If you can think clearly and
+generate good ideas, go into replet, put
+in those ideas, make the first version
+of software today, you can start to
+become more like the sovereign
+individual. Again, the way collaboration
+work will be will be seamless. You know,
+everyone's talking about the you know $1
+billion single person company, but I
+think that really kind of misses the
+point a little bit. What's really
+interesting about it is that you'll be
+able to assemble groups of people really
+quickly. You'll also be a be able to
+assemble uh groups of agents really
+quickly. You'll be able to assemble
+these companies and also unwind them.
+You can create mission purpose, you
+know, companies or like projects and
+unwind them really quickly. And in some
+cases it could happen in a day or two.
+And sometimes you might be you might
+think you're working with another human
+on the internet, but they're actually an
+agent built by someone else who's out
+there doing work for them. So the way we
+work uh and the way people build
+startups will fundamentally change as
+the the cost of transaction goes down
+goes down to zero then um the the the
+reason to hire an employee full-time
+uh you'll have less of a reason to hire
+full-time employees. So think about um
+like getting an Uber today. The
+transaction cost the kind of effort of
+getting an Uber is just one button on
+your phone. I think the same thing will
+be in the future to to get a developer
+whether it's a software agent or another
+human being. Uh it'll be just like one
+button. I want this problem solved.
+You'll be able to maybe your agent will
+be able to go find and interview a lot
+of different people or agents on the
+internet and be able to find the best uh
+thing to solve that problem. And um and
+so you'll be able to like build
+businesses really at the speed of light.
+Now you know I I I talked about how kind
+of application software goes to zero.
+That doesn't mean that all software goes
+to zero. Today you know rapid agent or
+others the way it works is the agent
+makes a piece of software the user uses
+the software to solve problems. You can
+think of those things as intermediate
+steps. Instead,
+agents can just solve problems.
+And and for Replet, and I'm sure a lot
+of other businesses to survive, at some
+point, Replet needs to stop being
+focused on making applications
+and start being focused on solving
+problems with software. So, I want to
+leave ample time for for questions. So,
+I'll I'll I'll end here and open it up.
+>> My name is Chinat from Stanford. Nice to
+meet you. My first question is in this
+future do you see there potentially
+humans engaging with multiple agents or
+will there be a unilateral agent and if
+in the case of like multiple agents um
+how would we deal with the fragmentation
+of like data memory and context across
+all these different agents
+>> I think multiple agents uh and and the
+reason I think that's true is because
+let's let's say I'm someone with true
+unique domain expertise
+uh let's say I'm I'm a lawyer who is top
+in the world at solving certain um
+cases that that are very rare. And so I
+have this domain expertise that I'm not
+going to share in the open source. I'm
+not going to sell to scale AI so that
+they can sell to to OpenAI or Google all
+of those. I'm just going to keep this
+resource to myself. But the way I would
+monetize it instead of myself going and
+selling my services directly, I would
+like imbue this knowledge into an agent
+that becomes this very specialized agent
+in this very specialized domain and then
+I can scale myself. uh and so so I think
+I think people will be building these
+agents to work on their behalf and then
+um there's going to be agents that that
+uh go out there and assembles these
+teams of agents uh and then there's
+going to be obviously software
+development agents and maybe there's and
+maybe you're running all all this
+through chat GPT or whatever main
+interface you have but I think it's
+going to be a multi- aent world with
+different contacts similar that we have
+in the world today. When I go to a
+lawyer, I need to give them my context.
+So, uh, and maybe there are protocols
+and this is why they talked about how
+MCP really doesn't solve the agent to
+Asian problem. I think there needs to be
+more interesting protocols in this space
+that and maybe this is a startup someone
+builds.
+>> Hi, thank you for the insightful talk.
+My question is as follows. in the not so
+far off future where we're going to have
+AI systems that can automate most if not
+all of meaningful physical and cognitive
+tasks and there's increasing delegation
+to agents that work on your behalf and
+talk to other agents that are working on
+other people's behalf then what is left
+for humans to do or like what will our
+human condition look like because our
+physical and cognitive aspects can all
+be done by intelligences
+>> I I think it fundamentally
+depends on your
+worldview and belief of the limits of AI
+versus the
+uniqueness and premacy of what humans
+can do. So it becomes a bit of a
+religious discussion but my view is
+there's something special about humans
+and my view is that there's a
+fundamental limitation with how we do AI
+today and maybe this gets solved but AI
+today can't truly generalize out of
+distribution
+everything AI can do h needs to be
+represented in the data say I go back to
+this example of this lawyer that is
+expert in the world at very rare cases
+uh again this is something that no one
+else knows how to do uh or can do or
+whenever there's like a truly novel
+problem, truly novel case, you still
+need human ingenuity
+um to solve that problem. And so I think
+humans will be more in the creative seat
+and I think agents can be creative as
+well but their type of creativity are
+not net new knowledge. It's more like
+about uh which is a lot of what
+creativity is bringing a lot of
+different things together. And so but
+but this idea of like ideas become
+wealth uh is um is what gets really
+exciting about it is like people can
+generate novel ideas and test them out
+really quickly which you know I don't
+think we're going to get to a to a point
+where you can go tell an agent hey go
+find me a you know business idea and go
+test all of them. I don't think we'll
+get there anytime soon. Thanks for your
+talk. I've been following Replet for
+many years and that's actually where I
+learned how to code as well was on
+Replet. So you mentioned the value of
+clear thinking and ideas being the
+future. Do you see this as an argument
+more towards a favor of a liberal arts
+critical thinking model of education
+instead of a more STEM uh skills-based
+focus?
+>> I don't I don't think they're mutually
+exclusive, but I do think that the
+liberal arts will become more valuable.
+I I think today engineers
+tend to be uh a little more parochial
+than they can afford to be in the future
+because you know what I shot what I
+showed with the kind of the model for
+what the future company could look like.
+Everyone becoming more of a generalist.
+I think today engineers can afford to
+like not understand even the business
+they're in. A lot of engineers are just
+focused on very narrow domains. Uh so I
+think people need to have a more broaden
+worldview and set of skills. So um but I
+don't think they're mutually exclusive.
+I think
+you know being being scientifically
+minded I think is going to be important.
+>> Hi. Yeah. Uh so I wanted I was more
+curious as to uh where in the tech stack
+like is replet making a lot of progress
+because as you said uh replet can do
+tasks which for for one hour and so
+given that like replet uses probably
+closed source models which have no
+access to pre-training and post-
+trainining uh where in the text are you
+making that like amazing uh kind of
+innovation? that gets your models to
+work auton autonomously for like an
+hour.
+>> It's what I was calling the habitat of
+the model. So, you know, the um the
+commercial models can train really great
+models. They can train them to be as
+autonomous as they as as possible to be
+coherent over a long period of time. But
+uh us or really any um agent company
+needs to be able to provide the
+infrastructure for for that agent to to
+exist in. And so all these components
+that I talked about. So one really
+crucial thing about replet is this idea
+of uh you could call it trans uh being
+being transactional or atomic. every
+mutation to the replet computer
+environment
+happen in sync with every other uh
+component of the system. So right now in
+replet if you go to your history you can
+see previous checkpoints and you can
+actually go to any one of them and
+reboot the application in that state and
+so we think that infrastructure is going
+to be really crucial for how to make um
+the models more more reliable. I think
+there's a limit on how much the training
+can increase reliability,
+but I think the environment feedback and
+the ability to try things really fast is
+the way to get to the upper echelon of
+reliability. So that's what we're
+focused on.
+>> Hi. So you talk about the generalist
+employee and how that's the sort of
+future of um companies. I I to I totally
+agree with this vision, but where I find
+myself stuck is finding roles today that
+set me up for that kind of future. what
+what kind of opportunities should we
+look out for? What kind of positions
+should we look out for in startups, in
+companies that would prepare us with the
+skills that are necessary in order to be
+a generalist good employee five five
+years down the line when that finally
+becomes a thing. I know being a founder
+is one option but
+um not all of us want to take that
+career plunge immediately. Uh some of us
+want to work with other people, build
+teamwork skills and learn all of those
+other things as well. How do we go about
+that? Jo join startups as early as
+possible. Like obviously you can think
+of it of it as um sort of exponentially
+decaying uh curve where like being the
+first being the founder you get the most
+generalist experience being the you know
+first employee and then by the time you
+get to the hund I don't know like to the
+maybe 100th employee you're sort of like
+you're not getting as much of that
+journalist experience but like just join
+as early as you can depending on your
+risk risk profile and and all of that.
+But even like number 20 at a like a
+series B company, I think you will get a
+lot more experience than at a at a fang
+or something like that. Even if you join
+that startup, you need to be seeking
+those generalist opportunities. So don't
+sit there waiting for people to give you
+tasks. Have that mindset of I'm waking
+up in the morning. I'm not looking at a
+to-do list. I'm looking at a mission.
+and my mission is to make this company
+succeed or be more valuable.
+>> Um, hi, my name is Shivam. I also wanted
+to ask about the one hour of autonomous
+like agent development. Uh, specifically
+like could you like elaborate a little
+more on how like you and your team
+approach how long of a time horizon is
+worth pursuing as opposed to improving
+reasoning for shorter time horizons. So,
+so I think the what you're talking about
+with shorter time horizons is more like
+uh let's um let's work on reliability
+um and then longer time horizons like
+let's work on autonomy um removing the
+human in the loop and the burden of the
+human to continue to test and give
+feedback. Um so we're doing both. When
+I'm talking about reliability, this is
+more investing in reasoning and more
+investing in this parallel agent.
+um trial and error that I was talking
+about while we're calling sampling and
+simulations.
+And then for uh long horizon, it's more
+about testing,
+making sure that because as you go
+longer, the there's like an there's a
+like a gold drift. The the agent might
+start doing things that you don't like,
+but having those guard rail rails of of
+testing along the way uh will make it so
+that it stays more coherent uh over
+time. And then as we collect more data
+about what fails and what doesn't work,
+you can either uh like go and fine-tune
+that or you can just like continue to
+improve the prompts uh and add more
+guard guardrails to to make it better.
+So I think both are important.
+>> Hi, I'm Sophia. Um have been thankful
+for your talk and I've been following
+you met at AI for developers when you
+were talking about ghostriter and the
+work behind it. Um, but I'm curious to
+hear more about how agents are kind of
+over oversaturating
+um, uh, certain set certain sectors and
+um, whether or not that should kind of
+you should consider that when you're uh,
+working on them or joining a startup
+that's working on something.
+>> I think certainly software is like
+really tricky. software engineering
+agents. There's like there's a lot of
+people that want to do that. And if
+you're coming in late, you want to have
+a truly novel idea to be able to like
+compete there. But, you know, there's a
+lot of things like who's who's building
+the agent for HR or finance. Uh I know
+one company's doing accounting. Uh
+there's a lot of companies doing SDR for
+whatever reason. That's very crowded.
+What I would start with is what are you
+interested in and what where do you have
+domain knowledge? So the best way to
+start an agent company is that if you
+yourself
+you're you yourself you're like a
+compliance officer,
+you start uh a a compliance officer or
+you're passionate about compliance. I
+don't know who's passionate about
+compliance, but if you're passionate
+about compliance, uh, go start an Asian
+company because you're going to learn
+the most about it and you're going to
+have the most domain knowledge and
+domain knowledge is the most important
+thing to build an Asian company. Hey,
+um, so if the cost of software and
+building software is going to zero, then
+by extension, the platforms which build
+software like Replet,
+like the value capture will be going
+down to zero. So, how are you planning
+to make money long term and how are you
+going to compete with like the other
+competitors like Bolton and lovable?
+>> Yeah. Yeah. So, notice that I I said not
+uh old software. I said like application
+software specifically. So, I think
+software will continue to run our lives
+but a lot of it will be autonomous. So
+for example, I build a lot of personal
+software using Replet and a lot of it is
+around managing my life and my family
+and like you know uh doing a lot of
+quantified self stuff a lot of like you
+know data about my sleep and and and all
+of that stuff and then I spent a lot of
+time like plotting that data and doing
+all of that stuff like instead I should
+be able to tell replet agent here are my
+goals you figure out what kind of
+software that needs to that we built and
+you figure out how to how to uh operate
+it and you tell me what wearables I need
+to buy and what um and and what do I
+need to log in the morning, what do I
+need to do and she'll be able to go make
+the software
+uh acquire the things that I need in my
+home, what kind of sensors and then
+solve the problem for me. I think I
+think Replet needs to become a universal
+problem solver for our company to
+survive. And I think for a lot of the
+others, you know, I I think it's
+already, especially the companies that
+you talk about in the prototyping space,
+it's already getting really crowded
+there. I think what replet where really
+Replet excels today is the fact that
+it's full stack. It can go from idea to
+a deployed and scaled software.
+>> Hi, uh my name is Emma and I'm really
+intrigued by your vision of this future
+where all code is written by agents. But
+I'm also kind of concerned because there
+is this kind of known problem where if
+you train a generative model on data
+that is generated by another model, you
+get an issue of like accumulating error,
+accumulating noise. So my question is in
+this future where code is written by
+agents, it's tested by agents, is
+approved by agents, how do we kind of
+prevent this exploding error problem
+while still allowing these models to
+grow and evolve? My bet is that pretty
+soon we're going to move into more of
+the alpha zero style of training where
+um you have a more traditional LLM
+that's trained on all of the internet.
+Um but but then the way to train the
+next generation of it would be to give
+it a reinforcement learning environment
+where uh it's generating a lot of
+problems and doing like selfplay where
+it's solving these problems getting
+feedback on them and doing it in this
+like massively parallel way. I think
+this is how we're going to get the next
+generation of software agents. It's not
+going to be trained on human code
+because like you said there's not going
+to be human code and so we have to solve
+this otherwise
+we'll plateau very hard. Hi. Um, I'm
+quite interested in some of the systems
+report uh support required for these
+agents. Um, and I find the universal
+package manager that you've released and
+your use of Nyx quite interesting. And
+you mentioned this um copy on write
+snapshotting and and uh uh forking and
+merging. Uh and I'm working on a similar
+thing.
+>> Well, you should come work out.
+>> Uh I was wondering if any of this is
+publicly available or something. I think
+you might be thinking about open
+sourcing.
+>> Um yeah, I mean we open sourced uh some
+of our package manager work. We're big
+contributors to Nexos. So we use Nex OS
+which is a transactional operating
+system generator is the best way I can I
+can describe it and and possibly the
+file system stuff will well at minimum
+talk about it but this is like active
+active work right now. Um but yeah come
+like intern at Replet and learn all this
+stuff and then go build it yourself.
+>> Thank you. All right. Thank you
+everyone.

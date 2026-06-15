@@ -1,0 +1,2207 @@
+Title: Lecture 16 - How to Run a User Interview (Emmett Shear)
+Video ID: qAws7eXItMk
+URL: https://www.youtube.com/watch?v=qAws7eXItMk
+Channel: YC Root Access
+Published: 2014-11-13T23:25:46Z
+Duration: PT46M27S
+Views: 211476
+Likes: 2380
+Tags: startup, class, sam altman, CS183B, Y Combinator, Startup Company (Website Category), Lecture (Type Of Public Presentation), Entrepreneur (Profession), Entrepreneurship (Field Of Study), emmett shear, Twitch (Website), Interview
+Transcript Language: English - via dotsub (en)
+Auto-generated: False
+Snippets: 1222
+
+Description:
+Lecture Transcript: http://tech.genius.com/Emmett-shear-lecture-16-how-to-run-a-user-interview-annotated
+
+Building product, and talking to users. In the early stages of your startup, those are the two things you should focus on. 
+In this lecture, Emmett Shear, Founder and CEO of Justin.tv and Twitch, covers the latter. What can you learn by talking to users that you can’t learn by looking at data? What questions should you ask? How can user interviews define or redefine your product goals?
+
+See 
+
+============================================================
+TRANSCRIPT
+============================================================
+
+All right, good afternoon.
+Today's guest speaker is
+Emmett Shear,
+Emmett is the CEO of Twitch.
+>> Hello.
+>> Which was acquired by
+Amazon, where he now works.
+And Emmett is going to do a
+new formal of class today, and
+talk about how to do great
+user interviews?
+So this is the talking to
+users part
+of starting a startup, should
+be really useful.
+Thank you very much for
+coming.
+>> Thanks Tim.
+>> Contact server knows where
+I'm coming from, from this.
+We started our, I started my
+first startup with Justin Kan
+right out of college we,
+started this company called
+Kiko Calendar It didn't go so
+well, it, it went, all right.
+We, we, we built it we sold
+it, but we sold it on Ebay so
+that's not necessarily, the
+end you want for
+your startup,
+>> And
+It was it was a good time.
+We learned a lot, we learned a
+lot about programming.
+We didn't know anything about
+calendars,
+neither of us were users of
+calendars nor did we.
+During the period of time,
+we're thinking you've got to
+talk to anyone who actually
+did use a calendar.
+So that was, that was not
+optimal.
+we, we got the build stuff
+part of the, startup down,
+we did not get the talk to
+users part.
+The second startup we started
+we used, a very common trick,
+that lets you get away with
+not talking to users,
+which is that we were our own
+consumer.
+We, we had this idea for a
+television show, Justin TV,
+a reality show about Justin
+Kan's life.
+And we built a whole set of
+technology and
+website around the reality
+show we wanted to run.
+And so we were the user for
+that for that product.
+And that's actually one way to
+cheat and
+get away with not talking to
+many other users is if you're
+just building something that
+literally is just for you.
+You don't need to talk to
+anyone else because you know
+what is you want.
+And what you need.
+But that's if you're really
+limiting,
+where to start a startup.
+Most startups are not just
+built for
+the person who is who is using
+them.
+And when you do that, every
+now and
+then, you get really lucky.
+And you are representative of
+some huge class of
+people who all want the exact
+same thing you do.
+But very often also that just
+turns into
+a side project that doesn't go
+any where.
+so, we kept working on
+Justin.TV for a while and
+we actually achieved a good
+deal of success,
+because it turned out that
+there were
+people out there who wanted to
+do the same thing we did.
+Which was broadcast ourselves
+live on the Internet.
+But, the issue with Justin.TV,
+the thing that,
+the thing that sort of, kept
+us
+from achieving greatness is we
+hadn't figured out yet.
+How to how to build towards
+anything beyond that
+initial TV show.
+We knew how to, we built a
+great product actually.
+If you wanted to run a live
+24/7 reality TV show about
+your life, we had the website
+for you.
+We had exactly, what you
+needed.
+But if we wanted to go do more
+than that.
+If we wanted to open it up to
+a broader number of people,
+a broader spectrum of people,
+a broader use cases.
+We didn't have we didn't have
+the insight to figure that out
+because we weren't that user
+and so
+at some point we decided to
+pivot JustinTV.
+We decided we needed to go in
+a new direction.
+We thought we'd built a lot of
+valuable technology but hadn't
+identified the use case that
+would let it get really big.
+And there were two directions
+that seemed promising.
+One of them was mobile.
+And one of them is gaming.
+And I led the gaming
+initiative inside of the
+company.
+And what we did with gaming
+that was very very different,
+from what we'd ever done
+before.
+Was, we actually went and
+talked to users,
+because while I loved watching
+gaming video, I was very aware
+that neither I nor anyone else
+in the company knew about
+broadcasting video games.
+And so I would amp up the
+content, I thought there was
+a market there, that was sort
+of the insight that
+I had which wasn't common at
+the time,
+which was how much fun it was
+to watch video games.
+Quick show of hands, people
+know about watching video game
+on the internet here?
+Okay, I'm just going to assume
+that people listening to
+this also know about it.
+If you don't know about, if
+you don't know about watching
+video games on the internet,
+you should go read about that.
+Because it's sort of,
+an important context for the
+stuff I'm going to talk about.
+But the main point is I
+thought
+that was awesome but I didn't
+know anything about
+the side of it that was really
+important, which is
+actually acquiring the content
+to start broadcasting.
+So we went out, and we ran a.
+Actually a very large number
+of user interviews.
+We talked to a lot of people
+and brought that data back,
+and that formed the core of
+all of the decision-making
+that was for the next three
+years of product features on
+Twitch was sort of some of the
+insights we got from that.
+And we continued to talk to
+users, and
+in fact built an entire.
+Part of the company whose job
+it is basically to talk to
+our users.
+Which is an, which is
+a whole division that we just
+didn't even have at JustinTV.
+We had no one at the company
+whose job it
+was to talk to our most
+important users.
+So so that was Twitch.
+And I'm, I want to give you
+guys a little bit of
+a a little bit of an insight
+into.
+With Twitch.
+What, what that,
+what that meant, going to go
+talk to users.
+So, we determined that
+the broadcasters are the most
+important people.
+And the reason we determined
+that, was, when we went and
+looked into the market,
+we we looked into what, what
+determined.
+Why people watched a certain
+streamer or
+went to a certain website.
+They would just follow the
+content, right?
+You had a, you had a piece of
+content you loved and
+the broadcaster would come
+with you.
+And that's actually the one
+really important point about
+user interviews,
+which is that who you talk to
+is as important.
+As what questions you ask and
+you pull away from it.
+Because if you go and talk to
+a set of users, if we'd gone
+and talked to viewers only, we
+have, a complete different set
+of feedback than talking to
+the broadcasters.
+And talking to the
+broadcasters gave us
+insight into how to build a
+link for them.
+That you're not to be
+strategically correct.
+I wish I could tell the recipe
+for
+figuring out who the target
+user is for your product and
+who your target user should
+be.
+But there isn't a recipe.
+It comes down to think really
+hard and, and use your,
+use your judgement to figure
+out,
+who you're really building
+this for?
+So what I want to do is a
+little bit,
+something a little bit
+interactive now, which is.
+sometging We're going to,
+I've got a bunch of ideas
+from, from you guys actually.
+So, sort of suggested ideas.
+And i'm going to pick one of
+them.
+And I want every one to sort
+of sit down and
+do, do step one of this
+process for me, right now.
+Which is think about who would
+you go ask about this.
+Like which people.,
+Where would you go to find the
+people you needed to talk
+to about this.
+In order to in order to learn
+about what you should build.
+And so the idea you're going
+to use is, let me see here.
+Of these ideas, so
+here it's a lecture focused
+note taking app.
+The idea is I don't think that
+the state of the art for
+note taking is good enough
+yet.
+And I want to make a note
+taking app that improves.
+You know, improves that
+experience.
+Makes taking notes in class
+better.
+Or taking notes by listening
+to a lecture online better.
+So you know, maybe it has
+collaboration features.
+Maybe it, like, helps you
+focus better somehow.
+It has multimedia
+enhancements.
+I don't know, right?
+All sorts of possible
+features.
+But that's the, that's the
+idea.
+So take, like,.
+Take 120 seconds right now,
+and think about not what you
+would ask, or what the right
+features for
+this app is, but who would you
+talk to?
+Who should the, who,
+who's going to give you that
+feedback that's going to tell
+you whether this is good or
+not?
+I actually mean it, right now.
+Take your laptop out, like
+type, write some stuff down.
+Think, think about, like, the,
+you can,
+it, it's good enough to.
+Like think of that in your
+head.
+But actually, like if you
+actually just write it down,
+and like just come up with the
+five people you talk to,
+the five types of people you
+talk to.
+And who you think the most
+important one was.
+LIke, actually do it.
+Because there's nothing like
+actually running
+through a practice of
+something and trying to do it
+to actually get into your
+head, the right way to do it.
+I"m gratified to see here
+clicking in,
+of the keyboards now.
+If you're following along at
+home, pause, actually do it.
+Think about who you, who would
+you talk to?
+Because that's a, that is the
+first question
+for almost any startup that
+you need
+to answer is like who is my
+user and,
+and where am I going to find
+them?
+Alright that's like way
+shorter than
+you normally used to think
+about this problem.
+It's actually a really tricky
+problem in, like, figuring out
+where to source the people is
+pretty hard, but ,.
+We're going to move along
+anyways in the,
+in this highly abbreviated
+version of learning how to
+build a product and run a user
+interview.
+So can can I get one volunteer
+from the audience to
+come up and tell, tell us what
+who you would talk to?
+And we'll talk about it.
+You guys are all pre-selected.
+>>
+>> Here you go.
+I don't know, how to turn this
+thing on, here we go.
+So who do you talk to?
+I would definitely talk to n
+college students first,
+obviously because we sit in a
+lot of lectures, and
+specifically I want to talk to
+college students studying
+different subjects to see if
+maybe, you know,
+if you're an English major,
+if that makes a different,
+versus you're studying.
+Of not, Computer Science in
+terms of how you want to
+take notes in lectures.
+>> And so you,
+you're going to talk to a
+bunch of college students
+Would you pick any particular
+subset of college students?
+Like we're going to talk to
+all college students or
+like a broad array.
+>> I, I went out and talked to
+college students.
+like, and break down the
+divisions by like people who
+study different areas maybe.
+And then also maybe it would
+make sense for
+people who have like different
+study techniques.
+Because some people take a lot
+of notes.
+Some people don't take that
+many notes,
+but still jot stuff down.
+>> Right.
+So I mean that', that's a
+really good start.
+like that's, that is actually
+obviously a group of users you
+want to go talk to, especially
+if you're targeting something
+at, you know, at college
+students as the consumer.
+And if you're talking to
+college students,
+as a consumer.
+the, you're going to get a lot
+out of students,
+about, what their current note
+taking habits are.
+And, you know, what they would
+be excited about.
+One of the problems with
+selling things to
+college students, is that,
+college students don't
+actually spend very much
+money.
+it's, it's really hard to get
+you guys to open your wallets.
+Especially, if you want.
+Them to pay for a
+school-related thing.
+And if you don't even want to
+buy text books,
+right, I think you probably,
+probably all use or
+that you know, borrow it from
+your friend or whatever.
+And so one of the like,
+one of the things that I think
+you'd be missing if you go
+after just the students,
+right, is you want to.
+Figure out who,
+who is the most important
+person to this, to this app.
+And if you're actually in a
+note-taking app,
+my guess is for colleges, the
+people most likely to
+actually buy a note-taking app
+that you guys would used,
+would be College IT.
+Right, I mean, presumably for
+most, for
+the most part, if you want to
+sell software to students,
+like the people who have to
+get
+bought into that is usually
+the school administrator.
+So that would be one, that
+would be one approach,
+if you like thought that they
+will.
+You presumably go talk to the
+College students and
+you find out they don't
+actually,
+buy any note-taking software
+right now at all.
+I mean, likely.
+It's possible they do in which
+case I'm,
+I'm complete wrong and this is
+where you actually have to go
+talk to the users but
+you then have to try to maybe
+try other, other groups right.
+So I would talk to college,
+I would talk to IT
+administrators, as well.
+Think that's another.
+Area that's really promising.
+You might lo, talk to parents.
+Right?
+Who, who,
+who spends money on their
+kids' Education and
+is like willing to pull their
+wallet out?
+Like, the, you know, parents
+of kids.
+Parents of kids, who are
+freshmen who are going off to
+college for the first time.
+You need this app to make your
+kid productive so
+that they don't fail out of
+College.
+and, and as I see a lot of
+groups that are potential,
+that aren't necessarily,
+the obvious user, but who are
+critical,
+critical to your app's
+success, potentially.
+And when you, when you're at
+the very beginning of
+a startup like this, when
+you're like,
+you have this idea that you
+think is awesome.
+You want to have that broadest
+group you possibly can.
+You don't just want to talk to
+one type of person and,
+and, and learn that.
+You want to get familiar with
+the space.
+You want to get familiar with
+the various kinds of
+people who be contributing.
+All right.
+So lets lets have somebody
+come up and we're going to,
+we're going to pretend we're
+going to the senior interview.
+So we're going to talk to a
+college student and
+try to find out what we should
+build.
+You know, what we should get
+into this note-taking app.
+So, so, some, another
+volunteer please for, for
+running an interview.
+Yes.
+All right, so hello.
+>> Hi, I'm Stephanie.
+>> Hi, Stephanie.
+>> Nice to meet you.
+>> Welcome, thank you for
+agreeing to do this user
+interview with us.
+So I, I wanted to, hear from
+you about you know,
+what are your note-taking
+habits.
+How do you take notes today?
+>> Sure, so I take notes in a
+variety of ways.
+I like to now because of speed
+and efficiency and
+just to come back to it later,
+it's easier for
+me to just take notes on my
+lap top.
+And so a lot of those notes
+will be primarily, text based.
+But in certain classes.
+So, for example,
+if I'm taking a History class,
+most of it will be in text.
+But if I'm taking it, taking a
+Physics class for
+example they're going to be
+more complex diagrams,
+different angles that I have
+to draw and
+so that's little harder work,
+harder for me to-
+>> What's-
+>> Get.
+>> What software do you use
+for this stuff today?
+>> I just do pen and paper for
+that.
+>> You do pen and paper, so
+you do a combination.
+You take notes with pen and
+paper, you take notes-
+>> Exactly.
+>> With your
+computer sometimes.
+>> Yeah.
+>> And when you take notes
+with when you take all these
+notes, again it's like,
+do you actually review them?
+Like, do you, be honest, do
+you actually go back and
+actually ever look at these
+notes?
+>> The pen and paper not so
+much.
+But yes to the software-based,
+because it's more easy to
+access and it's easier for me
+to, to share and collaborate
+and maybe even merge notes
+with classmates and friends.
+>> So what do what do you
+use to take notes today on
+your computer?
+Google Docs and Evernote.
+>> Google Docs and Evernote?
+>> Mm-hm.
+>> And ,.
+>> And.
+>> Tell me more about
+like why two things at the
+same time.
+>> So Evernote is easy, if I'm
+trying to just collect it for
+myself, I think.
+And yes you can share, but I
+think Google Docs for
+me is easier to share and that
+depends also if, you know,
+a friend has already created a
+folder.
+For example on Google Docs and
+I just have to add to that
+folder if it's a group project
+for example versus if it's for
+my personal use I, I tend to
+go more toward.
+>> So it sounds like you do
+a lot of note-taking
+collaboration.
+>> Yeah.
+>> What-
+>> I wish it was integrated
+>> What tell me
+more about that.
+Like, like, do you take as,
+do you want up taking most of
+the notes, most of
+the value of the notes out of
+notes other people take?
+Or is it mostly your own notes
+you review at
+the end of a semester?
+How does that work?
+>> It's mostly, mine because
+I'm pretty picky about
+the way I like things
+organized.
+like, design wise, or
+formatting.
+Even color, I'm really
+particular with.
+And, like, the font that we
+use.
+And that really affects the
+way I study.
+So, I tend to like, to like,
+to like to personalize it,
+even after I merge.
+>> So, you, you pull in notes
+from other people.
+But then you merge them into,
+into the main.
+>> What works for me.
+>> Right.
+awesome.
+And if you, if you have
+Evernote notes and
+you have Google Docs notes and
+you have pen and paper notes.
+>> Mm-hm,
+>> Once the semester's over do
+you ever go back to any of
+that stuff or is it
+like the quarter end, you guys
+do have quarters here, right?
+>> Yeah.
+>> One the quarter's over
+do you ever go back to any of
+that stuff?
+Do you ever?
+>> For classes not so much but
+if it's notes I've taken for
+like talks like these, for
+example, or
+if it's like interview prep
+that I'm doing.
+I tend to go back because of
+things that I like to kind of
+keep fresh in my mind.
+And to help me prep for, for
+future things.
+>> So that's interesting.
+Tell more about that.
+Like you take notes not just
+in class?
+>> Yeah, so I take notes to,
+also to summarize main points.
+So if it's like inspirational
+quotes.
+For example talks that I go to
+like these.
+And then like, maybe I'm going
+to an event where I'm
+actually going to meet someone
+and it,
+it helps to actually to think
+about and
+to remember and recall what we
+shared at the time that,
+you know, I attended the talk
+or something.
+>> Awesome.
+All right.
+Well, normally I'd
+actually dig into a lot more
+detail.
+There's a huge amount of like,
+open questions that
+are still in my mind after
+hearing that stuff.
+Questions about, which people
+do you collaborate with.
+Questions about whether or
+not you like, like what the
+volume of notes are.
+And like how, how long of, of
+note-taking stuff.
+Just sort of, digging in to
+like what the current behavior
+is.
+But like in interest of time
+and not like keeping everyone
+here hearing about the
+intricacies of one person's
+note-taking habits forever
+we're going to move on.
+But thank you very much
+Stephanie that was,
+appreciate that.
+So so that, that's like, that
+kind of stuff,
+you notice we're not talking
+about the actual content of
+the app at all.
+Like, I'm not, I'm not,
+I'm not really interested in
+features.
+I don't really want to know
+about what they,
+the specific feature set in
+Google Docs and Evernote.
+I might start digging in a
+little bit more into,
+which features actually get
+used.
+Like if she's actively
+collaborating.
+You know is, how does that
+work?
+I heard some interesting
+things about oh,
+we, we use folders.
+That's interesting to me.
+But the main thing you're
+trying to do when you're
+running these first set of
+interviews is not necessarily
+get, like, questions about
+like user flows and
+like optimizing that, or
+questions about
+like the specifics of of, of
+any of that stuff.
+kind of can be distracting
+because users think they
+know what they want.
+But like you, you get the you
+get
+the horseless carriage effect,
+where you're, you're you're,
+you're getting asked for a
+faster horse instead of
+trying to design the actual
+real solution to the problem.
+If you start asking people
+about features, so
+you want to stay as far away
+from features as
+possible because the the
+things they tell you.
+Wind up feeling, almost
+overwhelmingly real.
+When you have a real user
+asking you for
+a feature, it's almost, it's
+very hard to say no to them.
+Because here's a real person
+who really has this problem,
+and they, they're saying build
+me this feature.
+But as you start to talk to
+lots of people and
+really get a sense for what,
+what their problems are, you
+figure out if this is actually
+a promising area or not.
+And like, based on what I
+heard there, it's like.
+Starting from that interview,
+I'm not necessarily positive
+there is a problem or
+there's at least there's a,
+there's a big enough problem
+that it's worth building a
+whole new product for.
+Because I didn't hear a lot of
+like things were were were.
+There was a, a big blocker, or
+there was something really
+wrong with the way it, the way
+it was working.
+Unless I had some big idea I
+would take that as,
+you know, maybe a negative
+sign.
+But it doesn't necessarily
+mean that you can't,
+you can't move forward and
+keep talking to more people.
+Because just because you talk
+to the first person and
+you don't get anything out of
+it,
+doesn't mean there's not going
+to be.
+A ton more people, who
+actually have a problem.
+And you, once you talk to
+about six, seven,
+eight people you're usually
+about done.
+It's unlikely you're going to
+discover a bunch of
+new information there.
+Which is why it's important to
+talk to different extremes of
+people right.
+Go, go find people who
+are different different points
+because this is just six or
+seven Stanford college
+students, you're going to get
+a very different response when
+we talk to six or
+seven high school students, or
+six or seven parents.
+All right, one second, let me
+look at the So
+based on that though, right, I
+think the.
+I think it's possible you
+could come up with,
+a set of ideas, right?
+You have this information
+about how someone takes notes,
+you've, you've come up with,
+potentially when you came up
+with this idea you had,
+you had some ideas as to, you
+heard this idea, you had
+some ideas as to like how you
+could build something cool.
+And so, if you're going to
+build
+just one feature on top of
+Google Docs.
+What would that feature be,
+right?
+And that's for, for, for a new
+product like this, it might be
+a good way to like get started
+thinking about where to go.
+Which is,
+okay, they're extensively
+using this things, right now.
+How can we make that
+experience just one quantum
+better?
+Something that would be.
+Really exciting to this person
+to be one one step ahead, and
+so let me take two minutes,
+right now.
+And think about, what that
+feature might be?
+Actually like try to, try to
+come up with what,
+what you might do based on
+what you heard from,
+from Stephanie, that could
+convince her to
+switch away from her current
+collaborative, multi-person,
+all-working-together workflow
+on Google Docs?
+To your new, your new thing
+that is,
+has all the features of Google
+Docs plus this one
+special thing that's, like,
+going to make it,.
+It's going to make it more be,
+more useful, and, and
+convincing the stop using that
+they are using.
+Awesome, all right.
+So, I'm going to invite our,
+our third guest, if you,
+if you have something up.
+I, I don't want to put you on
+the spot if
+you feel like you don't,
+you're not sure, but.
+>> Yeah.
+>> So what I, what I, is
+it on?
+>> Yes.
+>> What I thought about was
+like the, the reason she uses
+Everknow is like, of like,
+sticky note type notes like,
+like more thoughts and like
+details.
+So, I feel like, Google Docs
+has like documents and
+not like, smaller notes.
+So, I feel like a feature that
+will be like,
+super like, a mobile version
+of draw it
+that doesn't like, isn't that
+clunky and like, doesn't make
+you make real documents could
+be like, really useful.
+Awesome.
+So right.
+That's a,
+that's a good insight.
+Right, that's exactly,
+what's one of the thing that
+you get out of that,
+that user interview?
+And then, you've got this
+idea.
+Right, you've gotten this, I
+guess, user-fed feedback.
+You've got this idea.
+What if we've had a Google
+Docs that had
+the collaborative aspects and
+the group aspects of that, but
+where you you could pull in
+more little one off notes.
+And, it was, it was designed
+more around note taking.
+And so, the question is, now,
+once you have this idea,
+which I think it's the,
+it's actually probably a
+reasonable approach.
+Is this enough?
+Is this something people would
+actually switch just to have?
+And, the way to validate,
+there's two ways to validate
+that.
+One is if you're quick at
+programming,
+you can literally just go
+build it, and
+throw it out in the world and
+see what happens.
+and, that's that's great.
+And, if that, when that works
+that's
+that's an excellent way to
+approach it.
+But, a lot of the time that
+one little thing that's just
+a little bit better might take
+you three months to
+actually build something
+worthy of actually using.
+And so, you actually want to
+go out and
+validate that idea further
+before you go ahead and
+start building it.
+And so, you might take that
+idea, and
+you might go back go back out
+and
+you know, you can sit down
+with with diagrams.
+You can, you can draw what the
+what it looks like.
+Draw the work flow, and go
+bring that in front of people,
+but the one thing you really
+don't want to do is
+ask them this, this is sort of
+a trap, and
+I just want to warn you
+against doing it.
+Just don't go out and say, to
+come up with a feature idea,
+and go out and ask people.
+Are, you know?
+I've got this great idea
+for a feature.
+Are you excited about it?
+Because, the, the feedback you
+get from users, if you tell
+them about a feature, and ask
+them, is this feature good?
+It's often, oh yeah, that's
+great.
+Like, that sounds like such a
+good idea.
+but, when you actually take
+that in front of people, and
+you actually build it.
+You then, find out that while
+they thought it
+was such a clever idea, no one
+actually, like,
+cares to switch to get it.
+And so, the one question you
+can't ask is this feature
+actually good or not?
+Yes, Sam?
+>> What is
+the minimum that you
+could do in your experience to
+actually if asking, you know,
+between asking and actually
+building that whole thing.
+>> Yeah.
+So, Sam's asking if
+what's the, what's the minimum
+you can actually get away with
+to validate, given that you
+can't actually just go and
+ask them is this good or not?
+and, it's, it's highly
+dependent the answer to
+that is highly dependent on
+the particular feature.
+But, usually the, the best
+thing you can do is, is, is,
+really just hack something
+together, right?
+It's, you find, if your, if
+your idea is to build
+something on top of Google
+Docs, don't, for your V1,
+go rebuild, an awesome Google
+Documents, but
+for note taking application.
+Find a way to write a browser
+extension, that, that,
+that stuffs just that little
+bit of incremental feature in,
+and, and see if it's actually
+useful for people.
+go, like actually, go,
+go find a way to cheat is what
+it comes down to,
+because if you can't actually
+put it in front of people
+it's really, really hard to to
+find that out.
+For bigger things, where
+you're actually trying to,
+get people to spend money, it
+actually gets a lot easier.
+So, if you're selling it it's
+great actually sales is
+this cure all for this
+problem.
+Get people to put, give you
+their credit card and
+I guarantee you they're
+actually using the feature.
+It's it's one of the most
+validating thing you
+can do for a product, is go
+out there and
+actually get them to commit to
+pay you up fron.
+And, the problem is when
+you're working on
+a student note taking app,
+that's going to be
+relatively hard because you
+probably unless your idea is
+that you're actually going to
+sell it.
+It's probably something where
+you're thinking at least the,
+if the trial version's free,
+and you're not necessarily
+going to learn that much by
+trying to charge people money.
+But, if you go out there and
+you can, if you can get people
+to say hey I'm going to,
+I'm going to give you money?
+The money test is amazing, it
+really does clarify whether or
+not, they're rereally excited,
+because if you're not
+five-dollars-excited about it,
+you're probably not very
+excited about it.
+so, the last thing I wanted to
+do was actually work
+through with you guys, what
+happened at Twitch.
+So I brought some slides of
+feedback that I would like to
+get put up.
+It's my, my only slides for
+the for the thing and it's,
+it's.
+What it is it's,
+it's, it's representative
+excerpts of Twitch feedback.
+I had a whole like,
+26 page document full of all
+the feedback.
+And then, I realized that
+reading that was going to be a
+little bit tedious and
+there was no way I'd make it
+through it in a lecture.
+So, pretend that like this is
+stuff is all representative of
+like, lots of people sent this
+kind of thing out to,
+to ask for me ask them
+questions.
+And, I've already pre
+condensed it for
+you in to the real feedback
+you got.
+So, when we were working on
+Twitch to go launch it,
+we we wouldn't talk too
+much about existing Justin.tv
+Broadcasters and asked them.
+About their experience
+broadcasting,
+what they liked about
+broadcasting,
+why they broadcasted, what
+they broadcasted,
+what else was going on in
+their life.
+And, the interesting thing is
+when you talk to users of
+your product who are,
+who are detailed users of your
+product, they come back to
+you with actually very detail
+things about features.
+Because they actually get
+mired in the feature and
+you have to sort of read
+between the lines.
+But they asked for first
+things like I want to be
+able to, way to clear the
+banlist in my chat room.
+Like, this, that was actually
+a very
+common request because there
+was
+a particular issue with how
+our chat rooms worked.
+People had asked for the
+ability to edit the titles of
+highlights after creating
+them.
+And, and it's,
+it's, the, this was like, this
+stuff was really consistent.
+As we talked to broadcasters,
+you probably talked to 12 fif,
+fo, 14, something like that
+broadcasters from the
+Justin.tv gaming platform.
+We got, we got all this
+feedback and,
+you know, what else do we
+have?
+We have your, your competitors
+have all these cool features
+like polls and scrolling text,
+you, I can personalize chat
+there and so, we have some
+positive feedback.
+They're like, oh, you guys
+don't have ads, that's great.
+I need to be able to ban.
+So, a bunch of stuff around
+chat.
+A bunch of stuff around
+interactivity with,
+with interactivity with the
+with their viewers.
+And, that was all really
+interesting.
+So, this was what the, this is
+what the Justin TV
+broadcasters wanted us to
+build.
+And, this is what they, what,
+what, where they felt pain
+using the, using the product.
+And so, if you thought that
+what we
+did was going to address these
+problems, you would be wrong.
+Because, actually, people who
+are using your service already
+and are willing to put up with
+all these issues, kind of,
+kind of means that
+these are probably not
+actually the biggest problems.
+Because if you're willing to
+ignore the fact that you can't
+edit the band lesson, titles
+are uneditable, and
+there's no way to get trolls
+out of your channel.
+And, you're using the service
+anyways,
+maybe those aren't huge
+problems.
+And so, that sort of
+brings up another really
+important point.
+Which is, you have to compare
+you have to
+compare groups of people, and
+compare the level at which
+they they argued with us.
+So, if you go to the next
+slide yes.
+Nice.
+We got competitor broadcaster
+feedback,
+which is really interesting.
+So, this is stuff that you've,
+we heard a lot from people who
+are using other broadcast
+platforms.
+They wanted to be able to
+switch multiple people onto
+their channel at the same
+time.
+they, they complained about us
+not
+having a rev share program or
+they talked a lot
+about how they're trying to
+make a living.
+They really wanted to make
+money pursuing this
+pursuing this gaming
+broadcasting thing.
+And, they talked a lot about
+video stability.
+Our service wasn't good in
+Europe specifically but, but
+just globally, video stability
+is this huge,
+huge issue for them.
+And if you compare and
+contrast actually, it was
+really different.
+Like, the things that people
+who
+didn't use our service said
+about what they cared about,
+was completely different from
+the things that people who
+were using the service cared
+about.
+And we focused on this stuff
+because this was
+the stuff where, it was so bad
+that they
+weren't even willing to use
+our service because of it.
+And most of
+them actually had thought
+about this because we were,
+our user base happened to be a
+very well educated user base
+in the area who knew about all
+their options for, for this.
+And, they would, they
+actually, you know,
+reaching out to them meant
+they could,
+they probably already tried
+all four services and
+actually had an opinion.
+It's great when you can users
+who are that,
+that informed and that,
+that, they have understand the
+space that well.
+And and if you go to the.
+I'm just going to go to the
+next slide.
+Yeah.
+Here we go.
+The other big thing we did
+that I thought was
+really important was we talked
+to non-broadcasters.
+so, we went up there and
+we talked to all the people
+who weren't using us
+or competitors.
+And in many ways,
+those are the most important
+people, right?
+Talking to your competitor's,
+that's your short term win,
+right?
+Someones using a competing,
+piece of competing software
+unless your piece of competing
+software is something like
+Google, which is a search
+engine, which everyone uses,.
+Okay.
+Then,
+there are no non-users to
+convert.
+But, in the case of gaming
+broadcasting,
+almost everyone's a non-user,
+right?
+The, the majority, this is
+true for most new products.
+The majority of people you're
+computing with are non-users.
+They are people who have never
+used your service before.
+And, what they say is actually
+the most important.
+What they say is, is the thing
+that blocks you from expanding
+from a, a, expanding the size
+of
+the market with your features,
+right?
+If you, all you do is look at
+your competitors and
+yourself, and all you do is
+talk to your,
+you know, your people who use
+your competitors products.
+People who use your products.
+You can never expand.
+Well, not never.
+But, you're not learning the
+things that help you
+expand the size of the market.
+You want to talk to people who
+aren't even trying to use
+one of these things, yet.
+Who, who have thought about
+it, maybe.
+But, who aren't who aren't
+into it.
+So, what did they say?
+My computer isn't fast enough.
+I'm focused on training 12
+hours a day for
+the next tournament.
+I like making the perfect
+video, and like, editing it.
+And so, I just upload things
+to YouTube.
+I don't do live streaming.
+I don't, I, I, I have no
+desire to,
+to go into that space.
+or, or this is actually,
+particularly in Korea, this is
+a big problem.
+Once our strategy gets
+broadcast in
+a major tournament, we have to
+start over.
+We have to like, come up with
+an entirely new strategy.
+And so, the last thing we
+ever'd want to do would be
+broadcast our practice
+sessions, are you crazy?
+That's going to hurt us in the
+next big tournament.
+And so, this became,
+this became a big outreach
+program for
+us, trying to figure out how
+we can get people over this.
+We bought people computers.
+We ,.
+We worked really closely with
+gaming broadcast,
+software companies to help,
+the who,
+who made the broadcasting
+software to make that better.
+We started building
+broadcasting into games and
+into platforms, like we built
+broadcasting into the Xbox,
+we built broadcasting into the
+Playstation 4.
+Because we wanted,
+needed to overcome this issue
+that, like,
+it was too hard, broadcasting
+wasn't, wasn't possible.
+And so you sort of combine
+these, for us, these
+are three, three big groups we
+looked at for broadcasting.
+And you combine that feedback
+and
+what it tells you is not the
+features to build.
+Right?
+Because the, the features they
+asked for things like polls
+things like
+a you know, the ability to
+have child account.
+Like, child accounts in your
+account.
+We haven't built most of that
+stuff.
+But what was important were
+the, were the, the issues,
+like the goals they were
+trying to accomplish there.
+People wanted money.
+People wanted stability and
+quality.
+People wanted universal access
+for
+viewers all around the world
+to be able to watch them.
+And so that became our focus,
+actually.
+And we dumped almost all of
+our resources into things that
+none, no one ever mentioned in
+an interview.
+But, those are the things that
+actually address the problem.
+And, and the way you could
+tell that it worked is, was as
+we, we would build these
+things, and then we would go
+back to this exact same people
+we interviewed and say hey,
+you told us you really cared a
+lot about making money.
+Well, we built you this
+subscription program,
+that will let you make money.
+And, it, it, it's astonishing
+because most people aren't,
+have never had that
+experience, actually.
+They've never talked to
+someone and
+said it would be really great
+if your product had feature X.
+And then, and then, like, two
+months later or
+a month later, your product
+actually has feature X.
+Or at the very least,
+a feature that addresses the
+problem they brought up.
+And so, it was actually, the,
+the people we converted first
+to our
+product are the people that we
+talk to about user research.
+They are the ones who were
+actually the most impressed,
+which is kind of fun.
+But it really worked, because
+those,
+we picked people who are
+representative.
+We picked big broadcasters,
+small ones, medium ones.
+And we, we made sure we were
+addressing their concerns.
+And that, that was completely
+different from how we'd
+approach the problem on
+JustinTV.
+Because in JustinTV, when we'd
+try to do this,
+we'd, we'd sat down.
+We trolled through huge
+amounts of data.
+Like we, we spent tons of time
+looking at Google Analytics.
+Looking at mixed panel.
+Looking at in-house analytics
+tools.
+Figuring out how people use
+the service.
+Looking at where our traffic
+came from.
+Completion rates on flows.
+We spent all this time doing
+that.
+And that's good, I mean, you
+can learn things from that.
+I'm not telling you not to
+look at your at your data.
+But it doesn't tell you where
+you need to go.
+It doesn't tell you where,
+what the problems are you need
+to address.
+And so we would just sort of
+invent these ideas in
+JustinTV.
+And then, nine times out of
+ten,
+without talking to someone,
+the idea turns out to be bad.
+And that's just one of those
+disappointing things about
+doing user interviews and user
+feedback.
+It's why, I think, so many
+people don't do it, which is,
+you're going to get negative
+news about your,
+your favorite pet feature most
+of the time.
+Like, you're going to have
+this great idea,
+and you're going to talk to
+the user, and it's going to
+turn out that that nobody
+actually wants that.
+Like no, no one's actually,
+they're actually completely
+concerned about completely
+different things and
+they don't care about what you
+thought was important at all.
+And and that's a little bit
+sad but just, just think about
+how sad you'd be in four
+months when you launched that
+feature and it turns out no
+one actually wants to use it.
+So think that's about it for
+my the lecture section of what
+we're we're talking about.
+I want to take some questions
+from the audience.
+>> What you see startups get
+most wrong about?
+I mean, most startups don't do
+them at all, but
+the ones that do what are the
+most common mistakes?
+>> I'd say, the most common
+mistakes are,
+showing people your product.
+don't, don't show them you're
+product.
+It's, it's sort of like
+telling them about a feature,
+you want to learn about what's
+already in their heads, your,
+you want to avoid putting
+things there.
+The other thing is, asking
+about your,
+your pet feature direction, so
+if you think you want to add,
+add subscriptions to your
+product.
+Going and asking people would
+you pay for a subscription.
+Going and asking them, would
+you use this feature.
+And I'd say the the other big
+mistake people make is
+talking to who's available
+rather than talking to
+who they need to talk to.
+There's certain users that are
+really easy to get at,
+because they are say, members
+of your forum already.
+Right?
+You have some product forum,
+and you talk to the users on
+that forum because they're,
+they're easier to get access
+to.
+we, we spent like weeks
+digging for
+identity information, and
+figuring who these people
+were.
+So we could contact them, so
+we could talk to them.
+Because a lot of these people
+weren't, it wasn't obvious.
+They were just some user on a,
+on a site.
+And if that site didn't
+support messaging, there was,
+like, no obvious way to
+interact with them.
+And so we spent a bunch of
+time trying to network, and
+find those users, and bring
+them on.
+Because if you, if you just
+talk to who's easy to talk to,
+you're not really getting,
+getting the best data.
+The fortunate side there is
+that almost everyone is
+flattered to be asked what
+they think.
+And so most of them will
+actually talk to you and
+tell you things.
+Yeah?
+>> How hard is it to
+get buy in from the rest of
+your company?
+I mean, like, you can go and
+be like, whatever, I'm in
+charge.
+So you're doing what I say.
+But it's probably not the best
+way of doing it.
+>> Mm-hm.
+>> So how did you get them to?
+>> That's a good question.
+So the question is how hard is
+it to get buy in
+from the rest of the company
+and how do you do it?
+Getting buy in if you just go
+to them and
+say, I figured out, I talked
+to the user,
+I figured it out we have to
+build this.
+Is really hard.
+Because people don't trust
+you.
+There's something magic about
+showing them in
+the interview though.
+So I really recommend you
+record interviews.
+Recording interviews is like
+magic.
+A, it stops you from taking
+notes in the middle.
+And taking notes is a little
+bit disruptive.
+It makes it harder for you to
+feel like you're actually
+engaged in the conversation.
+And b, you can then play that
+recording for people.
+So when, when they don't have
+to be there for
+the entirety of all of the
+interviews.
+But when you want to make a
+point about what,
+what we should be building and
+why.
+You just playback for the rest
+of the company that interview
+and it's it's like magic the
+influence it has on people's
+thoughts and what's what the
+right thing to build is.
+Yes.
+>> Since you mentioned
+recording did you try to
+insist on
+doing Skype interviews rather
+than over email or?
+>> What was your impression
+of?
+>> Yeah.
+So you definitely want to do
+Skype or sorry the question
+was,
+do we insist on Skype
+interviews for recording.
+You don't want to
+do interviews over email if
+you can avoid it
+because interviews over email
+are non interactive.
+And the most interesting
+things you learn in
+interviews come from the
+interesting, tell me more.
+because the instant that you
+hit, you hope this vein of
+they'll say something you
+didn't expect, and
+the instant they say something
+you didn't expect or didn't
+already know, you should drop
+into detective mode, and
+detective mode is huh, that's
+interesting.
+Can you tell me more about
+that?
+And people don't like silence,
+so
+they'll keep talking to fill
+the void.
+And the best part about doing
+it over Skype or
+doing it in person is you have
+that interactive feedback.
+And you can actually pull a
+lot more out of people.
+E-mail interviews are, they're
+okay.
+But they're basically useless.
+If you're in person or
+over Skype, they're actually
+also easy to record.
+Make sure you ask them if it's
+okay to record it.
+It's not polite to record
+people without their consent.
+But if they're willing to like
+give you like an in,
+a user interview, they're
+probably willing for
+you to record it as well.
+>> Sorry, but what about the
+international market?
+Like you mentioned if that you
+had a lot of
+interviews in Korea, and
+I don't know maybe feel
+comfortable with English, or.
+>> Yeah, so the question is
+like what about people in
+the international market where
+you're trying to do
+youth interviews with people
+who don't speak your language.
+That's just really hard.
+And actually to this day
+Twitch works way better in
+English speaking countries
+than it
+does in non English speaking
+countries.
+And I think a big part of that
+is, we are much better at
+talking to people in English
+speaking countries, and
+learning what their needs are.
+And we're not as good at it,
+in other countries.
+We've tried to address that by
+hiring people who speak
+Korean.
+Having them translate.
+We've tried to address that
+by, finding representative
+people in those countries who
+speak both English and
+Korean, and reaching out to
+them.
+But the problem with that, is,
+like the, you're
+not actually getting a
+representative sample.
+No matter how hard you try.
+The very fact that they are a
+fluent English
+speaker means they're not
+representative of
+all the people who don't speak
+fluent English.
+It's just a hard problem.
+It's why companies find it
+easier to wi,
+build markets that went in
+their home,
+in their home country.
+Much more easily than abroad.
+Because it's really hard to
+talk to users abroad.
+Yes.
+>> What channels did you use
+to reach out to them, and
+do you ever compensate them?
+>> So the channels we used to,
+what channels did we use to
+reach out to them and
+what did we ever compensate
+them?
+The channels we used to reach
+out to them,
+were, on site messaging
+systems.
+So like, if you're, most site
+websites have some way to
+contact the user, so if
+they're a visible user of
+another website you use that
+sites messaging system and
+say hey, I was watching your
+stream, or
+whatever this person was doing
+on the site.
+I'd love to ask you some
+questions about your use
+would you mind hopping on a
+Skype call?
+And as for, the other thing we
+do is we find out who people
+were and we send them emails.
+we'd, like, rented some at
+events.
+because a lot of these people
+go to the same events and we,
+like, would go to the events
+and,
+like, get, we wouldn't run the
+user interview at the event,
+but you get to know them, you
+exchange business cards or,
+you know, whatever it is you
+actually do now aren't,
+isn't business cards.
+And, and you, you get in touch
+with them.
+We tended not to compensate
+people.
+I think that if you, if no,
+if people don't care enough
+about the problem to,
+like, talk to someone who's
+trying to solve it.
+You're probably barking up the
+wrong tree.
+We never had any trouble
+getting people to
+talk to us about paying them.
+>> What about on site user
+feedback tools?
+Do you get a little feedback
+from that?
+>> So, so there's this whole
+second set of user feedback
+that's really important, that
+I should talk about,.
+The question was,
+what about, like, on site user
+feedback tools?
+And I think this stuff you're
+talking about is
+where you have like a, a new
+product and
+you want to see how, if it's
+actually going to work or not.
+And so you put it in front of
+people and
+you see how they use it or
+not.
+That's really important.
+That kind of work is super
+important and
+it can tell you lots of things
+about where you went wrong
+building something before you
+launch it, which is great.
+It doesn't tell you what to
+build.
+It it helps you iron out the
+kinks and
+edges of the thing you did
+build.
+But generally speaking we that
+wasn't kind of the user
+feedback we were getting I
+mean that's stuffs good
+it's good it's like it's much
+more similar to the,
+to the data driven approach.
+Right?
+You're finding out,
+why are people dropping off in
+this flow, you're not
+finding out what problems
+should I really be solving for
+them, and what, what do they
+care about as a human.
+And, for
+this kind of like really early
+stages interview which
+the kind of user interview
+that's crucial startups do,.
+>> That's the, that's where
+you want to focus, so
+we didn't bring on site
+actually it
+almost all over phone or
+Skype.
+Yes.
+>> So for the three different
+groups of people there are
+different kinds of feedback so
+as a startup time and
+resources, is that a good area
+to focus on first?
+>> Yeah.
+So
+with the three different kinds
+of people did we focused on
+one of them given that we had
+very limited resources, yes.
+We focused on the competing
+people using
+competing products.
+Because, we knew that they
+already were interested in
+the behavior that we needed
+and
+they were willing to do it at
+all.
+And therefore all we had to do
+is convince them to switch,
+which is a much easier thing
+to do than to try to
+create new behavior where none
+existed before.
+And we had to do that because
+we had to get some quick wins,
+because my gaming project
+inside of
+Justin.tv would have been
+killed if it wasn't
+showing 25% month over month
+growth every single month.
+So we did, and that meant
+focusing on
+short term get the people in
+right now.
+And that turned out to be good
+in general because it turns
+out that building something
+that some people want
+generally generalizes and so I
+want to bring in
+people who weren't even users
+of the service as well.
+Yes.
+>> Twitch has been around from
+the beginning so
+it filled up, for example the
+video game industry.
+In the beginning this industry
+was very like, decentralized,
+like there wasn't a lot of
+cohesion with like, you know,
+different video game
+companies consolidating where
+tournaments are and stuff.
+But now it's very different.
+So you said originally you
+spoke to like broadcasters and
+you know streamers themselves,
+how does that change when
+like, for example like Riot
+has you know, banned users or
+professional players from
+streaming their own stuff.
+Have you tried to you know,
+gain leverage with that or?
+>> Yeah, so the question is
+what about the game publishers
+basically, right?
+The game publishers is huge
+important people in this
+space.
+a, the game publisher is and
+any big company for
+that matter isn't going to
+give you the time of day as
+a small start up.
+Which is both good and bad.
+It means you don't really
+need,
+need to talk to them because,
+they're they're not interested
+in you.
+But it means you actually just
+can't talk to them,
+I mean we tried but no one
+wanted to talk to us.
+And they did once we started
+getting some traction and, and
+becoming a little bit,
+slightly bit of a player in
+the space.
+I don't want to like, talk
+that bad about of them
+because they, they, they were
+nice about it enough about it
+it's just that you know, when
+you're, when you're
+a tiny little start up there's
+lots of tiny start ups and
+they, they don't have the time
+to talk to all of you.
+As we've gotten bigger
+actually the point that,
+you know, game publishers have
+become an increasingly
+important constituency for us.
+And if I was to talk about who
+Twitch does user interviews
+with now, who we who we pulled
+information from now it would
+include game publishers
+definitely because they'd be,
+they've become much more
+active in the space.
+It was something that they
+weren't particularly active
+three or four years ago as
+much as they are now.
+And that's another really
+important point about user
+interviews in general.
+Which is that the pool of
+people you care about is
+going to shift over time.
+The people who get you
+started,
+like the crucial people to get
+your product started for
+the first six months,
+are not who will be using it
+three years later.
+And it's very important you
+keep, doing this stuff.
+Because one thing that's
+really easy to do,
+is to do a little bit of it in
+the beginning.
+And, and achieve some level of
+success, and then you sort of,
+stop talking to new people.
+And that's a good way to make
+the, the next set of
+features you build be not as
+good as the first ones.
+>> How about one more
+question?
+>> Yeah.
+Yes?
+>> How do you give good user
+feedback, if you're a user?
+>> so, how do you give good
+user feedback,
+it's a really good question.
+So I think what I, what I want
+a user to do is I
+want a user to tell me about
+what they, like,
+what they're really thinking,
+right?
+And what, what, what they're
+problems really are.
+And to just sort of ramble.
+Like I want someone to just
+tell,
+tell me about stuff in their
+life.
+Because the, the more you
+learn about them as a person.
+And sort of the, the, their,
+what's going on in the context
+of what they're doing the is
+easier to understand why they
+want the things they want.
+And that's really the critical
+question.
+So I'd say like, you know,
+what I'm looking for in a,
+in someone, when I'm doing a
+user interview, it's someone
+who is going to be willing to
+talk a lot and be willing to,
+to really give me a full, give
+me a full picture.
+So that's what, I guess on the
+flip side,
+if you want to be a good, if
+you want to help people out
+with good user interview
+feedback ramble, like, be,
+just, just talk about stuff
+and everything.
+All right, great.
+Well, thank you very much.
+>> Thank you very much.

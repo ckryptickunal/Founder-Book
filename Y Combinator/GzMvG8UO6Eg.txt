@@ -1,0 +1,647 @@
+Title: Chad Rigetti at Startup School SV 2016
+Video ID: GzMvG8UO6Eg
+URL: https://www.youtube.com/watch?v=GzMvG8UO6Eg
+Channel: Y Combinator
+Published: 2016-09-29T18:26:54Z
+Duration: PT24M2S
+Views: 36088
+Likes: 431
+Tags: YC, Y Combinator
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 630
+
+============================================================
+TRANSCRIPT
+============================================================
+
+everybody our next speaker is Chad retti
+from retti Quantum Computing retti
+Quantum Computing went through YC in the
+summer of
+2014 um at that point they had nothing
+uh they are now one of the leading
+Quantum Computing companies in the world
+and next year well I don't know exactly
+when they are getting close to a Quantum
+Supremacy machine uh I have a particular
+love for the startups where they're
+trying to do something it's not clear if
+it's technically possible but if they do
+uh it changes the world and it just goes
+nothing nothing nothing nothing and then
+everything is different uh these
+companies are super fun to work with uh
+and I think they're super fun to work on
+which is why I'm so excited Chad's here
+to tell us about retti and also hard
+technology startups in general um and
+why it's okay if you don't have a growth
+graph every week uh sometimes you just
+work and work and work and then
+everything comes
+together um Chad come out here because I
+have a question for you so Chad and I
+met on the streets uh of San Francisco
+in uh walking around the financial
+district in 2014 and Chad had not yet
+started his company but was thinking
+about it and Chad and I have actually
+never spoken about this again but I
+think I hope you remember this um I
+think Chad thought I was really crazy
+because we got into a long conversation
+about this simulation hypothesis and if
+a building a quantum computer was
+actually really bad because it would use
+a lot of resources uh to emulate and
+shut down the
+simulation did you think I was really
+crazy it was a very interesting
+conversation is that like a really nice
+you can say yes I didn't think you're
+crazy but I had just moved to San
+Francisco into Silicon Valley from New
+York City and that is not a conversation
+you can have in New York City without
+people thinking you're crazy uh but I'm
+an open person and I you know I like to
+learn so I was very interested in this
+hypothesis and it was an amazing
+conversation it was very fun all right
+well I hope the company works and I hope
+the simulation does not shut down um
+great thank you that will help all right
+so Chad is going to talk to us about
+retti thank you for coming Chad awesome
+thank you so much
+Sam all right I'm incredibly excited to
+be here today and to talk with you guys
+um I'm also incredibly honored so thank
+you very much Sam and Cat and YC for
+having me uh giving me the opportunity
+to talk with you guys so this uh as Sam
+mentioned when we joined Y combinator in
+summer 2014 we had nothing uh we had not
+built a single Cubit the fundamental
+like building block of a computer we did
+not know how we were going to build
+cubits uh I knew what they needed to
+look like and I knew uh what the
+fundamental requirements were in fact
+I'd been working in the field for
+already about 10 or 12 years in Quantum
+Computing um and uh this is a 5 Cubit
+quantum computer that we have built at
+retti computer
+uh it's less than 2 years later and uh
+we're about 35 people in a warehouse in
+Berkeley uh about 20 some phds and we're
+building cor computers and we're in a
+race uh to Define this technology for
+the next 20 30 40 years and it's
+incredibly fun it is a kind of thing
+that gets you up in the morning and is
+worth spending your life
+on humans are building humans have been
+building tools and Technology to store
+and process information for Millennia uh
+I like to think of the Sund dial as the
+original computer it takes an input and
+it tells does something useful with it
+and tells you the time uh from the
+Sundial to the Abacus uh and then things
+like the babage Difference Engine which
+you can go see at the Computer History
+Museum it's amazing and you should do it
+um to Punch Cards those are all systems
+based on Newtonian mechanics and every
+time our understanding of nature Evol
+evolves and develops further we had a
+deeper level of understanding our
+technology progresses as well so uh many
+great companies were born of this first
+transition that I'm talking about on the
+slide uh IBM started as a Computing
+tabulating and recording company they
+made punch punch cards and time clocks
+uh they were kind of born out of this
+first transition into the microchip era
+and uh they they you know they blossomed
+and evolved and survived through the
+through this time to grow into a very
+very large company other companies that
+drove that first transition uh who was
+it
+Fairchild Intel and then what's been
+born in the era of the microchip well
+almost everything we see around us it's
+driven the global economy for the past
+50 or 60
+years that's incredible the amount of
+Leverage you can get from a Computing
+technology is massive and you know what
+we've known since 1905 that beneath uh
+there's Newton's laws on one hand and
+then beneath that there's kind of
+Maxwell's equations and we've known
+since 1905 that there's a fundamental
+description of Nature and that's quantum
+mechanics uh at rietti Computing we're
+driving this next transition from
+microchips to those systems based on
+individual atoms or artificial atoms
+that we build in in in the lab uh and
+that that's a very exciting opportunity
+for for us so why is it worth doing this
+this sounds incredibly hard why is it
+worth uh trying to build quantum
+computers in the first place well the
+kind of problems that these machines
+will solve
+are incredibly impactful they fall into
+two broad categories we think of them in
+in kind of two broad categories on the
+one hand you have a class of
+applications that we think of as quantum
+chemistry so what you're doing in this
+case is using the quantum mechanical the
+the quantum computer as a tool to
+investigate other quantum mechanical
+systems it turns out that that's almost
+everything uh in science uh medicine
+Material Science this is stuff that's
+going to lead to better drugs
+uh better materials better nuclear
+reactors highly impactful technology why
+are we doing this because if you can you
+you build a Quant computer you can do
+simulation driven design of new
+catalysts Catalyst to capture carbon or
+nitrogen from the atmosphere it can help
+solve global warming this is an
+incredible incredibly broad technology
+uh the other bucket of applications uh
+is is machine learning and artificial
+intelligence so in this case what you do
+is learn to embed a learning problem on
+a classically intractable physical model
+that you can simulate on a quantum
+computer that's a mouthful what it means
+is quantum computers are going to lead
+to fundamentally more powerful forms of
+artificial
+intelligence so when I say more powerful
+what do I mean uh does anyone recognize
+this H it's on the slide so this is ton
+he
+2 uh this is until about three months
+ago was the most powerful computer on
+the planet it cost about $400
+million it burns about 20 megawatts of
+electricity you guys know how much
+electricity that
+is it's enough to it's enough to power
+about it's enough to power the town I
+grew up
+in about 20,000
+households it's about half the size of a
+football field it's based on 3.2 million
+Intel cores
+so there's two problems with this
+ultimately our approach to building
+large scale computers is starting to
+break and there's two problems the first
+is that Moors law is ending that's been
+happening for a long time lateral
+transistor scaling the fundamental
+measure of Moors law has sort of leveled
+off for the past eight years the other
+thing is something that I hope you've
+all heard about in your computer science
+class is called omd's law omd's law
+talks about the limiting benefits or the
+diminishing returns of parallelization
+these are massively parallel machines 3
+2 million cores running in parallel only
+problems that can be parallelized run
+fast on these kinds of machines uh
+there's a fundamentally better way now
+President Obama has shown some
+significant Vision in uh sort of driving
+uh a return of American leadership and
+high performance Computing and he has
+said said that America is going to build
+an exascale computer something about 30
+times more powerful than ton 2 by 2020
+that machine will cost about a billion
+dollars with current technology and it
+would require a nuclear power plant to
+run
+it we're going to do it and we need to
+but there's another
+path ultimately when you can compute
+with quantum physics you have a faster
+and cheaper path to that level of of
+computing power how is that possible
+well these are two developmental systems
+in our lab in Berkeley these are what
+you see in the big white cans are
+cooling systems every high performance
+computer has a cooling system these ones
+are very powerful these runs at low
+temperature uh inside each of those
+cooling systems is a single chip when
+this picture was taken we had a 5 Cubit
+processor in that
+machine a single chip with about 60 or
+70 cubits on it would be more powerful
+than that entire half a football field
+side size machine that's what Quantum
+Computing
+unlocks uh
+so this is a true hard tech
+startup and one of the challenges that
+hard tech companies I'll talk about this
+more in a moment brings is this
+challenge of operating in in an arena
+that is not well- defined that does not
+have a welldeveloped supply chain you
+know what you want to do but the
+capabilities to do it do not exist or
+not commercially or or easily accessible
+we've had to develop all of the building
+blocks the entire supply chain for this
+technology what does that mean for us we
+have developed new new simulation driven
+design methods to actually devel design
+these Quantum chips uh we had develop
+our own Fab our own microfabrication
+capability uh We've developed advanced
+electronics that allow you to control
+these these chips you can think of a
+quantum computer something like a
+nuclear reactor where you have the core
+the N you know where where the
+reaction's happening that generates all
+the power but then there's this really
+complex traditional engineering system
+around it that stabilizes it and
+extracts a computational capability and
+that thing is very expensive and it
+requires very Advanced control
+electronics and then ultimately uh we
+serve access to these machines over the
+cloud and so we have to have Cloud
+software and applications and that's a
+lot of work there's a lot of different
+things you got to tie together in one
+organization to do
+this
+uh this slide is frankly a synthesis of
+the past 15 years of my life I've been
+working on this problem my entire adult
+life uh I was a junior in college in
+Saskatchewan Canada
+and really that's
+amazing where are y'all from
+oh wow moja here Mo
+um I was I I was a junior at the
+University of reg Regina in Saskatchewan
+Canada and a physics major I was
+incredibly frustrated I was very very
+frustrated because I didn't understand
+two basic things that I thought every
+human on the planet should understand
+what's quantum
+physics and how do computers actually
+work how do they actually store process
+represent information
+about the same time I read about a field
+called Quantum
+Computing I like to synthesize things I
+thought this was amazing there's one
+field that I can learn instead of having
+to learn two this makes life so much
+easier I've been working on that ever
+since and that was in
+2001 uh I heard about these people at
+Yale University that had an idea for
+building quantum computers uh you can
+build these things out of real
+individual atoms or
+ions that's really hard because
+individual atoms or ions are extremely
+tiny and very very hard to control they
+said why don't we build these things out
+of special electrical circuits based on
+superconductors that have no dissipation
+and build them in such a manner that
+they mimic real atoms build an
+artificial atom out of an electrical
+circuit I like that that's amazing
+that's such a great idea because what's
+going to happen is you're going to be
+able to leverage all of traditional
+semiconductor manufacturing capabilities
+you're going to be able to build a
+scalable T chip technology someday based
+on those superc conducting cubits I
+spent about seven years with those uh
+with that group at Yale I was a PhD
+student at postto uh I spent about three
+years in doing further research at IBM
+in Quantum Computing and in 2013 I
+started retti Computing to develop
+Quantum integrated circuits and that's
+what we've done so this is the jump on
+my second slide this is the leap from
+Newtonian plus Maxwell's equations to
+Newtonian plus Maxwell's equations plus
+Short's equations quantum physics and uh
+ultimately I want to offer you a work
+working definition if there's any
+physics majors in in the audience I want
+to give you a working definition of a
+quantum computer quantum computers store
+and process information in individual
+photons that's
+it
+um your iPhone the iPhone 7 uses about
+100 billion photons per bit processed it
+may be as much as 10 the 17 uh and 100
+billion photons per bit
+transmitted this is far more efficient
+technology okay so I want to talk for a
+moment about the distinction between a
+hard tech company and a tech
+company first of all when I say hard
+tech I don't mean it's harder although
+it feels
+harder what we mean
+is every company and look at the company
+on this slide these are incredible
+organizations incredible incredible
+organizations incredible companies
+incredible products incredible Founders
+these are all incredibly hard
+things there's one distinction a hard
+check company has to deal with in includ
+in addition to all of the tech execution
+Market risk all the standard things all
+the gauntlet that you have to steer your
+organization through to survive
+fundamental questions of possibility you
+have to deal with that when you're a
+hard tech company that is the
+that is the signature of a hard tech
+organization
+now there's two things I want you to
+take away from this the first is that
+well with all of that risk we're saying
+it might not even be
+possible why the hell are you going to
+do that why the hell is anyone going to
+invest in your company if it might not
+be possible to even do
+it why is it worth
+it if you're not sure it's possible well
+there's two things you get from my
+perspective the first
+is if and when you are successful you
+create Monumental leverage and
+defensibility I think of the Manhattan
+Project as a canonical hard tech
+organization look at the
+leverage they
+created that's incredible the Apollo
+missions when President Kennedy said in
+1961 as a nation we're going to put a
+American on the surface of the Moon and
+return him safely to Earth by the close
+of this
+decade that was an epocal moment for
+mankind that's the kind of story that
+isn't written in quarterly reports and
+spreadsheets that's written in heroglyph
+on Cave
+walls that's the kind of
+stuff that stirs the
+heart that's what you get when you do a
+hard tech
+company and that is so
+powerful I want you to notice something
+on the slide look at these amazing
+companies at some point the
+defensibility and leverage that hardtech
+provides and the incredible passion that
+you engender uh by working on problems
+of that scope and impact leads
+organizations on the left to pushing
+into the into hard tech in order to
+access those things
+think of
+uber moving into self-driving cars think
+of Google with now 100 seedlings hoping
+to turn something into a long-term
+defensibility Microsoft buil software
+and has started working on Quantum
+Computing that's what you get with a
+hard tech company now there's also
+significant challenges and I want to
+talk about three of them for a moment
+team communication and integration so
+first of
+all building an organization that has
+world's experts in XY
+Z all of the things that you need to
+master as an organization is incredibly
+hard it comes with its own set of
+challenges you're going to have to
+interface to the best scientists and
+Engineers on the planet in those various
+Fields you're going to hire them you're
+going to have to bring them all into one
+company and you're going to have to find
+a way to impedance match them to allow
+them to talk to each other and under the
+roof of one
+organization and that leads into this
+integration
+challenge integrating an organization
+that does all these disparate things we
+have people on the team uh we have a
+road scholar uh who's been doing
+research in Quantum Computing for 10
+years and is 27 years
+old uh we have tenured physics
+faculty we have someone teaching a
+course at keltech who built the
+communication systems on the Mars rover
+missions
+we have an incredible organization and
+one of the problems we've solved that
+that we we have people who can all have
+a conversation together because they all
+have developed a shared language that
+level of integration becomes a long-term
+weapon for your organization huge amount
+of uh value can be created by
+it now
+communication we're not doing this
+because Quantum Computing is
+interesting we're doing this to cure
+cancer and to solve global
+warming how you talk about what you do
+as an organization is incredibly
+impactful I encourage you to spend a lot
+of time thinking about
+it I did this a few years ago and I
+decided that our mission as an
+organization when there were three
+people in the company was we're on a
+mission to build the world's most
+powerful
+computer it gives you something to sink
+your teeth into it's a little more
+tangible than
+photons we did this exercise again in
+the in the past month uh with with the
+team fully built out well partially
+built out at this stage and uh we got to
+the same
+thing it's really amazing why are we
+doing it we're bu we're building the
+most powerful computers in the world to
+solve Humanity's most important and
+pressing problems that's a rallying cry
+that can be very impactful for your
+organization now the other thing you get
+with integration is the opportunity to
+create all this defens ability so the
+chip the quantum integrated circuit is
+one part of it that gives you an Intel
+kind of business for the quantum
+Computing era we're not stopping at that
+because no one is competing at all these
+different levels today and we have an
+opportunity to build Moes around the
+entire thing the next layer up is to
+build the system become do Master System
+integration that's an IBM style business
+and then ultimately to own the software
+and platform uh add in the Microsoft
+style business ultimately I want to go
+full stack and also include the Google
+style business of applications and and
+designing new drugs to to save people's
+lives all right
+so before I move on to this
+I want you all to do something for
+me I want you to do this one thing for
+me I want you to take 10 minutes today
+after this at the break when you go home
+today during your meditation whatever
+you want to do I want you to take 10
+minutes and look in your heart and I
+want you to ask yourself the question
+what kind of company do I want to join
+or found what kind of organization
+resonates with me and when you do that
+spend that 10 minutes when you do that
+some small fraction of you it won't be
+many some small fraction of you will say
+you know what I want to do the thing
+that stirs my heart I want to do the
+thing that calls to me that is worth
+spending your life
+on one last thing so one of the special
+challenges that a hard tech organization
+faces
+is the capabilities to do what you need
+to do don't
+exist if they existed it wouldn't be a
+hard tech
+organization so there's this tension
+that exists in all companies but is
+especially accentuated in hard tech a
+tension between developing the product
+take your product from concept to Market
+get the product built ship the product
+with the things you need to do to enable
+that at each successive stage of
+evolution company development build the
+capabilities and create organizational
+Clarity that's your job as a founder and
+a
+leader what should you work on well I
+found that there's a useful framework I
+thought about this problem for a really
+long time because I was spending every
+day trying to balance these two
+competing
+tensions ultimately these are both
+processes of pumping entropy out of the
+system you have an idea for the product
+I know what this quantum computer wants
+to look like it's all you know we we but
+it doesn't exist it doesn't exist yet
+there's all these questions we have to
+answer think of when Elon started SpaceX
+he had an idea for what this rocket was
+going to look like there's a gazillion
+micro decisions that have to be made to
+actually manifest that thing in the real
+world that is a process of pumping
+entropy out of the
+vision same with company development
+creating this organizational Clarity
+building the capabilities answering the
+question are we going to do our own Fab
+are we going to Outsource Fab are we
+going to partner with IBM to do the Fab
+are we going to how are we going to do
+the Fab we have to answer that question
+ultimately that is a process of pumping
+ENT of the system there's a lot of
+things that this leads you to one is it
+tells you who you should
+hire some people create order and
+Clarity in their wake they create
+systems they execute systems they
+reinforce systems they train other
+people how to use those
+systems other people generate
+entropy know what you're looking for
+hire people who pump entropy out of your
+vision for your organization it's
+incredibly
+powerful so this is one of my favorite
+pictures I've ever
+seen this is a picture of the Control
+Data Corporation 6600
+machine what I love about it is look at
+howy it is there's wires hanging out of
+this thing everywhere you can see the
+pumps down in the
+corner this machine was the is widely
+considered the first
+supercomputer the United States blocked
+the export of one of these things to our
+allies in
+France it was incredibly impactful at a
+geopolitical
+level and
+who built it a group of 34 folks in the
+woods of
+Wisconsin 34 people built the world's
+most powerful
+computer I can't even read the memo it's
+too powerful ultimately 34 people out
+competing a giant Behemoth that is what
+happens in high performance Computing
+that is what happens with a lot of hard
+tech organizations and it's an
+incredible opportunity for you if this
+pulls at your heartstrings thank you
+very much

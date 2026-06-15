@@ -1,0 +1,644 @@
+Title: Good News For Startups: Enterprise Is Bad At AI
+Video ID: DULfEcPR0Gc
+URL: https://www.youtube.com/watch?v=DULfEcPR0Gc
+Channel: Y Combinator
+Published: 2025-10-30T14:00:31Z
+Duration: PT21M44S
+Views: 124356
+Likes: 2109
+Tags: YC, Y Combinator
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 618
+
+Description:
+MIT's new State of AI in Business report went viral for claiming that 95% of enterprise AI projects fail. But the real story isn't that AI doesn't work — it's just big companies can't build it.
+
+In this episode of the Lightcone, Garry, Harj, Diana, and Jared break down what the study really says, why in-house enterprise AI efforts keep stalling, and how startups are filling the gap with products that learn, integrate, and actually deliver value.
+
+Chapters:
+0:00 Intro
+2:08 The enterprise AI adopt
+
+============================================================
+TRANSCRIPT
+============================================================
+
+engineering teams at these orgs are
+filled with people that themselves don't
+actually really believe in AI, don't use
+codegen tools, think it's all super
+overhyped, are really excited when an
+MIT study comes out saying that it's all
+like hype and retweeted and [laughter]
+and really want cuz it's a narrative
+they want to believe. But the
+consequence of that for the companies is
+that they can't build the product. So if
+your engineers don't believe in this,
+then how are you going to build a
+product that actually works? The knock
+on effect for startups then is if you
+can actually build something that works,
+the enterprises will talk to you because
+they have no other options. can't build
+it internally, can't go to an
+established company. Um, so the startups
+are actually getting like the shot that
+they never had before.
+>> I guarantee you someone who's watching
+this right now and [music] uh you've
+just horribly triggered them.
+Welcome back to another episode of the
+light cone. One of the things that has
+been really pissing me off is these AI
+influencers. You see them on X, you see
+them on YouTube, and they're claiming
+that 95% of AI projects are failures.
+And that's proof that AI is a scam.
+What's the real story, Jared? You
+actually dug in to the MIT report that
+these people are grifting with. What
+does the report actually say?
+>> What really went viral was like tweets
+about this study. And I think the tweets
+are actually quite misleading. Diane and
+I were talking to a bunch of college
+students recently and they had concluded
+just by reading like the tweet version
+of the study that like oh all these AI
+startups that YC is talking about like
+must not be working because the study
+says that they all fail. But actually
+the more I read the study, the more I
+realized it was actually confirming a
+lot of the things we've talked about
+here on this podcast about what AI
+agents are really like in the real world
+and what approaches and categories are
+working. And so I thought it'd be
+interesting for us to talk about what
+the study really says
+>> because it's a very different approach
+to the go to market for all these AI
+solutions is not just standard
+enterprise sales. I think one of the big
+things that we talk a lot about is this
+aspect of um teams, startup and founders
+embedding themselves into the business
+processes and really groing a lot of the
+internal systems of record and going
+deep deep deep in the integration which
+is not something that has been typically
+done in the SAS world. SL. So it's like
+very plug and play which is different
+but when you do succeed and plug into
+the systems of record the pot of gold is
+actually quite big but it does take a
+long time. We actually have a lot of
+examples and work with companies that
+have succeeded which we can talk about
+later.
+>> You had a really great way of like
+having like a mental model of like what
+typically happens when an enterprise
+tries to adopt AI and like why the
+failure rate is so high. Can you give
+people some intuition? Yeah, if you
+think about uh enterprises are trying to
+get something done and they've got uh
+internal IT or sometimes when internal
+IT doesn't do it, they go out and they
+get an Ernstston Young or they get some
+much bigger consulting shop, a Deote to
+come in. And uh it turns out if anyone
+has ever used internal IT systems,
+generally internal IT systems are bad.
+And then not only that, if you decide
+that, you know, you can't build it
+in-house and you have to go to
+consulting, well, now you've got two
+problems. The output of the study is no
+surprise to me in that the majority of
+software that actually gets built in the
+world is very, very bad. To be fair to
+IT consultants, um, Apple is very bad at
+software. You know, my favorite example
+is Apple of the company that can have
+infinite access to capital and infinite
+access to the smartest people in the
+world. All of us use uh iPhones and uh I
+use the calendar app. I think you guys
+do too. We use it many times per day due
+to our schedules and uh even the
+calendar app is a piece of trash. Like
+how you know you probably run into some
+sort of weird bug in that like almost
+every single day. So Apple, a company
+with infinite resources and infinite
+access to the smartest people in the
+world, cannot make a good calendar app.
+So you know, if that's true for Apple,
+how could any normal company, let alone
+an internal IT system, let alone like
+Deote or Ernston Young, like very
+well-meaning people, but like you know,
+most of the time the output of something
+like that is bad. I think a lot of what
+goes on is that in the big enterprises
+to really deploy sophisticated software
+it usually has to be used by multiple
+teams across the org. And so big
+enterprises like there's just always
+going to be like political battles and
+turf wars and various things going on.
+And so part of the reason I think these
+enterprises go to consultants is like
+you can go to an Ernston Young and get
+them to like meet with like the data
+science team, the customer support team,
+the like IT team and like write up a
+bunch of docs about what everyone wants
+and sort of almost play like some sort
+of mediator role of hey like here's kind
+of what we're aligned on and here's like
+the spec that will work for everyone.
+The challenge is like then you actually
+have which I think is valuable but then
+the next step is to actually like
+implement that and at which point the
+consultants don't have like the
+technical expertise to build the
+software and then often in the
+enterprise even if they have an internal
+software team like the systems are just
+like so old and like siloed that you
+actually need both like the external
+consultancy expertise to bring everyone
+together but then also the software
+expertise to actually build the systems.
+And is the thing that you end up with at
+the end like basically like a camel, you
+know, a horse designed by a Yeah.
+committee.
+>> I mean, I think Jared and I actually um
+now summer 2020, a while ago worked with
+a company called Tactile that's building
+sort of like a high level like a
+business decision engine for banks in
+particular. So it does things like in
+real time can help them go through like
+uh KYC and AML to figure out um someone
+who's applied for a loan for example and
+then instantly figure out oh yeah like
+does this person have the right credit?
+Do they make the right business rules
+and do that like you know millions of
+times per day at scale? The banks
+themselves like City Bank and JP Morgan
+have tried to build this kind of
+software themselves and it's in each
+case it's taken years 3 to 5 years and
+tens of millions of dollars to actually
+get this implemented whereas Tactile was
+able to build a REST API that makes
+decisions in real time. You can plug the
+latest AI models into it. uh and they've
+been able to do that all for a fraction
+of the budget and in way less time.
+>> And there's a company that I worked with
+called Greenlight that also sells AI
+systems to banks. And they were telling
+me a story that is exactly along the
+lines of what Gary was talking about
+where there is a bank that they were
+trying to sell to and the deal fell
+through because the bank had an existing
+relationship with Ernston Young, who
+apparently builds all the software for
+the bank, which is apparently not that
+uncommon. And they're like, well, you
+know, we trust our vendor, Ernston
+Young. We've been working with them for
+years. They say that they're going to
+build this AI system
+>> and that's where they got it all wrong.
+>> Yeah. And so Ernston Young spends a year
+trying to build this AI system. It
+doesn't work at all. And the bank comes
+back to Greenlight is like, "Uh,
+actually, could you guys build this for
+us?" And Greenlight now has their system
+like fully deployed at the bank and it's
+actually working. An interesting thing
+about the report is that of the projects
+that they surveyed, twothirds of them
+were projects where the enterprise
+built an internal software project or
+did it with the help of a consulting
+agency and only one-third was ones where
+they bought a product from an outside
+agency like a green light. And so
+enterprises are mostly trying to build
+things inhouse, but the success rate of
+the ones where the enterprise went with
+an outside vendor like a green light or
+a tactile was much higher than the
+success rate of when they tried to build
+stuff themselves. I mean, why do you
+think this is like, you know, I
+certainly have my theories, but you
+know, going back to the Apple thing, my
+sense is that there actually just aren't
+that many people who uh are polymaths
+enough to be good at product and good at
+engineering to make things that actually
+work. Like there are lots of people out
+there who are really really good
+engineers, but you know, maybe they're
+just in like the coding cave all day and
+they can't relate to, you know, someone
+working at a bank cuz they just like
+don't step outside of their coding cave.
+And then way over on the other end like
+you know that sort of goes back to the
+user like why doesn't the user just do
+this? there's some evidence that maybe
+they will you know there are all these
+examples of uh people like you know
+Verun Mohan from Windsurf mentioned that
+back when he was uh working on that with
+his sales leader who might not have a
+engineering degree they used windsurf to
+create their own tools. So way out at
+like the 150 IQ type uh organizations in
+the world this is already happening but
+for now like a lot of the people who
+really understand the domain they can't
+code or they don't understand tech or
+they can't you know do design or product
+and ship it. So, you know, for now
+there's just this startupshaped hole in
+basically uh every
+process or every sort of annoying system
+that should exist that doesn't exist
+yet. It's a very rare breed of skill
+sets where they have a lot of the
+extreme up-to-date latest and greatest
+AI understanding and product taste and
+at the same time to some extent a lot of
+the kind of humanity in a sense to
+understand all the human processes to
+then gro those into into a product and I
+think there's a different permutation of
+what you both have mentioned around uh
+companies going after consultants as a
+solution as vendor. This is company that
+Jared and I were good partners with
+Castle AI. They're also selling to banks
+as a this a theme here.
+>> They're basically building a AI mortgage
+serer. There's a lot of uh vendors
+around that have been around for like
+decades with very old system and they're
+catching on as well. They know that
+their lunch is going to get eaten these
+vendors and they are adding AI on top of
+it. And what happens when castle goes
+into all these sales conversations with
+the banks? they have to do a bake off
+with the current incumbent solution. And
+turns out what they learn the the banks
+still do it because they trust the
+vendor. They've been around with them
+for a long time. Not not just a
+consultant but a regular old school
+software system. And funny thing is a
+lot of times these products are very
+subpar. The particular customers they
+work with, they like closed off the bake
+off because it's like wow the this
+vendor solution was just AI slapped on
+top of it. So there's such thing as like
+it could be AI on the vendor side and
+they add it but is lacking this aspect
+of being really native from the
+beginning and having that really good
+taste on the product. And this is how
+Castle has closed some of these large
+banks which is impressive just [music]
+one year after the batch now.
+>> YC's next batch is now taking
+applications. Got a startup in you?
+Apply at y combinator.com/apply.
+It's never too early and filling out the
+app will level up your idea. Okay, back
+to the video.
+>> And Nana, you have another example of a
+company,
+>> speaking of Apple, that actually sold to
+a fan company
+>> that Oh, yeah.
+>> had tried to implement an internal
+solution and had it not work. Maybe you
+can tell us about that.
+>> This is a very impressive case study.
+The company is called Reduct. They just
+announced their series B recently and
+they actually closed a fan company 154
+days after the badge which is I haven't
+seen that happen. And this big fan
+company reached out to them because they
+did a YC launch.
+>> That's how they found them. So our
+launches
+>> get people watching them
+>> and they reached out. It's like oh this
+is interesting. We'll love to try it and
+we've been working on a solution. Turns
+out this particular company has been
+trying to what what Redux does is uh
+document processing for AI and this
+company has been having a lot of
+internal systems and build internal
+solutions for years to run a lot of
+their operations and a lot of the
+solution they try they tried open source
+they tried AWS tesarak all sorts of OCR
+solutions and they were not cutting the
+mark and this is where product
+excellence really got reducted to win
+the deal and be a pretty big one. But
+the thing about this one that still took
+time to go through it. I mean so
+reductor had to compete with internal
+team and they had to have a lot of
+finesse to navigate a lot of the
+politics which is actually one of the
+aspects that the MIT paper does talk. So
+we do agree with that. There's still a
+lot of work to get there and but they
+got it done and it's still like hard but
+at the end of it they do have this
+awesome deal with them and they've been
+live in production for more than a year
+or two now.
+>> Yeah. What was the secret to avoid uh
+pissing off the wrong people, you know,
+still be in the running and uh
+eventually win?
+>> This is where you do things that don't
+scale. One of the things that they did
+is they became really good friends with
+the champion and really building
+friendship with them and they saw that
+oh there's these really smart kids and I
+want to take a shot on them and is uh
+this is what I think a lot of the story
+around YC founders selling to big
+enterprises. I think there's something
+about this ambition and really optimism
+from founders that is contagious that
+really gets people excited. is like this
+is a bit of a boring problem to like
+process documents but you're like super
+jazz about it and I'll give you a shot
+and then when they do they surpass a lot
+of the expectations and it's cool.
+>> I've heard it's it's actually a sort of
+a particular archetype of big company
+employee. It's someone that really wants
+to do a startup or has always sort of
+had dreams of a startup but it's not
+they're not actually ever going to do
+it. They're too riskaverse and so they
+can kind of live vicariously through an
+exciting startup with founders that they
+get along with. And if you find someone
+like that to be your champion, it's like
+they want you to succeed because they're
+going to feel like they're on the
+startup journey as well.
+>> I think so. I think it's finding more
+people like that that want to nurture
+that inner child that had this dream of
+startups but they didn't get to do it.
+>> What's funny is this is a good example
+of uh when you meet uh especially young
+founders often they try to like dress up
+like they'll just dress up in a suit and
+they like copy Microsoft's homepage or
+something and they shouldn't do that.
+like they should just try to be a little
+bit more authentic. Like it's actually
+fine to be a startup. Like it's
+important to come off as smart and with
+it, but you do not need to copy the
+formalism of, you know, sort of wearing
+a suit or the equivalent of that in like
+your interactions with people.
+>> Another good tactic is to find uh
+founders whose companies were acquired
+by big companies and get them to be your
+champion. With Triple Bite, we
+essentially we were able to work with
+Apple and there were like almost no
+recruiting companies working with Apple
+and that was all because of a a YC
+company Q started by Robbie Walker and
+Danny Gross actually um that had been
+acquired by Apple and then they helped
+us get in there and then I actually I
+remember we got like a pilot with Oracle
+through a founder who had sold his
+company to Oracle and was just pushing
+for them to hire better engineers and
+helped us through procurement and gave
+us all the internal politics and
+step-by-step playbook to the pilot
+going.
+>> I think that's a special thing about
+being here in Silicon Valley is this uh
+pay it forward aspect that I think it
+you cannot measure in a study.
+>> One of the other interesting things from
+from from this paper that's also I think
+like a very optimistic point that got
+lost in the in the like tweet version of
+this paper is that like there's
+overwhelming demand from enterprises to
+adopt AI and they're way more willing to
+take bets on new startups. So, you know,
+all these all these all these tricks are
+helpful, but I I do think it's probably
+much easier to sell to a fang company
+now, some AI agent, than it was back
+when you were running Triple Bite.
+>> But it sort of ties back into this
+original study, something we we've
+talked about and maybe tweeted about is
+that I think the enterprises would
+certainly prefer to buy these solutions
+from established software companies.
+Even established startups like latest
+stage startups that have been around for
+a while and have lots of funding and
+feel less risky but they fundamentally
+can't build the products and I think
+many of the YC partners feel that a lot
+of the time it's just because the
+engineering teams at these orgs are
+filled with people that themselves don't
+actually really believe in AI don't use
+codegen tools don't think think it's all
+super overhyped are really excited when
+an MIT study comes out saying that it's
+all like hype and retweeted and
+[laughter] and really want because it's
+a narrative they want to believe but the
+consequence of that for the companies is
+that they can't build the product. So if
+your engineers don't believe in this,
+then how are you going to build a
+product that actually works? The knock
+on effect for startups then is if you
+can actually build something that works,
+the enterprises will talk to you because
+they have no other options. Can't build
+it internally, can't go to an
+established company. Um so the startups
+are actually getting like the shot that
+they never had before.
+>> I guarantee you someone's watching this
+right now and uh you've just horribly
+triggered them.
+>> Oh yeah. No, I I I tweeted this and I
+got lots of angry emails. [laughter]
+someone out there right now is going
+>> and the message for you guys out there,
+the irony is all you have to do is
+literally just try it. Like if you code
+and you're a great engineer or even an
+okay engineer, honestly, if you just try
+this stuff and get really good at it and
+you know, give it a shot. Like it's not
+like I try it once and it screwed up a
+variable name and now I'm mad and I'll
+never use it again, right? It's actually
+like invest into a real project. It
+doesn't have to be your main work. It
+could just be a side project. Do
+something super fun. We literally had a
+um a vibe coding dad's night about a
+month ago and you know people who are
+not even technical. We had like a
+landlord who was making a vibe code
+thing for their tenants so that they
+could like see if they had paid their
+rent or something. It's like you will be
+amazed. And so the people who like feel
+this it's like just give it a shot cuz
+you you know you are sort of the perfect
+people in the world to use these tools
+and even if I mean honestly it turns you
+know 10x engineers into 100x engineers
+and it turns 1x engineers into 10x
+engineers. I mean I it's that's like
+such a gift but it requires an
+overcoming of like this very real
+emotion that's inside of people.
+>> Yeah. The the other instance over the
+last week where I've just seen this sort
+of like the the people waiting for the
+it's overhyped narrative was after that
+Andre Kapathy Dwarkish interview. Did
+you guys see that?
+>> Yeah, I told you 10 years.
+>> Yeah, I saw I read the tweet. The tweets
+are essentially oh like you know Kapathy
+says agents are overhyped and can't do
+the work. So then I listened to the
+interview and it's like the point he's
+making is you can't just like give an
+agent a prompt and expect it to do
+everything perfectly the first time.
+like you still actually have to do lots
+of work to provide the right data and do
+all the correct context and actually do
+the evals and all like the actual
+tooling and my interpretation of that
+was that's like a fantastic opportunity
+for startups and anyone who can build
+software [laughter]
+there's like tons of stuff that's still
+yet to build and I just found it like an
+interesting raw shark test almost of
+it's like if you fundamentally want to
+believe that everything is overhyped
+you're going to read into that that oh
+yeah like look like AI expert confirms
+it's overhyped but if you listen to
+actually what he's saying there's like
+tons of opportunity to build really
+great tooling. It's like these things
+are a tool and you just have to help
+them work better versus expect that
+they're all just going to be absolute
+magic and work without any help.
+>> Well, I think the exciting thing is
+basically there's just a lot of
+opportunity to rebuild all these systems
+to be AI native because software needs
+to be completely be rewritten to work
+with AI which is really just lots of
+opportunities for for founders which is
+cool. Here's one other point from the
+study that I I also thought was really
+interesting in terms of like why
+enterprise is such a big opportunity for
+startups. I'll actually read this quote.
+This is from some enterprise buyer
+person. We're currently evaluating five
+different gen AI solutions. But once
+we've invested time in training a
+system, the switching costs will become
+prohibitive.
+>> That's the CIO of a $5 billion financial
+services firm. Fantastic.
+>> Right.
+>> That sounds like a moat to me.
+>> Right. Exactly. [clears throat]
+I hadn't heard such a direct quote from
+like a legit enterprise buyer about that
+before. So all these people who are
+worried that these like chatbt rappers
+won't have moes like that's the moat.
+>> So uh there you have it. The AI doomer
+influencers have been leading you
+astray. AI is hard to actually
+implement. And it turns out it's so hard
+to implement that only 5% of the time it
+actually works. But it also turns out
+that if you're a startup founder and
+you're really good one at YC the
+acceptance rate is under 1% now. So we
+gave you a whole bunch of examples of
+people who are in that 1% who then went
+on to be a part of like probably that
+top 1% of implementations that actually
+work because some of the smartest best
+product people engineers uh are actually
+focused on it. Ultimately, it's about
+people who really, really great at
+technology, but also are polymaths.
+They're, you know, understand other
+people, can understand what that uh
+bank, you know, $5 billion fintech CIO
+really, really wants. That's the good
+news. You should not look at these stats
+and say, "I could never be a part of
+that 5%." If you're actually really,
+really good, you absolutely can be, and
+we have so many examples of that at YC.
+So with that, we'll see you guys next
+time.

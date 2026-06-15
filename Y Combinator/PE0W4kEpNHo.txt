@@ -1,0 +1,1603 @@
+Title: David Zeevi on Personalized Nutrition Based on Your Gut Microbiome
+Video ID: PE0W4kEpNHo
+URL: https://www.youtube.com/watch?v=PE0W4kEpNHo
+Channel: Y Combinator
+Published: 2018-08-22T14:30:51Z
+Duration: PT57M1S
+Views: 6311
+Likes: 114
+Tags: YC, Y Combinator, David Zeevi, Personalized Nutrition, Personalized Nutrition by Prediction of Glycemic Responses, Craig Cannon, Podcast, Interview
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 1579
+
+Description:
+David Zeevi - https://twitter.com/davezeevi - is a James S. McDonnell independent fellow at the Rockefeller University Center for Studies in Physics and Biology. He focuses on developing computational methods for studying microbial ecology in the human gut and in the marine environment, and its contribution to human and environmental health.
+
+He was one of the authors on the paper Personalized Nutrition by Prediction of Glycemic Responses - https://www.ncbi.nlm.nih.gov/pubmed/26590418
+
+The YC po
+
+============================================================
+TRANSCRIPT
+============================================================
+
+So, today we have David Zeevi on the
+podcast, and um you are an author on
+many papers, but the paper that I
+initially contacted you about is called
+personalized nutrition by prediction of
+glycemic responses. And this is a quick
+summary.
+People eating identical meals present
+high variability in post-meal blood
+glucose response. Personalized diets
+created with the help of an accurate
+predictor of blood glucose response that
+integrates parameters such as dietary
+habits, physical activity, and gut
+microbiota may successfully lower
+post-meal blood glucose and its
+long-term metabolic consequences.
+Why did you start working on this?
+So,
+um
+we got to see the amazing statistics on
+metabolic disease in in the world.
+Mhm.
+Um
+so right now four out of 10 um US adults
+are obese. And uh just to clarify, obese
+means what? It means a a BMI, a body um
+um mass index
+mass index of over 30.
+Which is actually not that bad, but it's
+still considered uh obese by the CDC.
+And that's four out of 10 US adults.
+Now, it was about one out of 10 in the
+1980s. So, it progressed massively.
+And this is based both both on the World
+Health Organization and the CDC, the
+Centers for Disease Control.
+Uh one out of 10 Americans are diabetic.
+And this is an awful disease. It's a lot
+of suffering. Uh it's a lot of, you
+know, related complications. And it's a
+huge burden not only on people who have
+the disease, but also on health care
+systems.
+Uh and it it I I I told you before it's
+like
+$250 billion
+spent on diabetes and its related costs
+in 2012.
+Yeah, annually. So, yeah. So, it's a
+huge deal.
+And it's widely accepted that nutrition
+is a major source of these diseases.
+Um because diabetes was not nearly as
+prevalent in, for example, 1990. Right.
+It was not nearly as prevalent in the uh
+1990, 1980s, 70s. It was It was not as
+prevalent, and neither was obesity.
+Mhm.
+And
+um when we, you know, came to look at
+it, we just um tried to figure out what
+are the changes, what are the major
+changes that were done to our nutrition
+over the last uh 30, 40, 50 years or so.
+And we came up with, you know, four,
+five main uh changes. So, first of all,
+we started consuming much less fat.
+Uh it was reduced from about 20% of our
+calories to about 15%.
+Uh we started So, so having fat in your
+food is
+tasty.
+And
+um it's also very fulfilling and
+everything. And if you want to, um you
+know,
+give food a taste without fat, you
+usually add sugar. So, sugar mainly took
+the place of fat in our diet.
+Um so, there's um
+a graph I some sometimes show in
+lectures, where you see the sugar
+consumption per capita per year
+since the since, I don't know, I think
+1700 till
+today. Mhm.
+And the the the crazy fact is that um
+the annual consumption in 1700 is the
+daily consumption today.
+So, we couldn't have evolved to, you
+know, undertake to treat this this
+amount of sugar that's going into our
+system. Yeah.
+Uh the other couple of things that have
+changed is that we consume much more
+additives with our food. It's It's less
+food and much more, you know,
+industrialized. Mhm.
+And last thing is that uh meal times
+changed. We uh work in shifts. We have
+electric light.
+And uh that changes when we eat. And
+um
+the our daily routine in general. Got
+you. And so that then this study, how
+how are you actually measuring the
+effects of food intake?
+So, um so so so this is also an
+interesting thing because um
+So, we're thinking that we were thinking
+that if nutrition did cause this this
+this epidemic, what can restore healthy
+nutrition?
+And when you try to ask what's healthy
+nutrition, you can look at, you know,
+popular Time magazine covers, for
+example, and and and we looked at that.
+And
+um
+you can see that um some of them say
+uh
+um
+um that saturated fats are bad for you.
+Some may say that fats are good for you,
+and some say that you should be
+vegetarian. Some say that
+uh you should eat an Atkins diet. And
+there's a famous one which I really like
+from 1972 that says eating may not be
+good for you. Eating?
+But
+uh we thought as scientists that, you
+know, what you should eat is not a
+question of trend or fashion or
+whatever. It's a scientific question.
+Mhm. And we want to address it with, you
+know, scientific metrics. So, we had to
+choose a metric that was
+um specifically good for this uh for
+this question.
+And we ended up choosing the uh blood
+glucose response.
+And the reason we chose this is that,
+well, when we eat, the carbohydrates in
+our food are broken down to, you know,
+sugars, which are then absorbed by our
+gut into our bloodstreams, and that
+causes spikes in our blood glucose
+levels. These spikes cause insulin
+secretion from the pancreas, which
+signals the body to store these
+this glucose as
+fat or as
+other storage
+um
+components.
+And this leads to weight gain.
+Now, spikes in blood glucose are also
+associated with many other metabolic
+diseases and of course with diabetes and
+obesity. Mhm. And it leads to weight
+gain because it is transferred to fat,
+right? It turns into fat. Yeah, it turns
+into fat. And it generally not into fat,
+it also, you know, turns into it it
+um gives a boost to the natural
+mechanism of storage. It causes you to
+store more. Mhm. Okay.
+And uh the last thing that I was good
+about glucose responses was that it was
+very easy to measure. So, you just
+connect a small device, a continuous
+glucose monitor, has a tiny needle um or
+tiny, you know, sensor that goes into
+your body. I think it's like uh
+probably 1/4 inch, something like that,
+goes into your body.
+And that
+um measures the glucose level in your
+interstitial fluid. That's the fluid
+within between your cells. Mhm.
+Uh it's highly correlated with the
+glucose in your blood, so you get a very
+accurate measurement of the glucose in
+your blood or a proxy for the glucose in
+your blood every 5 minutes.
+So, you have a very high resolution of
+this metric. So,
+try to think of it. If you now uh
+conduct a nutrition uh study, you can
+measure weight, for example. But weight
+is very noisy, you know, it's it's um
+it it it's affected by what you drink,
+what you eat that morning, the time of
+day that you uh um that you steps
+exercise, whatever.
+Um and uh you can only measure it once
+in every uh long period of time cuz, you
+know, just because it's very noisy and
+because it changes very slowly. So, you
+can see the effect or the average effect
+of a diet over a week or two or a month
+or so.
+Um even though I know some people who
+don't get
+a step on the scales every day. But
+uh but it but it's usually, you know,
+recommended to look at it every week or
+so.
+Um
+if you look at blood glucose, you can
+measure it every for every meal.
+So, you can just see get a a um
+um
+a fast feedback on each and every meal
+that you ate.
+Mhm.
+And that that's what made this blood
+glucose such a great metric for us.
+And you know, since it was correlated
+with so many
+um
+so many um diseases such as
+cardiovascular disease, obesity,
+diabetes, and so on,
+we uh quickly realized that uh in order
+to maintain health or to restore
+the that healthy phenotype, what you
+need to do is to uh probably reduce the
+glucose responses. Mhm.
+And that sounded easy, you know, okay,
+we just uh collect a few people and we
+look at their glucose responses and we
+find the foods that are that are good
+for everyone and
+And you find the best diet in the world.
+find the best diet in the world that
+would reduce glucose responses and and
+and that's it and we're done. Yeah.
+But
+but uh biology and, you know, the the
+world is more complicated than um
+what we found is that there were
+several
+uh usually very small-scale studies
+that showed that uh people's glucose
+response can be very different from one
+person to another. So, two people eating
+the same loaf of uh white bread, one
+would really spike their glucose and one
+would really stay flat.
+Mhm. Um and that's
+uh that's true even if you normalize the
+responses to the responses to glucose.
+Right. So, you have um
+just just to see if So, so so even foods
+are not categorically good or bad.
+Right. It also depends on the person.
+And that was shown in very small scale,
+so
+Right.
+We said, "Okay, so
+let's think on what can affect these
+glucose measures."
+And um
+um we came up with
+uh three main um
+you know, causes that can affect
+people's glucose responses or personal
+responses.
+Uh one is genetics, which unfortunately
+we can't really change. Uh we are what
+we're born with. Yeah, for now. I mean,
+that's CRISPR's going to change all
+that.
+Um the second is uh lifestyle, which we
+all agree should be, you know, healthy,
+active, and so on. So, there's not a lot
+to do there. We already know the answer.
+And the third uh one that was when we
+started sort of flying under the radar
+was uh the human microbiome. Mhm. Which
+uh we found to be associated with many
+diseases, many disorders.
+And um if we have time, I can tell you a
+little bit about that. But um
+And uh so we um
+we wanted to create a study that
+combines all these factors,
+um nutrition, um
+nutrition as, you know, target. Mhm.
+Um genetics or a proxy for genetics,
+lifestyle, the microbiome to predict
+what's good for people to eat. And
+that's how we came up with the study.
+And so you standardized the study. So,
+it was something like 800 people? Mhm.
+And the study was standardized by giving
+them the same breakfast over the course
+of a week, right? Well, there were a
+couple different breakfasts that you
+gave them. Yeah, so the first thing we
+wanted to do in the study is to see um
+to try to recapitulate the variability
+that we saw in the small scale studies.
+Yeah.
+And so as a controlled way to study
+variability in people's responses to
+food, we gave them we replaced their
+breakfast with uh standardized meal that
+contained either
+uh bread, bread and butter, glucose, or
+fructose,
+which had uh 50 g of available
+carbohydrates each, and that was to be
+taken in the morning after the night's
+fast Mhm. without exercising, without
+eating before that, only drinking, no
+exercising in the 2 hours after eating
+the meal cuz we wanted to get a, you
+know, clean response to the food.
+And what was we found is that two people
+eating the same meal in um
+in on on on Sorry, one person eating the
+same meal on two different days
+uh was very similar to themselves. Mhm.
+So, we had a correlation there of point
+uh R R of point seven to point seven
+seven, which is very good, you know,
+considering the noisiness of people.
+Um
+and uh but across people, um across the
+population, the variability was huge.
+So, people um for any given food covered
+the entire range of responses.
+And they were very, you know, uh
+reproducible within themselves. You can
+see a person eating the same loaf of
+white bread having two very, you know,
+flat responses to glucose. The glucose
+doesn't go up after the meal, it doesn't
+go rapidly down after that.
+Yeah.
+And other people who were not diabetics,
+were not pre-diabetics, or anything, had
+huge spikes to the same the exact same
+loaf of white bread.
+Mhm. Um and these people, you know, you
+you you couldn't tell the difference
+otherwise. Right. And again, it's not
+just that um
+one food is categorically worse than
+other foods. Some people responded um
+had the highest response to glucose.
+Some people had the highest response to
+bread, and a minority had the highest
+response to bread and butter. Mhm.
+Actually,
+fewer people had a high response to
+bread and butter than to uh bread alone.
+So the butter is So the fat is somehow
+neutralizing it. Yeah.
+Yeah, we we think it does. Right. And
+then And then interestingly, it's not
+again like in the pursuit of the optimal
+diet, it's not just that oh, white bread
+has a lot of sugar. Ice cream also has a
+lot of sugar. This isn't good for you.
+You can't eat it. So you'll have someone
+will respond in one way to bread and
+then differently to ice cream.
+Yeah. We saw that exactly the the exact
+same thing we saw with naturally
+occurring foods. Some people have high
+response to rice, for example, and low
+response to uh
+um to ice cream.
+Mhm. And other people would be the other
+way around. And that's with the exact
+same amount of carbohydrates in the
+food.
+And yeah.
+Yeah. And so then All right. So Oh yeah,
+we should clarify. So the breakfast was
+standardized, then they could eat
+whatever they wanted afterward.
+And but they had to log it. We also gave
+them an app in which they recorded what
+and when they ate. Maybe I should say a
+few things about what we collect in this
+study.
+Um so we recruited people, about 800
+people. We um
+um had them go through a process in
+which they gave us blood, they filled in
+questionnaires, both food frequency
+questionnaires and general medical
+questionnaires.
+Um we had them
+connected to a continuous glucose
+monitor as I told you before.
+Mhm.
+Um that's um
+measured their blood glucose every 5
+minutes for the duration of a week. And
+then this week, we also gave them an app
+which we developed in which they
+recorded when and when they ate, uh
+slept, exercised, and so on. And the
+exact amounts of every food in their
+diet. So we also gave them weights to
+you know, weigh their
+Oh, you gave them a scale.
+weigh their a scale to weigh their Yeah,
+to weigh their
+food when they go to
+when they eat at home. And you know, we
+gave them some leeway to eat at
+restaurants as well.
+And And did you did the stool sample
+element, was that in the original spec
+we also we yeah, we also collected stool
+samples which we analyzed to see
+uh the microbiome in various levels,
+both
+uh which uh microbes are in there, Yeah.
+uh which genes of the microbes are in
+there. Um and if I talk talk later about
+the microbiome, it's an amazing
+ecosystem, you know, with thousands of
+species, um about as many um
+cells as in the human body.
+Um Just all in your stomach?
+All in your gut. It weighs as much as
+your brain or a little bit more than
+your brain. It's like people call it
+like a forgotten organ.
+Uh not so forgotten now.
+But, um
+And this these microbes have uh 150
+times more genes than are in the human
+genome. They have about 3 million genes.
+So, they have huge metabolic potential.
+Hm. And this metabolic potential um
+can be harnessed or can be accounted for
+when we're looking at what people are
+eating.
+And uh this is very interesting because
+unlike genetics, the microbes can be
+changed. So, if we figure out a way to
+change the microbes that are affecting
+or or have a deleterious effect on our
+health, Yeah. we can maybe improve
+people's health altogether. So, so you
+should both explain like what this gut
+microbiome is actually for people
+because I think like this word gets
+thrown around a lot and then then you're
+talking about changing it and how would
+you even go about doing that? So, for
+context, let's give like a proper
+definition for folks. So, the gut
+microbiome is the ecosystem of bacteria,
+um
+archaea, which is also a type of a
+unicellular creature, um
+fungi, viruses, and small, I don't know,
+worms or whatever that we have in and
+around our body that are not uh of human
+origin. Right. That's the microbiome
+generally, and all of its associated
+genes and genetic material and and so on
+and so forth. Mhm. Um so that's what
+usually people mean when they say
+microbiome.
+And as I said before, it's huge.
+Um there's a lot of cells, there's a lot
+of uh diversity there. There are a lot
+of genes.
+And there are more and more related
+um
+more and more relations are found
+between this gut microbiome and many,
+you know, disorders and uh different um
+outcomes.
+So I can name a few examples.
+So one of my uh favorite microbiome
+studies was done in uh Stanley Hazen's
+group in the Cleveland Clinic.
+They looked at um carnitine, which is a
+compound that is found in red meat.
+This carnitine is metabolized by the
+microbiome to form TMA.
+It's a compound. Uh TMA is then uh
+oxidized in the liver to form TMAO, and
+TMAO causes a reduce in reverse
+cholesterol transport and
+um bile acid synthesis. Mhm.
+And these are
+um long words, but what it eventually
+means is that it causes atherosclerosis.
+These uh two processes, if they're
+reduced, it causes atherosclerosis. It
+causes your arteries to clot.
+And interestingly, if you remove these
+specific microbes that metabolize
+carnitine from the equation, the
+downstream effects are attenuated as
+well.
+That's wild. And uh this was um a major
+thing for us because this is the first
+time we saw that um their microbiome can
+affect how each and every one of us
+responds to nutrition.
+So it was beautiful.
+Uh another study, um
+I think it was by Nan Chin um
+and colleagues in 2014.
+I'm not sure. Maybe it was published in
+Nature, but I'm not sure.
+Um they showed that you can accurately
+detect uh cirrhosis, liver liver
+disease, by looking by only looking at
+your gut microbes. Mhm. And that showed
+us that, you know, the gut microbes can
+reflect our
+health status. So, in then um yeah.
+No, in in monitoring what people are
+eating in their stool samples, uh you
+can kind of recompose what their gut
+microbiome is, right? Yeah. Right.
+Um
+well,
+I mean,
+you have to measure the gut microbiome
+as well, but but but you can maybe you
+can you can get some idea on their
+health status and what they're eating
+from the gut microbiome.
+Um and it's not only that microbes can
+affect your health or reflect your
+health, they can also sorry, it's not
+only that microbes can reflect your
+health, they can also actively affect
+your health.
+Um and um there are a few very nice
+studies by Jeff Gordon's group at um
+Washington University of St. Louis.
+Um especially one that I like the most
+from 2013, they took uh pairs of twins
+that were discordant for obesity.
+Um one twin obese and one twin was
+obese.
+mice?
+No, no. Did did people? Okay.
+And they transplanted their microbiome
+into germ-free mice. Germ-free mice are
+mice that are born and raised
+uh in sterile conditions and they don't
+have a gut microbiome of their own.
+And these mice were transplanted these
+uh microbiomes of twins uh one obese and
+one lean um many pairs of twins. Mhm.
+And um interestingly, the mice that
+received the microbes of the obese twin
+became obese, and the mice that received
+the microbes of the lean twin remained
+uh lean after eating the same food and,
+you know, doing the same things.
+Um and that also showed us that, you
+know, it's it's pretty um Yeah.
+And so And so like kind of the
+maybe the logical extension in the sense
+that every human wants things to be
+black or white.
+Were you often asked like, "Okay, is
+there an ideal gut microbiome?" Because
+like rather than the diet, maybe we just
+do the gut microbiome and then we do the
+transfer and everyone has the same one.
+So, I'm not sure if there's an answer or
+there's a clear answer. Uh I think
+people are trying to study uh the gut
+microbiome in health and disease. Mhm.
+Um, the thing is that it's um
+and this is maybe just my opinion, it's
+so diverse
+that you need a huge sample to study
+what's uh good and what's bad in a
+microbiome. Mhm. Um
+so,
+um once you get to know the exact effect
+size of the microbiome on on human
+health and whatever,
+maybe then you can start asking the
+question of what is healthy and what is
+not healthy. Okay. We know right now
+that we we know of some um species that
+are healthier than others
+uh or are associated with better health.
+Generally, a microbiome diversity, a
+high diversity of the microbiome, is
+associated with uh healthy
+uh host. Yeah. So,
+you want to let your kid eat uh dirt, I
+guess, or have a dog.
+That's uh usually contributing to
+a healthy microbiome. Okay. And so then
+in the context of you know, uh Jeff
+Gordon's group where they identify maybe
+a certain uh bacteria that's not ideal,
+what it What is the process of trying to
+eliminate it? Um, so
+I I don't know if I have a good answer
+for that.
+Um
+there are a lot of ways to affect or to
+to, you know, exert an effect on the gut
+microbiome. You can take antibiotics or
+very specific antibiotics.
+Uh, you can try and replace this micro
+by um, ingesting some sort of probiotic
+or some sort of uh, microbe that's you
+know,
+will occupy the same niche
+uh, as this microbe just to push it out
+and you know, take over.
+Um, you can take prebiotics which is
+some sort of fiber, but I'm not sure
+that you know, people have
+uh, an idea of the full effects of each
+and every of these each and every one of
+these things. So, there's still a lot of
+study to be done
+uh, in this field. Yeah. I've I've
+always wondered. I mean like I read a
+couple studies before this podcast and I
+read the book I contain multitudes, but
+you know, there are so many things out
+there between like fecal transplants and
+like the pills that you can digest where
+you know, companies say, we have found
+like the optimal
+uh, probiotic or gut biome supplement.
+In large part, do you have you found
+that stuff to be effective or is it just
+kind of bogus?
+Um, I'm not sure I can answer that with
+with confidence.
+right. Okay. Because yeah, I I guess
+specifically the the fecal transplant
+stuff I think is the most eye-catching.
+Yeah. Definitely it's the dark side of
+microbiome science.
+Yeah, yeah, exactly. But but it has been
+proven effective for some percentage of
+people, right? So, um,
+so fecal transplants have been used.
+They they their claim to fame is by
+treating Clostridium difficile
+infections. That's a type of infection
+that takes over your gut. It's a certain
+bacterium that takes over your gut. It
+pushes everything else out.
+Now, when you try to treat it with uh,
+antibiotics, it usually sporulates. It
+creates spores
+and it resists the antibiotic. The
+antibiotic kills everything else yeah,
+and this thing just takes over you know,
+all the
+uh, gut spaces that were left by other
+uh, bacteria. So, usually when you have
+a C. diff infection, it's, uh,
+predominantly,
+uh, the most abundant microbe in your
+gut. And it causes extreme, uh, diarrhea
+and and these sort of things.
+Now, when you, um, treat these patients
+with antibiotics, as I said, it's not
+working, so you want to treat them with
+something else. You want to replace
+their healthy microbiome, and you
+indeed,
+um, transplant stool into these people.
+Mhm. And that's why transplant works
+mainly because their microbiome is so
+depleted,
+and it's like, you know, cultivating,
+uh,
+uh,
+an ecosystem in a place where there was
+none.
+So, if you take this, uh, ecosystem and
+you try to transplant it to a person
+with a healthy ecosystem, that's not
+necessarily going to work.
+Right. Okay. Uh, but people are making
+big money out of it, so, uh,
+I I heard that, uh, companies, um,
+collecting stool out of, um, um,
+um,
+professional athletes, NFL players, NBA
+players, and so on,
+to transplant to other people. And you
+know, I I I support that.
+Yeah, I mean, however you want to get
+paid, go for it.
+Uh, so, that we have a couple questions
+people submitted cuz they're very
+curious about this. Um,
+so, Elizabeth Irons from, uh, Science
+Exchange had a couple questions, one of
+which was, does postprandial glucose
+response, which is the response that
+you're measuring with the glucose
+monitor, um, does it track with, uh,
+weight regulation? I.E., can they use
+can you guys use,
+uh, their test to determine what
+individual people should eat or not eat
+to lose weight?
+So, um,
+theoretically,
+um, postprandial glucose response is
+associated with, uh, changes in weight
+just because of the mechanism I told you
+about that. When we eat things that
+spike our blood
+we cause insulin secretion, which, you
+know, signals the body to uh store
+um things as fat, uh among other things.
+Uh we haven't um tried and tested it
+specifically. Our study was a short-term
+study. Mhm. Even the intervention that
+we did was uh 2-week intervention. Um a
+good week and a bad week. We can get to
+that later.
+Yeah. Um
+but we didn't do anything that's uh
+longer term as and and I think that, you
+know, in order to see differences in in
+weight, you need to follow people for
+months, if not years. Okay. Um but um
+choosing the foods that are right for
+you out of your own diet gives you an
+advantage uh if indeed it does improve
+your
+um
+you know, your blood glucose and
+therefore your weight, because
+you don't have to change your diet
+drastically. You only have to eat out of
+your own diet the foods that are good
+for you. Right. And it could, at the
+very least, steer you away from becoming
+pre-diabetic. Exactly. Which is an yeah,
+another huge concern. Yeah. And so,
+uh yeah, we should talk about the
+follow-on stuff, but I think another
+very common question is
+who is turning this into a product, or
+how is that being done? So, there's a
+company called DayTwo.
+Um you can go to the website. Um they're
+they're working on that. Um
+and what they're doing is
+they did a study similar to ours, in
+which they um
+collected participants, and they had
+them go through
+um this sort of um
+um analysis. Mhm.
+And I think I'm not sure what they're
+doing. I'm not being I'm not in touch
+with them or anything, but um
+I think that what they do now is they
+have you fill in a questionnaire, and
+they take you a sample of their
+microbiome,
+and they give you a prediction for each
+food that you eat, if it's good for you
+or bad for you. Right. Because you guys
+I mean you're you're doing some computer
+science stuff as well, right? You built
+essentially an algorithm from the 800
+Well, I think it's a good time as any to
+say that it's not just me. Yeah, of
+course. Yeah. We're huge group of people
+you can see on the paper and
+mostly the person that I've worked with
+closest on this is Tal Korem.
+Uh who's going to start
+um
+faculty position in Columbia uh in the
+fall. So, if you're a potential PhD
+candidate or a postdoc listening to this
+podcast, then you can contact him. Yeah.
+He's a very good scientist.
+And under the supervision of Eran Segal
+uh and with the fabulous Adina
+Weinberger who handled
+the wet lab and all the samples and
+everything and you know, made protocols
+out of where there were none.
+And so, it was amazing group an amazing
+group of of of tens of people and a lot
+of you know
+uh and a obviously, if I try to thank
+everyone, I'll forget some, but
+They're on the paper.
+But yeah, please download the paper and
+see for yourself. And there's a cool
+video you guys made, but yeah, keep
+going. Yeah. Um so,
+we yeah.
+You were asking about the algorithm.
+Mhm.
+So, um
+we developed an algorithm that was based
+on people's metrics on their So,
+what we first did was to see if these
+responses to food were associated with
+any of the other metrics that we found.
+And we found many associations between
+you know,
+the response to standardized meals for
+example to BMI and to glycated
+hemoglobin, which is a metric for uh
+diabetes. And we found many many
+associations with gut microbes. Mhm. And
+we said, "Okay, why not you know, try to
+combine all these signals into something
+that would predict people's responses to
+any given meal."
+And just to
+um
+give you an idea of what people
+used before we uh came around to do
+that, um
+they usually
+So, usually when you think of blood
+glucose responses, you think of counting
+carbs.
+Mhm. So, you just take the correlation
+between the carbs in the meal, and uh if
+you take the correlation between the
+carbs in the meal and the postprandial
+glucose response of the meal, you get a
+correlation and R of 0.38, which is not
+a very good correlation. It's
+significant because, you know, it's a
+lot of points.
+Mhm. But, for example, there's um
+meals in which there's a huge amount of
+carbs, but not a high response to
+glucose, and the other way around also
+happens.
+Yeah. So, we were set out to uh fix
+that, to, you know, try and um do
+something better.
+So, we build um
+an algorithm
+um
+on these 800 people we collected.
+We used boosted decision trees
+on about
+uh we pre- we didn't predict people, we
+predicted meals. We uh predicted about
+40 more than 45,000 meals.
+Um we trained on the subs on a subset of
+the 800 people, and we tested our
+prediction on the left-out cohort, and
+we made sure that uh person's meals were
+not both in training and test, so this
+thing would be more generalizable.
+Um in terms of features, we took uh the
+microbiome composition of people,
+including the microbiome genes and
+microbiome growth rates, Mhm. uh
+which is from a different um very nice
+study.
+Um we looked at the nutrients in every
+meal, fat, carbohydrates, and so on, but
+also sodium,
+Mhm. and other nutrients, um
+other recorded features, um meal time,
+sleep times, and so on,
+and um blood parameters, questionnaires.
+M- Meaning blood type? That sort of
+thing?
+not blood type, but, for example, uh
+cholesterol Okay.
+blood. Yep.
+Or glycated hemoglobin, and these sort
+of things.
+Um, so overall we had 137 features after
+feature selection on 40 something
+thousand meals.
+And we ran this prediction and this
+prediction got us to an R of .68
+compared to the previous .38 and this R
+of .68 is pretty close to the um
+um
+um to the .7 uh that we get it when we
+look at
+uh at the same person eating two
+different meals. Mhm.
+The same person eating same meals on two
+different days. Right.
+Uh so this is a theoretical upper bound
+that we almost reach. We then collected
+100 additional people that were not used
+to create the
+uh algorithm or anything and we tested
+this prediction on them. Meaning you
+took a stool sample? We took a stool
+sample. We had them go go through a week
+of
+um of glucose monitoring.
+Yep.
+We ignored the glucometer and we tried
+to use all the data that we collected on
+them to predict how their
+uh how their spikes would look. Yeah.
+And we got an R of .7 again which was
+uh great. So that means that this um
+predictor is generalizable at least for
+the Israeli population.
+I I was wondering that like having not
+been to Israel like is there a a large
+difference in the types of foods like I
+don't know. Are you really good at
+tracking the hummus and that kind of
+stuff? Like
+So yeah, people ate hummus.
+But people also ate you know in Israel I
+think in Israel people eat a Western
+diet maybe maybe fortified with more
+vegetables. Okay. Um
+yeah.
+One thing one thing I I one
+um
+thing I I I can tell about New York is
+that it's harder to find fresh
+vegetables here. Yeah.
+Even though there's there's the fruit
+carts which are that are really nice but
+you know
+still. Yeah, not quite so much.
+Um were there were there dietary
+suggestions that you took away from
+this?
+Or did you kind of just step back For
+instance, you mentioned fat, right? You
+know, I know this is This is now a thing
+that's much more common people doing,
+you know,
+ketogenic diets or just adding more fat,
+fewer carbs.
+Did you guys walk away with suggestions
+or did you kind of not choose to make
+any?
+So, we chose not to make suggestions.
+Yeah. Because I think this is This kind
+of beats the purpose of what we found
+that
+um
+you know, people are very different and
+anything universal any universal dietary
+recommendation would be suboptimal
+at best.
+So, there were no There were no foods
+where you consistently they were good.
+No. Not not for our people. Yeah.
+No.
+I didn't expect that. Um so, you
+we should talk about your bread study
+cuz I found that a little bit That
+That's interesting and related where you
+basically increased the amount of bread
+someone consumed over I think what did
+you say that from 15 to 30%? So, people
+So,
+um
+this study spiked another study that was
+uh about bread. Uh we collected um 20
+individuals. We gave them um
+just uh white bread for a week. We gave
+them 2 weeks of washout and then
+um um
+whole wheat bread made in traditional
+methods and and that sort of thing. It
+was randomized and
+um
+uh some people started with that bread,
+some people started with this bread.
+And uh we measured the microbiome uh
+along the way and uh one take-home
+message from this uh study is that
+people's microbiome changed
+uh from this huge consumption of bread.
+So,
+usual bread consumption over this cohort
+of the big cohort that we did in over
+this uh 20 people cohort, was about 10%
+of daily calories came from bread. Mhm.
+Uh in this study, we up there those to
+25-30% of their calories.
+And despite this change, this
+significant change in diet, their
+microbiomes didn't change. So you can
+see that their microbiomes remained
+mostly similar to
+their own microbiomes
+and still dissimilar
+uh to other people, even though they
+changed their diet drastically. And how
+long were the effects of increasing the
+the bread consumption? On the
+microbiome?
+Mhm. So we didn't see any
+um
+um
+So we we we didn't see any effect that
+was that we can consider
+um
+um consistent
+across the population.
+Mhm. So there were some effects on some
+people and some and other effects on
+other people, but there was not a
+consistent change across people. And I
+think that depends on mostly uh the
+effect depends mostly on your initial
+microbiome
+composition. And, you know, we still
+need to study how certain things affect
+your microbiome given your initial
+microbiome configuration.
+Yeah. So are there any long-term studies
+being done now on on microbiome and
+changes in microbiome?
+So Eran Segal's group, the group in
+which I conducted these studies, is
+doing long-term study
+uh
+on I think 200 or 300 people. They
+follow them for
+uh 6 months or a year.
+um
+Doing the same stuff? Doing similar
+stuff, and I think it's going to be
+a very exciting study with very exciting
+data. Yeah.
+Cuz it's going to be Yeah, it's going to
+be beautiful data.
+Spoken like a true nerd. Yeah.
+So
+what have you changed your diet cuz you
+said you were part of the like the beta
+test basically before the full on study
+happened. Um I I did I did participate
+in the bread study so yeah. Oh you did?
+Okay.
+What have you changed about your diet or
+have you?
+Well, um I'm not afraid of
+dietary fats anymore. Okay.
+Uh that's one thing that but it's not
+just this study that
+that that convinced me, you know, it's
+it's reading the history that convinced
+me. Um
+So I I can say in a few words why fat
+got vilified and
+So it all started in the 1950s where um
+a guy named Ancel Keys
+um
+who in I think he had a notion that okay
+um
+something is clogging the artery this
+thing is is fat
+um and fat is probably the cause dietary
+fat can probably
+cause this thing. Mhm.
+And uh he supported his claim by looking
+at six countries. Um I have it somewhere
+in my notes. It was um Japan, Italy, the
+UK, Canada, the US and Australia.
+Um and he correlated the um fat
+percentage out of the total calories
+uh consumed by person with
+cardiovascular disease.
+And uh he saw an almost perfect
+correlation and that's
+um
+that led him to to to to get funding for
+studying other stuff. Now there was data
+on 22 countries at that time.
+Uh including for example France that had
+a huge amount of fat from calories but
+not a huge amount of cardiovascular
+disease.
+it into the study. And that didn't make
+it into that into the I mean I don't
+know if it's a it's it's a study or just
+you know something that prompted the
+study.
+Uh but anyway he got very famous. He was
+on the cover of Time magazine, um and in
+1961 the American Heart Association
+um had a recommendation to uh decrease
+fat consumption.
+And you know, this kept uh kept going
+and in the 1970s there was a committee
+of the Senate called the McGovern
+Committee
+that
+uh was the a committee on nutrition and
+human needs or something like that and
+it recommended uh reduction in fat and
+what came out of this committee
+uh was uh what's known today as the food
+pyramid. Have you Have you seen a food
+pyramid?
+Yes, yeah. So it usually has it's it's
+like lined up with a lot of bread.
+The bread is the foundation. Yeah, and
+there's like a a small portion of fat uh
+at the top. So
+and and this indeed caused Americans to
+Americans and the world over to uh stop
+consuming fat and start consuming more
+carbs. And you can see it if you look at
+uh um and there's something called in
+the NHANES study and and it's the
+National Health and Nutritional
+Examination Survey.
+They publish something every uh few
+years. And if you look at their uh
+stats, you can see that people did
+consume more uh carbs and less fat.
+And just when they started consuming
+more carbs and less fat did this
+epidemic of obesity and diabetes begin.
+Yeah. Now um is this related? Maybe not
+just
+this. Maybe there are probably other
+effects including the rise in sugar and
+high fructose corn syrup and and all
+that and and additives uh to the diet.
+But that's probably one of the
+uh one of uh one of the effects. So
+you know, just just by looking at this
+experiment done on a billion people
+and just by reading the history I I
+stopped being afraid of dietary fats.
+Right. And you're fine now. And I'm
+fine, yeah. Um so I you were mentioning
+the the research that you're you're
+working up to right now and I found it
+very interesting cuz you're you're
+thinking about the ocean, you're
+thinking about bacteria in the ocean.
+Mhm.
+And I found this this interesting trend
+in that like you're just seemingly just
+trying to help people with your your
+studies, your research.
+Um, you know, the first one being like
+help people lose weight, maintain
+health. Uh, the second one being
+possibly across the entire environment
+of carbon dioxide. But could you explain
+what you're interested in what you're
+working on in your study? So, uh, in a
+word, um, I'm trying to move from, you
+know, more, uh, human, um, oriented, um,
+view.
+Instead of looking at the human
+microbiome and trying to see how it
+affects human health, I'm trying to look
+at the
+ocean or soil microbiome and see how it
+affects global health.
+Mhm. Um,
+microbes in the ocean, for example, are,
+um, responsible for about 50% of the
+oxygen that you breathe.
+They recycle a lot of metabolites. They
+do, um, a lot of these things. And what
+I'm trying to do is to apply, you know,
+my know-how both in microbiome analysis
+and in data science
+and, uh, to combine data that's publicly
+available on the ocean or samples that I
+will collect uh, with other data that's
+publicly available on, um,
+a bunch of other things that you can
+collect from the ocean. Mhm.
+Um, and, uh, see where it gets me. Yeah,
+and, you know, maybe uh, seeing which
+bacteria, which conditions, um,
+can sequester more CO2 from the, uh,
+atmosphere. Uh, to see how we can treat,
+uh, pollution in the ocean,
+acidification of the ocean that causes
+all the corals die. Mhm. That's the sort
+of things that's the sort of questions
+I'm after right now, but actually before
+that, uh, we're in the process of, uh,
+publishing
+um,
+a different study that still
+looks into the human microbiome.
+And this is a really
+this is a really interesting one to me
+cuz
+um
+when we when we were finished with this
+big study of 800 900 people
+we next thought on on
+our next thoughts were let's see if we
+can you know um
+try to
+clarify what role the microbiome has in
+this.
+Now usually what studies do
+predominantly is that they either look
+at
+a whole bacterium to see if it's there.
+They just count the number of microbes
+that are in your gut. They do that by
+taking your stool.
+Um they
+produce DNA out of the microbes. Okay.
+And they sequence it. They use the
+sequencing machine that breaks it down
+to small pieces and tells you
+each and and then you can map it and say
+each for each piece which bacteria came
+from. Yeah. Or which bacterial gene it
+came from.
+And what we thought is that
+this is interesting but what we really
+want to see is something that's bigger
+than genes but smaller than microbes.
+Well smaller than a genome.
+Mhm. So we want to see regions in the
+microbiome and how they change within
+people.
+So we produced an algorithm. I won't get
+into it right now but that
+accurately
+maps each of these small tiny DNA
+fragments into a microbe. Some of them
+map to two microbes because bacteria are
+very promiscuous about sharing DNA.
+Yeah, I didn't realize that until I read
+the book. Man, that was crazy that
+transfer I actually noticed this. a lot
+of stuff. They they that's it's it's
+really crazy.
+Yeah, yeah. And
+and so so we wrote a sort of
+algorithm that would you know help
+delineate it a little bit.
+And then we wrote another algorithm that
+would find regions in people's
+in in the genomes of people's microbes
+that were either deleted completely
+Okay. or that are present in a higher
+copy number.
+And we looked at these regions. We found
+about 5,000 6,000 of of these regions
+across the
+900 something people that we looked at.
+We just you know compiled all the people
+from all the studies.
+Um
+And these regions were you know
+prevalent across all microbes. They were
+very very um
+They were They were all there.
+And um we correlated these regions with
+you know metrics of health that we also
+collected in these studies
+like BMI, weight,
+glycated hemoglobin and these sort of
+things.
+And what we found is that
+um
+We found many many correlations about
+100 or more correlations and one
+specific correlation that that we dived
+into just you know to to see what we can
+get from this region
+showed us
+uh
+a maybe or you know a proposed
+mechanistic connection between the
+microbiome and human health.
+So this is like uh
+Well it's it's a tiny region in the
+microbes probably 1% of the microbiome
+genome of the microbes genome.
+And for people who have this region
+people who have this region in their the
+genome of their microbiome are about 15
+pounds thinner than people who don't
+have this region.
+And this is yeah we were baffled. Yeah,
+wow.
+And now this is and and and now now the
+reason on why we thought that you know
+the interesting thing was not microbes
+not genes but something in the middle is
+that we could look at this region and
+see what genes are there and try to
+compile them into some sort of you know,
+um a pathway, a metabolic pathway. Mhm.
+So, apparently, what this region does is
+it takes
+um it takes up sugar or sugar alcohols
+from
+um the the the gut. Mhm.
+And in an energy uh favorable process
+for the bacteria, it turns it into
+butyrate.
+Now, butyrate is a compound that was
+shown to be um
+very uh advantageous for the host
+because it reduces inflammation and it
+helps treat in mice, I think uh
+supplementing their diet with butyrate
+or adding butyrate to their gut directly
+uh really improved their um
+um metabolism, their glucose metabolism,
+and so on.
+So, um this is, of course, not proof.
+This is not uh causality or anything,
+and and we're still set out to to to
+prove it or to show it some way.
+Uh but it could be that
+these bacteria are enjoying a compound
+that's just lying there. They're
+producing butyrate.
+And then the host is enjoying this
+butyrate. And if this region doesn't
+exist, then the host is not enjoying
+this great butyrate. So, could you just
+take supplemental butyrate?
+Maybe. I don't know if it'll help you.
+Uh and it would probably taste awful.
+Um But for I mean, for that extra 15 lb,
+people will probably do anything.
+I don't think so. I think that that you
+would gain more from, you know, having a
+bacterium that metabolizes things that
+you eat and and and, you know, um
+fiber that you eat into butyrate than
+eating butyrate directly. Mhm. Okay.
+So,
+another question could be, could you
+supplement people with this specific
+region? And maybe. Maybe. Or some kind
+of CRISPR situation where you add it.
+Yeah. Um so, yeah. So, let's go back to
+the the ocean studies. What's what's
+coming up next for you?
+So, coming up next, I'm going to look at
+uh microbiota in the ocean, and I'm
+going to look at uh many layers of data,
+uh including um,
+oil refineries, oil wells, and and that
+sort of thing that are that are situated
+in the ocean.
+Mhm.
+Um, I'm going to try, for example, to
+look for um,
+for genes that metabolize these things,
+these compounds, or metabolize plastic
+in the plastic islands in the Pacific,
+for example. Yeah.
+Uh, I'm going to also add many other
+data layers that you can get from NASA,
+just to, you know, ask very basic and
+interesting questions in the ocean
+microbiome that, you know, that I'm
+interested in.
+And I have a just a random question. So,
+now you've been in New York, you said
+for like a year after you were Were you
+in Israel your whole life? Um, most of
+the
+For the most part, yeah. Mhm. Um,
+have you noticed any changes in your
+personal like microbiome since moving to
+a new country, new food, any weirdness,
+any I haven't
+I haven't tested the microbiome. I'm
+vegetarian, so I don't see why it would
+change so much. I'm not eating any, you
+know,
+food that is too processed, so
+Yeah.
+I've just heard these explanations of
+like, you know, going to
+whatever, pick a country. So, going to
+Israel as an American, you're like, your
+stomach is a little off, you know,
+you're on a plane, you're a little
+weird, but Yeah. It's been fine for you.
+That that that happens a lot, I think.
+Uh,
+Eric Alm at MIT,
+uh, if I'm not mistaken,
+had a study in which, uh, he followed
+his and the post doc of his, uh, diet
+for a microbiome for a year, Uh-huh. and
+they traveled a lot, and you can really
+see changes, differences in the
+microbiome
+when traveling. Yeah. But I think, I'm
+not sure, I'm, you know, I'm trying to
+I'm probably
+doing uh, uh, I'm I'm I'm not doing good
+to this, It's okay. This is what I do
+all the time. You're fine.
+But I think that it uh, it bounced back
+when they got back. So,
+you you get this um, you get this um,
+distribution of bacteria in your gut
+that even when you go someplace else it
+changes in abundance but it doesn't
+change in presence or absence so it
+bounces back when you get to a different
+place. What about food poisoning?
+That could that could cause your
+microbiome to you know
+Really? change a little bit.
+But also I think you know it
+re-inoculates and it stabilizes. So we
+have a lot of things that stabilize our
+microbiome. You know some people think
+that maybe the appendix is related to
+that. That maybe it's towards
+microbiome for
+you know times of distress.
+In that event. Yeah, interesting.
+Yeah, food poisoning your microbiome is
+swept out and then the
+appendix re-inoculates your gut. Yeah,
+cuz I I was traveling earlier this year
+and then got food poisoning like two
+hours before the flight back from London
+and but it was like a week or two. I
+just felt off and I couldn't explain it.
+So I'm just like looking for cheap
+answers That was London. Yeah.
+So earlier you mentioned doing an
+intervention in the the 800 person study
+the one published in Cell.
+What is what does that actually mean?
+So what we wanted to do is to you know
+get like a proof of concept just to show
+that this predicted diets can actually
+work. Yeah. And we wanted to see for
+ourselves. So we collected 26
+participants most of them were
+pre-diabetics. We had them go through a
+week of profiling like we did with the
+800 plus 100 cohort.
+And then we had them go through a good
+week that was designed to reduce their
+blood blood glucose levels and a bad
+week that was designed to increase their
+blood glucose levels.
+These weeks were followed in random
+order they were double blinded and they
+were they were isocaloric. They had the
+same amount of calories for each day for
+each breakfast for each lunch and so on
+and so forth.
+And people actually didn't know if they
+were on the bad week or on the good
+week.
+Uh, they were so because they were based
+on people's, you know, meals that they
+usually eat.
+Yeah.
+And, uh, half of the people, about half
+of the people were, uh, predicted that
+their good and bad weeks were predicted
+using a predictor. Mhm. And since we
+didn't have anything to compare to, we
+created our own gold standard, which
+were, uh, two researchers, Eran and
+Daphna, who looked at people's glucose
+responses, uh, during the, um,
+uh, during the profiling week
+for half of the people. And just based
+on their responses, something that's
+not, you know, available to people
+usually, they divided their foods into
+good week and bad week.
+So, this is something that can only be
+done for foods you've tested.
+Mhm.
+And with a predictor, you can do it for
+any given food, right?
+But we wanted something to compare to.
+And this worked perfectly.
+Um,
+first of all, we had, uh, some some
+foods that were on the bad diets of some
+people were on the good diets of other
+people. So,
+uh, for four people, for example, pizza
+was on the bad diet, and for two people
+it was it was on the good diet.
+Nice. So, you know, you want to you want
+to hope that pizza's You might get
+lucky. Yeah, you might get lucky.
+Like, uh, based on this very small
+sample, you have like a 33% chance of
+getting lucky with a pizza.
+Uh, in the bad week we saw huge glucose
+peaks for most people. Some that, uh, if
+you were a physician, you would look at
+and you'd say this person's a
+pre-diabetic. And these, uh, peaks
+completely normalized during the good
+week.
+And for some people, the difference
+between the good and bad week were,
+uh, almost two or three folds in the
+responses to meals. Mhm. And this was
+both for the, uh, gold standard and the
+predictor and worked
+the same. Wow. Um, so we were very happy
+about that. And since we followed the
+microbiomes of people every day, we
+could see consistent changes to the
+microbiome following a good diet or a
+bad diet.
+Uh and these changes were consistent um
+both through both within people and
+consistent with the literature
+showing that, you know,
+um bacteria that increased during the
+good diet were considered beneficial
+and um bacteria that decreased during
+the good diet or increased during the
+bad diet were considered uh, you know,
+deleterious or harmful. That's great.
+So, um if I if I wanted to do this study
+on myself, basically, could I just buy a
+continuous glucose monitor and go for
+it? I guess I need some kind of way to
+measure my gut biome.
+Well, I guess you need the support of
+all the other people who participated in
+the study, you know, for the algorithm
+to work.
+Um
+right now the best option is either
+collect a thousand people
+or try your, you know, like open your
+ears to see if there's any upcoming
+studies. Okay.
+Or, you know, go to DayTwo, but I'm not
+trying to uh
+give them a promotion or anything. You
+haven't tried it yet? I I haven't, no.
+Okay, cool. All right, well, thanks so
+much for your time. Thank you.

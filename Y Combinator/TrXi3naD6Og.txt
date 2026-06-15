@@ -1,0 +1,899 @@
+Title: Michael Truell: Building Cursor At 23, Taking On GitHub Copilot & Advice To Engineering Students
+Video ID: TrXi3naD6Og
+URL: https://www.youtube.com/watch?v=TrXi3naD6Og
+Channel: Y Combinator
+Published: 2025-09-03T14:00:50Z
+Duration: PT27M56S
+Views: 57190
+Likes: 1189
+Tags: YC, Y Combinator
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 875
+
+Description:
+Michael Truell on June 17th, 2025 at AI Startup School in San Francisco.
+
+At 24, Michael Truell has already built Cursor into one of the fastest-growing companies in AI coding, hitting $100M ARR in just a year. 
+
+In this fireside chat with YC General Partner Diana Hu, he shares the lessons that came from years of failed projects with his co-founders, why he believes programming is still essential even as AI changes how we code, and how Cursor is taking on GitHub Copilot with the conviction that 
+
+============================================================
+TRANSCRIPT
+============================================================
+
+We realized we were really inherently
+excited about the future of coding. And
+I think we took a step back and realized
+that if we were being really consistent
+with our beliefs, there was going to be
+an opportunity for all of coding to
+change in the next 5 years and for all
+of software development to flow through
+models. It felt like no one working on
+the space at the time was really taking
+that seriously. It felt like they had
+great products and they were making them
+a bit better, but they weren't really
+aiming for a world where, you know, all
+of coding as we know it today gets
+automated and building software ends up
+looking very, very different. Then with
+that in mind, we set out to to work on
+that.
+>> Let's start this talk with sort of the
+origin story of your journey as a
+founder. You kind of have to go way back
+to middle school when you were reading
+the essays from PJ, right?
+>> So early on I think uh you know had been
+interested in in starting a company for
+a long time. Had been interested in a
+bunch of a bunch of other things too. I
+think actually originally got into
+programming being interested in in
+starting something kind of commercial
+where uh the first time that I ever saw
+code. It was over some winter break and
+my brother and I we wanted to create a
+hit mobile game. We didn't really know
+how to do that. We looked on Google how
+do you create a game? We heard that you
+need to download this application called
+Xcode. Uh we did that and uh we were hit
+with these weird colorful esoteric
+symbols which were Objective C which you
+know uh is still around but maybe a
+little bit less popular than it was then
+for good reasons and um stared at uh
+this kind of impenetrable wall of
+Objective C and my brother promptly
+ejected. Didn't move on with
+programming. He now is on a very
+different career path. He's kind of
+trying to paint or something like that.
+Um but um I yeah kept going and uh
+bought a book on Objective C and then
+eventually uh started working on on
+mobile games. That was the genesis of me
+getting into programming and then along
+the way also yes was a big fan of uh
+PG's essays and uh Sam's essays too also
+and a bunch of the folks in YC and that
+was definitely a big inspiration even
+from the very early stages of of high
+school. I think the wildest thing about
+cursor is that right now you're just 24
+and build this monster of a company in a
+really short amount of time. To a lot of
+people it could seem that it's a bit of
+a out of out of nowhere, but this was
+really in the making for more than a
+decade. You've been working and shipping
+a lot of different projects, right? And
+you were working in AI even when you
+were in high school, right? Tell us a
+bit about the projects and how you got
+started with that.
+>> Was lucky enough to find programming
+early on. was also lucky enough to be
+interested in AI early on uh and have
+some great collaborators to work on AI
+projects with soon after kind of the fay
+into mobile games which also turned into
+uh I wasn't very good at mobile games so
+one of the things that I built and
+actually one of the things that got most
+popular which was kind of the
+technically easiest thing to build which
+was maybe a lesson in startups of you
+know the code isn't everything uh was uh
+this mobile game or this mobile app
+where you could spoof high scores in
+things like piano tiles and flappy
+and then send them to your friends. And
+that was kind of the thing that went
+viral. It wasn't the, you know,
+painstakingly handcrafting the game
+engine yourself thing. But uh yeah, no,
+soon after that uh got interested with a
+friend in the idea of building a robotic
+dog where we thought it would be really
+great to have a robot that you could
+teach to do things without programming
+it. Um instead you could give it
+positive and negative feedback like you
+give a dog. So you could give it a treat
+if it does some, you know, quote treat
+if it does something good. Uh you could
+say bad if it does something bad. and
+then maybe it would you know you could
+teach it to play fetch and things like
+that. Uh that idea really animated us.
+But we had no idea how to build it. And
+so again you know started the place
+where one would start which is Google
+and kind of went down a lot of rabbit
+holes and you know took us into a place
+of uh learning about genetic algorithms
+and maybe that was going to be helpful
+for building this robot dog that we
+wanted to build. And then we eventually
+learned about you know this neural
+network stuff because some people were
+playing with taking genetic algorithms
+and using them to evolve neural networks
+at the time you know with work like
+neat. And then uh eventually it took us
+to RL reinforcement learning um which
+was you know even back in 2015 uh people
+had been working on it for a long time.
+In the end my friend and I we did
+eventually build a couple of robots. We
+did we didn't do any sort of substantial
+work that really lasted but we did work
+that was interesting at the time in
+taking reinforcement learning algorithms
+and making them more data efficient. you
+know, making them better at learning
+from very, very few data points, you
+know, order of tens of data points and
+also from noisy data, you know, data
+that a human's giving. It wasn't exactly
+a dog, but we built a couple of robots
+where one of them was this many axis
+robot arm that could kind of swing a
+paddle and play ping pong and if you put
+the right sensor on it and then you gave
+it the right sort of positive and
+negative feedback, you could teach it to
+swing when it sees a ball. And then uh
+we had this Kiwi drive robot that we
+would teach to follow a line. to do
+that. It was actually kind of this great
+education in ML. Um, partially because
+of our dumb naive where we didn't really
+know that there were things like Torch
+and TensorFlow and kind of other you
+know lots of building blocks we could
+use from maybe we weren't good enough at
+Googling.
+>> So you like implemented your own neural
+network from scratch.
+>> Yeah. So
+>> when you were like I don't know 16 17
+>> the constraints of the problem were we
+were dealing with uh robots and so we
+were dealing with microcontrollers
+um and so microcontrollers have very
+little memory and they couldn't really
+fit any of the normal standard ML
+libraries. So as part of our bike
+shedding trying to build a robot dog, uh
+we implemented our own tiny neural
+network library and I have memories of
+us not really understanding any of the
+internals of how these things worked or
+not really understanding calculus but
+kind of fumbling our way through
+re-implementing um some important ideas
+from neural networks. I you know I think
+it it taught us a lot. I think there
+were a lot of gaps of the fundamentals
+that it took many years to fill in
+later.
+>> Then fast forward to the founding of
+anyphere. It's a interesting name
+because cursor is not what it is. When
+you guys started, you had just um
+graduated MIT, right? That was back in
+2022.
+>> What were the first idea that all four
+of you started working on back in 2022?
+>> Yeah. So, the the genesis of cursor was
+in 2021. Uh my co-founders and I, we had
+been interested in AI for a long time.
+Each of us kind of had our own little
+robot dog moment where one of my
+co-founders he worked on uh trying to
+build a competitor at Google actually uh
+using LMS in in 2021 and and training
+his own um and training his own
+contrastive models. Uh one of my
+co-founders uh worked on computer vision
+in academia and you know some of us also
+worked on recommendation systems at at
+companies like Google. But uh we were
+really interested in AI. In 2021 we were
+trying to figure out what we do with
+that interest. Do we go and work on AI
+in academia or you know do we go join
+you know a big existing AI effort or do
+we start our own thing and there were
+two moments that really got us excited.
+One was seeing the first AI product
+start to come out uh you know GitHub
+copilot was really the canonical example
+for us. The other was seeing work about
+how it looked like AI was going to
+predictably get better in the future as
+you scale up these models. At the very
+beginning of 2022, uh me and my
+co-founders, we went on a like a
+month-long hackathon basically and we
+started hacking on ideas related to kind
+of picking an area of knowledge work and
+building what it looks like as AI gets
+uh more and more mature. Um
+>> you guys have collected a lot of data
+for that first idea, right?
+>> Yeah. So the first real idea that we
+worked on for a long time was in me
+mechanical engineering. was trying to
+build a a co-pilot for mechanical
+engineers and trying to train models to
+kind of predict what you would do in a
+CAD system like Solid Works or Fusion
+360 um which is where uh Mecky's model
+out parts in 3D on a computer. We picked
+it because we thought it would be boring
+and sleepy and uncompetitive and uh we
+were kind of doing an armchair MBA thing
+even though it was a horrible choice
+from the get-go because none of us were
+really mechanical engineers and also the
+science wasn't really ready for that
+area.
+>> But you guys kept working at it for a
+number of months, right? And you crawled
+and got all these CAD files and actually
+got something working with autocomp
+completion, right? That was like the
+first version of it working.
+>> Yes, we a bunch of the work was in data
+scraping. Honestly, it was trying to get
+all the CAD CAD models in the internet.
+There also all these different file
+formats and trying to convert them all
+into something that's canonical because
+CAD is this weird software market where
+there are all these different systems
+that are pretty popular. It's very
+fragmented. Uh there are also cloud CAD
+systems that don't have easily
+exportable files and they don't want you
+to scrape their stuff and so there was a
+bunch of work there. Also the training
+infrastructure for doing any kind of
+modeling work back then was pretty
+rudimentary and so there was a lot of
+work on the on the infra side there and
+just a lot of experimenting with models
+and a lot of experimenting with how you
+even jerryrig an extension into these
+CAD systems because they're the you know
+we were building an extension these
+applications aren't really extensible at
+all. There were actually also other
+projects that we were working on at the
+time. So um two of my co-founders they
+were working on an endtoend encrypted
+messaging system um because one of them
+has a background in security research
+and the idea there was apps like Signal
+and WhatsApp um they encrypt the body of
+the messages but they don't hide who's
+talking to who at what time which is
+actually really crucial information if
+you don't want to trust the messaging
+app provider. So, you know, if a
+journalist is talking to, you know,
+talking to some informant in the
+government, just knowing that they're
+communicating at all is a is actually,
+you know, a really big piece of
+information.
+>> So, that was in the middle of uh 2022.
+So, you guys were working for about good
+6 months on this idea.
+>> Yes.
+>> And how many users were you getting at
+did you get at that point? So, you
+shipped the product.
+>> All all of these projects were elevated
+and it had basically no users.
+>> At what point did you realize that the
+idea was not working? It's like, oh no,
+we we're all working on this. We we're
+trying to do the startup. It's not
+working. And
+what was that moment like?
+>> I think it was a bit different for each
+of the projects. I think for the
+messaging system that uh two of my
+co-founders worked on. It was really
+technically impressive, but it had these
+bad trade-offs where it wasn't very
+scalable. And I think they tried to give
+it to people and it didn't really work.
+And then they tried to sell it B2B and
+then it didn't really work. And I think
+it was after a couple of months of
+trying to get traction for the CAD
+ideas. It was yeah many months of trying
+to get the models to really be useful
+>> um for end users and then also reckoning
+around are we really interested in these
+areas or is there something else that
+we're inherently much more excited
+about.
+>> So there was a moment that you decided
+okay these ideas are not working we have
+to pivot again.
+>> Yes. you you you turned through a three
+ideas, three, four, five ideas before
+landing into into uh code completion.
+>> Yeah, I think that um so we had been
+inspired by um tools like copilot really
+early on um and we had avoided working
+on um AI and coding because we thought
+it was too competitive competitive then
+still is competitive now. So
+>> 2022 GitHub copilot was making already
+about 100 million revenue
+>> I think or more
+>> potentially more. Yeah.
+>> And you guys are like, "Oh, we could
+still do a better job than GitHub
+Copilot because people thought the game
+was done." It's like, "Hey, GitHub."
+>> Well, I mean, we we didn't think we
+could at at the start. And then I think,
+you know, it was the desperation of
+having worked on ideas for a while and
+not really being excited about them
+after a while and them not really
+working out. And that kind of shapes, I
+think, what you care about and what
+you're aiming for. And we realized we
+were really inherently excited about the
+future of coding. I think also we got to
+see how some of the other people in the
+space were, you know, working on their
+products. We got to see how the tech was
+developing. And I think we took a step
+back and realized that if we were being
+really consistent with our beliefs, you
+know, there was going to be an
+opportunity for all of coding to change
+in the next 5 years and for all of
+software development to flow through
+models. And it felt like no one working
+on the space at the time was really
+taking that seriously. like it felt like
+they had great products and they were
+making them a bit better but they
+weren't really aiming for a world where
+you know all of coding as we know it
+today gets automated and um building
+software ends up looking very very
+different. Then with that in mind we set
+out to to work on that.
+>> That was a bold move because you said
+okay we're going to stop working on all
+these other ideas that we didn't have as
+much of a background and you were
+excited about programming even though
+you had this big Goliath in the room
+with GitHub Copilot. you decided to go
+and let's just solve this problem.
+>> It didn't really feel bold or like a
+move at the time because it's like you
+know bunch of people sitting around in
+their living room like on laptops. It's
+not like you know like pivoting some
+giant company but uh yeah no we did and
+uh you know initially we kind of waited
+into it where we were thinking well you
+know maybe we do this kind of very a
+niche tool for basically security
+reviews you know trying to detect future
+CVES in your code or maybe we build
+something that's just for this one niche
+area of software. um you know we we
+thought about building for quants and
+actually um kind of prototypes and
+things just for quantitative
+researchers. But yeah, in in doing that
+we were just brimming with ideas for
+what cursor could be if it were just
+about trying to be the best way to code
+with AI uh in general. And then I think
+that we just we had a ton of conviction
+about that and we had a ton of
+excitement about that and so at some
+point we just decided to to go for it.
+>> Yeah.
+>> And that was end of uh 2022, right? when
+you decided to make that move and how
+quickly did you ship the first product
+and what did the first product look like
+and that was around you shipped it a
+couple weeks later and what was what was
+that look like?
+>> Um it did take us a little bit of time
+to ship something publicly.
+>> Mhm.
+>> It took us roughly I think three months
+from first line of code to open it up
+and G it. Originally what we did is we
+built our own editor quote unquote from
+scratch.
+>> Oh my god.
+>> Still it was still using a bunch of open
+source building blocks. There are a lot
+of great primitives like code mirror and
+you know the language servers and
+there's a lot of open source tech that
+can that can help you build an editor
+but uh yeah no it was called together
+from scratch and there was our own
+version of remote SSH or own copilot
+integration at the time because we
+didn't have anything like autocomplete
+you know you have to build you know your
+own peen system you have to build all
+your own language server integrations
+there's just a lot that ends up going
+into um something as developed as you
+know the code editor market you know
+making something that can actually be
+competitive there and service someone's
+daily driver but it was I think it was
+four weeks until we built something that
+we could use as our daily driver. It was
+maybe four weeks later where we gave it
+to the first beta testers and then there
+was another four weeks and then we g it
+and it was still very very crude at the
+time. It didn't feel like a big thing to
+just open it up to the public.
+>> What did you learn in that first
+version? Because you you built a code
+editor from scratch. You guys haven't
+done the whole forking yet.
+>> Yeah. And we had the fear of God in us.
+I mean we had
+people hadn't hadn't really liked some
+of the things we built for a while. So I
+think that you know we were kind of all
+in on it and very focused. But what did
+we learn from that? Um, I think that we
+learned kind of the first initial set of
+AI features where, you know, when we
+started, I think that there was just one
+key command and it pulled up this like
+universal remote in the editor and then
+you asked it to do something and then
+entirely the AI would just figure out,
+oh, do you what what what exactly do you
+want it to do? um you know, do you want
+something back that's like a chat
+response or do you want um like a code
+suggestion that you can then take or do
+you want it to go search around your
+codebase and answer a question or do you
+want it to go spin for a really long
+time or a short time and there wasn't a
+lot of control and I think that we
+learned you know given the tech of the
+time um at the end of 2022 that you
+actually it has to the form factor has
+to look a bit different and so we
+learned kind of the first early AI
+features that then became part of the
+core of cursor from iterating both for
+ourselves and also giving it to people.
+I think another thing we learned was,
+you know, we were very rapidly building
+a feature version of what we want in a
+normal code editor plus then some AI
+stuff that we thought was great. But
+then, you know, a feature complete code
+editor for the world, um, is going to be
+a way, way, way longer road. We thought
+that, you know, FS code had been
+developed over the course of 12 years,
+was one of the earliest TypeScript
+projects, um, had lots of people on it.
+Thought, oh yeah, of course, you can
+kind of spin something up that's just
+equivalent for the world in in a few
+months. And I think that we learned very
+rapidly that that wasn't the reality and
+our time was going to be best spent just
+focused on the AI stuff. And so similar
+to how browsers often based themselves
+off of Chromium's rendering engine, we
+then switched to being based off of VS
+Code.
+>> The other thing is you guys had also
+implemented your own models too. Like
+back then you got a lot of inspiration
+from uh codecs, right?
+>> Mhm. Yes. So when we were setting out to
+work on uh you know our our first idea
+that we really spent a bunch of time on
+which was trying to help mechanical
+engineers be more productive using AI uh
+one of the things when we raised our
+first round of funding because we we
+actually kind of needed money from the
+get-go to do a little bit of model
+training because you couldn't bootstrap
+it with the models that existed off the
+shelves. They weren't good enough at
+that task. One of the papers that we
+would tout around is actually the
+original Codex paper u because by our
+calculations codeex which was the first
+this was the first autocomplete model
+behind GitHub copilot it didn't really
+cost that much money to train even
+though even back then at kind of the
+beginning and middle of 2022 people were
+talking about how expensive AI models
+were to train I think it cost uh my math
+might be wrong but I think it was about
+100k in training costs and then you know
+during this fay into mechanical
+engineering we had done our our own
+training and then uh when we set off on
+cursor. I think we were a little bit
+burned by that. And so we wanted to be
+as pragmatic as possible, not to
+reinvent the wheel. And so we started by
+doing none of that. And then over the
+course of 2023, you know, in dialing in
+the product, that ended up being a
+really important product lever,
+especially as we got to scale and we got
+a bunch of people using the product. And
+then that also gives you the ability to
+use product data to make the product
+better. And so that actually has been a
+really important uh muscle to build in
+the company. YC's next batch is now
+taking applications. Got a startup in
+you? Apply at y combinator.com/apply.
+It's never too early and filling out the
+app will level up your idea. Okay, back
+to the video.
+>> What happened then in 2023 was when you
+were still not sure about whether cursor
+was going to be a thing, right? You were
+still debating with your co-founders
+whether you should still pivot. It's
+like, oh, is this idea still going to
+work? And you were still trying to grow
+it, right? Because it took a long time
+to to get to revenue, right?
+>> Yeah. I think that over 2023 it uh it
+was growing the numbers were kind of
+small and I think that also we were
+working on something where there wasn't
+always a clear next step. Um I think
+that there are probably some markets
+where you're really well served by
+going immediately talking to a bunch of
+people listing down their problems
+really rigorously or you know really
+kind of systematically and exhaustively
+thinking through each problem what would
+kind of be the direct solution and then
+prioritizing them and then going from
+there. Um, but I think that we were and
+are in a space that's that's a bit bit
+different than that. You know, I we're
+this end user application that doesn't
+have much of a complexity budget. We are
+trying to uh build the best way to code
+with AI. And so a lot of that is
+figuring out, you know, given the tools
+that you have today, what can you
+actually do? There's a lot of things
+that you could write down that that
+would be useful if you could build them,
+but then, you know, figuring out how to
+build them and all the details. It's not
+entirely clear how to move forward on
+that. And so yeah, there were a lot of
+times over the course of 2023 and then
+you know actually also to add to this of
+our early user base if you just kind of
+followed the gradient of exactly what
+they wanted you would get pulled in
+slightly different directions than we
+ended up in. You know we had a really
+loud segment of users that didn't know
+how to code at all and we talked about
+you know should we focus on those folks.
+We had a really loud segment of users
+that wanted us to do things that were
+very techstack specific. Um, you know,
+just building for one technology and
+making it much less of a horizontal tool
+and we resisted doing that too. There
+was a lot of early prototyping and uh
+kind of wandering the desert in 2023 and
+then you know figuring out things around
+you know where does it make sense to not
+just build the software but also build
+our own models to improve the API models
+or or to replace them in places like you
+know for instance with our our tab you
+know our next edit prediction and then
+how exactly to do that.
+>> You went from zero to 1 million around
+2023 right and it was uh it took it took
+a lot to get there right? Um, yeah, it
+was a a bit more than that, but sort of
+roughly that that
+>> And then 2024 was a crazy year. You guys
+went from one to 100 million
+in one year. Tell us about this uh loss
+of uh compounding power because you kept
+that growing 10% week over week. How did
+that happen?
+>> So, the numbers felt small early on,
+then the compounding kind of kept going.
+I think that there were a couple of
+things that really drove our growth. Um,
+we're in this market where if you make
+the product better, you kind of see it
+in the numbers immediately where, you
+know, things start to grow more. And so
+we felt it around, you know, when we
+first started to make cursor codebase
+aware, when we first started to, you
+know, be able to predict your next
+action, when we made that then more
+accurate, then when we made that faster,
+then when we made that more ambitious,
+um, you know, it could predict sequences
+of changes, and then when we let the AI
+model start to take more action within
+your codebase and then do that really
+fast, you know, speeding that up. And so
+all along the way, um, you know, I we
+kind of just focused on making the
+product better. the compounding
+continued. Um, and I don't think that
+this is true of all markets, but I think
+we're we're in a market where end user
+preferences matter a lot. And if you
+make the best thing, people hear about
+it and talk about it. And that kept
+going for, you know, a long time. I
+think one of the funny things that a lot
+of that that's happened around that time
+we did see a big shift in the YC
+companies as they were going through the
+batch because we would ask what what
+kind of tech stack you use to build your
+applications and it was night and day
+from one batch to the other. I remember
+in 2023 I think it was maybe single
+digit percentage of the batch would use
+cursor then 2024 it was like 80%. It
+just like spread like wild wildfires
+like the best builders were using you
+>> got onto their Twitter feed. Yeah.
+>> The Twitter feed. Was that where a lot
+of adoption? How how did all the growth
+came from? So the the very early stages
+when we were first launching the editor
+we uh tried to kind of evangelize it on
+on social networks and actually my uh
+one of my co-founders when kind of the
+the dopamine hit keeping him going in
+2022 when we were working on some of
+these ill- fated ideas started posting
+on the internet and kind of explicitly
+set out to try to gain a lot of
+followers not by doing kind of normal
+social media things but by talking about
+AI actually it was kind of surprising
+you know, the degree to which someone
+could actually just read kind of all the
+papers, think kind of deeply about what
+was going on at the time, talk about
+that publicly and then get recognized by
+influential people in the space. And so
+there was like this particular um open-
+source model, Flynn T5 at the time that
+multiple
+uh AI efforts that ended up using that
+model. They found out about, you know,
+kind of the benefits of that model
+directly from my co-founder just because
+he was posting on Twitter and doing that
+kind of consistently. But he became like
+sort of niche, very niche, like sort of
+niche niche niche of SF micro celebrity.
+He would actually kind of evangelize the
+product early on. And so we had this
+kind of very movie magic demo. Um, you
+know, when we when we first launched and
+when we first did a wait list to just
+get our initial batch of users. I think
+that that was helpful getting the, you
+know, us kick started. But then after
+that, we kind of stepped away from that
+and we kind of lived like monks 2023 and
+just focused on the product. And it it
+really just spread from word of mouth. I
+remember there were a couple of times
+during that year where there were
+members of the team that would say
+things like, "Guys, the product's
+already good enough. Like, let's put it
+aside. Let's just focus on growth
+engineering." And um then there would be
+like a two-month sprint on, you know,
+doing some version of that. uh and it
+just never it kind of washed away
+compared to the to the other stuff that
+we worked on that year.
+>> And by that time um in 2024, how big was
+Kurser? How many how big was the company
+at that point?
+>> Uh it was pretty small in 2023 where my
+co-founders are are fantastic engineers
+and so and there were four of us and so
+we could go uh pretty far without hiring
+anyone. We also had our own, you know,
+set of missteps and figuring out the
+first set of people to hire and how
+exactly to do that. And um so we're both
+very patient early on and also, you
+know, focused on hiring a lot less than
+we probably should have early on. Um I
+think we ended
+2023
+at only single digits people. Like we
+were less than 10 still.
+>> Yeah.
+>> Amazing. So, so
+>> no, I guess one cu curious uh now
+shifting gears a little bit about what
+are your thoughts in terms of how the
+future's going to look with uh coding.
+>> We were kind of this this maybe middle
+road bet from the start where when we
+set out to work on the company and we
+were kind of hiring our our first
+people, we would get these weird looks
+around, you know, why are you I mean at
+the end of 2022 it wasn't really like
+this, right? because kind of catchy
+happened and then the whole world woke
+up to things, you know, beginning of
+2023. But especially during 2022, uh
+when we were working on the CAD stuff
+and then the early code stuff, um people
+thought working on AI uh was it was kind
+of weird to do. People were not entirely
+convinced that it was a good use of time
+and that there were going to be lots of
+great applications to fall out of AI.
+And then even the people who were
+interested in AI,
+there was I in our space, you know, a
+bunch of people that were just focused
+on optimizing kind of the form factor
+that existed already um and just making
+those products a little bit better. And
+then at the same time, you know, in our
+social circles and professional circles,
+there's a bunch of people that, you
+know, we're thinking, oh, why would you
+work on anything other than AGI? And,
+you know, all of the work that you're
+doing right now in one or two years, you
+know, circa 2022 is going to go away.
+And yeah, I think that we've always had
+this view that there's going to be lots
+and lots of um incredibly valuable
+things to build over the next couple
+decades. AI is going to be this
+transformative technology. Uh maybe more
+so than you know any revolution in
+recent technological revolution in
+recent centuries, but it's going to take
+a couple of decades. And it's going to
+be this industrywide effort where there
+are all of these independent
+capabilities that each need to fall to
+really get to you know a place where you
+can entirely get to the end state of uh
+transforming building software on
+computers or kind of the other areas of
+knowledge work that might be transformed
+by AI. And yeah, I think concretely kind
+of in the near term
+um we think that for professional
+engineers, which is the end user we
+serve, uh the market that we serve, um
+you know, code is still really important
+and uh there will be this long messy
+middle where um you will be working with
+the AI more and more it will become like
+a colleague more and more. It may also
+become like a you know a very advanced
+compiler that can start to hide some of
+the code for you. You're going to have
+to read the logic and um yeah, and
+review it and and edit it. So, and
+>> what do you think are the skills that
+are still going to matter? What should
+everyone still be studying or stop
+studying?
+>> I mean, I think that programming like
+math is kind of just a good general
+education.
+>> Um, and I don't think that that goes
+away. And I think that there's also lots
+of practical skills that comes from
+studying computer science right now. I
+mean, often when people are kind of
+entering dynamic industries, the like
+specific stuff that they they study in
+school uh isn't super crucial. It's more
+the kind of learning that they get along
+the way. I don't think that's changed
+with AI. What advice do you have for the
+audience? If you have like a young
+Michael Trello, maybe not just three
+years ago, they want to be like you
+three years ago before they start
+cursor. What should they be doing right
+now?
+>> I think just working on things that
+you're interested in and
+uh doing it with people both that you
+enjoy being around but that you respect
+a ton. Uh and taking that really
+seriously. Yeah, I think that for a lot
+of people that are in school, it there's
+so many things that pulls you toward um
+more checking boxes and less, you know,
+uh focusing on building something up
+over time uh and really focusing on on
+something that you're that you're
+interested in.
+>> All right, let's give it a round of
+applause to Michael.
+>> Thank you so much.
+>> Yeah, of course. Thank you for having
+me.

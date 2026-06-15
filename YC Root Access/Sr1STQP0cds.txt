@@ -1,0 +1,546 @@
+Video ID: Sr1STQP0cds
+URL: https://www.youtube.com/watch?v=Sr1STQP0cds
+Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 539
+============================================================
+
+[music]
+Today I'm joined by Taranjit and Desh
+the founders of MM0. They just announced
+a 24 million raise to build the memory
+layer for AI. Congrat.
+>> Thank you.
+>> Thank you. Thank you for having us.
+>> All right. Tell us what is Mezero today.
+>> First of all, thank you for having us.
+Mezero is building memory layer for AI
+agents. Right now everybody is trying to
+create an AI agent and all of them are
+using LLM. But there's a fundamental
+issue. LLMs are stateless. They don't
+remember things like human remembers. So
+we are trying to fix that for every
+agent and every AI app that anybody is
+creating out there.
+>> It means that every time someone uh does
+a prompt then the agent start from
+scratch and don't memor don't remember
+whatever happened before.
+>> Yeah.
+>> What's the current state of the
+business?
+>> The current state of the business is
+doing well. We are the most adopted
+solution in the market in terms of
+traction. We recently crossed 14 million
+Python package downloads, 41,000 GitHub
+stars.
+>> Yeah, you're open source, right?
+>> Yeah, we are open source and we are used
+by thousand of companies across. We not
+only power memory for companies, we also
+provide memory for major agentic
+frameworks like AWS, agents SDK, crewi,
+flow wise, etc. And recently we
+announced our $24 million funding round.
+>> And what are the main benefits here? Of
+of course agents get that memory but
+what is the benefit for them?
+>> Uh the main benefit for anyone who is
+using a solution like me zero in their
+AI agent is like their agent improves uh
+over time. It's like let's say if I'm
+building a uh trip planner agent and I'm
+like whenever I'm going to New York I
+want to stay in Airbnbs the agent will
+remember this preference and the next
+time whenever I'm automatically booking
+a trip to New York it will just surface
+it. So that's the first benefit wherein
+like the new AI apps and agents that are
+coming they know you in the best
+possible way and then apart from that
+for developers we also help them save
+cost because you optimize the prompt and
+you also help them save latency.
+>> So how how do you save cost? That's
+interesting because you have more data.
+>> No. So the most naive way wherein like
+anybody who wants to have some sort of
+memory layer is by passing everything
+into the context window.
+>> When you pass everything into the
+context window, you are you know sending
+more tokens. So more cost and more
+latency. We on the other hand will
+optimize for the right and the most
+accurate information. That's how we save
+cost into.
+>> So instead of like talking everything
+that happened and then copy pasting that
+in the prompt, you can be more smart
+about what you share.
+>> Yep. Yep.
+>> Awesome. Tell us more about how you
+started like where are you from guys?
+>> I'll go first. You know I'm from India.
+I moved to US last year and uh my
+journey involves me taking seven
+attempts in starting a company. M
+>> I took the first attempt in 2012. Uh
+this is the seventh attempt in me
+starting a company and [laughter]
+I got lucky that I got Disha as a
+co-founder and CTO in this journey along
+and it's
+>> we met actually uh during our undergrad.
+Uh we are undergrad friends. We know
+each other since like 2012. So been 13
+years. We did a lot of projects like
+during our undergrad uh a lot of side
+projects and always wanted to like start
+something of our own. TJ was doing a lot
+of things in India. I was here working
+at Tesla Autopilot uh where I was
+leading the AI platform team. Um and
+then he was shifting here and we were
+like let's build something together and
+that's how like this whole story came
+together
+>> and then you join forces and apply to
+IC.
+>> Exactly.
+>> Yeah.
+>> Yeah. Yeah.
+>> And I remember when you applied you
+actually joined us with another idea not
+me zero right what happened? Can you
+tell us a little more of that story? So
+we got into IC in summer 24 batch and we
+were interviewing with you around March
+and April of 2024. At that time we were
+going through a shift from not just
+focusing on rag and focusing more on
+solving the statelessness problem of LMS
+when we were applying the company name
+and the product name was still embed
+chain but we were behind the whole
+trinkering with the memory idea. Uh the
+genesis of this idea is from a app that
+Disha and I built in December 23. It was
+called Sudguru AI. Sadguru is a very
+famous Indian yogi.
+>> Okay.
+>> Uh that app went viral in India and one
+of the common feedback from that
+application was that this app is cool
+but it is kind of dumb because it
+doesn't remember anything about my
+meditative journey. So that's when we
+started thinking like why is this
+happening and we realized that it's
+because LLMs are stateless. Rag is one
+way to give context about a knowledge
+base. But then Disha and I kept thinking
+about it and we were like this is
+something deeper than that and that's
+how we started tinkering with like early
+versions of mem chain and we remember uh
+when both of us met you for the first
+time at YC retreat
+>> and we were like talking about all the
+algorithms that we have developed and
+you were like you know why haven't you
+launched yet and within like 36 hours we
+ended up launching from embed chain to
+me zero and since then the journey has
+been really great.
+>> That's awesome. That's awesome. Yeah,
+like the the traction the open source
+traction has been very very impressive.
+People started adopting right away,
+right? It's it's so uh so funny to see
+that the idea came from the side project
+that was a consumer app that took off
+pretty much. That's that's excellent.
+>> Let's go back to the product. So, how
+does that work exactly like the inside
+of the product? I'm a developer. I
+implement you in my product. How is that
+going to work?
+>> I mean, I'll just cover from like a high
+level perspective. So, the product is
+composed of two primitives. one is like
+adding a adding a memory and the other
+one is like searching a memory and these
+primitives reflect in our APIs. Uh so we
+make it very easy for a developer to
+give us any you know sort of data they
+feel is important on a user level. We
+try our best to understand what is
+important from that and then we build a
+state on top of it. So let's say if you
+are like building like a person a
+companion you'll give give us your chat
+responses. We'll try to extract
+meaningful information from it and we'll
+try to build a state on top of it.
+Building a state is important because
+that helps us in understanding how the
+evolution is happening and then whenever
+like the user is coming let's say the
+user is trying to you know start a new
+conversation we'll give you the most
+important conf you know information out
+there behind the uh hood we go through
+like a technical process which dish
+>> yeah so um our algorithm is actually
+like a hybrid data store architecture
+that we have implemented where we are
+actually uh whenever some unstructured
+information that comes into we basically
+try to like classify that into like a
+key value pair depending on what kind of
+information it is or as a semantic chunk
+or as like a graph memory which we call
+basically where you are trying to
+basically create like relations between
+like different facts that you're
+collecting so that later whenever
+developer is actually requesting like
+hey uh give me relevant information that
+you know about me we go and like pull
+information from all these three sources
+and we do it effectively and do it in
+real time so that helps you basically
+have like a really low uh latency in
+terms of retrieval and still have like
+high accuracy. And by doing all of this,
+you're also like able to like save cost
+and latency because, you know, instead
+of putting everything into the context
+window, which is going to be expensive
+and uh like slow, so it just uh solves
+the problem for them. Yeah.
+>> To be able to create all of that
+representation of the kind of the memory
+of the end user, you need to understand
+the the actual application. Do you know
+you need to understand what's the actual
+purpose of the application? That's the
+part which is like somewhat hard but
+it's also easy where like we put in like
+a lot of effort to understand what the
+developer is building. So during
+onboarding of the product we try to
+understand like what are you trying to
+build and memory is an expectation
+problem. So like for you uh your memory
+might be different for me my memories
+might be different even for the same
+task right. So we try our best both on
+the open source on the on the cloud
+version that you can customize anything
+that's possible. So you can come down
+and you can be like hey I don't want
+like this kind of memories to be
+captured I want this and all of this is
+in plain language plain like natur
+>> it's going to be interpreted by anm
+>> yeah and then we like try to form rules
+on top of it and then we rerun the
+pipeline we we update all the memories
+for you
+>> do you have any uh good examples of use
+cases like things that people have done
+with the product
+>> when we talk about memory I think like
+memory should be a default primitive
+whenever you're building an AI
+application a couple of highle use cases
+that we have seen across uh people try
+to use some sort of memory solution for
+efficiently managing their context
+encoding agents. People try to use some
+sort of memory solution when they are
+building a personal companion. People
+try to use you know memory solutions in
+education wherein they want to remember
+the learning trajectory. In healthcare
+wherein they want to remember everything
+about the patient and the medicine in
+finance they want to remember the entire
+trajectory. So it's like wherever you're
+building you know like an LLM based
+application
+>> and you want it to get better over time
+>> you should need memory and you should
+use M0.
+>> Yeah we have also like started seeing
+this very interesting pattern now where
+instead of capturing memories about
+humans people are actually now building
+more and more agents so they want
+memories about the agent so they want to
+capture more and more of that as well.
+>> Yeah.
+>> Excellent. Is there sometime an issue
+when memories become stale kind of like
+is there any kind of decay of the
+memories and then you want to use them
+differently?
+>> Yeah. So that's a very good question
+actually. So we have been seeing this
+pattern from our users where different
+developers actually ask for like
+different kind of DK. Uh sometimes like
+customers are like hey I want like a
+hard DK where after 6 months I don't
+care about any memory. Sometimes
+developers ask for exponential DK where
+they care more about the recent stuff
+but they want to forget as memories get
+super old. And sometimes we have also
+seen developers ask about like certain
+things depending on their application.
+Let's say someone is building like a
+travel planner agent. Uh things that are
+related to travel preferences always
+matter no matter how old they are. So
+but they still want to like forget other
+stuff which are probably not that
+relevant. So we are seeing these
+interesting patterns and we have like
+implementations of each of these DK
+mechanisms.
+>> Is that same thing like they are going
+to describe what they want like in plain
+language. It is kind of but there are
+certain other knobs that you can also
+tune basically to enable that.
+>> Okay. Excellent. Uh let's take a a step
+back quickly. OpenAI recently launched
+this memory layer for OpenAI like other
+labs are building the same of course
+like are you still a relevant in that
+world like what does it mean for you?
+>> Yeah, I think it's a good thing for us
+wherein like all the big labs are
+launching memory and the memory is
+available in their consumer app
+offerings and it's a matter of time that
+it becomes available as an API for
+developers. uh the fact that it's good
+for us is because they're educating the
+market that you need memory as a default
+primitive in any AI application but for
+us it's good because developers are
+using multiple LLMs whenever they're
+building an AI application right and
+memory is not just read only memory is
+write only also so in that case as in
+you know best engineering practice and
+even like as a first principal thinking
+you would not want to tie your memory to
+any you know model provider out there
+for model provider it memory is the next
+mode because models are becoming having
+a commodity but for a developer because
+they are using multiple LLMs it should
+be decoupled
+>> they want to own the memory and not
+>> like always have the option to change uh
+model
+>> okay that makes complete sense u and uh
+and that not you mentioned that you work
+with other kind of frameworks other
+partners like AWS like how does that
+work like uh people using these
+frameworks have you out of the box
+>> yeah so like uh we not only serve the
+customers we also provide memory to
+agentic framework frameworks
+>> like we are the exclusive memory
+provider in the a AWS agent SDK called
+strands and then we power memory for all
+the other major agentic frameworks like
+crewi flow wise the idea is that memory
+is something which should be neutral to
+anything it should be neutral to
+framework it should be neutral to your
+model provider it should be neutral to
+llm so that's how we gave it like as a
+very simple tool call in any of the
+agent frameworks out there and
+developers who are using multiple
+frameworks even can have their memory in
+a central fashion and like keep it like
+decoupled from anything out there.
+>> You recently announced your like kind of
+big fundraising like 24 million from
+basis set and p 15 and others like
+>> uh what did they see in you like what
+convinced them to invest?
+>> First of all it's a you know it's a 24
+million seed plus series round. Our seed
+was done by led by Kindred. CDA was led
+by Basiset. Uh Basiset participated in
+our seed round and we have known like
+LAN uh very well for over a year and uh
+we really like the partnership so far
+and uh when we decided to raise uh they
+quickly got back to us with like the
+fact that they wanted to double down on
+us and we you know were fortunate enough
+to raise from them peak 15, Kindred,
+Vice and a lot of other angels as like
+great angels as well. That's so they saw
+like the traction pretty much they were
+already insiders. They knew things were
+working. Yeah. And wanted to go down.
+>> What are you going to do with all this
+money?
+>> I mean we want to build the best
+possible memory product on the planet.
+Uh we are going to use this fund to hire
+the best possible team so that we can
+build the best possible product. Nothing
+else.
+>> How big is the team today?
+>> Uh so we are like now 10 people uh split
+across India and SF office.
+>> Mhm. And so what role are you hiring
+for?
+>> So we are hiring across. We are hiring
+for you know applied we are hiring for
+full stack. We are hiring for forward
+deployed. We are hiring for uh GTM
+engineer. Dhraj can give like a one
+minute pitch also. [laughter]
+>> No I think across the across the uh
+engineering uh organization basically we
+are trying to double down and like ship
+as fast as possible and that's why like
+full stack forward deployed applied AI
+research engineer um front end back end
+>> both here and in India
+>> both. Yes that's correct.
+>> Yeah. Okay. And like whatever work we
+are doing I think like on engineering
+side it's like one of the most
+challenging work out there. You have to
+build like a low latency infra product
+>> and you're solving an expectation
+problem. So you have to have to cater to
+every user and you have to make sure
+that memories work well reliably at
+scale.
+>> Excellent. And what do you see next
+happening in that world of memory for
+AI? Like what would be your vision like
+a year two years from now? We recently
+came up with this uh you know three
+sentences uh while brainstorming. We
+call it like make it work, make it
+neutral and make it portable. Right now
+we are in the first two phases wherein
+like memory works but memory should work
+very well across any domain out there.
+So we have to keep pushing the frontiers
+of that and we want to keep it neutral.
+It should not be tied to anything out
+there. But the broader theme that we see
+maybe which happens in like 5 to 10
+years from now is like we are going
+through a technological shift. So far we
+as humans have been interacting with any
+technology using swipe, scroll and
+click. But that's going to change. It's
+going to be a lot of agentic interfaces.
+For the first time you and I can chat
+with any app or can talk with any app
+and the app can talk back to you. So we
+you everyone is accumulating rich
+personal data and that and history you
+know has shown us multiple times that
+user expectation always move towards
+less friction. So 5 years down the line
+when you are having like a hundreds of
+AI apps in your life day on a day-to-day
+basis and you would have like given
+every app some custom instruction about
+how it should be and you're trying to
+and you're trying the 101 app and you're
+like why doesn't this app just get me? M
+>> so that's the future whereable like you
+want
+>> like any any person any consumer any
+like you me like we want all of the
+agents we work with to know us and to
+share that information.
+>> Yes. Yes. So that's the future that
+we're excited towards. We don't know
+when will that happen but we believe
+that there is a high chance
+>> it is going to happen and wherever that
+happens we want to build the
+infrastructure that caters to the
+developers for today's needs and for
+tomorrow's expectations. Excellent.
+Before to conclude uh let's go back
+quickly on your journey as uh as
+founders like is there anything you wish
+you could tell you when you were
+starting?
+>> I think one thing that I have realized
+for my journey is like focus is very
+critical and it goes back to like
+fundamentals of computer science also.
+So I was thinking recently that like
+okay uh you whenever doing a startup you
+want to make sure you apply DFS rather
+than applying BFS so that you stay
+focused when you're actually like
+working on the startup. So if you're if
+you have multiple ideas in the age of AI
+you have so many ideas always stay
+focused focus on one thing go deep build
+it talk to customers
+>> well in your case like you kind of like
+defocused yourself by building that
+consumer app and it worked. [laughter]
+>> Exactly. Yeah. It was blessing in
+disguise for us.
+>> Blessing for disguise. Yeah. like not
+what you would recommend for others.
+Have
+>> I think for for me I think I I mean it
+sounds very philosophical but it's like
+something that I've you know tested
+multiple times in your life. I think
+everything is possible. You just have to
+believe in it and you just have to make
+it work.
+>> If you're like hellbent like I've been
+trying to do my own company since like
+2012.
+>> Uh it took me like 13 14 years. I think
+if I would have just thought harder and
+I would have just had like more
+conviction in myself, I would have just
+made it I might have made it worked
+earlier. So I would say like believe in
+yourself.
+>> It would not have taken like 13 years
+but like maybe
+>> yeah I mean like yeah I think like
+believe in yourself is like very simple
+but powerful statement.
+>> That's great advice. [laughter]
+Uh thank you so much for joining us
+today. It was great to have you. Thank
+you.
+>> Thank you for having us. Thank you.
+[music]
+>> [music]

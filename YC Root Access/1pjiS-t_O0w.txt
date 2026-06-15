@@ -1,0 +1,553 @@
+Video ID: 1pjiS-t_O0w
+URL: https://www.youtube.com/watch?v=1pjiS-t_O0w
+Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 546
+============================================================
+
+[music]
+I'm Ankit from YC. I'm here at Nurups
+with our YC and Arc Prize afterparty.
+I'm here with Karan Gaul, the CEO of
+Cartisia. And we're really excited to
+have you here.
+>> Great to be here. Thanks so much for
+having me.
+>> Why don't you start by telling us a
+little bit about what Cartisia is? Yeah.
+So, um, Cartisia is a two-year-old
+company. We are, um, formerly,
+um, researchers from Stanford where we
+did our PhDs. Um, and, uh, we worked on
+architecture research there. Uh, decided
+that it was a very important research
+direction and we wanted to commercialize
+and build products around it. So, we
+decided to start Cartisia and a lot of
+people know us as a YCI company. uh in
+that we build uh models for developers
+that are trying to build voice
+applications. Um I can describe it in a
+few different ways. Uh but um I think
+that's like the common way that we're
+known.
+>> Rewinding a little bit when you said
+that you're architecture researchers,
+could you tell us a little bit about
+what that means? You know, in a sense
+that a lot of machine learning for the
+last decade has been architecture
+research. Um in more recent years, you
+see people working on scaling and more
+like engineering problems on a single
+architecture. What do you mean by when
+you say architecture research? Yeah, I
+think machine learning and AI is just um
+putting data into architectures to make
+um really cool models uh on lots of
+compute, right? Um that's a very uh
+short way to put a very complicated
+endeavor, but uh but I think um it's
+clear in the last like um 10 years like
+obviously with transformers and self
+attention and so on like we kind of
+figured out like really good recipes for
+building really powerful models um and
+that became then the entire industry
+around LLMs. I think that when we were
+grad students, we were um this was back
+in 2019, 2020. Uh we were pretty
+interested in um what are some of the
+biggest challenges that will remain when
+these models are scaled to their logical
+conclusion. And part of what we were
+pretty inspired by is human
+intelligence, right? Like humans are
+very uh efficient, you know,
+intelligence for what? And um are able
+to do, you know, multimodal uh things,
+right? like interact with people, um
+take lots of actions, think um and be uh
+very productive. Even the average human,
+quote unquote average, is is very very
+productive and and is a feat of
+intelligence basically, right? And so I
+think we were very interested in what
+kind of architectures would make that
+type of intelligence possible [snorts]
+that's very long context, that's very
+multimodal, where you can interact. And
+so I we felt like the the transformer
+paradigm because of you know limitations
+in in the actual architecture itself uh
+would not be the right one to build
+something that's closer to human
+intelligence. And so we started working
+on it back in grad school and um when my
+co-founder Albert is a pioneer in the
+field he uh invented this area of
+spacebased models um which are these um
+recurrent models to do um uh to build
+you know deep learning models with and
+uh and that's been um you know an
+interesting sort of set of research
+directions that we kind of undertook and
+I think it was really a belief in the
+research and the fact that like I think
+in AI there's often a feeling of like is
+there more to do uh But I think we were
+always very optimistic about like well
+AI is a very big field and there's lots
+of unsolved problems like we should go
+out and do new things not necessarily
+the same thing in a different setting
+right which is often what I think has
+happened in the last few years
+>> and so when you think about spacebased
+models or architectures like that you
+know I I think about the history of how
+models like the transformer came about
+you know if I rewind the clock to 10
+years ago people were working primarily
+on RNNs to do language modeling and
+using LSDMs with attention and that's
+eventually what led to the transformer
+former. Um, how should someone think
+about models like spacebased models with
+that history in mind? Like is there an
+analogy to what an RNN does versus what
+a transformer does that this sort of
+answers uh a limitation of each of these
+two methods?
+>> Yeah, I think I think there's like
+architecture research is fascinating.
+Firstly, I think it's like super
+interesting for folks that are um you
+know working on machine learning. I
+think more people should work on this
+stuff. There's different ways to think
+about intelligence and like one uh thing
+that we think a lot about is the this
+idea of compression
+>> as being sort of a very fundamental uh
+primitive for intelligence, right? So if
+you have uh if you imagine trying to
+build a model that is going to reason
+over huge amounts of information, you
+know, obviously you need to abstract and
+reason over that information in some uh
+more compressed form. Whether it's
+because you need to consolidate, you
+know, your understanding of the world,
+like what does a cup mean in text? What
+does a cup mean in the world physically?
+What does a cup mean when you uh, you
+know, say the word out loud? Um, you
+know, all these different
+representation, audio, video, text, etc.
+need to be consolidated and put together
+in some way that's reasonable and that,
+um, also is uh, something that can be
+used interactively, right? So, basically
+what I mean by that is humans are able
+to take all of these representations and
+then use them to act in the world over a
+hundred years, right? So I think that
+transformers are fundamentally limited
+by their um inability to model and
+compress compress representations in
+this way and they're um sort of like
+context window machines, right? Like uh
+they're very retrieval oriented
+machines, right? Like I kind of think of
+that the difference between like a raw
+text file and a zip zipped version of
+it, right? Like it's sort of like you
+want to have um these like more abstract
+representation. A compression is a good
+it's pressure to build those. And when
+you say that a transformer is a
+retrieval machine, are you saying that
+you know the specific primitive in a
+transformer with you know keys and
+values and queries is acting to enforce
+this prior as a as something that would
+be effective at retrieval versus what
+other alternative architects would do.
+>> Yeah, exactly right. Transformers sort
+of set at one extreme. That extreme is I
+have all like my historical data or my
+you know prompt or context, however you
+want to uh frame it is all available to
+me in raw form and I can reason over it
+and I can answer you know very specific
+questions about it um as needed and an
+example of that is I can recall facts
+exactly. SSM have a fuzzier
+representation of the world. So they try
+to compress all this information which
+means you lose fidelity but you at the
+same time gain something which is by
+compression you build abstractions. So I
+think that's the tension. they live on
+different extremes and in fact one of
+the interesting things that's emerged is
+these hybrid models that are basically
+bringing together a lot of the strengths
+of both of these architectures and
+you're seeing a lot of u modern models
+like you know even like quen etc like
+these the sort of like open source
+models that are being built on different
+forms of hybrids right like um these are
+just classes of architectures there's
+many variants and so on there subtleties
+in terms of how they're implemented
+inferenced etc but I think uh that's to
+me the conceptual difference in terms of
+the extremes that they occupy. And the
+question really is like what is the
+ultimate architecture, right? The not
+not the one that's like taking bits and
+pieces and putting it together, but
+ultimately what is going to be best for
+multimodal data where you can really
+learn and and then use these models um
+over like very long time scales. I think
+that's what we're interested in at
+least.
+>> And it's interesting you frame it in
+terms of multimodality because to your
+point earlier, many people consider you
+to be a voice AI company. And so in
+outsiders view might be okay this is a
+single modality. It's audio presumably
+or text maybe with some kind of text to
+speech thing going on. How do you think
+about what multimodality means in terms
+of the specific company you're making
+and why is that maybe an at least an
+incomplete picture of how to think about
+it?
+>> Yeah, I think um a lot of people uh when
+the word multimodal is said they conjure
+up an image or a video in their heads. I
+think um I think uh video models are
+very sexy and role models are all the
+rage all the time. Uh but I think what
+we're very interested in is what are the
+right approaches to actually build and
+scale multimodal models. And multimodal
+just means like to me a signal and uh
+some sort of like discrete symbol or
+like text, right? That's kind of how we
+think about it. And so even a
+transcription model which is u something
+that's perhaps considered one of the
+most boring tasks is actually multimodal
+because you're actually trying to solve
+a very interesting problem of taking a
+signal and mapping it to a discrete set
+of symbols,
+>> right? as opposed to it being a single
+in a in a standard LLM pre-training set
+where it's from text to text here you're
+going from audio signal directly to
+>> right and so when you have two
+modalities you get many different types
+of tasks and you know different types of
+representations you need to build right
+so for example uh one is the prediction
+problem of like can I generate a
+modality condition on the other one or
+maybe a combination of the two there are
+problems in learning alignments between
+them like uh what part of audio
+corresponds to what text that could be
+transcription It could be trying to
+understand the audio in some way like a
+person is yelling in this fragment of
+the audio or this piece of music is you
+know reminds me of Mozart right like
+these are all different ways of thinking
+about correspondences between them. So
+it's a very rich space and the question
+is like how do you do better
+unsupervised learning on multimodal
+data. Now for us as a company the part
+of the reason we really chose to work on
+this is um a I think we wanted to find a
+a grounded set of problems where you
+don't have to bite off the entire pie
+like this is a very big space and there
+are many difficult problems here. Uh by
+>> wasn't like this is why you picked
+audio.
+>> Yes. This is why we picked audio and and
+audio text specifically because it's a
+signal meets text problem and there are
+many other signal meets text problem
+like video and text and so on. But if
+you I we believe that if you can solve
+one in the right way you can solve all
+of them. So that's one of the core
+beliefs we have around how we do our
+research that if you have the right
+recipe for building great audio text
+models you will have the right recipe
+for building great um models for
+robotics for video etc.
+>> Could you elaborate on that a little bit
+more? I mean I mean you say it as a
+recipe it makes sense but when I think
+about let's say a robotics model it's
+not intuitive to me what the recipe is
+you're referring to that comes out of
+audio that'd be directly relevant there.
+So help me understand like what would
+that I mean maybe some of this is future
+you know thinking but just at least
+hypothetically like what exactly mean by
+recipe here. Yeah, a lot of the
+multimodal um domains have common
+problems which is um and I think here's
+here's a crisp common problem which is
+uh you have a signal how do you
+represent that signal in tokens in order
+to train models over it. This is a very
+very standard problem and so um in audio
+for example you would want to take the
+audio signal the audio wave file and
+turn it into a bunch of audio tokens and
+then train models on those audio tokens.
+In video you do the same thing images
+same thing. In robotics as well, you
+construct um or in you know these joint
+you know joint angles or you know
+kinematic trajectories you're
+constructing some sort of representation
+discrete representation and then you're
+trying to train models on it especially
+if you're trying to predict these
+things. So um it's very much the same
+set of problems and so the core question
+is how do you actually build the best
+representation of a signal right that's
+the core question and it it goes to the
+heart of both architectures but also
+this idea of tokens and tokenization.
+This is this is the intersection that we
+work on. So we are trying to solve it
+from the lens of you need new
+architectures and you also need to
+rethink tokenization completely like you
+need to basically think about um not
+audio as uh you know somebody's hand
+engineering uh you know 16 kHz signals
+into 50 Hz but more as like how do you
+learn over these raw signals in terms of
+hierarchies of abstraction inside the
+model directly end to end learning of
+that. So a simple way to say it is we
+want to get rid of tokens
+>> and have the model learn this
+representation internally
+>> and that part feels transferable
+>> and that part is entirely transferable
+to any other signal in the world
+especially if it's done the right way.
+It would be like saying transformers
+work on different types of tokens right
+like this these are just like things
+that will work out of the box then so
+that's why we wanted to have a focused
+point of view on one modality. The other
+piece was we felt like uh the impact of
+all of this research on architectures
+ultimately as a startup needs to be on
+some real problems and products right so
+I think we were very interested in as I
+said quote unquote building the average
+human or building these for these
+problems that are basically high
+interaction um uh large context and lots
+of action taking. Um so that's why we
+were like okay let's take the call
+center agent
+>> and think about that because that is
+actually a fairly complicated thing to
+build a AI call center agent with a
+model right because you have to onboard
+that person on day one and then you want
+them to do this job for the next 10
+years let's say and improve and and be
+able to interact with different you know
+customers and and and you know uh help
+them with their their queries and so on.
+I think that's kind of one way we think
+about the company is we're first trying
+to solve it for this specific type of
+person and then if we can do it the
+right way we can then take that and use
+it to do a lot of things that quote
+unquote average humans do which is not
+average at all you know uh to be very
+clear right like it is actually
+extraordinary what people are able to do
+but I think that's kind of where we
+think intelligence can head and this is
+very different I think than the notion
+of like high IQ intelligence which is
+very focused on math and physics I don't
+have a you uh gold medal in any
+Olympiad.
+>> You only have a PhD from
+>> I only have a PhD and that's you know uh
+a much lower feat I would say than
+getting a gold medal in one of these
+things. Albert actually my co-founder
+has an Iowa gold medal so I won't speak
+for him but the rest of us you know I
+think we we try to do our best and do
+some you know fairly productive work I
+think but it it's not because we can
+solve math problems every day right it's
+because we're good at dealing with
+people systems uh taking lots of context
+and using it to solve real problems and
+I think that's what AI is not and I I
+think that it's because of the
+architectures and the way that we train
+these models and the way they're built
+and multimodality being one of key
+things that is not working yet and not
+for any other reason. That's that's our
+bet basically.
+>> Interesting. And maybe as like a a final
+piece to talk about here, you know, as
+you've been a researcher uh in entering
+the space, you're a researcher in a
+university. Now you run a research
+driven company. You you started to
+allude to it around, you know, why you
+have a product focus as a way of, you
+know, making this become real. I'm
+really curious as you, you know, think
+about, you know, folks who might want to
+start research focused companies or just
+in contrasting your time in research
+versus running a researchbased company.
+What are some lessons you've learned
+about the kind of differences between
+these and how uh your kind of product
+and research sides can coexist?
+>> Yeah, I mean I think it's been um it's
+been very different from doing a PhD for
+sure and doing research. I think um part
+of it is here like uh in research often
+when you're even in a PhD lab like I was
+in Chris Ray's lab at Stanford it's an
+amazing place you know during the time
+that I was there tree did flash
+attention SSMs were happening there's
+just amazing work happening but I think
+part of it is that in grad school and in
+in academic labs you have uh many
+different people with many different
+visions for what they think they should
+accomplish with research and that's why
+it works right because actually like
+there's a lot of curiosity about doing
+new things and those things are all
+different, right? Um I think in a
+company it's almost the opposite where
+there's only really room for one vision.
+>> There's not really room
+>> versus exploit.
+>> Yeah. And I think within that you have
+to find the room for exploration, right?
+And you have to sort of build a culture
+where people feel like they're not being
+forced to do things that are uh you know
+the same old same old, right? Like it's
+not just like you do this work and
+that's all you do. But at the same time
+there's not room for random exploration
+either. So I think that's the tension
+that is different about a research team
+that's in a startup versus a research
+lab in academia. And I think it's right
+actually that that is the difference
+because I think that uh at least we
+think we should be extremely focused on
+only one point of view and we should uh
+prosecute that to the end of the earth
+right and we happen to have very high
+conviction in that point of view uh and
+happen to have worked on it for 6 years
+but uh and one want to work for on it
+for another 20 years if we can but I
+think uh to me product is something that
+drives discipline and truth to the work
+you Because um let's take an example
+like I think we would never ship a
+product or a model uh with an SSM in it
+just because
+>> right
+>> because we have customers and the
+customers that we have expect the best
+version of the product
+>> right they don't care about the
+architecture
+>> they don't care about the architecture
+and that actually drives a lot of
+honesty into research because it means
+that like you are going to run
+experiments to prove that your product
+or your approach is better for the end
+user not just because you want to
+publish something or you want to put
+something out there that's new or
+interesting. I think that's a level of
+intellectual honesty that product brings
+that I don't think is often seen in
+research for better or for worse. I
+don't think it's because of I don't
+think it's because researchers don't
+have the uh aren't honest about their
+work. I think it's just that everybody
+wants to do things that are new right at
+the end of the day. And I think you want
+to be able to have the right incentive
+to say actually you don't need something
+new when it's not necessary. That's very
+important actually. So, so we don't want
+to be we want to be delusional about uh
+how uh we can change the world but we
+don't want to be delusional about how
+well our our models actually do or h you
+know how much impact our architecture
+will actually have. So I think that that
+is not a place where I think delusion is
+good. I think precision is good there.
+So I think that's kind of how we think
+about it. Um and that's why I think
+product is very important for many other
+reasons. I have other uh reasons. I
+think actually a lot of people
+undervalue the lessons that you know
+even YC teaches to founders. I think a
+lot of people think that research
+companies aren't governed by the laws of
+startup gravity. I happen to not believe
+in that. I think that all companies
+should be governed by the laws of
+startup gravity. So I think that the
+wisdom the YC wisdom should actually be
+used by all research founders and I try
+to try to do that as much as possible uh
+and break the rules where necessary.
+>> Yeah, [laughter] I appreciate you saying
+that. Well, thanks so much for joining
+us. This was a lot of fun.
+>> Thanks so much. Thanks for having me.

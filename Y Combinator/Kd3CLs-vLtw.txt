@@ -1,0 +1,1324 @@
+Title: Building for the Enterprise with Aaron Levie (How to Start a Startup 2014: Lecture 12)
+Video ID: Kd3CLs-vLtw
+URL: https://www.youtube.com/watch?v=Kd3CLs-vLtw
+Channel: Y Combinator
+Published: 2017-04-12T17:35:14Z
+Duration: PT46M31S
+Views: 26081
+Likes: 515
+Tags: YC, Y Combinator, Startup, Lecture, Stanford, Class, Sam Altman, How to start a startup, startup school, aaron levie, box, enterprise, enterprise software
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 1298
+
+Description:
+Lecture Transcript: http://tech.genius.com/Aaron-levie-lecture-12-sales-and-marketing-annotated
+
+Aaron Levie - founder of Box, enterprise master, Twitter comedic genius. In this lecture, he'll convince you to Build for the Enterprise.
+
+See the slides and readings at http://startupclass.samaltman.com/courses/lec12
+
+Discuss this lecture: http://startupclass.co/courses/how-to-start-a-startup/lectures/64041
+
+============================================================
+TRANSCRIPT
+============================================================
+
+can we keep playing with they okay
+good we turn up a little bit so it's
+more pump
+up okay here we go
+[Applause]
+okay I guess we got to clap we got to
+find the beat and then we got to clap to
+the
+beat okay all
+[Music]
+right okay that's that's pretty good
+guys all right we're good we're good
+thank you okay please stop okay stop the
+music thank
+you okay cool can you put on the
+presentation thank you
+um that'll be about the most pump up
+thing that ever happens in Enterprise
+software so um the rest is sort of
+downhill from here so um thank you for
+that intro uh that well rehearsed intro
+thank you um confirming the facts as
+you're saying them um very good so uh
+I'm May and lovey CEO and co-founder of
+box um welcome
+to um this
+edition of uh of how to build an
+Enterprise software company that's my
+understanding this is the course that
+you're taking um right is that correct
+no okay
+so here's here's my job today I'm my job
+is to try and convince you that
+everybody else who speaks throughout
+this sort of whole class is wrong and
+that you actually want to build an
+Enterprise software company and so
+hopefully will be able to kind of work
+through this and you'll have a good
+sense of why it's super cool um to be in
+the Enterprise and um why a lot of the
+sort of perceptions of you know going
+into the whole consumer space where it's
+you know so much fun and everything why
+that's wrong and why you want to do
+enterprise software who wants to build
+an Enterprise software company good all
+right thank you very much hopefully
+we'll do a vote at the end and we'll
+hopefully uh that will not have shrunk
+so um that's that's really actually the
+only goal I have at this point so we're
+going to talk about three things today
+um the first is the quick background and
+and kind of history of box CU when we
+started the company we didn't know that
+we wanted to do enterprise software um
+and so I want to kind of get through a
+little bit about why we decided to go
+after the Enterprise uh and what we do
+today then we going to talk a little
+about what are the major kind of factors
+that have changed in Enterprise
+software um that that make it possible
+to to do a startup today in this
+category and then finally we'll talk a
+little about some some patterns um uh
+that you can kind of exploit and some
+ways to recognize um and and ways to
+actually go and build an Enterprise
+software company yourself and that's um
+that's uh hopefully that'll be some
+practical useful advice um just as a
+forewarning my my voice is I've been
+speaking a lot past couple days so
+hopefully we'll I'll be able to get to
+that third part of the device um uh and
+actually be able to talk um so we'll
+we'll see how we make it but uh I'm
+going to be Downing a lot of water so I
+apologize um for that so um so building
+for the ENT price uh this is what we're
+going to talk about so just quick kind
+of high Lev stats about box we have
+about 240,000 businesses that use the
+product there are over 27 million users
+um that that have brought box into their
+organization and use it as individuals
+and there's we're in about 99% of the uh
+the Fortune 500 unfortunately that last
+1% is really just Microsoft uh and they
+don't seem to want to they don't seem to
+want to buy from us so um uh we we have
+to we have to work on that a little bit
+um but uh certainly um you know decent
+amount of scale a lot of us that have
+brought box into Enterprise environments
+these are some of the the large
+organizations that are that are using
+the product um so very wide range of
+Industries um everything from
+manufacturing and consumer products to
+uh companies like General Electric um
+you Stanford Healthcare uh actually uses
+the product for collaboration within the
+uh the hospital environment and some of
+the research um but uh between
+Healthcare media uh manufacturing these
+are the sort of range of industries that
+that we serve so the question is how do
+we get here CU we we didn't really start
+the company to try and go build an
+Enterprise software company even though
+that is how things ended up happening so
+when we uh started the product um so we
+launched the company in 2005 we got the
+idea actually in college back in 2004
+and so um was anybody using the internet
+back in 2004 okay great so um uh so
+basically I don't know if uh if uh
+Millennials use the internet so um uh
+back then uh sorry okay no more age
+jokes all right here's the point so back
+in 2004 you might remember that there
+wasn't a lot to do on the internet it
+was actually kind of boring right um
+this is before Facebook this is
+certainly before Snapchat um so not a
+lot of things that you could go to you
+couldn't send people 15c messages and
+photos that disappeared because you
+didn't even have a phone to send them
+photos so um so in the internet in 2004
+there wasn't a lot going on um this was
+basically what the internet looked like
+um sort of a a Barren deserted landscape
+um and this was the internet and just to
+clarify
+um The Happy camels Google and the sad
+camels Yahoo um and that was that was
+effectively this was the internet this
+is accurate um this is the internet in
+2004 Yahoo has has done a lot better
+since then but but back in the middle
+2000s they were certainly trying to find
+their way and and Google was sort of you
+know um uh kind of taking over the world
+but this was the entire this was the
+extent of the world so what we noticed
+in 2004 in college was that it was for
+some reason um and this isn't so much
+the case today but back in 2004 it was
+like really hard to share files and as
+simple of an idea as that is now um You
+you go back 10 years and um and it was
+either really expensive or was really
+hard to move data through different
+corporate networks um so I I had an
+internship at the time and um uh and in
+the internship most of my job using data
+was actually just to to copy you know uh
+printed out pages and then put them in
+cabinets um that's also that's what you
+do as an intern and uh if you're not a
+computer science uh student so um so I
+was like really really good at copying
+paper um and uh unfortunately not a
+skill that has um really been useful
+today but um it was really hard to share
+files and then in classroom environments
+you were constantly working with lots of
+other people and it was also hard to
+share files um uh where uh I went to USC
+and USC gave you 50 megabytes of online
+storage space uh in your email account
+50 megabytes so you basically store
+about one file and um and then it would
+Auto delete every six months so um so
+basically I don't know who was running
+it at the time but they did certainly
+didn't buy hard drives um so it was just
+like really really hard to store and
+share files and so we said well why
+don't we make it really easy to store
+and share files from anywhere and so we
+got this idea for um at the time it was
+called box.net
+and the the what we noticed was there
+were a bunch of factors that had changed
+in uh the software world the first was
+that the cost of storage was sort of
+dropping dramatically so uh in our
+business
+um basically every year or two you can
+double the amount of uh data and storage
+that goes into a hard drive so um what
+becomes what was uneconomical uh two or
+three years ago all of a sudden becomes
+feasible because the cost of computing
+the cost of storage has dropped um we
+had more powerful browsers and networks
+so Firefox was just emerging people were
+using um uh uh the much faster internet
+in both their homes and in the classroom
+and then people had more locations of
+they wanted to store and share
+information from and so we had these
+sort of three factors that all of a
+sudden were emerging and I'm going to
+I'm going to sort of pull these factors
+back later when I when I give some kind
+of tactical advice but but sort of the
+first point to remember is always sort
+of look for these changing technology
+factors because any Market that has a a
+significant change in the underlying
+either raw materials or enabling factors
+is a an environment that's about to
+change in a very significant way and so
+we were very fortunate that that
+basically the need for data in the cloud
+was was growing in in uh uh in
+importance and the cost and the
+feasibility of doing it was also uh
+improving rapidly and so we decided to
+put together this really quick version
+of box we launched it as box.net
+and the idea was let's make it really
+easy to share files and it turned out
+that the idea clicked we um we got Angel
+funding from this guy named Mark cubin
+um and uh and this was before shark tank
+but it was very similar um and so we we
+got this funding and we decided that
+okay this is going to be super exciting
+we are going to drop out of college
+we're g to move to the Bay Area and it's
+gonna be totally awesome and um and when
+you know when you drop out of college
+anybody Dro out of college yet okay good
+stay in school so um when you when you
+drop out of college like everyone sort
+of pictures that it's just going to be
+you know incredible like Bill Gates
+dropped out of college it'll be like
+Bill Gates or or Michael Dell dropped
+out of college and and it'll be you know
+super exciting like Michael Dell or
+Steve Jobs dropped out of college so
+this is what people imagine but nobody
+ever remembers that this guy dropped out
+of college also and and so it's not
+really a guarantee obviously that that
+it's going to be successful but but it's
+um it's what you do and actually funny
+enough I don't even know if this guy
+dropped out of college but um it it just
+sort of looks like he had to um
+but and I don't I apologize if anybody's
+related to me it's just a funny picture
+on the internet so um so basically we
+decided we would drop out of college we
+moved up to First Berkeley uh and then
+we moved to Pal Alto a little bit
+thereafter and we decided that um that
+we were going to open up the product for
+free we got hundreds of thousands of
+people that would sign up for the
+product every single month so we had a
+free version of the the product called
+uh if you go went to box.net you get got
+a free uh one gigabyte of file storage
+space which was again quite a quite a
+bit back in 2006 at this point um but we
+were getting so many users and we were
+trying to figure out what to do um and
+what we ran into was a common problem
+that really any startup runs into but
+was really pronounced by our business
+model um which was that for consumers um
+we had built a very robust a very
+comprehensive product and for
+Enterprises we had actually built two uh
+sort of insignificant of a product so
+for consumers um what we were running
+into was we had all these features that
+you could pay for but uh a lot of the
+consumers didn't need all of those
+features and for Enterprises we didn't
+really have enough uh security and we
+didn't have enough um capabilities
+around how Enterprises wanted to use
+their data so we we basically had more
+functionality than what a consumer
+wanted and less than what Enterprise
+wanted and so we found ourselves at this
+juncture and we found ourselves
+basically um in this uh in this period
+where it was very difficult to figure
+out what we wanted to go do with the
+business so we had to make a choice
+right and so we were at this path where
+there were we basically we we just had
+to choose we're at a juncture where we
+had to choose which path to go down and
+this was um back in uh early mid 2006 uh
+up to late 20 6 so um I was I think 23
+at the time the co-founder was was 22
+our founding team was uh was even
+younger um we' all dropped out of
+college and so what we back in back in
+2006 2007 we imagined you know these two
+paths um and and sort of the the worlds
+were very very different like when you
+do a consumer startup it's basically
+just lots of fun and you know there you
+have parties all the time and it's just
+super exciting and then in the
+Enterprise you basically are battl these
+just large incumbents um it's a fairly
+thankless you know model because you
+know people just generally hate
+enterprise software so that was sort of
+how we imagined that the two paths was
+was we had to choose you know one of
+these two worlds and uh and so we looked
+at that and we said okay well consumer
+looks really fun Enterprise looks really
+hard and and there's a lot of
+competition at the same time in the
+consumer space um you are always
+fighting this issue of how do you
+monetize how do you how do you actually
+get people to pay for products and in
+the consumer space there's really only
+two sort of business models that you can
+do you can have people pay for your
+application or you can um provide
+advertising on the application and so
+just to give you a little bit of
+perspective this these are today's
+numbers just to give you a little bit of
+sense of the scale difference in the
+consumer World um there's about $35
+billion spent on mobile apps every year
+pretty big number right $35 billion
+that's that's a lot of money being spent
+on mobile apps today in uh for
+advertising the global digital
+advertising Market is $135 billion so
+you know basically combined most
+consumer companies are going after if
+you're not doing e-commerce going after
+about $170 billion of either sort of
+purchasing power on applications or um
+Global advertising around these kinds of
+services so big numbers lot of
+opportunity there however in the
+Enterprise there's actually $3.7
+trillion spent on Enterprise it every
+single year so these are the servers the
+infrastructure the software the
+networking the services all of that
+stack of technology equates to a few
+trillion dollars spent every single year
+and um and so what we realized was okay
+there's a pretty wide Delta between
+these two markets we are going to be
+fighting over trying to get consumers to
+pay a few dollars a month and Google and
+Microsoft and Apple will probably try
+and and make this product be free over
+time and there were sort of rumors that
+Google Drive was coming out and these
+kind of products that eventually happen
+were going to come out but in the
+Enterprise um it's not so much about
+that that that they um are trying to
+always save money on it they're actually
+trying to increase productivity they're
+trying to get higher performance from
+their businesses so the value equation
+is very different right and a consumer
+we have a limited amount of money that
+we want to actually you know make sure
+that we cons serve um for as few things
+as possible that we're going to spend uh
+in the Enterprise it's a little bit of a
+different shift where you're trying to
+think about actually what can I get out
+of technology and how how much value is
+that for me so so that was a really
+important data point however the problem
+was that enterprise software was really
+really unsexy right so again very
+competitive very difficult to build a
+business it wasn't something that really
+you you sort of shot out of bed in the
+morning and said okay I'm super excited
+to build an Enterprise software company
+and the reason for that um is actually
+was actually pretty straightforward at
+the time the the way that you built
+software was very slow so um the you had
+to be very slow because you're you
+couldn't break anything for customers
+the Sal process was very slow because
+customers take a long time to purchase
+technology so I think everyone's sort of
+used to this concept that you know
+usually when you try and sell enterprise
+software to a company it can take up to
+a couple years for them to actually just
+buy the software and then it can take a
+couple more years for them to for them
+to even implement the technology in the
+first place so a lot of companies are
+around for a few years without having
+their technology even use in the
+Enterprise that felt like like a huge
+problem and and not like something we
+wanted to be a part of um the the
+technology itself is fairly complex so
+um the user experience I don't know how
+many people have had to use most
+enterprise software but it's generally
+really complicated um you you you find
+yourself asking why in God's name did a
+designer sort of put 47 buttons on the
+page and you just can't even understand
+it and the reason is something we'll get
+into in a second but basically there's
+just no love or care for the design and
+the user experience the software is just
+really complex and then finally if that
+wasn't bad enough all of a sudden you
+had to think about how do you actually
+sell the software and for anybody who
+loves the power of the internet this
+notion of having a sort of sales
+intermediary to get to your customer
+seemed like really unappealing like
+you're going to have to go hire a bunch
+of people that that are going to be
+everywhere in the country and they're
+going to be the only interface you have
+to your customer you're going to have to
+hire these guys named Chuck and um and
+Chuck's GNA roll in with a briefcase and
+he's going to just try and sell um lots
+of enterprise software to the customer
+just so we're clear this is what Chuck
+looks like um and and that was the the
+the sales process that you that that in
+the Enterprise that we at least imagined
+in our head um and uh I mean Chuck looks
+like a happy guy but but he's still an
+intermediary um to getting your software
+and we were saying well why can't we
+take the power of the internet and
+actually get our technology out to
+people directly why why should we have
+to go through this sales intermediary um
+as we uh as we scale up the business
+business now I'll get into in in a
+minute why we were wrong about uh about
+the sales process but this was the sort
+of fear that we had um at the time and
+then if that wasn't hard enough we had
+investors in 2007 saying basically
+there's no way you're going to make it
+in the Enterprise you basically are
+again a founding team of of early
+20-year-olds um you don't have anybody
+on your team that has been in the
+Enterprise the um Microsoft and Google
+and all these things are just not Google
+but Microsoft EMC Oracle IBM these
+companies are going to stomp on you and
+it's going to be very very hard to
+actually succeed and to be fair they
+were right on a number of areas right so
+we were very inexperienced team um this
+is uh this was a you know stage we were
+just still early in our careers um my
+co-founder for instance looked like he
+was 13 years old so um just not really
+just to be clear this is what he look
+like so um so it it sort of made sense
+right this is this is him as our CFO at
+I think this is him at 29 but um uh uh
+it looked like we were going to go run
+off with the money and go to Disneyland
+so um so I totally can appreciate why
+they didn't think we would be able to
+pull it off um I I can't imagine giving
+him money
+so so basically we um we decided okay
+well we still have to go do it we have
+to just give this our best shot we're
+going to take the the sort of scale the
+consumer experience the DNA of our
+company we're going to see if we can
+bring this into the Enterprise and we
+were very fortunate um we actually we
+had an investor who was equally early in
+his career
+and made a bet on us because um sort of
+with the belief that there was something
+fundamentally changing about the
+Enterprise that we would be able to take
+advantage of and so we decided that if
+we're going to do the Enterprise if
+we're going to go after the Enterprise
+that we would have to play by a very
+different set of rules so what about the
+complexity of software can change in
+this new era what about the fact that
+the sales process is very slow can
+change in this new area era how do we
+move and go directly to the user and to
+the customer as opposed to having um
+this very sort of indirect process of
+getting our technology out there how do
+we build uh and design for that user as
+opposed to just for the sale and sort of
+for the RFP process that a customer is
+going to go through and so we looked at
+all of the factors that were true of the
+Enterprise and we said we're going to do
+um maybe not in all cases the opposite
+but we're going to find what has changed
+about the technology world where we can
+take advantage of that shift and build a
+a better and a newer Enterprise software
+company and so that was the decision
+that we embarked on this is the path we
+embarked on about eight years ago um and
+that is why um we've been focused on the
+Enterprise and so today again we have
+about 240,000 businesses that use the
+product and the reason is um we we
+architected the the business model we
+architected the software we architected
+the solution to work in sort of one
+specific version of the world and it
+turned out that that version ended up
+being the the the the sort of the one
+that that uh that happened and um and
+I'll go into a little bit about what has
+changed about the world that we sort of
+built our company around and what um I
+would highly recommend you um if you're
+building an Enterprise offer company
+make sure to uh to to orient your
+technology and solution around so so
+that was sort of why we made the
+decision kind of how we started to to
+take on the problem now I talk like to
+talk a little bit about what has changed
+about the Enterprise that makes it sort
+of so possible to enter it today um
+better and more seamlessly than ever
+before so everything about the
+Enterprise and then by definition the
+software that an Enterprise uses has
+changed just in the past 5 years this is
+probably the most magical time if there
+could have ever been a magical time to
+build an Enterprise software company now
+is absolutely that time just in terms of
+how much change um is uh is going on
+within organizations so let's just go
+through a couple of these
+things so the first is that most
+application categories are moving to the
+cloud and the big difference is this
+idea that that if you were going to
+start a customer relationship management
+software company or a business
+intelligence software company or even a
+Content management company 10 15 years
+ago you basically had to go have your
+technology be implemented in every
+single customer location no matter how
+many customers you sold to no matter
+what regions they were in every single
+customer had to put that in their Data
+Center and that was the flaw with on-
+premise Computing was you were repeating
+all of this work you were you were
+creating so much redundant Y and it was
+it was then slowing down the entire
+process of delivering and building
+software for the Enterprise and then all
+of a sudden the cloud came around things
+like salesforce.com things like Amazon
+web services that basically said why is
+it that that every customer that wants
+to just Implement a couple servers has
+to go procure the servers put them in
+their data center um uh put all the
+security all the networking around those
+servers and then and then 6 months later
+they go live and then a developer can
+use them in the organization
+or same thing with an application the
+Amazon said why does that make any sense
+today when we could just put together
+thousands tens of thousands hundreds of
+thousands of servers and make them
+available on demand and you just use
+what you want when you need that and
+that was that's obviously the definition
+of cloud computing what is happening
+though is finally cios and large
+Enterprises are taking advantage of this
+so it's it seems obvious for everyone in
+this room because you would never build
+a company by buying your own servers you
+would start it on Amazon or or Google um
+or or Azure or whatever but to an
+Enterprise there are uh decades
+literally Decades of investment in
+infrastructure that now has to move to
+the cloud and so that's obviously a
+massive shift uh that is finally
+happening we are moving to a world of
+cheaper lowcost on demand Computing from
+a world of expensive Computing the
+benefit to building a startup is that
+customers don't have the same kind of
+friction when they're going to go adopt
+new technology right as soon as the
+Computing is so much cheaper it becomes
+easier to adopt new Solutions which
+means that their barrier for having a
+conversation their barrier for
+introducing you them into into their
+Enterprise is a lot lower which creates
+a massive opportunity for startups we're
+going from a world of customized
+software to really standardized
+platforms so it used to be that you had
+to build custom Integrations and all of
+the custom experiences on top of the
+software itself and now customers are
+realizing that actually they want open
+platforms and they can customize at the
+layer above the the product um it used
+to be that when you were building
+enterprise software company you could
+only really sell to the top five or
+10,000 companies in the world because
+only those companies had the wherewithal
+the talent the infrastructure and the
+budget to deploy your technology into
+the Enterprise today literally a
+two-person company can sign up for box
+as well as we work with General Electric
+which has over 300,000 employees so the
+fact that you can now serve a small
+business anywhere in the world as well
+as some of the largest companies on the
+planet mean that there's much larger
+markets that you can go after which
+makes it obviously even a better
+economic economic proposition to uh to
+go after the Enterprise um the platforms
+themselves are becoming more Global so
+our customers were International
+literally within the first couple of
+weeks of starting the company it would
+have been usually if you had done
+enterprise software the traditional way
+that would have taken years to actually
+be able to go International and then
+finally um and probably the most
+profound shift of all is that because of
+mobile devices you know iPhones iPads
+tablets um Android devices the it model
+of the Enterprise has become a lot more
+user-led and that's fundamentally
+important because in an it-led World
+incumbents generally win because they
+have the existing relationship with the
+it organization with the CIO with the
+spending power within that company in a
+user-led model users are bringing in
+their own technology they're bringing in
+it on the sales team they're bringing it
+in in the marketing team they're
+bringing it in in finance and you can
+build software then around the user
+which means that they can bring the
+technology in then you can sell to the
+Enterprise when they want to have better
+control better security better
+scalability so you still have the same
+business model as a traditional
+enterprise software company but the way
+to get into the company is now through
+the end
+user okay so those are qualitative
+Factor changes just a couple
+quantitative Factor changes um there's
+over uh nearly two billion smartphones
+on the planet um that changes um every
+single it model on the planet
+because it used to be 10 years ago if
+you were managing technology for an
+Enterprise you just had to manage the
+computers and the network that were
+inside of your building but now with
+with billions of mobile phones you
+fundamentally have to be able to manage
+the network and the Computing that is
+going to be anywhere at any time on any
+network and that creates a massive
+opportunity for software companies
+because no incumbent has built the
+technology stack sorry for my voice
+breaking again um so uh no incumbent has
+built a technology stack that powers the
+this next generation of of work and how
+Enterprises are using their data so that
+creates a massive startup opportunity
+there's nearly 3 billion people online
+what that means is that every single
+Enterprise is equally changing how
+they're going to get their own products
+to their customers which means that
+every industry changes and so there are
+really only two times there are only two
+moments of opportunity where um a
+technology Revolution will happen in the
+Enterprise the first is if the raw
+materials change so cost of computing
+goes down and then it's better to
+centralize and then let people use it on
+demand um the second major change is
+that the very customers that these
+Enterprises have to go after need new
+experiences of working with those
+Enterprises products let me give you an
+example if you know uh if when you go
+off campus you probably use something
+like Uber or Lyft as an example the um
+the the if you are in the transportation
+business if you're in the shipping
+business if you're in the logistics
+business
+Uber represents a massive change to your
+industry so you can't just let Uber
+exist and do its own thing without
+understanding what are the implications
+of uber what are the implications of
+instacart what are the implications of
+Lyft to my business model and so in a
+world where Enterprises are dealing with
+that kind of change they're going to
+need new technology to help them evolve
+their business models and how they adapt
+to this disruption and so in every
+industry and this is why it's an amazing
+time to even build vertical software
+companies for Industries right now every
+single industry is going through a major
+business model and Technology uh
+oriented disruption which means that
+they're going to need technology from
+startups to help them work through this
+I'll give you a couple
+examples so in the retail industry um
+there's this notion of sort of omni
+Channel or multi- Channel Commerce
+you're going to shop online you're going
+to shop on your phone you're going to
+shop in a store and you want things to
+be delivered to you as well so most of
+the incumbent technology in the retail
+industry doesn't power multi-channel
+Commerce no nobody is prepared for what
+does it mean when consumers want to go
+actually buy Goods at any time from
+anywhere with better information and
+better intelligence so every retailer in
+the world is going to need a new
+technology stack to power their retail
+experiences in the healthcare space
+every single Healthcare institution is
+trying to find ways of building more
+personalized experiences more predictive
+experiences they want to have medicine
+be um be adapted to the individual um as
+the business model of healthcare changes
+from being about uh charging for the
+surgery charging for the checkup and
+instead um really where the customer
+pays for wellness and staying healthy
+then all of a sudden every Healthcare
+institution needs better technology to
+deliver Healthcare experiences they're
+going to want to deliver tele medicine
+they're going to want to deliver Health
+Care in more Regional locations as
+opposed to just in the monolithic
+Hospital environment there's going to be
+new use cases around how do our
+electronic health records get connected
+to one another so doctors can make far
+better decisions all of these things are
+going to require new enterprise software
+to power uh these businesses in these
+industries um in the media space as an
+example um you know you have a world
+where an industry is going from really
+linear programming so whether that's
+television whether that's music or
+whether that's movies this sort of very
+linear supply chain oriented business
+business model where uh a film gets made
+it goes to the movie theater for 3
+months and then afterwards it goes to
+iTunes and these other platforms to a
+world where people want experiences on
+demand so that's going to change how
+distribution works on the scale of three
+billion people that are on the internet
+and again no media company has a
+platform that is going to be able to
+actually power how content and data and
+information moves through the system at
+scale we were just I was just in La
+yesterday U meeting with a media company
+that has basically done Predictive
+Analytics to find um their potential uh
+movie goers in the population of of
+three billion internet users they want
+to be hyper targeted on how do they get
+to the very the sort of specific 30
+million people that are fans of
+different kinds of film types and so all
+of a sudden you have a movie company
+that actually needs um big data and they
+need um business intelligence and they
+need marketing automation to go power
+how they're going to go market and
+distribute their movie so again totally
+un predictable mashup of two industries
+coming together where all new kinds of
+software is going to be necessary so
+every industry is going through some
+form of this change you can pick any
+industry you want and and take and sort
+of zoom into it and say what are the
+underlying technology factors that are
+going to change the business model of
+this industry in the next couple of
+years and then there's going to need to
+be software that goes and Powers those
+experiences cool are we all on the same
+page great I just need to drink water so
+if you could say something that' be
+great can we also edit out my water
+drinking so it doesn't make it look like
+just have some weird water problem okay
+cool I mean think about the future of
+water who's going to power that right
+going to need that's going to need
+software I'm sure
+so so basically every company in the
+world um we we think of we you know the
+the the the Good Fortune of being in
+Palo being a Stanford is is we're so
+hyper focused on technology and we think
+of the technology industry as an
+industry but in reality what's happening
+is every company every industry is going
+to have a technology component of what
+they do there you won't be able to
+survive in the future Enterprises will
+not be able to survive in the future if
+they don't get good at technology if
+they don't have a competency in
+leveraging data and using these new
+tools but they're going to be they're
+going to do that through working with
+what we consider the technology industry
+as as opposed to everybody building out
+these pockets of expertise themselves so
+there's going to be a lot of partnership
+over the next 5 to 10 years um where
+companies are going to need to use
+technology to work smarter to work
+faster they're going to need to do this
+more securely and this is going to
+change um not only how individuals work
+in these environments But ultimately
+change the business models of these
+companies so that was chapter two of
+this um that's all the things that have
+changed now some practical advice um
+where uh we're to help to kind of help
+you get
+started and um to be fair most of this
+advice is looking through the sort of
+lens of retrospect which means that that
+this is not always how things happen um
+but I can look back in time and say
+these are the things that led certain
+things to be true so it's hard to be
+super deterministic about building a
+company and and you might not have all
+of these things totally figured out um
+but these will this will give you a
+sense of some of the patterns to
+recognize uh and opportunities to
+exploit as you're building um or
+thinking about building an Enterprise
+software company so the first is spot um
+technology disruptions uh and this is
+going to be true whether you're building
+consumer or Enterprise um the rest are
+more Enterprise oriented but this is
+just fundamentally this is just
+fundamental to entrepreneurship if
+you're going to build a tech company so
+you have to look for new enabling
+Technologies um or major major trends
+like fundamental trends that create a
+wide gap between how um sort of things
+have been done and how they can be done
+and and so looking back in time at our
+business the the the Gap was
+basically uh storage was getting cheaper
+internet was getting faster browsers
+were getting better yet we're still
+sharing files through this very
+complicated very esoteric very slow
+encumbersome means so any time where the
+Delta between what is possible and how
+things work today is at its widest that
+is an opportunity to go build new
+technology to go solve a problem and so
+as you're looking at the Enterprise the
+question is what about the cost of
+computing dropping so rapidly changes
+what Enterprises can do with their data
+what is it change about what you can do
+from a business model standpoint what
+was
+impossible um because of either economic
+feasibility um or technical feasibility
+10 or 15 years ago that now all of a
+sudden is is possible and and a fun
+thing you can do sometime is if you go
+look at articles from like the
+1990s or or even the 1980s business
+articles about technology um the all
+we're really doing is repeating a lot of
+the technologies that were tried 10 20
+30 years ago it's just it was too
+expensive it was too unusable and we
+didn't have the enabling Technologies to
+make it possible so you can kind of see
+this pattern or merge constantly where
+something that was impossible 5 or 10
+years ago all of a sudden becomes very
+practical so I'll give you an example
+there's a company called plan grid does
+anybody know what plan grid does okay
+cool are you in the construction
+industry you are yes I am oh my God what
+does that even mean in terms of plan
+Grid or like in Construction
+Construction uh I work at a jobsite we
+build buildings holy crap that's great
+okay
+so thank you um so um so basically plan
+grid um plan grid is a a it's a mobile
+application that lets you manage
+construction projects lets you get
+access to your blueprints lets you
+manage all of the data around a
+construction process and what this team
+realized was that um $4 billion I
+believe are spent every year printing
+out Blueprints and making all of the
+prints and updates to those blueprints
+anytime there's a change and then that
+has to Ripple and Cascade through a very
+wide network of um of contractors and
+construction people every time that
+there's even just one slight minute
+change and they realize that you know
+with the iPad all of a sudden we have
+the perfect form factor to be able to
+load up Blueprints and load up content
+and this is something that could Ripple
+through the construction industry which
+isn't necessarily notoriously known for
+kind of high technology except for on
+the design side how could they build
+technology that would make the the data
+Access Data collaboration problem really
+really seamless and easy to do um in a
+in a very you know traditional industry
+that hasn't quite changed um for for for
+a while so it was a sort of perfect sort
+of uh discovery of a technology change
+in a market and figuring out how do
+those two things converge uh and then
+this team built a a great startup out of
+it that is um that is is doing
+incredibly well uh and uh and totally
+taking over the construction industry as
+proven by this individual thank
+you so the next thing is in the
+Enterprise you want to start
+intentionally small what I mean by that
+is um you want to find and this is again
+true of a lot of companies but even more
+true in Enterprise in a user-led
+paradigm you want to find the wedge that
+is sort of the very natural place where
+you can create a product that will slip
+in between the gaps of other existing
+products but is something that you think
+over time expands to become a more
+important part of the Enterprise
+architecture so um what you want to
+start to do is say we're going to take
+this sliver of a problem we're going to
+uh totally make the user experience on
+that incredible we're going to either
+change the business model we're going to
+create new technology that makes this
+previously difficult problem really
+really simple and it might feel small at
+first maybe you're going after Smalls
+businesses and then you're going to move
+up Market maybe you're starting at just
+a sliver of the use case and then you're
+going to expand out but you
+intentionally start small because you
+will not be able to compete with an
+incumbent because the incumbent is going
+to always go for the full solution so
+you have to find what are the gaps in
+the full solution that are significant
+enough where a customer is going to want
+to solve the problem with the discrete
+technology but that over time you're
+going to be able to expand again either
+to larger customers or um to more use
+cases over time great example is then
+payroll so Zen payroll started by uh
+Stanford Graduate or Stanford graduates
+a couple of years ago um basically
+discovered that the payroll process in
+small businesses is an incredibly
+complicated and annoying and cumbersome
+process and that's because we use the
+same vendors that we've been using for
+decades to do that and they weren't sort
+of digitally oriented you didn't get
+your your sort of you know you didn't
+get your payments as a receipt over
+email is very complicated you didn't
+really get to see graphs of of of of
+your salaries um there was no real good
+data around this and and they said we're
+just going to take off the slice um that
+is most painful to startups around
+hiring people um and around uh paying
+people which is just that payroll
+management process we're going to plug
+into a lot of existing infrastructure
+but we're going to make it dead simple
+to go do this and now they're able to
+move both up Market over time as well as
+deliver new Services over time and and
+what happens is is the incumbents in
+this market initially look at something
+like Zen payroll and they say well
+that's small it's only for small
+businesses it's not going to be very
+powerful but that's just the start
+because as they get that wedge and as
+they fit into the market they're going
+to be able to expand again over time
+build out more services and more
+capabilities but they found just the
+exact right opening to build a new
+company and have that
+emerge the next is you really want to
+find asymmetries you want to find my God
+okay so can we do some like Auto like
+some tuning of my voice later so so at
+least it'll sound like a like I'm doing
+rap okay there you so so you want to be
+able to um you want to do things that
+incumbents can't or won't do because
+either the economics don't make sense
+for them or the economics are so
+different or so unusual or because
+technically they can't I'll give you two
+examples so if you're going to build
+software today for the Enterprise that
+goes after an incumbent category that
+has more of a sweet oriented approach um
+than what you want to go do is you want
+to build technology that's going to be
+platform agnostic because what sweet
+players will do is they want everything
+to be integrated with with itself and
+that there's more value with that
+vertical integration but you want to go
+after a different axis which is um you
+want your technology to work across all
+of the platforms so that way you can
+work with so many different kinds of
+customers and you can be an ally to so
+many different kinds of platforms which
+a traditional incumbent is not able to
+do so that's something that is usually
+technically inas
+because of um because of how either
+something has been architected or
+because it's a fundamental component of
+the business model to not do that as the
+incumbent but the other thing is try and
+do things that are economically
+infeasible um you can look at the cost
+structure of an incumbent company and
+discover where are they not going to be
+able to drop their prices because that
+business model is fundamental to the
+existence of the company or where can
+you find ways of monetizing the customer
+that are unusual unusual or unique um
+that no one has discovered before and
+thus um is really not practical for
+anyone else to do um that's a company
+called zenefits um where they have a an
+HR management software company that
+helps you as a as a small startup manage
+all your benefits all of your HR
+information and instead of charging the
+startup which might not value that
+software at the stage that they're at
+they realize that they could get
+commission from the insurance companies
+and that basically pays for the ability
+to use their software so the customer
+itself is not paying for zenefits the
+zenefits platform is being paid for by
+the insurance company and they've thus
+invented a business model that that no
+other software company has been able to
+think of or attack and they're equally
+going and disrupting a category that
+hasn't seen a lot of in uh Innovation
+previously which is the the health and
+benefit space within small
+businesses the next is you want to find
+the really crazy but but sort of still
+somewhat reasonable outliers within the
+customer ecosystem so you need to find
+the customers that are sort of at the
+edge of their business or at their
+business model or of their industry and
+find the unique characteristics about
+those customers and leverage them as
+your early adopters so Paul Graham has a
+great article um where he talks about
+living in the future and building for
+what is missing when you're living in
+the future so that's a sort of easy way
+to spot Trends and patterns about
+disruption that's playing out the same
+is true in the workplace if you find
+customers that are working in the future
+you will be able to work with them to
+find what is missing when you're working
+in the future and how do we build
+technology that supports all these new
+use cases that are going to emerge
+there's a company called skycatch which
+does Enterprise drones and um at first
+it seems very kind of weird um but in
+the construction space in farming in oil
+and gas um they're using drones now for
+data capture and the ability to do
+modeling of of different environments
+and so this company is able to find all
+of the companies that are at the
+bleeding edge of their industry what is
+unique or new about how those
+organizations operate and they built and
+worked with with a lot of those early
+adopters to establish um their platform
+which is again really one of the first
+um uh Enterprise drone companies so the
+idea is go look at your Market find the
+customers that are at the bleeding edge
+of the market who use technology to get
+ahead and that use technology for
+performance advantages and then go work
+with them to discover um how uh how your
+product can
+evolve 2 minutes okay good okay so the
+the next one is um but then there's a
+part two um in five minutes from now or
+not is that not the case Okay so listen
+to your customers but don't always build
+exactly what they're telling you this is
+a really key distinction um around
+building enterprise software your
+customers are going to have a large
+number of requests your job is to
+distill those requests down into um the
+ultimate product that does not mean that
+you're going to build exactly what they
+tell you to build it is your job to
+listen to their problems but actually
+translate those into what is going to
+build the best and simplest solution to
+those problems it's really your job um
+and and paler does this as an example
+with very very complex issues and then
+they distill those down into Simple
+Solutions for very very complex problems
+that the customer otherwise would not
+have known how to ask for you want to
+modularize not customize so build a
+platform as opposed to building all of
+the custom uh technology and custom
+vertical experiences directly into the
+software itself make sure that you
+really think about openness and apis as
+a way of delivering uh vertical or
+custom experiences don't build that
+directly into the product focus on the
+user always so again the magical thing
+about building an Enterprise software
+company right now is you can keep
+consumer DNA at the center of the
+product that will always mean that
+adoption is easier your product is has
+much higher chance of going viral it
+becomes easier to sell into the
+organization so always make sure you
+bring consumer DNA into the product
+development process and your product
+should sell itself but that does not
+mean you don't need salespeople so this
+is a really important distinction
+leverage everything about the internet
+leverage everything about users to get
+to your customers but you still will
+likely need sales as a way to help your
+customers navigate your product help
+your customers navigate the competitive
+landscape and the ecosystem so you're
+going to want consultative um very very
+sort of domain um uh oriented sales
+individuals that are going to be able to
+be helpful in your customer being
+deployed and enabled um in these
+organizations but don't make that be a
+substitute do not make that be a
+handicap for uh not building um uh for
+building a great product so you
+fundamentally have to keep the product
+at the center of that company called mix
+panel comes in through the developer and
+then over time is able to sell to that
+organization with a more inside sales
+process also read these three books um
+so uh so uh crossing the chasm
+innovator's dilemma and behind the cloud
+these three combined especially if you
+read if you binge and you just read them
+all you'll you'll definitely come out
+the other end with a a massive software
+company and so in closing um today right
+now um when you leave this room is an
+amazing time uh to go start an
+Enterprise software company um so I wish
+you the best of luck and of course if it
+doesn't work we are hiring so so um and
+then the only other caveat is please do
+not compete with me because I have a lot
+of competition already so um ideally
+either come work for us or build your
+own company so thank you very much

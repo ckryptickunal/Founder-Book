@@ -1,0 +1,740 @@
+Title: Apple Vision Pro: Startup Platform Of The Future?
+Video ID: a_n4yOqlWbA
+URL: https://www.youtube.com/watch?v=a_n4yOqlWbA
+Channel: Y Combinator
+Published: 2024-02-21T17:52:18Z
+Duration: PT27M59S
+Views: 100227
+Likes: 1793
+Tags: YC, Y Combinator, yt:cc=on
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 714
+
+Description:
+In this episode of the Lightcone Podcast, YC Group Partners discuss the launch of the Apple Vision Pro and the potential of this new platform for new startups. This is a deep dive into the technical innovations Apple has made for this product, how this compares to the launch of the iPhone, and advice for founders interested in building in this space.
+Chapters (Powered by https://bit.ly/chapterme-yc) - 
+00:00 - Coming Up
+01:26 - Diana AR/VR Startup
+02:50 - Why AR?
+05:14 - Eyes ability to focus
+07
+
+============================================================
+TRANSCRIPT
+============================================================
+
+how much of like the hard interesting
+stuff Apple did is with the hardware in
+The Vision Pro versus the software well
+you need to understand the real world in
+order to augment it technology of a
+self-driving car but on a headset this
+is maybe where Founders should sort of
+pay attention is this a good opportunity
+for startups there's all kinds of new
+interactions that I think we have not
+figured out yet what really truly takes
+advantage of this platform the dream has
+always been to get to something like
+this
+[Music]
+welcome back to another episode of the
+light cone and as you can see it's not
+just any other day in tech there are
+some new platforms that are coming up
+right now you might have seen other
+places where there are reviews we're not
+doing reviews today we're going to talk
+about what these platforms might mean
+for Founders and people who want to
+build things for a billion people we
+actually have an expert at the table
+right now don't we we do Diana who's a
+group partner at YC before she worked at
+YC she's been working in AR and VR for
+10 years since the dawn of the Oculus
+before VR was a mainstream thing in fact
+her grad school research was in computer
+vision so she's been interested in this
+from way before it was a thing other
+people were following Diana do you want
+to talk about your startup that you did
+which was an arv our startup a really
+early pioneering one yeah we went
+through YC with a startup called Asher
+reality what we were building was a
+augmented reality SDK for game
+developers so that they could build
+multiplayer experiences and AR games and
+build the code once so that it would
+work on any platform so between not just
+IOS and Android mobile device but the
+dream has always been to get to
+something like this or that or that so
+that developers would write the code
+once and work across all devices and
+what happened to your startup so what
+happened is this took a lot longer to
+come to Market that's one thing the
+other thing that ended up happening we
+ended up getting acquired by Niantic the
+makers of Pokemon go so I ended up
+heading a lot of the AR platform over
+there at Pokemon with Niantic and we Shi
+actually a lot of this AR SDK into a lot
+of games so so millions of players are
+running our code which is really cool so
+if you've ever played Pokémon go you've
+literally used code that Diana wrote and
+I'm so excited with this platform coming
+in and we can go dive deeper into it
+okay should we take the headsets off so
+we can we can talk yeah let's
+go so it's been a long road you've seen
+this
+technology basically evolve over the
+course of a
+decade what's you know why AR like
+that's one of the big things here you
+know previous platforms may be really
+focused on VR and the gaming aspect uh
+Hollow lens from Microsoft seem to try
+to do the AR thing what's going on with
+uh the Apple Vision Pro you know why is
+this important why are we talking about
+this yeah I mean we have to go even back
+in the history of computing actually the
+attempts of building augment the reality
+and VR headsets have been actually since
+the beginning of the first computer
+actually the very first one was by this
+guy called Ivan southernland back in the
+60s so people have been thinking about
+it it's kind of the one of the dreams
+and it's one of those things that really
+fascinated me I think it's so much of it
+is in our Consciousness that we want to
+make it really happen but the challenge
+why it has not happened unlike tablets
+phones is that it's just really really
+hard to make so you bring up the
+Microsoft Hol lens they had version one
+and version two and sadly the latest
+version got scoped down or the team kind
+of got let go because they
+tried a optical approach so the AR
+approach was the ACT they were seeing
+actually the real world and then the
+digital content would be rendered just
+with uh within the eyes and it had a
+very little field of view it was
+actually the same approach that magic
+leap was trying and what apple is trying
+is actually more of a pass through which
+is actually more of a full high-risk
+video feed of the real world and
+arguably a lot of the technical
+challenges are a lot easier and the hard
+part of Optics is that is not a problem
+of more law and just like forcing with
+more computation more pixels it is
+actually figuring out new physics and
+photons so that they render properly to
+the human eye because the human eye is
+actually very very incredible your field
+of view is actually 210° so you put your
+hands behind your ears you can kind of
+see
+them and to have a display system that
+can really render all of that is so hard
+and the other part that's really hard
+which I want to touch upon a bit more is
+our eyes incredible at doing infinite
+ability to focus so we can look close
+here or very far and in some senses you
+have to find a way to make that discrete
+for computers to work right because
+computers just understand ones and zeros
+and to get that working in a display is
+just so hard and the Apple has done some
+clever things with that that's different
+to the optical approach um because the
+optical approach is what like it's
+actually looking through to the real
+world or it's how what's the difference
+yeah so if I'm looking at Jared right
+now I'm actually seeing Jared and if I
+overlay a digital digital information in
+the optical system I would only overlay
+the digital information and here for the
+Vision Pro and what the meta Quest 3 or
+meta Quest Pro or The Vision Pro
+technically VR headset the full video is
+All Digital like Jared is technical
+technically pixels when I see him
+through the Vision Pro and so you said
+like the Apple Vision Pro being a video
+feed actually reduces a technical
+challenge yeah because I think uh
+there's a couple things you could do you
+can play a lot with the video feed and
+one of the cool things if you're really
+best in the world with display
+technology what apple is you can get
+away a lot with it and one of the cool
+things they've done and foundations of
+what they build which is actually
+helpful if you're going to build apps
+here so much of it is built upon eye
+tracking so they actually have a
+variable rendering for Focus so they had
+to get the eye tracking to be working so
+well for this to work so in the Vision
+Pro wherever you look the pixel density
+of your focal point will render more
+High Fidelity than where it's not and
+the reason why this is important is
+because to fit it in such a small form
+factor and not to burn and there's so
+much heat dissipation to push so much
+pixels and Battery you have to do
+trade-offs so they did this thing of um
+rendering more High rest where your eye
+focuses so you can notice a little bit
+in the periphery with the Vision Pro
+where it's more blurry or a little bit
+it's it's not like quite pixelated but
+blurry and some of the people do
+complain online with the FIA view I mean
+that's I think a bit of the artifact
+with the with the lens but that's like a
+different discussion that's so how much
+of like the hard interesting stuff Apple
+did is with the hardware in The Vision
+Pro versus the software I think the cool
+thing about them is uh is both because
+the Vision Pro is sort of a culmination
+of a lot of the ecosystem of what
+expertise they built in iPhone phone
+like they have custom silicon they have
+the R1 processor which is a co-processor
+to the M2 the M2 is basically uh the
+same processor that runs on the MacBook
+Pro so very beefy but that processor M2
+is for regular kind of like a CPU
+regular workload but the challenge for
+um building an AR headset or ar in
+general you need to understand the real
+world in order to augment it and for
+that you need a lot of sensors so this
+has over 10 cameras even has a lighter
+it has a true dep camera it has a bunch
+of ir cameras inside to track your eyes
+so that's a lot of data a lot of high
+data bandwidth that it needs to process
+and underneath the hardware I think this
+um you're going to get throughput
+blocked so the R1 is a custom processor
+that process all of the sensor data with
+very high data Channel bandwidth and and
+I suspect they are even running a
+realtime operating system along the
+vision OS which is kind of interesting
+for what it means for developers to
+process all of this in real time and
+it's starting to sound a lot like
+actually a technology of a self-driving
+car but on a headset yeah that's exactly
+as you were talking about what this is
+that like Springs to mind like lar plus
+a bunch of cameras and processing the
+video feed yeah can you draw the
+connection like it's probably not
+obvious to people what the connection is
+between like VR AR and self driving cars
+yeah actually this this was one of the
+jokes with my co-founder when we started
+aser reality with the coort tech for
+localizing in the world and knowing
+where you are it comes from the world of
+um in robotics called slam simultaneous
+localization of mapping so you want to
+find where a robot is in the world based
+on just visual data and uh that is the
+same thing that cell driving cars look
+to navigate where they are in the 3D
+World so you notice in that car there's
+3D lighters there's r Radars there's a
+bunch of cameras same thing here to know
+where you are in the world so it's the
+same technical
+challenges but with so much more
+Hardware complexity because you don't
+want to burn people's
+head uh with this imagine because the
+the self driving car uh with self
+driving cars you can actually the actual
+Hardware that runs in self driving car
+processing they put server grade gpus
+and CPUs which fits in like the trunk or
+underneath but this is actually pretty
+cool what they' done and they built a
+lot of that because on iPhone they
+learned how to build custom processors
+they built the uh with the true face
+true 3D on the camera which is like IR
+for mapping 3D and lighter they added on
+the latest one latest uh iPads and
+they've been building a lot of the
+ecosystem one by one yeah it's
+interesting here you talk about how
+Apple can build on their previous
+product so it's like you're saying this
+is sort of a lot of the technology here
+is coming out of the iPhone this sounds
+like this sets them up to build their
+car like um pretty well same expertise
+let's talk about the use cases a little
+bit I mean one of the things that's
+pretty clear in um everything about the
+launch of this is It's focused on
+productivity and I kind of like it
+because you know when you're talking
+about these Oculus devices they're much
+more focused on gaming on VR where
+you're sort of in a totally different
+place whereas you know my guess is one
+of the reasons why VR AR hadn't been
+embraced is that it wasn't something
+that a busy person uh would use every
+single day but now you know it's got the
+M2 it's the same chip that I have in my
+MacBook Air I can actually with a
+keyboard do all of my work all day if I
+wanted to and that's a really big
+difference in how they're positioning
+this device which is a big departure
+from Meta Meta is so much on the gaming
+community and actually there was a I
+think this's a bit of an uproar from the
+VR community that there's no
+controllers and Apple has really focused
+full on on productivity which I think if
+this was my dream when we started eer
+that if AR was going to happen we're not
+going to notice it because it's going to
+solve all the very mundane things and it
+could replace all screens I think if'
+done well this is going after the market
+cap of all screens that get sold if done
+well I mean there's still a lot of
+things to be done this is still B zero
+but yeah but this this motion like this
+was incredibly natural and being able to
+look look at things and have it be
+something that you interact with I was
+just blown away at how simple how easy
+that was to reprogram my brain which is
+cool I think there's half I remember I
+guess a question for you Gary do you
+remember when the iPhone came out Apple
+had this human interface guideline MH
+yeah they had a lot of things about
+communication communicating information
+hierarchy with touch and focus and
+gestures with your thumb and things like
+that yeah it was an incredibly
+comprehensive document they basically
+took all of the learnings that they
+had gotten building the iPhone for years
+and they distilled it into a really
+thorough document then they publish it
+for everyone I think it taught a whole
+generation of designers and developers
+how to build great mobile apps they
+would just read that document there is a
+human interface guideline for the Vision
+Pro and uh one of the things you notice
+is so much of it is is about ey tracking
+and communicating communicating
+information with depth and
+space and I think what brings maybe this
+is actually something for Founders to
+think about if you're building an app in
+the space is that with the Vision Pro
+they invested so much on eye tracking to
+make it work for so many reasons I mean
+we talked about to get just the
+rendering to work that was a building
+block but for the ux I think it is the
+moment that we're seeing with Capac
+positive Touch where Apple got it right
+for the iPhone the ey tracking is
+starting to look a lot like that so I
+think there's a lot of cool
+ux things are yet to be discovered with
+just ey tracking and the funny thing is
+that the VR
+Community I think it was very skeptical
+of this because actually it was actually
+a bad practice to do ey tracking because
+it tires the user too much and the
+reason is because it Hardware was not
+good enough I remember the same thing
+before the iPhone came out I remember
+like lots of the conventional wisdom
+from consultants and experts was that
+the virtual keyboard wouldn't work that
+people wanted like a physical keyboard
+and that just it wouldn't like people
+would never treat it as like a serious
+device to do their email on because it
+didn't have a real keyboard on the phone
+yeah oh yeah yeah yeah that was all the
+reviews of the iPhone yeah yeah but
+there were I mean this is maybe where
+Founders should sort of pay attention
+there were still things that apple had
+not figured out yet that uh thirdparty
+developers ended up figuring out so if
+you remember uh the pull down to refresh
+that was something that I think was in a
+Twitter client and um you know that I
+think that founder ended up selling
+their Twitter client to Twitter and
+working at Twitter for a while but there
+there's all kinds of new interactions
+that I think we have not figured out yet
+like the sort of like pinch to move
+around is merely the first of a whole
+bunch of different things that frankly
+end user develop you sort developers
+will actually figure out I think I'm
+curious also di um what's what's the
+difference for a developer between the
+meta SDK and the Apple Vision Pro
+SDK uh one of the big ones is meta comes
+from the DNA of gaming so they have very
+good support for Unity and unreal and
+those are game engines which are cool to
+build for games 3D environments in a
+game which are L literally more like a
+constrained 3D world but for spatial or
+spatial
+computation the real world is in infite
+so sometimes game engines don't quite
+fit and one one of the things you'll
+notice um to build an application that
+opens a
+PDF for The Meta for The Meta platform
+it actually takes a lot of lines of code
+huh whereas to build that for the vision
+OS is actually just few lines of code
+interesting I guess the other big
+question uh that probably a lot of
+people in the community have is this a
+iPhone moment or a Newton
+moment well when the iPhone first
+launched there wasn't actually an app
+store right so I think that came maybe a
+year later something like that all of
+the initial apps that got Distribution
+on the App Store were like frivolous
+apps right it's like the fart app
+there's
+like a bunch of things that were getting
+really popular the $2,000 I am rich app
+which is like a image of a ruby or
+something yeah oh my God and if you
+think about from our like at least the
+YC perspective the iPhone or mobile
+didn't start start driving really big
+companies being started until I would
+say probably like 2012 like 2012 is the
+year where we had instacart come through
+I actually think mobile was a a fairly
+big component of coinbase right like
+they the fact that they just had a easy
+to use mobile app um door Dash was 2013
+and so all of these things start and you
+course you had the rise of uber not YC
+company but it took so you could say 5
+Years From the launch of the iPhone for
+for the actual good companies to even be
+founded
+right and so yeah so you haven't missed
+it yet yeah well I don't when I'm when I
+think about the Vision Pro I'm not sure
+if we're at like is this the iPhone
+moment in the sense of the iPhone just
+got launched and um like it's still
+going to be a few years or is this like
+hey actually like this is this device
+has been around for a while this is just
+like the iteration that was needed on it
+to unlock like the insta carts and door
+dashes and Ubers that are going to be
+built on it I'll give one argument for
+why it's probably more like the iPhone
+moment we don't know but um you know
+when the iPhone came out like people
+forget smartphones were already an
+established category and the iPhone was
+like the new entrant to this like
+established C A lot of people were
+skeptical that Apple could actually
+execute as you and as you mentioned were
+very skeptical of the iPhone as a as a
+as as the right product to challenge the
+Blackberry and the other like incumbent
+Smartphones at the time famous Steve bom
+quote about I think there's like Steve
+Bama just you know making fun of it and
+saying it would never be a serious
+device right right right um why was it
+that it took like five years for the
+good iPhone companies to come out I
+think adoption had to happen so that's
+why it actually Maps very closely I mean
+I don't know how many Apple actually
+sold but it's probably on the order of
+hundred hundreds of thousands right so
+which probably mirrors the iPhone maybe
+the iPhone you know broke a million even
+uh when you look back to the instacart
+or door Dash or Uber moment these mobile
+workforces could only happen at the
+moment that 70 to 80% of the people in
+society had these devices and the reason
+why that was such an important moment
+was that was the first time normal
+average people had always on internet
+connectivity and uh an app ecosystem
+that was actually stable enough you know
+remember back you know the sort of 10
+years before it was like j2me or do we
+write it in Flash you know Gustaf and
+his you know Voxer
+and hyan experience you know the
+platforms were literally so broken and
+so fragmented that you couldn't have 80%
+of the population on one platform and
+then suddenly all of the platforms sort
+of coalesced and then it opened up the
+market I guess a question with this
+device uh and in general with VR it will
+be different than mobile it won't be a
+type of device perhaps I mean it depends
+on the price point when it gets to maybe
+phone cost perh perhaps but it will take
+a a lot of time before we get that level
+of mass adoption but I think what could
+happen is it will capture a lot of the
+kind of high-end use with what we talked
+about earlier with high information
+density construction cat engineering
+type of
+workflows so Diana and I were actually
+doing group office hours yesterday with
+um a group of our companies in this
+current Batch who are all working of
+Hardware hard tech ideas um and we did
+this exercise we call it the premortem
+where um you sort of give them different
+flavors of how companies can die spec
+and you get them to say this is like how
+I think I'm most likely to die right and
+like the one I'm coming up the thing
+that Springs to mind here is we were
+talking about how um Tesla strategy was
+very successful to launch the Roadster
+like a very highend device and then you
+bring out like the model S and the model
+3 and the model y um but like that
+wouldn't have worked if they just stuck
+with the Roadster right and so maybe one
+failure mode for the Vision Pro is like
+this is the Tesla Roadster it's great it
+carves out like a niche for people who
+are really into this stuff and are
+willing to pay like for a very highend
+device but it can't follow it up with
+like the model three and I think there a
+bit of a chicken and egg aspect with it
+because for this to be relevant to
+become the model 3 let's say we need a
+ecosystem of applications and and
+incentive for developers to work on it
+because if I were a Founder right now
+and I'm looking for a new idea do what
+do I want to put all my eggs on here
+when there's not enough user yet when
+should I do it should I just take a leap
+of faith on how do we advise Founders
+when they're in this space like why
+should they do it I definitely think
+that's relevant to like the instacart
+door Dash thing for example if you think
+about it like those companies weren't
+making a bet like their apps were not
+specific to iOS or apple right like like
+like everybody had a device they worked
+equally well on like Android they
+frankly they could have just been a web
+view stuffed like in an app right and so
+that's a good point that's and they also
+weren't the first entrance in their
+categories like before door Dash and
+instacart there were many would have
+like would be door Dash and instacart
+players that launched earlier that
+actually didn't succeed yeah well even
+more extreme like they the in their case
+mobile actually made ideas that seemed
+very bad like good ones I I actually
+think it's really cool that sequire
+invested in instacart because they'd had
+the big failure with like webban and so
+they had all this egg on their face with
+like grocery delivery is this bad idea
+that like um you would expect it's very
+natural to never want to fund that again
+but like mobile actually turned that
+into a good idea I did a dinner talk
+with the with Max the co-founder of
+instacart and he said that when seoa led
+the series a for instacart they gave him
+the web fan business plan that they had
+been given in the 9s but the problem was
+it was on a floppy disc and he couldn't
+find a floppy disc reader so he never
+read
+it that's
+hilarious uh I'm sort of taken by even
+the path of um consumer social networks
+you know Facebook started as the Blue
+app you know it was a desktop experience
+killing Myspace it sort of looked like
+uh literally Bank software like if you
+logged into Facebook or you know
+chase.com it even had the same color and
+um they I I remember being at YC when
+Mark Zuckerberg came to talk about why
+they bought Oculus and it was actually
+very much from what I could tell um
+trying to fight the last war that uh
+Facebook had just bought Instagram I
+think it had not bought WhatsApp yet um
+and they felt he felt really scared like
+that basically Facebook had this
+Monopoly it had like owned the industry
+of uh you know consumer social but but
+then they almost lost it because
+Instagram you know easily could have
+outstripped it and um that was because
+of a platform shift and so he wanted to
+you know very clearly own the next
+platform and he's right should Founders
+go build on this is this a good
+opportunity for startups I just sort of
+wonder what are the things that could
+actually fully take advantage of this in
+um a real sort of professional context I
+mean where my head goes maybe it's too
+obvious but Traders with their like sort
+of 20 screens you know wouldn't you
+rather have something that allowed you
+to take in the breadth of that
+information and dive into it very easily
+just by going like that you you can
+imagine that being something that people
+are actually willing to pay not just you
+know hundreds of dollars a month but
+maybe thousands of dollars a month for I
+think we're going to be in uh quite some
+time at the beginning in this awkward pH
+with spatial Computing type of apps
+because even with uh the Apple SDK and
+meta a lot of things are still flat
+2D and I don't think we know how to
+develop for develop for full 3d what
+really truly takes advantage of this
+platform what is unique about this
+platform whether it's you know 360
+degree view being able to dive into more
+data easily like what are aspects of
+this new technology that mean that it
+can upend even what seems like an
+unassailable incumbent like you know
+Snapchat versus Facebook but would part
+of you try and talk them out of it like
+would part of you be thinking this is
+too early you should work on something
+else and not I think if you look back in
+our history YC has weirdly been pretty
+good at this where every time there's a
+platform shift whether it's like the
+Facebook thing which didn't go anywhere
+or the iOS thing which did go go places
+we were reasonably accurate actually
+funding the right stuff and I think the
+way that we did it is rather than having
+a strong thesis on on each technology
+and each platform we just kind of look
+at each application from first
+principles and we talk to the founders
+and they have some idea we just try to
+figure out if the idea makes sense I
+think that's what allows us to have had
+a pretty good track record of
+discriminating people who are just like
+cargo culting the new thing and just
+like jumping on the hype train and have
+some idea that doesn't really make sense
+from the people who are building
+something like door Dash that actually
+like totally makes sense yeah it's fine
+I I mean the other thing that I would
+look at to Jared's point is actually
+there's a strong belief from the founder
+that they want to make a bet in the
+space I think there's just something
+about Founders where they go all in they
+become Unstoppable and it's going to
+take time so they have to have the faith
+that this is going to be different than
+building let's say a standard SAS
+application or consumer app or AI
+application let's say if you stick long
+enough you're going to build a lot of
+expertise and be World Class by the time
+is the right moment but someone that's
+genuinely excited about it and the cool
+thing about it there's a lot of
+technical challenge with it which I
+think is going to attract the right kind
+of Founders because it's actually hard
+to build something good on this right
+now because it's so new so this will be
+the main thing I'll look for when I'm
+reading applications for people putting
+VR stuff actually and I feel okay
+sharing it because it's very hard to
+fake it's basically what we're saying is
+if you're the kind of person that just
+is irrationally compelled to build
+applications for VR we will happily fund
+you and like we need some evidence of
+that just like you just like your SP in
+your free time you are like building VR
+apps and you have been for a while like
+yeah we would never try and discourage
+Founders from building stuff they just
+think is cool well that's a great place
+to end we're out of time but thank you
+guys another good episode of the light
+cone guys see you next time catch you
+guys
+[Music]
+next

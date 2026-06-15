@@ -1,0 +1,900 @@
+Title: The Startup Powering Billions In Trades Every Day
+Video ID: AmXE9Gsuw_Q
+URL: https://www.youtube.com/watch?v=AmXE9Gsuw_Q
+Channel: YC Root Access
+Published: 2025-06-30T18:16:55Z
+Duration: PT33M56S
+Views: 3448
+Likes: 93
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 881
+
+Description:
+When Kelly Littlepage and Steven Johnson launched OneChronos in 2022, they weren’t just launching a new stock exchange — they were rewriting the rules of how markets work. After more than a decade of obsessing over an obscure auction theory from their undergrad days, and six years of quietly solving deep technical and regulatory problems, they built a new kind of trading venue from scratch — one that now handles billions of dollars in trades every day, accounting for over 0.3% of all U.S. equity
+
+============================================================
+TRANSCRIPT
+============================================================
+
+One Kronos is a new kind of stock
+exchange, kind of like a NASDAQ. You
+probably never heard of it, but just 3
+years after launching, more than 0.3%
+of all US equities traded every day
+trade on One Kronos. That's billions of
+dollars every day. One Kronos is growing
+so fast because it uses advanced
+mathematical techniques to allow
+institutional traders to make
+sophisticated trades that were
+previously impossible. Here's an
+example. Say you're bullish on Tesla and
+think it'll dominate the auto market.
+You want to simultaneously buy Tesla and
+short sell GM and Ford. One Kronos lets
+you bundle that into one atomic trade.
+Now, that might not be something that
+you as an individual investor care
+about. But if you're a hedge fund,
+making a billion dollar bet, doing that
+trade atomically could save you
+millions. To get the full picture, I sat
+down with founders Kelly Little Page and
+Steven Johnson to understand how six
+years of quiet determination and a deep
+belief in a seemingly esoteric
+mathematical principle created a company
+that has suddenly changed the way
+institutional markets function.
+I'm very excited to have here today the
+founders of One Kronos, Kelly and
+Steven. Thank you guys so much for being
+here today. Thanks so much for having
+us. Take us back to the beginning. Um,
+how did you guys meet? And what did you
+guys do in life that led you to starting
+One Carnos? We actually met in middle
+school. We grew up in the same
+neighborhood at one point, then ended up
+adjacent, and became really good friends
+in high school. So, it's a lot easier to
+start a company when there's just no
+unknowns about your co-founder really.
+Yeah. We grew up uh south of Denver in
+Colorado in the in an ocean of suburbs
+where uh there wasn't much to do but
+tinker with computers and get in trouble
+with computers. So kind of bonded over
+that. Went to school on opposite coasts
+but stayed in touch just as friends and
+over our careers where we kind of ended
+up working in similar technologies but
+very different industries. I learned
+today you actually got kicked out of
+middle school for hacking the school's
+computer system or something. Uh the
+middle school transgressions were more
+behavioral, shall we say? Uh talking
+back to teachers. The subsequent high
+school suspensions were more directly
+related to uh to computer incidents. All
+very harmless pranks, all very white hat
+hacking, but uh very misrepresented,
+very taken out of context.
+And then you ended up going to Caltech
+for college. How did what you guys did
+in college relate to what you guys are
+are doing now? Did it implant some of
+the seeds?
+Probably the guy that had the most
+impact on me in undergrad though not
+knowing at the time was I took undergrad
+econ with Preston McAfee who is one of
+the most famous auction theorists and
+coming in I'd never even heard of or
+thought about an auction in an academic
+context and I was studying physics but I
+got really interested in some of the
+computational richness and complexity
+and really the notion that you could
+engineer good outcomes in an economy and
+that this is a CS and a math problem not
+just a classic econ problem. And then
+how did you guys learn about trading?
+How did you even like know about this
+problem? Similarly, when I was in
+undergrad, I heard the story of David
+Shaw and his general approach to wanting
+to make money in finance and use that
+money to fund basic research. And that
+really resonated because especially at
+this point in my career, I thought of
+myself as a very average scientist, but
+maybe I'd have a better chance at
+building something that creates value
+and can still fund basic research.
+So I decided to go to a hedge fund is
+the short answer. And at that hedge fund
+I realized that some of the biggest
+problems were really the impedance
+mismatch between the way that current
+capital markets are wired and the way
+that traders or more accurately
+portfolio managers in this context are
+thinking at a high level. And that
+really pulled me back to my experience
+in undergrad thinking about these types
+of auctions, knowing that there were
+better auctions out there, but also
+knowing that there are very good reasons
+that they're not currently used at that
+point in capital markets. And and it
+wasn't that we thought about or
+necessarily aspired to start a company
+or do this. It was really just talking
+about the problem and then just getting
+increasingly interested in and convicted
+in the fact that this is something that
+had to be done. Is it fair to say that
+he was sort of a combination of two
+ideas? There was seeing the problem from
+working and trading at a very high level
+at a hedge fund that traded like large
+amounts of money and then seeing the
+solution from your undergrad years and
+realizing that like no one had put these
+two pieces together. I was doing a lot
+of cyber security work trying to find
+signals in large data sets that hackers
+were breaking into companies and Kelly
+was looking for signals in markets to
+find that stocks were mispriced. Um and
+we were using modern data tools to do
+all this and sort of had the realization
+that the stock market there are many
+different exchanges, many different
+electronic trading platforms and it
+looks a lot like a database like a
+distributed database system where you
+have these anomalies like a write
+happens in one place, a read happens in
+another place and the read is on stale
+data and that's exactly a arbitrage
+condition that exists in electronic
+trading. And um so we kind of pulled all
+these pieces together over the years to
+um initially try to address like the
+thought exercise of how would you build
+an exchange that was immune to these
+latency race conditions. So that was
+kind of what the the early years were
+about. Um, and then a lot of Kelly's
+research in auction theory came in when
+we um realized that the the tools and
+techniques to run optimizations
+were at a point where, you know, we
+could potentially use those and do much
+smarter things than exchanges do
+currently in the actual, you know,
+semi-realtime
+matching process. One Kronis is is sort
+of like the perfect example of like a
+overnight success 10 years in the
+making. That's a great way to put it.
+You guys like the exchange launched in
+the middle of 2022. Yep. But what year
+would you say you started thinking about
+the ideas that eventually became one
+Kronos? Back in I think the earliest
+time stamp we have conceptualizing
+anything was 2011 probably. So like over
+10 years before it actually launched.
+Yeah. And then there was a there was a
+few period when sort of you were the
+ideas were sort of like circling around
+and then in 2016 you guys decided to
+actually go allin quit your jobs start
+this thing as a real company. You did YC
+but then it took another six years from
+then until when the exchange actually
+launched. Yeah. Well,
+pretty much summed it up. Um
+u I I think like one of the probably
+funniest and most important moments of
+the the company on the origin story was
+really a conversation we had with you
+which was right after we got rejected
+from YC for the first time. Uh so
+you were you were nice enough at the
+point to say let's let's keep talking
+and this was back when YC was doing a
+batch every well twice a year. Uh so
+there was there was some time in between
+and basically we walked you through kind
+of at a higher level of the problem that
+we were going after and said we think
+it'll take you know five years and $10
+million to to build something like this
+and you said something effect of we're
+going to need to get that down to like
+six months and 500k which was really
+just how do you how do you demonstrate
+the MVP on some way to kind of get
+people interested keep going from there
+and we did find a path to that. But the
+cool thing is is it was completely the
+right approach what you were proposing.
+We did ultimately raise $10 million and
+we did ultimately launch over the period
+of about five years and every step of
+the way we kind of had a path to to
+launch into an MVP if we had to. But as
+people and the investors that were very
+close to us appreciated the problem at a
+deeper and deeper level, the more they
+thought, "No, no, no, you get you get
+one shot at launching this the right way
+and you should build that. You should
+build that and maximize the chance of
+success." And turns out that we came in
+thinking that we had one deep tech
+problem. Turns out we had two deep tech
+problems to solve. We were initially
+very focused on the optimization side of
+just how do you actually scale these
+computations to the speed and complexity
+of capital markets. But the second part
+was how do you make dealing with a
+combinatorial auction which is a very
+foreign concept to capital markets
+especially before we launched and it's
+still relatively foreign even with our
+success at this point. How do you make
+that accessible?
+It ended up taking you guys six years
+from the time that you went full-time in
+the company until when the exchange
+actually launched, began trading like
+real real money.
+Can you walk people through like what
+happened during those three years? How
+were you guys doing every day? What was
+that journey like to get there? Yeah, it
+was very much a journey of having to
+solve hundreds and hundreds of smaller
+problems that roll up into the bigger
+problem. And I think that's that's true
+for basically any startup. Um the
+magnitude is much greater when it's a
+combination of the technology is really
+hard. The two deep tech problems Kelly
+was talking about. It's regulated. So
+there's a whole body of operations and
+sort of uh seemingly irrelevant stuff
+that needs to be done to get approved
+especially for something where we had to
+spend a lot of time educating the
+regulators on this concept. One quote
+from one of the regulators that really
+stuck with me was when we were in the
+middle of walking them through, you
+know, over many different meetings
+walking them through how our matching
+process works. Well, stepping back for a
+second, the way that pretty much every
+exchange matches orders is called price
+time priority. So, first you look at the
+price of the order to see if it's the
+best priced. If there's a tie, which one
+came first? And there's books written
+about like the the advantages and flaws
+of doing this, but it's ubiquitous in
+almost all of trading. And um we don't
+do that. We look only at price and
+volume. and we completely ignore except
+for like admission into the auction, we
+completely ignore time as a way of doing
+priority. And so the regulator at one
+point said, "Yeah, well maybe it's time
+that we maybe it's time that we look at
+different alternatives to the limit
+order book." And I was kind of surprised
+by that because everybody had sort of
+indicated, you know, publicly everyone
+views regulators as these stodgy like
+people who say no all the time and
+that's not really been the experience um
+when we were like really in the weeds
+with these regulators. So that really
+stuck with me and that's like that's one
+class of problems that has to be solved
+is that you have to like educate all
+these people on your novel mechanism. um
+when you know you wouldn't have to do
+that in other cases. Also things like uh
+just silly things like having to go buy
+a printer because we had to prove to
+FINRA that we were able to print
+something in our own office instead of
+like the wei work that we were working
+out of. So there's there's all these
+little things um and much bigger ones
+too where you know we could end up we
+could have ended up paying 200k a year
+for this regulatory service but figured
+out a way to do it in an automated
+fashion in the cloud and it was
+essentially free. So having to solve a
+lot of little problems like that took a
+took a big chunk of time. But I will say
+one of the big tailwinds and Kelly kind
+of alluded to this. One of the tailwinds
+across all those years was the more
+comfortable people got with the model,
+the more conviction they had that it was
+the right idea. So, we kept hearing over
+and over, "This is the coolest thing
+I've heard of in capital markets, maybe
+in my career." Like, those comments were
+not rare, but you'll never print a
+trade. It's too hard to get this done.
+Like, it's too hard to cold boot a
+marketplace. So that sounds like a like
+a motivator and a demotivator, but it
+was actually a motivator and an even
+more motivator to prove everybody wrong
+about printing a trade. So we had years
+and years worth of tailwind to keep us
+going. You not only had to solve these
+two hard techch problems that no one had
+ever solved before with the hundreds of
+sub problems and convince all the
+regulators to allow you to invent a
+totally new kind of way of trading
+stocks. You also had to solve the cold
+start problem of a new trading venue.
+You have to have buyers and sellers like
+you had to have initial liquidity. How
+did you solve that cold start problem so
+that when you launched like trades
+actually happened? Yeah. And that is
+there's technical problems and then
+there's exactly this type of commercial
+problem. And I have to say that this is
+the mother of all problems even compared
+to the technical side of it.
+However, going the other direction, we
+got people who were kind enough to plug
+into us when there was no liquidity day
+one because they did understand the
+technical part and they understood what
+this could mean for the market. And they
+also understood that if we were
+successful, there was value in being
+there earlier first so that they would
+have more reps using this type of market
+so that their clients would see that
+they were innovative and got there
+first. So, we're obviously very grateful
+for every subscriber we have, but we're
+especially grateful for the ones that
+plugged into a market that traded 200
+shares on its first day of existence.
+After thinking about it for 10 years and
+working on it full-time for six years,
+you finally hit the on switch. Yep. And
+what what happened that first day? Test
+trades. Test trades. Okay. So, 200
+shares. 200 shares. People making sure
+that the the pipes work in a literal
+sense. There's an entire process that
+happens for reporting trades. There's
+the in settlement process. There's all
+these things that happen after. So,
+typically when people are onboarding a
+new venue, they do this and they wait a
+few days. So, how long did it take to go
+from test trades to real commercial
+trades? We kind of hit our run state in
+Q3. So we I I want to say our first
+trade ever was June 21st, June 22nd.
+Yeah, it was it was the last week of
+June sometime. And yeah, that was the
+first production trade. And then a while
+went by where most people were still
+just doing test trades. Kind of started
+actually getting that nice hockey stick
+curve towards uh towards end of August,
+September that year. You know, I work
+with a lot of startup founders and a
+really common thing that I've seen is
+that often when things aren't working,
+even, you know, just like a couple
+months into an idea, they tend to get
+demotivated and they start like doing
+office hours to ask whether they should
+pivot.
+Um, and you guys had this like six-year
+period during which lots of smart people
+were basically telling you that you were
+wrong and that this thing wasn't ever
+going to work. no trades had actually
+ever happened on the on the exchange.
+Um, what was it that kept you guys going
+for this like six years kind of
+wandering in the wilderness to finally
+get to that point where you launch it
+and it started to work? I mean, a big
+part of it was uh people were telling us
+that people were telling us it wouldn't
+work, but they weren't telling us we
+were wrong. They were actually telling
+us we were right. you're 100% right
+about like this is how market structure
+should be, but it's just so difficult to
+break in and to to get the initial
+liquidity you need to get everybody
+connected and to get people over the
+complexity hurdle. Um, even if they
+don't have to change anything about how
+they trade, understanding the model,
+there's no there's no denying it is more
+complex under the hood than uh what
+people are used to. For me at least,
+part of it was that the motivation of
+everyone telling us that this was the
+correct idea. Um, and I think also part
+of it was we didn't really set out to
+just start a company and because that
+would be fun. Even though like it is
+pretty fun, that's not that wasn't the
+goal. The goal was to solve this problem
+and we had been thinking about it for so
+long that you know it seemed like uh it
+would be a shame to just abandon it even
+though we thought it was right and
+everybody agreed that it was the right
+thing to do. What we knew we needed was
+more time so we kept putting more time
+into it. I think it's really interesting
+like the way that you guys thought about
+it is sort of like first principles
+thinking. It reminds me of the beginning
+of OpenAI, which also took
+almost exactly the same time actually,
+essentially like six years to go from
+like starting the company to like
+actually launching a product that
+anybody cared about. In a lot of ways,
+one Kronos is actually more like a hard
+tech company than a software company in
+terms of the amount of time and capital
+that it took you guys to actually get
+get live. I'm curious to drill into um
+sort of like the conceptual origins of
+this because it's like such a like from
+first principles thing. Do you guys
+think you can explain to the audience
+sort of how markets work now and then
+what was the key insight that like
+underpinned all of this that the idea
+that you guys got obsessed with that
+seemed like the the the inevitable
+future? So auction theorists think a lot
+about um different pathologies that can
+result in someone not bidding their true
+price. And true price in a sense means
+like price and quantity just kind of
+their true economic value for something.
+So the thing that really kicked off
+comatorial auctions in a commercial
+setting was the FCC taking a look at how
+to license wireless spectrum back in the
+90s. So, the thing about wireless
+spectrum is it's a market with a lot of
+substitutes and complements. Meaning
+that if you're building a national
+wireless network, like a 5G network by
+modern standards, there's a bunch of
+different frequencies that can work for
+you. And you don't necessarily care
+which one, but if you're a national
+player, you care a lot about winning a
+contiguous allocation of these
+frequencies.
+meaning that if you're bidding on West
+Coast, East Coast, and you miss the
+middle of America, you no longer have a
+a national network. So these are markets
+with really strong substitutes and
+compliments. And the way that this used
+to be kind of dealt with an auction is
+you can imagine that all right, let's
+just say I'm making up numbers, but
+let's say you have 800 frequencies and
+three geographies. Is you as the
+auctioneer could say, I'm going to sit
+here and I'm going to auction these off
+one by one. And the challenge when you
+do that is that biders have to start
+thinking really strategically about
+how am I going to think about this if I
+lose part of this? Am I going to then
+have to pay to am I going to have to pay
+spread to sell that back to someone? Am
+I going to try to build a different
+network? So they start having these
+counterfactuals that make them want to
+pay less for that. And you can end up in
+these really inefficient outcomes where
+everyone is willing to pay more
+but they won't. And that problem is the
+exposure problem as it's called.
+Comtorial auctions give you the ability
+to get away from that and instead
+express the mathematical optimization
+that you want directly to the exchange.
+You can get much more efficient outcomes
+because investors no longer face this
+exposure problem of hey what if I get
+this portfolio and it's unhedged or it's
+not exactly what I want. So it solves
+both the exposure problem but also the
+ships passing in the night problem of
+people having mutually offsetting
+economic interest that they would be
+willing to trade with each other but no
+way to discover that they actually have
+that interest because they're not
+willing to put out a piece of the
+overall picture that could then leave
+them exposed. That's an example of like
+a specific trade. How how does that work
+in like the the old school world and how
+does it work in the Kronos world? Yeah,
+it's an excellent question. Um, so in
+the old school world, everything trades
+through algorithms basically. So you
+have an algorithm that's saying, "All
+right, I'm going to buy a little bit of
+stock A. Hopefully the stock the price
+of stock B doesn't move. All right, I'll
+do a little bit of stock B, falling
+behind on B, need to get back to A."
+It's sort of just juggling the risk and
+hoping for the best at the the end of
+it.
+um what one Kronos or what a
+combinatorial auction lets you do is
+embed that constraint in your trade. So
+you could say all or nothing. The entire
+position that I want in both A and B
+sell and buy that has to happen all or
+nothing as in a single atomic
+transaction. That's like a new API for
+stock trading like for like like uh like
+like the core like API like call
+signature for stock trading has always
+taken like one stock symbol and like now
+with one Cronis it takes like multiple
+stock symbols, right? Yep. Yep. And more
+more generally multiple stock symbols
+and constraints that you want enforced
+on the way that they interact with each
+other. What does one Kronos the company
+look like now? Like how many employees?
+Who's on the team? About 40 people at
+this point. Um, so we we launched in
+only 40 people. So you trade 0.3% of all
+US equities every day with a team of 40
+people. Who who works at BCets? Is it
+folks who come out of the quant finance
+world or folks from other Certainly?
+It's certainly a mix. So on the
+technical side, we have people that have
+zero career experience, zero finance
+experience up to people that were some
+of the founding engineers at what are
+now very well-known
+market makers for example. So it's that
+entire spectrum. The the overall culture
+is very much engineering as far as the
+way that we think about product as far
+as the way that we think about building
+these APIs and primitives. A lot of it
+is the reflection of our previous life.
+So our third co-founder was a global
+head at Goldman for most of his career.
+He very quickly latched on to what we
+were doing. He got connected to us via
+an investor of ours coming out of YC
+demo days. So as you'll see the the
+continuing theme here is that YC has
+been a pretty important part in the
+entire company journey. But I would say
+like the unifying thing for everyone at
+the company is first principles thinking
+and an emphasis on just keeping things
+very small and very tight. And like we
+think a lot about WhatsApp type stories
+where you built a giant company, but the
+thing that's really cool is the per
+capita outcome for that company as
+opposed to just you built a bunch of
+revenue, you hired a bunch of employees.
+The really cool thing to us is what that
+ratio looks like. What does the future
+look like? stay as small as possible
+throughout all of this. You know, we
+think that small teams produce the best
+outcomes. And we have a we have a little
+bit of an advantage, I think, in that we
+can treat uh to an extent we can treat
+each of these different asset classes or
+types of markets that we roll out as um
+their own team. And which markets is
+this applicable to? You're live with US
+equities now. You're going to launch
+foreign currencies and European
+equities, but is this applicable to
+every market? is basically every is
+basically every asset in the future
+going to be traded on a one Kronos like
+exchange? That's that's the way we think
+about it. And we also think about the
+fact that there's a lot of there's a lot
+of things in the real economy that are
+not capital markets assets. And there's
+a lot of cases where capital markets are
+approximating some activity in the real
+economy. And the reason they're doing
+that approximation is that existing
+exchange mechanisms don't allow buyers
+and sellers to express those compliments
+and substitutes. Basically, your
+hypothesis is that this this concept is
+going to like take over the world. It's
+just a better way to trade stuff and
+it's going to go all the way to
+electricity markets and commodities
+markets and basically everywhere in the
+economy that we're going to rewrite the
+way that we actually trade assets. Yep.
+Yeah. where any place where there are um
+compliments and substitutes or even more
+broadly uh what they call non-pric
+factors. So constraints things you care
+about about the transaction that are not
+the price or you know the number of
+units. So any anywhere where those crop
+up these types of markets smart markets
+have performed very well and it turns
+out that is most types of transactions.
+So I think I think the the important
+part about the emergence of you know
+compute as this resource is yeah like
+like compute is the new oil. Yeah.
+Compute is the is the new oil and it's
+but there's there's not like a exchange
+infrastructure for compute the way there
+is for for oil. It's super
+underdeveloped. There's not Yeah. I mean
+the the closest thing to that there is
+kind of a marketplace for compute but
+it's this distributed marketplace where
+you have the major CSPs the major cloud
+providers and they all offer pricing per
+hour or day or month. You have the
+Neocloud offerings kind of coming up
+behind that. And then there are brokers
+that will find you a block of 10,000
+GPUs for the next week or whatever it is
+for a month. Um there's this kind of
+reservation
+system. There's uh so there's like a
+distributed marketplace for all this.
+But like here's a fun unknowable
+question like how much actual
+utilization are we at right now of GPUs
+across all the data centers and like
+what could we do in the way of medical
+research and like academic research or
+things that make money like what could
+we do with all that idle capacity? And I
+think that question just becomes more
+and more important as the as both the
+asset base gets bigger and it's you know
+hundreds of billions of dollars of
+servers and as the value gets higher.
+Yeah. The GPU market seems super
+inefficient and fragmented right now. I
+know even like the companies NYC who
+need to do large training runs, they're
+constantly scrambling trying to find a
+block of GPUs that are available for the
+time window that they want the like the
+right kind of GPU, the right block size.
+It's actually like very hard. It's it's
+like a it's like a a like a like a block
+size problem that seems like no one has
+solved and almost as if you're
+describing compliments and substitutes.
+Yeah, it's it's it seems like actually a
+perfect fit for the combinatorial
+auction. Okay, so I was at MIT and some
+other places recently and I was talking
+to a bunch of undergrads and they were
+saying basically if they go work for
+Jane Street or Citadel, they can make a
+lot of money right out of school and it
+feels like a very high opportunity cost
+for them to leave that on the table and
+go start their own company where, you
+know, the future's uncertain. might
+work, it might not versus like I'm being
+paid like guaranteed cash upfront at
+these jobs. But you guys must have
+confronted this as well like you were
+working at a hedge fund I assume in a a
+a similar position. How did you guys
+think about not just the idea but sort
+of like the life choice of deciding to
+like go allin on this sort of uncertain
+journey? Yeah. Well, I I think you hit
+on one really important part for our
+calculus is that there's the eternal
+debate of do you start something super
+early on in life or do you work for a
+period? And for us anyway, the reason
+that we had the staying power to build
+something really big was that we did
+work for a period and we had that to to
+set us up. Really, the opportunity cost
+is pretty enormous for if you have a job
+at one of these great quant trading
+firms. You have to really know if the
+startup is something that you feel so
+passionately should exist that you're
+okay with that type of an outcome
+regardless of what happens.
+I'm personally of the mindset that
+starting a a startup for a company
+because you think it's a good business
+idea but not something that you really
+care about very very hard to grind over
+any extended period of time. Like we've
+talked about sort of like the
+intellectual decision-m where you guys
+like had this like from first principles
+thinking where you're like no like this
+this this idea like must exist I can
+basically prove it like mathematically
+how this is going to work but how are
+the like emotional side like were you
+conflicted for a while? Was this a a
+difficult decision? Were you guys
+married at the time? Did you have to
+like persuade like your family and like
+other people in your lives that this was
+a good idea or is it just like a
+no-brainer just like of course I'm going
+to do this? Yeah. So, I was I was
+married at the time. I had actually just
+gotten married maybe I don't know a year
+or so before we went full-time on this
+and um but I'd been with my my now wife
+for a very long time before that. And
+yeah, there was there was definitely the
+the personal, you know, team decision of
+like am I crazy for doing this or not?
+And um I think one of the one of the
+elements there is like how do you
+minimize regret? So that's another
+framing of opportunity cost I guess. Um
+the indirect opportunity cost. How do
+you think about that? So I I think uh
+you know when you're we were both about
+five or six years into our career at
+that point and um I think that's enough
+time that at least for me I was pretty
+comfortable that there would always be a
+job that so I was working at Accenture
+at the time. It's a huge company. I was
+doing R&D stuff there. They're always
+going to be doing that. So it was kind
+of like I could go back and do the same
+thing I'm doing probably and maybe miss
+a year, miss two years, whatever. turned
+out to be six years before we launched,
+but uh you know missed some time. Um but
+I think you know just continually
+checking in and being like am I still
+net enjoying what I'm doing here? Yep.
+Okay, let's keep keep going. Very
+similar experience. Not something that I
+thought about too much once we'
+committed to doing it. And similarly, I
+was okay with a very wide range of
+outcomes in life. Money has never been
+important to me as long as there's
+enough to provide for your family. And
+kind of to Steve's point, I got
+comfortable with the fact that you don't
+need a hedge fund wife or anything like
+that to do that. One Cronis is like kind
+of a rare example, I think, of a Silicon
+Valley tech style company actually
+innovating in Wall Street in the
+financial markets. Um, do you guys think
+that there's room for more companies
+like Mon Kronos in the world? Are there
+are there other big unsolved problems
+here that other like smart people from
+like a quant finance background should
+be going and tackling? Yeah, absolutely.
+Yeah, I think um the one of the barriers
+to entry is it's hard to just Google
+like how does trading work at a bank and
+like software engineers, we're used to
+everything being so open and you can
+just kind of get answers to whatever you
+need publicly on the internet. Um that's
+very much not the case in finance is one
+of many industries like a lot of the the
+industries that are more that have been
+you know established for a long time. um
+there's kind of an information wall. So
+figuring out how to break that is the is
+one of the big challenges and that could
+involve like going to work there for a
+while or finding the right person which
+is tricky finding the right person to to
+work with. But um I think people who
+have solved that problem it's uh it is a
+the other thing that comes to mind is
+just like it's it's a different type of
+engineering process.
+um you can't do the move fast and break
+things when you're dealing with like5
+billion dollars a day of stocks and and
+like if there's any sign that you're
+doing that then people will sniff that
+out and they they won't work with you
+and so it is like you you said it
+perfectly before it is kind of a hard
+tech problem even though we're not
+building you know rocket ships or
+anything it's the same kind of uh
+mission critical or like critical
+systems engineering mindset that that
+has to happen for a lot of Wall Street,
+not all of Wall Street, but for a lot of
+it. And kind of Steve's earlier point
+about we signed up for one problem and
+ended up with 200 sub problems. It's the
+the more of these subpros we understand,
+the more we see and think of problems in
+there. And our our mission is really to
+drive the marginal cost of matching a
+trade to zero by generating
+infrastructure that is so strong and so
+good that it's just completely aligned
+with users on if we create economic
+value for you, we get paid. But if
+there's no value creation in these
+auctions, then we need a different model
+of competition than currently exists in
+capital markets. And a big part of that
+is figuring out all of these sub
+problems. And we would love for someone
+to come in and figure out a lot of these
+sub problems. And if not, we're just
+going to keep chipping away at them on
+our own. Like that's a great note for us
+to end on. Yeah. Thank you guys so much.
+Thank you. Thanks for having us, Jared.
+This is awesome.
+[Music]
+[Applause]
+[Music]

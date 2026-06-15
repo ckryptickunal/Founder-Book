@@ -1,0 +1,819 @@
+Title: HappyRobot: Automating the Work That Moves the World
+Video ID: W_UgM6iT7Do
+URL: https://www.youtube.com/watch?v=W_UgM6iT7Do
+Channel: YC Root Access
+Published: 2025-09-03T14:19:17Z
+Duration: PT27M54S
+Views: 9542
+Likes: 203
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 798
+
+Description:
+HappyRobot is building the digital workforce for the real world — AI agents that power the operations behind global companies like DHL, Uber Freight, and Flexport. Less than a year after their Series A, they’ve grown revenue 10x and just raised a $44M Series B.
+
+In this interview with YC General Partner Diana Hu, the founders share their journey from an early YC pivot to reinventing logistics, why voice was the hardest problem worth solving, and how they’re automating the invisible work that kee
+
+============================================================
+TRANSCRIPT
+============================================================
+
+[Music]
+So, I'm excited here to welcome Happy
+Robot announcing their series B for $44
+million, which is really impressive. You
+guys just raised your series A not too
+long ago, less than a year. You grew 10x
+in revenue within the last year, less
+than a year. And you were in the batch
+not too long ago in summer 23.
+>> Yeah. So tell us what Happy Robot is.
+>> Yeah, thank you so much Dana. Happy
+Robot is building the digital workforce
+or real world operations companies like
+uh DHL uh Uber freight flex they use our
+AI agents to automate a lot of their
+communications and workflows. So let's
+say uh on the context of um freight
+brokers which is this intermediary
+between uh shipping companies people
+that are shipping things um and carriers
+companies that have assets that move the
+things there's this intermediary called
+a freight broker which basically
+receives a lot of phone calls uh from
+drivers asking for a load. So let's say
+I'm a driver calling in on a load I see
+posted online.
+>> Okay,
+>> an AI agent is going to pick up as the
+freight broker here. Happy robot. How
+can I help?
+>> Hey, what's up, man? Uh, looking at this
+load I saw online. Want to see if it's
+still available.
+>> Sure thing. Do you see a reference
+number on that posting?
+>> Yeah, I think it's going to be 901
+347.
+I just made it up. I don't think it's
+going to find anything.
+>> My MC number is 234567.
+And it's basically gonna find if I'm on
+that list.
+>> We're gonna see if I'm a registered
+carrier.
+>> You're with Happy Robot Transportation,
+right?
+>> Yep. Yeah, that's us. you found us.
+Thank you. Actually, you know what? I'm
+actually in the middle of something, so
+I'll call you back later. Okay.
+>> All right. No problem. Feel free to call
+back when you're ready. Have a good one.
+>> Thank you, sir.
+>> I love that it has a lot of the natural
+kind of speech and even a bit of
+background noise so it sounds real
+because if it's too clean, there's this
+thing where it's like, ooh, it's like
+too clinical and robotic.
+>> 100%.
+>> That's really cool.
+>> So, take us to the beginning. So, this
+sounds really cool. Now you are you grew
+over 10x just within 12 months which is
+incredible. I remember you you had just
+done your series A last year and then
+you started closing these big contracts
+with
+>> big logos like DHL. Take us to the
+beginning. How did you all three start
+this company and met? Because you both
+were at your PhD programs in computer
+vision.
+>> You want to tell the story how we met?
+>> Not entirely the PhD. I was I was highly
+technical. So we met in in Spain in
+Madrid like 12 years ago literally
+second day of university. We always tell
+the story like we sat together and I
+asked for a pen and and and pencil and
+and paper and then Paulo was here. So we
+got together and we started working on
+uh a million things like robotics
+association together on a on a on a few
+startups and fast forward like 2022 we
+got together again to like start
+something. We were tinkering. You were
+doing the PhD in Munich thinking out
+what's next for you. I was uh pretty
+much done with paper writing as much as
+I was having a lot of fun during the
+PhD. I was learning a lot a lot really
+uh during that time. Thanks to Javi
+really who actually put me on the path
+of like AI and and research really when
+when AI was not really a thing. I was
+going to end up in like energy. Jav kind
+of saved me from that.
+>> Yeah, I'm the older brother uh of Pablo
+and um I did economics and law. Very
+boring. I don't recommend it. during
+economics, I uh really dig uh very deep
+into econometrics and that was very
+close to AI already machine learning and
+I told Pablo like hey maybe it's late
+for me it wasn't really but I was
+already in my career path uh to be a CFO
+and whatnot. I told him like this is the
+next thing. forget about energy which in
+hindsight energy is going to be very
+interesting thing but um yeah
+>> long story short I drop out of the PhD
+tell Luis to come to Germany we start
+working together on some computer vision
+stuff uh Kav is supporting us from from
+the US he was already here in the US and
+uh at some point we applied to YC uh get
+rejected on the interview the first time
+we reapply uh we had that one with with
+you Diana and uh after a few uh chats we
+get into IC
+Uh and that summer of summer 23 that
+batch of 2023 it was real
+transformational for us because we went
+into the batch with with a little bit of
+revenue. We already had 70k in ARR and
+every one of those peers of of our peers
+were basically like oh
+>> you guys are killing me.
+>> You guys are killing it. We're like oh
+wow like I guess we are. Like at some
+point we realized after the batch we
+were not and we hadn't really found
+anything um worth tackling. We had like
+a few customers but nothing more. And
+then right on demo day uh we woke up
+that that morning obviously came from
+before but that morning we wake up and
+we're like okay yeah we we were pivoting
+and like I remember slapping.
+>> So that transition uh that took us to to
+what we're building today these AI
+agents for uh very messy industries and
+and very comp complex industries like
+supply chain and logistics. Uh we can
+dive deeper into it but that was a bit
+of the story.
+>> Tell us a bit about that. That's very
+jarring. So you went from feeling uh top
+of the world because you had some
+revenue because a lot of the companies
+we accept over 60 70% are pre-revenue
+and you had revenue and then you decided
+to give that up all away and on demo day
+you're supposed to present we're giving
+up on this idea things aren't working.
+What what about that that previous idea
+because you already had some inkling
+during the batch. I remember doing a lot
+of office hours with you guys and you
+couldn't see how you could build a large
+company with that one.
+>> No, YC helped us understand who our ICP
+was. Who were we selling to? I remember
+chatting about like okay who's your
+customer? Like there's this this this
+like can you get a working business by
+only focusing on one and we started like
+crossing them out and at some point we
+realized okay there's there's not a
+business here like who is our customer?
+So it was selective in that we decided
+to focus on what are we doing and we
+started like realizing there wasn't like
+a big enough market for us. So Wise was
+very very helpful in understanding who
+who are we serving really.
+>> And for context maybe we were building a
+a computer vision platform like an
+autoleabeling platform for computer
+vision companies that were using
+computer vision robotics companies. We
+tried self-driving car companies like we
+tal tried to talk to cruise at the time
+and he was like no we build that
+internally. It was a lot of build versus
+buy. Uh and then we ended up going for
+uh satellite imagery. We realized that
+it was a lot of government.
+>> Yeah. 80% of the satellite imagery is
+consumed by government. So we thought
+like this is going to move very slow.
+>> Which was the case. I remember um
+>> talking with you guys trying to close
+these large government contracts and
+took forever.
+>> I remember talking to this agency.
+They're like, "Oh, this is great. Let's
+talk in six months from now." We're
+like, "Are you kidding? Like we might as
+well be dead in six months from now."
+But then we we pivoted on around
+September 2023. Went into a little bit
+of a pivot hell during those two months.
+We tried to tap into what we knew, what
+what experience we had. Luis really
+wanted to dive into into voice. I wanted
+to really see what LLMs were doing. And
+at the time, I think it was right about
+the time where 3.5 GP 3.5 was coming
+out. And then Kavi came from uh
+logistics and supply chain. He was the
+CFO as he said before of the biggest
+olive oil distributor.
+>> Yeah, you guys put together an amazing
+tool and it was a developer tool. Uh but
+I was like my thesis was like why don't
+we go to surf a vertical uh because in
+the long run this is going to get
+commoditized. Uh so we build products uh
+for a vertical that we understand very
+deeply and that's the one I knew
+>> which was very interesting to me because
+I remember chatting with you guys and
+the way the way you went about you went
+through different verticals and you
+attended different conferences in
+different industries until you stumbled
+onto the one that worked and you guys
+didn't know anything about this
+industry. I mean of course now you guys
+are experts. tell us about um that
+conference that you went that made you
+land into the idea that Happy Robot is
+today.
+>> Yeah, I mean I I can say I knew it as a
+customer of our customers like because I
+was uh working in a manufacturer, a
+shipper which is the ultimate customer
+of any logistics company. That was the
+insight right um I suffer the fines of
+retailers for delivering late uh on time
+and in full. that is their main KPI and
+that is where this ordeal of
+orchestration comes to play and where
+these logistics players have hundreds of
+people in call center uh just just
+trying to find capacity to deliver on
+time uh this truckload to Walmart the
+next day but as you're saying like we
+went to these conferences to explore and
+this is the industry where everybody
+told me I had a working demo already on
+the phone like pretty decent
+>> the first two months we put together
+like a like Louis put together a demo
+And they were
+>> like seven seconds of latency, you know,
+like hello seven seconds later like hi.
+>> Yeah. And yet they told me look I have
+200 people 500 people in a call center.
+Not to say that their own employees in
+America in in the US they also do that
+but they have outsourced already so much
+and they were like I can give you that
+tomorrow if this works.
+>> Oh and it was very simple level of work.
+It was just people in call centers
+calling truckers or delivery or or any
+capacity for for logistics to check if
+they were available. That's it.
+>> Funnily enough, the use case we started
+with was actually more complex than
+that. We started saying, "Hey, Javi
+knows that these freight brokers, which
+ultimately was our first vertical. Today
+we serve um freight forwarders, ocean
+carriers, um trucking companies, but
+initially we really focused on these
+freight brokers, which ultimately is an
+intermediary between someone that is
+shipping something uh that olive oil
+company that Kav used to work for and uh
+someone that has assets to move things,
+a trucking company, uh a boat, a plane.
+So we were targeting these freight
+brokers with whom Kavi had like worked
+with or uh kind of uh uh dealt with. uh
+they were like the ones uh maybe missing
+some of the deliveries for him and
+things like that. So he knew that
+existed. So we we said, "Okay, like
+there's this check call like this call
+that someone in a call center is doing
+to a driver to see if they're actually
+going to deliver on time." We're like,
+"Okay, this is really easy." No, like we
+should definitely start with that one.
+That's the easy one. Hey, Mr. Driver,
+are you gonna be on time?
+>> Yes. No. Why not? What time? sounds
+stupid that that call happens, but the
+reality is that as much as um the
+industry has a lot of GPS and a lot of
+uh these this digital tracking, if you
+will, um it's not as obvious as saying,
+"Oh, I see uh Pete the driver in Dallas.
+Now, what like why is he stopped? Like
+why is he not moving or like what is
+going on?" Uh so that's why there's
+these phone calls. So we to to answer
+your your your question Diana like we
+started with these uh check calls in
+mind and then we go to these customers
+these freight brokers. I'll tell a story
+about how I met our first customer and
+we tell them hey let's do check calls
+and they're like no no no no no let's
+actually do a sales negotiation. Let's
+actually negotiate rates on loads. So we
+went for like the harder use case which
+took us a little bit of of time to to
+develop. uh we actually ended up uh
+fine-tuning uh llama tool and mistril
+>> like the the problem was clear like the
+pain was clear like the idea market fit
+if you will if you will was clear the
+product was not clear like customers
+wanted this but they didn't know the
+technology was there so we were like
+super focused on this specific use case
+which is one of the beauties of like
+being verticalized is that we could put
+all our efforts in like training the
+best voice AI or building the best voice
+AI for this specific use case like
+negotiating calls so we're find like GPD
+3.5 back then was kind of fast, but it
+was pretty stupid. Like you couldn't put
+them on a phone. Like it wasn't reliable
+for like a business, like a real
+production ready operation. GPD4 was
+very slow. Like it was decent for a for
+a demo, but it was like 7 seconds of
+answering and it wasn't production
+ready. So we went full-on fine-tuning
+like Lama or Mistral back then, which
+again speaks to how we approached
+building the company and that it was
+clearly not a long-term advantage. like
+we knew something else was coming like
+EP5 or 4 whatever it is there was
+something coming but doing those
+short-term um advantages kept us ahead
+of the curve a little bit and showing
+that we're a technology company and we
+can get uh this built
+>> I think that was part of the impressive
+thing we've seen with successful
+vertical AI agents is doing this
+playbook that AI might not be 100% there
+but you meet you fill in the gaps and
+eventually we'll get there and you have
+to kind of bootstrap it and fine-tune a
+customer model and that got you to close
+that first customer, right?
+>> Yeah. Yeah. When I go to one of these
+conferences, someone tells me about a
+Discord channel where the nerdiest
+people in logistics uh will have their
+conversations and and I told Pablo still
+I am at the conference, hey, get into
+this channel. And you got into the
+channel, you know better the story.
+>> I end up in this Discord ser discord
+server and I pitch the thing. I do a
+demo call and they're like, "Holy shit."
+Like that's super cool. And then next
+day, next morning I have like an email
+from a couple of guys. Turns out those
+two guys, one was like the sales
+director at the 10th largest freight
+broker in the US and the other one was
+like the 30th largest. So like I we end
+up uh piloting with them. I guess that
+speaks to the power of conferences in
+person like seeing like those people in
+person like anything vertical there's
+always somewhere where like these people
+are meeting. Uh, and if you can like
+engage with those guys at at that level,
+at that enterprise level as well, that
+was really an an unlock for us versus
+just being at home and just like coding
+things without talking to people.
+>> And one of the things is that that was
+just the foot in the door for you guys
+with the voice agent and that first
+workflow for negotiating contracts.
+Eventually, you started growing a lot
+more use cases and workflows. So then
+you weren't just one one of the things
+that people might be concerned is you're
+just building a wrapper on top of a lot
+of the AI models, but that's not the
+case. You built a lot of very custom
+workflows that now going from your
+series A to your B, you've grown to
+closing seven figure contracts that
+might have started at like five figures.
+So tell us about that progression.
+>> 100%. He did start at that five figure
+uh number which we felt pretty good at
+at the beginning like oh wow like we're
+closing a I don't know like a 30k deal.
+Wow great we felt really good. Uh and
+the reality is that was our landing know
+like that land and expand motion that
+we're seeing in a lot of uh uh AI agent
+companies. Uh that is really what
+analoged our growth just getting our
+foot in the door working with these
+people them seeing us as their AI
+partner. They truly see us as a trusted
+partner with whom they can build agents
+and in this case like transform their
+workforce and first use case with
+company X was this carrier sales
+negotiation but then it's like oh I
+actually now want to do that check call
+that we were talking about before and I
+also want to like collect uh payments
+and I also want to collect documents.
+>> Voice is just one modality but the
+customer really wants to get job done
+like they don't really care if it's
+through phone or through email like
+there's also email carrier sales. So we
+then we got into like there's more than
+voice. Like customers don't really care
+what it is. They just want to move
+freight in our case. So we got into like
+those text workflows as well, which
+arguably was easier. We we started with
+like the arguably the hard part of the
+voice. Putting the the LLM to like
+answer an email was arguably the the the
+easy part, but that was something
+natural like voice. They wanted like a
+holistic solution, not only like a point
+voice solution. voice is the easiest one
+to demo and and for people the wow
+effect is is crazy and also the workflow
+is very straightforward. They have call
+centers just doing phone calls. For
+other workflows is more convoluted
+within within the customer and you have
+to like panty approach. You put an FDE
+and they just get to know everything and
+it's a longer term product that you
+build. But the voice one is very clear.
+No, like you're replacing 20 people in a
+call center in this country. And and
+that's also to the expansion point. It's
+like such a clear ROI. You don't have to
+justify anything to the CFO. It's like,
+okay, that's great. And by the way, it's
+more robust typically uh the AI than
+than other
+>> than the humans.
+>> Yeah.
+>> It's more consistent. Like actually
+customers really appreciated that,
+right? Like they they said, "Hey, my
+team, they don't want to be doing this
+job." First of all,
+>> second, if they do it,
+>> they're going to do it wrong because
+they'll not follow the script that I
+gave them. And I really want to want
+them to follow the script. I always want
+to ask for a shipment number before I
+ask for the motor carrier number
+whatever like this is like some
+terminology from the industry but like
+they really want that that process to be
+done that way and it's not only about
+the
+how you carry the phone call or the
+email or whatever workflow it's actually
+about the data that you're extracting.
+Mhm.
+>> So after that call is done, that email
+is exchange is done. You're in in in
+front of a lot of data they're uh never
+seen you you've never seen before as a
+customer. They've never been able to
+capture that data from their team
+because Luis gets picks up a call,
+negotiates a rate with a with a driver
+and maybe that doesn't end up in a in a
+sale. No, maybe like that is just like
+some exchange they had there, but like
+they don't end up working together.
+Broker, freight broker and trucking
+company, but like we should be writing
+down that option, that offer on some
+system and reps like the representatives
+in those companies, they have better
+things to do. Uh, so they just don't do
+that. But that's data that they're
+they've been not capturing traditionally
+and that was a huge analog as well for
+them. YC's next batch is now taking
+applications. Got a startup in you?
+Apply at y combinator.com/apply.
+It's never too early and filling out the
+app will level up your idea. Okay, back
+to the video.
+>> The really cool thing about you guys,
+you've been building a lot and really
+keeping at the state-of-the-art. So,
+back in 2023, you were fine-tuning open
+source models or just building off of
+3.5 GPT. And now fast forward, you're
+basically becoming a system of record,
+right, for all these logistic companies.
+And you started to build more complex
+tech around custom memory and you're
+even doing reasoning models. Tell us
+about those. What are the some of the
+cool things around that that was at the
+bleeding edge?
+>> It's fascinating. Like voice per se is
+hard. There's a lot of challenges uh
+today in like back then the problem was
+most of the time latency was too high.
+But now the industry went too far and
+now the bots are like interrupting too
+much. So there's like a sweet spot in in
+real time voice where you cannot be too
+slow but you can also not be too too
+fast. So there's all this end of turn
+and understanding of the conversation
+like humans when I'm talking you're like
+reasoning while I'm think like while
+while I'm talking and if I make a brief
+pause that you understand that I'm not
+done. So that's something that
+traditionally voice uh companies we have
+not done because traditionally like the
+the agent is kind of sleeping while
+while the the person is talking the
+agent is kind of sleeping and then once
+the person stop talking it starts
+thinking like super fast and trying to
+answer as quick as possible. So there's
+a lot of reasoning mid call that the
+body is doing using different models
+depending on the difficulty of the
+conversation the memory part like we're
+automating work across a lot of
+thousands of agents at the same time. So
+there's a lot of knowledge that they can
+share live and there's an example for
+example when negotiating calls like
+there's carriers calling in the broker
+and there's 10 concurrent calls for the
+same load typically humans would not be
+able to like say hey I have a very very
+interesting carrier maybe drop the price
+negotiate harder this this load is very
+hot the agents can sync all the data
+real time and kind of say hey I'm
+getting a lot of interest you want to
+book it for less I mean this is the best
+I can do I have another offer right now
+all that sharing real time of
+information and that memory that we we
+create was not possible before. So it's
+a bit of that data unlock that we
+provide the customer not only automating
+the work per se but also providing
+visibility into what's going on.
+>> So what are some of the interesting tech
+that you have invented that um maybe
+that you can share?
+>> Yeah.
+>> That is really at the bleeding edge that
+not even the AI labs are doing and you
+have only been able to do so because
+you've gone deep into this vertical use
+case and this is one of the reasons why
+you're the best solution.
+>> No, thank you. Um I think end of turn is
+something that is not widely spoken like
+we always think about voicing like
+transcriber LLM um text generation but
+we kind of knew that models were going
+to get faster like it was matter of time
+that the the models were going to be
+fast so that understanding of the
+conversation um pace and when interrupt
+when not to in especially in voice over
+phone it's also hard to know when the
+other person is engaged. So humans
+typically like back channel or you say
+something and I've tried other systems
+that whenever you say something the bot
+stops because it thinks you want to
+talk. So that understanding of the
+conversation, that interruption handling
+is extremely important. And when you get
+all the other pieces right, this is
+typically what fails. Like you can have
+a very natural conversation, but if it's
+constantly like stopping whenever it
+listens to like a background noise or
+someone is talking in, I don't know,
+there's a side conversation and the
+body's answering someone else, that's
+something that is hard per se because
+it's it's it's a hard problem that you
+need a lot of like audio understanding.
+So that interruption handling is
+something we've we've worked a lot and I
+think we're we're good at it. I I think
+something that
+we unlock is that we're now automating
+work for this company. Like we're
+automating the the phone calls, the
+emails, the text, like literally
+enhancing or replacing if you will those
+human labor that are doing repetitive
+tasks. This is unlocking a lot of data.
+we were talking like those that memory
+piece those conversations are now
+creating this system of record you said
+like now there's external data sources
+and there's data that the agents are
+generating what we're thinking is
+putting what we call frontal which is
+like a bigger super intelligence on top
+who is not doing the phone calls per se
+is literally just looking at the data
+and being proactive in like telling the
+the human insights teaching the
+workflows how to behave better. So now
+you have this manager that's looking at
+every single phone call and it's
+teaching a day, hey you should maybe
+negotiate harder or you should call uh
+this carrier because they don't want to
+be text like you're now holistically
+looking at the things. So there's this
+like reasoning agent 24/7 looking at the
+data and providing insights and teaching
+the rest of the system. I I think
+another way to see it is we've built the
+agentic workflows. That's the foundation
+and it pretty much looks like a bunch of
+notes like no code tool like a Zapier
+looking tool just connecting notes to
+each other having like a a prompt and a
+set of tools. That's what we've called
+agentic workflows. We have a layer on
+top which is the AI worker. That's the
+entity that is now looking at the
+workflows that it has available that it
+can use. For example, we have this one
+customer in the manufacturing space.
+Their team of 300 um buyers or
+procurement managers are just looking
+every day at an ERP seeing like what
+order is going to be late and they have
+to reason about hm I think this order is
+going to be late. I should maybe send an
+email to the supplier to make sure that
+that order is going to arrive on time.
+The next morning they wake up and see
+that no one has replied. Okay, I I now
+have to make a phone call. So we can the
+way we think about it is that email
+workflow that that is that is a workflow
+that email communication is a workflow
+that a phone call is another workflow.
+There's an entity on top that AI worker
+that is reasoning about when to use one
+workflow or the other. It's almost like
+it has capabilities. That AI worker has
+capabilities planning and orchestrating
+everything. It's not doing the phone
+calls. just like understanding the
+problem and scheduling different parts
+to like do work in the outside world and
+then getting the results and think about
+them.
+>> So you have multiple agents and you have
+the manager agent. That's that's cool.
+So
+>> I think a lot of what you're building is
+really cool making a lot of these
+logistic companies more efficient, not
+needing as large of a operation with
+call centers. On the flip side, there
+might be a lot of um sentiment from the
+public that a lot of jobs are getting
+taken away. How do you tend to think
+about that?
+>> This is a little bit of that um AI will
+not replace you, but like a human using
+AI will. And this is really true. We're
+seeing in our customers how their
+representatives are actually more
+efficient. Uh some of the
+representatives in these freight
+brokers, which is one of those verticals
+that we tackle, are booking more
+freight, more loads, uh 25% to 30% more
+loads per day, uh which actually gives
+them more money because they get
+commission on those loads. So now they
+see it as a as um as a tool right as a
+as an opportunity to grow more than a
+thread really
+>> which I think is what we're seeing with
+a lot of AI startups is this case where
+it's not that is uh replacing humans it
+is freeing up humans to do higher level
+task and like this company didn't
+necessarily let anyone go at all on the
+contrary all those former uh employees
+are doing even better tasks and even
+more fun tasks and the company's
+becoming more efficient
+>> 100% That's awesome. What are you
+excited about the future? Where does
+Happy Robot go from now?
+>> We started really narrow with uh
+vertical of freight brokers. After that,
+we said, "Hey, we're actually not like
+automating the work of these freight
+brokers only. We're actually automating
+the work in a industry that is much
+bigger. We're automating all of the
+non-physical labor uh that kind of keeps
+goods moving around the world, people
+moving around the world, services. We're
+now working with some of the largest uh
+uh energy suppliers in in the in the
+world. So there's someone setting up an
+appointment. There's someone like uh
+making sure that that appointment is is
+set at the right time. There's
+operations. Uh we were at the keynote in
+Zamzara uh the one of the largest uh
+fleet management software companies out
+there and they serve these industry of
+of physical operations. The way we we
+see our agents is they're automating the
+work that is needed to keep physical
+operations going. So that is really what
+is exciting us a lot. No, like we're
+actually automating the work that keeps
+a lot of the a lot of the work in the
+world moving.
+>> And you guys are hiring.
+>> We're hiring a lot. Yeah.
+>> A lot of engineers. Full stack.
+Yeah. Yeah. Like in every one of those
+steps like the agent part, how do we get
+the bot to do better at the phone calls
+at the memory piece that worker that
+needs to like plan and schedule and
+orchestrate the thing the higher level
+intelligence of there's a lot of in the
+text that that we're we're like we're
+building ourselves like we're an AI
+company. We have an AI road map and
+that's something our customers
+appreciate that they want to partner
+with someone that's really pushing the
+frontier of of what's possible. So we're
+hiring um a lot of engineers as well
+>> for deploy engineers as well. We haven't
+talked about that but we're hiring a lot
+of uh of that concept that Palanteer
+brought like that forward deployed
+engineer that customer engineer almost
+that uh person that is technically savvy
+but also like enjoys the work with
+customers hiring hiring a lot on that
+front as well.
+>> All right well congratulations guys on
+your series B.
+>> Thank you so much.
+[Music]

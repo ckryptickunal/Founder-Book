@@ -1,0 +1,304 @@
+Title: The Engineering Unlocks Behind DeepSeek | YC Decoded
+Video ID: 4Tmn-XP93m4
+URL: https://www.youtube.com/watch?v=4Tmn-XP93m4
+Channel: Y Combinator
+Published: 2025-02-05T15:00:04Z
+Duration: PT13M6S
+Views: 212732
+Likes: 5352
+Tags: YC, Y Combinator, DeepSeek, OpenAI, Anthropic, DeepSeek R1, o1, o3, ChatGPT, Claude, Diana Hu, LLM's, AI, Artificial Intelligence, Reinforcement Learning
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 282
+
+Description:
+Chinese AI company DeepSeek recently made waves when it announced R1, an open-source reasoning model that it claimed achieved comparable performance to OpenAI’s o1, at a fraction of the cost. But for those following AI developments closely, DeepSeek and R1 didn’t come out of nowhere.
+
+In this episode of YC Decoded, General Partner Diana Hu breaks down the key engineering optimizations behind DeepSeek's remarkable new models — and contextualizes them within the broader history of recent AI breakt
+
+============================================================
+TRANSCRIPT
+============================================================
+
+there's a new AI model in town Chinese
+AI company deep seek recently made ways
+when it announced R1 an open source
+reasoning model that it claimed achieve
+comparable performance to open AI 01 at
+a fraction of the cost the announcement
+Unleashed a wave of social media panic
+and stock market chaos Nvidia losing
+nearly $600 billion doll in market cap
+today alone but for those following AI
+developments closely deep seek on R1
+didn't come out of nowhere the company
+has been publishing its research and
+releasing its model weights for months
+following a pth similar to meta's Lama
+model this is in contrast to other major
+AI Labs like open AI Google deep mine
+and anthropic that have close weights
+and publish more limited technical
+reports what's changed is just that now
+the broader public is actually paying
+attention so let's decode what the real
+deel elements here are where they come
+from and why they
+[Music]
+matter first of all it is important to
+distinguish between two relevant models
+here deep seek R1 and deep seek V3 deep
+seek V3 which was actually released this
+past December is a general purpose based
+model that achieves comparable
+performance to other base models like
+open ai's GPT 40 anthropics claw 3.5
+Sonet and Google's Gemini 1.5 deep seek
+R1 which is released at the end of
+January is a reasoning model built on
+top of deep seek V3 in other words deeps
+took B3 and applied various algorithmic
+improvements to it in order to optimize
+its reasoning ability resulting in R1 a
+model that's achieved comparable
+performance to open a01 and Google Flash
+2.0 on certain complex reasoning
+benchmarks but many of the algorithmic
+Innovations responsible for r1's
+remarkable performance were actually
+discussed in this past December V3 paper
+or even before that in deep seeks V2
+paper which was published in May 2024 or
+the Deep seek math paper which came out
+February 2024 V3 stitches together many
+of these Innovations which were designed
+primarily with compute and training
+efficiency in Mind One Way de seek
+optimized for efficiency and got more
+floating Point operations per second or
+flops from the gpus was by trading V3
+natively in 8bit floating Point format
+rather than the usual 16bit or 32-bit
+format this is not a new idea many other
+labs are doing it too but it was key for
+getting such massive memory savings
+without sacrificing performance a
+crucial enhancement is their fp8
+accumulation fix which periodically
+merges calculations back into a higher
+position fp32 accumulator to prevent
+small numerical errors from compounding
+the result far more efficient training
+across thousands of gpus cutting cost
+while maintaining model quality but why
+does this efficiency matter given its
+Hardware constraints and US exports
+controls on the sale of gpus to China
+deep seek needed to find a way to get
+more training and more bandwidth from
+their existing cluster of gpus you see
+at AI Labs these gpus which do number
+crunching and matrix multiplication to
+train these models are actually sitting
+idle most of the time at fp8 it is
+typical to only see around 35% model
+flops utilization or mfu meaning gpus
+are only being utilized at Peak
+potential about a third of the time the
+rest of the time these gpus are waiting
+for data to be moved either between
+caches or other gpus this is nvidia's
+key Advantage it is not just about gpus
+it is about an integrated solution
+they've been building for over a decade
+that includes the networking with
+infinity band software with Cuda and
+developer experience essentially Nvidia
+provides a deeply integrated system that
+lets AI researchers program GPU cluster
+L is a distributed system and and closer
+to what Jensen describes is one giant
+GPU another clever way deep seek makes
+the most out of their Hardware is their
+particular implementation of a mixture
+of experts architecture deep seek V3 has
+671 billion modern parameters but only
+37 billion are activated for a given
+token prediction by contrast the largest
+and most capable Lama 3 Model doesn't
+use a mixture of expert architecture so
+it activates its full 405 billion for
+each token prediction in other words V3
+activates 11x fewer parameters for each
+forward pass saving tons of computation
+mixture of experts isn't A New Concept
+but it's been challenging to train
+models with this architecture
+efficiently deep seek introduced novel
+techniques that stabilize performance
+and increase GPU utilization
+additionally to overcome key performance
+bottlenecks V3 makes use of multi head
+latent attention or MLA which deep seek
+first revealed with its V2 paper which
+was published in May 2024 MLA is a
+solution designed to tackle KV cat
+storage limitation one of the biggest
+sources of bam overhead in large models
+instead of storing full key and value
+matrices MLA manages to compress press
+them down into a latent representation
+reconstructing them only when needed
+this helped the B2 model reduce his KV
+cach size by
+93.3% and boosted its maximum generation
+throughput to 5.76 times finally unlike
+traditional models that predict only the
+next token V3 makes use of multi- token
+prediction or MTP MTP enables V3 to
+anticipate multiple future tokens at
+each each step this densifies training
+signals providing more feedback per step
+for better data efficiency and faster
+learning it also improves representation
+planning allowing the model to pre-plan
+sequences for smoother more coherent
+outputs during inference MTP modules can
+be repurposed for speculative decoding
+reducing sequential processing steps and
+significantly speeding up generation
+taken alog together this makes V3 one of
+the most impressive based models on the
+market and it's been out for some time
+now however the recent release of deep
+seeks R1 reasoning model is what really
+made waves most llms can be improved by
+being prompted to think step by step but
+what sets reasoning models apart is that
+they are specifically trained to break
+down hard problems and think about them
+for paragraphs at a time in September
+open AI showed the power of this new
+approach with 01 this achieved
+state-of-the-art results in math coding
+and science benchmarks with R1 deep seek
+took a similar approach and published
+The Secret Sauce open Ai and deep seek
+achieve their impressive results through
+reinforcement learning a technique to
+shape an llms Behavior based on feedback
+and reward signals modern llms use some
+variation of reinforcement learning with
+human feedback AKA RL HF or
+reinforcement learning from AI feedback
+AKA RL AI F to improve their models
+usefulness and Alignment but reasoning
+models apply RL specifically towards the
+task of thinking step by step through
+complex problems so how did deep seek
+apply RL to get a reasoning model at a
+high level they assemble a bunch of
+problems with verifiable outputs
+especially in math and coding problems
+and then design a training pipeline to
+get the model to think for a bit and
+output the correct answers
+but they don't give the model any
+external examples of how to think
+whether from humans or Ai and Grading
+process was extremely simple rather than
+using a complex AI to give the model
+fine grain feedback deep seek uses
+simple rules to evaluate the model's
+final output on accuracy and formatting
+they use these output scores to update
+their model through a novel technique
+they published in February 2024 called
+group Rel relative policy optimization
+or grpo remarkably with this process
+alone deep seek saw reasoning emerg over
+thousands of RL steps the model learned
+skills like extended Chain of Thought
+and even experience a aha moment where
+it recognized its own mistakes and
+backtracked to correct its reasoning
+this model was r10 one of the first
+large models to achieve top tier results
+purely through enforcement learning pure
+RL has long been a subject of
+Investigation in Western research Labs
+such as deep Minds alphao which
+simulated thousands of random games of
+self-play to beat Lisa do the world's
+top go player in 2016 in 2019 open aai
+achieved notable success using
+reinforcement learning to train a
+robotics hand to solve a Rubik's Cube
+and beat a top human team in competitive
+Dota 2 but unconstrained by human
+examples R1 Z's thinking steps suffer
+from poor readability switching between
+English and Chinese at random so deep
+seek introduced a cold start phase
+fine-tuning on structured reasoning
+examples before RL to get our one this
+eliminated the language mixing issues
+and made outputs far more comprehensible
+the results are impressive R1 achieves
+comparable performance to 01 on certain
+math and coding benchmarks but the pace
+of innovation is speeding up just 2
+weeks after R1 was released open AI
+release 03 Mei which outperforms R1 and
+01 on key benchmarks so if R1 didn't
+actually come out of nowhere what
+explains the hype cycle one explanation
+is the sheer accessibility of deep seeks
+model ran is freely accessible through
+their website and app and it is free to
+download run locally and customized also
+because of all the efficiency
+improvements it offers near
+state-of-the-art performance at a
+fraction of the price of other reasoning
+models another explanation is that a lot
+of the hype cycle didn't actually have
+to do with the specific algorithmic
+improvements that we describ but with
+misconceptions around v3's alleged $5.5
+million in training cost there's some
+important fine print here the 5.5
+million figure refers only to the cost
+of the final training run for V3 it
+doesn't include any of the training cost
+of R1 or the associated R&D or Hardware
+operating expenses which are presumably
+in the hundreds of millions given the
+extreme algorithmic optimizations here
+that 5.5 million training run number
+actually seems perfectly possible and it
+is worth noting that this work is
+reproducible a UC Berkeley lab recently
+apply R1 Z's key techniques to produce
+complex reasoning in a smaller model for
+just $30 what deep seek really proves is
+that there is still room for new players
+on the frontier in particular there's
+room for rebuilding the stack for
+optimizing GPU workloads improving
+software at inference layer tooling and
+developing AI generated kernels
+ultimately this is fantastic news for AI
+applications in consumer or B2B since it
+means the cost of intelligence keeps
+going down so the big takeaway here this
+is the best possible time to be building
+a
+[Music]
+startup the deadline to apply for the
+first YC spring batch is February 11th
+if you're accepted you'll receive
+$500,000 in investment plus access to
+the best startup community in the world
+so apply now and come build the future
+with us

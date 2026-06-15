@@ -1,0 +1,189 @@
+Video ID: 1egwM88T3C0
+URL: https://www.youtube.com/watch?v=1egwM88T3C0
+Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 182
+============================================================
+
+I'm Sachin from Skyvern and I'm here to
+talk to you about how context is all you
+need or as for a tongue twister, stop
+the slop shop. So, just for context,
+Skyvern is a company that helps open
+source company that helps largely
+healthcare companies automate things
+they do manually in the browser.
+And we managed to scale past 2 million
+run rate with me basically being a PM,
+doing all the marketing, doing all the
+sales and customer support all on my
+own. And it wouldn't have been possible
+without all of these agents helping me
+every day. And so, we have agents that
+write PRDs, that manage SEO, do content
+marketing,
+customer support, and and even fixing
+small bugs. And I'm going to kind of go
+through my favorite ones today with you
+guys. One of the big reasons that agents
+produce slop, which every engineer who
+doesn't like AI likes to tell you, is
+because they love to do what they're
+told,
+but they often don't have the context
+required to do it well. And you can
+think of it as when you hire a new
+engineer or new employee, they try to be
+helpful, but they just don't have the
+context for your business to really be
+helpful right away and they take time to
+onboard. Agents are the same thing. And
+so, giving good instructions, giving
+good context, and letting them critique
+their own work is how you make them much
+more effective at their job. And what is
+good context? Well, it's everything
+about your business. I think many of the
+speakers today have covered this.
+Getting access to your email, getting
+access to Slack messages, um giving it
+access to Notion where it has like your
+um documentation, giving it access to
+customer call recordings so it can
+understand this one customer has issue
+with this one part of your product and
+actually be able to correlate it, giving
+it access to even your database as some
+companies are doing where it can
+actually look up, "Hey, this customer
+did these runs and these failures
+happened." and be able to kind of
+diagnose it accordingly. And this is
+some place where remote companies have
+an unfair advantage. You know, every
+in-person company, the context is
+spoken. You go up to somebody, you're
+like, "Hey, this customer really cares
+about latency. You got to make sure that
+what the feature you design matters." In
+a remote company, it's recorded on a
+call or in a Slack message. In person,
+it's lost.
+And so,
+you have to think of it you know, all
+these tools are basically your company's
+knowledge base and anything you don't
+record isn't saved. And so, you have to
+kind of restructure your company
+accordingly to make sure you are taking
+advantage of it all. And so, I'm going
+to go through two really specific
+examples and how we use AI today. Two
+Two skills, really, that help us move
+faster. So, the first one is write a
+PRD, so PM, product requirements
+document.
+And this skill is pretty pretty cool.
+It's a little vague here, but it's vague
+on purpose to give the AI freedom on how
+it does it.
+So, first it goes into a call recording
+or all of our call recordings and does
+like a search over the topic that I
+wanted to write a
+spec about. Then it'll
+search Slack for
+communication about it. Um it'll search
+Notion and also our customer customer
+recordings uh and customer
+communications and really draft a first
+draft that is grounded with evidence and
+it's rather like concise.
+And then we have sub-agents that run
+that do adversarial review on it. It'll
+It'll read the first uh set of comments.
+It'll read the first set of comments in
+the document. And finally, it'll go
+through a prioritization framework. We
+use Rice, but you can use anything, to
+really take out all the junk
+requirements that it thought were
+important, but aren't actually important
+once it goes through a framework. And I
+basically did this and I started sending
+it to our our team and they're like,
+"This is slop. This is slop." And I kept
+tuning it until people are like,
+"Actually, it's not bad. Actually, I'll
+write I'll I'll I'll use this to draft
+my draft my feature." And so, an example
+is um back in February we were having uh
+CAPTCHA solver issues and uh we had a
+few customers complain about it. So, I
+wrote I wanted to I wanted to write a
+strategy on how we kind of deal with
+that and identify it. And it actually
+went through and found specific
+recordings linked to them so people who
+were going to work on the feature could
+actually look it up. Second one,
+content marketing. Every morning I get
+this email. It's here are post ideas on
+last 20 conversations you had with
+customers. Here's the five posts.
+And the way it is generated uh add me on
+LinkedIn if you're curious on to see how
+it works. It basically goes through last
+20 internal and external customer call
+recordings, tries to bucket topics into
+a few things like recurring pain points,
+contrary and observations, stuff that
+does well on social media,
+drafts five posts, one for Twitter, one
+for LinkedIn, five copies, five
+different topics,
+and then it runs through a DAI advisor.
+It's not very good, but we use Pangram
+for it to take out like really sloppy
+words to make it seem LinkedIn content,
+I guess.
+And then um
+tries to put a meme in it cuz you know,
+funny stuff's obviously better than not
+funny stuff, and then sends it to me by
+email, I review it, and then I publish
+it. And it basically made it so that I
+could publish five times a week cuz
+otherwise I didn't have time for it. On
+Friday I got a message from somebody
+from my network. We posted something
+about an insurance agency doing carrier
+portal automation using our product, and
+the person's like, "Hey, actually I have
+a friend who's looking for this right
+now." And it was a super specific thing
+I never would have written, but it was
+auto-generated from a customer
+requirement, which is really cool. So,
+just a quick reminder, remote companies
+are automatically good at this. Um and
+in-person ones are not, so you'll have
+to change how you work. And so, what we
+did at Skyvern was basically we stopped
+letting people send DMs.
+Nobody's allowed to send DMs in in our
+company. Everybody has an office
+channel. They have to ask their
+questions in there. Every future hire
+now and now has the benefit of that. I
+would record every call, internal or
+external. Even my one-on-ones with my
+co-founder are recorded, which you know,
+whether they should be or not is an open
+question. And then we give agents access
+to everything,
+and we give everyone access to an agent.
+We hired two sales people recently, and
+I made them set up a call code, and they
+were dying in the first hour,
+but then they got used to it.

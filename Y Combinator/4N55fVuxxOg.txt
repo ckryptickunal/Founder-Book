@@ -1,0 +1,715 @@
+Title: Critiquing Startup Mobile Apps with Glide CEO
+Video ID: 4N55fVuxxOg
+URL: https://www.youtube.com/watch?v=4N55fVuxxOg
+Channel: Y Combinator
+Published: 2023-09-01T17:30:07Z
+Duration: PT24M3S
+Views: 132103
+Likes: 3621
+Tags: YC, Y Combinator, yt:cc=on
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 693
+
+Description:
+In the crowded field of mobile apps, design can be just as important as the software. But what makes for a well designed app? In this episode of Design Review our host Aaron Epstein is joined by David Siegel, founder and CEO of the no-code app builder Glide (https://www.glideapps.com/) to critique five startup apps. Together they’ll highlight dos and don’ts for creating a great looking, functional mobile app that’ll stand out from the pack. 
+
+Thanks to the YC startups featured in this episode: P
+
+============================================================
+TRANSCRIPT
+============================================================
+
+so after many requests we are finally
+going to be doing a mobile app review
+we're going to run through them we're
+going to figure out what feedback we
+have what's working well and hopefully
+help you for all the mobile apps that
+you're designing out there so welcome to
+another episode of design review
+[Music]
+all right so today we are very lucky to
+be joined by David Siegel the co-founder
+of Glide which came out of the YC winter
+2019 batch so David thank you for
+joining us hey Aaron happy to be here
+thanks so much why don't you tell
+everybody a little bit about what Glide
+does and your experience designing
+mobile apps sure Glides no code tool
+that allows businesses to create custom
+software when we think of apps that we
+use every day the code is essential to
+make them function but apps companies
+are hugely differentiated by their
+ability to execute on design and when we
+started Glide we just were aware of this
+imbalance we saw so many
+well-implemented pieces of software that
+just lack the design component rid the
+world of ugly soft no more ugly software
+Life's Too Short what tips do you have
+high level for what makes up a
+well-designed mobile app well the first
+tip is you want to stick to the
+standards of the platform that you're
+running on another important
+consideration is like the context in
+which your users use your app if you
+want to think about fizzy basically like
+what is the environment the person is in
+how are they moving are they holding
+their phone are they walking are they
+watching a movie after those two it's
+basically just all the normal background
+design principles is the text legible
+enough contrast you know the basics so
+I'm really excited to dig into these
+apps and see how well they execute on
+design all right so first up we have
+pearls which is a modern medical
+reference app for healthcare providers
+pearls I think that's how you say it
+that's the first design that we're
+considering is the design of the name
+piece of advice writing is design the
+words that make up your app and even the
+name of the app is part of the design so
+it's hard to think of a name with the
+domain that's available we'll get over
+pearls but it did cause us to second
+guess ourselves cool all right so right
+out of the gate we're in the app it
+looks like we got a bunch of different
+cards here this looks like it's going
+with this Paradigm of having lots of
+different sections going down the page
+okay it's very easy to scroll let's get
+that that Pearl CTA at the bottom middle
+that seems like the most important thing
+on the screen what does that do I don't
+know it's uh mystery
+search Okay so we're searching drugs
+this is an app for searching drug
+information one thing that I'm noticing
+is there's a lot of little screenshots
+in each of these cards yeah which are
+too small for me to actually figure out
+what's Happening Here
+Everything feels small in this UI that's
+right
+what happens if we
+tap on one of these let's see so it did
+it did use the native navigation yeah
+pushing into the detail page that's nice
+and you can see in this list everything
+is thumb sized on mobile everything
+should be nicely tappable with your
+thumb which means it usually needs to be
+larger than 60 pixels Square you can see
+there's kind of a violation of that on
+the the star rating control at the
+bottom that's a little bit itty bitty
+for your fingers yeah my thumb covers
+the entire thing when I put it over it
+so it's kind of hard to tell where
+you're tapping okay okay so
+um we're in a guidelines database yeah
+okay we can expand these so that
+actually wasn't obvious to me that this
+would expand in line and expand but it's
+fine I understand what happened yep
+um usually you'd see a a disclosure
+triangle like a little down arrow or
+right side Arrow or something like that
+to reference the fact that it would
+expand the animation is also uh it
+happened quickly but it does animate
+that's another thing animation when you
+need to change the shape of something or
+the content on the screen animation can
+help people follow the thread of what's
+Happening instead of doing a hard cut
+yep
+okay so we're into a database different
+links overall I'm feeling if I'm in
+healthcare and I'm using this app I'm
+feeling I'm using something that's
+contemporary yeah and smooth this is
+appealing to me if this is a reference
+app they're probably trying to look up
+some information to answer a question
+all right so let's look at the standard
+dosage of finasteride okay
+finasteride okay right yeah the search
+brought it right oh look I spelled it
+wrong and it still found it that's
+really that's a great feature right
+usability and it's got the search in
+line in real time yeah which is actually
+really helpful because otherwise it
+would have spelled it wrong I would have
+hit the button it would have told me no
+results so right out of the gate I can
+figure it out okay
+so we have a very novel interaction
+right here there's kind of like a
+information map this is a custom feature
+it looks like it's kind of optimized for
+quickly tapping and reachable by your
+thumb that's a that's a risky thing to
+do it's non-standard but why don't we
+just click on general I'm not sure
+what's going to happen when I tap on any
+of these
+okay we just have the main indications
+pharmacology
+Etc
+this is quite nice
+there's a lot of good information here
+okay and then we have more resources it
+opens the web browser in line which is
+great rather than taking you outside of
+the app cool
+all right I go back takes me to the
+search well overall I think this is
+great I think
+um you know there's maybe a few things
+they could do here to make these more
+um more legible at this overview
+dashboard screen but it seems like this
+is a very thought out app I think it's
+well considered it raises the bar on
+what people in this industry usually
+have access to from my passing
+familiarity with it I think it's a it's
+a great design it's an engaging app
+thank you pearls this is great next up
+we have blue dot which is an app to find
+pay and access EV charging stations so
+let's check it out so we launched right
+to a map showing where we are in the
+nearby charging stations so points for
+interaction design yeah if I'm looking
+to find EV charging stations then you
+get me right to the aha moment the thing
+that I'm looking for right out of the
+gate so well done so let's I guess we're
+driving around right now in our EV yeah
+we've got arranging anxiety the battery
+is showing red six percent where are we
+charging where are we charging let's
+find the ones that are closest let's go
+right near us here
+okay that was busy
+too busy all right I wish we'd known
+that before we tapped on the icon if
+only there was a way for them to show
+that pick another random one of these
+icons
+and this one is also busy okay let's
+just get out of this neighborhood maybe
+it's a busy time busy
+busy okay let's pause this let's pause
+this simulation so two things one it'd
+be nice to know which ones are available
+on the map
+um this might cause someone to leave the
+app and not return if they tap on seven
+things they don't get anywhere
+um but I think it'd be interesting we
+could critique the visual design of this
+app I would recommend some more care in
+the color selection also
+the name of the app has the word blue in
+it but the logo looks green
+so
+I would recommend if you're going to put
+a color name in your company's name or
+your product's name your main color for
+your brand should probably be that color
+and not a different one yeah
+um so maybe change these icons to
+reflect the availability
+and I would also even just remove the
+logo I don't think you need your
+company's logo on your main screen
+you've already got the customer in the
+door yep that's a great Point yeah
+otherwise we're left here just tapping
+oh we found one okay one of two
+available okay what do we do next can we
+expand this little panel oh there we go
+that was a subtle interaction once you
+learn it it's fine but it was a bit
+subtle yeah I think you know start
+charging or I don't know I I'm not sure
+what the next thing we need is like do
+we need to map it or do we need do we
+want to pay start charging whatever it
+is though it was missing actually a call
+to action right here until I expanded it
+I'd like a button to
+navigate yep and so okay so if I'm going
+to route to there and sort of take me
+out of the app
+so
+this is probably an advanced feature
+that may take some time to build but to
+the extent they can keep this in the app
+then I think it would actually help them
+a lot if you're an early stage company
+you probably don't want to implement
+in-app navigation yet so good call but
+it is nice yeah
+Okay so
+another color point you can see again
+the sort of basic colors that are used
+here start charging it's very clear that
+that's the main CTA but it's using the
+same color as the route button which is
+a little bit confusing if route is the
+secondary action on the screen I might
+give it a neutral gray color yep again
+you don't want to get too caught up with
+colors they're kind of the icing on the
+design cake but they're a quick win yep
+okay well I guess one of the important
+things to think about here is like what
+is the next step that somebody wants to
+take right so like we're looking to
+charge we found we found one that's
+available great so now we go in here
+next step is we're probably going to
+want to map to it if we're not familiar
+uh with where exactly we're going or
+where exactly it's located so we'll
+route it the flow now is we're going to
+another app and so once I get there then
+I think I gotta come back into the app
+to then hit the charge like start
+charging button in order to actually
+start charging so that's a little bit of
+a complicated flow
+I would say maybe Blue Dot has done this
+but just getting in the car with one
+potential customer and putting your app
+on their phone and mounting it on their
+dashboard and just running through the
+situation would reveal a lot of these
+small things that you could do to
+improve so if you are building a mobile
+app just get it into users hands as
+quickly as possible and ask them to use
+it and just write down where they trip
+up yep overall it's a nice interaction
+to quickly jump in and find stations
+nearby we'd love to see which ones are
+more available than others and a little
+bit of user testing and some color
+theory could go a long way to make this
+app really shine awesome thank you Blue
+Dot it's great
+all right next app we're going to take a
+look at is duffel which is quick snack
+delivery for college students on college
+campuses so let's check it out all right
+what are we seeing here David well I'm
+hungry and I need some quick snacks
+because I'm a college student so you've
+come to the right place I'm very busy
+the design is a little bit eccentric
+it's very Orange it's it's got a lot of
+orange which is fine the the pictures of
+the food a little small if you're going
+to do just a two column layout and
+you're showing hungry people sugar and
+carbohydrates that they can buy you want
+to make them a little bit bigger the
+plus it's kind of just getting lost in
+the composition but it's a looks like a
+fun app there's this weird sidebar down
+the side with Emoji it looks like it's
+quick access if I need a kiwi or a Ramen
+I can just get it in one tap it's kind
+of exciting yeah I've never really seen
+a UI like this with like I've seen it
+with the letters right like in the
+contacts app where it has all the
+letters that you can quickly scroll to I
+haven't really seen that as a as images
+before there's a strange loading
+indicator oh we missed it that time it
+was sort of a shimmering effect yeah
+that's that's a bit unusual it's a bit
+it's a bit kooky that can make sense it
+depends who the app is for if your app
+is for college students who are slamming
+Red Bulls and working all night
+um you can totally get away with a more
+eccentric and fun design
+this is interesting because
+these sections seem pretty long
+you have to scroll pretty far which I
+guess is why they added this UI on the
+right hand side to be able to quickly
+get somewhere let's get two red bulls
+and two ramens and a Swedish fish okay
+I am not sure okay drinks there's a lot
+of drinks in here
+maybe I should serve there's a Red Bull
+on the side come on there's a shortcut
+for that
+It's gotta be here okay this ties back
+to an earlier point if you have a call
+to action that shows a preview of some
+content like the food that you're about
+to order when you tap on that you really
+want the user to see the thing they just
+tapped on it's very disorienting to to
+tap on something to get it and not get
+it
+all right I'm doing the Plus on Red Bull
+okay and what else one more Red Bull one
+more Red Bull and then let's just get
+Swedish Fish Swedish Fish I don't see a
+picture okay we gotta search we gotta
+search okay
+Swedish
+there we go add it to bag all right
+we'll add it to our bag here
+that took a little bit and there wasn't
+a confirmation it was added so I'm
+unclear if it was actually added to our
+bag okay we have three items though so I
+think we're good
+all right view bag you'll rank up to
+duffel gamification I like that we're
+getting some some rewards here and here
+we go how it works order duffel rank up
+find hidden duffel cash here's a a
+subtle point that we can make about
+design the secondary text for these is
+way too light yep you want more contrast
+it doesn't hurt to make the text more
+legible make it darker
+now it's taking me to start playing
+which I'm a little worried about because
+I was about to give them some money and
+now I'm about to go down a rabbit hole
+of playing a game so let's hit start
+playing
+oh yeah just takes me back so maybe
+that's just a weird CTA it should just
+be like close or got it or something
+like that
+okay so we got our items
+promo code
+subtotal your total could be
+why
+another game okay duffel pass now you're
+upselling me duffel pass
+so I imagine
+as a customer I'd want to complete one
+successful duffel order first before I
+get involved in rewards programs so
+that's something you have to balance
+like incentivizing people to
+go deeper into the gamification and just
+making them successful for the first
+time I think we're hitting a few too
+many interaction roadblocks yeah here we
+were we were ready to buy our three
+things and we keep getting distracted on
+these side quests so if other things
+that are taking us away from giving them
+money you also have to know your user if
+you have distracted hungry college
+students got to make it even more
+obvious
+that's a great point Yeah you mentioned
+this earlier around the context that
+these apps are going to be used is
+really important and that was a great
+point with
+um Blue Dot earlier that they should go
+and watch people actually use it if they
+have not I would assume they have same
+goes for duffel all right so what high
+level
+feedback do we have for duffel here
+I think you want to simplify the
+interface a little bit I think we had
+some trouble navigating this very
+Innovative Emoji quick link sidebar
+usually I see those as a few standard
+categories at the top like an Airbnb you
+say do you want to stay at beaches or in
+the mountains here energy drinks chips
+candy you know what are what are the
+core categories distill that down and I
+would just make the interface a little
+bit more regular
+I actually had some anxiety when you
+were like we're gonna get two red bulls
+and Swedish Fish and I was kind of like
+oh my gosh there's so much going on here
+how do I find that and scrolling made me
+feel like I was going to be scrolling
+forever to try to find it
+um so yes I agree with that simplifying
+making the categories more obvious and
+maybe making search more prominent too
+if people know exactly what they're
+looking for awesome thank you duffel
+next up we have bold voice which is
+Hollywood coaches and AI feedback to
+improve your English so let's take a
+look
+all right let's go through the
+onboarding on this one might be
+interesting to see I'm your accent coach
+Eliza what's your name
+I am Aaron
+nice to meet you and what's your native
+language since
+um this is for learning English let's go
+ahead and pick Spanish as my native
+language what is your motivation for
+starting your yeah I want to skip this
+because also how did you hear about it I
+don't know like just let me get into the
+thing Facebook don't do market research
+right at the oh no okay got a referral
+cut now next all right now we're in so
+probably half those steps could have
+been removed to get us in Faster it's
+really tempting to ask your users
+questions when they first sign up
+because that data is so valuable but if
+you ask them too many you're going to
+lose them yeah we are motivated users to
+get in here
+um okay let's see how your free trial
+works
+today I get full access day six day
+seven subscription starts okay
+let's try it for free
+for our first lesson we will cover the
+letter A we're going letter by letter
+here
+tap the next button to begin
+I am noticing a change in quality of the
+design from the onboarding to the actual
+app
+so the onboarding was very clear it was
+a little bit too long but there were
+there was a big CTA on the screen it was
+easy to interact with and the elements
+were really large and now we have these
+kind of itty bitty elements I don't
+understand this multilingual icon to the
+left of uh this es indicating that this
+is Spanish I'm a Spanish speaker you
+don't have to tell me that these words
+are Spanish it's a little bit strange
+the design here yep and I think the most
+important interaction on the screen is
+probably to hear the H sound which we
+get to by pressing the audio icon which
+again it's a dark icon on a dark
+background it's very subtle if that's
+the main interaction yep how does it
+know if we did well okay here we go now
+TAP mic the H is pronounced like the
+Spanish hota say the word below and use
+the breathy
+sound
+honey
+let's listen great job let's keep going
+very good okay
+okay all right so they're giving more
+examples okay so it seems like the
+format is give an example of the sound
+and then ask the person to say it
+this little indicator is good because
+it's calling out what I should be
+touching
+let's try to not say the H sound and see
+what happens okay
+eight
+ah all right that's pretty good oh
+there's a it has a book for you there's
+some lesson
+all right so it's teaching me something
+as I go here the definition
+all right there so we reach the end 76
+what we did well what we didn't do well
+we can bookmark the one we want to come
+back to and practice later
+and we want to start great this is more
+of a game than a
+a business app or an ordering app it's a
+custom design it's kind of free form
+with special purpose elements it is more
+challenging to design something like
+this and I think that there's there's
+definitely a lot of room for polish and
+finesse but we got the idea we got
+through it yeah yeah we figured it out
+and I think something that's interesting
+that I'm just noticing here is we're
+dropped on this for you home page which
+it probably would have been tempting to
+make our default start page when we
+first open the app and they actually
+made the choice to not do that and
+instead just get us right into a lesson
+which I think is smart I thought it was
+great bold voice thank you great job all
+right next up we have Eden care which
+manages group Healthcare in Africa so
+let's take a look okay looks like a nice
+contemporary app I'm noticing that I
+think again this might be a web app and
+it might not be native what's the clue
+that gives it away for you well the
+first thing for me uh one was the launch
+sequence
+so if you want to show that again by
+quitting the app
+we had a black screen and then a
+different screen and then a loading and
+then again
+asynchronous content load so we had like
+four loading there were four different
+transitions there
+um but then inside the app the thing
+that tips me off I don't believe in the
+native iOS toolbar at the bottom that
+you can have wrapping tab names see how
+health and wellness is split across two
+lines this is just a simple thing also
+those icons are a little bit
+non-standard and The Strokes are too
+thin you want the names of the tabs in
+your app which are the primary areas of
+interaction to be simple short words
+health and wellness I might just call
+that health
+find care
+I also don't see why fine care couldn't
+just all be on one line yeah I think
+there's a some sort of margin issue in
+the distribution of these that's that's
+another good point yep
+but that's okay your app doesn't have to
+be a native app but sometimes it will
+cause you to make strange interaction
+choices that will frustrate people on
+mobile yep
+okay so let's see steps you took today
+okay so it's like a step counter we got
+here at the top
+quick actions
+it's also interesting if this is for
+finding a facility or booking
+teletherapy or booking telemedicine or
+whatever that a step counter would even
+be the primary thing that you would want
+to show people at least it's some data
+it's interactive let's I think the
+primary thing that you do in this app is
+you find care
+um so let's go to the find care Tab and
+let's get some care okay
+find a medical practitioner okay
+so it loaded some suggestions is that
+what just happened it looks like it okay
+NBC coming up
+and it just gives me an address
+I'm not sure what I'm supposed to do
+with that and the trading hours which I
+assume means the hours that they're open
+do not appear to be correct very brief
+okay
+I think the find care section of this
+app is work in progress so maybe we can
+try a different interaction
+let's go back to home
+should we let's book some telemedics
+yeah
+I think my high level reaction to this
+and the tab that we were on previously
+is a lot of this just feels like a text
+dump it feels like things were just kind
+of thrown in there without too much
+thought or care
+um and it's a little overwhelming with
+all the text that we have in here so far
+I would characterize this app as a
+website masquerading as an app it's kind
+of it it's information dense there's
+search there's useful information about
+getting care but the actual interactions
+to do these things are only described
+Yep they're not actually available to us
+usually in a mobile app you have special
+functionality you can't accomplish
+easily on a website like having your own
+profile and signing in
+um it's obviously a Continuum there are
+websites that have more features than
+mobile apps and mobile apps that have
+fewer features than websites but usually
+if your app is just about content
+and doesn't have very many interactions
+it's often better off as a website yep
+and one of the benefits here you know
+with the mobile app is you can get
+somebody's location so you can show them
+maybe hospitals that are near them if
+they need to go somewhere seems like
+maybe the focus here is on telemedicine
+things like that helping people to take
+actions I think is ultimately the goal
+of the app and this feels a little bit
+more like a brochure than a nap I think
+all right let's go back is there
+anything
+we can do here book teletherapy okay
+book
+okay dates all right let's say tomorrow
+let's pick a time
+seems like we're losing some taps
+so you want to make sure that anything
+that users are tapping in your app
+responds immediately and just take Extra
+Care responding after a second is almost
+as bad as not responding at all okay
+seems like this is work in progress I
+like the concept it's a little bit uh
+needs some more actions available to the
+user yeah seems like a super valuable
+product
+um but maybe spending more time watching
+somebody actually use it and go through
+with it you may find that there's more
+actions they can embed directly in the
+app here to make it even easier for
+people to get the care they need all
+right great thank you Eden care I
+appreciate it thank you all right that
+does it for this episode David thank you
+so much for joining us it's awesome
+having you cheers and thank you to all
+the founders who submitted your apps for
+review help us out by letting us know in
+the comments if there were any tips or
+reviews that you found useful it'll
+definitely help us shape future reviews
+that we filmed here all right thanks for
+watching and we'll see you on the next
+design review
+[Music]

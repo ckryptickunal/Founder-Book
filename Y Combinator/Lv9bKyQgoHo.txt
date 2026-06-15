@@ -1,0 +1,187 @@
+Title: Why OpenAI's o1 Is A Huge Deal | YC Decoded
+Video ID: Lv9bKyQgoHo
+URL: https://www.youtube.com/watch?v=Lv9bKyQgoHo
+Channel: Y Combinator
+Published: 2024-10-25T14:00:22Z
+Duration: PT7M7S
+Views: 41294
+Likes: 964
+Tags: YC, Y Combinator, OpenAI, Sam Altman, GPT4, o1, o1 mini, o1 preview, ChatGPT
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 158
+
+Description:
+OpenAI’s newest model, o1, makes huge leaps forward in domains like mathematics and coding and scores big on many of the toughest benchmarks. The secret to its success? It represents an entirely new class of models designed to reason or “think through” complex problems.
+
+For the very first episode of YC Decoded, we took a look inside.
+
+Chapters (Powered by https://bit.ly/chapterme-yc) - 
+00:00 - Intro
+00:30 - o1 preview and o1 mini
+01:40 - Chain of Thought reasoning.
+03:50 - Reasoning
+05:05 - o1
+
+============================================================
+TRANSCRIPT
+============================================================
+
+open ai's newest model is finally here
+it's called 01 and it's much better for
+questions around mathematics and coding
+and scores big on many of the toughest
+benchmarks out there so what's the
+secret to why it works let's take a look
+[Music]
+inside opening ey recently released two
+brand new models 01 preview and 01 mini
+these are the models that Sam Al has
+been hinting at for months the ones
+previously codenamed qar and
+strawberry together they represent an
+entirely new class of models that are
+designed to reason or think through
+complex problems o1 really is the first
+system that can do pretty Advanced
+reasoning um you know if you give it a
+difficult programming challenge or a
+difficult math problem difficult science
+thing you need help with uh you can
+really get pretty extraordinary results
+it performs similarly to PhD students on
+challenging Benchmark tasks in areas
+like physics chemistry and biology and
+excels in math and coding it's worth
+noting that when compared to GPT 40
+users don't always prefer 01 for more
+informal subjective tasks like creative
+writing or editing text this is likely a
+result of the very unique way in which
+open AI trained 01 it's fair to say that
+01 preview and 01 mini amount to to an
+entirely new kind of llm if 01 is
+reasoning the question is how similar to
+how humans work through a complex
+problem it makes use of a chain of
+thought process to break down the
+question into smaller steps many of us
+have already used such a strategy when
+prompting earlier models like GPT 40
+telling it think step by step or take a
+breath and go line by line it'll work
+through the step recognize its own
+mistakes tries to correct it tries
+different strategies and fine-tunes its
+approach as needed in other words it's
+not just spitting out answers it's
+working through problems in a way that
+mirrors human reasoning now people were
+already doing this since we already had
+a term for it chain of thoughts which
+came out in 2022 by Google brain
+researchers here's an example of chain
+of thoughts direct from the paper John
+has one pizza cut into eight equal
+slices JN eats three slices and his
+friend eats two slices how many slices
+are left chain of thoughts will break
+this down first you'd ask it to identify
+the total number of slices the pizza is
+cut into eight equal slices then to
+calculate the number of slices eaten by
+JN and his friend John eats three slices
+and his friends eat two SLI finally
+subtract the total number of slices
+eaten from the original number of slices
+to find out how many are left that's
+three slices without chain of thoughts
+breaking it down into steps llms would
+just try to predict the most likely
+token and in any given request there
+often would be just not enough
+context if lots of people were already
+using manual chain of thoughts how
+exactly did open aai approach this they
+haven't said much but here's a good
+guess their AI researchers have said no
+amount of prompt engineering on GPT 40
+could get it to rival the abilities of
+01 instead the new model was trained in
+an entirely novel fashion via
+reinforcement learning this is a type of
+ml that allows a model to learn by trial
+and error from its own actions often
+using rewards and punishments as signal
+for positive and negative behavior
+instead of only training on human
+written chains of thought open AI
+trained 01 further with large scale
+reinforcement learning this means they
+allowed it to generate its own synthetic
+chains of thought that emulate human
+reasoning these chain of thoughts are
+judged by the reward model and then used
+to train and fine-tune it more and more
+over time open AI has found 01
+consistently improves with more
+reinforcement learning and with more
+time spent thinking what this means is
+not only can the base model continue to
+improve with further training but that
+in production when you the user ask 01 a
+complex problem the longer it is allowed
+to think the more compute open AI is
+able to use to do so and the more
+accurate its response is going to be
+does this mean that 01 will only keep
+improving well
+yes we know the unreleased versions of
+01 are still
+evolving 01 preview has been described
+as an early version of the fully baked
+model which can hopefully expect to be
+released in the coming weeks or months a
+few weissy startups have already
+received Early Access and the results
+for them have been nothing short of
+Staggering in fact recently published
+research proved that by using Chain of
+Thought an llm can essentially solve any
+inherently serial problem this means the
+sky truly is the limit for this series
+of models with enough compute resources
+according to samman we can definitely
+expect rapid Improvement in these models
+over time given these inference time
+scaling laws Sam compared the current 01
+models to being at the gpt2 stage
+hinting that we likely see a leap to the
+gp4 stage within a few years so is 01
+actually reasoning without getting too
+philosophical we think it is fair to say
+yes it is 01 tackles complex problems
+that require Planning by generating its
+own sequence of intermediate steps
+working through them and often but not
+always arriving at a correct answer
+perhaps it is more accurate to say that
+01 marks a shift from models that
+memorize the answers to ones that
+memorize the reasoning of course o still
+needs work it hallucinates occasionally
+forgets details and struggles with
+problems that fall out of distribution
+like all models its results can be
+improved a bit with better prompt
+engineering especially prompts that
+outline edge cases or guide its
+reasoning style so what's next according
+to open ai's own researchers the company
+has some exciting updates planned
+including support for additional tools
+such as code interpreter and browsing
+longer context windows and eventually
+even multimodality the only real
+question that remains is what will you
+build with o1

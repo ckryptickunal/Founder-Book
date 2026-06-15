@@ -1,0 +1,460 @@
+Title: Lightning Talk with Wharton's Leon Musolff
+Video ID: F-Y4hDX4nmY
+URL: https://www.youtube.com/watch?v=F-Y4hDX4nmY
+Channel: YC Root Access
+Published: 2025-04-24T18:02:05Z
+Duration: PT15M12S
+Views: 268
+Likes: 6
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 444
+
+============================================================
+TRANSCRIPT
+============================================================
+
+All right, a little bit of a challenge.
+Excellent. Well, thank you so much for
+having me. I'm excited to tell you about
+sources of market power in web search
+evidence from a field experiment. And
+this project is joint work with Hunt,
+Juan, Camilo, Castillo, Matt Ganskow,
+and Tobia Saltz. Now, I don't think I
+need to remind anyone in the room about
+the most salient fact about the web
+search market, which is that Google
+absolutely dominates web search, right?
+such a high and stable market share
+naturally has attracted the attention of
+regulators across the globe. In the US
+specifically, the DOJ just recently won
+a court case against Google uh with the
+judge concluding that Google has
+illegally maintained its monopoly. And
+one of the facts that was mentioned
+during that trial is that Google pays
+around $26 billion a year um in payments
+to remain or become the default search
+engine on various devices. Now against
+this backdrop in this paper we want to
+ask and answer two key research
+questions. The first one is why is
+Google's market share so high? There are
+a couple of possible explanations. It
+could be that Google is simply the
+better search engine. But even then you
+might wonder is this just because they
+have access to more data. It could also
+be that consumers misperceive the
+quality of Google's competition perhaps
+because they've never even sent a single
+search query on duck.go Bing or Eosia.
+Finally, uh, with figures such as $26
+billion floating around, it's natural to
+think that default effects may play a
+role in influencing market
+outcomes. The second key question we
+want to ask and answer in this research
+project is that of the effects of
+various potential levels of competition
+policy or various remedies, right? You
+might imagine introducing active choice
+screens just like uh they did in the
+European Union for Android devices. You
+could imagine banning Google from paying
+for the default position, effectively
+switching that default to be Bing or
+some other search engine. And finally,
+you could imagine requiring Google to
+share data with its competitors. Now, in
+this project, we develop a model of
+consumer search engine choice that
+inspires us to design a field experiment
+that's carefully crafted to empirically
+uh assess the various sources of market
+power. We combine that with
+observational click and query data from
+Microsoft Bing and uh all of these tools
+together allow us to run these
+counterfactuals and predict what would
+market shares be under these various
+policies. Now today's talk is very short
+so I'm going to sort of mostly focus on
+the field experiment and the
+counterfactuals here. Having said that I
+need to give you a very quick summary of
+how we think about the situation.
+Essentially, we think look, there are
+going to be consumers that are choosing
+between Bing and Google. But the first
+important thing is not all consumers
+wake up every single morning and think,
+do I want to use Bing today for my
+searches or Google today for my
+searches? Right? Some consumers are
+attentive in any given moment and others
+are not attentive. And it's going to be
+important for us to identify how many
+consumers are actually attentive in that
+they're choosing the option that
+maximizes their welfare. Secondly, if
+you want to switch your search engine,
+you need to navigate the various menus.
+You're going to incur some sort of
+switching cost. Thirdly, you might be
+misinformed about the quality of search
+engines that you have never used before.
+Right? Search engines are experience
+goods. So, if you've never used Bing
+before, you might be underestimating its
+quality. Now, importantly, might be,
+right? We'll want to estimate whether
+you actually are. And then, finally,
+just to flag, uh I know in the real
+world, search engines sadly don't pay
+you to search. In our experiment, of
+course, we are going to pay people to
+search just so that we can identify
+price sensitivity and so I can tell you
+something about consumer welfare. All
+right. What is this experiment I keep
+talking about? Well, uh about a year
+ago, we recruited 2,400 people online
+and these were us adults using a desktop
+computer and we asked them the standard
+sort of battery of survey questions and
+so on. But then also crucially, we had
+them install our browser extension. Now,
+our browser extension does not have as
+uh you know, wonderful a name as all of
+these tech demos we heard before. I'm
+never going to be part of why I
+combinated with it. It's simply called
+search
+extension. Search extension is a
+beautiful tool though because it is
+essentially a little snitch. It will
+tell me what search engine you used on
+any given day. Looking even back in the
+past by utilizing your browser history.
+So, for all of these people that we
+recruited, we could track what search
+engines they used. That was important
+because now we were going to randomize
+them into various treatments and we
+wanted to see how did their search
+engine usage respond to our treatments.
+Now what were these treatments? Well,
+there's got to be a control group.
+That's boring. We didn't do anything
+with them. More interestingly, there's
+an active choice group that's sort of
+meant to mimic the choice screen, right?
+We're going to ask you what's your
+preferred default search engine? And
+then we're going to walk you through
+implementing it. And you can't avoid
+that. We're going to verify that you
+actually made it to that choice screen.
+The next group is a switch bonus group.
+Here, these are people that were
+actually going to pay some money, $1,
+$10, or $25 to switch their searches for
+14 days. So, if they previously used
+Google, they're now going to have to use
+Bing for the next 14 days and vice
+versa. After 14 days, this group is
+going to make another active choice like
+in a choice screen scenario so that we
+can get some sense of how their
+preferences have changed. And then
+finally there's this default change
+group where we pay them a bunch of money
+to just very briefly change the default
+search engine. But the trick is we never
+remind them of this again. So we can see
+sort of you know how sticky is that
+default. So this is the experiment
+timeline. These are all our various
+treatments. And the important thing to
+note is just we have data from day minus
+20 to day 56. So this is actually quite
+a long study. We see real behavior for a
+long period of time. How are we going to
+uh use this study to learn about these
+various sources of market power? Well,
+I'm going to explain it using this graph
+where I'm showing you Bing's market
+share amongst baseline Google users. So,
+these are people that came into the
+experiment using Google and I'm showing
+you the Bing market share over time. In
+the control group, you would hope it
+doesn't move. By the way, this is
+stylized data. I'm not yet showing you
+data. This is just to get a sense. We're
+going to get to data in a second. Now,
+in the active choice group, we would
+expect that on day zero, when they're
+making this active choice, when they get
+this choice screen, essentially, they're
+going to make a choice that's going to
+reveal their true preferences, right?
+So, if they think Bing and Google are
+actually about equally good, then we're
+going to have pretty high Bing market
+share here. Otherwise, we might have
+pretty low Bing market share. That's
+also going to tell us about the extent
+of switching costs and permanent in
+attention. These sort of frictions that
+might hold you back from choosing your
+true default. Um, if you aren't reminded
+about it, then we're going to have that
+switch bonus group. In the first 14
+days, we're paying them money. So, we're
+going to be able to find out, you know,
+to what extent do they value being with
+their current search engine over that
+alternative, their price sensitivity, in
+other words. But then most interestingly
+on day 15, the switch bonus group is
+just like the active choice group only
+that they had an additional 14 days of
+experience of Bing. So any market share
+difference between that orange line and
+that light blue line must be because
+they learned something about Bing. It
+must be because they learned about
+Bing's quality. And then finally we have
+that default change group where we can
+just see where does it sort of asmtote
+to that final market share difference
+between the dark blue line and the
+orange line will tell us how much people
+are influenced by defaults. So let's
+actually look at this in data. Right?
+This is the same graph. Now I'm just
+showing you data. Okay. Control group
+nothing much happened. No revelation
+there. The active choice group also
+nothing much happened. That's already
+very interesting, right? It tells us
+that if you just gave people a choice
+screen, basically they would just choose
+Google, right? So, as a remedy, I think
+that's almost immediately out of the
+picture if you're thinking, well, I
+really want to change Google's market
+shares. Now, another thing that this
+tells us is it can't be that these
+default positions are massively helping
+Google out in the following sense. Uh if
+the default, you know, if everyone made
+an active choice, they would be choosing
+something else. We're seeing they
+wouldn't be choosing something else. So,
+it's not just the default that matters.
+What else could matter here? Well, let
+me show you here this orange line, the
+switch bonus group. Remember, these are
+people that are being paid between day
+zero and 14 to use Bing. And good news
+for me as an economics professor, you
+know, when you pay people to do
+something, they do more of it. That's
+good. I teach that every day, you know,
+to my MBAs. So that works out. But now
+the interesting question is on day 15,
+as they make another choice, now an
+unincentivized choice, what actually
+happens? And what we see is yes, Bing's
+market share goes down again. Of course,
+we're not paying them anymore, but it
+actually doesn't crater down all the way
+to the light blue line. Rather, it stays
+elevated. It settles down at about 22%.
+So in other words, this additional 14
+days of experience with Bing really
+convinced some of these people to stick
+with Bing. And that can only work if you
+have misperceptions of quality. You got
+to either learn about the quality of
+Bing or learn how to use Bing. And I
+tell you a bit more about that learning
+in a second. Just before then, I wanted
+to show you also that defaults do matter
+in the following sense. If I defaulted
+everyone into Bing, a bunch of people
+would stick stick with Bing, right? this
+dark blue line it basically stable at
+the end of the day. These are people
+that we defaulted into Bing and
+initially they switch you know there are
+some clever people that switch out very
+quickly and the others they just never
+change. All right so let me tell you a
+little bit more about this learning in
+the switch bonus group. We actually
+asked people who we uh um the people who
+switched we asked them before the switch
+and after the switch you know how do you
+feel about Google versus Bing? Everyone
+agrees Google is better before the
+switch. After the switch, everyone still
+agrees Google is better, but their
+opinions have somewhat mellowed. And
+importantly, uh, we also asked them just
+for free form text responses. This is
+from people in that orange line at the
+end who stayed with Bing. And my
+favorite free form text response right
+at the bottom here, I realized Bing was
+not as bad as I thought it was. If I
+needed to summarize the paper in one
+line, it would be that line. I realized
+Bing was not as bad as I thought it was.
+All right, but moving swiftly on, we
+have some numbers on this, not so
+important. Moving swiftly on, I think
+this is interesting. This is how much
+you uh pay people versus their Bing
+market share. And these are payments for
+every two weeks, right? So even if you
+pay just $1 every two weeks, then you
+get a Bing market share of 32%. If you
+pay $25, you get a Bing market share of
+three quarters in our sample. So in
+other words, you know, there is a bunch
+of people who don't have very strong
+preferences. They prefer Google, but not
+by a lot. And then there are some people
+who have extremely strong preferences.
+$25 for two weeks, that's a lot of money
+relative to what search engines make in
+advertising. So these are people with
+extremely strong preferences. It's going
+to be important that they're not
+defaulted into the wrong search engine.
+All right, putting all of this together,
+let me do counterfactuals. Uh quick
+recap how we think of counterfactuals in
+my field of economics. You know, we have
+all of this knowledge about how markets
+operate. We use that to discipline some
+estimates. Those estimates come from the
+data that I just showed you. And so
+there is a model going on in the
+background and there are some modeling
+assumptions and for sure we could
+quibble about those. Right? In the
+interest of time, I'm not going to go
+into detail here. Please come find me if
+you want to quibble about them. I'd be
+very interested. Um, but let me just
+tell you about these counterfactuals.
+Okay, we got to start with a status quo.
+In the status quo, based on our market
+definition, Google's market share is
+around 89%. We are indexing mostly on
+desktop here. Now, what's going to
+happen if we take away these frictions?
+the switching cost and attention
+misperceptions. Well, the efficient
+Google market share that is the market
+share that would obtain in the absence
+of these frictions is 74%. Two things
+are important about this. One, this is a
+very large number, right? Google is a
+great product at least as judged by
+revealed preference. So, if we go with
+traditional economics approaches of
+judging by revealed preference, loads of
+people should be using Google. However,
+second point, that market share is a lot
+less than 89%. In particular, if you
+invert it, right, in the efficient state
+of the world, Bing's market share has
+doubled. So, that difference is the
+difference that you could potentially
+get with remedies. What sort of remedies
+are on offer? Well, you could do a
+choice screen. The problem with a choice
+screen is it fixes the inattention, but
+it doesn't fix the misperception. People
+won't have experienced Bing when they
+make their choice on the choice screen.
+And so that means you can barely move
+Google's market share, only like one
+percentage point. We're very happy with
+this result, by the way, because that is
+what happened in the European Union. So
+we know that the model isn't making
+crazy predictions here. Now, what else
+could you do if you only could get
+people to somehow have correct
+perceptions of these alternative search
+engines? That would be great, right?
+You're really moving the market share
+here. But that's going to be a hard
+policy to pass as a remedy. What could
+you do? Well, you could ban Google's
+payment to be the default. If you do
+that, you're really going to crater a
+Google's market share. So, maybe that's
+good news. But then, this is really bad
+news. This is the only large welfare
+number we have. If you're defaulting
+people into non- Googlele search
+engines, a lot of them are going to
+stick with it, including people who
+really hate those other search engines.
+So, you're going to really destroy a lot
+of consumer surplus. So, we are saying
+this policy, our model says, is really
+bad. How can you rescue it? You can
+rescue it by adding a delayed choice
+screen. If you add a choice screen sort
+of two weeks in, three weeks in after
+they have been defaulted into Bing, they
+now have that choice screen to, you
+know, rescue the people who just
+followed blindly followed the default
+and never thought about what search
+engine they wanted and the moment they
+think about it, they're like, actually,
+I want Google. So that delayed choice
+screen could really both lower market
+shares and leave consumer surplus
+unharmed. All right. And with that, I
+should conclude. This is some extra
+counterfactuals that just show you
+returns to scale. The data economies we
+find don't really matter. Happy to talk
+more about that offline. But let me
+conclude here. The key takeaways.
+Defaults are extremely effective in that
+about a third of users are permanently
+inattentive. And they also prevent users
+from learning about other search
+engines. How can regulators reduce
+Google's market share? Well, what we
+find is that choice screens really are
+not going to work. Changing the default
+does, but it comes with a large decrease
+in consumer surplus. So you need to
+combine the change default with uh
+another choice screen that comes sort of
+later on. That is just one way that you
+could design a policy that respects both
+user choice and the fact that search
+engines are experience goods. So people
+need to get experience before making
+their choice. And there are several
+caveats for this study as with any
+empirical study. I'm just going to leave
+that up. Thank you so much for your time
+and please come see me if you have any
+questions. Thank you.

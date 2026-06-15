@@ -1,0 +1,1102 @@
+Title: Spotting Ecommerce Trends in Shipping Data - Laura Behrens Wu
+Video ID: 9DXMc0y6eDE
+URL: https://www.youtube.com/watch?v=9DXMc0y6eDE
+Channel: Y Combinator
+Published: 2017-09-04T14:28:04Z
+Duration: PT43M11S
+Views: 22847
+Likes: 456
+Tags: YC, Y Combinator, Laura Behrens Wu, Craig Cannon, Podcast, Interview, Shippo, Female Founder, Tech, Startup
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 1078
+
+Description:
+Laura Behrens Wu is the CEO and cofounder of Shippo - https://twitter.com/LauraBehrensWu
+
+https://goshippo.com/
+
+YC's podcast is hosted by Craig Cannon - http://twitter.com/craigcannon
+
+============================================================
+TRANSCRIPT
+============================================================
+
+how about we just start with a quick
+intro cool yeah thanks for having me my
+name is Laura I run a company called
+Shippo we power shipping for e-commerce
+what that means is we connect our
+customers who are ecommerce stores
+platforms and marketplaces to a network
+of different shipping providers then we
+help them figure out which provider to
+use for which one of their packages the
+reason why people care about shipping
+today is that shipping directly affects
+conversion rates so it's no longer just
+a means to an end
+to get your item from A to B ecommerce
+stores they needed to be able to convert
+their customers because customers are
+expecting free and fast shipping
+Amazon Prime has taught them that and
+whenever they see shipping rates at
+checkout that are unexpected or too high
+they drop off and they go to Amazon to
+try to find the same things okay and so
+how does your customer interact with
+shippo exactly so it's an API it's a
+restful api that they can integrate
+either they integrate the API or they
+use the dashboard that we've built on
+top of the API both works if you
+integrate the API there's more
+flexibility you can do more with that
+SMEs that are just getting started that
+don't have developers inhales they
+typically just use the out-of-the-box
+dash dash board solution okay and so
+what's a what's a normal customer of
+yours like like what do they make what
+do they sell so a normal customer of
+ours they're an e-commerce store that's
+they sell products that are
+differentiated they have their own brand
+they don't want to sell their products
+on Amazon they want to own their own
+brand experience sell through their own
+ecommerce store and ship typically
+either out of their own workshops or
+their own or a warehouse a 3pl that
+takes care of shipping for them okay and
+so what's a 3pl for people a third-party
+logistics provider okay and did you know
+anything about this stuff before 2013
+when you guys started I do not Anna like
+I would never have imagined that I now
+know all of these things it yeah it's
+been crazy I started this as like a
+complete logistics noop and I got into
+e-commerce by pure chance when trying to
+built an e-commerce store on the site
+together with my co-founder Simon we
+built an e-commerce store using Shopify
+it was
+a really easy solution and it was just a
+fun thing to do on the side and then
+when we try to integrate or connect with
+different shipping providers we realized
+that the technology experience provided
+by shipping providers was just so
+different compared to the technology
+experience provided by Shopify or stripe
+like we the the shipping providers
+aren't tech companies so they're API
+documentation Zarn is great great and
+intuitive if you have to be a logistics
+expert to be able to read the
+documentation sometimes you have to
+request API access or it's a soap API it
+was just strange to us that everything's
+been solved except for the shipping
+component and it is a frustrating
+experience so we were like why is there
+nothing comparable to Twilio or stripe
+in the shipping industry let's give that
+a try and were there other like kind of
+critical understandings that you didn't
+quite get in the beginning that now are
+like obvious as integral to running a
+shipping company yes we were learning on
+the job I mean we didn't know anything
+about shipping back then and we tried to
+solve shipping from the customer
+perspective and I think that was a good
+perspective to have so we weren't
+influenced by the restrictions coming
+from a shipping industry we're able to
+look at it from the perspective of this
+is how an ecommerce store wants it to be
+and this is what modern technology looks
+like let's build it like that I would
+say like we back then I'd say
+underestimated just how different the
+different shipping providers are there
+like there is no standard across
+different shipping providers not in
+terms of pricing not in terms of
+Technology they're all totally different
+and building that layer of abstraction
+on top was harder than expected but
+that's now also a great competitive
+advantage job ok because who are your
+competitors right now so there are a
+couple of incumbents out there like
+stamps indicia Pitney Bowes yeah and
+then there is another company in this
+space called EZ post like that we would
+consider them our main competitors or
+the most comparable companies
+okay gotcha so as I was listening to a
+bunch of the the podcast interview done
+before I've heard you talk about many of
+the same things because you know like
+it's obvious that you want to talk about
+chipping in you're excited I'm super
+excited I one of the questions I kind of
+wanted to start off with then is like
+what are you passionate about that you
+don't get asked about a lot oh that's a
+great question so I think what I would
+like to do more of is traveling running
+and reading okay there is not that much
+to say about all these things yourself
+like okay wait when I go travel I think
+leaving the valley as soon as I leave
+the valley I'm able to see or look at
+things from a different perspective I'm
+not in the nitty-gritty details anymore
+I don't really care about how it's being
+done operationally I can think about the
+big picture and come back with great
+ideas and then also just look at how
+people like last year traveled to a
+wedding in in the UK and there was no
+cell reception in like that little
+village where the wedding was people
+were still living there they didn't care
+like people were helps me realize how
+things here in the valley are just not
+think they're not normal and they are
+maybe solving the problem for a small
+amount of the population but that's not
+how everyone thinks out there mm-hmm
+yeah and we for sure want to build
+solutions that are for more people than
+just people living in the valley
+yeah because you guys are I mean if
+you're selling to small businesses right
+that are like trying to differentiate
+themselves and not go and Amazon how do
+you reach out to them if they're not
+necessarily even that technical yeah so
+I would say like small businesses is one
+area that we're selling into we're also
+selling into platforms and marketplaces
+and then anyone who wants to compete
+with Amazon it can also be a bigger
+business one of our customers for
+instance this ebay that's on the
+marketplace side but we've learned that
+it's really hard to sell someone a
+shipping solution if they're not looking
+like it's not it's not something that
+other people are passionate about right
+so we typically it's more an insight
+sales process when people are looking
+when something is wrong something's
+broken too expensive
+shipping is vital enough that they do
+pretty thorough research and then they
+will find us at some point and when they
+find us we want to capture them at their
+intent and make sure that they're
+finding what they want to find so like
+having the right keywords having the
+right landing pages and just handing
+them exactly what they're looking for
+but we like it's it's really difficult
+to get someone excited about shipping
+when it's not a need okay so before we
+started you were talking about people
+you know like basically connecting all
+these things together now what are your
+thoughts on that I mean you said it
+wasn't a fully formed idea yeah but like
+yeah weird what do you think no what I
+was thinking is like it's easier than
+ever today to build your e-commerce
+store online you don't have to be a
+developer there is less upfront cost
+because you don't need to invest into a
+physical retail location everything's
+online you get Shopify you get stripe
+you get like triple maybe or another
+shipping provider Facebook ads
+everything is out there you just connect
+it together and then like you don't have
+to build your own infrastructure anymore
+all you have to do is find or make a
+product that is differentiated enough so
+that it's not like out there on Amazon
+or somewhere else where people can
+undercut you in terms of price and then
+you need to build an emotional
+connection with your customer I think
+ecommerce today is a lot about
+storytelling it's about like making sure
+that customers connect with you and like
+develop some sort of feeling or
+attachment for you and then you use the
+channels like Facebook Instagram
+snapchat if you're like a millennial or
+Gen Z or whatever those generations are
+called like you use the right channels
+to reach to reach your audience and you
+tell a personal story to them and then
+people are proud like to where I don't
+know all birds or to travel with there
+it's called always is it whatever that
+like thing is called okay yeah and it
+seems like oh and then there is the
+unboxing experience like every part from
+when you ship the item to when the
+customer receives it like every step is
+carefully coordinated you get the box
+you unbox it people film themselves
+unboxing it and it's it's a huge hit on
+YouTube or you packages packaging is
+being designed to look pretty on
+Instagram so that people can take
+picture
+and share it with their followers yeah
+so that was that was just my thought how
+infrastructure is how people don't need
+to invest in infrastructure anymore it's
+available out of the box and how today
+ecommerce is all about like getting your
+customers to feel something for you to
+feel attached to your product yeah and I
+think we're seeing a lot of companies
+both you know YC like venture backed and
+not venture backed companies that are
+really crushing it is is there anyone
+out there that you think is doing it
+particularly well you mentioned all
+birds and the sluggish thing maybe
+someone who's less well-known that maybe
+even your customer that's doing it
+really well that you can like you can
+point to a reason why they're successful
+yeah so I think glassier is pretty well
+known as well do you talk about glossy
+or something less well known I think
+they're good everyone knows about them
+yeah I mean glossy or is this a makeup
+company and I think and I know her story
+Emily's story just from reading about it
+I think she started as a blogger just
+creating a great following with unique
+content online and then when she had
+that following and people were like
+looking at her as an authority in the
+beauty blogging space she was able to
+launch her own beauty line and that like
+on Instagram the pictures are beautiful
+it's all it's I think it's that the
+product the packaging looks like it's
+designed for Instagram when I get the
+box you open it there are stickers in
+there there's a little pouch in there so
+stuff that I didn't order that she's
+giving me for free and I'm excited about
+it and I see people posting about it and
+on Instagram people are engaging with
+the blockquote
+with the posts in the Commons and she
+gives out referral codes so people keep
+talking about and refer their customers
+their friends I mean and then they also
+oh they reblock or regram yeah I'm not
+I'm not up to date with all these like
+fancy terms but they regram if i post a
+picture of glass here they will and it
+gets a lot of likes they might regram it
+on there
+professional site so I am incentivized
+to like post something so that I can get
+more followers if they regram it it's
+yeah it's I think they're doing a
+phenomenal job just making sure that
+their followers are being engaged on the
+right channel so channel set their
+active on and that it's not that
+corporate like it does not when I look
+at their their site it I don't get a
+corporate feeling I get the feeling that
+it's a girlfriend telling me about
+makeup so it's working like you're in
+the demographic get it working on you oh
+and the other thing is like you can't
+find it on Amazon you can't find it
+anywhere else except for on their site
+and that's the great part like if you
+sell a product that is too generic
+someone else can sell it on Amazon and
+it's easily replaceable or
+interchangeable and then Amazon has some
+like you have Amazon Prime so you save
+on shipping it's convenient and you just
+get everything on there mm-hmm
+is anyone I'm trying to think of a good
+example of someone doing well on Amazon
+and outside of it like I don't see a lot
+of that mega brands I what I'm seeing or
+what I hear from friends who run
+ecommerce stores is they have tried
+Amazon as a channel but it's basically
+just cannibalizing themselves and it's
+not they prefer to keep their own brands
+or to be able to manage their own brands
+on their own websites to have to create
+that experience to create the feeling
+and the loyalty yeah
+yeah that's probably a good point cuz I
+like they don't give you a lot of
+analytics around discovery actually yes
+I wrote a book about um shipping
+containers with my friend Lee yeah yeah
+we did that we did a Kickstarter a
+couple years ago and Amazon's been I
+mean we were immediately like on there
+afterwards because we we spent the like
+the extra Kickstarter money buying more
+books
+yes and so it's been super easy to sell
+and I don't really know like if we would
+have captured fewer sales because we
+weren't on Amazon because that discovery
+wise like I think it has like you know
+less than 10 reviews so I don't feel
+like we're getting sales that way
+interesting yeah see
+I see what you're saying so if it's like
+if you're selling something on Amazon
+what you the customer will also see
+other products that are comparable which
+means that customers might get directed
+to your competitors products and if it's
+not something that's like heavily
+reviewed there is no incentive for the
+customer to buy your product versus
+another product that's been on Amazon
+for longer that has more reviews that's
+interesting yeah I I think Amazon is
+great for generic purchases but it's
+really like you don't see Amazon making
+funny jokes on Twitter as a corporate
+account like you don't see anyone
+tagging Amazon in their Instagram posts
+it's just that people in their free time
+don't enjoy like it's not a brand that
+people think about or talk about it's
+just generic convenient and pragmatic
+thing but it's not this emotional thing
+at least I'm not attached to do you
+think that like Amazon will like
+completely like take over all these
+prepackaged meal kits now like is that a
+thing that's actually brand
+differentiated or not
+so yesterday I saw one of my friends
+post on Twitter that normally he would
+never like make this peach paste sauce
+for dinner but because blue apron sent
+him a kid with peaches in there and a
+recipe for like whatever peach dish he
+was making it and he was loving it
+that's why he loves blue apron because
+it gets him out of like just cooking the
+same thing every day and cooking
+something special in the same amount of
+time I don't know if Amazon if like blue
+apron is differentiated enough but it
+seems like people get a homey feel from
+using blue apron products I don't know I
+mean look at all the copycats right yeah
+like they're in every vertical so I mean
+maybe they're just two different markets
+and so yeah like personally I am way too
+pragmatic I just get my groceries I cook
+what my mom taught me to cook
+okay cui I might I might be that rung
+target audience here well then what
+about all the way what are you story
+like blue apron when they when they sent
+you stuff and it's like one egg kind of
+packaging and that the egg is labeled
+egg and I'm like I know this is an egg I
+don't know why stupid it does make you
+feel a little gross when you're like I
+think Trader Joe's for me at least is
+like the worst of them
+you know like everything's in a little
+plastic bag and so I into apartment a
+couple years ago and I had bought so
+much from Amazon that I was taking out
+the recycling that day and I actually
+felt nauseous like as I was breaking
+down all these Amazon boxes but talking
+about recycling the other trend that I'm
+seeing in e-commerce is peer to peer
+selling that seems to be on the rise
+again people selling out if their own
+closets if we look at I don't know
+Poshmark vented Macari eBay whatever
+those are called or even Facebook
+marketplace like we're stuff especially
+it seems like young women and mothers
+selling like used items and getting a
+lot of fun out of that Plus having the
+personal connection with a seller so
+like selling out of their own closets
+telling the story about when they bought
+this item modeling this item themselves
+yeah it's funny and then you like they
+put a handwritten card in there it's an
+interesting so that is becoming more
+popular I yes we have a lot of those on
+our on our platform like using ship
+ownership for their second half
+marketplaces and that's a fast growing
+segment I think it's still a very small
+segment and overall ecommerce of course
+yeah but um it's it's a growing one what
+about all those like box of the month
+clothes is still a thing yeah I mean
+there's a box for everything yeah yeah
+you can get well you name it yeah yeah
+um as surprise dad just loot crate for
+instance is a big one that we're just
+looking at and that's it's a gamer
+specific box and then they're like sex
+toy boxes like really everything anyway
+I think it's the convenience and as soon
+as you subscribe to something it is hard
+to unsubscribe that's the other
+component there so and then people like
+to be surprised like if you're already
+paying for it it's like you gave them
+your credit card number once and then
+you forget that it's a recurring payment
+and then you're just getting the Box
+everyone that you're making you so happy
+of that adrenaline and Happiness
+endorphin rush oh and then get one for
+your doc and your cat as well yeah it's
+crazy yeah I think a lot of those people
+are like infamously known for you know
+like you can sign up online and then you
+have to call in to cancel it's like that
+kind of stuff are you are those on the
+rise though no sir and then you're
+they're giving you the first box for
+free but you have to give them your
+credit card number then they try to
+automatically afterwards yeah classic
+yeah I don't know if they're on the rice
+still it feels like something that was
+on the rise two or three years ago and
+now it's like dabbling but it's not I
+don't see it going away but I'm also
+seeing that some of these box companies
+they're also in addition to the to the
+monthly box thing they're they're
+selling having an e-commerce store where
+you can buy these items one-off mmm okay
+then are you noticing any other trends
+because now I'm just realizing that like
+by being at the hub of all this you kind
+of like see what businesses are like
+taking yes so we saw all of these segues
+being show like oh wait segue sir
+no same thing for me yes the hoverboards
+we saw them being shipped and then the
+USPS or the shipping providers actually
+had an extra regulation for hoverboards
+not allowing them to be shipped anymore
+because they were dangerous and explodes
+we also saw like a huge rise in vape
+company signing up that seemed to be a
+thing then there was this couple months
+where people loved sending each other
+just like like joke items though is this
+when you when you open the package it's
+like glitter coming out oh that was you
+guys related we weren't selling them we
+were just shipping them yeah
+okay and then um yes so that was big or
+like even had poop in a box I know if it
+was real food we just see the name
+signing up and really care yeah we don't
+really care and then that was that was a
+very smart idea just financially like
+having a message on a potato it was like
+I think $10 to get a potato shipped and
+the potato would have your message
+written on top of him what we had
+multiple of these stories okay so it's
+not in a box just has like a label stuck
+on it and you guys do that just like
+random size whatever whatever I mean
+we're so we're just providing the the
+technology to print those shipping
+labels they tell us size and weight and
+to and from address and you get a label
+whatever you want a ship as long as it's
+like within the legal realm week if you
+label you ship it it's fine mm-hmm have
+you guys gotten a bunch of money for the
+in the fidgets spinner game I think the
+fidgets spinners are too small too oh no
+yes money because you can put them in a
+letter we want to ship something that is
+3d ah what about um medical marijuana
+has that trend at all I think that is
+more like the on-demand delivery so we
+we have a couple of stores on our site
+that ship like accessories for that yeah
+I think one of them is actually YC
+affiliated called bill OB they're pretty
+big like the Nasty Gal for vaping and
+other than like we ship the accessories
+but I don't think Mariana is allowed to
+be shipped even in California yeah I
+think um like there's on demand for that
+okay on-demand delivery I was just
+wondering if that if that trend was
+going like if folks are lobbying now to
+like get it like together within the
+state oh here's my favorite shipping
+fact out of some some like past days
+it's still legal to ship an alligator
+with the USPS as long as it's smaller
+than 20 inches okay alive alive yeah yes
+a baby
+really yes how do you package an
+alligator I have no idea problem we give
+you the shipping label for the obviously
+it doesn't matter yeah do you guys then
+like are you liable for anything like if
+what is your problem so its its inner
+and our terms of services what you're
+allowed to ship on what you're not
+allowed to ship and as long as you stick
+to the terms and services were we're
+fine you're fine but our agreements with
+the shipping providers also are clear
+that we're not liable for the things
+that our customer ship so every customer
+is recognized as a separate customer
+with no shipping providers but it's it's
+our job to like make sure that our
+customers know what the terms and
+services are provided by the shipping
+provider and so the alligator is on
+there the alligator like on your website
+maybe and the fine prints know the a
+like it's part of the USPS terms and
+services the official ones that the
+alligator can be shipped as long as it
+does not exceed 20 inches okay I'm
+wondering like what if it's growing
+while it's being shipped depends where
+it's being chefs yeah it's like 19 and a
+half inches and it takes like five days
+though that's really funny what about
+all these other companies like I once
+shipped my bike from Colorado to
+California are these companies like
+doing it on their own are they just
+setting up like basically just this
+front page and then they just ship with
+you like are you seeing all these like
+basically SEO targeted shipping you know
+it's like shape your bike shape your
+camera or whatever there are two aspects
+to that question like if you ship
+something let's say from Colorado to
+California I bet they're shipping
+providers that are like that are focused
+on shipping from Colorado so for
+instance here in San Francisco in
+California a regional shipping provider
+is called on track on the other coast
+site or regional shipping providers
+called laser ship then there is another
+one called gso that's here so for each
+region their shipping providers that are
+specialized on that particular region
+and then they're also shipping providers
+for
+just on like certain segments in in wine
+country we have a lot of shipping
+providers that are just focused on
+shipping wine and by having them on our
+platform were like also allowing our
+customers to discover shipping providers
+that they wouldn't discover otherwise
+because it's such a niche product and
+it's not not only about the discovery
+it's also yes we're shipping a couple
+like we're having wine as one of our
+segments but what that e-commerce store
+really want to go through the trouble of
+integrating a specialized wine shipping
+provider and if we already have it then
+they just need to enable it and like are
+able to save money there your question
+about whether like there are shipping
+providers that are specific for bikes I
+think everything that's less than I
+think was 71 pounds the normal shipping
+providers can ship and then there are
+other shipping providers that are
+focused on less and truckload and stuff
+but it's likely that these that these
+items these SEO pages are just giving
+the traffic to to normal shipping
+providers okay yeah man I got burned
+with that to shipping car tires hmm
+total sucker for this well next time you
+can just ask me yeah yeah do you guys do
+you deal with insurance too yeah we
+don't thing we have insurance on top of
+ship oh oh and the other thing that is
+quite interesting about shipping is the
+tracking component so because like
+shipping affects conversion rates a
+decreases cart abandonment if you have
+the right shipping options or the right
+shipping costs but then after you ship
+your item out it doesn't stop there like
+customers are wondering what is
+happening to their item along the way so
+they want to be like engaged with
+tracking numbers who want to be
+proactive about that versus having
+customers write in because if someone
+rides in you need a live person to like
+respond to that if you just sent them
+push notifications with our web hooks or
+with yeah well with the web hooks about
+package husband ship package arrived at
+this facility package will get your
+house today
+like customers are going to think about
+your product whenever they get a
+notification like that and then if you
+send them like suggestions about what
+else they could buy in your store
+the same email it can get them back to
+your website mmm do you advise people on
+like best policies for handling returns
+because I often find that like all of
+these companies feel like it's their
+duty to like innovate on new ways to
+like have you send things back to them
+and it's like it's the worst yeah so
+that's another thing that consumers like
+take into account before they make a
+purchasing decision they want to know if
+returns are possible and if like return
+shipping is free yeah so I guess I guess
+it's there are two perspectives to this
+from the end customer perspective it
+would be best practice to put a shipping
+label right into the box and that
+shipping label most likely well like we
+provide scan based return labels that
+means unless it's being scanned the
+merchant is not going to get charged for
+it so you can print a shipping label
+free of charge and when it scans we will
+charge you for it but from the merchants
+perspective you want to make the returns
+more difficult so that people are less
+likely to return their item because once
+you return it you need to figure out
+what to do with that returned inventory
+yes so they're there too there are these
+two different perspectives that are
+clashing I would say to make it right
+like what I do admire about Amazon is
+whenever something is not right they
+will give you a free item they will give
+you free returns and that's that's made
+me very happy in the past and I would
+just recommend ecommerce stores to do
+the same unless they're seeing abuse of
+that on their on their website mm-hmm
+okay yeah I think yeah the most famous
+one is REI I guess like people were
+buying things off eBay from like 15
+years ago and returning it all right
+exactly I mean if you're giving people
+an opportunity to like cheap the system
+they likely will achieve this okay so
+you can make it like a little bit
+difficult but it also like you can also
+see if you're acquiring or converting
+the type of customers that are going to
+abuse the system you're likely
+converting the wrong type of customers
+right you maybe are going after the
+wrong target audience hmm meaning like
+just too broad or just off
+just to rod off or maybe you're having
+the wrong messaging on your website that
+is attractive to customers who are more
+likely to cheat the system
+okay gotcha so you guys are now like
+what four years old
+three and a half three and a half years
+old and you're 66 I wish people yeah see
+five people how are you feeling like you
+know insane it's really unbelievable I
+can't I can't believe it we think we got
+super lucky that we found a space that
+is fast-growing shipping is like tied to
+e-commerce growth it's still very
+inefficient that technologies aren't
+great there there is not that much
+competition so it's easy to innovate in
+that space and to to write on the
+e-commerce growth wave and then just in
+terms of people I'm just walking through
+the office and there are so many people
+there I I need to pinch myself but it's
+it's great working with I think working
+with my having the right partner has
+been super helpful like someone who's a
+partner in crime
+who can all right like we don't get any
+crimes who's like always been working
+with me through this for the last three
+and half years and then of course having
+the right supporters in turn on the
+investor side as well yeah who can help
+me figure things out we were also able
+to hire more senior leadership team last
+year so to put the operational
+experience in place yeah so then what
+are what are you working on personally
+like improving so I am always trying to
+improve to be like working on how to be
+a better manager me my co-founder we got
+an executive coach a year and a half ago
+and are now working with the coach
+that's been phenomenal like
+understanding how to manage people how
+to motivate people how to give feedback
+in a constructive way it's all about
+communication that's that's the main
+learning from growing the team like
+communicating how right because everyone
+will say that right you're just like
+yeah be empathetic can be nice and
+listen to people and I love
+like no I would say like the umbrella
+term for that is you need to be
+effective in your communication and it
+really like depending on what that
+person's like like I don't like I like
+straightforward communication I don't
+like a [ __ ] sandwich some people and
+that's effective with me but then with
+other people you might need to be I
+don't know like less like more
+empathetic in your communication and
+understanding like understanding how to
+communicate to whom and then remaining
+authentic and being able to be
+comfortable with that that's that's like
+that's something I'm trying to learn and
+improve on the only time the
+authenticity is the other important part
+like I want to know or I've been trying
+to figure out what my personal
+leadership style is how I'm most
+comfortable communicating and who I want
+to be and then be like absolutely
+unapologetic that like this is who I am
+and I will walk the extra mile to this
+extent but I like can't work with just
+everyone like you need to yeah it needs
+to work on both ends right and so then
+when you're when you're hiring you know
+executives managers do you kind of like
+divide teams based on how they take
+input from each other or you just like
+hey you you know you're not very good at
+dealing with people who like can't
+handle this direct communication so I've
+been ok so I think what worked for me
+very well is to be very proactive about
+telling people this is how I communicate
+and setting the expectation right that
+this is just how I communicate it's not
+you it's me and I like yeah making sure
+that they know that I communicate like
+that to everyone and one of my flaws is
+for instance that I call out that I
+don't celebrate wins that much I'm
+always like looking at the next
+milestone and I'm quick to criticize but
+I'm not quick to praise and that is that
+can be demotivating if people think it's
+them so what I'm trying to tell people
+is like this is this is my flaw and I
+recognize it and if you're not getting
+enough praise please do let me know
+because it's not it's not your fault
+it's my fault
+and then I don't want to put that weight
+entirely on me I'm hoping that the
+senior leaders my company can meet me
+halfway and help me with achieving my
+goal of like praising people more as
+well so when I'm like not doing it let
+me know and I will change but please
+like speak up and let me know and so
+then like this this comes out by having
+conversations with a coach or do you
+like journalists when you're like oh
+here's what I'm struggling with it comes
+out like the the coach observes how I
+talked with my co-founder we go oh they
+like hang out and no I mean like Simon
+and I we go together to the coach okay
+so we sit on that couch together it's
+like couples therapy we're co-founders
+and then I think like I am fairly
+self-aware about like my shortcomings as
+well and then I get that feedback from
+the leaders we have 360 reviews and then
+we bring in those reviews to the coach
+to this guy's mmm okay inhaling yeah the
+most important part is that people
+shouldn't be afraid about speaking up or
+like bringing in like what they think
+could be improved and then making sure
+that they understand it's being heard
+and either that I say like either that I
+acknowledge that this is a shortcoming
+and that I want to act on it or that I
+acknowledge that this is happening but I
+can't act on it because it would be
+inauthentic for me to do mmm
+inauthentic and like that's not
+something that's on how you would
+address that problem I'm not sure what
+you mean Oh like if it's just if it
+doesn't work with my personality and I
+need to change just fundamentally Who I
+am to be able to like act on that
+feedback I guess it would be I just
+don't want to pretend to be someone else
+at work every single day
+mmm does that make sense it makes sense
+I just wonder like what what is
+something that you would be like I'm
+trying to think of a good example that
+doesn't sound hyperbolic it's like oh I
+can't be nice to that person because I
+hate that
+this is enough antics for me no no no
+it's um let me think about it it's like
+on a to stick with that that example
+about praise so I've been trying to hire
+people who are complementary to me who
+are like war you know who to myth comes
+more natural to praise people who have a
+more celebratory nature and then with
+that they're able to balance me out and
+we have people like that in the company
+and then instead of me having to like
+always pop the champagne bottle which
+would feel so awkward to me have someone
+else do it but I stand there I clap and
+I'm approving this just like nod nicely
+exactly do you uh do you read books or
+any of that stuff has has that been like
+inspiring for you yeah the favorite book
+that I just read a couple months ago was
+Shu doc by the night founder okay that
+was I mean it wasn't written by him it
+was a biography about the founder okay
+so good such a great bug Kathy yes it's
+the best part about it was or like what
+would what inspired me the most was like
+back then when he founded the company
+communication wasn't like it would there
+was no cloud no internet like
+communication was a synchronous he had
+to write an email write a letter to his
+manufacturer in Japan and would take
+like three weeks to get there and he was
+sitting like back in I think it was in
+Oregon or somewhere where where he was
+based and just wait for a response for
+like an entire month and it was mission
+critical and it took them a month to get
+a response yeah it's a very interesting
+like looking at it from a perspective of
+building a start-up in a pre-internet
+time mm-hmm-hmm who are the other people
+that have inspired you hmm
+I am so I'm German originally I'm quite
+inspired by Merkel as well she's a tough
+leader is that why I like yeah I'd say
+like she has her principles that she
+sticks to and then she is able like to
+yeah she just does not compromise on her
+own principles and then the other thing
+that I admire about her as like
+she does not conform to the stereotypes
+of how a female leader should be like
+she were she does not need to she
+doesn't feel like she needs to smile a
+lot or like put on a lot of makeup or
+look anything like what the stereotype
+should be and she's very comfortable and
+authentic with that yeah I mean do you
+enjoy talking about the female founder
+stuff are you yes and no so like I mean
+I think I would like it more to be just
+a conversation about like being the best
+founder or being a very good founder of
+versus being a very good female founder
+because in the end the market really
+doesn't care if you're a female founder
+or not the market cares about your
+product like I could we could offer the
+best female founded shipping company if
+there is a better like male founded
+shipping company we're not gonna
+yes so that's that's the that's the one
+side and then I think I would love the
+conversation to be more about like to be
+a little bit more about female
+accomplishments as well versus just
+being about the downsides of women in
+tech because there are a lot of great
+female accomplishments to point out and
+they sometimes get under in these like
+stories that are that are mostly
+harassment related these stories need to
+be told don't get me wrong they should
+be told people should be like held
+accountable for that people should know
+what's happening out there but then I
+would love to balance the conversation
+out as well with like in by encouraging
+to encourage other women to join the
+industry like there there are good
+stories that are happening as well mhm
+yeah I think it it kind of like scares
+certain people from even joining exact
+conversation oh it's always negative
+like I'm never gonna comment yeah yeah
+cool
+alright so we've been here for like 45
+minutes now so what do you advise for
+people like you're just getting started
+like maybe even yeah like b2b like less
+like sexy stuff yes
+so I I love the like less sexy space
+yeah because you're solving a real pain
+point you're like more in the background
+it's it's not sexy at parties people
+aren't excited about my shoving stories
+they're like shut up but so it's it's
+mission critical to every business and I
+just love building something that you
+know is solving a real pain point that
+is a must-have not a nice to happen and
+you can actually charge for that as well
+every customer that we have on Shippo is
+a paying customer there is no free trial
+because because it's shipping there's no
+free trial to shipping and the the
+lock-in effect there is very strong as
+well so I would say like for four
+founders just getting started like look
+at solving problems that are real
+problems that people can't live without
+where there is an inefficiency that's
+either causing people to spend too much
+time which wants money right now and
+then any type of infrastructure business
+I'm like a big fan of that on the more
+general side I would say for us like at
+the very beginning like now logistics
+and the shipping space is becoming more
+interesting to investors at the very
+beginning people weren't interested in
+in the logistics space and it's just a
+lot of like staying remaining persistent
+and then not not giving up like always
+tweaking the pitch making sure that you
+know that after every no you figure out
+another way to pitch it and find the
+next investor to pitch it to I think we
+wouldn't be here if we if we if we
+weren't that persistent it's about
+remaining persistent but about the right
+things like sometimes you need to know
+when to give up but you need to be
+flexible about like how you push things
+and who you push it to mm did you have
+any like kind of mental models you were
+using to figure out what was important
+because you I think you I mean it's the
+more important thing is building the
+company like the raising money is kind
+of like you can build a company without
+raising money yeah yeah it's a business
+like yes everything doesn't have to be a
+start-up but how did you figure out what
+was the important stuff to focus on at
+the very beginning it was mostly
+customer feedback like we were able to
+develop a bigger vision a little later
+in the process when we had the money to
+be able to sit down and take a step back
+and develop a bigger vision at the
+beginning was like this is the main pain
+point that our customers are facing and
+we want to solve this pain point for our
+customers and we need to build X to
+solve it and for that we need to raise X
+amount of money and then we placed it in
+a bigger context like why is shipping
+important in the e-commerce context so
+we were able to tell that story about
+the size of the market the growth of the
+market the growth of e-commerce to
+investors to give them like the big
+picture as well if it's a fast growing
+space there is a problem customers are
+liking what we filled and by the way
+this is what we filled and this is what
+we what we see the opportunity to be
+like in the big picture and this is how
+fast we're growing okay cool
+well then I think my last question is a
+favorite place to go running in San
+Francisco oh okay so I normally run in
+Golden Gate Park from I live in Lower
+Haight so from Lower Haight into Golden
+Gate Park and then if possible
+I do like running at Crissy fields as
+well but it's more of a drive yeah more
+of it okay are you training for anything
+no I that's the one thing I do for fun
+and for fun only if I like yeah if I
+sign up for a marathon or something like
+that I would get into this competitive
+thing perfect cool all right thanks for
+coming on thank you
+you

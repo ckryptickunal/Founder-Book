@@ -1,0 +1,709 @@
+Title: OpenClaw Creator: Why 80% Of Apps Will Disappear
+Video ID: 4uzGDAoNOZc
+URL: https://www.youtube.com/watch?v=4uzGDAoNOZc
+Channel: Y Combinator
+Published: 2026-02-07T15:00:13Z
+Duration: PT22M36S
+Views: 993681
+Likes: 21410
+Tags: YC, Y Combinator
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 689
+
+Description:
+You’ve probably already heard all about OpenClaw (formerly Clawdbot/Moltbot). The viral sensation is an open-source AI assistant that runs on your own device, connects with messaging apps you already use, and goes beyond chat to actually execute tasks like managing your email, calendars, files, workflows, and more. Now meet the man behind it. YC’s Raphael Schaad sat down with Peter Steinberger, the creator of OpenClaw, to discuss the “aha” moment behind the viral personal AI agent, why local-fir
+
+============================================================
+TRANSCRIPT
+============================================================
+
+Today, I'm sitting down with Peter
+Steinberger, the creator of Open Claw,
+the open-source personal AI agent that
+has completely taken over the internet.
+The GitHub repo exploded to over 160,000
+stars practically overnight.
+>> [music]
+>> The community has built countless
+projects like Maltbook, where bots talk
+among themselves. And now, the bots are
+even renting humans to do tasks in the
+real world. In our conversation, we
+discuss his aha moment, his contrarian
+development philosophies, and what this
+means for builders in 2026. Let's dive
+in.
+>> [music]
+>> So good to see you, man.
+>> Hey, what's up? Um so, you have made
+something people want. It seems so.
+Yeah, uh Open Claw, as it's called now,
+has absolutely
+>> five, yeah.
+>> [laughter]
+>> has been absolutely exploding the
+internet. Um how have the past one or
+two weeks been for you, man? Oh my god,
+I need like I need a cave.
+>> [laughter]
+>> A week of solitude. You You came out of
+the cave, and you want to go back to the
+cave like a like a lobster. It's been
+absolutely wild. I don't know how one
+human
+can absorb all of that. I probably need
+another week just to like respond to all
+my emails.
+Uh I got some incredibly cool stuff. I
+got some incredibly Mm. bad stuff.
+Um [snorts]
+but clearly, I hit something that
+spurred up emotions and made people
+interested and inspired people, and
+that's really cool. And a lot of people
+have been working on, you know, AI and
+even personal assistants. Like, what
+what is it that made
+Open Claw take off? I think my big
+difference is that it actually runs on
+your computer. Like, every everything I
+saw so far runs in the cloud. It's like
+it can do a few things.
+If you run on your computer, it can do
+every effing thing. Right? So, that's
+way more powerful. Yeah. Machine can do
+anything that you can do with the
+machine.
+>> You you can just connect to your oven
+or your Tesla
+or your lights, your sonars, my bed. You
+can control the temperature of my bed.
+Uh ChatGPT can't do that. You gave it
+all the skills that you have yourself.
+>> A friend told me like he installed Open
+Claw
+and
+it
+and then it asked it like, "Look through
+my computer and make a narrative of all
+my last year."
+And it made this incredibly good
+narrative. And he was like, "How did you
+do that?"
+And then he the Open Claw found audio
+files where like every Sunday he was
+recording stuff.
+And Open Claw found that.
+But he didn't even remember about it
+because it was like more than a year
+ago, right?
+So so just by it being able to search a
+whole computer,
+it it can surprise you. Yeah. It's also
+you also give it all the data, right? So
+it can surprise you in many ways.
+And so now you have, you know, we're
+even moving from human to bot, so like
+interactions that you've been talking
+about, to bot-to-bot interactions, or
+even like bot to other humans where, you
+know, bots on behalf of you are then
+hiring other humans to accomplish tasks
+IRL. Like
+what's happening?
+I think that's a natural next step. Like
+okay, I want to book a restaurant.
+My bot will reach out to the restaurant
+bot and do the negotiation.
+Like
+because it's more efficient. Or
+or maybe it's like an old restaurant, so
+my bot needs to actually get some some
+human work done so that a human then
+calls the restaurant because they don't
+like bots.
+Or or walks there to stand in line. If
+he doesn't get a robot for
+>> For the owner of the bot.
+>> [laughter]
+>> And I imagine it like maybe if if I have
+even multiple bots.
+And maybe I have like specialists. One
+is like for my private life and one is
+for like my person my my my work stuff.
+Maybe one is our relationship bot that
+gets like a lot of things in between.
+Uh
+I don't know. We're so early. There's
+still so much
+so many things that we haven't really
+figured out if it actually works. Um but
+I feel we are
+we're on the timeline now. It seems like
+everyone was chasing sort of like the
+sort of like centralized god
+intelligence. And what's sort of emerged
+over the past, you know, 10 days or so
+is sort of like the swarm intelligence
+um and and the community intelligence. I
+think that if you look at one human
+being
+what can one human being actually
+achieve? You think one human being could
+make an iPhone? Or one human being could
+go to space?
+I think one human being would probably
+just like not even be able to like find
+food.
+Um
+but as a group
+we specialize.
+As a larger society, we specialize even
+more.
+So, what can we learn from that
+that we can apply to AI?
+You know, we we already have like
+AI that specializes in certain things.
+Um even though that it's it's
+generalized intelligence, what if it
+actually is also specialized
+intelligence?
+So, I don't know. It's going to be very
+exciting.
+>> Very cool. Yeah, you kind of like opened
+a window into the future and now a ton
+of people are kind of like building
+building on it and have sort of like
+their aha moment. Um can you walk me
+back to when you had your aha moment and
+kind of like recount that very moment? I
+wanted something like just type stuff so
+that my computer would do stuff.
+Like very simple. And then I built
+I built a version of that in May-June
+that
+was cool but wasn't really yet. Um
+and then I built a whole bunch of other
+stuff and
+kind of like build up my army.
+And then in November
+there was a day where I wanted this
+again. Like I
+I went to the kitchen and all I I was
+check up if my computer would still do
+stuff.
+Or it being finished. And doing stuff
+was was coding. You were coding stuff.
+>> course. Were you coding something else
+or were you coding the thing itself? No,
+no. That was just like the need was it
+again there and I'm like
+What were you coding at the time? What
+were you building? My god, you see my my
+GitHub is like it's like 40 projects. I
+don't even know.
+Um I think it was summarize.
+It's like a It's like a little CLI app
+where you can give it
+whatever like a podcast or
+um a hot seat thing like here and it
+would summarize it, but it would also
+show you the slides in the terminal. Cuz
+you can do that nowadays. Yeah. You can
+just do things. So for the love of the
+computer, you kind of like started
+messing with stuff. Yeah. Um you came
+out of retirement actually, right? Um to
+sort of like mess with AI. Yeah.
+>> And then increasingly you were so hooked
+that you wanted to just do it always
+also on the go with the phone.
+I mean the last project I I worked two
+months on Wipe Tunnel
+to the point where it got so good that I
+was catching myself always like coding
+next to my when I was at my friends and
+I was like I need to stop this. This is
+like too addictive.
+And then in November and like my need
+came back and I
+I started building Cloud Bot or now it's
+called Open Claw.
+And I think very very in the beginning I
+was like, "Oh, I rebuilt it again. But
+this time I built it even better." Mhm.
+This time when you don't type into your
+terminal, you just you talk to a friend.
+You don't think about compaction, which
+sessions, which folder I'm in, which
+model I'm in. I mean, you can, you know,
+it's just like I want to leave it open
+for power users, but usually you just
+like you just talk to a friend and the
+friend is like this
+ghost or entity or whatever you want to
+call it that can control your mouse and
+your keyboard and can just do stuff.
+Yeah. And when did you have that aha
+moment when you were like, "Wow, this is
+doing way more things than I actually
+thought it could."
+>> Literally I
+took me 1 hour
+for like the the very shitty initial
+prototype.
+It was just a little bit of glue between
+like a dependency that connects WhatsApp
+and Cloud Code and then I would like
+call Cloud Code and get like the string
+out of Cloud Code. It would be slow but
+it it worked.
+But I wanted images cuz you know you
+want pictures. I want I want I want the
+model to send a selfie or whatever and I
+want the model to create images and send
+me back.
+So that took me another few hours.
+And then I I went to Marrakech
+for a birthday party and
+there was like the internet wasn't that
+good, you know, WhatsApp works
+everywhere because I don't know it's
+just like text.
+So I used it a lot I was in a
+restaurant. What does this mean? You
+make like a picture and like translate
+this for me and just
+it was just so useful. And it was also
+really nice about it because it it spoke
+my language. You know, it
+it was a little sassy. It was like
+funny. It was like really pleasant to
+use. And then I was walking and just
+like sending it a voice message.
+And I'm like, oh wait, this can't work.
+I didn't build that. Right. Right.
+And you see like the type indicator is
+like blinking blinking blinking. 10
+seconds later it just replied to me.
+I'm like,
+how in the F did you do that?
+And it replied, yeah, the model I did
+the following. You sent me a text
+message and there was no file ending so
+I looked at the header I found it's
+Opus. So I used FFmpeg to convert it to
+wave.
+And then I wanted to like transcribe it
+but I didn't have Whisper installed but
+then I looked around and I found this
+OpenAI key and I just used curl to send
+it to OpenAI. [laughter]
+Got the text back and here I am.
+And
+that all in like what? 9 seconds? And
+you didn't build or anticipate like any
+of those specific things?
+>> No, it you know, turns out um because
+coding models got so good, coding is
+really like creative problem solving
+that maps very well back into the real
+world. I think I think there's there's a
+there's a huge correlation.
+They need to be really good at creative
+problem solving. And that's a skill.
+That's an abstract skill you can apply
+to code but like to any real world task.
+So the the model had a
+I was surprised. It's like a magical
+file. I don't know what it is. I need to
+solve this. And it did its best and
+solved it. And it was even that clever
+that it
+it chose not to install the local
+Whisper because it knows that that would
+require downloading a model which would
+take probably a few minutes. And I'm
+like impatient, you know? So
+it really took the most uh intelligent
+approach.
+And that was kind of like the moment
+where I'm like, holy
+ Yeah.
+Uh that was where I got hooked. Y
+Combinator's next batch is now taking
+applications. Got a startup in you?
+Apply at ycombinator.com/apply.
+It's never too early and filling out the
+app will level up your idea. Okay,
+[music]
+back to the video. And so when computers
+can just do all these things that you
+didn't even anticipate. You didn't build
+an app to do that exact thing.
+Are apps just going to go away?
+Uh I think 80% of them are going away.
+Why do I need MyFitnessPal?
+Like my agent already knows that I'm
+making bad decisions. I'm at I don't
+know.
+Uh
+Smashburger something.
+And it will already assume that I eat
+what I like to eat. If I don't make a
+comment, it will just like automatically
+track it or I make a picture and it will
+just store it somewhere. I don't even
+need to care where I right?
+And then my it maybe it it improves my
+my gym schedule. Like add a little bit
+more cardio in it. I don't need my my
+fitness app because it just it just does
+the fitness planning for me.
+Uh
+why do I need it to do that? I just tell
+it, "Hey, remind me of this and this."
+And the next day it will just remind me
+of this and this. Do I care where it's
+stored? No, it just does its thing.
+So there's a
+every app that basically just manages
+data
+could be managed in a better way and
+it's in a more in a more natural way by
+agents. Yeah. Only the apps that
+actually have sensors, maybe they
+survive. And so if, you know, most apps
+are going to go away in that scenario,
+um are the models the only remaining
+sort of apps? Not everything will go
+away.
+But yeah, I think that [clears throat]
+the the large model companies have some
+big mode.
+>> [sighs]
+>> Cuz they ultimately
+they give the token.
+And turns out
+uh one of the complaints was that people
+use too much token. No, you just really
+love using it. That's why you you use
+the thing so much because that's why you
+burn the token. Yeah. Um
+it's like, is it my fault that I make
+something that's so popular?
+And so, you know, like all the the
+models, they're kind of like
+leapfrogging each other constantly and
+and, you know, maybe they're also
+getting commoditized. So, if apps are
+going to go away, models are going to
+get commoditized or at least, uh you
+know, the lobster can, like, the brain
+is is is swappable out. What's the thing
+that remains? What's Where's the value?
+Is it the store of memory? Is it um
+the hardness that's valuable? What is
+What remains?
+First of all, I don't think the
+the model companies always have a mode.
+And I because you see this already, a
+new model comes out, people are like,
+"Oh my god, this is so good." And then
+like a month later, uh it degraded. It's
+not good anymore. They like quantized
+it. No, they didn't do anything. You
+just adapted to the new standard and now
+your expectations went up.
+But the model is still the average. So,
+I think for quite a while,
+uh every time a new model releases, I
+hear the same. People love it and then
+it's the standard. And then what's down
+there, you don't even want to think
+about it anymore.
+So, so we have like open source stuff
+that's as good as the current models
+from a year ago. Everybody's hating it,
+complaining, "Oh, this is not good. It's
+not funny." Yet this was what we had.
+And like in a year, we'll have this open
+source. And then we will like we'll
+complain about this because we are used
+to this.
+So,
+for the the foreseeable future,
+the big companies still have moat.
+Harness-wise, it's going to be
+interesting because
+every company kind of has their own
+their own silo, right? You you There's
+no way Maybe there is for Europeans
+to actually get the memories out of
+ChatGPT. Mhm. I'm I don't I'm not aware.
+I I either there's no there's Definitely
+there's no way for a different company
+to get your memories out. So, if if
+if I was like a company who like
+provides chat services,
+you could use me, but then I couldn't
+access the memories. So, like the
+companies try to like
+bound you to their data silo.
+And the beauty of Open Claw is it kind
+of claws into the data's because at the
+end user,
+the end user needs access cuz it's in
+the end otherwise it wouldn't work,
+right? If the end user access,
+I can access the data.
+And you own the memories. It's just a
+bunch of markdown files on on your
+machine. I mean, I don't own the
+memories. Other people Everybody
+>> Yeah, everyone owns their own memories
+as a bunch of markdown files on their
+own machines. And to be honest, those
+are probably super sensible because
+let's be honest um
+people use their agent not just for
+problem-solving, but also for like
+personal problems.
+>> Very quickly. Super quickly.
+>> I I I I fully do that. I'm like there's
+memory stuff that
+I don't want to have leaked. Yeah, what
+would you rather um uh sort of like not
+show your Google search history at this
+point or your you know, memory.md files?
+What's What's the Google word?
+>> Yeah. Yeah. Are people still using
+Google?
+I built this and I was so excited,
+but on Twitter, people wouldn't get it.
+Yeah. Like I was I was failing to
+explain
+the awesomeness. I feel like
+it needs to be experienced. So,
+I I tried various things and I I
+couldn't I couldn't nail the
+I couldn't nail the explaining. So, I
+was like, "Let's do something really
+crazy."
+I just created a Discord.
+And I just put my bot without any
+security restrictions in the public
+Discord Discord.
+And then people came in and interacted
+with it and they saw me build the
+software with it and they tried to
+prompt inject it and hack it and my
+agent would be laughing at them. And you
+just had it locked down to your user ID
+so it would only listen to you? Yeah.
+Yeah. That and it was I mean very clean
+instructions that other people
+dangerous, only only listen to me but
+respond to everyone. And this prompt was
+in Where was it stored? The
+instructions?
+>> Um
+That's actually part of Open Claude
+itself. Very much so that that that's
+part of the system prompt. Okay, you are
+now that explains to you you in Discord,
+there's like public people there, but
+you only listen to your owner.
+Or like your human. I don't even know
+how I wrote it. Yeah. Yeah. Your god.
+And
+I kept
+I don't know what I did but
+my system was built very organically.
+Like at some point I created like an
+identity.md, a soul.md, like like
+various files and then
+only in in January I started making it
+so other people could install it easier.
+And I remember
+I built all these templates based on
+like, "Go check a rough look at what I
+have and make like templates." And Codex
+wrote it.
+And what came out was like
+bread. You know, like people joke that
+Codex feels like bread even though now
+they have a new friendlier voice. I
+haven't tried that yet. Yeah. But the
+new bots, they felt so boring compared
+to what I had. So, I was like, "Marty,
+infuse the templates
+>> Marty's the name of your personal
+>> Yeah, that's a new It's a new name
+because Yeah. Yeah.
+>> Uh there was some naming challenges.
+Yeah. So, so you were you were talking
+to Marty?
+>> Yeah. I was like, "Infuse Infuse those
+templates with your your character. And
+he changed the templates. And then and
+then like
+all the things that came out afterwards
+were like actually funny.
+Not as funny as mine, so like I kept
+some secret. And the one file that's not
+open source is like my soul.md. So,
+even though my my bot is in public
+discourse, so far nobody cracked that
+one file.
+>> Tell me more about soul.md. I just saw
+this research from Anthropic about where
+they
+Now, I think it's public, but like a few
+months ago it was like where somebody
+ex-
+randomly found out some text that's
+hidden in the [snorts] weights where the
+model couldn't really remember that it
+learned it, but it was like ingrained in
+the weights about a non-equality
+constitution.
+And I found that incredibly fascinating.
+So, and I I talked about it with my
+agent and then we created a soul.md with
+like
+the core values, like how do we want
+human AI interaction, what's important
+to me, what's important to the model.
+Like
+some parts is a little bit like mumbo
+jumbo and some parts is like I think
+actually really valuable in terms of how
+the model reacts and responds to text
+and makes it feel very natural.
+>> In terms of building open claw, um
+you're also kind of taking a little bit
+of a contrarian view at sometimes. Like
+which model you like for coding, which
+one you like to run your bot on, um and
+then also like how you actually like,
+you know, code. Um work trees get work
+trees have kind of been a popular thing.
+There's more and more tools embracing
+them, but you're just you're just like,
+you know, no work trees, just multiple
+checkouts of the repo and like parallel,
+you know, terminal windows. Tell me more
+about how you you build. Yeah, I feel
+like the whole world does cloud code.
+And
+I don't think I could have built this
+thing with cloud code. Like I I love
+Codex because it
+it looks through more files before
+before it decides what to what to
+change. You don't need to do so much
+raid to get a good output. If you're
+skilled, a skilled driver as some people
+say,
+uh you can get reasonably good output
+with any tool.
+But Codex is just
+it's just really brilliant. It is
+incredibly slow. So, sometimes I use
+like 10 at the same side at the same
+time.
+Uh like maybe six on that screen and two
+there and two there. And I don't like
+this is already a lot of complexity in
+my head. There's a lot of jumping.
+So, I try to minimize anything else that
+is complexity. So, in my head main is
+always shippable. I just have multiple
+copies of the same repository
+that are all are on main. So, I don't
+have to deal with how do I name that
+branch? Um
+there could be like conflicts on naming.
+I cannot go back it's
+there are certain restrictions when you
+use work trees that
+I don't need to care about if it's
+copies.
+I don't like
+to use a UI because
+that's again just added complexity.
+Yeah. Like
+they're simpler and less friction. I
+have all I care about is like sinking
+and text. Yeah. I don't necessarily need
+to see so much code. I I mostly see it
+like flying by. Sometimes there's like
+gnarly stuff that I want to like take a
+look. But in most cases
+if you clearly understand the design and
+think it through and discuss it with
+your with your agent,
+it's fine. I'm also very happy that
+I didn't even build an MCP support. So,
+Openclaw is very successful and there's
+no MCP support in there. With a small
+asterisk, I build a skill
+that uses Mac Porter, which is one of my
+tools that converts MCPs into CLIs.
+And then you can just use any MCP as
+CLI.
+Um
+but I totally skipped the whole
+classical
+MCP crap. So, you because you don't then
+you can actually if you need to, you can
+use MCPs on the fly. You don't have to
+restart unlike unlike Codex or cloud
+code where you actually have to restart
+the whole thing,
+I think it's way more elegant and it
+also scales way better. Now you see
+Entropic, they do
+they built like a tool called search
+feature like something super custom for
+MCPs
+that was like in beta because it's like
+so gnarly.
+Now just have CLIs but really is good at
+Unix. You can have as many as you want
+and just works. So like I'm very happy
+that
+I don't I got very little complaints
+about the MCP stuff. It's kind of back
+to you're just
+you giving it the same tools that humans
+liked to use. Yeah.
+Yeah. And not invented stuff for for
+bots per se. Yeah. Humans
+No one's saying human tries to call MCP
+manually. Yeah, they just want to use
+CLIs. Yeah. That's the future. I'm here
+for it. Thank you so much for making the
+time to sitting down chatting. It's been
+a huge inspiration to So like when we
+were texting you know the course of the
+past couple of years and I saw you
+getting back into the game and I was
+like
+Peter, like what you're telling me like
+chase that dragon.
+>> [laughter]
+>> And you were doing like the weird like
+vibe tunnel thing etc. Nobody was paying
+attention and so I'm just like beyond,
+you know, stoked to see, you know,
+what's happening and and of course it
+had to be sort of like a loner from
+someone like tiny country like far away
+from Silicon Valley just like, you know,
+bring all of this upon us. So huge
+inspiration. I'm here for it. Thank you.
+Awesome. Thanks, Peter.
+>> [music]

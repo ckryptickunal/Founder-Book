@@ -1,0 +1,1378 @@
+Title: From Pivot Hell To $1.4 Billion Unicorn
+Video ID: 5WN8bfG06Hk
+URL: https://www.youtube.com/watch?v=5WN8bfG06Hk
+Channel: Y Combinator
+Published: 2025-12-10T15:00:19Z
+Duration: PT38M47S
+Views: 30481
+Likes: 539
+Tags: YC, Y Combinator
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 1356
+
+Description:
+In just a few years, James Hawkins took PostHog from an idea hacked together right before YC's W20 deadline to a unicorn powering product analytics for thousands of teams.
+
+In this episode of Founder Firesides, he sits down with YC's Brad Flora to talk about surviving six months of "pivot hell," why open-source analytics was the breakthrough, and how PostHog grew from fighting for its first users to launching full product lines. James also shares what he's learned about momentum, staying close t
+
+============================================================
+TRANSCRIPT
+============================================================
+
+I'm here today with James Hawkins, CEO
+and founder of Post Hog from the YC
+Winter20 batch. James is here hot off
+the news of raising a 75 million series
+Z round of funding at a $ 1.4 billion
+valuation, making Postto the latest YC
+unicorn. Today we're going to talk about
+how Postto got started, how they pulled
+off what I think is one of the best YC
+pivots of the last decade, and how they
+use attention and humor to compete with
+not just other tech companies, but with
+everything out there for attention.
+Welcome, James. Thank you for having me.
+James, could you tell us what is Post
+Talk? Explain it to us a little bit.
+>> Sure. So with YC, I always feel like
+this is my homework being marked by the
+teacher. Um, we help users to debug
+their product to ship features faster
+through kind of things like feature
+flags and so on. And we help keep all
+their kind of customer and product data
+in one stack.
+>> And tell us a little bit about um the
+state of the company, how how big it is.
+You guys are pretty big these days. G
+give our give our viewers a snapshot of
+what's going on at Post Talk.
+>> Sure. Yeah. So, we're about 160 people.
+Um, we're around 300,000 customers
+across like free a lot of free customers
+and paid. um we have several thousand
+paid. We have I think 16 or 17 products
+kind of in production or um in
+development. They're all at different
+kind of stages. And we've been I guess
+like at the moment the main thing we're
+doing and the reason kind of why we did
+a lot of raising this year. Um we're
+pushing very hard on getting more
+products still out of the door. So
+instead of kind of going up market,
+we're going just across more of kind of
+the customer data that people are
+generating. Um, and we're automating a
+ton of things through AI, which has been
+a long and arduous pro process. Um, but
+we're starting to get to the point where
+I'm starting to get proud of what we've
+achieved so far, but I still kind of
+feel like ah, we haven't got started
+yet. There's a lot more to go. Um, which
+I don't think is a feeling it will ever
+go probably, but um, yeah, it's like
+proving a lot of fun and we're just
+starting to scale up pretty aggressively
+now. Like we're I think we start at 70
+people this year. Um, and so we're
+supposed to be about 200ish by the end
+of the year or something. So it's time
+to get properly and to kind of scale up
+maybe at this point.
+>> So you've got this team, you've got all
+these customers, you have all these
+products that you're developing and
+improving on, but what what was the
+initial product that Post HTog started
+with? What was that the first thing that
+you guys brought to market as Post Hog?
+>> Sure. So yeah, the first thing that
+worked for us, we had a bunch of pivots
+before um was self-hosted product
+analytics because we pivoted so many
+times and every time we had to set up
+product analytics over and over again
+and we're just getting frustrated having
+to implement it. I think we found that
+there's an awful lot of really strong
+competition. Um, but we felt all the
+products were built for kind of product
+managers to force engineers to go
+implement. But as like reasonably
+technical, especially my co-founders, a
+very technical co-founder was just
+getting annoyed at like I can't I want
+to write SQL. I want to see the data
+underneath. I would like to keep this in
+my infrastructure so I don't lose data
+due to ad blockers. So we thought, okay,
+we think there's room for a self-hosted
+alternative. And we also we spent some
+time talking to potential customers. Um,
+and we found that quite a lot of people
+had self-built their analytics stack and
+we're maintaining this kind of junky
+system which we felt if we can
+productize something like that because
+new infrastructure and we could see this
+working quite well. Um, so yeah, we
+started with just open source product
+analytics on hacker news. We spent like
+the last four weeks of the batch uh
+desperately trying to get that out of
+the door and then we hit like we
+actually we didn't really pivot we
+iterated I would say afterwards and now
+we're all cloud-based with multi-roduct
+but that was the thing that landed um
+for us finally I think of postg um well
+there's this meme um among founders of
+pivot hell and it's a thing that YC
+founders talk about a lot where you're
+going from idea to idea to idea and
+you're trying to find something that's
+going to work and you guys not only came
+out of pivot hell and have built this
+awesome
+But what you built was literally forged
+in the fires of pivot hell,
+>> right? Like while doing these pivots,
+you had this pain that only came because
+you were doing the pivots and trying to
+do them at a high level, setting up the
+analytics over and over again. Tell us a
+little bit about how you guys actually
+got to YC and and started this journey
+of of pivoting and finding startup ideas
+that might work. my co-founder uh quit.
+We used to work together. Um and when I
+heard news that he was leaving, um I had
+also been thinking about leaving and
+that kind of triggered me to go, okay, I
+want to do my own thing. Um so I made
+sure to grab him and instead of getting
+him to go off and work in um another
+startup, whatever, I thought, hey, let's
+just do our own thing.
+>> And when he when he was leaving, was he
+leaving to join another company? Was he
+leaving to start something?
+>> Yeah, I think he was actually trying to
+get a job at Facebook at the time. He
+was doing an incremental kind of career
+move. Um and I think I showed up being
+like I think I have this idea that we'll
+probably have product market fit for in
+a couple of weeks time.
+>> Of course. Of course they are.
+>> Of course. Yeah. It's only a hop skip
+and a jump away and then we can just you
+know um I had like a I'd created a list
+of problems I'd encountered
+professionally thinking okay I should
+solve a problem I've had myself and we
+started going through the list but we
+thought we wanted to bootstrap
+initially. So the two of us were just
+like working out of coffee shops. One of
+the main problems we found was every
+time we went to see a customer, we'd
+have to buy another round of coffee. And
+so we'd often end up getting like
+whatever the coffee equivalent of wasted
+is basically. Um so eventually we we did
+this for about 6 months and we worked
+through an average of one idea every
+like five probably average about five or
+six weeks.
+>> Do you remember what any of those ideas
+were?
+>> Yeah. Um so the initial thing we tried
+to build was a sales territory
+management product. So, I used to run a
+sales I was VP of sales and I felt that
+like in sales, you're literally wasting
+over 90% of your time because deals
+don't usually win. They don't usually
+close. Like they usually just float
+around and gradually get killed off. And
+we thought if we get better at not
+focusing on deals that are closing, but
+on the ones that aren't closing, getting
+a bit more ruthless at using statistics
+to pull them out of people's pipeline
+and change the territory for the sales
+team is what I thought might work. Um,
+and it was just kind of really
+complicated um to build and I think
+because I'm much more technical than a
+traditional sales leader would be, I
+just think we built something kind of
+complicated and I don't think our go to
+market was right or anything. Um, yeah,
+we had this idea, we built it. I think
+the thing that was important or the
+harsh lesson I learned was my co-founder
+was building it. I was just trying to
+get interesting prospects to buy it from
+us. Um, so I had about I got through I
+got about 15 sort of series B, C, D um,
+sales leaders queued up saying they
+wanted to use this. Well, they said they
+wanted to use it. We got the first
+version done in a couple of weeks. Send
+them the link to create an account. Of
+the 15 um 14 of them didn't even click
+the link. One click the link and then
+didn't create an account. And we're like
+um it was like first good we should have
+read the mom test was the we hadn't done
+any of the user interviews correctly.
+Um, but I also it made me feel that
+building for sales people or sales
+leaders in particular, I feel the signal
+to noise ratio is pretty poor. Um,
+because they're really quite willing to
+hop on quick calls and are very very
+positive and kind of very friendly
+people. A little bit later it kind of
+dawned on us that we think we'd be
+better because we're not very good at
+product. We're terrible at product
+initially because we're kind of bad. We
+need to deal with people that are what
+they say is close to what they'll do.
+And we felt that like natural problem
+solver people like engineers or customer
+support people probably would be a
+better audience for us to work with
+because out of all the many variables
+you can get wrong. Like it might be like
+your product's incredible but you're
+terrible at explaining what it does.
+You'll still fail. Um and we thought
+that okay one of the variables we can
+remove from this equation is the person
+being a little bit um easier to read
+basically. And so that was a big part of
+why we wanted to build something dev
+tooly later on was that sort of
+realization.
+>> Um but yeah that was the first thing
+that we worked on. And so when you guys
+did Y Combinator, the product that you
+had was another pivot was having
+developers take surveys about technical
+debt when they would submit a poll
+request.
+>> And so you'd already done a few products
+by that point.
+>> You came into YC with another one. Did
+you guys have a like how did you kind of
+keep your spirits up or how did you
+track your trajectory? Did you feel you
+were getting stronger or better or
+closer to the target as you were going
+through these pivots? I would like to
+think that was true. I'm not sure it
+was. We didn't reflect on that. We
+should have asked like are we actually
+getting better each time around? Um I
+think we should have run a retrospective
+basically. I don't think we actually
+were getting that much better each time.
+There are definitely some things that
+were consistently very important to us
+though. Like for example, we went full
+gas on each idea. Like we didn't sort of
+like call it in. Like we would go in
+person to every single customer that was
+remotely interested, we would go in
+person to go meet. Like we started in uh
+England and came to San Francisco to do
+YC. like we'd catch like a bunch of
+trains and buses to get to a customer in
+some random place and like we would put
+the effort in to go really push it
+because then kind of what happens when
+we started charging for a lot of these
+products. You would find that oh I'm not
+failing this cuz I don't have a
+relationship or like I'm kind of
+friendly with this customer at this
+point and they still don't want to buy
+from us. This is a really good sign this
+product isn't solving the problem. This
+really demonstrates to me it's a nice to
+have. Like in my previous job, um, we
+used to sell comp like enterprise
+software for millions of dollars a year.
+And I can remember multiple times
+thinking I'm having to work kind of as
+hard to sell a like $50 a month SAS
+subscription as I was to sell like a
+$100,000 a year plus deal in my last
+job.
+>> I know that I've tried really hard. Um,
+and so I can rule out one of the other
+variables I guess is like, are you
+actually trying as hard as you could be?
+And we were. I think that helped us feel
+confident enough to go this just isn't
+working. So yeah, we just we worked very
+hard. And it look I I remember it
+feeling weird like on LinkedIn for
+example I talk about like hey this is
+what we're up to and it would be like
+one week it was like some dev tool next
+week it's a CRM thing. Um but we just
+didn't care like we just threw ourselves
+into each problem.
+>> There's an aspect of shamelessness that
+you have to have to just kind of keep up
+the momentum and keep trying and not get
+bogged down. I think it's easy for it to
+feel kind of lame almost. Like yeah, you
+have friends who are like in investment
+banking or they have these like proper
+careers and we're doing something that
+just seems so kooky, but like that's the
+bit I think that is a specific reason
+why most people don't run companies
+because that first bit is like all is so
+existential and all over the place. I
+think we just have faith that if we just
+keep making the input we're looking at
+is like are we making very regular real
+progress? So on the ideas we'd often at
+the start of the week be like okay by
+the end of this week what is the list of
+things we will feel good if we get them
+all done and it would be something like
+okay we want to do like 10 custom
+meetings build these three big features
+um and we just held ourselves to account
+on a like very short cadence all the
+time as people I think we got much
+stronger at things like product much
+later on once post dog had sort of taken
+off but I think we were just like very
+we just yeah put our heart into things
+we're very fast that was kind of all we
+needed I think realistically you guys
+were working through these pivots maybe
+getting better, maybe not. Trying to be
+wholehearted, trying to be consistent,
+trying to be really committed to the
+bit, maybe as a comedian would say, when
+you started with the open source product
+analytics, what became the final pivot,
+what signals did you get early on or
+signs that maybe this is it, maybe we're
+really on to something was a month
+before YC demo day. Tell us a little bit
+about how that unfolded.
+>> Yeah, so I think um we had a slightly
+higher level of excitement about this
+idea ourselves. I think we had had a
+couple of ideas where in our heart of
+hearts we weren't that interested in
+them. Like we were kind of doing them
+because we like felt like we had to get
+something to work. Um whereas I think
+this one and we had an office hours here
+and I can remember and we're like well
+we're kind of thinking about building
+this thing that will do two at the time.
+We thought there are two things are
+important. We thought we want to capture
+all user data completely automatically.
+Like we don't want anyone to have to set
+up event tracking manually. We didn't
+realize someone had already built this.
+Um and that didn't turn out to be
+particularly important. But then the
+second thing we're like we want to be
+able to self-host this thing so that it
+can say your infra and we came out the
+office hours I was going ah that's not
+the right framing it's open source
+product analytics then it's not just
+about it being your infrastructure it's
+also just like a whole vibe like I think
+immediately we were like we feel very
+confident I could see that really
+landing on hacker news that we both my
+both read it and it just felt like the
+kind of thing you would see on the front
+page so the level of excitement was a
+little bit higher for us I do think it's
+a bad idea though to like sometimes I
+see other founders they're like I'm
+waiting for an idea that I'm excited
+about but I think The reality is for us
+it's we had to just build a bunch of
+things to find the thing we're excited
+about. What we didn't do was like sit
+cross-legged on the top of a mountain
+waiting for inspiration.
+>> Um so by trying a few things we started
+going this idea just doesn't feel good.
+But we know that because we have tried
+it.
+>> You had to find something in the middle
+of what people want and what you're
+excited about.
+>> Yeah. Exactly. Um and so will I think
+doing stuff gives you much stronger I
+think it's like a Brian Armstrong quote
+but like doing stuff gives you much
+stronger signal more information. And
+then I think when we started booking
+interviews, it was a little bit easier
+to get people to talk to us. Um, but the
+big deal was on Hacker News when it was
+just on the front page and had like it
+wasn't the best ever. Like at the time
+it was pretty good compared to what
+happened before.
+>> It was a good launch. We had a good
+hacker news launch.
+>> But if you look at it at like sort of
+like 20 23 24 vintage hacking news
+launches, it was very mediocre, but it
+was enough to get an initial audience. I
+I think um I because I go back to
+people's old demo day slides a lot of
+the times when helping batch founders
+figure out what they should say. So I I
+pull up the post hog slide every now and
+then and I believe according to the
+slide and I think it's true it was the
+most uh upvoted dev tool hacker news
+post of the year. So pretty good. I
+remember being in the office hour you
+probably shared the idea with a bunch of
+people but I remember the first time I
+heard it and it just made a lot of
+sense. Uh there were a bunch of product
+analytics uh companies out there but no
+one had really gone all the way to make
+this truly developer focused by going
+open source. Um and so it just sounded
+like something someone should try. Uh,
+and uh, I wasn't that surprised that it
+hit when it the way it did and was
+really excited for you guys at the time.
+So, okay. So, you had this um, you were
+starting to get some users. You had to
+go out and raise money for this thing at
+demo day and you'd only been working on
+it for a few weeks at that point. What
+was that like? Like, how do you get your
+conviction up to go, you know, pitch
+investors about a product that's really
+only a month old at this point? It was a
+very mixed. Um, we at first we felt
+really good. We're like, okay, it feels
+like we can have this done in like two
+days or three days. Slam dunk.
+>> Yeah. Yeah, I think we're coming in
+going like, "Yeah, we've had a really
+solid launch." I think we were still
+buzzing a little bit after like oh it's
+such a a feeling of kind of relief that
+suddenly we've got something where it
+just instantly the day we launched it
+went from being a push basis to a pull
+basis getting people interested like
+suddenly it's just like we're trying to
+service all these random problems or
+feature requests and stuff we can see
+coming in and so we went out to raise I
+think very confident like we thought
+we'd kind of be pushing quite big
+valuation at the time and I think we
+felt that we will have this done in just
+a few days um but our the timing was
+horrible because it was 2020 in March
+And the same week basically co went from
+being this somewhat niche thing to
+changing the world and everyone just
+suddenly pulled out. So we kind of went
+from feeling like oh we've got like all
+the fanciest VC firms in the world are
+interested in this thing to everyone's
+pulled out and we're now doing like
+we're trying to get angel checks for
+5,000 bucks a pop to try and get all the
+way up to like raising a few million
+dollars. This is going to take a long
+time. Um so it was very peaky and we
+also had a lot of stress over like we're
+in the US still. My wife was at home and
+pregnant and I was worried about getting
+stuck in America and my co-founder left
+and because he was also worried about
+getting stranded, overstaying his visa
+and stuff. So there was just all this
+chaos kind of happening. We just kept
+plugging away basically. Um I think it
+was very easy to it would have been very
+easy I think to get disheartened and it
+was painful but we just didn't I guess
+we just kept going um was the main
+thing. And so we were doing angel checks
+um happily taking 5K off of people um
+until eventually we got um a proper term
+sheet um and that led to another one and
+then we um got the round done very
+quickly and then the market completely
+picked up like even just a few months
+later end up doing like a series A like
+a month after the seed round had closed
+but I think the statistics are something
+like
+>> I think we met 160 different firms in
+the seed round. I think for like if I
+added up the total number of pe number
+of firms I've met for the series A, B,
+C, D, and E,
+probably like 20 uh in total like 30 in
+total. It's it was by far the hardest
+round we had to raise. Uh but also we
+sucked it. It's not just them market
+like we sucked at pitching. We're trying
+to people please I think too much. Um so
+we would be like well they were like
+what are you going to do with the money
+and it's like well you know we'll like
+kind of get some revenue. We'll build
+some features which is very vanilla
+feeling. Um, and we had a lot of people
+rejecting us because they felt we were
+too early. But the reality was it's
+like, well, we're dealing with a lot of
+these investors have never invested at
+that time. They never invested in open
+source at all. Like the vast majority
+hadn't. Um, because it was quite it was
+much more unusual then. And I started
+realizing that I don't even believe that
+we'd want to spend money across all
+these areas. Like we actually just want
+to go full all in on the open source
+project for a while. Um, again, I think
+that's very bad advice for something
+that doesn't have competition that's
+making lots of revenue. So be very
+careful with something like that. But we
+started getting much more opinionated
+and that's what started that eventually
+landing. Hey, like you're out of your
+mind if you think we're going to go big
+on like hiring a big sales team or
+trying to go into the enterprise or
+something like it's just about building
+this like nice big inbound kind of
+community. We think is the if we can't
+do that nothing else will follow and we
+need to make really establish that
+properly. Um so yeah, we got much punch
+here.
+>> It's funny how that is. It's almost like
+investors are pretty agnostic on what
+the plan is. So long as there's a plan
+>> and that you you're really passionate
+about it and you've thought about it and
+you're ready to go execute on it.
+>> I think there's a Mark Benoff quote
+which is something like um it's better
+to be different than right. I think that
+it's almost the equivalent here where I
+think it's if you're trying to raise
+money, it's better to have a plan that
+than it is to necessarily be like
+somewhat correct, like be either very
+clearly right or wrong because you'll
+learn something from that. So, that
+round was really hard. You talked to 160
+investors. It took months to get the
+money. Yeah. Okay.
+>> Fast forward to this this latest round
+that you guys just raised. Obviously,
+it's 5 years later. Things are very
+different. The company's in a very
+different place. You have revenue and
+customers. What's it like to raise a $75
+million round? You know, how is that
+relatable to folks that maybe are out
+there trying to raise the first money
+for their company? What's that
+experience like?
+>> Yeah, perversely. It's easier. Uh like
+we had um we spoke to one investor for
+this round. We raised from Pete 15. Um
+this one called Chelendra that is the
+main partner, but also Anav um is
+involved as well. The round before he
+tried to take part in, we only had just
+gotten to know him though, so we kind of
+felt like we want to spend a bit longer
+with you before we raised with you.
+Basically, we did spend a little bit
+more time with them because we liked him
+as a person. They offered to do the next
+round preemptively and at first we
+thought it was a bad idea um because we
+just felt we don't know how we would
+spend this. We haven't spent like the
+round before the round before almost.
+But then at the same time what was
+starting to happen was we were
+getting increasingly confident on AI. Um
+what actually happened was I went on
+vacation and read um about some of the
+motives for why some of the co-founders
+built open eye in the first place and I
+thought the reasoning was really
+interesting. It was humans have a brain
+um it's a physical object. We can
+therefore build one basically and
+there's no technical reason we can't
+build ADI essentially. Then I just this
+is nerdy reading but I started thinking
+like what are the specific differences
+between your brain and LMS today and I
+kind of concluded there's a lot of
+things that could be built but I don't
+understand why they don't exist yet. So
+I therefore think that AI will I don't
+think it will flatten out like I think
+the rate of improvement may vary but I
+think over a long time frame it will be
+incredibly important to the world. So I
+got much more um bullish on its
+importance and then thinking at work I'm
+like okay I can definitely see a path
+like I just spent some time reflecting
+with my co I'm like okay how could this
+shake out basically like should we
+change our strategy if we both believe
+this is this important so at the time we
+were thinking about building like a CRM
+a support platform all kinds of other
+data customer data oriented products
+>> and everything was kind of working but
+we felt actually we can do so much more
+in the realm of product at first like we
+can build kind of product autonomy out
+um so we want to go deeper within our
+products that help you understand what
+to build. So we wanted to work on like
+at the moment we're working on like a
+desktop app for example that ships pull
+requests based on your customer data. So
+it'll look across all your session
+recordings or your analytics or your
+error tracking your LM traces go hey
+these are the issues we can see in your
+customer base we literally fix them
+whilst you're asleep. Um here are the
+pull requests. So instead of like please
+build me this feature it will be the
+flow is pull based. So it's like hey
+we've built these features based on
+what's happening. um you can just
+review, close, edit, merge them
+depending what you want to speed up
+development further. Um and we just were
+like, hey, let's just go we want to be
+able to go all in on this idea. Um and
+so we raised to have just like the
+comfort and the confidence. So a lot of
+it psychological like I don't think
+we'll manage to suspend it. Um but we
+want that's kind of the point. It's like
+this means that we can just fully
+embrace um our product strategy and take
+it bigger and just like increase the
+size of swing that we're taking. Well,
+and it sounds like what you're saying is
+uh you're able to fully explore the
+implications. Yeah. Of the original idea
+of post hog, which is understand what's
+happening in your product and what your
+users are up to. And there's all this
+stuff downstream of that like once you
+understand it, then you can do these
+things and take these actions. Yeah. Cuz
+we started thinking like, okay, it's a
+bit like if you're trying if your
+customer is like a painting that you're
+trying to understand. If you have one
+data type, um it's a bit like seeing a
+painting but only be able to see the
+color of blue. You're not going to get a
+nuance understanding of your customer.
+Like looks like they're not using this
+feature. we should email them to cross-
+tell them the new feature we've just
+built. But at the same time, your other
+data might be telling you something
+conflicting like they're really pissed
+off in support right now and this is a
+terrible time to automatically send them
+an email or something. So we kind of
+felt like and that's what a human would
+do it today is you kind of look across
+your tools and we thought oh we can
+basically just build something that does
+this. Um and so we set off trying to
+build basically a product manager that's
+a physical thing we can build it.
+>> Yeah. We don't want to build something
+that has like that we can't conceive of.
+We want to build something that exists
+but just like a better version. And we
+were like well there's a human product
+manager has product market fit like
+companies buy those that is sort of
+where the idea came from. Um so instead
+of just building because normally our
+strategy had been what are the products
+have product market fit have customer
+data we will build all of them it's more
+convenient but then we well also like
+you could consider the team members um
+and thinking about sales has product
+market fit in companies so does support
+so does engineering um so can we build
+those things now because it's now
+possible uh I think it's going to be
+correct that that works but we'll see.
+>> All right. All right. You mentioned to
+me before we started talking today that
+you're h this is like unexpectedly maybe
+you're having more fun than at any other
+point in the company so far.
+>> Um and that is a little counterintuitive
+to people. Uh a lot of founders say oh
+the early days are the most fun and they
+kind of look back nostalgically. Why do
+you think you're having more fun now
+than ever before?
+>> The the work feels much more leveraged
+now which is quite entertaining. I think
+before you're so much of our focus was
+trying to get attention from people
+because you have no attention by
+default. It's the world is very noisy
+and so I'm just like sending emails and
+LinkedIn messages into the ether
+basically and it just feels like I'm
+doing an awful lot of stuff that has no
+impact. Obviously when you do that like
+a tiny little spark it then leads to a
+big fire. Whereas now um it feels like
+we're playing computer game. We've just
+unlocked like rocket launchers or
+something. So it's like, oh, we can like
+go absolutely nuclear on this particular
+idea and like really fully build it out
+in a way that would be very hard to
+we're like lucky enough to be able to
+build this because it involves having to
+have like 15 or 16 products and also a
+bunch of AI stuff and we need to be able
+to like have the time to build this
+because like there's been remarkable
+work at like intercom where they built
+pin um and what we're trying to do is
+analogist to that I think but it's not
+making posto work with kind of what a
+couple of products it's trying to make
+it work across like 16 of them. Um, I
+feel like we're going much deeper than
+we've ever been. But it's enabled us to
+make a bet like that. Like I think
+similarly if we're starting from
+scratch, trying to build what we're now
+trying to build would be impossible. I
+think like SpaceX or something um is a
+much more grandiose idea. Like on day
+one it's not building um like the
+transportation from Mars. It's like day
+one's like we need to build actually a
+relatively unambitious satellite
+launching business. I think we've been
+we've sort of done quite a lot of the
+homework. That means we're able to now
+>> do these take the bigger test basically.
+>> I wonder how many products Post Hog
+would need to have to be as grandiose as
+ambitious as SpaceX. Yeah, it's an
+interesting comparison. You know, you
+mentioned like having fun getting this
+work out there. Like um I know building
+in public is something that you're keen
+on. What does that look like as a CEO is
+getting this attention, getting that
+spark and and putting it out there and
+trying to start a fire. How do you think
+about that and doing it in the open
+where people can see what you're up to
+and hear about it and follow along?
+>> Trust was the original reason for it.
+Like we just felt that even if you're
+offering like most of our users don't
+pay anything like you the open source
+project and no one paid but it still
+takes up there is a cost like it's trust
+in terms of what are they doing my data
+um and also just time with setting this
+tool up. I think especially software is
+getting more like as it's getting
+quicker to build. There's more software
+appearing. It's getting just more and
+more competitive. I think it's got it's
+become a step change more competitive
+with AI. And so we felt that okay the
+fundamental thing we have to achieve in
+marketing is we need to highlight how
+we're different because it's in a busy
+industry. Uh and then we need to build
+trust with users and like the foundation
+of trust we felt was transparency. So um
+instead of just having like a one pager
+landing page we're going to like really
+fully explain everything we can about
+who we are what we're trying to do. I
+think that gave us the trust we needed.
+Um, and we thought about kind of I look
+through other hack and use launches and
+just sort of summarize like okay these
+are all the pieces of critique I can see
+and so we're going to make sure we have
+transparent answers to these types the
+questions would be things like they
+don't have a clear business model I
+don't think this is sustainable for
+example there's like this sort of
+inherent suspicion of ideas and we
+thought okay let's just like think
+through
+>> these types of questions that we know
+that our audience developers would have
+and we'll just address them on the
+website. So we like you know we didn't
+have a pay product. We said hey this is
+how we think the pay product is going to
+work in future.
+>> And that was from like day zero. You you
+put some of those things in practice.
+>> Yeah. Like before we launched Hacker
+News. I think the other thing we
+realized from a content and like a
+marketing perspective was I think
+experts writing about things is more
+compelling often than non-experts. If
+you look at like the front page of
+hacker news there'll be like incredibly
+technically savvy people talking about
+very complicated topics quite often.
+>> And I thought man I'm like don't I'm not
+clever enough to get there but I need to
+figure out a way to get us visible in
+hacker news is like the probably the
+most popular place for our audience. And
+I thought well I am the thing I'm
+actually an expert in is our business
+and so I can write about what we're
+learning and doing and so I feel like a
+really natural topic. So we like we
+wrote a blog post also doing the Y bad
+batch like shortly after the launch of
+what it's like moving San Francisco.
+>> I remember that post. Yeah.
+>> Yeah. Um and again that was also viral
+but I think I build a lot of trust
+because it humanized us underneath. So I
+was like put photos in of like we
+climbed up like Twin Peaks for example
+in the night at night. I think people
+realize like oh there are human beings
+you know in the same way that someone
+might be really aggressive online but as
+soon as you meet in person they're much
+more chill. It's the same sort of
+feeling and we're trying to make that
+clear like with all our products today.
+You can see like the literal engineers
+that we have every single team member on
+the team pages. You can see all the so
+you can look at like product analytics.
+You can see the handful of engineers
+building it. You can click their bio and
+read about like their pet cat for
+example. So that you're like oh there
+are people building this. The
+humanization I think is really important
+to stand out basically. Yeah. It it lets
+people know someone's at home. You go
+visit this house there'll be someone
+there and you'll have a neat
+interaction. I actually I I think about
+your your moving to San Francisco post
+quite often over the years since because
+if you look at it, there's nothing that
+remarkable in the post,
+>> but you got it on Hacker News. People
+read it, they talked about it, it was
+discussed, and I think you're right.
+It's because you just showed some of
+your humanity behind uh this product
+that people could use. And everyone's
+looking for ways to relate to to folks
+like themselves. I remember when I read
+that I thought, "Wow, they can they can,
+you know, climb up Twin Peaks and write
+about it and get developers to want to
+check it out. They've got, you know,
+this is going to go somewhere." Um,
+building in public is one of the ways
+that you guys have really connected with
+developers. I think another aspect of
+that though is is humor and u bringing a
+sense of like marrynt, amusement, and
+maybe even a little chaos to how the
+Post Hog message gets across. One of the
+manifestations of that was present all
+over San Francisco this last year with
+the the crazy billboards uh that you
+guys put up. In my opinion, like there's
+billboards all over the city. When
+people move to San Francisco, they're
+shocked by all the tech ads everywhere
+on all the billboards, but I don't think
+I've seen anyone do quite what you guys
+did with your marketing. And so, I
+thought it'd be really fun to just take
+a look at some of these together and and
+get your take on what's going on here.
+So I guess this first one is about
+session replay ostensibly, but it's a
+also like an ad for tomato sauce and
+it's promoting the sweet taste of
+understanding. Where did you guys come
+up with this and what made you think to
+compare to Tomato sauce to session
+replay for example?
+>> There are a few things I think kind of
+by design we wanted it to it had to be
+different. So kind of our grand theory
+of billboards was how interesting your
+brand is. If your brand's normally here,
+everyone's a bit more interesting on
+billboards. Like if you just look at
+companies seem to come out of their
+shell a bit more on billboards than they
+do on their websites.
+>> Why do you think that is?
+>> I think they're trying to stand out
+basically, but I think it's a bit like,
+again, this is going to sound harsh, but
+I think it's a bit like watching like a
+first grader play football where they're
+going to dabble. Um, but like they're
+starting from a base of being a first
+grader where it's like, well, we're
+already pretty weird online, so our
+billboards need to be bizarre. like they
+need to be like totally out there. So,
+we should like lean harder into this,
+which we think will work because the
+whole point is like it has to stand out
+in the environment and we need people to
+we want people to talk about and see it
+and we're not trying to get conversion
+like it's you're unlikely to decide to
+install like our SDK whilst you're
+driving your car down the freeway.
+Instead of trying to please everyone,
+we're not going to care about
+conversion. We are just going to try and
+raise awareness. And then the other
+thing I think that had struck us was
+from actually doing a bunch of social
+stuff, we're like, "Oh, I can like spend
+the time to write a useful post based on
+something we're learning and that will
+work reasonably well to get some like if
+it's helpful, people will share it." But
+somewhat depressingly if we write like
+if I just write something I think is
+funny, it can sometimes go a thousand
+times further in terms of reach. So if
+I'm just trying to raise awareness, it
+has to be funny. Um it and that's
+actually the primary thing we want to
+get across and and so yeah we just
+really wanted to like crank as far as we
+could over on the like weirdness
+slightly funny scale. Um it is a real
+skill. I think we've been trying very
+hard to I think a lot of corporates or
+whatever do like corporate tryh hard and
+it's very hard to not come because
+you're obviously trying hard.
+>> Your stuff is almost a parody of
+corporate try hard. You've transcended
+corporate tryh hard. It's a very um like
+on hacker news for example people talk
+about like on hacker news it's like
+troll by fire basically where there's
+unbelievable level of criticism our
+marketing channel in slack is like that
+too where people like your joke is just
+not funny um it has to be better this
+you look like you're trying so it's with
+a very um heavy feedback culture in
+marketing.
+>> Let's let's talk about that. So before
+um a post hog uh tweet or billboard gets
+out into the wild
+>> what is the incubation? Yeah, it's a
+very small number of people will be
+involved like probably like three or
+four and it is a very high trust direct
+place and so we're really trying to get
+something that we think is genuinely it
+might be sarcastic but something that's
+genuinely funny to get onto a billboard
+um or genu like just something that's
+that would make our laugh or that we
+would want we are kind of doing them for
+ourselves like is it something I think
+would be quite funny to see is sort of
+the bar it feels like you're competing
+against B2B software because like
+there's all these like AI billboards
+that are quite similar to each
+Um, but I think the reality is if you
+want people to pay attention, it's like
+no, you're competing with like what
+they're listening to on the radio or
+what they're doing on their phone or
+whatever else. Um, and so the bar is so
+many times higher. Um, so it's like it
+needs to be like in the at least in that
+realm. Um, it's not just about being
+like doing a slightly better
+incrementally better job than other
+software companies and which is like
+impossing as Mr. Beast or something, but
+like the mentality is like oh I wish we
+need to be playing that game at least a
+bit more. Um, we felt that, um, we would
+make fun of adverts in general and so we
+thought like, okay, we'll do like a very
+like Americana style
+>> That's right.
+>> ad, but we'll make it like it's like a
+1950s thing, but for like AI software,
+whatever.
+>> Tastes better than spaghetti.
+>> Yeah.
+>> And you're done up here like the host of
+a um like a 1950s food show.
+>> Yeah.
+>> Uh, talking about your B2B B2B SAS
+product. Okay. And so why why 1950s
+Americana? Like what where was the
+appeal there? Yeah, I think if you sort
+of say like what's the most
+stereotypical kind of billboard ad you'd
+imagine. I think you sort of would
+imagine you would go back to like what's
+the origin of billboards? That's almost
+when you look at them from a positive
+perspective. I think of like oh like
+back in the day ads were kind of cool.
+They're like funnier, better thought out
+whereas now they've just got a bit death
+to humans.
+>> Yeah. Yeah. Or it's just like big words
+on a billboard with like no design
+element to it at all. And we thought
+like actually let's try and make
+something that's kind of a little bit
+like warm feeling um and pretty stupid
+like I was wearing like a frilly frock.
+>> And what about the decision to put
+yourself in all the ads? So, I was like,
+I don't they don't even realize this is
+me or they think they've got some like
+random middle-aged guy to turn up these
+ads. Um, either case is probably fine.
+Um, yeah, we did a lot with hedgehog. We
+did do some with hedgehogs as well, but
+we felt again it's just not quite as
+>> edgy. It's hard to make it not feel like
+too professionally
+>> done almost where it's like kind of
+kooky to have like
+>> a very average person on the ads or
+whatever. Um, instead of like something
+that we could clearly put tons of time
+into.
+>> Too hard on yourself, James. Uh, I mean,
+I agree. Like, I think these are great.
+My wife gives me so much grief. I get so
+excited every time I see a post dog ad
+around the city and my wife is like the
+spaghetti guys again. But it lets people
+know that someone's home. Yeah.
+>> That there's actual people behind this
+and that they really care a lot. You
+know, even things down the details in
+the typography like it sends a message.
+We are going to make a product that's
+also this well thought out and it's also
+trying to get you what you need to the
+same level.
+>> Yeah. I think that's just like a level
+of um signaling that like you know what
+you're doing to pull off an ad like
+this. Um because it I know it does show
+a level of savviness like the website is
+similar in thought process of like we're
+trying to demonstrate someone who isn't
+yet using our product that oh no they
+kind of get technology or they like kind
+of just get me as a person a little bit
+better than like a faceless corporation.
+Let's talk about your website. I think
+you've got the best website of like any
+B2B company maybe in the YC portfolio
+and I get in trouble for saying that but
+it's incredible. Your website's awesome.
+What was the genesis of going in that
+direction? cuz it wasn't always like
+that. You mentioned a little bit ago
+that early on you guys had a lot of back
+content, a lot of lore on Post Hog early
+on, but the website itself was still
+pretty typical um static website with
+some information for a SAS company. But
+now it's this whole experience
+simulating, you know, using a computer
+in post hogland. Where did this come
+from?
+>> I think a few things. I think we kind of
+since like 2021ish, the website's our
+sales team. like there isn't a single
+customer that won't go through the
+website before they buy
+>> the product and especially because of
+nature our audience. We're very self-
+served and so like well we should invest
+in this like it's that we don't have to
+hire a sales team it turns out in the
+first few years or we we had but it was
+tiny kind of like two people and so well
+I think it we can therefore justify
+spending like a ridiculous amount of
+effort on the website. The cost isn't
+that high but like we can put it's kind
+of the energy really because I think
+this will make us stand out. So I think
+a lot of people quickly 8020 something
+you can extremely quickly get to a
+polish website now like in a day you
+have a polish website. So everyone just
+does that and they're like cool I'm done
+now this is 8020 they move on and I'm
+like well like marketing to me is like
+because we're in a busy industry it's
+about standing out and so there's no
+point doing 8020 like there's it's just
+a missed shot. It's like actually all
+the respect on the website has come from
+like the last percent of effort where
+it's like no we're going to go like so
+insanely far past what is normal that it
+is remarkable which means that people
+will talk about it. Um because when we
+talked to users early on it turned out
+all of them are coming to us for people
+were showing up because they'd heard
+about us online or someone recommended
+us. Um and then we said why did they
+recommend you and it was all the tools
+in one low pricing um develop a brand
+and very technical support people
+>> and we have literally just done those
+things and but it's like okay we can't
+just keep doing them as it is we should
+be trying to
+>> crank the dial up further so it's like
+instead of building like three products
+we should build like 300 products um how
+could that work um or on the brand side
+it's like okay post is kind of weird
+it's like it needs to be weirder still
+like it needs to be so weird that it
+polarizes every day we'll get a whole
+bunch of people talk about that website
+and we we monitor all our brand mentions
+online and it's going to be like either
+this is literally the best thing I have
+ever seen and we also get this website
+is atrocious but we feel like we're
+polarizing it largely in favor of our
+audience more like I'm sure there are
+some people who are like what um but
+we're happy to
+>> push so hard in the direction we think
+is something cool for our audience that
+the people that aren't really our focus
+are going to we don't care if they
+disproportionately hate it basically and
+then partly the other thing that
+phenomenon that was happening was it
+didn't just come from like a pure
+aesthetic perspective we genuinely were
+trying to out how do we build a website
+that fully documents and prices for like
+15 or 16 products. But we also have a
+whole load of other things we built that
+we think are useful. So for example, we
+have a cool developer jobs board. It's
+like a jobs board where the filters
+instead of being just like location or
+pay range or something are like what
+kind of laptop do I get? Is the majority
+of the company developers? The stuff
+that an engineer actually would be
+interested in think about. Yeah. Yeah.
+And we reveal this as like kind of a fun
+project, but we're like well this is
+useful to our audience. We have that in
+there. We have like a handbook that's
+quite popular for people to read and
+learn from. like we you can learn how
+everything works like how much we pay
+people like when we let people go like
+everything is there and so that's like
+another thing we have a newsletter with
+like more than 100,000 subscribers
+that's also in there and so it just felt
+like the form of a website of just like
+a thing lots of pages you scroll through
+it felt like we're doing something more
+multi much more multi-dimensional than
+that that was yeah it's the two things
+it wasn't purely aesthetic it was also
+from experience but we actually thought
+it would be better reflect what we're
+doing post is quite a complicated
+company like again it's tempting to be
+like okay we should just have like a
+single landing page we're like one
+button you click and nothing no other
+information. It's not what our audience
+wants.
+>> You're kind of like spitting in the eye
+of the idea of a funnel. Um it's almost
+like instead of a funnel that you're
+trying to push people through, you're
+just giving them a great piece of cheese
+>> to dig into and enjoy and savor. Well,
+we were wondering what would happen to
+conversion rate and we were like we kind
+of knew this is going to tank the
+conversion rate is going to get we like
+this get much more traffic and the
+conversion rate is going worse. And I
+was like, well, like if we ongoingly had
+way more traffic and a worse conversion
+rate, I if I could like double our
+traffic and half our conversion rate, I
+would take that. And so we launched it
+kind of knowing that's probably what
+would happen. But we did also think like
+we think this is interesting enough that
+people will actually switch on for once
+online rather than just like sort of
+like trying to rush to get to the
+button. And like we also thought like I
+mean if a developer can't work out how
+to click get started when there's
+already like three of them on the page
+like you know that marginal person who
+maybe would have would not converted
+like I don't know. It just felt like
+you're playing like a weird game trying
+to appeal to that user. And so we think
+like of the marginal user, this will
+impress enough that they will convert
+despite the fact the conversion
+experience is very unusual.
+>> And so yeah, the conversion rate did uh
+it didn't actually tank. It was like
+10%ish off the top of my head. We're
+going to do a post on it. It was worse.
+Um we did like one experiment to change
+the flow slightly. Now the traffic's
+much higher. The conversion rate is
+significantly higher too. Um so it's
+performing better um from a conversion
+perspective even though it's like wildly
+complicated. My favorite part of the
+website, you have this uh unhinged merch
+shop that has some some deep cuts in it.
+And my favorite of the deep cuts is um
+visitors can buy a signed photo of James
+and Tim, the founders of Post Hog, and
+it's sold out. Someone actually came and
+bought
+>> I think we sold one. So, in fairness, I
+I love the yacht rock aesthetic of the
+photo, by the way.
+>> Yeah, we've had quite a few voting um
+off sites. This is supposed to represent
+Tim alignment, but I I was thinking
+about it on the way here and I was
+actually think I think the reason that
+feels funny is you go like this is
+represent Tim and I being aligned and
+close together, but this is what aligned
+would be
+>> we're close but something else this.
+Yeah.
+>> All right. Well, um thank you so much
+for spending time with us today and
+talking us through all this. Uh I know
+we have so many folks out there that
+follow um you the videos that we put out
+there looking for ways to break through.
+Yeah. And I think your point about like
+you have to be remarkable uh is obvious
+but overlooked so much today. And so
+thank you for sharing some of the ways
+that you guys have figured out how to
+try to stand out and be remarkable. And
+congratulations again on this latest
+round that you guys just raised. We're
+so happy for you guys excited here at
+YC.
+>> Yeah, thank you. Yeah, it was u
+monumentally important to us to go
+through the program. Um so um yeah, turn
+if you're listening like go apply to YC.
+>> All right, thanks for joining us today.

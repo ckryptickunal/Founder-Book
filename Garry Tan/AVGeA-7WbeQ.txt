@@ -1,0 +1,246 @@
+Title: The God of the Internet's Law is better than The Golden Rule
+Video ID: AVGeA-7WbeQ
+URL: https://www.youtube.com/watch?v=AVGeA-7WbeQ
+Channel: Garry Tan
+Published: 2020-06-30T14:30:11Z
+Duration: PT7M20S
+Views: 11111
+Likes: 629
+Tags: golden rule, internet history, jon postel, tcp/ip, postel's law, startup advice, psychology, strategy, business strategy, remote work, the golden rule, what is the golden rule, do unto others, do unto others as you would have them do unto you, garry tan
+Transcript Language: English - Subtitles (en)
+Auto-generated: False
+Snippets: 169
+
+Description:
+Everyone knows the golden rule. But do you know Postel's Law? Postel's Law is the guiding principle of the Internet. The Internet is rewriting everything we know about human relationships, so it's helpful to keep this in mind as we build the future.
+
+This is how Postel's Law enabled the proto-Internet and set the culture for the future of humanity.
+
+00:00 Intro
+00:37 What is Postel's Law?
+01:39 How Jon Postel became the god of the Internet
+02:03 How did Postel's Law create the Internet as we kno
+
+============================================================
+TRANSCRIPT
+============================================================
+
+- Everyone knows the Golden Rule.
+Do unto others as you would
+have them do unto you.
+But do you know Postel's Law?
+It's what allows the
+internet to actually work,
+set forth by someone who some
+call the God of the Internet.
+The Golden Rule is necessary
+to be a good person.
+But Postel's Law is necessary
+for creating something truly great.
+Let's get started.
+(upbeat music)
+The Golden Rule is the one universal
+of every culture and religion.
+Do unto others as you would
+have them do unto you.
+And that rule is necessary
+for a functioning society.
+If you want to be a good person,
+you got to live by this simple rule.
+But have you heard of Postel's Law?
+This rule is needed for
+the internet to work
+And the rule is simple.
+Be lenient in what you accept
+and be strict and what you put out.
+And you can see that
+in protocols like SMTP,
+which is email.
+You can enter the wrong
+command into the server
+and the server will tolerate it.
+And it'll try and figure out
+what you were trying to say.
+When you have computer programs
+talking to one another,
+written by different people,
+the receiving end is more lenient.
+The internet would
+break without this rule.
+And the web is built like this, too.
+If a web page had to be perfectly formed
+before they could be shown,
+most websites wouldn't show up at all.
+A web browser is very tolerant
+of mistakes by developers.
+Vint Cerf and Bob Kahn invented TCP/IP,
+but it was Postel who actually
+wrote the specifications
+that made the protocols work.
+He was the documenter and co-developer
+of many key internet
+standards, including
+SMTP for email, and DNS for name servers.
+In 1997, "The Economist" wrote,
+"If the net does have a god,
+he is probably John Postel."
+Now, how did this law enable the internet?
+You have to understand that the internet
+has no centralized top-down control.
+When people wanted to create
+something new, like email,
+they wrote a document called an RFC
+that discussed how these
+different computer systems
+could talk to one another.
+And instead of centralized
+top-down control,
+they wanted to create something
+that created individual responsibility.
+Each implementer is to hold themselves
+to the highest standard
+while being forgiving
+of the failure of others.
+And along with that, you
+have to strive for perfection
+in your own actions, while
+expecting far less from others.
+Without this, none of
+these systems would work.
+It makes sense that, in a way,
+as people were designing the internet,
+they were also designing a better way
+for human beings to interact
+through those computers.
+Postel's Law didn't have an impact
+on just computer protocols.
+They also had a deep
+influence on product design.
+Product designers have to be very careful
+about what they put on the page.
+And this is what it
+means to be conservative
+in what you send.
+The kind of UI, the kind of experience
+that you put out there matters a lot.
+You want to be as
+understandable as possible.
+You want to be strict and
+precise about what you put out.
+And you also have to be open
+to all the possible things
+a user wants to do.
+You have to be liberal in what you accept.
+Some good examples of
+better design might be
+a better date field
+that takes human input,
+instead of forcing you to
+click 20 different things.
+You might have a phone number field
+that, instead of forcing
+a particular format,
+is very accepting of what the user knows
+to be their phone number,
+regardless of what country they're in.
+Another example might be using
+a Google address search field
+instead of separate fields
+for zip code and city state.
+These things are rigid
+and not very liberal
+with user input.
+Postel's Law is very important
+when it comes to how to design.
+There are ways that you
+can put this into play
+in your own daily life.
+basically all of the time now.
+Things get very unbalanced sometimes.
+Vicious cycles start happening
+in some organizations
+if most communication is over text.
+It's very easy to misinterpret
+even simple and innocent communication
+as something more pernicious,
+or having a bite that
+just wasn't intended.
+Being liberal with what we accept
+goes hand in hand with empathy
+for what the sender was trying to say.
+If you can give a more charitable read
+to the things that you take in,
+then it adds slack to the system.
+When you get an email or slack message
+that triggers a hostile reaction,
+just take a moment, just breathe,
+don't answer right away.
+Think about the ways
+that the other person might have meant it,
+other than the way you read it.
+They might be in a rush, under pressure,
+or just didn't anticipate what they said
+would have been misinterpreted.
+If none of this helps, then take a moment
+and write back, ask politely,
+did you do something wrong to upset them?
+Easier said than done.
+But I know that for a fact.
+Interpersonally, be
+respectful in what you send
+and forgiving of what you receive.
+Postel's Law does have implications
+on management too.
+It turns out that codified protocols
+are much better than
+unspecified protocols.
+One of my favorite examples of this
+is actually what Elad
+Gil says you should do
+in his new book, "High Growth Handbook".
+He talks about having a user manual
+for your team and for the team broadly.
+What makes you tick?
+How do you get things done?
+How do you prefer people
+to communicate with you?
+If you specify a protocol,
+then that becomes a really good way
+for other people to come
+and work better with you.
+And if you don't write it out,
+how are people supposed to know?
+They're not mind reader's, after all,
+So that's Postel's Law.
+There are lots of really desirable things
+when you implement this in your life.
+You get a lot more diversity,
+you can work with a lot
+more kinds of people,
+they can be incredibly different,
+but they can still work together.
+And no control means that you can have
+distributed decision making,
+we can all arrive at a better
+solution faster and easier,
+and sometimes a better one
+than what you would get
+from centralized control.
+I still like the Golden Rule,
+because the Golden Rule
+applies to the basics.
+Don't kill, because we don't
+want to be killed ourselves.
+Quid pro quo.
+Postel's Law is more stringent.
+Be even better to others.
+If you want freedom and independence,
+this law is for you.
+If we all adhered to this basic idea:
+be lenient in what you accept
+and be strict about what you put out,
+well, we'd all become a part of something
+far bigger and better
+than the sum of our parts.
+Thanks for watching.
+(gentle music)

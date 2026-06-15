@@ -1,0 +1,677 @@
+Title: Tom Preston Werner at Startup School 2012
+Video ID: mGTpU5XUAA8
+URL: https://www.youtube.com/watch?v=mGTpU5XUAA8
+Channel: Y Combinator
+Published: 2013-10-25T10:40:45Z
+Duration: PT26M58S
+Views: 15434
+Likes: 224
+Tags: Y Combinator, GitHub, Startup School, 2012, Tom Preston-Werner, YC
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 655
+
+Description:
+Tom Preston-Werner, founder of GitHub, at Y Combinator Startup School on October 20, 2012.
+
+Presented in Stanford Memorial Auditorium by Y Combinator and the Stanford Technology Ventures Program.
+
+============================================================
+TRANSCRIPT
+============================================================
+
+hi
+everyone it's awesome to be back here
+was here in 2010 two years ago lot's
+changed since then I'm actually going to
+put this on the ground this is my timer
+you see part of being a founder of a
+company is solving your own
+[Applause]
+problems so I I was thinking about this
+talk and what I would talk about what
+the big questions would be for me about
+GitHub where we been where we going what
+does it mean to to start a company today
+and I figured most of you and especially
+after watching Ben's talk might be
+asking how do
+I as a budding entrepreneur raise $100
+million just like GitHub
+did maybe that's the question that
+you're that you're wondering pretty much
+anywhere I go now everyone says hey Tom
+how's it going what are you going to
+spend that $100 million on
+but this I think is the wrong question
+I'm not actually going to tell you how
+to do that I'm going to tell you
+something different and I think that's
+because at the end of the day money
+isn't actually what matters money is
+irrelevant what is money money is just a
+number in some bank's computer that says
+how many slides you can buy for your
+office right but that's not what we care
+about that's not what we're trying to do
+here we're not trying to just make more
+slides happen in the
+world so what does
+matter I think what matters is not the
+money it's other things so let's let's
+think about
+this I forgot my clicker I need my
+clicker this is going to be less
+impactful if I don't have my my thing
+okay thank you sir all right you guys
+are in for a treat okay now that I have
+this okay so let me let me let me make a
+a a posit let me it something for you
+guys a
+company is nothing except the decisions
+that it makes
+okay decisions are made by people okay
+with me so
+far so the only thing that
+matters are people okay people are the
+only thing that matters and those people
+then had better be the right
+people so let me tell you about GitHub
+in the very early
+days GitHub was started by myself and my
+co-founder Chris wroth initially there
+was two of us what I did was the design
+the front end the very the just the
+visual and the ux I also did the very
+back end which is how rails code
+accesses git repositories on discs so
+I'm I'm kind of this weird creature in
+that I do the front- end stuff and I do
+the back end stuff but I'd been doing
+rails for a long time before that and I
+didn't really like it I don't really
+like rails you can tell the world I
+don't actually like rails that
+much and so I I was you know in being in
+the Ruby community and and going to Ruby
+meetups this is how I found my
+co-founders and Chris wroth was very big
+into rails he had a blog post that that
+outlined everything about how to be the
+best rails developer you can be
+everything about it was amazing I said
+this is a guy that I can start a company
+with because we have complimentary
+skills I'll do the front and back end
+he'll do the middle part and together we
+have the whole
+thing and that worked out really well we
+just started hacking on it on the side
+side project but then shortly thereafter
+and here's here's a little tidbit about
+how can you tell whether your startup
+idea is actually gaining traction how is
+it how do you how can you tell if people
+enjoy it one thing that was really
+effective for us was when people came to
+us this isn't the private beta phase and
+they asked can I pay for this we had no
+Billing System and yet they wanted to
+pay for it they wanted to make sure that
+it would continue to exist so that it
+would continue to solve their problems
+so if you have customers asking you to
+pay for your company's product before
+you can even sell it to them that's a
+good sign so in order to accomplish this
+in order to get this company to a place
+where people could actually buy it we
+hired our third co-founder he came onard
+board it was just a few months after we
+had started and he as his first thing
+built the billing system this is PJ
+Hyatt so now we had two rails guys
+essentially and me still doing front and
+back end we're building out a better mix
+of people and skills to accomplish what
+we need to to get
+done our first employee that we hired
+his named Scott Chone he is a git expert
+so we reached a level in the company
+where we we kind of maxed out our git
+knowledge none of us were really git
+experts and yet we're building this site
+GitHub which is for hosting G
+repositories so again through meetups we
+met Scott we talked to him we talked to
+him about product about how he would go
+about building things and he was the one
+that built gist which is the snippet
+sharing site he built that from scratch
+as his first task uh bringing his git
+knowledge into the equation and so you
+can see we're assembling a broader
+diversity of people who can accomplish
+more things we max out our git knowledge
+let's bring someone in that can augment
+that and you'll notice that none of
+these people none of the four of us were
+business people none of us had ever
+really gone into business all that much
+I'd done some Consulting but that
+doesn't really count none of us had
+created large businesses none of us had
+an MBA background or a business
+background like
+that
+so none of us either were Executives
+none of us had this really broad
+experience in creating a company that
+you might as a as a person starting out
+think well how are we going to solve
+this problem well let's let's hire an
+executive because they know what they're
+doing now you have two
+problems here's here's the thing you
+know there are Executives and they're
+awesome great people but they know so
+much they know so much that it can be
+detrimental I think to a startup where
+you're really trying to solve a new
+problem in a different way you have to
+come to problems with beginners mind
+right not knowing something can be a
+very powerful tool into accomplishing it
+because you don't know that it's not
+possible that's what doing a startup is
+not realizing that something is
+impossible and doing it
+anyway something else that was a
+commonality between us the people in
+GitHub in the earliest days
+was having worked for bad companies
+before having worked in places where
+they did things wrong
+wrong examples of how not to do
+something are just as good as examples
+of how to do
+something and I think this is what
+companies are for companies solve
+problems great companies solve real
+problems
+and if you haven't ever experienced
+problems then how can you know what are
+the right ones to solve so you're all
+here to to do startups to join startups
+to create startups
+I think that if your options are create
+a startup or try you know go work for
+another company going and working for
+other companies is not so bad because it
+gives you this really excellent
+perspective on things to not do actually
+so getting experience elsewhere not so
+bad right a lot of great people that
+start startups had a bunch of full-time
+jobs before that I had five I had five
+full-time jobs before starting
+GitHub so suffering can sometimes lead
+to a better product for having that
+information something that's that's
+great with people is getting together we
+would meet for beers all the time and
+we'd talk over the problems that we had
+we go to a bar called O'Reilly's up in
+North Beach San Francisco and we just
+talk through the big problems right
+people are very important having the
+same ideas for the product direction is
+important getting on the same page for
+that stuff is what's going to allow you
+to push forward if you find yourself in
+a situation where you're not getting
+along with your co-founders or the very
+small team that you've created to begin
+with really step back and evaluate that
+problem because I don't think you can
+push forward effectively if you're
+fighting each other right look at that
+you should be getting along if you're
+not really really really think about
+what that
+means hiring is hard hiring the right
+people is incredibly hard sometimes
+you'll screw it up we hired a
+salesperson in the very early days and
+we had to let him go because he wasn't
+the culture fit and it was because we
+hadn't had experience with that kind of
+hiring before and that's okay you're
+going to screw up hiring you have to be
+in a place mentally where you can fix
+that later on by letting someone go it
+sucks firing people is the worst but if
+you're going to start a company you have
+to be the kind of person that can do
+that when it needs to get
+done and as your company
+matures and you go through these
+different phases things are going to
+change your role is going to drastically
+change over time in the beginning I
+described myself as the janitor I was
+fixing things things always need to be
+fixed I was always cleaning things up
+and fixing things documenting things
+things are going so fast that someone
+has to come back kind of fix things up
+every once in a while I Was the
+janitor and this I think is why titles
+are especially in the beginning
+of a company just throw all your titles
+away don't even worry about it don't
+bicker about who's going to be the CEO
+or the CTO or the CFO all that stuff is
+crap all that stuff is crap in the
+beginning there's way too much to be
+done to specialize that early
+on things change a little bit when you
+get bigger you start to specialize a
+little bit more and then it's really
+important to think from the early days
+do you have the right mix of personality
+types
+so for us I if I look at the the
+different people who are in the company
+in the early days and why we've been
+able to stay together as a team all four
+of us are still there today 5 years
+later I'm sort of The Logical pragmatic
+one of the group Chris is more of the
+product Visionary one PJ is kind of a
+business operations minded person and
+Scott guards the culture and creates as
+much happiness as possible these are
+four sort of different vectors and in
+having a discussion in all our all our
+decisions we would make by sitting down
+over
+beers and coming to a conclusion that
+was sort of in the middle we would all
+check and balance each other so think
+about when you're collecting the right
+people do they have the right kind of
+mix to be effective in the long term
+because that's what you're going
+for
+so always think about how every person
+can effectively push the company forward
+if you're going to hire someone how are
+they going to push the company forward
+because companies don't do things people
+do
+things and that's why people are all
+that matters and so I'm going to have
+the audience help me for this real quick
+I want everyone from here over to on the
+count of three so one two three and then
+go read this off say people are the only
+thing that matters okay are you ready 1
+2 3 people are the only thing that
+matters
+thank you you're an excellent
+audience but
+wait customers don't interact with
+people not when you're building a
+product so how can they be the most
+important
+thing product is actually the only thing
+that
+matters ah things are getting
+interesting I think when you're thinking
+about your product you need to start
+with design
+it's how your customers interact with
+your product it's what they see it's
+what they feel think of it like an
+automobile we all understand cars and
+trucks and things
+right this is your this is your
+experience this is what you're creating
+you're creating something that is like a
+vehicle vehicles to us make a lot of
+sense they've been refined
+year-over-year
+ferred a large part of the last century
+so they become very good we all
+understand them this is what you're
+going for or a product that feels so
+natural that it's like a car you can
+just get in you can drive it off the
+steering wheel's here this pedal makes
+you go and this pedal makes you
+stop that's the
+product and what you exclude from your
+product is just as important is what you
+include in your product take for
+instance Volkswagen the bug that had the
+little flower vase right what the hell
+was
+that now every time you get in your car
+it smells like dead organic matter and
+you wonder if Volkswagen the company is
+is just the same thing this dying
+company that's including these crazy
+things into their product what you what
+you leave out is just as
+important everything that you add makes
+everything else less
+important so if you've got your your
+awesome car right and and you put that
+big spoiler on the back
+then your neon ground effects aren't
+going to be as awesome because people
+are distracted by the
+spoiler so think about that everything
+that you add dilutes the entire
+product our designer our first dedicated
+designer that we hired Kyle NE has a
+very nice way of putting this he says
+Focus over
+features and I think that's a very
+important thing to remember especially
+when you're early you can't do
+everything so the things you do had
+better be awesome they better be the
+right things and don't dilute it by just
+tacking on every possible thing that you
+can think of thinking that users want
+just as many features as possible people
+want great products not as many features
+as they
+want if you screw up your design then
+you screw up your
+product so make sure that one of your
+co-founders is design-minded for us it
+was me if you're going to do a startup
+and you're thinking about okay I'm a
+technical guy and I'll you know I'll
+hire my technical friends and we'll
+start a company together no you need a
+designer go find a designer someone
+who's going to make your product
+something that customers want to use
+instead of stuff like the administrative
+screens of Open Source projects that we
+see today the big problem with open
+source is that there's not a lot of
+designers involved that's not what you
+want your company to be
+like another thing is to think very much
+about your mission what is the mission
+of your company and think that you
+should be able to say your mission in
+one
+sentence and in fact probably in less
+than 10 words so for us when GitHub
+started our mission was very simple in
+fact it was on the website some of you
+might remember it said gith hosting no
+longer a pain in the
+ass because that was the core problem
+that we were trying to solve make GI
+hosting really easy so you can share
+code with your friends it was a very
+simple
+Mission over time once we got further
+down the road of accomplishing that we
+started thinking more about developers
+as a whole what do they need to do to be
+effective at creating software it's more
+than just getting repositories online
+now it's about collaboration it's about
+them working together and so we changed
+our
+mission we stated it as make developers
+lives better every day so we expanded
+the scope of what we were trying to
+solve the then we started building
+internal tools for ourselves things that
+are beneficial to creating a software
+business and we started thinking about
+things a little bit differently still
+we're going broader we started saying we
+use GitHub to build GitHub because it's
+more products than just github.com
+things like some things that you have
+seen like the jobs site jobs. github.com
+things like gist a bigger Suite of
+products that can help you solve more
+problems and now the final Vision that
+we have
+now is what we call making it easier to
+work together than to work
+alone you'll see that it's completely
+divorced from software
+altogether and so I will actually answer
+your question what are we going to do
+with that $100 million it's
+that how many people in the world use
+code how many people in the world write
+code 30 million maybe 40 if you're lucky
+how many people are there in the
+world there's a lot more room to fix
+collaboration than just
+software but this took a long time to
+get to we didn't start with this idea of
+fixing collaboration for the world we
+started with the idea of getting a
+repository from your computer onto the
+internet that was
+it so remember that when you're solving
+a problem pick something that you can
+solve hopefully there's a direction that
+you can go that becomes bigger right but
+choose something small in the beginning
+that you can actually
+solve if you bootstrap like we did and
+your product becomes popular then you'll
+also be faced with a choice which is are
+we going to do this as a lifestyle
+business is our product going to be a
+lifestyle very Niche kind of thing and
+yeah it'll make your your life really
+your lives really good uh you can live
+with that that way that's awesome lots
+of people do this that's great but you
+also be faced with a choice which is do
+we want to blow this out do we want to
+change the world if people like your
+product you've got a bunch of users
+that's a choice that you will have to
+make I like to think about it like the
+TV show
+Lost how many of you have seen that show
+lots of you have seen that show yes I
+think the saddest thing in the world is
+a squandered
+opportunity and that's what lost was
+so that's the question when you're faced
+with that choice think about what do you
+want to do with your life what are we
+trying to accomplish I think you're all
+here today to solve big
+problems so maybe you've already made
+that choice but you might have to make
+it for real down the road don't squander
+an opportunity go for it don't be like
+lost for us it was the decision to to
+reinvest everything that we made in the
+company into the company instead of
+banking it out putting it in our bank
+accounts this is also why we raised $100
+million because GitHub is an opportunity
+we don't want to squander
+it don't worry too much about when you
+enter a
+market almost every product in the world
+is terrible look at the list of products
+the things that use every day most of
+them are just downright crap
+if you know this and this is something
+that Apple knows very well with devices
+like the iPad right how many tablet
+computers were there before the iPad
+dozens all terrible Apple comes along
+and through making a good product they
+won that's what product
+means and that is why product is all
+that matters so you Center section on
+account of
+three please help me in saying this
+phrase 1 2 3 product is all that
+matters but
+wait products only come into being when
+people make decisions like we started
+with and the best decisions are made
+according to a consistent
+philosophy so philosophy is all that
+matters
+philosophy derives from your people at
+GitHub we never set out to create a
+specific
+culture the people that we hired created
+the
+culture at some point you might want to
+codify this culture that is inherently
+created through the people that you hire
+so that you can communicate it
+well let me briefly explain what to me
+the the five core values of GitHub
+are number one optimizing for happiness
+if you want to learn more about that
+watch my talk from two years ago
+optimizing for happiness means think
+about what you're doing and how it's
+going to create more happiness in the
+world for your customers for your team
+members and for your
+shareholders if you do options like most
+startups do then your team members are
+also your shareholders if you raise
+money then your shareholders are part of
+that equation as well
+if you do those things if you optimize
+for happiness my theory is that profits
+will result
+naturally and it puts you on the right
+path to do things that
+matter number two best argument
+wins this means that it's not about ego
+it's not about who you are where you
+came from it's about making good
+arguments backing them up and being
+open to other people's arguments this is
+critical to avoiding politics within a
+company if you can argue about something
+that matters and the argument is the
+thing and not the people behind it then
+you can have good results you can create
+good product and you can avoid
+politics number three working from first
+principles everything that we do we do
+from scratch you might think this is
+very inefficient sometimes it
+is but we think through every problem
+that way because GitHub is a unique
+company just like every company is
+unique you can't just take the ideas
+that work for some other company and
+apply them to yourself and in fact you
+can't take the ideas that I give you
+today or that anyone gives you today and
+just copy them and expect them to work
+for you you have to think about what it
+means for your
+company this is how you create something
+new something
+better number four create super
+fans Travis has talk about Uber and how
+they Delight their users on certain
+holidays giving them a motorcade that's
+the kind of stuff that I'm talking about
+for us we do drink UPS it's like a
+Meetup accepted to the bar and we buy
+you beer for developers this turns out
+to be incredibly
+effective that's just one of many things
+how we deal with support what I love
+about our support team is that we
+measure our success the success of a
+support interaction by Counting how many
+EX exclamation points are in the
+response from an end
+user that's creating super fans creating
+that kind of experience that goes above
+and beyond what is
+expected and number five be awesome and
+change the
+world that one's pretty
+self-explanatory so if you have a strong
+culture you can use it as a hiring tool
+it's amazingly effective and this is
+really critical today as it becomes more
+and more difficult to hire as all of you
+who would normally be entering the
+workforce are instead starting your own
+companies the pool of candidates is
+smaller the competition is
+higher since the early days of GitHub
+we've evangelized our way of working our
+culture and our values and the
+philosophy that gives us that higher
+purpose all of this allows you to
+attract the kind of people that
+Naturally Fit your
+philosophy and so those people that
+you're attracting through this
+communication will make the right kinds
+of
+decisions and since decisions are how
+make people make
+products the philosophy that guides
+those decisions is all that matters so
+please third segment of the audience on
+three one two 3 philosophy is all that
+matters I'm not convinced that you
+believe it but
+okay so I've told you three things that
+are the only things that matter how can
+that possibly
+be which of these things three things is
+the only thing that
+matters I don't think I have to answer
+that question I think it's a false
+trichotomy someone really enjoyed that
+joke thank you oh hold on I'm not done
+yet hold on hold on hold hold
+on I'm not just going to end on false
+dromy
+okay in reality in reality just
+like the three quirks of an atom cannot
+exist on their
+own people product and philosophy are
+also
+Inseparable
+so do you guys remember what was the
+only thing that mattered people do you
+guys remember the only thing that
+mattered product do you guys remember
+the only thing that mattered philosophy
+on three everybody say what you said
+before together one 2
+3 if you master these
+things then you will finally have the
+answer to the question how do I raise
+$100
+million thank you

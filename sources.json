@@ -1,0 +1,41 @@
+{
+  "_comment": "Watched content sources for the background auto-sync (auto_sync.py). Add channels/essay sites here and the daemon will discover, transcribe, and ingest new content automatically. 'channel_id' is optional: leave it null and it will be resolved from 'query' once and cached back into this file.",
+  "youtube_channels": [
+    {
+      "name": "Garry Tan",
+      "query": "https://www.youtube.com/@garrytan",
+      "channel_id": "UCIBgYfDjtWlbJhg--Z4sOgQ",
+      "folder": "Garry Tan"
+    },
+    {
+      "name": "Y Combinator",
+      "query": "https://www.youtube.com/@ycombinator",
+      "channel_id": null,
+      "folder": "Y Combinator"
+    },
+    {
+      "name": "YC Root Access",
+      "query": "YC Root Access",
+      "channel_id": null,
+      "folder": "YC Root Access"
+    }
+  ],
+  "essay_sources": [
+    {
+      "name": "Paul Graham",
+      "kind": "paulgraham",
+      "index_url": "https://www.paulgraham.com/articles.html",
+      "base_url": "https://www.paulgraham.com/",
+      "folder": "Paul Graham",
+      "id_prefix": "pg"
+    },
+    {
+      "name": "Sam Altman",
+      "kind": "samaltman",
+      "index_url": "https://blog.samaltman.com/",
+      "base_url": "https://blog.samaltman.com",
+      "folder": "Sam Altman",
+      "id_prefix": "sa"
+    }
+  ]
+}

@@ -1,0 +1,1377 @@
+Title: How Amplitude Went From Skeptics to “All In” on AI
+Video ID: t8co94HS6tY
+URL: https://www.youtube.com/watch?v=t8co94HS6tY
+Channel: Y Combinator
+Published: 2025-12-03T15:01:50Z
+Duration: PT44M22S
+Views: 47158
+Likes: 775
+Tags: YC, Y Combinator
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 1355
+
+Description:
+Spenser Skates has spent more than a decade building Amplitude from a YC startup into a public company, and in that time, he's had to reinvent himself just as much as the product.
+
+Joining the Lightcone pod, he talks through the shift from founder to large-company CEO, the skepticism his team initially had toward AI, and the moment they realized the next wave of analytics would require a full reset. He walks through the hard reorgs, the bottom-up experiments, and the mindset changes that let Amp
+
+============================================================
+TRANSCRIPT
+============================================================
+
+there is a point that you get to a year
+maybe two years in where from a rational
+standpoint you probably should quit but
+for whatever reason um those successful
+ones don't and so that is the number one
+filtering criteria the best advice I can
+have is be clear in your own head about
+what you're trying to learn and then you
+know be open to where it comes from and
+that's what I think people [ __ ] that up
+a lot they don't get really crystal
+clear on why they're trying to build a
+startup or what they need to do to be
+successful there is going to be a
+reinvention of analytics uh in the next
+few years and you know we we want to be
+the ones to go lead
+Welcome back to another episode of the
+light cone. Today we're really excited
+to be joined by Spencer Skates, CEO and
+co-founder of Amplitude. So Amplitude
+went through YC in winter 2012.
+Amplitude is one of the world's leading
+analytics platforms and they're used by
+some of the biggest companies in the
+world like Curser, Door Dash, and
+Walmart. Thanks for joining us, Spencer.
+>> Absolutely. Good to see you here, Harge.
+So, I was really excited to have you
+here because both of us made people on
+the internet angry recently,
+specifically on X or Twitter. Um, I made
+them angry because I said that a lot of
+the reason incumbent tech companies
+can't build AI products is that the
+engineers are kind of grumpy and don't
+believe in AI and its capabilities. So,
+they don't want to build the product.
+People got mad at you for that.
+>> Yeah, people got really mad. Turns out
+that like there are actually a lot of
+grumpy engineers that don't believe in
+AI. So I was curious to hear for you as
+like a a company that started well
+before the AI wave and is now um trying
+to move in is moving into AI and
+building more AI products. How has that
+change been for you and what have been
+some of the challenges you faced? It is
+hard um as a larger company to reorient
+and rebuild your company to use AI well.
+Uh and this is I think to your point the
+huge advantage that a lot of earlier
+companies that can build from the ground
+up in this way. I mean, I I'll just tell
+you the the Amplitude story. So, we we
+were frankly skeptics on AI for a while,
+too. So, started to become relevant in
+2022. Uh 2023,
+um there's discussion, but we we didn't
+really do that much. And it wasn't
+until, uh late in 2024 that we're like,
+okay, we need to get serious because I
+think this is has the potential to
+reshape analytics and what we're doing.
+Um I I think you know just to defend the
+skeptics for a second I think I I
+remember being in a board meeting once
+you had like you know all these like
+board investor finance people and you
+had all these sales people like hey guys
+shouldn't you look at this AI thing like
+isn't that getting hot shouldn't you
+guys do it and it's like
+>> what's your AI strategy?
+>> Yeah exactly exactly yeah actually that
+literally was a question like from one
+of our execs to me is like we got to get
+our AI strategy. What's our AI strategy
+Spencer? And I'm like, this is the wrong
+way to think about what it is we're
+doing. It's like, if you guys think it
+is, you guys think you can figure it
+out, go do it. And I remember one of my
+co-founders, Jeffrey, um, actually was
+the most frustrated because I think he
+saw a lot of grifting happening in AI
+being like, oh, it's going to replace
+all these jobs and like, you know, it's
+going to do all these things and we're
+not going to, you know, it's going to
+create this world of abundance and it's
+it's just going to totally reshape how
+we're building products and shipping
+them and how our customers are using
+them. But the uh the reality was if if
+you use any of these models at this
+point, it's like it was not it was not
+clear at all. I I think if you look at
+the capabilities of any of these models,
+it's like they're very very jagged. So
+there's some things they're exceptional
+about. Uh and there's some things that
+they're just absolutely terrible about.
+I think the frustrating part is to be
+told by someone who has no clue about,
+you know, what what stuff falls in what
+buckets like, "Oh yeah, you should do
+more of this AI thing." Um it was very
+very it was that that that was that was
+frustrating. And so I think there was uh
+there's frankly skepticism on my part.
+There's there's skepticism on the part
+of of my co-founders um and and some of
+the broader team with an amplitude about
+what was actually going to be possible
+with it. Um
+>> but something changed.
+>> Yes. Well, I think you you saw the
+transformative effect that AI had on
+software engineering. Like no question
+if you were using I mean started by
+cursor but then you know all these other
+amazing tools cla
+you know tons and tons of others it was
+it was very clear that you would be a
+lot more productive using these things.
+Um, and so that was kind of the first of
+us saying, "Okay, there's something
+there there and let's go after this."
+Um, so we really uh started on this path
+in earnest in around October of uh 2024.
+And kind of two things happened then.
+One, I hired a new engineering leader,
+this guy Wade Chambers, who's a Silicon
+Valley legend. The other is uh we
+acquired this company, Command AI, also
+a YC company. Uh in both their cases,
+they were kind of the change agents that
+Amplitude needed. So Wade uh had been
+working on AI uh to in his previous
+company and had known a bunch of uh
+people who were on the bleeding edge of
+leveraging the capabilities of models.
+They had been building a product where
+they were trying to they're they're
+doing a bunch of different things, but
+they were trying to uh smartly trigger
+guides uh to end users to based on if
+they were confused. Uh and they, you
+know, created this this chat bot that uh
+uh very much like an intercom Finn that
+would uh yeah interact with users and
+you know, help them answer questions and
+and stuff like that. And um they had
+been you know on on leveraging a bunch
+of model capabilities. That was kind of
+the the first point that we started to
+to get serious about it. And then since
+then, it has been a
+very I'd like to think we're kind of
+coming up. I mean, we just launched uh a
+whole bunch of AI products in the last
+few weeks. Uh we did AI feedback, we did
+AI visibility, we did uh our MCP server,
+and then we're going to go much much
+bigger uh in December, January, and
+February. um where we are going to be
+coming out with uh what we call the
+cursor for analytics which I'm
+incredibly excited about and I think
+will dramatically change how people uh
+use and leverage analytics but it it's
+it's taken um to transform you know
+amplitude as an organization I like to
+think we're still small we're about 800
+people product engineering and design uh
+that organization is about 200 people so
+you know it's like you can know most
+people um in it and and change pretty
+quickly it's still ch taken us a full
+year uh to get the team uh kind of fully
+on board and ramped and like believing
+and and seeing and building.
+>> Chat GBT launches, AI starts taking off.
+Um and it sounds like your investors and
+board members and maybe people who
+aren't in the day-to-day are sort of
+like, hey, what are you doing with this
+AI thing? What about
+>> they read about it in Techrunch or
+something? Yes. Exactly. Exactly.
+>> What about internally? Like what was the
+vibe internally at Amplitude on the
+team? Like was there anyone internally
+asking hey like should we be building AI
+products or doing something with AI?
+There were a few uh people that were
+kind of testing out ideas but I I think
+we were so focused on our regular motion
+like we were coming out with a lot of
+other products outside of analytics. We
+were doing you know we launched
+experimentation we were building session
+replay internally we're building this
+thing uh activation which targets your
+users based on their behavior. And so
+there there was a lot to do
+that was just kind of right in front of
+us. Um that was clear like okay hey we
+can be much more competitive with uh you
+know and and there's this revenue that's
+just sitting here if we go build these
+things. You know, there were a few folks
+that were messing around with it and
+there there were some people that had
+used cursor and other things, but the
+the organization as a whole did not have
+it's not like it was conscious and aware
+of this change, this this this massive
+change that was about to happen. I give
+a lot of credit to Wade and I give a lot
+of credit to the command team of being
+the tip of the spear in terms of showing
+people what is possible um and then
+getting the organization to to embrace
+by uh early 2025.
+I was convinced and I was like all right
+we have to be very aggressive on this.
+Um so the first order is to train the
+organization of what the capabilities of
+AI are specifically engineering.
+>> What was like the light bulb moment for
+you when did you flick into this needs
+to be my priority?
+>> It's hard to say that there was there
+was one moment um we've always had this
+vision at Amplitude of a self-improving
+product where you have a product that
+dynamically responds to your user
+feedback. So, it knows what features you
+like. It knows when you're getting
+frustrated and stuck. Um, it knows how
+to change things based on your input as
+a user. Um, and I had always thought
+this vision was like, you know, 10 years
+out if if if you know, if if even that
+close. And one of the things that was
+becoming clear, it was actually a lot
+closer uh that that moment was actually
+probably a lot closer than we had
+realized uh because of what we saw
+happening on uh the coding side with AI.
+I said, "Okay, look, we, you know,
+whether or not a self-improving product
+is going to be possible, it's clear at
+least a step towards it. We're going to
+have to go do it." So, and the way to do
+this is we're going to have to train the
+the organization on this. I started
+working with, uh, James, uh, the founder
+CEO of Command, as well as Wade, um, our
+engineering leader, to
+figure out how do we train the
+organization on AI? and we we came up
+with an AI week and unfortunately for a
+bunch of reasons we weren't able to
+actually do that until June but that was
+a that was a key uh pivot point what we
+did was we got a bunch of the existing
+leaders in the organization so you know
+our VPs of product our engineering
+managers to use this technology and to
+see what was possible about it and then
+during that AI week what we do is we
+train the team we had our like our one
+of our product leaders you know uh vibe
+mode like a dark mode for amplitude in
+front of the entire organization which
+was actually very scary but actually it
+it happened you know they ran into a bug
+but they happen to sort it out. Um it
+was actually kind of a cool moment
+because the entire uh engineering
+product and design organization saw what
+was it's like wow okay you know all of
+the leaders within amplitude are saying
+this is the thing and they're showing
+how they're doing it and you know I
+better get with this as well and then
+the rest of the week you know so we did
+training for about two days um and then
+the rest of week was just you know like
+a hackathon work on stuff you're already
+doing except you know do it faster and
+better uh by you know getting set up
+with cursor as well as a bunch of these
+other pieces of tooling. So step one is
+B was actually not like here's what we
+need to build at amplitude with AI. Step
+one is just get the existing team using
+the tools and and bought in and
+believing in them. This is the core
+difference between building product and
+SAS and building product with AI. In SAS
+SAS I mean it's the best business model
+and the best product delivery system of
+all time. You go to your customers, you
+ask them what they want and what they're
+going to pay for. You prioritize that
+list and you start building it. you get
+them to those customers and then you
+just do the whole thing over and over
+again. That's the delivery loop that
+Amplitude has mastered over the last
+decade. And you know, that's that's our
+core competitive advantage, you know, as
+as an analytics company is we're better
+at that than uh anyone else. The key is
+you can go to your customers, they can
+tell you what they want. Um with the
+capabilities of AI because they're so
+jagged, you it's a technology first
+understanding of what is possible. And
+so if you go to your customers and tell
+them and ask them what they want, like
+they're not even going to be able to
+describe what's possible.
+>> Give me a faster horse.
+>> Yeah. Give give me a faster horse, you
+know, or or it'll be asking for
+something that's not quite possible or
+possible in the wrong way or like, hey,
+you know, I want something that ships
+insights to me and, you know, does it in
+this particular way and you'll get all
+sorts of different visions of it. Um,
+and what's much more important is you
+you have to be familiar with the
+capabilities of the models and then how
+those can map back into what your
+product does. The thing that I just find
+really surprising about this is usually
+the way it works with new technologies
+is like the engineers are the early
+adopters and they are usually like
+bugging their like company. I really
+want to use like this tool. I don't like
+and it's like the companies are
+resisting saying it's not like tested
+yet. It's not safe. But like it seems to
+be a more common pattern with AI that
+it's like going the other way. It's tops
+down.
+>> Yeah. Like why do you think that's
+happening?
+>> Um I I mean it's going to sound
+extraordinarily reductive, but I I think
+I think Sam Alman is the best
+salesperson of of this generation by no
+bar none. like I think he has done an
+exceptional job stating a very ambitious
+vision getting a lot of people rally
+behind it at OpenAI um showing what's
+possible and convincing you know the
+entire world of the impact that this
+technology is going to have and so you
+have these you know exe investors
+already bought in executives are bought
+in you know world leaders are bought in
+like you know as a society we you know
+the the the people in power have said
+hey this technology matters and the
+reality is the capabilities are still
+trying to catch up and it's not clear if
+they'll catch up to those aspirations.
+Um and so you have to your point Har the
+opposite disconnect happening where you
+know yeah you have a lot of desire for
+this thing to happen but you know it's
+not clear if the capabilities are are
+there yet and so this is why you know
+you had a lot of frustration you know in
+amplitude as a case study you have a lot
+of frustration from engineers being like
+man I see just tremendous what they feel
+is grifting in AI where it's a lot of
+talkers not many doers you know it's
+it's not till the last year that you
+know okay hey we think the capabilities
+are here for it to transform the uh the
+business that that we're in in
+analytics.
+>> One thing that comes to mind is this
+mode of running the company more like
+founder mode is even more present and
+there's a story of the transformation
+with case techs where just founder le to
+do that transformation. Sounds like this
+is what's going on with amplitude 2 is
+coming from from you.
+>> Absolutely. So I've had to learn over
+the last 10 years how to be go from
+being a founder to being a large company
+executive. there is no way to understand
+what is possible than being using the
+technology and being on the front lines
+of it. And so, you know, that's why it's
+like, yeah, you train the entire
+organization and it's a much more
+bottoms up thing on what is possible.
+And so, out of that AI week came
+basically all the AI stuff that we're
+working on now. So, uh, our MCP server,
+which we didn't even plan for, like that
+was actually one of our engineers, uh,
+Brian Giori, who was incredibly excited.
+you had uh one of our engineers, this
+this guy named Leo Jen who built AI
+visibility and he just wanted to he was
+actually going to leave Amplitude to
+start a company and we're like look just
+come here stay here learn how to do this
+while getting paid and we'll we'll we'll
+teach and coach you and then you know
+we'll fund when you whenever you do go
+something and I didn't even want him to
+do AI visibility but he was like oh I
+think that there's a huge opportunity
+here uh to like build something for free
+and give it away and you know now that's
+now like you know there it's been this
+explosion like we have that la product
+launch doubled uh new signups to
+Amplitude which is wild you know like
+every week it's like we're getting twice
+as many uh signups to our free plan as
+we did uh from before our AI visibility
+launch um all the way to what we're
+going to be launching in January which
+is we're going to launch um a what we're
+going to call Ask AI which is a global
+chat interface very much like cursor
+where you will be able to chat uh with
+uh yeah chat with AI and ask it to pull
+pull certain charts for you or do
+analysis or figure out why something has
+happened to you for uh within uh uh
+within you know your data uh and pull
+that back out to you to our agents to
+like so many different things have come
+out of this uh from but it's it's all
+been very bottoms up and then it's about
+you know for me and for Wade um to to
+sculpt okay how do we set these up in
+the organization for success
+>> so not many uh large companies like
+yourself have been able to do this
+transformation a lot of them are
+stuck and it's been probably very
+painful to overcome. What are things
+that you had to give up to get to where
+you are right now?
+>> I mean, we've done two reorganizations
+in uh the the engineering product and
+design organization since the since the
+start of this year. Um, and so, you
+know, there were leaders and executives
+and and different people who were very
+much kind of in the SAS modality, but
+were not on the bleeding edge of AI that
+just unfortunately were not quite the
+right fit for what we were trying to
+build in the future. And so, ended up
+having to move folks out of the
+business. I mean, doing that level of
+reorganization, you know, twice in a
+year is very disruptive. We've also
+acquired uh other companies. So, uh, we
+brought in uh the Craftful team and Jana
+who's been phenomenal. We brought in uh
+uh Eric uh and Frank uh from Anari. Uh
+we brought in also a YC company. We
+brought out Enzo and Fuio from June also
+I think YC YC company. Yeah. So so we we
+brought in all these great YC founders.
+Um uh and then kind of melded them with
+a lot of uh longtime ampliters. Um and
+that combination has been very very
+special. What are like the the specific
+differences? So for people who are
+really successful I I think especially
+engineers like who are successful in
+sort of preAI SAS world kind of grew up
+in that environment and then you compare
+like what are sort of the things that
+they're I know lacking is the right word
+but what are the things that they can't
+see or they're not as naturally adept at
+as people who came up in sort of postAI
+world and are like AI native engineers
+and believe in it deeply.
+>> To say the more uh uncomfortable thing
+like is it an age gap? is an age gap.
+It's not an age thing per se. It's a
+mentality thing. Like in the SAS world,
+you can take you can do that loop I
+talked about earlier. Talk to customers,
+ask them what they want, prioritize that
+list, build it, deliver it, do it again.
+Like you you you kind of I don't know,
+it feels very cliche to say, but you you
+want to take kind of the
+state-of-the-art in whatever field
+you're building for and then start to
+say, okay, if I were to redo this in an
+AI native way, why? On the flip side, I
+think what a lot of these AI native
+teams are really missing is they haven't
+learned the product and the problem and
+why things are solved the way they're
+solved. And so like they try to create
+these new interfaces from scratch
+without drawing on the previous, you
+know, expertise that's happened over the
+last decade on whatever problem that
+they're solving. And so, you know, if
+you try to build an analytics interface
+from the ground up where you're just uh
+say, you know, starting with questions
+and you're not seeing your data, it's
+actually that's actually has its own set
+of challenges. And so I I think um you
+know what I'll say with the Amplitude
+team is like there's some incredible
+engineers there. I think the ones that
+have adapted the best have always been
+very in tune with okay the code is not
+an end in itself. It just uh like
+shipping it. That's just a side effect
+of solving whatever problem for the
+customer and then hey now I need to get
+up to speed with this new technology and
+if I can marry those two things then I'm
+going to create something amazing. I
+guess one of the weird things I've
+noticed in my own behavior is um we have
+an internal agent infra at YC and it has
+access to all our you know databases and
+everything like that and then Jared
+recently told me I'm like sort of a
+super user for it and then what I
+realize is uh I don't basically it
+actually fails most of the time still
+but I just like try and ask it in a
+different way. I tried, you know, if it
+failed with Gemini 3, then I'll try it
+with, you know, Claude, I'll try it with
+GP 5.1, like I'll change the reasoning
+levels like, and then eventually I
+figure it out and it's like, and it
+works. So whereas like in B2B SAS andor
+building, you know, sort of standard web
+2.0 software, it's like, man, if it
+broke even once, like this thing is a
+piece of crap and I'll never use it
+again. And it's like a weird Yeah. You
+have to like rewire your brain to be
+it's like working with a child right
+now.
+>> Th This is why I think a lot of the hype
+in that AI killing SAS is way overblown
+because
+particularly for a lot of business
+workflows like very high guarantees on
+performance are fundamental to it. You
+know, if you put a record into your CRM,
+that stuff better be there. you know,
+you don't want it, oh well, it put this
+in with 80% probability. It's like you
+want it to be there. And SAS does a
+great job of that. It actually took a
+set of existing workflows that were
+handled on prem or by paper and just
+moved them to the cloud. And so it
+wasn't really like it wasn't any
+workflow transformation. And this is
+where I think um Andre Karpathy's point
+is totally right where a lot of these
+businesses are trying to overshoot the
+mark and just say, "Okay, well, hey,
+we'll just have this agent handle this
+workflow end to end." actually the
+editing and redoing it like you like you
+talk about Gary is actually incredibly
+important. And so how do you create a
+product that allows you to do that
+really well I think is the key challenge
+that a lot of uh AI B2B companies are
+figuring out. Speaking of things that
+you had to give up in order to do this
+what happened to the existing Amplitude
+roadmap like you had all these other
+things that you were working on before
+the company got AI forever. Did you
+throw out the whole road map only like
+half of it? How are you thinking about
+like allocating resources between these
+new AI bets and the like existing stuff
+that makes the money? It's not like
+there's there's totally separate
+products. Like the goal of for example
+uh our uh what we're calling Ask AI
+which is the chat interface in in
+Amplitude is to make it easier to use
+the existing product. Um and so you know
+as we've looked at next year there are
+four big priorities we have. One is
+rebuild Amplitude to be AI native. Uh
+the second is make it much easier to
+use. The third is make sure our other
+products outside of analytics have
+parity with the competition. And then
+the fourth is uh serve marketers really
+well so that we can take on a bunch of
+the legacy martekch guys. There's still
+like basics that we're doing or or
+foundational things we're doing on our
+session replay product on our
+experimentation products on our guides
+and surveys product. Um like you know
+for example one big thing that we're
+going to be coming out with in session
+replay in the next few months is zoning
+which is this way where you can look at
+a web page and then see the analytics
+overlaid on top of it which is super
+cool functionality. And so that we're
+still doing. Uh in the same way, I think
+what getting the team to embrace uh AI
+from the uh uh from the ground up has
+happened has allowed us to do is one,
+you know, they're a lot faster and more
+productive, so they're shipping a lot
+more, which is absolutely amazing. Uh
+and then two, uh they are looking at
+these problems with this lens. Um and so
+the the the big change we did
+organizationally is uh we had a lot of
+these these AI projects as kind of side
+projects for a bunch of people and we
+said okay let's have a dedicated team
+that kind of goes after them but the
+existing team is still going to do uh
+you know work on making the amplitude
+product great and that work is is is
+just as important because I I I think
+the timeline for change in the business
+world is the cycles are just much much
+much longer
+>> and how do you allocate people between
+the teams working on the new AI stuff
+and the more traditional SAS stuff. Did
+they self- select into different groups?
+Is like is there like a like a like a
+challenging cultural divide there that
+you have to navigate?
+>> No, you know, I think by doing the AI we
+can make it clear. We had this whole uh
+metaphor we talked about burning the
+boats like we're all in on this. Um and
+there were some people that got even
+more into it and they very naturally
+self- selected uh into a bunch of uh a
+bunch of this work like we and it's it's
+crazy. It's like it's not just hey
+engineers, it's like designers too. Our
+very best designer at Amplitude, uh this
+guy named Will Newton, we actually had
+him spread among way too many projects
+and he was like, "No, I got to focus in
+like let's like say no to some of these
+for for a little bit so I can go really
+deep on this chat interface um at uh you
+know and and make sure that when we
+launch this thing in early next year,
+it's it's going to be awesome." Um, so
+yeah, people will naturally kind of
+self- select in um or out and um you
+know it's it's a 200 person or so, so
+you get a you get a whole spectrum of
+this.
+>> Can we talk about the thing that you
+said that made people angry on the
+internet?
+>> Yeah. Yeah. Which one?
+>> I think Yeah.
+I think it was it was the AI visibility
+tweet, right? I think like generally I
+think you were making the point that um
+the a lot of these startups are sort of
+like features not companies. Um, and
+obviously like at YCU, we're going to
+take the other side of it and we'd argue
+that
+>> you guys have a have a visibility
+company. It feels like every batch,
+right?
+>> Yeah, it's it's a it's become a a
+popular idea. That is true.
+>> We find founders, not ideas.
+>> I love it.
+>> Um, but I AI visibility aside, I guess
+you've gone through the whole journey
+like you you're in the batch, you
+started a company, now you're running a
+public company, you know. I mean, I
+think we would argue the side of just I
+the start the advantage that startups
+have in general is just like they they
+don't have an existing customer base.
+They don't have revenue. they can like
+their customers are going to be more
+forgiving if the thing doesn't work yet
+and these have seem like advantages for
+like new startups attacking incumbent
+companies with like an AI product. Um
+but from your perspective what are what
+are like what are the advantages that
+like incumbent companies have over the
+how do you think about it? I think the
+real business has to be downstream of AI
+visibility. Uh it's a valuable there's
+value in it like you know just like
+there's value in in the SEO world but
+it's so easy to do you know we we did it
+you know as as I mentioned in in in a
+it's probably more like a few months and
+a few weeks but we we did it very
+quickly um and gave it away for free and
+it's been this incredible lead
+generation for us um and so the
+commoditization is going to happen real
+real fast I mean you talk about like you
+know people talk about uh hey SAS going
+away because of AI I think that's a
+great example of it. Um, and so in
+contrast, if you look at I think
+businesses that have done very well
+here. So like there is a business I
+think that is very viable here, which is
+what Aerops is doing where they're yes,
+they have some visibility aspects, uh,
+but they have uh, a whole content
+generation business to help you create
+blog posts and other material um, on
+that, you know, and and that's the
+that's their real business. And so I
+think all of these visibility businesses
+like you can you can get it for free
+from us, you can get it, you know,
+you're going to be able to get it free
+from a lot of other places and you're
+going to have to construct a real
+business kind of downstream. And to
+maybe to give the flip side of it, like
+um you know, I I think innovation in the
+space is great. You know, it's already
+moved a lot in the last few months. One
+of the advantages we have is because we
+have an existing revenue base of
+hundreds of millions, we can give away
+this for free, you know, and just uh and
+that's that's great because, you know,
+now a lot more people can get visibility
+without having to, you know, go through
+all the hoops of of paying a company and
+get like, you know, tons of uh tons and
+tons of value out of it. You have like
+you you were Spencer the founder like
+right out of college starting company,
+now you're like public company CEO,
+let's say. And so you have all this
+knowledge from seeing like what things
+look like at scale. Um let's say you
+went out and started another company
+again and you were looking at like
+markets to go into and you were thinking
+about like where are where are markets
+where you would imagine like oh like
+this incumbent is actually really good
+and like we should just stay away and AI
+is not going to give us an advantage and
+and which are ones where you'd be like
+oh yeah like actually no that's totally
+vulnerable and like they're not going to
+like we could really compete with them.
+I I mean honestly I I joke about this
+but anything Google's trying to do I
+think that
+Google is the worst B2B company of all
+time and there's an incredible
+opportunity to compete with them. So you
+know I'd look at email I'd look at a lot
+of the workspace stuff. I think what the
+notion guys for example are doing as a
+competitor to Google Docs is is very
+exciting. Institutionally Google's
+Google's way too slow and way too
+conservative um that to be able to do
+this. And so it's only when other
+companies start to innovate that they
+get their stuff together. You know, same
+on this coding thing, you know, they
+they've proven it can work from a
+technology standpoint, but bringing it
+to market, selling it to customers, uh
+making it work from a product
+standpoint, I think is very ripe for
+disruption, honestly. So, we've seen it
+in coding, we're starting to see in
+support. We're seeing, you know, we
+think there's a massive opportunity in
+analytics that that we're uniquely
+positioned for. Um I think it, you know,
+there's going to be a cursor moment in
+analytics in the next two years. No
+question in my mind where people are
+going to use analytics with AI and
+you're going to be like, why did we ever
+do it the old way? And I can't even
+imagine going back. I think there's a
+lot of very generalized agent builders
+and I think picking a particular problem
+and a particular buyer um is going to be
+a much more successful way of building a
+business. You know, yeah, there's a
+general, you know, there's probably
+multiple generalized agent builders
+every YC batch now, too. Um and so um
+having a a strong point of view for a
+particular buyer that cares about some
+things like one of the ones um I saw
+recently was like I I think you know
+there's all these studies being like hey
+enterprise is failing to adopt AI and if
+you look at you kind of dig into the why
+behind it um there's all these security
+and compliance concerns and so okay I
+think there's a huge opportunity to
+solve those uh to get much faster
+adoption of these products there has to
+be a Uber for tech support. When I was
+in high school, I ran my own IT support
+business just helping people around the
+neighborhood fix their computers cuz
+it's like set my Wi-Fi network up, set
+my printer, you know, whatever. And the
+fact there's still not a scaled
+solution, it just blows my mind for
+this. like you have a lot of people that
+you know are older that are not native
+to technology that uh have a bunch of
+money and want this stuff to be set up
+and you have this young generation that
+desperately needs money that has a ton
+of expertise on technology and so a
+business that matches those that's kind
+of supply and demand I mean we also
+spend a lot of time um helping people
+figure out the idea actually and and
+like it's really hard it's
+extraordinarily hard
+>> I don't think everyone realizes how
+Amplitude started it out. Could you
+maybe talk about your journey to
+actually finding the Amplitude idea and
+maybe reflections on it a decade later?
+So before Amplitude, um we started this
+company called Sonet Light, which was a
+voice recognition. It was like early
+version of Siri and it had this really
+amazing demo actually where you could it
+listened in the background for your
+voice and this was before any of the hey
+Siri, hey Alexa stuff. Um and so it like
+listened in the background on Android
+phone and as far as we could tell we
+were the first to come out with the
+technology. We didn't know anything
+about what made for a successful product
+or business or company and we were just
+kind of taking our shot on that. Um we
+were just two kids at a at a college um
+that were like okay what's a problem
+that seems barely at the edge of
+possible. Let's let's you know that's
+probably an interesting place for us to
+to go to um you know and we ended up
+choosing choosing voice recognition not
+because we were passionate about the
+space. So we we did YC with that. We did
+uh went through the whole batch did demo
+day did this amazing demo on stage. We
+got tons of press written about us. Uh
+but the product and the tech, it was
+just not good enough. It wasn't a good
+enough uh uh product. And so we ended up
+right after demo day deciding to shut
+that down. Um and then we had always uh
+built our own analytics in house uh you
+know because like it's what you do as an
+engineer. You're always like I want to
+build this instead of paying amplitude
+money because it was very clear to us
+the this was the right way to build
+product. It was you would look at what
+people did in your product. you would
+understand them deeply and you could
+build and iterate on a better product.
+Um, and so we ended up when we showed
+what we had done in the analytics side
+to a lot of other companies, they're
+like, "Hey, we want this." And so that
+uh right after uh uh YC Winter 2012 demo
+day, uh we ended up uh pivoting to to
+Amplitude. And that was I think that was
+June of of 2012.
+>> Analytics was a pretty crowded space at
+that point.
+>> Extraordinarily crowded.
+>> Like what like did that factor into your
+thinking about
+>> getting into it at all? a little bit,
+you know, and so you have to ask
+yourself, it's like, okay, why do you
+think you're different? We knew this was
+a particularly good problem for compared
+to voice recognition, you know, and a
+lot of this AI stuff, frankly, that was
+those were probabilistic problems. So,
+you could not get a right answer. And we
+were a bunch of algorithms engineers
+coming out of MIT. Um and so this
+problem of how do you analytics seems
+amazing because it's like okay you build
+this really scaled distributed system
+and you can get a right answer and it's
+just about doing it better and faster
+that sounds great and amazing uh in
+comparison to voice recognition. I think
+in retrospect you know we got lucky that
+we were particularly suited for for that
+problem. And then the other part of the
+other point of view I think I had was
+that I'd see all these great engineers
+and these great founders who uh built
+these amazing pieces of technology but
+just did not really understand how to
+how to get it in the hands of customers
+and sell it and all that. So I'm like
+okay I'm going to go full I'm going to
+go all in on learning how to do that. I
+don't even think I do that particularly
+well. Uh but just because we were
+willing to do that and kind of build the
+next thing and build the next thing and
+build the next thing. You know you
+compound that 10 years later and and and
+now you're the leader in the space. Do
+you have like a method for learning
+these things? Like one of the things I
+remember was um once you went to
+Amplitude, then it was you know B2B
+sales and then you got really good at it
+but you didn't know anything about
+>> I'm not good at B2B sales to be clear. I
+still feel an imposttor to this day
+>> but being able to do it at all like from
+an engineering background I mean and
+being willing to learn how to do it and
+realizing like oh this is actually my go
+to market and I have to do it this way.
+>> Yeah. analytics. I I think in particular
+there are some products that you can
+adopt without selling in that like
+people just you know they have single
+player mode. You know cursor's a great
+example, Slack's a great example, but
+there's some where you need to convince
+multiple people at the same time that
+you're going to go do it and that
+requires a sales motion. The number one
+misconception I had was like this would
+be something you learn out of a book or
+on a website or you know you kind of
+read about but one you have to do it and
+it's like two you just want to get
+someone who's good at coaching you. So,
+we worked with this guy Mitch Mirando
+who coached uh you know was a a sales
+exec who had gone on to coach a bunch of
+other companies. Um and I just happened
+to randomly meet him through through uh
+uh the sensor tower guys actually. Um
+and I was like okay this is the expert I
+need you know teach me everything you
+know about sales. Um he's like whoa whoa
+slow down. And then he would just come
+in uh once a week and just beat me up
+and just being like hey you don't really
+you know what's the customer pain? and
+I'm like, "Oh, they want some dashboards
+or charts. Like, Spencer, it's not a
+business pain. Like, what's the pain?"
+And so, after a while, like finally get
+the message. Um, it's very much like
+learning a sport or to play an
+instrument. In a lot of ways, you're not
+going to do it reading a book. You want
+to just do it and then get a little bit
+of advice and coaching on the side.
+Like, that's the that's the much much
+better approach.
+>> I mean, you said this several times even
+in this hour that um, you know, you find
+certain people who are really really
+great. if you could, you know, give the
+the 20-year-old version of yourself like
+the cheat sheet on what you learned
+about finding those mentors, like are
+there, you know, is there is it like I
+know it when I see it or, you know,
+there's a track record or it's so hard.
+I mean, I've been extraordinarily lucky.
+I This is one of the great parts of
+Silicon Valley is there's such a
+positive sum, help others, pay it
+forward mentality. I mean, Mitch was an
+amazing one. um you know is very clear.
+I mean the best advice I can have is be
+clear in your own head about what you're
+trying to learn and then you know be
+open to where it comes from. So you
+first need to be clear on what you're
+trying to do and that's what I think
+people [ __ ] that up a lot. They don't
+get really crystal clear on why they're
+trying to build a startup or what they
+need to do to be successful and then
+from there you know how you get the how
+you get the mentorship or advice may
+come from a lot of different directions.
+>> Can I ask like one more kind of meta
+question? Hearing you speak about your
+experience at Amplitudes, uh, it's just
+really inspiring to me because like you
+go all the way into the details. You
+have this cap capability to like
+hyperfocus and then I guess like how do
+you direct it? Like how do you know that
+you're hyperfocusing on the thing that
+you know really is the number one thing?
+Like do you have like a cycle in the
+back where you're like I just you know
+spent 10 minutes thinking about blah.
+But like is that actually the most
+important thing or not? like how do you,
+you know, prevent just like rat holeing
+on something?
+>> It's hard. One of the things I did
+before starting a company was getting re
+real clear in my head as to what I
+wanted to do with my career and why. And
+one of the takeaways I had was uh you
+know, you want to dedicate yourself to a
+mission that's greater than yourself. Um
+and you be part of contributing
+something larger to humanity. And what I
+knew how to do was to, you know, build
+software and sell it. And so like, okay,
+what's the best way I can do that? You
+know, starting a company. And then from
+there, it's just, you know, like you
+kind of the goal, you know, you create a
+goal tree that that goes down from
+there. Okay, let's uh let's figure out
+what product to build. Let's figure out
+how to sell that product, you know, and
+then it it just it kind of falls into
+place. I I I find that where people get
+screwed up the most on that is they are
+not clear. And by the way, speaking of
+starting a company, it's extraordinarily
+emotionally painful. Like I do not
+recommend it for the vast majority of
+people. I mean, there's so many times
+like every few years I've gotten to a
+spot where I feel like I want to quit um
+the business. And you feel that deeply.
+Um and the best counter to that is I
+kind of go back to the why of why I I
+kind of came into this business. And so
+I think
+if you get that top node really right,
+you can always kind of anchor or go back
+to that. you always know, okay, look, if
+I just continue to see this through
+somehow, I don't know necessarily how
+it'll lead back to, hey, I'm going to
+create a, you know, build technology and
+and make the world a, you know, a a
+better place in my own little way. Um,
+so I I just I I that would be my number
+one advice for, you know, anyone that
+that's coming out of school or thinking
+of starting a company is get really
+clear on that. I think the worst I I see
+you guys see it all the time, which is
+like, hey, you know, I'll do it and if
+it takes off, I'll I'll double down. if
+not, I'll go back to grad school or a
+job or whatever. And that's like the
+freaking worst of this because you have
+to put up with uncertainty for long
+periods of time. You have to have all
+these existential questions hanging over
+your head. It's it's um you're not going
+to get through it. Like if you look, one
+of the big takeaways like I I read uh
+founders at work. Um and one of the
+really clear takeaways from any of these
+journeys is there is a point that you
+get to a year, maybe two years in where
+from a rational standpoint, you probably
+should quit. um but for whatever reason
+um those successful ones don't and so
+that is the number one filtering
+criteria. Now not to say you know that
+you know there's no guarantees getting
+that that top node really clear so that
+you can anchor on it um over very long
+periods of time is the most important I
+found
+>> intrinsic motivation.
+>> Yeah. If you if you're doing it for like
+recognition from others or or you know
+hey you know because you gonna get paid
+a lot or whatever else you'll your your
+ability to last through is going to be
+much much worse than someone else's.
+>> I mean embedded in that you know I'm
+taken by earlier you were saying like at
+every point of amplitude there's sort of
+a moment where you have to learn how to
+do something and like grow into that. Uh
+and then being a public company CEO is
+one of those things. walk me through
+like the you know how you started like
+the you know the intrinsic motivation
+and then now it's like it feels like you
+have a really big responsibility on your
+back. It's like you know people look to
+you for leadership and you know you were
+the leader of a great many people and
+they have families and lives you know
+hopes
+>> and they're betting their careers on on
+what we're doing here. It's it's a it's
+a it's a very deep responsibility. As a
+founder your job is always to run to the
+most difficult problem in the business
+and lead from the front. And so if
+there's an incredibly difficult piece of
+code, uh a difficult product or design
+problem, a difficult customer, um you
+know, a difficult employee problem,
+whatever, you need to go, the great
+founders will go head first into it and
+lead from the front and they will rally
+the the rest of the team behind them.
+Even if you look at the successful
+founder CEOs, after about a decade, most
+of them leave. And in my mind, it's
+actually for this very reason because
+being a large company executive is
+different. Um, and because you you you
+can't lead by example everywhere all the
+time. There are places you can, but you
+can't do it universally because it's
+like, okay, you got to do in sales, you
+got to do in marketing, you got to do on
+people, you got to do it on um the
+product, you got to do it with
+customers, you got to do with the press.
+In fact, it's like the list goes on.
+There's just too much. You have to be
+much more disciplined about your time
+and say no to most stuff. And then what
+you realize is
+you become the person you hate. You'd
+always make fun of big company
+executives for not doing any work for
+themselves and just like judging other
+people's work all the time. But there's
+a reason for that and you have to
+embrace that reason and and so it's it's
+this very hard that is a very hard thing
+to unlearn. Another thing which still
+trips me up to this day and I hate and I
+try to run Amplitude differently but
+there's truth to it is like hierarchy.
+>> There is a reason for hierarchy.
+>> Oh yeah, I've learned that the hard way
+many times. need to have people who own
+certain things and who are responsible
+for leading certain teams and other
+people within the business. It's much
+easier in my mind, I think, to be a
+large company executive because you have
+all these resources, you have all this
+leverage, you actually work less hard,
+your product market fit, and you're
+running, you know, like you're deploying
+like, you know, we're 350 million in
+revenue and and you know, we're
+deploying
+close to that in terms of total spend
+every year. So, you have a lot of
+resources to do stuff. Now, you're
+learning about how do you actually
+deploy those resources effectively. So,
+so, uh, so there's leverage that you
+have as a large company executive that
+you don't as a founder, which is
+awesome. And, you know, but it's a
+different very different tool set and a
+very different, um, set of skills in
+order to, uh, build a business
+successfully. Um, and that's been the
+hardest transition by far. I think this
+will be really interesting next couple
+years then because like sort of this
+flies a little bit in the face of the
+most fililel view of what founder mode
+is like the most filile view is like you
+have to be all the way in the weeds 100%
+of the time which is like obviously not
+possible when you have 800 employees
+>> you can't do it everywhere you have to
+be clear on where you're doing it
+>> yeah so there's just like a lot more
+nuance to how to do that
+>> yeah I mean you know it's one of these
+like you know there's like a million
+management books about this thing and
+you know they kind of all try to
+abstract it into some framework and it's
+none of them are Right? You go through
+it and experience it yourself and get
+coaching from others who do and that
+that's how you end up figuring it out.
+But that that transition to large
+company executive. That one's a really
+hard one.
+>> Well, in the immortal words of uh Bob
+Marley, uh one good thing about product
+market fit is when it hits, you feel no
+pain.
+>> Oh yeah. Oh yeah.
+>> Oh yeah. Growth solves all problems.
+>> And then hopefully people watching this
+will actually get a chance to experience
+some of the problems that you get to
+live on a daily basis.
+>> Absolutely. Absolutely. One of the
+things I'm actually very appreciative,
+Gary, uh that you um and PG and Jessica
+and others are doing is just helping
+people tell these later stage stories.
+One of the things I think YC's done
+exceptionally well is like, you know, to
+the extent you can have a playbook for
+what is like the early stage stages, you
+guys have, you know, written and talked
+about it and and made everyone out there
+aware of it so they they know what the
+path is and what it looks like. It's
+still incredibly hard, but you know, now
+it's like, okay, you at least has some
+guidance. doesn't exist for a lot of the
+later stage stuff as you grow up. So,
+I'm very appreciative that uh that that
+you guys are building that.
+>> There's levels to it, but thank you for
+sharing your levels.
+>> No, of course.
+>> Do you feel like we could turn what you
+did with Amplitude into the playbook for
+how SAS companies should reinvent
+themselves in the AI era?
+>> You know, I still feel like an imposttor
+on this thing to this day, but I I'm
+very happy to contribute. You have to
+get very judicious with your time. There
+are a lot of people who want your time.
+um you know and you could spend infinite
+time within people in the organization
+with customers with you know partners
+with you know investors whoever and so
+you have to think about like like no one
+owns your time but you as a founder
+you're just like nobody cares and so
+you're just desperate for anyone to give
+you attention so if they do you're like
+okay this is great but as you know large
+company it's like no no like you have to
+be very very judicious one of the things
+I am deliberately trying to do is just
+be more out there and vocal um so you
+see it on Twitter you see it you know
+I'm just trying to be unfil there's
+still you know there's still an aperture
+you're constrained to as a public
+company CEO, but most are just so
+conservative they're not putting
+anything out there. And so, you know,
+I'm at least trying to kind of share my
+story, put it out there, put my hot
+takes on, you know, polit politics,
+religion, whatever, you know, uh,
+products, uh, companies out there. So,
+at least at least others, you know, can
+can learn and and benefit from that,
+too. And honestly, it's like it's just
+who I am, you know, ultimately. I I want
+to be able to express who I am. I don't
+want to argue with people on the
+internet. I I I don't want to have to be
+this other persona that that I'm not,
+you know, or try to represent something
+I'm not. You know, if I believe and I
+have conviction in something, I want to
+be able to say it.
+>> Spencer, thank you so much for spending
+time with us. This is super illuminating
+and can't wait to see Amplitude AI, the
+new resurgence coming into every company
+in the world.
+>> There is going to be a reinvention of
+analytics uh in the next few years. And
+you know, we we want to be the ones to
+go lead it. So, thank you guys.
+>> You heard it here first. We'll see you
+guys next time.

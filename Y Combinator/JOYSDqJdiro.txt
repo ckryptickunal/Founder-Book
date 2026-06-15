@@ -1,0 +1,213 @@
+Title: The Next Breakthrough In AI Agents Is Here
+Video ID: JOYSDqJdiro
+URL: https://www.youtube.com/watch?v=JOYSDqJdiro
+Channel: Y Combinator
+Published: 2025-04-08T14:00:34Z
+Duration: PT8M30S
+Views: 275453
+Likes: 5809
+Tags: YC, Y Combinator
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 193
+
+Description:
+In recent months, AI agents have gone from experimental to increasingly useful, with platforms like DeepSeek and OpenAI's Deep Research redefining what’s possible. Now, a new contender has entered the field—Manus, a general purpose AI agent that’s managed to capture global attention. In this episode of YC Decoded, President and CEO Garry Tan dives into how Manus' unique architecture sets it apart, what its launch says about the broader debate around GPT "wrappers," and why they might actually be
+
+============================================================
+TRANSCRIPT
+============================================================
+
+Usable AI agents are finally here. From
+deep research platforms out of OpenAI
+and Google to similar tools from XAI and
+DeepSeek. Joining the competition now is
+Manis, a brand new agentic AI platform
+that has taken the world by storm. And
+today we're launching an early preview
+of Manis, the first general AI agent.
+When Manis officially launched, the hype
+around it immediately took off. A
+Chinese startup unveiling a new AI agent
+that some are calling China's next
+deepseeek moment. With people calling it
+the most impressive AI tool they've ever
+tried and the most sophisticated
+computer using AI. Unlike some of its
+predecessors, Manis wasn't just another
+specialized chatbot. It promised to be a
+true generalpurpose AI agent. With
+invitations rare and access limited, the
+question remains, has Manis truly
+revolutionized the AI agent landscape.
+Let's find
+[Music]
+out. Behind all the excitement around
+Manis is something genuinely innovative.
+a multi- aent AI system that can
+seemingly complete all sorts of tasks
+from travel planning and financial
+analysis to searching over dozens of
+files or doing industry research. So,
+how does it work? Rather than relying on
+one big neural network, Manis works more
+like an executive overseeing a team of
+sub agents coordinating and guiding
+their every move across a shared action
+space. It takes in your prompt as input
+and gets to work figuring out what it
+needs to do. Instead of tackling your
+task in one go, a planner agent first
+comes up with a master plan to follow,
+breaking things down into manageable
+subtasks. This way, Manis knows
+precisely what needs to be done before
+executing and can hand off these tasks
+to other sub aents. These are like
+Manis's own in-house experts. They share
+the same context, but each has its own
+delineated domain from knowledge or
+memory to execution. Manis can call upon
+an extensive suite of 29 different
+integrated tools. Whether they're
+automating web navigation, securely
+running code, or pulling important
+information from files, Manis' sub
+agents intelligently decide which tools
+to use. Finally, when each subtask is
+complete, the executor agent combines
+the outputs together into a final
+synthesized output for the user. Under
+the hood, Manis is powered by a pretty
+sophisticated dynamic task decomposition
+algorithm.
+This is what enables it to autonomously
+break down complex instructions into
+clear execution paths. To ensure
+stability even after dozens of rounds of
+reasoning and tool use, the Manis team
+developed an original technique called
+chain of thought injection, enabling
+agents to actively reflect and update
+plans. At its core, Manis makes use of
+Anthropic's Claude 3.7 sonnet. Manis
+also features robust cross-platform
+execution capabilities thanks to its
+seamless integration with open source
+tools like YC company browser use for
+advanced website interaction and startup
+E2B's secure cloud sandbox environment.
+So what can Manis actually accomplish?
+Impressively, it can take on a wide
+range of real world tasks. It excels in
+scenarios like creating travel
+itineraries, detailed financial
+analyses, and educational content. While
+it can also assist with valuable tasks
+like structured database compilation,
+insurance policy comparisons, supplier
+sourcing, and even assisting with
+highquality presentations. To truly
+measure Manis' capabilities, we can look
+at Gaia, a benchmark designed to
+challenge AI agents on reasoning,
+multimodal handling, web browsing, and
+tool proficiency. Humans typically score
+about 92% whereas OpenAI's deep
+research, in comparison, scored about
+74% at its best. Manis smashed the
+state-of-the-art on Gaia, scoring
+86.5%, just a few points shy of the
+average human. Still, despite impressive
+benchmark performance, Manis has
+reignited a broader conversation about
+the nature of AI startups at the
+application layer, rappers. Some have
+dismissed Manis as merely a rapper since
+it stitches together existing
+foundational models and various tool
+calls. But this dismissal overlooks an
+important reality. Most successful AI
+products today could also qualify as
+rappers by this logic. Cursor and
+Windsurf, for example, integrate
+existing LLMs alongside external APIs
+and developer focused tooling such as
+realtime code analysis and debugging
+utilities. Domain specific agents like
+Harvey combine foundational models with
+legal specific tool integrations. case
+law retrieval, compliance checks, and
+document analysis. Clearly, many useful
+applications do fit the rapper mold. And
+for many developers, it makes sense to
+go this route. As Manis co-founder
+Yichchow Peak G told us himself, from
+day one, they decided to work
+orthogonally to model development,
+wanting to be excited rather than
+threatened by each new model release.
+What distinguishes successful rappers
+from their less effective counterparts
+is typically a bunch of things.
+Intuitive UI, proprietary evals, much
+more careful fine-tuning of foundational
+models, and thoughtfully designed multi-
+aent architectures. And this is a good
+example of that. Manis itself
+illustrates these trade-offs really
+well. On the positive side, its
+multi-agent orchestration helps deliver
+significantly lower per task costs
+around $2 a task compared to integrated
+competitors like OpenAI's Deep Research.
+Manis also offers greater transparency
+and user control, letting users directly
+inspect, customize, or replace
+individual sub agents and tool
+integrations. A degree of flexibility
+centralized platforms rarely match. One
+of the coolest things Manis figured out
+was actually exposing the file system so
+you could see exactly what the agents
+were doing. Chat GPT requires you to
+reprompt and it's opaque what's
+happening when it's thinking. Manis is a
+glimpse into the future of Chat GPT
+desktop operating directly on your
+computer and it will be cool to see how
+much more control you'll get when it's
+happening there instead of a browser.
+But there are a few clear limitations.
+coordination across specialized agents
+becomes increasingly difficult as tasks
+scale or complexity grows. More
+critically, its current advantages, UX
+refinements, targeted fine-tuning,
+thoughtful integrations are vulnerable
+to competitors just coming along and
+doing that as well. These strengths and
+weaknesses are generally shared by
+rappers. They allow you to have really
+rapid deployment, iteration, and
+specialized UX at lower upfront cost,
+but they're also vulnerable to
+disruption such as API pricing changes
+or provider policy shifts, which can
+quickly erase any of the cost benefits.
+Ultimately, the critical challenge isn't
+deciding whether rappers are viable, but
+identifying genuinely sustainable
+differentiation for your product. For
+founders, this might mean investing
+early and proprietary eval that are
+expensive or timeconuming to replicate,
+embedding your workflows deeply into
+specific user routines to increase
+switching costs, or identifying
+integrations with platforms or data sets
+competitors can't easily access. In the
+end, success in AI doesn't hinge on
+reinventing the wheel, but rather on who
+can stitch together the existing models
+into a product users genuinely love.

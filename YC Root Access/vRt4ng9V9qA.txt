@@ -1,0 +1,214 @@
+Video ID: vRt4ng9V9qA
+URL: https://www.youtube.com/watch?v=vRt4ng9V9qA
+Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 207
+============================================================
+
+Hi, I'm here with Doc from Grapile from
+the YC Winter 24 batch. Thanks so much
+for joining us.
+>> Thanks so much for having me.
+>> All right. Um, so what is Greile?
+>> So at Grapile, we're building AI that
+understands large code bases and
+software teams use it for things like
+reviewing poll requests and answering
+questions about their codebase.
+>> When you think about the value that a
+company or a user gets from Gravile,
+like what is it? Where are they finding
+utility? It's a couple of things for
+software teams especially senior members
+of the software teams tend to spend a
+lot of time reviewing pull requests and
+reviewing code in general and uh humans
+are imperfect at this and it is also a
+very timeconuming process and that time
+is maybe better spent doing more
+creative things and so we take away a
+lot of that time reduce the amount of
+time it takes for code to get reviewed
+and we usually reveal many more bugs
+than a purely human-driven process
+would. the customers that you work with
+um do they want to have nobody reviewing
+code and they want to entrust GPL with
+that 100%. Do they want to have some
+people doing this as well? How do they
+think about it?
+>> So I think virtually all of our
+customers and us we both agree that uh a
+human should be involved in the process.
+I think code reviews as a part of the
+software development life cycle serve a
+purpose greater than just detecting
+bugs. It's a opportunity for mentorship
+and there's some amount of clairvoyance
+that senior engineers have on what a
+codebase should look like in the future
+that AI at least today cannot really
+replicate and so you usually say well
+this is going to do all the stuff that
+is not interesting for you to do like
+just carefully reading the code for
+little mistakes and you can focus on the
+bigger picture things as a human being.
+>> Um and I understand you guys have
+several customers you're reviewing a lot
+of lines of code like what what are the
+numbers these days? So in a given week,
+we usually review anywhere from 5 to 8
+million lines of code. And uh this is
+growing at a fairly high pace. This past
+week, we revealed 20,000 bugs across the
+poll requests that Gryptile reviewed for
+customers. So this is something that
+people like a lot. It's stuff that you
+that would have slipped through the
+cracks and would have caused problems
+later.
+>> I understand that a lot of what you're
+doing is enabled by the language models
+that are out now. But um how do you
+think about like why now is the right
+time for Grapile for a product that
+reviews code reviews? Yeah, there's a
+couple of things. So, my co-founders and
+I had started to experiment with large
+language models when Da Vinci 2 had just
+come out about about three or four years
+ago. And we had started to notice that
+there was a um clear use case in code
+because they understood code better than
+they understood maybe even natural
+language. And where when we see large
+language models today, they're they
+still are better at reading code than
+they are at writing it. And to us, it's
+more interesting to take their current
+uh best capabilities and see what is the
+most value that they can create. We
+started by building codebased Q&A. So
+just loading up your codebase and asking
+questions about it like how does XYZ
+work? And we found that if you're able
+to teach a large language model to um to
+understand an entire codebase, the most
+useful thing you can do with that
+understanding is to find bugs in it and
+and prevent code from going down. And I
+think the second major thing is we often
+think about this is a longer term
+trajectory, but software is not just
+toys and like it was maybe 50 years ago.
+Today our our grid and our supply chains
+are controlled by software and like our
+world is only as resilient as our most
+least resilient piece of software and
+making software more resilient is
+something that only gets more important
+every year.
+>> How did you guys get onto this idea?
+What led you here? We started out as I
+said working on codebased context and
+the reason for that was we were hacking
+on some projects in college and then one
+of our original team members decided to
+uh go and get a job and not continue on
+with us and he had written our entire
+front-end code base and we just didn't
+know how to work with it and this was
+also something that we experienced at
+companies we worked at just code bases
+get large and they're very difficult to
+work with. It's actually most of why the
+job of engineering is hard is because
+code bases are big and complicated. And
+so we wanted to figure out if there was
+a way to take these enormous code bases
+and large language models that actually
+have limited context windows, find a way
+to teach them to completely understand
+the codebase and answer questions about
+it. So we focused on this problem for a
+long time and then at some point we
+realized that the most the the problem
+of not knowing your codebase is
+temporary. Like once you spend enough
+time at a company, you'll understand the
+codebase. But the problem that remains
+persistent is uh is is finding bugs. And
+you can do that really well if you
+understand the codebase which is what we
+had spent all this time working on.
+>> Okay. So you've built this product, you
+got these users, you're reviewing all
+this code. What's what's been surprising
+that you've learned along the way about
+AI and its relevance for developer for
+developer tools?
+>> I I was surprised to learn how much
+variation there is in developers um
+propensity to adopt AI developer tools.
+There are people that are uh very very
+smart developers that are completely
+against adopting any AI. And I think
+part of that uh might just be like
+discomfort around u around like AI maybe
+like affecting the nature of their job.
+Um and then there's people at the very
+other end of the extreme which have very
+much strongly embraced uh AI as a tool.
+One of the things that we try to figure
+out when we're seeing if a customer is a
+good fit is just to see how high
+conviction they are around AI's ability
+to improve their business.
+>> Mhm. Do you do you get lumped in with
+the AI coding tools even though you're
+doing more code review instead of actual
+code gem? This was a really big problem
+early on. I think early on engineering
+leaders and and engineers didn't have uh
+enough context to kind of separate these
+tools and they all kind of look like the
+same vague thing which is AI and code.
+But as time has gone on and people
+adopted some of these tools and they're
+using them, people have much higher
+fidelity and differentiating what
+different parts of their uh system can
+be augmented.
+>> So a lot of the folks that watch these
+videos and tune in are people thinking
+about starting their own businesses. You
+were there not too long ago with like
+the early days of Grappile. What advice,
+if any, would you have for someone
+that's thinking of setting out and doing
+a startup today?
+>> I think um it's that there are many many
+ways to get distracted and uh often it
+no matter how much you are aware of the
+things that can distract you, you will
+you're still not immune from
+distraction. You just really should
+focus on building products that your
+customers love and need and and want. Uh
+and and just don't focus on anything
+else. I think there's a hundred other
+things that seem like they're things you
+should plausibly focus on, but they're
+just not as important as the core couple
+of things. And as long as you just do
+those, you can probably get pretty far.
+>> If someone wanted to check out Grapile
+and learn more about it, or even try it
+at their company, how would they do
+that?
+>> So, it's actually free to try. So, you
+can go to gravile.com and it takes less
+than a minute to sign up. You just
+connect your GitHub and start using it.
+>> Okay. Thanks so much for joining Hey, so

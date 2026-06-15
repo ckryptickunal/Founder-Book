@@ -1,0 +1,630 @@
+Title: Dan Siroker at Startup School 2013
+Video ID: k4_3uluQsq4
+URL: https://www.youtube.com/watch?v=k4_3uluQsq4
+Channel: Y Combinator
+Published: 2013-10-25T23:34:27Z
+Duration: PT21M4S
+Views: 11171
+Likes: 93
+Tags: YC, Y Combinator, Optimizely
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 610
+
+Description:
+Dan Siroker at Startup School 2013
+
+============================================================
+TRANSCRIPT
+============================================================
+
+thank you uh I have the privilege of
+saying this is my sixth startup School
+uh and uh the first time as a presenter
+and today I'm going to be sharing with
+you what I would have wanted to hear the
+first five times uh while I was sitting
+in your seat so I'm going to start by
+telling you about my
+story uh a story of my entrepreneurial
+career starts while I was in college and
+I had the opportunity to do research in
+machine learning and sentiment
+classification and what I did was to try
+to use that Tech technology to apply it
+to the stock market and so this is a
+article that Stanford magazine published
+while I was a junior at Stanford and
+talks about how I created a computer
+program that pours through newspaper
+articles gauges how well a company is
+doing based on the amount of positive or
+negative language used to describe it
+and best accordingly so far so good
+according to the article well here's
+what was actually going on the year
+after I graduated focused entirely on
+this one startup by myself I was
+actually um starting this company and
+this is the algorithm used I did a bunch
+of research dot dot dot
+profit and um we didn't quite achieve
+profit uh by we I mean me because I was
+by myself uh this is a graph that shows
+the amount of time between when I first
+wrote a line of code for this company
+and the time we got our first paying
+customer for those in the back that's
+not eight months that's Infinity
+months and so this was a very valuable
+lesson for me in recognizing the value
+in having paying customers and so I
+decided uh to to stop working on
+sentiment Solutions and go to Google and
+my goal at going to Google was to try to
+learn the skills that would make me
+successful as an entrepreneur in
+particular I wanted to understand what
+to do in the dot dot dot and today I'm
+going to share with you what I learned
+both at Google and then several other
+startups
+since this is my algorithm at Google uh
+basically had opportunity to build some
+great products I was one of the first
+product managers on Google Chrome and so
+we built a product uh Google Chrome a
+good strategy that Google has for
+distribution is to put the word Google
+in front of the products they
+build and by doing that you end up
+getting about 100,000 people trying your
+product right off the bat uh that was
+very valuable uh not only because if the
+product was any good you would grow much
+faster and you'd be successful but
+because of the feedback that those
+people would provide as you're
+incrementally improving the product and
+this is the biggest lesson I learned
+while at Google as a product manager is
+the value of a feedback loop this is one
+critical thing I was missing at
+sentiment Solutions because I didn't
+have any customers to tell me what they
+liked or they didn't like I didn't even
+try to sell the product so I had no idea
+what I actually should be building while
+I was at Google I got lucky enough to be
+able to sneak in and see Barack Obama
+speak in November of
+2007 at the time he was a Senator uh
+running for president he hadn't won the
+Democratic nomination yet and he came to
+Google and he gave a talk talk that
+described how he wanted to take what we
+were doing at Google with evidence and
+Science and feedback and data and bring
+that to the government after I saw this
+talk two weeks later I flew to Chicago
+and signed up as a volunteer and so I
+want to share with this audience a few
+short clips of what Barack Obama said in
+November 2007 at Google and what
+inspired me to quit my job uh fly to
+Chicago in the dead of winter and join
+his campaign
+what is the most efficient way to sort a
+million 32-bit
+integers well uh I'm maybe I'm sorry
+maybe I I I I think uh I think the uh
+the bubble sort would be the wrong way
+to
+[Applause]
+go I I am a big believer in reason and
+facts and evidence and Science and
+feedback everything that allows you to
+do what you do that's what we should be
+doing in our government me I want I want
+I want people in
+technology I want innovators and
+engineers and scientists like yourselves
+I want you helping us make policy based
+on facts based on
+reason and I think that many of you can
+help me so I I want you to be involved
+thank you so much
+everybody well he had me at bubble
+sort and I decided to fly to Chicago and
+sign up as a volunteer and I was lucky
+enough to be able to join a team uh that
+was called the New Media team and while
+I was there I got a a opportunity to run
+several experiments called AB tests and
+uh the those were quite successful so
+they gave me a job as the Director of
+analytics and in this job my mission was
+to try to figure out how to use data to
+help make better decisions on the
+campaign here's a picture of our team we
+are part of the New Media analy IC team
+and New Media was the phrase the
+campaign used to describe everything
+they didn't really understand uh so if
+it wasn't TV or radio you fit in New
+Media and we had the most monitors per
+square inch of any part of the campaign
+here's another photo of our team I'm
+there in the Middle with my back uh to a
+TV this is during the Democratic
+National Convention while Bill Clinton
+is giving the keynote speech and the
+broader New Media team is watching while
+I'm busy setting up an AB test comparing
+a picture of Bill Clinton to a picture
+of Barack Obama
+in this photo I please ask you to ignore
+all the Bud
+Lights and so at the campaign I learned
+quite a bit I learned the value of AB
+testing we used products like Google
+website Optimizer omniture test and
+Target now Adobe test and Target and got
+a ton of value out of those products but
+we were constantly bottleneck on
+requiring developer to be part of the
+process and so that pain was the
+original inspiration for starting
+optimizely it took me a while to come to
+that realization we actually started
+several other companies before that and
+so I'm going to tell you those those
+stories after the campaign um I came
+back to San Francisco I convinced a good
+friend of mine Pete kumin who is a
+product manager at Google as well to
+quit his job and to start a company with
+me the first company we started together
+was called carrot sticks and it was an
+online math game for kids this made it
+easy for kids to learn math in a social
+way create an avatar be able to compete
+with one another and it was for us an
+opportunity to try to apply technology
+to something really cared about which
+was
+education this was a product we really
+we still very proud of it's you know
+still exists out in the world you can go
+to carti.com and beat up on a bunch of
+small kids playing
+math and it slowly loses money over time
+and we we learned a valuable lesson in
+building carrot sticks and this is the
+algorithm uh that describes our our time
+on carrot sticks um which was that uh we
+would basically build the product sell
+the product in this case we were selling
+it to parents
+take their feedback and then try to make
+our company and our product better one
+challenge here was we were selling to
+several different constituents of which
+we were none of we weren't parents we
+weren't uh teachers and we weren't kids
+and so this made it very difficult for
+us to know what a prioritize what to do
+and what not to do and as a startup it's
+really really important to focus on the
+one or two things that make you really
+really valuable and unique so in that
+process we learned the value of the
+feedback loop we could get better over
+time but because we didn't really build
+a product for ourselves it was very hard
+for us to understand how to
+prioritize we also had a really big
+challenge with distribution it's very
+difficult to get parents and teachers to
+adopt your technology and if you do you
+have to do it one at a time there's no
+scale there's no leverage in
+distribution and so uh here is a graph
+of uh now our second venture or my SEC
+my second Venture Carro 6 and this is
+the time between our first line of code
+and our first paying customer so we we
+improved atically from Infinity to 6
+months and in that we also had the
+opportunity to recognize that even
+though we were getting some customers
+the pace at which we were growing wasn't
+going to justify a large impactful
+company so we learned a lesson here
+which was to now we decided to try to
+build a product we wish we needed or
+wish we had in carrot 6 and so that's
+when we started spread Ley Spradley was
+the company that we applied to Y
+accomodator uh in in Winter of 2010 and
+I want to share with you the the short
+version of the demo video or the video
+we submitted in our y combinator
+application that describes our
+experience with distribution and carrot
+sticks and then why we were inspired to
+start
+Spradley hi I'm Pete and I'm Dan we're
+both former product managers at Google
+and studied a bunch of computer science
+stuff in college I also worked a little
+bit on the Obama campaign and then did
+the presidential transition now doing a
+startup with Pete here in San Francisco
+called carrot six so we started working
+on carrot six about four or five months
+ago and the biggest problem that we ran
+into was distribution so uh getting
+people to use the software getting
+people to talk about the software with
+their friends and so we started thinking
+very hard about that problem and how we
+would try to solve it we came up with an
+idea that we're calling spread Ley
+Spradley is uh very simply a discount a
+merchant can give to a customer if that
+customer is willing to tell their
+friends through Twitter through Facebook
+through email about the product that
+they just bought uh today it's live on
+carrot 6 you can buy a subscription to
+carrot 6 and if you do that you can get
+a discount if you tell your
+so this video I I wanted to share with
+you because I think it shows a couple
+things one is that the human body can
+only withstand one presidential campaign
+here I had this is an image of me after
+gaining 50 pounds on the campaign from
+just eating deep dish pizza and drinking
+beer every night so I wanted to share
+that and we also had the opportunity
+while working uh at Spradley we now
+wanted to really focus on this feedback
+loop and getting distribution for our
+own product and so we built a product
+Spradley that enabled what we just
+described and it took us about a month
+to get our first paying customer
+we were also very critical and very uh
+focused on understanding whether or not
+this could be a big sustainable business
+as fast as we could and so uh that's
+part of the Mantra of why combinator
+which is to build something people want
+and I'll show you in a second uh the
+algorithm we Ed to to to do that for
+Spradley we uh we realized uh after
+joining YC combinator we got this is the
+algorithm pretty straightforward you get
+some money uh and you keep trying to
+build something people want you learn
+and you improve constantly improve the
+product based off the feedback from
+trying to sell it and if it's no good if
+it's not if anything less than insanely
+great you come up with a better idea
+with Spradley the one Insight we we got
+pretty quickly was that the the
+fundamental model didn't work the social
+capital it took for somebody to spam
+their friends about a new product or
+service was almost always more always
+worth more than any amount of discount
+or incentive a business would be willing
+to pay to get them to do it so
+fundamentally the product didn't work so
+after a month we started thinking about
+what are some other products we wish we
+would have had this is a lesson we
+learned with Spradley boy it was easy to
+build Spradley because we would have
+wanted that in carot 6 and so we learned
+that with optimizely optimiz is the
+product I wish we had in 2008 to make it
+easy for anybody to do ab testing and so
+we started optimizely and uh I I
+remember the the first time I even had a
+conversation about optimizely uh we
+actually spoke to a person I worked with
+on the Obama campaign Andrew blecker I
+called him on the phone this is why
+we're working on
+Spradley and I pitched him the idea for
+something that would enable his team
+without Technical Resources to do ab
+testing the same stuff we did back in
+the Obama campaign but with a visual
+interface one-time implementation no
+Technical Resources and a ability for
+them to continue to iterate and get
+better over and over and over again and
+about 20 minutes into the phone call
+Andrew stopped me and he said that
+sounds great send me an invoice he
+thought this was a sales call and I
+responded by say saying well how much do
+you think this is worth He said oh about
+$1,000 a month sounds right which is way
+more money than we ever made on carot
+six and fredley and so what we we
+realized we had our the time until our
+first paying customer was one day we
+actually had our first paying customer
+before we wrote a single line of code
+that Tuesday thank
+you so that weekend I built the first
+prototype and that Tuesday at dinner I
+showed it to Paul Graham he looked at it
+got really excited pointed at this and
+said this this is it this is it this is
+AB testing for marketers forget that
+other idea do this and so we followed
+his advice and we did this the first
+year of uh optimizely we grew to a team
+of four people and an annual run rate of
+.1
+million uh we did y combinator hired uh
+my brother as our first engineer and we
+were we had some great press on Tech
+crunch top of Hacker News a couple times
+and this entire year we were focused on
+the product continually improving the
+product and it was so much easier to do
+that because we were building a product
+I would have wanted myself back in 2008
+on the campaign and so we ran a pretty
+simple algorithm we kept trying to sell
+the product me and my co-founder Pete
+were're the main salespeople we kept
+selling it over and over again and in
+these conversations potential customers
+would ask us oh this is cool but can you
+do targeting can you do analytics
+integration can you do traffic
+allocation can you do X Y and Z and we
+would take that take that as input and
+initially we would respond well we're
+not doing that uh right now but that
+might be something we do in the future
+and that pattern kept continuing until
+that phrase that response changed from
+oh actually great question here's
+exactly how you do that and we would
+show them in the interface oh you want
+to do targeting here's how you do that
+and that tight feedback loop of
+listening closely to prospective
+customers knowing ourselves what we
+would have wanted in 2008 made this much
+much easier Journey than carrot sck
+spread Le or even sentiment
+Solutions the next year we grew to a
+team of 10 and an annual run rate of
+$1.2 million about a nine or a th%
+increase in in revenue and this year uh
+was first time we hired a salesperson so
+we had been doing all the selling for
+the first year and a half and one of the
+things I learned this year which I think
+is really valuable as you get bigger and
+bigger as a company one of the most
+important things for me is to focus on
+hiring and so we had a pretty standard
+algorithm for hiring which was we would
+interview a candidate and we would ask
+ourselves is this candidate better than
+the the mean are they better than the
+average people the average people who
+already work at optimizely and if we
+strive for this goal we will constantly
+get better at least stay as good as
+we've we've been when we first started
+and so this is the algorithm we use we
+said every candidate we hired we would
+ask ourselves are they better than the
+mean and if so we would hire them and as
+we actually got better at hiring we
+would improve the process in our startup
+we really focused on continuous
+Improvement we made not only a feedback
+loop in the product but a feedback loop
+in our hiring machine which was critical
+because in the next year we actually
+grew
+substantially by the end of the year we
+were 42 people and an annual run rate of
+$7.6 million we also in this year had a
+huge opportunity when it comes to
+press 2008 we had a couple of stories
+that were really appealing to reporters
+the first was the Obama campaign and the
+mitt Romy campaign were in full swing
+and we are lucky enough to have both of
+them as
+customers so the Obama campaign in 2008
+it came full circle and that was really
+gratifying and it was also very
+gratifying that the head of the digital
+team for the Romney campaign said that
+the hardest decision he had to make was
+to use optimizely for AB testing knowing
+the origin story of it coming from the
+Obama campaign so we were thrilled about
+that story which was really helpful we
+got on CNN we got on a bunch of other
+main mainstream media Outlets but then
+there was another story that was also
+really appealing to reporters es
+especially Tech reporters and that story
+was this David versus Goliath story so
+we would spoon feed them this idea that
+we are the uh David in this battle
+against Adobe the big evil Adobe who at
+the time had a product called omniture
+test and Target which I used a lot in
+the Obama campaign this story uh was
+very popular and it actually stoked some
+fires with Adobe which is we're really
+proud of and it also gave us a lot of
+press and legitimacy and we had many of
+the customers who were beaten up and
+tired and frustrated with uh the
+incumbent moveed to us as a product and
+in some ways their response really
+validated our
+existence and so that brings us to today
+so if you take this graph and you shrink
+it down and you add a couple more
+quarters you'll get to where we were
+this is where we were at the end of the
+year we had a team of 42 and this is
+where we are
+today we have a team of 130 we've now
+launched and we have the product
+available in 10 different languages my
+co-founder and I actually wrote a book
+uh to try to get distribution called AB
+testing the most powerful way to turn
+clicks into customers and we've really
+continued to focus on all of the things
+that made us great from the beginning
+constantly trying to improve uh in this
+year we also realized that our
+opportunity as entrepreneurs
+is not just to run the same algorithms
+every other startup or every other
+business runs but to Define our own and
+in particular one thing we did in 200 12
+2013 that I think is pretty unique is
+the process we used to raise our series
+a the process we used looks something
+like this we would host a mock board
+meeting with potential investors so we
+had tryouts we actually spent three
+hours with each of the partners that we
+thought were finalists have them spend
+time with us have them spend time with
+our management team and really put them
+through the paces of exactly what they
+would be like as board members for our
+company this is a completely different
+setting than most entrepreneurs have
+when they're working with an investor
+which is over dinner or it's at a pitch
+meeting down on Sand Hill Road from this
+we realized what we really wanted an
+investor and in fact we found an
+investor we never thought we would have
+wanted from the beginning because he
+wasn't technical he didn't have
+operational experience and he wasn't all
+of the things we thought we wanted in
+the board member but what he did have
+was a very very good way of helping us
+get better which was in the feedback he
+gave us in this mock board meeting he
+focused on asking the right questions
+not prescribing the right answers and
+that really impressed me and my
+co-founder Pete and so we asked Peter
+Fenton from Benchmark to join us on the
+board and uh we haven't looked back
+we've been very happy with that
+decision so this is what the product is
+today I'll show some quick screenshots
+today through this process of continuous
+Improvement and Innovation we built a
+product that allows you to put in any
+URL into our homepage open up in a
+visual editor click on any part of that
+page make a change to it and then run an
+experiment to see whether that change
+improves your conversion rate this
+fundamental model is the same model that
+now we're applying to other mediums as
+well and we're really excited to
+continue to grow enable every business
+to use data to make better decisions the
+vision for our product is to enable the
+world to turn data into action and we
+think AB testing is a great first step
+toward
+that one of the things again that has
+helped us quite a bit as I said earlier
+is having customers who give us great
+feedback but not only great feedback but
+our customers who not only are delighted
+but are evangelists for our company so
+we have a great sales team at optimizely
+but our real sales team in fact in fact
+our biggest secret to Our Success is the
+sales team of the 5,000 happy customers
+who sing Our Praise wherever they go a
+word of mouth referral from the director
+of marketing at Starbucks is much more
+valuable than even the best sales guy at
+our
+building so these are a bunch of
+algorithms I just showed you a bunch of
+algorithms and some of you are probably
+computer science students here and you
+might be noticing a
+pattern this pattern is something that
+only I recently realized and this is
+what I'm describing actually as in my
+mind the universal startup
+algorithm this is an algorithm you can
+apply to almost any decision you have to
+make as an entrepreneur and it's
+critical for you as a company to get
+better over time and this is what that
+simple algorithm
+is everything you do get feedback use
+that feedback to make you better focus
+on continuous Improvement you're not
+going to make the right decisions you're
+not going to do the right things in the
+beginning but constantly trying to get
+better is the only way you're going to
+build a lasting company this is
+something that I've seen now from hiring
+to raising our series a to building a
+product and to getting press this
+algorithm is fundamental to all of the
+greatest companies they've all focused
+on continuous
+Improvement the second thing I'll say
+about this Universal startup algorithm
+is that a common mistake many
+entrepreneurs make and I make this
+mistake all the time is they get trapped
+in something known as the activity trap
+they think their job is to execute the
+algorithm constantly execute the
+algorithm your job as an entrepreneur is
+to write the
+algorithm great example of this is Tesla
+Tesla has decided that they're not going
+to do the same distribution model of
+every other car company in the world
+they're going to sell cars directly
+they're not going to negotiate prices
+and they're going to cut out the
+middleman Elon mus defined the algorithm
+he wrote the algorithm for his company
+and now that's going to be a huge
+Advantage for them as they continue to
+grow
+thank you very much
+[Applause]

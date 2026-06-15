@@ -1,0 +1,875 @@
+Title: YC Tech Talks: Machine Learning
+Video ID: 9h1dxWDFgTU
+URL: https://www.youtube.com/watch?v=9h1dxWDFgTU
+Channel: YC Root Access
+Published: 2022-12-22T16:29:22Z
+Duration: PT30M34S
+Views: 6540
+Likes: 114
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 850
+
+Description:
+https://www.workatastartup.com/events/ml-tech-talks-2022
+
+What is it like to work at a Machine Learning startup? What problems are ML founders thinking about every day?
+
+Meet YC founders in the ML space. Two founders give ⚡lighting tech talks⚡ on the following topics:
+- How to stack recommendation models to always win (Andrew Yates, Promoted.ai (YC W21)) - https://www.ycombinator.com/companies/promoted
+- How and why we created one of the fastest 3D Reinforcement Learning simulators in the world 
+
+============================================================
+TRANSCRIPT
+============================================================
+
+[Music]
+foreign
+[Music]
+welcome to YC Tech talks machine
+learning
+I'm Paige from our work at a startup
+team the team that helps people get jobs
+at YC startups
+so for tonight's event we have Founders
+who are going to be talking about
+interesting problems that they deal with
+in the machine learning space and a
+little bit about the problems that keep
+them up at night
+hi everyone hey I'm I'm Andrew Yates I'm
+CEO and founder of promoted.ai I'm going
+to be talking about composing models how
+to stack recommendation models to always
+win
+so what is promoted do
+we are ranking search and promoting the
+best listings at the top to increase
+Revenue you're familiar with this
+problem if you've ever used Facebook
+news feed or Google search or Airbnb or
+any kind of hey there's a list of things
+and you want to sort it and there's some
+sort of objective Amazon
+this is a very very common machine
+learning task of what should I show you
+at this time that you are most
+interested in and then we can auction
+this off
+and make money on this oh if I can show
+you these things and maybe you are 10th
+but if you want to be first here's how
+much you would pay for that we run an
+auction and then you have an ads
+business
+so
+in our business
+um in in our machine learning task
+there are many many machine learning
+models and techniques it is a very very
+well established problem there are many
+different Alternatives there are vendors
+there are in-house teams they have
+different strategies techniques et
+cetera et cetera so
+um another challenge is there is
+frequently a trade-off between some
+models may be good at something some
+models better than others so an example
+would be
+um some models are trained on past
+engagement so they're very good for
+established items but what about new
+items that have no engagement well those
+do poorly then you maybe need some sort
+of content understanding model content
+understanding model doesn't do well on
+things we have a tremendous amount of
+user experience another example would be
+hey we have a model that is very fast to
+update within like the current day for
+like ads model for example people are
+always creating new campaigns they are
+maybe running for a day it needs to
+update very quickly versus like this
+gigantic recommendations model that has
+been trained on years of user preference
+says maybe it's some sort of gradient
+boosted account or excuse me some sort
+of gradient descent type of algorithm
+and it's very slowly updating it won't
+learn a pattern except for weeks and
+weeks and weeks after accumulating data
+but you want both of these two things
+and then different aspects of the
+objective you're trying to accomplish in
+your search and feed there may be
+relevance versus engagement for example
+so the idea of well I want things that
+people are going to buy and I also want
+things that are relevant to this search
+query as people would say so in some
+sort of human review so you have many
+different types of models and you have
+different production constraints you
+have data availability and dimensions
+inference time uh different trade-offs
+and reliability and false tolerance and
+so the challenge here is as you as a
+machine learning practitioner or as us
+promoted what do we do to
+always win in a b experimentation how do
+we how do we always win and the answer
+is
+we
+uh
+you will always lose if you always try
+to make a single best model so what we
+do is we combine all the models together
+of course like a very straightforward
+pragmatic solution oh we'll just take
+all of the good things and combine them
+together and we'll get a better model
+and in the worst case it's going to be
+as good as the individual signals that
+we're composing
+I'm going to talk a little bit about how
+this is actually done in practice
+um there are two techniques for doing
+this effectively and they're both they
+sound simple but there's actually a lot
+of really interesting theory about and
+very successful techniques that use one
+of these two so first is horizontal
+composition this is as simple as
+take all of the models and average them
+together
+and you get usually a better result than
+what you've originally started with any
+individual model this is the wisdom of
+crowds so some extremely powerful
+successful models are based on this idea
+one is a PID controller
+um if you're familiar with real-time
+Control Systems which is hey do you want
+like the difference now do you want the
+integral of the difference or the
+derivative of the difference how about
+just add them all together and then
+average them and that's going to give
+you the best controller objective yes it
+works really well grading boosted
+decision trees which decision tree is
+best I know let's just take a lot of
+decision trees and average the result
+together and that's going to give us the
+best possible model this is a very very
+powerful model very difficult to
+outperform even very sophisticated
+techniques
+um another advantage of this horizontal
+composition is it's simple it's
+effective it's easy to understand
+um some disadvantages are that it is
+hard to tune it itself is a type of
+model so if you've ever had an
+internship for example or a job in a
+ranking team or a recommendations team
+as soon as you have a simple model and
+then you're like well why is it average
+like can we make a weighted average why
+is it a like can we multiply can we put
+like some sort of non-linear
+transformation on it it can get
+difficult to answer those types of
+questions of what is the best model on
+top of it because it's generally
+composed as something that's very easy
+to get started with not some sort of
+organized composition and uh an
+advantage in infrastructure perspective
+is for this horizontal composition you
+can compute all of these signals in
+parallel and
+um it's efficient and modular so you
+don't depend on any single one of these
+mod signals to be computed before you
+compute another model inference you can
+do all of them in parallel and then
+combine them
+the other type of model composition is
+vertical composition this is when model
+outputs are inputs to another so this
+can be uh a big disadvantage to this is
+this can be very intensive to log
+training data so a little bit about
+promoted and why promoted is very
+successful at doing this is that we are
+in some ways a data streaming
+infrastructure business where we are
+taking every single inference and
+logging it with a tremendous amount of
+metadata and features so that we can
+take
+every single model output at every
+single inference and log it and train on
+top of it this is sometimes infeasible
+to do depending on what you're trying to
+do in your system another way of
+thinking of vertical composition is it's
+a a type or a form of feature
+engineering this idea of hey I have
+these raw signals I need to transform
+them in some sort of way before they go
+into the main model to be used you can
+think of like vertical composition is a
+really really big version of feature
+engineering
+um an advantage of vertical composition
+is the composition itself is learned as
+part of the model of whatever the
+architecture is so unlike in horizontal
+composition where you have like an
+average it has a weighted average maybe
+has some like some other things and it's
+kind of ad hoc uh the composition here
+is just part of the model you put in the
+signal is the model definition to figure
+it out for you
+um the disadvantage is that computation
+is serial so you have to finish
+executing all of the signals before you
+can start on the next layer of execution
+one really interesting thing about doing
+this concept of model composition as
+opposed to a more typical machine
+learning idea of hey we just have the
+model the single one great model is it
+helps you think in terms of organizing
+an entire machine learning engineering
+organization so if you are running
+Pinterest or you are running
+um Facebook or Airbnb you don't have a
+model it's not like the recommendation
+model and you don't have like the
+recommendation engineer who built it you
+have many many different teams doing
+different pieces of this and all working
+in parallel over time and evolving over
+time to build the final and deliver the
+final product and so how do you think of
+not only models as pieces among other
+models but then how do you map that into
+an entire engineering organization so
+that all of these pieces work together
+literally in the computer but all also
+as organizations and people working
+together so one way that this is done is
+to separate meaning from implementation
+so different models at different
+characteristics as an example
+um a click prediction model means this
+is the probability of a click on the
+specific item in the specific location
+that means that you can change the how
+that model is implemented from let's say
+a grading piece of decision tree to like
+some sort of neural network and it
+doesn't change fundamentally what that
+signal is meant to be it can be then
+used in another system that says okay my
+feature is the probability of Click for
+this item well it doesn't matter how
+that was computed it just matters that
+it's the same interface so you can start
+thinking of models as having an abstract
+interface in the same way that you can
+build
+other types of software and then the
+same way that you can do other kind of
+concepts of software organization like
+um
+uh like microservices and one example of
+this is in ads systems so this idea of
+analytically versus approximately
+example and ads is that in and this is
+something that promoted is doing is that
+um you can separate the price like
+what's the optimal price someone should
+bid from the um other aspects of the
+rest of the system like what's the
+probability of clicking your conversion
+or like other objectives around user
+experience versus ad Revenue
+that's my
+few minute talk uh I'd love to take any
+questions
+um how do you pick your models within
+your compositions and have you run into
+a scenario where either a single model
+or a few models have negatively skewed
+your results
+oh great questions
+um for picking models it's it's
+engineering the challenge is you
+generally as a engineer a practitioner
+working at a job it's not a research
+problem you're not developing new
+techniques or modeling your job is to
+accomplish some sort of task for a
+system objective so
+um it depends like that's the short
+answer longer answers are choose models
+that work reasonably well and then
+choose to have a more complicated model
+depending on if it's worthwhile to spend
+the resources and energy to do so
+the their whole discipline around that
+I'll I'll come back so like start with a
+linear Model start with like a hand
+tuned Rule and then eventually invest in
+is it worthwhile for doing the
+additional complexity the other part of
+is it possible to overdo this yes
+yes it's like
+um if you follow the Elon musk's Twitter
+feed though the microservices video that
+you recently posted
+um models are the same way like you can
+construct a horrible kafka-esque type of
+world of models going to models all over
+the place which could all just be
+condensed down to something that's
+relatively straightforward that is
+um sometimes more of an organizational
+like human organizational problem as
+opposed to like in engineering or
+technical problem
+um from the engineering and Technical
+problem sure this is like not every
+single is going to add additional value
+and you may not have the model
+complexity or the training data that
+match your your domain and so just
+simply increasing the complexity or
+signals may not actually improve your
+objective how has your experience been
+with developers who might not be very
+familiar with uh you know certain ml
+Concepts or even the fundamental Basics
+interacting with these Technologies
+this is where the numerical interfaces
+are important this concept of this is
+what this model means and this is what
+it's supposed to be used for
+if you don't have a con like you don't
+have to understand how and you shouldn't
+and you won't understand how let's say
+this is the probability of a click for
+example like it just is it's probability
+of a click but you can still know oh it
+means the probability of a click like
+you can understand what it means so
+that's in contrast to some other types
+of Black Box models where you can't
+understand what the score means
+unless you have the entire final
+composition so an example of a model
+like this is a learn to rank model in
+this domain is the score that is
+produced only matters in the context of
+other scores in the same result and so
+what I've seen that like I think most
+intelligent software Engineers which are
+I mean all all software into digital
+intelligent what what I have seen is
+people don't have a problem with like
+the more complicated
+theory part of it because I recognize
+that that's complicated they don't try
+to understand it where I've seen people
+have trouble if they have less
+experience is
+using models without understanding what
+they're meant to do and then like
+running into a mess and then they try to
+fix it with a B experiments like oh well
+it's a mess with no one can understand
+it let's just run an A B experiment
+that's where I see people burn a
+tremendous amount of time and energy
+versus like just simply not
+understanding how a grading descent
+works or something like that in practice
+you don't really need to know that
+someone who's simply consuming a signal
+from some other some other some some
+other system
+so with that
+um I'm gonna turn it over to Josh
+well if you are interested in learning
+about you know deep learning and how it
+works and all that stuff and not using
+it for anything then maybe this
+presentation will be a little and we'll
+be up your alley so
+how and why we created one of the
+fastest 3D reinforcement learning
+simulators so what we built is a
+reinforcement learning environment
+called Avalon and actually just
+presented it at nerups the machine
+learning conference this morning it's
+open source it's free anyone can
+download and play around with it it's a
+procedurally generated uh set of Worlds
+there's an infinite number of Worlds of
+different tasks there's buildings and
+predators and tools and it's sort of a
+game like Minecraft in which
+reinforcement learning agents can learn
+to interact with the world so why did we
+build this uh the reason that we built
+this is that our goal or generally
+intelligent is to make more intelligent
+software agents and why do we want to do
+that well I mean we want to automate
+boring tasks we want to cure diseases
+there's all sorts of really cool things
+that we could do if we had very
+intelligent software today we have some
+pretty cool machine learning stuff you
+know we can learn to rank things we've
+got things like chat GPT but it's still
+pretty far from AGI uh here's a good
+example that I pulled just this morning
+from chat GPS she uh you know someone
+asked it like what's the what is the
+fastest Marine Mammal it says the
+fastest marine mammal is a peregrine
+falcon Falcon is not a Marine Mammal
+yeah so okay maybe it's a sailfish
+that's not a mammal right so it just
+goes on it's like it doesn't really know
+things necessarily in another sense it's
+very powerful very interesting
+um it can definitely do lots of really
+cool stuff but they're still pretty far
+from AGI even Sam Allman uh previously
+at one combinator uh is kind of a greedy
+is that like there's a lot of people
+that think oh this is the AGI though he
+realizes this is not obviously very
+close yet so you know they are very
+powerful though right AI when we apply
+it to a particular task like ranking
+things or playing go or a Dota or
+something like that they do extremely
+well and often much better than people
+so isn't this kind of a contradiction uh
+the real problem though is that we want
+general intelligence a really good
+definition from Shane like at deepmind
+uh via the definition of intelligence
+page on Wikipedia is that intelligence
+is the ability to achieve many goals in
+a wide range of environments so really
+what we want is the way to construct and
+evaluate a wide range of problems and
+environments in other words a simulator
+we actually did a lot of sort of
+customer research but for researchers as
+we were developing this and what we
+heard over and over again is one of the
+biggest things holding back the
+reinforcement learning field is a lack
+of really good benchmarks a lot of
+people work on like you know Minecraft
+or Atari or these other games but they
+really are capped in kind of their
+ability for us to build really
+interesting agents in them and so Avalon
+is built from the ground up as a Sim
+emulator made specifically for
+reinforcement learning so most systems
+use existing games like Atari or Unity
+or Minecraft and those have made
+trade-offs to make games that are very
+different for what you want from a
+reinforcement learning simulator
+so for example in a game you want stuff
+to be fun right but that's not actually
+what you want to reinforce and learning
+simulator instead you want it to be
+similar to tasks that people do every
+day which are often kind of grindy and
+not very fun uh you in a game wanted to
+run you know 30 to 60 frames per second
+in a simulator you want to run a
+thousand frames a second or ten thousand
+you want it to be profitable as a game
+here we want to be free and open source
+so people can do research on it you want
+a game to have lots of features we
+instead we want this to be really
+debuggable and simple you want the game
+to be challenging for adults here we
+want it to be a range of challenge
+that's some of the things are very easy
+so that the Asian King got to get
+started and some of the things are very
+challenging as well in a wide spectrum
+of things between nodes so what we did
+is we built Avalon on top of the Godot
+game engine which is actually a really
+cool game engine so it's completely open
+source it has physics and rendering and
+everything inside of it it's
+cross-platform it supports VR
+it is about a 30 megabyte download a
+single executable it's really really
+easy to use it has lots of tutorials and
+active Community as a really good
+debugger and editor it's a great base to
+build welcome it's also nice and simple
+and so what we did is we packed it up
+basically into a crazy fast simulator so
+it was simple enough that we could just
+sort of reorder things to make it into a
+deterministic actual simulator where we
+can say like step wait for the agent
+step wait for the agent and which is
+very different from our game is normally
+played we also then created our own
+custom egl rendering back end to avoid
+having an X server at all because we
+want to run these on you know headless
+Linux machines with lots of gpus in the
+cloud and this avoids some extra frame
+buffering and passing and things like
+that we also tweaked it so that the
+physics happen much less frequently than
+they normally would in a normal game
+they'd have in maybe 30 or 60 or maybe
+120 times per second but here we update
+physics just 10 times per second per
+simulated second and that allows us to
+do a lot less physics computation
+although at the cost of some kind of
+funny physics bugs of if you don't tune
+in properly Things fall to the floor or
+go through each other or do all sorts of
+weird stuff so it took a while to get
+down to this like very minimal amount of
+physics work
+we also did a lot of work uh tracing
+through the opengl rendering with the
+Nvidia profiler until we trimmed out
+everything like transparency don't need
+that textures don't need that mittmap
+don't need that Shadows met uh you can
+turn that back on if you want more
+visual realism but we did this so we can
+get to about 10 000 frames a second
+actually eventually uh the Geo clear
+call which is just like clear the screen
+is a significant fraction of our
+rendering time
+uh another thing we did was transfer the
+data in a very fast serialized way uh
+via shared memory using numpy uh and
+then you know profile or Gameloft can
+move stuff to C plus plus for
+necessarily we also wrote Our Own um
+reinforcement learning worker rollout
+logic to work around the fact that you
+know this is a much more complex
+environment it takes a little while to
+reset when the agent dies and we want to
+you know change to a new world and a
+whole lot of other stuff uh basically we
+did all these things and ended up
+getting to about maybe seven to ten
+thousand frames per second on a single
+GPU which is which is pretty impressive
+and we're hoping to get to something
+that where even for a single agent it'll
+be about 100 times faster than real time
+so you can train a one-year-old in maybe
+three and a half days
+there's a lot of interesting future work
+to be done uh one of the things we'll be
+doing is moving the Godot game process
+into a library rather than a standard
+loan process which will let us do batch
+rendering we'll also be doing a little
+bit more with multi-threading so we can
+work on multiple kind of agents at the
+same time uh in in a single simulation
+uh work moving some of the parallelism
+out of the Python level into the sea
+level within python to avoid the global
+interpreter lock uh also maybe moving to
+asynchronous execution of environments
+and agents so that rather than
+everything waiting around for this
+lowest agent if an agent is too slow it
+just sort of Misses its turn just like
+in real life if you're too slow stuff
+happens uh we'll also be doing a lot of
+performance Improvement both on existing
+networks and on other large language
+models and agents in order to make them
+actually fast enough to integrate and
+put together so there's a lot of really
+cool work if any of this stuff sounds
+interesting or if doing you know machine
+learning work and research and in
+general sounds interesting we're
+definitely hiring so feel free to reach
+out to me to meet here and thanks for
+listening
+do clients use this as an API to build
+their own environments
+so it's free and open source so people
+are welcome to use it for whatever they
+want we're hoping that academic
+researchers will use it primarily it's
+it can run on a single GPU pretty pretty
+easily so it's accessible for most
+academic Labs if people want to use it
+for business they're welcome to although
+it is currently GPL so we you know kind
+of require that you contribute back any
+fixes or changes that you make
+yeah
+um another question here can it be used
+to generate a digital twin of
+small-scale agricultural Farms with 3D
+simulated plants for various types of AG
+work you could try doing that we have
+very purposely stayed away from making
+it ultra realistic like the 10 you know
+physics ticks per second type of thing
+and the visuals you saw before are
+purposely not very realistic because
+we're really going for speed it's really
+meant as a scientific tool for asking
+questions about how can we make agents
+learn and a little bit less for how do
+we make agents that we could then
+transfer to the real world we might do
+that in future work uh kind of extend
+things to be more realistic but that's
+not our Focus right now and you had
+started to answer this but what are some
+of the most common use cases
+yeah so right now uh it's primarily
+intended as a research tool as I was
+saying so there are some researchers
+that are working on kind of extending
+this in various ways we are extending it
+to add a bunch more tasks not just the
+sort of simple physical tasks like
+running and jumping and throwing that
+are in there right now but adding more
+linguistic tasks or a sort of unbounded
+task one of the things that we really
+want to work towards is making
+effectively a benchmark for general
+intelligence which would have thousands
+or tens of thousands of tests so that's
+the thing we're working towards other
+people uh might be able to use it for in
+the future more multi-agent
+considerations or some people are
+looking at how you can reuse computation
+from previous RL agents or one of the
+things that this opens up is the ability
+to train agents for much longer than
+agents have been able to train before so
+you can ask how do you learn things
+within your lifetime so it opens up a
+bunch of new possible research questions
+so my question is um you know do you
+think this sort of like uh training
+agents to act in this sort of simulated
+virtual environment is going to be uh
+the most important or useful application
+of RL in the next few years or will it
+you know be more of things like you know
+reinforcement learning from Human
+feedback for like aligning large
+language models um code generation
+models things like that just yeah
+curious how you think about the
+evolution of RL in the next few years
+well yeah I guess so RL from Human
+feedback is an application of
+reinforcement learning two other things
+and the purpose of this tool is to make
+it so that we can make agents that are
+better able to do reinforce and learning
+in the first place so anything that we
+discover using this tool sort of applies
+to those types of applications so this
+is sort of like one meta level removed
+from that that if we can make agents
+that can learn much better from less
+data or learn much more quickly we can
+apply that to tons of different possible
+applications cool makes sense thanks
+okay so we'll have a couple of pitches
+now from other companies
+um first up we have Jay
+cool uh yeah so hi everyone uh I'm Jay
+I'm a co-founder at eventual we are the
+data warehouse for complex data sorry so
+this is data like images audio video
+documents things that don't really fit
+in the table like a SQL table uh our
+product is open sourced and it's called
+Daft eaft you know it's often said that
+data is the most important part of
+machine learning right and Daft is kind
+of the data engine that's a core part of
+the infrastructure Daft is a distributed
+python data frame Library so if you've
+ever used pandas or Pi spark before
+you'll be right at home with Daft it's
+built for python so you can use all of
+your python functions classes objects uh
+making it super easy to work with any
+custom complex data types you have like
+images or crazy dicom dicom file formats
+for healthcare that's distributed we
+built it to run on Ray which is a
+distributed computing framework so we
+can process petabytes of data on
+hundreds of machines and we're going
+really quickly we did a soft launch with
+no real marketing just wrote a month in
+about two months we have about 400 Stars
+uh we're doing a bigger beta launch at
+the end of the year I'm working on
+really core technical challenges like
+query optimization distributed systems
+data the data engineering our front end
+is in Python and The backend is now in
+Rust and yep learn more about
+daft.daft.io and come talk to me thanks
+hey everybody
+um I'm Stan I'm one of the co-founders
+over at hyper globe
+um here at hyper glue we're building a
+platform that extracts insights uh from
+text you find in apps like slack or Zoom
+or zendesk or customer facing forums
+like Reddit
+um our customers leverage hyper gluta
+generate real-time analytics on all
+sorts of things so like uh what are my
+Gamers saying about my latest DLC on
+Reddit
+um what are our common questions or
+competitors that are coming up in my
+sales calls
+um or what are the top issues in my
+support tickets this week
+um the best way to think of it is uh as
+a center of excellence if you will for
+unstructured data so
+um we provide the why for why your
+numbers are moving right the Aus are up
+or down or churn is up or down why is
+that well it's uh the hints are probably
+you know your customer touch points so
+um we want to make it really easy for
+you to have that visibility across the
+org
+um
+yeah the founding team Paris Stamper
+guys who have nothing better to do than
+uh work with ML apparently
+um before this we
+um use these language tools primarily in
+National Security
+I'm doing things like media monitoring
+or tracking terrorists
+around the world
+and uh
+yeah it's a really cool technical
+problem and we're
+happy to connect with anybody interested
+in the MLP space or
+um how it translates to real world
+commercial applications and happy to
+answer any questions
+any specific uh types of engineers that
+you're looking to hire
+uh yeah so we we are hiring on the
+platform side the ml side and the UI
+side so we're we're uh just about to
+start growing up hopefully you know
+um so happy to
+um like I said connect with anybody who
+feels like uh the problem space is
+something that that they'd be interested
+in
+okay uh my name is Ben Coleman I'm the
+co-founder and CEO of reality Defender
+we do real-time deep fake detection for
+platforms Banks streaming social media
+adult entertainment
+just to kind of dive in what that
+actually means
+a arms race is incredibly expanding and
+imbalanced there's over a hundred
+thousand defect models that's three
+percent focus on detecting depicts all
+the rest are all the cool gender of AI
+you guys are seeing every day
+what we do is provide an ensemble
+approach to the Deep plate detection
+integrating multiple models together and
+look for whether it's examples of known
+models or unknown models of known
+signatures we create our own deep fix in
+the lab
+we have a no code web app we have a API
+we also have a passive internet scale
+scanner
+we find all kinds of dashboards and
+exports and report cards and email
+alerts
+the possibilities are endless Because
+deep fix attack every single entry
+vertical everything you do Everything
+You Touch everything that looks like you
+whether it's a bank whether it's an
+insurance whether it's a streaming
+platform social media government group
+going very fast here it's a very very
+obvious use cases fake faces fake
+accounts social media shopping Banks
+fake housing fake Interiors
+with two minutes of Page's voice I
+create a perfect deep page we won't do
+it on this call
+and any of us can be depict online fake
+people at real companies real videos to
+fake voices or vice versa
+we have an API
+platform is super simple to log into
+using a password
+drag it up a file get immediate results
+across multiple models relevant to the
+type of media the type of codec type of
+compression all kinds of exports
+I'll leave it at that it's a fun scary
+company a scary problem uh and very
+amazing company and we're recruiting
+here across number of areas across
+research engineering data science and
+strategy and operations
+[Music]

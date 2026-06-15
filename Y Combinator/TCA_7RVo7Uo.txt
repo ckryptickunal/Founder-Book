@@ -1,0 +1,899 @@
+Title: Scaling Product | Fireside with Joe Gebbia and Reid Hoffman
+Video ID: TCA_7RVo7Uo
+URL: https://www.youtube.com/watch?v=TCA_7RVo7Uo
+Channel: Y Combinator
+Published: 2017-06-06T17:21:52Z
+Duration: PT30M59S
+Views: 31429
+Likes: 496
+Tags: YC, Y Combinator, Scaleup Offsite, Growth
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 877
+
+Description:
+Co-founder of Airbnb, Joe Gebbia, sits down with Reid Hoffman to talk about scaling the product for Airbnb, and how they thought about designing the full chain of the travel experience (not just the accommodations element).
+
+This conversation took place at The Scaleup Offsite, a private CEO gathering hosted by Y Combinator Continuity and Greylock Partners in April 2017.
+
+============================================================
+TRANSCRIPT
+============================================================
+
+it is my uh privilege and honor to be on
+stage with Joe who um actually in fact
+um I have learned a bunch of different
+interesting uh product and design things
+from and among other things I haven't
+done this yet is your furniture stuff
+out yet or no next month next month okay
+there's some furniture stuff that's
+coming out that I recommend to you and
+whatever degree we can we can talk about
+that we'll get to um part of the reason
+I wanted to do this section with Joe was
+that uh kind of a key theory around
+scaling is actually in fact first doing
+things that don't scale across a set of
+different key uh places in the business
+and then working out to uh how to get
+that part to scale and Airbnb is like
+you know the canonical example of being
+super design intentional on this and so
+let's start a little bit with kind of
+like how you guys got to thinking about
+you know going door Todo in New York
+with that experience was like why you
+did
+it clearly not scalable having the
+founders go do door to New York or
+anywhere uh and then what's the design
+process that you run for beginning to
+think about everything from that
+initially super handcraft rafted into a
+kind of more scalable process yeah cool
+well first of all thanks for having me
+it's great to share these stories um
+from like the early days of Airbnb when
+it was like truly like you know you're
+at War trying to get product Market fit
+trying to get people to adopt this crazy
+weird service that no one would invest
+in and um I think you know reflecting
+back on that that time of like right
+before we tipped into into scale um it's
+like how do you how do you push so hard
+to get that that I guess inflection
+point right um and for us up until that
+point I feel like we had subscribed to
+this this um this myth of Silicon Valley
+which is that you have to solve problems
+scalably right because that's like
+that's the beauty of the internet that's
+the beauty of code one line of code can
+you know touch an infinite amount of
+people and for many for far too long we
+tried to code our way through these
+these problems that we were facing um
+and we were getting nowhere it was the
+quinten Paul Graham trasar like totally
+flat I call it the Midwest of analytics
+like there was just zero growth um and
+it was really
+depressing um and it wasn't until we had
+this um this this session with with Paul
+Graham where was the first time somebody
+said to us like it's okay to do things
+that don't scale it's okay to step
+outside that that myth and to try any
+and everything and the minute that that
+happened it was like the creativity just
+started to flow and we're like okay well
+what could we do
+and uh it was looking at the this
+pattern on our search results that hosts
+in New York of which we had about 30 at
+the time had really bad photos like they
+just didn't know how to take a good
+photo their pictures at night pictures
+with dishes in the sink pictures of
+toilet seat up I mean you're looking at
+you're like I wouldn't want to stay
+there so no wonder we're not growing no
+one's why would somebody pay for this
+kind of accommodation based on these
+images and that's where like we're in
+the session with Paul Graham it's Nate
+Brian myself and we're all just like
+huddled around we're like well if we
+don't if we can do things that don't
+scale why don't we just go take better
+photos I've done photography my whole
+life took some classes at Art School
+like let's just go to New York for one
+weekend and we have no idea what's going
+to happen we'll email our our community
+in advance and we'll say Hey you know we
+want to come meet you we want to send a
+professional photographer to come shoot
+your place um so we we'd fly out we
+rented this this wide angle lens camera
+from a place in Union Square and you
+guys were the professional photographer
+that was the aha moment for a lot of
+hosts um you show up at the door like
+hey I'm Joe it's nice to meet you and
+they're looking over your shoulder like
+where's the photographer and you go oh
+uh that's awesome me too and then they
+put this look of disbelief on their face
+um but then something really interesting
+happened we go in we take photos and
+we'd show them on the back of the camera
+and say hey what what do you think and
+they were blown away they're like oh my
+God my apartner looks so good do you
+want to stay for some tea or coffee and
+so there I'd sit down on the couch and
+our earliest customers U much like yours
+were our zealots these are the people
+who were willing to take a risk try a
+new weird crazy product to be kind of
+outcast amongst their friends um which
+meant that they had a lot of knowledge
+they had a lot of insights into this
+kind of activity because they were
+already doing on other websites they
+were on Craigslist they were on
+sublet.com they on home away blah blah
+blah and we're sitting down with them
+they pull out their laptop
+and they start showing us and they start
+asking questions like show me how you
+log into your account show me how you
+evaluate a guest if you feel like you
+can trust them enough to let them into
+your home how do you update your
+calendar and all of a sudden read right
+in front of my very own eyes I saw ux
+user experience train wrecks of people
+trying to navigate our beautifully
+designed product but not being able to
+do nearly what we intended them for to
+do would take them 12 steps to do
+something we thought was only going to
+take to for example um people didn't
+know how to update the calendar they
+were like we reviews the wrong way all
+of these train wrecks that we just had
+no idea we're even a problem right
+because at this point we're we're just
+in San Francisco trying to code our way
+through problems we're shipping code
+around the world we never took the time
+to go out into the world and actually
+meet the people using our service do you
+think it's worth talking at all about
+the kind of the experience not just
+being the website but the entire
+experience around it as part of that
+sure I mean cuz this is one of the
+things I learned learn from you guys I
+think even going back to the very
+origins of of the kind of that core
+weekend with the three guests in our
+living room um I won't go through that
+that story other than to say uh from the
+very beginning we thought about this
+more than just a place to put your head
+at night the place to lay down even from
+that very one weekend we're like well
+what if we picked him up from the
+airport what if we provide breakfast in
+the morning what if we gave him you know
+Bart pass to get around the city with a
+map to San Francisco and even from the
+the beginnings of this weird weekend
+project was this idea of like how do you
+think about everybody's experience from
+end to end and that's I mean often like
+a designer's job like this water bottle
+is a great example of that a lot of
+people might look at this like oh cool
+design of the water bottle a designer
+would look at this and say like actually
+this is just one instance of a much
+bigger design the design of this started
+with thinking about the you know the
+Shelf experience inside the store or
+maybe even further than that the first
+time you heard about the Fiji brand and
+you think about each sequential step
+that somebody goes to and this just
+happens to be an instance on a much
+larger holistic kind of Arc of how
+people experience a product so it's it's
+considering all those things that's you
+call it design thinking that's all that
+is it's just a consideration for each of
+the touch points that leads up to the
+moment when someone consumes your
+product including what happens to this
+afterwards right like a good designer
+would consider well the materials in
+this and the labeling to show what you
+can do with it which bin it goes in so
+that it has like a life cycle Beyond its
+consumption would be like how we think
+about design at the company and then how
+do you move from those initial steps
+because obviously the reason why Silicon
+Valley has this kind of classic only do
+things at scale is because you're
+worried about getting trapped in like oh
+the founders have to go take all the
+pictures or we have to hire all the
+photographers on to do this and you get
+worried about well that'll never scale
+and so that'll never work and so you
+shouldn't even start it as a and they
+get the kind of learnings about really
+talking to your customers really getting
+a sense of it uh helping build that
+initial kind of like just like but love
+experience yes but that kind of thing
+and so how do you go through the process
+where you then because you have another
+design experience you say okay we
+figured that out now we're designing the
+scale yeah well you know there's
+something that magical that happened
+during that first weekend when we're
+taking these photos we're seeing our
+customers use our product in their
+natural habitat right we're in we're in
+their living rooms they call this
+ethnographic research right you go out
+into the world and you study um
+something in its natural environment and
+uh it was through those interactions
+that we saw the the the distance the gap
+between our product and our Market it
+was this invisible Gap that we couldn't
+see and by going and talking to our our
+earliest most passionate customers they
+helped shed a light on the distance
+between those two Gears of a product and
+Market coming together and so uh a
+couple things happened we take the
+pictures we we'd come home and upload
+them we'd also take their feedback and
+actually Implement changes very very
+quickly right so Nate would I thank God
+he's a genius he would take these ideas
+that would come back from from guests
+and hosts and start implementing them
+like the same night so imagine you're
+like this customer of this website and
+you get this email that says hey it was
+great to meet you um here's the photos
+of your place we uploaded them for you
+and by the way the idea you have for the
+calendar we've implemented it tell us
+what you think and these 30 hosts that
+we met over the course of a couple
+weekends doing this started to use the
+word Airbnb and love in the same
+sentence and something magical started
+to happen a couple things the first is
+that Revenue doubled um from all of $200
+a week to
+$400 which was
+huge um but we started to see more
+listings popping up in New York and this
+is at a time we had no press we had no
+online marketing there was no possible
+way that somebody heard about it from us
+this was like the most pure Word of
+Mouth we probably have ever had um
+because when I feel like when people
+fall in love with something you tend to
+tell others in your life about it your
+neighbors your colleagues your
+co-workers your family your friends and
+so we started to see that 30 listings
+become 42 become 57 become
+65 and what was really cool is that
+these new hosts coming on board would
+see the quality of listings and be like
+wow I guess I need really good photos so
+they would upload really good photos so
+we had quantity and quality going up at
+the same time and when that happened
+people started booking they're like oh I
+see what I what I'm paying for and they
+have have the locations that I'm looking
+to stay in this idea of like traveling
+around the world to take photos of
+Apartments obviously is like that can't
+last forever um and so it was always Our
+intention to really uh understand what
+that operation was from the inside out
+so that from any Dimension we would
+understand the needs of like the timing
+like how long does it take to shoot an
+apartment how long does it take to get
+it between two apartments in the city uh
+what kind of system do you need to
+upload photos quick like all these
+different things that you have to figure
+out we did ourselves So eventually over
+time like we we threw product and
+Engineering at it and today we have God
+like tens of thousands of photographers
+all over the world contract
+photographers that shoot in every major
+city in around the world and it's it's a
+free service that any host can can one
+click and a photographer shows up in
+about two days to take free photos of
+your place and that all started with
+just us like bumping in the walls and
+stumbling through it and trying to
+figure it out the professional
+photographer s of shows up as here we're
+the three co-founders we're going to
+talk to you
+um and actually and and that was another
+lens of the kind of the the photography
+service was another lens of saying look
+yes we're investing in this Co this
+heavy cost human touch way of doing it
+but it leads to a compounding effect
+within the marketplace and the network
+and that's another angle of the
+unscalable things that then later lead
+to scale as a way of doing it on your um
+Ted Talk you talked about designing for
+trust right and I actually think that's
+one of the things that I think all the
+companies is super important for because
+part of encountering a new company a new
+experience going and staying at
+someone's home Etc but all of us have
+this experience what are some of the
+takeaways you think that the uh the kind
+of Founders CEOs and so forth when
+they're saying look I am trying to
+provide this new experience what are
+some of the principles either as stories
+of Airbnb or general principles of
+Designing for trust wow yeah I mean uh I
+think people probably know the early
+stories if we tried to raise money it
+didn't work out um and we were just like
+scratching our heads like why is this
+not working why will people not see what
+we can see um that this is like there's
+a much more authentic way to travel and
+I think what we ran up against looking
+back I know what we ran up against was
+the The age-old Stranger Danger bias
+that we've all been taught since we were
+kids we just didn't realize it at the
+time and like we had to figure out some
+way to to navigate this bias in the
+world that well of course like what
+investor would invest in a company whose
+business is about having strangers sleep
+in each other homes like that's crazy
+right back back in the day and so we
+really had to get smart and clever and
+try a ton of different things to figure
+out how do you create a condition where
+people feel comfortable saying yes right
+like what information do you need to
+provide um I mean we had to create you
+could say olympic sized trust between
+people and it was uh for us you know I I
+think when you face a challenge or you
+face a problem you fall back on what you
+know and we've we fell back on design
+because that's what we know and again
+when you think about design it's about
+the whole experience not just the look
+and feel of something and so for us it
+really beg that question can you design
+for trust can you actually create a
+condition where people feel comfortable
+saying yes to something like this and we
+weren't actually sure if you could I
+think through a ton of iteration there's
+um some classic stories of um the amount
+of disclosure that somebody provides
+when you're uh uh exchanging a message
+with a potential host has a there's a
+lot of leading indicators to tell how
+much that host might accepts your
+reservation request into your home for
+example if you send a message that just
+says
+yo the acceptance rates dropped if you
+had a message on the other side that was
+way too long like I'm having issues with
+my mother and uh like all these things
+like acceptance rates also dropped so
+there's this sweet spot in the middle
+that's like hey I'm coming for vacation
+with my family love the art on your
+walls Etc where there's like the right
+amount of disclosure so people feel
+comfortable saying yes and something
+that like once you understand that you
+can look at the data and look at the
+design you can actually create you know
+guidelines to help encourage people to
+enter that kind of middle part of the
+bell curve uh I think smart companies
+and Airbnb is at the very top of this
+realize that uh customer service is not
+just a you know is luck there's cost and
+else but it's your branding moment and
+obviously we all I'm tracking what's
+going on United I think enough said for
+what a disaster there um
+so one of the key things that I think
+also is an interesting part of scaling
+that this touches on is how do you uh
+essentially preserve a culture as you're
+scaling and one of the things that
+Airbnb has done an exceptionally great
+job at is preserving this kind of design
+and Trust culture what are some of the
+things that you're doing as a way to say
+as we as we scale our employee base now
+obviously some of it's how you interview
+and who you hire and so forth and
+interesting if there's more on that but
+what are the kind of some of the key
+kind of ways that you operate to keep
+that focus on designing experience uh
+making sure that everyone's putting
+trust at the very top of their yeah
+thinking it's a great question I mean I
+think we do a pretty good job there's
+there's areas where we don't you know
+and um this is a really tough topic
+especially when you're scaling if you're
+in hyper growth if you're Blitz scaling
+whatever the term you use um I'm
+immediately think of advice that that um
+Tony Shay gave us way back in
+2009 he said if you care about culture
+make sure you get it right from the
+beginning make sure that something that
+you invest in upfront and he used the
+metaphor he said it's a lot easier to
+mold concrete when it's still wet than
+to chip away at it later when it's dry
+and so the DNA that you said in the
+early stages of company can have uh
+tremendous impacts on how the culture
+plays out over time so we really took
+that to heart I think we were really
+impressionable around culture at that
+time we really wanted to get it right
+and um we just started to put an enorm
+amount of emphasis into the people that
+that that we hired his other piece of
+advice is that um culture doesn't make
+your people it's the people that make
+your culture so get the people right and
+the culture will follow not it's not the
+other way around y um and so I mean
+Brian and I were involved in every
+interview for certain period of time
+until a couple years in the recruiting
+team wanted to have our throats um CU we
+were slowing everything down and then we
+needed to figure out a way to scale that
+well how do we make sure that that our
+voice and our our um our presence is
+still involved in in the recruiting
+process and the interview process so we
+created this thing called core values
+interviewers um which has scaled
+phenomenally well for us where we train
+people inside the company how we would
+interview um and they get to effectively
+sit in interviews on our behalf um and
+really screen candidates to um to
+ultimately make sure that at the end of
+the day people believe what we believe
+which is the most important part I think
+of hiring is that you
+know we don't want people who are
+interested in in the the dollar signs
+around the company or you the next big
+technical challenge for themselves we
+want people who are specifically geared
+towards our specific mission in the
+world um and so how do you find people
+who believe what you believe um uh which
+is what Brian and I would do in every
+interview and I think by training others
+to uh to look for the same signals or
+ask same questions um uh we've been able
+to scale that now we have I think
+hundreds of core value interviewers in
+all our offices around the world uh one
+of the things that I think is a funny
+little hack but subtly very important
+that I learned from you guys
+was making the conference rooms and the
+meeting spaces into exact you know kind
+of we pretty close to what do key uh
+hosts and experiences look like because
+the thing that I I had this kind of just
+amazing kind of epiphany walking into it
+the very first time and you guys hadn't
+told me about it hadn't showed up in any
+of the board meetings you know Strange
+Love board room is not designed that way
+which is the one that I normally go into
+and uh and I went to to to a meeting
+room was you or someone else and I went
+oh my God this is awesome because part
+of what you're doing is you're reminding
+everybody in the meeting space you're in
+these are the people we work with these
+are the things that matter these are the
+experiences that matter and you're in
+them too right here as you're doing them
+right and I don't know which you know
+because such obvious design Insight that
+I've then been reflecting into matter
+fact some sometimes you have to come by
+my LinkedIn office I'm beginning to
+change my office more in this direction
+and um and part of the thing is like
+what other kinds of like design hacks
+like that you said this is how it keeps
+us focused on what's important in terms
+of what we're doing that's a great
+question I think um for those who don't
+know we we turn any available space we
+have into a replica of an exact listing
+somewhere in the world on on our service
+um part of it was just to to
+differentiate and say like how do you
+know when you walk into our office that
+it's our like where you are in the world
+yeah um and we thought well our listings
+are pretty unique to us so maybe we'll
+use those to um to inform our spaces and
+it also just reminds us that while we're
+behind computer screens all day uh like
+probably most of us here um that there's
+a physicality to what we offer that like
+at the end of the day we're we're coding
+and designing to facilitate a connection
+for people to enjoy really magnificent
+spaces around the world um and so that's
+that's like the other kind of subtle
+reminder behind this um and I have to
+give Brian credit because he came up
+with that idea yeah but it was awesome
+yeah it a good one yeah um so what else
+do we do um I think dog fooding is
+really important so making sure that we
+give opportunities for any in the
+company to continually stay engaged with
+the service we highly encourage anyone
+in the company to be an active host not
+everybody can for various reasons um uh
+but we are constantly trying to find
+ways that you can be in the customer's
+shoes um so that you're connected to the
+the people that you're serving at the
+end of the day I think if you're not
+careful then there have been times I
+have to admit in our company's history
+where we have this Gap has emerged with
+our guests and host and we've we've lost
+touch and so there's this constant
+battle to try to like always stay
+connected so we give people um stiped
+credit to travel every quarter on the
+site just to make sure people have you
+know no excuse yes to be using the
+product and service and ultimately when
+people come back everybody has some
+insight or some bug that they found in
+the product that is you know it's part
+of like you can say like our
+intelligence Network right like
+constantly honing and iterating making
+the product better by having our own
+people go out into the world and use it
+so I'm going to ask uh two more
+questions and then we're going to open
+up for questions from uh the audience
+and if you guys don't have any I only
+got to three of the 15 questions that
+I'd written down and I have some for you
+too oh great I have to do that too um M
+fact you want to start with one of those
+before I'm just curious because you've
+been involved in the company since uh
+such an early stage like I don't I don't
+think we had quite hit the hockey stick
+at that point though though you could
+sense it we were about to um what have
+you seen from your because you have such
+a unique lens into the business what
+have you seen that would be relevant for
+the for the conversation for here in
+addition to the things you've said so I
+think that one of the things that um
+well we've gotten a little bit well a
+little bit of the question is is uh you
+guys collectively it's part of the
+design thing this is the multiple Stars
+thing which is you go to if we were
+design the perfect experience and
+everything would be perfect what would
+that be that's clearly not economically
+deliverable and not scalable but then
+start ratcheting back from that and
+actually in fact I think that's a good
+design exercise for everyone to do right
+because it it kind of gives you a
+product and a product Market fit North
+Star that then you begin to try to
+answer what is economically feasible
+what is scalably feasible which are not
+the exactly the same things but related
+and a work back from that and that also
+gives you an iterative and dynamic Road
+chart for doing it and that was actually
+one of the things where I had always
+been more of a kind of buildup like
+start here and yes I know where I'm kind
+of roughly going but I didn't design the
+perfect experience I kind of went yeah
+yeah we're going to need to be there
+eventually now what are the things we
+can do now and that kind of question was
+one of the things um so then I actually
+I'm going to only ask you um uh one of
+my questions before I uh open it up uh
+and then you can obious as we go um
+describe how you do your vacations like
+how you do the kind of the Walkabout
+remember the thing that we were we had
+dinner and you were about to to go and
+travel what's that and why do you do
+that and how does that how does that uh
+how does that lead to how you think
+about design interesting um so re is
+referring to um uh every December
+between uh basically between Christmas
+time and uh New Years we give the
+company time off um uh it started a
+couple of years ago and and uh started
+in 2009 or 2010 we've done it every year
+since it was really the first time where
+it was like oh my God you have a week to
+go travel where could you go and um I
+started this thing about six years ago
+where I on December 26th I'd pick a
+destination and on December 27th I'd on
+a plane somewhere um and you get to take
+one bag and you get to you know book one
+Airbnb at least for the first day um and
+it's sort of this kind of stepping into
+the unknown you kind of you don't know
+where you're going to go you get one bag
+so you can't really pack that much you
+can't overthink it you just have to just
+have to go um so I I it's now fondly
+called jetpack um it's a thing that
+happens every year um and I've stayed
+with amazing hosts um from uh in Uruguay
+to Japan one time I ended up in a
+um I ended up staying with a Japanese
+Buddhist monk in his his temple on a uh
+to Tommy mat for $60 a night you can
+rent this this guys to Tommy Matt in his
+temple in southern Japan the middle of
+nowhere barely a cell phone connection
+um and it was one of the most phenomenal
+experiences I've ever had and it took
+like five minutes of planning yeah the
+two things I think are great is it's a
+real deep way of walking your customer
+shoes but it also like I actually think
+I like I Learned was always to ask you
+afterwards what was the last one you did
+CU I learned a bunch about The Human
+Condition uh as a par of it so now let's
+open up for questions because we have a
+few minutes in case there are any
+questions there's one here and one here
+so
+great hey uh thank you so earlier Brett
+was talking about how he scaled
+engineering for quip uh in particular
+around engineering managers tech leads
+and sort of how the structure of the
+team changed over time I'm curious for
+Airbnb how has the product process uh
+changed over
+time good question uh I think in the
+early days we were if I remember back we
+were really adverse to hiring two senior
+too soon that was something we like we
+would often say to each other and man if
+I could go back I would have I would
+have change that um I I think that
+bringing in senior leadership bringing
+in Senior Management um when you know
+that you're going to scale like it's
+actually I wish we had gotten ahead of
+that like knowing that we were going to
+scale I wish we had just said okay let's
+let's like hire like a r or two that
+seems Out Of Reach today but because of
+how quickly things are moving in six
+months like that's going to be the
+perfect like role for for what we need
+in the organization so that would be one
+piece of advice I give myself if I could
+go back is like um it's okay to hire a
+senior even in early stages of of the
+business Dylan that was one of the
+questions I was going to ask
+too uh so given uh given the right kind
+of Supply it seems like at least from my
+perspective Airbnb a supply Limited
+Marketplace so curious how you think
+about the different types of Supply from
+folks that have for example a spare
+apartment they want to rent out versus
+people that are running out their own
+home kind of how you think about the
+user experience for the different groups
+and how you think about scaling each one
+up yeah since the beginning we've been
+Supply constrainted um because if you
+think about the demand supply side
+demand side people have been booking
+travel online since the internet was
+around right like since Expedia and the
+ear it orbits Etc so that was like a
+known Behavior but people were not
+listing their homes on the internet to
+rent out to people they haven't met
+before so that was like a whole can of
+worms to try to unpack um so we've
+always traditionally been Supply
+constrained um and there have been you
+know all sorts of twists and turns over
+the years of how we think about getting
+Supply what our best Supply is um I have
+to admit in the very early days of
+Airbnb back in gosh 2009 um we thought
+that these these property managers were
+like the best the best thing on Earth
+because in one phone call you could have
+50 properties all at once and and for
+any Marketplace like trying to grow like
+you need to get that momentum going
+right and so like um so we built all
+these tools because if you have 50
+properties it's a very different need
+than if you're renting extra bedroom
+around you know down the hallway um and
+so we had to build all these special
+tools and like um what we discovered
+pretty quickly is that customer service
+started to ring off the charts because
+um these property management companies
+and big property groups were in it for a
+very different reason right these were
+businesses these These are people that
+needed to maximize every you know penny
+for their dollar um they need to like
+squeeze out every bit of efficiency of
+that unit that they they've rented or
+purchased um and they they cared less
+about the actual experience of the guest
+and we heard it loud and clear um from U
+things like bait and switch and like all
+kinds of crazy stuff that these guys
+were doing and we realized pretty
+quickly um over the course of a couple
+of months
+that yeah it's it's great for Supply but
+it's not great for the customer
+experience and if guests are staying
+with us and they're like having a
+horrible stay like that's not good for
+the long-term R business so um we after
+a couple of months of experiencing this
+we dropped that and we went back and
+said you know our core is really
+people's primary homes maybe they have a
+second home up in you know Tahoe or some
+other vacation destination um but it's
+really about the core Primary Home
+experience and we'll we'll keep the
+marketplace open and wide enough such
+that kind of like eBay like if anybody
+enlist any kind of thing like whether
+that's the Treehouse or whatever um they
+could do that
+uh but I think like really having that
+experience knowing what we didn't want
+to refocus us on on what our core
+offering is is like um the beauty of the
+service is you get to experience
+somebody's home in a local neighborhood
+um versus you know uh some sort of more
+touristy kind of part of town that's
+more of a generic experience so I think
+um from a supply perspective it's it's
+constantly figuring out how do we how do
+we find those those primary residences
+people who want to you know need to make
+ends meat for various reasons um
+actually one of our fastest growing
+segments right now are empty nesters
+which kind of makes sense you know
+they've got an extra room their kids are
+off maybe it's a little bit you know
+less Lively in the house um maybe
+they've always dreamed of opening a bed
+and breakfast one day that they could
+retire into and suddenly in 5 minutes
+they can have the bed and breakfast
+experience in their own home actually
+just very quickly because it it follows
+on that and we're almost out of time how
+did the the sense of the whole magical
+trips thing come out of that kind of
+social connec
+like how did you when did you guys
+really start thinking this is what we
+have to launch next um so we knew since
+2012 that accommodations is just one of
+many decisions that we all make when
+we're putting a trip together right you
+think about where do I want to go uh
+what's the purpose of the trip um where
+am I going to stay how am I going to get
+there what am I going to do once I'm on
+the ground and I'm actually in the city
+that I'm traveling to or the country um
+and so we've known for a long time that
+again like designing the whole
+experience accommodations was just like
+one instance of a much bigger Journey
+that people go on when when you take a
+trip and so it was always our Ambitions
+from starting in early 2012 that one day
+we wanted to design the whole trip like
+what if we could imbue every part of the
+travel experience with the same values
+that we've put into the accommodations
+experience um and so that's that's
+informed what launched in November which
+is uh experiences so when you travel to
+the city um you can now within the
+Airbnb Community find really cool local
+things to do provided by hosts sharing
+their passions uh skills and interests
+with people exactly all right well let's
+thank Joe for coming with us cool thanks
+re appreciate it

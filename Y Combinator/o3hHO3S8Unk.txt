@@ -1,0 +1,1981 @@
+Title: John Preskill on Quantum Computing
+Video ID: o3hHO3S8Unk
+URL: https://www.youtube.com/watch?v=o3hHO3S8Unk
+Channel: Y Combinator
+Published: 2018-05-16T14:11:56Z
+Duration: PT1H33M8S
+Views: 20821
+Likes: 361
+Tags: YC, Y Combinator, John Preskill, Podcast, Interview, Quantum Computing, Caltech, Quantum, Information, Error Correction, Physics, Craig Cannon
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 1957
+
+Description:
+John Preskill - https://twitter.com/preskill - is a theoretical physicist and the Richard P. Feynman Professor of Theoretical Physics at Caltech - http://www.theory.caltech.edu/people/preskill/
+
+Read the transcript here - https://blog.ycombinator.com/john-preskill-on-quantum-computing
+
+He once won a bet with Steven Hawking - http://www.theory.caltech.edu/people/preskill/bets.html - which as he writes made him “briefly almost famous.” John and Kip Thorne - https://en.wikipedia.org/wiki/Kip_Thorne
+
+============================================================
+TRANSCRIPT
+============================================================
+
+and what was the revelation that made
+made scientists and physicists think
+that a quantum computer could exist it's
+not obvious you know a lot of people
+thought he couldn't okay
+the idea that a quantum computer would
+be powerful was emphasized over 30 years
+ago by Richard Fineman the Caltech
+physicist and it was interesting how he
+came to that realization phiman was
+interested in computation his whole life
+ya know he had been involved during the
+war in Los Alamos he was the head of the
+computation group he was the guy who
+fixed the little mechanical calculators
+and he had a whole crew of people who
+were calculating and he figured out how
+to flow you know the work from one
+computer to another all that kind of
+stuff and as computing technology
+started to evolve you know he followed
+that and our in the 1970s
+mmmph particle physicists like Fineman
+that's my background too got really
+interested in using computers to study
+the properties of elementary particles
+like the quarks inside a nucleus you
+know we know proton isn't really a
+fundamental object it's got little beans
+rattling around inside but they're
+quantum and gell-mann who's good at
+names called them quarks yeah and now we
+have we've had a theory since the 1970s
+of how quarks behave and so in principle
+you know everything about the theory you
+can compute everything but you can't
+because it's just too hard and people
+started to simulate that physics with
+digital computers in the 70s and there
+are some things that they could
+successfully compute and some things
+they they couldn't because it was just
+too hard the resources required you know
+the memory the time
+we're out of reach and so Fineman in the
+early 80s said you know nature is
+quantum mechanical damage what a
+simulation of nature it should be
+quantum mechanical yeah you should use a
+quantum system to behave like another
+quantum system at the time
+called it a universal quantum simulator
+okay and now we call it a quantum
+computer and the idea caught on about
+ten years later when Peter shor made the
+suggestion that we could solve problems
+which don't seem to have anything to do
+with physics which are really things
+about numbers like finding the prime
+factors of a big integer and that caused
+a lot of excitement in part because the
+implications for cryptography are a bit
+disturbing
+but then physicists good physicists yeah
+started to consider can we really build
+this thing yeah and some concluded and
+argued fairly cogently that no you
+couldn't because of this difficulty that
+it's so hard to isolate systems from the
+environment well enough for them to
+behave quantumly and so it took a few
+years for that to sort out sort of at
+the theoretical level in the mid-90s we
+developed a theory called quantum error
+correction it's about how to encode the
+quantum state that you'd like to protect
+in such a clever way that even if there
+are some interactions with the
+environment that you can't control it
+still stays robust mm-hmm but at first
+that was just kind of a theorist fantasy
+it was a little too far ahead of the
+technology but you know 20 years later
+the technology is catching up so now
+this idea of quantum error correction
+has become something you can do in the
+lab yeah and how does quantum error
+correction work I've seen a bunch of
+diagram so maybe this is difficult to
+explain but how would you explain it
+well I would explain it this way I don't
+think I've seen it said the word
+entanglement yet yeah well I've been
+checking off all the bingo words yet
+okay so let's talk about entanglement
+because it's part of the answer to your
+question which I'm still not done
+answering what is quantum physics so
+what do we mean by entanglement it's
+really the characteristic way maybe the
+most important way that we know in which
+quantum is different from ordinary stuff
+a kind of classical what does it mean
+entanglement it means that you can have
+a physical system which has many parts
+which have interacted with one another
+so it's in kind of a complex correlated
+state of all those parts and when you
+look at the parts one at a time it
+doesn't tell you anything about the
+state of the whole thing the whole
+thing's in some definite state there's
+information stored in it
+you know you'd like to access that
+information let me be a little more
+concrete suppose it's a book okay okay
+it's a book it's a hundred pages long so
+if it's an ordinary book a hundred
+people could each take a page and read
+it they know what's on that page and
+then they could get together and talk
+and now they know everything that's in
+the book right but if it's a quantum
+book written in qubits where these pages
+are very highly entangled there's still
+a lot of information in the book but you
+can't read it the way I just described
+you can look at the pages one at a time
+but a single page when you look at it
+just gives you random gibberish it
+doesn't reveal anything about the
+content of the book why is that it's
+there's information in the book but it's
+not stored in the individual pages it's
+encoded almost entirely and how those
+pages are correlated with one another
+that's what we mean by quantum
+entanglement information stored in those
+correlations which you can't see when
+you look at the parts one at a time so
+you asked about quantum error correction
+yeah what's the basic idea it's to take
+advantage of that property of
+entanglement because let's say you have
+a system of many particles mm-hmm and
+the environment is kind of kicking them
+around it's interacting with them
+because you you can't really completely
+turn off those interactions no matter
+how hard you try but suppose we've
+encoded the information in entanglement
+so say if you look at one atom it's not
+telling you anything about the
+information you're trying to protect
+yeah so the environment isn't learning
+anything when it looks at the atoms one
+at a time and this is kind of the key
+thing that what makes quantum
+information so fragile is that when you
+look at it you disturb it this ordinary
+water bottle
+like that you know let's say we knew it
+was either here or here and we didn't
+know I would look at it I find out is
+here I was ignorant of where it was to
+start with now I know mm-hmm
+but with a quantum system when you look
+at it you you really change the state
+there's no way to avoid that so if the
+environment is looking at it in the
+sense that information is leaking out to
+the environment that's going to mess it
+up so we have to encode the information
+so the environment so to speak can't
+find out anything about what the
+information is and that's the idea of
+quantum error correction if we encoded
+an entanglement the environment is
+looking at the parts one at a time but
+it doesn't find out what the protected
+information is yeah no so in other words
+it's it's kind of measuring probability
+the whole way along right I'm not sure
+what you mean by that
+so is it Grover's algorithm that was
+bate like as a as quantum bits roll
+through go through gates the probability
+is determined of what what information
+is being passed through what's being
+computed yeah so Grover's algorithm is a
+way of sort of doing an exhaustive
+search through many possibilities okay I
+know like let's say I'm trying to solve
+some problem like you know a famous one
+is the Traveling Salesman problem I have
+told you what the distances are between
+all the pairs of cities and now I want
+to find the shortest route I can that
+visits them all that's a really hard
+problem and it's still hard for a
+quantum computer but not quite as hard
+because there's a way of solving it
+which is to try all the different routes
+and measure how long they are and then
+find the one that's shortest and you
+solved the problem the reason it's still
+hard to solve is there's such a vast
+number of possible routes what Grover's
+algorithm does is it speeds up that
+exhaustive search mm-hmm and in practice
+it's not that big a deal what it means
+is that you know if you have the same
+processing speed you can handle about
+you know twice as many say
+before the problem becomes too hard to
+solve as you could if you were using a
+classical processor mm-hmm but as far as
+what's quantum about grover it takes
+advantage of the property in quantum
+physics that probabilities might tell me
+if I'm getting too inside Bassman Oh
+perfect
+that probabilities are the squares of
+amplitudes this is interference and this
+another part of the answer we can spend
+the whole whole hour answering the
+question what does quantum physics
+another essential part of it is is what
+we call interference and and this is
+really crucial for understanding how
+quantum computing works and that is that
+probabilities add you know if you know
+the probability of one alternative and
+you know the probability of another then
+you can add those together and find the
+probability that one or the other
+occurred mm-hmm and it's not like that
+in quantum physics the famous example is
+the double slit interference experiment
+now I'm sending electrons let's say it
+could be basketballs but it's an easier
+experiment to do with electrons hmm at a
+screen and they're two holes in the
+screen and you can try to detect the
+electron on the other side of the screen
+mm-hmm and when you do that experiment
+many times you can plot a graph showing
+where the electron was detected you know
+in each run or make a histogram of all
+the different outcomes and the graph
+Wiggles okay so if it were if you could
+say there's some probability of going
+through the first hole and some
+probability of going through the second
+and each time you've detected it it went
+through either one or the other
+there'd be no Wiggles in that graph
+that's the interference that makes it
+wiggle and the essence of the
+interference is that nobody can tell
+whether it went through the first slit
+or the second slit the question is sort
+of inadmissible and this interference
+then occurs when we can add up these
+different alternatives in a way which is
+different from what we're used to it's
+not right to say that the electron was
+detected at this point because it had
+some probability of going through the
+first hole and some probability of going
+through the second we add those
+probabilities up that doesn't give the
+right answer the different alternatives
+can interfere mm-hmm and this is really
+important for quantum computing because
+what we're trying to do is enhance the
+probability or the time it takes to find
+the solution to a problem and this
+interference can work to our advantage
+we want to have you know when we're
+doing our search we want to have a
+higher chance of getting the right
+answer and a lower chance of getting the
+wrong answer and if the different wrong
+answers can interfere they can cancel
+one another out and that enhances the
+probability of getting the right answer
+so sorry it's such a long-winded no
+answer but this is how Grover's
+algorithm works so they can speed up
+exhaustive search by taking advantage of
+that interference phenomenon well this
+it's kind of one of the underlying
+questions among many of the questions
+from Twitter you've you've hit our
+record for most questions asked
+but basically many many people are
+wondering what quantum computers really
+will do if and when it becomes a reality
+that they outperform classical computers
+what are they going to be really good at
+well you know what I'm not really sure
+and I think you know if you look at the
+history of Technology it would be hubris
+to expect me to know it's a whole
+different way of dealing with
+information there's quantum information
+it's not just you know a quantum
+computer is not just a faster way of
+computing it deals with information in a
+completely new way because of this
+interference phenomenon because of
+entanglement that we've talked about and
+I think we have limited vision when it
+comes to predicting decades out what the
+impact will be of an entirely new way of
+doing things information processing in
+particular I mean you know this well if
+we go back to the 1960s and people are
+starting to put a few transistors on a
+chip where is that going to lead nobody
+knew even early days of the internet
+even the hood exam even the first
+browser hmm no one really knew what
+anyone was going to do with it you know
+it makes total sense for good or ill and
+but we have some ideas you know I think
+why are we confident there will be some
+transformative effect on Society of the
+things we know about and I emphasize
+again probably the most important ones
+are things we haven't thought of mmm
+when it comes to applications of quantum
+computing the ones which will affect
+everyday life I think are better methods
+for understanding and inventing new
+materials new chemical compounds mm-hmm
+things like that can be really important
+you know if you find a better way of
+capturing carbon by designing a better
+catalyst or you can design
+pharmaceuticals that have new effects
+materials that have unusual properties
+these are quantum physics problems
+because those property
+the molecule or the material really have
+to do with the underlying quantum
+behavior of the particles and we don't
+have a good way for solving such
+problems or predicting that behavior
+using ordinary digital computers that's
+what a quantum computer is good at it's
+good but maybe not the only thing it's
+good at but one thing it should
+certainly be good at is telling us
+quantitatively how quantum systems
+behave and in the two contexts I just
+mentioned there's little question that
+there will be practical impact of that
+so it's not it's not just doing the
+Traveling Salesman problem through the
+table of elements for like why it can
+find those compounds it's much more than
+if it were that would that wouldn't be
+very efficient exactly yeah no it's much
+trickier than that
+and you know the like I said the
+exhaustive search though conceptually
+yeah it's really interesting that
+quantum can speed it up because of
+interference from a practical point of
+view it may not be that big a deal it
+means that well like I said in the same
+amount of time you can solve an instance
+which is twice as big of the problem so
+what we rarely get excited about are the
+so-called exponential speed ups and that
+was why Shor's algorithm was excited
+exciting in in 1994 because factoring
+large numbers was a problem that had
+been studied by smart people for a long
+time and on that basis the fact that
+there weren't any fast ways of solving
+it was pretty good evidence it's a hard
+problem actually we don't know how to
+prove that from first principles maybe
+somebody will come away you know come
+along one day and figure out how to
+solve factoring very fast on a digital
+computer it doesn't seem very likely
+because people have been trying ok for
+so long
+to solve problems like that and it's
+just intractable with ordinary computers
+you could say the same thing about these
+quantum physics problems maybe some
+brilliant graduate student is going to
+drop a paper on the archive tomorrow
+which will say here I solve quantum
+chemistry and I can do it on a digital
+computer but we don't think that's very
+likely because we've been working pretty
+hard on these problems for decades and
+they seem to be really hard and so those
+cases like these number theoretic
+problems which have cryptological
+implications and tasks for simulating
+the behavior of quantum systems we're
+pretty sure those are hard problems
+classically and we're pretty sure
+quantum computers when we have
+algorithms that have been proposed but
+which we can't really run currently
+because our quantum computers aren't big
+enough on the scale that's needed to
+solve problems really people really care
+about yeah so so maybe we should jump to
+one of the questions from Twitter which
+is related to that so Travis Shelton
+asked what are the most problem
+pressings in physics let's say
+specifically around quantum computers
+that you think substantial progress
+ought to be made in to move the field
+forward
+I know Travis he was an undergrad oh
+okay
+are you doing Travis so the problems
+that we need to solve to you know
+quantum computing closer to realization
+at the level that would solve problems
+people care about well let's go over
+where we are now yeah definitely okay so
+people have been working on quantum
+hardware for you know 20 years working
+hard and there are a number of different
+approaches to building hardware and
+nobody really knows which is going to be
+the best
+we haven't we're I think we're far from
+collapsing to one approach which
+everybody agrees has the best long term
+prospects for scalability
+and so it's important that a lot of
+different types of hardware are being
+pursued and we can come back to what
+some of the different approaches are
+yeah later
+but so where are we now we we think in a
+couple of years we'll have devices with
+about 50 cubits 200 and we'll be able to
+control them pretty well and that's an
+interesting range because even though
+it's only 50 to 100 cubits doesn't sound
+like that big a deal
+but that's already too many to simulate
+with a digital computer even with the
+most powerful supercomputers today so
+from that point of view oh you know
+these are relatively small near-term
+quantum computers which we'll be fooling
+around with over the next five years or
+so are doing something that's kind of
+super classical yeah at least we don't
+know how to do exactly the same things
+with ordinary computers now that doesn't
+mean they'll be able to do anything
+that's practically important but we're
+gonna try okay we're gonna try and there
+are ideas about things we'll try out
+including sort of baby versions of these
+problems in chemistry and materials and
+ways of speeding up optimization
+problems nobody knows how well those
+things are going to work at these small
+scales part of the reason is not just
+that the number of qubits is small but
+they're also not perfect so we can
+perform elementary operations on pairs
+of qubits which we call quantum gates
+like the gates and ordinary logic but
+they have an error rate a little bit
+below you know an error every hundred
+gates so that if you have a circuit with
+a thousand cubits there's a lot of noise
+so exactly like it does for instance a
+hundred qubit quantum computer really
+mean a hundred quantum a hundred cubic
+quantum computer or do you need a
+certain amount of backup going on well I
+think in the near term we're going to
+be trying out and probably we have the
+best hopes the kind of hybrid classical
+methods with some kind of classical
+feedback okay you try to do something on
+the quantum computer you make a
+measurement that gives you some
+information then you change the way you
+did it a little bit and try to converge
+on some better answer and that's one
+possible way of addressing optimization
+that might be faster on a quantum
+computer but I just wanted to emphasize
+that the number of qubits isn't the only
+yeah metro yeah and how good they are
+and in particular the reliability of the
+gates how well we can perform them
+that's equally important so anyway
+coming back to Travis's question well
+there are lots of things yeah that we'd
+like to be able to do better but just
+having much better qubits would be huge
+right so if you more or less with the
+technology we have now you can have a
+gate error rate of a few parts and a
+thousand you know if you can improve
+that by orders of magnitude then
+obviously you could run bigger circuits
+and that would be very enabling even if
+you stick with a hundred qubits just by
+having a circuit with more depth you
+know more layers of gates that increases
+the range of what you could do mm-hmm
+so that's a and that's always going to
+be important yes I mean look at that's
+look at how crappy that is a gate error
+rate even if it's one part in a thousand
+it's pretty lousy compared to if you
+look at where and yes processor a
+billion transistors in it yeah and zero
+and you don't you don't worry about the
+it's gotten to the point where there is
+some error protection built in at a
+hardware level okay in a processor
+because I mean we're doing these crazy
+things like going down from 11 nanometer
+scale for features on a chip so so how
+are folks
+trying to deal with interference right
+now you mean what what types of devices
+and you know so that's interesting too
+because there are a range of different
+ways to do it so I mentioned that we
+could store information we can make a
+qubit out of a single atom for example
+that's one approach so you have to
+control a whole bunch of atoms and get
+them to interact with one another one
+way of doing that is with what we call
+trapped ions that means the atoms have
+electrical charges that's a good thing
+because then you can control them with
+electric fields you can hold them in a
+trap and you can isolate them like I
+said in a very high vacuum so they're
+not interacting too much with other
+things in the laboratory including stray
+electric and magnetic fields but that's
+not enough because you got to get them
+to talk to one another you got to get
+them to interact I mean we have this set
+of desiderata which are kind of in
+tension with one another on the one hand
+we want to isolate the qubits very well
+yeah on the other hand we want to
+control them from the outside and get
+them to do what we wanted to do and
+eventually we want to read them out you
+have to be able to read out the result
+of the computation but the key thing is
+the control if you want to do two of
+those qubits and your device to interact
+with one another in a specified way and
+do that very accurately you have to have
+some kind of bus that gets the - to talk
+to one another okay and the way they do
+that in an ion trap is pretty
+interesting it's by using lasers and
+controlling how the ions vibrate in the
+trap with a laser kind of excite Wiggles
+of the ion and then by you know
+determining whether the ions are
+wiggling or not you can go address
+another ion and that way you can do a
+two qubit interaction and you can do
+that pretty well okay another way is
+really completely different what I just
+described was encoding information at
+the one yeah atom level
+but another way is to use super
+conductivity circuits in which electric
+current flows without any dissipation
+and in that case you have a lot of
+freedom to sort of engineer the circuits
+to behave in a quantum way there's there
+are many nuances there but the key thing
+is that you can encode information now
+in a system that might involve the
+collective motion of billions of
+electrons and yet you can control it as
+though it were a single atom I mean
+here's one's oversimplified way of
+thinking about it yeah suppose you have
+a little loop of wire and there's
+current flowing in the loop it's a
+superconducting wire so it just keeps
+flowing normally there'd be resistance
+which would dissipate that as heat but
+not for the superconducting circuit
+which of course has to be kept very cold
+to stay superconducting but you can
+imagine in this little loop that the
+current is either circulating clockwise
+or counter clockwise so that's a way of
+encoding information but it could also
+be both at once and that's what makes it
+a qubit right and so in that case I'll
+even though it involves lots of
+particles the magic is that you can
+control that system extremely well I
+mentioned individual electrons that's
+another approach put the qubit and the
+spin yeah of a single electron you also
+mentioned better qubits what are you
+doing by that what would I what I really
+care about is how well I can do the
+gates yeah and there's a whole other
+approach which is motivated by the
+desire to have much much better control
+over the quantum information than we do
+in those systems that I mentioned so far
+like superconducting circuits and
+trapped ions that's actually what
+Microsoft is pushing very hard mm-hmm we
+call it topological quantum computing
+that's topological is so
+word physicists and mathematicians love
+it it means well let's we'll come back
+to what it means just tell you what
+they're trying to do they're trying to
+make a much much better Cuba which they
+can control much much better using a
+completely different hardware approach
+okay and it's very ambitious because at
+this point it's not even clear they have
+a single qubit but if that approach is
+successful and we're it's making
+progress so I think we will see a
+validated qubit of this type soon maybe
+next year okay and then I nobody really
+knows where it goes from there but
+suppose it's the case that you could do
+a two qubit gate with an error rate of 1
+million instead of one and a thousand
+mm-hmm
+I mean that would be that would be huge
+now scaling all these technologies up
+really challenging from a number of
+perspectives including just the control
+engineering but so it was so via how are
+how are they doing it are attempting to
+do it you know you could ask um where
+did all this progress come from over 20
+years or so for example with the
+superconducting circuits a sort of
+crucial measure is what we call the
+coherence time of the qubit which
+roughly speaking means how much it
+interacts with the outside world the
+longer the coherence time the better so
+the rate of what we call decoherence is
+essentially how much it's getting
+buffeted around by outside influences
+and for the superconducting circuits
+those coherence times have increased
+about a factor of 10 every 3 years going
+back 15 years or so Wow
+now it will necessarily go on like that
+indefinitely but in order to achieve
+that that type of progress better
+materials better fabrication better
+control the way you control these things
+is with microwave
+circuitry not that different from you
+know the kind of things that are going
+on and you know communication devices
+and all those things are important but I
+think going forward the control is is
+really the critical thing coherence
+times are already getting pretty long I
+mean having them longer it's certainly
+good but the key thing is to get to
+qubits to interact just the way you want
+them to and even if there is no I keep
+saying the key thing is the environments
+not the only key thing yeah because you
+know you have some qubit like if we if
+you think about that electron spin one
+way of saying it is I said it can be
+both up and down at the same time well
+there's a simpler way of saying that it
+might not point either up or down it
+might point some other way but the early
+a continuum ways of ways it could point
+that's not like a bit you see it's much
+easier to stabilize a bit because it's
+got just two states yeah but if it can
+kind of wander around in the space of
+possible configurations for a qubit that
+makes it much harder to control mm-hmm
+and you know people have gotten better
+at that a lot better at that in the last
+few years
+interesting so Joshua Herrmann asked
+what engineering strategy for quantum
+computers do you think has the most
+promise yeah so I mentioned some of
+these different approaches and I guess
+I'll interpret the question as which one
+is the winning horse yeah I know better
+than to answer that question they're all
+interesting okay but I for the near term
+the most advanced are superconducting
+circuits and trapped ions which is why I
+mentioned those first and I think that
+will remain true you know over the next
+five to ten years there are other
+technologies have the potential like
+these topologically protected humans
+to surpass those but it's not gonna
+happen real soon I kind of like
+superconducting circuits because there's
+so much um
+phase space of things you can do with
+them you know of ways you can engineer
+and configure them and imagine scaling
+them up they have the advantage of being
+faster than the time to take the cycle
+time the time to do a gate is faster
+than with the trapped ions just the
+basic physics of the interactions is
+different in the long term those
+electron spins could catapult ahead of
+these other things that's something that
+you can naturally do in silicon and you
+know it's potentially easy to enter gate
+integrate with silicon technology right
+now the you know qubits and gates aren't
+as good as the other technologies but
+that can change and I mean that from a
+theorist perspective this topological
+approach is very appealing and so we
+could imagine you know it takes off
+maybe ten years from now and it becomes
+the leader so I think it's important to
+emphasize we don't really know what's
+going to scale the best right and are
+there multiple attempts being made
+around programming quantum computers
+yeah I mean some of these companies yeah
+that are working on quantum technology
+now which includes well-known big
+players like IBM and Google and
+Microsoft and Intel but also a lot of
+startups now they are trying to
+encompass the full stack so they're
+interested in the hardware and the
+fabrication and the control technology
+but also the software the applications
+the user interface mm-hmm all those
+things are certainly going to be
+important eventually yeah they're
+pushing it almost to like an AWS layer
+where you you have you interact with
+your quantum computer in a server farm
+and you don't even touch it
+yeah it seemed I think that that's how
+it will be in the near term I think you
+you're not going to have most of us
+won't have a quantum computer you know
+sitting on your desktop or in your
+pocket maybe someday in the near term
+it'll be on the cloud and you'll be able
+to run applications on it by some kind
+of web interface and you know ideally
+that should be designed so the user
+doesn't have to know anything about
+going on physics in order to program or
+use it and I think that's part of what
+some of these companies are moving
+toward do you do you think it will get
+to the level where it's in your pocket
+how do you deal with that when you
+you're below 1 Kelvin well if it's in
+your pocket it probably won't be 1
+Kelvin oh yeah probably none so what do
+you do well there's one approach as an
+example which I guess I mentioned in
+passing before or maybe it doesn't have
+to be at such low temperature and that's
+nuclear spins because they're very
+weakly interacting with the outside
+world you can have quantum information
+in a nuclear spin which I mean ideal you
+I'm not saying that it would be
+undisturbed for years but seconds which
+is pretty good okay um and you know you
+can imagine that getting significantly
+longer you know someday you might have a
+little quantum smart card in your pocket
+the nice thing about that particular
+technologies you can do it at room
+temperature still I'm long coherence
+times and you know if you're if you go
+to the ATM and you're worried that
+there's a rogue Bank it's gonna steal
+your information one solution to that
+problem I'm not saying there aren't
+other solutions is to have a quantum
+card where the bank will be able to
+authenticate it without being able to
+forge it we should talk about the
+security element
+Kevin su asked what risk would quantum
+computers pose to
+current encryption schemes so public key
+and what changes should people be
+thinking about if quantum computers come
+and that you know the next five years
+ten years yeah
+quantum computers threatened ecosystems
+that are in widespread use whenever
+you're using a web browser and you see
+that little padlock and you're in a you
+know HTTPS site you're using a public
+key cryptosystem to protect your privacy
+and those crypto systems rely for their
+security on the presumed hardness of
+computational problems that is it's
+possible to crack them but it's just too
+hard
+so RSA which is one of the ones that's
+widely used
+mmm-hmm as typically practiced today the
+to break it you'd have to do something
+like factor a number which is over 2,000
+bits long to 2048 and that's you know
+that's too hard to do now mm-hmm but
+that's what quantum computers will be
+good at another one that's widely used
+is called a elliptic curve cryptography
+doesn't really matter exactly what it is
+okay but the point is that it's also a
+vulnerable to quantum attack yeah so
+we're gonna have to protect our our
+privacy in different ways when quantum
+computers are prevalent what what are
+the attempts being made right now well I
+mean there are two main classes of
+attempts okay
+one is just to come up with a
+cryptographic protocol not so different
+conceptually from what's done now but
+based on a problem that's hard for
+quantum yeah and it turns out that what
+has sort of become the standard way
+doesn't have that feature and there are
+alternatives that people are working on
+how we speak of post quantum crypt
+geography meaning the protocols that
+we'll have to use when we're worried
+that our adversaries have quantum
+computers mm-hmm
+and I don't think there's any proposed
+crypto system although there's a long
+list of them by now which people think
+are candidates for being quantum
+resistant for being unbreakable or hard
+to break by quantum computers I don't
+think there's anyone that you know the
+world has sufficient confidence in now
+that it's really hard for a quantum
+adversary that we're all going to switch
+over but it's certainly time to be
+thinking about it you know when people
+worry about the privacy of course
+different users have different standards
+but the US government sometimes says
+they would like a system to stay secure
+for 50 years they'd like to be able to
+use it for 20 roughly speaking and then
+have the intercepted traffic be
+protected for another 30 after that so I
+don't think though I could be wrong that
+were likely to have quantum computers
+that can break those public key
+cryptosystems in ten years mm-hmm but in
+50 years seems not unlikely and so we
+should really be worrying about it and
+the other one is actually using quantum
+communication for privacy oh yeah so in
+other words if you and I could send
+qubits to one another instead of bits it
+opens up new possibilities so the way to
+think about these public key schemes are
+one way that we're using now is I want
+you to send me a private message and I
+can send you a lock box or foot know it
+has a padlock on it and but I keep the
+key okay but you can close up the box
+and send it to me mm-hmm
+but I'm the only one with the key so the
+key thing is that if you have the
+padlock you can't reverse engineer the
+key of course it's a digital box and key
+you know that's the idea of public key
+the idea of what we call quantum key
+distribution which is a particular type
+of quantum cryptography is that I can
+actually send you the key or you can
+send me your key but why can't any
+eavesdropper then listen in and know the
+key well it's because it's quantum and
+remember it has that property that if
+you look at it you disturb it so if you
+collect information about my key or if
+the adversary does that will cause some
+change in the key and there are ways in
+which we can check whether what you
+received is really what I sent mm-hmm
+and if it turns out it's not or it has
+too many errors in it then we'll be
+suspicious that there was an adversary
+who tampered with it and then we won't
+use that key because we haven't used it
+yet we're just trying to establish the
+key so we do the test to see whether an
+adversary interfere if it passes the
+test then we can use the key and if it
+fails the test we throw that key away
+and we try again that's how quantum
+cryptography works but it requires a
+much different infrastructure than what
+we're using now we have to be able to
+send qubits well it's not completely
+different because you can do it with
+photons and of course that's how we you
+know communicate through optical fiber
+now we're sending photons and it's a
+little trickier sending quantum
+information through an optical fiber
+because of that issue that interactions
+with the environment can disturb it but
+nowadays you know you can send quantum
+information through an optical fiber
+over the tens of kilometers with you
+know a low enough error rate so it's
+useful for communication Wow of course
+we'd like to be able to scale that up to
+global distances sure and their big
+challenge isn't that but anyway so
+that's that's another approach to the
+future of privacy that people are
+interested in
+and does that necessitate quantum
+computers on both ends - yes but not
+huge ones okay and the reason well yes
+and no okay at the scale of tens of
+kilometers no and that's you can do that
+now there are prototype systems that are
+in existence and but if you really want
+to scale it up then in other words to
+send things longer distance then you
+have to bring this quantum error
+correction idea into the game okay
+because at least with you know our
+current photonics technology there's no
+way I can send a single photon from here
+to China without there being a very high
+probability that gets lost in the fibers
+somewhere so we have to have what we
+call quantum repeaters okay which can
+boost the signal but it's not like the
+usual type of repeater that we have in
+communication networks now the usual
+type is you measure the sync signal and
+then you resend it okay I won't work for
+quantum because as soon as you measure
+it you're gonna mess it up so you have
+to find a way of boosting it without
+knowing what it is and of course it's
+important that it works that way because
+otherwise the adversary could just
+intercept it and resend it and so it
+will require some quantum processing to
+get that quantum error correction in the
+quantum repeater to work yeah but it's a
+much more modest scale quantum processor
+than we would need to solve hard
+problems okay gotcha and what are the
+other things that you're you're both
+excited about and worried about for for
+potential business opportunities Sneha I
+mispronounce names all the time Sneha
+and cat curry asks budding entrepreneurs
+what should they be thinking about in
+the context of quantum computing yeah I
+mean there's more to quantum technology
+than computing yeah and something which
+has good potential
+and to have an impact you know in the
+relatively near future is improved
+sensing hmm quantum systems it partly
+because of that property that I keep
+emphasizing that they can't be perfectly
+isolated from the outside they're good
+at sensing things and sometimes you know
+you want to detect it there's something
+in the outside world messes around with
+your qubit yeah and again using this
+technology of nuclear spins which I
+mentioned you can do it at room
+temperature potentially you can make a
+pretty good sensor and it can
+potentially achieve higher sensitivity
+and spatial resolution and look on look
+at things on shorter distance scales
+than than other existing sensing
+technology so one of the things people
+are excited about are the biological and
+medical implications of that if you can
+monitor the behavior of molecular
+machines you know probe biological
+systems at the molecular level using
+very powerful sensors and that would
+surely have a lot of applications so one
+interesting question you can ask is can
+you know use these quantum error
+correction ideas to make those sensors
+even more powerful and that's another
+area of you know current basic research
+but where you could see you know
+significant potential economic impact
+interesting and so and so in terms of
+your research right now what are you
+working on that you find both
+interesting and incredibly difficult
+everything I will find is 100% Oersted
+and incredibly difficult okay well let
+me um change direction a little yeah
+from what we've been talking about so
+far well let me tell you a little bit
+about me
+sure so I
+didn't start out interested in
+information yeah a career you know I'm a
+physicist and I was trained as no an
+elementary particle theorist studying
+the fundamental interactions and the
+elementary particles and that drew me
+into an interest in gravitation because
+one thing that we still have a very poor
+understanding of is how gravity fits
+together with the other fundamental
+interactions the way physicists usually
+say it is we don't have a quantum theory
+of gravity at least not one that we
+think is complete and satisfactory so
+I'm an interested in that question for
+you know many decades and then I kind of
+got sidetracked because I got excited
+about quantum computing but you know I
+I've always looked at quantum
+information not just as a technology you
+know I'm a physicist I'm not an engineer
+I'm not trying to build a better
+computer necessarily though I think
+that's very exciting and worth doing and
+if my work can contribute to that it's
+very pleasing but I see quantum
+information as a new frontier in the
+exploration of the physical sciences
+sometimes I call it the entanglement
+frontier
+you know we physics we like to talk
+about frontiers short distance frontier
+that's what we're doing at CERN you know
+and the Large Hadron Collider trying to
+discern new properties of matter at
+distances which was shorter than we've
+ever been able to explore before mm-hmm
+and there's a long distance frontier in
+cosmology you know we're trying to look
+deeper into the universe and understand
+its structure and behavior at earlier
+times those are both very exciting
+frontiers this entanglement frontier I
+think is increasingly
+going to be at the forefront of basic
+physics research in the 21st century
+mm-hmm and by entanglement frontier I
+just mean scaling up quantum systems to
+larger and larger complexity where it
+becomes harder and harder to simulate
+those systems you know with our existing
+digital tools and so that means we can
+very well anticipate the types of
+behavior that we're going to see I think
+that's a great opportunity for new
+discovery and that's part of what's
+going to be exciting even in the
+relatively near term mmm-hmm
+when we have a hundred qubits you know
+there are some things that we can do to
+understand the behavior of the dynamics
+of you know a highly complex system of
+100 qubits that we know have been able
+to experimentally probe before and
+that's going to be very interesting but
+what we're starting to see now is that
+these quantum information ideas are
+connecting to these fundamental
+questions about gravitation and how to
+think about it quantum Li and it turns
+out as is true for most of the broader
+implications of quantum physics the key
+thing is entanglement and we can think
+of the microscopic structure of
+space-time the geometry of where we live
+geometry this means you know who's close
+to who else and okay if we are we're in
+the auditorium and you know I'm in the
+first row and you're in the fourth row
+you know the geometry is how close we
+are to one another so of course that's
+very fundamental in both space and time
+how far apart are we in space how far
+apart are we at a time is geometry
+really a fundamental thing or is it
+something that's kind of emergent from
+some even more fundamental concept
+it seems increasingly likely that it's
+really an emergent B property okay
+there's something deeper than geometry
+what is that we think it's quantum
+entanglement that you can think of the
+geometry as arising from quantum
+correlations among parts of a system and
+that's really what defines who's close
+to who and so we're trying to explore
+that idea more deeply and one of the
+things that comes in is the idea of
+quantum error correction mm-hmm
+remember the whole idea of quantum error
+correction was that we could make a
+quantum system behave the way we wanted
+to because it's well-protected against
+the damaging effects of noise and it
+seems like quantum error correction is
+part of the deep secret of how
+space-time geometry works it has a kind
+of intrinsic robustness coming from
+these ideas of quantum error correction
+that makes space you know meaningful so
+that it doesn't just evaporate when you
+when you tap on it if you wanted to you
+know you could think of the space time
+that the space the urine and the space
+that that I'm in as parts of a system
+that are entangled with one another
+mm-hmm is what would happen if we broke
+that entanglement and you know you're
+part of space became disentangled from
+my part Oh what we think that would mean
+is that there'd be no way to connect us
+anymore there wouldn't be any path
+through space that starts over here with
+you and ends with you would become
+broken apart into two pieces so it's
+really the entanglement which holds
+space together which keeps it from
+falling apart into little pieces and you
+know we're trying to get a deeper grasp
+of what that means and how do you make
+any progress on that that seems like the
+most unbelievably difficult problem to
+work on it's difficult yeah as well for
+a number of reasons but in particular
+because it's hard to get guidance from
+experiment which is how physics
+historically all science has commenced
+yeah and although it was fun
+a moment ago to talk about what would
+happen if we disentangled you're part of
+space from mine I don't know how to do
+that in the lab right now so of course
+part of the reason is we have the
+audacity to think we can figure these
+things out just by thinking about them
+maybe that's not true nobody knows right
+we should try yeah under solving these
+problems is a great challenge and you
+know it may be that the Apes that
+evolved on earth are not don't have the
+capacity to understand things like the
+quantum structure of space-time but
+maybe we do so we should try now in the
+longer term and maybe not such a long
+term I think maybe we can get some
+guidance from experiment and in
+particular what we're gonna be doing
+with quantum computers and you know the
+other quantum technologies that are
+becoming increasingly sophisticated in
+the next couple of decades as we'll be
+able to control very well highly
+entangled complex quantum systems and so
+that should mean that in a laboratory on
+a tabletop I can sort of make my own
+little toy spacetime hmm with an
+emergent geometry arising from the
+properties of that entanglement and I
+think that'll teach us lessons because
+systems like that are the type of system
+that because they're so highly entangled
+digital computers can't simulate them it
+seems like only quantum computers are
+potentially up to the task so that won't
+be quite the same as you know
+disentangling your side of the room for
+mine in real life yeah but we'd be able
+to do it in a laboratory setting you
+know using model systems which i think
+would help us to understand the basic
+principles better wildd
+yeah desktop space-time seems pretty
+cool yeah it's pretty fundamental we
+didn't really talk about what people
+sometimes we didn't implicitly but not
+in something we didn't talk about what
+people sometimes call quantum
+locality okay and it's another way of
+describing quantum entanglement actually
+there's this notion of Bell's Theorem
+that when you look at the correlations
+among the parts of a quantum system that
+they're different from any possible
+classical correlations and some things
+that you read give you the impression
+that you can use that to instantaneously
+send information over long distances hmm
+it is true that if we have two qubits
+electron spin say and they're entangled
+with one another then what's kind of
+remarkable is that I can measure my
+qubit to see along some axis whether
+it's up or down and you can measure
+yours and we will get perfectly
+correlated results no what I when I see
+up you'll see up say and when I see down
+you'll see down and sometimes people
+make it sound like that's remarkable
+that's not remarkable in itself I could
+have somebody could have flipped a pair
+of coins you know so they came up both
+heads and both tails and given one slip
+them afire to me yeah and go on a light
+you're opposed and then we do and then
+they call it quantum transport a
+teleportation on YouTube yeah
+of course what's really important about
+entanglement that makes it different
+from just those coins yeah is that
+there's more than one way of looking at
+a qubit mm-hmm you know we have what we
+call complementary ways of measuring it
+sorry you know you can ask whether it's
+up or down along this axis or along that
+axis there's nothing like that for the
+coin there's just one way to look at it
+hmm and what's cool about entanglement
+is it will get perfectly correlated
+results if we both measure in the same
+way mm-hmm but there's more than one
+possible way that we can measure and so
+what sometimes gets said or the
+impression
+Oh God is that that means that when I do
+something to my cubit it instantaneously
+affects your cubit even if we're on
+different sides of the galaxy but that's
+not what entanglement does it just means
+they're correlated in a certain way
+mm-hmm and when you look at yours if we
+have maximally entangled qubits you you
+just see a random Fett you know it could
+be a zero or one each occurring with
+probability 1/2 and that's going to be
+true no matter what I did to my Cupid
+and so you can't tell what I did by
+looking at it it's only that if we
+compare notes later we can see how
+they're correlated and that correlation
+holds for either one of these two
+complementary ways in which we could
+both measure and it's that fact that we
+have these complementary ways to measure
+that makes it impossible for a classical
+system to reproduce those same
+correlations mm-hmm
+so that's one misconception that's
+pretty widespread another one is this
+about quantum computing which is in
+trying to explain why quantum computers
+are powerful people will sometimes say
+well it's because you can superpose I
+use that word before you know you can
+add together many different
+possibilities and that means that
+whereas an ordinary computer would just
+do a computation once acting on a
+superposition and quantum computer can
+do a vast number of computations all at
+once there's a certain sense in which
+that's mathematically true if you
+interpret it right but it's very
+misleading because in the end you're
+gonna have to make some measurement to
+read out the result mm-hmm and when you
+read it out you're you know there's a
+limited amount of information you can
+get you're not going to be able to read
+out the results of some huge number of
+computations in a single shot
+measurement so really the key thing that
+makes it work is this idea of
+interference which we discussed briefly
+when you asked about Grover's algorithm
+mm-hmm
+the art of a quantum algorithm is to
+make sure that the wrong answers
+interfere and cancel one another out so
+the right answer is enhanced and that's
+not automatic it requires that the
+quantum algorithm be designed in just
+the right way right so the diagrams I've
+seen online at least involve usually
+you're like squaring the output as it
+goes along and then like essentially
+that that flips the the correct answer
+to the positive and the others are in a
+negative position is that accurate I
+wouldn't have said it the way you did
+okay because you can't really measure it
+as you go along okay and once you
+measure it the magic of superposition is
+going to be lost mm-hmm it means that
+now there's some definite outcome or
+state so to take advantage of this
+interference phenomenon you need to
+delay the measurement mm-hmm remember
+when we were talking about the double
+slit and I said if you actually see
+these these Wiggles in the probability
+of detection which is the signal of
+interference that means that there's no
+way anybody could know whether the
+electron went through hole 1 or hole 2
+and it's the same way with quantum
+computing if you think of the
+computation as being a superposition of
+different possible computations it
+wouldn't work
+there wouldn't be a speed-up if you
+could know which of those paths the
+computation followed it's important that
+you don't know and so you have to sum up
+all the different computations and
+that's how the interference phenomenon
+comes into play to take a little
+sidetrack you mentioned Fineman before
+and before we started recording you
+mentioned working with him I know I'm in
+the the Fineman fan club for sure yeah
+what was that experience like we never
+really collaborated I mean we didn't
+write a paper together or anything
+that but we overlap for five years at
+Caltech yeah arrived here in 1983 he
+died in 1988 we in offices on the same
+corridor and we talked pretty often
+because we were both interested in the
+fundamental interactions and in
+particular what we call quantum
+chromodynamics it's our theory of how
+nuclear matter behaves how quarks
+interact what holds the proton together
+those kinds of things and one big
+question is you know what does hold the
+proton together why don't the quarks
+just fall apart so that was an example
+of a problem that both he and I were
+very interested in and which we talked
+about some time now you know this was
+pretty late in his career actually sure
+when I when I think about it now when I
+arrived at Caltech that was 1983 Fineman
+was born in 1918 so he was 65
+I'm 64 now so maybe he wasn't so old but
+at the time he seemed pretty ancient to
+me yeah since I was thirty okay and
+those who interacted with dick Feynman
+you know when he was really at his
+intellectual peak in the 40s and 50s and
+60s probably saw even more extraordinary
+intellectual feats and I witnessed
+interacting with the 65 world Fineman
+but he just loved physics you know and
+he just thought everything was so much
+fun and he left talking about it he
+wasn't as good a listener as a talker
+but actually well that's a little unfair
+isn't it okay it was kind of funny
+because Fineman um he won't always wants
+to think things through for himself okay
+you know
+from first principles rather than rely
+on the guidance from experts who have
+thought about these things before well
+that's fine you know you yeah you should
+try to understand things as deeply as
+you can on your own and sort of
+reconstruct the knowledge from the
+ground up that's very enabling and you
+know gives you new insights but he was a
+little too dismissive in my view of you
+know what the other guys knew but I
+could slip it in because you know I
+didn't tell him
+dick you should read this paper by
+Polyakov well maybe I did I wouldn't
+even heard that because he saw that
+problem that your yang about yeah but I
+knew what poly coffin said about it so I
+would say oh well you know why don't we
+look at it this way and so he thought I
+was you know what I was having all these
+insights but the truth was the venom a
+difference between phiman and me and in
+the mid-1980s is I was reading
+literature and he wasn't and probably if
+he had been it would have he would have
+been well served but that wasn't the way
+he liked to work on things yeah he
+wanted to find his own approach and of
+course that had worked out pretty well
+for him throughout his career what other
+qualities did you notice about him when
+he was you know roaming the corridors
+well he's drumming I don't even know he
+was around because he'd actually be
+walking down the hallway drumming on the
+wall with his hands are with sticks her
+no hands okay I'll just be tapping the
+bongo thing yeah and so that was one
+thing okay uh-huh
+he loved to tell stories you know you
+probably read the the books that the
+Ralph Layton put together based on the
+stories Fineman told and I mean I Ralph
+did an amazing job I think of of
+capturing fineman's personality in in
+writing those stories down because I had
+heard a lot of them okay I'm sure he
+told the same stories too many
+people many times because he left
+telling stories and but the book really
+captures his voice pretty well mm-hmm
+you know if you had heard him tell some
+of these stories and then and then you
+read the way the way Ralph Leighton not
+transcribed them you can write you can
+hear Fineman talking and so at the time
+that I knew him one of the experiences
+that he went through was you know he was
+on the Challenger Commission after the
+Space Shuttle blew up and so he was in
+in Washington a lot of the time but he
+had come back from time to time and he
+would sort of you know sit back and
+relax in our seminar room and start
+bringing us up to date on all the weird
+things that were happening on the
+Challenger Commission that was pretty
+fun that's right cool a lot of that got
+got captured in the second volume I
+guess it's the one called um what do you
+care what other people think there's a
+there's a chapter about you know him
+telling stories about the Challenger
+Commission he was interested in
+everything you know wasn't just physics
+yeah and he's very interested in biology
+he was interested in computation I
+remember how excited he was when he got
+his first IBM PC probably not long after
+I got to Caltech yeah it was what they
+called the 80 we thought it was pretty
+sexy machine I had one too and you know
+he couldn't wait to start programming it
+and basic cool that was so much fun
+there was a question that I was kind of
+curious to your answer so teeka asked
+about essentially teaching about quantum
+computers so they say many kids in grade
+10 can code some can play with machine
+learning tools without knowing the math
+can quantum computing become as simple
+and or accessible
+maybe so so at some level you know when
+people say the quantum mechanics is
+counterintuitive it's hard for us to
+grasp it's so foreign to our experience
+that's true the way things behave at the
+microscopic scale or when you discussed
+earlier we're really different from the
+way ordinary stuff behaves but I think
+it's a question of familiarity and what
+I wouldn't be surprised by is that if
+you go out a few decades kids who are 10
+years old are going to be playing
+quantum games hmm that's a application
+area that just good discussed very much
+but there could be a real market there
+because you know people love games
+yeah and quantum games are different and
+the strategies are different and what
+you have to do to win is different and
+if you just play the game enough you
+start to get the hang of it soon and so
+I think I don't see any reason why kids
+who have not necessarily deeply studied
+physics can't get a pretty good feel for
+how quantum mechanics works you know the
+way um the way ordinary physics works
+maybe it's not so intuitive Newton's
+laws you know
+Aristotle couldn't get it right right he
+had to keep pushing on something to get
+it to keep moving that wasn't right and
+you had to you know Galileo was able to
+roll balls down a ramp and things like
+that and you see he didn't have to keep
+pushing keep it moving and you could see
+that it you know was uniformly
+accelerated in a gravitational field
+Newton took that to a much more general
+and powerful level and you know you fool
+around with stuff and you get the hang
+of it and I think one of the stuff can
+be like that it's you know we'll
+experience it in a different way but
+when we have quantum computers in a way
+you know that opens the opportunity to
+for trying things out and see what
+happens
+mm-hmm and after you played the game
+enough you you start to anticipate
+actually it's an important point about
+the applications yeah one of the
+questions you asked near the beginning
+was um what are we able to do with
+quantum computers and I said I don't
+know so how are we going to discover new
+applications am I just in least in part
+be fooling around yeah you know a lot of
+classical algorithms that that people
+use on today's computers were discovered
+or that they were powerful was
+discovered by experimenting by trying it
+I don't know what's an example of that
+well the simplex method you know that we
+use some linear programming I don't
+think there was a mathematical proof
+that it was fast at first but people did
+experiments and they said hey this is
+pretty fast you see you're seeing it a
+lot now in machine learning yeah you you
+test it out a million times over when
+you're running simulations and it turns
+out that that's what works yeah what
+about so kind of like following the
+threat of Education and and maybe your
+political interest given its yeah the
+year that it is do you have thoughts on
+how you would adjust or change STEM
+education
+well no particularly original thoughts
+okay
+but I do think that STEM education we
+shouldn't think of it as we're going to
+need this technical workforce and so we
+better train them I think the key thing
+is we want the general population to be
+able to reason effectively you know and
+to recognize when an argument is phony
+and when it's authentic and to think
+about well how can I check whether what
+I just read on Facebook is really true
+and I see that as part of the goal of
+STEM education you know when you're
+teaching kids in school how to
+understand the world by doing
+experiments by looking at the evidence
+by reasoning from the evidence this is
+something that we apply in everyday life
+too and so I would like to I don't know
+exactly how to implement this yeah but I
+think we should have that perspective
+that we're trying to educate a public
+which is going to eventually make
+critical decisions about our democracy
+and they should understand what's how to
+tell when something is true or not I
+mean you know that's a hard thing to do
+in general but you know what I mean yeah
+that there are some things that if
+you're a person with some it doesn't
+necessarily have to be technical but if
+you're used to evaluating evidence and
+making a judgement based on that
+eminence about whether it's a good
+argument or not you can apply that to
+all the things you hear and read and
+make better judgments what about on the
+policy side someone let's see JJ Francis
+passed that if you or any of your
+colleagues would ever consider running
+for office mm-hmm
+curious about sign science policy in the
+US well it would be good if we had more
+scientifically trained people mm-hmm in
+government
+very few members of Congress I know one
+bill fosters a physicists in Illinois he
+was a particle physicists um and he
+worked at Fermilab and hmm now he's in
+Congress and I think very interested in
+you know the science and educational
+policy aspects of government rush Holt
+was a congressman from New Jersey who
+had a background in physics he retired
+from the house a couple of years ago but
+he was in Congress for something like 18
+years and I think he had a a positive
+influence because he had a voice that
+people respected when it came to science
+policy and having more people like that
+would help now another thing it doesn't
+have to be elective office right and we
+and there are a lot of technically
+trained people mm-hmm in government many
+of them making their careers in agencies
+that deal with you know technical issues
+mm-hmm Department of Defense of course
+there are a lot of technical issues in
+the Obama administration we had two
+successive secretaries of Energy who
+were very very good physicists Steve she
+was a Nobel Prize winning physicist and
+then Ernie Moniz so real authority on
+nuclear energy and weapons and that kind
+of expertise makes a difference in
+government hmm now the Secretary of
+Energy is Rick Perry it's a different
+background yes you could say that it
+just kind of historical reference what
+policies did they put in place that you
+think were that you really felt their
+hand as a physicist yeah move forward
+you mean in particular during the Obama
+administration yeah well I think the
+Department of Energy do II tried to
+facilitate
+technical innovation by you know seating
+new technologies by supporting startup
+companies that were trying to do things
+that would improve battery battery
+technology and solar power and things
+like that which could benefit future
+generations and I think um I think they
+had an impact by doing that oh you don't
+have to be a Nobel Prize winning
+physicist to think that's a good idea
+but I think um you know that they that
+the administration felt that was a
+priority yeah I made a difference and
+appointing a physicist Department of
+Energy was if nothing else highly
+symbolic of how important those things
+are and on the on the quantum side
+someone asks Vika scrod he asked where
+the quantum Valley might be do you have
+your thoughts as in Silicon Valley for
+quantum computing well I don't know but
+you look at what's happening the last
+couple of years there have been a number
+of quantum startups mm-hmm and a notable
+number of them are in the Bay Area
+why so well that's where the tech
+industry is concentrated and where the
+people who are interested in financing
+innovative technical startups are
+concentrated mm-hmm so if you are an
+entrepreneur interested in starting a
+company and you're concerned about how
+to fundraise for it kind of makes sense
+to locate it in that area that's not
+that's what's sort of happening now and
+may continue of course and might not be
+like that indefinitely nothing lasts
+forever but I would say that's the place
+there's the Silicon Valley is like in
+quantum Valley the way things are right
+now well then what about the
+the physicists who might be listening to
+this if they're thinking about starting
+a company mmm do you have advice for
+them just speaking very generally that
+if you're putting a team together mm-hmm
+you know different people have different
+expertise will take quantum computing as
+an example you know like we were saying
+earlier some of the big players and the
+startups they want to do everything they
+want to build the hardware figure out
+better ways to fabricate it better
+control better software better
+applications nobody can be an expert on
+all those things so you know of course
+you'll hire a software person to write
+your software and a microwave engineer
+to figure out your control and of course
+that's the right thing to do but I think
+in in that arena and it probably applies
+to other entrepreneurial activity
+relating to physics being able to
+communicate across those boundaries it's
+very valuable and you can see it in
+quantum computing now that if the man or
+woman who's involved in the software
+mm-hmm has that background but there's
+not a big communication barrier talking
+to the people who are doing the control
+engineering yeah that can be very
+helpful and I think so so I think it
+makes sense to give some preference to
+the people who maybe are comfortable
+doing so or half the background this
+stretches across more than one of those
+areas of expertise I think I think that
+can be very enabling in a technology
+arena like quantum computing today where
+we're trying to do really really hard
+stuff and you know you don't know
+whether you'll succeed and you want to
+give it your best go by seeing the
+actions you know between those different
+things would you advise someone then to
+to maybe teach or you know try and
+explain it to I don't know they're young
+cousins because I I think like Fineman
+may be recognized as the king of
+communicating physics at least for a
+certain period of time mhm
+how would you advise someone to get
+better at it so they can be more
+effective practice well you know their
+different aspects of that this isn't
+what you meant at all but I'll say it
+anyway because what you asked brought it
+to mind if you teach you learn and we
+had this odd model in the research
+university that a professor like me
+is supposed to do research and teach
+mm-hmm why don't I just when we hire
+teachers and researchers why do you at
+the same people doing both well part of
+the reason for me is most of what I know
+or what I've learned since my own school
+education and it is knowledge I acquired
+by trying to teach it hmm
+and you know to keep our intellect
+rejuvenated and we have to have that
+experience of trying to teach new things
+that we didn't know that well before to
+other people that deepens your knowledge
+just thinking about how you convey it
+makes you ask questions that you might
+not think to ask otherwise and you say
+hey I don't know the answer to that and
+then you have to try to figure it out so
+I think that applies you know at varying
+levels to any situation in which a
+scientist or somebody with a technical
+background mm-hmm is trying to
+communicate by thinking about how to get
+it across to other people we can get new
+insights you know we can look at it in a
+different way hmm um and so it's not a
+waste determinant aside from the
+benefits of actually successfully
+communicating
+yeah it we benefit from it in this other
+way but other than that um have fun with
+it
+you know um don't look at it as as a
+burden or you know some kind of task you
+have to do along with all the other
+things you're doing it should be a
+pleasure and when it's successful it's
+very gratifying so if you put a lot of
+thought into how to communicate
+something and you think people are
+getting it that's one of the ways that
+somebody in my line of work can get a
+lot of satisfaction hmm if now we're to
+be your opportunity to teach a lot of
+people about physics and you could just
+point someone to things who would you
+advise someone to be they want to learn
+more about quantum computing they want
+to learn about physics what should they
+be reading what YouTube channels should
+they follow what should they pay
+attention to well one communicator who I
+have great admiration for is Leonard
+Susskind I kind of said Stanford you
+know you mentioned Fineman as the great
+communicator and that's fair but in
+terms of style and personality of
+physicists who are currently active I
+think Lenny Susskind is the most similar
+to Fineman of anyone I can think of he
+you know he's a no-bullshit kind of guy
+yeah he he wants to give you the
+straight stuff he doesn't want to water
+it down for you but he's very gifted and
+when it comes to you know making
+analogies and creating the illusion that
+you're understanding what he's saying so
+he has if you just go to youtube and
+search Leonard Susskind you'll see
+lectures that he's given hmm at Stanford
+where they have some kind of extension
+school you know for people who are not
+Stanford students people in the
+community
+yeah a lot of them in the tech community
+because at Stanford and he's giving
+courses and yeah and on on quite
+sophisticated topics um but also on more
+basic topics and he's in the process of
+turning those into books I'm not sure
+how many of those have appeared but he
+has a series called I think the
+theoretical minimum okay which is
+supposed to be the you know the gentle
+introduction to different topics like
+classical physics and quantum physics
+and so on mm-hmm
+so he's he's pretty special I think in
+his ability to do that mm-hmm I need to
+subscribe actually here's a question man
+in in the things you've relearned
+while teaching over the past I guess
+it's over 35 years
+no is that right something like
+that true
+well what were the big thing what were
+the revelations well that's how I
+learned quantum computing for one thing
+you know I was not at all knowledgeable
+about information science that wasn't my
+training and back when I was in school
+physicists didn't learn much about
+things like information they're computer
+science complexity theory and one of the
+great things that about quantum
+computing is its interdisciplinary
+character mm-hmm that it brings these
+different things into contact which
+traditionally had not been part of the
+common curriculum of any community of
+scholars and so I decided 20 years ago
+that I should teach a quantum
+information class at at Caltech and I
+worked very hard on it that year and
+that meant I I mean not that I'm an
+expert or anything but I learned a lot
+about information theory and things like
+you know channel capacity and
+computational complexity and you know
+how we classify the hardness of problems
+and algorithms things like that which I
+didn't really know very well I had sort
+of a passing familiarity with some of
+those things from reading some of the
+you know quantum computing literature
+but that's no substitute for teaching in
+class because and then you imporantly
+have to synthesize it and figure out
+your way of presenting it and most of
+the notes are you know typed up and you
+can still get to them on my website
+mm-hmm but that was pretty
+transformative for me because although
+it didn't and and it was easier than 20
+years ago I guess then it is now because
+it was such a new topic yeah but I
+really felt I was kind of you know close
+enough to the cutting edge okay on most
+of those topics by the time I had
+finished the glass that I you know
+wasn't intimidated by another paper I'd
+read or a new thing I'd hear about about
+those things so that was probably the
+one case where it really made a
+difference and you know my foundation of
+knowledge which enabled me to do things
+but I had the same experience in
+particle physics you know I when I was a
+student I read a lot and I was you know
+very broadly interested in physics and
+but when the first time I was still at
+Harvard at the time but I didn't and I
+taught a similar course here I'm in my
+late 20s I'm just a year or two out of
+graduate school and I decide to teach a
+very comprehensive class on elementary
+particles and in particular you know
+quantum chromodynamics the theory of
+nuclear forces like we talked about
+before and it just really expanded my
+knowledge to had that experience of
+teaching that class and you know a lot
+of I still draw on that you know I
+noticed I can still
+remember that experience and I think I
+get ideas that I might not otherwise
+have because I went through that I want
+to get involved now yeah I want to go
+back to school or maybe teach a class I
+don't know well what's stopping you
+nothing all right thanks John okay thank
+you
+you

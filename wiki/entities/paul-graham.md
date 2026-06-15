@@ -1,0 +1,328 @@
+---
+type: entity
+title: Paul Graham
+created: 2026-05-26
+updated: 2026-05-27
+sources: []
+tags: []
+---
+
+# Paul Graham
+
+## Overview
+
+Co-founder of Y Combinator, mentioned in the context of product-market fit ('10 customers that love you').
+
+## Source Mentions
+
+- [[sources/21L-iujzy9U-21l-iujzy9u|21L-iujzy9U]]: Co-founder of Y Combinator, mentioned in the context of product-market fit ('10 customers that love you').
+- [[sources/Elm2p_TRPwk-elm2p-trpwk|Elm2p_TRPwk]]: An essayist whose ideas on engineers building intellectually interesting technology resonated with Dylan's experience.
+- [[sources/GciivYKTK_Q-gciivyktk-q|GciivYKTK_Q]]: Co-founder of Y Combinator, whose blog inspired Anker about startups.
+- [[sources/XcI5IMLEAaE-xci5imleaae|XcI5IMLEAaE]]: YC co-founder, associated with interview simulator
+- [[sources/pg-being-a-noob-being-a-noob|Being a Noob]]: Essayist, programmer, and venture capitalist.
+- [[sources/pg-coronavirus-and-credibility-coronavirus-and-credibility|Coronavirus and Credibility]]: Essayist, programmer, and venture capitalist.
+- [[sources/pg-charisma-power-charisma-power|Charisma / Power]]: Essayist, programmer, and venture capitalist.
+- [[sources/pg-change-your-name-change-your-name|Change Your Name]]: Co-founder of Y Combinator and author of the essay.
+- [[sources/pg-an-nft-that-saves-lives-an-nft-that-saves-lives|An NFT That Saves Lives]]: Venture capitalist and essayist who supports Noora Health.
+- [[sources/pg-a-way-to-detect-bias-a-way-to-detect-bias|A Way to Detect Bias]]: Author of the essay and co-founder of Y Combinator.
+- [[sources/pg-after-the-ladder-after-the-ladder|After the Ladder]]: Author and venture capitalist
+- [[sources/pg-beyond-smart-beyond-smart|Beyond Smart]]: Author of the essay and founder of Y Combinator.
+- [[sources/pg-after-credentials-after-credentials|After Credentials]]: Author, venture capitalist, and co-founder of Y Combinator.
+- [[sources/pg-a-word-to-the-resourceful-a-word-to-the-resourceful|A Word to the Resourceful]]: Co-founder of Y Combinator and author of the essay.
+- [[sources/pg-crazy-new-ideas-crazy-new-ideas|Crazy New Ideas]]: Author, venture capitalist, and co-founder of Y Combinator.
+- [[sources/pg-alien-truth-alien-truth|Alien Truth]]: Author and essayist who explores the concept of universal truths.
+- [[sources/pg-default-alive-or-default-dead-default-alive-or-default-dead|Default Alive or Default Dead?]]: Co-founder of Y Combinator and author of the essay.
+- [[sources/pg-better-bayesian-filtering-better-bayesian-filtering|Better Bayesian Filtering]]: Author of the essay and developer of the Bayesian spam filtering approach.
+- [[sources/pg-bradley-s-ghost-bradley-s-ghost|Bradley's Ghost]]: Author of the essay and computer scientist.
+- [[sources/pg-an-alternative-theory-of-unions-an-alternative-theory-of-unions|An Alternative Theory of Unions]]: Essayist, programmer, and venture capitalist.
+- [[sources/pg-copy-what-you-like-copy-what-you-like|Copy What You Like]]: Author, programmer, and venture capitalist.
+- [[sources/pg-black-swan-farming-black-swan-farming|Black Swan Farming]]: Co-founder of Y Combinator and author of the essay.
+- [[sources/pg-disconnecting-distraction-disconnecting-distraction|Disconnecting Distraction]]: Author, programmer, and venture capitalist.
+- [[sources/pg-apple-s-mistake-apple-s-mistake|Apple's Mistake]]: Author, programmer, and venture capitalist.
+- [[sources/pg-a-plan-for-spam-a-plan-for-spam|A Plan for Spam]]: Author of the essay and creator of the Bayesian spam filtering approach.
+- [[sources/pg-a-unified-theory-of-vc-suckage-a-unified-theory-of-vc-suckage|A Unified Theory of VC Suckage]]: Author, programmer, and co-founder of Viaweb and Y Combinator.
+- [[sources/pg-6-631-372-6-631-372|6,631,372]]: Co-founder of Viaweb and author of the essay.
+- [[sources/pg-could-vc-be-a-casualty-of-the-recession-could-vc-be-a-casualty-of-the-recession|Could VC be a Casualty of the Recession?]]: Co-founder of Y Combinator and author of the essay.
+- [[sources/pg-be-good-be-good|Be Good]]: Co-founder of Y Combinator and author of the essay.
+- [[sources/pg-a-version-1-0-a-version-1-0|A Version 1.0]]: Computer scientist, essayist, and venture capitalist.
+- [[sources/pg-defining-property-defining-property|Defining Property]]: Author and venture capitalist.
+- [[sources/pg-a-fundraising-survival-guide-a-fundraising-survival-guide|A Fundraising Survival Guide]]: Co-founder of Y Combinator and author of the essay.
+- [[sources/pg-can-you-buy-a-silicon-valley-maybe-can-you-buy-a-silicon-valley-maybe|Can You Buy a Silicon Valley?  Maybe.]]: Computer scientist, essayist, and co-founder of Y Combinator.
+- [[sources/pg-a-student-s-guide-to-startups-a-student-s-guide-to-startups|A Student's Guide to Startups]]: Co-founder of Y Combinator and author of the essay.
+- [[sources/pg-cities-and-ambition-cities-and-ambition|Cities and Ambition]]: Author, programmer, and venture capitalist.
+- [[sources/pg-a-local-revolution-a-local-revolution|A Local Revolution?]]: Author, investor, and co-founder of Y Combinator.
+- [[sources/pg-a-new-venture-animal-a-new-venture-animal|A New Venture Animal]]: Co-founder of Y Combinator and author of the essay.
+- [[sources/pg-before-the-startup-before-the-startup|Before the Startup]]: Co-founder of Y Combinator and author of the essay.
+- [[sources/pg-are-software-patents-evil-are-software-patents-evil|Are Software Patents Evil?]]: Author, programmer, and venture capitalist.
+- [[sources/pg-billionaires-build-billionaires-build|Billionaires Build]]: Co-founder of Y Combinator and essayist.
+- [[sources/pg-beating-the-averages-beating-the-averages|Beating the Averages]]: Author, programmer, and co-founder of Viaweb.
+- [[sources/pg-a-project-of-one-s-own-a-project-of-one-s-own|A Project of One's Own]]: Essayist, programmer, and co-founder of Y Combinator.
+- [[sources/pg-design-and-research-design-and-research|Design and Research]]: Programmer, writer, and investor.
+- [[sources/pg-being-popular-being-popular|Being Popular]]: Author of the essay and creator of the Arc programming language.
+- [[sources/pg-donate-unrestricted-donate-unrestricted|Donate Unrestricted]]: Author, investor, and co-founder of Y Combinator.
+- [[sources/pg-fashionable-problems-fashionable-problems|Fashionable Problems]]: Computer scientist, essayist, and venture capitalist.
+- [[sources/pg-general-and-surprising-general-and-surprising|General and Surprising]]: Essayist, programmer, and venture capitalist.
+- [[sources/pg-don-t-talk-to-corp-dev-don-t-talk-to-corp-dev|Don't Talk to Corp Dev]]: Author, investor, and co-founder of Y Combinator.
+- [[sources/pg-fierce-nerds-fierce-nerds|Fierce Nerds]]: Author of the essay and co-founder of Y Combinator.
+- [[sources/pg-founder-control-founder-control|Founder Control]]: Co-founder of Y Combinator and author of the essay.
+- [[sources/pg-filters-that-fight-back-filters-that-fight-back|Filters that Fight Back]]: Computer scientist, essayist, and venture capitalist.
+- [[sources/pg-holding-a-program-in-one-s-head-holding-a-program-in-one-s-head|Holding a Program in One's Head]]: Author, programmer, and venture capitalist.
+- [[sources/pg-high-resolution-fundraising-high-resolution-fundraising|High Resolution Fundraising]]: Co-founder of Y Combinator and author of the essay.
+- [[sources/pg-do-things-that-don-t-scale-do-things-that-don-t-scale|Do Things that Don't Scale]]: Co-founder of Y Combinator and author of the essay.
+- [[sources/pg-how-to-get-new-ideas-how-to-get-new-ideas|How to Get New Ideas]]: Essayist, programmer, and venture capitalist.
+- [[sources/pg-early-work-early-work|Early Work]]: Author, programmer, and co-founder of Y Combinator.
+- [[sources/pg-haters-haters|Haters]]: Computer scientist, essayist, and co-founder of Y Combinator.
+- [[sources/pg-good-and-bad-procrastination-good-and-bad-procrastination|Good and Bad Procrastination]]: Author, investor, and programmer.
+- [[sources/pg-how-to-disagree-how-to-disagree|How to Disagree]]: Essayist, programmer, and venture capitalist.
+- [[sources/pg-how-not-to-die-how-not-to-die|How Not to Die]]: Co-founder of Y Combinator and author of the essay.
+- [[sources/pg-economic-inequality-economic-inequality|Economic Inequality]]: Founder of Y Combinator and author of the essay.
+- [[sources/pg-five-questions-about-language-design-five-questions-about-language-design|Five Questions about Language Design]]: Programmer, essayist, and venture capitalist.
+- [[sources/pg-having-kids-having-kids|Having Kids]]: Author, programmer, and venture capitalist.
+- [[sources/pg-frighteningly-ambitious-startup-ideas-frighteningly-ambitious-startup-ideas|Frighteningly Ambitious Startup Ideas]]: Co-founder of Y Combinator and author of the essay.
+- [[sources/pg-how-to-lose-time-and-money-how-to-lose-time-and-money|How to Lose Time and Money]]: Author, programmer, and venture capitalist.
+- [[sources/pg-how-to-do-what-you-love-how-to-do-what-you-love|How to Do What You Love]]: Author of the essay and co-founder of Y Combinator.
+- [[sources/pg-heresy-heresy|Heresy]]: Author, venture capitalist, and essayist.
+- [[sources/pg-earnestness-earnestness|Earnestness]]: Author, investor, and co-founder of Y Combinator.
+- [[sources/pg-hackers-and-painters-hackers-and-painters|Hackers and Painters]]: Author, programmer, and venture capitalist.
+- [[sources/pg-how-to-be-an-expert-in-a-changing-world-how-to-be-an-expert-in-a-changing-world|How to Be an Expert in a Changing World]]: Computer scientist, essayist, and co-founder of Y Combinator.
+- [[sources/pg-hiring-is-obsolete-hiring-is-obsolete|Hiring is Obsolete]]: Author, programmer, and investor.
+- [[sources/pg-great-hackers-great-hackers|Great Hackers]]: Author, programmer, and venture capitalist.
+- [[sources/pg-how-art-can-be-good-how-art-can-be-good|How Art Can Be Good]]: Author, programmer, and venture capitalist.
+- [[sources/pg-how-to-convince-investors-how-to-convince-investors|How to Convince Investors]]: Co-founder of Y Combinator and author of the essay.
+- [[sources/pg-how-people-get-rich-now-how-people-get-rich-now|How People Get Rich Now]]: Author, venture capitalist, and co-founder of Y Combinator.
+- [[sources/pg-how-to-make-pittsburgh-a-startup-hub-how-to-make-pittsburgh-a-startup-hub|How to Make Pittsburgh a Startup Hub]]: Author, investor, and co-founder of Y Combinator.
+- [[sources/pg-how-to-fund-a-startup-how-to-fund-a-startup|How to Fund a Startup]]: Author, programmer, and co-founder of Y Combinator.
+- [[sources/pg-how-to-be-silicon-valley-how-to-be-silicon-valley|How to Be Silicon Valley]]: Essayist, programmer, and venture capitalist.
+- [[sources/pg-how-to-be-an-angel-investor-how-to-be-an-angel-investor|How to Be an Angel Investor]]: Co-founder of Y Combinator and author of the essay.
+- [[sources/pg-how-to-present-to-investors-how-to-present-to-investors|How to Present to Investors]]: Co-founder of Y Combinator and author of the essay.
+- [[sources/pg-how-to-do-philosophy-how-to-do-philosophy|How to Do Philosophy]]: Author of the essay and computer scientist.
+- [[sources/pg-how-to-raise-money-how-to-raise-money|How to Raise Money]]: Co-founder of Y Combinator and author of the essay.
+- [[sources/pg-how-to-get-startup-ideas-how-to-get-startup-ideas|How to Get Startup Ideas]]: Co-founder of Y Combinator and author of the essay.
+- [[sources/pg-how-to-work-hard-how-to-work-hard|How to Work Hard]]: Essayist, programmer, and co-founder of Y Combinator.
+- [[sources/pg-learning-from-founders-learning-from-founders|Learning from Founders]]: Author, investor, and co-founder of Y Combinator.
+- [[sources/pg-how-you-know-how-you-know|How You Know]]: Author, computer scientist, and essayist.
+- [[sources/pg-lisp-for-web-based-applications-lisp-for-web-based-applications|Lisp for Web-Based Applications]]: Programmer, essayist, and co-founder of Viaweb.
+- [[sources/pg-if-lisp-is-so-great-if-lisp-is-so-great|If Lisp is So Great]]: Computer scientist, essayist, and venture capitalist.
+- [[sources/pg-how-to-think-for-yourself-how-to-think-for-yourself|How to Think for Yourself]]: Author, investor, and co-founder of Y Combinator.
+- [[sources/pg-how-to-start-a-startup-how-to-start-a-startup|How to Start a Startup]]: Author, programmer, and co-founder of Viaweb.
+- [[sources/pg-keep-your-identity-small-keep-your-identity-small|Keep Your Identity Small]]: Author, programmer, and venture capitalist.
+- [[sources/pg-investor-herd-dynamics-investor-herd-dynamics|Investor Herd Dynamics]]: Author, investor, and co-founder of Y Combinator.
+- [[sources/pg-novelty-and-heresy-novelty-and-heresy|Novelty and Heresy]]: Essayist, programmer, and venture capitalist.
+- [[sources/pg-modeling-a-wealth-tax-modeling-a-wealth-tax|Modeling a Wealth Tax]]: Computer scientist, essayist, and co-founder of Y Combinator.
+- [[sources/pg-is-there-such-a-thing-as-good-taste-is-there-such-a-thing-as-good-taste|Is There Such a Thing as Good Taste?]]: Author, programmer, and venture capitalist.
+- [[sources/pg-maker-s-schedule-manager-s-schedule-maker-s-schedule-manager-s-schedule|Maker's Schedule, Manager's Schedule]]: Author, programmer, and co-founder of Y Combinator.
+- [[sources/pg-is-it-worth-being-wise-is-it-worth-being-wise|Is It Worth Being Wise?]]: Author of the essay and founder of Y Combinator.
+- [[sources/pg-ideas-for-startups-ideas-for-startups|Ideas for Startups]]: Author, investor, and co-founder of Y Combinator.
+- [[sources/pg-inequality-and-risk-inequality-and-risk|Inequality and Risk]]: Computer scientist, essayist, and co-founder of Y Combinator.
+- [[sources/pg-how-to-write-usefully-how-to-write-usefully|How to Write Usefully]]: Essayist, programmer, and co-founder of Y Combinator.
+- [[sources/pg-persuade-xor-discover-persuade-xor-discover|Persuade xor Discover]]: Essayist, programmer, and venture capitalist.
+- [[sources/pg-orthodox-privilege-orthodox-privilege|Orthodox Privilege]]: Essayist, programmer, and venture capitalist.
+- [[sources/pg-organic-startup-ideas-organic-startup-ideas|Organic Startup Ideas]]: Co-founder of Y Combinator and author of the essay.
+- [[sources/pg-mean-people-fail-mean-people-fail|Mean People Fail]]: Author, programmer, and co-founder of Y Combinator.
+- [[sources/pg-jessica-livingston-jessica-livingston|Jessica Livingston]]: Co-founder of Y Combinator, writer, and husband of Jessica Livingston.
+- [[sources/pg-life-is-short-life-is-short|Life is Short]]: Author, programmer, and venture capitalist.
+- [[sources/pg-java-s-cover-java-s-cover|Java's Cover]]: Programmer, essayist, and venture capitalist.
+- [[sources/pg-putting-ideas-into-words-putting-ideas-into-words|Putting Ideas into Words]]: Essayist, programmer, and venture capitalist.
+- [[sources/pg-made-in-usa-made-in-usa|Made in USA]]: Author, programmer, and venture capitalist.
+- [[sources/pg-news-from-the-front-news-from-the-front|News from the Front]]: Co-founder of Y Combinator and essayist.
+- [[sources/pg-programming-bottom-up-programming-bottom-up|Programming Bottom-Up]]: Author of the essay and the book On Lisp.
+- [[sources/pg-lies-we-tell-kids-lies-we-tell-kids|Lies We Tell Kids]]: Author of the essay and founder of Y Combinator.
+- [[sources/pg-how-y-combinator-started-how-y-combinator-started|How Y Combinator Started]]: Co-founder of Y Combinator and author of the essay.
+- [[sources/pg-it-s-charisma-stupid-it-s-charisma-stupid|It's Charisma, Stupid]]: Author and essayist
+- [[sources/pg-let-the-other-95-of-great-programmers-in-let-the-other-95-of-great-programmers-in|Let the Other 95% of Great Programmers In]]: Author, programmer, and co-founder of Y Combinator.
+- [[sources/pg-mind-the-gap-mind-the-gap|Mind the Gap]]: Author and venture capitalist
+- [[sources/pg-post-medium-publishing-post-medium-publishing|Post-Medium Publishing]]: Author, investor, and co-founder of Y Combinator.
+- [[sources/pg-ramen-profitable-ramen-profitable|Ramen Profitable]]: Author of the essay and co-founder of Y Combinator.
+- [[sources/pg-relentlessly-resourceful-relentlessly-resourceful|Relentlessly Resourceful]]: Venture capitalist, essayist, and co-founder of Y Combinator.
+- [[sources/pg-return-of-the-mac-return-of-the-mac|Return of the Mac]]: Computer scientist, essayist, and co-founder of Y Combinator.
+- [[sources/pg-schlep-blindness-schlep-blindness|Schlep Blindness]]: Co-founder of Y Combinator and author of the essay.
+- [[sources/pg-stuff-stuff|Stuff]]: Author, programmer, and venture capitalist.
+- [[sources/pg-revenge-of-the-nerds-revenge-of-the-nerds|Revenge of the Nerds]]: Author, programmer, and venture capitalist.
+- [[sources/pg-tablets-tablets|Tablets]]: Essayist, programmer, and co-founder of Y Combinator.
+- [[sources/pg-snapshot-viaweb-june-1998-snapshot-viaweb-june-1998|Snapshot: Viaweb, June 1998]]: Co-founder of Viaweb and Y Combinator.
+- [[sources/pg-startups-in-13-sentences-startups-in-13-sentences|Startups in 13 Sentences]]: Venture capitalist, essayist, and co-founder of Y Combinator.
+- [[sources/pg-startup-investing-trends-startup-investing-trends|Startup Investing Trends]]: Co-founder of Y Combinator and author of the essay.
+- [[sources/pg-six-principles-for-making-new-things-six-principles-for-making-new-things|Six Principles for Making New Things]]: Programmer, essayist, and co-founder of Y Combinator.
+- [[sources/pg-subject-airbnb-subject-airbnb|Subject: Airbnb]]: Co-founder of Y Combinator and author of the essay.
+- [[sources/pg-succinctness-is-power-succinctness-is-power|Succinctness is Power]]: Programmer, essayist, and venture capitalist.
+- [[sources/pg-the-acceleration-of-addictiveness-the-acceleration-of-addictiveness|The Acceleration of Addictiveness]]: Author, programmer, and venture capitalist.
+- [[sources/pg-the-founder-visa-the-founder-visa|The Founder Visa]]: Computer scientist, essayist, and co-founder of Y Combinator.
+- [[sources/pg-startup-growth-startup-growth|Startup = Growth]]: Co-founder of Y Combinator and author of the essay.
+- [[sources/pg-the-airbnbs-the-airbnbs|The Airbnbs]]: Co-founder of Y Combinator
+- [[sources/pg-the-equity-equation-the-equity-equation|The Equity Equation]]: Co-founder of Y Combinator and author of the essay.
+- [[sources/pg-the-need-to-read-the-need-to-read|The Need to Read]]: Essayist, programmer, and venture capitalist.
+- [[sources/pg-the-hardware-renaissance-the-hardware-renaissance|The Hardware Renaissance]]: Co-founder of Y Combinator and author of the essay.
+- [[sources/pg-the-fatal-pinch-the-fatal-pinch|The Fatal Pinch]]: Co-founder of Y Combinator and author of the essay.
+- [[sources/pg-the-age-of-the-essay-the-age-of-the-essay|The Age of the Essay]]: Author, computer scientist, and essayist.
+- [[sources/pg-the-anatomy-of-determination-the-anatomy-of-determination|The Anatomy of Determination]]: Co-founder of Y Combinator and author of the essay.
+- [[sources/pg-the-18-mistakes-that-kill-startups-the-18-mistakes-that-kill-startups|The 18 Mistakes That Kill Startups]]: Co-founder of Y Combinator and author of the essay.
+- [[sources/pg-taste-for-makers-taste-for-makers|Taste for Makers]]: Author, programmer, and venture capitalist.
+- [[sources/pg-the-island-test-the-island-test|The Island Test]]: Author and essayist.
+- [[sources/pg-the-four-quadrants-of-conformism-the-four-quadrants-of-conformism|The Four Quadrants of Conformism]]: Essayist, programmer, and co-founder of Y Combinator.
+- [[sources/pg-the-high-res-society-the-high-res-society|The High-Res Society]]: Author of the essay and co-founder of Y Combinator.
+- [[sources/pg-the-bus-ticket-theory-of-genius-the-bus-ticket-theory-of-genius|The Bus Ticket Theory of Genius]]: Author, investor, and programmer.
+- [[sources/pg-the-hacker-s-guide-to-investors-the-hacker-s-guide-to-investors|The Hacker's Guide to Investors]]: Co-founder of Y Combinator and author of the essay.
+- [[sources/pg-the-future-of-web-startups-the-future-of-web-startups|The Future of Web Startups]]: Co-founder of Y Combinator and author of the essay.
+- [[sources/pg-the-hardest-lessons-for-startups-to-learn-the-hardest-lessons-for-startups-to-learn|The Hardest Lessons for Startups to Learn]]: Co-founder of Y Combinator and author of the essay.
+- [[sources/pg-the-future-of-startup-funding-the-future-of-startup-funding|The Future of Startup Funding]]: Author, programmer, and co-founder of Y Combinator.
+- [[sources/pg-the-patent-pledge-the-patent-pledge|The Patent Pledge]]: Author, investor, and co-founder of Y Combinator.
+- [[sources/pg-the-list-of-n-things-the-list-of-n-things|The List of N Things]]: Essayist, programmer, and venture capitalist.
+- [[sources/pg-the-lesson-to-unlearn-the-lesson-to-unlearn|The Lesson to Unlearn]]: Author, programmer, and co-founder of Y Combinator.
+- [[sources/pg-the-other-half-of-artists-ship-the-other-half-of-artists-ship|The Other Half of "Artists Ship"]]: Author of the essay and co-founder of Y Combinator.
+- [[sources/pg-the-new-funding-landscape-the-new-funding-landscape|The New Funding Landscape]]: Co-founder of Y Combinator and author of the essay.
+- [[sources/pg-the-real-reason-to-end-the-death-penalty-the-real-reason-to-end-the-death-penalty|The Real Reason to End the Death Penalty]]: Author and essayist who wrote this piece on the death penalty.
+- [[sources/pg-the-python-paradox-the-python-paradox|The Python Paradox]]: Computer scientist, essayist, and venture capitalist.
+- [[sources/pg-the-risk-of-discovery-the-risk-of-discovery|The Risk of Discovery]]: Essayist, programmer, and venture capitalist.
+- [[sources/pg-the-hundred-year-language-the-hundred-year-language|The Hundred-Year Language]]: Programmer, venture capitalist, and essayist.
+- [[sources/pg-the-power-of-the-marginal-the-power-of-the-marginal|The Power of the Marginal]]: Author of the essay and co-founder of Y Combinator.
+- [[sources/pg-the-other-road-ahead-the-other-road-ahead|The Other Road Ahead]]: Author, programmer, and co-founder of Viaweb.
+- [[sources/pg-the-pooled-risk-company-management-company-the-pooled-risk-company-management-company|The Pooled-Risk Company Management Company]]: Author, investor, and co-founder of Y Combinator.
+- [[sources/pg-this-year-we-can-end-the-death-penalty-in-california-this-year-we-can-end-the-death-penalty-in-california|This Year We Can End the Death Penalty in California]]: Author and essayist
+- [[sources/pg-the-roots-of-lisp-the-roots-of-lisp|The Roots of Lisp]]: Author of the essay and programmer.
+- [[sources/pg-the-ronco-principle-the-ronco-principle|The Ronco Principle]]: Author, programmer, and co-founder of Y Combinator.
+- [[sources/pg-the-top-idea-in-your-mind-the-top-idea-in-your-mind|The Top Idea in Your Mind]]: Author, investor, and co-founder of Y Combinator.
+- [[sources/pg-the-refragmentation-the-refragmentation|The Refragmentation]]: Essayist, programmer, and venture capitalist.
+- [[sources/pg-the-top-of-my-todo-list-the-top-of-my-todo-list|The Top of My Todo List]]: Essayist, programmer, and venture capitalist.
+- [[sources/pg-the-two-kinds-of-moderate-the-two-kinds-of-moderate|The Two Kinds of Moderate]]: Essayist, programmer, and venture capitalist.
+- [[sources/pg-weird-languages-weird-languages|Weird Languages]]: Computer scientist, essayist, and venture capitalist.
+- [[sources/pg-two-kinds-of-judgement-two-kinds-of-judgement|Two Kinds of Judgement]]: Essayist, programmer, and venture capitalist.
+- [[sources/pg-what-doesn-t-seem-like-work-what-doesn-t-seem-like-work|What Doesn't Seem Like Work?]]: Author, programmer, and venture capitalist.
+- [[sources/pg-what-languages-fix-what-languages-fix|What Languages Fix]]: Author of the essay and founder of Y Combinator.
+- [[sources/pg-trolls-trolls|Trolls]]: Author, investor, and co-founder of Y Combinator.
+- [[sources/pg-the-submarine-the-submarine|The Submarine]]: Author, programmer, and venture capitalist.
+- [[sources/pg-what-kate-saw-in-silicon-valley-what-kate-saw-in-silicon-valley|What Kate Saw in Silicon Valley]]: Co-founder of Y Combinator and author of the essay.
+- [[sources/pg-the-word-hacker-the-word-hacker|The Word "Hacker"]]: Author and programmer
+- [[sources/pg-the-venture-capital-squeeze-the-venture-capital-squeeze|The Venture Capital Squeeze]]: Author, programmer, and venture capitalist
+- [[sources/pg-what-i-did-this-summer-what-i-did-this-summer|What I Did this Summer]]: Co-founder of Y Combinator and author of the essay.
+- [[sources/pg-undergraduation-undergraduation|Undergraduation]]: Author, programmer, and venture capitalist.
+- [[sources/pg-what-made-lisp-different-what-made-lisp-different|What Made Lisp Different]]: Programmer, essayist, and author of the text.
+- [[sources/pg-what-happened-to-yahoo-what-happened-to-yahoo|What Happened to Yahoo]]: Author, programmer, and investor who worked at Yahoo after his startup was acquired.
+- [[sources/pg-what-i-ve-learned-from-users-what-i-ve-learned-from-users|What I've Learned from Users]]: Co-founder of Y Combinator and author of the essay.
+- [[sources/pg-what-microsoft-is-this-the-altair-basic-of-what-microsoft-is-this-the-altair-basic-of|What Microsoft Is this the Altair Basic of?]]: Venture capitalist and essayist.
+- [[sources/pg-what-business-can-learn-from-open-source-what-business-can-learn-from-open-source|What Business Can Learn from Open Source]]: Author, programmer, and investor.
+- [[sources/pg-what-you-want-to-want-what-you-want-to-want|What You (Want to)* Want]]: Author, programmer, and investor.
+- [[sources/pg-what-i-worked-on-what-i-worked-on|What I Worked On]]: Author, programmer, and co-founder of Y Combinator.
+- [[sources/pg-what-i-ve-learned-from-hacker-news-what-i-ve-learned-from-hacker-news|What I've Learned from Hacker News]]: Co-founder of Y Combinator and creator of Hacker News.
+- [[sources/pg-web-2-0-web-2-0|Web 2.0]]: Essayist, programmer, and co-founder of Y Combinator.
+- [[sources/pg-what-we-look-for-in-founders-what-we-look-for-in-founders|What We Look for in Founders]]: Co-founder of Y Combinator and author of the essay.
+- [[sources/pg-why-arc-isn-t-especially-object-oriented-why-arc-isn-t-especially-object-oriented|Why Arc Isn't Especially Object-Oriented]]: Programmer, venture capitalist, and essayist.
+- [[sources/pg-why-it-s-safe-for-founders-to-be-nice-why-it-s-safe-for-founders-to-be-nice|Why It's Safe for Founders to Be Nice]]: Author, investor, and co-founder of Y Combinator.
+- [[sources/pg-what-the-bubble-got-right-what-the-bubble-got-right|What the Bubble Got Right]]: Author, programmer, and venture capitalist.
+- [[sources/pg-what-you-ll-wish-you-d-known-what-you-ll-wish-you-d-known|What You'll Wish You'd Known]]: Author, programmer, and venture capitalist.
+- [[sources/pg-why-to-start-a-startup-in-a-bad-economy-why-to-start-a-startup-in-a-bad-economy|Why to Start a Startup in a Bad Economy]]: Co-founder of Y Combinator and author of the essay.
+- [[sources/pg-where-to-see-silicon-valley-where-to-see-silicon-valley|Where to See Silicon Valley]]: Author, investor, and co-founder of Y Combinator.
+- [[sources/pg-why-yc-why-yc|Why YC]]: Co-founder of Y Combinator and author of the essay.
+- [[sources/pg-what-startups-are-really-like-what-startups-are-really-like|What Startups Are Really Like]]: Co-founder of Y Combinator and author of the essay.
+- [[sources/pg-write-like-you-talk-write-like-you-talk|Write Like You Talk]]: Author, investor, and programmer known for his essays on startups and writing.
+- [[sources/pg-write-simply-write-simply|Write Simply]]: Essayist, programmer, and venture capitalist.
+- [[sources/pg-why-twitter-is-a-big-deal-why-twitter-is-a-big-deal|Why Twitter is a Big Deal]]: Essayist and investor
+- [[sources/pg-why-startups-condense-in-america-why-startups-condense-in-america|Why Startups Condense in America]]: Author, investor, and co-founder of Y Combinator.
+- [[sources/pg-writing-and-speaking-writing-and-speaking|Writing and Speaking]]: Author, programmer, and venture capitalist.
+- [[sources/pg-why-to-move-to-a-startup-hub-why-to-move-to-a-startup-hub|Why to Move to a Startup Hub]]: Co-founder of Y Combinator and author of the essay.
+- [[sources/pg-writing-briefly-writing-briefly|Writing,  Briefly]]: Essayist, programmer, and venture capitalist.
+- [[sources/pg-why-smart-people-have-bad-ideas-why-smart-people-have-bad-ideas|Why Smart People Have Bad Ideas]]: Author, programmer, and co-founder of Y Combinator.
+- [[sources/pg-what-you-can-t-say-what-you-can-t-say|What You Can't Say]]: Author, computer scientist, and venture capitalist.
+- [[sources/pg-why-to-not-not-start-a-startup-why-to-not-not-start-a-startup|Why to Not Not Start a Startup]]: Co-founder of Y Combinator and essayist.
+- [[sources/pg-why-tv-lost-why-tv-lost|Why TV Lost]]: Author of the essay and co-founder of Y Combinator.
+- [[sources/pg-why-there-aren-t-more-googles-why-there-aren-t-more-googles|Why There Aren't More Googles]]: Co-founder of Y Combinator and author of the essay.
+- [[sources/pg-why-nerds-are-unpopular-why-nerds-are-unpopular|Why Nerds are Unpopular]]: Author of the essay and co-founder of Y Combinator.
+- [[sources/pg-why-startup-hubs-work-why-startup-hubs-work|Why Startup Hubs Work]]: Co-founder of Y Combinator and essayist.
+- [[sources/pg-you-weren-t-meant-to-have-a-boss-you-weren-t-meant-to-have-a-boss|You Weren't Meant to Have a Boss]]: Author, programmer, and co-founder of Y Combinator.
+- [[sources/sa-2017-yc-annual-letter-2017-yc-annual-letter|2017 YC Annual Letter]]: Co-founder of YC
+- [[sources/sa-how-things-get-done-how-things-get-done|How things get done]]: Co-founder of Y Combinator.
+- [[sources/sa-growth-and-government-growth-and-government|Growth and Government]]: Co-founder of Y Combinator.
+- [[sources/sa-how-to-be-successful-how-to-be-successful|How To Be Successful]]: Co-founder of Y Combinator.
+- [[sources/sa-pg-and-jessica-pg-and-jessica|PG and Jessica]]: Co-founder of Y Combinator and influential essayist.
+- [[sources/sa-startup-advice-briefly-startup-advice-briefly|Startup advice, briefly]]: Co-founder of Y Combinator and essayist.
+- [[sources/sa-the-days-are-long-but-the-decades-are-short-the-days-are-long-but-the-decades-are-short|The days are long but the decades are short]]: Co-founder of Y Combinator and mentor to Sam Altman.
+- [[sources/sa-the-founder-visa-again-the-founder-visa-again|The Founder Visa (again)]]: Co-founder of Y Combinator.
+- [[sources/sa-super-successful-companies-super-successful-companies|Super successful companies]]: Co-founder of Y Combinator.
+- [[sources/pg-how-to-make-wealth-how-to-make-wealth|How to Make Wealth]]: Author, programmer, and investor.
+- [[sources/py4FHUjc-bY-the-past-and-future-of-yc-bio|The Past and Future of YC Bio]]: Co-founder of Y Combinator.
+- [[sources/QHJkUw31YX8-paul-graham-founder-of-y-combinator-live-from-stockholm|Paul Graham, Founder of Y Combinator, Live from Stockholm]]: Co-founder of Y Combinator
+- [[sources/CBYhVcO4WgI-lecture-1-how-to-start-a-startup-sam-altman-dustin-moskovitz|Lecture 1 - How to Start a Startup (Sam Altman, Dustin Moskovitz)]]: Co-founder of Y Combinator.
+- [[sources/CVfnkM44Urs-lecture-2-team-and-execution-sam-altman|Lecture 2 - Team and Execution (Sam Altman)]]: Co-founder of Y Combinator
+- [[sources/RfWgVWGEuGE-lecture-10-culture-brian-chesky-alfred-lin|Lecture 10 - Culture (Brian Chesky, Alfred Lin)]]: Co-founder of Y Combinator
+- [[sources/ii1jcLg-eIQ-lecture-3-before-the-startup-paul-graham|Lecture 3 - Before the Startup (Paul Graham)]]: Co-founder of Y Combinator and essayist.
+- [[sources/0-JL7bbQ0tw-eric-migicovsky-at-startup-school-sv-2014|Eric Migicovsky at Startup School SV 2014]]: Co-founder of Y Combinator
+- [[sources/17XZGUX_9iM-kevin-hale-how-to-pitch-your-startup|Kevin Hale - How to Pitch Your Startup]]: Co-founder of Y Combinator.
+- [[sources/0OVSTWozvfY-save-your-startup-during-an-economic-downturn|Save Your Startup During an Economic Downturn]]: Co-founder of Y Combinator.
+- [[sources/5-TgqZ8nado-paul-graham-what-does-it-mean-to-do-things-that-don-t-scale|Paul Graham: What does it mean to do things that don't scale?]]: Co-founder of Y Combinator and computer scientist.
+- [[sources/4WO5kJChg3w-a-conversation-with-paul-graham-moderated-by-geoff-ralston|A Conversation with Paul Graham - Moderated by Geoff Ralston]]: Co-founder of Y Combinator and Viaweb.
+- [[sources/59c8yttMtHQ-female-founders-conference-2017|Female Founders Conference 2017]]: Co-founder of Y Combinator and author of influential essays on startups.
+- [[sources/8K1VXyoz7MQ-jessica-livingston-introduces-startup-school-sv-2014|Jessica Livingston Introduces Startup School SV 2014]]: Co-founder of Y Combinator
+- [[sources/6lY9CYIY4pQ-gustaf-alstr-mer-growth-for-startups|Gustaf Alströmer - Growth for Startups]]: Co-founder of Y Combinator.
+- [[sources/845O4RE1XDM-paul-graham-what-are-some-common-mistakes-founders-make|Paul Graham: What are some common mistakes founders make?]]: Co-founder of Y Combinator and venture capitalist.
+- [[sources/6u4JVz7iQTY-how-yc-was-created-with-jessica-livingston|How YC Was Created With Jessica Livingston]]: Co-founder of Y Combinator, essayist, and programmer.
+- [[sources/8d-cApFHjeY-jessica-livingston-shares-9-things-she-learned-from-founding-yc|Jessica Livingston Shares 9 Things She Learned From Founding YC]]: Co-founder of Y Combinator and Jessica Livingston's husband.
+- [[sources/A21qyXsAfME-gobble-founder-ooshma-garg-speaks-at-female-founders-conference-2016|Gobble founder Ooshma Garg speaks at Female Founders Conference 2016]]: Co-founder of Y Combinator
+- [[sources/ANrzH3ra8e8-reham-fagiri-and-kalam-dennis-at-startup-school-sv-2016|Reham Fagiri and Kalam Dennis at Startup School SV 2016]]: Co-founder of Y Combinator
+- [[sources/BYhxNYD6jNg-is-your-startup-default-alive-or-default-dead|Is your startup default alive, or default dead?]]: Co-founder of Y Combinator and author of the default alive/dead concept.
+- [[sources/BTS-rFzROOg-geoff-ralston-and-adora-cheung-discuss-startup-school|Geoff Ralston and Adora Cheung Discuss Startup School]]: Co-founder of Y Combinator
+- [[sources/CII2SmXOB60-elizabeth-iorns-at-female-founders-conference-2014|Elizabeth Iorns at Female Founders Conference 2014]]: Co-founder of Y Combinator.
+- [[sources/CcnwFJqEnxU-how-david-lieb-turned-a-failing-startup-into-google-photos-backstory|How David Lieb Turned a Failing Startup Into Google Photos | Backstory]]: Co-founder of Y Combinator.
+- [[sources/CKvo_kQbakU-10-people-ai-billion-dollar-company|10 People + AI = Billion Dollar Company?]]: Co-founder of Y Combinator
+- [[sources/DOtCl5PU8F0-kevin-hale-how-to-evaluate-startup-ideas|Kevin Hale - How to Evaluate Startup Ideas]]: Co-founder of Y Combinator.
+- [[sources/GYpYBqmlzTQ-celebrating-20-years-of-y-combinator|Celebrating 20 Years of Y Combinator]]: Co-founder of Y Combinator.
+- [[sources/HQjjgi6271k-50-founders-share-why-they-applied-to-y-combinator|50 Founders Share Why They Applied To Y Combinator]]: Co-founder of Y Combinator and essayist.
+- [[sources/IjPDIjge81o-startup-experts-discuss-doing-things-that-don-t-scale|Startup Experts Discuss Doing Things That Don't Scale]]: Co-founder of Y Combinator and author of the essay 'Do Things That Don't Scale'.
+- [[sources/K5JoLAauzq4-how-we-redesigned-our-website|How We Redesigned Our Website]]: Co-founder of Y Combinator and essayist.
+- [[sources/LBC16jhiwak-kirsty-nathoo-managing-startup-finances|Kirsty Nathoo - Managing Startup Finances]]: Co-founder of Y Combinator
+- [[sources/MYHb6yfFMmw-sam-altman-s-whale-ama|Sam Altman's Whale AMA]]: Co-founder of Y Combinator and influential essayist.
+- [[sources/NEp9aaQuYp4-jessica-livingston-speaks-at-female-founders-conference-2015|Jessica Livingston Speaks at Female Founders Conference 2015]]: Co-founder of Y Combinator.
+- [[sources/P-EMcAvE5YI-the-challenges-a-repeat-founder-faces-tikhon-bernstam|The Challenges a Repeat Founder Faces - Tikhon Bernstam]]: Co-founder of Y Combinator.
+- [[sources/TCA_7RVo7Uo-scaling-product-fireside-with-joe-gebbia-and-reid-hoffman|Scaling Product | Fireside with Joe Gebbia and Reid Hoffman]]: Co-founder of Y Combinator
+- [[sources/Th8JoIan4dg-how-to-get-and-evaluate-startup-ideas-startup-school|How to Get and Evaluate Startup Ideas | Startup School]]: Co-founder of Y Combinator.
+- [[sources/TANaRNMbYgk-how-to-get-ai-startup-ideas|How To Get AI Startup Ideas]]: Co-founder of Y Combinator.
+- [[sources/TrXi3naD6Og-michael-truell-building-cursor-at-23-taking-on-github-copilot-advice-to-engineering-studen|Michael Truell: Building Cursor At 23, Taking On GitHub Copilot & Advice To Engineering Students]]: Co-founder of Y Combinator.
+- [[sources/T9ikpoF2GH0-gustaf-alstromer-how-to-get-users-and-grow|Gustaf Alstromer - How to Get Users and Grow]]: Co-founder of Y Combinator.
+- [[sources/XcCmMOWuAF4-adora-cheung-how-to-prioritize-your-time|Adora Cheung - How to Prioritize Your Time]]: Co-founder of Y Combinator.
+- [[sources/WlT3UhC7NwQ-chase-adam-at-startup-school-2013|Chase Adam at Startup School 2013]]: Co-founder of Y Combinator
+- [[sources/Ya0I6oz7q9U-nate-blecharczyk-at-startup-school-2013|Nate Blecharczyk at Startup School 2013]]: Co-founder of Y Combinator
+- [[sources/Z8_8jNLsZms-chase-adam-at-startup-school-ny-2014|Chase Adam at Startup School NY 2014]]: Co-founder of Y Combinator
+- [[sources/ZOeyYAfKXLI-david-rusenko-at-startup-school-2012|David Rusenko at Startup School 2012]]: Co-founder of Y Combinator.
+- [[sources/cZ3kiEyDTCQ-what-david-lieb-and-his-team-built-eventually-became-the-foundation-for-google-photos|What David Lieb and his team built eventually became the foundation for Google Photos.]]: Co-founder of Y Combinator.
+- [[sources/bvjyaz4ZiVI-how-top-1-founders-navigate-co-founder-conflict|How Top 1% Founders Navigate Co-founder Conflict]]: Founder of Y Combinator.
+- [[sources/crMVJAf5TjA-team-and-execution-with-sam-altman-how-to-start-a-startup-2014-lecture-2|Team and Execution with Sam Altman (How to Start a Startup 2014: Lecture 2)]]: Co-founder of Y Combinator.
+- [[sources/egJeFaIXZLo-ideas-products-teams-and-execution-with-dustin-moskovitz-how-to-start-a-startup-2014-lectu|Ideas, Products, Teams, and Execution with Dustin Moskovitz (How to Start a Startup 2014: Lecture 1)]]: Co-founder of Y Combinator.
+- [[sources/ephzgxgOjR0-how-future-billionaires-get-sh-t-done|How Future Billionaires Get Sh*t Done]]: Co-founder of Y Combinator
+- [[sources/ftpoG2fSZBY-grace-garey-speaks-at-female-founders-conference-2015|Grace Garey Speaks at Female Founders Conference 2015]]: Co-founder of Y Combinator
+- [[sources/fDcW_qb-uew-google-photos-product-lead-and-bump-cofounder-david-lieb-with-gustaf-alstro-mer|Google Photos Product Lead and Bump Cofounder David Lieb with Gustaf Alströmer]]: Co-founder of Y Combinator.
+- [[sources/f4_14pZlJBs-before-the-startup-with-paul-graham-how-to-start-a-startup-2014-lecture-3|Before the Startup with Paul Graham (How to Start a Startup 2014: Lecture 3)]]: Co-founder of Y Combinator and essayist.
+- [[sources/gcevHkNGrWQ-fundraising-fundamentals-by-geoff-ralston|Fundraising Fundamentals By Geoff Ralston]]: Co-founder of Y Combinator.
+- [[sources/hyYCn_kAngI-how-to-get-your-first-customers-startup-school|How to Get Your First Customers | Startup School]]: Co-founder of Y Combinator
+- [[sources/l-vfn97QTr0-peter-reinhardt-on-finding-product-market-fit-at-segment|Peter Reinhardt on Finding Product Market Fit at Segment]]: Co-founder of Y Combinator
+- [[sources/kyYHUXxyjvI-updates-for-startup-school-2019-and-office-hours-with-kevin-hale|Updates for Startup School 2019 and Office Hours with Kevin Hale]]: Co-founder of Y Combinator.
+- [[sources/lVDmyRxeGCo-adora-cheung|Adora Cheung]]: Co-founder of Y Combinator
+- [[sources/lL6GdUHIBsM-adora-cheung-how-to-set-kpis-and-goals|Adora Cheung - How to Set KPIs and Goals]]: Co-founder of Y Combinator.
+- [[sources/nF_YWdz6S0Y-startup-experts-reveal-their-top-productivity-advice|Startup Experts Reveal Their Top Productivity Advice]]: Co-founder of Y Combinator and essayist.
+- [[sources/oxyyBUnhLPI-in-the-ai-era-the-playbook-is-changing|In the AI era, the playbook is changing.]]: Co-founder of Y Combinator and influential essayist.
+- [[sources/mUZKAhcxXWI-uncut-interview-with-sam-altman-on-masters-of-scale-audio|Uncut Interview with Sam Altman on Masters of Scale [Audio]]]: Co-founder of Y Combinator
+- [[sources/nFOC-cgIWaY-jessica-livingston-how-to-build-the-future|Jessica Livingston : How to Build the Future]]: Co-founder of Y Combinator
+- [[sources/prKi3-rUPHc-how-to-find-the-right-co-founder|How to Find the Right Co-founder]]: Founder of Y Combinator
+- [[sources/px5rgcNjOTc-culture-with-brian-chesky-and-alfred-lin-how-to-start-a-startup-2014-lecture-10|Culture with Brian Chesky and Alfred Lin (How to Start a Startup 2014: Lecture 10)]]: Co-founder of Y Combinator
+- [[sources/sNrDEIYAMjE-jessica-livingston-at-female-founders-conference-2014|Jessica Livingston at Female Founders Conference 2014]]: Co-founder of Y Combinator.
+- [[sources/s8ER6DIlAvY-geoff-ralston-parting-advice|Geoff Ralston - Parting Advice]]: Co-founder of Y Combinator.
+- [[sources/syoqjYLDs48-office-hours-at-startup-school-2013-with-paul-graham-and-sam-altman|Office Hours at Startup School 2013 with Paul Graham and Sam Altman]]: Co-founder of Y Combinator
+- [[sources/tF7HXJJjRvY-hiroshi-mikitani-at-startup-school-2012|Hiroshi Mikitani at Startup School 2012]]: Co-founder of Viaweb and Y Combinator.
+- [[sources/vaRrq0qWAkQ-lessons-from-doing-yc-twice-harj-taggar|Lessons From Doing YC Twice - Harj Taggar]]: Co-founder of Y Combinator.
+- [[sources/wA0qC9D4LA0-the-best-ai-founders-in-the-world-are-moving-here|The best AI founders in the world are moving here]]: Co-founder of Y Combinator and influential essayist.
+- [[sources/ypLoGFaKdbU-zach-sims-at-startup-school-ny-2014|Zach Sims at Startup School NY 2014]]: Co-founder of Y Combinator
+- [[sources/xZi4kTJG-LE-how-to-sell-by-tyler-bosmeny|How to Sell by Tyler Bosmeny]]: Co-founder of Y Combinator.
+- [[sources/wvMdXPt-Pq0-it-s-surprising-how-much-small-teams-can-get-done-sam-chaudhary-of-classdojo|It's Surprising How Much Small Teams Can Get Done - Sam Chaudhary of ClassDojo]]: Co-founder of Y Combinator
+- [[sources/xXCBz_8hM9w-how-to-build-the-future-sam-altman|How To Build The Future: Sam Altman]]: Co-founder of Y Combinator.
+- [[sources/z7S7Kf88jog-unknown|Unknown]]: Co-founder of Y Combinator.
+- [[sources/zBUhQPPS9AY-how-startup-fundraising-works-startup-school|How Startup Fundraising Works | Startup School]]: Co-founder of Y Combinator.
+- [[sources/zYCU5s9Ed0M-breaking-down-hackerrank-s-survey-of-40-000-developers-with-vivek-ravisankar|Breaking Down HackerRank's Survey of 40,000 Developers with Vivek Ravisankar]]: Co-founder of Y Combinator
+- [[sources/zoF10tFmNmY-kathryn-minshew-at-female-founders-conference-2014|Kathryn Minshew at Female Founders Conference 2014]]: Co-founder of Y Combinator.
+- [[sources/oYFjKml9ptk-the-untold-stories-of-y-combinator-with-co-founder-jessica-livingston|The Untold Stories of Y Combinator with Co-Founder Jessica Livingston]]: Co-founder of Y Combinator, programmer, and essayist.
+- [[sources/LueDxIt5ELc-focus-on-wealth-not-money|Focus on WEALTH, not MONEY]]: Co-founder of Y Combinator and essayist.
+- [[sources/8pG6golMHPo-i-said-the-wrong-thing-and-suddenly-our-series-a-pitch-meeting-was-over|I said the wrong thing and suddenly our Series A pitch meeting was over]]: Co-founder of Y Combinator.
+- [[sources/uQWk7T9Vz_k-how-i-got-into-y-combinator|How I got into Y Combinator]]: Co-founder of Y Combinator.
+- [[sources/3YKNr-LiblI-billion-dollar-startup-ideas|Billion dollar startup ideas]]: Co-founder of Y Combinator.
+- [[sources/YV2YE0XvhOs-the-secrets-of-y-combinator-s-early-success-with-yc-co-founder-jessica-livingston|The Secrets of Y Combinator’s Early Success (with YC Co-Founder Jessica Livingston)]]: Co-founder of Y Combinator.
+- [[sources/QumT0Dfsx8g-how-to-get-rich-and-stay-rich-with-the-coterie-s-ethan-agarwal|How To Get Rich, and Stay Rich With The Coterie’s Ethan Agarwal]]: Co-founder of Y Combinator
+- [[sources/6WJjSvI8_E0-yc-partner-harj-taggar-s-500m-mistake-a-legendary-startup-advisor-shares-his-lessons|YC Partner Harj Taggar's $500M mistake: A legendary startup advisor shares his lessons]]: Co-founder of Y Combinator.
+- [[sources/PBmT30aUd2s-delivering-founder-happiness|Delivering Founder Happiness]]: Co-founder of Y Combinator.
+- [[sources/7Hdu4DlnLIk-stop-chasing-money-chase-wealth-how-to-get-rich-garry-tan-s-office-hours-ep-4|STOP Chasing Money -- Chase WEALTH. | How To get RICH | Garry Tan's Office Hours Ep. 4]]: Co-founder of Y Combinator.
+- [[sources/ToAdkIZgcDQ-you-should-create-things-for-a-billion-people-not-just-tech-giant-monopolies|You should create things for a billion people, not just tech giant monopolies]]: Co-founder of Y Combinator.

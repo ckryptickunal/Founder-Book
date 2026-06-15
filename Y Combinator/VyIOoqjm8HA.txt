@@ -1,0 +1,1556 @@
+Title: Building The World's Best Image Diffusion Model
+Video ID: VyIOoqjm8HA
+URL: https://www.youtube.com/watch?v=VyIOoqjm8HA
+Channel: Y Combinator
+Published: 2024-09-19T17:00:22Z
+Duration: PT55M52S
+Views: 18867
+Likes: 387
+Tags: YC, Y Combinator, Suhail Doshi, Playground, Garry Tan, Diana Hu, Jared Friedman, Harj Taggar, SOTA, LLM's, Image Diffusion, Midjourney, AI Art, Graphic Design
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 1533
+
+Description:
+Suhail Doshi, a YC alumni who previously founded Mixpanel and Mighty, has created a state-of-the-art (SOTA) AI image diffusion model with Playground. The app allows you to talk to it like a graphic designer and helps you create imagery and text for a wide variety of use cases. In this episode of Lightcone, Suhail sits down with the hosts to talk about his experience building Playground with his team, and what it takes to make a SOTA model.   
+
+Try Playground: https://playground.com/design
+Read P
+
+============================================================
+TRANSCRIPT
+============================================================
+
+I think we thought the product was going
+to be one way and then we literally
+ripped it all up in a month and a half
+or so before release we were sort of
+like lost in the jungle for a moment
+like a bit of a panic there's a lot of
+unsolved problems basically I mean you
+even this version of it you know people
+are going to try it and then they might
+be blown away by it but like the next
+one's going to be even crazier to get to
+soda you basically have to be maniacal
+about like every detail there going to
+be some people that train their models
+and they get cool text generation but
+the kerning is off are you the kind of
+person that will care about the kerning
+being off or are you the kind of person
+that is okay with it like or you don't
+even notice
+[Music]
+it welcome back to another episode of
+the light cone I'm Gary this is Jared
+hardge and Diana and collectively we
+have funded companies worth hundreds of
+billions of dollars usually
+just with one or two people just
+starting out and we're in the middle of
+this crazy AI Revolution and so we
+thought we would invite our friend suel
+Doshi founder and CEO of playground
+which is the state-of-the-art image
+generation model with also a
+state-ofthe-art user experience and it
+just launched so how you feeling suil
+very Under Pressure right now
+that's good you start like a startup
+founder so which is normal maybe the
+best way to start off is to uh look at
+some examples of the images that you
+were able to generate um and this is
+stuff sort of right off the presses so
+uh at y combinator i uh also am one of
+the group Partners so I fund a number of
+companies uh every batch I funded about
+15 for the summer batch and so what
+we're looking at here is one of the
+t-shirt designs I made as you can see
+there's a GPU and it was based on one of
+the core templates in your library I
+like metal so this uh very much spoke to
+me this one was off of a sticker design
+and I guess I just really lik that sword
+and what I was able to do is uh add GPU
+fans love it I love it and so that's one
+of the noteworthy things about
+playground you can upload an image it'll
+sort of extract um the essence of like
+sort of the aesthetic and some of the
+features of it this feels like feels
+like a tattoo yeah exactly do you
+remember what you prompted it with to
+get those oh yeah I I basically so the
+cool thing about playground to create
+this was I I picked uh a default
+template that I liked um and I think it
+only had the sword and sort of this
+ribbon and I said make it say house tan
+on the ribbon and um add a
+GPU with two fans I was very specific I
+wanted a two fan GPU and that's one of
+the things you'll see in all these
+designs this is actually the t-shirt
+that house tan itself actually chose so
+um you know it's a very summery Vibe I
+think this was based on something around
+summer in surfing and we replaced the
+surfboard with a GPU I feel like you
+used a preset that we had I did all
+these from presets they're pretty good I
+think the noteworthy thing that I was
+able to do is um I didn't have to like
+prompt and reprompt and reprompt and
+sort of keep trying to refine the same
+text prompt like I actually could just
+talk to a designer and it would just
+give me what I wanted going from left to
+right for instance by default I think
+the template had this yellowish
+background and I said make it on white
+and so that that was like a very unusual
+interaction that I you know I'm not used
+to like usually you're used to uh either
+Discord with midj or you're sort of used
+to a chat interface or like prompt and
+then twiddle things and reprompt and
+reprompt and reprompt whereas this felt
+much more natural language I could just
+talk to uh you know a machine designer
+that would uh take my uh feedback into
+account yeah normally when you make
+these kinds of images you have to like
+describe all of it right you'd have to
+say like I want it on this you know
+beige background and I want this orange
+Sunset and then you'd have to even just
+describe like the lines of the Sun and
+you know or or you don't describe very
+much and then every time you try it's
+like totally different from the other
+thing so usually you know you either
+have to learn like a magical incantation
+of words uh or uh versus being able to
+like pick something that you start from
+and then also with these images Gary did
+you add this text in post-processing or
+is the model actually like incorporating
+the text organically oh the the model
+will both your direction on what should
+be there what its size is it can you can
+actually specify where in the design you
+could say I want it in the middle I want
+it at the top could we use a font that's
+bigger smaller you know uh better
+letting could you C it a little bit like
+you could just speak to it in plain
+English and i' never seen that in any
+image modle today that's crazy cuz the
+text is Flawless and anyone who's used
+Dolly knows that if you try to get it to
+write text the text comes out like
+garbled and like yeah it's pretty
+incredible having just accurate text and
+then being able to position the text
+exactly where you want that is very cool
+it is really soda in terms of text
+adherence and coherence in terms of
+following prompts which is really cool
+one thing that we think is really cool
+is it's inventing
+fonts like I don't know what font that
+is yeah it might be a real font but I
+think that um but there all these
+circumstances where it's actually just
+it's like extrapolating from many
+different kinds of fonts and like
+actually inventing new things um which
+is really really cool okay and these are
+just a couple other versions you know I
+saw some old timey thing and I was like
+okay could you do a vectory version of a
+GPU on the left and then on the right
+you know there was a very sort of
+Japanese art housee aesthetic these are
+great and this one I if left to my own
+devices I was going to print this one
+cuz I I really like yeah and and what I
+could do is actually tell it like make
+it even even more uh sort of
+prototypically like Japanese art you
+know like I want more waves and like
+more sun and you know it basically kept
+doing it I think I know this preset I
+remember making this preset like like a
+month and a half ago I think it's called
+like Mythic Inc or something like that's
+how the app works you know you open the
+app you select a preset or you can
+upload your own design that you're like
+really into and then it will seemingly
+extract the vibe of that particular
+thing like you know it won't it's not
+going to be a copy it will be a remix
+did you purposefully design it to be so
+good with text or is that like an
+emergent property of just how you
+architected everything we definitely
+focused on making text accuracy really
+good I think it's been kind of our
+number one focus and part part of it is
+is te text to us is so interrelated with
+actually the utility of Graphics and
+Design um because a lot of things
+without text just mostly feel like art
+but yeah text was an an extraordinary
+high priority and it was was really hard
+actually there there's like a maybe a
+point there where like our text accuracy
+was 45% we were sort of like lost in the
+jungle for a moment like a bit of a
+panic but we figured it out I think one
+of the remarkable things on all these
+designs is that a lot of uh I was
+playing a lot with it as well a lot of
+the outputs are very utilitarian and
+useful because they play with mid
+journey and all of those and I think
+they're fun but they're more like toys
+more like art but it's really hard to
+work with it if you actually wanted to
+design logos t-shirts font sizes I could
+totally see this replacing Adobe
+Illustrator right right yeah yeah I
+think that you know part of it's kind of
+funny it's like the reason why we're I'm
+partly so excited about graphic design
+is because actually when I was younger
+when I was in high school I used to do
+logo contests and I would try to win
+them I think there's a site called like
+site point.net or something and um and I
+was just trying to make like a little
+bit of money before College before going
+to college and uh and so I did all these
+like logo designs and did all these
+tutorials um trying to win them and and
+so during the training of this model I
+tested it for Logos and I started to be
+like wow it's actually way better than
+anything I could have made and then I've
+also made like my own company logos
+typically which are also very bad and so
+it just feels to me like if you can get
+text and you can get these other kinds
+of use cases um you're probably going to
+be able to beat the like mid at least
+the midpoint designer um graphic
+designer that's an illustrator and then
+I think over time we should be able to
+get to like the 90th percentile designer
+graphic designer so this is actually a
+really different use case that really
+hasn't been addressed you know I haven't
+seen image models try to design Graphics
+or illustrations it's less uh you know
+generating really cool images that would
+replace stock art or something like that
+uh it's more literally allowing you to
+create canva type things right you know
+whenever you want and you don't have to
+mess around with it it's you know plain
+English just talk to the model the model
+is going to create what you want I've
+never seen anything like that yeah I
+think we we're just sort of like looking
+at what are the use cases for graphic
+design and it's you know when it
+actually interestingly it has a lot of
+real world like physical Impact Physical
+World impact because there are like
+bumper stickers and then t-shirt I think
+it was at Outside Lands the other
+weekend and I was just looking at
+everyone's t-shirts looking at what they
+what they have on them and I I saw a
+bunch of women at outsid lands had this
+thing this t-shirt that said uh I feel
+like 2007
+Britney I just thought that was such a
+cool shirt and so we made the template
+for it and put it in the product and but
+there's just like so much cool real
+world impact and there's and I think
+that the world often sometimes think
+that um I'm almost I'm almost a little
+disappointed that Myspace doesn't exist
+for those that were on MySpace cuz it
+was such an expressive social network
+and I feel like humans really deeply
+care about that form of expression and
+um and so it's really cool to be able to
+make a model that's like really focused
+on all those kinds of things but you're
+actually building a product it's not
+just research because when yeah with all
+these designs in in playground you can
+actually go and purchase them like the
+yeah stickers the t-shir right right can
+you tell us about kind of this
+Marketplace that you're building yeah so
+I think that you know one thing we we
+learned was that it's kind of hard for
+people to prompt and because it's hard
+to prompt it's hard it's we found also
+it's hard to teach people how to prompt
+like and the truth is is that when you
+make these models it's not like we even
+know how it works we are also
+discovering with the community how the
+model kind of works and so one of the
+things that we decided to do uh was uh
+you know me and and and our designer we
+decided that one core belief was that
+the product should be visual first not
+text first which is a huge perer from
+like language models and chat GPT
+because uh because our product is so
+visual why should it not be and so in
+order to make it visual first and to
+make it so that you don't have to learn
+how to prompt uh we decided that we
+would start from something like a
+template which is something people
+already understand in a tool like canva
+right it's not something that we
+necessarily invented like there's
+templates everywhere but I think that if
+you could start from a template and then
+we could make it really easy to modify
+that template then it feels like we've
+already taken you like 80% of the
+Journey if it was like I feel like 2007
+Britney but then you wanted to change
+the celebrity in the year to a different
+person then you totally could wanted to
+make that very easy um but it also
+required a lot of integration with
+research because how do you make these
+changes how do you make them coherent
+how do you keep things like similar it's
+not as simple as you know just 7577
+tokens that you put into stable
+diffusion the existing open- Source
+models aren't really capable of that so
+it required kind of yeah like the
+marrying of like what a good product
+should feel like and what and and then
+you know enabling that with research
+which is not always possible I think
+that's what Gary was getting at with you
+building the state-of-the-art ux the UI
+for all these models because up to this
+point people just get raw access it
+feels like kind of back in the days you
+would just SSH to a computer and kind of
+work with it that's how people interact
+with these models but you kind of
+basically built a whole new Bowser into
+it nobody has done it and you've done it
+really well can you talk about this idea
+of uh departing from raw model access
+yeah I think I think just we observed
+the users over 18 months like failing
+you know and and so it's it's AI is a
+little bit weird right now because
+there's so much there's such a big
+novelty factor I would say and it's
+exciting because we're able to do things
+we've never been able to do before and
+so as a result you get you can easily
+get millions of users using your product
+and that's totally what happened to us
+and so it feels almost like oh maybe
+I've got the product but then when you
+actually go look at the data and how
+people are using it there's just this
+there's this constant failure people
+using the product and so yeah you're
+talking about sort of uh the prior
+version of playground the prior version
+of playground yeah so it didn't have
+this type of model it didn't um it was
+we most yeah we used like open source
+models and then we started training some
+of our own that are very similar to
+stable diffusion as like a way to ramp
+up to where we are now when we watched
+users prompt this model that you know
+obviously the two pieces of feedback
+were um you know this is fun it's cool
+uh I can get like a cat drinking
+beer and then you post it to Twitter and
+it's exciting yeah but then but why
+would people come back you know is one
+big question and then the second part is
+that people are using our service a lot
+but they're not always using our service
+a lot because it's like a useful thing
+it's because they're they're getting
+they're not getting what they want so
+they have to keep retrying yeah yeah you
+know where like Google's trying to get
+you off the website you know that sort
+of feeling like it's almost bad that
+people are using it too much in some in
+some sense and um you know they just
+keep re we call it rrolling right it
+just keep rrolling to get a different
+image or slightly better image to fix
+like a paw or tail that's off you know
+and the other thing that happened was
+that our model can take an extremely
+long
+prompt like most of these models you can
+only write 75 tokens but with our model
+it's like 8,000 and most people you're
+never really going to go over a thousand
+right now I say that now but we'll see
+thousand tokens is a lot um and and our
+model lets you be extremely
+descriptive and so you can you can
+really describe the texture of the table
+skin texture we have all those like
+puzzle prompts where it's like green
+triangle next to an orange Cube you know
+and it works like spatial reasoning is
+all there actually um including text
+that's totally novel and really I'd
+never seen that before
+um you know the first generation of
+these models almost immediately what you
+do is say like generate me a green you
+know Green sphere on top of a blue uh
+you know triangle right and just
+wouldn't do it it's like you know there
+would be those elements but it would
+just be all jumbled up because it was
+using clip it did not have contextual
+reasoning or understanding yeah and clip
+clip was trained with a lot of error
+actually because it's just using kind of
+the alt tags of the images that are
+scraped on the internet which could be
+like anything we sort of decided that
+what we were going to spend our time on
+was prompt understanding and text
+generation accuracy because we also felt
+like Aesthetics were kind of saturating
+like they're getting better but they're
+also just kind of like not getting
+better at a fast enough rate and users
+even vote and say even in the mid
+Journey Discord you know they'll pull
+their users and they'll say what do you
+want to be better and like Aesthetics is
+like going like lower and lower on the
+rank of things that people care about so
+we wanted to like try to LEAP on
+something that really mattered to users
+which was prompt understanding and text
+generation accuracy for those kinds of
+use cases and uh but when you have a
+very long prompt it's not really
+feasible to ask anybody like are you
+going to write like an essay and so we
+started to realize that actually The
+Prompt is it's almost like a it's kind
+of like HTML for graphics which I think
+is so cool I think you've done a lot
+here because you completely have a novel
+architecture that really gets to magical
+prompting because the experience of
+using playground is feel as if you're
+talking to a designer it it it has a
+coherence it listens to you because with
+with other I know with M Jour if you
+want to move the text or that it doesn't
+and the positional awareness is not
+there I guess one of the insights you
+had when we chatted a bit earlier one of
+the problems you learned to create good
+designs you have to have um a lot of
+description for the images yeah and
+users are basically lazy right right
+they might just tell you I want a nature
+is seen and if you input this into mid
+Journey what would it give you like yeah
+it'll give you like this very beautiful
+very rich high contrast in nature scene
+but you've done something very
+interesting we want to talk a bit about
+how you've done um kind of aiding users
+and expanding upon the prompt to
+actually build something much better the
+first thing to kind of like improve our
+prompt understanding was just like
+making your data better pretty much it's
+it's actually just that simple and so
+one of the first things we wanted to do
+was uh we wanted to like have extremely
+detailed prompts so when we train the
+model we we train on very very detailed
+prompts but we also want users to feel
+like they could just say nature scene
+and so sort of what you see here is just
+how detailed we can get and actually um
+we're actually even more detailed than
+this uh these days when we train the
+next model it'll be even more than this
+but once you get to like this level of
+detail I mean we're just teaching the
+model to like represent all of these
+Concepts correctly you know whether
+something is in the center or whether
+there's like a background blur one thing
+that we want to get better at and I
+think we're actually already pretty good
+at this but it's emotional expression is
+he like another thing like we have this
+like image of Elon Musk and he's like
+disgusted he's anxious he's happy he's
+sad he's confident and like trying to
+see his expression in all these
+different ways and um and so that's just
+like one thing that we want to make sure
+is represented in these prompts there's
+obviously a lot more like you know
+spatial location and so by doing this uh
+we can ensure that the model can be
+could be a good experience if you raw
+prompted it as a user if you just said
+nothing and the most of the time users
+are not really writing more than like
+maybe like caption three here or
+something like that I mean even that's
+kind of a lot that's a lot I think when
+I was playing I was mostly like on five
+and six yeah yeah exactly when you're
+playing around like the nor nor the
+normies are kind of doing five and six
+and then the like hardcore prompters are
+like copying each other's prompts and
+then they end up more like one but they
+don't even look like one and one is a
+very natural way of typing you know like
+nobody's writing these like essays and
+paragraphs of text is too much work and
+that was one thing that we didn't we
+knew we were going to probably fail if
+we expected users to do this so this
+kind of led us to uh like a more visual
+approach where you're like picking
+something you already like in the world
+that we understand how that's
+represented in our model and then we can
+like make those changes and edits and
+stuff like that is the benefit of like
+expanding the prompts this way that
+you're more likely to get what the user
+wants at the first go or is it that it
+just makes it easier for them to itate
+on it to get to what they want you know
+I don't even know that we necessarily
+needed to do this but I think the reason
+why we did it was because initially we
+didn't know how good the model would be
+and so we needed to serve users in the
+way that they already use the existing
+models and so we didn't exactly know the
+Breakthrough like interface we hadn't
+gotten there yet and so in order to make
+sure that we would work the way everyone
+is happy with we wanted to do this kind
+of like segmented out it's almost like
+lossy prompt
+and uh so that's why we do it but I
+think you know it's not even that it's
+not as necessary but I think the and
+then the other reason to do that do it
+this way is once the prompts get
+extremely detailed it's hard to have too
+much like variation between the images
+because you're kind of locking in on
+your image yep and so by having kind of
+ambiguity in the prompt you can get like
+more variational ability so there's like
+we call it like image diversity so that
+way you you say squash dish but it's
+like really different each time yeah I
+guess the cool thing about your product
+you basically remove all of the prompt
+engineering with zero guess because you
+do it behind the scenes with expanding
+and exploding into this multic caption
+level system right I guess the what
+comes to mind is sort of back in the day
+if you needed to navigate a website
+through the command terminal maybe you
+curl and do get some post literally like
+typing the commands until you had like a
+browser to actually have the right UI
+right what I told my team was I said
+yeah we should be doing the prompt
+engineering for users it should not be
+like the users are the prompt engineers
+and then they like or the prompt graphic
+designers if you will here but like it
+shouldn't be like the users have to go
+like we can't write a what are we going
+to do write a manual on how to do this
+you know it's it's just too tricky like
+1% of humanity will understand that
+manual and uh and the rest will be like
+I don't know how to use this too
+difficult so I think it's really
+valuable that you know I told my team I
+think it's very important we do all of
+that work like we should have an
+extremely strong sense of how the model
+Works rather than putting that on the
+users where um I think it's like in
+and then the other thing that we do is
+we now work with creators to help us
+like kind of construct these like
+different templates and different
+prompts around these templates and stuff
+like that and they might be like the 1%
+of humanity that's willing to learn this
+on behalf of users and this is totally
+normal like that's what why that's what
+YC does we know we like build these
+great companies that uh you know every
+like billions of people in humanity use
+as a result of that yeah I guess there's
+two things out of this that come out one
+is you might be creating this whole new
+set of a profession M sort of uh back in
+the day with design you have beans where
+people hire designers right now people
+will through playground hire like AI
+designers that are this right top person
+well we're doing it actually so we are
+hiring them oh you're hiring them yes
+we're hiring them we're going to launch
+a Creator program soon actually and the
+goal is to bring on creators that have
+good tastes that that still matters
+right like you know there's this image
+of a you know stuff a squash dish but
+it's not like not a very beautiful
+image and there is I think taste is
+still real in the world and it's also in
+in design you know in llms you get to
+like measure how well you did on a
+biology test and that's like a pretty
+objective thing but for design it's
+constantly evolving like design from 10
+years ago can look dated unless you're
+like deer ROMs but uh but I think you
+know more fundamentally we want to bring
+on creators that um are going to help
+create Graphics that other people can
+then use and we're actually paying them
+I guess one think that's cool the second
+thing because of this you actually are
+state-of-the-art on many aspects for
+this model so much of it was driven by a
+product because now in order to get the
+good captioning you probably are beating
+GPT 40 right in terms of image we are
+beating yeah we now have a new like soda
+uh captioner yeah to generate these and
+that was not just to be like a benchmark
+but actually a very practical purpose to
+build the model yeah can you maybe tell
+us a bit of what's underneath because PG
+V3 playground V3 right is all all inous
+and state-ofthe-art on many aspects yeah
+so the whole architecture of the model
+we we had to like rip everything out um
+so like the normal stable diffusion
+architecture that people know about is
+like there's a variation Auto coder a
+vae and then there's clip and then
+there's like this unet architecture for
+people that are in the know and uh and
+then since then it's kind of evolved to
+using um you know more Transformers like
+there's this great paper by I think it
+was like William Peebles um that did dit
+which I think is like what people
+believe Sora is based on as well and
+then so there's some new models that are
+using that um we actually don't use any
+of those new architectures either we did
+something completely from scratch but
+one of the reasons why we had to kind of
+blow everything up was because you can't
+really get this kind of prompt
+understanding using clip because there's
+just so much air and clip and it's also
+like just bounded by just the
+architecture of that model and then the
+second thing is uh we also we also
+needed the text accuracy to be really
+high so you can't just like use the
+off-the-shelf vae from stable diffusion
+because it cannot reconstruct small
+details like I don't know if you guys
+ever noticed but the hands and the logos
+hands zoomed out faces yeah you you need
+something that you also need like a
+state-of-the-art vae or something like a
+vae um that's better than the existing
+one like the existing one's like four
+Channel um and uh and so there's all
+these like pieces and they all they all
+interact um and they can all bound the
+overall performance of your model and so
+we basically looked at every single
+piece and then I think like four months
+ago there was a I think with the team
+there was literally we were at the
+Whiteboard with the research team and
+there was like the non-risky
+architecture which was kind of more
+similar to some of the open the
+state-of-the-art open source models that
+are out these days like flocks and stuff
+and then there was like this other
+architecture that shall not be named and
+um and we were like well that's that
+that's like the risky one where we don't
+even know if it'll work and if we try it
+for two or 3 months we'll like waste
+compute and if it didn't it might just
+like blow up and then we'll be behind
+and we just like put everything in that
+basket nice uh we decided that um we had
+no choice you know it was like we were
+just going to fail if we didn't do it
+anyway I think what's remarkable you are
+order magnitude on text and in a lot of
+all these aspects you're basically soda
+I think that's really impressive can we
+maybe talk a bit about as much as you
+can how you be the text and code I mean
+you tease that out a bit you basically
+don't use clip because the traditional
+stable diffusion just uh uses the last
+layer right but you guys have done
+something completely new where you
+allowed a basically almost infinite
+context window because mid journey is
+only
+256 The Prompt had adherance like you
+can actually talk to it like a designer
+so tell us a what you can talk about
+that yeah um that's much as you can tell
+us about I think it's fair fair to ask
+the
+question share as much as you want I
+think that to to kind of get here you
+know there's some obvious things that
+you would do the most obvious thing that
+you would do you know is not use clip
+but the second most obvious thing is um
+kind of like using the Tailwinds of
+what's already happening in language you
+know like the language models already so
+deeply understand uh everything about
+text and so there's some models that use
+this you know they use like T 5 XXL
+which has this it's like another
+embedding but it's like a much more Rich
+embedding of language understanding kind
+of feel like language is just the first
+it's just the it's like the first thing
+that happened and um there's a whole
+bunch of AI companies that are going to
+come about whether they train their
+models or not that are just going to
+benefit from everything that's going on
+in language and in open source language
+and so you know I think our model is
+able to have such great prompt
+understanding in part because of the big
+boom in language and all of the stuff
+that whether it's Google or meta or what
+have you is doing and so we're just we
+can be slightly behind in terms of
+language for our prompt understanding
+because the language stuff is already
+just so good and it will just continue
+to get better and our models will also
+continue to get better so that might be
+my like one small hint maybe the analogy
+playing with a lot of this and from
+chatting with you the current
+state-ofthe-art stable defusion models
+their language understanding feels like
+in the NLP landan like wve right wve was
+this uh paper that came out from Google
+in
+2013 and it didn't really understand
+text per se it was more at the latent
+space the famous example was that it
+could take the uh Vector of King and
+then you would substract the vector of
+man and then add the vector of wom and
+the output would be the vector of Queen
+right which is like but very basic and
+still very cool which I think is what
+kind of stable diffusion current current
+models before you
+are but playing with your model you
+basically the leap to for the audience
+the leap is that you basically got GPT
+level of understanding is like sort of
+the word v to GPT was I don't know like
+six 10 years yeah i' say it's like gpt3
+level image model like sort of prompt
+understanding now yeah and I think
+there's there's much more leap there's
+another leap to go many more actually I
+would say and that's impressive it's
+safe to say that this is the worst the
+model has will ever
+for sure yeah for sure I mean there's
+there's you know small things that we
+already want to fix like you know we
+wish that the model understood Concepts
+like film grain I mean it could still go
+still be better at spatial positioning
+um even the like the model has issues
+with like the idea of like left and
+right like put the bear to the left what
+is left is it to you know is it your
+left is it the Bear's left so there's
+still like lots of interesting problems
+that I think are really fun uh to
+probably we're going to have to figure
+out but what we hear from users is that
+they feel a strong sense of control now
+like it has really good prompt adherence
+and actually there was this really funny
+thing when you uh you know I think like
+a week or two ago that we realized about
+the model which is when we started to do
+eval for Aesthetics you know and the way
+we do this is we just show like two it's
+an AB test we show users two images one
+from maybe a rival of ours and then
+another image from our model and we're
+constantly doing evals and constantly
+asking our users what they think so that
+we can get better and anyway one of the
+things that we realized was that there's
+this new thing that I don't think has
+been talked about but you apologize to
+the audience if if there if this has
+been talked about but there's a problem
+with uh we have entanglement issues
+which is that if the um if the model
+adheres too well to The Prompt it can
+adjust it can like it can have an effect
+on Aesthetics so when we compare
+ourselves to say something like mid
+Journey which you we've actually eval it
+has great Aesthetics best in the world
+at that one of the problems is is that
+we will get dinged because the our model
+is adhering more so I'll give you an
+example we have an image and it's like a
+image of a woman and it's like kind of
+like a split plane like she's on this
+side and on this side so it's like a two
+it's like a composite and mid Journey
+doesn't respect that it just shows the
+woman one frame the users will always
+pick that because it's more
+aesthetically pleasing compositionally
+versus this like split pain thing but
+our model is adhering to that uh prompt
+right right and so the users ding us and
+then we get a lower aesthetic score to
+me because it's not listening and so
+there's this entanglement problem like
+what do you do we had another image that
+was uh like hand painted palm trees or
+something and the users chose the other
+model because they were less hand
+painted looking and the hand painted
+ones do look less aesthetic but our
+model is adhering so we have this
+entanglement problem and we don't know
+how to measure ourselves for Aesthetics
+now and there's no I don't not aware of
+any if anyone has any literature please
+send it to me but I'm not aware of any
+literature on this and so we don't know
+what to do I think what it sounds to me
+is basically your model is too soda that
+the current evals don't work because
+they is actually following the rules
+yeah we're trying to figure out what we
+have we have to make a new uh a new eval
+basically you're too ADV like you broke
+the test yeah you kind of broke the test
+and um yeah so now now it's it's it's a
+little weird externally we don't you
+know it's like obviously we want to
+portray to the world hey you know we
+have this great thing and okay we lose
+here but like but not really and so I
+think we're going it does what you want
+yeah but it does what you want and so I
+think we're going to try to you know
+we're going to talk about this in more
+detail this kind of entanglement problem
+because it's actually like a very
+interesting more fundamental Insight
+yeah it sounds like you're just building
+a completely different kind of company
+like the thread that comes up hearing
+everyone here is it using playground
+feels like you're talking to a graphic
+designer which then in my head actually
+buckets you into just the companies in
+YC that are really taking off are the
+ones that are replacing some form of
+label
+um which is just different to how people
+talk about mid Journey right it's not
+just like a tool to play around with
+this is actually just going to be like
+the replacement for hiring a graphic
+design team potentially which is like
+way more commercial right yeah yeah I
+mean we've been we've been searching for
+like where is the utility where where
+how are people using you know things
+like mid Journey um and uh and and I
+think that for me it's actually it's
+even simpler it's just that I think
+we're just enabling the person to have
+more control over the whole thing like I
+always feel bothered you know when
+you're like I produce music and so if I
+make a song like I have to go to a
+designer and say can you make me album
+art and then I only get like four
+variations of it and then I feel badly
+asking for a fifth if I don't like any
+of the four but the more you just like
+put in control the person that's
+actually making the thing they'll always
+they'll be able to connect exactly the
+thing that they're looking for with you
+know the core product or song or
+whatever they're making so y see we're
+always uh telling Founders hey you
+should talk to your users more or you
+know and what you did was you had so
+many users you couldn't just talk to
+them you needed to look at how were they
+actually using it and at some point you
+realized you know somewhat uncomfortably
+that they were generating near porn near
+porn yeah we get a lot of near porn uh
+and in porn um and then you know I think
+people sort of when they're exploring a
+space often run into that situation like
+what happens when you know the users
+that you're getting aren't the users you
+actually want yeah we me and my coo
+talked about this like if we listened to
+what the users wanted we would have to
+build a porn company
+potentially which is not something that
+I think my wife would be happy with or
+my mother um it was kind of this tricky
+thing where you're like listen to your
+users talk to your users uh and and look
+I'm not saying everybody does that with
+image models for sure they don't but but
+a lot of them do and so we had to kind
+of go ask ourselves well then what can
+you do with these things and the answer
+was like not much else nothing big and
+Commercial enough we could make a cool
+website that people use um and the
+problem is all the all the all the image
+generator sites are played with this
+problem and we all know it we all we all
+know and there are huge safety problems
+and you know it turned out to be just
+like a business we didn't
+like that's a hard like that's like a
+hard thing after you know 12 18 months
+of working on something and you're just
+like well I don't really like this that
+much and now what and when we looked
+around for use cases we were like oh all
+the use cases have
+all the big ones practically all of them
+logos posters t-shirts bumper stickers
+everything everything has text because
+text is also a way to communicate with
+humans that's why I became number one
+like the number one priority I mean this
+isn't the first time that you've sort of
+confronted this issue before you know in
+your prior startup mix panel which you
+built into a company that you know makes
+hundreds of millions of dollars a year
+one of the leaders in analytics from a
+really young age you know I think you
+started it when you were 19 and I
+remember because I met you when you
+first started it that was another moment
+where here's this brand new
+technology and there are sort of very
+commercial use cases that you could
+build a real business on and then there
+were other use cases in that case I
+think it was um sort of Fly by Night
+gaming operations that would come and
+sort of pop up on Facebook steal a bunch
+of users and then disappear and you had
+to make some choices about who you
+wanted your users to be like do you want
+it to be people who can actually pay you
+money for a real product over the long
+hul or sort of oh yeah they're here and
+they're gone and we can make our graph
+go up like it's sort of a quandry that a
+lot of Founders are facing how did you
+approach that yeah I mean I that one's
+like burnt into my memory actually um so
+we you know the the simple story was
+just that like we got all these gaming
+companies back in the gaming Heyday you
+know Zinga and rocku and slide and all
+this stuff and
+um and they would we we were making so
+much money off of them but then they
+would die because they had bad retention
+or games just have like a Decay
+factor and uh you could tell that they
+were going to die because thetion was
+that we saw it happening you know it's
+like all real time uh data on it and and
+so you know one day I go to I go to you
+one of my mentors is Max lechin and I
+interned for him at his other company
+and and I was like hey you know this
+thing is happening and we have all these
+competitors that are building gaming
+analytics tools or products and I don't
+really know how to compete feels a
+little weird to just go after gaming
+when it's like this weird thing that's
+churny and he just looked at me and he
+was just kind of like he's like what do
+you think is the biggest market and I
+was like probably not gaming probably
+like the rest of the internet you know
+and uh and mobile was like just
+starting and we didn't really know like
+the top free app in the app store was
+like a mirror on mobile so it was kind
+of like uh is Mobile going to maybe
+it'll be there next year I hope and but
+anyway and he and I you know so the rest
+the internet and he said well if you're
+you know there's the name of our
+competitor and he was just like if your
+competitor gets bought for $100 million
+tomorrow uh you know that's focused on
+gaming don't cry about it then just go
+after the biggest market and um and
+that's what when we did that and then
+mobile went huge it went so big and it
+completely TR we got rid of all the
+gaming all the gaming stuff and that was
+like a 100% the right decision
+so I think it's just like being kind of
+like ruthless almost about where the
+value is with your own users with what
+you're doing like all those things I
+think are like is very very
+important I mean it sounds like you had
+to close a door and then God came and
+opened a window for
+you yeah yeah I mean I think yeah we
+kind of have a similar problem where
+it's you know our the current us our
+current user base that we have is is not
+exactly you know know an exciting thing
+we want to do as a team and so then
+we're like hunting for where the rest of
+the value is yeah that's a really
+important lesson you I mean I guess
+that's like the super big lesson here is
+you can choose your users or your
+customers you know often your customers
+or users choose you and if you don't
+want them it is uh a choice that you can
+make and sometimes it actually allows
+you to find the uh you know Global
+maximum instead of just the local
+maximum
+yeah it's you know we're kind of faced
+the same decision it's like a real-time
+decision almost um it's fun to talk
+about things when they work when your
+decisions are right so we'll see you
+know years later if this is right but
+you know I think it's tough because you
+know mid journe is doing two $300
+million but the biggest Market is in
+graphic design is probably canva doing
+$2.3 billion do and so we're just kind
+of like well forget it uh let's go after
+the biggest most valuable thing in the
+world and you know not a lot of people
+know a lot about canva I find in silic
+Valley most people know about figma but
+C makes vastly much more money than
+figma so by enabling everyone so if you
+have this amazing you know AI Graphics
+designer of sorts enabling like so much
+more of humanity I find I mean I think a
+lot of people believe this but I I do I
+also believe this which I think a AI
+will certainly it feels like it's
+expanding the pie of all these markets
+not like they're not the same size I
+think most of the time right like you're
+enabling more people to write code that
+otherwise couldn't you know that kind of
+thing I guess the interesting thing
+about playground it was also a previous
+more radical pivot you had because you
+had gone through IC twice yeah so you
+went through with mix panel which became
+this successful company making hundreds
+of millions of dollars then you went
+through it with mighty mighty M can you
+tell us about that second time going
+through YC and then what was it and then
+you pivoted into yeah so we I did this
+com browser um company called Mighty
+where our goal was to try to like stream
+a browser and the real goal was to try
+to make a new kind of computer and um we
+basically did it but the problem was is
+that you know we hit this wall where it
+was like we didn't I didn't believe that
+it was going to be a new kind of
+computer anymore I just couldn't make it
+more than two times faster and I just
+didn't feel like if I couldn't get like
+a 10x or 5x on this thing like and or at
+least see that it could get a 10x um
+that it just it wasn't a company that I
+wanted to work on anymore I remember I
+had invested before I came back of
+course y see and one of the big uh ideas
+that really got me was that uh actually
+our MacBook Pros were really sucking at
+the time yeah they were yeah there was
+no M1 at the time yeah and we actually I
+don't think we even knew that Apple was
+going toee silicon yet I mean it's
+interesting I think that in Silicon
+Valley would maybe um underestimate how
+valuable strategy actually is mainly
+because strategy is so fun and so
+interesting and the mbas who come into
+our sector like immediately seize on
+that and just want you know I like you
+need a strategy person as like the you
+know as a co-founder and it's like no no
+no we don't actually need that but
+that's not to say that strategy is not
+necessary in this particular case like I
+think that we were trying to solve a
+real problem which was our our browsers
+really sucked and the cloud was getting
+very very good and then suddenly you
+know the maze changed when uh when Apple
+relas silicon well they clearly thought
+so too so you
+know strategy was right in some sense
+like the overarching problem of trying
+to make our computers faster they were
+able to make a chip yeah but but still
+you know even you know even in the even
+the face of the M1 we had kind of
+convinced ourselves like well it doesn't
+really matter like the Mac only has like
+8.3% market share desktop market share
+the rest is Windows and um you know I
+even met you know the prior CEO of Intel
+Bob Swan and you know talk to him about
+like yeah why is Intel behind here and
+all that and I was trying to figure out
+like why is AMD and Intel behind where
+is where is it going is anyone even
+going to get close to the M1 or not and
+so I think one problem is that like
+wanting them to be behind is like non
+ideal for your company right like don't
+bet against macro is the problem yeah
+you definitely don't want to bet against
+that and then and then I think the
+second piece was I sat down with one of
+the engineers that works on V8 the
+browser engine uh behind Chrome and then
+I gave him like every imaginable idea me
+or the team had on figuring out how to
+speed up the browser and he had an
+answer to all of them once I realized
+that the team is basically focused on
+like 1%
+improvements and they had already tried
+everything I mean that was like a very
+depressing moment like I was like out of
+ideas you know the people say when is it
+the right time to Pivot or change or
+whatever um and I had just run out of
+ideas but I I you know really wanted to
+like stick with it uh but I just
+couldn't figure out another way to get
+it we we went as so far as we started
+building a computer in the data center
+and we had like figured out how to use
+like consumer CPUs in a data center
+legally with the right architecture and
+like I think PG came over once and it
+was just like the sprawl of all these
+components of maybe we're building
+physical we kind of building Hardware I
+learned major lessons at mixed panel but
+the one major lesson that I learned at
+Mighty was that it's so valuable to have
+a Tailwind for your company as opposed
+to a headwind there were just so many
+obstacles in our way you know whether it
+was the M1 or um you know there's no
+real way to like change the fundamental
+architecture of the browser you know
+like JavaScript is just innately run
+single threaded in a tab we can't change
+that with playground it feels like it's
+all Tailwinds all the time you know we
+just like wait and things get better
+things get faster cheaper better easier
+the thing that's remarkable is you had
+this really impressive career with
+building a standard SAS business with
+mix panel you give it a try with the
+browse your GPU and then you now kind of
+retool yourself and are built this soda
+stable diffusion model what was that
+Journey like how how did you retool
+yourself that was one of those things
+that is like so impressive I just
+started learning I don't know I took
+whatever AI courses were out there that
+I could take unfortunately the the
+Carpathia courses didn't exist um back
+then but I think you know at first I was
+trying to actually build like a better
+AI ad bar in the browser which now
+exists Google just released that I think
+um and uh and this was before gp4 like I
+think we were talking to open AI they
+were like very helpful because I think
+they didn't have you know chat PT didn't
+exist yet and we were trying to figure
+out how to get that integrated in the
+address bar at low latency and so I was
+like learning
+AI doing a like learning AI how to do AI
+research and train models before all of
+that happened but I think something
+weird happened which was in doing that
+in getting kind of connected with like
+the folks that open Ai and like learning
+these things I ended up just getting to
+see it happen like I knew it was about
+to happen like earlier than other people
+I got kind of lucky I guess a lot of
+people probably remember the dolly 2
+moment that was like a crazy moment
+where image generation you know really
+was exciting and then so I just tried to
+I just kept learning and then you know I
+think stable diffusion came out like
+maybe I don't know maybe I got like I
+got access like two weeks before before
+it came out and so it was just like by
+being in the mix of this thing you just
+you just I got to see everything about
+to start and so I think we were the
+first AI image generation like website
+that you could like go to and sign up
+and you didn't have to like run it
+manually on some GPU and so that I think
+that our website just took off because
+of that that was like the easiest thing
+I think mid Journey was still in Discord
+right so we're like What if you make a
+website I didn't actually know that
+story I mean that's a great lesson for
+any technical founder right like
+essentially you stumbled on the biggest
+Tailwind of Our Generation by just
+following technical things you found
+interesting it's great yeah it it's a
+little weird after mix panel I actually
+tried to intern only at I tried to do
+like an internship at companies and um
+because I don't know I was like wanting
+to do something but not ready to start a
+company and I only was trying to talk to
+AI companies and uh I like interviewed
+at open Ai and I like they wanted me to
+come work five days a week but I only
+want to do three and and then like
+somehow at the end of that I made this
+huge mistake in I guess 2018 where um I
+had decided that there was nothing
+interesting going on in
+AI because I was like training and even
+then I was like training my own models I
+was like trying to help a scooter
+company keep the scooters to detect if
+they were on the sidewalk or on the road
+um because the regulation in SF requires
+required them to do that and I like
+learned all this AI stuff went to all
+these AI events and and uh and then I
+just yeah I conclude there's nothing and
+I started might
+and I and I was like just off by like 3
+months and so I kind of felt like I
+almost feel
+redeemed in some sense you know um I
+don't know it's it's so hard to like
+time these things how do you know
+whether you're early or late and then
+for a long time you were behind on the
+model right uh for for playground and
+I've just felt continuously behind but
+I've now kind of come to realize after
+like learning the history of like
+Microsoft and micro processors like I
+don't know it might just be like year
+two this all still might be really
+really early we really don't know where
+it's going how does it feel to run
+playground which is sort of part startup
+part research lab versus just pure
+startup well one thing we try to do is
+uh we try to differentiate on not trying
+to go after
+AGI that's one thing we try to uh say
+we're not doing um because there's lots
+of people doing that it feels really
+tractable I guess the research does you
+know where it's not always clear whether
+research will be like that you know I
+I've kind of learned that you can't you
+can't do research in a rush so one big
+problem is that when you're building a
+startup like you want to ship everything
+like you wanted to ship you want to ship
+it today you want to fix the bug you
+want to ship the feature like you're
+just trying to move on such a fast pace
+but that's not tenable with research in
+the same way research is moving fast but
+it's not like you ship you can't ship
+your new model you can't build and ship
+your model in a week and so I think
+that's been like really challenging and
+I've had to kind of adjust my brain for
+one team versus the other yeah one thing
+I think is interesting about successful
+research labs in the past if you look at
+Bell labs for example it's almost like
+the the CEO of the lab's main
+responsibility shielding the lab from
+like the commercial interest that are
+pushing for like things now but as CEO
+of playground you're kind of both like
+protector of the researchers but you're
+also the commercial interests like how
+do you juggle those competing forces
+yeah I don't know that I've probably
+mastered yet by any means but um I think
+I asked Sam Alman once like you know to
+what degree he allowed the researchers
+at open AI to like wander I guess so I
+just wasn't really sure you know usually
+it's like there like a task and you do
+it but what about
+wandering how does wandering make sense
+in a in a research or an engineer
+engineering team and um he said there's
+like a he's like there's quite a bit of
+wandering so I took that to heart and um
+and so I let the research team kind of
+wander and get to a point where they are
+able to show an impressive result and
+then we kind of like kind of start to
+like really accelerate
+that but until then there's not much to
+do well not all who wander are
+lost I love that that should be a
+t-shirt in right make a we will add that
+as a template y we can link it below in
+the video I'll be a Creator in the
+playground Marketplace love it you were
+asking like how do you like inter almost
+like how do these two teams integrate in
+a startup and I think that we just like
+have a channel now where we just see so
+much feedback that now the researchers
+can actually like look into the failure
+and they can decide from themsel while
+wandering do I want to fix that that's
+surprising why did that happen um and so
+I want to try to like integrate these
+two because I think that that's like a
+weird that's a more differentiating
+Factor these days I think that like the
+researcher research labs are very lab
+based and they don't NE necessarily
+they're not always deeply looking into
+real user Behavior what are they really
+trying to do but sometimes it's just
+like we need to get to this like we need
+to get a high score on this eval and we
+got to put it in the paper and then we
+got to like get really good score for
+llm
+arena and then there's like some kpi you
+know to do that but then you know does
+that thing matter does it correlate does
+the eval that we see out in the world
+does it strongly correlate to you
+usefulness to users like I still want
+the LMS to like help me make rap lyrics
+but there's no e for that so you know
+who will do that how will that happen
+it's certainly possible to do that but I
+if you Noti I I always pick on this rap
+lyrics thing because to me it like
+belies a fundamental problem with how
+people are evaluating the models because
+the model should be extremely good at it
+but they're not maybe the problem is
+some of these um there's a gap between
+commercialization of research because
+all these eval publicly are academic and
+very different use casee than if you
+wanted to go beat Campa let's say yeah I
+mean I might be talking out of turn here
+sorry to the llm folks but the if you go
+look at the evals for the language
+models they're all like you know math
+biology legal questions it's no wonder
+that the biggest use case of chat GPT is
+homework because they you know all the
+models are like basically hit these
+numbers right initially maybe they're
+different now they're probably more
+sophisticated now but it's no wonder
+that the model are good at homework and
+that's a huge category so you made it to
+soda people are watching right now and
+they're just asking like how do I do it
+what's your answer to that there's like
+this feeling that all you need is a lot
+of data and um a lot of compute and you
+just and then you just uh you run you
+train these models and you'll get there
+you know uh they'll just generalize and
+suddenly everything will be great I
+think there're a lot of smart software
+engineers and so they fundamentally
+understand that these are the core
+components ingredients to make like this
+great model but it's vastly more complex
+than this and what I've at least what
+I've experienced is that to get to soda
+you basically have to be maniacal about
+like every detail of um you know the
+models like capability for example like
+you can like look at text generation
+there going to be some people that train
+their models and they get cool text
+generation but the kerning is off are
+you the kind of person that will care
+about the kerning being off or are you
+the kind of person that is okay with it
+like or you don't even notice it like do
+you have this just maniacal sense like
+we look at skin
+texture like my eyes feel burnt out
+basically from looking at like the
+smallest little skin texture you know
+smoothness we like talk about these
+things as a research team day in and day
+out we like argue about it to build
+these soda models you have to be so you
+care so much about in our world it's
+image quality and and you know we even
+look at like little small things like if
+there's even a slight film grain and
+it's missing we go oh The Prompt the
+captioning model is bad not good enough
+we need to be better at this and I think
+this maniacal mindset I think allows you
+if you do this a hundred times the model
+extrapolate even more I think people
+don't quite internalize like
+extrapolation of all of these dimens
+together and how they work together to
+make everything better like you don't
+know how making one thing better here
+will impact like another thing over
+there we can't it's hard to understand
+that but I think that that's what's what
+that's what's required to get to a soda
+model and it is possible it is possible
+it is possible it's not easy though it's
+really hard
+yeah well suel thanks a lot for coming
+on the Lite cone that's all we have time
+for but you can try playground right now
+playground.com uh or in the App Store
+Android iOS uh and this is actually the
+biggest Flex you didn't have any weight
+lists it was just available on day one
+so go try it out right now and we'll see
+you guys next time
+[Music]

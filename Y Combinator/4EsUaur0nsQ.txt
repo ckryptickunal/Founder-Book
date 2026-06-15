@@ -1,0 +1,1408 @@
+Title: The GPT Moment for Robotics Is Here
+Video ID: 4EsUaur0nsQ
+URL: https://www.youtube.com/watch?v=4EsUaur0nsQ
+Channel: Y Combinator
+Published: 2026-04-16T14:00:07Z
+Duration: PT49M27S
+Views: 66542
+Likes: 1398
+Tags: YC, Y Combinator
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 1386
+
+Description:
+Physical Intelligence is building a foundation model that can control any robot to do any task — what the team describes as the GPT-1 moment for robotics. The company's cross-embodiment approach trains across many different robot platforms, and recent results show tasks being performed zero-shot that last year required hundreds of hours of data collection.
+
+In this episode of The Lightcone, co-founder Quan Vuong sat down with Garry, Jared, Diana, and Harj to talk about why robotics is finally re
+
+============================================================
+TRANSCRIPT
+============================================================
+
+The equation, I think, for
+starting a robotic business has changed
+and will continue to change at an
+accelerating pace because the upfront
+cost is not that high anymore.
+Everyone's sort of spending a lot of
+time in the digital world, and it feels
+like you're now is the time to start
+thinking about the world of atoms. You
+literally just gave people the playbook
+for how to build a vertical robotics
+company. This has really been our
+mission from the start is to create that
+Cambrian explosion. It still like blows
+my mind. I didn't know if this would
+exist even in my entire lifetime.
+Welcome back to another episode of The
+Light Cone. Today, we have a very
+special guest, Quang Vinh. He's one of
+the co-founders of Physical
+Intelligence, which we think might be
+the robotics AI lab that brings about
+the GPT-1 moment for all of robotics.
+Quang, thank you for joining us.
+Pleasure to be here. Has been a long
+time admirer of YC. And our mission is
+to build a model that can control any
+robot to do any task that is physically
+capable of and to do so as such a high
+level of performance that's going to be
+useful to people in all walks of life.
+And so, GPT-1 for robotics, you know,
+what is it? You know, is the chat GPT
+moment for robotics real? Our
+perspective here is that, um, we want to
+build a model that's really intelligent.
+We want to build a platform that allow
+us to externalize that intelligence to
+the rest of world and allow them to use
+it to build very interesting application
+in all sorts of vertical in robotics.
+And we think that it's going to be more
+like a peeling an onions analogy where
+you start from a really strong base
+model that have all sorts of common
+sense knowledge and already works to
+some extent on your robot. Um, you have
+then a mixed autonomy system, uh, very
+similar, for example, to a autonomous
+driving car today. Um and then you
+actually deploy the system to do a real
+job. That system might make mistake. Um
+it's okay.
+Um and then, over time, by actually
+exposing the system to the complexity
+and the edge case of the real world,
+that system get incrementally, even just
+slightly better over time every day. Um
+and you know, one day you wake up and
+you suddenly have a system that is just
+fully autonomous and just provide
+tremendous value. Might be helpful to
+give the audience a bit of a mini
+history lesson on why robotics is so
+hard. And there's been a lot of
+breakthroughs in the last 2 years. And I
+mean, just to simplify the robotics
+problem is three pillars: semantics,
+which I think we got a lot of unlocks
+and with language models that somehow we
+poured it into robotics. Then you have
+the planning. And then the last thing is
+control, which needs to be done in real
+time and interact with a environment
+that changes. Walk us through the
+seminal papers that a lot of the team of
+Pi Robotics published that gave you the
+inkling that the GPT-1 moment is near.
+And that started in 2024. Yeah. So, the
+dream to build general-purpose
+robot-like robots has been a long-time
+dream. I I think in humanity. Like, you
+know, we're not the first to say that
+our mission is to build a model that can
+work on any robot. Um and we're really
+fortunate to be in this moment in time
+in history where we feel that it's
+possible to kind of walk back a little
+bit um a few years before there was, I
+think, the first is SayCan, which to me
+was the first demonstration of language
+model and how you can bring all of the
+common sense knowledge in language model
+into robotics. And therefore, that
+significantly kind of reduces the need
+to collect robot-specific data. So, for
+example, if you have a task of, "Oh, I
+want to go to the YC office to record a
+podcast. You know, what are the steps I
+need to take?" You can ask the language
+model, you know, just show me the steps
+and show me the plan. Um, and that
+worked incredibly well. Um, and then the
+way you kind of language model
+infiltrate, if you will, in robotic is
+it start at the planning level, uh, at
+the semantic level. And then, but
+there's still the control problem, you
+know, at the end of the day, you still
+need a mechanism to convert the plan
+into low-level action that can actually
+actuate the robot. And that bring us to
+Palm-E and that bring us to RT-2, which
+stands for Robotic Transformer 2. And
+what this two work really show is that
+if you start from a vision language
+model that is really powerful and you
+kind of use robotic data to
+adapt this model to speak robot
+language, if you will, um, then you see
+a lot of transfer from the kind of
+knowledge that exists in the language
+model in the vision language model down
+to the low-level action. Like, um, one
+of my favorite example when we did the
+RT-2 project was you can have picture of
+celebrity on the table. You have picture
+of Taylor Swift, you have a picture of
+the Queen of England, and you can ask
+the robot, you know,
+pick up the Coke can and move it to
+Taylor Swift, even though the concept of
+Taylor Swift is just doesn't
+exist in the robot data at all, and that
+worked. You can do other examples such
+as, um, kind of spatial reasoning that
+doesn't exist in the robot data at all.
+Like, for example, move the dinosaurs
+next to the red like red car, and these
+are like all just completely unseen
+object in robot data. And so, that was
+RT-2 and that was Palm-E. Now, RT-2 and
+Palm-E are single embodiment, um,
+exercise. Which just for the audience,
+single embodiment meaning it worked for
+a very specific robot.
+>> It worked for a very specific robot. In
+robotic, you can ask the question, how
+do you scale? Um, especially how do you
+scale data collections? And one of the
+insight that we had back then was, you
+know, maybe the data from one robot is
+not that different from another robots
+anyway. If you have enough robots in
+your training data, maybe what the model
+learn isn't to control one specific
+robot. The what the model learn is
+something that's more abstract, which is
+how do I kind of learn a general notion
+of what it means to control any
+particular robotic platform. And
+therefore, I would be better at
+controlling any particular platform. And
+that bring us to what we call uh open
+cross embodiment and robotic transformer
+X. That was a big paper because it was
+the first that showed potential scaling
+laws that applied to robotics because
+now you could start training all these
+models across multiple kinds of
+hardware, not just one, which has never
+been done in robotics ever before.
+Because from all the research labs, they
+would all train with a very specific set
+of sensor actuators and motors, and it
+was all very finicky with that
+particular hardware, right? Yeah. One of
+the really interesting result from um
+open cross embodiment, and let me
+provide the context here, is that you
+can take, let's say, 10 different robot
+platform, collect data from them, train
+a policy, and really optimize the policy
+to work well on that platform. Um so,
+let's say, you know, you have that, you
+have 10 different platform, 10 different
+policies. And now, if you simply take
+the data
+and absorb it into a model that is high
+capacity enough to really absorb that
+data, and you can compare that you have
+this generalist, right, that the learn
+to control how to take the 10 different
+robot. You can compare it to the
+specialist that has been optimized to
+work well on a particular embodiment.
+How does it compare? And the the it's
+interesting result from open X is it was
+50% better. Wow. Um and that was really
+surprising because in robotics, it's
+hard enough to get your model to work on
+one particular robot platform. And one
+of the reason why I say that we're
+really fortunate to be in this moment in
+time in robotics is because open act was
+really
+only possible because of the support
+that we received from the robotic
+community. It was a huge collaboration
+across the robotic community and
+the reason why that's really important
+is there is this joke in like robotic
+grad school that you know, if you want
+to add two years to your PhD just work
+on any robot platform.
+>> [laughter]
+>> You know, by that logic if you want to
+have 10 robot platform that's 10 years
+and like
+>> Why is that it takes like a year or two
+to just get the platform up and running
+to even collect the data? Yeah. Is it
+fair to say that the data set that was
+created from Embodiment X is similar to
+the scale of an impact that ImageNet did
+for vision because it was huge and it
+was the first large data set across
+multiple hardware, huge collaboration
+and I still think that ImageNet was more
+impactful in the vision community and
+the reason for that is a few. The first
+is that ImageNet also allowed for
+reproducible
+right? You know, Open X as an effort was
+more about making data available for
+kind of people to use and evaluation is
+a really difficult problems in robotic
+that Open X did not solve
+and the second is I think Open X
+is a drop in the bucket at this point in
+the robotic community.
+If you measure in the kind of the scale
+and the volume and the diversity of data
+that
+the community is collecting I think Open
+X at this point it's a drop in the
+bucket. I mean I guess we started
+talking about sort of GP1 but even GP1
+you know, that was sort of this moment
+where you can prove you Alec Radford
+figured out that there was a neuron
+based on a very specific input and
+output
+and then that allowed the scaling laws
+to sort of take hold. The biggest
+problem in robotics I've heard is
+basically actually exactly what we've
+been talking about is just like it's the
+data problem. You know, language you
+could bootstrap off of like
+you know, the sum total of what you
+could get off the internet, which is
+actually quite a lot. Can you give us
+like a sense for um like scale? Is it
+like petabytes? Like you know, what do
+you think is necessary as an input to
+you know, the true GPT-1 of robotics?
+Yeah. So, the data scarcity problem in
+robotic there's a few way to look at it.
+The first way is that it's really two
+problem in this guys. There is the
+generation data generation problem and
+there's data capture problem. The
+difference is that data capture is that
+there might already be lots of robotic
+data that is being generated, but
+there's just never been really an
+incentive to capture it to make it easy
+for digestions in training.
+Um and that's one of the goal that Open
+X was trying to solve, which is if you
+have robotic data, it's a really good
+idea to capture it and make it possible
+to train on. The second way to look at
+it is that robotic is very different
+from language model. There is not a
+internet of robotic data that you can
+use. And so you see these kind of very
+operationally heavy effort to collect
+data. And there's the question of is it
+going to scale? Well, the way that I
+look at it is let's take the US GDP, 24
+trillion US dollars. Let's say if we
+actually solve robotics, a model that
+can
+control any robot to do any task. Napkin
+math maybe will contribute 10% to US
+GDP. Well, that's already a massive
+number. Um and I I think that promise is
+one of the reason that warrants the
+investment into data collections um in
+robotics. And the third way to look at
+it is we're very focused on cross
+embodiment. And cross embodiment, there
+is the data collection aspect of as
+well, which is to really make sure that
+your model and your organizations and
+infrastructure are set up to consume
+data from many different sources of
+uh of robots. And that actually allow
+you to scale easier. For example, I if I
+were to contrast our approach compared
+to let's say a company that have a
+particular hardware platform that they
+optimize for and they scale, um it it's
+not an approach that have really allowed
+people to scale um because
+it's just much harder to figure out how
+do you manufacture like
+a thousand unit of something for now
+compared to making sure that you
+yourself are ready to absorb data from
+like a thousand different types of robot
+that are already in there in the
+community. I mean, it's a crazy problem,
+isn't it? I mean, the hardware itself,
+even within the same design of
+embodiment, if there's a hardware run
+that goes awry or like one of the servos
+is slightly different, like you see it
+in the data, right? And then how do you
+control for that? Yeah, so I think we
+were doing kind of like an inventory of
+robot in the company and we were so
+shocked to find that there are no robot
+no two robot platform that are the same.
+And if you ask people in the robot
+community, sometimes there is debate
+about multi-robot versus single robot.
+And the argument is that, you know,
+single robot is simpler to scale. And
+actually, that's not how it plays out in
+practice. Like how it plays out in
+practice is even if you have a single
+robot that you're optimizing for, over
+time that platform is going to drift.
+You know, maybe you want to make
+hardware change or you have software
+change. You end up in a situation where
+it's much harder for you to reuse old
+data because, you know, in machine
+learning, if you want to generalize from
+a distribution, you would like many
+samples from that distribution. And if
+you just have one robot platform that
+have a major change every 3 months,
+maybe you have a few data points from
+that distribution. Um whereas if you
+start from the hypothesis that if you
+have many robot platform in your fleet,
+your model is going to learn something
+more abstract, which is how do I control
+a robot, not any particular robot, then
+the model will be able to ingest data
+from, you know, a slightly different
+robot better. Yeah. And actually, we're
+starting to see emergent property in
+this kind of robot large foundation
+model
+>> That's good news. what we're doing,
+where you start to see like interesting
+transfer between different
+data sources. For example, today it's
+possible to perform tasks zero shot.
+Zero shot meaning you don't collect any
+data. And these are the tasks that last
+year might have required like hundreds
+and hundreds of hours. What are some
+examples? Yeah, do we have any videos we
+can see that like show it? Um I get my
+some flak when I come back because this
+is not published results. Hopefully this
+will come out soon. So, you know, I want
+to reserve the excitement for that and
+I'm like building up the the the the the
+excitement a little bit.
+So, hopefully this will come out soon.
+These are not simple tasks. These are
+like actually difficult tasks that just
+last year required like hundreds of
+hours of data collections. You hear here
+on LightCone first that there's some
+emergent properties that are going to
+come out of PaLM-E. Can you give us a
+sense of like the flavor of the task?
+>> It's really easy to fool yourself. And
+so, we wanted to test across like
+few different tasks of different flavor.
+A task that require precision, task that
+require reasoning with multiple objects
+in the scene. It all seems to have this
+property that's really nice. So, it does
+seems like that's something that's kind
+of a more general property that emerge
+rather than we just, you know, got lucky
+and suddenly the model start working on
+one particular task. Could you help us
+understand where we are now in terms of
+like what's working and how well it's
+working? Like if we're not quite at the
+ChatGPT moment yet, like where are we?
+And I think you brought some videos that
+you were going to show us to like help
+everybody visualize what the current
+state of the art actually looks like. I
+think where we are is I think if you
+have a task where it's okay for the
+robot to make a mistake,
+and it's possible for you to set up a
+mixed autonomy system where you have a
+person that takes over when the robot
+make a mistake and provide corrections,
+It is possible to
+get to a level of performance where it
+start to make sense to think about
+scaling robot deployment. And the
+example that I specifically want to
+highlight here is this blog post that we
+did with Weave and Ultra. And
+you know, it's great that these are
+both YC company. I want to provide a
+little bit of context here first. The
+context is that Pi is a primarily
+research organization. We want to focus
+on building the best model. Um but we
+also want to not be tunnel vision. We
+want to make sure that the model that we
+built actually going to be useful and
+actually perform tasks that people in
+society cares about. And one of the
+really good way for us to do so is to
+partner really closely with company that
+want to get robot out there today. And
+the way that this relationship work is
+that we treat each other like we're on
+the same team. Very free flow of
+information. Um and we
+design a system that
+try to get the best possible performance
+for the task that these company care
+about. So, let me talk about Weave
+first. What you're seeing in this video
+is a system that we built together
+folding really diverse item of laundry
+in a real laundromat in the mission. You
+can see, you know, people walking
+outside. And why this task is difficult
+is because there's just infinite
+possibility of
+observation space. Like, you know, um
+clothing are deformable and no two item
+of clothing here are the same. And these
+are also unseen. You know, these are not
+like clothing item that are seen in the
+training data. Yeah, I love this team.
+They are some of the most cracked people
+out of Apple I've ever met. Gary was the
+partner here with Weave.
+I want to like explain like what Weave
+is and what their like what their like
+company is. Yeah, I mean, they're
+actually you know, shipping their first
+robots into the home. We sort of talked
+about it as, you know, being able to do
+household tasks like this and I think
+they were very inspired by physical
+intelligence's first demos with
+with laundry folding. So, it's actually
+a total trip to hear about it and you
+know, a year ago we were talking about
+them doing it and then now to see them
+do it working in hand in hand with you
+is really awesome. I think this is a
+great example of like
+you know, you need the model smarts, you
+need the data collection and then the
+hardware and
+you sort of system integration all
+working together is just hard to nail.
+So, Yeah, and to get back to your
+question about why robotic is hard, it
+really it is a really hard system
+problems.
+Like you need everything to work well
+and work well together to get this
+result and like we were such an
+incredible team for us to to to work
+with to get this result. And it actually
+didn't even take us that long to get
+this result. It was roughly
+we set a goal and maybe it was like 2
+weeks afterwards where we got got a
+model that was I got a model and a
+system that was good enough at
+performing this task.
+>> It still like blows my mind to see a
+robot actually folding laundry because I
+remember until basically until chat GPT,
+I didn't know if this would exist even
+in my entire lifetime. Cuz like folding
+laundry, I mean it's it's always been
+like the Turing test for robotics
+because there's no way to like
+deterministically program a system the
+way that you did like pre-AI to do this
+cuz the space is like so infinite and
+like we've shown that it's possible for
+us to do like basically if a robot can
+do this, like robots will be able to do
+everything. It's only a matter of like
+improving it from here.
+>> There was a funny story where
+when we first published Pi Zero, people
+thought of us as the laundry company.
+>> [laughter]
+>> Because the demo was just focused on
+laundry and actually picking home tasks,
+especially tasks that has to do with
+deformable object is a very intentional
+choice on our end. We're not just after
+the home, we really want to make it
+broadly applicable, but picking home
+tasks for us to start with has a few
+benefits like one is relatable. You
+know, you can see the laundry folding
+demo and you can kind of like grok how
+this is going to be useful and you can
+get a sense of why it's hard. And the
+second is that it's really easy to set
+up to test generalization. Can you talk
+about Ultra which is your company,
+Jared? A demo of it. Yeah, this is
+Ultra. The thing that I love about this
+video is you see you know, it's bright
+outside
+and you see this is 4x speed and it's a
+100 minutes. If I scroll to the end
+the sun has set. Oh, wow.
+That was one of the big problems in
+robotics where it would be so sensitive
+to the environment in lighting and mess
+up the vision system, the semantics and
+the part of it. Yeah, and the
+interesting
+thing here is that it is possible to get
+to the level of autonomy that
+the robot is just performing the task.
+This is autonomy at scale. Like this is
+ready to be scaled. Quan, because this
+task is less familiar than laundry
+folding, do you want to explain what the
+robot is doing here and what Ultra is
+like doing as a company? Ultra is a
+company that want to make it really easy
+to adapt robot to, you know, new task.
+And right now they're focusing on
+logistics space, which is really
+important because you know, there's lots
+of labor shortage in logistic. And the
+task that we focus on together here is
+you know, if you order an item from
+Amazon, you sometimes get this soft
+pouch that item gets shipped from. And
+the task here is you have a tray of
+these items here and the robot is
+supposed to pick one of them at a time
+and place it inside this pouch. The
+machine would enclose it and then pick
+up the pouch and put it on the left here
+to be ready for shipping. Now, this
+heart is hard because there are many
+different types of object that can be in
+this tray and the opening here is
+actually very narrow. So, you see this
+interesting example of the robot kind of
+nudging the item to go into the pouch.
+And that's that's really hard. Like that
+require
+very good understanding of the scene and
+like very precise motion to nudge the
+object into the pouch. Um the other
+thing that's hard about this task is the
+level of autonomy that's required. Like
+this is running for an entire day. There
+is still human intervention, I want to
+say, in
+um this like full-day operation. Um but
+the level of intervention is actually
+quite minimal. This is not just like
+some like demo station, right? This is
+actually recorded in an actual
+e-commerce warehouse where they're
+actually shipping real products to real
+customers. This isn't just like a like a
+lab. This is packaging real customer
+real order for customer to be shipped
+out in a real warehouse. So this is real
+operations. So I think this is really
+cool because I think when people think
+about robots, they tend to think of the
+consumer use cases like we've cuz that's
+you know what we're familiar with in our
+daily life. What I find really
+interesting is that there's like a
+million applications like this ultra
+thing that you wouldn't think of as
+obviously like oh, who packs the like
+soft pouch of things that you get from
+like Amazon? Well, there's some person
+like who does that and this is like a
+job that we can now build a robot to do.
+The interesting thing about the approach
+is that
+you're converting it from a very
+difficult engineering problem into a
+operation problems of how do I identify
+the use case and how do I collect the
+right data, which is in some sense more
+scalable because you can build the
+system that allow you to collect data
+from any different task. So you know it
+is it's not a problem of how do I scale
+data collection rather than you know,
+for every new task, how do I design a
+really difficult engineering system to
+solve it? YC Startup School is back.
+We're hand-selecting the most promising
+builders in the world and flying them
+out to San Francisco for July 25th and
+26th to discuss the cutting-edge of
+tech. Apply now for a spot. Okay, back
+to the video. I think one thing that the
+audience may not know is that you have a
+very unique technical insight that in
+the past robotics folks would have kind
+of gasped and be shocked because robots
+need to run in real time. A lot of times
+all of the compute runs in on device,
+but you guys have done something very
+different. Can you tell us more about
+that so that this works in
+in in real time with large models and
+and really well. So, the context here is
+that we know we talked to many companies
+that would like to deploy robots and one
+of the first question we get is what
+compute units should we get on the
+robot? You know, it's expensive. It's
+going to increase the bomb cost and
+they're worried that it's going to go
+out of fashion very quickly because the
+model change, the model gets bigger. How
+do I make sure that the hardware that
+I'm going to commit to today is going to
+be viable for, you know, a couple of
+years? It's very difficult questions.
+People often really surprised when I
+tell them that almost all of the robot
+evaluation that we run at Pi today
+including the really complicated demo
+that we have shown making coffee,
+folding laundry, mobile robots
+navigating around. The model actually
+hosted in the cloud. Um, and you know,
+this is not like a cloud isn't a server
+in the office. It's a real cloud. The
+model is hosted in a data center
+somewhere and within this high-frequency
+control loop that um, is controlling the
+robot, the robot is actually querying an
+API endpoint that hosts the model,
+sending it images and language command
+and getting back action that then
+executed directly on the robot. And this
+is surprising because of precisely the
+reason that you mentioned, you know, how
+do you actually make it work? This is
+why it's really important for Pi to
+couple
+system, hardware, and model development,
+and research like very tightly to
+together because like it allows us to
+solve all these problems. So, for
+example, one of the insight that we have
+here is that you can actually bury the
+inference time within the robot control
+loop because, you know, if
+I'm a robot, I have enough action for me
+to execute for the next 100
+milliseconds. Like there's no reason for
+me to wait until I finish executing that
+action to ask my model for a different
+action. You know, I can do it as fast as
+um inference
+essentially. Um and so, you know, maybe
+when I only have 50 milliseconds of
+action worth left, I can ask for the
+next sets of action. And when the
+current 50 milliseconds is over, like I
+have something that's ready for me to
+continue with, you know, my next 100
+milliseconds. Um so, that's one of the
+inside. The other uh kind of algorithmic
+improvement um
+we we refer to them as real-time
+chunking. Design inference in such a way
+that you know there's going to be a
+delay
+in how long it takes to query the model
+on the cloud, basically. Like the
+problem here, if I get uh a little bit
+more technical, is an action chunk is a
+sequence of action that I can ex- ecute
+on the robot. So, you know, it's not
+just one action. And if I have an action
+chunk that I can execute for another 100
+milliseconds, and 50 milliseconds in, I
+want to predict another action chunk.
+And I'm going to transition to that new
+action chunk after my current 50
+milliseconds is over, how do I make sure
+the two are consistent? Like, you know,
+how do I make sure that if I'm moving
+this way,
+>> Mhm. the next action chunk is going to
+continue me to allow me to continue to
+be smoothly moving this way. You can
+precompute. Yeah, you can precompute.
+And like that's one of the algorithmic
+improvement that we'll make to make
+inference
+using model hosted in the cloud
+possible. I studied computer
+engineering, so I'm not really a an
+algorithms person. But when it comes to
+systems like that, like pipelining, like
+get me all over that. That sounds great.
+>> [laughter]
+>> That's so interesting. I mean, this
+simplifies It's kind of It's a brilliant
+choice because it simplifies so much of
+the system for the robots. You don't
+need all these clunky, I don't know,
+people have two operating systems at
+sometimes for for robots, embedded RTOS,
+and then the regular one and all these
+complex
+giant compute and power and this is what
+the initial versions of a Waymo used to
+run basically a server on the trunk and
+you can't afford to do that with general
+day robotics which is brilliant that you
+figure out how to do it.
+>> Yeah, you don't have to. I mean, you can
+do things some of it obviously has to be
+some compute there but a lot of the
+compute can happen elsewhere and then is
+there there must be a video like this
+this thing that we're looking at in the
+top left like how much of that is sort
+of like video feedback, how much of it
+is like local processed? I mean Yeah, is
+there any computer locally on this robot
+or is it just like a dumb like video
+camera that streams data to the cloud?
+For this I am
+not 100% sure but I am inclined to
+believe that it's just a dumb computer.
+Like for this specific video I don't
+remember but I'm just 100% confident
+that we can make this work with a dumb
+computer on the robot. And the one other
+interesting thing about our
+collaboration with Weaven Ultra is one
+I've never seen that robot in person. Oh
+wow. Um two is I have very little idea
+about how the robot actually works.
+Interesting. Um and that's a very
+intentional choice. I want to stay away
+from from that as far as possible. I
+also don't know how they collect data.
+Like I intentionally don't ask them this
+question to understand whether it's
+possible for an organization like Pi to
+parachute into their existing system and
+to work really closely with them on the
+thing that actually matters to get the
+system to work and not have to learn
+about how they set up their system
+because in a way that's like a more
+scalable recipe. Yeah, you completely
+decouple a lot of the hardware control
+loop choices from the from the semantics
+and planning which is just works. Just
+brilliant. Yeah, it I mean I'm really
+surprised. It works. And when when we
+start the company we thought that real
+deployment is going to be a it's only
+going to be in the conversation like 5
+years
+into the life of the company cuz the
+problem is just really hard. And we're 2
+years in and you know, this is the
+result that we we have and and real like
+deployment and scaling the number of
+robot is a really serious consideration
+today. And so the pace of progress has
+just been very pleasantly much faster
+than we expected originally. Often on
+this podcast, we talk about like what
+all this means for startup founders. I I
+think that might be an interesting
+question for us to explore here. So, if
+you imagine someone was listening to
+this podcast, maybe they're like a
+college student that's studying computer
+science and they think robots are really
+cool and they want to do something like
+this. How should they get started and
+what are the skills that they need? Do
+they need to be a mechanical engineer to
+be able to build a robot like this? Can
+they just buy an off-the-shelf like
+robot arm and camera system and like
+what And load Pi and Yeah, you're off
+and running. Yeah.
+Before I actually answer your question,
+let me provide a few more context. The
+first is that robotic is traditionally
+really hard because it's an extremely
+vertically integrated business. You need
+to have your own customer relationship,
+your own hardware, your own autonomy
+stack, your own safety certification,
+your own everything. And the barrier to
+entry
+is just really high because of that. And
+one of the thing that we're trying to
+change is that we're trying to provide a
+foundation of physical intelligence that
+the community can build on top of that
+allow them to onboard autonomy onto the
+robot and the task much quicker than
+before. So, that's the first, you know,
+we want to provide that
+kind of seed of intelligence that allow
+people to move much faster so that they
+can, you know, focus on other problems.
+Um the second thing is that
+the I think the recipe for starting a
+vertical robotic business today is one,
+have a really good understanding of the
+existing workflow because the robot
+system needs to fit into existing
+workflow. And the second is to be very
+meticulous about identifying where the
+opportunity is. You know, if there is a
+workflow that need X number of work
+today, you know, where is the robot when
+you insert it's going to make the
+biggest difference. And two is to really
+be scrappy when it comes to hardware and
+data collections. You don't need a
+incredibly expensive robot that is
+capable of very precise motion today to
+be able to do this task. And the reason
+why why is this why is this model really
+reactive? And so they can compensate for
+some of the in accuracy in the actual
+robot movement. And to
+ensure that you have the ability to
+collect data and to run evaluation,
+especially evaluation in real
+deployment. The next step after that is
+to get a mixed autonomous system that
+allow you to get to the point where it's
+break even. Like break even
+economically. Break even economically.
+Because the reason why that's important
+is because it allow you to then scale
+the number of robot. Because if you lose
+money on every robot, it's very hard to
+scale. That has been historically one of
+the biggest challenges for robotic
+companies that they grow into growth
+stage is just the payback period is just
+doesn't make sense. Yeah, so the
+equation I think for
+starting a robotic business um
+has changed and will continue to change
+at an accelerating pace because the
+upfront cost is not that high anymore.
+And now, you know, what is the upfront
+cost? The upfront cost is
+much cheaper hardware, ability to
+collect data, ability to collect um
+evaluation,
+and ability to kind of like understand
+the use case to see where they should
+insert the robot. You know, it's not
+about having incredibly expensive
+hardware, it's not about having your own
+proprietary, I think autonomy classical
+uh stack anymore to be able to do this
+task. Um and so it it allow company to
+focus on the component that will
+actually allow them to differentiate
+themselves from the rest of the space.
+Now that you sort of unbundled it and
+you no longer need to build this fully
+vertically integrated company in order
+to build a robotics company, are we on
+the precipice of a Cambrian explosion of
+vertical robotics companies where
+there's going to be like a thousand
+companies like Ultra going after, you
+know, every like menial job in the
+economy and like getting a deep
+understanding of the customer, building
+a robot that can solve that problem,
+doing a like mixed human
+machine deployment until it like can run
+fully autonomously and building a
+company in in every sector. Is that is
+is that the future that you see people
+building on top of Pi? It's funny that
+you mentioned Cambrian explosion because
+when we wrote this blog post, there was
+that term that was very kind of like
+hotly debated. We are, I think,
+academics at heart and we want to be
+kind of very mature
+when we communicate, but, you know,
+myself personally, I believe there's
+going to be a Cambrian explosion of um
+robotic company across the entire world
+and across many, many different vertical
+um just because it's just so much
+cheaper to build and it doesn't require
+um you know, someone with 20 years of
+experience in robotic to start anymore.
+You know, it require someone that is
+really scrappy, that can move really
+quickly, um can do the system
+integration, um can understand customer
+what they want to start the deployment.
+I mean, what's coming up for me is
+obviously we work with a lot of robotics
+companies and we meet a lot of founders
+and it feels like there's this
+continuum. Um one is
+to use an analogy to compute, you know,
+personal computing. You could argue that
+industrial robotics today is basically
+like mainframe or mini computer level.
+Like, you know, if you look back in the
+70s, huge public companies like Digital
+Computer that, you know, just did like
+these sort of very, very expensive
+deployments, but like they were very,
+very specialized and it was all extreme
+enterprise. Like, you know, the idea of
+a personal computer was ridiculous,
+right? You know, it took the Altair and
+then Apple 1 and Apple 2 and then IBM PC
+XT to like create personal computing.
+And then like the traditional advice for
+robotics for many years is like go after
+like dirty and dangerous.
+And then of course those are sort of the
+industrial cases. Like you you know, you
+have these giant Tesla robots in the
+gigafactory and things like that. It
+feels like what you said around
+profitability is really really big. So,
+you know, does that mean that
+the people who do the vertical robot
+Cambrian explosion sort of moment uh the
+people who are sort of first in that
+like it sounds like
+they would be the first to be profitable
+and not dirty and dangerous. I think
+this is already happening today. I think
+um we have the fortune of having lots of
+visibility into the our community
+because um you know, people would like
+to talk to us. People would like to
+learn you know, what it's like to build
+a foundational model for robotics and
+people would like to know how do I get
+the same level of autonomy. And there's
+so many companies and businesses that we
+talk to that would love to put a robot
+into their space that you know, it's
+okay for the robot to make a mistake and
+this is needed so much. I really believe
+that res- the the recipe that I
+mentioned earlier of identify where the
+robot can fit in, focus on cheaper
+hardware, collect data, run evaluation,
+mix autonomy, break even, scale robots
+will work across many different
+vertical. And I'm seeing it play out
+today and it's just incredibly exciting
+to see. And this is pretty cool that you
+literally just gave people the playbook
+for how to build a vertical robotics
+company. Like this is a playbook that
+could possibly be followed successfully
+hundreds or thousands of times. And the
+reason why I want to mention it is
+because I I do want to see that Cambrian
+Cambrian explosions and we want to help
+enable it. You know, for Pi, if if we
+talk about why Pi is going to fail, it's
+probably going to be because the problem
+is just way too hard. You know, maybe it
+take 50 more years to solve the robotic
+problem and you know, not
+couple of years, 5 10. Um and so we want
+to enable the community. We want to
+accelerate progress and that's why we're
+very open that we publish our research.
+We open source Pi zero and Pi 05 and
+people were so shocked when they asked
+me, you know, is there any difference
+between Pi zero and Pi 05 that you open
+source versus the model that we use
+internally Pi zero and Pi 05 and the
+answer was actually no, it's the same
+model. Like the
+pre-trained model weights that you're
+using
+that we open source is also the
+pre-trained model weights that we
+research internally use for Pi zero and
+Pi 05 and so we really want to help
+accelerate progress in the community um
+and to create that Cambrian explosions.
+Yeah, that's very inspiring. I mean, I
+feel like that's
+uh everyone's sort of spending a lot of
+time in the digital world and it feels
+like you now is the time to start
+thinking about you the the world of
+atoms and uh this is sort of the perfect
+mix of actually like, you know, how do
+you take electrons and turn it into
+abundance in the you know, atoms world
+and I think about Dario Amadei's essay
+um all watched over by machines of
+loving grace and when you really think
+about the perfect manifestation of that,
+it's not like, you know, perfect uh
+agents that look over you just like in
+the electronic world. It's you know,
+actually something a little bit more
+akin to
+what we're seeing here. Yeah. And
+this has really been our mission from
+the start is to create that Cambrian
+explosion um and you know, this is why
+we choose to focus on the model because
+we believe that is the bottleneck to
+just really make robot useful across
+many different different tasks in the
+world And that's what we also focus on
+cross embodiment. You know, success for
+us is not defined as only our model on
+our robot performing tasks that is
+useful. The the surface area for success
+is actually much larger, which is our
+model performing really useful tasks on
+somebody else's robot out there. Maybe
+that we we don't even know what that
+robot is like in a way that's like
+useful to the end consumer. Could we
+maybe talk a little bit about um like
+the humans behind the robots here? Take
+that.
+How did the company get started? Like
+who are the who are your co-founders?
+How did you all get together? And what
+skills do you each bring to such a
+complex problem? Sometimes the joke I
+make here is that the human behind the
+robots are also robots. Not not
+[laughter] really. Um yeah, so Pi is a
+very, I would say, untraditional
+company. We have a
+like larger than average founding teams.
+And some of us work really closely
+together when we were at the robotic
+team at Google. And the robotics team at
+Google was I think a really, really
+great environment for seeing the sign of
+life and creating the relationships and
+the community that allow the robotic
+community and like these advances to
+flourish. There is Lucky, uh which
+we met when we uh were thinking about
+starting the company and he's just been
+really instrumental in making sure that
+we're a good business.
+And there is Adnan, our hardware lead,
+um that came over from Anduril. And
+Adnan has a really difficult job because
+if you want to work on cross embodiment,
+you know, remember my uh joke about how
+if you want to add 2 years to your grad
+school, you
+bring on one more robots. The the
+hardware problem and the operational
+problem for us is how do we build,
+improve, and scale a fleet of
+heterogeneous robots. You know, it's
+just not one robot platform. And because
+we built the organization from scratch
+in the beginning to to to support that,
+like I think we're able to do it, but
+it's just a really hard uh problem. And
+because
+there's just like no two different
+robots in the fleet. Like, how do you
+make sure that everything runs smoothly?
+We're really good at divide and conquer,
+if you ask. But so, how many how many
+co-founders are there in total? We have
+Brian, we have Chelsea, Sergey, myself,
+Rocky, and Adnan. Is it just necessary
+to have that many co-founders to solve a
+problem as big as this, or was it a case
+like you were already sort of like a
+unit
+together, you'd already worked together,
+and you just what whatever you started,
+you would all have would always get
+>> One common question that we have is, you
+know, why bend together? And, you know,
+the first is that we really enjoy each
+other's company.
+Um we spend a lot of time at work, and
+it's, you know, in some sense, give
+meaning to life. And so, we really want
+to enjoy the relationship we have at
+work. Um and the second is that, you
+know, any one of us could have started
+um a company and be successful, but the
+problem is just so incredibly hard. And
+the chances of success is just so much
+higher that we bend together, and we can
+divide and conquer the problems. Um and,
+you know, that's the I think one of the
+main reason why the progress has been
+much faster than than we expected. What
+are the differences of um
+you working before in either academia or
+uh
+big
+industry, big company, like Google, and
+as opposed to now in a startup? Because
+this is this is the first time for a lot
+of you doing a startup, right? Yeah,
+this is the first time for a lot of us.
+Um one of the really surprising thing
+that we learned when we started the
+company is that the infrastructure for
+supporting large-scale general purpose
+robot which is not there. And, you know,
+this start from the software itself. How
+do you collect data? What device do you
+use to collect data? How do you manage
+the data? How do you
+uh annotate the data? How do you get
+visibility into the data? How do you run
+evaluation? How do you build operational
+process? Like there wasn't company that
+offer this kind of services, which is
+very different from software, and we
+were really surprised
+to to to find out. And so, we
+ends up writing a lot of the software at
+Pi ourselves, but I think this is
+another area of incredible opportunity
+of kind of building services for robot
+company. Like, you know, if you can
+offer remote teleop, for example, if you
+can offer data collections, if you can
+offer annotation service. Because, you
+know, these are functions that doesn't
+need to be repeated from one company to
+the next. So, I think there's lots of
+opportunity to build um kind of support
+for growing robotic business. Um so,
+that's one thing like one surprising
+thing that I learned. And the second is
+I think one of the reason why we have
+managed to achieve such progress is that
+there is a really tight loop of
+collaboration in the entire life cycle
+of
+model development. Um going from what
+task you collect data for? If you
+collect data for that task, how do you
+do it? What hardware do you use? It was
+after you collect the data, how do you
+get visibility? How do you ensure data
+quality?
+Um how do you then make sure that you
+can easily train on that data? If after
+you train on that data, how do you run
+evaluation? Evaluation is really hard
+problem in robotic because it scales
+super linearly to model capability.
+Like, let's say you have a model that
+can perform a 2-minute task. Running
+evaluation for that is very different
+from running evaluation for a task
+that's 20 minutes. Like, it's not 10
+times harder. It's it's it's it's more
+than 10 times harder. Um after you run
+evaluation, how you can how do you can
+like dis- distill the learning from that
+evaluation to know how to improve the
+the model further. Like, one of the
+really side project I would love to take
+on is to build a automated robotic
+research scientist. Mhm. Um which is
+really one of the bottleneck we have
+today because this is a really difficult
+skill set
+um that require intuition about the
+entire stack. So, you know, I would love
+it if there is a model that can ingest
+multimodal data such as this and analyze
+failure modes, um you know,
+understanding, "Oh, is the robot
+performing this way because of the data
+that was collected or the way that it
+was annotated or the way that we trained
+the model?" And then, you know, suggest
+idea and actually try them to figure out
+if, you know, those hypotheses are
+correct. So, that's something that I
+would love to have and would like
+dramatically unlock this. So, sometimes
+I make the joke in the company that we
+should record all of the meetings and
+then train train a model to basically
+just make prediction about what is the
+next set of experiments.
+>> You totally could. What if it's Open
+Claw and um Obsidian and Markdown files
+and like, you know, a brain.md with like
+ontology that's custom to your use case
+and what if it's 100 Open Claws in the
+background that you orchestrate? I think
+there's two sides to this. The first is
+that we already see a little bit of a
+sign of life where for simple failure
+modes, um during evaluation, if you can
+describe the way that the robot failed
+in text very precisely and very clearly,
+then
+you know, you can ask the language model
+to make very reasonable recommendation
+about what the next step is. Um but the
+the the flip side is that this only
+works for simple cases today. And the
+reason why that's the case is because I
+think it's pretty um fundamental
+limitation of the model that we have
+today, which is that they are
+not
+at the core model that take action in
+the world and see the consequences of
+its own action, especially action that
+changes the physical world. Um and and
+so, I I think this kind of very
+fundamental understanding about how the
+physical world works is missing from the
+really large foundation model. Um and
+and
+I think that's that's one of the
+ingredient that's missing to to be able
+to build this automated robot research
+scientist. What's interesting about Open
+Claw? I don't know. I mean
+basically it can go and
+it can just do things which is
+interesting. And then at that point it's
+on the research lab to provide like you
+know, CLI MCP endpoints to the things
+that might control robots or reconfigure
+rooms or I mean I think it's Karpathy
+feels like he's he's starting to talk a
+bunch about this where you know, if you
+mix auto research plus what he's been
+talking about with markdown files like
+it might just happen in the open. Like
+it you know, there's a sort of sense
+that you have to make something much
+much more complicated to make it work.
+But what if that's just wrong? What if
+we just have markdown files and agents
+and you know, you could
+make it yourself with you know,
+literally clawed code and MCP today.
+What if it's not an algorithm problem?
+It's just literally an integration
+challenge.
+>> We have a version of this internally
+that I use a lot. There was a point when
+I was spending a
+embarrassingly large
+amount of money on API queries.
+>> Yeah, yeah. Um and you know, the my team
+was like "Quon, what are you doing?"
+>> Oh, I'm that guy at Y Combinator right
+now.
+>> [laughter]
+>> So uh to to to to give you an example,
+um
+we have a clawed scale that is
+essentially serving the role of a
+pre-training on clawed today. Um so you
+know, we have these pre-training runs
+that are really large. Um
+it's very I think a difficult exercise
+to keep them alive to you know, for them
+to continue to churn just because
+there's so many things that can go
+wrong. And we have um
+I I I prototype a pre-training on clawed
+that kind of babysit the run and have
+the permission to take action to remedy
+error that it see. Um and one of the
+surprising outcome of that exercise is
+that it leads about 50% improvement in
+compute usage. Like just overall compute
+utilization for that last pre-training
+run, which is huge for us.
+Um and you know, this was just a small
+simple prototype that I that I built and
+I think there's like there's a lot more
+to be done. Quan, this is incredible.
+Thank you so much for everything. Thank
+you for making physical intelligence.
+Thank you for showing us these
+incredible demos and
+uh honestly, like the thing that gives
+me the most hope is this idea that
+there's an entity, there's a you know,
+research lab out there that is focused
+on giving this to the world, you know,
+about to create this Cambrian explosion
+of robotic startups. So, someone
+watching right now will be inspired by
+this and uh you know, start playing with
+your models and they might create a
+robot that uh touches billions of
+people's lives in for the good. Thank
+you for having me. Been a pleasure. Um
+to a listener, the one takeaway that I
+want you to have is I think robotic has
+changed a lot and the cost of building
+in robotic has decreased and I think
+will continue to dramatically um
+decrease. And it also require a very
+different kind of scrappy skill set um
+that young startup like needs. We hope
+to enable really an explosion of many
+many many different robotic use case.
+And [music] you know, always reach out
+to us if you want to collaborate.
+Thanks, man. Thanks so much. Thank you.

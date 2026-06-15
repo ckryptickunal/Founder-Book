@@ -1,0 +1,2181 @@
+Title: Simon Benjamin on Architectures for Quantum Computing
+Video ID: LHZKDTJJknE
+URL: https://www.youtube.com/watch?v=LHZKDTJJknE
+Channel: Y Combinator
+Published: 2018-05-25T16:05:13Z
+Duration: PT1H18M54S
+Views: 7599
+Likes: 156
+Tags: YC, Y Combinator, Simon Benjamin, Quantum Computing, Oxford, Podcast, Craig Cannon, Physics, Quantum, Computer, John Preskill
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 2159
+
+Description:
+Simon Benjamin - http://www.materials.ox.ac.uk/peoplepages/benjamin.html - is a Professor of Quantum Technologies at Oxford. He is also the Principle Investigator for Oxford’s project on Quantum Optimisation and Machine Learning - http://quopal.com/
+
+This episode is more technical than last week’s episode with John Preskill - https://blog.ycombinator.com/john-preskill-on-quantum-computing/. We start by covering some fundamentals then go into different approaches for constructing and scaling a qu
+
+============================================================
+TRANSCRIPT
+============================================================
+
+Simon why in the past few years has
+quantum computing gotten so much
+attention right well quantum computing
+is something that academics have been
+working on now for decades but what's
+exciting is that it's all starting to
+work in the sense that what we now have
+in labs is getting to the regime where
+it can actually do stuff that we can't
+do by other means so it's you know it's
+got that feeling that it's all about to
+happen that said you never know how far
+it is from where you are to when you've
+actually got a working machine until
+you've actually got the working machine
+but we're all feeling very excited in
+the field we're excited as well but then
+also people outside the field companies
+people who look for disruptive changes
+in technology are obviously receptive to
+this and they're starting to get excited
+as well and I guess it's a kind of
+feedback loop hmm but I can say that
+just in the last three years we've had
+tons more interest from companies who
+come to us as academics and say look can
+we jointly work on something with you I
+mean if that's really been a sea change
+if we went up to companies even five
+years ago and said how about investing
+in some research they would say well
+we're aware of this but it's over our
+horizon yeah but now you know now we're
+almost having to fight them off was it
+was there a certain you know basic
+research or maybe an experiment that
+made people realize like oh this might
+be the time yeah yeah that there is that
+and so I'm a theorist you really should
+put that up front they don't let me in
+the lab except when they've tied it
+everything away because I my elbows tend
+to set them back a couple of weeks but
+in the lab researchers have been trying
+to get better and better control of
+quantum systems they're difficult to
+control so where I'm you're probably
+familiar with the word qubit which is
+quantum bits which is of course the
+building block of quantum technology
+instead of bits but unlike bits which
+are wonderfully stable and you know with
+the right technology we'll just sit in
+the zero or one for a long period of
+time even years qubits are horribly
+unstable they're constantly trying to
+just become regular bits which means
+they the usual word is collapsed to one
+option or the other you know they we
+talk about a quantum superposition a
+state that's zero and one at the same
+time and we can talk
+bit more about that means but the point
+is it's fragile qubits don't in a sense
+want to be in 0 & 1 at the same time or
+rather their environment doesn't want
+them to they are constantly trying to
+collapse they're constantly going wrong
+but also when we try and control them
+it's very difficult to control them
+precisely so it's all about how good is
+your control of the quantum world and I
+can't resist at this point just
+mentioning we're here in Oxford the
+Oxford iron trappers we might talk more
+about what that is have the joint world
+record for the highest level of control
+of any quantum system of any kind okay
+and the really tough thing is to say how
+well can you control two qubits if you
+think about it if you want to make a
+computer it's not enough to just control
+individual entities because if they
+don't talk to each other you can't have
+a process an algorithm all you've got is
+some kind of recording system right so
+if you could go and set the state of a
+bunch of individual qubits and then
+later come back and have a look at them
+you've got a memory mm-hm but if you can
+make one qubit control another qubit
+you've got an operation an element of an
+algorithm gotcha that's that really
+that's the hardest thing almost always
+because you know it's the most fancy
+thing now we we use the word fidelity
+which means how well are you doing in
+terms of getting your control and the
+oxford guys their record is 99.9 a
+little bit percent fidelity even the one
+part in a thousand fidelity over a
+period period of time yeah right so
+that's the fidelity that it takes to do
+one specific operation so for example I
+got two qubits I always use my fingers
+because I think of them as little arrows
+I have two qubits I tell this guy to
+flip only if this guy is let's say in
+state one yeah but not if it's in state
+zero yep okay so that's a that's a story
+about two qubits which should just
+happen ideally you tell them to do that
+they do it exactly like you told them to
+and you move on in practice they won't
+do exactly what you told them to because
+these things are very hard to control so
+99.9 percent is the chances essentially
+that they will do what they're told and
+if not then they'll do something round
+okay you can think of it that way now
+that sounds like a lot
+right 99.9% seems like a good score in
+any context yeah but compared to
+conventional technologies where that
+number what might be something like up
+one minus 10 to the minus 15
+you know it's insanely good in
+conventional technologies that's why
+your software doesn't just crash all the
+time on your laptop right so whilst that
+number sounds good it's actually still
+very challenging imagine you're building
+an algorithm hmm you're going to have to
+have a lot of these operations right a
+lot of times one qubit will talk to
+another qubit in the course of doing
+some calculation if one in a thousand
+times
+it just goes wrong and yields nonsense
+then if you've got more than a thousand
+or so operations and you will have then
+something's gonna go wrong
+you know you're gonna get a error in
+your quantum program and unless you've
+been very smart about how you design it
+that's just gonna make the answer come
+out nonsense so that's that's the kind
+of problem we face for all these years
+and when I say we I mean the actual guys
+in the lab right I've just been at the
+whiteboard saying come on guys why isn't
+it working yet so we're - it's a briefly
+tangent on this yeah how long have you
+been theorizing about quantum computers
+well the field has been theorizing in
+detail about quantum computers since the
+early or mid 80s okay I'm a little bit
+more recent than that right so as David
+Deutsch is thank any sir okay and then
+in the 90s we okay so initially people
+thought this problem of control was
+going to be perhaps a deal breaker the
+thing is you see if you're running a
+quantum algorithm okay so if you're
+running a conventional algorithm you can
+at any time check the state of your
+machine is there I'm gonna have a look
+at my ones and zeros see if they look
+about right if you do that with a
+quantum computer because of this idea of
+superposition being in many states at
+once if it's not yet ready to give you
+the readout answer but you just want to
+check to see if it looks like it's on
+track or if it's gone wrong you're going
+to destroy the state of the computer you
+know prematurely the act of looking for
+errors naively it would seem that it's
+going to actually destroy the state of
+the machine right so how can I keep on
+track if I'm not allowed to see it's a
+bit like trying to navigate with a
+blindfold and you've been told a bunch
+of landmarks but you can't see them
+right
+until you get to the end so people
+thought including some really
+substantial thinkers like Ralph Lander
+thought that that might be a
+deal-breaker the fact that you can't
+check for errors but they are going to
+be happening who would mean that for
+anything except the simplest toy
+calculation you can't really get where
+you're going to and in the 90s was when
+people including anestine who's here but
+also Peter Shaw who's famous for one of
+the big algorithms figured out the
+solution to this which it sounds almost
+like a philosophical paradox right I
+want to be able to check and fix errors
+as I run a process complicated long
+process but if I look for errors or if I
+ask the information whether it's in a
+good state I will destroy it right that
+seems like a right so the answer is what
+you do is you use several qubits even a
+large number of them to store one what
+we call logical qubit ok is this the
+same thing that well it's a grander
+version of the same thing that happens
+in conventional technology there if you
+know you're going to store a lot of
+information and there may be some errors
+because you're storing you know vast
+amounts you may use an error correcting
+an error detecting code which means you
+dedicate some of your bits to being
+watchdogs on the others okay now the
+quantum version of that is much tougher
+to work out but it's the same basic idea
+so we use a bunch of physical qubits
+which might be individual items or
+superconducting loops many different
+exciting hardware options but whatever
+they are use a bunch of them to store
+one logical qubit yep and you do it in
+such a way that if one of those physical
+qubits goes wrong you will be able to
+fix that one guy by using the
+information that's stored in the others
+essentially so you've spread out your
+burden of representing the qubit over a
+bunch of guys and collectively they're
+more robust than they would be
+individually but you're still not
+allowed to just look at them directly so
+the real trick was to say well look
+we'll have another bunch of qubits we'll
+bring them in every so often they'll
+just be in some say zero state okay they
+have nothing
+so they come in neutral they come in
+neutral right and then we do a
+we stopped the main calculation if you
+want to think of it this way we pause
+the main computation okay without
+observing without observing very crucial
+and then we bring in these extra guys
+and we have a little special calculation
+really a special computation which is
+just to look for errors so a computation
+takes place between the the new guys who
+are just in a reference state and the
+guys you actually want to check and what
+you basically do is a calculation where
+the question is there an error or not is
+now stored on the extra guys and they
+know nothing else they don't know what
+the main information is they just know
+has there been an error that's the trick
+now you can actually have a look at the
+extra guys hopefully they'll say there's
+no error good to go if they say there
+was an error they'll also tell you which
+guy was the problem and you can fix that
+guy without looking at him okay through
+algorithm through the algorithm if you
+like or it may be that when you measure
+those extra guys they basically say okay
+I don't know what the information stored
+on the main qubits is because I'm not
+supposed to know that yeah but I can
+tell you that qubit number three has has
+been flipped I don't even know what
+state qubit number three years but he
+has it has been flipped right great
+that's what the extra guys tell you
+sorry this sounds a bit technical but it
+is a huge breakthrough annealed and just
+to pause you very quickly so the
+information you're passing through like
+these are qubits as well right so what
+you have is you have your main guys who
+are storing some information it may have
+an error we're not allowed to look at it
+you have the extra guys who come in
+they're going to be part of the checking
+process and then we just talk between
+them doing a little calculation little
+computation between them using these two
+qubit gates that I was talking about
+so again errors might happen even during
+that process so we have to be very we
+have to think of all possible bad things
+that could happen and make sure that
+none of them are a deal breaker but
+basically this trick of not looking for
+errors where they are but looking to one
+side because you've basically done a
+separate little calculation that now in
+the what we call ancilla qubits it tells
+you just one thing the one thing you do
+legitimately need to know which is is
+there an error if so where is the error
+so that was a very simple idea but very
+very important it was but measuring the
+insular qubits yeah how do you know that
+measurement is correct
+you don't okay that's a very good
+question right so it's like who guards
+the guards right I mean I if there was
+one thing that you could trust
+absolutely right that would be fantastic
+for us and we'd be able to simplify all
+our designs and solutions right but we
+must assume that everything is
+untrustworthy some things are worse than
+others so measurement of a single qubit
+might be a bit more reliable than say
+the two qubit gate but they all have a
+number on them that says how dodgy they
+are and yet what you need to do is come
+up with an approach where there's enough
+protection that even if say the Med so
+you might falsely conclude that there
+was an error and there wasn't one
+because the measurement went wrong right
+then you're fixing an error that didn't
+happen right so you basically need to
+construct the overall story so that that
+event is so rare that you can run your
+whole calculation and it probably won't
+evaporate so there's ways of checking
+the measurements as well so you it's
+layers of protection basically which
+makes sense wipe our correction and like
+the the my Newton s of the error the
+likelihood keeping it low is the most
+important part that's right so exactly
+so so I mentioned this number 99.9 right
+I'm sure I said we're very proud of yeah
+it's actually very important number
+because when you work through these
+schemes for protecting information
+because anything can go wrong you tend
+to what you find is something called
+I'll use another technical right now a
+threshold and that means that if you're
+doing things better than a certain
+number you will be able to use the
+protection to get rid of the errors the
+physical errors as they occur you'll
+stay on top of the problem yeah and
+you'll be able to run a long calculation
+with nothing going wrong at the logical
+level so but suppose that every time you
+try to do something make a measurement
+to make it to qubit gates something like
+that you had a let's say 30% chance of
+just wrecking it that would be hopeless
+because you'd it's like trying to fix a
+broken watch wearing boxing gloves or
+something right you're you're going to
+cause more damage then then you know so
+it had slightly more
+for my language you might say it's like
+entropy can we remove disorder more
+efficiently than we're putting in given
+that the process of trying to remove it
+itself is a little bit noisy and
+damaging so you have to make a net
+benefit right you have to take out more
+trouble that you're putting in then you
+can stay in control mm-hmm and added to
+this is you're running actual code so
+the code might be erroring out as well
+there's there's also a whole other
+question which is how reliable is the
+algorithm itself but all of this is just
+is the Machine even doing what I'm
+telling it to do right so you have this
+this number which the theorists can
+derive and I've spent quite a lot of
+time deriving it for particular
+approaches which is essentially how good
+to the lab guys have to get before they
+could now with enough funding and
+whatever build a big quantum computer
+and know that it will stay on track
+because they're now so good at doing the
+operations that as errors happen they
+can take them out of the machine faster
+than than they're happening and so that
+is the threshold and now the threshold
+when these results were first discovered
+in the 90s was about 10 parts per
+million so I have a mini 9 99.9999 was
+the kind of level of precision that you
+would have to have in order to control
+your quantum computer and take the bad
+things out faster than you're putting
+them in regardless of the number of
+qubits in the system that's yes exactly
+so or almost regardless of poni in
+enough to be able to run very large
+algorithms and be able to do the things
+that we dream of for the big for the big
+machine it's always the case that if you
+have enough qubits and you have a so
+basically what happens is the more you
+have you have to slightly dedicate more
+and more of them to the checking process
+but it's it's not too bad in the sense
+that if you double size of the machine
+you might only need to slightly increase
+the number of guys who are checking but
+so this number this threshold in the 90s
+it was very demanding so in the 90s we
+had the theorists saying good news we
+can tell you how to build a quantum
+computer and it will work and it won't
+go off track despite the worries from
+let's say the 80s that it would
+have to go off track you know that
+problem has been solved at Andy's Dean
+and Peter Shaw and many other people who
+are excited by that yeah bad news the
+level of control you need to achieve in
+the lab to use these ideas is still very
+demanding it's a it's it's modest by
+comparison to how classical I'm so
+classical computers being everything
+that's not have items' compute right
+it's modest by comparison to them but
+compared to what you guys are achieving
+at say in 1990 in the lab it's horribly
+challenging in the lab maybe to qubit
+gates might have been around the 90%
+fidelity mark at that time and yet the
+theorists were saying I need you to be
+99.999 you know and and that's a gap and
+that was a real time for optimism versus
+pessimism because how long will it take
+a technology to get a hundred or a
+thousand times better in its precision
+really there were optimists and I was at
+that time I was like getting into that I
+was just getting interested in there in
+the late 90s in this area and hearing
+about it and so of course I was a super
+optimist at that time as a student you
+had like happening right so I was like
+I'll probably have in a couple of years
+right and then there were pessimists who
+had said this gap between what we need
+to be able to build but there is say and
+what we can build is so wide it's
+probably physically impossible that
+would be a ten of what you could say
+that and no one would be able to prove
+you wrong now to come back at last to
+your original question why are people
+excited now right it's because that gap
+has completely closed the theorists as a
+community have been doing better
+they've been improving their codes and
+making the demands more permissive so
+now the the threshold is about 99
+percent if you've got 90 if things work
+correctly in your quantum computer 99
+percent of the time that's the turning
+point okay you don't want to be at 99
+percent because that's also can be seen
+as the point of which things become
+impossible you want to be better than
+that right but 99.9 which is what the
+guys here in Oxford can do is 10 times
+better than the threshold so let's break
+each component down okay so
+how do you move to 99% and above being
+accepted what changes have to be made
+are you different simulations what's
+happening on the theory side we have a
+family of approaches now called
+topological codes and these things one
+could say a great deal about them but
+practically what's important about them
+is the following very simple property
+especially something called the higher
+surface code which is at the moment the
+go-to solution for how we would build a
+quantum computer why is it better than
+the codes we had in 1995 it's better
+because it the architecture of the
+computer can be very very simple in fact
+it can be as the name 2d surface code
+suggests you're allowed to lay out your
+qubits just in a grid which is great
+news for experiment lists actually
+they'd rather lay them out in a line
+because that's the if there's eat
+something easier than a grid it's a line
+right but that's that's that's very
+restrictive but a grid is not too bad I
+mean conventional technology is laid out
+you have you zoom in on chip onto a grid
+and when I say you can lay it out that
+way what I mean is that each qubit only
+needs to talk to the immediately nearby
+guys north south east west the the the
+code does not require a qubit to be able
+to reach out and talk to a guy three
+blocks over the early codes would have
+required that they would have required
+qubits to be able to link two qubits all
+over the place and why is that a problem
+most of the ideas for quantum computing
+actually involve direct physical
+interactions in the physics which is
+short-range so if you have an idea where
+you can lay out your qubits in a grid
+that's very that reflects what is
+straightforward in the physics for you
+to achieve on the other hand if someone
+says to you I want you to do something
+where this give it needs to talk over
+here and then it needs to go and talk
+over here you don't have that in the
+hardware so what are you gonna do you'll
+have to do a bunch of swaps if you've
+only got short-range links in the
+hardware and you're actually saying I
+need this guy to talk to this guy over
+here what you gonna have to do more or
+less is
+swap swap swap stop stop stop stop swap
+and now they're next to each other and
+they can talk but you did all those
+swaps and those are making errors as
+well right
+so the cost was in permuting around the
+information inside the machine but now
+along come the topological codes and
+they say no dough is fine you don't need
+to move stuff around lay everybody out
+and a grid everybody can just sit there
+and just talk to the immediate next-door
+neighbors and that takes away the whole
+it takes away a great deal most off the
+operations actually because most of the
+operations would have been used for swap
+swap swap swap just boringly moving
+stuff around hmm okay now by the way we
+might perhaps up to you talk about
+network approaches to quantum computing
+which is something I'm super keen on and
+they actually do have the ability to
+link any qubit to any other qubit which
+is still super desirable even though the
+topological codes have told us we don't
+absolutely need it it's still great to
+have but it does expose you to more
+errors not if you do it right isn't the
+answer okay what what it means is that
+it's tougher to figure out how your
+hardware is gonna work but if you can
+figure that out and we think we have got
+it figured out then you can build a
+machine where the qubits are able to
+link all over the place right and that
+is fantastic for I mean it's always
+better to have more connectivity it's
+always more powerful to have more
+connected right and I'd rather than a
+chain yeah
+rather than just a what we would call
+nearest neighbor which means wherever
+you've put your qubits you can only
+actually talk directly to their
+surroundings okay but still the
+topological codes showed that that was
+enough and that that's an enormous
+simplification so that was responsible
+primarily from moving from the multiple
+nines to the 99% pressure and then in
+the lab well the different kinds of
+technology and there are a lot of them
+and this is one of the things that makes
+the field quite confusing for someone
+who just just someone who googles
+physical you know I sympathize you type
+in quite how does quantum computer work
+and you get 20 different answers and
+it's worse than ever actually just as an
+aside because before by five
+if you type in how does a quantum
+computer work you get different
+academics like me talking about our
+favorite approach but academics don't
+really have hostility to the other
+approaches I mean the ones I don't work
+on I wish them good luck you know I just
+want to see a quantum computer happen
+but now because we have a lot of
+companies engaged they need to take a
+little bit more of a commercial attitude
+to it so if they're investing in a
+particular approach and you ask them how
+is a quantum computer going to work they
+won't tell you about the rivals they're
+gonna tell you all about their approach
+and why that is the solution for sure
+well just think about them fundraising
+yeah what if I knew to fund you rather
+than the other guy exactly I mean I'm
+not complaining in the sense that
+obviously they must do this right it's a
+very brave guy in a company who says
+well it first let me tell you why my
+rivals are great and then I'll tell you
+why I might have something right and you
+could take that approach but that's
+non-standard so it's more confusing than
+ever to try and figure out how a quantum
+computer works what it's going to be
+made of what the bits are because there
+are so many different possible answers
+and now many of them are associated with
+companies who are really pushing that
+and not giving you the big picture for
+perfectly sound commercial reasons right
+maybe this is silly to go into one in
+particular yeah in the lab in Oxford
+yeah what kind of quantum computer right
+so Oxford is actually one of the biggest
+research facilities in the world for
+quantum right we've got something like
+200 people working on this and so we're
+working on a bunch of different stuff of
+course we've got a division between
+theorists and experimentalists yeah but
+among the experimentalist where we're
+not betting everything on one horse
+we're taking a bunch of different
+approaches but the one that I mentioned
+that we have the world record for the
+best control is this thing called an ion
+trap which sounds very technical it's
+really a very simple idea
+our qubits are individual atoms an atom
+is really nature's natural quantum
+system it's the system that people were
+thinking about when they actually began
+to understand quantum physics so an atom
+can make a great qubit the problem with
+atoms like the atoms I'm made of is that
+they're connected to other atoms and on
+and on and on and so you can't have a
+particular single atom being a quantum
+state without it immediately
+connecting to the atoms around it so you
+what you would need to do to make a
+quantum computer out of atoms is figure
+out how to keep them isolated a bit like
+the famous Schrodinger's cat in its box
+right I need to isolate so we should
+explain that medical as well yeah yeah
+all right so sometimes I get told off
+for mentioning a Schrodinger's cat and
+for people it's probably the one thing
+they've heard of but so in the early
+days of quantum physics Einstein which I
+probably people know Schrodinger who was
+one of the fathers of the quantum
+creating field were discussing in
+letters they were exchanging how weird
+quantum theory is and whether they could
+get behind it as a sort of explanation
+of the world and they were struggling
+with this idea of superposition which
+means a thing can be in two states at
+once now when you're talking about
+something as far from everyday
+experience as an atom maybe it doesn't
+sound too bad right because we don't
+we're not used to looking at atoms
+anyway so if I tell you an atom can be
+in two states at lunch and I well that's
+weird or whatever so what they came up
+with was a thought experiment which it's
+important always to emphasize no one
+ever plans to do because it involves
+potentially killing a cat and you know
+everybody loves cats
+right but the idea was the thought
+experiment was to say well look
+according to physics we could do the
+following and how weird is that
+right so in the experiment we take the
+fact that the quantum world which is
+normally thought of as the small-scale
+of photons and atoms has this weird
+property of things happening on both
+happening and not happening and scale it
+up so the idea is you build a box and
+the box
+perfectly isolates the inside of the box
+from the rest of the universe which
+means nothing in the rest of the
+universe including you can measure
+what's going on in the box its own
+little sub universe once the box lid is
+closed
+what are you put in the box there's a
+few variations of this but the version I
+like to say because it's more exciting
+is that you put a bomb in there okay and
+you put a cat in there and the question
+is will the bomb go off and kill the cat
+or not when the box is shut but it's an
+unusual bomb because it doesn't just
+have a timer or something it is
+connected to some kind of quantum
+measurement so it could be for example
+whether or not a particular atom decays
+so atoms that are radioactive can decay
+from one to another and that is a
+quantum event that may or may not happen
+and in fact if unobserved we would say
+it has and hasn't happened that was the
+original example but actually it could
+be anything we could put in there one
+qubit of a quantum computer if we wanted
+to make it in more a contemporary
+language and we will say I'll put the
+qubit in a superposition of 0 and 1 and
+then after exactly one minute inside the
+box a little measuring device is going
+to go and look at that qubit okay and
+the qubit will either be 0 or 1 but now
+I shut the box I seal it off and I just
+wait five minutes right so after one
+minute the measuring device looked at
+the atom and if it saw state 1 it
+activated the bomb and if it saw sate
+state 0 it did not activate the bomb
+mm-hmm stop and then at that point it's
+disarmed if it was also now what quantum
+theory would tell you is that at that
+moment that the measuring device looked
+at the atom what happened was the
+superposition that the atom was in a 0
+plus 1 it's in a sense spread to the
+measuring device so now you've got the
+measuring device saw state zero in a
+superposition with the measuring device
+saw state 1 but the measuring device is
+connected to the bomb right so in the
+very next instant you have a
+superposition of the measuring device
+saw state 0 and the bomb didn't go off
+and the cat's just bored in the box
+right and the measuring device or state
+1 activated the bomb it blew up and the
+cat is yeah pieces get too graphic about
+them so it's a scaling up thought
+experiment and it's saying look now
+after one minute and we'll leave the box
+shut for five minutes so for the
+following four minutes inside the box
+it's not that one or the other has
+happened and we just don't know that
+would be the sort of classical
+explanation right it's it's that both
+those things have happened they are in
+superposition with each other and that
+is at an actual state of the universe
+distinct from being one or the other or
+it's one or the other and we don't know
+yeah literally both those things are the
+case or inside the box and then of
+course
+you open the box that's a measurement
+act from the rest of the universe on to
+the little sub universe and now it will
+be one thing or the other or depending
+by the way on how you interpret the
+grand scheme of things you could say the
+whole universe goes into a superposition
+as soon as the cat is dead than the
+mechanism so that was designed to
+highlight how weird quantum theories but
+there's nothing we would never attempt
+that experiment and I suppose if you are
+going to do it you would do it with
+something other than a like a yeah the
+point is to make the microscopic world
+where weirdness maybe we can kind of
+mentally brush it aside and say yeah
+whatever small things are weird right
+but there's nothing keeping it small
+except the technological challenge of
+doing stuff like what I just described
+and in a way a quantum computer itself
+is a useful and humane version of a
+Schrodinger cat experiment because we
+imagine having a huge number of
+components that are all in not just two
+states but in multiple possible States
+simultaneously right and we expect to be
+able to use that for useful things and
+we mustn't open the box as in measure
+the qubits prematurely right into how
+does that relate to using an atom as
+acute right exactly so we want the atom
+to be like the cat we want it to be able
+to be in a superposition of dead and
+lives your own one and maybe you won't
+have a bunch of them mm-hmm but we need
+to keep them our atoms totally isolated
+from the rest of the world just like if
+we if are in our Schrodinger Kappa tree
+if the box was a bit leaky if you're
+like me I just I can't I'm just gonna
+keep one eye on it it spoils that the
+experiment you know if you're measuring
+it one thing or the other will happen we
+will not have the superposition yeah
+so we need to take our atoms and isolate
+them from the rest of the world and
+here's how we do it when I say we you
+know I'm being very I don't do it they
+do it so you first off you wanna have a
+vacuum because you don't want your atoms
+talking to the rest of the stuff that
+the world is made of right so you have
+something called a vacuum chamber which
+is literally a box which is very tightly
+sealed and has some special sort of
+ports in it that allow you to for
+example pump that atmosphere out of it
+and so that's your starting point is a
+vacuum chamber
+that array is a little bit exotic
+compared to conventional computers
+because they don't need to have a vacuum
+but the good news is that vacuums aren't
+particularly hard of all the various
+exotic things that we need when we are
+thinking about building quantum
+computers sometimes it's super low
+temperatures as always challenges a
+vacuum is actually reasonably mundane in
+fact in the early days of computing we
+had vacuum tubes we need better vacuums
+than that but but we can have better
+vacuum so first you have your box
+literally a box and you make sure that
+there's it's a vacuum in there except
+for of course the components of your
+technology right so ion trap what does
+it mean an ion is just an atom that has
+had one electron flicked off of it and
+this means so now you're thinking of
+your item you've got the core of your
+atom and then you've got the electrons
+whizzing around it and the whole thing
+has is electrically neutral in that
+there is many electrons as there are
+protons and so it doesn't do anything
+special with electric fields it's just
+it you know it has no has no net
+electric charge but so what you do is
+you deliberately flick off one of the
+electrons so now your atom which might
+be for example for the guys here a
+calcium atom has one too few electrons
+hmm and what that means is that now it's
+it has a net positive charge which means
+you can push and pull it around with
+electric fuels you can make it come over
+here or push just push it away so you
+don't you can actually manipulate the
+atom hold it push it pull it without
+touching it with anything other words
+it's floating in the vacuum you can open
+it in yellow and you can shoot and pull
+it because you don't want it just
+bouncing around inside a vacuum chamber
+we want it to be in the mid part of our
+technology right so an ion is just an
+atom that has had one or for us just one
+electron flicked off so that now it has
+a charge so that now we have a kind of
+handle on it right so what do you do
+next you have a chip which looks to the
+naked eye until you really study it a
+bit like any conventional microchip and
+the chip has metal elements on the top
+of it often gold and those are designed
+to just create electric fields so you
+charge them up and now they have an
+electric field around them and they push
+and pull and push and pull
+your ion to keep it in one place not
+touching the chip but essentially
+floating above the chip so here you've
+got your vacuum chamber inside it you've
+got your ion trap chip which is just a
+bunch of little metal elements dirt
+cheap dirty actually very expensive
+because what they do is they they they
+design a particular trap layout and then
+they have to get it manufactured write
+it in terms of its components it's just
+some bits of metal on a sir it's much
+much much more basic than say a silicon
+chip so the ion trap is chip itself is
+nothing special and the atoms are just
+atoms but you've now trapped the atoms
+in the form of ions because this gives
+us the ability to have a grip on them
+floating in the middle of a high quality
+vacuum not touching anything and inside
+the box so now that's a beautifully
+isolated system and what you can do is
+you can have several atoms you can
+essentially have a gap and there's
+another one and another one and another
+one and then the first thing that you
+find or something exciting that you find
+is that a quantum superposition will now
+last a very long time compared to almost
+any other way of doing things so for the
+superconducting qubits that many
+researchers are excited and we do to
+work on that here in Oxford as well the
+decay time the amount of time that can
+go by before the wonderful zero one
+superposition just degrades is the
+tiniest fraction of a second of the
+order down to a microsecond something
+like that for us the guys over the road
+have done 50 seconds without let's say
+any particularly advanced or special
+tricks and it's all ten minutes is also
+achievable by another by another lab
+using some extra tricks but 50 seconds
+which is a proper amount of time might
+take me longer than that to explain it
+but it's a you know that's how long
+without any intervention without any
+special tricks and techniques to keep
+things alive
+you just put just I mean yes thank you
+keep being conscious of how I'm being
+dismissive of some super called room
+temperature so this is at room
+temperature okay so you take your ion
+you use a laser actually to put it into
+a zero and
+superposition and then you come back and
+you see if it's still in the
+superposition you put it in and later
+and one way you can do that is you can
+reverse the operat so you can use the
+canceling laser pulse the opposite
+effect of the one you just did and so
+you take your zero your zero state and
+make it zero plus one and then you come
+back and you do exactly the reverse
+process and if nothing has changed that
+should take you back to state zero but
+if the thing is degraded then who knows
+you'll be in some random state so you
+can come back 50 seconds later and have
+a good chance that it's the you know
+that indeed you get back to the initial
+state which means nothing went wrong for
+50 seconds and if 50 seconds isn't
+enough for you there are some techniques
+which the Chinese group has pianned
+pioneered where you can push that out of
+ten minutes but the thing is that 50
+seconds is enough because in that time
+you could have done a huge number of
+little processing operations low-level
+processing operations inside the machine
+you could have got tons of work done in
+those 50 seconds because you can do gate
+operations on the order of maybe
+hundreds of microseconds you could get a
+vast amount of stuff done or in fact a
+fraction of that now so you can get vast
+amount done in the time what's called
+the decoherence time which is the
+lifetime of your qubit so in the
+Schrodinger cat picture the cat would
+actually never not stay alive and dead
+for permanently because in any real
+experiment their box would always be a
+little bit leaky of leaky for
+information so after some amount of time
+which might be you know a minute or or a
+year the cat would actually indeed be in
+one state or the other and so that we
+could call that the decoherence time
+it's the case for all quantum approaches
+as well and one of the big measures for
+how well you're doing is what should a
+coherence time are decoherence time is
+excellent because our system is
+incredibly well isolated from the rest
+of the world and so are we swapping in
+new qubits every time they're like after
+50 seconds throw in another one and then
+right so 50 seconds is a long time but
+it's not forever
+so yeah you two options of this one do a
+calculation that
+the start of the calculation to the end
+is fair bit shorter than 50 seconds that
+means everything will just behave as it
+should and if well before 50 seconds
+you're anyway measuring the system
+getting the answer out now for the first
+quantum algorithms that we made you know
+the first serious ones that might do
+something useful the perhaps we'll see
+in the coming year that's probably going
+to be the approach just go for it try
+and get stuff done however it's not
+really the answer for a long-running
+calculation that might take hours days
+because that's you know you can't
+suppress decoherence for that long but
+the same techniques we were talking
+about before that will generally allow
+you to correct errors including errors
+that you made because you didn't control
+things perfectly we'll also Hoover up
+these occasional and in fact if you are
+doing let's let's think about it if
+you're doing maybe hundreds of thousands
+of operations per second and those ones
+have a one chance in a thousand of going
+wrong then you're making a huge number
+of errors per second the fact that after
+50 seconds the thing would go wrong
+anyway is just a drop in the ocean so if
+you're already on top of your game in
+terms of controlling that rate of errors
+which we know that we can be then that
+fifty seconds is no problem it's
+actually so much of a weaker effect it's
+trivial we don't even bother putting it
+into our calculations usually because
+you know you're dealing with thousands
+of times like it's like a fire hose
+compared to a dripping for four set
+right so we're dealing with the fire
+hose we don't bother putting in the
+faucet in literate to be honest with you
+the only reason in my calculations I
+would put that in for an ion trap
+calculation is if the referee told me to
+write so robbery of my paper and maybe
+didn't a hundred percent understand it
+and says this is an exciting paper but I
+can't believe that they've left out the
+effect of a musical decoherence I'm like
+all right so then I politely reply to
+say we thank the referee for pointing
+out our emission and we have now put
+that it right and what that meant was
+you know that the effective rate of
+errors gone up by the tiniest amount and
+you guys are so polite all the diagrams
+look exactly the same so iron traps are
+a very beautiful system in that they've
+taken nature
+natural quantum unit and successfully
+isolated it or a bunch of them from the
+rest of the universe and we the the fact
+that they discussed success successfully
+isolate them is seen by the fact that
+they will last in one of these delicate
+quantum states for a long time plus
+we've also now learned to control them
+and get them to talk to each other to
+this very high level so they are
+actually the gold standard of qubits
+but they aren't the only approach you'll
+hear about in fact if you look online
+you will hear more about the
+superconducting qubits which is the
+approach to might the main approach that
+Google and IBM and even Intel are taking
+so that's a different approach and it
+has different strengths and weaknesses
+so yeah let's assume let's go with yours
+for now because the question I'm curious
+about yes so the way you tell it to me
+like okay this is working this is good
+fair enough like let's assume that um
+that's scaling it is the challenge
+writing is the challenge so actually
+it's been a few years now since these
+very nice numbers were obtained 2014 for
+this for this 99.9 percent so why in
+2015 have we not already built the
+quantum computer if now the theorists
+are saying look I've got some blueprints
+and designs and we're good we're all
+work exactly and the lab guys are like
+well I good news we've actually cracked
+that number and is like boom let's go
+yeah right well it is the problem of
+scaling so it's one thing to have put a
+small number of qubits in a box in the
+lab and worked on it for a month and
+then on a really successful Tuesday
+afternoon it you get beautiful data out
+to prove it or works and then you get a
+paper that's how science it'll sort
+progresses it's a gap between that and
+figuring out a how would you make that
+work not on a lucky Tuesday afternoon
+but every single time in a robust way so
+that's a kind of an engineering problem
+really it's it's taking away the the
+things the uncertainties that were
+basically not making the experiment work
+on Monday but on Tuesday it did right
+that's just a development process but
+moreover it's saying how can I go from
+having two or three of these guys
+behaving themselves
+having like thousands of these guys
+that's the scaling problem everyone is
+focusing all their attention on the
+scaling problem now the first
+interesting number is actually about 50
+cubits Y so here I have to say a phrase
+that it's not my favorite phrase okay
+quantum Supremacy case sounds a bit
+racist or something
+it is quantum supremacy also sounds like
+the end of the road for everything that
+isn't quantum well it sounds like AGI
+right oh yeah it's all over we've got
+friends we're done you don't have a job
+quantum supremacy is in that sense a
+rather an hyped up phrase but it refers
+to something that is very exciting and
+that is we hope about to happen so
+here's my question for you how big does
+my quantum computer have to be before it
+could potentially be useful right well
+how could we even answer that one way is
+this we could say my ordinary computer
+especially if it's a supercomputer can
+pretend to be a quantum computer
+we know the laws of physics that are
+governing the quantum system we know the
+equations we can't put them digitize
+them and put them into software on a
+conventional computer and then we can
+say to the conventional computer ok you
+are now simulating or emulating if you
+like a quantum computer and if I set my
+quantum computer going and did this
+algorithm what would I see now for one
+qubit that's easy and actually one qubit
+we could do it on the whiteboard
+maybe we just just think about what
+happens with 1 or 2 for let's say 15
+cubits I could write an app it's not in
+my pocket I could write an app for my
+iPhone that would simulate a quantum
+computer that has perhaps 15 cubits ok
+easily for 30 29 cubits I would need a
+very expensive laptop or a nice laptop
+and I would be able to use that machine
+to pretend to be a quantum computer with
+29 or 30 cubits if I have access to some
+of the world's largest supercomputers I
+could push it to perhaps forty five
+that's been done or a little higher in
+term
+of the number of qubits now what I mean
+by this is I don't want to make any
+approximations I don't want to like make
+it a bit like a quantum computer
+I want the conventional computer to
+exactly replicate what a real quantum
+computer would do full the full monty if
+that's what I want I with enormous
+expense like renting time on a top 10
+supercomputer I could push into the high
+40s in the number of qubits but the
+thing is every time I add one more qubit
+I double more than slightly more than
+double actually the difficulty of the
+task and in fact I double the amount of
+memory I would need so 45 qubits
+required naught point 5 is sort of my
+work this is own workouts where in the
+community it required for no point five
+half a petabyte
+of day of RAM radically a bit of a
+traditional yeah in your supercomputer
+age would be distributed over about x
+axis now if you wanted 46 you need a
+petabyte if you wanted for seven you
+need two petabytes ok 47 is that not
+that much more interesting than 45 that
+you would build a machine four times as
+big right yes it's this exponential
+increase which is exactly what we expect
+because a quantum computer is supposed
+to be exponentially more powerful yeah
+than a conventional computer or for
+certain tasks and so it's no surprise
+that when we try to get our conventional
+computer to pretend to be a quantum
+computer right we can we can get so far
+but we we're on this incredibly
+punishing curve yeah so quantum
+supremacy is a word that's used
+sometimes people say quantum advantage
+or so that's there is actually a phrase
+which I would love to advocate but I
+can't with a straight face which would
+be quantum in imitability because no one
+can say I even have to think spelling
+it's the right it's things and it just
+sounds too technical and boring but
+that's what's really happening because
+once let's say 50 cubits sure you could
+with an enormous effort build a
+conventional computer that can simulate
+50 right right but that would need a
+large proportion don't be like her I'm a
+bigger bigger than the current
+supercomputers right and why would you
+because then you still wouldn't be able
+to do 51 right yeah
+so that point at which it just becomes
+ridiculous to Bob
+trying to match the power of the quantum
+computer that turning-point is referred
+to as quantum supremacy or you might say
+quantum inevitability because you
+literally can't imitate yet the quantum
+computer with any sensible sane amount
+of classical computing power and so what
+that means is that there's no point if
+you think you've got a clever idea for
+what to use a quantum computer for and
+that's gonna change the world if your
+idea involves much less than 50 cubits
+you're wrong because you may have a very
+nice idea but what we would do is we
+would just make that into a program that
+runs on a conventional computer right
+and you could just have it you don't
+need to have a quantum computer so once
+you're above 50 cubits let's say 64
+because that's a nice binary number and
+it's much more than 50 so there's no way
+you'll be simulating completely a 64
+qubit quantum computer or any kind of
+classical hardware so you can make that
+machine it has the potential to do
+things that we can't do by any other
+means now something you should I should
+immediately mention at this point is we
+don't actually know anything the
+theorists have not worked out anything
+that a 64 cubic quantum computer can do
+that's super useful okay including like
+breaking crap codes and stuff like that
+which is useful if you're the NSA or
+whatever cherem is breaking codes is in
+the category of things that needs at
+least thousands of qubits but because
+it's a big tough long-running task it
+also needs this whole error correction
+thing to be going on and that boosts the
+size of it because once you say oh wait
+I need error correction then you have to
+do this thing we talked about where each
+logical qubit is actually a bunch of
+physical qubits and for a really long
+Angermann it might need to be a lot of
+them so you'll be from thousands into
+millions of qubits to do the code
+breaking stuff so actually we've got
+this enormous gap between the point at
+which quantum computers could be useful
+for something which is 50 and the point
+of which they're definitely useful for a
+whole bunch of stuff that we've worked
+out on paper which is more like a
+million qubits right so fifty to a
+million that's a bit pretty big gap
+and we and we need there to be stuff in
+that gap because otherwise that the
+thing I like to say is it's a bit like
+showing an iPhone to a guy from 1965
+right you're like good news the stuff
+you're working on these big clunky
+computers are gonna give us this it's
+gonna happen right in the first poet
+anyway so we're all gonna have these
+amazing machines right right so the guy
+it might be super inspired by that might
+jump out of bed in the morning thinking
+yeah okay and I'm part of this epic
+quest right but when that guy goes to
+their boss and tries to get funding for
+1966's right it's no good to say in 2018
+there's gonna be these are awesome
+players right so that's our problem for
+quantum computing as well what we've
+worked out on paper is stuff that needs
+pretty big computers and we don't know
+how long it would take to get there what
+you know maybe hopefully not decades but
+you can take there in more than a decade
+to get to the point where we have
+millions of well behaved qubits on the
+other hand what we believe is about to
+happen in the coming year is that people
+will start to bring out qubits Nursery
+quantum devices that are apt or just a
+limit over the quantum supremacy
+threshold this number a lot of people
+are racing to deliver 50 cubits because
+it's this kind of magic number
+so those machines however won't as far
+as we know be immediately useful for
+stuff that people really want to do
+we'll be able to test out their
+quantumness and show them off with a
+whole bunch of ideas but it won't break
+codes it won't what are some of the
+other things people are excited about
+are breaking codes is often mentioned
+and it isn't a very positive application
+by the way breaking it codes but it is
+very interesting because the difficulty
+of breaking codes is so well-established
+and therefore if a new machine comes
+along and can do it the machine must
+have something special about it that the
+old ones didn't have right that's why
+it's so exciting as I sort of a showcase
+but as a counterpoint of that the code
+could also be created by a quantum
+computer correct that's true funded okay
+that's true so that it quantum giveth
+and taketh away but Iran taketh away and
+giveth because a quantum computer would
+crack the codes that we rely on today on
+a classical computer yes but we can also
+divide design communication systems that
+are protected by quantum physics where
+basically an E
+strata who tries to see what the
+communication is would cause unnecessary
+disturbance like the uncertainty
+principle it's necessary if you measure
+a quantum system to disturb it and that
+would be detected so quantum can also
+offer you it's almost like a Salesman
+you're like it fab use all your current
+technology for security is you know
+become gonna become if you good news
+brochure right but um yeah so the the
+things we are excited about that quantum
+computers will one day to code-breaking
+not most exciting but a very important
+proof of the power of the machines but
+what people are really more excited
+about quantum enabled discovery is a
+phrase which basically means hmm in
+science and also in industrial rd like
+drug discovery and so on there's an
+enormous amount of trial and error
+because it's not possible to use
+software to predict what what's going to
+happen so we can't predict what would
+make a great superconductor and in that
+way just go uh sell or I will go make
+that that will be an amazing
+super-galactic
+trial and error trial and error we we're
+not very good yet at predicting how to
+synthesize complex molecules so chemists
+who have an enormous amount of intuition
+and years of experience just go and try
+it and they occasionally get a break
+through trial and error a trial and
+error if we could have a far more
+powerful machine for predicting the
+behavior of these things we could take
+the trial and error out imagine you're a
+chemist you want to synthesize this big
+fancy molecule because you believe that
+it will help with Alzheimer's or
+something like that it's exactly the
+right molecular shape instead of trial
+and error you just set that task to your
+quantum computer in the morning the
+quantum computer come back and a quantum
+computer says well I had to think about
+it if you do this and then this and then
+this and then this with this chemical
+and this chemical brain will synthesize
+that thing right that would supercharge
+the rate of progress that we have in
+various areas so molecular synthesis in
+materials design and discovery and could
+give us perhaps it's high P for me to
+say it but almost a golden age of
+rapidly discovering new materials new
+chemicals new drugs so that would be
+very in this exists in a how many qubits
+are we talking right here exactly so the
+Skee the ideas that the theorists have
+worked out thoroughly already yeah would
+again seem to need millions of cubits
+but there's hope that some of these
+tasks may actually work with far fewer
+cubits and in particular some of these
+tasks may not need the error correction
+thing and the error correction thing is
+great as a as a principle but it
+requires you to make the quantum
+computer much bigger because you have
+the logical qubits which turn into a
+bunch of physical qubit if you don't
+need that if you can just use the direct
+atoms ions of your computer as the
+logical qubits then you can maybe get
+stuff done with one hundred qubits or a
+couple of hundred qubits probably a bit
+more than 50 but you know your app that
+could be an application that sits near
+to the the kind of end of the chasm you
+know 50 to a million that's this big gap
+yeah we're at the 50 end is there a
+stepping stone a very interesting
+stepping stone which would be the
+ability to simulate chemistry and
+material system that's actually quite
+near our end of the chasm that would be
+super exciting right and does this
+relate back to your network design
+before cuz I you planted the seed no I
+did like to see so yeah I kind of want
+to harvest it so yeah if we're now
+saying look I understand this fault
+tolerance is threshold this all that's
+exciting stuff but that stuff lives at
+the other side of the chasm that's what
+you do with your million cubic quantum
+computer to make yourself to run forever
+yeah but now let's focus on what we
+might get done in the next two or three
+years you know what are these first
+machines these these embryonic or
+adolescent quantum computers going to be
+able to do now we come back to
+connectivity if I have to swap my qubits
+ten times or a hundred times before it
+gets next to the guy it now needs to
+talk to that's very debilitating because
+now I will pick up loads of error on the
+way over there and my whole algorithm
+will be very burdened with error and we
+aren't using these clever error
+correction techniques we can't afford it
+in terms of the number of qubits we've
+only got 200 right by the way two
+hundred qubits I mean 50 is where we
+want to be in the coming year yeah
+hopefully that will become 200 fairly
+enjoy the baseline where we at right now
+that's right so where we're at right now
+is that various labs around the world
+can give you 20 cubits ok-ish 10 to 20
+what's been an
+and trailered sometimes announced
+sometimes kind of unofficially in there
+by some of the big companies is that
+they're working on a 50 qubit machine
+okay because that's the obvious you know
+goal right it's the get to 50 and that's
+typically in a grid that's like a seven
+by seven that would give you 49 a grid
+of qubits but that those plans those
+designs our nearest neighbor ones which
+means if you want the guy in one corner
+to talk to the other if you swap stop
+stop stop stop stop stop stop so you'll
+get a lot of error in there so we're in
+the regime of like tens of qubits trying
+to push 250 now the network approach
+we're taking is a very different
+philosophy the number of qubits we have
+for a long time has just been a handful
+of them like five and we're not trying
+to scale that up and why not because
+five is far too few to do anything
+useful what we're trying to do is have
+five inside a box that behave really
+well and make a beautiful little useless
+but beautiful little quantum computer
+and then to understand how to link that
+box to another box with an optical link
+and the idea is that if you can crack
+that if you can have a small quantum
+computer and make it link to another
+small quantum computer that's sitting
+right next to it and if you've mastered
+that then nothing stops you except your
+checkbook I guess from making loads of
+them and linking them up that's our
+approach to scalability it's not to have
+the qubits directly talking to each
+other and then you say well I've done 20
+let's see if I can do 50 that was super
+hard let me shoot for 64 we're adding
+more and more complicated I'm having to
+control more and more parameters it's a
+nightmare which is the way it's been up
+to now anyway
+instead we're saying look let's just get
+really good at making a small module of
+fixed size and learn how to plug to
+connect to modules so they can talk to
+each other so it's it's a quantum
+computer that's divided into little
+pieces and each piece is independent and
+it's pretty much plug and play in the
+sense that you just if you if you had 50
+of these modules then that would be a
+very powerful machine if you manufacture
+another 10 you just plug them in and now
+it's an even more powerful machine and
+in this this optical link doesn't have
+the same degree of disturbance that's a
+very good question
+so how does the optical link work it the
+optical link
+does indeed have a lower quality to it
+than the internal operations which will
+be super good yeah at this ninety nine
+point nine that we've already gray okay
+um so the the reason people don't do
+this because it sounds like a great
+solution like why don't everybody make a
+little quantum computers and link them
+up is the answer right it is the answer
+but there is a problem which is that the
+links up that they there's nothing in
+the physics that means the links can't
+be beautiful and very clean and very
+high quality but in terms of the
+experiments that have been achieved so
+far the links are not great so you might
+have inside your box one part in a
+thousand is your error rate but for the
+links one part in ten might be your
+error rate so then you think well that's
+no good
+because if I'm joining up these
+beautiful little components with crappy
+connections the whole machine is
+actually going to be crappy not
+beautiful right so but there's an answer
+to that which is very much like what you
+would do in conventional technology
+which is that you use the link several
+times and you that by using it several
+times you can effectively get one better
+quality communication out of it right so
+your phone I keep reaching for my faves
+on here but yeah your phone if it's on
+the edge of your if it's in one bar of
+your wireless that's at the point where
+it's it's very iffy whether it can
+connect or not but when you load a
+webpage it loads more slowly but it
+still loads perfectly it's not like the
+images are full of static no yeah and
+that's because your phone can keep
+requesting it uses a code to protect the
+information it can also request so it
+can say I didn't get that send it to me
+again
+right so we know now how to use the same
+kind of idea in the quantum setting to
+say I've got a bit of a crappy link
+between what we might call the Alice
+module and the Bob we love Alice and Bob
+in the quantum field a and B right fair
+enough you must okay so you're sending
+packets the whole thing like that right
+I'm being a little bit loose so the
+actual thing we do is something called
+entanglement which is we haven't
+discussed but that's the other big most
+people have heard or any quantum
+involves something called entanglement
+right yeah Einstein called spooky and
+blah blah blah the test of whether your
+quantum computer can really be broken
+into little modules and wired up one way
+to ask that question precisely is to say
+can you achieve good quality
+entanglements between two modules
+that would be the proof that they are
+actually part of the same quantum state
+part of the same quantum machine and if
+you cannot get entanglement between the
+Alice module and the Bob module then
+your machine will forever really just be
+a bunch of separate units that aren't
+teaming up to create one quantum state
+one quantum calculation so you could say
+then all right I've got a link between
+my two boxes let's think about that link
+what quality of entanglement can it
+create between the Alice ion trap on the
+Bob one and I might say well not very
+good only ninety percent and then you're
+like well that's not very good that's
+not good enough for me I'm gonna so what
+we actually do is we create a couple of
+qubits that are entangled at ninety
+percent not very good and we store them
+and remember we can store stuff
+practically forever
+oh is that well 50 seconds but that
+range and then we create another what we
+would call another technical phrase at a
+bell pair which means two guys that are
+entangled with each other and again
+there'll be a 90 percent quality there
+will be you know not good not hot not as
+high as we want but now we've got two
+why would school crappy Bell Pez and
+what we know how to do is to sacrifice
+one in order to boost the quality of the
+other so it's a little bit I mean this
+is too loose an analogy but it's a
+little bit like if if you someone's
+trying to talk to you and it's a little
+bit
+staticky if you hear it once you're not
+sure but if you hear it twice even
+though it's staticky both times you're
+able to infer more reliably what that
+what that information was so that's a
+very loose analogy but basically we take
+two poor quality communication channel
+uses and we make it into one good one
+hmm and that is the prop that is the
+solution to that problem as long as your
+boxes have a very good memory they do
+have a very good memory as long as they
+have very good quality internal
+operations which they do have then you
+can take a poor quality link and boost
+it by using it a few times into
+effectively a very good quality link as
+good actually as the internal operations
+so we we actually are planning to build
+a machine which will be made out of
+modules which each one is a small
+quantum computer and by the way so small
+that on its own it's not good for
+anything okay even as few as five cubits
+right
+and then we we have modules and we link
+them up and when two of these modules
+need to talk to each other to become
+part of a single unified quantum state
+will use our link and our link will need
+to be used several times and then
+purified or distill this is the phrase
+we use in order to make it as if it was
+a very beautiful very perfect link and
+now these two modules will be connected
+in a high fidelity high quality way and
+does this perform at the same degree
+that say so say your your 10 cubed
+quantum computer while you're stitching
+them all together
+is it performing at the same speed as
+one of these 50 cubits yeah and that's
+another great question so initially no
+okay because the links are individually
+they're fast in there could be about
+megahertz rate or something like that
+but the problem is is a technical
+problem a very interesting one that
+we're having at the moment is that the
+links are optical so what happens is a
+particle of light called a photon comes
+out of your ion and flies out of your
+iron it needs to be caught and put into
+a optical fiber and that needs to be
+going on at the other end as well the
+problem is at the moment most of the
+light gets lost it doesn't it comes out
+of the ion it just hits the wall of the
+chamber or we know how to solve that
+problem by essentially building what we
+would call a cavity which is a way of
+catching and controlling light into the
+system and we're working on it but for
+the first generation of the technology
+that we envisage we won't have that
+there's a little bits two steps down the
+road so instead we'll have to just deal
+with the fact that we that these links
+are kind of slow in that you you try to
+use the link and nothing happens you try
+to use the link and nothing happens you
+try and you succeed and then you have to
+do that a few times so that slows you
+down a lot so the actual rate at which
+the clock speed if you like sure of our
+modular quantum computer will be limited
+by the rate of connection in version one
+but for version one we don't really care
+how long it takes to run because we'll
+be doing small problems that can fit in
+fifty or a hundred or two hundred qubits
+so they'll be fast anyway and it doesn't
+really matter if they take it's not this
+is oversimplifying witters doesn't
+necessarily matter if the calculation
+gets done in ten micro
+seconds or or in 10 milliseconds or
+indeed in 10 seconds because it's a
+small calculation anyway that we're
+trying to do so what we envisage is a
+first generation of this technology
+which so you've drilled right down to it
+actually it has interesting properties
+versus these 50 these 7x7 grids it's
+slower mm-hm but it's higher fidelity
+and it's higher connectivity we believe
+that it will actually be you would use
+them for different things but if I'm
+gonna choose one I'm gonna say ours is
+the better okay and then as things
+mature and you have more and more
+modules and you start to take on more
+and more challenging problems and it
+starts to become frustrating that you're
+limited by the link speed then we have
+this solution that will basically stop
+us wasting over light catch over light
+and then we come right up comparably to
+the speed of other approaches whilst
+still having the very high connectivity
+and the free scalability and so on so
+what we actually picture is some if you
+if you've seen those photos of say a
+Google server farm you need these very
+big facilities where you've got in you
+know look in different directions you've
+got these pillars running off into the
+distance you can picture something like
+that for a single quantum computer if
+you want where you have a bunch of
+modules yep and they link and you have
+the fibers coming up and going you know
+in sort of cable guides and coming back
+down again and so you build your quantum
+computer in a big room but why not rooms
+are relatively cheap compared to quantum
+computers so it doesn't really matter if
+it's big or small it means that the end
+user won't directly have a quantum
+computer in their phone for any time but
+the to be honest there's no approach to
+quantum computing that's that's that's
+at the same sort of level of maturity as
+superconducting qubits or ion traps that
+could possibly fit a quantum computer in
+your phone but that doesn't matter
+because the way you use your phone to do
+the more challenging tasks even speech
+recognition is typically in the cloud
+right we would say in the cloud so as
+long as somewhere there's a big fat
+quantum computer behaving itself
+achieving you know having a low error
+rate having the necessary connectivity
+being big enough to tackle the tasks
+then in principle that can be doing jobs
+not just for the scientists and
+researchers but if you've been able to
+of an application so machine learning
+might be one of them that actually
+benefits the end user the end user can
+also use the quantum computer so we
+picture this kind of thing a modular
+machine where you have as many modules
+as as you need to get the tasks done and
+by the way at the moment our module that
+the vacuum chamber in the lab is this
+kind of size oh really chunky okay not
+too bad I saw that photo floating around
+someone here won an award right for
+their floating oh yeah there are
+actually quite pretty because they're
+sort of shiny metal and they've got
+these cool portcullis things in the side
+they look a bit like steampunk
+technology so they're about this size
+the reason they're that size is because
+in the lab you want to be able to get
+your hand in there right you don't you
+it's human scale technology you know you
+want to get screwdrivers in there and so
+on
+but there's nothing inherent to the
+technology that would make them be that
+energy they would work a little bit
+better if they were miniaturized so you
+could shrink that down to a far smaller
+little vacuum chamber and that's your
+little quantum computer and then you
+want 50 or 100 or 200 of those but
+that's not so bad you know just lay them
+out and so we that'sthat's our picture
+is that that's the thing we'd love to
+build actually and there is no
+fundamental impediment to that actually
+so if someone came to us and gave us a
+billion dollars we could have a crack at
+building that tomorrow but no one has
+given us a billion dollars so instead
+we're taking a slightly more sort of
+traditional academic conservative route
+of thrashing out the physics of two of
+these guys and then having a think about
+how to sort of come up with the next
+generation which is a bit better and
+then building four and then building 16
+and 32 and 64 but there will certainly
+be a point and I think actually much
+earlier than 32 so it once you've
+cracked the physics of even two of these
+guys you're good to go in the sense that
+you know you can you can just partner
+with a company that would manufacture
+these things and you can just have your
+constitute together and go and in fact
+this this network approach is I think
+the only one that if you wanted to
+Manhattan Project it right or moonshot
+is in one of these big projects that
+have happened in the past where you have
+a goal that's extremely challenging and
+you just decide you're going to make it
+happen
+if you want to do that with a quantum
+computer if you said look I I'm
+impatient to wait 10 years 15 years for
+the big quantum computers to come
+I want it to come now
+the network approach is the only one
+that could potentially deliver that
+because we just when we think about
+approaches where the qubits are right
+next to each other and just make that
+structure bigger and bigger and bigger
+people are having heroic efforts now to
+deliver 7x7 grid but from talking to
+those researchers it doesn't seem to me
+that they will then immediately know how
+to do you know a 10 by 10 grid that will
+bring a whole new raft of problems and
+levels of control challenge and so on
+at some point presumably you do know how
+to just keep on scaling with a
+relatively modest amount of new
+investment but with the modular approach
+as soon as you've got two guys that link
+really well you can have a million if
+you can afford the cost of one times a
+million right the serve I mean there is
+no difference in tirana on the system
+lines change right and so on the
+timeline side like are we talking within
+a couple years that you guys are gonna
+make this happen you think well it
+depends on how much interest there is in
+actually trying to build the machine
+that's potentially useful academics it
+left of their own devices will tend to
+go hard for the interesting scientific
+results but they don't really we don't
+really know how to tackle the problem of
+building a big facility that's not a
+problem for a university professor
+I mean or the funny you don't have the
+same incentive as a company not exactly
+a company would be saying to its
+shareholders or investors look here's
+our year one his are you two is our year
+five milestones and we'll be able to
+achieve each stage yeah academics
+working in a different way right but
+what I will say to you is that certainly
+sorting out thoroughly and demonstrating
+this idea of two modules which fully
+linked together to form a single unit in
+practice so you know to the programmer
+it's a single quantum computer the
+engineer knows that it's been broken
+into two pieces with an optical link so
+getting that demonstrated is is an
+immediate goal for us in the next year
+getting authority demonstrated whether
+we then go hooray
+let's go thousand of them right I would
+love to by the way no I would love to do
+that yeah there is nothing more exciting
+than saying we've cracked it the more
+naturally academic route would be to say
+okay we've got that now let's get that
+cavity thing in now let's do this now
+let's do this and
+and you know you just keep making the
+physics better and more exciting and
+more well controlled but I do believe
+that once you've got two modules that
+talk to each other really well and have
+all these lovely properties you are you
+you you you have a green light to go
+large on that if you want to and yeah it
+but it is okay this probably get a bit
+boring but it's um it's an interesting
+problem all around the quantum computing
+field not just for people who want to
+build networked machines that you you
+think how do you actually get from the
+lab to some kind of device you know
+that's a problem that people have met in
+many different areas
+over the years but I think it's
+particularly acute for quantum computing
+because it is such a difficult to
+understand technology it does require
+such a lot of detailed know-how it's not
+easy to do let's say tech transfer out
+of the laboratory into some kind of
+commercial setting but it's happening
+there are spin-out companies coming from
+academics all over the place now as they
+start to wrestle with this question of
+how can I have a an investor facing
+aspect of my research where I can indeed
+start to think about these exciting
+questions let's build yeah do you think
+now is the time just kind of wrapping up
+that people are gonna start rolling out
+you know like cloud compute or are we
+not quite there yet
+um I think there are already companies
+which aim to do that
+I think so too so in that sense we are
+there I I think that um I'm excited by
+that and yet also a little bit worried
+by it because of course when a startup
+company especially but even a you know
+Titan like IBM when they need to explain
+their actions to their investors and
+excite their investors and shareholders
+and they're going to pitch things in a
+very optimistic way that an academic
+would normally be more cagey about and
+there's that tension that I already see
+in the fields between the story that
+you'll hear from you know and the worry
+is that it will create too much
+expectation there will be too many
+stories appearing in the Economist and
+whatever about how quantum is going to
+revolutionize everything I don't know
+quantum supremacy as exciting as the
+phenomenon that it refers to it is a
+little bit I'm afraid
+and feeding into that hype because if
+you're an investor and you've read a
+little bit about this you're like right
+I'm going to invest in this company that
+will achieve a 50 qubit machine it will
+get quantum supremacy and then profit
+yeah and there is no no it's one of
+those step 1 step 2 step 4 is profit or
+whatever yes show those migrate we don't
+yet know useful things to do with a
+small quantum computer we're furiously
+working on that and we haven't talked
+about machine learning that's another
+sort of interesting possibility that's
+being explored to put it simply we
+talked about the enabling more rapid
+discoveries which is very exciting but
+we can't yet prove on paper that a small
+machine will be able to do those things
+with your ously investigating it so the
+risk is that people get too excited they
+think things are going to happen in the
+next one to two years in terms of not
+just the exciting machines coming out
+but in terms of actual useful
+breakthroughs you know this drug was
+developed under yeah one two or three
+thousand you know that kind of stuff
+within the next couple of years which
+might happen but could very easily not
+happen and you know the hype machine
+starts to feed itself so in artificial
+intelligences we were talking about
+there's been a couple of AI winters
+which the guys now when I heard the
+phrase AI winter I assumed it was like
+from when Skynet launches all the nukes
+right and then we're a sci-fi thing but
+our AI winter is just that the field
+started to attract loads of attention
+their loads of investors and then it
+didn't quite deliver fast enough and
+then suddenly became toxic to say that
+you were working in AI and that was like
+nonsense and silly stuff for academics
+and but not once but twice right and any
+for a couple of years the field
+struggles to get funding and then starts
+to build up again I mean I know people
+working in machine learning now that are
+very concerned there's like we want to
+be able to continue working machine
+learning is now working in the sense
+that it's working in facebook it's
+giving us self-driving cars and yet
+somehow expectations still manages to
+run ahead of it right people just can't
+stay calm and so it's there's even a
+possibility that will happen again for
+sure be over invested it might be that
+that's just the way things have to
+happen but it would be kind of nice as
+an academic a slightly more sort of
+conservative I want to see more linear
+progression so I'd rather that the
+quantum computing field did not over
+inflate and then collapse and then we
+we'll have to really struggle to get
+funding for a while and then it can
+build up again it would be nice if we
+could actually model a hobo who knows
+but it is I'm more excited than I've
+ever been to see these because we are
+now getting on the verge of getting
+machines that will behave in ways that
+cannot be predicted cannot be simulated
+we'll be in the regime where we're
+genuinely discovering how the machine
+behaves by having one and that's what
+we've been dreaming of all these years
+and there is also the potential to just
+really commit and try and build a big
+machine which I would love to do but who
+knows the last question and if someone
+wants to get involved you know start
+working in quantum computing somehow
+yeah where do you think they can provide
+the most value oh gosh well I mean the
+answer to that question is a richer
+answer than it was even a couple of
+years ago but a couple of years ago the
+real answer would be to be honest you
+need to be in university as a young
+person you need to choose the right
+course options and you just need to go
+into academia now there's a richer way
+set of ways you can get involved still
+that's the primary one to be honest
+right but there are companies that are
+recruiting people with all kinds of
+expertise now including for example
+software engineers who don't know
+anything about quantum but they do know
+about writing high-performance software
+my work with some such people right
+because one of the things we want to do
+is push the limit of how well our
+conventional computers can pretend to be
+quantum computers that's important also
+to check that the emerging quantum
+computers are really doing what they say
+that right right for example if you are
+a programmer who would love to get
+involved with this there are now
+opportunities where you can provide that
+part of the puzzle or if you are a
+systems engineer who doesn't again have
+a huge background in quantum physics but
+wants to be part of this process the
+good news is people are now trying to
+build these complex machines that are
+really too much for the laboratory and
+are really complex machines that need to
+be developed in a separate project and
+so we are looking for people who know a
+lot about systems integration or these
+kind of problems and they don't need to
+understand the deep properties of the
+quantum aspects of it so you know
+getting a vacuum chamber that has a good
+optical interface is a set of problems
+which enable a quantum computer
+but you don't need to understand quantum
+superposition and the field is trying to
+diversify to include more such people
+not just professors whose merit measure
+of success is can they get a paper into
+science major but people who are
+outstanding engineers and programmers
+who don't care about getting papers into
+nature but do care about meeting you
+know their goals and you know satisfying
+their contracts essentially so we are
+diversifying it is leaving academia or
+at least spreading out and so I would
+say anyone who has a lot of technical
+expertise in these kind of areas or
+anyone who's a very good programmer the
+doors now open to participate in the
+quantum revolution that's great well
+thank you so much for your time okay
+thank you
+it's been fun
+you

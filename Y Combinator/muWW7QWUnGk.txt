@@ -1,0 +1,1593 @@
+Title: Microbes, Robots, and Ambition - Robin Sloan on His Novel Sourdough
+Video ID: muWW7QWUnGk
+URL: https://www.youtube.com/watch?v=muWW7QWUnGk
+Channel: Y Combinator
+Published: 2017-11-29T15:32:57Z
+Duration: PT57M16S
+Views: 2316
+Likes: 26
+Tags: YC, Y Combinator, Robin Sloan, Sourdough, Author, Kat Manalac, Mr. Penumbra's 24-Hour Bookstore, Podcast, Interview, Craig Cannon
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 1567
+
+Description:
+Robin Sloan is a writer and media inventor based in Oakland - https://twitter.com/robinsloan
+
+He just released his second novel, Sourdough - https://www.amazon.com/Sourdough-Novel-Robin-Sloan/dp/0374203105?tag=robinsloancom-20&linkCode=as2
+
+Kat Manalac is a Partner at YC - https://twitter.com/katmanalac
+
+The YC podcast is hosted by Craig Cannon - https://twitter.com/craigcannon
+
+============================================================
+TRANSCRIPT
+============================================================
+
+so this is a kind of a weird jumping-off
+point but I listen to you on I think it
+was a Mother Jones podcast and you very
+briefly mentioned a machine learning
+experiment for the audiobook yeah could
+you talk about that a little bit longer
+sure yeah of course um well okay so the
+background is that as I've been working
+on these books that are in a lot of ways
+traditionally published even though I
+have an interesting very sort of
+forward-thinking publisher and CD they
+still get printed on paper and you know
+sold mostly in bookstores and online and
+places like that as I've been working on
+all that stuff for a few years now I've
+also like many people in this area many
+people that I'm sure you guys know I've
+been really interested to the to the
+point of sort of preoccupation with
+machine learning yeah in particularly
+the creative applications like less this
+super practical sort of uses and the
+ways that it might transform the economy
+and all that and I mean truly more like
+the ways that we can use some of these
+systems to mash and mangle and and just
+interact with like words and pictures
+and sounds in different ways so that's
+all preface the audio book first of all
+it's actually interesting to know for
+folks that aren't totally plugged into
+the publishing industry audiobooks are
+huge it's like they're growing like
+gangbusters every time I go to a
+bookstore and do a reading I ask people
+like how many of you also listen to
+audiobooks and I mean truly everybody's
+hand goes Wow it's like just a really
+really popular way to consume this media
+so kind of in step with that audiobook
+producers have gotten really serious and
+frankly a little bit demanding they're
+like okay mr. Sloan it's time to produce
+the audio book what do you got for me
+you know like what can you produce or
+what will you produce that will make
+this little distinct from just the
+printed book they don't want to just do
+like a recitation of what's on the page
+so for this book
+sourdough the story happens to hinge on
+this sourdough starter you know this
+little funny community of microbes that
+you used to bake this delicious bread
+and in the story there's a starter with
+some strange properties and there's also
+this singing there's like this music
+that I don't want to give any spoilers
+but it kind of helps the starter grow
+and it's all part of this mysterious
+package so I describe the music over and
+over in the book I mean like a great
+length like oh it's so slow and sad and
+mysterious like in a language that no
+one understands and so come time to
+produce the audiobook I was like if you
+go through this whole thing in your
+earbuds and you never hear even a scrap
+of this music like it's gonna be kind of
+disappointing unfortunately we did not
+have the budget to like hire the people
+who invent Dothraki Thrones or Klingon
+or whatever so we need some other way to
+like synthesize this sound that would be
+truly alien like it is it's not any
+language on planet earth it's something
+fictional something invented so this
+where it loops back around to that
+obsession with machine learning as I
+think you guys probably know one of the
+things that that these models can do
+really well is sort of take a corpus of
+stuff of you know training material and
+extract some patterns or general
+patterns and then use those to generate
+something new but different you know not
+just kind of mimicry of what you put in
+so I mean at that point it actually you
+know it took a lot of kind of learning
+and tinkering with the code actually
+struggling with the code at this point
+or flow or this was in actually funnily
+enough this program was in Lua in TOR -
+the original torch and totally a
+testament to just the power of this open
+source ecosystem I mean this was a paper
+written by one group of researchers
+implemented by this like rogue mad
+machine learning genius UK this kind of
+Richard SR who's just like I like bowed
+down to him and his generosity truly and
+like making this really wonderful and
+very useable implementation of this tool
+it's called sample rnm and it takes as
+many mp3s as you want to feed it chops
+them up into bits churns learning for
+days and days and days at least on my
+deep learning rig I'm sure Google would
+be like got it for me it took a few days
+and then in the end spits out this this
+really to my you're at least weird and
+and lovely to kind of generalization you
+know it tries its hardest to learn the
+essence of that music you fed it of
+course it kind of fails because
+nowadays models are actually that good
+yet at least had stuff of that level of
+complexity but the way in which I fail
+is really interesting so that's all the
+same that now in this audio book there
+is just these little whispers of this
+fictional music in this fictional
+language and to my knowledge is the
+first time that like the creative output
+of a machine learning system has been
+included in an audio book I mean I think
+it might be a tiny distinction but I am
+all about tiny distinctions I will like
+I just want to rack up all the like tiny
+steps for words the state of the art
+have you used the model to create
+anything else oh yeah I mean basically
+when after you've assembled one of these
+rigs or a couple of them in my case um
+you feel bad about ever letting them sit
+idle because I mean that's what they're
+for they've got these big beefy GPUs and
+and it's so hard and truly it's so hard
+to get all the weird little libraries
+and dependencies all lined up right so
+at having like done that you never want
+to let them sit so yeah like I have some
+models that are kind of always turning
+on different bodies of text you know
+just to try to see what happens and what
+emerges but there's one where I've
+thrown in all sorts of different kinds
+of music and sound just to see what it
+sounds like on the other end and sure
+enough I mean sometimes what comes out
+is just kind of a messy garble and
+sometimes it's really interesting we
+listen to it on sound phone no no you
+can listen to it on the sourdough audio
+book which is available on audible.com
+but no none of the other stuff is public
+yet it's not quite it's the other stuff
+is still at the level of you know and a
+lot of this stuff is it's kind of I
+think in this state it's like that's
+sort of frothy frumenty experimental
+like ooh there's like something there
+mmm but I personally don't quite know
+what that something is and so a lot of
+my work with this machine learning stuff
+is kind of trying to push through that
+to get to like you know a thing like a
+thing that's actually worth sharing on
+the other end and that is definitely a
+working partner and what were the input
+files
+in this case it was almost like a short
+circuit straight from my own inspiration
+to the output because of course you know
+this all started this project was only
+necessary um or you know I only sort of
+thought to do it because I had written
+about this fictional music and
+decisional language in my book and that
+came from my own experience listening to
+a kind of music that I've just long
+enjoyed and sort of thought was
+beautiful it's a kind of Croatian folk
+singing all a cappella sort of a chorus
+of voices in sort of odd harmonies it's
+called klaapa que la pa and so I just
+had my like you know folder pre-existing
+folder of just all the klaapa mp3s I'd
+ever how did you come across kalapa
+because who knows on the Internet I mean
+that's like always the answer to that
+question yeah somewhere on the Internet
+and it's just like for years I just I'd
+long loved it and thought it sounded
+lovely and so of course it was in my
+brain when I'm when I'm imagining this
+stuff and putting into my book and so
+then in a way I mean this might be
+reaching a little too far but I kind of
+feel like the machine learning system
+and I did the same thing just on
+different tracks like input right and
+like the experience of listening to
+something followed by some munging
+mashing step and in kind of abstraction
+step of course in mind I kind of had my
+response reaction in the music and the
+girl network had a different thing going
+on but then in the end we both spit out
+something actually something new and
+different
+I mean transformed but still obviously
+based on that on that same input and and
+did you educate yourself similar around
+robotic arms we've done all these like
+basically technical adviser interviews
+for TV shows and movies and stuff and I
+was researching her the other day hoping
+that there was someone there and Spike
+Jones explicitly said we don't want a
+technical adviser because I don't want
+to be bounded by reality yeah I just
+want to go for it that's awesome
+actually I mm-hmm I wonder I don't know
+if I'd like that or not I think I don't
+actually I I think there's probably I
+respect the people who are able to like
+dive deep and nerd out with the experts
+and remain unbound like you have to sort
+of say you have to be sort of greedy and
+like take everything that they tell you
+they'd be like who
+gotta go you know and into the realm of
+imagination and strangeness and wonder I
+feel like that's because I feel like
+that's sort of self-serving because I
+feel like that's sort of my model I do
+love to read about this stuff I do not
+own a robot arm of my own um I've never
+personally operated one but I have seen
+them operated and I think they're pretty
+amazing I state not just you know like
+mechanically or sort of yeah computation
+like aesthetically I think they're
+really interesting and lovely and and
+yeah and so the the inclusion of lots of
+robotic arms and people talking about
+robotic arms and thinking about robotic
+arms in this book was definitely was
+driven just by my own yeah interest in
+that's a great thing about living the
+Bay Area and also just frankly the level
+of tech journalism that exists today
+yeah boy you can glean a lot and not
+just surface level stuff but like the
+really deep mechanics just by reading on
+the internet and and kind of going down
+this rabbit holes YouTube right like
+anytime you want to go beyond these sort
+of description be like okay well what
+does it really look like or like how
+does it how does it swivel in space I
+mean there's a YouTube video to show you
+it's amazing but then okay so to give
+away a little bit of the book she Louis
+gets the sourdough starter she
+eventually starts making it herself she
+ends up in this kind of hidden farmers
+market and part of her part of her store
+is like making the sourdough with the
+robotic arm right and quarter that is
+cracking the eggs is that a real
+technical problem that exists um that's
+a good question I don't know for sure I
+suspect I call it like the egg problem
+yeah capital e capital think it's like
+you like I get all these roboticists are
+like yes the all that stands between us
+and domination of all the world's
+economy is AGI then the egg problem yeah
+exactly and I so I don't know I kind of
+suspect that it is a problem it has been
+my perception I could be wrong this is
+probably where it buzzes into into
+fiction a little bit but it has been in
+my perception that um as as a character
+in the book says you know there's
+something really appealing about these
+arms working in kitchens like
+I mean they're just you're like we will
+have done something when an arm can like
+make you an omelet or do some of those
+kitchen tasks but in fact it's really
+challenging because that kitchen space
+is in fact really chaotic and unbound it
+it's not one of these spaces that sort
+of at least a normal kitchen like a
+restaurant kitchen or our home kitchen
+McDonald's obviously is kind of kind of
+into something around sort of modularity
+and it's already pretty robotic to start
+with but those other kind of kitchen
+there's more organic kitchens if you
+actually kind of do that thing of like
+Dee familiarizing it and like looking
+trying to look at everything in that
+space and the way it all works together
+with fresh eyes you're like that's
+ impossible it's just the angles
+and the slopes and everything's a weird
+shape and you can't recognize it all in
+in I do think that's wonderful
+that's lovely that it's like oh man what
+a what a magic show actually for a human
+cook to manage all those things at once
+and then reach over and just with one
+hand go and crack an egg yeah so yeah
+well because you kind of you spoke to it
+in the book around having two hands
+basically like I can't do that either
+I've tried it today like oh yeah this
+will be easy just crack an egg with one
+hand no not so much I will tell you that
+you can learn it is at YouTube once
+again is your guide I think in the book
+if I remember right I actually have um I
+have Louis learned by watching YouTube
+clips including some that are so good
+they're just because again truly
+everything everything you need to know
+and every task no matter how small is
+somewhere like documented on YouTube and
+and often it'll be like these
+disembodied hands just it'll the video
+is like a minute long and they just kind
+of show you and demonstrate and do a
+test run and then you know tap it on the
+edge and it comes right open and I was
+skeptical at first but in fact it is not
+that hard hmm
+right on yeah what was the inspiration
+to do this book inspiration to do this
+book was you know it's actually a lot
+like the other books I've done it's
+really living here in the Bay Area which
+I I mean truly think it sounds a little
+dorky almost a little Pollyannish but
+much but but truly I just I've for all
+for all of its complexity and problems
+and everything else I think it's just a
+really really inspiring place I think
+it's a place where people do interesting
+things and end up leading these really
+interesting
+and so yeah over the last few years I
+personally just as a human had gotten
+have gotten pulled more into the world
+of food just as an observer kind of just
+like someone curious about it and slowly
+as a more of a participant although I'm
+still much more of a observer than a
+participant and it's just I mean this is
+what happens with everything I think it
+happens to journalists too you dip a toe
+and do something and you realize that
+it's just full of story I mean there's
+so much stuff there's so many little
+dramas and mysteries and and mechanics
+that you can pretty easily turn into
+into plots that's one of my questions is
+that your stories from penumbra to
+sourdough and of explore the
+intersection between you know tech and
+startups and old crafts like bread
+making or in a book selling and so what
+about that interaction is particularly
+interesting to you well you know I think
+it's some it's it's at the conjunction
+between them and it the the honest
+answer might be annoyance I'm so
+routinely annoyed when the old and the
+new get framed as an adversarial
+relationship basically when people say
+or or versus this habit and you know of
+course this happens with books and it
+was so much the sort of conversation
+especially on like ebooks and print
+books like the internet and the old
+school publishing like well which will
+it be you know which will triumph or
+like what is the road forward and I
+don't know why I don't know if it's just
+temperamental or I've had good mentors
+and good advisers or you know I've had
+the opportunity to read smart thinkers
+for a long time that has always seemed
+so nonsensical to me like it seems to me
+like it is always and instead of the new
+thing replacing the old thing it all
+just piles up in this like multi-car
+crash non violent crash glorious crash
+where everything is just everything is
+just kind of like and the mountain is
+getting higher and higher and higher and
+I don't know I find that totally
+exciting because it means we get new
+things all the time but we also get the
+benefit of crafts and ideas and
+obsessions that have been sort of
+compelling people for a really long time
+so I
+mostly not mostly but at least in in
+large part my books are intended as a
+sort of rebuttal to all the people who
+want to make us choose between the old
+and the new I'm like nope I want both
+option see ya do you have a name for the
+genre that you exist in because I was
+talking to cat before about this and
+there seems to be you know increasing
+amounts possibly infinite amounts of
+dystopian like black mirror type content
+but you're kind of into this like
+positive satire genre what do you call
+that oh man I don't know it's a short
+answer some someone did suggest genre
+tag that I quite liked and they said I
+think your books are sort of like puzzle
+fiction and I just like the sound of
+that I'm not sure that it's an actual
+genre or even if my books are that
+puzzling but I was like if I ever saw my
+books on a shelf labeled puzzle fiction
+I would be very happy there
+I mean in my heart they are sci-fi
+inflected literary fiction and all I
+mean by that is I try to take care with
+the sentences and just you know produce
+language and you know scenes that are
+like interesting somewhat interesting to
+read and not just like glop on the page
+at the same time there's no denying that
+my core genre as a reader is science
+fiction and so that stuff just gets kind
+of metabolized and regurgitated I guess
+or transformed it's refreshing yes sort
+of like an on dystopic like they're
+funny you know elements like the slurry
+drinking that I definitely personally
+recognize but but I think it's there
+there I get an overall a positive sense
+about the world you're building yeah
+yeah I would say so I mean part of that
+for me is root and this is not
+necessarily a sort of dystopian or not
+distinction but part of that for me is
+rooted in the desire to have like
+narrators and other characters that you
+actually want to spend time with and
+that's only because my most memorable
+experience is a reading from you know
+early childhood onward had been ones
+where I finished the book you know
+closed the back cover and I missed the
+the mind that I was spending
+with and there's a lot of good books
+that are you know compelling engrossing
+and rewarding that aren't that we were
+like you know like what a bunch of
+broken humans I mean there's a lot of
+stuff like that books and and TV like
+I'm probably probably more that than
+anything else maybe it's actually for
+exactly that reason and I'm like okay
+cool other writers have got that unlock
+they've got the like everyone is broken
+beat nailed down and so maybe I'm gonna
+do that thing that I like so much which
+is you know voices that that you miss
+know I love it because I'm I was talking
+once to a YC founder and he was saying
+you know if you talked to the vast
+majority of founders in Silicon Valley
+they were influenced by things like Star
+Trek or Hitchhiker's Guide and these are
+all like pretty rosy visions of the
+future whereas you know right now we
+have black mirror and all there's like
+really dark stuff you know what is going
+to be built twenty years from now and
+the young people reading this and
+watching this
+that's a good question boy you know and
+I feel like that should almost be like a
+challenge I would that's a great sort of
+like challenge to the science fiction
+writers working today and I think some
+of them by the way are at meeting that
+challenge challenge I think people like
+Cory Doctorow Anna Lee Nuits here in San
+Francisco is amazing science fiction
+writer
+they don't write dystopias they don't
+write those sort of you know naive and
+glossy answers either like and guess
+what it all worked out great
+like just like that's not actually
+useful either but yeah to find a path
+through the the thorn enos of real life
+and in power and you know the way that
+people inflict pain and other people but
+still remain kind of like wow excited
+about what's coming next
+yeah I do I think that's I mean it is
+it's what I like to read and I hope
+that's what people are they're still
+producing it well I mean even in a
+couple of interviews I've read with you
+and listen to you were influenced by
+children's books okay on your read you
+Cloudy with a Chance of Meatballs
+specifically mention oh yeah for
+sourdough in particular there is a great
+genre of this is even this the genre is
+very specific talk about specific
+specific little slices of books this is
+the sort of like runaway mutant
+food genre chance of meatballs you got
+your strega nona stinky cheese man yeah
+absolutely
+lesser-known lesser-known book called a
+Datchet the Duchess makes a cake also
+great and basically it's like all like
+food that you know grows out of control
+becomes giant and there's clearly
+something that like resonates deeply
+with the child's mind because it's like
+you could totally populate a shelf with
+those books man and were you reading
+these beforehand or you're just like mmm
+I think this needs to go a little
+further I I can't say that those were
+the direct influence for this book that
+was more of a kind of hook shot where
+after writing this book I was like oh
+wait you know I think I think this has a
+lineage the the more direct influence
+for for that kind of stuff in sour dough
+that kind of like a food vibe was truly
+it's all the scholarship that's been
+done in the last few years you know five
+years maybe going on a decade about
+microbes and the microbiome and just the
+daily near daily wonder of like oh let's
+see what's in the news today microbes do
+what like think what huh they talk to
+you and they're controlling my and
+there's how many and we don't even know
+I mean it's like I truly it's amazing
+that's got to be such a fun discipline
+to be in now and and for the last little
+while
+and yeah so that was I was like yes I
+need to put some characters in this book
+that are not people mom but microbes or
+microbial communities and try to try to
+give them some personality on the page
+and did you think at any point you
+wanted to make an app as well what for
+this book for sour yeah well could you
+know you're talking about staying around
+with these characters and I use fish a
+long time ago because when I actually
+sat next to Patrick Moberg while he was
+building it as I was working on a bait
+works oh my gosh he's gonna get out of
+my life man but uh I just been wondering
+like if you would consider building some
+kind of extension I I'd not considered
+it for this book I you know there's a
+thing you hear where people say like
+okay you have to come up with a story
+and then you find the right vessel for
+that story like does this story want to
+be a book or a video game or HBO series
+whatever I think that is wrong I do not
+think that's actually
+how good things get produced so if you
+ever hear someone say that you can tell
+them robbing stones I think it's at
+least for me I and I'll speak I'll speak
+actually just for myself it's almost
+exactly the opposite
+you get interested first in a format
+neither just you know four out of pure
+kind of like childlike interest like oh
+that comic book was so good or like wow
+an amazing movie or like even like that
+YouTube video was so weird and like
+creepy whatever it is and then at some
+point you start to sort of feel that
+itch of like oh maybe I could make one
+too you know maybe I could play in that
+sandbox you can trace everything I've
+ever made whether it's a book or a weird
+digital experiment to that impulse of
+truly starting with some form that I
+admired and thought was awesome and then
+trying to figure out like what what kind
+of fits in that box so that's all to say
+that this book came out of a sort of a
+book shaped impulse and yeah I think the
+next app is going to come out of an app
+shaped impulse have you had any impulses
+since like what's the next form I don't
+know I definitely have I mean too many
+that the problem is you're like there's
+so many cool things I will tell you that
+I'm I'm kind of still in I feel this
+like tension it's totally unresolved I
+don't have like plan a theory solution
+or anything like that
+but the app thing right now it's it's
+super well you know I'll make it really
+practical this is what happened I made
+this app called fish mm-hmm several
+years ago totally on a lark I mean
+because I kind of admired the iPhone
+screen in particular the like lack of
+avro of browser tabs across the top or
+like other windows tiled in the
+background you know like it's it is the
+it is the case that often more often
+than on laptops and other things people
+will just do one thing on an iPhone at a
+time and that's actually really lovely
+anyways
+thought I'd take advantage of that made
+this app is great well received I had a
+lot of fun making it
+years ago by the newest version of iOS
+something has changed and now that like
+the binary that I uploaded to Apple all
+those years ago will not run anymore it
+was it was getting a little funky like
+it looks sort of weird on the newer
+iPhones but you could still run it now I
+am alerted by Apple an email it's not
+going to run anymore because I am a
+writer and
+and not a professional software
+developer I could not immediately find
+the source code to this app and I read
+it around and liked I got some old
+laptops and I booted him up and I was I
+just searched everything I checked my
+email I was like surely I must have
+emailed it to someone I can't find it
+anywhere so I think it's gone and that
+bums me out
+what's had it is sad so I fear as of
+this moment I my current thought is that
+fish is lost to the world or at least
+users of iOS iOS 11 and above and and
+but there's actually something I mean
+that's just my sort of carelessness
+which is a bummer but there's actually
+something embedded in that which is you
+make these digital things and unlike a
+book where once you bind it up and put
+it on a shelf even if it gets forgotten
+even if it gets damaged or you know
+whatever it's like still X it boots
+somehow you can you can like compile and
+run at that printed book basically
+forever and boy that is just not the
+case with digital stuff like the ground
+shifts under your feet and suddenly the
+platform you built it on goes at a
+business or you know the OS gets
+upgraded and you're like the api's are
+different and that's unsettling and to
+sort of figure out how to navigate that
+how to still embrace the fun of those
+digital experiments but like not sign up
+for infinite ongoing maintenance for
+like an ever-increasing number of
+projects I just don't know so that's
+it's one of these I'm really thinking
+about right now I think it's a it's very
+distinct from the way that frankly
+people in like companies would think
+about making and maintaining apps but
+there's plenty of people out there who
+aren't people like me who are kind of
+just tinker's experimenters writers and
+artists and I think it's kind of a funny
+moment for that kind of work right now
+well if you actually look around it most
+people who work in the tech energy
+industry a lot of the work does fall
+away like if you spend two years working
+at Facebook or Twitter or Google yeah a
+lot of your work is gone right six
+months after you totally necessarily -
+maybe the question is how do you give
+something like an everlasting life
+online right right I think it is such a
+big question I mean there's stability
+comes it seems at least partially with
+time I mean if I was gonna make a
+webpage say J and not a fancy one like a
+real simple one
+and then if I took that webpage and I
+made sure to kind of have it host in a
+few different places but it but it's a
+it's up experiment say it's a story and
+it's presented in some cool way and
+there's a few kind of interactive bits
+in JavaScript say you know as the page
+proceeds and I host went on my website
+and maybe I host went somewhere else and
+I also make sure that it's indexed by
+the Internet Archive I still don't feel
+as good about that as I do about a
+printed book on a shelf but I feel
+pretty good about it I mean I think
+there's like you're like okay web pages
+have been around for what like yeah 30
+years now like finally we can kind of
+count on this technology continuing to
+be legible and accessible but at the
+same time you're like that's not the
+most exciting thing like you don't I
+can't make a cool mobile I don't know
+like a are enabled experience with a web
+page really not in the way that I would
+want to and so there's basically I think
+there is this trade-off and maybe it's
+really natural between that sort of like
+bleeding-edge coolness and
+interestingness and that's sort of
+stability and I don't know I don't know
+if it's just like the archive or I don't
+know you want to be able to share with
+people a lot of now is just falling into
+the hands of basically archivists in
+museums yeah so you see it's happening I
+think rhizomes doing a project to
+preserve digital art yeah but you
+basically are like buying you know Adele
+from 96 and like butta yeah and like ear
+gapping it and making sure that the
+automatic like OS updates never totally
+do not connect to the internet totally
+totally it will somebody somebody I mean
+yeah the museums have this collections I
+would love to imagine there's someone
+somewhere that's just like yes I have
+like the menagerie every computer every
+OS like what's that you need a mecca C
+running OS 7.2 I've got one of those
+Boop fire it up
+well it's a big thing in tv2 we did I am
+a podcast with Cortana from mr. robot
+and it's so funny because their show is
+only set two years ago but they're still
+trying to keep like a consistent date
+line so they're actually having to get
+apps from like two years ago and then to
+do the screenshots and the simulations
+and they're like we can't even you can't
+find like Facebook from to your ego
+right that's that's admirable first of
+all that is some that is some like 21st
+century
+Kubrick attention too nerdy to tell I
+really appreciate that but it is it's
+right it's it's a weird time I um I
+would not bet against everything that
+we're pouring into kind of the vast
+digital box you know like everything the
+Facebook updates the Instagram photos
+all of it basically being gone in 2060
+2050 like I hope that's not the case and
+I mean it seems hard to believe because
+it's like everybody's everything is in
+these systems
+but based on just what we know and the
+way the patterns we've seen already I
+like if we were like okay place your
+bets I would be like and that will all
+be deleted yeah speaking of deleting
+Craig was telling me something that I
+hadn't heard before that you have
+written a script that deletes your tweet
+oh yeah Wow and can you how did that
+come about and why yeah oh no no this is
+very this is very um clear-cut to me at
+least
+uh I I still love Twitter even though
+Twitter is so fraught and so complicated
+I started using it like a lot of people
+kind of around 2009/2010 I worked it to
+her for a couple years too and it was
+very at that time like everyone who
+worked at - it was like on Twitter
+deeply and it was it was really pure fun
+and I think it was because it was so
+much more casual it was the era of like
+grab understand which with at Craig and
+at cat you know we're just so you're
+like oh we were children then so things
+have changed a lot but I but for me at
+least I think there are some ways to
+kind of anchor it in that other feeling
+I like to think of Twitter as not like
+sort of an ongoing transcript of a
+congressional hearing you know to which
+we can always return and be like well
+actually catch four years ago you said
+this and that was but rather as
+like a huge weird interlinked
+conversation in a cafe somewhere you
+know people making bold claims and
+referring to things and saying nice
+things compliment each other then all of
+it just kind of like fading into the
+night air and it's gone like you
+wouldn't you wouldn't record your cafe
+conversation for
+garetty I mean I mean if you would you
+maybe some people do but that's weird
+that's clearly like sort of strangely
+antisocial I record everything and
+transcribe it and index my whole life
+yeah that's a that's a whole different
+conversation but it is you you it is
+like if that's actually quite strange
+and yet it's the default for Twitter of
+like recording everything and sort of
+keeping it forever so that's all to say
+my very tiny kind of lever against that
+that system and my way of kind of
+keeping it something like a cafe
+conversation with the words just fading
+away is to delete my tweets on the
+regular and oh I can report that it
+feels great that does sound quite
+refreshing yeah yeah we're there any
+like greatest hits here like a sad to
+see it go it was I know it yes and it is
+a good it's a healthy thing you can't
+contend for a moat with your own vanity
+and you're like oh but there's just so
+many faves and but then it's gone you're
+like I didn't need this face it's good
+truly it's healthy it's a the burn it's
+like a scalding sort of cleanse so this
+brings me to one of my questions I think
+I first came across you and when i was
+reading snark market and so i loved it
+because you know you would you know post
+an essay and then it would kick off a
+sort of discussion or debate below it
+and sometimes they were sort of
+contentious and and you came out reading
+the essay feeling one way and then after
+reading the comments or like oh no but i
+see these other sides of it as well and
+that died went in but 2050 i mean it was
+like a lot of blogs it was just a sort
+of slow tale off I mean I'm sure you
+have never done this they would match
+enimies they had to do it I'm sure you
+could graph the post frequency and it
+would be a real kind of actually a
+slower ramp into this sort of bulging
+sort of heyday and then a slow tail off
+and furthermore I'll bet if you took
+that and compared it to like average
+hours employed per week by all snark
+market authors it would be a perfect
+sort of they would fit together like
+puzzle pieces that makes sense I was
+gonna ask if Twitter killed it I mean it
+well it did it did in part boy I mean
+that's just a whole thing a whole
+melancholy story to kind of unspool the
+story of blogs there's rise and fall of
+blogs because I think people who
+who kind of came up during that time not
+only as bloggers but kind of as write
+writers more broadly because it was it
+was this amazing way to kind of cross
+train and just force yourself to like
+write something in public every day even
+if you didn't like have it all perfectly
+locked down or even or even know exactly
+what you thought you're like well I'll
+find out what I think by like starting
+to write this little blog post in in my
+movable-type installation it was it was
+truly lovely but yeah there's no
+question he was killed by Twitter and
+Facebook and just really the sense that
+people moved on I mean the reason you
+wrote a post is because you knew people
+would read it and some cases you knew
+very specifically who would read it like
+I remember in some ways the greatest
+pleasure of writing for that blog I
+understood our position exactly in like
+the food chain of blogs we were not at
+the bottom and in fact some of the
+blog's we were reading we're like closer
+to the bottom just in terms of number of
+readers they were like super weird
+specific itchy like strange little blogs
+and and you would when you found one
+that you liked you'd add it to your
+google reader long lamented but I mean
+that the loss of Google Reader it was
+another true I mean truly was one of the
+nails in the coffin of blogging but you
+added you Google Reader and that became
+part of your like secret stockpile and I
+remember talking to people about feeds
+and they would be cagey they'd be like
+oh whatever it's just a just a scientist
+feed I found somewhere it doesn't matter
+do it
+I'll blog the good stuff anyway just
+you'd find interesting things you'd
+write about it snark market was not top
+tier I mean there's many sort of tiers
+above us but there are a couple much
+bigger blogs in particular and just you
+know through the experience of linking
+something and writing a little about it
+and then maybe eight hours pass or a day
+passes and then you see it at that next
+blog up I began to understand very clear
+I was like I knew our role in that
+system in that sort of economy of ideas
+and it was really cool it just felt
+awesome to like have a place but um as
+those readers go away like as basically
+it's like there started to be these
+holes in that mesh and then I think the
+parts kind of shear off and then
+disintegrate entirely and now I mean you
+open up the squard press now you know we
+did upgrade some
+between 2008 and 2007 Dean and you open
+up a little composition window and
+you're like no one is gonna read this or
+if they do it'll be only because I
+essentially recreate it or give it a new
+home on Facebook or Twitter mmm do you
+have strong opinions on to 80 characters
+I I do I do now um I I have to just
+always remember this my first experience
+with like user rage being an underaged
+user that is to say it was in college my
+first experience with high-speed
+Internet and I loved in New York Times
+website which was I mean it was probably
+designed to be like 500 pixels wide at
+that time it was just this tiny little
+thing very proto you know web experience
+but I loved it and in the early days
+when things they did is they actually
+you know to keep their time sness they
+rendered all the headlines as images in
+like The Times font because there
+weren't like web fonts and they couldn't
+do it justice they thought and so they
+rented this as images and I thought that
+was amazing I was saying for Horus their
+images it's so beautiful it looks like a
+newspaper so at one point very
+reasonably they decided it's a little
+weird and kind of rigid and inflexible
+and probably you know he's wasting
+people's bandwidth so he switched to
+just normal text links and it was like
+Times New Roman it wasn't a pretty fun
+cuz again no web fonts yep so he
+switched it and I wrote an email I was
+probably a junior in college I think it
+may concern their whom it may concern
+you clearly don't understand your own
+brand you've made a terrible mistake
+with these ugly text links so dumb
+literally 48 hours later I was like ah
+man this page loads a lot faster now
+this is great it was just a good
+grounding early experience with like
+come on Ernest change and you're gonna
+be okay and so I have retained that
+consciousness to this day and I was not
+super upset about eternity characters
+even though I of course like many of you
+I appreciated the sort of the sort of
+haiku constraints of 140 but I oh man I
+love it
+I just I just keep typing it's great and
+someone made the point I thought this
+was actually very super super sharp
+there's you know a lot of different ways
+to think about and talk about it someone
+made the point
+that with 280 characters it actually
+gives you enough space it's not that
+much space but it gives you enough space
+to do something you almost never could
+with 140 characters on their own which
+is to present one idea kind of like set
+up the thing and then turn it around
+react to it you can basically say well a
+lot of people say X but I think Y or you
+could say like I used to think X and now
+I think Y like there's enough space for
+like two ideas to be in dialogue with
+each other whereas before and after this
+this it was like an academic who kind of
+pointed this out I was like oh yeah
+that's right before all tweets were like
+blah here's the thing here's the thing I
+mean even if it was a nice thing or a
+funny thing they were just like blah but
+now a tweet there is enough space for it
+to be kind of a like hmm or like what
+about and that might be healthy I think
+hmm I don't know if any fewer people
+will be taken out of context but it
+makes sense I do appreciate the little
+circle like progress thing rather than
+the countdown right now those really
+slick yeah yeah yeah is you get we've
+been and it is like oh right I've been
+playing a weird game this whole time I
+didn't even realize like and as soon as
+the numbers go away you're like didn't
+matter
+yeah so what are you excited about right
+now are you thinking like all right I
+mean maybe you've already sold a book
+and I don't even know it yeah what are
+you into
+boy I'm into a lot of things I will say
+that the machine learning stuff
+continues to preoccupy me I think in
+part because I think there's art there
+continues to be an arbitrage opportunity
+for artists or kind of art adjacent
+people so much of the energy is focused
+on super practical and like economically
+valuable applications which is fine and
+I totally you know I truly like I cannot
+wait for self-driving cars to come fully
+online and for robot arms to be doing
+you know all sorts of tasks and all that
+but the creative applications are really
+really interesting and I think for
+people who have even like just that
+fingernails grip on the technology and
+can connect their way through the code
+and also have again maybe the
+temperament to
+think it's interesting and not like rise
+if the machines
+it's like totally wide open like just
+believe Skyy interesting stuff so I
+would definitely like to try to write a
+novel and I'm in the process of trying
+to write a novel that has kind of part
+of its text the product of some of these
+machine learning systems but it's you
+know it's tricky because you want it to
+be good you don't want it to just be a
+sort of parlor trick like did you read
+the machine learning novel no but I'm
+aware of it and it's very interesting
+like you don't want that you actually
+want to produce something that's yeah
+good and like worth people's time and
+like interesting and worthwhile to read
+but you want to do it or at least in
+part using these tools that kinda no one
+has ever used before so it's a cool
+challenge mm-hmm have you tried to
+magenta yet
+um I well magenta is not really like a
+thing thing it's like the suite of
+different tools right they are really
+focused on sound like mostly music stuff
+it's really cool I actually think I
+think they're one of the sort of the few
+people slash groups that are doing it
+right people on the podcast people on
+the podcast you know I'm making air
+quotes if you're getting it right and
+that's only to say they're super
+competent technically and interested in
+kind of pushing the state of the art in
+that in that sort of very cody sort of
+academic ii sense but they're also very
+clearly just interested in like
+aesthetics like they they measure you
+can tell that they're they're measuring
+their own judging their own output not
+unlike well we've achieved a new state
+of the art of 2.7 bits on the loss
+you're like cool is that better they're
+like they're like looking at the end
+they're looking at that sort the
+qualitative like well is it does it
+sound interesting is it lovely could it
+be lovely and they're also this is
+actually the best part they're building
+tools right it's not just rock code
+they're like building these things for
+people to use and very clearly like
+learning how to use them themselves kind
+of in public in real time and I just
+admire the hell out of that whenever I
+see it I think it ends up offending a
+lot of artists because so many of these
+uh
+imagery creation things in particular
+are like style content transferred see
+right
+doesn't matter we can just throw it on
+anything right exactly yeah yeah it is
+and there's something about that stuff
+that is I mean it's it's exciting in its
+own way but it is at the same time a
+little tasteless and a little bit like
+oh really that's what you think it is
+you think it's just like you think you
+think van Gogh is swirly trees okay come
+to the museum with me I there's some
+things we need to talk about but it is
+like I think making something that you
+can learn that you can use is kind of
+the key there is a lot of this code
+including some of the style transfer
+stuff or you kind of like the only way
+to use it is to kind of say run like do
+your thing tell me when you're done
+which is that's a good starting point I
+do think that the challenge or that kind
+of the next step that gets really
+interesting is learning to make tools or
+even instruments that like a person can
+get better at which is not easy to do I
+mean people try to invent instruments
+and oft like musical instruments and
+often you're like there's just not
+enough depth there you're like yeah I
+can play Hot Cross Buns and like and
+that's all you know I get this is no
+viola or like this is no you know since
+you know cool Moog synthesizer or
+whatever and I think that's coming for
+the machine learning stuff or it should
+be hmm what do you think's missing right
+now well I mean I mean this is a little
+self agonizing but I'll describe one of
+the products that I did which i think is
+a tiny tiny step in that direction so
+there's these neural networks that
+operate on text and they can essentially
+learn these statistical models of text
+such that given the beginning of a
+sentence they can just keep writing it
+for you right and they end up course of
+course being sort of wacky and
+nonsensical but they really do learn
+something like if you train this
+internal network on all of Harry Potter
+and you start a sentence like the boy
+walked into thee it'll say castle where
+he picked up his wand and like no that's
+the following spell like it really and
+like and in the style of JK Rowling
+again a really actually in an impeccable
+sort of imitation of the style of JK
+Rowling or whoever so um
+you've been able to kind of do that on
+the command line for a while and there's
+you know people written blog post about
+like oh look I wrote some Moby Dick or
+here's a weird fake Shakespeare which
+are really cool I took that
+stuff kind of changed the way it works a
+little bit I thought hard about the
+corpus I wanted to use like what I want
+to get the what style I wanted to be
+learning but then I also built a little
+plugin for the atom text editor who's
+really easy to extend use like kind of
+designed to have things modded on to it
+and so now instead of it being this kind
+of command-line thing you're typing in a
+window just as you would as you'd be
+like composing a manuscript and you hit
+tab the way you would to like
+autocomplete something man line and a
+little wheel spins for just a second and
+then it goes pop and it shows you the
+completion but it's not just you don't
+have to just take what the computer
+gives you you just as you can with
+autocomplete on the on the command line
+you can arrow up an arrow down through
+other and so but I think this is really
+important it's like the core the core
+interesting thing is the weird sort of
+wonderful output of this machine right
+but at the same time you acknowledge
+that having a human kind of curate it
+and shape it and form it and just be in
+the loop and be learning how to use it
+is just as important hmm so and it's and
+it turns out you mean artistic value
+aside is really fun it's actually really
+fun yeah totally
+yeah well you see it on Twitter with the
+autocomplete keyboard all the time just
+like just tap the next thing and totally
+totally to take a Harry Potter tangent
+for a second early on in the book you
+talk about our generation wanting to be
+sorted is that it's like a strong
+opinion or a throwaway line no it is
+that's funny this if anything for you to
+mention yeah so so the whole line is the
+character says you know I'm a child of
+Hogwarts and like like everyone else in
+my generation I'm a child of Hogwarts
+and more than anything I think we just
+want to be sorted when I read that I was
+like that's very true of me at least in
+my early twenties someone tell me what
+to do tell you exactly tell me what club
+I belong to you give me my give me my
+shawl my cardigan in the right colors
+and let's let's just get this over with
+yeah so so I do I do believe it I think
+there's something to it however more
+than anything else that line has been a
+window for me into like what reading is
+in the 21st century
+mm-hmm because in part because it's near
+the beginning of the book in part
+because it's like a very yeah hashtag
+relatable you know it's not about
+a book you can kind of you can pull it
+out very easily and kind of stands on
+its own and because apparently it resume
+with a lot of people people have taken
+so many pictures of that line and that
+page on Twitter on Instagram I could I
+could compile you a gallery of like
+hundreds of snapshots from around the
+country in the world of people and like
+and then with a caption just like you
+know quote of the day or like oh man
+Robyn slow and really gets me or like I
+gotta admit this would hit really close
+to home or whatever they're kind of
+they're putting their little spin on it
+but just to see the way like a book
+becomes a social object like that and
+it's this thing for them to both
+ofcourse just like everything else in
+social media they're like announcing
+that they're reading a book which is
+like pretty cool they're they're sharing
+something that resonated with them
+they're promoting the book a little bit
+which is cool I definitely know I'm like
+yes and beefer to say what book that is
+from sourdough if I wrap this loan from
+MCD and published on you know October
+whatever so it's cool it's actually been
+like almost like you know how they put
+like radioactive dye total in your blood
+to like a trace whatever that's been my
+like dye tracer through is there one
+later in the book there are a couple
+thing there are a couple things that
+people like a young kindle highlights
+you can see what people liked but
+honestly there's no other line that had
+that like that became like truly like a
+social object that that lept off the
+page and then just kind of went off on
+its own and it's so fascinating because
+it doesn't really tie back into the the
+rest of the book for the most part it
+stands on its own yeah it's really it's
+kind of it's the starting point as to
+how this character feels before she even
+gets to San Francisco or embroiled in
+this world of food or learns any of this
+weird stuff but yeah apparently there's
+a lot of people in the world who feel
+the same way that this character does as
+the story opens have you seen a
+long-form fiction change as social media
+like influences at cat and I were
+talking about this in the context of
+museums right you know you have these
+like Instagram museums basically are
+they're like Instagram books with all
+these like zingers yeah that's a good
+question I so I don't know for sure
+that's a it's a big question actually in
+a really interesting one I don't really
+think so not yet and I think that's for
+a couple reasons of high tech kind of
+just just guess one is um the truth is
+that the readership for
+books I mean it's obviously diverse and
+like there's a lot of young people who
+read books there's also a lot of older
+people who read books and I think
+there's a certain kind of point at which
+and its course not like these people
+aren't on Facebook they are like
+everyone's on Facebook but I think
+they're also kind of not they're like
+people who just mmm relate to the world
+and get information and kind of select
+their media in a different way I don't
+know if it's a more old-fashioned way
+exactly but it's just different they
+like go to the library and get a stack
+of books which is by the way one of the
+reasons I love like publishing books and
+reaching this audience this way I think
+it's like really special to be able to
+talk to them in a way that like no one
+on Twitter ever will because it's just
+kind of you know sort of separated
+worlds with not a lot of bridges between
+them so I think that's part of it and I
+do think that people read books for
+different reasons than they use social
+media still that could change that could
+change over time but yeah I think books
+the good books really do they're that
+sort of sense of engrossment is that
+even a word
+yeah engrossing they're engrossing okay
+yeah so epic 2014 what's your
+explanation boy that's it well it's kind
+of the original media experiment for me
+I mean there's been so many along the
+way like apps and web projects and you
+know weird books and things other things
+like that
+epic 2014 boy it was an artifact of its
+time it was 2003 to 2004 I guess is when
+it finally got published I was working
+in a place called the pointer Institute
+in st. Petersburg Florida it was kind of
+like journalism school and think-tank
+really really cool institution my
+colleague there was another young
+journalist or sort of journalist in
+training named Matt Thompson who has
+gone on to become the executive editor
+of the Atlantic Monthly so Wow
+little did I realize um no that's not
+you actually I did suspect that that was
+probably gonna be his path um even back
+then
+so we're down in the computer lab with
+wonderful I mean it wasn't quite a Mack
+SC with whatever system seven but they
+were some funky you know translucent
+IMAX down on the computer lab and we
+were frustrated because we at that time
+is like this is the rise of the blog's
+it's really like the
+early blog boom and we were part of it
+we thought it was so exciting
+we thought all the stuff was so exciting
+and it did not seem to us like that
+people were talking to in the newspaper
+industry primarily then like saw what we
+saw and we tried to explain it we tried
+to like give presentations with charts
+and things like that and still just like
+we were getting these like glazed
+overlooks and we're like come on like
+first all these people need to
+understand this and second it's it's
+exciting like there's like this is this
+is if not good news it's like great
+interesting news so this is where it's
+almost a little cliche we're like how
+can we communicate this vividly to
+people by telling a story in flash we're
+like we're like okay we're gonna make
+this video it's gonna be this sort of
+faux future documentary that tells the
+the future history of media from 2004 to
+2014 with all this weird stuff that
+happened you know consolidation and the
+New York Times goes out of business and
+there's just like all this customized
+news and it's it's it's all feels very
+antique now in fact but um was radical a
+radical vision in 2000 before but but
+the great constraint of course is then
+she doesn't pour you could not post
+video on the internet there was like
+there was no place to do it and if by
+chance you did find some server space
+the resulting bandwidth bill would like
+crush you there were these stories
+almost like urban legends of like oh
+yeah Craig posted a video when times and
+people watched it he had to sell his
+house so the bandwidth efficient way of
+sharing moving pictures was flash so we
+offered this whole funky thing in flash
+she was just like strange stuttering
+animation and it was it was actually the
+the web we have lost like the lamented
+early web even the flash video was kind
+of like a bit much because it became
+very popular so I got weird early viral
+web hit especially kind of among used
+people and it go so we were kind of
+feeling the burn and this server would
+go down sometimes
+so some friendly people with web servers
+around the world but send these emails
+like hello my name is Ivo I'm in the
+Netherlands I would be happy to mirror a
+flash movie and we were like yes here
+here's the link please mirror it so on
+the main page it was it was beautiful it
+was like this United Nations of hosting
+and there this list of like here's some
+other mirrors you know and you click and
+you'd go to this sort of other copy of
+the page on some server in the
+Netherlands oh man it was amazing that's
+so cool have you thought about doing
+another one you know every so often
+someone asks most recently was 2014
+which was kind of the crux of the of the
+movie that we made more than a decade
+ago and we got some some you know
+feelers from people including like media
+companies that were like it'll be a big
+thing it'll be like our cool
+well like produce it it'll be rad and
+you know we'll pay you for it and all
+this stuff and both of us had the same
+instinct which was like it was so that
+project was so guileless it was so I
+mean he was pure yeah you were just like
+these two 20-something people were like
+people seem people don't seem to see
+this as clearly as we do
+perhaps if we tell a story and we had no
+other expectations for it beyond that
+and you just can't if you would do
+something like that
+and it works and it's successful that is
+100% your signal to close put it on the
+Shelf say what luck and move on to
+something else
+fair enough SOPA number came out how
+many five yeah 2012 um and so I think
+you know working you know I was in you
+know at Wired and then yeah and then in
+New York and I think around the twenty
+twelve timeframe like there was so much
+positivity about tech all right yeah
+especially in the press and so it's
+changed a lot so how did that like
+change in tone in the coverage of tech
+like impact the way that you talk like
+write about it now that's a great
+question I will let you in on something
+that shift was happening of course it's
+ongoing enjoys in flux that particular
+shift that sort of darkening almost of
+the tint was happening even as I was
+kind of wrapping up the manuscript for
+penumbra and I remember very vividly at
+the last few passes in the summer of
+2012 before it came out that fall going
+through and changing a few lines that I
+mean the book is very it is very kind of
+like magical Silicon Valley Wonderland
+there were a few lines in that original
+manage kept there were even a bit much
+then in 2012 and I was like people are
+gonna think I'm lame and just like and
+again in naive if I include this sort of
+line in sorry I even even if
+time and even at that point in the
+process I was like I need to kind of
+calibrate this a little differently
+which is and that's the risk it's the
+it's the fun part but also kind of the
+risk in the burden of trying to write
+fiction that's set now in our world
+today I mean there's definitely like you
+understand why people write historical
+novels because there's like a refuge in
+life it's not gonna it there's other
+challenges but at least it won't kind of
+shift underneath my feet I definitely
+had to change the tone for the new one
+for sourdough part of it was just just
+kind of natural like the way I think
+about it of course has changed over time
+like everyone else we're just um yeah
+it's just all about kind of power and
+and the way these things have had their
+role in our lives have changed so I
+think any like thinking human has a
+different relationship to it now and
+then of course I always wanted to just
+like not do another version of the same
+postcard from Silicon Valley but like
+send a different one so yeah the the
+character in this new one and she starts
+the book in a much darker place like
+she's working at this robot Factory that
+wants to change the world and like
+transform the conditions of human labor
+but their labor that they are
+undertaking to do all that is like
+pretty intense and she's frustrated and
+strung out and not eating well
+definitely not drinking enough water and
+and that's yeah that's so in some ways I
+wanted to I wanted to make it feel like
+a dispatch from Silicon Valley today
+without taking the I think easy route of
+just like burn it all down that you see
+elsewhere cuz I don't think that's well
+first of all other people have got that
+covered
+they've other people are fully on the
+burn it all down beat and that's good
+I mean it's it's we need them out there
+so maybe I could do a little something
+different
+that's great all right thanks for coming
+in Robin thanks for the invitation is
+real treat cool
+you

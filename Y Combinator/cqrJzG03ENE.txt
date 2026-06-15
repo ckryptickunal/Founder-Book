@@ -1,0 +1,909 @@
+Title: The Truth About The AI Bubble
+Video ID: cqrJzG03ENE
+URL: https://www.youtube.com/watch?v=cqrJzG03ENE
+Channel: Y Combinator
+Published: 2025-12-22T15:01:25Z
+Duration: PT30M23S
+Views: 103214
+Likes: 1718
+Tags: YC, Y Combinator
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 884
+
+Description:
+2025 was the year AI stopped feeling chaotic and started feeling buildable. In this Lightcone episode, the YC partners break down the surprises of the year, from shifting model dominance to why the real opportunity is moving back to the application layer, and why the next wave of AI startups may be just getting started.
+
+00:00 Intro
+00:50 Anthropic models are most preferred in the latest YC batch
+05:36 Why aren’t there more AI consumer apps? 
+07:01 Swapping models in and out is becoming the norm
+
+============================================================
+TRANSCRIPT
+============================================================
+
+I think perhaps the thing that most
+surprised me is the extent to which I
+feel like the AI economy stabilized. We
+have like the model layer companies and
+the application layer companies and the
+infrastructure layer company seems like
+everyone is going to make a
+lot of money and there's kind of like a
+relative playbook for how to build an AI
+native company on top of the models.
+Many episodes ago we talked about how it
+was felt easier than ever to pivot and
+find a startup idea cuz if you could
+just survive like you could just wait a
+few months there was likely going to be
+some like big announcement that would
+completely make a new set of ideas
+possible and so like finding ideas is
+sort of returning to sort of normal
+levels of difficulty.
+Welcome back to another episode of the
+Light Cone. Today we're talking about
+the most surprising things that we saw
+this year in 2025.
+Diana, you found a pretty crazy one.
+It's sort of a changing of the guard
+almost in who is the preferred LLM at YC
+during the YC batch. Yes, in fact we
+just wrapped up the winter 26 selection
+cycle for companies and one of the
+questions we asked to all the founders
+apply to YC is what is your tech stack
+and model of choice. And one of the
+shocking things is that for the longest
+time OpenAI was the clear winner
+for all of last year, last couple of
+batches, though that number has been
+coming down. And shockingly in this
+batch the number one API is actually
+Anthropic. Came out a bit more than
+OpenAI. Which who would have thought? I
+think when we started this podcast
+series back then OpenAI was like 90 plus
+percent. And now
+Anthropic. Who would have thought?
+>> Yeah. And you know they'd been hovering
+around like 20 25% for most of like 20
+2024 and early 2025 and then only even
+in the last 3 to 6 months did this sort
+of changing of the guard actually
+happen.
+>> They had that this hockey stick with the
+with the growth of over 52%. Why do you
+think that is? I think there's a couple
+of things in terms of the tech stack
+selection. I think as we've seen this
+year
+there's been a lot of wins in terms of
+vibe coding tools that are getting built
+out out there and coding agents or so
+many categories that doesn't end up
+being a bigger
+problem space that actually is creating
+a lot of value. And it turns out the
+model that performs the best at it is
+actually uh models from Anthropic.
+And I think that's not by accident. I
+think from the hearing the conversation
+we had with Tom Brown not too long ago,
+he came and spoke is that was one of
+their internal evals. They on purpose
+made them their north star and you can
+see it in the model taste as a result of
+what's the best choice of model for a
+lot of founders building products is
+Anthropic. The vast majority of the use
+cases people are using it for though is
+not coding. So I wonder if there's like
+a bleed through effect where people are
+using Claude for their personal coding
+and then as a result they're more likely
+to choose it for their application even
+if their application is not doing coding
+at all.
+>> Cuz you'd be very um familiar with like
+the personality of Claude Opus or
+whatever they're choosing. Sonnet I
+suppose. How about Gemini? How's Gemini
+doing in these rankings? Gemini's also
+pretty much has been climbing up pretty
+pretty high. I think last year was
+probably single digit percent or even
+like two three percent and uh now for
+winter 26 is about 23%.
+And uh we personally been using also a
+lot of Gemini 3.0 and we've been
+impressed with the with the quality of
+it. I think it's really really working.
+I mean they have all different
+personalities, don't they?
+>> Yeah. It's uh it's kind of the classic
+where OpenAI sort of has the black cat
+energy.
+And almost like uh
+Anthropic is kind of more of the
+happy-go-lucky, a bit more very helpful
+golden retriever. At least that's what
+it feel going to talk to them. And
+[clears throat] how about Gemini? It's
+kind of like in between. Jared, you
+prefer Gemini actually. Yeah, I switched
+to Gemini this year as my just go-to
+model. I think even before 2.5 Pro came
+out and just seemed better at reasoning
+for me. It was just like the
+increasingly I replaced my Google
+searches with Gemini and I just sort of
+trusted that Google's I think like the
+grounding API and its ability to
+actually like use the Google index to
+give you like real time information
+correctly. I just found it was better
+than I I
+personally I found it was better than
+all the other tools for that and it was
+better than Perplexity on it too. Like
+Perplexity would be fast but not always
+accurate and Gemini was not quite as
+fast as Perplexity but it was always
+pretty accurate if I asked it about
+something that happened today for
+example.
+>> Even if you use Gemini as the reasoning
+engine in Perplexity.
+I have not done that.
+>> Interesting. Yeah. So it's hard to know
+like how much of it is the tooling and
+how much of it is like the base LLM.
+>> That's fair. Yeah, I mean what are you
+guys's tools of choice? I haven't
+switched off of ChatGPT. I mean I find
+the memory very sticky. It knows me, it
+knows my personality, it knows the
+things that I think about and so I'll
+use Perplexity for fast web searches or
+things that um you know I know is like a
+research task cuz I think ChatGPT is
+still like a little bit of a step behind
+for searching the web. I don't know. I
+think memory is turning into
+um
+an actual moat for like that consumer
+experience and I don't expect Gemini to
+ever have the personality that I would
+expect from ChatGPT. It just feels like
+a different like entity, you know. The
+thing I'm still surprised about is why
+there just aren't more
+consumer apps around like all the
+various things we do. Like if I think
+back, one of the big changes for me this
+year is just the amount of
+prompting and context engineering I do
+for like my life. Like I know we we
+bought a house recently and like the
+whole thing like I just had like a
+really long running ChatGPT conversation
+stuffing it full of context of like
+every inspection report or like wanting
+it to be like level the playing field
+between me and like the realtor to
+understand kind of all the dynamics and
+things that are going on. And it just
+feels like there should be an app for
+that.
+>> But simultaneously I'm sure you took the
+uh
+PDFs and just like dropped them into
+Gemini and said like well summarize and
+tell me what's important for me.
+>> I guess I worry about I worried about I
+still don't trust the models enough to
+be accurate without lots of prompting
+and it's a high value transaction so you
+don't want to like get incorrect data
+out of it. So I still feel like you need
+to put in the work and it feels like
+there should still be apps
+that just do all the work for you.
+>> Did you see Karpathy release like sort
+of a LLM arena of a sort which I mean I
+do by like hand right now using tabs.
+It's like you have Claude open, you have
+Gemini open, you have ChatGPT open and
+you give it the same task and then you
+take the output from each and then I
+usually go to Claude at that point and
+I'm like all right Claude, this is what
+the other one said. What do you think?
+And check each other's work. I actually
+think that that particular behavior of
+the consumer that level that we're doing
+startups are doing as well. They are
+actually arbitraging all of the models.
+I had some conversations with a number
+of founders where before they might have
+been loyalists to let's say OpenAI
+models or Anthropic and I just had some
+conversations recently with them and
+these are founders that are running
+larger companies like series B level
+type of companies with AI, they're
+actually
+abstracting all that away and building
+this orchestration layer where perhaps
+as each new model release comes out,
+they can swap them in and out or they
+can use specific models that are better
+at certain things for just that. For
+example, I heard from the startup they
+used Gemini 3
+to do the context engineering which they
+actually then fed into OpenAI to execute
+it. And they keep swapping it as new
+models come up and the winner for each
+category or
+type of agent work is different and
+ultimately they can do this because it
+it is all grounded based on the evals
+and the evals are all proprietary to
+them because they they're a vertical AI
+agent and they just work in a very
+regulated industry and they have this
+data set that just works the best for
+them. I think this is the new normal
+right now where people are expecting
+yeah that it's cool that the model
+companies they're spending all this
+money and
+making intelligence faster and better
+and we can all benefit. Let's just do
+the best. It's almost like the era of
+Intel and AMD with the new architecture
+would come up. People could just swap
+them, right? Yeah, it feels at the
+highest level that angst around where's
+the value going to accrue? Is it going
+to go to the model companies or like the
+application layer or are either
+startups? Feels like that
+ebbs and flows in either direction a
+little bit throughout the year to me.
+Like it feels there are moments where
+like Claude code amazing launch and it
+was like oh okay like the model
+companies are actually going to play at
+the application layer. But then to me at
+least there's all vibes based like
+Gemini surge especially over the last
+few months just feels like it returns us
+to a world of where exactly that like
+the models are all essentially
+commoditizing each other and it's just
+like the
+application layer and the startups are
+going to set up to have another
+fantastic year if that continues. I'm
+curious what you think Jared with some
+a lot of perhaps
+the negative comments on Twitter around
+is this a bit of a bubble AI bubble?
+Yeah. When I talk to undergrads, this is
+like a common question that I get is
+like oh like I heard it's a big AI
+bubble because like there's all this
+like crazy rocket tripping going between
+Nvidia and OpenAI and like is it
+is it is is it all fake? Yeah.
+>> No, this is fantastic, right? Like
+people look at the telecom bubble is
+like there's just you know billions of
+dollars like tens of billions, hundreds
+of billions just like sort of sitting in
+a bunch of telecom back in like the you
+know 90s. Actually that's why YouTube
+was able to exist, right? Like if you
+just have a whole bunch of extra
+bandwidth that isn't being used and is
+relatively cheap, the cost is low enough
+for like something like YouTube to
+exist. Like if there wasn't a glut of
+telecom, then like maybe YouTube would
+have happened it just would have
+happened later. And then that isn't that
+like sort of what we're talking about
+here? Like how do we we have to
+accelerate, right? We have the age of
+intelligence, the rocks can talk, they
+can think, and they can do work, and you
+just have to zap them more, and you get
+like smarter and smarter stuff at this
+point. I think the argument to college
+students is actually like because there
+will be a glut, there is an opportunity
+for you. And if there was not a glut,
+then there wouldn't be as much
+competition, the prices would be higher,
+the margins lower in the stack would be
+higher, right? And then, you know,
+what's one of the big stories this year?
+Like Nvidia suddenly is on the outs.
+Like I think their stock is today is
+like around 170s or something. You know,
+I think I'm still a long-term buy and
+hold, honestly, but for the moment
+people like, "Oh, well, Gemini's so
+good." And all the you know, nobody
+seems to be Nvidia only now, and
+everyone's buying AMD, and everyone's
+buy you know, and TPUs are working. So,
+you know, at the moment it looks like
+there's you know, what does that mean?
+Like there's competition.
+And uh it means that there will be more
+compute, not less. And then that means
+that probably a little bit better things
+for all of the big LLM companies, like
+sort of the you know, the AI labs. Uh
+they get a little bit of power, but you
+know, they too are in competition with
+one another. So, then what does that
+mean? Well, then it's you know, go up
+another level in the stack, right? Like
+as long as there are a great many AI
+labs that are in deep competition with
+one another, then uh that's even better
+for that college student who's about to
+start a company at the application
+level. Yeah, I think that's exactly
+right. It's like peo- people are asking
+this question, like is it a bubble?
+That's maybe a question that's really
+relevant if you're like the equivalent
+of like Comcast. Like if you're Nvidia,
+that's a very relevant question. Like,
+"Oh, are people overbuilding GPU
+capacity?" But like the college
+students, they're not Comcast. They're
+actually like YouTube. If you're doing a
+startup in your dorm room, it's like the
+AI equivalent of like YouTube. And like
+kind of doesn't really matter that much.
+Maybe Nvidia's stock will go down next
+year, I don't know. But like even if it
+does, that doesn't actually mean that
+it's like a bad time to be working on an
+AI startup.
+>> Yeah, it's what Zuck said in a political
+savvy this year, I think, right? It's
+like Meta may end up over investing like
+a significant amount in like the CapEx
+infrastructure, but like they
+essentially have to the big companies
+have to do it cuz they can't just like
+sit on the sidelines. And in the case
+like
+demand falls off a cliff for some
+reason, it's their CapEx, not the
+startups' CapEx. And they're still going
+to be tons of infrastructure and ideas
+to still continue building. There was
+this book written by this economist
+called Carlota Perez, who studied a lot
+of uh tech trends, and it studies a lot
+of um
+technology revolutions, and it
+summarizes as there's really two phases.
+There's the phase of uh installation,
+which is where a lot of the very heavy
+CapEx investment come in.
+And then there's the deployment phase,
+where really ripples it it where rips,
+and then everything explodes in terms of
+abundance.
+And during the initial phase of
+installation is where it feels like a
+bubble. There's a bit of a frenzy
+because it starts first with a there's
+this new technology that's amazing,
+which happened with the ChatGPT moment
+in 2023. Everyone got super excited
+about the tech, and then everyone's got
+super hyped and got
+into investing into a lot of the
+infrastructure with buying a lot of GPUs
+and all the giant gigawatt data center
+buildout. And then people are like, "But
+what is the demand? What are going to be
+all the applications to be built out?" I
+think right now we're in that
+transition, which is actually really
+good news for startup founders because
+they are not involved into the building
+the data centers, but they're going to
+build the next generation of
+applications in the deployment phase
+when it really proliferates. And what
+happened just going back to the analogy
+with with the era of the internet,
+before the 2000, there was a lot of
+heavy CapEx investment into the telcos,
+right? Those were giant projects that
+college students wouldn't be involved,
+but they were very heavily invested. And
+in some cases were over-invested. I
+mean, there's a whole thing with dark
+fiber and some pipes that are not used,
+and that's fine.
+The internet ended up being still a
+giant economic driver.
+And what that means is startups like the
+future Facebook or the future Google are
+yet to be started because those come in
+in the deployment phase. Because right
+now things things things are still
+getting built up. I I do think the
+foundation lab companies and GPUs very
+much are falling into the bucket of
+infrastructure. Yeah. I mean, it's
+interesting to watch uh how the stuff is
+evolving a little bit. So, do you
+remember summer 2024, there was a
+company called Star Cloud that came out
+and was one of the first to come out and
+say, "We're going to make data centers
+in space." And what was the reaction
+when, you know, people thought
+>> on the internet, yes. They said that's
+the stupidest idea ever. You know, I
+guess 18 months later, uh suddenly
+Google's doing it, Elon's doing it.
+>> it in [laughter] every interview now,
+apparently.
+>> Is that right? Yeah, it seems to be like
+his top talking point.
+>> Yeah. And so, I mean, why is that? Like
+I feel like one of the aspects is that
+like
+part of the um infrastructure buildout
+right now that's so intense is like we
+literally don't have power generation.
+Boom Supersonic, instead of making
+supersonic jets right now, is on this
+good quest to create enough power for a
+bunch of these
+AI data centers that are being built
+right now. They use jet engines.
+And even those like are so bad you know,
+the supply chain for jet engines to
+generate power for data centers is so
+backed up that, you know, you would have
+had to have ordered these things,
+you know, two or three years ago
+just even have it in two or three years
+from now.
+You know, these constraints
+uh end up like influencing like fairly
+directly what the giant tech companies
+need to do to win the game three or five
+years out.
+Like suddenly there's not enough land,
+you know, in America we can't build. The
+regulations are too high. In California
+we have CEQA, which is totally abused by
+the environmental lobby to stop all
+innovation and building housing, by the
+way. We just don't have enough
+terrestrially like to just do the things
+that society sort of needs right now.
+So, you know, the escape valve is like,
+"Actually, let's just do it in space."
+Yeah, come to think about we we kind of
+have the trifecta of YC companies that
+are solving the data center buildout
+problem. Well, you need fusion energy.
+>> Yeah. Yeah, well, we
+have the company that's solving the no
+land problem by building the data
+centers in space. We have Boom and
+Helion, which are solving the we don't
+have enough energy problem. I just
+funded a
+uh a space fusion company that just
+graduated called Zephyr Fusion. And they
+actually had a great seed round out of
+demo day. They're in their 40s, they're
+national lab engineers who their entire
+careers they were building, you know,
+tokamaks and fusion energy. And they
+came into the lab one day, they looked
+at the physics, they, you know, looked
+at the math and the models, and they
+said, "You know what? If we did this in
+space, it would actually pencil." And
+so, that's they're on like this sort of
+grand next 5-10 year quest to actually
+manifest it, to actually create it in
+space um because the equations say that
+it is possible.
+And uh if they do it, it's actually the
+only path to gigawatts of energy
+uh up there in space. So, you know, it
+might be you know, an even more perfect
+trifecta uh shortly. So, the thing I
+also feel like happened over the course
+of this year is the um interest in
+starting model companies. I think I
+guess at maybe at both ends. There's
+like the people who can raise the
+capital to go and actually try and build
+a head-on competitor to OpenAI, which
+there are very very few, like maybe at
+Ilya with SSI. But then more so within
+YC, people are trying to build like
+smaller models. Um I've certainly had
+more of those in the last few batches
+than before. Like whether it's sort of
+like a models run on edge devices or
+maybe like a voice model specific to a
+particular language. And
+I'm curious to see if that trend
+continues. Going back to the early era
+of YC, actually, we sort of saw the
+explosion of just startups being
+created, and maybe especially SaaS
+startups. Partly what what um fed that
+was just knowledge about startups became
+more dispersed. There wasn't like kind
+of library information on the internet
+about like how to start a startup, how
+to build software. And then over like a
+decade that just became more
+commonplace, and that just exploded like
+society's knowledge of startups and how
+to build things. And it's may feels like
+maybe we're going through that moment in
+sort of the AI
+research meets like actually building
+things.
+>> With with training models, I think we
+are absolutely going through that right
+now. Yes. Like where where it's going
+from being a very rare skill set to a
+more common one. Cuz like OpenAI a
+decade ago was like a rare like you
+needed you needed like a
+unique combination of skills, right? You
+needed like your researcher brain, your
+sort of like engineering brain, maybe
+like your sort of finance business
+brain. Wait, wait, wait. So, did you
+just describe Ilya, Greg, and Sam?
+>> You got it.
+>> [laughter]
+>> That was like a rare team, right? There
+was just wasn't that configuration of
+team around very much. And now, a decade
+later, there's like a plethora of people
+who have like the research background,
+the engineering background, um the
+startup capital raising um background.
+Or at least can be taught how to do all
+of that kind of stuff. And I'm curious
+if that would just mean we'll just see
+more
+applied AI company starting, and maybe
+there'll be like even more models to
+choose from for all the very specific
+tasks. I think so. I think the other
+thing that's even contributing and
+making this a even bigger snowball is
+because of RL. I think there's all these
+new open source models that people are
+doing the fine-tune on top of it with a
+particular RL environment and task. So,
+it is very possible that you can create
+the best
+domain-specific, let's say, healthcare
+model trained on a generic open-source
+model by just doing fine-tuning on it
+and doing RL. It beats the regular big
+model. Actually, I've heard and seen a
+number of startups where their
+domain-specific model beats uh OpenAI,
+let's say, on healthcare. There's this
+particular YC startup that told me that
+they collected the best dataset for
+for healthcare, and they ended up
+performing better than OpenAI in a lot
+of the benchmarks for for healthcare
+with only 8 billion parameters. I guess
+what's funny is that you do need to have
+a post-training infrastructure. Uh you
+know, we've also had YC companies where
+uh they had something that beat OpenAI,
+uh you know, GPT-3.5,
+and they were doing fine-tuning with RL,
+but then uh yeah, GPT-4.5 and then 5.1
+came out and uh you know, basically blew
+their fine-tuning out of the water. You
+have to keep [clears throat] going,
+yeah.
+>> Yeah, you got to keep going. Yeah, I
+mean, you actually have to continue to
+uh get to the edge. Anything else uh
+that really sort of stood out from
+this past year that jumps out to you? Uh
+it's funny, we started the year with one
+of our episodes that got a lot of views
+around vibe coding.
+I think we were talking about it more as
+observing a behavior that was happening
+from our founders.
+And I was surprised to see that this
+became like a giant category. There's
+lots of companies that are winning. I
+mean, we have Replit, there's Emergents,
+there's a bunch of them. Varun Mohan had
+gone over to Google. He released
+antigravity. And uh did you guys see the
+video? I actually am sort of curious
+whether they actually used Nano Banana
+or any of these video gen things cuz
+it's like a little too perfect, but
+Google has the budget to do the high
+production value video, but it's you
+know, Varun at the keyboard, and then
+you know, Sergey is like right behind
+him. So, it was like it was very
+cinematic. Anyway, I think Sundar was uh
+you know, also not only talking about um
+space data centers Uh he was also
+talking about vibe coding, and I knew
+that I was a little bit trolling back,
+but knowing what we know, I mean, yes,
+vibe coding is not
+you know, completely usable and
+trustable for uh you know, 100% of your
+coding, period. Like this
+you know, it is not true that you can
+like ship 100 100% solid production code
+today as of 2020 and the end of 2025.
+Yeah, I was thinking about things that
+surprised me in 2025, and I think
+perhaps the thing that most surprised me
+is the extent to which I feel like the
+AI economy stabilized. Like I feel like
+when we did this episode at the end of
+2024, it felt like we were still in the
+middle of a period of incredibly rapid
+change where the ground was shifting
+under our feet, and like nobody knew
+when the other shoe might drop, and like
+what exactly was going to happen with
+startups in AI and the economy. Now I
+feel like we've kind of settled into
+like a fairly stable AI economy where we
+have like the model layer companies and
+the application layer companies, and
+seem and the infrastructure layer
+companies, and it seems like everyone is
+going to make a lot of money, and
+there's kind of like a relative playbook
+for how to build an AI-native company on
+top of the models. I feel like things
+really kind of matured in that way.
+Which shows is all downstream of like
+the models themselves have incrementally
+improved this year, but there haven't
+been like major steps forward that have
+shaken everything up, which is has a
+knock-on effect. Many episodes ago, we
+talked about how it was felt easier than
+ever to pivot and find a startup idea
+cuz if you could just survive, I mean,
+if you could just wait a few months,
+there was likely going to be some like
+big announcement that would completely
+make a new set of ideas possible and
+create more opportunities to build
+things. If certainly feels like that has
+slowed down, and so like finding ideas
+is sort of returning to sort of normal
+levels of difficulty in my experience
+and not just ours. I agree. I'll tell
+you what's not a surprise. Do you
+remember that report AI 2027 where it
+was just sort of like this doomer piece
+that said like, "Oh, well, society's
+going to start falling apart in 2027."
+But you know, at some point they quietly
+revised it to say that it wasn't 2027,
+but they kept the title. Maybe it's not
+a surprise. Like I was always a little
+bit of a skeptic um
+of like this fast takeoff argument
+because even with the scaling law, it is
+uh log-linear. So,
+it is slower. It requires like 10x more
+compute, and it's still sort of, you
+know, topping out, right? And uh that's
+one form of good news. Another form of
+it's weird to call this good news, but
+human beings uh don't like change.
+>> [snorts]
+>> In our previous episode where we sort of
+blew up that uh MIT report that said
+that, you know, 98% or 90% of uh
+enterprise AI projects fail. Well, it
+turns out that 90% of uh enterprises
+don't know how to do, you know, IT, let
+alone AI. It's weird to say that that's
+a good thing, but in the context of fast
+takeoff, like that is a real break on
+the ability of this new really insane
+technology from actually permeating
+society. I love to accelerate, but like
+it's weird to say like, "Oh, well,
+actually, in this case, maybe that's a
+good thing, right? Like it is a
+shockingly powerful technology, but you
+know, between being log-linear scaling
+and human beings really don't like
+change, like organizationally speaking,
+society will absorb this technology.
+Everyone will have enough time to sort
+of process it, like culture will catch
+up, governments will be able to respond
+to it not in like a frantic SB 1047 sort
+of like, you know, let's stop all the
+compute past 10 to the 26, right? Like
+just these knee-jerk responses to
+technology. We're excited about um the
+Arc AGI prize is uh you know, going to
+come in and do the winter 26 batch as a
+nonprofit. The funny thing about that is
+like, yeah, maybe there's
+um a team right now that is climbing the
+leaderboard of Arc AGI, and they're
+going to accelerate this thing again.
+>> Something that surprised me relates to
+that with the startups is I remember
+around this time last year we were
+talking about how companies are getting
+to a million dollars ARR and raising
+series A's without hiring. Like some
+case not hiring anyone, just the
+founders, maybe hiring one person, which
+just felt very unusual. I feel like a
+year on
+that hasn't translated into, okay, and
+then they went and hit like 10 million
+ARR, or they they they scaled without
+adding any more people to. No, they turn
+around started and started hiring like
+actual teams.
+>> [laughter]
+>> Like post-series A actually largely
+feels like the playbook is the same, and
+the companies might be smaller for the
+same amount of revenue, but it feels
+it's entirely because they hit the
+revenue so fast, and they're still just
+bottlenecked on how long it takes to
+hire people versus they have demand for
+less people. I still think there is like
+a you know, some effect, but it is not
+like open and shut. It is not like you
+don't have to hire executives anymore. I
+think there are like might be a case of
+two foie gras startups, like one being
+Harvey and the other one being Open
+Evidence, right? Harvey, the founders
+are incredible. Uh they were very early,
+and then there's this sort of idea of
+like for VCs, you could just go down
+Sand Hill Road, and like the fix is in.
+Like you just sort of block out all of
+them, and then all the people, you know,
+there are maybe 30 people who could
+write checks of like 10 to 100 million
+dollars, and if you just sort of get all
+of their money, like there's sort of no
+one who can actually come in and do the
+next series A, and then basically you're
+safe. Like you have capital as a
+bludgeon is capital as a moat in that
+case, right? So, yeah, Harvey's
+interesting because, you know, uh Llama
+is coming fast for them, and obviously,
+we have some skin in the game on Llama,
+but we think that they have as good a
+shot at any. I guess that's one trend
+that we saw in 2025 is that there was
+like a first wave of like AI-headed
+companies like Harvey, who might have
+wasted a lot of money on fine-tuning,
+actually. Totally. That like broke out
+really big in 2023 and kind of did a
+victory lap that, you know, oh, we've
+won the the space, and now we're seeing
+a second wave of companies like Llama
+and Giga, and it turns out that like,
+oh, actually like
+it isn't so simple. Yeah, the weird
+beneficiary of um
+you know, burning some non-trivial
+double-digit percentage of your capital
+stack on fine-tuning that buys you no
+advantage is like basically the
+investors are the only winners there cuz
+they just own more of your company, you
+know. Yes, at least as it relates to
+like the the hiring and team size, I
+feel like of the two camps, one being
+the AI is going to make everything more
+efficient, you will need less people,
+and the other AI is going to reduce the
+cost of like producing the time to
+produce things, and so then the
+expectations from your users and
+customers will just go up, and you'll
+need to keep hiring more people to
+satisfy like the growing expectations. I
+feel like this year has been more in
+that second camp. And I think that is
+what's driving the fact that the
+companies are still just hiring as many
+people as they were pre-AI. It's just
+like the bar for what the soft what
+their customers expect, and they're all
+in the you know, like Llama is racing
+with Harvey, Giga is racing with Sierra.
+Like they're all still competing for the
+same set of customers, and they're still
+ultimately a bottlenecked on like
+people, and like I don't think anyone's
+bottlenecked on ideas, but they're
+bottlenecked on like people who can
+execute really well. I know, I think I
+think that's like still it's it's
+exciting. Feels like an exciting phase.
+I agree with you that like the uh era of
+the one person running a trillion-dollar
+company is not here. Not yet. Yeah, but
+I think it's going to trend that way
+eventually. That'll be a wild time.
+Maybe that's a prediction for for next
+year, 2026. Yeah. You think it's coming
+in 2026? I mean, I don't think it'll
+happen in 2026 either, honestly. I mean,
+I think you will have many stories of
+companies run by, you know, under 100
+people that are making hundreds of
+millions of dollars. So, I mean, Gamma
+was interesting to see like uh one of
+the biggest things that they said in
+their launch that I think is a very good
+trend is they said they got to 100
+million dollars in ARR with only 50
+employees. So, which is a very different
+it's, you know, such an in inversion,
+right? Like normally, you have the big
+banner and the like little X thing you
+know image and it's like oh yeah like we
+raised all this money and look at all
+the people who work for us. It's a good
+trend to have the reverse flex which is
+like look at all this revenue and look
+how few people work for us. Well, that's
+all we have time for this time. We just
+wanted to wish you a really happy
+holidays and happy New Year from all of
+us to you and yours. See you next time.

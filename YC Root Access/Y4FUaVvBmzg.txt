@@ -1,0 +1,696 @@
+Title: Hightouch: Revolutionizing Personalized Marketing With The First Agentic Marketer
+Video ID: Y4FUaVvBmzg
+URL: https://www.youtube.com/watch?v=Y4FUaVvBmzg
+Channel: YC Root Access
+Published: 2025-05-08T21:50:53Z
+Duration: PT20M7S
+Views: 3563
+Likes: 70
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 675
+
+Description:
+Hightouch recently raised $80M in Series C funding at a $1.2B valuation to bring AI Decisioning to marketers. 
+
+While marketers have long struggled to send the right message at the right time, Hightouch has created a solution that uses AI agents to deliver personalized experiences across multiple channels, like email, push notifications, and ads. Their AI agents optimize each customer’s journey, automatically running experiments and providing insights into what works for different groups of cust
+
+============================================================
+TRANSCRIPT
+============================================================
+
+Today I'm joined by the founders of
+Hightouch, uh, Kashish, Josh, and Tedas.
+Um, they're building an agentic
+marketer. The company's been around
+since 2019 2020. I've got to know them
+through two different YC batches. And
+we'll tell you more about that story in
+a second. Uh, the company is on a tear
+right now. By the time that this video
+will be out, they will have announced
+that they're a billion dollar company.
+And the last 12 months, it's been an
+incredible run for this company. And I'm
+excited to tell you more. What does
+Hightouch do? And what is the best way
+for like a person who's not familiar
+with the world that you're in to explain
+what you guys do? Yeah, so the most
+recent iteration of hightouch is outcome
+driven marketing. Marketers tell us what
+goal they want to achieve and the AI
+agent in this case our agentic marketer
+will help you achieve that goal. So for
+example, a typical B2C brand, let's say
+you've purchased a pair of leggings from
+an athleisure brand. They want to now
+upsell you on water bottles, tops, and
+other u products. So the agentic
+marketer will look at all activities
+you've ever done with that brand online
+and offline and come up with
+propensities and campaigns that best
+serve that individual customer. So
+imagine if you had one marketer, a human
+being marketer for every customer within
+your customer database. So when I was at
+Airbnb, this is something that we were
+actually dreaming about and hoping that
+we at one point get to, but at least in
+my time there, we never got to. So I'm
+excited you guys are building it for
+everybody else. Um, we're going to get
+into the details of what you're building
+right now in a second. maybe talk about
+the beginning of this company. So um um
+you applied to YC then you met us and
+you kind of like applied together as a
+team or or started a company right
+together as a team but initially it was
+just you and you had a different idea
+and then you were in a batch after can
+you just talk about what was the time uh
+or what was the foundation story of this
+company? How did you all start together?
+We were all going through pivot hell. It
+was like March 2020. Uh we were living
+in again this 10-bedroom house together
+in the mission and it was quarantined so
+no one could really leave the house. Um
+all three of us were looking for new
+business ideas every day just waking up
+thinking what are we going to work on
+today and then we thought well actually
+it would be nicer to work together on
+this because we trust each other to work
+hard and like figure things out. So it
+was like we don't actually have a thesis
+at the moment for what we should build
+but we have a thesis that these three
+individuals are going to like make it
+and figure something out. And YC
+mentioned this like way back in 2019. It
+was that companies die because founders
+give up, not because of like external
+factors like market risk or product
+risk. And that really stuck with us like
+yeah, we just have to not give up until
+we finally figure something out. And
+what was the moment like like you're
+like this moment like we're going to
+work together? Does did you decide to
+work together and the idea the same day
+or how did that happen? I don't think it
+was like a single moment. We were all
+pivoting our companies at the same time.
+Yeah. And we would all work in this one
+living room in the house which before co
+was like you know the startup co-working
+space where Josh Kish and I would work
+and pretty much no one else because
+everyone else is going to their offices
+but postcoid became this like super fun
+environment where everyone was working
+from home now. Um and since we were both
+pivoting our ideas and just looking for
+completely left field things, right? We
+were in travel 2020, no more travel. Um
+we we were just jamming on ideas
+together and we're like wait maybe it'd
+be more efficient to just all work
+together. Got it. and and the initial
+idea was reverse ETL. Where did that
+came from? Yeah. So, honestly, the
+initial idea there was a lot of pivots
+to finally get to it. As you can
+imagine, like you're working on a travel
+company, COVID happens, your bookings go
+to zero in a week when the US announces
+quarantines. Um, we were initially
+working on some stuff in things like
+customer support and just like the main
+thing we emphasized though was talking
+to as many and many and many customers
+as possible. And we just found this just
+really big trend across all the
+companies we talked to which was that no
+matter what role people were in
+marketing sales etc they all had a
+problem around getting access to all the
+data in the business and then we saw
+this other trend which is that um
+companies are all accumulating all their
+data in data warehouses like snowflake
+data bricks Google bigquery etc. Um so
+that's where the idea of reverse ETL
+came which is how do you take all the
+data from these warehouses and get them
+into the hands of business teams like
+marketing teams which became a really
+big use case. Yeah. um for us and that's
+why we decided to go deeper there. And
+who ended up becoming the first
+customer? How did you get the first one
+or two customers?
+So Retool was one of the first
+customers. Oh, really? We had like three
+kind of at the same time. Yeah. I think
+Retool was I think from like some intro
+you know with our network from segment
+and stuff like that. And then the other
+company was just like we were just
+looking for people who were searching
+for what we were building a way to use
+all the data in the warehouse for
+marketing. Um, and we found them in like
+some sort of Slack community and we just
+reached out to them and we're like,
+"Hey, we're building a product that can
+solve this." And how quickly did did you
+able to launch our or We pretty much
+sold. They sold first before you
+launched. As we were launching. Oh,
+smart. Yeah. So, I would say, you know,
+while we were selling those first
+customers, we were building the product
+at the same time and we always made it
+work. Yeah. I mean, to paint a picture
+like there was a point in time where the
+product was running off Josh's laptop.
+Um but people thought it was in the
+cloud and obviously now it is completely
+different like very horizontally
+scalable in the cloud and secure but in
+2019 very different story. Got it guys.
+Okay. And at some point um founders get
+the feeling that this is working. Um is
+there a way that you a moment you
+remember when you said okay I think this
+is working. Um like was there a number
+was there like a customer got really
+excited? Probably like two moments.
+Yeah. Um I think the first moment for me
+at least was when um I just realized
+that we're talking to so many different
+companies in so many different
+industries, right? From like this
+newspaper in Norway, it's like a very
+traditional company that wants to figure
+out how to use data and all that stuff
+for marketing. Um this like healthcare
+DTOC company, this retool, um the
+company in Brazil, which we can't even
+remember what they quite do at this
+point. Um, and I was just like, "Wow, if
+all these companies in so many different
+industries in so many different parts of
+the world all have the same use case,
+feels like there's something here." And
+then there was another one. Yeah. I
+think February of 20 21, probably four
+or five months later. So, this is after
+a series A. So, we've like already
+raised like a round and like told the
+world we're going to work on this for
+sure. Yeah. Um, there was a week where
+every day someone onboarded the product
+self-s served without talking to us.
+Like just signed up on and Josh and I
+were like, "Holy we just got five
+customers this week and we didn't talk
+to any of them. like this thing is
+actually working. Did you figure out
+where they came from? Um, marketing like
+it was like SEO, like content marketing
+and that kind of stuff. Um, and I think
+that was the day where we like we we
+believed in the business. We believed in
+it bottoms up without necessarily very
+very clear evidence. Um, but our like
+principles for what made a good business
+to us back then in 2021 was it should be
+something that people come to us for. So
+it's pull not push. Um, it should be
+something that people can set up by
+themselves which we don't really believe
+in anymore but the time we did. Um, and
+that it should be something that as
+Jesus said, the same abstraction should
+apply to many different use cases. So
+the abstraction was a very simple SQL to
+SAS. Give me your SQL query, I'll pipe
+it to your SAS tool. Um, but would that
+same abstraction apply to so many
+different use cases that we said great
+like even if for example there's a
+market crash and SAS tools are not so
+spendy anymore, we can still go to B2C,
+which is exactly what we did. Yeah, we
+were really wary of like building a
+startup that just sold to other
+startups, other YC companies or other
+startups or B2B SAS companies. I think
+that was a common thing to do in the
+batch, but we wanted to really make sure
+that what we were working on would be
+able to especially business SAS would be
+able to sell to the broader market of
+companies out there. Yeah. And then can
+you describe like so this is 2020 then
+there's like three more years go by and
+then last year what what happened in
+those years like like what how would you
+describe for like the timeline um of the
+next couple years maybe here's I would
+describe it as oscillating or like ebing
+and flowing um and so you can think of
+the company as like three phases right
+one is we created a new category called
+reverse ETL ETL and getting ETL doesn't
+really matter which direction you go but
+calling it reverse ETL help people find
+us on a map which was I want to get data
+from a database face into a SAS tool.
+That really worked well for inbound for
+a while and so we were getting a ton of
+logos. They were not paying us a lot of
+ACV but they were coming inbound. So
+that was a really good phase. Hired a
+lot like did a lot of marketing like
+things were working. Then we realized
+wait we need something for business
+users. Um and we have all these business
+users that want to log into the product
+and they want to self-s serve without
+SQL queries use the product and maybe
+they want to do more vertical use cases
+like sales or marketing. We chose
+marketing. Um that was the second phase.
+Now we had to step back, reinovate, hire
+more engineers, like figure out like
+what is the strategy here? Maybe this is
+more tops down sale, maybe more maybe we
+need more sellers, different strategy.
+Uh so that's like phase two. Uh and then
+same thing again like I think two and a
+half years later we entered that space
+which was called the customer data
+platform space. We started competing
+with Salesforce and Adobe companies with
+way more budget and brand than us. Um,
+and then we said, "Let's go innovate a
+third time." And that's when we built
+the Aentic Marketer. And and this this
+idea of like never being satisfied with
+the product or always feeling like you
+have to innovate. So like, where does
+that come from? And I feel like it's
+it's been part of you from the very
+beginning. I think that we know that the
+market we're in is inherently um such a
+big market that it's going to be
+competitive, right? It's it's an obvious
+thing. Marketing teams want to figure
+out how to use data and AI and stuff
+like that to do give the best experience
+to their customers. something that's
+been talked about for a long time, but
+as you mentioned Airbnb, the dreams
+really never been satisfied. Um, so it's
+kind of interesting. Um, even though at
+each time that we decided to pursue the
+next direction, we were still like
+growing the business pretty fast,
+everyone at the company, our investors
+would always be like, are you sure we
+should pursue something else or should
+we just focus? Right? That's the kind of
+startup mantra, just focus on what
+you're doing, just keep doing that for a
+long time. And um, we really had a
+perspective that if we don't innovate,
+we're going to eventually die. Um, so
+it's like really innovate or die
+mindset. Um, you know, we believe that
+like you can be happy for some amount of
+time doing the same thing and just keep
+scaling that up, but if you're in
+markets like this, eventually someone's
+going to rethink it and figure out that
+next trunch of innovation and like what
+disrupts what people are doing today.
+And we just wanted to make sure that
+we're always that company. So, we're
+always trying to like search for an
+opportunity, not just wait to spot one,
+if that makes sense. Uh, let's talk
+about the early team. So you have a um
+maybe you can just talk about um what is
+your approach to building a team and
+hiring and and there's specific person
+that you weren't mentioning I think here
+as well that play unique role in the
+historic company. I'd say in the early
+years we actually got pretty lucky. We
+had a lot of great people in our network
+who were interested in what we were
+building. So we were able to get a lot
+of engineers and at the time we actually
+didn't even know how to interview. So
+some of our early You didn't have the
+typical resumes though. Yeah. Yeah. Were
+these people from your network segment
+or these were people from somewhere
+else? more personal I'd say a lot like
+personal connections like people who we
+just know or people who were right for a
+startup they were very smart like they
+would figure it out with us high
+aptitude people very high aptitude how
+did you know that they would be good
+good employees or good good corkers
+at some point we'd seen them grind
+really hard or we knew they really
+wanted to I think that's that's a pretty
+high I mean there's this thing that's
+been like sticking in my head recently
+which is people that don't sleep until
+the job is done um and I think those
+people can get like outstanding amounts
+done regardless of their skill set
+because of the aptitude and just the
+grind. What is interviewing at high
+touch like? I think it's something where
+even when we're hiring for engineers,
+most people think about coding interview
+as like very like tactical skills and
+like we we want to hire people who are
+very very like open-ended about what
+their skill set is. So they're very
+powerful, generous, people who actually
+understand like product management, good
+business sense, strong communication,
+very strong communication. I think these
+are things that people don't always
+index on specifically for engineers. So
+a lot of our interviews here like they
+focus a lot on communication skills like
+just open-ended problem solving. Uh but
+for engineering in particular we
+actually have one main interview. It's
+90 minutes. So it's on the longer side.
+It's something like systems design but
+it has a lot more openness to it. So we
+give you a problem. We say like this is
+like what the customer is trying to do.
+What's the right solution to it? And
+it's it goes broader than just your
+general systems design. Doesn't require
+any coding though. So it's all
+architecture and just like how do you
+think from a systems perspective? No
+prep. Um no prep. 90 minutes. And if
+someone passes that interview, Josh can
+basically hire them on the spot because
+it tests design, communication, you
+know, tests everything. It's it's pretty
+hard. What a candidate's reaction to
+this process. Very positive actually.
+Like do they find out in advance that
+there's one interview in 90 minutes?
+Yeah, that's like one of the best
+selling points. It's like easy to get
+the best candidates who oftentimes don't
+want to go through long series of
+sequences. Um it's just like one done
+and I think they really respect the fact
+that it's like what the job is, you
+know, day-to-day. I remember when we
+were interviewing like VP of
+engineerings um no one believed that
+this was possible when when Josh was
+interviewing them about interviewing um
+and even our current VP of engineering
+was like really like one interview but
+we haven't changed it since the
+beginning of the company and and he
+believes in it now too and it's just
+like we call it the core interview and
+it works pretty damn well. How big is
+your team right now?
+170. How many are technical engineers?
+We have like 45 engineers and then
+another six designers and around five or
+six PMs. Probably a lot more technical
+though if you describe it that way.
+Yeah, a lot more. How do you convince
+someone to join a company like like once
+someone once someone passed the bar? Um,
+great talent often has amazing other
+opportunities.
+Um, I mean we want to build a company
+where everyone has really high ownership
+and agency to get done. So like
+there should be very high like if I want
+to make this happen I can make it happen
+at the company and I don't have to
+follow instruction um precisely in order
+to achieve the outcome. So like our
+whole thing is like we grade people on
+impact. You can get promoted for impact
+you can get like higher compensation for
+impact and even if you don't do the
+thing your manager says but you create
+way more impact than whatever it was
+supposed to be then you will get
+rewarded for that. Um, and so we think
+of everyone as like if you can index on
+like what matters for the business and
+make impact, then this is the place you
+want to work. And I think people also
+just really want to work with other
+people that are highly motivated and
+smart. Um, everyone you meet at high
+touch ideally teaches you something and
+makes you a better person the next day.
+One of the questions that we sometimes
+ask in group officers for founders are
+why are you working on this company?
+Like when things are really hard, what's
+the thing that keeps you motivated and
+keeps going? I think the challenges of
+startups in general are just very fun.
+Our problem space is particularly
+technical, particularly challenging. So,
+I think the fact that it's been
+different every year and like always
+changing. That continual challenge, I
+think, is the thing that's just the most
+fun for me. Yeah, I really care about
+just creating an amazing outcome for
+everyone that's trusted us with their
+career. Like every single day I think
+about all the people that I work with at
+High Touch that inspire me. Like for
+example, this year we set a pretty crazy
+revenue goal. Multiple people told me
+that I wasn't ambitious enough and I
+just said, "I hire one." And they're
+like, "Dude, come on. that's not even a
+round number. Let's go for the higher
+one. And guess what? They were right.
+We're going to hit that and even more.
+So like they're just like continuously
+telling us that we should work harder.
+We should innovate more. We should like
+be like more ambitious. And that when
+else in your career do you get to like
+work in an environment where people push
+you in that way and they succeed and you
+actually can achieve. So that makes me
+want to work even harder cuz momentum is
+something
+that you can't like earn back. Once you
+have it, you want to keep it going. Once
+you lose it, it's kind of just gone.
+Yeah. And so it's a responsibility.
+Yeah. What could you said about um
+trying to make the best outcome forever
+and the company really resonates with me
+but I think in addition to that as
+founders like we agreed at the beginning
+of the company that we really just want
+to make a humongous business and if we
+expand it in a bunch of different ways
+that's cool too but we feel like we have
+an as long as we feel like we have an
+opportunity we put our best into it to
+create that humongous business like one
+of the biggest SAS companies around
+hopefully. Yeah. Um then I feel like we
+are we've all you know set a rule that
+we're going to go after that together.
+So uh you're three co-founders. Um what
+are the benefit of having a co-founder?
+Like you've experienced being a solo
+founder and like all mer companies like
+talk about Oh just talk about why you
+think it's like beneficial to have more
+than a being more than a solo founder.
+Should probably start here. The only
+person that's been a solo founder here.
+I think when I was like winding down
+device plane I was thinking I need to do
+a hard pivot. I still wanted to be a
+founder and I wanted to do something
+new. But then I realized being a solo
+founder was pretty tough at going
+through those harder pivots. Like if
+you're set on a direction and you feel
+pretty good about that direction, I
+think it's one thing to be a solo
+founder, but when there's a lot of
+thrash, it really helps to have other
+people to brainstorm more open-endedly
+with and be able to divide and conquer.
+So I think there are paths where being a
+solo founder can work, but it's just
+it's quite uphill. Um it so I think
+having others to go through that hard
+like emotional journey with was like
+just pretty important in the pre-product
+market fit days uh back then. But then
+even as we scale too, like having
+multiple co-founders has just been very
+very central to our growth. What does
+the emotional endurance look like? Is it
+like some days some someone's really
+excited and somebody's really down or
+how how does it work? I think every at
+any given time there's always one person
+that's going through existential dread.
+And that's the benefit of having three
+co-founders. Yeah. Cuz the other two are
+always like, "Let's go, we got this."
+Or, "Dude, why aren't you working? Come
+on, let's go. Let's get back to work."
+Um, and I think like just being able to
+look over and be like, "All right,
+they're still motivated, excited, like
+we'll get through this together. We'll
+figure it out." Is really nice. Um, if
+you're a solo founder, you wake up and
+you're in bed while no work is happening
+while you're in bed. It's really easy to
+spiral when you're working alone on
+something. I think I've seen it in so
+many friends. Um, so just having
+co-founders and people to bounce stuff
+off and people to call you out is just
+very, very helpful. Um, one thing I've
+learned founders getting used to as your
+company is scaling is that all of these
+dramatic moments that seem like, oh,
+this customer is leaving or this
+employee is leaving or something that is
+emotionally kind of dramatic, they just
+kind of keep happening at an increasing
+rate and founder get used to them and
+actually don't stress up anymore. Does
+this resonate? Yeah. You get
+desensitized. Yeah. Yeah. And I hate
+saying that especially like publicly but
+I think like a founder experiences so
+much wide range of emotion that because
+you experience that variability all the
+time that variability becomes quite
+normal. Um it's like huge win, huge
+loss, huge win, huge loss. And so every
+year you'll have 100 wins and losses.
+It's funny because I think sometimes we
+react super aggressively to those wins
+or losses internally. But um that's just
+reacting with speed and aggression and
+making sure we learn from it. We
+actually don't care that much. People
+are like, "Oh, are you stressed out? Are
+you angry?" It's like, "No, just want to
+make sure we learn from it." Was there
+ever a moment you've all felt like we're
+failing and this is not this is not
+going anywhere anywhere? I think always
+in the pre-product market fit days like
+that's like the most emotional toil
+where you don't know like the end in
+sight like when that's going to be. It's
+like it's very open-ended. So, I would
+say that's probably where the most
+biggest existential drive was at least
+for me was before we had product market
+fit. I think there's something you
+mentioned before too about like how do
+you um like our exact team knows this
+pretty well about us. We always ask the
+question of how do you know you're doing
+well? So let's say you doubled your
+metrics this year. How do you know
+that's a good thing? And it's what TA
+said like the opportunity available is
+what we want to access. We don't
+necessarily want to just double our base
+or like triple our base. We want to go
+for the opportunity available. And so I
+think like for us like failure is often
+like growing really quickly but like
+maybe we thought there was an even
+bigger opportunity to go for or maybe we
+did what we said we would do in one area
+but in our new product like AI
+decisioning maybe we wanted to achieve
+even more. Yeah. I'd say we always think
+we're failing. Yeah. So like I think but
+also like fabricating those failures in
+your head is I think also what keeps the
+edge of like continued innovation like
+hire faster like make changes faster
+because I think the people that
+complacent and they're like oh we did so
+well this year those are the people that
+stop innovating or like stop
+changing you haven't had the highest
+profile of a company of your size like
+like it would not surprise me if a lot
+of people haven't heard of you even
+though you're doing extremely well. If I
+watch this video and I'm like get really
+inspired by you guys, which is easy. Um,
+what are the kind of folks you're
+looking for?
+Well, I think one thing that we really
+feel strongly about is that to build
+this next launch of innovation with AI
+um, decisioning and agentic marketing,
+um, we really need to have a lot of
+folks at the company who won't stop
+working until the job's done. And
+sometimes it takes a lot of tinkering,
+trying a lot of different ways to get
+the job done, especially with AI. Um, so
+that's a core attribute that we're
+looking for. Yeah. So, it's engineers,
+PMs, uh, sales people, marketing people,
+really across the stack. Yeah, it's
+actually I don't think you can name a
+role that we're not hiring. I think
+there's 45 open roles right now with a
+team size of 170. And you are in person
+in San Francisco. Uh, so we are in
+person in SF and New York. New York.
+Okay. Uh, and it's hybrid. So, there are
+people that work across like different
+hybrid locations across the US as well,
+but SF and New York are where offices
+are. It's been incredible to follow you
+guys last 5 years and thank you so much
+for um, talking to us. Thanks, Kaf.

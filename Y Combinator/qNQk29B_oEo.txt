@@ -1,0 +1,966 @@
+Title: Laks Srini on Making Homeownership in Reach with ZeroDown
+Video ID: qNQk29B_oEo
+URL: https://www.youtube.com/watch?v=qNQk29B_oEo
+Channel: Y Combinator
+Published: 2019-12-11T16:13:51Z
+Duration: PT35M53S
+Views: 9937
+Likes: 155
+Tags: YC, Y Combinator, Laks Srini, ZeroDown, Laks ZeroDown, Zenefits, Home, Housing, Mortgage, Zero down
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 933
+
+Description:
+Topics
+00:10 - What is ZeroDown?
+1:30 - How did they test the idea?
+3:30 - What did they learn from companies that failed in the space?
+7:40 - Breaking down the product
+11:05 - ZeroDown's customers
+13:15 - Expanding to other markets
+15:30 - What if a downturn happens?
+16:50 - ZeroDown's hiring strategy
+19:50 - What are their hardest technical challenges?
+21:45 - ZeroDown's breadth and product strategy
+26:20 - Customer interviews
+28:15 - Should everyone own a house?
+29:30 - Home ownership in the 
+
+============================================================
+TRANSCRIPT
+============================================================
+
+bucks rainy welcome to the podcast
+thanks thanks for having me here so you
+are the CTO and the co-founder of zero
+down
+what is Aaron down do so we help people
+buy houses we think even in a place like
+Bay Area people with good jobs and
+healthy finances should be able to buy a
+home it all started with my co-founder
+Abhijit he was the CEO Oh at zenefits he
+was making a decent chunk of change had
+a great job
+healthy finances but he'd moved to the
+Bay Area about five years ago he had
+twins and he wanted to buy a house only
+to find out that you need to have three
+hundred four hundred thousand dollars to
+spare not not all of your savings to
+spare to be able to buy a house and this
+felt pretty shitty like even if you have
+a great job and making a lot of money
+and like where what in any other place
+in the world would be considered rich
+yeah like you can't even think about
+buying a house here turns out a lot more
+people who are in the same board a lot
+of our early tenured engineers like
+we're just getting married looking to
+settle down and man like we can't buy a
+house it's gonna take us like four or
+five years to save and we thought there
+has to be some way else to be able to
+have a path to homeownership and so this
+company is super interesting the
+structure is really interesting but
+associated with it are massive costs so
+you know this is not just prototyping an
+app and showing someone at Starbucks how
+do you even start testing this idea well
+we spoke about this for close to 18
+months we even did a site hobby project
+which was like help Abhijit buy a house
+and and we tried to figure out like okay
+what would be the mechanics of it what
+is the history of mortgages what is the
+history of zero down mortgages why can't
+we do zero down mortgages to people in
+facebook Google Apple Airbnb camps seems
+to make sense like they these people are
+good risks and we spoke to a whole bunch
+of companies that have started to be a
+mortgage providers in the last few years
+but died because we wanted to learn
+lessons from not the survival bias but
+like people who actually did not succeed
+yeah
+and we spoke to a whole bunch of real
+estate investors like we
+learned about an entire class of assets
+called single-family rentals that
+started from post financial crisis
+Blackstone and Citibank and all these
+other funds people who came out of these
+funds like started companies where they
+just went and bought massive amounts of
+single-family homes and rented it out
+their thesis was close to 11 million
+Millennials are going to reach household
+formation age over the next decade
+they're going to move from these small
+tiny apartments to single-family homes
+the out of luck they're not going
+to be able to buy it but mainly so many
+other factors like student debt real
+wage stagnation and all these other
+things so they're gonna have to rent it
+and the thesis was like they're gonna
+rent it so might as well rent it from us
+and we'll just lace rents every year and
+have a really good fun doing this
+there's a company called invitation
+homes which is public which owns close
+to hundred thousand homes there are few
+other big funds like they just do this
+and it turns out this is a real asset
+class that people are investing in so so
+it just turned out to be a confluence of
+things that kind of came together that
+made zero doubt possible okay
+yeah and I'm I think it's a really
+interesting point about survivorship
+bias what did you learn from the
+companies that fails so so we actually
+learned a lot about mortgages themselves
+by actually talking to these companies
+so mortgage you can't really
+differentiate that much if you're
+selling a mortgage because Fannie Mae
+and Freddie Mac are these government
+agencies which define a box which are
+mortgages that are valid that can be
+sold in a securitisation secondary
+market if they're not a valid mortgage
+you have to hold them on your books or
+you have to figure out some other way of
+like private-label securities ation and
+all the sort of fun stuff so all the
+companies that started doing mortgages
+like most of their thesis was like hey
+like if we have a better UX on top of
+mortgages it would be great
+turns out like people didn't care that
+much about UX because it was a
+once-in-a-lifetime transaction in fact
+they wanted it to take longer yeah and
+turns out people can more about
+like a 50 basis points difference rather
+than like hey like I have an app to do
+this stuff it's okay like I'll go to my
+bank like get up and out of my statement
+like if I can save some money so kak was
+the problem like customer acquisition
+just became more and more expensive when
+the rates were lower people who are
+doing a lot of refights refinancing
+their homes so they were able to kind of
+like survive but once the rates started
+going up the refinance is stopped and
+suddenly like every all of these
+companies were struggling to acquire
+customers that that was that was like a
+biggest lesson that we learnt like and
+so the entire like trillions of dollars
+of the mortgage industry is controlled
+by this small box where you can't really
+differentiate that much catch it but
+it's also for the good because like so
+it's also consumer protection if you
+have to do all sorts of things I mean
+people don't really understand how
+mortgage works we've spoken to close to
+thousands of people like at least 1,000
+to 3,000 people and not everybody
+understands how mortgage was and these
+are really smart people and who work in
+tech and like they're they understand
+math really well and they have no idea
+how much principal they've paid down
+over five years everybody's really
+surprised when I say even with a 20%
+down a focus and interest mortgage you
+would have paid off only close to 8% of
+principal in five years and people are
+like wow like I do not think that would
+be the case so it is complicated and not
+everybody understands it and people just
+use it because that status quo so so
+that was a lot of learning just by
+talking to people like in the started
+module eight startups and in how did it
+and how did you go about testing buying
+a your house your co-founders house like
+he helped him buy a house what does I
+mean now I mean the idea was to help him
+buy a house we actually didn't succeed
+like that's not a zero down because we
+we kind of like came upon so essentially
+what we tell our customers is will buy
+the house that you want you say I want
+that house we'll buy it for you and give
+you the keys in seven days like with a
+bottle of champagne and yeah and like no
+no bank noise throw no hundred page
+documents and all that stuff you move in
+and as you make monthly payments you
+start like
+getting a portion of like the home every
+month in terms of like purchase credits
+you can think of it almost as like
+vesting and cliff and stock options know
+what happens at work mm-hmm so you get
+point to 5% of the home every month and
+over a five-year period you get 15% of
+the home so it becomes easier to buy the
+home from us at any time you want
+after a two-year period think of it as a
+cliff right so anytime between two and
+five years you can buy the home from
+zero down every year you get 3% of the
+home so let's say you're three you have
+nine percent of the home your company
+exited you came into some money you can
+just buy the home from us at that point
+and then just create similar terms
+similar mortgage terms then you hit a we
+are actually actively working on
+partnerships that like we can easily
+transition people yeah
+then when the time comes okay and so
+break down the product from a founder
+perspective like what services you offer
+how do you make money yeah so we think
+of it as like this vertical full-stack
+home buying yeah which is what zero down
+is so we want to help people right from
+such search mostly feels like a small
+problem with Zillow and redfin and
+everybody is looking at it but everybody
+searches for price bed bath and maybe
+neighborhoods but what we found out that
+people are really looking for is show me
+places 30 minutes commute from work that
+has a lot of natural light that has a
+big backyard and people often tend to
+collect all this data from different
+sources
+sure like I will let's take this for an
+example I want a home that's about 30
+minutes driving distance from San
+Francisco that's close to good schools
+let's say I have a family and good
+schools are important to me now if I
+talk to a lot of friends and arrive at
+this conclusion that I should be looking
+for a home in the Millbrae South San
+Francisco San Bruno area because they
+tend to have good schools then I'm going
+to search for only those places in
+Redfern and Zillow with zero down if you
+actually said show me all the places
+that's 30 minutes driving distance from
+the YC HQ where we are you would
+actually see Albanese
+and mulberry light of Albany is a little
+north of Berkeley
+turns out Albany prices of homes in
+Albany are half of that in Millbrae and
+school ratings according to great
+schools are actually better so there is
+like some loss of information when you
+transfer this like external research you
+know like these different tools which
+can be avoided like if you actually use
+like that one tool which does all of
+these things for you right now we want
+to build a hyper localized search that
+like show me homes in your farmers
+market we just actually did a tag where
+like show me homes that are great for
+dogs so we look at like close to dog
+parks big outdoor space and and stuff
+like that and we try and like collate
+all these things so that's such and then
+the next big thing is like okay I want
+to buy a home what real estate agent do
+I use it so we work with a lot of
+partner agents who are experts so we
+have this curated list of agents we have
+agents who are experts in San Francisco
+we are we know agents who are experts in
+Oakland we have agents who are experts
+and Peninsula and South Bay and so on
+because again like homes are like
+hyperlocal and and you need to know the
+neighborhood really well to be able to
+help hmm
+so we help put that and then the
+financing itself with zero down payment
+and that's like the biggest value like
+$200,000 in the bank today is like we're
+more valuable than two hundred thousand
+dollars in the bank five years from now
+right so so being able to do that today
+is a huge huge value and then we
+actually do the deal execution so we
+take care of inspection appraisals like
+the walkthroughs because we are buying
+100% of the house upfront we want to
+make sure it's a really good house and
+because it's your house you want to make
+sure it's a really good house that's why
+the search also comes in like to be able
+to eventually we want to add tags like
+hey show me neighborhoods that performed
+well during the 2001 crisis 2008 crisis
+it's almost like we are actually
+launching an ultimate home buying guide
+for engineers where we crunch like 50
+different data sets and try to figure
+out like okay what are the things you
+should take into account as you consider
+where to buy a home so speaking of
+engineers so what kind of customers do
+you have right now and
+how do you go about evaluating customers
+that make it fit yeah so we have
+customers that are designers product
+managers engineers like directors of
+emerging market directors like investors
+store agency juniors like so we have
+like a fair variety of customers like in
+the Bay Area we have a pastor yeah as a
+customer the the biggest thing that we
+evaluate is like is there income like
+healthy right and and do they have some
+savings because like we have them build
+rest of the savings to be able to buy
+the house from us five years from now
+yeah so so we are basically making a bet
+on five years from now customer right
+like so we are saying the future you is
+going to be way more successful the
+future you is gonna have way more money
+and is the future you is gonna be way
+more all-around awesome and and that's
+kind of like what what we evaluate for
+and and it's a pretty fast like three to
+five minute like qualification flow you
+just connect your bank account using
+plaid let me look at an asset report we
+look at your income and we say like
+Craig you can go and buy a 1.4 million
+dollar house like and here's a great
+real estate agent and once you say I
+want that house the next thing you know
+is you get the keys in seven days and a
+bottle of champagne it's worth it now
+how does this work in a market that I
+don't know what the temperature of the
+market is right now in the bay but you
+hear about like all these all-cash
+offers that happen immediately like how
+does zero down work we actually give our
+customers deposit of an all-cash offer
+okay so so we basically armed our
+customers with all cash offers so that
+they have way more probability that they
+close the home of their deme yeah fast
+well when we started the company I
+thought like one of the things that's
+gonna take the longest is like people to
+go find homes and I actually like
+closing on it but probably 75% of our
+customers so far have bought homes in
+two or three weeks and I mean in the
+home like in a month month and a half
+from the time they they wrote about zero
+dollar a month and I have their know-how
+which is crazy I mean I can't even
+believe that but it's it's it's amazing
+yeah okay now how like I understand this
+in the context of like high paid
+engineer or you know Bay Area folks how
+does this go about expanding to other
+market
+so so there are like lot more cities so
+I think one of the things that has
+become a characteristics of the
+unaffordability crisis in the country
+yeah is the most desirable places where
+people want to live the places where the
+most desirable jobs are are the places
+where people have been priced out of the
+market right Seattle Denver Austin Salt
+Lake DC New York Boston and all of these
+cities like our viable markets for us
+and and we are planning to be in Austin
+and Seattle in the next couple of months
+hmm so how do you go about crying oh my
+god
+cities is one and largely it's about
+education and like how do we how do we
+explain this to people how do people
+understand this because it's a new way
+of doing things right and if you
+actually look at the math at zero down
+like against rent mm-hmm
+even though the monthly payment is
+higher than rent but at the end you get
+purchase credits that's worth like
+fifteen percent of the home and if you
+take that into account it actually ends
+up being cheaper than renting mm-hmm
+so being able to like explain that
+really well okay this is the thing right
+like I heard about zero down when you
+guys were in the batch was like it seems
+great
+I imagine a lot of people who are not in
+the tech industry and especially those
+like not exposed to early startups all
+the time
+hear this stuff and they're like mmm I
+don't know about this maybe they even
+remember 2008 how do you communicate
+that someone I think I think part of it
+is just enough people having done it
+okay
+so yeah if you have a friend has done it
+yeah so we're doing about a dozen homes
+a month right now and I'm I was actually
+on Saturday with customers like doing
+video shoots of like how do they think
+about zero down how would they explain
+zero down to a friend and and all of
+that stuff helps okay now in terms of in
+terms of where the markets going if
+there were to be a downturn in the
+housing market how would you guys fail
+you ate there so zero down is actually a
+long term holder of homes so like our
+the fund that we run is a five to seven
+year fun and can you talk about the fun
+really quick yeah so zero down is
+actually two businesses like so we had a
+tech company and what is called a prop
+core property company so the property
+company is actually a fund that actually
+goes and buys houses and holds them and
+the fund has a lot of infrastructure it
+has like legal audit external fund
+administrator it has backup servicers so
+that's also part of the safety net
+because these are people's houses and we
+don't want to yeah the blase about it I
+like so we want to have protections even
+in case anything happens to us that like
+the contract can be honored so the fund
+actually has a lot of like
+infrastructure around it now the fund is
+a long term horizon and we actually
+believe we are bullish on real estate
+like in Bay Area Seattle and all these
+different places over the long term and
+the reason we are is also this is where
+the jobs are if you look at the job
+growth in these markets the wage growth
+in this market and we believe that like
+these jobs are probably going to be the
+most evergreen jobs in the next few
+decades how many people you know we are
+about 17 17 okay so yeah man okay now as
+big as I thought given yeah how things
+are going like to be 25 I was gonna say
+yeah I was gonna say how do you go about
+hiring for all these diverse roles when
+essentially you have these like two
+structures in your company yeah so we
+have a director of capital markets who
+used to work at photos' Investment Group
+we have our GC is like from YC continuty
+our marketing person like used to me and
+he used to be from YC as well so we are
+also looking at like people who can
+straddle and play multiple roles like
+from being an IC to like being a manager
+and building out an entire team yeah and
+and not everybody can do that so like we
+are we are trying to be selective about
+hiring those kind of people who can
+straddle that entire range and
+we have our engineering team in
+Vancouver we gonna be building our data
+science team in India because we're
+doing hyperlocal search for every city
+so how do Google bus routes affect home
+prices how to do Facebook busloads
+affect home prices we just we're doing a
+blog post soon like about how does
+greenery and tree cover affect home
+prices so so these things kind of like
+help and matter hmm and to be able to do
+some of these things like fast and like
+for many cities yeah we want to build
+the right team to be able to do that in
+your distributors and we are distributed
+we're not fully remotely distributed but
+we have few offices we have an office in
+Vancouver we have one person India right
+now and like will maybe have an office
+in what led you to make those choices I
+think at zenefits I had built an
+engineering team that was like Vancouver
+Bangalore SF like Vancouver is in the
+same time zone two hours away and you
+find some amazing talent there we were
+also heavily influenced by the the PG
+article about like 95 percent of talent
+is outside the US yeah so one of the
+ways we grew really quickly at Zarephath
+in terms of hiring was we were able to
+tap talent all over the world it was
+just easier to bring them to Vancouver
+in terms of immigration they're like the
+US right okay but now like we just know
+great people there and so it's kind of
+in that work at this point so it was all
+in network like we're not like trying
+out like completely new people you know
+like optimizing for like lowest costs ya
+know and trust the people like we want
+to build like like I said like the right
+team like the right person like who can
+style all the way from being an IC like
+actually do the work like to be able to
+like okay like switch gears like without
+a team yeah to be able to do that okay
+and so all the remote folks are not well
+sort of kind of remote are on the tech
+side now the Shannons in Seattle of
+course and from now I think like our
+design is the more mostly on the tech
+side
+okay in on the tech side what do you
+foresee being the hardest technical
+challenge it's a it's the entirety of
+the experience right like I mean like I
+use tech I think about tech has a great
+haha so when you're looking at homes
+like how do we deliver the right forms
+to the right person at the right time
+right like what are you looking for and
+just like being able to do that himself
+like is is not super easy then you want
+to do it at scale and then there are
+aspects of like the asset management
+like deal execution and like whole bunch
+of stuff there that's where like a lot
+of our like zenefits like automation and
+yeah like those kind of capabilities
+come into play on the asset management
+side like a bunch of us from the team
+like I have experience like I worked at
+the Shaw which was my first job out of
+college and like a couple of our folks
+like on the engineering team like we're
+all people I hired out of college at the
+shore they followed me to zenefits they
+followed me to zero down so like there's
+a there's a little bit of that there so
+we're looking at it as like all these
+pieces but like all of them need to
+connect and like have like a coherent
+single experience like a cross yeah
+search agent T like financing deal
+execution and actually living in the
+home because these first-time homeowners
+often have no idea of the things that
+could go wrong we actually provide this
+concierge app where like people can text
+us like if like hey like my sink is
+broken and we'll connect them with like
+high quality service providers in their
+neighborhood we actually give them a
+concierge service which will come like
+every six months like make sure they do
+preventative maintenance change the
+light bulbs like switch out the
+batteries like what the bathrooms kind
+of stuff so just making the entire
+process of homeownership like easier
+yeah we also have a watch program where
+if they buy furniture like in borrow or
+like they use feather yeah they get some
+discounts if they buy a ring doorbell
+they get some discounts the breath is
+really wild for such an early company
+why did you choose to go that way I
+think it was part of our DNA from being
+at zenefits yeah so one of the biggest
+thing lessons there was this thing
+called the hub-and-spoke model
+okay so zenefits like the software
+itself was the HR Payroll benefits but
+there were so many other spokes like
+time and attendance systems 401k
+commuter benefits like health insurance
+and all of that stuff was was it was set
+up in a way that you can make so much
+money of all the spokes that you can
+give the hub away for free
+there was the
+original zenefits business model but
+zero down like we want to keep we don't
+want to really make money of the
+financing and we want to keep that cost
+like as low as possible or as at cost
+like pass on that pass it on to the
+customers so any savings we do as we
+become larger and have scale and our
+cost of capital goes down we want to
+pass that on to the customer now there
+are so many ancillary things around the
+home in a home buying transaction right
+like there's search brokerage escrow
+insurance and while living in the home
+all these different services and there's
+so many players that take a small
+transaction piece of the pie yeah like
+if we can pull it all in like one great
+experience
+one is like we can make money of other
+places so in fact like we charge the
+customers at $10,000 upfront fee okay
+that's how we make money we split
+commissions with the buy-side broker and
+that's how like those are the two big
+things we make money and then like we
+make money on the concierge like if
+people choose to buy furniture using
+rewards and get a discount like we make
+a small percentage of that okay now
+having all these together not only means
+that we can give the home at cost but it
+also means that like we can build a
+single coherent experience for the
+customer right it'd be like we want
+people to have a jaw-dropping experience
+like when they buy a house which is not
+something you associate with buying a
+house you know and it's like one of the
+most painful processes like that you go
+through in life yeah but so far like we
+have a hundred and PS and people are
+people it's it's almost incredulous when
+you talk to people so what like I can't
+believe how fast this happen yeah like
+we wanted that house ever in like
+fifteen days like we were in the house
+yeah which is extremely like gratifying
+and and that's why we do all these hard
+things yeah makes it exam but we the
+biggest thing we want is like for
+consumers to have this amazing
+experience like a cross like from the
+time they kind of start to search for
+homes
+yeah till the time like that they're
+living in the home I just find the
+product development method really
+interesting to just like go so broad
+from the beginning rather than like pick
+like one like you know obviously maybe
+search was like figure it out I just
+think it's cool and then did you who's
+who's peeing all these things so it's
+almost all of us because we have folks
+like who talk to customers all day long
+so that needs to come back and like
+constant feedback in terms of what do
+people really want yeah and we have
+again like almost all of us like try and
+talk to customers of like hey why did
+you do this thing why did you not end up
+going with zero down like what was your
+reasoning okay
+and we try and just understand like why
+people what objections people have was
+like how do people think about the
+process like and that's how like we even
+came up with searches because then
+people are talking about a home like one
+of the first questions we ask is like
+okay tell us more about like the kind of
+home you want like what are you looking
+for and when when you hear people talk
+that's what you hear you hear things
+like hey I want my commute to be
+efficient right right if two people
+commute
+it's a machine problem to optimize that
+commute right like machine can do a way
+better job in optimizing your commute
+location based on by homes are available
+yeah then like humans trying to optimize
+comes after life right machines can take
+your your choice from 10,000 homes to 20
+homes like 20 to one is a human problem
+10,000 to 20 is a machine problem so
+that's the whole point of building
+search so we'll just by listening to
+people and hearing what they want and
+it's there's a lot of anxiety around
+homeownership right it's like oh
+like so far I was living in a rental if
+there was any problems I'll just call my
+landlord
+no now what happens like if something
+happens yeah that's where the concierge
+comes your you always have help it's
+like a support line for your home and
+it's 24/7 mmm-hmm you just text us and
+like we'll take care of you hmm so
+that's the way that we think about the
+different stages okay so let's let's
+break down the customer conversations a
+little bit more than so are you sending
+out every employee into the field to
+literally knock on doors of zero down
+customers like how does that process
+actually work yeah so so we do a lot of
+like customer interviews and we record
+them and
+and we disseminate them everybody
+listens to it yeah to continuously learn
+we have we have like folks that are
+talking to customers all day long like
+trying to like explain how zero down
+words and we listen to the questions
+that people ask and we try and
+understand like what are their concerns
+like what is like good what is bad about
+this what are the barriers to them just
+like no-brainer like I'm just going to
+do this so like we constantly try a
+nitrate and learn from that okay and I
+think that's that's the thing that I
+love about like YC the most as well
+because the effect of compounding on
+these learning is like huge yeah the
+things that you learn week over week
+over week is just like compounds to have
+massive advantages right I think because
+I just keep hearing it from you and so
+many times people like oh yeah I talk to
+customers and right when was the last
+time you actually talked to a customer
+and it's like usually a month ago two
+months ago and it doesn't sound like
+that's case four yes Saturday so yeah we
+drove over to customers houses like to
+do a bunch of like customer videos and
+testimonials right yeah yeah so where do
+you go from here I think we we want to
+make it possible for everybody to be
+able to own a house no matter where they
+live and it's a path it's a long process
+but we want to help as many people as
+possible as quickly as possible which is
+why like we're going to be in Seattle
+and Austin soon yeah and we probably
+will be in like five or six more cities
+next year okay cuz quarter your
+philosophy then is everyone should own a
+house yeah okay well but why you know
+like Millennials move around like yeah
+so so wouldn't it be cool if you are
+living in a house like for five years
+like you own some ownership in that
+house you should be able to take it with
+you why should everybody 100 percent of
+every home would it be cool if you can
+take your like home ownership with you
+where you go like a 401k right like you
+can take your 401k around like it's not
+tied to a company mm-hmm right like it
+should be like that at any point you
+should be able to sell some part of the
+home like for money should be liquid now
+home is a financial hub right I mean
+it's it's where most of your wealth for
+most people is trapped in this brick and
+motar
+like how would that work so those are
+the things we often think about as the
+future like how do how does
+homeownership look at least like for the
+generation of people that are growing up
+like here 5 10 15 years from now yeah
+and what would be what would make it
+really easy what would make it acts what
+would make sense honestly this is what
+I'm wondering like do you sweat the
+details of what it house looks like if
+you said you know in a crazy world where
+everyone basically lives in like the pod
+hotel version of a house or a world
+where I don't think that would be the
+case but everybody is going to live in a
+pod hotel because even today I think
+space is important to people so I people
+make all sorts of choices for space
+I mean people commute crazy amounts in
+the Bay Area like people commute from
+Antioch Tracy and like three r's one way
+to go to a job like because they get a
+larger space it's close to schools and
+and and these things are important and I
+think these are like fundamental human
+things I don't know if that will ever
+get replaced there will be a class of
+people at different stages in life maybe
+there's a stage of life where you live
+in a pod hotel or community building and
+then there's a different stage where you
+don't so that's kind of how I think
+about the world okay
+and do you think autonomous cars affect
+that affect your business in any way I
+don't think so
+I think autonomous cars are cool like it
+might enable people to live farther away
+but I don't know like just because the
+commute is easier it still takes that
+much time
+so I mean there are places on the East
+Coast where there's like great public
+transit people travel three hours on a
+train yeah maybe like those kind of
+things will become easier but I don't
+know I guess we would have to step into
+that world I can't make the transition
+in my head to see myself living more
+than ten minutes away from work so I'm
+in the same boat like I would never
+that and I guess the core of the
+questions like it doesn't really matter
+for your business right now it doesn't
+lie I think people have to live
+somewhere yeah it's inherently human
+like that you want to make the space
+your own yeah if you really think about
+home ownership the fundamental rights
+our ability to profit from sale right
+when you own something you can profit
+from sale ability to customize it
+reshape it remodel it make your own if I
+gave you an iPhone and said like you
+can't install any software and they say
+you can't like put a cover on it like
+then it's not your phone right like so
+so that's what happens to a rental most
+most of the times so ability to reshape
+remodel and make it your own and finally
+I think ability to have like a stable
+cost basis over a period of time that's
+what mortgage really does like it locks
+in your payment for 30 years
+yeah with zero down you have five years
+of like stable payments nobody will
+raise the rents on you or kick you out
+right you can remodel reshape the home
+like to make it your own and you have
+you built these ownership like you build
+these credits in the home and and you
+get the profit from like these credits
+because they're a percentage of home
+value they increase with the value of
+the home so that's that's how we think
+about zero doc I think it's great so
+just kind of wrapping up for four
+founders who are listening who still
+haven't figured out what they want to
+build you have spent a lot of time
+researching zero down and then you just
+execute it did you go through other
+ideas oh well a lot okay but I think I
+think at the end of the day if you are
+not doing something that you truly
+believe should exist in the world or
+like be there it's gonna be very hard
+like there are gonna be like deep dark
+days and there are gonna be really bad
+days there will be greatest but they'll
+be really really bad days yeah and and
+if it's not something that you're super
+committed to and you want to really see
+in the world it's hard to stick with it
+it's hard to just do a start-up for
+start-up sake
+yeah so I think this is the thing that
+spoke to us so okay what do that so you
+basically hit a point where you're like
+trying one thing or thinking about one
+thing thing about the other thing then
+you just felt the energy it's
+we just kept coming back to this right
+like the the the biggest reason that we
+might not have done this is because it's
+really hard there's like all these
+different aspects there's capital
+markets there's like educating consumers
+and basically making sure all of these
+things work together and again like it's
+a broad play so that was the biggest
+reason we were like is that like can we
+do some enterprise hit Jeff's ass that's
+easy money just comes in every month
+it's beautiful yeah but it didn't quite
+excite all the three founders as much as
+like hey this is a real problem there
+are people in the Bay Area today making
+more than $200,000 household income but
+they can't even think about buying a
+house so like how do we go about solving
+that like homeownership is part of the
+American dream man yeah and we wanna
+kind of revive it and bring it back and
+did you feel that same kind of
+enthusiasm about your co-founders like
+was it where you should be shopping
+around for the company or the idea
+itself like I think I had made up my
+mind that if I were to do another
+company it was going to be with the
+business and hobby and that was the most
+important thing for me like so because
+again like yeah like it is like startups
+are hard you've gotta be like spending a
+lot of time together might as well like
+have fun while doing it and do it with
+people who you like as people so so that
+was the most important consideration and
+then this idea just spoke to us like
+because it was a it was a problem that
+was facing himself and and turns out
+like a lot more people we were facing
+the same problem yeah at one point I
+thought like our marketing strategy will
+be understanding
+in front of University Avenue holding a
+board saying like buy a home with no
+don't pay me let me explain how yeah but
+but it definitely feels like that that
+so many people with really good jobs and
+healthy finances I just tucked in this
+loop of trying to save enough for a down
+payment like cost of living is high
+that's why people leave the way yeah so
+we want to save the Bay Area
+Yeah right man thanks so much for coming
+in no thank you thank you for having us
+you

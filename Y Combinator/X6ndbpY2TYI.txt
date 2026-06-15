@@ -1,0 +1,822 @@
+Title: Baidu's AI Lab Director on Advancing Speech Recognition and Simulation
+Video ID: X6ndbpY2TYI
+URL: https://www.youtube.com/watch?v=X6ndbpY2TYI
+Channel: Y Combinator
+Published: 2017-08-11T15:29:58Z
+Duration: PT30M29S
+Views: 5910
+Likes: 111
+Tags: YC, Y Combinator, AI, Artificial Intelligence, Baidu, Adam Coates, Craig Cannon, Podcast, Machine Learning, TTS, STT, Speech To Text, Text To Speech
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 796
+
+Description:
+Adam Coates is the Director of Baidu's Silicon Valley AI Lab - https://twitter.com/adampaulcoates
+
+http://research.baidu.com
+
+Read the transcript: http://blog.ycombinator.com/
+
+YC's podcast is hosted by Craig Cannon - http://twitter.com/craigcannon
+
+============================================================
+TRANSCRIPT
+============================================================
+
+today we have Adam coats here for an
+interview um Adam uh you run the AI Lab
+at Buu in Silicon Valley um could you
+just give us a quick intro and explain
+what Buu is for people who don't know
+yeah um so BYU is actually the largest
+uh search engine in China um so it turns
+out the the internet ecosystem in China
+is this incredibly Dynamic environment
+uh and so by I think sort of turned out
+to be an early technology leader and
+really established itself in PC search
+um but then also has sort of remade
+itself in the mobile Revolution um and
+increasingly today is becoming an AI
+company um recognizing the value of AI
+for a whole bunch of different
+applications not just search okay and so
+uh yeah what do you do exactly so uh I'm
+the director of the Silicon Valley AI
+lab uh which is one of uh four Labs
+within BYU research so especially as uh
+by's becoming an AI company um the need
+for uh a team to sort of be on the
+bleeding edge and understand all of the
+current research be able to do a lot of
+basic research ourselves uh but also
+figure out how we can translate that
+into business and product impact for the
+company um that's increasingly critical
+and so that's what BYU research is here
+for um in the AI lab in particular uh we
+kind of
+founded recognizing how extreme this
+problem was about to get um so I think
+the Deep learning research and and AI
+research right now is flying forward so
+rapidly uh that the need uh for teams to
+be able to both understand that research
+but also quickly translate it uh into
+something that businesses and products
+can use uh is more critical than ever so
+we we founded the AI lab to try to close
+that Gap uh and help the company move
+faster and so then how do you break up
+your time in between like doing basic
+research for around Ai and actually
+implementing like bringing it forward to
+a product um there's no hard and fast
+rule to this um I think one of the
+things that we try to to repat to
+ourselves every day is that we're
+Mission oriented um so the the mission
+of the AI lab is is precisely to uh
+create AI technologies that can have a
+significant impact on at least 100
+million people uh we we chose this to
+sort of keep bringing ourselves back um
+to to the sort of final goal that we
+want all the research we do to
+ultimately ends up in the hands of users
+um and so sometimes that means that uh
+we spot uh something that that needs to
+happen in the world uh to really change
+uh technology for the better and to help
+BYO um but no one knows how to solve it
+uh and there's a basic research problem
+there that someone has to tackle uh and
+so we'll we'll sort of go back to our
+Visionary stance and think about the
+long term and invest in research uh and
+then as we have success there we we
+shift back to to the other foot and take
+responsibility for carrying all of that
+to a real application and making sure we
+don't just solve the
+90% uh that you might put in say your
+research paper but we also solve the
+last the last mile we get to the
+99.9% so maybe maybe the best way to do
+this then is to just explain like
+something that started with research
+here and how that's been brought on to
+like a full-on product that exists so
+I'll give you an example uh we we've
+spent a ton of time on speech
+recognition um so speech recognition a
+few years ago is one of these
+technologies that always felt pretty
+good but not not good enough um and so
+traditionally speech recognition systems
+have been heavily optimized for things
+like mobile search uh so if you hold
+your phone up close to your mouth uh and
+you say a short query talk in a
+non-human voice exactly uh the systems
+could figure it out and they're getting
+quite good um I think you know the
+speech engine that we've built at by do
+called Deep speech uh it's actually
+super human for these uh short queries
+um because you have no context people
+can have thick access sense so um that
+speech engine actually started out as a
+basic research project uh we looked at
+this problem we said gosh what would
+happen if speech recognition were human
+level for every product you ever used um
+so whether you're in your home or in
+your car or you pick up your phone
+whether you hold your phone up close or
+hold it away if I'm in the kitchen and
+my toddler is you know yelling at me uh
+can I still use a speech interface um
+could it work as well as a human being
+uh understands us and so then how did
+did you do the what is the basic
+research that moved it forward to put it
+in a place that it's useful so we had
+the hypothesis that maybe the thing
+holding back uh a lot of the progress in
+speech is actually just scale um maybe
+if we took some of the same basic ideas
+we could see in the research literature
+already and scaled them way up uh put in
+a lot more data invested a lot of time
+in solving computational problems uh and
+built a much larger neural network than
+anyone had been building before for this
+problem uh we could just get better
+performance uh and lo and behold with
+with a lot of effort um we ended up with
+this pretty amazing uh speech
+recognition model that like I said in
+Mandarin at least is is actually superum
+um you can actually sit there and listen
+to uh a voice query that someone is
+trying out and you'll have native
+speakers sitting around debating with
+each other wondering what the heck the
+person is saying wow uh and then the
+speech engine will give an answer and
+everybody goes
+oh that's what it was because it's just
+such a thick accent from perhaps someone
+in rural China how much how much data do
+you have to give it to train it you know
+to train it on a new L cuz I think on
+the side I saw it was English and
+Mandarin yeah um like if I wanted German
+how much would I have to give it so one
+of the big challenges for these things
+is that they need a ton of data uh so
+our English system uses like 10 to
+20,000 hours of audio uh the mandroid
+systems are using even more uh for for
+topend products um so this certainly
+means that uh the Technologies at aate
+where to get that superhuman performance
+uh you've got to really care about it so
+so for by voice search maps things like
+that that are are Flagship products um
+we can put in the capital and the effort
+to do that um but it's also one of the
+exciting things going forward in in the
+basic research that we think about is
+how do we get around that how can we
+develop machine learning systems that
+get you human performance on every
+product uh and do it with a lot less
+data so what I was wondering then like
+did you see that bird thing that was
+floating around the internet this week
+okay uh they claim that they don't need
+all that much time uh all that much data
+audio data to emulate your voice or
+simulate whatever they call it uh you
+guys have a similar project going on
+right that's right yeah we're working on
+text to speeech um why can they achieve
+that with less data I think the the
+technical challenge behind all of this
+is there are sort of two things that we
+can do uh one is to try to share data
+across many applications so to take text
+speech is one example uh if I learn to
+mimic lots of different voices and then
+you give me the 1,000 and1st voice uh
+you'd hope that the first thousand
+taught you virtually everything you need
+to know about language and that what's
+left is really some idiosyncratic change
+uh that you could learn from very little
+data uh so that's one possibility um the
+other side of it is that a lot of these
+systems um this is much more important
+for things like speech recognition that
+we were talking about is is we want to
+move from using supervised learning
+where a human being has to give you the
+correct answer um in order for you to
+train your neural network uh but move to
+unsupervised learning where I could just
+give you a lot of raw audio uh and have
+you learn uh the mechanics of speech uh
+before I ask you to learn a new language
+um and hopefully that can also bring
+down the amount of data that we need and
+so then on the technical side like could
+you give us just a um yeah somewhat of
+an overview of how that actually works
+like how are how do you process a voice
+uh for text to speech uh let's do both
+actually because I'm super interested
+all right so spe start with uh yeah
+let's start with speech recognition
+before we go and train a speech system
+um what we have to do is collect a whole
+bunch of audio clips uh so for example
+if if we wanted to build a new voice
+search engine I would need to get lots
+of examples of people uh speaking to me
+giving me little voice queries uh and
+then I actually need human annotators or
+I need some kind of system that can give
+me ground truth that can tell me for a
+given audio clip what was the correct
+transcription right uh and so once
+you've done that you can ask a deep
+learning algorithm to learn the function
+that predicts the correct uh text
+transcript from the audio clip okay uh
+so this is uh this is called supervised
+learning it's an incredibly successful
+framework we're really good with with
+this for lots of different applications
+uh but the big challenge there is those
+labels uh that someone has to be able to
+sit there and give you say 10,000 hours
+worth of labels which can be really
+expensive okay um so and yeah how is it
+actually recogniz like what is a
+software doing to recognize the
+intonation of a word well traditionally
+what you would have to do is break these
+problems down into lots of different
+stages so I as a speech recognition
+expert would sit down and I would think
+a lot about what what are the mechanics
+of this language so for for Chinese you
+would have to think about tonality and
+how to break up all the different sounds
+uh into some intermediate
+representation uh and then you would
+need uh some sophisticated piece of
+software we call a decoder uh that uh
+goes through and tries to map that
+sequence of sounds uh to possible words
+that it might represent oh okay um and
+so you have all these different pieces
+and you'd have to engineer each one uh
+often with its own expert knowledge but
+deep speech and all of the new deep
+Learning Systems we're seeing now try to
+solve this in one Fell Swoop so the
+really the answer to your question is
+kind of the vacuous one yeah which is
+that once you give me the audio clips
+and the characters that it needs to
+Output a deep learning algorithm can
+actually just learn to predict those
+characters directly um and in the past
+it always looked like uh there was some
+fundamental problem that maybe we could
+never escaped this need for these hand
+engineered representations but it turns
+out that once you have enough data all
+of those things go away and so where
+where did your data come from like
+10,000 hours of audio uh we actually do
+a lot of clever tricks in English where
+we don't have a lot of uh a large number
+of English language products so for
+example it turns out that if you go onto
+say uh a crowdsourcing service you can
+hire people very cheaply to just read
+books to you wow um and it uh it's not
+the same as the kinds of audio that we
+hear in real
+applications um but it's enough to teach
+a speech system all about you know
+liaison between words and you get some
+speaker variation and you hear strange
+vocabulary where English spelling is
+totally ridiculous oh um and in the past
+you would hand engineer these things
+you'd say well I've never heard that
+word before so I'm going to bake the
+pronunciation into my speech engine um
+but now it's all data driven so if I
+hear enough of these unusual words you
+see these neural networks actually learn
+to spell on their own even considering
+all the weird exceptions of English
+interesting and you have the input right
+because I've heard of people doing it
+with like a YouTube video but then you
+need a caption as well with the audio so
+it's twice as much if not more work
+interesting and so then what about the
+other way around how does that work on
+the technical side right so that's one
+of the really kind of cool parts of deep
+learning right now is that a lot of
+these insights about what works in one
+domain keep transferring to other
+domains so with text to speech you could
+see a lot of the same practices so you
+would see that um a lot of systems were
+hand engineered combinations of many
+different modules and each module would
+have its own set of machine learning
+algorithms with its own little tricks um
+and so one of the things that our team
+did recently with a piece of work that
+we're calling deep voice was to just ask
+what if I rewrote all of those modules
+using deep learning for every single one
+um to not put them all together just yet
+but even just ask can deep learning
+solve all of these adequately to to get
+a good speech system uh turns out the
+answer is yes um that you you can
+basically abandon most of this
+specialized knowledge um in order to to
+build uh all of the subsequent modules
+and in more recent research that's in
+the the Deep Learning Community we're
+seeing that of course everyone is now
+figuring out how to make these things
+work end to end they're all data driven
+uh and that's the same story we saw for
+for deep speech so we're really excited
+about that that's wild and so do you
+have a team just dedicated to parsing
+like research coming out of universities
+and then figuring out how to apply it
+are you testing everything that comes
+out um it's a bit of a mix is definitely
+our role to um not only think about AI
+research but to think about AI products
+and how to get these things to impact um
+I think uh there is clearly so much AI
+research happening that it's impossible
+to to look through everything but one of
+the big challenges right now is to not
+uh just digest everything but to
+identify the things that are uh truly
+important so what's like a what's like a
+90 million person product like you're
+like oh man well it's the speech
+recognition we chose because we felt uh
+in aggregate it had that potential so as
+we have the next wave of AI products um
+I think we're going to move from these
+sort of bolted on AI features to really
+immersive AI products so if you look at
+how keyboards were designed you know a
+few years ago for for your uh phone you
+see that everybody just bolted on a
+microphone and they hooked it up to
+their speech API um and then that was
+fine for for that level of Technology
+but as the technolog is getting better
+and better um we can now start putting
+speech up front we we can actually build
+a voice uh first keyboard so it's
+something we've been prototyping in the
+AI lab you can actually download this uh
+for your Android phone uh so it's called
+tuck type in case anybody wants to try
+it yeah um but it's remarkable how much
+it changes your habits I use it all the
+time and I never thought I would do that
+and so it emphasized to me why the AI
+lab is here that we can sort of discover
+these changes in user habits we can
+understand how uh speech recognition can
+impact people much more deep than it
+could when it was just bolted onto a
+product um and that sort of Spurs us on
+to start looking at the full range of
+speech problems that we have to solve to
+get you away from this sort of close
+talking voice search scenario and one
+where I can just talk to my phone or
+talk to a device and have it always work
+so as you've like you know given this to
+a bunch of users I assume and gotten
+their feedback um have you been
+surprised with the like voice as
+interface I know lots of people talk
+about it uh some people say like uh it
+doesn't really make sense you know for
+example you see like apple transcribing
+voicemails now um are there certain use
+cases where you've been surprised at how
+effective it is and others where you're
+like I don't know if this will ever play
+out you know I think you know the really
+obvious ones like texting uh seem to be
+the most popular I feel like the
+feedback that is maybe the most fun for
+me is uh for when people uh with thick
+accents uh post a review they say oh I
+have this like you know crazy accent I
+grew up with and nothing works for me um
+but I tried I tried this uh new keyboard
+and it works amazingly well um I have a
+friend who who has a thick Italian
+accent and he complains all the time
+that nothing works um it's working and
+and all of this stuff now works uh for
+for different accents because it's all
+data driven we don't have to think about
+how we're going to serve all these
+different users if they're represented
+in the data sets and we get some
+transcriptions uh we can actually serve
+them in a way uh that really wasn't
+possible when we were trying to do it
+all by hand that's fantastic and have
+you gone it like through the whole
+system in other words like if I want to
+give myself you know an Italian American
+accent can I do that yet with BYU uh we
+can't do that yet with our TTS engine
+but uh it's definitely on the way okay
+cool um so what else is on the way what
+are you researching what what products
+are you working on what's coming so
+speech and text to speech I think these
+are part of uh a big effort um to make
+this next generation of AI products
+really fly um once uh text to speech and
+speech are your primary interface to a
+new device they have to be amazingly
+good and they have to work for everybody
+uh and so I think there's actually still
+quite a bit of room to run on those
+topics uh not just making it work for a
+narrow domain but making it work for for
+really the full breadth of what humans
+can do do you see a world where uh you
+can run this stuff locally or will they
+always be calling an AP yeah okay I
+think uh it's definitely going to happen
+um one kind of funny thing is that if
+you look at folks who maybe have a lot
+less technical knowledge and don't
+really have the sort of instinct to
+Think Through how a piece of technology
+is working on the back end um I think
+the the response to a lot of AI
+Technologies now because they're
+reaching this sort of uncanny valley is
+that uh we often respond to them as
+though they're sort of human and and
+that sets the bar really high uh our
+expectations for for how delightful a
+product should be is now being set by
+our interactions with people um and one
+of the things we discovered as we were
+translating deep speech into to a
+production system was that latency is a
+huge part of that experience um that the
+difference between 50 or 100
+milliseconds of latency and 200
+milliseconds of latency is actually
+quite perceptible um and it really um
+anything we can do to bring that down uh
+actually affects user experience quite a
+bit um we actually did a combination of
+research uh production hacking working
+with product teams thinking through how
+to make all of that work and that's a
+big part of the sort of translation
+process process that we're here for
+that's very cool and so yeah what what
+happens on the technical side to make it
+run faster so um when we first started
+like the basic research uh for for deep
+speech um like like all uh research
+papers you know we choose the model that
+gets the best Benchmark score um which
+turns out to be horribly impractical for
+for putting
+online um and and so after sort of the
+initial research results team sat down
+with just a set of what you might think
+of as product requirements and started
+thinking through like uh what kinds of
+neural network models uh will allow us
+to get the same performance um but don't
+require so much sort of future context
+they don't have to listen to the entire
+audio clip uh before they can give you a
+really high accuracy response so kind of
+doing that like you know the language uh
+prediction stuff like the open AI guys
+were doing with the Amazon reviews like
+predicting what's coming next um maybe
+not even predicting what's coming next
+but one thing that humans do without
+thinking about it is is if um if I
+misunderstand a word that you've said to
+me and then a couple of words later um I
+pick up context that disambiguates it uh
+I actually don't skip a beat I I just
+understand that as one long stream and
+so one of the ways that our speech
+systems would do this is that they would
+listen to the entire audio clip first uh
+process it uh Allin one Fell Swoop and
+then give you a final answer uh and that
+works great for getting the highest
+accuracy
+um but it doesn't work so great for a
+product where you need to give a
+response online give people some
+feedback that lets them know that you're
+listening uh and so you need to alter
+the neural network so that it tries to
+give you a really good answer using only
+what it's heard so far but can then
+update it very quickly uh as it gets
+more context so I've noticed over the
+past few years people have like gotten
+quite good at structuring sentences so
+sir understands them um you know they
+put like the the noun in the correct
+position so it like feeds back the
+correctly I found this when I was
+traveling like I was using uh Google
+translate and I uh after like one day
+recognized that I couldn't give it a
+sentence but if I gave it a noun I could
+just show it to someone and like if I
+just show like you know bread it will
+translate it perfectly and give it um do
+you find that like we're going to have
+to slightly adapt how we communicate
+with machines or your goal is to
+communicate like perfectly as we would I
+I really wanted to be human level um and
+I don't see a serious barrier to getting
+there at least for really high valued
+applications uh I think there's a lot
+more research to do but um I I sincerely
+think there's a chance that over the
+next few years we're going to regard
+speech recognition as a solved problem
+that's very cool so what what are the
+really hard things happening right now
+like what are you not sure if it'll work
+so I think we were talking earlier about
+getting all this data um so for problems
+where we can just get gobs of labeled
+data um I think we've we got a little
+bit more room to run there but we can
+certainly solve those kinds of
+applications but there's a huge range of
+what humans are able to do often without
+thinking that current speech engines
+just don't handle um we can deal with
+cross talk and a lot of background noise
+um if you talk to me from the other side
+of a room even if there's a lot of
+reverberation and things going on uh it
+usually doesn't bother anybody that much
+um and yet current speech systems often
+have a really hard time with this uh but
+for the next generation of AI products
+they're going to need to handle all of
+this uh and so a lot of the research
+that we're doing now is focused on
+trying to go after all of those other
+things how do I handle people who are
+talking over each other or handle
+multiple speakers who are having a
+conversation very casually um how do I
+transcribe things that have very long uh
+structure to them like a lecture um
+where over the course of the lecture I
+might realize I misunderstood something
+uh or some piece of jargon gets spelled
+out for me and now I need to go and and
+transcribe it um so this is one place
+where our ability to innovate on
+products is actually really useful um we
+we've just launched recently um a
+product Vision called Swift scribe uh to
+help transcriptionists be much more
+efficient and that's targeted at
+understanding all of these scenarios
+where the world wants this long form
+transcription we have all of these uh
+conversations that we're having that are
+just sort of lost and we wish we had
+written down um but it's just too
+expensive to transcribe all of it uh for
+for everyday applications so do you um
+so in terms of emulating someone's voice
+uh do you have any concerns for faking
+it cuz I did you see the uh the face
+simulation I forget the uh the
+researcher's name so I'll have to link
+to it but you know what I'm talking
+about so essentially you can like feed
+it both video and audio and you can
+recreate you know Adam talking do you
+have any thoughts on like how we can
+prepare for that world you know I think
+um in some sense this is a a social
+question right I I think culturally
+we're all going to have to exercise a
+lot of critical thinking um we we've
+always had this problem in some sense
+that I can read an article that has
+someone's name on it um and
+notwithstanding understanding writing
+style uh I don't know for sure where
+that article came from um and so I I
+think we have habits for how to deal
+with that scenario we we can be
+healthily skeptical and I think we're
+going to have to come up with with ways
+to adapt that to this sort of Brave New
+World um I think those are big
+challenges coming up and and I do think
+about them but I also think a lot about
+um just all all the positives that that
+AI is going to have I you know um I
+don't talk about it too much like my
+mother actually has muscular destrophy
+uh and so um things like speech uh and
+language interfaces are just incredibly
+valuable for for someone who cannot type
+on an iPad because the keys are too far
+apart
+um and so these are just all these like
+things that you don't really think about
+um that that these Technologies are
+going to address uh over the next few
+years and on balance I know that we're
+going to have a lot of big challenges of
+like how do we use these how do we as
+users adapt to uh all of the
+implications uh but I think we've done
+really well with this in the past and
+we're going to keep doing well with it
+in the future so do you think where AI
+will create new jobs for people or will
+we all be like mechanic Turks feeding
+the system like I'm not sure I think uh
+this is this is something where you know
+the the job turn over in the United
+States uh every quarter is is incredibly
+high it's actually shocking um that the
+fraction of our Workforce that uh quits
+one occupation and moves to another one
+is really high um I think it is clearly
+getting faster like we talked about this
+phenomenon within the AI lab here where
+the Deep learning research is flying
+ahead so quickly uh that we're often
+remaking ourselves uh to to keep up with
+it and to make sure that we can keep
+innovating uh and I I think that might
+even be a little bit of a lesson for for
+everyone that continual learning is
+going to become more and more important
+going forward yeah so speaking of like
+what are you teaching yourself so the
+robots don't take your
+job uh I don't think we're at risk of
+robots taking our jobs right now I um
+actually it's kind of interesting we
+thought thought about like how does this
+change
+careers um one thing that uh has been
+true in the past is that uh if you were
+to create a new research lab one of the
+first things you do is fill it with AI
+experts um where they live and breathe
+AI technology all day long um I think
+that's really important I think for
+basic research you need that kind of
+specialization um but because the fields
+moving so quickly uh we also need a
+different kind of person now we we also
+need people who are sort of chameleons
+who are these highly flexible types that
+can understand and even contribute to a
+research project uh but can also
+simultaneously shift to the other foot
+and think about how does this interact
+with GPU hardware and a production
+system and how do I think about a
+product team and user experience because
+often product teams today can't tell you
+what to change in your machine learning
+algorithm uh to make the user experience
+better it's very hard to quantify where
+it's falling off the edge uh and so you
+have to be able to think that through to
+change the algorithms you also have to
+be able to look at the research
+Community to think about what's possible
+and what's coming um and so there's a
+sort of amazing full stack machine
+learning engineer uh that's starting to
+show up where are they coming from like
+if I if I want to be that person what do
+I do like now say I'm you know 18 they
+seem to be really hard to find right now
+believe um so in the AI lab we we really
+uh set ourselves to just creating them
+um I I think this is sort of the way
+unicorns are that we we have to find the
+first few examples and see how exciting
+that is uh and then come up with a way
+for for people to to learn and and
+become that sort of uh sort of
+professional um actually one of the
+cultural characteristics of of our team
+is that we look for people who are
+really self-directed and hungry to learn
+um that things are going so quickly we
+just we can't guess what we're going to
+have to do in six months and and having
+that sort of do anything attitude of
+saying well I'm going to do research
+today and think about research papers
+but wow once we get some traction and
+the results are looking good we're going
+to take responsibility for getting this
+all the way to 100 million people um
+that's a towering request of of anyone
+on our team and the things that we find
+really help everyone sort of connect to
+that and do really well with that is
+really self-directed and able to kind of
+deal with ambiguity um and also really
+willing to learn a lot of stuff that
+isn't just AI research um but is also
+stepping way outside of comfort zones uh
+and learning about gpus and high
+performance Computing uh and learning
+about how a product manager thinks okay
+so uh this has been super helpful if if
+someone wanted to learn more about what
+you guys are working on or even just
+things that have been influential to you
+like what would you recommend they check
+out on the internet oh my goodness um
+so I have to think about this one for a
+second here uh I think
+the the stuff that's actually been quite
+influential for me is actually like
+startup books um I think especially with
+big companies um it's easy to think of
+ourselves in silos of of having a single
+job um one idea from the startup world
+that I think is really uh amazingly
+powerful is this idea that uh a huge
+fraction of what you're doing is
+learning
+um there's a tendency especially amongst
+Engineers which I count my I count
+myself a member uh is like we want to
+build something uh and so one of the
+disciplines I we all have to keep in
+mind is that we also have to be really
+cleare eyed and think about what do we
+not know right now uh and focus on
+learning as quickly as we can uh to find
+the most important part of AI research
+that's happening and find the most
+important pain point that people in the
+real world are experiencing and then be
+really fast at connecting those uh and I
+think a lot of that influence on my
+thinking has come from the startup World
+there you go that's a great answer okay
+cool thanks man thanks so much

@@ -1,0 +1,32 @@
+# ---- Secrets (NEVER commit) ----
+.env
+*.key
+
+# ---- Private / personal data (kept off the public repo) ----
+# Personal notes, ideas, and saved query answers / conversation history.
+wiki/ideas/
+wiki/synthesis/
+wiki/log.md
+# Locally-ingested personal documents and their derived pages.
+Local Files/
+wiki/sources/local-*.md
+
+# ---- Runtime / ephemeral state (regenerated automatically) ----
+automation.log
+*.log
+.auto_sync.lock
+wiki/automation_state.json
+wiki/ingest_failures.json
+failed_videos.json
+**/_extract_state.json
+**/_video_list.json
+**/_new_urls.txt
+
+# ---- Caches / OS / editor ----
+__pycache__/
+*.py[cod]
+.DS_Store
+.cursor/
+.obsidian/
+.venv/
+venv/

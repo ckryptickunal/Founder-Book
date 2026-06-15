@@ -1,0 +1,1473 @@
+Title: Analyzing Billions of Transactions to Understand Consumer Behavior - Michael Babineau and Kevin Hale
+Video ID: hsMePYTcIik
+URL: https://www.youtube.com/watch?v=hsMePYTcIik
+Channel: Y Combinator
+Published: 2019-05-29T15:22:32Z
+Duration: PT55M42S
+Views: 8369
+Likes: 135
+Tags: YC, Y Combinator, Mike Babineau, Kevin Hale, Second Measure, Startup, Finance, Tech, Transaction Data, Consumer Behavior, Podcast, Interview, Cofounder, CEO
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 1442
+
+Description:
+Michael Babineau is cofounder and CEO of Second Measure. Second Measure analyzes billions of credit card transactions to answer real-time questions on consumer behavior. They were in the Summer 2015 batch of YC and you can check them out at SecondMeasure.com.
+
+https://twitter.com/mikebabineau
+https://secondmeasure.com/
+
+Kevin Hale is a Partner at YC. Before working at YC he cofounded Wufoo.
+
+https://twitter.com/ilikevests
+
+The YC Podcast is hosted by Craig Cannon.
+
+https://twitter.com/craigcanno
+
+============================================================
+TRANSCRIPT
+============================================================
+
+Mike Kevin was a group partner when you
+did YC in the summer 2015 batch what
+idea did you apply with so our basic
+idea at the time was was really to use
+to use credit card data to help
+investors make better investment
+decisions and I think like one thing
+that and that is actually not really far
+from what we do today the only like the
+main evolution is that now we work with
+companies as well not just investors but
+I think a big a big part of the idea
+though is not just to look at credit
+card data and try to find interesting
+things and telling us was about it but
+instead to build an analytics platform
+throw that in front of investors and
+then let them answer their own questions
+and what led you to coming up with that
+idea oh that is a good question so I did
+not like I don't come from an investing
+background or I don't come from - at all
+I actually worked in video games and the
+same is true my co-founder Lillian so
+she she and I met at Electronic Arts
+that we worked together there and then
+at a another gaming startup before that
+I was an ad tech and like I've always
+been you know we're both software
+engineers like we've always been in the
+tech world but we've got plenty of
+friends in finance and one of those
+friends just out of the blue called me
+one day I was like Mike I need your help
+I've got two terabytes a date on a hard
+drive how do I load this into Excel and
+that that was like it was it was one of
+those moments where again as a software
+engineer right like yeah you know I hear
+it I get this question like God you know
+like why like why it's like why are you
+asking me this right so he's in New York
+like I'm in the Bay Area it's a milly
+middle of the afternoon why like why am
+i fielding this and I like wasn't
+feeling particularly helpful I was like
+yeah what did what did your engineer
+like what you know gee ask your dev team
+just an engineering team and I just hear
+silence and then Mike what are you
+talking about we've got an IT guy and
+that's it and that blew my mind cuz he
+was at a thirty billion dollar hedge
+fund and like I just assumed that all
+hedge funds you know looked like two
+Sigma or rent a core you know these yeah
+he's like just these these places that
+have hundreds
+quants and hundreds of engineers but in
+reality most most hedge funds have a
+handful of analysts and just some back
+office support right they don't have any
+coders in-house that I think that's when
+we realize there's this huge opportunity
+because investors are like in you know
+in investors they they make money off of
+off of having an information edge right
+off of knowing things that other people
+don't and they're like in a lot of
+people who work at hedge funds are very
+very clever right there they're looking
+for this edge like wherever they can
+find it and over the like over recent
+years increasingly them and looking at
+things like Google Trends right to see
+like oh is there some leading indicator
+in search terms that would indicate some
+you know some like bigger shift and
+consumer sentiment about I don't know
+some company very unsophisticated sort
+of analysis yeah yeah but at the same
+time like a clever idea and it you know
+oftentimes works right you've got
+investors like subscribing to things
+like comScore looking at how many how
+many how many visits to a website are
+happening and because that roughly is
+like roughly correlated with with actual
+sales and it's also like this nice
+leading indicator in the sense that
+public companies only come out with they
+only report metrics once a quarter and
+it's like not right at the end of the
+quarter it's actually sometime
+afterwards so you can actually look at
+how many people visit if you can see how
+many people visit at amazon.com over the
+past quarter then like you can look at
+the full quarter of information and then
+you can see how well that correlates
+with you know the resulting reported
+performance so how'd you go from like
+helping someone with like a two terabyte
+Excel problem and working on video games
+to being like okay this is now time for
+us like quit our jobs and solve this
+problem because like what were you doing
+there I DEA like your role yeah so so
+we're so we are not video game
+programmers right we were working at a
+video game company but my specialty was
+building high scale infrastructure and
+Lillian's specialty is building data
+pipe
+and analytics teams and what you know
+when you look at when you look at the
+video game space you know like what like
+how does how does like a company like
+like Zynga I think is Inc epitomizes
+this right there they're like very
+metrics driven very data-driven right
+they they were one of the things they
+did very well is like optimized that
+they optimized the hell out of their
+games so when you think about an online
+game and you think about what you want
+to optimize for right you want to
+actually let's just let's let's talk
+about this and there was a fun if your
+games too hard
+no one's gonna play it and the game is
+too easy no one's gonna play it so you
+have to find like this balance where the
+game is not too hard and not too easy
+and if you have an online game then you
+have this like amazing leg up over over
+games that are you know like press to
+discs and then shipped out because you
+can update them if you and like the best
+way to tell if your game is too hard or
+too easy is to simply look at you know
+we're like how far people make it into
+the game and so for instance you could
+look at how many players make it you
+know from level 1 to level 2 and if
+there's like a severe drop-off right if
+like not enough people are doing it then
+it's a signal that hey you know what
+maybe you know maybe we need to tweak
+this of course the person who needs to
+answer that question is a game designer
+and usually game designers aren't
+writing sequel and so you know you've
+got all these Mets like you're tracking
+all these all these events right of like
+Oh a player you know they passed level
+one or like player died or whatever all
+of these events are being tracked and
+you you know you're like this is this is
+like a standard sort of analytics
+pipeline right you've you you you
+instrument your application you have all
+these events streaming out you store
+them somewhere you do some sort of
+processing on them and then you dump
+them into someplace where you can as
+someplace that you can query but then
+you've got these these people who
+typically aren't coders like a game
+designer or product manager they want to
+answer questions about how people are
+behaving in the game and you know you
+think you basically have two paths at
+this point right if a game designer says
+like how many people made it to level
+two then as
+like as you know somebody on the data
+team you can say okay
+you know let me run that report for you
+and then you go and you like query it
+and you put together the results and you
+send it back and then you know they look
+and they say us it's great how many
+people made it to level three and you're
+like you roll your eyes and you're like
+I see where this is going
+and at that point you're like okay I
+have a choice I can either play this
+like go-between right and like fetching
+data over and over again or I can build
+tools right and if I build a tool and
+hand that tool to the designer and say
+you know here like answer this yourself
+then you know I can focus on doing like
+much cooler things and much more
+interesting things also I'm out of the
+way I'm like I'm out of the way now like
+I'm no longer in the way of this this
+person answering their own questions
+this is this is exactly what we did in
+the in you know in the video game space
+and this is a pattern that we recognized
+could be really useful in the investment
+space right you've got all these all
+these investment analysts and they like
+they know so much about the companies
+that they are making investment
+decisions on and they know what
+questions they want to answer and so you
+can either put yourself in a position
+where you're trying to guess at the
+questions and like writing prewriting
+reports and trying to sell them reports
+or you can just give them like give them
+some sort of tool that actually empowers
+them to answer like all the crazy
+questions that they thought they
+couldn't answer so this is the thing
+that's like fascinating you guys are
+building tools for understanding how to
+improve video games how does that become
+all of a sudden a skill set needed the
+self financial and analytics software
+and insights to people who run like
+hedge funds and investment firms or even
+to do corporate like competitive
+tracking because to me it's just like I
+imagine they're gonna ask about like
+what's your background how do I know
+like how does that start like what made
+you realize that like we could probably
+do this yeah I think it comes down to
+like like what is the fundamental
+problem being solved and you know like
+the fundamental problem is that you've
+got somebody who probably isn't a coder
+and they want to answer a question of
+behavioral data you ride video games
+and then how you decide what was the
+first product gonna be yeah I mean I
+think for us it was it was really
+digging in further to understand what
+types of data investors were most
+interested in and what we found is that
+is that transactional data like
+specifically credit card transaction
+data is one of the things that they were
+really excited about but they were
+banging their heads against it right
+like this is fundamentally transactional
+like credit card transaction data is
+it's a it's a messy and unlike their
+it's a messy data set with unstructured
+data problems baked into it and the
+skill sets of investors even the more
+technical ones those tend to lean more
+towards like like time series analysis
+as opposed to dealing with large messy
+devices what kind of questions like were
+the investors interested in like from
+that data set yeah I mean I think like
+one of the one of the main things is
+just like how how is Chipotle doing
+right like are they so like they
+famously had a food poisoning incident a
+couple of years ago actually I think
+that's several but you know they wanted
+like investors eager investors wanted to
+know you know what is the impact to
+their to their to their actual revenue
+how come there was no way to answer this
+before you guys came onto the scene yeah
+so this is one of the interesting things
+so there actually was a way to answer it
+it was just a terrible path right the
+way to answer this before was with a
+survey right so you go to some market
+research company and you say like hey
+there's this you know like Chipotle the
+food the whole food poisoning thing you
+know can you can you help me understand
+like how many people stopped going to
+Chipotle and they just have to like try
+to find a bunch of people that match a
+demographic and then hope like these
+people answer are you gonna represent
+like exactly it takes it takes weeks or
+months it cost tens or hundreds of
+thousands of dollars you end up with
+this tiny sample of you know like oh
+good we got a hundred respondents and
+they said that you know they you know
+from this this pool of a hundred you
+know like 20 of them said that they have
+considered stopping stopping
+there there Chipotle like dining all
+together and then what do you guys do
+instead so for us you know we like
+because we have direct observations of
+millions of US consumers like we see all
+their purchases right we can just look
+it up right away in fact like we don't
+even need to look it up we can just give
+you a tool and then you can find the
+answer yourself and so you got your
+first customers during YC Chris how do
+you go about even getting them yeah
+that's a that's a good question I have
+to think back so this is 2015 so our
+very first customer was a VC who also
+ended up investing in us and I think one
+of the things that was interesting is
+that actually this is one of the this is
+one of the things where we got to I feel
+like we got to cheat a little bit
+because because we were in YC like
+because we're in YC like all that like
+VCS are always excited to talk to YC
+companies and that's I mean they're
+trying to figure out who is in the batch
+and then try to invest before demo day
+that's exactly right and so we had we
+had a whole bunch of these these like
+funny these like funny meetings where
+you know we're trying to get in front of
+them - you know pitch them on a product
+and you know they're happy to take the
+meeting because they want to hear about
+what we do and so it ends up being this
+like dual purpose thing where they're
+like okay show me the product now tell
+me your business model and you're like
+well would you like to buy the product
+and you know fortunately like a lot of
+times the answer what like did end up
+being yes and now most most of the VCS
+here in the Bay Area
+they are our customers you know but it
+was really interesting navigating those
+early conversations what were they
+excited about because like with credit
+card data there's some things that it's
+really good at showing and identifying
+and some things that are not so good so
+for example it tends to be great for
+predicting consumer trends but yeah I
+mean it's basically I think you just
+have to keep in mind like like what is
+it we're actually seeing and what we're
+seeing is spending for a large
+proportion of US consumers and so like
+if it's if you want to understand a
+company that doesn't that doesn't target
+consumers if it doesn't target
+specifically US consumers and more
+specifically if it doesn't sell things
+directly to them right
+if even you know if they like we're not
+gonna see General Mills right that's
+also through grocery stores but if it's
+something that you might see on your
+credit card statement then like those
+are the things that we can help with
+like uber lyft exactly all the meal like
+gobble etc mm-hmm and then what you're
+not gonna see is like BTB enterprise
+companies etc but it tends to be like
+lots of people are interested in
+consumer stuff because they're like the
+fastest-growing most interesting segment
+exactly there's life is this more than
+yeah exactly this is it the the market
+is more than big enough and so are they
+using it as a market sizing tool not as
+it because if you're investing in a seed
+stage company yeah so probably the
+primary use case among among VC is
+actually diligence right and when you
+think about like like put yourself in
+the shoes of a venture capitalist so you
+know some company walks in and they say
+you know they throw some numbers on on
+some slides they show it to you and
+you're like okay great like is this I
+have like lots of follow-on questions do
+I you know do I try to get these the
+numbers from you and then additionally
+there's a whole bunch of questions I
+have about about your market which you
+may not even know the answers to so a
+good example of this would be if you are
+like so as a VC somebody comes in and
+pitches you they're in actually let's
+just talk about bird and Lyme right so
+so imagine you're a VC bird comes in and
+pitches you and they're like they show
+you they show you this chart and it's
+like it's the perfect hockey stick chart
+and you're like this is amazing you know
+like I've never seen growth like this
+before and at the same time though
+you've you know you've heard of other
+companies you know Lyme is out there
+you've heard of like MIT jump bikes you
+want to pick the best one exactly like
+are you talking to number one are you
+talking to number two you know like
+what's and also fundamentally are the
+like if you know if bird is showing good
+unit economics like is that is that best
+in class you know or could it be even
+better and this is an area like this is
+one of the key areas where we help VCS
+is in giving them visibility not just
+into the company they're talking to but
+into into their competitors right into
+each of the like every company in that
+space
+in relation to one another so we can say
+like oh yeah bird line like here's where
+Birds winning here's where limes winning
+right here are here are where the
+differences are in how like how well
+those customers perform like how much
+they spend and so on and so okay when
+you say Union economics how do you
+uncover that data so we don't see you in
+an economics I'm sorry so so obviously
+like we don't see the cost side we just
+see the the spending side right so you
+could say you know an average bird
+customer spends forty dollars a week
+versus a lime customer that might be
+twenty exactly and I think in and
+generally like again if you're if if
+you're a VC like you you have you have
+your own ideas for how to estimate the
+cost side of the equation okay gotcha
+what other metrics are you able to show
+like I was always impressed when looking
+into the dashboard inside of second
+measure about like wow I cannot just see
+like how much revenue is like being
+pulled but also things like cohorts
+lifetime value etc and so like like what
+what metrics like get investors like
+super excited yeah I mean let's I guess
+taking a step back let's think about
+like what are the main problems that
+we're trying to solve so so one is is
+generally the it one is generally
+focused on company performance right and
+this includes things like competitive
+intelligence and benchmarking right like
+show me you know what what is I don't
+know like what what is the relative
+market share of the various milk it
+players you know how how long do their
+customers stick around right how how
+much do they spend overtime right like
+what's the what are the lifetime sales
+after twelve months and again if we
+split those into different cohorts you
+know are those are newer cohorts
+performing better or worse than older
+cohorts so there's all of these things
+in and around company performance and
+then separately there's stuff around
+consumer behavior right and this these
+are things like where else do my
+customers shop the things intended to
+help you get a better picture of you
+know who your customers are and the
+really help you hone in on like who your
+best customer and I'm saying you but
+really it could be you it could be your
+competitor it could be a company you're
+doing diligence on you know some target
+company what are some good examples of
+that because your blog is basically just
+this right it's like just insights yeah
+yeah it's interesting right because our
+core product is really about it's really
+about empowerment and saying like hey
+you know you as a user you can answer
+whatever questions you want like within
+this within the space of US consumer
+spending but then and we don't sell we
+don't sell research oh so you don't
+answer questions for people directly so
+we'll do it on a case by ton like a
+project-by-project basis but we were not
+the ones coming up with the questions
+right if somebody comes to us and says
+like I have the specific question you
+know I tried I tried this in your
+application like it you know I can't
+quite answer it yet like I this more
+specific question can you know could it
+be answered those are cases where we can
+you know we can do it like a one-off
+research project but those are and those
+are like paid projects but we don't
+publish this the thing we don't do is we
+don't proactively do research and go out
+and like you know call up ten of our
+clients and try to sell it to them got
+room what some stuff that you guys have
+put on the blog recently that's your
+favorite yeah so so we've started some
+one thing we started doing is so
+actually they take if we talk about our
+blog we we also need to talk about like
+our press mentions so we actually work
+with the press a whole ton right and so
+we keep getting quoted in like Wall
+Street Journal Financial Times etc and I
+mean this has been great for us it's
+great for the reporters too because you
+know they're trying to write about like
+the upcoming like potential lift IPO or
+you know whatever and they want to
+support their reporting with more
+information and we can help provide that
+them with that information we're happy
+to do so
+the uber lyft thing is like a recurring
+topic and so in our blog we've decided
+you know what we're just going to keep
+publishing periodically are the imaging
+updates so when you choose like a
+question you want to ask about like the
+uber versus lyft do you guys like I've
+come up with the initial questions and
+now you like listen to what the press
+are kind of asking you you may want to
+verify or is it all
+wait you guys are coming up with I'd say
+it is us always coming up with it we
+actually have a dedicated as editorial
+team gotcha so we've got you know we we
+literally have a team of data scientists
+and writers who just pay attention to
+what's going on in like in the news you
+know what's going on you know with with
+companies that like could potentially be
+interesting to others the person who
+runs it like you know she has a
+journalistic background I mean this is
+this is their core focus right is find
+interesting things to write about it
+write about and then write about them so
+let's talk about some examples so before
+we started recording one you mentioned
+was stitch fix and where the customers
+of stitch fix do and do not maybe spend
+yeah so specifically we had so this is a
+really interesting thing right because
+one thing it's so so part of
+understanding what questions people are
+asking is like just going out and talked
+in people and one recurring question we
+heard about stitch fix was like is
+stitch fix cannibalizing like department
+store sales right like are they are they
+competitive with department stores and
+so we decided to dig in we had no idea
+what the answer was we decided to dig in
+and we attack the problem by basically
+saying okay let's look at let's look at
+people spending at department stores
+before and after they become a stitch
+fix customer and what we found is that
+stitch fix had no impact on department
+store spend right people just started
+spending more on clothes
+period mm-hm right and in fact the
+people who stitch fix as stitch fixes
+best customers actually spent even more
+on even more on clothes before becoming
+a stitch fix hmm customer than after OH
+like stitch fix inspired them to go out
+and find more clothes oh yeah one way to
+characterize it is that is that it you
+know piques their interest in fashion
+and so they they don't they don't spend
+any any less they just but part of it is
+like it probably jump starts like a
+variety they're like oh I'm introduced
+to a variety of stuff that I never would
+have considered beforehand and now it's
+like oh now when I'm out there at in the
+looking at stuff I'm like I there's more
+things that might appeal to me because
+I've been exposed to them yeah and the
+key thing is that it's not displacing
+the spend right and that was I mean that
+was a real surprise and also like it's
+also like a really important question to
+answer because if you're at a department
+store and you're trying to figure out
+like you know is this stitch fix friend
+or foe yeah right like this this this
+really points more to friend
+so do you actively track like the rise
+and fall of brands because I'm wondering
+there must be instances of certain
+things being swapped out on a recent
+post was peloton memberships going up
+ahead of SoulCycle right so that's
+really interesting is that is that are
+their traits happening that you can
+follow so sorry when you say trades do
+you mean people so uh you know sign up
+for peloton instead of social cycle yeah
+so I mean really we again we this is
+something we will attack from an
+editorial perspective but again it's you
+know like our core business is about
+putting a product in front of in front
+of our clients that through which they
+can answer their own questions now in
+the blog side yeah I mean the peloton
+the peloton and SoulCycle story is super
+interesting like Politan is a beast and
+SoulCycle is has some interesting like
+actually so so after we came out with
+this article SoulCycle basically they
+had a nice like non-denial denial where
+they basically said like we don't know
+what they're talking about their numbers
+are like our numbers are great but
+didn't actually dispute the metrics to
+give some context what did your blogpost
+say and then what wasn't that like
+SoulCycle was nervous about I mean the
+short version is that peloton is now
+surpassed soul cycle in terms of like
+the number of active peloton members
+right and this is based on a spending
+based on spending behavior an active
+peloton members on a monthly basis have
+surpassed the number of soul cycle like
+active riders on a monthly basis mm-hmm
+is there an overlap like a Venn diagram
+of like people who were used to be soul
+cycle and have switched to peloton there
+is there's both like a current overlap
+and there's like a you know the the
+Sankey diagram type thing of like you
+know people who used to be one and now
+or
+another whoa hmm have you been following
+how amazonbasics has developed their
+products I am generally familiar with it
+I'd say for us that is not something
+what we have a lot of visibility into
+because the Animas way we just see an
+Amazon general Amazon exactly but you've
+done some research about Amazon Prime
+people yes yeah we did so this is this
+is a case where we did a much deeper
+dive and we actually gave we gave
+several talks on this so one thing and
+this is you know this is spearheaded
+again by editorial team you know one of
+our data scientist Brandon so he so he
+dug into Amazon Amazon the amazon's
+customer base and specifically you know
+one he wanted to like understand really
+the differences in behavior between
+Amazon Prime members and non Prime
+members and like how that's changed over
+time and really like how important
+Amazon Prime's members are to Amazon and
+one of the I think one of the
+interesting takeaways is that
+increasingly Amazon is looking more and
+more like a subscription business like
+they're increasingly reliant on Amazon
+Prime customers for for their revenue
+hmm and then another interesting thing
+is that even people who so people who
+became an amazon prime subscriber even
+if they lapse right even if they are no
+longer a subscriber they're still
+spending more on Amazon after than they
+did before how do you get to that
+conclusion that like like what was the
+evidence that showed that like Oh Amazon
+is more focused on subscriber like how
+did you guys sort of like get to that
+conclusion I would characterize it that
+they're less it's not that they're more
+focused on subscribers but instead that
+an increasing proportion of their
+revenue is derive from people who are
+Amazon subscribers I gotcha
+so it's one of these things where I was
+like oh it's turning out like Amazon's
+most valuable revenue seems comes from
+the Amazon Prime
+scribers yes and we don't know who the
+reason why but like there's obvious
+things that people can select port 10
+for example it's just like hey they
+already pay for this membership so they
+might as well use it yeah when the
+ordering and buying stuff so it's like
+an excuse to have something delivered to
+your house versus go to the store
+because I've already paying for the
+membership it's like I cost something
+mm-hmm and so when it comes to product
+development on your side
+are you incorporating this data in any
+way or is it just talking to your users
+developing product from there yeah so
+when we think about when we think about
+improving a product like we have a few
+different streams for like really
+feeding the backlog so one is internally
+driven right and this is it's based on
+you know it's based on like where we
+know we want to take our our application
+and also factors in you know us going
+out and proactively speaking with our
+own customers like doing that user
+research and really like digging into
+their use cases then use cases and then
+figuring out where the gaps are and then
+attacking those that's one another is I
+mentioned earlier that we do some custom
+research for customers this is like you
+know think of it as a professional
+services like a approach you know this
+this is something that also helps feed
+our backlog because if if we see
+recurring requests then you know this is
+probably something we should add to our
+product and then finally we have like
+the editorial side which if for us is
+like the best form of dogfooding right
+so we're you know we can go in and like
+try to use our app to answer a question
+if we find that we hit a wall right we
+can't it's like well we've we've dug as
+far as we can go and now we have to go
+to the data behind it to answer the
+question like you know that's a great
+signal that this is something we should
+probably build one thing that's
+interesting to me is that I feel like we
+just like recently just talked that Jay
+Klemke
+at insight data sides and I feel like
+data scientists like hearing about your
+company like this seems like a dream job
+like I work on interesting problems and
+questions and then you know even if it's
+with your editorial board that's
+figuring that stuff out it seems
+fascinating to me is like oh every
+problems gonna be kind of different we
+put that out there and whether solving
+it
+for your customers or stuff they like
+promote the company like how do you look
+at like finding like because you guys
+are hiring right now right yes like how
+do you find a good data science I like
+what a trace that you're looking for
+that you know it's gonna be a good fit
+for this kind of like nebulous work yeah
+it's such a good question I feel like
+data scientists is such a an overloaded
+and I think a bit over used like an over
+stretched term I think for us
+specifically what we're looking for are
+you know people who are like scientist
+with a capital S who have very strong
+quantitative backgrounds and can
+understand from first principles like
+the problems that they're trying to
+solve I think very frequently what you
+find are you know people interested in
+interested in data science you know they
+learn a lot of the tools but maybe skip
+over the fundamentals when you say like
+are able to think from first principles
+I think this is something I hear as a
+common theme also for people we're
+looking for good engineers or product
+managers cetera like what does that mean
+exactly
+yeah so let's think about it this way so
+so we have so a third of our company on
+PhDs right we have we're basically
+equally so most of the team is technical
+how big is the team so we're 60 people
+today and most so most of the team is
+technical and it's about an you know
+50/50 split between engineers and data
+scientists now on the data side what
+you'll find is that we have people you
+know with backgrounds ranging from
+statistical genetics to cognitive
+neuroscience to string theory to like to
+like earth science to climate you know
+climate science like really all over the
+place and like the common theme though
+is that all of them are extremely good
+in statistics right so that you've got
+this there's sort of the statistical
+foundation that in you know that in our
+opinion like everything is built on top
+of and it's our view that if you come in
+with that that's strong that's strong
+like you know Matthew Foundation that
+learning the tools like the tools can be
+taught right we can like we're
+be to help to help people get on board
+with like using Python like okay cool
+you've only used our like that's fine
+right we can we can help you like learn
+to switch over to Jupiter notebooks but
+the thing that we're not going to teach
+you is we're not going to teach you how
+to do math mm-hmm and then how does that
+translate like into the first principles
+so because I usually think of it as like
+someone who's willing to challenge like
+I will give someone a task and sometimes
+they will come back and say like
+actually can we just dive on I was like
+what's the reason behind this task and
+maybe just be able to be like oh
+actually I think I can improve the
+question we need to be looking into
+instead yeah I think this a lot of this
+ties in with like the nature of the
+types of problems we're trying to solve
+right you can't like this no there's no
+like out of a playbook of best practices
+for for dealing with the problems
+associated with transactional data right
+there's no playbook on building a you
+know an analytics platform focused on
+consumer spending behavior right a lot
+of the things that we're doing you know
+they're either like we're either we're
+doing them for the first time and in
+some cases maybe they are simply being
+done for the first time so it's
+something where we benefit from people
+who you know who can approach these like
+big nebulous and open-ended problems and
+come in and figure out how to structure
+and decompose the problem and then
+tackle it piece by piece so do you train
+for that or you just hope that they have
+it like what what is the test is my
+question really yeah I mean because it's
+really just like here's a problem but
+then before you get overwhelmed by the
+problem because often you're told like
+hey you have to take route a or B
+usually there's options like C through
+infinity right and so you have to ask
+why and so how do you whether it's
+through interviews or training get that
+out of employees yeah for us I mean I
+think of this is less say less something
+that we train people to do and more
+something that you know we we we hire
+for like we screen for in the hiring
+process so we we've taken great care in
+designing and actually iterating on our
+interview process and I
+there is a significant technical
+evaluation where we're trying to test
+for exactly these types of things for a
+data scientist one of the things that we
+do is we actually you know give them a
+big messy data set and we say do some
+like we it's open-ended do some research
+tell us what you were and then present
+it to us I tell us what you were looking
+for and tell us what you found what some
+common mistakes that like people do that
+end up not working out so and what some
+stuff that the really great employee and
+applicants have been able to do I know
+they're trying to help people like
+cheetah
+I'd say the like the number one mistake
+that people make is that they you know
+they assumed they assumed too much of
+the data they assume the data is perfect
+right they assume that what we give them
+you know that like oh like this is easy
+all I have to do is just like you know
+load it into whatever like into pandas
+are loaded and like throw it on a
+database and just start running queries
+get the answers and then throw it into a
+slide and be done with it like it never
+like that never really works because
+like this is and this is just isn't how
+data in our world works like there are
+always dragons like somewhere and so a
+big part of this of this exercise is
+like well how you know like how diligent
+were you in looking for dragons right
+and anticipating these these like
+problems and then you know you don't
+necessarily need to solve all of them we
+need to be aware of them because they
+actually can distort your findings and
+so as long as you like if you identify
+them and even if you have findings that
+are invalid but you're able to identify
+that you know hey like I found this
+thing but I made this like I
+deliberately made this assumption the
+simplifying assumption so I could
+complete it in a reasonable amount of
+time like that's fine so the good people
+what they're good at is like not
+starting from their own assumption but
+actually trying to query and figure out
+what were the assumptions that I'm
+working with yeah exactly whether it's
+in the data the question etc and yeah
+once you have that it helps you
+understand it's like how strong or how
+weak is my ultimate conclusion going to
+be as a result yeah I mean it's like
+sort of like building a house right if
+you if you were to hire a construction
+crew to come out and build a house and
+they just can't and they they just like
+came out on-site and they just started
+like erecting walls and then you know
+they hand over the keys you slam the
+front door the whole thing falls over
+because it was on a shaky foundation
+right then like it's clearly they failed
+and so for us you know what we like is
+to find people who really like to
+understand the foundation that they're
+working with to make sure that it will
+be sound when they build the house so
+I've never done a project involving
+credit card data can you but but then I
+use these like tools like mint and it
+consistently classifies things as the
+wrong thing right can you explain to me
+why this stuff is not normalized because
+it seems like incredibly valuable
+potentially not that difficult obviously
+it is difficult but like why isn't it
+normalized why do you have to clean it
+all yeah so I think I guess maybe the
+easy easiest place to start is like
+think about your think about your last
+credit card statement right like think
+about a time where you've looked at your
+credit card statement and you saw a
+transaction on there and it says
+something like s bucks or or like I
+don't know like MW space San Carlos
+which would be like Men's Wearhouse San
+Carlos it doesn't say Men's Wearhouse it
+doesn't say Starbucks right it says
+something which if you like squint at it
+and you scratch your head a little bit
+like you as a human can probably figure
+out what it is now the the problem is
+that like that the problem is that there
+are many different companies all you
+know putting in you know some piece
+actually the fundamental problem here is
+that some human decided how to represent
+that that store in a credit card
+statement and they're working within
+this constraint of a limited limited
+space right they only have a certain
+number of characters and they have to
+type something in which again
+communicates to a human that like yeah
+you were at Walmart yeah so you don't
+dispute the charge but it was never
+designed for a machine to read and so
+like the result of this is that there
+are
+you end up with this this this
+cardinality problem right you end up
+with many different variants for a
+single first single merchants and part
+of our job is to find all the variants
+and to map it back to that singular
+merchants but there so you're saying
+there are multiple text strings
+associated with Men's Wearhouse
+in San Jose person correct yeah so
+within our data set we have so we're
+looking at like 50 plus billion
+transactions we have 1 billion unique
+transaction descriptions and I'll tell
+you what there are not 1 billion
+merchants in the US right ok so nice
+like Macy's alone has like 3 million
+different representations what what yeah
+I'm just like kind of baffled that it
+was never like hey Macy's your store
+number 1200 whatever they've done so
+there are two they're basically two
+layers of problems so one is that you
+know one is that one is the the human
+layer right where you've got somewhere
+you've got a human and they're setting
+up the point-of-sale you know system
+like the the swiping device for you know
+for a certain Macy's store let's
+actually let's just talk about
+McDonald's for a second some McDonald's
+you've got franchises so when somebody
+sets up the franchise you know they they
+work with like a point of sale a
+provider and they get their point of
+sale set up and like okay well you know
+what should this be it should be like
+McDonald's I don't know like f13 nine
+okay great
+right now we've got this this one
+location
+the problem is depending on depending on
+how the transaction is processed the
+apostrophe that you expected to appear
+in McDonald's could be a space could be
+a star
+it could be deleted right it could just
+be you know McDonald nothing s right and
+like basically the the two problems you
+know one is a human one where different
+humans could describe things differently
+they can even typo the name of their own
+company which happens and then the
+second problem is there are like various
+perturbations that can take place in the
+processing
+hmmm I think part of it was like the
+corrections had to happen by users of
+meant yeah and I think humans don't want
+to correct that data
+no diligently and also if it turns out I
+was like oh I can see a human getting
+really frustrated where it's like this
+is the 50th time I had the correct that
+this is coming from McDonald's and
+therefore like I no longer want to
+correct this anymore because like this
+is just not any good and so the problem
+actually is like all of them are so
+different and so humans are giving up on
+the classification when really it's like
+actually I have like such limited
+incentive to classify my own really care
+I mean I'm sure some people do but I
+don't really care how much the problem
+gets even worse surprise I don't want to
+know yeah like I need to sit in that
+like fast-food denial yeah if Amazon was
+all classified in one category that
+would not be good so I mean like this
+you know if you're if you're coming into
+this like with a I don't know like a
+software mindset right you're thinking
+like oh yeah there should be some like
+unique identifier for for blue apron
+right but if you actually just look at
+all the blue apron transactions but
+you're gonna find out is that you know
+there's actually more than one blue
+apron did you know that there's a blue
+apron grocery store that's that's very
+concerned rippln yeah yeah like things
+like that or like United like United
+United Airlines of course but then
+there's also a United grocery store and
+they show up in some cases they show up
+the exact same on your credit card
+statement how much time are you guys
+spending cleaning up get it is it like
+perpetual and non-stop so so we don't
+think of it as like a fundamentally
+human there are human elements of it but
+I mean really it's something that we you
+know try to use machine based approaches
+to get to like operate as a giant lever
+for I guess we think of it this way
+right we we've basically had to build
+two different products so one is this
+pipeline which ingests raw transactional
+data and then output something useful
+and like you know the the things that we
+do in that process or things like like
+this this entity resolution which is
+what we've just been talking about with
+merchants but it also includes like
+other things like you know figuring out
+for an uber transaction it says San
+Francisco but always says San Francisco
+but you know obviously not all uber
+rides are like greatest city so looking
+at other transactions around at the sea
+like oh maybe this originated somewhere
+else exactly so we figure out we figure
+out the location of the the of the
+purchaser based on you know where their
+other purchases are and that lets us
+like fill in the gaps so we say like oh
+you know what ignore this location for
+uber and instead you know use this
+computed location there's there are
+other things that we needed to solve and
+then there's this whole other thing
+around around D biasing right because we
+basically this this this longitudinal
+study going on right we have this panel
+the panel of consumers and obviously
+it's not going to be a perfectly
+representative sample of the US so you
+know so we endeavor to figure out all
+the ways in which it isn't
+representative and then apply
+corrections to make sure that you know
+whatever results you get do you
+represent the greater population so
+anyway so that's that's one thing that
+we're building is this this pipeline and
+we've got 10 to 15 people working on
+that but then we also have our analytics
+platform right this is the think of it
+as the the hyper specialized tableau
+where you know we've we've built in lots
+of different analyses that operate on
+this this nice clean data set that the
+pipeline is outputted one increasingly
+growing set of customers for you guys
+are like corporations doing this for
+like sort of I guess competitive
+analysis yeah how did that come up
+and so like why is that I mean I can see
+why it would be interesting to them but
+I'm just wondering are they looking at
+questions very differently when they're
+looking at your platform to answer them
+yeah I think this is like this is a
+really interesting journey for us
+because you know we started out building
+a platform that was focused on helping
+investors understand company performance
+right and YC hammers you know hammers in
+that you need to like focus focus right
+that it's not like it's better to have
+something a small number of people love
+than something that many people just
+like and we took that like you know we
+really took that to heart
+we didn't want to work with companies
+for a long time because we were afraid
+that it would spread out or focus one of
+the things that changed our thinking was
+this so there's a book from Clayton
+Christensen so he's a professor at at
+HBS and he wrote innovators dilemma more
+recently he published a book called
+competing against luck and in it he
+talks about he talks about the the
+theory of jobs to be done and like the
+basic premise is that when you're
+thinking about you know substitutes for
+your product you shouldn't be thinking
+about things that just look similar to
+your product instead you should be
+thinking about you know fundamentally
+what is the job that your customer is
+hiring your product to do mmm right and
+if and this this I guess change this
+changed the way we thought about focus
+because you know like this whole time
+we've been we've been thinking like oh
+investors investors investors but in
+truth there are many different use cases
+for investors right a fundamental
+discretionary hedge fund right like a
+think of it as a group of analysts who
+are you know working in Excel and trying
+to figure out like is you know is stitch
+fix a good like a poised for growth in
+the longer term like they have a very
+different use case from a quant investor
+who's focused like someone who has a
+purely systematic strategy and is trying
+to trade you know on a daily weekly or
+even like like just quarter to quarter
+based on where they think companies are
+likely to beat or miss relative to
+expectation all right these are
+different use cases now if we if we
+think about one of our core use cases as
+being helping people understand company
+performance then that's when we began to
+understand like okay well investors want
+to know how company is performing but so
+do other companies right companies want
+to know how their how their competitors
+are doing and we had a really convenient
+way into this because we were working
+with so many VCS they were actually
+bringing our product into the boardroom
+you know they were showing
+they were showing their portfolio
+companies and then the CEO would raise
+their hand and say like wait how do I
+get that mmm it's an interesting sales
+strategy yeah I think like maybe you
+could speak to that a little bit more
+because there are so many YC companies
+and and oftentimes people just think
+like why C's just consumer very much not
+true why C's just software also not true
+how do you guys think about your sales
+process yeah I mean this is this is an
+area of focus for us now
+we we were very very fortunate to have
+just a ton of I mean really like a ton
+of virality which is like a funny thing
+to talk about in the context of really
+enterprise sales but we actually haven't
+done any outbound sales yet right we
+have a hundred fifty clients every
+single one of them came to us through
+inbound right they basically you know
+somebody signed up and then they they
+told their friend about us
+their friend reached out love what they
+saw signed up told their friends and so
+on I mean it's a box of Secrets yeah and
+so to me it's just like hey I have this
+thing and it lets me see stuff that it's
+like that I've never been able to see
+before and so like that's a very
+remarkable thing that's easy to spread
+around yeah exactly like yeah everyone
+knows that you know ubers bigger than
+LIF but like how much we can actually
+quantify it and I think that's a lot of
+like it's yeah it's a lot of fun and for
+certain people right it sort of unlocks
+like a new way of doing their job and so
+it's it's it's become like table stakes
+and that's that's been great for us but
+now like you know we just raised our
+Series A so that was led by Bessemer and
+co-led by by Goldman by Goldman Sachs
+and then we also had participation from
+Citi event
+correct Goldman Sachs is you that's such
+interesting partners or investors to be
+leading around what why were they super
+excited expert yeah yeah I think so we
+we fall into so I'd say the the the the
+reasons are different for each and so we
+fall into this general category when
+you're when you're talking about the
+investment world we fall in this
+category
+of companies generally known as like
+alternative data companies so
+alternative data basically refers to you
+know em anything that can any
+information that can help you understand
+how companies are performing that isn't
+just their traditional reported
+fundamentals or like stock prices or
+things like that so this collectively
+it's referring to credit card data
+satellite imagery web traffic data
+geolocation like from data for mobile
+devices and so on
+gosh an goldman sachs is making has made
+a big push into the alternative data
+space and you know they they had not
+made an investment in any company
+touching dealing with credit card data
+and so we're like you know we're they're
+horse in that race if you will awesome
+and they've been just phenomenal i think
+i think like here here in the bay area
+there's like so much of like you know
+everybody's focused on working with you
+know we like like big traditional VCS
+but i think you know we've actually had
+tremendous success working with sort of
+like i don't know less less expected
+players i guess out here so our seed
+round was actually led by Jeffrey's
+another investment bank and one thing
+that we found to be true for both
+Jeffrey's and and Goldman is that they
+they are extraordinarily well connected
+you know like in New York City in the
+East Coast with not just investors but
+also with companies right because their
+investment banks so they've been they've
+been just tremendous in terms of helping
+us get in front of more you know more of
+the types of you know clients we we want
+now for City of course they have a ton
+of transactional data and like this is
+something that you know they like this
+is a pain point that they feel
+internally like all the things that I
+described about about messy
+transactional data they understands odd
+to me that they wouldn't have a handle
+on this already themselves so it's a
+really really
+hard problem like I can't understand why
+are they so bad why is everyone else's
+no bad it's not I wouldn't say that it's
+that everyone else is so bad I think
+it's just that you're so good ever more
+than other products are so profitable
+yeah I think it's the people are focused
+on solving specific problems and so like
+I wouldn't say that
+you know like mint is I wouldn't say
+that mint is terrible at at identifying
+at like understanding transactions right
+they're just they're they're good at
+different things because they're focused
+on solving a different problem right
+like mint.com is not trying to like
+they're sorry they're trying to solve
+the problem of you know what we need a
+best guess as to what this transaction
+is but we need to do it for all the
+transactions right like we flipped that
+problem upside down we say you know what
+we don't care about most transactions we
+only care about the you know 5,000 or so
+companies that we track and growing
+right we care about that and we can't be
+wrong because if we're wrong somebody's
+gonna lose millions of dollars so the
+constraints actually helped make it much
+easier as a result of not having to
+focus on everything exactly it makes the
+problem tractable and because we're
+focused on that like what we're like
+what we're discovering is that there are
+there are surprisingly interesting
+applications of this thing that we built
+for this like hyper specific use case
+you know we're suddenly we're finding
+out that like oh this could you know
+this could help you know this type of
+company I don't know find find new
+customers right like it's a company that
+sells to other businesses and they want
+to find fast-growing businesses so they
+can sell to them this is I think this is
+one of the this has been one of the
+interesting parts about our journey is
+discovering like really by accident you
+know all of these additional use cases
+that we really didn't anticipate one
+thing that's tricky and it's probably
+one of these like great problems that
+have as a company is that like if you're
+like people secret weapon and it becomes
+table stakes to be like hey if we want
+to stay ahead of the game and I have to
+like Bloomberg is a good examples like
+oh I have to sign up for Bloomberg from
+a trader to use this and I think second
+measure might easily become into that
+category as well for a lot of investors
+I feel like the tree
+beep artists in like if all of a sudden
+now everyone is using us like how do you
+develop the product like how do you keep
+it interesting yeah so people on board
+versus like jumping ship or trying to
+find some other solutions yeah I mean
+this is this is a really really good
+point in particular for for the
+investment audience right because
+investors are looking like they they
+make money off of information edge they
+make money off of knowing thing these
+things that other people don't and this
+actually informed a lot about how we
+tackled this problem because we could
+have very easily focused on on selling
+quote insights or quote signal to hedge
+funds right where we we say like oh here
+are the most interesting I don't know
+like trading signals and we send those
+out but as we add more and more
+customers then you know the value to
+each one becomes significantly diluted
+and so you know we took the view that in
+particular because transactional data
+there's no single owner of transactional
+data there's no way to to like control
+how many people have access to it why
+not just assume everybody's gonna have
+access to it one day and then focus on
+building building a tool to help people
+you know answer more creative questions
+right in our view is that even if
+everybody has access to the same data
+that if they simply focus on asking
+better questions they'll still find
+their own edge now that's for the
+investment community though on the
+corporate side on the corporate side I
+mean really the fact that you're a fact
+that like somebody else that would be
+delightful it's like every major
+corporate company it's like we have to
+use this for competitive analysis I mean
+like if the worst case scenario was you
+were Bloomberg you'd be okay right
+alright awesome Mike thanks for coming
+in definitely thank you
+you

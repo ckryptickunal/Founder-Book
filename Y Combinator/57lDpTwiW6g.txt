@@ -1,0 +1,1187 @@
+Title: Tokenmaxxing: How Top Builders Use AI To Do The Work Of 400 Engineers
+Video ID: 57lDpTwiW6g
+URL: https://www.youtube.com/watch?v=57lDpTwiW6g
+Channel: Y Combinator
+Published: 2026-05-08T14:30:06Z
+Duration: PT41M30S
+Views: 83003
+Likes: 1671
+Tags: YC, Y Combinator
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 1165
+
+Description:
+We're entering a new era of software where a single person, working with AI agents, can build products that previously required entire teams.
+
+In this episode of Lightcone, the hosts break down the rise of AI coding agents, "tokenmaxxing", and the emerging workflows behind tools like Claude Code and OpenClaw. They discuss why AI systems today feel less like productivity tools and more like collaborators, why the future of AI should be personal and user-controlled, and how founders are starting t
+
+============================================================
+TRANSCRIPT
+============================================================
+
+I think that's like the defining
+question. Like, will you have control
+over your own tools or will your tools
+have control over you? Using open cloud
+these days is like driving a Ferrari and
+it's like exhilarating. It's insane.
+Like, you get to do things like it
+figures things out you would never think
+a machine could figure out and it does
+it so quickly, but then it's also like a
+Ferrari and that you better be a
+mechanic.
+Like, it's a Ferrari that will break
+down on the side of the road you know,
+when you most need it and you need to
+get out with your wrench and pop the
+hood and like fix it, you know, you're
+going to have to fix it yourself. And
+so, this is a very exciting time
+>> [music]
+>> in uh computer science and technology.
+Welcome back to a special episode of the
+Light Cone. In this episode, we're going
+to talk about how Garry Tan got back to
+building.
+If you follow us on Twitter, you'll know
+that after a multi-year hiatus to become
+an investor, Garry Tan is back to being
+a builder and in the last couple months
+he shipped hundreds of thousands of
+lines of code and built popular open
+source projects that have gone from
+nothing to more than 100,000 stars on
+GitHub. And he did all of this while
+having a very demanding job running YC
+full-time. A lot of people on the
+internet don't even think that this is
+possible and are somewhat like in
+disbelief, but it actually happened. We
+know because we were here to see the
+whole thing. And so, today we're going
+to talk about how he did it.
+>> Well, I'm relatively uh shocked myself.
+>> [laughter]
+>> I'm amazed as well. It was 13 years of
+not coding and then suddenly boom, I'm
+doing about 400x the amount of work that
+I was that year the last time I was even
+sort of like 2/3 of the time writing
+code. Baby, to start things off, how
+would we go back to the project that
+started it all off, which was Garry's
+List?
+>> Oh, yeah.
+>> And just like talk about a few months
+ago how you powered up Cloud Code and
+like started to get back to coding.
+>> And it was right after one of the Light
+Cone episodes, right?
+>> Oh, yeah, definitely. I realized that I
+wanted to bring together all the people
+who believed what I believed, um
+particularly for California. And so, I
+started a
+uh 501c4, and now it's a c3 and a PAC,
+which is sort of what a lot of political
+groups do. Um it's a very common way to
+bring people together. You know,
+everyone focuses on the money, but we're
+trying to bring together smart people.
+Um you know, what I learned in the years
+of working in San Francisco politics is
+that bringing together people is so
+powerful. And uh that's what a mass
+social movement is. And I said, "Okay,
+well, why don't I just make a website
+where we start doing that?" And it would
+just start with um why don't I start
+writing about the issues that I'm
+worried about. It's like, I want
+children in school, you know, people
+watching this from all around the world
+might find it very, very strange, like I
+find it strange, that uh it was not
+possible and still very, very hard for a
+seventh grader or eighth grader in
+middle school in San Francisco public
+schools to be able to take algebra. And
+that was,
+you know, a math education thing. Like,
+I you know, if I didn't get to do that
+when I was in public schools in the East
+Bay of the Bay Area,
+there's no way I would have studied
+engineering at Stanford. I never would
+have written code. I never would have
+been able to do any of these things. So,
+it was close to my heart, and I realized
+like, "Hey, it's time to write code."
+And I ended up building Posterous, my
+first YC startup from 2008.
+>> What what was Posterous for people who
+don't remember it? Yeah, Posterous was
+uh that simple blogs by email. It grew
+to be a top 200 website on the internet,
+and then Twitter ended up buying it for
+about $20 million. So, that was sort of
+like my first bag, really. I actually
+built it again uh as Posthaven when
+Twitter um you know, bought it for the
+amazing people that we had hired, and uh
+they shut down the startup. It would
+have cost a couple million dollars to
+buy it back from Twitter and at the time
+I had no money in the world, so the next
+best thing was why don't I write it
+again? And then in January of this year,
+I ended up writing it a third time.
+Only, you know, the first time it took
+about, you know, $4 million
+and, you know, six or seven people and
+about a year and a half. And then the
+second time it, you know, took about, I
+don't know, 100 grand and two people, me
+and my co-founder Brett Gibson, who now
+runs Initialized. Um, and maybe like 3
+months or so.
+And then in this case it took about
+$200, which was my Claude code Max
+account, and probably 5 days.
+Full-featured blog platform, does
+everything you want. And then on top of
+that, like full rag, full um, agentic
+retrieval, like be able to, you know,
+sort of go out and read all of the
+internet, like every tweet I've ever
+done. Recursive crawl, deep research of
+any topic. The algebra thing is just one
+of a whole lot of different issues that
+we really, really care about. And to be
+able to go ingest the internet, you
+know, see all the arguments for and
+against, and then to craft incredibly
+detailed um, reports on the back end
+about um, what are all the quotables?
+Like, I think people who are big
+followers of the Light Cone might
+remember one of our first episodes about
+agentic uh, systems with Jake Heller.
+Actually, so Jake created Case Text and
+he described exactly what I ended up
+building for basically journalistic uh,
+long-form articles about any, you know,
+sort of issue or uh,
+you know, piece of news that was
+happening. And so, you know, anyone can
+go to Gary's list.org today and you
+know, we do about two or three
+relatively, you know, researched, all
+fully sourced um, articles about what's
+going on in California, in San
+Francisco, and LA and like how do we
+build a better government?
+>> is the thing I feel like people missed
+about Gary's list they don't fully get
+is that it's like the classic thing
+we've been talking about here which is
+like software was you build software to
+let people use it. So it was like you
+build a blogging platform and people
+like write blogs and maybe like they
+start their own Substack eventually or
+they write articles. But Gary's list is
+both blogging platform but it actually
+does the work of a high quality
+investigative journalist. It's not just
+something that a journalist uses to
+publish their articles.
+>> Yeah, I mean basically the for the
+equivalent of like five or ten dollars
+of Opus calls, I mean I would estimate
+that it does the work of like, you know,
+a real human being that would have to
+like go painstakingly through dozens of
+articles, read entire books about
+certain subjects, uh annotate them. I
+mean going back to the case text example
+like the thing that Jake taught me was
+that you need to think about what a
+human would do with the context given.
+Like what would it retrieve? Like does
+it go to the library? What kind of book
+would it look for? What does it search
+on for search, you know, on the web? I
+mean the great thing now is like you
+don't have to just do that. Like you can
+get Perplexity's API and you can do deep
+research there. You have X's API, you
+can do deep research there. You know,
+Grok's API if you need to like do
+research on X using the Grok API is
+actually very, very good. And you can
+just grab all of the context. This is
+sort of going back to the philosophy of
+boil the ocean which is one of my
+essays. It's like particularly when
+building a Gentex software now,
+you don't have to settle for um
+what we did when we were humans writing
+the code. Like and that goes for
+research as well. What if you absolutely
+boil the ocean? Like what is, you know,
+the total completionist like if you were
+a human this would take you about a
+month to do this research, you can just,
+you know, zap the rocks harder.
+Uh you know, it you pay more money and
+you might be token maxing, but you
+should token max. Like, basically, if
+there is incremental work that makes
+something more complete, more awesome,
+more uh, you know, in the case of um,
+this type of writing, like, we want it
+to be more representative of reality.
+Like, you know, we don't just settle for
+one source when we can get 20 sources
+and we can cross-reference them. We can
+figure out like, well, these 13 sources
+say this and seven sources disagree with
+that. And then, you know, you want to
+feed all of that context into like your
+core prompt and then you can
+basically make a better decision than
+what you would like just, you know, a
+human being clicking on a link, reading
+a headline, and that's all you
+understand. And I think if you token
+max, like, that's actually the coolest
+thing you can do now. And it's not just
+in, you know, generating articles. It's
+not, you know, it's clearly in uh,
+writing code, right? I think now it's
+it's going to permeate every part of
+society. Like, every thing that we would
+call knowledge work could be token
+maxed. And um, I don't think that it
+means that we're going to get rid of
+people. I think it means that people
+need to still supply uh, the agency.
+Like, I need this. Like, I'm the one
+who's sitting here caring about algebra.
+Like, I want kids like me who couldn't
+afford private school. You know, San
+Francisco is the one city in the world
+that has the highest rate of private
+school attendance, um, probably in the
+entire country, actually. And that's not
+okay. Like, you shouldn't have to be
+rich to have a good education. And, you
+know, I don't know why that's
+controversial. And so, for me, it's like
+this, you know, mass sort of a shift in
+technology was happening and then, uh, I
+had a need and a want and a desire and
+it was a burning desire. Like, I it
+hurts me and pains me to think about 10,
+12, 13-year-old kids who don't know
+algebra and like could have, but uh some
+bureaucrat or, you know, some
+virtue-signaling person in power says
+like actually I don't want that kid who
+wants to learn algebra to learn it. So,
+I think in this process of basically
+solving your own pain and need from the
+young Gary and building Gary's list, you
+sort of discover a lot of patterns on
+token maxing and this new way of
+building that led you to the next
+project, which was uh G stack. Like I
+actually did not plan to make G stack.
+All I did was like I uh realized that I
+was doing the same things over and over
+again, and then I got sick of typing the
+same thing, so I went into my Apple
+Notes. I typed in all the things that I
+found myself writing over and over again
+into Claude code. And it was pretty
+simple stuff. It's like here's the plan
+review. One of the things I started
+doing is I really love asking Claude to
+make ASCII art diagrams. One of the
+things I discovered is um sometimes
+Claude would just get confused and like
+write bugs or not be complete. But once
+I started saying, "Actually, before you
+start your work, make an ASCII diagram
+of all the data flows, all the inputs
+and outputs, what are the user flows,
+what are the error messages." And you
+can see this. It's like data flow, state
+machines, dependency graphs, processing
+pipelines, decision trees. Once it did
+that, it loaded all of the context in,
+and then it just did the work more
+completely. Like it boiled the ocean
+better. And it broke down into a bunch
+of different sections. Like here's
+architecture review, code quality, test.
+I mean, one of the things I learned
+building Gary's list was that when I was
+writing the code myself, I would always
+do the minimum amount of testing
+cuz it's just like not very fun. I knew
+I needed to have it, but I'm here to
+write, you know, fun new code. I, you
+know, did not like write to write tests.
+And then honestly, like I hit all the
+things that everyone else hits when they
+start bike coding, which is like this is
+slop, it's not working that well, like
+it works fine for the 80% case, but if
+any users actually touch it, it starts
+falling over. And then that's when I
+realized, oh, I can get to 100% test
+coverage. I've since learned that 100%
+is probably too much, like hitting 80 to
+90% is usually the best practice at this
+point. Um but yeah, this this is
+basically the first version of
+plan-eng-review.
+I know everyone knows the office hour
+skill, uh which is, you know, what
+people can use and I still use when I'm
+trying to make a brand new product or a
+brand new feature. It uh simulates what
+a what we do when we're working with a
+company. It's like, how do you know that
+people want this, you know, who's it
+for, what does it do, and what's the
+impact, right? But this is like the
+proto skill, like this is I didn't even
+know skills existed, and I posted this
+and it went viral, like you know,
+200,000 people saw that. And then I made
+another version of it that was a much
+more
+uh expensive version. I called it the
+mega plan, and then I ended up um
+renaming it to the CEO plan. We've
+probably talked about meta prompting
+before. I used meta prompting here. I
+took the other review plan that we had,
+and then uh I said, "Okay, well, let's
+do a version of this, but like imagine
+Brian Chesky sitting with you, right?
+Like Brian Chesky has this great line
+about uh what is a 10-star experience?"
+So, and you know, the point of it is
+everyone thinks about hotels in terms of
+like three This is a two three-star
+experience, is a four-star experience,
+and he like goes, you know, through the
+list, like five stars, it's like
+everyone, you know, yeah, cool, like
+he's like, "What's a six-star? And
+what's a seven-star? And what's an
+eight-star?" And like he goes all
+through that entire list. And um
+that's one of my favorite like product
+and design exercises to go through like
+as a mental exercise, and then the cool
+thing is like you can do that every
+single time now. And so, that's what
+this is, You know, this prompt basically
+tries to figure out what is the platonic
+ideal of
+what this is. These are sort of like
+three the two things that are pretty
+awesome. One is what is the 10x check?
+What is more ambitious and delivers 10x
+more value for only 2x the effort.
+Right? And so, for whatever reason
+coming out of latent space, this helps
+the model like really visualize. Like
+so, I'm plan CEO skill I actually really
+enjoy because I'm an ADHD CEO and I love
+potential, like pure potential. And so,
+this is like the one like I can't
+believe this is just literally two
+little sentences. But like this unlocks
+an incredible amount. And so, that's how
+G G stack started actually not as you
+know, I didn't want it to be anything
+other than like, well, I just need to
+make some skills. And I had heard that
+people were making like skill repos.
+But then the third thing I did was I
+started using these two skills so much
+that my conductor instance was getting
+very backed up. So, this is how I use
+conductor. This is actually my real
+setup like Okay. So, this is your like
+daily workflow. This is how you've been
+shipping hundreds of thousands of lines
+of code a month. It's all it's all in
+here.
+>> Yeah, that's right. So, I dropped like
+13 PR's in the last 48 hours. And then,
+you know, I you just queue them up. Like
+anytime I come up with a new idea, I
+come in and here it is. You know, I love
+using the CEO skill. I love using the
+engine skill to like really make it
+super well tested. I did that all in
+plan mode. And then I'd click approve
+here and then, you know, Claude would go
+and do all the stuff. And then I did
+that so much that I ended up having like
+15 different features that were all
+queued up waiting for me to manually
+test it. Like it passed it you know, it
+passed end-to-end testing. It passed
+integration. It passed unit tests. But
+like at the end of the day, I still need
+to, you know, for Garry's list, it's
+like pop open the Rails server and like,
+you know, load that user and like make
+it into that configuration for that
+particular user and like manually just
+make sure it works. And I got sick of
+doing that and I was trying to use um
+Claude in code MCP and it was very, very
+slow. Two to three seconds for every
+turn. I was like, this is not usable for
+QA. But I had heard that Microsoft had
+released Playwright, which is sort of um
+an alternative testing framework. In
+retrospect, it's like actually there was
+like agent uh there like agent harness
+and like all these other like tools that
+I could have used, but the upside and
+downside of Claude code is it's so easy
+to just start something that I just
+popped open like I literally went in
+here and this is probably what I did.
+It's like, I'm so sick of using Claude.
+[laughter]
+Claude in
+in Chrome MCP, it's too slow. Let's go
+ahead and wrap Microsoft's Playwright.
+Can we do that?
+And then I just pressed enter and then,
+you know, one of the things that emerged
+with G stack is it like this is how I
+create new features now. Of course, you
+know, what it's going to do now is like,
+hey dude, you already did that, which is
+hilarious. You know, I have bug fixes
+right next to giant features and then um
+the way G stack works, there's a CEO,
+there's a designer, there's actually a
+developer experience person in there.
+There's a number of design tools uh
+and then plan eng is the last one and
+then I actually usually run {slash}
+codex and I recently added a {slash}
+Claude in codex. So, one of the cool
+things that I actually learned from uh
+YC alums, I came to an event and brain
+totally frazzled, but you know, went to
+one of our batch events and we're just,
+you know, shooting the about what's
+going on with Claude code versus codex
+and at the time I was a total Claude
+code only guy
+and uh I realized, oh, a lot of people
+actually prefer Codex. Why is that? And
+I discovered that Claude code is ideal
+for the ADHD CEO. But once in a while,
+there's a you know, Claude code will
+just BS a bunch of stuff. Like Claude
+models are very, very good, but like
+they are not the smartest, it turns out.
+And so a lot of people, you know,
+explained to me that if you have a
+problem that's much crazier, you need
+the 200 IQ nearly non-verbal CEO.
+So you can just call in a friend, and
+then that's what like {slash} Codex is.
+It's a you know, G stack skill that
+takes whatever plan it your plan is, or
+if you're out of plan mode and you
+already implemented, it'll take your
+repo, and it'll run Codex in a command
+line prompt with the prompt that says
+find all the problems and all the bugs,
+and it reports it back to Claude code,
+and then you and Claude code can work
+through those that feedback.
+And then I have since added, if you use
+Codex as your main coding agent, you can
+actually go and type {slash} Claude and
+have Claude come and be the CEO briefly,
+if you want, as well. The cool thing
+about G stack is when I run it through
+this program, like I always I do I start
+with office hours CEO review, like I do
+design if there's UI. If
+I know a developer needs to use it,
+which is like practically all of G stack
+and G brain stuff, I run the developer
+review, and then I do end review, and
+then Codex. Once that plan is done, I've
+worked through all of the issues. The G
+stack relies very heavily on ask user
+question. So cuz you know, and that's
+that to me is like really important.
+That's where the human you know, vibe
+coder operator agentic engineer needs to
+supply their understanding of what's
+going on, what are we building. There's
+not really a substitute to that. It
+would surprise me very much if someone
+really truly did manage to make a thing
+that could just make software without
+the human in the loop. Like that you
+know, it's controversial take, I think.
+But um, I never want to be entirely out
+of the loop. I just want the machine to
+do the stuff that I don't want to do.
+And so, you know, basically QA is a good
+example. And you know, I mean, that's
+hilarious. Coming back to the demo, it's
+like I type something into the modern
+version of G stack, and it's like,
+"Dude, what are you doing? Like, we
+already built that. We have browse.
+Browse is a long-lived HTTP demon with
+70 commands as a CLI." And then QA is
+just browse, but, um, in the prompt for
+QA, it says, "Look in your context. What
+did we do on this branch? If there's UI
+or any mutation of data, go and use the
+browser to test that thing." Which is
+cool. It's like having a black box
+browser. It blew my mind when it first
+worked. It's like, "Mini AGI is already
+here." You know, I you know, I realize
+this is not true AGI. A true true AGI
+would be like, "I'm not even here." Um,
+and actually, that's fine. In this
+respect, like, as a builder, you know,
+selfishly, uh, I hope that we never have
+to stop.
+>> [laughter]
+>> I hope that the machines never figure it
+out cuz that would be really cool. Like,
+then, you know, humans are really
+important, and like, engineers who know
+how to do this, who have taste in
+design, and product feedback, and, um,
+you know, the real [clears throat]
+customer in mind, like, we're going to
+be like, we basically have wings for as
+long as we do. YC Startup School is
+back. We're hand-selecting the most
+promising builders in the world and
+flying them out to San Francisco on July
+25th and 26th to discuss the cutting
+edge of tech. Apply now for a spot.
+Okay, back to the video. I think you
+crystallize a lot of these thinking in
+this post on X about thin hardness and
+fat skills. Oh, yes.
+>> Which actually encompasses all of this
+philosophy on how to token max. Yeah. I
+mean, some of it came out of, uh, being
+trolled on the internet relentlessly
+about markdown. And like, I you know,
+I'm just like peddling a markdown
+instead of markdown. and it's like, you
+know, I guess my lived experience at
+this point is that markdown is actually
+code. It's just like this compiled in a
+different way, but like you can get the
+computer to do really astonishing
+things. Like, you mean, even this. It's
+like could we have imagined that I would
+be talking to something that has
+replaced Visual Studio for like I I
+don't use Visual Studio at all. Like,
+there's no reason to. Like, when I can
+talk to my agent and my agent can do
+this, right? The article actually name
+The name actually came from uh our
+partner Pete Kouwenhoven. We have had to
+build an internal agent, and you know,
+we call that the harness over and over
+again. And then at some point using
+Cloud Code all day, we realized like you
+know, why should we rewrite a version of
+that over and over again? Like, you
+know, we should just use the things that
+are really awesome as, you know,
+harnesses. Like, a harness is the core
+loop that takes the user input, gives it
+to the LLM, runs what the LLM does.
+Like, it can do tool calls and things
+like that. I mean, why would we build
+that? Like, what we should be spending
+all our time doing is thinking about
+what markdown should there be. And the
+way to think about markdown is if you
+were an event planner and throwing a
+wedding and you were trying to write
+down a checklist of how to throw a
+wedding again. Like, what would you what
+would you write in plain English to
+teach the next person who had to do it
+what to do. All of that should be in the
+markdown.
+Whereas, um all the things that should,
+you know, be deterministic like um I
+mean, or is is a real action. Like, a a
+wedding planner might have to call like
+20 venues, right? But, you wouldn't use
+markdown for that. Like, you would make
+a, you know, a call to Twilio for
+instance, right? There's like a you
+know, sort of all of the difficulty in
+in agentic engineering today is when
+people try to do things that should be
+in markdown in code, and it fails
+because code is brittle. It doesn't
+understand special cases. It doesn't
+actually, you know, code literally
+doesn't understand what you want or who
+you are. It is like, you know, executing
+deterministic zeros and ones in a Turing
+complete loop, right? Like it doesn't
+know. But then now we have LLMs that
+have latent space and they know who you
+are and uh it knows what your
+motivations are and it can handle
+generic cases.
+And then, you know, a lot of the the
+magic right now as an engineer is like
+figuring out, "Okay, how much of it is
+over here in LLM land?" And how how much
+of it is over there in um code land? And
+then, you know, if you combine that with
+the other thing I learned, which is like
+get to 80 to 90% tests. Like if it's not
+tested and you're just throwing users in
+there, like it's slop. You know, 10x
+worse than like human-written code cuz
+like you just have no idea what's going
+to happen. Um and so that's like one of
+the things that people have to do. It's
+like, "All right, not only do you need
+to figure out what's going on in latent
+space and deterministic space, you also
+have to make sure that like it's, you
+know, unit individually tested and then
+the integration is tested." And then
+going back to uh boil the ocean, like
+the machine doesn't care. It'll just do
+it. It's amazing. Like just zap the
+rocks more and you can get to 90% test
+coverage and then you can have a system
+that, you know, is not quite perfect.
+Like, you know, Openclaw right now um
+there are lots of like failure cases,
+but it's 95% there. You know, it's uh I
+feel like using Openclaw these days is
+like driving a Ferrari and it's like
+exhilarating. It's insane. Like you get
+to do things like it figures things out
+you would never think a machine could
+figure out and it does it so quickly.
+Uh but then it's also like a Ferrari in
+that you better be a mechanic.
+Like it's a Ferrari that will break down
+on the side of the road, you know, when
+you most need it and you need to get out
+with your wrench and pop the hood and
+like fix fix it, you know, you're going
+to have to fix it
+And so, this is a very exciting time in
+uh uh computer science and technology
+cuz it's like this is Homebrew Computer
+Club uh
+you know, the moment when the Apple 1
+came out. Like the Apple 1 created by
+Steve Jobs and Steve Wozniak was a
+breadboard inside like literally a
+wooden case hammered together with like
+nails and duct tape, you know?
+And uh if you wanted a personal
+computer, that's what you had to do. And
+that's where we're at right now. Like
+you have relatively, you know, smart
+technical you know, people who had to
+study computer science have to spend
+like two or three hours and like maybe
+like $500 or $1,000 in both tokens and
+cloud to actually get something like
+that running. But like once you get it,
+it's like we're sort of in the kit car
+Ferrari phase. [laughter] It's like then
+you can drive and you can go anywhere
+and you know, you want you want to shout
+to the hills like, "Hey, I got a
+Ferrari." Even the part about fixing
+yourself, I feel people um
+is that one of those things until you've
+like pushed through, you just don't
+quite get. If I really zoom out, it's
+almost like things have moved so
+quickly. Like if you think way back,
+just having Stack Overflow as a website
+that you could consult when you got
+stuck on a programming problem felt like
+amazing. And then it's like like ChatGPT
+launches like, "Oh, now I've got this
+like interactive thing that's way better
+than Stack Overflow." But you're still
+sort of doing the same thing. You're
+like asking questions and you're copying
+and pasting code and you're running the
+code and seeing what happens and copying
+and pasting it back. And then you sort
+of with Claude Code, you sort of push
+through and you realize that you don't
+need to do the copying and pasting
+anymore. It just like actually like
+executes and runs the code. And then
+even with Open Claude, I found that when
+I set it up, yeah, it's annoying cuz it
+can like effectively brick itself and it
+does a bunch of annoying things. But if
+you actually have like Claude Code, like
+So, it'll fix it. Yeah, like you just
+have Claude Code running, it will just
+like fix it. And I it's clearly not the
+way things will be long term, but
+there's this mentality shift of it
+doesn't actually matter if it's brittle
+and requires fixing cuz you can actually
+just have another agent like sat there
+like fixing it all the time.
+>> Yeah, I feel like this evolution I was
+like completely Claude code pilled and
+still am but like probably only like 50%
+or 60% of my time like building product
+or agentic engineering is in Claude code
+now. At some point basically Almost half
+of it is through open Claude now. Yeah,
+which is very interesting. I mean then
+again I'm also spending a lot most of my
+time working on G brain itself. So G
+brain came about because I met you know
+obviously we had Peter on the show. And
+then I finally got around to it. It was
+like one weekend I said I got to check
+this out like what's going on with the
+open Claude. Let's get it going and this
+was about the time Karpathy wrote his ex
+post about knowledge LM wikis.
+And so I was like okay well I have a
+repo full of markdown all my you know I
+should put all of my context into that
+markdown and then at some point I
+realized oh shoot it's just using grep.
+And grep is not that good. Like it's you
+know wasting context as loading a lot
+more into context than it needs to and
+then I sort of fell into a rabbit hole.
+I just went into conductor click quick
+start and then I had G stack built into
+conductor already and then you know
+basically this was how I started. I you
+know
+>> [laughter]
+>> It was actually much more interesting
+than that. So
+I didn't start off from nothing. One of
+the things I've learned as you write
+like a larger and larger corpus of code
+is like you have it loaded in your
+brain. You're like Oh well in order to
+build an agentic newsroom for
+Gary's list I actually had to learn
+about vector embedding and hybrid RRF
+and chunking like when you're in there
+trying to make it work
+you're just like very applied. It's like
+I have an output that I want. I want the
+article to look like this. It needs to
+be of this quality. It needs to have
+these citations. Like you start building
+up your you know your tests and
+integration tests and like you end up
+with like a product that's like
+battle-tested from like the output that
+you want. And so, I sort of put two and
+two together and I, you know, and this
+is something that, you know, anyone can
+do, actually. It's like this this is why
+I think we're entering the golden age of
+open source.
+Uh I could just open, you know, this
+project in conductor and then the first
+thing I write is like, you know, go look
+at, you know, tilde/git/garyslist.
+Like look at how we do chunking,
+embedding, uh you know, hybrid RRF, rag,
+like all of this and then just like
+extract it and then I want to use
+Postgres with PG vector and like I want
+a a, you know, full rag system for my
+open claw.
+And then sort of like one thing led to
+another. It's like then I have, you
+know, 10 windows in G brain and I'm just
+like at it. What's cool about open claw,
+I mean, maybe this is a good example.
+This is actually my open claw. I did go
+ahead and ask. It's um
+how, you know, how did I actually get
+into it? January 23rd. Also, all your
+emails.
+>> a tweet that was like, "Claude code this
+week has awakened my 25-year-old self,
+the one that checked Red Bulls and
+stayed up till dawn coding. We're so
+back."
+>> [laughter]
+>> The builder identity resurfaces.
+>> Yeah, and you know, I'm basically back
+to, you know, sleeping 4 hours and, you
+know, coding 20 hours a day. You know,
+this is also when I started getting
+myself into trouble like talking about
+lines of code. I still believe this, by
+the way.
+>> might be like a good quick aside to talk
+about like this this idea of like lines
+of code being important measure has been
+like controversial on the internet.
+There's obviously the counterargument
+like, "Oh, lines of code doesn't like
+measure developer productivity." But It
+doesn't, right? But it also does. It it
+also kind of does, right?
+>> Yeah. Like [laughter] it does it's
+clearly and, you know, what's
+interesting is you can actually um
+there's well-published get repos out
+there that you can run to uh strip away
+and and standardize what is actual
+logical lines of code. And so, I
+actually did go ahead and do that. Um
+you know, and I got into trouble for
+saying like, "Oh, I'm coding at like
+100x uh the rate that I was in 2013."
+And then after I did the logical lines
+of code strip down, It actually went up.
+>> It actually went up. So, it turns out
+that I was actually doing 400x the
+amount of code. But, you know, obviously
+I wasn't writing it. I was directing,
+you know, 15 agents at a time to do so.
+And then by the numbers, like it was not
+that it did like knock down my lines of
+code from Claude code a little bit. But,
+uh the surprising thing to me was that
+it knocked down the amount of lines of
+code that I was writing in 2013 by like
+70%. And so, I think that that's sort of
+the mismatch here. Like, people get very
+upset because it's easy to like pad the
+lines of code if you're a human writing
+code. Whereas like, unless you direct
+Claude code to literally like pad the
+lines of code, it doesn't necessarily do
+that. Like, it'll maybe build the wrong
+thing. Like, you might not steer it very
+well. It might not do the right thing.
+But, like, it's not trying to optimize
+for lines of code the way a human
+working a job would, right? Which is,
+you know, that's just life. And then,
+I guess the really surprising thing is
+if you look at the literature about
+software engineering going back to like
+2000, 1990, I mean, it's pretty clear
+that the average number of lines of code
+that a professional software engineer
+that's like tested and production ready,
+it's not like
+100 lines of code. It's like 50. It's
+like 30. Yeah, a day. Yeah, a day,
+right? [clears throat] Like, for me it
+was like 14, but I was like part-time. I
+don't know. It's uh
+So, that's where the 400x actually came
+from. You know, the other thing I know
+is like, I should have said that instead
+of just trolling people more on the
+lines of code. So, I, you know, if I
+trolled you on the internet, I'm very
+sorry for that. Like, there you know,
+there is a deeper understanding of this
+and I did end up releasing a blog post
+about it that
+explains this quite a bit more. I mean,
+and I think it's not a little bit
+significant. It's very significant for
+people who are technical because it
+actually raises the bar on like what you
+are capable of doing. Like, all the
+people who are attacking me about lines
+of code, they particularly are the
+people who are most likely to get wings
+if you like let it rip and token max.
+This is sort of like the classic
+problem. It's like if you have taste and
+you understand technology, you are
+particularly the people who should would
+benefit the most from getting this. All
+someone has to do is
+you know, believe. Right. Yeah. So, stop
+fighting and just open Claude Code and
+try it, you know. I think another thing
+that's potentially going on is just like
+the experience is very dramatically
+depending on like the the models and the
+harnesses.
+I think something I've noticed is any
+sort of like semi-complicated
+programming task I try and do through my
+open claw agent just like kind of fails.
+Like, it's exactly the same model and
+it's sort of like Opus 4.7 as Claude
+Code, but it just like
+like anything above like a simple
+script, I just find like it's not like
+that great at. So, I'll go back into
+like Claude Code and then
+it was sort of a moment for me where I
+realized, oh like this is how it used to
+feel. Like, this is how like even 6
+months ago it used to feel like, oh like
+you try and like these things Yeah,
+these things aren't quite there yet. And
+then Claude Code with like Opus 4.5 was
+like, oh like it's actually like here.
+It's about to recur. Like, right now
+people sort of are feeling like open
+claw or Hermes
+is like not quite there or it's like a
+lot of work. And then I guarantee you
+like this time next year like everyone's
+going to be saying what you heard here
+first, which is like every single person
+on the planet will have their own
+personal AI. We could either live in a
+world where we have our own AI, where we
+have our own data, our own integrations,
+like we see what's happening, we write
+our own prompts, and we have control
+over what we see,
+uh or it's corporate controlled. It's
+something, you know, you go to a host,
+it's kind of like your Facebook feed,
+and like you don't know what that, you
+know, who wrote that algorithm and who
+does it benefit and like what model is
+behind it, like nobody knows. The most
+powerful idea that like was a gift was
+the personal computer revolution, and
+we're about to go through exactly that
+same shift with personal AI. And it's
+going to be a choice, like, you know,
+people are going to have to figure out,
+am I willing to write my own prompts?
+And, you know, I think I wish Pete
+Koomen were here, like that's one of the
+things we learned from him, too. It's
+like, unless you have your own prompts
+and you can write it for yourself, like
+you are,
+you know, below the API line for some PM
+or developer that is not you, who like
+will not understand you, will not
+understand your needs, will not
+understand what you uniquely care about.
+And I think that's like the defining
+question, like will you have control
+over your own tools or will your tool
+your tools have control over you? And I
+think this is the one of the disconnects
+that the public has, I think, is a lot
+of these capabilities you have to be on
+the latest and greatest models, and it's
+actually quite expensive to use them and
+burn all the tokens, for now. It's
+coming down, but I think maybe people
+are just trying like Sonnet or the free
+model or having the basic Claude Pro
+subscription only. Yeah. And part of it
+is maybe we have to address that this
+new way of really getting all this
+almost ASI AGI moment for for building
+is you have to be burning lots of tokens
+the whole token maxing paradigm.
+>> It actually reminds me of rent, San
+Francisco rent. Like one of the things
+that I feel like we always have to do
+um with YC founders is that it's like a
+general thing. It's like, "Oh, like I
+don't want to move to San Francisco
+because it's like so expensive to live
+there." But it's like it's so expensive
+to not live there.
+>> Yeah, yeah, yeah, exactly. [laughter]
+That's the whole point, right? Like
+early on in a YC batch, like I'm just
+used to like a founder being like, Like
+this like apartment is like thousands of
+dollars a month in rent. Like seems
+ridiculous. Like should I like pay it or
+not? And it's like, "No, you should
+absolutely pay it. And if anything, you
+should pay more to not just be in San
+Francisco but be in like the
+and just like be in like neighborhoods
+where you create this serendipity. Like
+token maxing is going to be one of those
+things for founders that we sort of have
+to teach them where it's not immediately
+obvious that you shouldn't This is
+actually like rent. Like this is one of
+the things where you should like spend
+as much as you can to like get the like
+most utility out of it versus treating
+it like the the office desk or
+something. Like sure, you can economize
+on that. Or you don't need like a super
+expensive like couch. But like when it
+comes to like actually using the models
+and your token spend
+>> you should probably be like pushing
+pretty hard on that.
+>> Yeah, one of the key maxims for YC is
+you know, how do you find good startup
+ideas? Live in the future and build
+what's missing, right? And so this is a
+profound version of that where all you
+have to do is commit your brain to look
+at, you know,
+spending $500 in a single day on tokens
+and say actually like you know, as long
+as I'm building something that's
+actually of great value to me, you know,
+and I'm building the right thing.
+Uh I'm going to do that. Garry, I have a
+weird question. Do you think that in
+some ways the fact that you tried to
+build all of this while also being the
+CEO of Y Combinator actually helped you?
+Because like your time is so scarce. You
+have to like try to figure out how to
+write hundreds of thousands of lines of
+code
+>> with just like spare minutes in between
+meetings.
+>> Yeah. Unlike a prof- a full-time
+software engineer that could, you know,
+just take the time to like open the
+website and like click around and like
+just test it. Like those minutes were
+like insanely scarce for you and so you
+were constantly pushing yourself to
+figure out how to like automate
+everything.
+>> Yeah, I I envy time billionaires. You
+know, sometimes look at I mean, I'm look
+at my kids and it's like these kids are
+time billionaires right now and I'm
+like, you know, you can just like do
+thing, you know, you know, run across
+people at Startup School all the time
+and it's like, you're a time billionaire
+right now. Like this is incredible. Like
+you could just do anything you like
+learn about anything. This is so great.
+So yeah, I'm you know, personally like I
+think my philosophy is I am in a crazy
+rush. In my brain I'm like probably
+lived 10 billion lifetimes living in
+this body right now and I need every
+single moment to count. Uh and then if
+you can token max, it's like I mean, you
+could buy millions of years of
+consciousness
+of machine consciousness. Now, I can be
+a time billionaire. It's not, you know,
+my own time.
+It's the time of a machine. Like doing
+work for me and like the human entities
+that I care about working on the causes
+that I care about, right? I care about
+YC. I care about builders being able to
+build. Even in a lot of our internal
+meetings last year, remember in our
+offsites, we would talk about like how
+do we teach the next generation how to
+use these tools? And so, you know, I'd
+like to I wish that I could say like
+that was all a part of the grand plan
+and that's how it started. It's not
+like, but you know, subconsciously I
+actually think it was. Like I think
+subconsciously from doing like cone and
+like talking about this stuff, like
+sitting side by side with uh Boris
+Cherney right here was a very powerful
+moment for me because I realized like
+he's he started saying things that like
+I could do myself. It's like he said,
+"Our team doesn't write a single line of
+code." I'm like, "Oh, actually like I
+can do that." And like the people who
+are watching right now, it's like you
+and I are not different, right? We're
+the same. Like we started in the same
+place. I don't think of myself as like,
+you know, in the sky yet, even though
+people seem to talk like I am, you know,
+like I'm just a person trying to do a
+thing. And if I sit next to Boris, I'm
+like, you know, this guy is one of the
+best engineers I've ever met. But also
+like, if I just open a prompt, we have
+the same prompt. We have the same
+MacBook Pro.
+And, you know, there's nothing that
+stands between like me or you or any of
+us from like drawing on millions of
+years,
+potentially, of like tokens to like
+serve humanity. Well, Gary, I think that
+was a beautiful quote that should be
+retweetable. It shows Got to get it on X
+right away. You could have infinite time
+by borrowing the time from the machines.
+Yeah, what a time to be alive. That's a
+beautiful thought to end on.
+Thanks, Gary, for showing us the future.
+Thanks, guys.
+>> All right, thanks for watching and I'll
+see you on the next episode of Light
+Code.

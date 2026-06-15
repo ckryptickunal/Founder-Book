@@ -1,0 +1,1715 @@
+Title: Alexandr Wang: Building Scale AI, Transforming Work With Agents & Competing With China
+Video ID: 5noIKN8t69U
+URL: https://www.youtube.com/watch?v=5noIKN8t69U
+Channel: Y Combinator
+Published: 2025-06-18T14:00:07Z
+Duration: PT1H1M13S
+Views: 356669
+Likes: 5734
+Tags: YC, Y Combinator
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 1691
+
+Description:
+Alexandr Wang started Scale AI to help machine learning teams label data faster.
+
+It started as a simple API for human labor, but behind the scenes, he was tackling a much bigger problem: how to turn messy, real-world data into something AI could learn from. Today, that early idea powers a multi-hundred-million-dollar engine behind America's AI infrastructure—fueling everything from Fortune 500 workflows to real-time military planning. 
+
+Just last week, Meta agreed to invest over $14 billion in 
+
+============================================================
+TRANSCRIPT
+============================================================
+
+Since we recorded this Lite Cone episode
+with Scale AI CEO Alexander Wang, Meta
+has agreed to invest over $14 billion in
+scale, valuing the company at $29
+billion. Alex has also announced he will
+lead Meta's new AI super intelligence
+lab. Our conversation you're about to
+hear covers the history leading up to
+this investment. From scale's early days
+at YC to its integral role in the
+training of foundational models. Let's
+get to it. The AI industry really
+continues to suffer from a lack of uh
+very hard evals and very hard tests that
+show really like the frontier of model
+capabilities. The biggest thing is you
+just have to really really really care.
+When you interview people or when you
+interact with people, you can tell
+people who are just sort of like phone
+it in versus people who sort of like
+hang on to their work. It's like the so
+incredibly monumental and forceful and
+important to them that they they do
+great work. Very exciting time to to see
+the how the frontier of human knowledge
+expands.
+[Music]
+Welcome to another episode of the Light
+Cone. Today we have a real treat. It's
+Alexander Wang of Scale AI. Jared, you
+worked with uh Alexander way back in the
+beginning actually. Uh what was that
+like? What year was it? Put us in the
+spot. Yeah, Alex. I mean, most of what
+we want to talk about today is like what
+Scale is doing now because like the the
+current stuff is like so so awesome and
+so interesting since Scale got started
+at YC. I thought it just seemed
+appropriate to start all the way at the
+start. And um you it's funny uh Diane
+and I were at MIT last month talking to
+college students and like of all the
+founders, the one that they like most
+look up to and like want to emulate is
+actually you. Like everybody wants to be
+the next Alexander Wankers. Everybody
+knows the story of how you like dropped
+out of MIT and and ended up starting
+scale, but they don't know the real
+story. And so I thought it'd be cool to
+go back to the beginning and just talk
+about the real story of how you ended up
+dropping out of MIT and starting scale.
+So before I went to MIT, I worked at um
+Quora for a year. And so this is 2015 to
+2016 or no sorry 2014 to 2015 was when I
+worked as a software engineer and this
+was already at a point in the market
+where ML engineers as they were called
+or like machine learning engineers uh
+made more than software engineers. So
+that was already like the market state
+at that point. I went to these summer
+camps um that were that were organized
+by um by rationalists the rationality
+community in San Francisco. So um and
+they were for precocious teams but they
+were organized by um uh many people who
+have become pivotal in the AI industry.
+So one of the organizers is this guy
+Paul Cristiano who um used to uh who's
+the inventor of RHF actually and now he
+run or he's a research director at the
+US AI safety institute. He was at
+opening for a long time. Um Greg
+Brockman came and gave a speech at one
+point. Eleazar Yudkowski came and gave a
+speech at one point and actually I was
+very like when I was I don't know must
+have been uh 16 I was exposed to this
+concept that like potentially the most
+important thing to work on in my
+lifetime was AI and AI safety. So
+something I was exposed to very early
+very early on. So then when I went to
+MIT I was started MIT when I was 18. I
+like studied AI quite deeply. That was
+most of what I did in the sort of day
+job. and then um uh kind of got antsy
+applied to YC and then the idea was kind
+of like okay how could initially was
+like okay where can you apply um sort of
+like AI to things and this was um in the
+era of chat bots which is like crazy to
+think about actually um that there was
+like this like mini chatbot bubble boom
+yeah yeah yeah 100% in uh in 2016 um
+which is uh which was I guess spurred by
+magic right? Or or some of these apps
+and and uh Facebook had a big vision
+around chat bots. And anyway, there's
+this little mini chatbot boom. So, the
+initial thing that we wanted to work on
+uh and um was was chat bots for doctors,
+right?
+Which is like a funny idea because do
+you guys know anything about doctors?
+Yeah. No, not at all. um like basically
+no I it was just sort of like oh doctors
+are a thing that sound expensive and so
+and I think it was like I think it's
+like indicative of like I mean I don't
+know you guys see this all the time but
+I feel like most of the times young
+founders like first 10 ideas are like
+always first of all they're very
+mimemetic so they're probably like
+there's a lot of like the same ideas
+over there's like a dating app there's
+like some something for like you know
+social life you know there's the same
+ideas um and then I think that like I
+think young people have a very poor
+sense sense of alpha like what are what
+are the things that they're actually
+like going to be uniquely positioned to
+do and I think you know most young
+people don't have a sense of self so
+it's you know it's not clear so when we
+were in YC we were roommates with uh
+with um with another YC uh company and
+we were sort of like um we were sort of
+observing this like this like chatbot
+boom ahead of you know that was
+happening at the time um and but it was
+very clear that like um chat bots if you
+wanted to build them, and this is funny
+to say in retrospect, required lots of
+data um and required lots of like human
+elbow grease um to be able to get them
+to work effectively. And so like just
+like kind of off the cuff at one point
+was like, oh, like what if you just did
+that? What if you just did the data and
+the the like language data and the the
+human data so to speak for the chatbot
+companies? We were also very lost, by
+the way. I think you probably remember
+we we were we were quite lost mid batch.
+um uh and like many YC companies I think
+and so then we um switched to this like
+concept I think the you know the initial
+idea was like API for um for human tasks
+or something along those lines and uh
+and one night I was just like trolling
+around for domains scaleappi.com was
+available and then we just bought it we
+launched it I think a week later we
+product hunt yeah I remember the the
+product hunt page is still live I was
+reading it last night and I remembered
+the tagline line. It was an API for
+human labor. Like that that that that's
+my recollection of sort of like the like
+distilled insight that you had was like
+what if there is an a what if you could
+call a human with like an API? Yeah. And
+that was I mean I think it was like 3
+days for us to put up the landing page.
+It launched on product hunt. I think
+this idea captured some amount of
+imagination of the like of the startup
+community at the time because it was
+sort of like this weird form of futurism
+where you have like humans delegated
+like APIs delegate to humans in this in
+this interesting way. It's like an
+inversion of the Yes. Yeah. Humans doing
+work for the machines instead of the
+other way around. Yeah. Yeah. Yeah. It's
+funny because the the initial phase, you
+know, we sort of we just worked with all
+these engineers who reached out to us
+from um from that product hunt which was
+a real grab of use cases, but then that
+was enough for us to raise money at the
+time and like you know uh and to get
+going and then a few months after that
+uh we it became clear that like
+self-driving cars was actually the first
+major application that we needed to
+focus on. And so there were many uh very
+big decisions I would say in the first
+like year or so of the company. One
+thing that was curious is at that point
+there were other solutions that were
+already the game in town like mechanical
+turk from Amazon was sort of the thing
+that people were using but you ended up
+capturing this whole other set of people
+that didn't know about it and you had a
+way better API and you kind of won.
+Yeah. It was not clear at that point
+because you probably were compared a lot
+with mechanical turd. Yeah. So,
+Mechanical Turk was definitely the sort
+of like um the concept in most people's
+mind at the time. I mean, it was just it
+was kind of one of these things where I
+think a lot of people had heard about
+it, but anyone who had used it knew it
+was just awful.
+And so, it's like whenever you're in a
+space and that's kind of the like that's
+like the thing. It's like people mention
+a thing, but it sucks, that's usually
+like a pretty good sign. Um, and so that
+was that was enough to give us like
+early confidence. But then I think the
+thing that like really I would say the
+the um the thing that was as actually
+fundamental to the success of the the
+company was actually focusing on this
+like on this like seemingly very narrow
+problem of of self-driving cars. I think
+that um you know I remember very early
+on when it was maybe like six months
+after we were out of YC basically um
+there was another YC company Cruz that
+that had reached out to us on our
+website and sort of like in the blink of
+an eye they became our largest customer
+and they found you just from your launch
+or yeah just yeah I think maybe even
+Google like I it's not even totally
+obvious but just yeah vaguely from our
+launch and vaguely it was actually an
+XYC founder that uh was working at
+Cruise that reached out to us so maybe
+some YC mumbo jumbo.
+We're a ketti. Yeah. Uh, who knows? The
+world works in mysterious ways, but and
+so they grew very very large. So then
+early on we made this decision and I
+remember we we we um went to our lead
+investor at the time and you know we had
+this conversation. It's like hey
+actually we think we should probably
+just focus on this self-driving thing.
+You know it was actually a very
+interesting conversation because the
+reaction was like oh that's just like
+obviously way too small a market. um
+then like you you know you're never
+going to build like a gigantic business
+that way. Um and we were like we think
+it's probably a much bigger market than
+than you think it is because there's
+like you know all these self-driving
+companies are getting crazy amounts of
+funding and the automotive companies are
+doing huge programs in self-driving and
+it clearly is the future. Like it feels
+like something that that um that should
+exist and so we're like if we focus on
+it we think we can build like build the
+business much more quickly. And it's
+funny looking back because both things
+are true. It is both true that it
+enabled us to build the business to be
+to get to scale pretty very quickly and
+it is also true that that was not a big
+enough market to sustain a gigantic
+business. The story of scale in many
+ways is like this progression of like
+how do you continue you know AI is this
+incredibly dynamic space. Um, lots of
+things are constantly changing and um, a
+lot of I think what um, what we pride
+ourselves on at the company is how we've
+been able to um, continue building on
+and and um, contributing to this very
+fastmoving industry. When did you uh,
+become much more aware of the scaling
+laws because you know uh, one of the
+interesting facts that sort of emerged
+is that uh, you're a little bit the
+Jensen Hang of data. I think that in
+self-driving
+um scaling laws were not really a thing.
+Um because and the fundamental the the
+biggest reason actually was that like
+one of the biggest problems in
+self-driving is that your whole
+algorithm needs to run on the car and so
+you're very constrained by the amount of
+compute you have access to and is
+available to you. So like a lot of the
+engineers and a lot of the companies
+working on self-driving never really
+thought about scaling laws. They were
+just all thinking about like, okay, how
+do you keep grinding these algorithms to
+be better and better better that are
+like small enough to fit onto these um
+onto these cars? But then we started
+working with OpenAI in 2019. This was
+like GPD2 era. Um and I would say like
+GPT1
+GPT was sort of like this curiosity.
+GPD2. Um, I remember OpenAI like they
+would have a booth at these like large
+AI conferences and they would like, you
+know, their demo would be to allow
+researchers to like talk to GPD2 and it
+was like
+mildly like it was it wasn't like
+particularly impressive, but it was like
+kind of cool. is like kind of this thing
+and then um I think by GPG3
+uh it was sort of this like that's when
+the scaling loss clearly um you know
+felt very real and that was I mean I
+think GPD3 was 2020 um so which is
+actually like long before before the
+world caught on to what was happening
+did did you know as early as 2020 did
+did you have a strong inkling that this
+was really going to be like the next big
+chapter of scale or not until chat GPT
+took off was was 35 or was it four? I
+think that like um in 2020 I think it
+was clear that scaling laws were going
+to be a big thing, but it was still not
+totally obvious. you I remember this
+like interaction, you know, I I got
+early access to GPD3 and then it was
+like in the playground and then I I was
+like playing with it with a friend of
+mine and uh I I told the friend of mine,
+"Oh, you can like talk to this model."
+And during the conversation, um uh my
+friend got like visibly frustrated and
+angry at the AI, but in a way that
+wasn't just like, "Oh, this is a dumb
+like toy." It was like it was in a way
+that was like somewhat personal. And
+that's when I was I realized like whoa,
+this is like somehow qualitatively
+different from anything that had existed
+before. I feel like it was passing the
+touring test at that point. Kind of. It
+was like semblances. Yeah, semblance. It
+was like sort of like the the the
+glimpses of it potentially passing the
+touring test, right? But I think the
+thing that really
+um caused the recognition of I would say
+generative AI, which is still even the
+term in some ways, it was really Dolly I
+think that that um that convinced um
+that convinced everyone. But I think I
+think my my personal um journey was like
+GBD3
+like was like highly interesting and
+then and so it was like one of many bets
+at the company and then in 2022
+over the course of Dolly and and then um
+and then later chatbt and you know um
+GP4 etc. and we worked with open eye on
+instruct GBT which is kind of the
+precursor to chat GBT. it became very
+obvious that that was like the at the
+farm moment for the for the company and
+for frankly the world. That's when we
+saw it as well with the big shift in
+companies because it was that 3.5 moment
+release end of uh 2022 and we started
+seeing a bunch of companies and smart
+people changing directions and pivoting
+their companies in 2023 and that was
+that moment this dynamic that you
+referenced which is kind of the you know
+scales the NVIDIA for data kind of
+thing. Um I think that became quite
+obvious. Um I would say GPD4 really was
+the moment where it was like it was like
+wow this is like like scaling laws are
+very real. The need for data will
+basically you know grow to consume you
+know all available information and and
+um and knowledge on that humans have.
+And so um it was like wow this is this
+is like this like astronomically large
+opportunity. Yeah for seemed like the
+first time it was something that you
+could uh get to not hallucinate
+basically ever you could actually have a
+zero uh hallucination experience in
+limited domains and which is we're still
+sort of in that regime even at this
+point. You know, the classic view is
+that if it's hallucinating, you're not
+giving it the correct data in the prompt
+or context or uh you're trying to do too
+much in one step. Yeah. I mean, I think
+I think like the reasoning paradigm is
+is is has a lot of lags and it's
+actually been interesting this last era
+of the of model improvement because um
+uh the gains are not really coming from
+pre-training um which is so so we're
+like moving on to a new scaling curve of
+of reasoning and reinforcement learning
+but it's it's like shockingly effective
+um and and I think that you know it's
+the the analogies between like AI and
+and Mors law are pretty clear which is
+like you know you'll get on different
+like technical curves but like if you
+zoom way out it'll just be feel like
+this like smooth improvement of models.
+One of the things that uh has been
+popping up with some of the like really
+big well-known rappers is they're
+getting access to full parameter
+finetunes of the base models especially
+the frontier base closed source models.
+Is that like a big part of your business
+or you know something that people are
+sort of coming to you for just like
+these verticalized full parameter
+fine-tuned like data sets? Yeah, I think
+this is going to be a like blueprint for
+the future, right? So right now I mean
+like the total number of large scale
+parameter fine tuned or reinforcement
+fine-tuned models is like still pretty
+small but if you kind of think about it
+like that like one version of the future
+is that every firm's core IP is actually
+their specialized model or their own
+fine-tuned model and just in the same
+way that like you know today you would
+generally think that the co the the uh
+IP of most tech companies is their
+codebase
+um in the future you would generally
+think that their their their specialized
+IP might be the model that powers all of
+their all their internal um workflows.
+And what are the special things they can
+add on top? Well, they can add on um
+data and environments that are somehow
+specific very very specific to the
+day-to-day problems or information or
+challenges or business problems that
+they see um on a day-to-day level. And
+that's the kind of like really gritty
+real world information that you know
+nobody else will have because nobody
+else is like doing the same the exact
+same business motion as them. There's a
+lot of weird tension in that though. Um
+I remember uh friends of ours from one
+of the top model companies came by and
+they were like hey do you think YC and
+YC companies would give us their evals
+so we could train against it? And we
+were like no dude what are you talking
+about? Why why would they do that?
+Because that's like their moat. And then
+I guess now that based on this
+conversation, it's actually I mean eval
+are pretty important as a part of RL
+cycles. And then even the eval are not
+really uh the valuable part. The
+valuable part is actually the like
+properly fine-tuned model for your data
+set and your set of you know sort of
+problems. Yeah, it's like these Lego
+blocks, right? If you have the data and
+you have the environments and then you
+have the you have you know a base model,
+you like you know can stack those on top
+of each other get get a fine tuned model
+and obviously the eval are important.
+This is some of the tension and this is
+basically you know in a nutshell the
+sort of like um does AGI become a Borg
+that just sort of like swallows the
+whole economy in like you know has one
+firm or do you still have a specialized
+economy? My belief generally speaking is
+that you you still do have a specialized
+economy like the like these models are
+platforms but the like like alpha in the
+modern world will be determined by you
+know to what degree you're able to sort
+of like encapsulate your business
+problems into data sets or environments
+that are then conducive towards building
+like you know differentiated models or
+differentiated AI capabilities. Yeah,
+that's why asking for eval was so crazy
+to me because it's like okay you get the
+evals the base model is way better and
+then not you know now all your
+competitors have exactly uh the same
+thing that used to be your advantage. I
+think we will undergo a process in AI
+where we learn what the bright lines
+are, right? I mean, I think that like
+it's like very obvious and intuitive to
+tech companies that they should not give
+away their codebase and they should not
+give away their database. Like they
+should not give away their data, they
+should not give away their codebase. The
+analoges of that in a you know highly AI
+fueled economy I think will identify
+over time but are yeah the evals your
+data your environments etc. I think you
+have a very uh techno optimistic view of
+what the future is going to be with how
+jobs are going to be shaped. Can you
+talk more about that? Because I think
+you hinted at it before. It's going to
+be more specialized. It's not that all
+these jobs are going to go away, right?
+First off, it's undeniably true that
+we're we're uh at the beginning of an
+era of like a new a new way of working
+like like you know this there's this
+term that people have used a long time
+which is like the future of work. Well
+uh we are like entering the future of
+work or the certainly the next era and
+so work fundamentally will change but I
+do think um humans own the future and we
+we are we are like uh we have a lot of
+agency actually and a lot of a lot of
+choice in how this sort of like
+reformatting of of work or how the
+reformatting of sort of like workflows
+ends up playing out. You know, I think
+you kind of see this play out in uh in
+coding right now. And I think coding in
+some ways is is really the sort of like
+um case study for other fields and and
+other you know other areas of work where
+sort of the the initial phase is this
+sort of like assistant style thing where
+um you know you're kind of doing your
+work and then the models are kind of
+like assisting you a little bit here and
+there and then you go to a you know the
+sort of like cursor agent mode kind of
+thing where you're you're like um
+synchronously asking the the models to
+like carry out these workflows and
+you're sort of like you're you're
+managing like one agent kind of or
+you're sort of like you're kind of like
+pair programming with a single agent and
+then and then now with like codecs or
+other systems like it's it's very clear
+the paradigm is like oh you have this
+like you have this like swarm of agents
+that you're going to deploy on like all
+these various tasks and you're just
+going to like sort of like you know dep
+like um give all these tasks and you'll
+have this sort of like um this this
+cohort of of agents that are sort of
+like you know doing this work that you
+you think is appropriate.
+And that last job um uh has a has a
+semantic meaning in the in the current
+workforce. It's a manager. You know,
+you're basically managing this sort of
+like this set of agents to do um actual
+work. And so and and I think that like
+AGI or you know AGI or doomers or
+whatnot like they take this view that
+like oh even this job of like managing
+the agents will just be done by the
+agents. So like humans will be taken out
+of the of the process entirely. But our
+belief, my personal belief is that you
+know this is um management is very
+complicated. Um management is also like
+more about like what's the vision that
+you have and what's the sort of like
+what's the like end result you're aiming
+towards and those will be fundamentally
+I think like you know we have a human
+demand and human desired driven economy.
+So those will be driven by humans. And
+so I think the terminal state of the
+economy is just is largecale humans
+manage agents in a nutshell. I have a
+funny story where um founder friend of
+mine is trying to promote uh one of his
+you know junior employees but they're
+really really smart and they're working
+on the agent infrastructure and then he
+was like hey do you want to like you
+know I'm looking for someone who could
+step into management. You've never
+managed people before. or do you you
+know if we hired some people uh under
+you like how would you feel about that
+and uh this you know uh mid20some really
+smart you know sort of do he's just like
+he's an engineer and he's like why would
+I do that like just give me like more
+compute like you know the model like
+look at what just happened to the model
+literally like last month and you know I
+didn't have to do anything it just
+started doing things that it couldn't do
+a month ago why would I want to manage
+people like just give me like I will
+just manage more agents for and it's
+fine. Okay. So, what are the unique
+things that that um that humans will do
+over time? I mean, I think this like
+this like element of vision um is very
+important. This element of like kind of
+like debugging or sort of like um fixing
+when things go wrong. Like most of a
+manager's job, speaking as a manager, is
+is just like putting out fires, dealing
+with problems, dealing with like like
+issues that come up. Like I think
+intuitively, you know, I the idealistic
+manager job seems like this very cushy
+job because you're like, "Oh yeah, all
+the other people do all the work and I'm
+just sort of like I just vaguely
+supervise and then the reality is
+obviously like highly chaotic." I think
+people often jump to this like, you
+know, extreme reality where it's like,
+oh yeah, these like, you know, you're
+just going to manage the agents and
+you're going to sort of like live this
+like, you know, kind of Victorian life
+where all your problems are solved. But
+but no, I think it's still going to be
+pretty complicated like getting agents
+to like coordinate well with one another
+and like coordinating the workflows and
+and and debugging the issues that come
+up like these are still complicated
+issues and you know having seen what
+happened in self-driving which was more
+or less that like you know it's easy to
+get to 90% very very hard to get to 99%
+I think that like something similar will
+happen as with large scale agent
+deployments and that like you know final
+10% of accuracy will be like you know
+will require a lot of work. Yeah. Even
+for uh self-driving cars right now,
+there's the remote assist for all these
+super etch case. So there's still a
+human at the end managing the car. Yeah.
+And the ratio, by the way, I mean um the
+companies don't publish them, but I
+think the ratio is something like five
+cars to to one teley operator um or or
+maybe even less than maybe three cars
+per teley operator. So um the ratio is
+like you know much lower than people
+think. I think that like humans are much
+more involved even in self-driving cars
+than I think most people appreciate. I
+mean, which if you put it in that
+perspective, I think it's still very
+optimistic. It's just the output of
+getting rides instead of doing in
+today's world, if you're a Uber driver,
+you just do one car. In this world, you
+can do five cars, right? Well, you have
+to believe for this like for an
+optimistic version of the future where,
+you know, unemployment is still low,
+etc. You just have to believe that
+humans are like almost insatiable in
+their desire and their demand. um and
+that like you know prices will go down,
+things will become you know uh the the
+economy will become more efficient and
+we'll just like want more. And I think
+this has been a pretty reliable trend
+for like the history of humanity is that
+like you know um we have somewhat
+insatiable demand. Um, and so I have I
+have like conviction that like you know
+the economy can kind of get as efficient
+as it needs or as it like can get like
+hyper hyperefficient and then human
+demand will just like continue to sort
+of like fill the bucket. Yeah. In the
+20th century uh you know when you said
+computer maybe early 20th century people
+didn't think of like a computer as it is
+today. They thought of a human being
+that would sit in front of a punch card
+tabulator and that was like what a
+computer was doing. I mean title. It was
+literally that was a real person's job.
+And then of course now today it's like
+where are all the computers? Well,
+they're actually real computers now. I
+don't know. It's that was the Apollo
+mission. It was a bunch of uh people
+just crunching numbers with the
+trajectories of uh of the Apollo and
+that was it because the uh computer that
+went on the uh rocket is actually was a
+microcontroller with I think only like
+single digit hertz. It was like very
+tiny amount of computations. It was just
+humans doing it. Totally. and and even
+this like I mean I think the concept of
+being a programmer is somewhat is like
+highly esoteric um in the sense that
+like oh you're like writing the
+instructions for these like machines to
+just like you know just continue do
+repetitively and in some ways it's like
+the leverage boost that all humans will
+get is like similar to the leverage
+boost that like programmers have had
+historically for a long time I think a
+like a lot of people in Silicon Valley
+say this like the the the closest thing
+to alchemy in our world preai, let's
+say, is programming because you sort of
+like you can do something that uh
+creates like like an infinite there's
+these infinite replicas of whatever you
+build and they can sort of like run an
+infinite number of times and um and I
+think the entire human workforce will
+soon see that kind that large of a
+leverage boost which is extremely
+exciting because I think that like
+programmers are are are um have like
+benefited Ed over the past few decades
+from this like unique perch where they
+they have like you know one 10x or 100x
+engineer can like can build something
+like absolutely incredible and like very
+very valuable and like very um uh
+shockingly productive and all of a
+sudden I think like like humans in all
+trades I think will like gain this like
+level of leverage. Alex, I'm curious to
+return to a point that you made earlier
+about like how scale has kept
+reinventing itself. If you had to like
+describe the arc of scale like what's
+what's what's the story and what were
+the turning points? Our initial business
+was all around um you know producing
+data um you know generating data for
+various AI applications and primarily
+self-driving car companies right for for
+the early years it was really like
+you're saying you're really focused on
+on that. Yeah for the first like three
+years fully focused on that. One of the
+properties of focusing on that business
+of building that business is over time
+you know we had this like obligation to
+really like get ahead of most of the
+waves of AI if that makes sense because
+you know for AI to be successful in any
+vertical area it needed data and so like
+our demand for our our products would
+preede a lot of times the actual sort of
+like evolution of AI into those
+industries. So, you know, as an example,
+we started working with OpenAI on
+language models in 2019. Um, we started
+working with the DoD on government AI
+applications um and defense AI
+applications in 2020. This is like long
+before I think the you know recent sort
+of like dronefueled um you know AI uh AI
+craze in the in the Department of
+Defense. we started working with
+enterprises long before um there was
+sort of like this uh you know the recent
+sort of like larger waves around uh
+enterprise AI implementation. So um
+almost uh uh sort of systemically or or
+intrinsically we've had to uh basically
+build ahead of the waves of AI. I think
+this actually quite similar to Nvidia.
+you know, whenever like Jensen gives his
+annual presentations about, you know,
+Nvidia and its two trends outlook, like
+he always is so ahead of the trends. Um,
+and that's because he has to get there
+on the trend before the trend can even
+happen. That's I think been one um one
+way in which our businesses continue to
+adapt because AI is like this, you know,
+it's this this like it's the fastest
+moving industry I think ever um in the
+history of the world. And so you know
+that each each turn um each evolution uh
+has been has moved incredibly quickly.
+The other thing that that happened late
+2021 early 2022 um we started working on
+um applications and so we started
+building out uh AI based applications
+and now u more much more so uh agentic
+workflows and agentic applications um
+for enterprises and government
+customers. And this was an interesting
+evolution of our business because
+because historically like our core
+business is highly operational. You
+know, we build this like data foundry.
+We have all these processes to produce
+data. Um it's a very operational process
+that involves like lots of humans and
+human experts to be able to produce data
+with quality control systems in place.
+That highly operational business um and
+the success of that business is what
+created the momentum for us to you know
+sort of dream about building an
+applications business. when we went into
+it,
+uh, I had studied other businesses that
+had basically successfully um, added on
+very different businesses and what are
+sort of like the unique traits or or why
+do some of those work and one of them
+that is probably the most interesting
+um, I think is like the most singular in
+modern uh, modern business history is
+um, Amazon building AWS. You know, if in
+2000 you had written a short story that
+said that like, you know, this large
+online retailer would build this like
+largecale cloud computing rent to server
+business. Like it would seem like
+nonsensical. I remember when they
+launched AWS in 2006, Amazon stock went
+down because all the analysts thought it
+was such a terrible idea. It never been
+done before. It just like it doesn't
+seem related at all to their core
+business. um it has it's like this like
+weird thing but the sort of like wisdom
+of that was I think twofold. I think
+like first um and uh from talking to
+people who are like there at the out you
+know the sort of like the genesis moment
+of this business like one thing probably
+the most important thing was that they
+had conviction that that the the sort of
+like underlying business model of AWS
+would basically be this like this like
+infinitely large and growing market like
+that market would would literally grow
+forever. there would be like this like
+exponential of the amount of compute
+that needed built up needed to be built
+up in the world and um if you did that
+there was like sufficient cost of you
+know cost advantages from economies of
+scale I think like startups you know you
+kind of like
+um uh you kind of have to like switch
+modes at a certain point where like
+early on you're trying to go for very
+very narrow markets like almost the
+narrowest markets you can and then
+you're just trying to like gain momentum
+and then sort of like slowly grow out
+from those hyper narrow markets and then
+um at some point you if you like have
+ambitions to be a hundred billion dollar
+company or more then you have to sort of
+like switch gears and say where are the
+infinite markets um and how do you build
+towards those infinite markets and so um
+this was sort of like uh the moment
+where we realized that and and the
+simple realization was that every
+business and every organization was just
+going to have to reformat their entire
+businesses um with AIdriven technology
+um and now obviously like agent driven
+technology and that would just be like
+Over time that would swallow the entire
+economy and so it was like another one
+of these like okay that's an infinite
+business to build out AI applications
+and AI deployments for large enterprises
+and governments. I think a lot of people
+don't realize that you guys are in the
+middle of this transformation. They
+still think of scale as the data
+labeling company but like if you fast
+forward 10 years do you think most of
+scale will actually be the agent
+business? Yeah, it's it's growing much
+faster at this point. And I think it it
+it's an infinite market. So the crappy
+thing about most markets is that they
+have like a pretty shallow S-curve. Um
+but then you know you look at
+hyperscalers or like you know these like
+mega cap tech companies and they just
+have like these like ridiculously large
+markets. So you really want to get into
+these these these like um infinite
+markets. So our strategy so far has been
+to focus on building use cases for you
+know focus on a small number of
+customers and um and be quite selective.
+So we work with you know the number one
+pharma company in the world the number
+one telco in the world the number one uh
+bank the number one um healthcare
+provider um and we work a lot with the
+US government you know the department
+department of defense and and other
+government agencies and um the whole
+thing is like how do we take a very
+focused approach towards building um
+stuff that resemble you know real
+differentiated AI capabilities and all
+this I think sounds somewhat tright but
+but um we have this multiund million
+business in building all these
+applications. By my account, I think
+it's it's one of the largest AI
+application businesses um in the
+industry. Certainly what our investors
+tell us and it's fueled by our
+differentiation in the data business
+because our belief fundamentally is that
+um kind of what we talked about before
+the the end state for every enterprise
+or every organization is um some form of
+specialization um imbued to them by
+their own data. Our day jobs
+historically have been producing highly
+differentiated data for you know these
+like largecale model builders in the
+world and then we can apply that wisdom
+and that capability and those
+operational capabilities towards
+enterprises and their unique problem
+sets and um and give them specialized
+applications. Honestly like it kind of
+sounds like palent here at the like most
+zoomed out level if you sort of like
+squint and that you're a technology
+provider. We're like a technology
+provider to like the most, you know,
+some of the largest organizations in the
+world um with a focus on data. Yeah. Um
+and I think the key difference is like,
+you know, Palunteer um has built a real
+focus around these data ontologies and
+um and really solving this like messy
+like data integration problem for
+enterprises. Um and then our whole
+viewpoint is like what is the like most
+strategic data that will enable
+differentiation for your AI strategy and
+how do we like generate or harness that
+data from within your enterprise towards
+developing that. I guess you will end up
+being pretty big competitors in another
+5 10 years but for now like it's
+basically so green field honestly. I
+mean I think it's an infinitely large
+market the other so you might not ever
+meet actually which is interesting.
+Yeah. Yeah. I I think in practice now we
+actually like frankly we work we're more
+partnered with Palunteer than than
+competitive with them. Yeah. Um and uh
+well that's because the problems at
+these giant organizations are actually
+so massive and intractable that they'd
+throw up their hands. It's like they
+have no shot at ever hiring people who
+could possibly solve the problem. Uh but
+a company like Scale or a company like
+Palunteer can actually hire kind of the
+same kind of people who would apply to
+YC actually. It's kind of like there's
+this Yeah. I don't know the the through
+line in my head right now is realizing
+like you know there's plenty of capital
+and then the limiting agent is actually
+really great technical smart people who
+uh are optimistic and actually work
+really hard. There's like not enough of
+those people. That's true for the world.
+And by the way, I think one of the cool
+things about um agents as we were
+talking about before is that like all of
+a sudden those people get near infinite
+leverage. So, um I think we're going to
+I think that bottleneck gets exploded
+now hopefully um due to due to AI.
+Again, I I think you know just like how
+in cloud AWS is the largest by far, but
+there's so many other cloud providers
+that actually are all at like like it's
+not a winner take all kind of business
+per se and it doesn't have to be. Yeah.
+Exactly. And and and I think that um
+it's just too big of a market to even be
+close to winner takes all. like I just
+there's no single organization that
+could have the organi um operational
+breadth to be able to to swallow the
+whole market. Talking about uh
+operations, you clearly are living in
+the future which is super cool. I'm sure
+you're running scale with all these
+agents and tools already to make it very
+efficient. Could you share some of the
+things that you're doing internally as a
+company and agents you're adopting so
+you can do more with less people? You
+know, we saw this early because uh when
+when the model developers were starting
+to develop agents and starting to
+develop using reinforcement learning
+like actual you know like reasoning
+models where the the models could
+actually like really do end toend
+workflows. We were uh responsible for
+producing a lot of the data sets that
+enabled um the agents to get there and
+then we saw just like how effective that
+that training process is. I think that
+like the efficacy of reinforcement
+learning for um for agent deployments is
+like is pretty insane. So then once we
+realize that we realize like okay if you
+can actually like you know turn um
+existing human-driven workflows into
+environments and and data for
+reinforcement learning. Um then you have
+this ability to convert these like human
+workflows into human workflows um
+especially ones where you're like okay
+with some level of fault faultiness and
+and okay with a certain level of
+reliability you can convert those into
+um into agentic workflows. So there's
+all sorts of like you know agent
+workflows that that happen in our hiring
+processes and happen um in our quality
+control processes and happen to sort of
+just like automate away certain like
+data analyses um and data processes as
+well as like various like sales
+reporting like it's sort of like
+embedded at you know every major org of
+the company. Um and the whole thing is
+like um it's just like mindset like can
+you identify these like very repetitive
+human workflows and basically like
+undergo this process where you convert
+that into data sets that enable you to
+build automation tools. What do these
+data sets actually look like? I mean for
+browser use is like is it an environment
+and then you know here's a video of a
+human being going through this process
+of like filling out this form and decide
+like yes no on this uh drop down or
+something. I mean you know what's a
+concrete example just for the audience?
+One of the processes that we go through
+is like you know you you um you'll take
+a sort of like full packet of a from a
+candidate and you'll like want to
+distill that into like you know a brief
+of some sort that sort of like gives all
+the salient details about that candidate
+for like decision by a sort of like
+broader committee. Um and these kinds of
+cases you know broadly speaking like
+deep research plus+ kind of things are
+like the lowest hanging fruit. It's just
+sort of like can you take these
+processes that like more or less look
+like you know you have to like click
+around a bunch of places and pull a
+bunch of pieces of information and then
+blend them together and then p produce
+some analysis on top of that like that
+process that fundamental like
+information driven sort of like analysis
+process is the easiest thing to to drive
+via workloads and the kinds of data you
+need are just like you know um uh you we
+call them kind of environments but
+usually it's just like what is the task
+what is the the full um sort of like
+data set that's necessary to conduct
+that task and um what is like the rubric
+for how how you conduct that
+effectively. Do you need RL and
+fine-tuning when like prompt engineering
+and metaprompting seems so good? I think
+that yeah I mean I think I think
+prompting I mean as the malls get better
+prompting will get better but like
+prompting gets you to a certain level
+and then reinforcement learning gets you
+beyond that level. And um actually this
+is a good point. I I think that like
+probably most of the time in our in our
+business it's mostly prompting that just
+is like works really well. I mean that's
+the weird thing is like oh shoot you
+don't have to crack open the models and
+then frankly like the next models are
+going to be so good and then the evals
+are mainly about picking which model or
+you know at what point do you switch to
+the next one. I do think startups need
+basically like a strategy for how they
+like will um walk up the complexity
+curve so to speak. Like you need to like
+you you know whatever product or
+business you build like needs to like
+really um benefit from like the ability
+to like race up this complexity curve
+which is the broad broader curve of
+capability of the models. I mean you you
+actually created this uh leaderboard
+that has a lot of these super hard tasks
+that are trying to go into this next
+curve of uh reasoning. Can you tell us
+about it? One of the things that we
+built um in partnership with the center
+for safety is humanity's last exam. It
+was a funny name. I think unfortunately
+there will be yet another exam beyond
+it. But you know the idea was how like
+let's effectively work with you know the
+the the smartest scientists in the field
+and you know um you know we worked with
+many very brilliant professors but also
+very many like individual researchers
+who are like quite brilliant um and we
+just collated and aggregated this data
+set of what the smartest researchers in
+the world would say the hardest
+scientific problems they've worked on
+recently are. they solved them or they
+sort of like came to the right, you
+know, they were able to solve the
+problems, but they're sort of like the
+hardest problems that they're aware of
+and know of. I was curious how you came
+up with these problems. So, each of the
+professors contributed new problems. So,
+these are not these are problems that
+have never appeared in any textbook or
+any exam ever. They just like came out
+of their brains and they like typed up
+like a new problem like from scratch. Am
+I understanding this right? Yeah. Yeah.
+And the the general guidance was like,
+you know, what has come up recently in
+your research that you think is like a
+is a particularly hard problem, right?
+The problems are stupidly hard
+incidentally. They're like insane. I
+don't know if you guys have looked at
+these problems. They're totally crazy.
+Yeah. It's totally crazy. And by the
+way, like they cannot be searched on the
+internet. It's like you need to have a
+lot of a lot of expertise and actually
+think about them. Yeah. For quite long
+time. Yeah. They require a lot of
+reason. I'm recently like uh right now
+so we have a time limit where the models
+um can only think for I think it's 15
+minutes or 30 minutes and one of the
+most recent requests from one of the
+labs was like can you please increase
+that time limit to like a day so that
+the model has like up to a day to think
+about the um to think about the
+problems. Um but yeah no they're they're
+deviously hard problems unless you have
+expertise in the specific problem you
+probably don't have a chance of getting
+it right. Um but even this evaluation
+like I think when we first launched it
+um you know and this was just earlier
+this year uh the the best models were
+scoring like 7% 8% on it. Now the best
+models score north of 20%. It's moved
+really really quickly and I think you
+know I think uh do you think we're going
+to get a benchmark saturation for this
+one as well? I think eventually yeah
+it'll it'll be saturated and then we
+have to move on to new evaluations. I
+mean I think the like uh the the the
+saving grace for the naming was that it
+is the last exam. The new eval will be
+sort of like real world tasks, real
+world activities which are sort of like
+fundamentally fuzzier and more
+complicated. Have you solved any of the
+problems yourself, Alex? I know I I know
+you were a competitive math person for a
+long time. Yeah. Yeah. The I mean the
+math problems require a lot of they're
+like very deep in the fields. I think uh
+I was I managed to get a handful but
+like most of them are like hopeless. Um
+yeah, I looked at the ones that the
+models can solve and so
+so that was that was one of the evals
+and we we've produced a number of other
+evaluations but um but yeah, I think
+that like the the in the AI industry
+really I think um continues to suffer
+from a lack of uh very hard evals and
+very hard tests that show really like
+the frontier of of um model
+capabilities. And these eval when you
+get when you build an eval that sort of
+like becomes popular in the industry, it
+has this like deeper effect which is
+that that's all of a sudden the like
+northstar and the yard stick that that
+researchers are trying to um optimize
+for. And so it's it's actually this like
+very gratifying activity. You know we
+built humanity last exam. Um you know
+most of the like all the model providers
+um you know will always report their
+their their their results. There's like
+tons of researchers who are really
+motivated by by doing a good job. I mean
+it's it's uh and and the models are
+going to get you know deviously good at
+like you know frontier research
+problems. I guess Sam's starting to talk
+about you know that sort of stage four
+innovators of AGI is coming and you know
+that's the prognostication for the next
+year. Do you think that's you know
+correct the next 20 12 to 24 months is
+like really the moment that literally
+new scientific break breakthrough um is
+coming from the operation of reasoning
+and these models. I mean, I think it's
+super plausible, you know, in fields
+like biology, and this is probably one
+of the ones that comes up the most, but
+there's like there's probably intuitions
+that the models have about biology that
+humans don't even have um because it's
+just, you know, they have this like
+different form of intelligence, right?
+And so, you'd expect there to be some
+areas and some fields where the models
+um have have some fundamental deep
+advantage versus humans. And so, I think
+it's like very realistic to expect in
+those fields. Biology I think is sort of
+like the clearest one for me. Kind of
+already happened for chemistry. Last
+year the Nobel Prize went to uh the
+Google team Dez and John Jumper with
+Alpha Fold. Yeah, exactly. That was like
+a huge jump. Before that there was like
+this competition where um they were
+trying to get more protein fold
+structures that were going to get solved
+and it was like abysmal and Alphafall
+destroyed it. It's a strange time to be
+a scientist, but an exciting time for
+science. There's this um uh short story.
+It talks about this future where like,
+you know, there's uh effectively AIs
+that are like that are conducting all
+the frontier of R&D research and um and
+scientists, you know, what scientists do
+is they just sort of like look at the
+discoveries that the AIs make and sort
+of like try to understand them. Yeah. I
+mean I think that like very exciting
+time to to see the how the frontier of
+human knowledge expands and then I mean
+I think that'll be great because in
+areas like um in biology will fuel
+breakthroughs in medicine and healthcare
+and and all these other and all these
+other things and then the majority of
+the economy will will chug along you
+know giving humans what they want. China
+open sourcing or Deepseek open sourcing
+their models is like another very
+interesting question like how does that
+play out and um and there's this awkward
+sort of thing that you know the best
+open source models in the world now come
+out of China I mean that's sort of this
+like awkward reality uh to contend with
+and what do you think we can do to just
+make sure that it's the American models
+that are ahead or you know is that
+written in the stars or you know
+something tells me that's not the
+simplest explanation for me about why
+the Chinese models are so good is is
+espionage I I think that there's um
+there's a lot of secrets in how these
+frontier models are trained. Um and when
+I say secrets, they you know it sounds
+more interesting than they are, but
+there's just a lot of task and
+knowledge. There's a lot of like you
+know tricks and small um and intuitions
+about where to set the hyperparameters
+and like you know ways to make these
+models um work and to get the model
+training to work. the Chinese labs have
+been have been able to move so quickly
+and accelerate and make such fast
+progress. Um whereas some even like very
+talented US labs like have made progress
+less quickly. And I just purely think
+it's because you know a lot of the the
+secrets about how to train these models
+um you know those secrets leave the
+frontier labs and make their way back to
+these Chinese labs. Um I I think the the
+only way to model the future is that
+China has pretty advanced models. Um,
+you know, the Solace right now is
+they're not the best models. Um, they're
+sort of like a half step behind, let's
+say. Um, but, uh, but it's tough to
+model what'll happen when it's sort of
+truly neck and neck. We're very behind
+on energy production, which is just pure
+regulation, like that could be fixed in
+2 seconds, but, you know, hasn't been
+yet. That's a huge problem. I mean, if
+you look at, you know, not that the past
+will be a predictor of the future. If
+you look at what US total grid
+production looks like, it's like looks
+flat as a pig. And if you look at um you
+know Chinese uh aggregate uh you know
+grid production it's like you know it's
+doubled over the past decade. It's just
+like it's just this like straight up I
+saw that and it's astonishing. It's I
+mean that's just a policy failure. China
+just you know the vast majority of that
+is coal and coal's growing in China and
+um in the United States uh actually
+renewables have grown a lot but
+renewables trade off against the uh the
+sort of fossil fuels. So we've sort of
+like done a done a transition of our of
+our um energy grid whereas they're just
+continuing to compound. Let's say we
+have this issue on power production but
+we're we're advantage in chips. I think
+like net net we will come out ahead on
+compute. Um if you look at data I mean
+this goes towards a lot of the questions
+you've been you've been asking about but
+like I mean I think China is like
+fundamentally very well positioned on
+data. Um it's weird to say because
+obviously like you know we help all the
+American companies with data in China
+they can ignore copyright or other
+privacy rules and and they can sort of
+um you know build these large models
+without abandon. And then and then the
+second issue is that um there's actually
+large scale government programs in China
+for data labeling. Um there are uh you
+know seven data labeling centers um like
+in various cities that have been started
+up by the government itself. There's
+large scale subsidies for um for AI
+companies to use data labeling a voucher
+system. In fact, there's like college
+programs because you know one of the
+interesting things is in China like
+employment is such a large national
+priority that they like you know when
+they have a strategic area like AI
+they'll like figure out okay what are
+all the jobs and they'll like create
+these like funnels to um to to create
+those jobs. And then we're seeing this
+in robotics data too where like there's
+the already in China there are like
+large scale factories full of robots
+that just go and collect data. Um and uh
+and strangely enough like even a lot of
+US companies today actually rely on data
+from China in training these like
+robotics foundation models. Long story
+short, I think China likely has a data
+an advantage on data and then the
+algorithms um you know the US is is on
+net much more innovative but if
+espionage continues to be a reality then
+like you know you're basically even on
+algorithms. So, um, so it's hard to
+model, but I think that probably like,
+you know, it's like 60 40 7030 that the
+United States like has like an
+undeniable continued advantage, but
+there's like a lot of worlds where China
+just like catches up or potentially even
+overtakes. I mean the the scary thing
+for me is you know watching Optimus or
+YC has uh some robotics companies like
+Weave Robotics and you know we look at
+those things the software can be as good
+or better than anything coming out of
+China but when it comes to the hardware
+it's like bomb cost over here 20,000
+30,000 bucks like you can't you know we
+can't even make like high precision
+screws over here and then over there the
+same m the same robot the embodied robot
+could be made for like I don't know 2
+3,000 $4,000 right it's like you just
+walk down a street in Shenzen Zen and
+like they they got it, you know, and so
+how do you compete against that at sort
+of that at a state level? The degree to
+which China is incredible manufacturing,
+I mean that's a that's a very big
+problem. Um and it relates to defense
+and national security. It's a
+fundamental issue uh because on some
+level defense and national security will
+boil down to which countries have more
+things that like can deter conflict or
+can can go into a you know can can shoot
+other things down. Yeah. I don't think
+it's going to be fighter jets and
+aircraft carriers anymore. I mean it's
+probably going to be you know this micro
+war of it's like hyper micro. It's
+drones and embodied robots and I mean
+Yeah. Exactly. Drones embodied robots.
+Cyber warfare. the um cold war era um uh
+philosophy of like you know you build
+like bigger and bigger bombs. Um it's
+like the exact opposite of that. It's
+actually like it's like the
+fragmentation and uh and and move
+towards sort of like you know smaller
+more nimble attraable resources. Um is
+the is the that that's like one of the
+big picture trends I would say. Um and
+then the other big picture trend is just
+what we believe which is uh the move
+towards uh agentic warfare or agentic
+defense which is basically you know if
+you if you actually mapped out the what
+warfare looks like today or like what
+like the um you know the actual process
+of a conflict um you know if you look at
+Russia Ukraine or other conflict other
+conflict areas like the decision-making
+processes are driven are remarkably
+manual and human driven. And it's just
+like all these all these like very
+critical battle time decisions are made
+like with very limited information
+unfortunately um uh in these like very
+manual workflows. And so it's very clear
+that that um if you used AI agents, you
+would have perfect information and you
+would have uh immediate decision-m and
+so that you know it's we're going to see
+this like huge shift towards um
+agentdriven uh warfare and agent-driven
+um conflict and it has the potential of
+turning these conflicts into these like
+almost incomprehensibly fastm moving uh
+kinds of scenarios. And that's something
+that you guys are actively working on,
+right? Can you is there anything that
+you can talk about? I assume some of it
+is classified, but yeah. Yeah. So, one
+of the things we're doing is we we're
+building this uh this system called
+Thunder Forge um with uh the Indopacific
+Command um out in out in Hawaii. It's
+responsible for the sort of Indopacific
+region and it is the flagship DoD
+program for um using AI for military
+planning and and operations. So, we're
+basically doing exactly what I said. We
+are we take the h the existing human
+workflow the military works in a what's
+called a doctrinal way or they're sort
+of like governed by the doctrine of this
+like you know very established military
+planning process and you just convert
+that into you know a series of agents
+that work together um and and conduct
+you know the exact same task but it's
+just like all agent driven and then all
+of a sudden you you turn these like um
+very critical decision-making cycles
+from you know 72 hours to 10 minutes And
+it kind of like changes it from um you
+know you know when you play chess if you
+play chess versus a human they have to
+spend all this time thinking um you know
+you you know it's sort of this like slow
+game and if you play chess against a
+computer it's just like these immediate
+moves back and it's like this sort of
+like unrelenting form of of warfare. I
+mean some of it is like the being able
+to see the chain of thought immediately
+was is the most powerful thing. Yeah.
+Like cuz is you know I don't want the
+answer. I want to see how you got there.
+And then actually seeing the reasoning
+itself was so powerful. I mean that's
+actually why the um launch of that first
+deepseek was way more interesting
+because uh I think 01 had come out but
+they hid the uh the reasoning and it's
+like no the reasoning is actually a
+really important part of it and the only
+reason why they hid it was they didn't
+want other people to steal it which they
+did anyway. I think that that's that's
+another like um interesting thing about
+this space which is that um you know so
+far you could really model as like
+there's like advanced capabilities um
+and you can try to keep those secret and
+you can try to keep those closed but
+they open over time kind of no matter
+what you do. Well, I mean clearly Alex
+you've done a lot of incredible things
+and transformed your company multiple
+times and you have all these deep matter
+expertise in many areas. you're clearly
+hardcore. Is there advice for the
+audience to be more like you? You know,
+I think that the the the biggest thing
+is um you just have to really really
+really care. Um and I think it's like a
+a folly of youth in some ways that um
+that when you're young like almost
+everything feels like, you know, so
+astronomically important that you just
+like you try immensely hard and you care
+about every detail. You know, everything
+uh matters just way more to you. And I
+think um and I think that that trait is
+really really important and um you know
+it's like just in varying degrees for
+different people. So I wrote this post
+many years ago called hire people who
+give a and it really is pretty
+simple. You notice I noticed, you know,
+when you interview people or when you
+interact with people, you can tell
+people who are just sort of like phone
+it in versus people who sort of like
+they like hang on to their work as like,
+you know, it's like it's like so
+incredibly monumental and forceful and
+important to them that they they do
+great work and it sort of like eats at
+them when they don't do great work and
+when they do great work, they're sort of
+so satisfied with themselves. And so
+there's sort of this like um the
+magnitude of of care. And one of the
+greatest indicators of like a just like
+how much I enjoyed working with people
+or like frankly how successful they were
+at scale was really just this like what
+is what you know to what degree of their
+what degree their soul is invested in
+into um uh into the work that they do.
+And so I think that that you know if you
+were to pick one thing that that
+probably is the sort of like unifier in
+some way. It's like, you know, um I care
+a lot, uh I care a lot about every
+decision we make at the company. Um you
+know, I still review every hire at the
+company. You know, I I we have this
+process why where I approve or reject
+literally every single hire at the
+company. Um uh and and so I care
+immensely and then this and then like I
+work with all these people who care
+immensely and then that enables us to
+really sort of like we um we feel much
+more deeply what happens in the business
+and as a result we sort of like uh you
+know we'll change course more quickly
+we'll learn more quickly um we will
+we'll take our work more seriously we'll
+adapt more quickly and I think that
+that's been quite important to the to
+the success that we've had. Alex, you
+were telling me a story recently that
+stuck with me about how like quite
+recently even even when Scale was a very
+large company, you were personally hand
+reviewing all like the data that was
+being sent to partner companies and
+being like basically like the final
+quality control like you know like you
+know that data point is not good enough.
+Yeah, exactly. I think a lot of founders
+would probably um would probably uh you
+know agree with this but um what your
+customers feel and when your customers
+are happy and sad like it really like
+gets to you and so when you have when
+you have unhappy customers it's like
+it's like personally very painful thing
+broadly speaking you know we have this
+value at our company um quality is
+fractal um and and I do believe that
+like high standards sort of like um they
+trickle down within an organization and
+um you know it's very rare that you see
+an organization where like where like
+standards um increase as you get lower
+and lower down in the organization. You
+know most of the time when people
+realize their manager or their
+management manager or their like
+director or whomever don't really care
+then they sort of like you know that
+that removes the sort of like the like
+deep desire to to need to care. Um, and
+so it's like incredibly important that
+that high standards um, and and this
+sort of like this deep um, uh, sort of
+care for quality is like this is this
+like um, deeply embedded sort of um,
+tenant of the entire organization.
+Founder mode, man. Founder mode, man. We
+got to have you back. Thank you so much
+for spending time with us. With that,
+sorry we're out of time, but we'll see
+you next time.
+[Music]
+Heat. Hey, heat. Hey, heat.
+[Music]

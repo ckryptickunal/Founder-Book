@@ -1,0 +1,345 @@
+Video ID: s5w7pbpeGZ0
+URL: https://www.youtube.com/watch?v=s5w7pbpeGZ0
+Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 338
+============================================================
+
+[music]
+I'm Ankit from YC. We're here at Nurops
+[music] at the afterparty. We're hosting
+with the Ark Prize. I'm here with Ellen
+Zong, assistant professor at Princeton
+who focuses on machine learning and
+structural biology. Really excited to
+have you here.
+>> Yeah, thanks for having me.
+>> Could you tell us a bit about your
+research and what you're working on?
+Yeah. So our group works on various
+problems in molecular machine learning
+with a focus on kind of scientific
+discovery of protein dynamics from
+cryeleron microscopy or crym and also
+now small molecule structure
+elucidation.
+>> Okay cool. Um I want to dive into that
+but before that I'd love to hear a bit
+about the backstory. How did you arrive
+at this field? What was the set of
+things you did before this that got you
+there? Yeah. So, Cryomm is a super cool
+I guess way of imaging protein
+structures and I think the original kind
+of entry of uh my research into protein
+structures was an accident. It was um at
+DHAW research. So, this uh you know
+billionaire funded nonprofit research
+institute uh building supercomputers for
+folding for protein folding. So I think
+I cut my teeth there, spent a couple
+years working there in New York and then
+eventually went to do my PhD. Uh for my
+PhD I was in the computational and
+systems biology PhD program at MIT and
+my goal was just to like learn something
+new, right? I had done MD simulations
+for a couple years and I was like okay
+there's so much more interesting things
+in biology uh that's now made possible
+by AI or at least computation at that
+time. you know after exploring for a
+year in like different areas
+neuroscience massspec you know RNA stuff
+uh learn about crowm
+>> which you take pictures of proteins to
+solve their 3D structures and similar to
+molecular dynamics you can get the
+dynamics of proteins from these electron
+microscope images but it's an
+experimental technique so instead of
+like these simulations where you're
+making predictions about the motions now
+we actually are just looking at the data
+that was super compelling because I
+think one of the shortcomings of
+molecular dynamics is that you still
+need to validate since it's still just
+this like simulation based approach
+>> and so that that original approach was
+that molecular dynamics approach was a
+very computationally heavy simulation
+based approach this was what desirez was
+doing with giant supercomputers and here
+you're saying
+>> this was a relatively new method of
+being able to actually measure these as
+opposed to x-ray crystalallography you
+know the method that's been used for 3D
+structure measurement for
+>> several decades now
+>> right and like cryom I guess the rise of
+cryo M actually mirrors the rise of deep
+learning right so there's this period in
+like 2012 2013 where suddenly things
+just started working um and by started
+working like there were just new
+technologies that enabled uh better
+images from the electron microscopes and
+so now we could suddenly get atomic
+resolution structures of proteins and
+then from the computer science
+perspective it's like okay amazing we
+can like study these proteins but
+there's this interesting reconstruction
+problem so how do we actually analyze
+these extremely noisy the imaging data
+to infer the 3D atomic coordinates or
+the movies, right, the motions of these
+proteins.
+>> And so does cryoM give you a static
+image or does it give you multiple set
+images that give you the sort of sense
+of motion or how exactly does that work?
+>> Yeah, so it's a static image in the
+sense that you take a single picture,
+but the picture is of an ensemble of
+different snapshots of the protein. And
+so that's the inference problem is how
+do you actually combine all these
+different snapshots into the different
+kind of confirmations of the proteins
+because you collect the data. You know I
+think one major uh advance in structural
+biology over the last you know couple
+years is okay we it's so hard to get a
+single structure and we think of it as
+just this like static object but in
+reality like everything is jiggling
+everything is moving in order to
+actually perform functions that lead to
+life. These are machines that do things,
+right? And so if we can actually see the
+different confirmations and the motions
+of these molecular machines, we can
+better understand how they work.
+>> And so where does that now tie into
+machine learning where you know here
+you've described so far an experimental
+method to just look at what proteins are
+doing and infer what the notion might
+look like.
+>> Where does this now become a prediction
+problem where you can do modeling and
+use that to do something new and
+interesting?
+>> Yeah. So on the machine learning side,
+the class of problems that our group
+works on are all these inverse problems.
+we have the experimental measurements
+but they're actually extremely
+incomplete right so you have noisy 2D
+projection images and somehow from this
+data you want to infer the 3D structure
+and so that's where machine learning
+comes in so uh we're kind of using you
+know physics inspired machine learning
+models to analyze and combine the data
+to be able to infer this distribution
+like learn these complex distributions
+of structures from the imaging data
+>> so you worked in a few different places
+that must have somewhat different
+cultures there was desire
+famous at the time for this
+>> high performance computing on large I
+think basically custom computers.
+>> You worked at DeepMind where um it's a
+somewhat different culture much more
+driven by machine learning.
+>> U and now you're at Princeton um in an
+academic setting and I'm curious
+>> what you draw from your past experiences
+that now affect how you
+>> run your lab and run your teaching.
+Yeah, I think I've t taken some like
+core lessons from all these different
+places and it has been super interesting
+and I'm extremely privileged to have
+these different experiences uh both at
+Desire at Google working with the
+Alphaold team during the release of
+Alphaold 2 which was like so crazy and
+that that environment is like a very
+unique environment
+>> I can imagine. Yeah, very exciting
+times. And then also in academia, both
+as a grad student, you're just kind of
+like a singular person, a singular
+student just like chugging away doing
+science. I think in all of these places
+though, there was a focus on the science
+like what is the problem? What are you
+trying to solve? And then the lessons
+that I learned from each are just like
+different ways of um I guess structuring
+the problem. Uh a focus on
+reproducibility that was like huge at
+DHA research. The problem is definitely
+like a huge focus of deep mind and how
+they do things right it's just like a
+single objective function that if you
+can cleanly describe your problem like
+that then you can optimize that's very
+much true for some of the problems in
+cryomm other problems in machine
+learning for structural biology become
+like a lot messier so like protein
+design there it's unclear how you
+validate
+>> it's not a singular problem in that case
+it's more of a design problem one of the
+really interesting things about academia
+and research right now is how do you
+define these problems in terms of like a
+machine learning you know optimization
+objective typically or maybe that's not
+exactly even how we want to frame it
+anymore but at a high level uh one of
+the interesting challenges and all these
+different experiences gave me like
+different perspectives for thinking
+about structuring the research problem
+>> yeah interesting and and you know when I
+think about a lot of work that's
+happened in protein design a lot of us
+focused on these um static ways of
+representing proteins and predicting
+their folds as in predicting the ability
+for a sequence to become a particular
+static structure. To your point earlier
+though that's not a complete picture of
+>> what a protein is actually doing.
+>> Yeah.
+>> Does that inform your work now? Do you
+have how do you think about that in
+terms of
+>> what types of machine learning you think
+will be impactful here? That was one of
+the main reasons why I decided to go
+down the academic path because I think
+there's a lot of really long-term just
+like uh research directions and problems
+that we don't understand and protein
+dynamics is one of those right we don't
+really have a good grasp on the motions
+of proteins in general a way of
+describing it. Um and so if we want to
+study these molecular machines uh you
+know we want to be able to focus on just
+uh like looking at these things with
+cryomm um will machine learning alone be
+able to do that? No. And so I think one
+of the kind of nice things about
+academia is that you can collaborate
+with like lots of different research
+groups and like figure out what exactly
+is the science to be doing next. Does
+that mean that there's a a lot of
+experimental work that's also happening
+at the same time as the computational
+work to make that happen or what types
+of collaborations are you referring to
+there?
+>> Yeah, our group does a lot of
+collaborations with both structural
+biologists and now chemists because what
+sparks joy for me is being able to
+directly contribute to this discovery
+process. And so in this kind of class of
+inverse problems that we work on, it's
+always working with experimentalists who
+have the data, who have the expertise to
+know like what's a discovery or not and
+then developing methods that can help
+process to like automate or uh kind of
+reveal more information from the data.
+>> I mean the space you're in is really
+exciting right now. I mean the Nobel
+Prize last year went to work related to
+protein design. um some of the work you
+contributed to
+>> there's there's a sense that okay in
+many ways protein folding has been
+solved people say um I'm I'm curious if
+you see any aspects of
+>> machine learning in in protein design or
+machine learning in structural biology
+broadly as either overhyped or
+underhyped and maybe that can be one of
+the last things we talk about
+>> yeah I think I mean maybe this like
+specific problem of uh genetically
+encoded sequence to relatively static
+protein structure prediction has been
+solved, but there's like so much more
+beyond that. So, the dynamics that we've
+talked a lot about already. Um, but
+then, you know, one of the humbling
+things about working with the
+experimentalists and specifically crym
+structural biologists is that a lot of
+these proteins are gigantic. They're
+like, you know, these machines composed
+of tens or like hundreds of different
+complexes altogether that are somehow
+assembled in cells and, you know,
+perform like do all these complex
+motions, right? And so I think there's
+so much more that we don't know. uh
+there's a lot of you know we have a good
+idea of kind of alpha helyses and beta
+sheets these like canonical motifs in
+protein structures but there's certainly
+lots of structural space that we still
+don't know even how to describe so you
+know we've solved this extremely
+fundamental base problem and now we can
+work on like this entire other ambient
+space of additional problems
+>> do those additional problems look like
+taking the methods that have worked for
+the base problems and basically
+composing them into bigger ones or is or
+do you think it's going to be basically
+like a fundamentally different set of
+methods that it takes because those
+don't scale for whatever reason to these
+more complex or you know multi- uh
+>> interesting I think some of them will uh
+but I do think for like truly new
+discoveries it's going to be a
+combination of new experimental data
+sources right like right now the machine
+learning and like AI models have
+ingested all the data that we have and
+there's like interesting things we can
+do just by distilling like whatever
+knowledge is in this in these models. Um
+but I think there's so much we don't
+understand about biology, right? Like
+there's such a gap between uh molecular
+biology and like human health.
+>> So I think to really bridge that gap,
+there's going to need to be new
+experimental technologies. And then I
+I'm excited in the future about kind of
+how we can collaborate with the kind of
+collaborate with experimentalists and
+develop new kind of machine learning
+enabled models for um you know doing
+science.
+>> Awesome. I think that's a really
+exciting future. Really excited you're
+working on that. Thanks so much.
+>> Yeah, thank you.

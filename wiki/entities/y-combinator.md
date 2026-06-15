@@ -1,0 +1,890 @@
+---
+type: entity
+title: Y Combinator
+created: 2026-05-26
+updated: 2026-05-27
+sources: []
+tags: []
+---
+
+# Y Combinator
+
+## Overview
+
+Startup accelerator, where Franis is a visiting partner and Ian Fischer's previous company was a YC company.
+
+## Source Mentions
+
+- [[sources/OLEjyBLo8sQ-olejyblo8sq|OLEjyBLo8sQ]]: Startup accelerator, where Franis is a visiting partner and Ian Fischer's previous company was a YC company.
+- [[sources/Yr9mHKxOkLg-yr9mhkxoklg|Yr9mHKxOkLg]]: Startup accelerator, host of the event, and co-sponsor of SB 1074. Funds over 5,000 companies.
+- [[sources/hpEXEtycm1Y-hpexetycm1y|hpEXEtycm1Y]]: A startup accelerator, with 55% of its startups now choosing Framer to launch their websites.
+- [[sources/pg-change-your-name-change-your-name|Change Your Name]]: A startup accelerator.
+- [[sources/pg-a-word-to-the-resourceful-a-word-to-the-resourceful|A Word to the Resourceful]]: A startup accelerator.
+- [[sources/pg-default-alive-or-default-dead-default-alive-or-default-dead|Default Alive or Default Dead?]]: Startup accelerator.
+- [[sources/pg-black-swan-farming-black-swan-farming|Black Swan Farming]]: Startup accelerator.
+- [[sources/pg-disconnecting-distraction-disconnecting-distraction|Disconnecting Distraction]]: A startup accelerator.
+- [[sources/pg-could-vc-be-a-casualty-of-the-recession-could-vc-be-a-casualty-of-the-recession|Could VC be a Casualty of the Recession?]]: A startup accelerator.
+- [[sources/pg-be-good-be-good|Be Good]]: A startup accelerator.
+- [[sources/pg-a-fundraising-survival-guide-a-fundraising-survival-guide|A Fundraising Survival Guide]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/pg-can-you-buy-a-silicon-valley-maybe-can-you-buy-a-silicon-valley-maybe|Can You Buy a Silicon Valley?  Maybe.]]: A startup accelerator that provides seed funding.
+- [[sources/pg-a-student-s-guide-to-startups-a-student-s-guide-to-startups|A Student's Guide to Startups]]: A startup accelerator program.
+- [[sources/pg-a-new-venture-animal-a-new-venture-animal|A New Venture Animal]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/pg-before-the-startup-before-the-startup|Before the Startup]]: A startup accelerator.
+- [[sources/pg-billionaires-build-billionaires-build|Billionaires Build]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/pg-a-project-of-one-s-own-a-project-of-one-s-own|A Project of One's Own]]: Startup accelerator.
+- [[sources/pg-don-t-talk-to-corp-dev-don-t-talk-to-corp-dev|Don't Talk to Corp Dev]]: Startup accelerator.
+- [[sources/pg-founder-control-founder-control|Founder Control]]: Startup accelerator.
+- [[sources/pg-high-resolution-fundraising-high-resolution-fundraising|High Resolution Fundraising]]: Startup accelerator.
+- [[sources/pg-do-things-that-don-t-scale-do-things-that-don-t-scale|Do Things that Don't Scale]]: A startup accelerator.
+- [[sources/pg-early-work-early-work|Early Work]]: A startup accelerator.
+- [[sources/pg-how-not-to-die-how-not-to-die|How Not to Die]]: Startup accelerator.
+- [[sources/pg-economic-inequality-economic-inequality|Economic Inequality]]: A startup accelerator that helps founders build companies.
+- [[sources/pg-frighteningly-ambitious-startup-ideas-frighteningly-ambitious-startup-ideas|Frighteningly Ambitious Startup Ideas]]: A startup accelerator.
+- [[sources/pg-how-to-be-an-expert-in-a-changing-world-how-to-be-an-expert-in-a-changing-world|How to Be an Expert in a Changing World]]: Startup accelerator.
+- [[sources/pg-how-to-convince-investors-how-to-convince-investors|How to Convince Investors]]: A startup accelerator.
+- [[sources/pg-how-to-make-pittsburgh-a-startup-hub-how-to-make-pittsburgh-a-startup-hub|How to Make Pittsburgh a Startup Hub]]: A startup accelerator.
+- [[sources/pg-how-to-fund-a-startup-how-to-fund-a-startup|How to Fund a Startup]]: A startup accelerator that provides seed funding.
+- [[sources/pg-how-to-be-an-angel-investor-how-to-be-an-angel-investor|How to Be an Angel Investor]]: A startup accelerator that provides funding and mentorship.
+- [[sources/pg-how-to-present-to-investors-how-to-present-to-investors|How to Present to Investors]]: A startup accelerator that funds and mentors early-stage companies.
+- [[sources/pg-how-to-raise-money-how-to-raise-money|How to Raise Money]]: Startup accelerator.
+- [[sources/pg-how-to-get-startup-ideas-how-to-get-startup-ideas|How to Get Startup Ideas]]: A startup accelerator.
+- [[sources/pg-investor-herd-dynamics-investor-herd-dynamics|Investor Herd Dynamics]]: Startup accelerator.
+- [[sources/pg-maker-s-schedule-manager-s-schedule-maker-s-schedule-manager-s-schedule|Maker's Schedule, Manager's Schedule]]: A startup accelerator that operates on the maker's schedule.
+- [[sources/pg-ideas-for-startups-ideas-for-startups|Ideas for Startups]]: Startup accelerator.
+- [[sources/pg-how-to-write-usefully-how-to-write-usefully|How to Write Usefully]]: Startup accelerator.
+- [[sources/pg-organic-startup-ideas-organic-startup-ideas|Organic Startup Ideas]]: Startup accelerator.
+- [[sources/pg-mean-people-fail-mean-people-fail|Mean People Fail]]: A startup accelerator.
+- [[sources/pg-jessica-livingston-jessica-livingston|Jessica Livingston]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/pg-news-from-the-front-news-from-the-front|News from the Front]]: A seed-stage investment firm.
+- [[sources/pg-microsoft-is-dead-microsoft-is-dead|Microsoft is Dead]]: A startup accelerator founded by Paul Graham.
+- [[sources/pg-how-y-combinator-started-how-y-combinator-started|How Y Combinator Started]]: A startup accelerator.
+- [[sources/pg-ramen-profitable-ramen-profitable|Ramen Profitable]]: A startup accelerator.
+- [[sources/pg-relentlessly-resourceful-relentlessly-resourceful|Relentlessly Resourceful]]: Startup accelerator.
+- [[sources/pg-return-of-the-mac-return-of-the-mac|Return of the Mac]]: Startup accelerator founded by Paul Graham.
+- [[sources/pg-schlep-blindness-schlep-blindness|Schlep Blindness]]: A startup accelerator.
+- [[sources/pg-startup-investing-trends-startup-investing-trends|Startup Investing Trends]]: A prominent startup accelerator.
+- [[sources/pg-six-principles-for-making-new-things-six-principles-for-making-new-things|Six Principles for Making New Things]]: A startup accelerator.
+- [[sources/pg-subject-airbnb-subject-airbnb|Subject: Airbnb]]: A startup accelerator.
+- [[sources/pg-startup-growth-startup-growth|Startup = Growth]]: A startup accelerator.
+- [[sources/pg-the-airbnbs-the-airbnbs|The Airbnbs]]: Startup accelerator
+- [[sources/pg-the-equity-equation-the-equity-equation|The Equity Equation]]: A startup accelerator.
+- [[sources/pg-the-hardware-renaissance-the-hardware-renaissance|The Hardware Renaissance]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/pg-the-fatal-pinch-the-fatal-pinch|The Fatal Pinch]]: A startup accelerator.
+- [[sources/pg-the-anatomy-of-determination-the-anatomy-of-determination|The Anatomy of Determination]]: Startup accelerator.
+- [[sources/pg-the-18-mistakes-that-kill-startups-the-18-mistakes-that-kill-startups|The 18 Mistakes That Kill Startups]]: A startup accelerator that provides funding and advice.
+- [[sources/pg-the-four-quadrants-of-conformism-the-four-quadrants-of-conformism|The Four Quadrants of Conformism]]: Startup accelerator.
+- [[sources/pg-the-hacker-s-guide-to-investors-the-hacker-s-guide-to-investors|The Hacker's Guide to Investors]]: A startup accelerator.
+- [[sources/pg-the-future-of-web-startups-the-future-of-web-startups|The Future of Web Startups]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/pg-the-hardest-lessons-for-startups-to-learn-the-hardest-lessons-for-startups-to-learn|The Hardest Lessons for Startups to Learn]]: Startup accelerator.
+- [[sources/pg-the-future-of-startup-funding-the-future-of-startup-funding|The Future of Startup Funding]]: A prominent startup accelerator.
+- [[sources/pg-the-lesson-to-unlearn-the-lesson-to-unlearn|The Lesson to Unlearn]]: A startup accelerator.
+- [[sources/pg-the-other-half-of-artists-ship-the-other-half-of-artists-ship|The Other Half of "Artists Ship"]]: Startup accelerator.
+- [[sources/pg-the-new-funding-landscape-the-new-funding-landscape|The New Funding Landscape]]: A prominent startup accelerator.
+- [[sources/pg-the-ronco-principle-the-ronco-principle|The Ronco Principle]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/pg-the-top-idea-in-your-mind-the-top-idea-in-your-mind|The Top Idea in Your Mind]]: A startup accelerator.
+- [[sources/pg-what-kate-saw-in-silicon-valley-what-kate-saw-in-silicon-valley|What Kate Saw in Silicon Valley]]: A startup accelerator.
+- [[sources/pg-what-i-did-this-summer-what-i-did-this-summer|What I Did this Summer]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/pg-what-i-ve-learned-from-users-what-i-ve-learned-from-users|What I've Learned from Users]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/pg-what-business-can-learn-from-open-source-what-business-can-learn-from-open-source|What Business Can Learn from Open Source]]: Startup accelerator.
+- [[sources/pg-what-i-worked-on-what-i-worked-on|What I Worked On]]: A startup accelerator.
+- [[sources/pg-what-i-ve-learned-from-hacker-news-what-i-ve-learned-from-hacker-news|What I've Learned from Hacker News]]: A startup accelerator.
+- [[sources/pg-web-2-0-web-2-0|Web 2.0]]: Startup accelerator.
+- [[sources/pg-what-we-look-for-in-founders-what-we-look-for-in-founders|What We Look for in Founders]]: A startup accelerator.
+- [[sources/pg-why-yc-why-yc|Why YC]]: A startup accelerator program.
+- [[sources/pg-what-startups-are-really-like-what-startups-are-really-like|What Startups Are Really Like]]: A startup accelerator that provides funding and mentorship.
+- [[sources/sa-a-founder-friendly-term-sheet-a-founder-friendly-term-sheet|A founder-friendly term sheet]]: Startup accelerator.
+- [[sources/pg-why-to-move-to-a-startup-hub-why-to-move-to-a-startup-hub|Why to Move to a Startup Hub]]: A prominent startup accelerator.
+- [[sources/pg-why-smart-people-have-bad-ideas-why-smart-people-have-bad-ideas|Why Smart People Have Bad Ideas]]: A startup accelerator providing seed funding.
+- [[sources/pg-why-to-not-not-start-a-startup-why-to-not-not-start-a-startup|Why to Not Not Start a Startup]]: A startup accelerator.
+- [[sources/pg-why-there-aren-t-more-googles-why-there-aren-t-more-googles|Why There Aren't More Googles]]: Startup accelerator.
+- [[sources/sa-a-new-team-at-reddit-a-new-team-at-reddit|A new team at reddit]]: Startup accelerator
+- [[sources/pg-why-startup-hubs-work-why-startup-hubs-work|Why Startup Hubs Work]]: A startup accelerator based in Silicon Valley.
+- [[sources/pg-you-weren-t-meant-to-have-a-boss-you-weren-t-meant-to-have-a-boss|You Weren't Meant to Have a Boss]]: A startup accelerator that provides funding and mentorship to early-stage companies.
+- [[sources/sa-2017-yc-annual-letter-2017-yc-annual-letter|2017 YC Annual Letter]]: Startup accelerator and investment firm
+- [[sources/sa-applying-to-yc-applying-to-yc|Applying to YC]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/sa-affordable-care-affordable-care|Affordable Care]]: A startup accelerator that provides seed funding for startups.
+- [[sources/sa-bubble-talk-bubble-talk|Bubble talk]]: A startup accelerator.
+- [[sources/sa-cruise-cruise|Cruise]]: Startup accelerator.
+- [[sources/sa-bitcoin-price-pressure-bitcoin-price-pressure|Bitcoin Price Pressure]]: Startup accelerator.
+- [[sources/sa-financial-misstatements-financial-misstatements|Financial Misstatements]]: A startup accelerator that provides seed funding for startups.
+- [[sources/sa-electrons-and-atoms-electrons-and-atoms|Electrons and Atoms]]: Startup accelerator.
+- [[sources/sa-don-t-read-the-comments-don-t-read-the-comments|Don't Read The Comments]]: A startup accelerator.
+- [[sources/sa-fundraising-mistakes-founders-make-fundraising-mistakes-founders-make|Fundraising Mistakes Founders Make]]: A prominent startup accelerator.
+- [[sources/sa-founder-depression-founder-depression|Founder Depression]]: A startup accelerator that provides funding and support to early-stage companies.
+- [[sources/sa-energy-energy|Energy]]: A startup accelerator.
+- [[sources/sa-how-things-get-done-how-things-get-done|How things get done]]: Startup accelerator.
+- [[sources/sa-hard-tech-is-back-hard-tech-is-back|Hard Tech is Back]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/sa-join-the-yc-software-team-join-the-yc-software-team|Join the YC Software Team]]: A startup accelerator that provides seed funding and mentorship to early-stage companies.
+- [[sources/sa-how-to-be-successful-how-to-be-successful|How To Be Successful]]: Startup accelerator.
+- [[sources/sa-net-neutrality-net-neutrality|Net neutrality]]: Startup accelerator
+- [[sources/sa-a-question-a-question|A Question]]: Startup accelerator.
+- [[sources/sa-non-technical-founder-learn-to-hack-non-technical-founder-learn-to-hack|Non-technical founder? Learn to hack]]: A startup accelerator that provides funding and mentorship.
+- [[sources/sa-new-rfs-breakthrough-technologies-new-rfs-breakthrough-technologies|New RFS -- Breakthrough Technologies]]: A startup accelerator and investment firm.
+- [[sources/sa-how-to-hire-how-to-hire|How to hire]]: Startup accelerator.
+- [[sources/sa-idea-generation-idea-generation|Idea Generation]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/sa-party-rounds-party-rounds|Party rounds]]: A startup accelerator that uses Demo Day as a focusing mechanism.
+- [[sources/sa-software-to-avoid-the-software-people-software-to-avoid-the-software-people|Software to avoid the software people]]: A startup accelerator that provides seed funding for startups.
+- [[sources/sa-reddit-reddit|reddit]]: Startup accelerator.
+- [[sources/sa-pg-and-jessica-pg-and-jessica|PG and Jessica]]: A startup accelerator program.
+- [[sources/sa-policy-for-growth-and-innovation-policy-for-growth-and-innovation|Policy for Growth and Innovation]]: Startup accelerator.
+- [[sources/sa-startup-advice-startup-advice|Startup Advice]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/sa-the-2016-election-the-2016-election|The 2016 Election]]: Startup accelerator.
+- [[sources/sa-startups-role-models-risk-and-y-combinator-startups-role-models-risk-and-y-combinator|Startups, Role Models, Risk, and Y Combinator]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/sa-the-worst-part-of-yc-the-worst-part-of-yc|The Worst Part of YC]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/sa-the-founder-visa-again-the-founder-visa-again|The Founder Visa (again)]]: A startup accelerator.
+- [[sources/sa-the-post-yc-slump-the-post-yc-slump|The Post-YC Slump]]: A startup accelerator program.
+- [[sources/sa-trump-trump|Trump]]: Startup accelerator.
+- [[sources/sa-time-to-take-a-stand-time-to-take-a-stand|Time to Take a Stand]]: A startup accelerator.
+- [[sources/sa-the-tech-bust-of-2015-the-tech-bust-of-2015|The Tech Bust of 2015]]: Startup accelerator.
+- [[sources/sa-valuations-valuations|Valuations]]: Startup accelerator.
+- [[sources/sa-what-i-ve-learned-from-female-founders-so-far-what-i-ve-learned-from-female-founders-so-far|What I've Learned From Female Founders So Far]]: A startup accelerator and venture capital firm.
+- [[sources/sa-why-silicon-valley-works-why-silicon-valley-works|Why Silicon Valley Works]]: An investment firm that provides funding and advice to startups in batches.
+- [[sources/MKEblI7yF_8-yc-alumni-lightning-round|YC Alumni Lightning Round]]: Startup accelerator and venture capital firm.
+- [[sources/QBC_cViA7j8-reducto-making-human-data-llm-ready-with-state-of-the-art-accuracy|Reducto: Making Human Data LLM-Ready With State-of-the-Art Accuracy]]: Startup accelerator that hosted Reducto in their Winter 2024 batch.
+- [[sources/q8TOaXBzcJw-unknown|Unknown]]: A startup accelerator that funded David AI in the Summer 2024 batch.
+- [[sources/O4CA2gBKG9Y-finding-your-next-role-tips-from-yc-s-talent-team|Finding your next role: Tips from YC's Talent team]]: A startup accelerator that provides funding and support to early-stage companies.
+- [[sources/py4FHUjc-bY-the-past-and-future-of-yc-bio|The Past and Future of YC Bio]]: A startup accelerator and venture capital firm.
+- [[sources/IGXKIL57uwc-recall-ai-unlocking-the-world-s-conversations|Recall.ai: Unlocking the World’s Conversations]]: Startup accelerator.
+- [[sources/Aw_qfill_fo-how-should-little-tech-approach-d-c-and-brussels|How Should Little Tech Approach D.C. and Brussels?]]: A startup accelerator that hosted the event and advocates for founder interests.
+- [[sources/Nt6mWetw0ak-founder-demo-david-gobaud-founder-ceo-of-freedom|Founder Demo: David Gobaud, Founder & CEO of Freedom]]: A prominent startup accelerator.
+- [[sources/9ZQP7PfHnuI-exa-organizing-the-world-s-knowledge|Exa: Organizing the World’s Knowledge]]: Startup accelerator.
+- [[sources/Y4FUaVvBmzg-hightouch-revolutionizing-personalized-marketing-with-the-first-agentic-marketer|Hightouch: Revolutionizing Personalized Marketing With The First Agentic Marketer]]: Startup accelerator.
+- [[sources/9CWbc6pekd8-ftc-chair-lina-khan-at-y-combinator|FTC Chair Lina Khan at Y Combinator]]: Startup accelerator
+- [[sources/5tluNIMcuTs-founder-demo-cyril-gorrla-co-founder-ceo-of-ctgt|Founder Demo: Cyril Gorrla, Co-founder & CEO of CTGT]]: Startup accelerator and community.
+- [[sources/AmXE9Gsuw_Q-the-startup-powering-billions-in-trades-every-day|The Startup Powering Billions In Trades Every Day]]: Startup accelerator that provided early guidance and support to the founders.
+- [[sources/QcCPQSd36vQ-fireside-with-united-states-senator-josh-hawley|Fireside with United States Senator Josh Hawley]]: Startup accelerator and host of the event.
+- [[sources/5jHWBQqiylo-numeral-building-the-global-tax-platform|Numeral: Building the Global Tax Platform]]: Startup accelerator that hosted Numeral in its Winter 2023 batch.
+- [[sources/pieVtTrbDBs-ai-startups-competition-shaping-california-s-tech-future|AI, Startups, & Competition: Shaping California’s Tech Future]]: Startup accelerator and host of the event
+- [[sources/qDumDlXcMkg-unknown|Unknown]]: Startup accelerator.
+- [[sources/wbeHAVonbmw-motion-redefining-how-work-gets-done|Motion: Redefining How Work Gets Done]]: A startup accelerator that helped the founders pivot and refine their business model.
+- [[sources/ryHJuYzUejs-how-diode-is-10x-ing-hardware-design|How Diode Is 10x-ing Hardware Design]]: Startup accelerator that hosted Diode in the Summer 2024 batch.
+- [[sources/zgwuPuq7eDM-fireside-chat-with-ivana-djuretic-of-asher-bio|Fireside Chat with Ivana Djuretic of Asher Bio]]: Startup accelerator.
+- [[sources/yjIJOfgVgu0-y-combinator-little-tech-competition-summit-washington-dc|Y Combinator Little Tech Competition Summit - Washington, DC]]: A startup accelerator that provides funding and mentorship to early-stage companies.
+- [[sources/fB0H_HId6aM-3-tips-for-finding-a-job-on-yc-s-work-at-a-startup|3 tips for finding a job on YC's Work at a Startup]]: A startup accelerator that invests in early-stage companies.
+- [[sources/tvNYhwmTal8-becoming-a-founding-engineer-at-a-yc-startup-finley-short|Becoming a founding engineer at a YC startup - Finley short]]: Startup accelerator and host of the Root Access channel.
+- [[sources/Bw9XaB3aQm4-yc-startup-job-hunt-bootcamp-september-14-2022|YC Startup Job Hunt Bootcamp, September 14, 2022]]: A startup accelerator and venture capital firm.
+- [[sources/Ir62zhDol9c-ama-with-yc-job-searching-during-an-economic-downturn-event-summary|AMA with YC: Job Searching During an Economic Downturn (Event Summary)]]: A startup accelerator that provides seed funding and support to early-stage companies.
+- [[sources/ix4Ol4e-P7o-welcome-to-the-yc-health-and-bio-summit-2022-with-surbhi-sarna|Welcome to the YC Health and Bio Summit 2022 with Surbhi Sarna]]: A startup accelerator and venture capital firm.
+- [[sources/50Yz0O1yexY-yc-tech-talks-designing-from-day-one-artists-as-founders-with-multiverse-s20|YC Tech Talks: Designing from Day One: Artists as Founders with Multiverse (S20)]]: A startup accelerator that hosted the talk.
+- [[sources/2OPhFqmdLQc-yc-tech-talks-climate-tech-with-charge-robotics-s21-wright-electric-w17-and-impossible-min|YC Tech Talks: Climate Tech with Charge Robotics (S21), Wright Electric (W17) and Impossible Mining]]: Startup accelerator.
+- [[sources/pQ9gtaGd-Os-why-become-a-product-engineer-with-volley-yc-w18-luminai-yc-s20|Why become a product engineer? -- with Volley (YC W18) & Luminai (YC S20)]]: A startup accelerator and venture capital firm.
+- [[sources/F2cuzkQ9kBA-yc-startup-talks-understanding-equity-with-jordan-gonen-ceo-co-founder-of-compound|YC Startup Talks: Understanding Equity with Jordan Gonen, CEO & Co-founder of Compound]]: Startup accelerator and host of the talk.
+- [[sources/JS_2EQsXkgY-yc-s-summer-2022-startup-job-expo-pitches-from-30-yc-founders-find-your-next-startup|YC's Summer 2022 Startup Job Expo - Pitches from 30 YC founders & find your next startup]]: Startup accelerator hosting the job expo.
+- [[sources/D2_ClDSbAEA-fireside-chat-with-tanay-tandon-of-athelas|Fireside Chat with Tanay Tandon of Athelas]]: Startup accelerator.
+- [[sources/3A2neXJIJ2A-yc-tech-talks-defi-and-scalability-with-nemil-at-coinbase-s12|YC Tech Talks: Defi and Scalability with Nemil at Coinbase (S12)]]: A startup accelerator.
+- [[sources/b_R-lIIYR5Q-yc-women-in-tech-breaking-into-product|YC Women in Tech: Breaking Into Product]]: Startup accelerator.
+- [[sources/6W-cu0yp5cA-becoming-a-founding-engineer-at-a-yc-startup|Becoming a founding engineer at a YC startup]]: Startup accelerator and host of the event.
+- [[sources/JHvwEWsbQCg-y-combinator-go-to-market-jobs-expo-2022|Y Combinator Go-To-Market Jobs Expo, 2022]]: Startup accelerator and host of the event.
+- [[sources/EHzvmyMJEK4-lecture-18-legal-and-accounting-basics-for-startups-kirsty-nathoo-carolynn-levy|Lecture 18 - Legal and Accounting Basics for Startups (Kirsty Nathoo, Carolynn Levy)]]: Startup accelerator
+- [[sources/59ZQ-rf6iIc-lecture-20-later-stage-advice-sam-altman|Lecture 20 - Later-stage Advice (Sam Altman)]]: Startup accelerator.
+- [[sources/SHAh6WKBgiE-lecture-19-sales-and-marketing-how-to-talk-to-investors-tyler-bosmeny-yc-partners|Lecture 19 - Sales and Marketing; How to Talk to Investors (Tyler Bosmeny; YC Partners)]]: Startup accelerator
+- [[sources/S8Z2v2bxocM-industrial-capabilities-in-space|Industrial Capabilities in Space]]: A startup accelerator and venture capital firm.
+- [[sources/yMt2oSemobE-thanks-for-a-great-time-india|Thanks for a great time, India 🇮🇳]]: A prominent American technology startup accelerator.
+- [[sources/ClxjYoiEirw-yc-paper-club|YC Paper Club]]: A startup accelerator and venture capital firm.
+- [[sources/FHAaGxvGii4-startup-school-paris|Startup School Paris]]: A startup accelerator and venture capital firm.
+- [[sources/DhYJ1GENLoQ-saas-challengers|SaaS Challengers]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/mcXrvjPKJas-ai-native-discovery-engines|AI-Native Discovery Engines]]: A startup accelerator and venture capital firm.
+- [[sources/IaWIazkWWog-company-brain|Company Brain]]: A startup accelerator that provides funding and support for early-stage companies.
+- [[sources/lsRnwM_ZdJY-ai-native-service-companies|AI-Native Service Companies]]: A startup accelerator and venture capital firm.
+- [[sources/Lrh1JVxqrKE-startups-that-sell-to-the-biggest-companies-in-the-world|Startups That Sell to the Biggest Companies in the World]]: A startup accelerator that provides seed funding and mentorship to early-stage companies.
+- [[sources/0gCeJFyRYx4-hardware-supply-chain|Hardware Supply Chain]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/fzVuQ2sYEn8-ai-personalized-medicine|AI-Personalized Medicine]]: Startup accelerator and venture capital firm.
+- [[sources/515J0QD9p6w-software-for-agents|Software for Agents]]: A startup accelerator and venture capital firm.
+- [[sources/h0bhNm6kwT8-openai-2m-in-tokens-to-every-yc-company-in-the-spring-and-summer-batches|OpenAI: $2M in tokens to every YC company in the spring and summer batches.]]: A startup accelerator.
+- [[sources/K46ZNekw2Tk-the-ai-operating-system-for-companies|The AI Operating System for Companies]]: A startup accelerator and venture capital firm.
+- [[sources/O8JiNHcI3jI-counter-swarm-defense|Counter-Swarm Defense]]: A startup accelerator and venture capital firm.
+- [[sources/2RseTTRB2bs-2rsettrb2bs|2RseTTRB2bs]]: Startup accelerator.
+- [[sources/YKZCU0ynEbs-zepto-how-two-17-year-olds-built-india-s-largest-seller-of-fruits-and-vegetables|Zepto: How Two 17-Year-Olds Built India's Largest Seller Of Fruits and Vegetables]]: Startup accelerator
+- [[sources/X5bABLCuIHA-harshil-mathur-ai-is-compressing-every-moat|Harshil Mathur: AI Is Compressing Every Moat]]: Startup accelerator
+- [[sources/X_JsIHUfUjc-how-to-build-a-self-improving-company-with-ai|How to Build a Self-Improving Company with AI]]: Startup accelerator and venture capital firm.
+- [[sources/AVRVMSHjrac-avrvmshjrac|AVRVMSHjrac]]: A startup accelerator.
+- [[sources/21L-iujzy9U-21l-iujzy9u|21L-iujzy9U]]: Startup accelerator.
+- [[sources/QHJkUw31YX8-paul-graham-founder-of-y-combinator-live-from-stockholm|Paul Graham, Founder of Y Combinator, Live from Stockholm]]: Startup accelerator based in Silicon Valley
+- [[sources/00YZWlvAMsQ-00yzwlvamsq|00YZWlvAMsQ]]: Startup accelerator.
+- [[sources/6yPs2nDpYZo-6yps2ndpyzo|6yPs2nDpYZo]]: Startup accelerator program.
+- [[sources/-moAmKQk72A-moamkqk72a|-moAmKQk72A]]: Startup accelerator
+- [[sources/1pjiS-t_O0w-1pjis-t-o0w|1pjiS-t_O0w]]: Startup accelerator.
+- [[sources/6iilze3aDkU-6iilze3adku|6iilze3aDkU]]: Startup accelerator where the founders met and worked.
+- [[sources/CBYhVcO4WgI-lecture-1-how-to-start-a-startup-sam-altman-dustin-moskovitz|Lecture 1 - How to Start a Startup (Sam Altman, Dustin Moskovitz)]]: Startup accelerator.
+- [[sources/57lDpTwiW6g-tokenmaxxing-how-top-builders-use-ai-to-do-the-work-of-400-engineers|Tokenmaxxing: How Top Builders Use AI To Do The Work Of 400 Engineers]]: Startup accelerator.
+- [[sources/7VKliOQXQ9M-how-the-best-companies-defend-against-mediocrity-and-rot|How The Best Companies Defend Against Mediocrity And Rot]]: Startup accelerator and host of the interview.
+- [[sources/JNyuX1zoOgU-demis-hassabis-agents-agi-the-next-big-scientific-breakthrough|Demis Hassabis: Agents, AGI & The Next Big Scientific Breakthrough]]: Startup accelerator hosting the interview.
+- [[sources/DGtUUMNYLcc-recursion-is-the-next-scaling-law-in-ai|Recursion Is The Next Scaling Law In AI]]: Startup accelerator and media producer.
+- [[sources/L_UjKHUfN7E-l-ujkhufn7e|L_UjKHUfN7E]]: Startup accelerator
+- [[sources/CVfnkM44Urs-lecture-2-team-and-execution-sam-altman|Lecture 2 - Team and Execution (Sam Altman)]]: Startup accelerator
+- [[sources/Sr1STQP0cds-sr1stqp0cds|Sr1STQP0cds]]: Startup accelerator.
+- [[sources/H8Dl8rZ6qwE-lecture-11-hiring-and-culture-part-2-patrick-and-john-collison-ben-silbermann|Lecture 11 - Hiring and Culture, Part 2 (Patrick and John Collison, Ben Silbermann)]]: Startup accelerator
+- [[sources/M57MeOY-n3g-m57meoy-n3g|M57MeOY-n3g]]: A startup accelerator.
+- [[sources/GciivYKTK_Q-gciivyktk-q|GciivYKTK_Q]]: Startup accelerator
+- [[sources/QkKeu1AyCQ0-qkkeu1aycq0|QkKeu1AyCQ0]]: Startup accelerator program.
+- [[sources/Tm5NbHUblkA-tm5nbhublka|Tm5NbHUblkA]]: Startup accelerator.
+- [[sources/KmdN6OQ_PwE-kmdn6oq-pwe|KmdN6OQ_PwE]]: Startup accelerator.
+- [[sources/UGYnC9zqa-k-ugync9zqa-k|UGYnC9zqa-k]]: Startup accelerator.
+- [[sources/q8TOaXBzcJw-david-ai-powering-the-voice-era-of-ai|David AI: Powering the Voice Era of AI]]: A startup accelerator that David AI participated in during the Summer 2024 batch.
+- [[sources/mJO10CL-FGI-mjo10cl-fgi|mJO10CL-FGI]]: A startup accelerator that the founders participated in.
+- [[sources/XcI5IMLEAaE-xci5imleaae|XcI5IMLEAaE]]: Startup accelerator.
+- [[sources/ZVdgiuiOQ7E-zvdgiuioq7e|ZVdgiuiOQ7E]]: Startup accelerator
+- [[sources/roI3LfxnqUk-roi3lfxnquk|roI3LfxnqUk]]: Startup accelerator program.
+- [[sources/ii1jcLg-eIQ-lecture-3-before-the-startup-paul-graham|Lecture 3 - Before the Startup (Paul Graham)]]: A startup accelerator.
+- [[sources/gz4AKzSBwTk-gz4akzsbwtk|gz4AKzSBwTk]]: A startup accelerator that funded RevenueCat in 2018.
+- [[sources/X1NXnLRNIfM-x1nxnlrnifm|X1NXnLRNIfM]]: Startup accelerator
+- [[sources/qDumDlXcMkg-infisical-the-open-source-security-stack|Infisical: The Open Source Security Stack]]: Startup accelerator.
+- [[sources/oQOC-qy-GDY-lecture-8-how-to-get-started-doing-things-that-don-t-scale-press|Lecture 8 - How to Get Started, Doing Things that Don't Scale, Press]]: Startup accelerator
+- [[sources/lfzm2SlhbM8-lfzm2slhbm8|lfzm2SlhbM8]]: A startup accelerator.
+- [[sources/sz_LgBAGYyo-lecture-7-how-to-build-products-users-love-kevin-hale|Lecture 7 - How to Build Products Users Love (Kevin Hale)]]: Startup accelerator.
+- [[sources/vRt4ng9V9qA-vrt4ng9v9qa|vRt4ng9V9qA]]: A startup accelerator.
+- [[sources/u2z44EkIEHE-u2z44ekiehe|u2z44EkIEHE]]: Startup accelerator
+- [[sources/znULXKSAN7o-znulxksan7o|znULXKSAN7o]]: Startup accelerator program.
+- [[sources/yP176MBG9Tk-lecture-4-building-product-talking-to-users-and-growing-adora-cheung|Lecture 4 - Building Product, Talking to Users, and Growing (Adora Cheung)]]: Startup accelerator.
+- [[sources/p9qa1IO0Jsw-p9qa1io0jsw|p9qa1IO0Jsw]]: A startup accelerator.
+- [[sources/2Nnz_94fHaQ-powering-the-future-with-fusion|Powering the Future with Fusion]]: A startup accelerator and media producer.
+- [[sources/1asr6PkU8HQ-ai-aided-engineering-tools|AI-Aided Engineering Tools]]: A startup accelerator that provides seed funding and guidance.
+- [[sources/-6YQTNlIzbQ-ai-for-personal-finance|AI for Personal Finance]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/0qGjxsMzuxc-infrastructure-for-multi-agent-systems|Infrastructure for Multi-Agent Systems]]: A startup accelerator and venture capital firm.
+- [[sources/2S1Z6YEKVoM-ai-personal-staff-for-everyone|AI Personal Staff for Everyone]]: A startup accelerator and venture capital firm.
+- [[sources/-B3j7NtqU5o-unknown|Unknown]]: A startup accelerator and venture capital firm.
+- [[sources/1CrcTQ2fiEU-rfs-llms-for-manual-back-office-processes-in-legacy-enterprises|RFS: LLMs for manual back office processes in legacy enterprises]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/17Yj1OWRm2U-hedging-your-bets-while-starting-a-startup|Hedging your bets while starting a startup?]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/2alXOBCsvJ8-from-dorm-rooms-to-million-dollar-companies|From dorm rooms to million-dollar companies]]: A startup accelerator that provides funding, mentorship, and community to early-stage companies.
+- [[sources/1mUTuQlEnCc-infrastructure-for-government-fraud-hunters|Infrastructure for Government Fraud Hunters]]: Startup accelerator and venture capital firm.
+- [[sources/0kARDVL2nZg-how-to-get-your-first-users|How To Get Your First Users]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/0-JL7bbQ0tw-eric-migicovsky-at-startup-school-sv-2014|Eric Migicovsky at Startup School SV 2014]]: Startup accelerator
+- [[sources/0eWRcwmjNBQ-kat-manalac-s-whale-ama|Kat Manalac's Whale AMA]]: Startup accelerator
+- [[sources/2ViqdR5E2wU-when-should-you-trust-your-gut|When Should You Trust Your Gut?]]: Startup accelerator
+- [[sources/1hHMwLxN6EM-michael-seibel-how-to-plan-an-mvp|Michael Seibel - How to Plan an MVP]]: A startup accelerator.
+- [[sources/1Rq0ltksFEg-synthetic-media-virtual-influencers-live-animation-figments-s19-yc-gaming-tech-talks-2020|Synthetic Media: Virtual Influencers & Live Animation: Figments (S19) - YC Gaming Tech Talks 2020]]: Startup accelerator.
+- [[sources/0W5Jaip5_-g-unknown|Unknown]]: Startup accelerator.
+- [[sources/17XZGUX_9iM-kevin-hale-how-to-pitch-your-startup|Kevin Hale - How to Pitch Your Startup]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/1f2vKWIVB-w-diego-saez-gil-how-pachama-uses-tech-to-solve-climate-change|Diego Saez Gil - How Pachama Uses Tech to Solve Climate Change]]: A startup accelerator that funded Pachama.
+- [[sources/0fKYVl12VTA-enterprise-sales-startup-school|Enterprise Sales | Startup School]]: Startup accelerator.
+- [[sources/1e4izfOsijE-building-product-talking-to-users-and-growing-with-adora-cheung-how-to-start-a-startup-201|Building Product, Talking to Users, and Growing with Adora Cheung (How to Start a Startup 2014: 4)]]: Startup accelerator.
+- [[sources/12D8zEdOPYo-how-to-build-products-users-love-with-kevin-hale-how-to-start-a-startup-2014-lecture-7|How to Build Products Users Love with Kevin Hale (How to Start a Startup 2014: Lecture 7)]]: Startup accelerator.
+- [[sources/0LNQxT9LvM0-david-rusenko-how-to-find-product-market-fit|David Rusenko - How To Find Product Market Fit]]: Startup accelerator
+- [[sources/-pKR212H5vQ-unknown|Unknown]]: Startup accelerator program.
+- [[sources/2H15qBGa3Hs-keith-schacht-and-doug-peltz-on-what-traction-feels-like-at-yc-edtech-night|Keith Schacht and Doug Peltz on What Traction Feels Like - at YC Edtech Night]]: A startup accelerator.
+- [[sources/0lJKucu6HJc-sam-altman-how-to-succeed-with-a-startup|Sam Altman - How to Succeed with a Startup]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/17xrOGM8tQo-squire-edlyft-promise-the-journey-challenges-impact|Squire, Edlyft, Promise: The Journey, Challenges, & Impact]]: A startup accelerator program.
+- [[sources/0IShllkCHtY-most-important-lifestyle-habits-of-successful-founders|Most Important Lifestyle Habits Of Successful Founders]]: Startup accelerator
+- [[sources/0OVSTWozvfY-save-your-startup-during-an-economic-downturn|Save Your Startup During an Economic Downturn]]: Startup accelerator.
+- [[sources/0TNTlMZFTWw-why-this-is-the-perfect-time-to-start-a-startup|Why This Is The Perfect Time To Start A Startup]]: A startup accelerator that provides seed funding and mentorship to early-stage companies.
+- [[sources/0LMK5JYkB94-ai-revolution-what-nobody-else-is-seeing|AI Revolution: What Nobody Else Is Seeing]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/09mXPGVkfVA-why-you-shouldn-t-copy-your-tech-idols|Why You Shouldn't Copy Your Tech Idols]]: Startup accelerator
+- [[sources/3-Zj8i8XNP8-ai-native-hedge-funds|AI Native Hedge Funds]]: A startup accelerator.
+- [[sources/2hgjgycOU_0-inside-the-startup-building-reusable-rockets|Inside The Startup Building Reusable Rockets]]: Startup accelerator.
+- [[sources/5MUmpRT197I-what-they-forget-to-mention-about-overnight-success-is-the-years-of-work-it-took-to-get-th|What they forget to mention about "overnight success" is the years of work it took to get there.]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/4jVyyL_AX7c-great-founders-actually-build|Great founders actually build.]]: A startup accelerator that provides seed funding and mentorship to early-stage companies.
+- [[sources/30a5yFBd7Fo-kevin-hale-how-to-work-together|Kevin Hale - How to Work Together]]: Startup accelerator.
+- [[sources/5dU-TUTcjrE-ai-for-scientific-discovery|AI for Scientific Discovery]]: A startup accelerator and host of the interview.
+- [[sources/4dJ6IaP_0dM-harj-taggar-how-startups-can-compete-with-faang-companies-when-hiring-employees|Harj Taggar - How Startups can Compete with FAANG Companies when Hiring Employees]]: A startup accelerator.
+- [[sources/5-TgqZ8nado-paul-graham-what-does-it-mean-to-do-things-that-don-t-scale|Paul Graham: What does it mean to do things that don't scale?]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/2jOnoTEk-xA-aravind-srinivas-perplexity-s-race-to-build-agentic-search|Aravind Srinivas: Perplexity's Race to Build Agentic Search]]: Startup accelerator.
+- [[sources/5-gDBnRSQwU-talk-about-doing-things-that-don-t-scale-from-doordash-s-yc-app-in-2013|Talk about doing things that don’t scale. From Doordash’s YC app in 2013.]]: A startup accelerator that hosted this presentation.
+- [[sources/3N3TnaViyjk-doordash-ceo-customer-obsession-surviving-startup-death-creating-a-new-market|DoorDash CEO: Customer Obsession, Surviving Startup Death & Creating A New Market]]: Startup accelerator that supported DoorDash in its early stages
+- [[sources/3_t7kHENrxg-helping-african-businesses-get-paid-shola-akinlade-of-paystack|Helping African Businesses Get Paid, Shola Akinlade of Paystack]]: A startup accelerator that funded Paystack.
+- [[sources/3xU050kMbHM-kat-ma-alac-how-to-launch-again-and-again|Kat Mañalac - How to Launch (Again and Again)]]: Startup accelerator
+- [[sources/43RhhwpiSk0-do-technical-founders-need-business-co-founders|Do Technical Founders Need Business Co-Founders?]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/45BvnJgwYjk-office-hours-with-sam-altman|Office Hours with Sam Altman]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/4UE4e6b2qtA-figma-s-dylan-field-exploring-the-idea-maze-vibe-coding-and-the-power-of-locking-in|Figma's Dylan Field: Exploring the idea maze, vibe coding, and the power of “locking in”]]: Startup accelerator.
+- [[sources/4N55fVuxxOg-critiquing-startup-mobile-apps-with-glide-ceo|Critiquing Startup Mobile Apps with Glide CEO]]: Startup accelerator
+- [[sources/6Fgcsv_ksAI-probably-not|Probably not.]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/4ynbXUaKHHs-yc-sus-eric-migicovsky-hosts-founder-office-hours|YC SUS: Eric Migicovsky hosts founder office hours]]: Startup accelerator.
+- [[sources/4hjiRmgmHiU-how-to-price-for-b2b-startup-school|How To Price For B2B | Startup School]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/5fmDKGV0TnQ-one-order-of-operations-for-starting-a-startup-by-michael-seibel|One Order of Operations for Starting a Startup by Michael Seibel]]: A startup accelerator.
+- [[sources/4WO5kJChg3w-a-conversation-with-paul-graham-moderated-by-geoff-ralston|A Conversation with Paul Graham - Moderated by Geoff Ralston]]: Startup accelerator.
+- [[sources/4b7EoQTRU88-startup-investor-school-day-1-live-stream|Startup Investor School Day 1 Live Stream]]: Startup accelerator and investment firm
+- [[sources/4EsUaur0nsQ-the-gpt-moment-for-robotics-is-here|The GPT Moment for Robotics Is Here]]: Startup accelerator and host of The Light Cone podcast.
+- [[sources/5uBAQrg4SoQ-gpt-4-5-big-model-energy-yc-decoded|GPT-4.5 = Big Model Energy | YC Decoded]]: A startup accelerator and the channel host.
+- [[sources/6IPuXAK24RE-how-much-should-you-spend-after-fundraising-gustaf-alstr-mer|How Much Should You Spend After Fundraising? - Gustaf Alströmer]]: Startup accelerator
+- [[sources/4uzGDAoNOZc-openclaw-creator-why-80-of-apps-will-disappear|OpenClaw Creator: Why 80% Of Apps Will Disappear]]: Startup accelerator and host of the interview.
+- [[sources/4hfSS2Avc6E-seo-advice-from-surveymonkey-director-of-seo-and-growth-eli-schwartz|SEO Advice from SurveyMonkey Director of SEO and Growth, Eli Schwartz]]: Startup accelerator
+- [[sources/4aMQPG9gPoM-better-ai-models-better-startups|Better AI Models, Better Startups]]: Startup accelerator and venture capital firm.
+- [[sources/6606a2ka-jQ-yc-founders-made-these-fundraising-mistakes|YC Founders Made These Fundraising Mistakes]]: Startup accelerator
+- [[sources/5WN8bfG06Hk-from-pivot-hell-to-1-4-billion-unicorn|From Pivot Hell To $1.4 Billion Unicorn]]: Startup accelerator program.
+- [[sources/6uqEsTIKg5k-for-founders-it-s-critical-to-be-honest-with-yourself|For founders, it's critical to be honest with yourself.]]: Startup accelerator and publisher of the content.
+- [[sources/59c8yttMtHQ-female-founders-conference-2017|Female Founders Conference 2017]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/5gspRJVp9dI-the-future-of-brain-computer-interfaces|The Future Of Brain-Computer Interfaces]]: A startup accelerator.
+- [[sources/6amgO4dIotk-working-at-big-tech-companies-can-be-a-trap-michael-seibel|Working at Big Tech Companies Can Be a Trap - Michael Seibel]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/6WtdFqgsEY0-standing-up-for-startups-yc-goes-to-d-c|Standing Up For Startups - YC Goes To D.C.]]: A startup accelerator and venture capital firm.
+- [[sources/7gxKhRSbK1s-big-changes-at-y-combinator-an-inside-look-with-s22-founders|Big Changes at Y Combinator? An Inside Look with S22 Founders]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/8K1VXyoz7MQ-jessica-livingston-introduces-startup-school-sv-2014|Jessica Livingston Introduces Startup School SV 2014]]: Startup accelerator and organizer of Startup School
+- [[sources/7aiJlRS2i_w-geoff-ralston-s-intro-startup-investor-school-day-1|Geoff Ralston's Intro - Startup Investor School Day 1]]: A startup accelerator and venture capital firm.
+- [[sources/6lY9CYIY4pQ-gustaf-alstr-mer-growth-for-startups|Gustaf Alströmer - Growth for Startups]]: Startup accelerator.
+- [[sources/8xYiXRZbiZ0-growth-product-market-fit|Growth = Product Market Fit]]: A startup accelerator and venture capital firm.
+- [[sources/6kk03M3XfVY-the-technical-advisor-for-silicon-valley-on-hbo-ed-mcmanus|The Technical Advisor for Silicon Valley on HBO: Ed McManus]]: Startup accelerator.
+- [[sources/7Kt9ugD3bGQ-how-to-use-ai-in-your-startup|How To Use AI In Your Startup]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/845O4RE1XDM-paul-graham-what-are-some-common-mistakes-founders-make|Paul Graham: What are some common mistakes founders make?]]: Startup accelerator.
+- [[sources/9GlUR7ZESUY-beware-of-fake-progress|Beware of fake progress.]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/8-Zrhz1QKGo-how-to-survive-the-crypto-boom-bust-cycle|How to Survive the Crypto Boom & Bust Cycle]]: Startup accelerator and media producer
+- [[sources/82MhV6S8a5s-preston-silverman-on-building-out-a-marketplace-in-education-at-yc-edtech-night|Preston Silverman on Building out a Marketplace in Education - at YC Edtech Night]]: Startup accelerator program.
+- [[sources/9kEsZkkFO1s-learn-to-truly-care-about-your-customers|Learn to truly care about your customers.]]: A startup accelerator that provides seed funding and mentorship to early-stage companies.
+- [[sources/8MdVFF5HU0g-embark-trucks-application-video-for-yc-w16|Embark Trucks' Application Video for YC W16]]: Startup accelerator program.
+- [[sources/7Kh_fpxP1yY-how-to-convert-customers-with-cold-emails-startup-school|How To Convert Customers With Cold Emails | Startup School]]: Startup accelerator and investment firm
+- [[sources/6u4JVz7iQTY-how-yc-was-created-with-jessica-livingston|How YC Was Created With Jessica Livingston]]: Startup accelerator and investment firm.
+- [[sources/7atClUTkR3A-a-conversation-on-hard-tech-with-eric-migicovsky|A Conversation on Hard Tech with Eric Migicovsky]]: A startup accelerator.
+- [[sources/8d-cApFHjeY-jessica-livingston-shares-9-things-she-learned-from-founding-yc|Jessica Livingston Shares 9 Things She Learned From Founding YC]]: The first startup accelerator, founded in 2005.
+- [[sources/9NhEBVPlJs4-how-much-equity-to-give-your-cofounder-michael-seibel|How Much Equity to Give Your Cofounder - Michael Seibel]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/86AblikwSlg-jeff-clavier-and-andrea-zurek-startup-investor-school-day-3|Jeff Clavier and Andrea Zurek - Startup Investor School Day 3]]: Startup accelerator and host of the Startup Investor School.
+- [[sources/A4sgu3XqpBo-empathy-and-knowing-the-problem-you-re-solving-are-core-to-design-and-making-something-peo|Empathy and knowing the problem you're solving are core to design (and making something people want)]]: Startup accelerator and host of the video content.
+- [[sources/97nJPjZwK2Y-elli-sharef-at-female-founders-conference-2014|Elli Sharef at Female Founders Conference 2014]]: A startup accelerator.
+- [[sources/8eKkwX9q_Lc-fundraising-panel-at-female-founders-conference-2015|Fundraising Panel at Female Founders Conference 2015]]: Startup accelerator.
+- [[sources/8pNxKX1SUGE-dalton-caldwell-all-about-pivoting|Dalton Caldwell - All About Pivoting]]: A prominent startup accelerator.
+- [[sources/A3MmYbH1hbs-how-to-cold-email-investors-michael-seibel|How To Cold Email Investors - Michael Seibel]]: A startup accelerator.
+- [[sources/AUJHVtq5-XQ-the-artistry-is-actually-in-that-interface-between-the-human-and-the-technology-itself|The artistry is actually in that interface between the human and the technology itself.]]: Startup accelerator and publisher of the video content.
+- [[sources/9pQJXR0Tcos-turning-your-users-into-paying-customers|Turning Your Users Into Paying Customers]]: Startup accelerator and venture capital firm.
+- [[sources/8SVocWnDHwE-ai-is-unlocking-millions-of-new-builders|AI Is Unlocking Millions Of New Builders]]: Startup accelerator that funded Emergent in Summer 2024.
+- [[sources/ASE6D_aHlzo-to-be-able-to-create-something-different-you-have-to-be-somewhat-contrarian|To be able to create something different, you have to be somewhat contrarian.]]: A startup accelerator that provides seed funding and mentorship to startups.
+- [[sources/AFiioWjfXOs-startups-that-make-it-are-rare-you-can-do-it-alone-but-with-a-good-co-founder-you-can-go-f|Startups that make it are rare. You can do it alone, but with a good co-founder you can go farther.]]: A startup accelerator and venture capital firm.
+- [[sources/9D7bA6E0yyw-yc-sus-eric-migicovsky-hosts-founder-office-hours|YC SUS: Eric Migicovsky hosts founder office hours]]: Startup accelerator.
+- [[sources/8yiOcCPvyNE-how-to-apply-and-succeed-at-y-combinator-by-dalton-caldwell|How to Apply and Succeed at Y Combinator by Dalton Caldwell]]: Startup accelerator and venture capital firm
+- [[sources/9qWZALyGSmg-carolynn-levy-modern-startup-funding|Carolynn Levy - Modern Startup Funding]]: Startup accelerator and venture capital firm.
+- [[sources/9jvdl24lAI4-female-founders-conference-mountain-view|Female Founders Conference - Mountain View]]: A startup accelerator.
+- [[sources/9urYWGx2uNk-design-for-startups-by-garry-tan-part-1|Design for Startups by Garry Tan (Part 1)]]: Startup accelerator.
+- [[sources/A21qyXsAfME-gobble-founder-ooshma-garg-speaks-at-female-founders-conference-2016|Gobble founder Ooshma Garg speaks at Female Founders Conference 2016]]: Startup accelerator
+- [[sources/B4KsLeOZcqU-datacenters|Datacenters]]: A startup accelerator that provides seed funding for startups.
+- [[sources/B2QdN0-fAbw-tim-brady-how-much-equity-should-i-give-my-first-employees|Tim Brady - How Much Equity Should I Give My First Employees?]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/ANrzH3ra8e8-reham-fagiri-and-kalam-dennis-at-startup-school-sv-2016|Reham Fagiri and Kalam Dennis at Startup School SV 2016]]: Startup accelerator
+- [[sources/AZidfpz9KfY-building-an-engineering-team-by-ammon-bartram-and-harj-taggar|Building an Engineering Team by Ammon Bartram and Harj Taggar]]: Startup accelerator.
+- [[sources/BYhxNYD6jNg-is-your-startup-default-alive-or-default-dead|Is your startup default alive, or default dead?]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/AJDR-jMaFcg-startup-investor-school-preview-with-geoff-ralston|Startup Investor School Preview with Geoff Ralston]]: A startup accelerator and seed fund.
+- [[sources/AUUZuzVHKdo-satya-nadella-microsoft-s-ai-bets-hyperscaling-quantum-computing-breakthroughs|Satya Nadella: Microsoft's AI Bets, Hyperscaling, Quantum Computing Breakthroughs]]: Startup accelerator
+- [[sources/7bGZAj7G4WI-work-at-a-startup-expo-2019|Work at a Startup Expo 2019]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/AWa4qZvtMuY-how-to-deal-with-setbacks|How To Deal With Setbacks]]: A prominent startup accelerator.
+- [[sources/BSYExUUrmD4-users-you-don-t-want-by-michael-seibel|Users You Don't Want by Michael Seibel]]: A startup accelerator.
+- [[sources/BTS-rFzROOg-geoff-ralston-and-adora-cheung-discuss-startup-school|Geoff Ralston and Adora Cheung Discuss Startup School]]: Startup accelerator and venture capital firm
+- [[sources/BJjsfNO5JTo-how-to-get-the-most-out-of-vibe-coding-startup-school|How To Get The Most Out Of Vibe Coding | Startup School]]: Startup accelerator.
+- [[sources/CRLzkbtKPGM-how-to-find-a-cofounder-kat-manalac|How to Find a Cofounder - Kat Manalac]]: Startup accelerator program
+- [[sources/Cmzwq7hg17M-what-successful-founders-focus-on-dalton-caldwell|What Successful Founders Focus On - Dalton Caldwell]]: Startup accelerator and investment firm.
+- [[sources/C1DlZWfI6rk-jared-friedman-advice-for-hard-tech-and-biotech-founders|Jared Friedman - Advice for Hard-tech and Biotech Founders]]: Startup accelerator
+- [[sources/BUE-icVYRFU-should-you-start-a-startup-startup-school|Should You Start A Startup? | Startup School]]: Startup accelerator
+- [[sources/CII2SmXOB60-elizabeth-iorns-at-female-founders-conference-2014|Elizabeth Iorns at Female Founders Conference 2014]]: Startup accelerator.
+- [[sources/B5tU2447OK8-how-to-apply-and-succeed-at-y-combinator-startup-school|How to Apply And Succeed at Y Combinator | Startup School]]: Startup accelerator and investment firm
+- [[sources/D4yPM52G5_o-software-tools-to-make-robots|Software Tools To Make Robots]]: A startup accelerator and venture capital firm.
+- [[sources/BtzUo6vL3Iw-top-ways-startups-waste-money|Top Ways Startups Waste Money]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/BTShgZxiNV8-carolynn-levy-and-panel-jon-levy-jason-kwon-startup-legal-mechanics|Carolynn Levy And Panel (Jon Levy, Jason Kwon) - Startup Legal Mechanics]]: Startup accelerator.
+- [[sources/C27RVio2rOs-michael-seibel-building-product|Michael Seibel - Building Product]]: Startup accelerator.
+- [[sources/DVibT82PSsk-you-don-t-need-a-billion-dollar-idea-to-get-started|You don’t need a billion dollar idea to get started.]]: A startup accelerator that provides seed funding and mentorship to early-stage companies.
+- [[sources/Cmd5yOjnOqo-the-muse-s-kathryn-minshew-speaks-at-the-female-founders-conference-2016|The Muse's Kathryn Minshew Speaks at the Female Founders Conference 2016]]: A startup accelerator program.
+- [[sources/D56QeyyQMLI-the-biggest-mistakes-first-time-founders-make-michael-seibel|The Biggest Mistakes First-Time Founders Make - Michael Seibel]]: A startup accelerator.
+- [[sources/CcnwFJqEnxU-how-david-lieb-turned-a-failing-startup-into-google-photos-backstory|How David Lieb Turned a Failing Startup Into Google Photos | Backstory]]: A startup accelerator.
+- [[sources/CKBeSyquRec-startup-investor-school-day-4-live-stream|Startup Investor School Day 4 Live Stream]]: Startup accelerator
+- [[sources/DH7REvnQ1y4-the-sales-playbook-for-founders-startup-school|The Sales Playbook For Founders | Startup School]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/CKvo_kQbakU-10-people-ai-billion-dollar-company|10 People + AI = Billion Dollar Company?]]: Startup accelerator
+- [[sources/CUZ6PKJZvXE-don-t-make-these-hiring-mistakes|Don't Make These Hiring Mistakes]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/DOez-RwJ7mg-the-truth-about-y-combinator|The Truth About Y Combinator]]: Startup accelerator
+- [[sources/EEy2MYHxAe8-when-is-the-right-time-to-apply-to-y-combinator-jared-friedman|When is the Right Time to Apply to Y Combinator? - Jared Friedman]]: A startup accelerator program.
+- [[sources/D81y-kh11oI-should-your-startup-bootstrap-or-raise-venture-capital|Should Your Startup Bootstrap or Raise Venture Capital?]]: A startup accelerator that provides seed funding for startups.
+- [[sources/DvxPuRbeNwY-more-design-founders|More Design Founders]]: A startup accelerator that provides seed funding for startups.
+- [[sources/DwgUlVWs5fk-inference-ai-infra-in-the-world-of-test-time-compute|Inference AI Infra in the World of Test-Time Compute]]: Startup accelerator.
+- [[sources/Dk6JNTDec9I-understanding-safes-and-priced-equity-rounds-by-kirsty-nathoo|Understanding SAFEs and Priced Equity Rounds by Kirsty Nathoo]]: Startup accelerator and venture capital firm
+- [[sources/DJjZzzPANBY-ask-these-questions-before-starting-an-ai-startup|Ask These Questions Before Starting An AI Startup]]: Startup accelerator.
+- [[sources/DOtCl5PU8F0-kevin-hale-how-to-evaluate-startup-ideas|Kevin Hale - How to Evaluate Startup Ideas]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/DNSXlBmukck-common-mistakes-with-vibe-coded-websites|Common Mistakes With Vibe Coded Websites]]: Startup accelerator.
+- [[sources/EZX0eq_g6v8-sometimes-the-best-startup-ideas-begin-by-solving-the-most-mundane-tasks|Sometimes the best startup ideas begin by solving the most mundane tasks.]]: A startup accelerator that provides seed funding and mentorship to early-stage companies.
+- [[sources/DY5Z-uZ6ZMc-stripe-head-of-design-katie-dill-reviews-startup-websites|Stripe Head of Design Katie Dill Reviews Startup Websites]]: Startup accelerator.
+- [[sources/F-KQMMJ73s4-reindustrialize-with-modern-metal-mills|Reindustrialize With Modern Metal Mills]]: A startup accelerator and venture capital firm.
+- [[sources/DULfEcPR0Gc-good-news-for-startups-enterprise-is-bad-at-ai|Good News For Startups: Enterprise Is Bad At AI]]: Startup accelerator and venture capital firm.
+- [[sources/DvXN7fRTVds-matt-cutts-on-the-us-digital-service-and-working-at-google-for-17-years|Matt Cutts on the US Digital Service and Working at Google for 17 Years]]: Startup accelerator and host of the podcast.
+- [[sources/DmehFuCMtvc-startup-experts-reveal-their-favorite-pivot-stories|Startup Experts Reveal Their Favorite Pivot Stories]]: A startup accelerator that provides funding and mentorship to early-stage companies.
+- [[sources/EoffBerre24-cindy-mi-and-qi-lu-share-advice-for-entrepreneurs-building-global-companies|Cindy Mi and Qi Lu Share Advice for Entrepreneurs Building Global Companies]]: A startup accelerator.
+- [[sources/F40PQKJVWJY-retraining-workers-for-the-ai-economy|Retraining Workers for the AI Economy]]: A startup accelerator and venture capital firm.
+- [[sources/FCuSV_x4l1o-it-s-all-about-talking-to-your-users|It's all about talking to your users.]]: Startup accelerator and publisher of the content
+- [[sources/GEcby86ZOVY-b2a-software-where-the-customers-will-all-be-agents|B2A: Software Where the Customers Will All Be Agents]]: A startup accelerator that provides seed funding for startups.
+- [[sources/EN7frwQIbKc-how-to-build-a-company-with-ai-from-the-ground-up|How To Build A Company With AI From The Ground Up]]: Startup accelerator
+- [[sources/ENG_DQF5E60-this-startup-is-trying-to-delete-29-of-all-co2-emissions|This Startup Is Trying To Delete 29% Of All CO2 Emissions]]: A startup accelerator that provided early funding and mentorship to Remora.
+- [[sources/EZgTD3pggpc-funding-is-an-outcome-of-building-a-good-business-porter-braswell-of-jopwell|Funding Is an Outcome of Building a Good Business - Porter Braswell of Jopwell]]: A startup accelerator program.
+- [[sources/EOw6izSfzSA-the-number-one-goal-is-getting-started-avni-patel-thompson-of-poppy|The Number One Goal is Getting Started - Avni Patel Thompson of Poppy]]: Startup accelerator.
+- [[sources/EiRnSjcVIqk-inside-the-most-powerful-startup-community-in-the-world|Inside The Most Powerful Startup Community In The World]]: A startup accelerator that provides seed funding and mentorship to early-stage companies.
+- [[sources/EW9TUqOgjmQ-twitter-vs-x-product-lessons-for-startup-founders|Twitter vs. X: Product Lessons For Startup Founders]]: Startup accelerator and media producer
+- [[sources/Fk9BCr5pLTU-how-to-find-a-co-founder-startup-school|How To Find A Co-Founder | Startup School]]: Startup accelerator and venture capital firm
+- [[sources/ECLJ95XNxA4-silicon-valley-s-cargo-culting-problem|Silicon Valley's Cargo Culting Problem]]: Startup accelerator.
+- [[sources/FI9eyGXsD5s-q-a-with-yc-at-the-female-founders-conference-2016|Q&A with YC at the Female Founders Conference 2016]]: A startup accelerator program.
+- [[sources/G7TMqY7gkGY-simple-products-that-became-big-companies-dalton-caldwell-and-michael-seibel|Simple Products That Became Big Companies – Dalton Caldwell and Michael Seibel]]: Startup accelerator
+- [[sources/GYpYBqmlzTQ-celebrating-20-years-of-y-combinator|Celebrating 20 Years of Y Combinator]]: A startup accelerator and investment firm.
+- [[sources/GlALy_viycE-the-most-money-raised-game|The "Most Money Raised" game]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/FyhlY7XRxCo-what-shutting-down-your-startup-feels-like-avni-patel-thompson-of-poppy-with-kat-manalac|What Shutting Down Your Startup Feels Like - Avni Patel Thompson of Poppy with Kat Manalac]]: A startup accelerator.
+- [[sources/GiuxXzmvolU-y-combinator-is-back-in-person|Y Combinator Is Back In Person]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/HQjjgi6271k-50-founders-share-why-they-applied-to-y-combinator|50 Founders Share Why They Applied To Y Combinator]]: A startup accelerator and venture capital firm.
+- [[sources/FNwu440UxhU-stop-innovating-on-the-wrong-things|Stop Innovating (On The Wrong Things)]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/GU9iT7MW0rs-tarpit-ideas-the-sequel|Tarpit Ideas: The Sequel]]: A startup accelerator that provides seed funding and mentorship to startups.
+- [[sources/GYtBR-APb7E-ian-hogarth|Ian Hogarth]]: A startup accelerator.
+- [[sources/FwD0wqwUjAI-how-to-build-the-future-parker-conrad|How To Build The Future: Parker Conrad]]: Startup accelerator.
+- [[sources/IGj7CK-K6q4-hiring-tips-from-pebble-watch-founder-eric-migicovsky|Hiring Tips from Pebble Watch Founder Eric Migicovsky]]: A startup accelerator.
+- [[sources/Iks_mTAYE6U-founder-stories-cathy-di|Founder Stories: Cathy Di]]: A startup accelerator program.
+- [[sources/GurelYsSFeM-jay-reno-of-feather-a-furniture-subscription-startup|Jay Reno of Feather, a Furniture Subscription Startup]]: A startup accelerator.
+- [[sources/GzMvG8UO6Eg-chad-rigetti-at-startup-school-sv-2016|Chad Rigetti at Startup School SV 2016]]: Startup accelerator that hosted the talk.
+- [[sources/JNq9eTCi5Xo-ai-voice-assistants-for-email|AI Voice Assistants for Email]]: Startup accelerator and host of the video.
+- [[sources/HB3l1BPi7zo-how-do-billion-dollar-startups-start|How Do Billion Dollar Startups Start?]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/Hwfu1zNwSWI-the-better-customer-startups-or-big-enterprise|The Better Customer–Startups or Big Enterprise?]]: Startup accelerator providing mentorship and funding.
+- [[sources/IdwYMfM2QMs-secrets-you-can-learn-from-your-customers|Secrets You Can Learn From Your Customers]]: Startup accelerator.
+- [[sources/HR4nKgDnPHs-your-whole-goal-is-to-not-quit-courtland-allen-of-indie-hackers|Your Whole Goal Is to Not Quit - Courtland Allen of Indie Hackers]]: Startup accelerator program.
+- [[sources/IYLVhk7yaaw-elon-musk-the-midwit-meme-dalton-caldwell-and-michael-seibel|Elon Musk & The Midwit Meme – Dalton Caldwell and Michael Seibel]]: Startup accelerator
+- [[sources/IyhLAbqDw0k-60-startup-founders-share-how-they-met-their-co-founder|60 Startup Founders Share How They Met Their Co-Founder]]: A startup accelerator that provides funding and resources to early-stage companies.
+- [[sources/IqwSb2hO1jE-what-everyone-is-getting-wrong-about-ai-and-jobs|What Everyone Is Getting Wrong About AI And Jobs]]: Startup accelerator.
+- [[sources/IRROi-Q1V44-the-right-and-wrong-way-to-spend-money-at-your-startup|The Right (And Wrong) Way To Spend Money At Your Startup]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/JkSOIoVHKkI-yc-partner-and-algolia-co-founder-nicolas-dessaigne-s-advice-for-founders-starting-out|YC Partner and Algolia co-founder Nicolas Dessaigne’s advice for founders starting out.]]: A startup accelerator and venture capital firm.
+- [[sources/IACHfKmZMr8-vibe-coding-is-the-future|Vibe Coding Is The Future]]: Startup accelerator.
+- [[sources/JhJPeF8DGL0-why-openclaw-broke-the-internet|Why OpenClaw Broke The Internet]]: Startup accelerator and media channel.
+- [[sources/Hm-ZIiwiN1o-billion-dollar-unpopular-startup-ideas|Billion-Dollar Unpopular Startup Ideas]]: Startup accelerator and venture capital firm.
+- [[sources/JL9yoVFHx-Q-pr-content-for-growth-by-kat-man-alac-and-craig-cannon|PR + Content for Growth by Kat Mañalac and Craig Cannon]]: Startup accelerator
+- [[sources/KOgCiznK8ug-the-idea-for-doordash-didn-t-come-from-surveys-it-came-from-living-a-day-in-the-customer-s|The idea for DoorDash didn’t come from surveys—it came from living a day in the customer’s shoes.]]: A startup accelerator.
+- [[sources/IjPDIjge81o-startup-experts-discuss-doing-things-that-don-t-scale|Startup Experts Discuss Doing Things That Don't Scale]]: Startup accelerator.
+- [[sources/Ir3hGtg0Wog-the-path-to-100b-by-paul-buchheit|The Path to $100B by Paul Buchheit]]: Startup accelerator.
+- [[sources/Jcuqq48CNj8-where-do-great-startup-ideas-come-from-dalton-caldwell-and-michael-seibel|Where Do Great Startup Ideas Come From? – Dalton Caldwell and Michael Seibel]]: Startup accelerator
+- [[sources/JF6XIixstmQ-this-startup-catches-fraud-at-scale|This Startup Catches Fraud at Scale]]: Startup accelerator.
+- [[sources/JoqKkXv6-gI-reshma-shetty-speaks-at-y-combinator-s-female-founders-conference-2016|Reshma Shetty Speaks at Y Combinator's Female Founders Conference 2016]]: Startup accelerator.
+- [[sources/IvttzQnsxls-startup-investor-school-day-2-live-stream|Startup Investor School Day 2 Live Stream]]: Startup accelerator.
+- [[sources/JdT78t1Offo-anthropic-co-founder-building-claude-code-lessons-from-gpt-3-llm-system-design|Anthropic Co-founder: Building Claude Code, Lessons From GPT-3 & LLM System Design]]: Startup accelerator.
+- [[sources/K5JoLAauzq4-how-we-redesigned-our-website|How We Redesigned Our Website]]: A startup accelerator and investment firm.
+- [[sources/JaqUUAYi_Yo-ryan-hoover-on-product-hunt-s-acquisition-and-lessons-learned-about-launches-with-dalton-c|Ryan Hoover on Product Hunt's Acquisition and Lessons Learned About Launches with Dalton Caldwell]]: A startup accelerator.
+- [[sources/JiwiqYGw4iU-why-the-next-ai-breakthroughs-will-be-in-reasoning-not-scaling|Why The Next AI Breakthroughs Will Be In Reasoning, Not Scaling]]: Startup accelerator
+- [[sources/KYQHPHYs2Os-ben-silbermann-at-startup-school-2012|Ben Silbermann at Startup School 2012]]: Startup accelerator
+- [[sources/Lg3n4cChF1M-real-vs-fake-progress|Real vs. Fake progress]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/KTmxaMdUbHA-ai-is-eating-logistics|AI Is Eating Logistics]]: Startup accelerator and host of the Light Cone podcast
+- [[sources/M-1r50ewZEM-why-now-is-the-best-time-for-designers-to-start-companies|Why Now Is the Best Time for Designers to Start Companies]]: A startup accelerator that provides seed funding and mentorship to startups.
+- [[sources/K4s6Cgicw_A-startup-ideas-you-can-now-build-with-ai|Startup Ideas You Can Now Build With AI]]: Startup accelerator and venture capital firm.
+- [[sources/KQJ6zsNCA-4-jessica-livingston-at-startup-school-2012|Jessica Livingston at Startup School 2012]]: Startup accelerator
+- [[sources/LEgbK735lfw-erin-frey-on-therapy|Erin Frey on Therapy]]: A startup accelerator.
+- [[sources/KxjPgGLVJSg-how-new-technology-creates-new-businesses|How New Technology Creates New Businesses]]: Startup accelerator
+- [[sources/KmfuIt96vU4-ooshma-garg-at-startup-school-sv-2016|Ooshma Garg at Startup School SV 2016]]: A startup accelerator program.
+- [[sources/LBC16jhiwak-kirsty-nathoo-managing-startup-finances|Kirsty Nathoo - Managing Startup Finances]]: Startup accelerator
+- [[sources/MFqMaVn5r-Y-request-for-startups-government-2-0-michael-seibel|Request for Startups: Government 2.0 - Michael Seibel]]: A startup accelerator and venture capital firm.
+- [[sources/KWNNmPCF-Xs-should-you-follow-your-passion-dalton-caldwell-and-michael-seibel|Should You Follow Your Passion? – Dalton Caldwell and Michael Seibel]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/L8A2movTZGk-yc-s-director-of-events-domonique-fines-with-elpha-ceo-cadran-cowansage|YC's Director of Events Domonique Fines with Elpha CEO Cadran Cowansage]]: Startup accelerator.
+- [[sources/KxN9dJKPbD8-how-should-business-schools-prepare-students-for-startups-jeff-bussgang-and-michael-seibel|How Should Business Schools Prepare Students for Startups? – Jeff Bussgang and Michael Seibel]]: Startup accelerator
+- [[sources/L325PVEvm7Q-vidit-aatrey-on-building-meesho-india-s-top-reselling-platform-with-adora-cheung|Vidit Aatrey on Building Meesho, India's Top Reselling Platform, with Adora Cheung]]: Startup accelerator
+- [[sources/LJay5YW4fLA-how-to-earn-customers-for-life|How To Earn Customers For Life]]: Startup accelerator
+- [[sources/MtuLy9x5TGg-gustaf-s-startup-framework-for-spending-money|Gustaf’s Startup Framework For Spending Money]]: Startup accelerator
+- [[sources/MbFcWCCqImk-using-llms-instead-of-government-consulting|Using LLMs Instead of Government Consulting]]: A startup accelerator that provides seed funding for startups.
+- [[sources/MDB_TbJLJuw-what-are-some-things-you-ve-had-to-unlearn|What are some things you’ve had to unlearn?]]: A startup accelerator that provides seed funding and mentorship to startups.
+- [[sources/MYHb6yfFMmw-sam-altman-s-whale-ama|Sam Altman's Whale AMA]]: A startup accelerator and venture capital firm.
+- [[sources/NIHTMVkSmEE-it-s-all-about-your-users|It’s all about your users.]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/MABmQhOlmJA-suhail-doshi-how-to-measure-your-product|Suhail Doshi - How to Measure Your Product]]: Startup accelerator
+- [[sources/LzhXIBPYyxw-ben-silbermann-at-startup-school-sv-2016|Ben Silbermann at Startup School SV 2016]]: A startup accelerator and venture capital firm.
+- [[sources/Mzs31xuhON8-founder-stories-saurav-kumar|Founder Stories: Saurav Kumar]]: A startup accelerator that provides funding and mentorship.
+- [[sources/NDHvK8yKar8-founder-stories-priya-khandelwal|Founder Stories: Priya Khandelwal]]: Startup accelerator program.
+- [[sources/N8deM6B4eE4-how-do-you-convince-someone-to-join-your-startup-dalton-caldwell|How Do You Convince Someone to Join Your Startup? - Dalton Caldwell]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/NNwoLCGgN7o-ai-for-scientific-advancement|AI for Scientific Advancement]]: A startup accelerator and venture capital firm.
+- [[sources/N8ajU0uav80-stablecoin-financial-services|Stablecoin Financial Services]]: A startup accelerator that provides funding and support to early-stage companies.
+- [[sources/Ob-DmZg7pbM-the-line-between-software-and-service|The Line Between Software and Service]]: Startup accelerator and host of the video content.
+- [[sources/OUJznQbHkI4-founder-stories-rishi-choudhary|Founder Stories: Rishi Choudhary]]: Startup accelerator program
+- [[sources/MP32_y4JZDQ-yc-sus-aaron-epstein-and-eric-migicovsky-give-website-feedback|YC SUS: Aaron Epstein and Eric Migicovsky give website feedback]]: Startup accelerator
+- [[sources/NmEyx9TEkRw-how-to-create-luck-dalton-caldwell-y-combinator-partner|How to Create Luck - Dalton Caldwell, Y Combinator Partner]]: A startup accelerator program.
+- [[sources/OdHj-1012vs-rfs-better-enterprise-glue|RFS: Better Enterprise glue]]: A startup accelerator and venture capital firm.
+- [[sources/PHgqbdcWTuk-once-you-identify-the-problem-and-fix-it-you-can-always-launch-again|Once you identify the problem and fix it, you can always launch again.]]: A startup accelerator that provides seed funding and mentorship to early-stage companies.
+- [[sources/NEp9aaQuYp4-jessica-livingston-speaks-at-female-founders-conference-2015|Jessica Livingston Speaks at Female Founders Conference 2015]]: A startup accelerator and investment firm.
+- [[sources/NZp5j5hvn9I-50-founders-share-how-they-got-their-first-customers|50 Founders Share How They Got Their First Customers]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/Om5XuTbXP1U-elon-musk-on-how-to-be-most-useful|Elon Musk On How To Be Most Useful]]: Startup accelerator
+- [[sources/O6uREh3G3sQ-design-for-startups-by-garry-tan-part-2|Design for Startups by Garry Tan (Part 2)]]: Startup accelerator.
+- [[sources/OSZidU6R_mU-reshma-shetty-founder-of-ginkgo-bioworks-at-the-female-founders-conference|Reshma Shetty, Founder of Ginkgo Bioworks at the Female Founders Conference]]: A startup accelerator that hosted the Female Founders Conference.
+- [[sources/Nsx5RDVKZSk-why-startup-founders-should-launch-companies-sooner-than-they-think|Why Startup Founders Should Launch Companies Sooner Than They Think]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/NEOR0AJsziE-marc-andreessen-at-startup-school-sv-2016|Marc Andreessen at Startup School SV 2016]]: Startup accelerator.
+- [[sources/O5KCB2p6SB8-the-student-s-guide-to-becoming-a-successful-startup-founder|The Student's Guide To Becoming A Successful Startup Founder]]: Startup accelerator
+- [[sources/OK6sdErKWW0-yc-sus-kat-ma-alac-and-eric-migicovsky-discuss-week-2-sus-lectures|YC SUS: Kat Mañalac and Eric Migicovsky discuss Week 2 SUS Lectures]]: Startup accelerator
+- [[sources/NlhujkRroJY-jocko-willink-and-mike-sarraille-helping-veterans-transition-into-the-private-sector|Jocko Willink and Mike Sarraille - Helping Veterans Transition into the Private Sector]]: Startup accelerator and host of the podcast.
+- [[sources/PpNHP3-KXoE-change-the-way-you-think-about-launching|Change the way you think about launching.]]: A startup accelerator that provides seed funding and mentorship to early-stage companies.
+- [[sources/Octm_7llbGA-avni-patel-thompson-at-the-seattle-female-founders-conference|Avni Patel Thompson at the Seattle Female Founders Conference]]: A startup accelerator that hosted the Female Founders Conference.
+- [[sources/PCypBUVhff8-inside-the-startup-reinventing-the-6-trillion-chemical-manufacturing-industry|Inside The Startup Reinventing The $6 Trillion Chemical Manufacturing Industry]]: Startup accelerator that provided guidance and early support to Solugen.
+- [[sources/NprBQi0cSHU-running-your-company-by-patrick-collison|Running Your Company by Patrick Collison]]: A startup accelerator.
+- [[sources/P6pQyB6ACrk-be-wary-of-solving-a-small-rare-problem-des-traynor-of-intercom|Be Wary of Solving a Small, Rare Problem - Des Traynor of Intercom]]: Startup accelerator
+- [[sources/PqV28tLnpQo-bring-manufacturing-back-to-america|Bring Manufacturing Back to America]]: A startup accelerator that provides seed funding for startups.
+- [[sources/Oh0sEkqSVxM-announcing-work-at-a-startup|Announcing Work at a Startup]]: A startup accelerator that provides seed funding and support to early-stage companies.
+- [[sources/Q2X2kAJajs4-rfs-commercial-open-source-companies|RFS: Commercial open source companies]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/QAJQOXMM7ak-should-i-use-a-dev-shop-michael-seibel|Should I Use a Dev Shop? - Michael Seibel]]: A prominent startup accelerator.
+- [[sources/PB64IQrkID8-from-startup-to-scaleup-sam-altman-and-reid-hoffman|From Startup to Scaleup | Sam Altman and Reid Hoffman]]: Startup accelerator
+- [[sources/PGqX9fpweyc-kevin-hale-how-to-improve-conversion-rates|Kevin Hale - How to Improve Conversion Rates]]: Startup accelerator and host of the presentation.
+- [[sources/PQU9o_5rHC4-inside-claude-code-with-its-creator-boris-cherny|Inside Claude Code With Its Creator Boris Cherny]]: Startup accelerator and host of the Light Cone podcast.
+- [[sources/PaBx9WO1ruY-mathilde-collin-on-feature-prioritization-and-employee-retention-at-front|Mathilde Collin on Feature Prioritization and Employee Retention at Front]]: Startup accelerator
+- [[sources/OkrFzT5iLco-claire-mcdonnell-and-jennifer-kim-on-building-an-inclusive-company-culture|Claire McDonnell and Jennifer Kim on Building an Inclusive Company Culture]]: Startup accelerator
+- [[sources/P-EMcAvE5YI-the-challenges-a-repeat-founder-faces-tikhon-bernstam|The Challenges a Repeat Founder Faces - Tikhon Bernstam]]: Startup accelerator.
+- [[sources/PZqt2Y84gf0-the-immigrant-journey-behind-a-silicon-valley-success-story|The Immigrant Journey Behind A Silicon Valley Success Story]]: Startup accelerator and media producer.
+- [[sources/PJge-MV3Z5w-dalton-caldwell-s-whale-ama|Dalton Caldwell's Whale AMA]]: Startup accelerator and seed fund
+- [[sources/Q4GJKcP_2FQ-know-why-you-re-starting-a-company-danae-ringelmann-of-indiegogo|Know Why You're Starting a Company - Danae Ringelmann of Indiegogo]]: Startup accelerator
+- [[sources/Q_-Z8S_43mQ-know-what-you-re-worth|Know what you’re worth.]]: A startup accelerator and venture capital firm.
+- [[sources/MT4Ig2uqjTc-eric-migicovsky-how-to-talk-to-users|Eric Migicovsky - How to Talk to Users]]: A startup accelerator.
+- [[sources/Q0Xs0lGgwVA-you-don-t-have-to-be-a-billionaire-to-launch-satellites|You Don’t Have To Be A Billionaire To Launch Satellites]]: A startup accelerator that funded Astranis in 2016.
+- [[sources/RugBSTBjujA-rfs-climate-tech|RFS: Climate Tech]]: A startup accelerator that provides seed funding and guidance to startups.
+- [[sources/QBOxjlN9M2E-2021-yc-top-companies-on-their-startup-journey|2021 YC Top Companies on Their Startup Journey]]: Startup accelerator program
+- [[sources/Pdne9xaRLUc-why-now-is-the-best-time-to-build-in-crypto|Why Now Is The Best Time To Build In Crypto]]: A prominent startup accelerator.
+- [[sources/PzkyHKHRH2w-elizabeth-iorns-on-biotech-companies-in-yc|Elizabeth Iorns on Biotech Companies in YC]]: A startup accelerator that provides funding and mentorship to early-stage companies.
+- [[sources/S07IIpgjFZ4-don-t-be-afraid-to-talk-about-price|Don’t Be Afraid to Talk About Price]]: A startup accelerator that provides seed funding and mentorship to startups.
+- [[sources/Rzlr2tNSl0U-doordash-s-application-video-for-yc-s13|DoorDash's Application Video for YC S13]]: Startup accelerator.
+- [[sources/QPbHf4i6CrQ-danae-ringelmann-at-startup-school-sv-2014|Danae Ringelmann at Startup School SV 2014]]: Startup accelerator
+- [[sources/QKPgBAnbc10-tom-blomfield-how-i-created-two-billion-dollar-fintech-startups|Tom Blomfield: How I Created Two Billion-Dollar Fintech Startups]]: A startup accelerator and investment firm.
+- [[sources/Q8wVMdwhlh4-the-ai-agent-economy-is-here|The AI Agent Economy Is Here]]: A startup accelerator.
+- [[sources/R2fAYn8R318-how-surbhi-sarna-built-a-275m-biotech-company-from-nothing|How Surbhi Sarna Built A $275M Biotech Company From Nothing]]: Startup accelerator and investment firm.
+- [[sources/QWB8zO9yl24-urska-srsen|Urska Srsen]]: A startup accelerator program.
+- [[sources/RD5EAMOh7fE-how-generosity-built-tech-giants|How Generosity Built Tech Giants]]: Startup accelerator
+- [[sources/SUaw5gPSlxc-startups-take-on-the-personality-of-its-founders-so-work-on-getting-yourself-right|Startups take on the personality of its founders, so work on getting yourself right.]]: Startup accelerator and publisher of the video content.
+- [[sources/SLzuikEXoRY-san-francisco-and-silicon-valley-is-for-the-builders|San Francisco (and Silicon Valley) is for the builders.]]: A startup accelerator that provides seed funding and mentorship to early-stage companies.
+- [[sources/QzUQiIMtHSE-tracy-young-on-scaling-plangrid-to-400-people-with-yc-partner-kat-manalac|Tracy Young on Scaling PlanGrid to 400+ People with YC Partner Kat Manalac]]: Startup accelerator.
+- [[sources/RxjZbmr1d1w-most-startups-are-undercharging-dalton-caldwell|Most Startups Are Undercharging - Dalton Caldwell]]: Startup accelerator
+- [[sources/UHRai4geWQ4-how-do-you-prioritize-your-tasks|How do you prioritize your tasks?]]: Startup accelerator and publisher of the video
+- [[sources/TFXPfy7sWG8-a-secure-ai-app-store|A Secure AI App Store]]: A startup accelerator that provides seed funding and guidance to early-stage companies.
+- [[sources/TNgjY5twBIg-40-ai-founders-discuss-current-artificial-intelligence-technology|40 AI Founders Discuss Current Artificial Intelligence Technology]]: Startup accelerator hosting the AI founders.
+- [[sources/S2YCcdb1rG4-after-pmf-people-customers-sales-by-mathilde-collin|After PMF: People, Customers, Sales by Mathilde Collin]]: A startup accelerator.
+- [[sources/RynySryqM_0-cursor-head-of-design-roasts-startup-websites|Cursor Head of Design Roasts Startup Websites]]: Startup accelerator.
+- [[sources/T6g2D92H1FQ-andy-bromberg-startup-investor-school-day-4|Andy Bromberg - Startup Investor School Day 4]]: Startup accelerator
+- [[sources/Sk5B2Ud1DVg-carolynn-levy-and-kirsty-nathoo-startup-investor-school-day-1|Carolynn Levy and Kirsty Nathoo - Startup Investor School Day 1]]: Startup accelerator.
+- [[sources/SMi3JO-hsyY-why-founders-shouldn-t-think-like-investors|Why Founders Shouldn't Think Like Investors]]: Startup accelerator
+- [[sources/TCA_7RVo7Uo-scaling-product-fireside-with-joe-gebbia-and-reid-hoffman|Scaling Product | Fireside with Joe Gebbia and Reid Hoffman]]: Startup accelerator
+- [[sources/Th8JoIan4dg-how-to-get-and-evaluate-startup-ideas-startup-school|How to Get and Evaluate Startup Ideas | Startup School]]: Startup accelerator and venture capital firm.
+- [[sources/UZYgqu4XzOA-can-you-apply-to-yc-before-you-have-a-us-visa-jared-friedman|Can You Apply to YC Before You Have a US Visa? - Jared Friedman]]: Startup accelerator program
+- [[sources/UjcUUN_u4vQ-don-t-just-check-off-boxes|Don't Just Check Off Boxes]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/UZbXWYY7y-A-the-ai-economy-is-stabilizing|The AI Economy Is Stabilizing]]: A startup accelerator and venture capital firm.
+- [[sources/Ts9SOxgsbtw-fundraising-panel-at-female-founders-conference-2016|Fundraising Panel at Female Founders Conference 2016]]: Startup accelerator.
+- [[sources/TANaRNMbYgk-how-to-get-ai-startup-ideas|How To Get AI Startup Ideas]]: Startup accelerator and venture capital firm.
+- [[sources/TrXi3naD6Og-michael-truell-building-cursor-at-23-taking-on-github-copilot-advice-to-engineering-studen|Michael Truell: Building Cursor At 23, Taking On GitHub Copilot & Advice To Engineering Students]]: Startup accelerator.
+- [[sources/TogTe74Zg7w-amber-atherton-of-zyper-and-iba-masood-of-tara-on-raising-a-series-a-as-a-female-founder|Amber Atherton of Zyper and Iba Masood of TARA on Raising a Series A as a Female Founder]]: Startup accelerator
+- [[sources/Ux0bgCMWre4-how-do-you-balance-optimism-and-pessimism-while-building-your-company|How do you balance optimism and pessimism while building your company?]]: Startup accelerator and investment firm.
+- [[sources/T9ikpoF2GH0-gustaf-alstromer-how-to-get-users-and-grow|Gustaf Alstromer - How to Get Users and Grow]]: Startup accelerator.
+- [[sources/TECDj4JUx7o-how-ai-coding-agents-will-change-your-job|How AI Coding Agents Will Change Your Job]]: Startup accelerator.
+- [[sources/UKVmfinc8qE-startup-hiring-advice-from-lever-ceo-sarah-nahm-with-holly-liu|Startup Hiring Advice from Lever CEO Sarah Nahm with Holly Liu]]: Startup accelerator
+- [[sources/Ud4Q1Lzh5c8-office-hours-with-kevin-qasar|Office Hours with Kevin & Qasar]]: Startup accelerator.
+- [[sources/USyurlvZr68-diana-hu-on-augmented-reality-and-building-a-startup-in-a-new-market|Diana Hu on Augmented Reality and Building a Startup in a New Market]]: Startup accelerator.
+- [[sources/VMJm6MdUJO8-the-real-moat|The Real Moat]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/UPGB-hsAoVY-the-powerful-alternative-to-fine-tuning|The Powerful Alternative To Fine-Tuning]]: Startup accelerator and host of the Light Cone podcast.
+- [[sources/ShYKkPPhOoc-how-to-spend-your-20s-in-the-ai-era|How to Spend Your 20s in the AI Era]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/V7G-VHYg0Cc-jessica-livingston-s-advice-for-founders|Jessica Livingston's Advice For Founders]]: A startup accelerator.
+- [[sources/TwDJhUJL-5o-the-truth-about-building-ai-startups-today|The Truth About Building AI Startups Today]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/Vi4c51aq-SQ-compliance-and-audit|Compliance and Audit]]: A startup accelerator that provides seed funding and support to early-stage companies.
+- [[sources/U_g-fBfPOF8-drew-houston-how-to-build-the-future|Drew Houston : How to Build the Future]]: Startup accelerator.
+- [[sources/WI_w9po5oz0-building-the-world-s-first-reusable-rockets|Building The World's First Reusable Rockets]]: Startup accelerator and host of the interview.
+- [[sources/VtDBvmxiXnA-find-a-pain-point-worth-solving|Find a Pain Point Worth Solving]]: A startup accelerator that provides seed funding and mentorship to early-stage companies.
+- [[sources/Wdxo3AMd44s-the-shortcut-rule|The Shortcut Rule]]: Startup accelerator and publisher of the video.
+- [[sources/VuVhxwwvCXQ-introduction-at-startup-school-ny-2014|Introduction at Startup School NY 2014]]: A startup accelerator that hosts Startup School.
+- [[sources/VNxBZ7ka5J0-how-to-keep-your-users-startup-school|How To Keep Your Users | Startup School]]: Startup accelerator and venture capital firm.
+- [[sources/V979Wd1gmTU-sam-altman-the-future-of-openai-chatgpt-s-origins-and-building-ai-hardware|Sam Altman: The Future of OpenAI, ChatGPT's Origins, and Building AI Hardware]]: Startup accelerator
+- [[sources/UqKzpLqXuI0-why-investors-can-t-fix-your-company-dalton-caldwell-and-michael-seibel|Why Investors Can’t Fix Your Company – Dalton Caldwell and Michael Seibel]]: A startup accelerator.
+- [[sources/Xdn-Bop8xr8-career-trajectories-are-non-linear|Career trajectories are non-linear.]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/W3keOVTy2yE-ai-coding-agent-for-hardware-optimized-code|AI Coding Agent for Hardware-Optimized Code]]: A startup accelerator.
+- [[sources/VThN7kpjRpM-elad-gil-and-pejman-nozad-startup-investor-school-day-3|Elad Gil and Pejman Nozad - Startup Investor School Day 3]]: Startup accelerator.
+- [[sources/VIkphkYlkaQ-how-to-build-a-truly-abundant-future|How To Build A Truly Abundant Future]]: Startup accelerator and host of the show.
+- [[sources/Xzu8BuxMHHw-ai-research-labs|AI Research Labs]]: A startup accelerator and venture capital firm.
+- [[sources/XvlKwwKfS5c-startup-advisor-equity-pebble-watch-founder-eric-migicovsky|Startup Advisor Equity? - Pebble Watch Founder Eric Migicovsky]]: A startup accelerator.
+- [[sources/VaQA55ZZWBU-from-a-pivot-to-building-a-9-6-billion-payroll-company|From A Pivot To Building A $9.6 Billion Payroll Company]]: Startup accelerator
+- [[sources/VyIOoqjm8HA-building-the-world-s-best-image-diffusion-model|Building The World's Best Image Diffusion Model]]: Startup accelerator.
+- [[sources/ZIj_oFk2Af0-your-outreach-emails-should-probably-pass-this-test-before-you-hit-send|Your outreach emails should probably pass this test before you hit send.]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/WvBSU4pjnX8-karn-saroya-on-the-capital-light-way-to-start-an-insurance-business|Karn Saroya on the Capital-Light Way to Start an Insurance Business]]: Startup accelerator.
+- [[sources/Vp48ko2VJgE-shana-fisher-at-startup-school-ny-2014|Shana Fisher at Startup School NY 2014]]: Startup accelerator program.
+- [[sources/YNAOXokK--o-doordash-at-yc-summer-2013-demo-day|DoorDash at YC Summer 2013 Demo Day]]: A startup accelerator.
+- [[sources/WmFJpv7-VyY-simone-giertz-on-her-robots-and-returning-to-work-after-brain-surgery|Simone Giertz on Her Robots and Returning to Work After Brain Surgery]]: Startup accelerator and host of the podcast.
+- [[sources/YU0kYWNuMXo-don-t-make-the-investor-your-customer|Don't make the investor your customer.]]: A startup accelerator that provides seed funding and mentorship to early-stage companies.
+- [[sources/XcCmMOWuAF4-adora-cheung-how-to-prioritize-your-time|Adora Cheung - How to Prioritize Your Time]]: Startup accelerator and venture capital firm.
+- [[sources/WlT3UhC7NwQ-chase-adam-at-startup-school-2013|Chase Adam at Startup School 2013]]: Startup accelerator
+- [[sources/XS-kKX9wQk0-kathryn-minshew-at-startup-school-ny-2014|Kathryn Minshew at Startup School NY 2014]]: Startup accelerator and host of the event.
+- [[sources/ZgQPB0qpk2A-llms-for-chip-design|LLMs for Chip Design]]: A startup accelerator that provides seed funding and guidance.
+- [[sources/WJoZK9sMwvw-how-to-design-better-ai-apps|How To Design Better AI Apps]]: Startup accelerator and investment firm.
+- [[sources/Ya0I6oz7q9U-nate-blecharczyk-at-startup-school-2013|Nate Blecharczyk at Startup School 2013]]: Startup accelerator
+- [[sources/Z8_8jNLsZms-chase-adam-at-startup-school-ny-2014|Chase Adam at Startup School NY 2014]]: Startup accelerator
+- [[sources/a-O7vv0ZfNg-the-future-of-software-engineering|The Future of Software Engineering]]: A startup accelerator that provides seed funding for startups.
+- [[sources/YzyatiQrQlQ-why-you-should-or-should-not-work-at-a-startup-by-justin-kan|Why You Should or Should Not Work at a Startup by Justin Kan]]: Startup accelerator.
+- [[sources/Ygr3rx4hSsc-jessica-livingston-what-s-different-about-unicorns|Jessica Livingston - What's Different about "Unicorns"]]: Startup accelerator.
+- [[sources/ZOeyYAfKXLI-david-rusenko-at-startup-school-2012|David Rusenko at Startup School 2012]]: A startup accelerator program.
+- [[sources/aDM8CNnCOwk-tim-brady-how-do-you-calculate-burn-rate-runway-and-growth-rate|Tim Brady - How do you calculate burn rate, runway and growth rate?]]: Startup accelerator and venture capital firm
+- [[sources/Z9C1kBmEdtY-adora-cheung-speaks-at-female-founders-conference-2015|Adora Cheung Speaks at Female Founders Conference 2015]]: Startup accelerator and host of the Female Founders Conference.
+- [[sources/Z4L4ZqL1xqQ-the-best-consumer-startup-ideas-were-impossible-until-now|The Best Consumer Startup Ideas Were Impossible Until Now]]: Startup accelerator.
+- [[sources/aXmmS9QKRDg-sales-pre-pmf-should-be-done-by-the-founders|Sales pre-PMF should be done by the founders.]]: A startup accelerator that provides seed funding and mentorship to early-stage startups.
+- [[sources/ZAkzs4rgjOo-the-most-important-decision-is-getting-started-laura-behrens-wu|The Most Important Decision is Getting Started – Laura Behrens Wu]]: A startup accelerator.
+- [[sources/Zj1WyGpSbrM-should-you-move-your-company-to-silicon-valley-eric-migicovsky-pebble-founder|Should You Move Your Company to Silicon Valley? - Eric Migicovsky, Pebble Founder]]: A startup accelerator program.
+- [[sources/ZpKu2wvquWg-how-to-build-a-tech-startup-with-no-technical-skills|How To Build A Tech Startup With No Technical Skills]]: A prominent startup accelerator.
+- [[sources/awj6Ez4LAnA-software-engineering-as-we-know-it-will-look-much-different-in-5-10-years|Software engineering as we know it will look much different in 5-10 years.]]: Startup accelerator and publisher of the video content.
+- [[sources/asalbJSHS8g-make-llms-easy|Make LLMs easy]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/ZTv4iO7e8bQ-y-combinator-partners-q-a|Y Combinator Partners Q&A]]: A startup accelerator and seed fund.
+- [[sources/bLFl8OffFLE-large-spatial-models|Large Spatial Models]]: A startup accelerator and venture capital firm.
+- [[sources/ZqGOCF4O6ks-does-your-startup-need-to-be-in-san-francisco|Does Your Startup Need To Be In San Francisco?]]: Startup accelerator
+- [[sources/as7mjhC8puM-dreamcraft-s18-yc-tech-talks-gaming-2020-november-9th-2020|Dreamcraft (S18) - YC Tech Talks: Gaming 2020 (November 9th, 2020)]]: Startup accelerator program.
+- [[sources/Z_ZzQmmSN5Y-yc-sus-michael-seibel-and-eric-migicovsky-discuss-how-to-launch-an-mvp|YC SUS: Michael Seibel and Eric Migicovsky discuss How to Launch an MVP]]: Startup accelerator
+- [[sources/a8-QsBHoH94-chelsea-finn-building-robots-that-can-do-anything|Chelsea Finn: Building Robots That Can Do Anything]]: A startup accelerator and host of the event.
+- [[sources/bM_f0Ah7VGw-could-your-side-project-become-a-startup|Could your side project become a startup?]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/ax24RdYqM54-jessica-livingston-on-cofounder-disputes-and-making-something-people-want|Jessica Livingston on Cofounder Disputes and Making Something People Want]]: Startup accelerator
+- [[sources/bWpBpuiVt30-you-need-to-talk-to-your-users-entrepreneur-startup-tech|You need to talk to your users. #entrepreneur #startup #tech]]: Startup accelerator
+- [[sources/Zyw-YA0k3xo-the-fde-playbook-for-ai-startups-with-bob-mcgrew|The FDE Playbook for AI Startups with Bob McGrew]]: Startup accelerator.
+- [[sources/aengRJUUNLw-andrew-kortina-of-venmo-and-fin-on-technological-determinism-and-work-s-relationship-to-di|Andrew Kortina of Venmo and Fin on Technological Determinism and Work's Relationship to Dignity]]: Startup accelerator.
+- [[sources/a_n4yOqlWbA-apple-vision-pro-startup-platform-of-the-future|Apple Vision Pro: Startup Platform Of The Future?]]: A startup accelerator.
+- [[sources/al-15mMAS18-building-confidence-in-yourself-and-your-ideas|Building Confidence In Yourself and Your Ideas]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/bBGmSDQ1mAs-jessica-mah-at-female-founders-conference-2014|Jessica Mah at Female Founders Conference 2014]]: A startup accelerator program.
+- [[sources/bJ2rUa_pHxo-yc-panel-at-female-founders-conference-2015|YC Panel at Female Founders Conference 2015]]: Startup accelerator
+- [[sources/aIKfA3gIXwo-how-ai-is-changing-enterprise|How AI Is Changing Enterprise]]: Startup accelerator
+- [[sources/c0MJdUVYp3w-ai-personal-tutor-for-everyone|AI Personal Tutor for Everyone]]: Startup accelerator and publisher of the video.
+- [[sources/aYK0H85E_oU-how-zepto-became-india-s-fastest-growing-startup|How Zepto Became India’s Fastest Growing Startup]]: Startup accelerator
+- [[sources/c3r2EyhtAFI-many-ai-apps-today-are-like-the-horseless-carriages-of-the-late-19th-century|Many AI apps today are like the horseless carriages of the late 19th century.]]: Startup accelerator and media producer.
+- [[sources/bgp5QZwuNQI-the-secret-that-silicon-valley-s-top-investors-all-share|The Secret That Silicon Valley's Top Investors All Share]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/cwmydEeoMJ4-founder-burnout-happens-a-lot-a-good-co-founder-can-help-shoulder-the-load|Founder burnout happens a lot. A good co-founder can help shoulder the load.]]: A startup accelerator that provides seed funding and advice to startups.
+- [[sources/coPCKJZ3CRA-ooshma-garg-what-are-some-of-the-challenges-you-face-as-the-ceo-of-your-startup|Ooshma Garg: What are some of the challenges you face as the CEO of your startup?]]: Startup accelerator and media channel.
+- [[sources/bpJQN2WyD8g-q-a-with-yc-partners-at-startup-school-sv-2016|Q&A with YC Partners at Startup School SV 2016]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/cyWjherSNFE-reasons-to-do-yc|Reasons to do YC.]]: A startup accelerator program.
+- [[sources/bSbPXrQ9Wf8-paul-buchheit-startup-investor-school-day-2|Paul Buchheit - Startup Investor School Day 2]]: Startup accelerator.
+- [[sources/czQxHhp7jec-the-best-way-to-price-any-product|The best way to price any product]]: A startup accelerator that provides seed funding and guidance to early-stage companies.
+- [[sources/bp_kMA-eTsE-advantages-of-a-first-time-founder|Advantages Of A First-Time Founder]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/bgwqM6J3WeM-ron-conway-startup-investor-school-day-4|Ron Conway - Startup Investor School Day 4]]: Startup accelerator and host of the Startup Investor School.
+- [[sources/cZ3kiEyDTCQ-what-david-lieb-and-his-team-built-eventually-became-the-foundation-for-google-photos|What David Lieb and his team built eventually became the foundation for Google Photos.]]: A startup accelerator.
+- [[sources/chAoH_AeGAg-should-you-quit-your-job-at-a-unicorn|Should You Quit Your Job At A Unicorn?]]: A startup accelerator and venture capital firm.
+- [[sources/cOubCHLXT6A-balaji-srinivasan-at-startup-school-2013|Balaji Srinivasan at Startup School 2013]]: Startup accelerator.
+- [[sources/c-beGCkpcMs-advice-for-students-and-recent-graduates-on-finding-jobs-liz-wessel-of-wayup|Advice for Students and Recent Graduates on Finding Jobs – Liz Wessel of WayUp]]: Startup accelerator.
+- [[sources/dAjG6e2T8zY-ai-won-t-make-coding-obsolete-it-will-make-it-universal|AI won’t make coding obsolete. It will make it universal.]]: A startup accelerator that provides seed funding and support for early-stage companies.
+- [[sources/cN62reafxLg-work-at-a-startup-expo-2018|Work at a Startup Expo 2018]]: Startup accelerator.
+- [[sources/bvjyaz4ZiVI-how-top-1-founders-navigate-co-founder-conflict|How Top 1% Founders Navigate Co-founder Conflict]]: Startup accelerator and venture capital firm.
+- [[sources/cQ3tZ05KCtw-emmett-shear-at-startup-school-sv-2014|Emmett Shear at Startup School SV 2014]]: Startup accelerator program.
+- [[sources/d7tDaFr5EYA-how-to-find-a-technical-cofounder-michael-seibel|How to Find a Technical Cofounder - Michael Seibel]]: A startup accelerator.
+- [[sources/crMVJAf5TjA-team-and-execution-with-sam-altman-how-to-start-a-startup-2014-lecture-2|Team and Execution with Sam Altman (How to Start a Startup 2014: Lecture 2)]]: Startup accelerator.
+- [[sources/bxBzsSsqQAM-the-7-most-powerful-moats-for-ai-startups|The 7 Most Powerful Moats For AI Startups]]: Startup accelerator.
+- [[sources/eUvMhQKrojE-hiring-a-faang-engineer-won-t-miraculously-save-your-startup|Hiring a FAANG engineer won’t miraculously save your startup]]: Startup accelerator and venture capital firm.
+- [[sources/d2GglPzOXfM-later-stage-advice-with-sam-altman-how-to-start-a-startup-2014-lecture-20|Later Stage Advice with Sam Altman (How to Start a Startup 2014: Lecture 20)]]: Startup accelerator.
+- [[sources/e2mmfE1juFs-new-defense-technology|New Defense Technology]]: A startup accelerator that provides seed funding for startups.
+- [[sources/e2644ylntQQ-ben-huh-on-therapy|Ben Huh on Therapy]]: Startup accelerator and investment firm.
+- [[sources/dlfjs_eEEzs-co-founder-mistakes-that-kill-companies-how-to-avoid-them|Co-Founder Mistakes That Kill Companies & How To Avoid Them]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/esvgwME4NyI-you-should-probably-still-learn-how-to-code|You should probably still learn how to code.]]: Startup accelerator and media producer
+- [[sources/e1Yhs9BEOSw-lightcone-consumer-is-back-what-s-getting-funded-now-the-vibes-immaculate|Lightcone: Consumer is back, What’s getting funded now, The vibes immaculate]]: Startup accelerator and investment firm.
+- [[sources/dy_QmBSSMqc-software-engineer-turned-youtuber-jarvis-johnson|Software Engineer Turned Youtuber - Jarvis Johnson]]: Startup accelerator and host of the podcast.
+- [[sources/fetC2EpDtN8-launch-quickly-and-iterate|Launch quickly, and iterate.]]: A startup accelerator that provides seed funding and mentorship to early-stage companies.
+- [[sources/e_pN0P0zD8g-a-conversation-with-elizabeth-iorns-advice-for-biotech-founders|A Conversation with Elizabeth Iorns - Advice for Biotech Founders]]: A startup accelerator.
+- [[sources/evIZRpNQUx4-harj-taggar-choosing-a-startup-to-work-at|Harj Taggar - Choosing a Startup to Work At]]: Startup accelerator
+- [[sources/elVbENZLbak-desining-from-day-one-artists-as-founders-multiverse-s20-yc-gaming-tech-talks-2020|Desining from Day One: Artists as Founders: Multiverse (S20) - YC Gaming Tech Talks 2020]]: A startup accelerator that hosted the talk.
+- [[sources/ex-fXyRJTU8-emily-weiss-on-the-insights-that-grew-glossier-with-amy-buechler-at-the-female-founders-co|Emily Weiss on the Insights That Grew Glossier - With Amy Buechler at the Female Founders Conference]]: A startup accelerator.
+- [[sources/egJeFaIXZLo-ideas-products-teams-and-execution-with-dustin-moskovitz-how-to-start-a-startup-2014-lectu|Ideas, Products, Teams, and Execution with Dustin Moskovitz (How to Start a Startup 2014: Lecture 1)]]: Startup accelerator.
+- [[sources/eBVi_sLaYsc-why-vertical-llm-agents-are-the-new-1-billion-saas-opportunities|Why Vertical LLM Agents Are The New $1 Billion SaaS Opportunities]]: Startup accelerator.
+- [[sources/fx3mqS_faOQ-rfs-ai-to-build-enterprise-software|RFS: AI to build enterprise software]]: A startup accelerator that provides seed funding and mentorship to early-stage companies.
+- [[sources/fcyf9z4gSeI-pitch-practice-with-paul-buchheit-and-sam-altman-at-startup-school-sv-2016|Pitch Practice with Paul Buchheit and Sam Altman at Startup School SV 2016]]: Startup accelerator.
+- [[sources/gMzKp-QXvV0-derek-thompson-s-advice-for-founders-is-to-follow-your-curiosity|Derek Thompson’s advice for founders is to follow your curiosity.]]: Startup accelerator and media host
+- [[sources/ephzgxgOjR0-how-future-billionaires-get-sh-t-done|How Future Billionaires Get Sh*t Done]]: Startup accelerator
+- [[sources/euZH0tVotPQ-investors-said-no-now-what|Investors Said No, Now What?]]: A startup accelerator and venture capital firm.
+- [[sources/fcfVjd_oV1I-how-to-not-get-screwed-as-a-software-engineer|How To NOT Get Screwed As A Software Engineer]]: A startup accelerator that provides seed funding and mentorship to startups.
+- [[sources/f0tPjcgcwnQ-when-to-launch-your-startup-and-when-to-wait|When to Launch Your Startup and When to Wait]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/h3LYXvdQ3kc-ignore-the-haters-and-keep-on-building-cool-stuff|Ignore the haters, and keep on building cool stuff.]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/fdD4y4Civp4-consumer-startup-metrics-startup-school|Consumer Startup Metrics | Startup School]]: Startup accelerator.
+- [[sources/ftpoG2fSZBY-grace-garey-speaks-at-female-founders-conference-2015|Grace Garey Speaks at Female Founders Conference 2015]]: Startup accelerator
+- [[sources/fDcW_qb-uew-google-photos-product-lead-and-bump-cofounder-david-lieb-with-gustaf-alstro-mer|Google Photos Product Lead and Bump Cofounder David Lieb with Gustaf Alströmer]]: A startup accelerator.
+- [[sources/f4_14pZlJBs-before-the-startup-with-paul-graham-how-to-start-a-startup-2014-lecture-3|Before the Startup with Paul Graham (How to Start a Startup 2014: Lecture 3)]]: A startup accelerator.
+- [[sources/gmA-BOIVKQU-mariya-nurislamova-founder-of-scentbird-at-the-female-founders-conference|Mariya Nurislamova, Founder of Scentbird at the Female Founders Conference]]: A startup accelerator program.
+- [[sources/hSDlgCKBx6w-ai-guidance-for-physical-work|AI Guidance for Physical Work]]: Startup accelerator and venture capital firm.
+- [[sources/fxIN9J3Vcv4-julia-hartz-at-female-founders-conference-2014|Julia Hartz at Female Founders Conference 2014]]: A startup accelerator.
+- [[sources/hJ4L9SseAuE-healthcare-ai|Healthcare AI]]: A startup accelerator and venture capital firm.
+- [[sources/gUuQsMERjUc-what-basic-game-theory-teaches-us-about-startups|What Basic Game Theory Teaches Us About Startups]]: Startup accelerator
+- [[sources/hsHbSkpOu2A-intellectual-fearlessness|Intellectual Fearlessness]]: Startup accelerator and publisher of the video.
+- [[sources/gcevHkNGrWQ-fundraising-fundamentals-by-geoff-ralston|Fundraising Fundamentals By Geoff Ralston]]: Startup accelerator.
+- [[sources/fmI_OciHV_8-how-to-build-generative-ai-models-like-openai-s-sora|How To Build Generative AI Models Like OpenAI's Sora]]: Startup accelerator.
+- [[sources/ijXgeZ7p9SA-over-complicated-pricing-could-kill-a-sales-process|Over-complicated pricing could kill a sales process.]]: A startup accelerator that provides seed funding and guidance to startups.
+- [[sources/hKw6cRKcqzY-inside-the-startup-launching-ai-data-centers-into-space|Inside The Startup Launching AI Data Centers Into Space]]: Startup accelerator.
+- [[sources/i-jdGdrjesg-athlane-s19-yc-tech-talks-gaming-2020-november-9-2020|Athlane (S19) - YC Tech Talks, Gaming 2020 (November 9, 2020)]]: Startup accelerator.
+- [[sources/gok9BZLMxDs-critiquing-startup-websites-with-instacart-s-first-designer|Critiquing Startup Websites With Instacart's First Designer]]: Startup accelerator.
+- [[sources/hUbM-bURoJE-the-hard-conversations-founders-don-t-want-to-have|The Hard Conversations Founders Don't Want to Have]]: Startup accelerator
+- [[sources/g3mPvKUksag-the-ceo-who-pays-employees-to-de-locate-from-the-bay|The CEO Who Pays Employees to De-Locate From the Bay]]: Startup accelerator and host of the interview.
+- [[sources/erDE2e69dlc-inside-the-hard-tech-startups-turning-sci-fi-into-reality|Inside The Hard Tech Startups Turning Sci-Fi Into Reality]]: Startup accelerator and investment firm.
+- [[sources/iLP0YyNwpTc-cursor-for-product-managers|Cursor for Product Managers]]: A startup accelerator and venture capital firm.
+- [[sources/gzLXS9DAI0A-econtalk-host-russ-roberts-on-key-economic-concepts-for-founders|EconTalk Host Russ Roberts on Key Economic Concepts for Founders]]: A startup accelerator.
+- [[sources/hQC5O3WTmuo-the-real-potential-of-generative-ai|The REAL potential of generative AI]]: Startup accelerator.
+- [[sources/jjXuP89i5T0-startup-school-is-coming-to-india|Startup School is coming to India! 🇮🇳]]: A startup accelerator and venture capital firm.
+- [[sources/jnSGYd3gdOs-coding-will-be-solved-for-everybody|Coding Will Be Solved For Everybody]]: Startup accelerator and host of the video content.
+- [[sources/hjUs7o-TnjY-ryan-petersen-on-building-flexport-a-modern-freight-forwarder|Ryan Petersen on Building Flexport, a Modern Freight Forwarder]]: Startup accelerator.
+- [[sources/iMo5-4h_XwE-what-is-zirp-and-how-did-it-poison-startups|What Is ZIRP And How Did It Poison Startups?]]: Startup accelerator
+- [[sources/hyYCn_kAngI-how-to-get-your-first-customers-startup-school|How to Get Your First Customers | Startup School]]: Startup accelerator
+- [[sources/i_PjjXKNpA4-the-startup-playbook-for-hiring-your-first-engineers-and-aes|The Startup Playbook for Hiring Your First Engineers and AEs]]: Startup accelerator.
+- [[sources/kWaVHPexucA-how-do-you-structure-your-schedule-to-be-most-productive|How do you structure your schedule to be most productive?]]: Startup accelerator and content producer.
+- [[sources/jNJQTIUyT9Y-how-to-go-from-startup-dream-to-reality|How To Go From Startup Dream To Reality]]: Startup accelerator.
+- [[sources/i5DL6qsDd44-founders-of-science-exchange-goldbely-and-the-flex-company-discuss-fundraising|Founders of Science Exchange, Goldbely, and The Flex Company Discuss Fundraising]]: A startup accelerator program.
+- [[sources/jwXlo9gy_k4-kevin-hale-startup-pricing-101|Kevin Hale - Startup Pricing 101]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/im2vOo3dEwg-leah-culver-of-breaker-and-tom-sparks-of-yc-answer-your-questions-about-security-and-podca|Leah Culver of Breaker and Tom Sparks of YC Answer Your Questions About Security and Podcasting]]: Startup accelerator.
+- [[sources/ia7IKW0yuG0-the-cult-of-conformity-in-silicon-valley|The Cult of Conformity in Silicon Valley]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/jiEtVpTE40g-jeremy-rossmann-of-make-school-on-income-share-agreements-and-the-future-of-college|Jeremy Rossmann of Make School on Income Share Agreements and the Future of College]]: Startup accelerator and podcast host.
+- [[sources/hsMePYTcIik-analyzing-billions-of-transactions-to-understand-consumer-behavior-michael-babineau-and-ke|Analyzing Billions of Transactions to Understand Consumer Behavior - Michael Babineau and Kevin Hale]]: Startup accelerator
+- [[sources/ksDTT-pm73k-closing-remarks-at-startup-school-ny-2014|Closing Remarks at Startup School NY 2014]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/kwmaCLAkpwQ-government-software|Government Software]]: A startup accelerator that provides seed funding and guidance to early-stage companies.
+- [[sources/jbIQfoldLag-now-anyone-can-code-how-ai-agents-can-build-your-whole-app|Now Anyone Can Code: How AI Agents Can Build Your Whole App]]: Startup accelerator.
+- [[sources/k4_3uluQsq4-dan-siroker-at-startup-school-2013|Dan Siroker at Startup School 2013]]: Startup accelerator.
+- [[sources/lFqFXmFG6Sc-startups-only-exist-to-find-product-market-fit|"Startups only exist to find product-market fit."]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/kYdGzntCwX4-future-founders-conference-for-women-globally|Future Founders Conference for Women Globally]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/kMYeTRqzAfc-replit-s-ceo-on-the-only-two-jobs-left-in-the-company-of-the-future|Replit's CEO On The Only Two Jobs Left In The Company Of The Future]]: Startup accelerator and host of the interview.
+- [[sources/kTS7OIAMunM-hiring-and-culture-with-patrick-and-john-collison-and-ben-silbermann-htsas-2014-11|Hiring and Culture with Patrick and John Collison and Ben Silbermann (HtSaS 2014: 11)]]: Startup accelerator
+- [[sources/lI7wslGWIn0-michael-seibel-how-do-you-decide-what-to-build-next|Michael Seibel: How do you decide what to build next?]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/kOyIjt6FUrw-how-replit-went-from-10m-to-100m-arr-in-just-9-months|How Replit Went From $10M to $100M ARR In Just 9 Months]]: Startup accelerator.
+- [[sources/ksGNfd-wQY4-what-founders-can-do-to-improve-their-design-game|What Founders Can Do To Improve Their Design Game]]: A startup accelerator.
+- [[sources/kVGvC7Ix_nc-signs-your-company-is-recovering-from-zirp|Signs Your Company Is Recovering From ZIRP]]: A startup accelerator that provides seed funding and guidance to early-stage companies.
+- [[sources/kkv5rZhrLkc-billiontoone-is-solving-one-of-biotech-s-hardest-problems|BillionToOne Is Solving One of Biotech’s Hardest Problems]]: Startup accelerator that supported BillionToOne in 2017.
+- [[sources/l58rp7JoVYQ-michelle-zatlyn-and-matthew-prince-at-startup-school-sv-2014|Michelle Zatlyn and Matthew Prince at Startup School SV 2014]]: Startup accelerator.
+- [[sources/l-vfn97QTr0-peter-reinhardt-on-finding-product-market-fit-at-segment|Peter Reinhardt on Finding Product Market Fit at Segment]]: Startup accelerator
+- [[sources/kk4yyh81fuo-female-founders-conference-new-york|Female Founders Conference - New York]]: Startup accelerator
+- [[sources/lfrF4c_NKKs-small-teams-will-build-the-future|Small Teams Will Build the Future]]: A startup accelerator that provides seed funding and support for early-stage companies.
+- [[sources/l0h3nAW13ao-from-idea-to-650m-exit-lessons-in-building-ai-startups|From Idea to $650M Exit: Lessons in Building AI Startups]]: Startup accelerator.
+- [[sources/kyYHUXxyjvI-updates-for-startup-school-2019-and-office-hours-with-kevin-hale|Updates for Startup School 2019 and Office Hours with Kevin Hale]]: Startup accelerator and host of Startup School.
+- [[sources/lvmmk85ArWg-vertical-ai-agents|Vertical AI Agents]]: Startup accelerator
+- [[sources/lVDmyRxeGCo-adora-cheung|Adora Cheung]]: Startup accelerator
+- [[sources/lL6GdUHIBsM-adora-cheung-how-to-set-kpis-and-goals|Adora Cheung - How to Set KPIs and Goals]]: Startup accelerator.
+- [[sources/lJausFj_Dto-the-two-mindsets-that-can-kill-your-startup|The Two Mindsets That Can KILL Your Startup]]: Startup accelerator
+- [[sources/lM3jtRAwJlM-marques-brownlee-on-building-an-audience-and-other-advice-for-creators|Marques Brownlee on Building an Audience and Other Advice for Creators]]: Startup accelerator and host of the interview.
+- [[sources/lkFiTvXu9Zw-the-first-10-person-100b-company|The First 10-person, $100B Company]]: A startup accelerator that provides seed funding and mentorship to early-stage companies.
+- [[sources/mzBrYp3d0y0-investors-don-t-validate-your-startup-users-do|Investors don’t validate your startup — users do.]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/ndwrFpqoz34-rfs-real-world-crypto|RFS: Real-world crypto]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/lWmDiDGsLK4-the-future-of-software-creation-with-replit-ceo-amjad-masad|The Future of Software Creation with Replit CEO Amjad Masad]]: A startup accelerator.
+- [[sources/ljVan7CGBiE-startup-experts-share-their-investor-horror-stories|Startup Experts Share Their Investor Horror Stories]]: A startup accelerator that provides funding and mentorship to early-stage companies.
+- [[sources/leQ89XSHILw-why-your-startup-website-isn-t-converting|Why Your Startup Website Isn't Converting]]: Startup accelerator and media producer
+- [[sources/oso2TJwzgSs-making-money-and-making-impact-aren-t-one-and-the-same|Making money and making impact aren't one and the same.]]: A startup accelerator that publishes content on business and life philosophy.
+- [[sources/nsM558l60_c-ai-startup-founders-debate-the-creation-of-artificial-general-intelligence|AI Startup Founders Debate the Creation of Artificial General Intelligence]]: A startup accelerator and host of the discussion.
+- [[sources/lbJilIQhHko-the-10-trillion-parameter-ai-model-with-300-iq|The 10 Trillion Parameter AI Model With 300 IQ]]: Startup accelerator.
+- [[sources/msWFarwD-fU-yc-sus-eric-migicovsky-dalton-caldwell-discuss-pivoting-pitching|YC SUS: Eric Migicovsky & Dalton Caldwell discuss pivoting & pitching]]: Startup accelerator
+- [[sources/nF_YWdz6S0Y-startup-experts-reveal-their-top-productivity-advice|Startup Experts Reveal Their Top Productivity Advice]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/muWW7QWUnGk-microbes-robots-and-ambition-robin-sloan-on-his-novel-sourdough|Microbes, Robots, and Ambition - Robin Sloan on His Novel Sourdough]]: Startup accelerator and host of the podcast.
+- [[sources/n-3Pt6HoWmA-sarah-chou-on-finding-product-market-fit-in-the-education-industry-at-yc-edtech-night|Sarah Chou on Finding Product-Market Fit in the Education Industry - at YC Edtech Night]]: Startup accelerator and host of the event.
+- [[sources/oxyyBUnhLPI-in-the-ai-era-the-playbook-is-changing|In the AI era, the playbook is changing.]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/nGLmpKi-jRU-startup-advice-ai-gtm-pivoting-how-to-hire|Startup Advice: AI GTM, Pivoting & How To Hire]]: Startup accelerator and venture capital firm.
+- [[sources/op9g4HjxrGQ-internal-agent-builder|Internal Agent Builder]]: A startup accelerator that provides seed funding for startups.
+- [[sources/nef6uTa2a5w-reid-hoffman-at-startup-school-sv-2014|Reid Hoffman at Startup School SV 2014]]: Startup accelerator.
+- [[sources/lqokpIme47A-the-finance-startup-bringing-agentic-ai-to-wall-street|The Finance Startup Bringing Agentic AI to Wall Street]]: Startup accelerator.
+- [[sources/mUZKAhcxXWI-uncut-interview-with-sam-altman-on-masters-of-scale-audio|Uncut Interview with Sam Altman on Masters of Scale [Audio]]]: Startup accelerator
+- [[sources/pOZi4PKW54M-ai-powered-agencies|AI Powered Agencies]]: A startup accelerator that provides seed funding and guidance to startups.
+- [[sources/oAEZoAp2_zY-why-fundraising-is-different-in-silicon-valley-michael-seibel|Why Fundraising Is Different In Silicon Valley - Michael Seibel]]: A startup accelerator based in Silicon Valley.
+- [[sources/powz47JL3tY-build-product-talk-to-users|Build product. Talk to users.]]: A startup accelerator that provides seed funding and mentorship to startups.
+- [[sources/pAV8f4Snx7Q-electronics-in-space|Electronics in Space]]: Startup accelerator
+- [[sources/o1HFZ8P4rA8-which-sales-strategy-is-best-for-your-startup|Which Sales Strategy Is Best For Your Startup?]]: Startup accelerator and venture capital firm.
+- [[sources/nFOC-cgIWaY-jessica-livingston-how-to-build-the-future|Jessica Livingston : How to Build the Future]]: Startup accelerator program
+- [[sources/pTova1yFXbs-adulting-and-running-a-startup-is-hard|Adulting (and running a startup) is hard.]]: A startup accelerator that provides seed funding and mentorship to startups.
+- [[sources/oWZbWzAyHAE-startup-business-models-and-pricing-startup-school|Startup Business Models and Pricing | Startup School]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/oOylEw3tPQ8-cursor-ceo-going-beyond-code-superintelligent-ai-agents-and-why-taste-still-matters|Cursor CEO: Going Beyond Code, Superintelligent AI Agents, And Why Taste Still Matters]]: Startup accelerator and host of the podcast.
+- [[sources/rNPJKpmp3TM-the-secret-to-better-product-demos|The secret to better product demos]]: A startup accelerator that provides seed funding and advice to startups.
+- [[sources/py6qnZUhXdE-it-s-much-easier-to-build-when-you-re-optimistic|It’s much easier to build when you’re optimistic.]]: A startup accelerator that provides seed funding and mentorship to startups.
+- [[sources/p8Jx4qvDoSo-scaling-and-the-road-to-human-level-ai-anthropic-co-founder-jared-kaplan|Scaling and the Road to Human-Level AI | Anthropic Co-founder Jared Kaplan]]: Startup accelerator and host of the event.
+- [[sources/oxgfehnJ7GE-camille-fournier-on-managing-technical-teams|Camille Fournier on Managing Technical Teams]]: A startup accelerator.
+- [[sources/pHuXCzM2ntU-how-this-25-year-old-built-a-675m-legal-ai-startup-with-no-legal-experience|How This 25-Year-Old Built A $675M Legal AI Startup (With No Legal Experience)]]: Startup accelerator
+- [[sources/pQnOBHNKlgs-how-pitching-investors-is-different-than-pitching-customers-michael-seibel|How Pitching Investors is Different Than Pitching Customers - Michael Seibel]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/prKi3-rUPHc-how-to-find-the-right-co-founder|How to Find the Right Co-founder]]: Startup accelerator
+- [[sources/qeeRsWofAv0-kimberly-bryant-speaks-at-female-founders-conference-2015|Kimberly Bryant Speaks at Female Founders Conference 2015]]: Startup accelerator and host of the Female Founders Conference.
+- [[sources/qh8sHetf-Nk-why-should-i-start-a-startup-by-michael-seibel|Why Should I Start a Startup? by Michael Seibel]]: A prominent startup accelerator.
+- [[sources/rePH4tln5VY-the-winter-2025-application-deadline-is-in-less-than-a-week-apply-at-ycombinator-com-apply|The Winter 2025 application deadline is in less than a week! Apply at ycombinator.com/apply.]]: A startup accelerator that provides seed funding and mentorship to early-stage companies.
+- [[sources/pqwOL6YfRIo-does-your-startup-website-pass-the-first-impression-test-design-review|Does Your Startup Website Pass The First Impression Test? | Design Review]]: Startup accelerator and media producer
+- [[sources/rKp11Jyhor8-what-do-you-do-to-help-yourself-prioritize-and-focus|What do you do to help yourself prioritize and focus?]]: A startup accelerator that provides seed funding and mentorship to startups.
+- [[sources/rSNXIX-_P78-we-re-still-in-the-early-innings-with-ai|We’re still in the early innings with AI.]]: A startup accelerator that provides seed funding for startups.
+- [[sources/qFBUd0b8TjY-ai-and-the-future-of-law-the-10-year-overnight-success-story|AI and the Future of Law: The 10 Year "Overnight" Success Story]]: Startup accelerator.
+- [[sources/rqiUudrLoHk-learning-is-so-much-easier-when-you-care-about-your-customers|Learning is so much easier when you care about your customers.]]: A startup accelerator that provides seed funding and mentorship to early-stage companies.
+- [[sources/q0dzmQ1HvGY-helping-landlords-find-tenants-sean-mitchell-of-rezi|Helping Landlords Find Tenants – Sean Mitchell of Rezi]]: Startup accelerator.
+- [[sources/px5rgcNjOTc-culture-with-brian-chesky-and-alfred-lin-how-to-start-a-startup-2014-lecture-10|Culture with Brian Chesky and Alfred Lin (How to Start a Startup 2014: Lecture 10)]]: Startup accelerator
+- [[sources/q_NbKjVc2l8-a-conversation-about-crypto-currencies-and-icos-with-andy-bromberg|A Conversation About Crypto-currencies and ICOs with Andy Bromberg]]: A startup accelerator.
+- [[sources/qnNHW6TYv5I-tim-brady-building-culture|Tim Brady - Building Culture]]: Startup accelerator.
+- [[sources/rpyvQJGcQGw-weave-s-application-video-for-yc-w14|Weave's Application Video for YC W14]]: Startup accelerator
+- [[sources/rbmov2w4ohI-focusing-on-data-quality-over-quantity-metalware-built-a-foundation-model-with-less-comput|Focusing on data quality over quantity, Metalware built a foundation model with less compute.]]: A startup accelerator that hosted Metalware during their batch.
+- [[sources/rP7bpYsfa6Q-tips-for-technical-startup-founders-startup-school|Tips For Technical Startup Founders | Startup School]]: Startup accelerator.
+- [[sources/rHOm01lWd1o-urska-srsen-speaks-at-y-combinator-female-founder-conference-2016|Urska Srsen Speaks at Y Combinator Female Founder Conference 2016]]: Startup accelerator program.
+- [[sources/s-okz_-pUHo-full-stack-ai-companies|Full-stack AI Companies]]: A startup accelerator that provides seed funding for startups.
+- [[sources/qvHhhIfu7Lo-ron-conway-at-startup-school-sv-2014|Ron Conway at Startup School SV 2014]]: A startup accelerator.
+- [[sources/sAXkAYKtOKo-when-you-re-pre-product-market-fit-sales-is-a-job-for-the-founders|When you’re pre-product market fit, sales is a job for the founders.]]: A startup accelerator that provides seed funding and mentorship to early-stage companies.
+- [[sources/qnav9vgHDHs-how-to-change-the-world-get-the-small-things-right-dalton-caldwell-and-michael-seibel|How To Change The World? Get The Small Things Right – Dalton Caldwell and Michael Seibel]]: Startup accelerator
+- [[sources/rE2XaBGHN2I-the-secrets-to-setting-smarter-goals|The Secrets To Setting Smarter Goals]]: Startup accelerator
+- [[sources/s44_2s9Lkzk-ai-for-government|AI for Government]]: Startup accelerator and venture capital firm.
+- [[sources/rQ6GoY2_Ujw-travis-kalanick-at-startup-school-2012|Travis Kalanick at Startup School 2012]]: Startup accelerator
+- [[sources/rjyJsbUunQ4-building-a-2-billion-saas-company-lessons-from-a-two-time-founder|Building A $2 Billion SaaS Company: Lessons From A Two Time Founder]]: Startup accelerator.
+- [[sources/sSVQCbYJ_7Y-technical-expertise-is-now-the-missing-piece|Technical Expertise is Now the Missing Piece]]: A startup accelerator that provides seed funding and mentorship to startups.
+- [[sources/s4RBfIwUBgY-hiroki-takeuchi|Hiroki Takeuchi]]: Startup accelerator program
+- [[sources/rvDvGM70oy4-3d-home-printing-for-the-developing-world-alexandria-lafci-and-brett-hagler-of-new-story-c|3D Home Printing for the Developing World – Alexandria Lafci and Brett Hagler of New Story Charity]]: A startup accelerator that provided guidance and mentorship to New Story.
+- [[sources/sM2reZib2RY-why-you-should-leave-your-faang-job|Why You Should Leave Your FAANG Job]]: Startup accelerator
+- [[sources/sjRtaX35TJM-we-fund-smart-founders-irrespective-of-what-they-want-to-work-on|We fund smart founders, irrespective of what they want to work on.]]: A startup accelerator that provides seed funding and mentorship to early-stage companies.
+- [[sources/sRTpVOeYCtY-find-the-one-narrow-thing-that-you-can-do-well-and-carve-out-something-that-s-great|Find the one narrow thing that you can do well, and carve out something that's great.]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/s-4QqHHE16s-sam-altman-startup-investor-school-day-1|Sam Altman - Startup Investor School Day 1]]: A startup accelerator and investment firm.
+- [[sources/tCcNb5DlH2c-care-about-your-customers-it-s-your-startup-s-superpower|Care about your customers. It’s your startup’s superpower.]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/sWTtqyNZMFg-startup-founders-have-to-do-a-lot-of-everything|Startup founders have to do a lot of… everything.]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/tEfY57agFYM-founder-stories-pablo-hansen|Founder Stories: Pablo Hansen]]: A startup accelerator that provides funding and mentorship to early-stage companies.
+- [[sources/tJ2C9a5GBOs-video-generation-as-a-primitive|Video Generation as a Primitive]]: A startup accelerator seeking founders to build in the generative video space.
+- [[sources/sNrDEIYAMjE-jessica-livingston-at-female-founders-conference-2014|Jessica Livingston at Female Founders Conference 2014]]: A startup accelerator and investment firm.
+- [[sources/s8ER6DIlAvY-geoff-ralston-parting-advice|Geoff Ralston - Parting Advice]]: A startup accelerator and investment firm.
+- [[sources/smHw9kEwcgM-will-openai-kill-all-startups|Will OpenAI Kill All Startups?]]: Startup accelerator
+- [[sources/tjagGqZ6jjM-public-safety-technology|Public Safety Technology]]: A startup accelerator that provides funding and support to early-stage companies.
+- [[sources/syoqjYLDs48-office-hours-at-startup-school-2013-with-paul-graham-and-sam-altman|Office Hours at Startup School 2013 with Paul Graham and Sam Altman]]: Startup accelerator
+- [[sources/sr0UabJd8qE-how-to-get-started-doing-things-that-don-t-scale-and-press-how-to-start-a-startup-2014-8|How to Get Started, Doing Things that Don't Scale, and Press (How to Start a Startup 2014: 8)]]: Startup accelerator
+- [[sources/sYMqVwsewSg-sam-altman-how-to-build-the-future|Sam Altman : How to Build the Future]]: Startup accelerator.
+- [[sources/t8co94HS6tY-how-amplitude-went-from-skeptics-to-all-in-on-ai|How Amplitude Went From Skeptics to “All In” on AI]]: Startup accelerator
+- [[sources/sd9yLmJ1Jfk-legal-and-accounting-basics-for-startups-with-kirsty-nathoo-and-carolynn-levy-htsas-2014-1|Legal and Accounting Basics for Startups with Kirsty Nathoo and Carolynn Levy  (HtSaS 2014: 18)]]: Startup accelerator
+- [[sources/uCRBLKGaHtY-consume-information-that-encourages-you-to-do-more-dalton-caldwell|Consume Information That Encourages You To Do More - Dalton Caldwell]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/uSYTdEVfWsY-better-models-better-startups|Better models, better startups.]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/tckGI4C7k10-unknown|Unknown]]: A startup accelerator.
+- [[sources/tA5J79on7Vg-a-conversation-with-ooshma-garg-moderated-by-adora-cheung|A Conversation with Ooshma Garg - Moderated by Adora Cheung]]: Startup accelerator.
+- [[sources/tSW-GePDwn4-startup-technology-technical-founder-advice|Startup Technology - Technical Founder Advice]]: Startup accelerator
+- [[sources/u36A-YTxiOw-the-best-way-to-launch-your-startup-startup-school|The Best Way To Launch Your Startup | Startup School]]: Startup accelerator and seed fund.
+- [[sources/t6fYl5f9iis-a-conversation-with-elad-gil|A Conversation with Elad Gil]]: Startup accelerator and host of the event.
+- [[sources/uySBqw3TFl0-building-a-startup-shouldn-t-be-a-zero-sum-game|Building a startup shouldn't be a zero sum game.]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/u4mdcp6wIYo-astranis-just-successfully-launched-4-high-orbit-satellites-aboard-spacex-s-falcon-9|Astranis just successfully launched 4 high-orbit satellites aboard SpaceX's Falcon 9]]: Startup accelerator that supported Astranis.
+- [[sources/tzsmJtKZ2No-how-to-compete-with-amazon-and-google|How To Compete With Amazon and Google]]: Startup accelerator and investment firm.
+- [[sources/uzyvVFwLD68-rfs-machine-learning-to-simulate-the-physical-world|RFS: Machine learning to simulate the physical world]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/tsg4vcDUyJA-advice-on-organizing-and-running-growth-teams-from-dan-hockenmaier-and-gustaf-alstr-mer|Advice on Organizing and Running Growth Teams from Dan Hockenmaier and Gustaf Alströmer]]: Startup accelerator.
+- [[sources/uwe-5PB9p4Y-ai-for-low-pesticide-agriculture|AI for Low-Pesticide Agriculture]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/uEeFsW9343g-brand-design-tips-from-linear-founder-karri-saarinen|Brand Design Tips From Linear Founder Karri Saarinen]]: A startup accelerator.
+- [[sources/uEl2KUZ3JWA-sam-altman-on-choosing-projects-creating-value-and-finding-purpose|Sam Altman on Choosing Projects, Creating Value, and Finding Purpose]]: Startup accelerator.
+- [[sources/uIYujpFmvo8-critiquing-ai-startup-websites-with-yc-president-garry-tan|Critiquing AI Startup Websites with YC President Garry Tan]]: Startup accelerator
+- [[sources/vHSgntnaL-M-agency-and-independence|Agency and Independence]]: A startup accelerator that provides seed funding and guidance to startups.
+- [[sources/uX9ldi32Xnc-andrew-mason-at-startup-school-sv-2014|Andrew Mason at Startup School SV 2014]]: Startup accelerator and host of the event.
+- [[sources/v8Y5xzalOVk-don-t-get-caught-up-in-the-current-fads-and-doing-what-s-cool|Don't get caught up in the current fads and "doing what's cool."]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/viRkOHNG4Mo-it-only-really-matters-if-you-can-find-a-handful-of-users-that-use-your-product-habitually|It only really matters if you can find a handful of users that use your product habitually.]]: A startup accelerator that provides seed funding and mentorship to early-stage companies.
+- [[sources/vEyNb7D5gb0-determination-is-the-most-important-trait-for-a-startup-founder|Determination is the most important trait for a startup founder.]]: A startup accelerator that provides seed funding for startups.
+- [[sources/vDXkpJw16os-how-to-get-and-test-startup-ideas-michael-seibel|How to Get and Test Startup Ideas - Michael Seibel]]: A startup accelerator.
+- [[sources/ugmjf0fJY84-michael-seibel-startup-investor-school-day-2|Michael Seibel - Startup Investor School Day 2]]: Startup accelerator and investment firm.
+- [[sources/uyTOFU0Pn6E-dalton-caldwell-startup-investor-school-day-2|Dalton Caldwell - Startup Investor School Day 2]]: A startup accelerator and investment firm.
+- [[sources/uPrIsSWhW7o-starting-a-startup-after-business-school-reham-fagiri-and-kalam-dennis-of-aptdeco|Starting a Startup After Business School - Reham Fagiri and Kalam Dennis of AptDeco]]: Startup accelerator
+- [[sources/wUjX6fpBBTI-beware-of-startup-tarpit-ideas|Beware of startup tarpit ideas.]]: A startup accelerator that provides seed funding and mentorship to early-stage startups.
+- [[sources/xKRCd0ovMqs-early-decision-for-students|Early Decision for Students]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/woAM_PbnCak-stablecoins-2-0|Stablecoins 2.0]]: Startup accelerator and venture capital firm.
+- [[sources/vaRrq0qWAkQ-lessons-from-doing-yc-twice-harj-taggar|Lessons From Doing YC Twice - Harj Taggar]]: Startup accelerator.
+- [[sources/xv2XJ98MHMU-being-accessible-is-one-of-the-major-advantages-startups-have-over-big-companies|Being accessible is one of the major advantages startups have over big companies.]]: A startup accelerator that provides seed funding and advice to startups.
+- [[sources/xTwSk1tEsFE-startup-school-2026|Startup School 2026]]: A startup accelerator and venture capital firm.
+- [[sources/ycKU-ebeE24-the-best-way-to-have-startup-ideas-is-to-just-notice-them-organically|The best way to have startup ideas is to just notice them organically.]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/wkmR7TYUt_c-apoorva-mehta-at-startup-school-ny-2014|Apoorva Mehta at Startup School NY 2014]]: Startup accelerator.
+- [[sources/yFcWSvR6c14-devtools-for-ai-agents|Devtools for AI Agents]]: A startup accelerator and venture capital firm.
+- [[sources/wnyI7ZM_Mrk-understanding-investor-terms-incentives-rookie-mistakes-with-dalton-caldwell-and-michael-s|Understanding Investor Terms & Incentives || Rookie Mistakes with Dalton Caldwell and Michael Seibel]]: Startup accelerator
+- [[sources/ythRYUxLEks-3-common-yc-interview-mistakes|3 common YC interview mistakes]]: A startup accelerator that provides seed funding and mentorship to early-stage companies.
+- [[sources/wKaJPZMOWVg-office-hours-at-startup-school-ny-2014|Office Hours at Startup School NY 2014]]: Startup accelerator.
+- [[sources/vhXdUXmmhb4-techno-optimism-explained|Techno Optimism, Explained]]: A startup accelerator that funds and mentors early-stage companies.
+- [[sources/wH3TKpALlw4-starting-a-company-the-key-terms-you-should-know-startup-school|Starting A Company? The Key Terms You Should Know | Startup School]]: Startup accelerator and investment firm
+- [[sources/wkv2ifxPpF8-how-to-make-claude-code-your-ai-engineering-team|How to Make Claude Code Your AI Engineering Team]]: A startup accelerator.
+- [[sources/y7Zz3TmXNHY-lessons-from-the-founders-scaling-their-startup-in-a-war-zone|Lessons From The Founders Scaling Their Startup In A War Zone]]: Startup accelerator and media channel.
+- [[sources/xBq4FN7dTZY-content-marketing-tips-from-experts-at-first-round-capital-and-andreessen-horowitz|Content Marketing Tips from Experts at First Round Capital and Andreessen Horowitz]]: Startup accelerator and host of the discussion
+- [[sources/xqSyeQ689WM-why-does-your-company-deserve-more-money-by-michael-seibel|Why Does Your Company Deserve More Money? by Michael Seibel]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/ywdFD0cAq2E-y-combinator-co-founder-jessica-livingston-on-the-beginnings-of-yc|Y Combinator co-founder Jessica Livingston on the beginnings of YC.]]: A startup accelerator providing seed funding and mentorship.
+- [[sources/wA0qC9D4LA0-the-best-ai-founders-in-the-world-are-moving-here|The best AI founders in the world are moving here]]: A startup accelerator that provides seed funding and mentorship to early-stage companies.
+- [[sources/yjOyMqYEX_8-geoff-ralston-the-story-of-your-startup|Geoff Ralston: The Story of Your Startup]]: A startup accelerator.
+- [[sources/z5kGw1Cy0tY-rfs-new-enterprise-resource-planning-erp-software|RFS: New enterprise resource planning (ERP) software]]: A startup accelerator that provides seed funding for startups.
+- [[sources/ypLoGFaKdbU-zach-sims-at-startup-school-ny-2014|Zach Sims at Startup School NY 2014]]: Startup accelerator
+- [[sources/xZi4kTJG-LE-how-to-sell-by-tyler-bosmeny|How to Sell by Tyler Bosmeny]]: Startup accelerator and host of Startup School.
+- [[sources/wvMdXPt-Pq0-it-s-surprising-how-much-small-teams-can-get-done-sam-chaudhary-of-classdojo|It's Surprising How Much Small Teams Can Get Done - Sam Chaudhary of ClassDojo]]: Startup accelerator
+- [[sources/ypzNhwpmOD4-how-stripe-built-their-new-website|How Stripe Built Their New Website]]: Startup accelerator and media producer
+- [[sources/xXCBz_8hM9w-how-to-build-the-future-sam-altman|How To Build The Future: Sam Altman]]: Startup accelerator.
+- [[sources/z7S7Kf88jog-unknown|Unknown]]: A startup accelerator program.
+- [[sources/yhnP0LUXHBI-cannabis-startup-founders-david-hua-and-vincent-ning-on-legalization-banking-and-industry-|Cannabis Startup Founders David Hua and Vincent Ning on Legalization, Banking, and Industry Trends]]: Startup accelerator
+- [[sources/zVY-NF6ZvEQ-paul-buchheit-what-traits-do-startups-need-to-succeed|Paul Buchheit: What traits do startups need to succeed?]]: Startup accelerator.
+- [[sources/zZkNs_G5Sck-navigating-co-founder-relationships-is-a-journey-that-takes-self-examination-and-discovery|Navigating co-founder relationships is a journey that takes self examination and discovery.]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/z1aKRhRnVNk-how-to-start-a-dev-tools-company-startup-school|How To Start A Dev Tools Company | Startup School]]: Startup accelerator and venture capital firm.
+- [[sources/z1iF1c8w5Lg-how-to-talk-to-users-startup-school|How To Talk To Users | Startup School]]: A startup accelerator.
+- [[sources/zuADJKphtxE-doing-these-things-might-feel-good-but-they-won-t-derisk-your-startup|Doing these things might feel good, but they won’t derisk your startup.]]: A startup accelerator that provides seed funding and advice to startups.
+- [[sources/zBUhQPPS9AY-how-startup-fundraising-works-startup-school|How Startup Fundraising Works | Startup School]]: Startup accelerator.
+- [[sources/zF84IMiSP7I-mike-knoop-on-product-and-design-processes-for-remote-teams-with-kevin-hale|Mike Knoop on Product and Design Processes for Remote Teams with Kevin Hale]]: A startup accelerator.
+- [[sources/zYCU5s9Ed0M-breaking-down-hackerrank-s-survey-of-40-000-developers-with-vivek-ravisankar|Breaking Down HackerRank's Survey of 40,000 Developers with Vivek Ravisankar]]: Startup accelerator and investment firm
+- [[sources/zoF10tFmNmY-kathryn-minshew-at-female-founders-conference-2014|Kathryn Minshew at Female Founders Conference 2014]]: Startup accelerator program.
+- [[sources/B93mNF2hxF0-the-lesson-of-craft|The Lesson of Craft]]: Startup accelerator
+- [[sources/IoOMs7U93eY-make-your-own-luck|Make Your Own Luck]]: Startup accelerator.
+- [[sources/mVUaSCoJRWk-don-t-be-thirsty|Don’t be thirsty]]: A startup accelerator that funds early-stage companies.
+- [[sources/liQjgV9ZT24-making-startup-finances-10x-easier-more-powerful-siqi-chen-founder-of-runway|Making Startup Finances 10X Easier & More Powerful - Siqi Chen, Founder of Runway]]: A startup accelerator.
+- [[sources/DdqAMrtQGRw-legalize-math-in-california-ft-jelani-nelson|Legalize Math in California ft. Jelani Nelson]]: Startup accelerator
+- [[sources/oYFjKml9ptk-the-untold-stories-of-y-combinator-with-co-founder-jessica-livingston|The Untold Stories of Y Combinator with Co-Founder Jessica Livingston]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/uQWk7T9Vz_k-how-i-got-into-y-combinator|How I got into Y Combinator]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/xy4WdRfDyTs-successful-billion-dollar-startups-build-long-lived-teams-that-beat-all-competition|Successful billion dollar startups build long-lived teams that beat all competition]]: Startup accelerator.
+- [[sources/0pzphszE704-aptdeco-is-eating-the-14b-furniture-market-how-they-got-product-market-fit|AptDeco is eating the $14B furniture market: How they got product market fit]]: Startup accelerator.
+- [[sources/GctjcD17iI4-day-in-the-life-of-y-combinator-president-ceo-garry-tan-during-the-first-week-of-w24-batch|Day in the Life of Y Combinator President & CEO Garry Tan during the first week of W24 batch]]: Startup accelerator and venture capital firm
+- [[sources/Z1vqzWfC_sA-secrets-of-reality-distortion-fields-with-lulu-cheng-meservey|Secrets of Reality Distortion Fields With Lulu Cheng Meservey]]: Startup accelerator.
+- [[sources/MnuFEvI7EGw-drip-capital-went-from-zero-to-1-billion-in-transactions-fintech-meets-global-trade-financ|Drip Capital went from zero to $1 billion in transactions: Fintech meets global trade finance]]: Startup accelerator
+- [[sources/qlP4bnZ_izk-solving-the-160-billion-food-waste-problem-meet-stefan-kalb-of-shelf-engine|Solving the $160 billion food waste problem: Meet Stefan Kalb of Shelf Engine]]: Startup accelerator.
+- [[sources/6kzNUK7GFjg-achieving-the-american-dream-through-tech-with-aarthi-sriram-aarthiandsriram|Achieving The American Dream through Tech, with Aarthi & Sriram @AarthiAndSriram]]: Startup accelerator.
+- [[sources/YV2YE0XvhOs-the-secrets-of-y-combinator-s-early-success-with-yc-co-founder-jessica-livingston|The Secrets of Y Combinator’s Early Success (with YC Co-Founder Jessica Livingston)]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/FNKyL5Q-OVQ-from-underdog-to-undefeated-the-edrizio-de-la-cruz-founder-story|From Underdog to Undefeated: The Edrizio De La Cruz founder story]]: Startup accelerator.
+- [[sources/wAjeS1Dh8Lw-underrated-but-unbeatable-a-275m-healthcare-startup-success|Underrated but Unbeatable: A $275M healthcare startup success]]: A startup accelerator.
+- [[sources/33Go0tzj6fw-the-future-of-initialized-capital|The Future Of Initialized Capital]]: A startup accelerator program.
+- [[sources/6WJjSvI8_E0-yc-partner-harj-taggar-s-500m-mistake-a-legendary-startup-advisor-shares-his-lessons|YC Partner Harj Taggar's $500M mistake: A legendary startup advisor shares his lessons]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/KYTGEModH50-vc-s-garry-tan-and-scott-moss-on-their-journey-to-initialized-capital|VC's Garry Tan and Scott Moss on their journey to Initialized Capital]]: A startup accelerator.
+- [[sources/I8bq5Xamzuo-software-is-eating-the-world-and-still-needs-your-help|Software is Eating the World (and still needs your help)]]: A startup accelerator that uses proprietary software to manage decision-making and community.
+- [[sources/4wbCVN1yLyA-applying-to-y-combinator-3-tips-from-a-former-yc-partner|Applying to Y Combinator? 3 tips from a former YC partner]]: A prominent startup accelerator.
+- [[sources/5GluVp3NLmk-garry-tan-and-justin-kan-twitch-co-founder-roast-startup-pitch-decks|Garry Tan and Justin Kan (Twitch Co-Founder) Roast Startup Pitch Decks]]: Startup accelerator.
+- [[sources/Q0hV48aeFzk-level-up-your-friends-like-billionaires-do-here-s-how-to-do-it|Level up your friends like billionaires do. Here's how to do it.]]: Startup accelerator.
+- [[sources/9FpIZ3n7PMA-5-years-into-the-10-year-overnight-success|5 years into the 10 year overnight success]]: Startup accelerator.
+- [[sources/SwvoR9mLTXM-you-can-be-a-vc-i-m-hiring-how-venture-works-what-it-takes-to-fund-billion-dollar-startups|You can be a VC (I’m hiring): How venture works & what it takes to fund billion dollar startups]]: Startup accelerator.
+- [[sources/UpbGbKQsTjc-coinbase-ceo-brian-armstrong-on-cryptocurrency-and-the-future-of-decentralization|Coinbase CEO Brian Armstrong on Cryptocurrency and the Future of Decentralization]]: Startup accelerator
+- [[sources/M93xlPxQADE-parker-conrad-s-billion-dollar-startup-lessons-do-unscalable-things-then-scale-them-part-1|Parker Conrad's Billion Dollar Startup Lessons: Do unscalable things, then scale them (part 1)]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/aAbw1IL96V8-coinbase-s-liftoff-moment-why-i-love-seed-investing-and-being-a-ceo-coach-shorts|Coinbase’s Liftoff Moment: Why I love seed investing and being a CEO coach #shorts]]: A startup accelerator program.
+- [[sources/rfTgzA6iKZc-3-tips-to-nail-the-y-combinator-interview|3 Tips to Nail the Y Combinator Interview]]: A prominent startup accelerator.
+- [[sources/idyfHs3DWmc-masterclass-how-to-sell-to-20m-software-developers-with-an-amazing-onboarding-experience|Masterclass: How to sell to 20M software developers with an amazing onboarding experience]]: Startup accelerator.
+- [[sources/decDIkDbS3Q-unknown|Unknown]]: Startup accelerator.
+- [[sources/eLelgy5zRv4-learn-earn-or-quit-my-job-career-advice-for-2022|LEARN, EARN or QUIT | My job/career advice for 2022]]: Startup accelerator.
+- [[sources/lm3lfZza1ro-flexport-ceo-ryan-petersen-on-scaling-a-startup-from-zero-to-8b|Flexport CEO Ryan Petersen on Scaling a Startup from Zero to $8B]]: Startup accelerator.
+- [[sources/x5YApjnTG10-i-funded-coinbase-in-2012-making-6000x-on-my-best-startup-investment-yet|I funded Coinbase in 2012. Making 6000x on my best startup investment yet]]: Startup accelerator.

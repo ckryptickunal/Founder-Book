@@ -1,0 +1,363 @@
+Title: Using LongMemEval to Improve Agent Memory
+Video ID: FTokJt1ioeg
+URL: https://www.youtube.com/watch?v=FTokJt1ioeg
+Channel: YC Root Access
+Published: 2025-08-25T16:08:57Z
+Duration: PT13M40S
+Views: 3378
+Likes: 93
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 339
+
+Description:
+Sam Bhagwat, co-founder of Mastra and author of Principles of Building AI Agents, shares how they’ve been pushing the limits of agent memory. He explains the Long Mem Eval benchmark, breaks down why memory matters for reasoning across long conversations, and shows how simple changes—like tailored templates, targeted updates, and better data structures—led to state-of-the-art results.
+
+Chapters:
+00:12 - Overview of the Long Mem Eval Benchmark
+01:15 - Understanding Memory in AI Agents
+01:59 - Info
+
+============================================================
+TRANSCRIPT
+============================================================
+
+I'm Sam. Um I'm the co-founder and CEO
+of Mastra, which is a Typescript agent
+framework. I'm also the author of the
+book that was in on all the seats. Um
+called Principles of Building AI agents.
+Uh I'm going to talk today about a
+specific benchmark that we worked uh a
+bit on um optimizing our agent memory
+around. Um so this benchmark is called
+the long mem eval benchmark. Um, I'm
+going to sort of mostly share this as
+kind of
+the the loop that we've been talking
+about a little bit, which is
+understanding your your systems
+performance and optimizing that
+performance. Um, and uh, as as the work
+that we did um, here we sort of built
+into um, MRA's um, memory layer. So you
+know the great thing about frameworks um
+before this uh before um starting master
+I was the Gatsby co-founder and the most
+of the team is the is exatsby folks. The
+great thing about frameworks is that
+frameworks encode a lot of uh
+opinionated stuff so you don't have to
+reinvent the wheel and so hopefully the
+the work we did here a lot of teams will
+get to will get to use. So what is long
+meal? Let's start off with this. So, um,
+also we we'll just start off with memory
+because I'm just going to start with the
+definition here. So, I mean, memory is a
+is the compression of a a queue of of
+chat messages, right? It's the ability
+to sort of search over those messages in
+a meaningful way um in response to user
+queries um in order to meaningfully uh
+respond and and sort of get the right
+things into uh the context window um so
+that the LLM is able to answer. So long
+me val came out um late last year. Um
+it's a benchmark of uh for agent memory.
+There are sort of 500 questions um
+categorized in various ways which we're
+about to kind of like talk about. So it
+turns out that um you know if you think
+about this how memory works there it
+kind of actually breaks down into a few
+different sort of subtasks. And um so
+what first first is kind of this idea of
+um information extraction which means I
+mean you can kind of see right so this
+is sort of the simplest uh task that you
+you can have um hey I have I need to you
+know in a single session I need to be
+able to see what did the user say or
+like what did I as the assistant say
+right um and can I sort of accurately
+grab that information and and and put it
+into context. Okay cool. Um what is so
+then um the second sort of subcategory
+of of memory right of this sort of
+compression um is this kind of idea of
+like multi-session reasoning. So you
+know we all have these like long
+longunning um window or longunning um
+chat history and we need to sort of make
+useful compressions of that. um can I
+extract information across multiple
+sessions
+in response and and sort of pull that
+all into the the context window in order
+to let the LLM you know do some correct
+reasoning over it. Um in this case you
+can see like you know we might have to
+sort of pull pull information about you
+know musical instruments right and and
+again if you if you're able to pull it
+correctly then then you can answer the
+question correctly if not you're you're
+in trouble. Um this third one is you
+know again temporal reasoning. So if you
+sort of you're giving the user
+information about timebased events and
+can they sort or you're giving the LM
+information about time based events in
+in in the chat history and can the LM
+can you sort of pull in the right
+information as you're as you're doing
+your retrieval um into the context
+window so it can reason correctly about
+that. Um, in this case, you know, um,
+you you'll have,
+um, you want to be able to say, well, I
+went, uh, on this tour behind the scenes
+today, but, my last museum visit was 5
+months ago, right?
+Knowledge updates are interesting. So,
+um, I'll I'll just share a personal um,
+I'll sort of uh, you know, share a
+personal uh, story on this one first.
+So, when I ask chat GT GPT who I am, it
+responds that I'm a 5-year-old girl who
+likes who loves Squishallows because um
+I give it to my daughter and my son and
+I guess it it updated who I was with
+with my daughter and and so it thinks
+I'm a 5-year-old girl who loves
+Squishallows. Um but, you know,
+realistically, right, like memory memory
+has to update sort of uh specific
+working memory stores user attributes.
+Um and you know these attributes may
+overwrite as as you get new information.
+Um so you need to be able to again fetch
+the right information in the right order
+and put it in from that queue of
+messages and and put it into the context
+window so the LM can reason
+appropriately in this case around a
+vacation. Um and then um lastly, so like
+the last sort of like subtask, right? Um
+the you have to be able to
+pull information and in a way that like
+the LM knows that it does not have the
+appropriate information um when it does
+not have the information you need. So,
+you know, this example is about a 10-gon
+tank and a 20- gallallon tank. Um, and
+we're in fact looking for a 30-
+gallallon tank and, and it knows that it
+doesn't have one. So, um, you know,
+master agents, and I think this is, um,
+you know, these are sort of fairly
+standard um, these are sort of fairly
+standard categories of of functionality.
+But master agents have two main memory
+types. um they have the ability to do
+semantic recall and they have the
+ability to you know do do working
+memory. Those are sort of the most kind
+of like the most important ones for for
+this particular benchmark. Again like
+semantic recall just how how does
+semantic recall work? Um well, how it
+works is that um you you sort of take
+all of your um messages, you embed them,
+you put them in a um in a uh vector
+database such as PG vector or chroma or
+whatever you would like to use. Um and
+then you um then you search over them um
+and then you know typically like so
+that's the top K parameter in the in
+semantic recall. Um, we also have there
+we also have a message range around that
+which is similar to like if you're using
+like grap minus C, right? And you're
+like searching some file, you're you're
+going to want to grab the lines around
+any of your specific matches. So there's
+like a message range where you're
+grabbing the messages around that
+specific message. So you have sort of
+the surrounding context that you need.
+Um the the interesting thing I think
+about working memory too is that like
+you can imagine that the template that
+you're using for memory matters. The
+template is what specifies the
+attributes that you're specifically
+interested in. You can imagine if you're
+building a personal trainer AI, that's
+you're maybe interested in slightly
+different things than if you're building
+a legal research AI um application,
+right? Um so I want to talk about you
+know we we ran our existing
+memory implementation on the long meal
+um and you know we weren't really happy
+with the results. So the
+state-of-the-art sort of results started
+at about uh 72%. Um and then I think
+like our our initial um results got uh
+got 67%. Um and when we combined our our
+working memory and semantic recall and
+we're like okay like looks like um our
+implementation could could have been
+better and so you know what can we do to
+improve our implementation? Well good
+thing we have a benchmark. So um we we
+started off and and said like what what
+could we do to improve how we're you
+know how we're doing is measured by the
+benchmark. And so the first thing that
+we did is we sort of generated tailored
+templates uh for each question. Um uh so
+what what does that you know what does
+that mean again like what the template
+is should be specific to the question
+being asked. We just wrote a script to
+sort of lm LM generate um templates for
+each question. And so the template could
+be tailored to the question. And it
+turned out that actually made our
+working memory just used by itself a lot
+more accurate. Um but really the the
+weight of the the weight of the results
+was on the semantic recall. So we're
+happy that like our working memory was
+better, but okay, cool. Like let's make
+the semantic recall better. Um and the
+the the first thing then that we um that
+we sort of were then but actually like I
+guess we we did so the next thing we did
+actually was still on working memory. We
+realized that our implementation of
+working memory when we got like a new um
+a new piece of information, we were sort
+of asking the LM to rewrite the whole
+working memory um like rather than just
+overwrite that one specific part of
+working memory. And so it sometimes
+happened that you know those rewrites
+were incorrect. And so we had a better
+um you know results when we just did
+more tailored targeted updates. And when
+we did that, we again we found our
+overall accuracy levels increased to
+like state-of-the-art. So we were pretty
+happy, but we were not like completely
+happy. So we kept working on this. Um we
+found some specific bugs with how the
+messages were being presented. There was
+some confusion around, you know, the
+benchmarks were done at a specific date,
+but then they're being run at a
+different date. And you know, we all
+know time is hard and and so it turned
+out that um we were we're sort of
+putting in the wrong dates. Um, and so
+the LM was trying to reason over the
+information, but was actually reasoning
+over the information, being presented
+with the wrong dates. And so, well, it
+turned out that when we put in the right
+dates, it was able to do these kind of
+temporal reasoning tasks better. Um, and
+so, uh, you know, we got another couple
+couple percent on the benchmark. Um, and
+then, um, you know, the fourth thing is
+is, you know, data structure matters.
+Um, we started we started grouping the
+messages. is we were initially just
+presenting them as like a flat list of
+messages. Um we added we not only added
+the timestamps next to the messages um
+but we also um we also sort of grouped
+them by you know day and then had the
+hour time stamps and having it this
+particular data structure again helped
+the LM do sort of temporal reasoning
+session based reasoning um better um
+than than it had previously done. Uh and
+and so you know these were again like on
+a framework level you know sort of
+general um we don't we didn't we weren't
+making any sort of domain or industry
+specific
+updates because we're making a a
+framework that's working across domains
+and industries.
+you know, these were things that are
+within our control um as a framework and
+we were able to sort of make significant
+um get significant improvement with
+these um with these changes. Um these
+are sort of the the full results. I I
+think the lesson if we look at the full
+results is kind of configuration
+matters. So if you look at like top K,
+you know, for example, like if we set
+the top K unrealistically low, something
+like two, you get, you know, much worse
+results than if you were to set it more
+reasonably. And then, you know, again,
+five versus 20. Um, we we did see a
+significant improvement. Um,
+in the beginning of the talk, I was like
+talking about those five categories. You
+can see them down at the bottom. You can
+see the results broken down by category.
+Um you'll notice that like again like
+some of the if we look at like this the
+um single session uh preference um it
+it's not because it's single session
+it's not very tied to semantic recall so
+the performance didn't improve as we
+improve top as we increase topk right I
+think this is another interesting lesson
+right like when you're writing evals
+just make sure to be grouping them and
+and some of your changes may change some
+categories without moving other
+categories Um
+the the last um the the the last bit
+here is is probably um there are other
+there are other things we could have
+done. There are other benchmark results
+if you um there's another uh another
+company that did a benchmark result that
+used reranking. We we we don't right now
+use reranking in our um in our memory
+system. So uh uh so you know the next
+the next steps are sort of like hey
+we're going to like ship episodic memory
+and see how the benchmarks change when
+we ship episodic memory. We're going to
+add kind of the ability to rerank and
+see how the results change when we add
+the ability to rerank etc etc. But I I
+think like the you know the the TLDDR
+here is that you know the in the the the
+loop that leads to improvement is is
+write a set of is write an eval scaffold
+and then just iterate a lot. Um and that
+that will that will lead to that will
+lead to the results that that you want
+if you sort of keep iterating at it. Um
+and and it will generate the looking at
+the data will will sort of like let you
+zone in on sort of like where the weird
+bugs are and um and just the and just
+the odd weird things you can do to to
+sort of like tweet to present the
+information in a clearer and easier to
+understand format. So thanks
+[Applause]
+[Music]

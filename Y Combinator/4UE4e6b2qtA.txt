@@ -1,0 +1,1049 @@
+Title: Figma's Dylan Field: Exploring the idea maze, vibe coding, and the power of “locking in”
+Video ID: 4UE4e6b2qtA
+URL: https://www.youtube.com/watch?v=4UE4e6b2qtA
+Channel: Y Combinator
+Published: 2025-03-13T14:00:05Z
+Duration: PT37M42S
+Views: 65551
+Likes: 1247
+Tags: YC, Y Combinator
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 1022
+
+Description:
+Y Combinator President & CEO Garry Tan sits down with Dylan Field, co-founder and CEO of Figma, to discuss the evolving world of design in the age of AI, the challenging early days of the company, and how his team forever changed the way designers and engineers collaborate.
+
+Chapters (Powered by https://bit.ly/chapterme-yc) -
+0:00 Intro
+0:56 How does Dylan view AI changing design? 
+5:19 Are founders still not focused enough on design?
+6:09 Evolution of models (image, codegen etc.)
+10:48 What SOT
+
+============================================================
+TRANSCRIPT
+============================================================
+
+as software gets easier to build design
+becomes more important yeah and there's
+going to be more designers hired because
+at the time it felt like this tiny
+Market I think that so far AI is very
+much in the tool category you know we
+talk a lot about lowering the floor
+raising the ceiling making it so that
+more people can participate in the
+design process but also raising the
+ceiling on what you can do the more time
+has gone on the more that I'm confident
+in the designer's role mhm and believe
+that that's going to be one of the
+critical roles in building software in
+the
+[Music]
+future today we have a real treat we
+have Dylan field the co-founder and CEO
+of figma which millions of people in the
+world use for collaborative design Dylan
+thanks for joining us thanks for having
+me Gary so we're in the middle of this
+crazy AI Revolution and design itself is
+also changing quite a lot how do you
+view uh AI changing the face of design
+right now it's uh definitely an
+incredible time that we're living
+through ever since we started figma the
+exponential curve we've been on is that
+there's just more software being created
+than ever before but it's kind of looked
+like this before and now it seems to be
+going vertical yeah it's exciting I
+think it's super exciting and my point
+of view is that design has the
+opportunity to differentiate software in
+this age of AI where we'll see whole new
+workflows emerge where designers
+Engineers product will work together in
+different ways than maybe they're doing
+today or at least different
+cadences and uh it's been pretty neat to
+have a front row seat to that and with
+our platform figure out how we can
+Empower everyone to use figma to be able
+to be on that journey of design you know
+if I think back to just even the early
+days of figma some of the metrics that
+have held constant one is that we've
+always had this really strong
+International base of users so even from
+the start over 80% of our weekly active
+users were outside the United States the
+second one is um from the start it's
+been like onethird designers
+consistently and the other two-thirds
+are non designers yeah all coming to the
+platform and making things viewing
+things giving feedback I'm quite excited
+about how we can activate those users
+more make it so they're able to make
+more contributions to the product
+process that sounds right does the
+capability go up and like are you doing
+more or will AI take these things over
+like what's your view so far oh um I
+think that so far AI is very much in the
+tool category totally and uh whether
+it's designers developers others people
+are using AI to just do more and to
+explore more so the way that I see it is
+that you know we talk a lot about
+lowering the floor raising the ceiling
+making it so that more people can
+participate in the design process but
+also raising the ceiling on what you can
+do yeah and I always had this image in
+my head of like the idea Ma you go down
+all these different branching paths that
+you explore as you design and ideate
+your way through that product Journey my
+point of view is get more breadth now in
+terms of the things that you can try but
+it still requires a lot of depth to
+fully explore it we're sort of in this
+uh uncanny valley still where you know
+you can do prompt to app but prompt app
+doesn't give you an app that is welld
+designed yet so you know given that like
+how do you see this playing out it's
+kind of interesting to like look at the
+language people use around this stuff
+you know uh people talk about like
+you're locked in or I'm cooking or
+they're cooking yeah and uh Vibe coding
+Vibe coding exactly and for a while I
+was just like uh you know whatever it's
+new language and then at some point I
+realized that maybe the reason people
+are using this language in
+particular
+is that's kind of the feeling you get as
+you're developing something really fast
+like there's always this call and
+response you have with tools as you're
+trying to get the out of your head onto
+a screen and you're iterating quickly
+and the faster you make that feedback
+loop I think the more you can get into
+that flow State and also uh the more fun
+you can have actually and you know for
+figma one of our values as a company as
+play uh we're always trying to make it
+so that whether it's as a culture or as
+a product fig is fun to use and um it's
+a tool that just like lets you
+creatively Express I think that the
+opportunity here is how do you create
+even more of that feeling even if you're
+not an expert at figma uh and have that
+rapid ideation Loop going at all times
+but to the point you made it's like you
+also want to give people a way to not
+just get started and prototype rapidly
+but also get to the finish line and I
+think that's where the disconnect is and
+I think that that disconnect is not just
+for design but also for code like you
+can go and get locked in for 3 hours and
+make something cool will it be the
+design you want probably not but also it
+will take some time to untangle the
+spaghetti mess of your code base uh as
+it currently stands when you're going
+from start to prototype and then get to
+something that's extensible and you can
+build off of yeah the design part is
+very interesting because you can get
+something that works very quickly but
+maybe it doesn't work well yet um
+there's sort of this increase Rec L Lost
+Art I'm worried um that you know
+Founders are not focused on design
+enough like do you find that in some of
+your Angel Investing yet or what I'm
+seen is that people seem to year overy
+year and this has been true for a long
+time care more about design than ever
+which is great I might have some
+selection bias cuz like you know
+obviously people are excited to talk to
+me uh as an angel or my capacity at
+figma but overall my sense is that
+people just care much more about design
+and also understand the value of design
+totally it's not just about like can you
+make it work yeah there's a lot of
+people that can make it work yeah uh and
+as people are able to make stuff faster
+it's how it works that actually matters
+can you talk about like how you're
+thinking about the evolution of the
+actual models right now because there's
+sort of like two regimes right um image
+diffusion models like mid journey and
+our friends uh you know suel at
+playground they're doing you know image
+diffusion models and then you know on
+the flip side there's code gen and the
+code gen me the large language models
+themselves like you know they can't
+generate SVG for instance do you think
+that one or the other is going to work
+or is it like both in Tandem and then
+way out in left field is uh you know the
+multimodal models coming from open Ai
+and others is it just a matter of like
+let's just wait a little bit and those
+will do it or is it some other
+combination well I mean it's almost goes
+back to the question of like what is
+design when you're asking the question
+of like why aren't models better at
+design because they still kind of suck
+there's so many definitions of design
+but like one I like is art as it applies
+to problem solving totally it's I think
+maybe the reason why these models are
+not Crea design yet it's like on the art
+side you've got diffusion on the problem
+solving side you've got
+LMS and it's not clear that people have
+figured out how to you know marry
+techniques together yet yeah and figure
+out how to go approach these problems in
+the right ways yeah um and I think also
+just like as you think about what a
+designer does they're bringing all this
+content text you know way more than just
+okay here's this like two or problem I
+want to solve yeah uh they're doing you
+know a lot of research with the user
+like you talked about in order to like
+go into that economic pie and figure it
+out yeah IDM trying to figure out like
+you know from first principles what is
+it that this person needs or wants what
+are they feeling at any given moment
+yeah and how do you take that all in
+also the current cultural moment you're
+cultural moment you're in the flow
+you're in the part of theand experience
+you're in how that all ties together how
+all maps and then I just yeah I don't
+yet see models that have been able to
+figure out how to like bring all those
+different components in they're lacking
+theuh empathy piece of being a designer
+maybe that's too I I don't know for now
+maybe not forever yeah I'm curious to
+see like how they'll evolve but I also
+the more time has gone on the more that
+I'm confident in the designer's role MH
+and uh believe that that's going to be
+one of the critical roles in building
+software in the future I think people
+that call themselves developers today
+and might call themselves designers you
+know in the near future yeah uh that
+doesn't mean they're not writing code it
+just means that they're going to be
+thinking more holistically about the
+product experience along with their
+colleagues yeah that sounds right
+there's a sense that the large language
+models are going to somehow become super
+intelligent through um just getting
+smarter and smarter but it doesn't seem
+like there's a lot of agency whereas uh
+what a designer you a large percentage
+of what a designer does is actually uh
+using their own agency to like create a
+thing on a canvas basically agency and
+also judgment yeah and I think that it's
+super interesting to me because uh I
+think in the grock 3 announcement for
+example you know one of them was saying
+that uh a lot of the training is done on
+math problems and CS problems and it
+kind of transfers over to everything
+else
+but then I think about the people I know
+in as humans that are like the best
+mathematicians I know are the best
+engineers and like sometimes they're
+really good at having great judgment
+about product experiences and sometimes
+they're really not yeah and it seems
+like it's almost a different muscle at
+least for humans and so I'm curious if
+that transfers over or not yeah I mean
+My Hope Is that uh humans basically
+retain the agency bit and uh I think we
+were hanging out with some AI
+researchers recently and uh they were
+sort of dis pointed that um the models
+are not you know but they don't
+demonstrate as much humanlike agency um
+you know even after all these
+Innovations with you know climbing the
+scaling laws it just hasn't popped up
+the thing they said was the models are
+more like hyper intelligent
+toasters but I think that that's the
+opportunity here it's like you know the
+human designer has to understand people
+and understand their needs and goals and
+their reward functions and um and then
+create UI create user experiences that
+match like you know thing the jobs to be
+done from there it's about how do we
+equip them with right tools totally
+remove TDM make it so that they're able
+to like have that rapid feedback loop
+yeah do you think that people are going
+to do more and more you know chat-based
+interfaces or is it more visual design
+or you know is it even going to be like
+terminal and prompting which way you
+know what are you seeing right now in
+terms of The Cutting Edge of I'm seeing
+Prett much everything right now okay uh
+which is exciting so way more variety
+then it's not just it feels like we're
+kind of exploding out the possibility
+space of how you actually can work and
+um that's been my prediction of what's
+going to happen for a long time and I
+think it's actually go much further out
+from here for a while uh in terms of
+people trying different patterns with
+their tools and different things I think
+it's a really good thing I think like
+prompting alone is sort of like we're in
+the telnet days of AI
+you're able just have I think so much
+more ability to work with tools through
+different interfaces doesn't mean that
+prompting is not important uh but I
+think there's a lot more to try out
+there and I'm excited to see people
+doing that yeah um and also explore
+different design patterns and things
+like you know AR VR XR uh you know
+there's different Windows where I think
+we're going to see entirely different
+Dynamic interfaces start to pop up
+fundamentally you know I love just how
+humans interact with machines uh we
+don't have bcis yet but one day that'll
+be like the final frontier totally you
+know until we get there like there's a
+lot of other stuff to explore I guess
+the really wild thing is once you have
+code gen in theory that might be
+something we see like sort of custom
+designed vertical software you mean um
+basically custom designed for each user
+yeah this is what I'm a little skeptical
+of um doesn't mean it's not going to
+happen or people W try it but I think
+that I remember like seeing Snapchat for
+the first time
+and then you know years later like
+starting to use Snapchat more um that's
+an example of software that someone's
+going to teach you it's like a consumer
+product and yet it's actually quite
+complex yeah you're not going to just
+like figure it all out if you land in
+Snapchat you're going to learn it
+because you watched your friend use
+Snapchat I think there's a lot of
+software that's like that and the more
+you shift the interface around the less
+uh someone's able to just natively learn
+and transfer over that learning to
+someone else yeah so I think there's
+like a tradeoff there that's actually
+quite important Snapchat and Minecraft
+are two of the more um crazy examples of
+like you know how in design um low bar
+high ceiling is like a maxim you just
+want anyone to be able to clear that low
+bar and then you want people to stick
+with you all the way through the high
+ceiling there were like remarkable
+examples of like actually the low bar is
+uh
+optional let's take a step back and I
+mean I love your story of starting figma
+how did you come up with the
+idea uh
+it was a process I guess going all the
+way back we started talking about what
+would become figma Evan and I uh in late
+2011 I was at Brown of the time Evans my
+we were kind of like asking the question
+of why now first what are the
+technologies that are shifting and
+will'll create all sorts of
+opportunities and like late
+2011 that was uh for us drones and webgl
+yeah and I I was actually pushing a
+little bit harder on drones
+uh and Evan very quickly vetoed that
+he's like look I think drones will be
+very important but I uh they're going to
+be regulated or Andor defense and I
+don't really want to do either of those
+and also I'm a like like softare more
+once you the hardware component the run
+to bug loop it's really slow totally
+he's like I don't want to deal with that
+okay no drones yeah so that was that was
+kind of his call and so it was okay webg
+which Evan had a lot of expertise in in
+particular he done a lot of prototyping
+and making sort of toy applications webg
+all the time and we started to think
+about okay what do you do with that so
+then I was like okay is it gaming or is
+it uh tools and software and we kind of
+looked at that and said okay well
+Gaming's super hard you have to have
+it's like a hit Bas business you got to
+make something awesome it's got to
+really resonate like let's not do gaming
+let's do tools and software and then I
+went and left for a gap semester what I
+thought was a gap semester yeah totally
+to work at Flipboard Evan was finishing
+up in sort of spring 2012 we started to
+um just kind of like tinker and explore
+and think about this together looked at
+stuff like 2D to 3D scene
+creation uh got the chill Fellowship
+then we started working full-time August
+2012 my intership ended EV moved to the
+West Coast and explored a lot of
+different
+stuff M meme creation we did meme
+generation was one of them yeah probably
+the low point of figma uh I was like
+very on it in terms of my thesis was
+correct memes the moon yeah uh I was
+like literally looking at the graphs for
+memes and meme generation and just
+looking at the Search terms and stuff
+I'm like oh man there's no good meme
+generator out there totally uh we can
+make the best meme generator and we
+spent a week we made it and it was like
+this like you know moment of but is this
+like really what we want to do yeah and
+I think Evan was ready to quit and I was
+ready to go back to school and I was
+like okay this is a clear like sign that
+this is not it not it yeah um but Evan
+being the technical genius that he is he
+made the text rendering in our meme
+generator like state-ofthe-art in the
+canvas and then uh you know later on
+when we eventually got to figma uh we
+could just kind of take that out and
+reuse it for our V1 yeah and uh so it's
+kind of like this like hilarious moment
+of like our first text rendering and
+figma came from the M generator yeah do
+you remember I guess I mean a lot of
+people were still using like I guess
+even photosh shop or illustrator for you
+know this type of you know High Fidelity
+design yeah fireworks as well i' use
+fireworks as a design and turn Flipboard
+yeah and it was a awesome tool in many
+ways but also very buggy and at some
+point it was killed so I was looking at
+we were looking at the photography space
+as well photo editing built a really
+cool photo editor but it was um just not
+something that made sense because we're
+doing in the browser and at some point
+we just kind of like picked our heads up
+and went wait a second like the best
+camera is the one that you have in your
+pocket yeah it's on the phone like why
+would we be making this browser based
+editor for the photos you're taking on
+your phone it'll just be an app and
+looked at the app market for photo
+editing I was like no this is totally
+crowded and it's going to be a commodity
+yeah so uh then we said okay can we do
+something else there storage or search
+or interesting machine learning stuff
+combinational photography and it felt
+like either it go to the platforms or
+it' be sort of too early the com
+photography stuff we're looking at was
+like inp quite a bit too early yeah you
+know more than a Dozen Years too early
+that's right and then we you know soft
+fireworks get killed and went wait a
+second maybe there's an opportunity
+there and started to form the thesis of
+as software gets easier to build design
+becomes more important yeah and there's
+going to be more designers hired because
+at the time it felt like this tiny
+Market yeah and what it was in
+retrospect was um a market that was
+rapidly growing yeah and so design
+ratios changed a ton and even just the 5
+years after we started focusing on
+building a design tool and then uh
+thankfully we had made that call and uh
+it still took quite a while you another
+year and a half two years before we got
+to the point where we had people using
+it outside of figma I guess this is a
+very profound example of uh you
+shouldn't use like VC thinking to decide
+what to work on cuz a lot of people
+might have looked at how many designers
+are there in the country and then
+multiplied that out by like whatever
+they thought they could spend totally
+and it's like oh that you know that
+number is too small I shouldn't work on
+that whereas you looked at your users
+and looked at where things were going
+like from a much larger perspective and
+you know you made a bet you didn't
+necessarily know you were going to be
+right but it turned out to be super
+right well yes and no right like it's
+easier to say in retrospect yeah but and
+looking back I can be very crystal clear
+about oh here's what we're doing here
+thesis I think in reality you know if
+you looked at the seed pitch for figma
+in June
+2013 uh it was all over the place like
+we were saying we're going to do like a
+million things none of it made sense it
+was all very murky so yeah I'm pretty
+impressed that Danny uh index because
+like yes let's go you guys will figure
+it out yeah um I don't know if I'd be
+that pre today if I was looking at a
+seed Stage Company like that I think
+that a lot of our framing up to invest
+of the time was sort of more what you're
+saying oh yes it's a small thing right
+now we think it'll grow but also there's
+like all these other things we can
+expain into and a lot of the things we
+decided were you know creative tools of
+the time and then what the irony of it
+is that like that's not all the process
+we're in we're in the process of
+creating software yeah it's like how do
+you go from idea or brainstorming
+diagramming and fig Jam to you know fig
+slides where you line to going to design
+where you're trying things and
+prototyping to get development shipping
+to production uh we have a product Deb
+mode for that and you know then once
+you're in production how do you learn
+how do you look back to idea and make
+this Loop continuous then do that other
+places too you know we're like oh we'll
+go think about the existing markets that
+are out there not what's the new process
+needs to be created and eventually we
+got there because that's what our users
+pulled us into you know fig Jam
+brainstorming it was a behavior people
+were doing in figma we saw it especially
+as pic pandemic hit it's like okay let's
+out into new product and slides like
+people were creating all these slides
+and figma design okay great let's make a
+new product I mean the team really drove
+that to be honest they just saw it and
+we're like we're going to go do this uh
+us pull the product right out of you
+it's a pretty powerful moment exactly
+and demo same thing same thing too it
+goes back to like the diversity of users
+that are in figma and how do we like
+make better experiences for them can you
+go back to the first prototype to like
+the first V1 that was was you know
+generally available like you know when
+you're entering a space where you know
+fireworks existed there's probably you
+know your spec or product feature list
+was like you know a 100 items long what
+was that process like for you you know
+were you really methodical about it or
+was it you know we're going to do two
+week Sprints and see what we can get
+done like what was bit of both yeah we
+had like a long list of things that we
+felt needed to be there and some of them
+were like maybe this is optional maybe
+not there was clearly table stakes and
+when I look back to the first people
+that use figma for real design work they
+were minimalists because they liked how
+few features we had uh so it's kind of
+interesting that there's like this group
+of designers that are minimalist out
+there that like like a minimal tool yeah
+and the second group maybe was people
+that um you know like our first
+customers were notion and Kota uh Kota
+was called Krypton at the time and I
+remember going to shashi's office uh
+shashir is the CEO of Kota I think that
+they read with the fact that it was like
+Cloud first high performance in the
+browser CU they wanted that for their
+own teams too and I finally got after
+like months of trying to get a team to
+adopt figma for real got shashir uh and
+his designers to get excited about figma
+we got them like onboarded so I think it
+was a few meetings once we were at that
+point of having table Stakes features
+met mind you this is not a point where
+like figma is today so there's no
+multiplayer now at this point um you
+know and and like a lot was broken so
+for example I remember going to a
+meeting when they finally said we'll use
+it let's give it a try and we walked out
+we're so stoked and then we're driving
+home from there in Paul to we're going
+back to
+SF like 20 minutes into the drive 30
+minutes uh back got this email that
+basically said hey thanks so much for
+coming by the fonts broke we can't read
+the fonts local computer that was a
+shitty thing that I had built um and uh
+you thanks thanks so much but uh we'll
+have to give it a try a few months and
+so we just kind of like turned the car
+around went back like no no we're back
+we're still here we'll set up for you um
+but we
+didn't yeah we didn't tell them at the
+time Evan and I that you know that was
+our they were our first customer yeah
+and uh I remember came in to figma for
+All Hands later like years later I him
+as the first customer he was like I
+am surprise yeah I love that story I
+mean basically this is also a great
+example of like don't take no for an
+answer and you know basically going into
+your uh first customer's office is a
+very powerful moment yeah and showing
+that they'll learn from them and if they
+have lots of feedback great like we'll
+prioritize it I guess like some of the
+really Banger features initially I
+remember you guys had like really
+amazing um sync like multi-browser sync
+with like operational transforms and I
+hadn't seen anyone else do that type of
+very fast uh updates across multiple
+browsers before was that like a moment
+that you know wowed the users or
+definitely um I so it's interesting
+because we launched our Clos beta
+December 2015 our GA was done until
+October of 2016 oh wow so it was a
+little bit good Gap and when we launched
+the closed beta there was no multiplayer
+yeah it was just kind of like in the
+browser and here's this new design Tool
+uh high quality but minimum feature set
+in the sort of month following uh Evan
+started working on our realtime
+collaboration multiplayer engine and it
+took a while to build out and uh I
+remember when we finally launched know
+the ga October 2016 I mean the comments
+we got were like if this is the future
+of design I'm changing
+careers another person commented about
+uh it and said a camel is a horse
+designed by committee says like very
+much this reaction from the design
+community of interesting I'm like the
+designer that's going to be in the
+corner I'm going to do this amazing work
+and I'll do the grand reveal which is
+kind of the agency mindset versus the
+product team approach of we're all in
+together we're going to like work
+through this and figure it out that's
+fascinating um and then um one of our
+early users that tried out figma um I
+remember he tweeted at the time like
+kind of making fun of us but in a nice
+way and said oh we're going to do a
+design party and like invited everybody
+to uh figma file where you know just
+like the time there was was not many
+limits on how many people could be in
+the file there's public link sharing
+there was no you can there's no pay for
+figma oh crazy for uh until like mid of
+2017 and our servers like started
+breaking and I mean like for the 48
+hours after launch you know the team and
+Evan were just like firefighting trying
+to like make sure this one file that was
+the design party didn't uh crash that's
+hilarious but it was like started as
+people making fun of figma and turned
+out to be like this great advertisement
+of look at what you can do in figma mhm
+and people started to jam it and
+actually make stuff together that they
+didn't even know each other yeah it's
+like this is powerful there's something
+here so it showed what we were trying to
+show Even though people were maybe not
+buying into the message of the time yeah
+that's fascinating your story is very
+interesting especially for a lot of
+startup Founders today because I feel
+like you know it's very common I'm sure
+you run across Founders that you've
+probably funded that you know 3 six
+months in you know it's not working you
+know I'm only a quarter of the way
+through the list like I want to Pivot I
+don't you know and then this is such a
+powerful example of sometimes you have
+to work through the list like it might
+take 18 months it might take 24 months
+from like where you're at to a a
+workable or usable thing
+but both right we had uh from be August
+2012 to May June 2013 that was a period
+where we were pivoting constantly trying
+lots of things yeah but then okay we had
+a thesis we went for it felt like there
+was an opportunity and started to build
+it out more yeah and then it was uh okay
+it's going to take a while RRP like we
+had we're lucky to have raised money and
+have resources I should have hired
+faster once we started to get signal
+from the market around product Market
+fit so I mean I remember uh going to a
+user study with a friend at Corsair at
+the time sh up at 6 o' after he finished
+work offices were pretty empty I brought
+a bottle of wine with me because uh the
+text editing experience and flow and
+figma was so slow and just writing
+things out took a long time so I knew
+we'd have to like drink some wine to get
+to the user study we finished the entire
+bottle oh in that user study and the
+next day or two days later or something
+he followed up with me and sent me like
+12 pages of a dock it's like here's all
+the stuff I want you to build and why I
+should have taken something like that
+and gone
+okay this is clear product Market pull
+like the Market's pulling the product
+out of us yeah I should have then gone
+okay let's go higher faster let's you
+know figure out how to inflect growth of
+our internal team I think instead I was
+still very cautious and so that's
+something I wish that I you know if I
+could have gone back in time I wish we
+could have you know kind of a little
+faster there yeah I mean basically when
+you catch lightning in a bottle that's
+what it feels like then that's a great
+reminder that was early before we even
+shipped it so we didn't we didn't know
+but I think now back and I'm like there
+were signs there was fit here even if
+the product wasn't ready the second part
+of your story is super interesting and
+that you know you did it you built it
+you put it out there you made it
+collaborative and then the initial
+reaction was we hate it or or seism at
+least yeah or yeah I mean basically they
+didn't understand what it was yet and I
+don't know I feel like that's a common
+human trait period like you see the
+future and you're like no it's not for
+me did you have to do anything actively
+to undo that or was it just a matter of
+time like you know everything that is
+different will be hated on and you just
+have to ignore it and you like
+relentlessly seek the people who love it
+and they're you know your best net
+promoters I think a bit of both I mean
+we knew from before we even launched the
+CL beta we were dog fitting figma
+internally and we knew from just using
+it ourselves every day to design figma
+for meta yeah what we need to do just to
+make a better design tools for us part
+of that we just through the dog fooding
+phase through the closed beta phase was
+it really sucks if I'm in a browser tab
+you come into the same link you edit
+something I have a forced reload I edit
+something you have a forced reload
+that's just a terrible experience yeah
+or if you lock files you know having to
+request and unlock it's just not good
+yeah and that was the default back then
+for every other product and for us we
+were like okay at minimum we have to fix
+that so that you don't have this
+horrible user experience and at best
+we hope to unlock all these new
+workflows but what they'll be exactly
+it's unclear yeah we have ideas of what
+it could be but we'll have to see and so
+um I I think we we had deep conviction
+in at least to meet table staks make it
+a good ux we've got to do
+this and then everyone sort of showed us
+the way of like how they could use figma
+to do all these amazing things yeah it's
+funny how often I end up using like a
+product that is not ready for prime time
+or not quite right and then it's just
+full of bugs and then you sort of Wonder
+like do the developers actually use this
+product and if you dig a little bit
+deeper it's like oh no they actually
+don't dog food and they don't use it
+themselves and then how could you
+actually make a good product without
+doing that it's not possible probably I
+think that's probably the case yeah I
+mean everything we laun in figma always
+goes through a period of us really
+testing out internally and until
+something like reaches you know the
+environment that we use to try things
+like that's for me when the clock starts
+not before then can I ask you about like
+I guess design culture inside figma and
+how you developed it you know is it as
+simple as at some level like if this is
+crap I'm going to say it and we're not
+shipping this what went into that
+culture like you know early on that
+built this thing that can like
+consistently create Excellence first of
+all we've had the blessing of working
+with like amazing designers I don't
+think it's ever been like oh this is
+crap like it's almost never a reaction I
+have the work because like we got a
+great team uh that doesn't mean that
+like everyone's considering the full
+system or you know I think that the some
+of the things that come up a lot are
+like how complex are we willing to make
+it to give users functionality they want
+and that interplay between okay figma's
+got to be approachable which we still
+have more work to do on approachability
+we're always trying to make it more
+approachable but also powerful yeah and
+you know you're not just serving you
+know the power design user you're also
+serving the user who has been in figma
+like once in their life or never yeah
+and how do you get them to be able to
+create something have that experience
+right away uh so we have to balance both
+that's one tension that comes up in
+design culture how do you make the
+simple thing simple but the complex
+things possible I think uh yeah plenty
+of other tensions that come up too and
+usually it's just like for lack of
+context or having to reason through a
+very hard problem one of the best parts
+about building something where you've
+got hard design and Engineering
+challenges you get to work with the best
+people yeah so I'm very thankful for the
+folks that work on the PMA team the top
+level answer might just be have an
+amazing hiring process yeah but also
+seek out like the best people in the
+world relentlessly yeah to work with
+because you're going to learn so much
+from them and they'll Inspire whole new
+ways of thinking about the problems
+space like a lot of the Innovations at
+figma do come from our team um it's not
+like I'm sitting going hey like think
+about this thing and you know come with
+it like we've got internal things uh
+culture
+rituals for example we have a a hack
+week concept we call it maker week
+because more than just the developers
+and Engineers are doing stuff yeah is
+really the whole company and it's the
+Only Rule is make figma better in some
+way figma slides is a great example that
+came out of maker week yeah it's amazing
+but many of our our best features our
+best aspects of our platform they've
+also come out of similar situations yeah
+earlier we were sorted talking about
+like that zero to one and then you know
+one to scaling um you know do you have
+any advice for people who basically they
+made it to zero to one and then you know
+how do you nail the one to a billion you
+know like did did your day-to-day change
+like you guys you and your co-founder
+were probably in the weeds building a
+lot of the key features yourself with
+your own hands and then at some point
+you were saying like actually I wish I
+started scaling or you I wish I started
+hiring people and build you know sort of
+care and feeding of the organization
+feels like the salian feature of like
+that second phase you know how did you
+navigate that what would you tell the
+people who you know yeah like it's
+happening like the users are pulling it
+out you know pulling the product out of
+us and things like that my main
+reflection I was going to abstract it
+all the way to be useful to everyone
+that's watching this absolutely is uh
+sort of the loop you're always in is be
+self-aware what are you doing the most
+of right now then go replace yourself
+with that task if you've got the
+resources if you don't have the
+resources like figure out how to get
+them either by being profitable by
+raising funding or uh by being really
+clever yeah uh and if you can kind of
+keep doing that Loop that's a sort of
+loop that'll lead to team building or
+lead to figuring out the way to delegate
+work properly like an UDA loop I guess
+that you can just stay on and if you can
+do that like it'll lead you to do the
+right things and and I think the danger
+is you just get so reactive that like
+you never get to that sort of Loop and
+you're never able to self-improve the
+organization
+which is you know easy to get that state
+because there's always more to do and as
+a found especially when it's just a few
+people you're going to be doing you know
+a ton yourself as well uh and not just
+taking this like you know Galaxy brain
+bird's eye perspective like that's never
+like actually what heads space you're in
+yeah but you have to figure out how to
+zoom out a little bit too yeah so figma
+you know In This Moment like what are
+you most excited about and where does it
+go from here yeah I I mean I'm I'm super
+excited about that Loop we talked about
+and how do we make it so that you're
+able to develop software with your team
+and that I think that's you know two
+different aspects right there's the how
+do I get started and prototyping quickly
+with new Concepts but also there's I've
+got existing system I have to be in how
+do I create that Loop and iterate
+quickly as well and how do you make that
+accessible to more people yeah so
+there's so much improvement we can do
+for both of those and uh I'm I'm super
+psyched about like what we can do to
+enable people there obviously figma came
+up in a moment when llms and Coen were
+not happening yet do you think that's
+changed then you know for the founder
+who's starting out right now um what
+would you say to them I think that um
+even without you know the speed at which
+you can work now with uh new models and
+whatnot I would definitely tell people
+move as fast as you can um and you can
+move faster a lot faster right now I
+mean I I think the speed at which folks
+are operating is incredible I don't know
+if that's what you're what scene every
+day definitely it feels like a moment
+where we're able to build in a really
+quick way and I definitely you know when
+my team comes to me and says hey we've
+got like a nemon road map on this Peter
+I'm like what the yeah let's squish
+down what can we do to descope or figure
+out how to get us out faster to start
+talking to people and showing to people
+it's funny because a lot of people come
+to me and say I I think I should do this
+two year build on something as someone
+who did one what do you think and I'm
+like don't if you don't if you don't
+have to don't do that yeah like
+few people have to do that at very few
+some like there's hard tech companies
+you know it's been really cool to see YC
+investing there uh and backing stuff
+that's you know like like boom or
+something like that or these companies
+that are going to take a long time to
+get the thing out there yeah uh it's a
+giant like Mega project but yeah I think
+that that most things don't have to be
+that and if there's a way to move
+quicker you should do it yeah Dylan
+thank you so much for spending time with
+us you know your story is a true true
+inspiration to designers engineers and
+Founders out there so thanks for sharing
+it thank you g

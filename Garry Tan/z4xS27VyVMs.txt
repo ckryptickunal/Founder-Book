@@ -1,0 +1,393 @@
+Title: How to Survive the Next Tech Revolution (w/ Brett Gibson)
+Video ID: z4xS27VyVMs
+URL: https://www.youtube.com/watch?v=z4xS27VyVMs
+Channel: Garry Tan
+Published: 2023-06-26T17:00:39Z
+Duration: PT15M2S
+Views: 44529
+Likes: 1240
+Tags: Garry Tan, Garry Tan vc, initialized capital, Garry Tan initialized, Garry Tan initialized capital, Silicon Valley vc, sf vc, a16z, Andreessen horowitz, best Silicon Valley vcs, Brett Gibson, How to survive ai, Ai taking jobs, Career advice, Best career advice 2023
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 365
+
+Description:
+Listen to the High Bit podcast: https://initialized.com/highbit
+
+Apply for Initialized Partner role here:
+https://jobs.lever.co/initialized/be8b452f-6499-4a69-a340-3b3ea430e837
+
+Technology is changing the world, and it’s the people who can build something from scratch who will create it. Today we're sitting down with my multi-time cofounder and friend, Brett Gibson. He runs Initialized Capital alongside Jen Wolf now that I’m back at YC.
+
+0:00 Technology is changing the world
+0:49 Write/rewrite h
+
+============================================================
+TRANSCRIPT
+============================================================
+
+technology it's changing the world and
+it's the people who can build something
+from scratch something that never
+existed before
+who will go on to change that world
+but then what happens for v2 the
+rewrites always better who wins in that
+world it's a question playing out in AI
+today so that's why we're sitting down
+with my multi-time co-founder and friend
+Brett Gibson he runs initialized now
+alongside Jen Wolfe now that I'm back at
+YC what's the future gonna look like it
+won't be the same as the past but it
+will rhyme let's get started
+[Applause]
+all right
+[Music]
+Brett and I worked on a startup named
+posterous together with our other
+co-founder Sachin Agarwal
+one of the new things we did was a new
+kind of authentication by email header
+you could post your blog where we would
+use your email to figure out who you
+were so then you could just send email
+to postpostress.com and we'd figure it
+out that was the thing that had not
+really been done before in a consumer
+product and to do it it required a
+different kind of engineering mindset a
+big part of an engineer's day-to-day
+problem is figuring out the right tools
+for the job figuring out what they
+should be using and figuring out how it
+ties back to user value because you know
+I think that I come from this you know
+this default engineering mentality where
+I really want things to be precise and
+deterministic and you know oftentimes
+the engineering challenges you face to
+get to get the product working the way
+you want it for your users are much more
+probabilistic because it hadn't been
+done before we had to do some pretty
+unusual things to get it right you know
+we ended up writing our own uh parts of
+our own SMTP client which I don't I
+don't really recommend doing a lot of
+analysis on the routing that email went
+through so that we could you know have
+some probabilistic score about How
+likely it was to actually be from you
+and then the postaven experience was
+night and day Preposterous later sold to
+Twitter for 20 million dollars but a few
+years later they decided to shut it down
+since the real reason why they bought it
+was for the team
+when it shut down Brett and I got back
+together to write it again this was
+called post Haven and this time when we
+wrote it again this post by email
+authentication that we had to write for
+the first time had been commodified
+there was a product it was mail gun it
+was ready it worked off the shelf for 90
+of what we needed had we been too
+grounded in fighting the last battle we
+would have missed that we would have
+wasted a lot of time we would have built
+a lot of software that we didn't need to
+build what we're seeing today in 2023 is
+similar to what we found rewriting
+posturous again as post-haven even just
+four years later first it's a lot easier
+to rewrite once you've written it once
+but second tooling an open source and
+freely available apis gets so much
+better in just the course of a few years
+for AI now that set of years sometimes
+is months or weeks
+but know that this isn't a new thing
+what is new is how much more powerful
+these capabilities in ml and large
+language models have become now everyone
+has this new primitive of generative Ai
+and especially large language models and
+they're trying to figure out exactly how
+to use them and the moment is actually
+very strange because there's a lot of
+interesting Tech on how to do it you
+know there's a lot of best practices
+around stuff like vector databases and
+embeddings so that you can get your
+prompts correct but it's it's
+exacerbated because large language
+modules are fundamentally
+non-deterministic systems
+um that's you know the the lack of
+determinism is is in part what makes
+them work so well and seems so magic and
+so the the class of I guess you know
+first generation hacks to get them
+working in ways that deliver value to
+users is is perhaps more interesting
+than some of the things we've seen in
+the past along the same lines this alien
+intelligence we have access to now it's
+a strange one and we're just in the
+first Innings of the tooling the
+foundational models and especially the
+open source it's interesting because I
+see a lot of parallels in what's
+happening in AI right now and what
+happened in crypto over the last few
+years because there was a moment you
+know there's so much infrastructure
+around wallets and building up
+you know ability to be consumer facing
+in crypto that if you were building in
+2018 you just had to build from scratch
+and the underlying ecosystem has come a
+long way and you're probably having to
+throw away some of that custom code and
+in AI it's it's the same thing but
+perhaps even moving faster because not
+only do you have the day-to-day building
+out of of the of the types of tooling
+that would make your life easier you we
+have these step function improvements in
+the underlying foundational models the
+change the requirements I think that the
+North Star is always backing it out from
+what what experience you want to give to
+the user because if you make sure you
+get that right then you can change your
+technology behind the scenes
+um but you know trying to try to have
+the trade-off of uh how long it takes to
+deliver that versus competitors that is
+the lesson from software engineering and
+it's the same one Brett and I learned in
+2008 2013 and we're learning again today
+in 2023 whether it was just some new
+capability in the early days of social
+to what's happening today in AI first
+you have to be willing to build
+something that doesn't exist yet and do
+some pretty unusual things to do it but
+then later you need to be able to do
+rewrites and stay current with open
+source and new Stacks capabilities and
+apis all while being connected to the
+needs of your customers and users make
+stuff people want and that is what makes
+products sticky and what makes a durable
+business being a domain expert in
+tooling
+really helps gives you a lot of Leverage
+toward that goal but it's not the goal
+in its own right
+thank you Brett's one of the best
+Engineers I've ever had a chance to work
+with across our Year's writing code for
+Preposterous y combinator post Haven and
+initialized and he's always been super
+pragmatic and I've learned something new
+from him regularly he's got a new
+podcast called the high bit where he
+sits down with some of the best
+technical Founders to talk Tech
+engineering and the idea maze kind of
+what we just did in this episode one of
+those companies was bison Trails which
+was acquired by coinbase and post IPO
+the notional value of that acquisition
+was nearly a billion dollars that's
+because it became coinbase Cloud one of
+the key SAS Revenue generators for
+coinbase
+Brett invested in bison Trails when it
+was just a few people very early when
+proof of stake was little more than an
+idea something that did not actively run
+the world's largest blockchains like it
+does now but that's precisely how you
+should invest when you want to create
+the future when I met bison Trails there
+was there were little or no major
+networks running proof of stake and and
+I still had doubts in my mind as to the
+viability of widespread shift to proof
+of stake networks especially for already
+running networks like ethereum now it's
+very clear that it's it's demodually
+possible if not optimal in many contexts
+with the Bryson Trails Founders
+recognized was that relative to the
+current proof of work mining that was
+happening running validators on proof of
+stake networks was a novel and Rel and
+difficult problem they were able to
+build something that had never been
+built before because of two things first
+they were generalist focusing on a wide
+skill set here's Aaron Henshaw
+co-founder of Bison Trails on how hiring
+was a big piece of their success the
+best thing that we did was we've
+actually brought on like generalists at
+the beginning more people who could both
+like right JavaScript and do terraform
+that's a really wide band between those
+two things but that's what we needed at
+the beginning because we had JavaScript
+right we actually had like a front end
+we had an API to build so we had a
+middle and then we had this whole back
+end you're lucky if you go far enough to
+be able to hire the people that you need
+to fix your problems that you've created
+for yourself and those people you know
+they come in wide open but they like
+they're so good at it they're so they're
+so good at these specific problem
+solving and like you're just like in awe
+that they can come in and just like
+change it all and make it work like 10x
+better second you've really got to
+invest into software testing so that
+when the chips are on the line and they
+always are in crypto custody and staking
+you have the right engineering infra
+some of the things that we did well
+early was like we did not try to over
+engineer things there was probably some
+opportunities to use like slightly more
+off-the-shelf CI CD and bake in a little
+bit more testing early on that I think
+like might have slightly slowed us down
+but actually sped us up this may be like
+one of the biggest takeaways from the
+whole thing was
+you should invest heavily in tests
+especially even early like don't go
+crazy right like you can't be writing
+tests for ever but you should have core
+tests that cover base cases and that
+like help your whatever it is that
+you're deploying Founders and investors
+both make money and impact the world
+when they believe something nobody else
+believes yet but are right another
+company Brett's invested in is a very
+ambitious one called astroforge they're
+literally doing mining for high value or
+on asteroids at no point was anyone
+really worried about the market
+opportunity you know we're always
+balancing Market risk with technical
+risk in in the startups we fund and
+there's just no question that if astral
+Forge can go to asteroids and mine Rare
+Earth elements and bring them back you
+know the the only real risk in the
+market is that they do it so
+successfully that those metals are worth
+a lot less and so really all we spent
+our time was in was validating is this
+possible and I think specifically if it
+is in fact possible why is it possible
+now suddenly why why did why are we
+seeing this company today because on
+some timeline it seems like something
+that's well within the ability of humans
+to produce but you need to have a view
+that it's going to be it's going to
+happen in time for this company to make
+money off it Hosea Kane co-founder of
+Aster Forge is trying to solve
+engineering problems on literally the
+edge of human capability and the thing
+is you don't have a manual for that
+you've got to write the manual yourself
+the gut reaction was asteroid mining is
+difficult the refinery is difficult it
+couldn't be awkward it couldn't be a
+chord it couldn't be it couldn't be the
+simple pass through the length that we
+went through to solve this problem
+baffles me to this day you're focusing
+on this problem that's difficult glaze
+using over something so simple and and I
+talked about this fishbone diagram
+because these are things that you should
+really actually check you should write
+out great the graphs before agreement do
+we check everything in there and not
+just say like yeah I checked the voltage
+which is just one part of it
+um and we just checked it off like okay
+cool power supply works hard this works
+great even if you are under heavy time
+pressure take a minute and pause slow
+down it's okay to do that and really
+assess the situation and really validate
+all these potential failures to get to
+that Solution that's just a taste of
+what you'll find in Brett's new podcast
+I'm subscribing and I recommend that you
+do too you know the intent is less a
+technical Deep dive and more about this
+this the the story about the art of
+problem solving and what goes into
+day-to-day Engineering in these
+technical domains and how it can be you
+know just interesting in its own right
+you can find high bit by Brett Gibson on
+anywhere you listen to podcasts or
+initialize
+Link in the description below
+initialized is also hiring a new
+investment partner you can't apply to
+jobs you don't know about so that's why
+they're running an open hiring process
+for this role initialize is currently
+hiring a partner role and you know we we
+really prize uh backgrounds in founding
+and working in startups and ability to
+advise startups in in some area of deep
+domain expertise so uh you know high
+level I think we're looking for someone
+who's who's been a Founder before you
+know hopefully gotten a company uh
+through perhaps a series B round and and
+but also it's very helpful if they have
+some investing experience whether that's
+as an angel or within or as part of a a
+venture firm
+um you know a big a big part of the
+applied knowledge of going from founder
+to investor is just getting reps and and
+seeing pitches being an investor to me
+is just an absolute blessing and if you
+ever wanted to join a team doing it
+right and you have some investment
+experience already this is a big
+opportunity
+that's it for this week Brett's an old
+friend of mine and I'm so excited to see
+where he takes initialized Capital links
+in the description to apply to be an
+investor at initialize and to subscribe
+to Brett's new podcast hi bit technology
+is truly reshaping the world and its
+technologists the engineers the PMS the
+designers and the builders themselves
+they're the ones doing it it if you
+watched to the end you must believe this
+too and I'm here to tell you you're on
+the right track see you next time
+[Music]
+thank you
+[Music]

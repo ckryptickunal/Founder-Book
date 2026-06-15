@@ -1,0 +1,334 @@
+Title: Designing Characters with Deep Learning: Spellbrush (W18) - YC Gaming Tech Talks 2020
+Video ID: 4a0nj4o2O9k
+URL: https://www.youtube.com/watch?v=4a0nj4o2O9k
+Channel: Y Combinator
+Published: 2020-12-07T08:18:27Z
+Duration: PT10M3S
+Views: 7729
+Likes: 172
+Tags: YC, Y Combinator
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 310
+
+Description:
+Spellbrush (W18) gives a tech talk on their gaming startup, business opportunities and open roles.
+
+Watch all the talks and create a profile on YC's Work at a Startup to connect with founders and find your next role:
+
+https://www.workatastartup.com/events/gaming-tech-talks-2020
+
+============================================================
+TRANSCRIPT
+============================================================
+
+my name is corey
+uh i'm the ceo at spell rush and i'm
+here to talk to you today about uh
+designing characters with deep learning
+so um we're small rush uh we're a yc
+company as well
+uh we're building deep learning tools
+for art and artists
+what exactly does this mean art is hard
+so my co-founder is a professional
+artist
+but we're a fairly small team so a lot
+of the question is often
+how do we scale up her ability to create
+more content
+without becoming a massive studio uh
+drawing things takes time
+illustrating things takes time and
+budgets on a lot of
+aaa titles and kind of the studio
+pipeline format budgets are often 50 60
+70 percent of the total
+production budget um so obviously like
+art
+is becoming increasingly more expensive
+and increasingly difficult to scale
+so um what if we could use ai in the
+acid pipeline this was kind of the
+question we asked ourselves originally
+when we started uh our company and we've
+been kind of building tools to sort of
+help in this
+direction so a quick quiz for the chat
+so we're building ai tools which one of
+the following images was not actually
+drawn by a human
+so i'll give 10 seconds or so so these
+are three illustrations in the anime
+style of character portraits
+and um it turns out the right one is
+actually drawn
+entirely by our ai the left two are from
+popular uh twitter artists uh and and
+the key thing here
+is we can actually create images that
+are
+on par with what an illustrator would be
+able to draw
+so we can um basically in the amount of
+time
+so the left two images would have
+probably taken a professional
+illustrator anywhere from
+two to fifteen hours in order to draw
+and our tool can actually
+draw a character in sub two seconds and
+and that's not all we can
+not only can we draw a character but we
+can also we can draw hundreds of
+characters in the same amount of time
+uh that it would take to generate one
+character so that the possibilities are
+kind of kind of endless
+in that uh respect so
+here here's an example uh we actually
+have one of our older models online
+uh that one of this model is called uh
+on wifilabs.com and what you see here is
+you can actually interact with one of
+our earlier models
+you have the ability to
+pick any character and then customize
+this character using various steps
+through
+the ai through the online flow
+so yes yes i am reading the chat we were
+the we were the ones behind
+so um how does this work so i'll give a
+brief introduction to how
+this technology works the the ability
+the way we are able to kind of create
+characters from scratch the general idea
+is as we're using a technology called
+gans or generative adversarial networks
+the way this works is we have a network
+a neural network called a generator
+and we have a second neural network
+called discriminator the generator's job
+is to learn how to draw art and the
+discriminator's job is
+to learn how to tell good art from
+fake art so we can take these two agents
+and we can actually construct a network
+in the following way we take the
+generator and we take a corpus of real
+art that we want the generator to learn
+how to draw like
+uh in this in this example we have a
+bunch of classical paintings so we
+actually want the generator to learn how
+to draw classical paintings
+we can take these two images and feed
+them at random to the discriminator
+so the discriminator's job is now to
+decide whether an image came from the
+real corpus
+or from the generators learn to draw
+drawings
+what happens is this is then fed we can
+then evaluate whether the discriminator
+was correct
+in his assessment and then we back
+propagate and update the weights for
+both the generator and the discriminator
+so that both of them now
+can learn from whether they made a
+mistake or not
+this then gets propagated and this is
+how the cycle learns we run this
+millions upon millions of time in order
+to train both the generator to the
+discriminator
+one small note but this isn't quite
+important is that both of the generator
+and the discriminator are computer
+programmed so they are
+item potent they will always give back
+the same result every time so we
+actually have to feed in some noise
+into the generator which we call the
+latent space but this noise allows the
+generator to create different
+images so if both of them are able to
+learn if we're able to teach both the
+generator and the discriminator
+proper values we can actually show that
+at some point the generator can produce
+images that are indistinguishable from
+the real data set
+so the generator can now create high
+quality images that
+almost basically look like they come
+from the real distribution of data
+and then because we were feeding in a
+random noise in order to
+uh make the generator generate new
+images this actually comes in handy
+because we can actually now control the
+output of the generator
+from the the latent noise that we feed
+into it
+so as an example we can take a train
+generator and generate the same
+character in multiple different
+expressions
+we can take the same character and
+generate it in multiple different colors
+and we can take the same character and
+even transfer the style or
+completely change the illustration style
+um
+for for the same character and these are
+sorts of
+tasks that would take a trained artist
+hours at minimum
+in order to do but when you're a small
+art director you could you could
+do multiple different variations very
+quickly using using the power of the ai
+so uh talk a little bit about data set
+we train
+our network by basically crawling uh
+publicly available images
+off the internet we're starting with the
+anime aesthetic mostly because it has
+the most amount of data available
+but there are about 10 million images
+available to train
+one interesting to note one interesting
+thing to note about our data set is that
+the
+distribution doesn't actually follow
+traditional ml data sets in particular
+the sku is actually very female oriented
+so
+girls outnumber boys in terms of anime
+illustrations about
+um i one to one to six
+and then darker skin tones people of
+color
+tend to be less than three percent of
+the total number of illustrations
+available on the internet
+so we actually spend a lot of effort in
+order to
+correct this because obviously like
+these percentages don't represent the
+real world and representation is
+important especially
+for illustration so what we've done is
+we've improved the generation of darker
+skin tones
+so our ai can actually draw at a higher
+frequency that you would actually
+see in the real world data set even
+though it doesn't
+represent actual population statistics
+as well as improving the generation of
+male characters
+uh fun fact like illustrators actually
+especially in japan don't actually even
+like drawing male characters because
+female characters often give them more
+likes
+and more retweets so it's actually hard
+to
+find high quality male characters but
+using the power of ai you can actually
+draw things that normal illustrators
+wouldn't even want to draw
+we have a number of other active areas
+of research for instance automated
+animation
+on the right side i have a character as
+fully generated and also fully
+animated using our workflow a number of
+live 2d spine workflow assistance tools
+and some super resolution based
+techniques for
+animation processes so obviously
+training the system is quite complex
+so i'm going briefly into how we train
+it
+um we've built our own small mini super
+computer to do this
+because the cloud is actually quite
+expensive so here you see us loading a
+42u rack
+into our our office we've built
+basically a diy
+uh super computer here uh with a top
+like 100 gigabit uh ethernet top of rack
+router
+200 plus cores uh 20 plus gpus and a
+boatload of storage
+running on our system um a big question
+people often ask me is like what about
+cloud
+um closest comparable machine on the
+cloud would be an aws p316x large
+uh which on demand is about 24 an hour
+even if you use spot instances you may
+be cut in
+half to about ten dollars an hour the
+key thing is training these models is
+actually quite expensive because
+it takes us about seven to ten days in
+order to train which means every
+individual model costs us somewhere
+between three to four thousand dollars
+so that obviously makes us very sad so
+that's why we've built a
+kind of in a scrappy startup with an
+entire cluster in our office
+uh yes it can definitely run crisis alex
+uh because these are all titan rtx gpus
+so our total running cost is about 60
+cents an hour once everything is
+accounted for
+so the brief overview of our
+architecture we have a custom language
+internally called netgen which allows us
+to describe gan architectures very
+quickly
+it compiles into tensorflow low level
+ops these tensorflow
+low level ops get packaged into
+singularity containers we then schedule
+it onto our large cluster on slurm
+you can see the crisis capable gpus down
+there the eight titan rtx's is one of
+our nodes which we run our workloads on
+uh then data gets piped out prometheus
+grafana standard and then
+as well as a tensorboard for
+tracking loss loss functions so
+uh we're taking all this technology and
+we're building internally the world's
+first ai illustrated game right now
+we're a very small team
+we got five people uh but we're looking
+to hire our sixth person so if any of
+you guys
+if the picture on the right resonates
+with any of you you probably want to
+give us a shout out
+uh aqua dancing on top of like i don't
+know about 40 terabytes worth of flash
+so we're hiring artists we're looking
+for a 2d animator and motion designer
+and we're also looking for a real-time
+vfx artist and
+also uh we are looking for an ai
+research intern for the coming
+winter and if this sounds good to you
+ping us at jobs at swellbrush.com i'll
+probably be in the breakout room later
+to answer any questions you guys might
+have
+but otherwise thank you so much

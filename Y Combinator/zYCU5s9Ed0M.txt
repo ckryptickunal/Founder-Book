@@ -1,0 +1,1467 @@
+Title: Breaking Down HackerRank's Survey of 40,000 Developers with Vivek Ravisankar
+Video ID: zYCU5s9Ed0M
+URL: https://www.youtube.com/watch?v=zYCU5s9Ed0M
+Channel: Y Combinator
+Published: 2018-03-30T13:34:47Z
+Duration: PT53M35S
+Views: 8704
+Likes: 181
+Tags: YC, Y Combinator, HackerRank, Vivek Ravisankar, Podcast, Interview
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 1445
+
+Description:
+Vivek Ravisankar is the CEO and cofounder of HackerRank - https://www.hackerrank.com/ - which was in the Summer 2011 batch.
+
+They surveyed 40,000 developers on things including their favorite frameworks, what they want in a job, and how they learned to code. You can read the report here - https://research.hackerrank.com/developer-skills/2018/
+
+============================================================
+TRANSCRIPT
+============================================================
+
+all right the Veck why don't we start
+with what you guys do and then we'll
+rewind to before you even did YC yes
+sure
+some vivent one of the founders and CEO
+of hacker ranked our mission at hacker
+rank is to match every developer to the
+right job with the underlying driver
+being skill I mean so resumes are just a
+very poor correlation to skill so that's
+how we got started the way what we do as
+a product as a developer you could come
+on to hacker and to practice and improve
+your skills across different dimensions
+but that's algorithms or artificial
+intelligence or data based skills and
+when you're applying to a company
+instead of going through the traditional
+route of uploading a resume and it's
+mostly going to be a black hole you take
+a company's coding challenge so if you
+want to play the where B and B you take
+an airbnb scoring challenge if you want
+to play the VM where you take a VM
+where's coding challenge and if you have
+the required skills basically we
+automate the whole code and give you a
+report then you get called in for an
+interview so it's great for developers
+because it's a merit-based process is
+great for companies because now you're
+able to attract the right developers for
+their interview process and what might
+one of those challenges look like for
+instance Airbnb are we being put into
+the code base in any way what would it
+look like yeah I think that it vaidhi so
+we've given we built a platform where
+it's super custom for companies to go
+ahead and create so you could have a
+simple problem solving challenge to
+something close to a real world where
+you could have a you could give an
+access to our github repo okay and
+people can go ahead and modify the code
+fix a bug on your own your rep o to go
+ahead and do it so there's a wide range
+of problems that you could give on the
+platform okay gotcha so you guys haven't
+always been doing this correct in his in
+its exact instantiation yeah so let's go
+backwards yeah before YC what were you
+working on yeah sure
+so socati is my co-founder right bla we
+we knew each other from college we used
+to do a bunch of things together in
+college and we started we started the
+company technically we quit our jobs I
+used to work at Amazon as a developer
+before this where I did a lot of
+technical interviews which is kind of
+way
+I saw the problem yeah you know the
+resumes were not a good correlation to
+skills so we quit our job the the way we
+started to do the we thought that the
+way to solve this problem of resumes not
+correlating skills was to help prepare
+students for their interviews so we
+start an interview street that was our
+first version and what it did was mock
+interviews so let's say you had an
+interview call with Amazon or Google
+next week you could come onto our site
+and attend a mock interview with either
+somebody from Amazon or somebody an X
+Amazon person who can give you a
+walkthrough of here are the things we'll
+do a mock interview and give you what
+what are the ideas that you need improve
+where do you stand on all of those
+things and the students would be paying
+these people for their time that's right
+okay so it's gonna be you know it's
+gonna be hard for people to comprehend
+the value here in the US because we were
+doing it in India but we were charging
+350 rupees Indian currency for from the
+student and 200 and we used to pay 250
+rupees to the to the interviewer so 100
+rupees goes to our pocket right so you
+could almost imagine that to be
+something on the lines of I mean
+technically it's six dollars and five
+dollars yeah but but as you mean you
+earn different amounts you could say a
+student would pay $200 something like
+that and an interview will get about a
+hundred and fifty dollars okay so then
+if you if you then think about it in
+that way it's it was pretty expensive
+for students and we didn't have any good
+payment gateways or anything of that in
+India so we used to set up campus
+ambassadors and different colleges and
+Hadi and I used to do a trip every month
+to visit all of these colleges to
+collect money from these campus
+ambassador cash yeah so our accounting
+was all pretty pretty funny and and from
+an interviewer perspective two hundred
+fifty two peas or like $150 or something
+on those lines here is not very is not
+enticing all right if I have to spend an
+hour of my time doing a mock interview
+and giving you feedback is it worth it
+so we I still have the Excel
+which projects us to make I think
+somewhere on the lines of a hundred
+million dollars or hundred crores
+whatever it's like fifty million dollars
+and along those lines yeah in the
+beginning yeah I think we made about
+four thousand rupees or maybe about
+that's like I equivalent of a hundred
+dollars here okay after a year or a year
+and a half so clearly you could just
+drag the cells in the excel in whatever
+way you want and get the numbers but
+it's very hard to execute so that failed
+I mean we had a lot of lessons that we
+learned from that most importantly I
+mean the students didn't have cash there
+was a lot of scheduling and I think one
+of the things that YC stresses on the
+most I wish we had actually done YC at
+that point I think this was done by Paul
+bouquet make something that hundred
+users really love versus making thousand
+people or ten thousand people sort of
+okay like okay I think we should have
+focused on you know what we're just
+going to focus on these two companies
+mock interviews right versus any tech
+company anywhere in the world and we
+were scrambling for interviewers from
+Amazon Google Microsoft follower we
+should just focus you know what these
+are the three companies have been gonna
+focus if you want to get a job here you
+can come into and make it really happy
+and then figure out a way to scale
+looking back yeah of course but did
+people like the product yeah whenever
+people did the interviews they really
+liked it in fact there was there were a
+lot of really interesting testimonials
+of people who actually attended the
+interviews got their job they knew what
+what are some of the areas that they
+need to improve they need to prepare and
+all of those things yeah that's great
+yeah I mean I remember all the
+interviews I did during college like if
+I could have just gotten the email of
+someone yeah one of these companies it
+would have been invaluable to me we used
+to do that sort of informally in college
+right when we were in the final year of
+college we used to train people for sort
+of mock interviews and others so this
+was more like an extension yeah why
+can't he do this on an over the web
+across everyone interesting so you
+weren't necessarily off the mark around
+finding something that people really
+liked but you found that you kind of hit
+a ceiling somewhere and it was it wasn't
+very focused either so there were a lot
+of there were different cohorts of
+people and some of them were students
+some of them were
+were a couple of years into their work
+experience okay and some of them wanted
+to do technical interviews some of them
+wanted to do instead of a automobile
+interview and then we had to go ahead
+and scramble and figure out can we get
+somebody from the automobile division to
+come and take the interview we had no
+contact so we had to figure out a way to
+scramble through LinkedIn and Facebook I
+think it was it was sort of okay but it
+really taught us to just stay strong
+yeah okay and so at what point do you
+decide you like you know what we have to
+change this this isn't working
+yeah it's probably about 18 months well
+we had apply to YC or you did we'd have
+played a Y Combinator with this idea of
+course we got turned down then we I
+think it was about 1215 months something
+on those lines when I mean clearly this
+wasn't going anywhere the Excel was
+completely off the trajectory of the
+Excel graph and where we were and then
+we switched our business model or idea
+there's something different okay so
+there is a big trend or there is still
+present in India which is once you
+graduate you have to do your masters in
+a school here oh it's huge I mean pretty
+much you know I don't know 80 90 percent
+of people would attempt their GRE which
+is your standard way of getting here
+your TOEFL they will prepare their
+statement of purpose they will do all of
+those and the application form is pretty
+expensive right and so you could only
+apply to maybe five or six universities
+because it was so expensive
+I couldn't just you couldn't just apply
+to all the schools in the US so what we
+did was we connected people who were
+already studying in these schools who
+can review your statement of purpose
+your resume and tell you if you had a
+chance to come here to apply to the
+school okay so that was our pivot they
+actually took off a bit but then after
+three months or so the traffic was down
+to zero turns out you can only apply
+twice a year so we didn't know what to
+do for the rest of the year we don't
+actually apply to YC even with this idea
+there you go so I think this whole thing
+about mock interviews applying helping
+people apply for the Masters
+maybe your and a half to two something
+on those lines okay that that we worked
+on yeah okay and then what sparked you
+to start working on where you are now
+yeah well we're close to bankrupt so
+there was a real need and you know of
+course we had really good jobs and
+Amazon was was a great was a great
+company to where were you in India
+working on all of this is in India okay
+and so then we realized okay so just a
+posse really okay how are you making the
+connections of people here if you were
+based in India sure so what we did was
+we used to take the directory of people
+from our school okay who went ahead and
+did masters at all of these different
+universities and who are working in
+different companies so we used to go
+through the directory keep calling
+people email them hey are you interested
+we are from Yard we are from the same
+university that University touch in to
+get them on board so it was just friends
+networks second degree and I used to I
+used to make I don't know 50 calls every
+day Wow to get this going okay and just
+for context for me people from India
+want to do a master's here because it's
+a like a gateway to getting a job here
+or what I don't know how it started
+maybe it was just I think I I think it
+is it's sort of a checkbox okay I'm not
+sure this changed now but it was
+definitely I mean I graduated eight
+years back it was or nine years back it
+was definitely a pride okay you know
+what I'm going to do my masters here and
+and there's of course some glamour
+associated with the great American Dream
+coming here and getting working in this
+in the Silicon Valley Silicon Valley is
+sort of this mythical place for all
+Technology developers to be here okay so
+it was more like a checkbox I still
+think it is the case that you you would
+have to apply if you had a good GPS and
+if you had good grades the question is
+why aren't you going why are you flying
+for a masters that's funny even among
+they're like the very talented smart
+kids going to great schools in India
+yeah sure I think you're playing for
+your masters why aren't you doing your
+PhD here in one oh and Carnegie
+or Stanford or Purdue and there are a
+lot of actually I my hottie and I might
+actually be the odd man out cuz you
+didn't do it yeah we didn't anyway yes
+and I'm happy because I'd applied to six
+school I was so dejected when the school
+held me down but in hindsight it's great
+right I don't think would have started
+the company bad come here no probably
+not
+this is a conservative move yes and you
+have to once you graduate you'd have to
+get a job because you have to pay back
+the loan which is pretty big so you do
+two years of masters then you do two to
+three years of working in different
+companies to pay back the loan and
+there's all of these visa things and by
+the time you you want to start you're
+already
+I don't know close to five six years
+invested in this that's really common
+and the friction to or the inertia to go
+ahead and start another company when
+you're happy working at Amazon or Google
+it's gonna be hard yeah yeah definitely
+and so okay so you're basically out of
+money yeah we're still close to bankrupt
+yeah yeah and and yeah so we had we had
+a clear choice which is we could go back
+and get a job I think we could have got
+that but something we just wanted to
+keep going we just wanted to try try
+this out once more and I have no idea
+what kept us going at that point in time
+and there was some conversation we were
+just walking it on which was it sounds
+obvious if you have to make money you
+have to sell something to people who
+have money there's no way you're gonna
+make any money we were selling to
+students and others were already in
+whatever they had called student debt
+and they had very little money so that's
+when we said hey can we invert this
+which is can we build a product for
+companies to help them identify the
+right developers based on our skills of
+course we didn't have the mission
+written down like match every developer
+to the right job but looking back I
+think that was the core of every
+decision that we made and and and we
+felt you know we'll still stay true to
+our core because it doesn't it's mock
+interviews is one way of doing this but
+if you actually give a platform that can
+enable developers from it doesn't matter
+what school
+go to which company you went but you
+have a chance to showcase your skills
+and get the dream job that you want then
+that's great you know we should build a
+platform for that you know that's what
+we got started and that got the early
+attraction so that was a third time we
+apply the YC and yeah why is he called
+at that time all right
+and was it because you were showing
+significant growth at the time or the
+idea was just working out I mean I don't
+know I I definitely didn't want to ask
+why did why are you guys this is a
+mistake sure so that was our first trip
+to the US yeah so and and and we had
+some struggles there as well hari my
+co-founder couldn't get his visa to come
+here and I still think it's the stance
+of YC but YC cares about co-founders a
+lot and so so I got my visa how do you
+couldn't get and so I flew in here just
+for the 10 minute interview this was
+yeah six years back and fortunately we
+got in and I remember you know I think I
+think there was a panel of interviews it
+was PG Sam hard Jessica and Paul bouquet
+there was five people doing me okay and
+you know that's the foot I landed in the
+morning in the evening was the YC
+because I couldn't get my visa on time
+over the last day of interview yes day
+of interviews only the last one like
+yeah yeah the last one as well could it
+be and then you you see all these five
+people is a creator of gmail you're
+obviously a little bit stressed and then
+you don't have a co-founder and PG asta
+where is your co-founders visa but it
+was a it was a good intense ten minute
+and frankly I didn't think we'll get
+into YC so I was and maybe it worked to
+our advantage because I was just
+completely open and honest about
+everything because I didn't I didn't
+fake any of my answers or try to impress
+them look this is the problem I'd really
+want to come here and go ahead and do
+this and it probably worked out our
+advantage interesting yeah I mean so
+what you were working on before has this
+separate difficulty in the application
+because you have to educate someone
+about what it's like in India versus
+here yeah where we have the exact same
+problem of like oh we're this company we
+have all these jobs yeah we don't have
+enough engineers like yeah let's sort
+this out yeah yeah I think there is a
+there is an imminent
+way things I mean yeah you're right the
+environment is different I mean I
+remember I used P G's so I didn't have
+so I used to sit in the Pioneer way
+office white-dominated office for most
+by actually our first office was right
+opposite to the YC pioneerof yeah yeah
+it was a rethink TBS old office okay
+which we actually took so it was right
+opposite so I used to be in Y Combinator
+for most part I remember I took P G's
+charger Mac charger by mistake oh and
+this was the second day or the third day
+and I was I was I was so kind of I
+didn't know what to do because oh my god
+what is Fiji gonna think and then I
+started emailing I'm really really sorry
+charger he said no problem just keep it
+just keep it there tomorrow and I said
+okay are you gonna come in tomorrow and
+he said he's not gonna come in tomorrow
+I because the the way at least I was
+brought up and for most part in India is
+if you keep a charger or if you keep the
+Amazon box right outside the door
+somebody's gonna take it away right and
+even the even the tiny things and then I
+had to you have to learn about how the
+environment is different how people talk
+how people react to it in the dinner
+time here is 6:30 so I remember sending
+a calendar and invite for dinner to to a
+person that I want to recruit for 9:00
+p.m. and he said that's kind of my
+bedtime so I can meet you in nightly
+yeah so there are all of these things
+that you have to learn and it's not just
+the macro part of the developer how it
+works but even the tiny things about how
+you interact how you work with people
+and all of those things you have to
+learn yes yeah has that been
+incorporated into your product because
+you know I imagine you have all these
+international people applying to US
+companies yeah how do you help educate
+them on the cultural norms yeah no it is
+it is a really good question because
+right from how you sort of how the the
+types of sentences or words that you use
+varies quite a bit between what you
+would say to somebody in Asia what you
+would say somebody to you in UK and what
+we would say somebody here so all of
+those nuances we need to take care of
+because you you want there is a there is
+a different culture
+aspect on how you sell how you talk how
+you get people going here it's really
+difficult how long does it take you in
+particularly I think it's a forever
+learning I don't think I've ever facted
+it I've got in my dinnertime now at 7
+p.m.
+yeah shifted a little but but I think
+it's a constant learning I don't think I
+don't think it's ever gonna stop yeah my
+friend moved to India for a couple years
+and he explained the exact thing
+opposite yeah yeah it was tough for him
+yeah I mean every I mean it's it's just
+the way you you grow up is different I
+mean that there's nothing there's
+nothing that's right or wrong it's just
+different and you have to get used to it
+and I remember peih-gee and sam
+correcting me from everything to even
+the tiny once its own india you would
+probably say programmer you would add
+the a at the end but here people will
+not be able to follow it's programmer so
+if you have to say and when I when I was
+doing my demo day pitches all of these
+little things mattered because it was
+just a five minute pitch or no I think
+it was a two minute or a five minute
+pitch for the demo day and every little
+thing matters a lot because when you're
+talking to investors so it's not just
+the accent but how you talk how you
+schedule meetings how you follow up and
+everything is different yeah
+demo day stuff universally because yeah
+I mean you're pitching a master group I
+think you said your batch was like 60 or
+70 I think I think our batch was 63 or
+65 yeah and so that's enough companies
+or one to just fall into like monotony
+but but interesting I really enjoyed it
+because I've never been exposed to
+exposed to such a large group of
+investors and I I was I couldn't even
+sleep the previously I was looking
+forward to it look I wanted a pitch and
+get get a CD say going so I I frankly
+enjoyed it I was looking forward to it
+that's very cool
+so you raise money after YC yeah and
+you're committed you're like okay we're
+gonna stay in California at this point
+yeah I mean after I came here to
+Mountain View and I don't know maybe
+that's that's just partially the reason
+the first city
+well I technically landed in San
+Francisco but immediately cap and came
+to Mountain View it was I I just
+I think everything everything looked
+great for for most part I mean the right
+from the kind of the people that you
+interact with the advice that you get
+the weather the food sort of the perfect
+mix for me of coming from India
+you had the weather similar to Bangalore
+and the food similar to Bangalore and
+Chennai and then you had all the people
+that that I really wanted to talk and
+get advice from in terms of building a
+company so it was the perfect mix at
+least for me so I I was very much
+determined to stay here and build a
+company man what was that like you know
+flying here and then seeing all the
+people who you like you read their blog
+post ug is an easy example yeah what was
+that experience like yeah it was it was
+kind of surreal I I didn't know it was
+as I said I I thought I was going to
+just stammer and and flunk the interview
+but like I mentioned I didn't think we'd
+get it actually we were the first Indian
+based company to get into Y Combinator
+really yeah and so that was another
+quote unquote
+I don't know if it helped or didn't help
+because we thought okay they've never
+chosen a computing based company so our
+odds are low that really helped because
+I was just completely free and open but
+it was great it was great to meet all of
+the all of the people that you admire
+far off from reading your blog post or
+Twitter or watching their videos yeah
+and what were your what were your
+greatest learnings from the experience
+from YC yeah
+I think the the intensity was very very
+high because there was a there was a
+dinner every week and you I mean each I
+I noticed that each founder had their
+own set of people that they interact
+with of course I interact with a lot of
+them but you you talk to a few people in
+and then you hear their updates every
+week that's and you want to push harder
+and you have a you have a fixed deadline
+three months down three months you have
+a demo day which you have to go and
+present to investors so you have a fixed
+demo fixed timeline to you to make sure
+that you have a good prototype you could
+possibly paying customers to go ahead
+and do it and I think the bar is
+continue to increase right at every demo
+day so I think the intensity I think the
+learning is I still think Hadi and I
+have that intensity for most part which
+is good Wow how do you keep it up cuz
+people talk about this all the time
+they're like it's so cool having a
+cohort that you can kind of benchmark
+yourself against yeah but once you're
+out you're kind of out yeah I don't know
+maybe we're just uh its DNA or we're
+just consistently hungry to win but I
+think the challenge is can you extend
+that across the entire company I don't
+think we've done that we've done an okay
+job at that right so I think that's
+something that we still need to get
+better at that's a challenge so sort of
+fast-forward massively yeah now yeah the
+reason we started talking about doing
+the podcast in general yeah was that you
+guys released this developer skills
+report yeah so just for folks who
+haven't seen it can you explain it yeah
+sure so we have a developer community
+that's over
+I think it's 3.4 million as of as of
+last week that's slightly over 10% of
+the world's developer population who
+come who come to hacker and to solve
+challenges to practice their skills and
+get better and one of the things that we
+wanted to do was to learn more about our
+developers so we sent a survey actually
+it had 40 questions there's a lot of
+debate you know will develop firstly
+will develop the survey and then you're
+sending a survey to developers with 40
+questions something on the others lines
+what are the odds that somebody is
+actually going to fill this so we sent
+this to a million of our
+developers whoa it was amazing we got
+close to 40,000 people complete the
+survey that was huge
+I think Stack Overflow had 60,000 and
+they have 20 million developers or so so
+if you compare the ratio the engagement
+and how many people completed survey was
+giant and hopefully we get it we we can
+beat stack overflows number next year
+yeah what was your like email subject
+line how'd you get so many people to
+convert that's a good question and we
+did a B test but maybe mykola our
+marketing team Radhika they might have a
+better idea on on what was the subject
+line but we did a/b test yeah a few
+things and we we also tested on the
+timing you know when to send to which
+cohort depending on the country
+depending on the geography and all of
+you because you're fairly distributed
+right in terms of user base yeah so
+we're maybe it's about 26 to 28 percent
+in North America okay about 40 years
+percent plus in Asia is your Pacific and
+then you're talking about 15 to 20
+percent in the UK in the remaining
+invest yeah okay so for each of the GOS
+we also optimize the subject line when
+to send them and how do we actually
+position this so we did a bunch of
+things on those lines was it dialed in
+for language or all in English I know it
+was all in English okay yeah I don't
+think we changed any language so the
+questions were waiting from when did you
+learn to code to what do you look for
+when you're switching for a job or if
+you're hiding manager what do you look
+for in a candidate so we had a wide
+variety of questions and some really
+really interesting insights so we had we
+engaged a firm who could parse the data
+who could do real analysis on this and
+we're also likely going to put this up
+on our website for all of our developers
+to go ahead and do the analysis with our
+raw data so something might happen maybe
+in the next couple of quarters yeah it
+was it was a really interesting insights
+and we published this earlier this year
+yeah we got over half a million
+developers to read the survey I think
+this was a this was a huge milestone and
+a and exceeded kind of at least my
+expectations in both the quality of the
+content the design
+the reception that we got and of course
+there's podcast with a day so it
+exceeded my expectations in all
+dimensions so alright I guess the most
+important question is what programming
+language is the most popular I think it
+varies across different industries and
+you know for I think the one that people
+want to learn a lot is Python and the
+one that's starting to get a lot more
+popular as go but it there are but it
+varies across different industries from
+what financial services want for this
+fast-growing internet companies want
+versus retail just all of these
+companies are transforming into software
+comprise so each of them have a
+different variation of it ok
+it's so for a developer who's curious
+and sees the survey yeah do you kind of
+funnel them through a flow on your site
+like if you're interested in getting
+into banking you ought to be learning
+yes yeah question so we are trying to do
+with the rivers which is what what do
+you want to learn what language and
+skills do you want to learn and then
+we'll help you recommend you know what
+weird
+where can you most fit where do you see
+where do where as hacker banks see you
+the best fit or the best job for you
+based on all the data that we've
+collected ok gotcha
+so let's go through some of the facts in
+the fun facts oh sure I saw there were
+in the beginning of the report it's a
+lot of stuff about age yeah so when when
+did people start learning out a program
+when does it all begin yeah I mean I
+think the the most the fun insight was
+one in every four developers learn to
+code before they learn to drive yeah
+that was a that was a really interesting
+insight that we were able to get and and
+it's it's not super surprising for me as
+a developer but when when we announced
+this it was it was just I think it was
+the most popular insider we even started
+printing t-shirts and in our company and
+that was that was there was an
+interesting one and it just shows the
+fact that self learning is starting to
+become big people are learning on their
+own
+you don't necessarily need to go to a
+particular school to do to your
+four-year degree and then understand how
+to code or how to build applications and
+it's just going to I think over if you
+just extrapolate the trend line I think
+this will be two and four or three and
+four developers will learn to code
+before they drive in the next decade or
+so
+yeah and did you collect any data around
+boot camps coding boot camps yeah we did
+we did collect I think the we collected
+data on how much the hiding managers are
+others valued the boot camps and kind of
+learning it was mixed to be frank I
+think there were certain hiding managers
+who value did a lot in certain hiring
+managers who did okay and my guess is
+this probably depends on the quality of
+the boot camp right I mean there are a
+lot of them who there are there are you
+know set of boot camps who say you know
+what come here doesn't matter whether
+you know how to code or not I'll help
+you become a great yeah
+valleca in 90 days I mean it's that's
+not how it works right
+and it almost seems like a negative
+signal for sometimes which is oh you
+didn't know how to code ninety days
+before and now you're claiming that
+you're a react expert you know that that
+puts me off so I think it depends upon
+the quality of boot camps and then then
+on the other extreme you have this
+school which I was personally really
+impressed by it's called 42 okay it's a
+school actually PG tweeted about it it's
+reference that's right they just opened
+that they just opened just opened
+another one in Fremont where I had a
+chance to visit where it's you you of
+course have to take a minimum level of
+coding proficiency challenge or a test
+yeah and then you are allowed to explore
+whatever types of computer science
+topics that you really like and then
+figure out which one you have a natural
+attraction or a passion for whether it's
+security or machine learning or a
+front-end developer and then continue to
+get better at at that and then will help
+you connect to the right job so that
+that seemed to be a different approach
+but it's very different right because if
+I understand it correctly they're giving
+people room and board that's good and
+it's like a huge long it's free yeah and
+it's over the course of years yes right
+right yeah so yeah it is it is it is
+very different be interesting to see how
+that experiment works because I think it
+was started by a really big billionaire
+in in France or something he just wants
+to help the world so I'm not sure how
+how it might work from a business value
+proposition but at least in terms of net
+improvement to the world to create more
+developers
+and to help improve technology I think
+that's a that's a great start yeah so I
+think I think that's why the boot camps
+had a mixed one from the hiding managers
+at least okay and then what are what are
+the differences between you know
+startups hiring and big you know like
+Amazon type companies yeah I think the
+one common thing was everybody stressed
+on the importance of problem solving
+skills irrespective of the you word a
+smaller company or a bigger company and
+others and the one thing that the
+startups or the execs cared about the
+most because at least in a start-up you
+maybe you might have a recruiter or not
+but most likely you're doing the
+recruiting on your own they care more
+about your contributions or your open
+source contribution so your profiles our
+portfolio much more than what a large
+company cared about but at the heart of
+it people wanted strong problem solvers
+and in also one of the things that was
+there was present in the survey was how
+you wanted to dive in deeper on the
+knowledge of that particular stack at
+least for a startup because of course
+you have very low or pretty much no
+bandwidth to train somebody on the new
+stack that you're working on versus a
+large company where you have a little
+more bandwidth to go ahead and train so
+you're okay with the generalist who can
+come and learn a new language versus in
+a startup I like you to know the
+particular language or the stack before
+you come in so those were some of the
+nuances of the differences that you can
+see between a startup at a large company
+so in terms of structuring a job
+offering to someone or rather just like
+a job posting yeah what are the things
+that end up appealing to developers yeah
+I mean this was very interesting because
+I assumed differently and of course
+always data over here and one of the
+things that we learned was how work-life
+balance beats all of the different perks
+that people offer whether that's free
+food or or we have a ping-pong
+tournament every week things along those
+lines and then we I actually didn't
+believe this data firstly so we I wanted
+to do another survey for people who did
+the work life balance who actually opted
+in what would you really mean by worked
+and what we learned was a lot of
+developers have their own projects that
+they want to learn that they want to
+build on the side and the environment
+that you're working should give a good
+amount of balance and probably even
+support if you can do on the things that
+they're learning on the site or the
+building on the side versus what you're
+doing for the company yeah so that was
+that was kind of a interesting insight
+about work-life balance and one of the
+things that you know I'd like to do what
+hacker and we're still discussing on how
+do you position this in the right ways
+if you have any of the site projects
+that you're working on yeah we'll fund
+the infrastructure cost for that so it's
+we're still figuring out how do you
+position this how do you how do you give
+this away and I'm pretty sure after
+people hear this podcast ain't gonna
+email you stuff but that's one way of
+helping or encouraging people to do that
+as well Oh interesting and so what are
+the other ways that companies signal
+that they have that work-life balance
+figure it out or is it just like folks
+come in for the interview they get a
+sense for it and then they say yes or no
+yeah that is one but but I also think if
+you're actively contributing to open
+source whether that's I mean for example
+we are improving a lot of the open
+source code editors there that are there
+right now we've not done a great job in
+letting the world know about all the
+improvements that we've been we've been
+doing but that's one way and of course
+interviews helped a lot in understanding
+more about the developer culture okay
+and do you guys have any rules around
+working on side projects because I know
+that like at larger tech companies there
+are totally issues and like you know I
+don't think they really flex that muscle
+very often and ever yeah but yeah you
+know like companies like Apple are
+infamous for not letting people do side
+price yeah yeah I mean that's probably
+one of the advantages when you're small
+which is I mean as I don't think we have
+any tools I don't think we should put
+any rules because it's just freedom or
+creativity to go ahead and do it and
+frankly if it's gonna be conflicting
+with your with your core idea and you're
+scared about it maybe you should take
+the developers idea and implement it
+it's better or otherwise you could just
+you don't need to be scared and you can
+just have the developer work on the
+projects that they want so I know I
+don't think we should put in use but I
+mean a large company like Apple or
+Amazon or Google will will need to put
+in constraints yeah yeah all the Google
+hack this by putting a 20% rule where
+you could 20% of the time you can work
+on your projects I think that's how
+Gmail was born where I think Paul book
+he worked on is 20% free time to build
+Gmail so that's how they hack it it's
+not really technically a side project
+that you do outside you use all the
+Google infrastructure and libraries and
+eventually contribute to Google so
+that's one way you could try and do it
+interested what else is uh what else is
+attractive to a developer yeah and the
+other thing that we that we had and the
+survey was really on continuous learning
+I think there are just there are just so
+many new things that come up new layers
+of abstraction right which is which is
+obviously very enticing for a developer
+new frameworks I mean there's a
+framework in for Java 7 launched every
+month or every two months which is kind
+of driving crazy because you just have
+to keep migrating from one over to the
+other and that the other thing was
+continuous learning can I learn new
+things can I learn how to how to get
+better so that that is a forever
+learning attitude or culture what else
+did you learn about how developers are
+actually educating themselves so
+obviously some percentage are going to
+boot camps some are doing CS what is
+everyone else yeah it's it was really
+interesting even though you had a CS
+degree a lot of developers said they
+actually learned a lot from YouTube
+works are sites like hacker rank it's
+not a plug for hacker rank even though I
+think the title might say this or
+whatever but but that was really
+interesting because that's that's a new
+that's gonna change it's a paradigm
+shift right now because if you look 10
+years back and then paradigm shift in
+recruiting because if you look 10 years
+back you're going to use GPAs and
+universities and the companies that you
+worked at as proxies yeah but now the
+proxies are changing right it doesn't
+matter if you went to a grade schooler
+and
+great GPA if you if you learned on your
+own and build a lot of things on your
+own it's that is what is needed that's
+all is enough so the way that you look
+for in a candidate who do you look for
+how to assess how do you get people in
+the door and how do you remove biases
+that's been there for not 10 years
+that's been there for a hundred years or
+do you go to this school or did he work
+in this get company how do you remove
+this those bias and truly focus on the
+skill I mean it's a lot of work it's
+going to but that's a big paradigm shift
+and it's a very good and healthy trend
+if more developers can learn on their
+own for free you don't have to pay a
+hundred thousand dollars for tuition
+it's it's just good overall for the
+world to do that interesting and so how
+would someone stand out like what are
+the kinds of projects that end up
+appealing to a company because I know if
+you do a lot of these like boot camps
+like great you made your own CMS like so
+did ten thousand other people yeah did
+you get any insight as to you know when
+someone does care about these projects
+what are the kinds of projects that
+appeal to companies yeah I think I think
+it's hard to I think there's one part of
+it which is your sort of motivation or
+your drive which can really come through
+which is I mean if you look at you right
+if you just rapa repo and made
+some made a couple of edits in one file
+it really doesn't you can't claim that
+you actually done contributed
+open-source or anything but I think one
+is one is definitely indicates a drive
+the second is also and which is probably
+hard to just look at a hacker and
+profile or a or a github about any of
+the profiles and you can't just look and
+figure it out is the depth of thinking
+and what are all the things that this
+developer wants to do more and that's
+something probably you can get from the
+interview but the bigger question really
+is would you be willing to bring this
+person on-site and go through the
+interview process based on their skills
+and not on their pedigree and it sounds
+obvious but we're trying to educate our
+customers and everybody or hiring
+developers this is the right way to go
+and we're sort of leading and pushing
+the movement for this and hopefully we
+can be successful at
+yeah cool and and how does this affect a
+situation where you're hiring remote
+developers are there any other
+particular cues that you pay attention
+to well yeah what it work yeah I think I
+think the communication aspect is always
+always a big deal how do you how do you
+get everybody in sync I think some of
+the companies have done an amazing job
+gitlab is a YC company I talked to their
+CEO and it's fully remote it's crazy
+how then it's just shows how much effort
+that you need to put in to make sure
+that that people are in sync with each
+other I do think in and you're seeing
+this happen a lot get lab is just an
+example but I know a lot of others a lot
+of other companies for starting to do is
+I think I think the future would be an
+ability for you to build out engineering
+teams wherever you want and not just
+restrict yourself to the Bay Area and
+and a good common connective tissue that
+makes sure that things don't break
+because of bad communication or because
+of time zone differences and others I
+think that's that's where the world is
+going to move and which means ability to
+know their skills and how they can
+contribute when when you're not in the
+office and all of the others is going to
+play a very very important part like
+ability do you understand both of this
+at a deeper level it's gonna play an
+important role yeah and have you guys
+conjectured or or started working on
+anything that might be able to test
+someone's like efficacy as a remote
+developer because it's one thing to have
+the technical chops yeah it's another
+thing to be able to work in like a
+co-working space or in your bedroom or
+whatever yeah when you're in a different
+time zone yeah I might get done
+yeah yeah I mean I think I think there
+are this one part which is the IQ which
+is how good are you in all of these
+different skills where do you need to
+improve and the other part is EQ which
+is what what your personality is we've
+been doing some experiments or
+partnerships with a couple of them but
+we've not had a real breakthrough on
+that yet but I do think that is going to
+be that's gonna be helpful I mean the
+reason I'm saying that is there are a
+lot of companies who use hacker rank to
+build out remote teams in India and
+other parts of the globe there is a
+company which probably found your
+booking.com one of the most popular
+travel companies in Amsterdam
+they are able to hire developers all
+over the globe using hacker and right
+and and they're doing it in a very
+efficient way because they understand
+the skills strengths and weaknesses
+before you come on site and before you
+fly to Amsterdam so I think we're
+starting to see this movement at least
+happening in a lot of companies on the
+IQ part of it and now if you can do a
+better job or if you can work with a
+partner or if you can do something even
+internally at hacker going to do the EQ
+it can be a very strong solution and so
+this is all done through programmatic
+exams there aren't any in person
+interviews to like assess EQ there are
+some companies who are working on this
+programmatic way it sounds very
+interesting I'm not
+we've not like partnered with them
+people really understand how how well
+it'll fit in but it's certainly a very
+very interesting opportunity okay so in
+addition to maybe figuring that out in
+the answer how else do you see paradigm
+shifts happening for developing
+developers in the future you know
+obviously they'll be all over the world
+yeah what else is gonna be happening and
+you know five years I mean there are a
+couple of things one is I think it was
+there on Hacker News
+it's the as much as there are api's and
+different levels of abstraction that
+have made it easier to get things
+started to to set up your environment is
+and and this is for somebody who's uh
+who's a newbie who is just learning to
+code it's very intimidating to to set up
+something and and get it running in
+compiler I mean you could have I think
+that's one part where things needs to
+get better you know here's an
+environment here's where you can go
+ahead and start start the code because a
+lot of them give up oh yeah oh I I did
+this thing online and then I tried it
+out on my local it didn't work because I
+don't know if you did you have this
+library and there was a dependency
+failure and you have to go and figure it
+out and just becomes a big mess and you
+give up so I think I think that that is
+still you know we we still have to do a
+better job if we have to increase the
+number of developers in the world yeah
+you can't have people giving up after
+the third lesson or the fifth lesson and
+saying you know it's not taking anywhere
+and all
+so there needs to be a purpose I mean
+the purpose can't be you're gonna get a
+hundred thousand dollar job right the
+purpose has to be much more whatever is
+in your mind you can go ahead and build
+it on your own right I mean you have to
+encourage the fact that you can build
+versus I'm gonna get you a six-figure
+salary to do it I think that's that's
+one part that needs to get better if you
+really have to create more developers in
+the world well why does that have to get
+better because $100,000 hour I mean I
+agree with you yeah but to be devil's
+advocate oh yes like that's a lot of
+money to a lot of people yeah is that
+not work I think it will work it will
+work for a subset of people obviously
+sure but I think you know in a very
+longer-term the the really great
+developers are people who did it not
+because they'll get a job but because
+they really wanted to build something
+they really wanted to get this whatever
+their the idea that they had in mind out
+and I worry that if you had a and this
+is just my hypothesis if you had a
+monetary value associated with it you
+might just focus a lot on that and and
+you will reach a ceiling pretty soon
+this is just my hypothesis versus if
+you're if you really fall in love with
+the idea of building or creating new
+things
+the ceiling is sort of infinite because
+you can there's always new technologies
+there are always new things that you can
+go and build so it's more about what is
+the type of behavior that you're trying
+to create it's like a kid you're trying
+to get into the developer world trying
+to do it and what what is the type of
+behavior that you're trying to create
+and why you're doing what you're doing
+so that that should be that should be
+taken care and the second big bucket is
+really the paradigm shift that I was
+talking about which is more companies
+should come forward and encourage and
+say you know what we're about skills we
+don't care about resumes we don't care
+about what school did he go to as long
+as you have the skills would be willing
+to do I still think the proxy of your
+GPAs and companies exists and a lot of
+companies yeah absolutely i mean i think
+that like people constantly disqualify
+themselves before they even enter a race
+yeah yeah and we see with YC all the
+time like you know people are constantly
+asking questions like you know i raise
+money can I do YC
+like I have a raise money can I do I see
+yeah yeah I don't have a co-founder
+gonna do I see yes and you often
+encounter this thing where it's like you
+can just apply yeah you just go for it
+yeah and like moving things toward a
+more meritocratic system yeah that makes
+a huge difference yes what else does a
+developer value in the hiring process
+not just like about a company yeah what
+do they want yeah I think the in the
+contra intuitive thing at ease whenever
+I've talked to a lot of companies is you
+should also understand that developers
+are interviewing you it's not just a
+one-way thing and in it developers are
+interviewing you know in a bunch of
+different things right from the process
+how tight and efficient are you are you
+actually doing their peers and and also
+the challenges or the questions that
+you're asking and how deep sometimes
+I've seen this at a lot of companies
+people are scared to ask hard questions
+because it might turn off it went the
+other way which is I'm wondering is this
+the level I mean if you just ask the
+easy question oh here's our developers
+that I'll be working on and of course
+there's a different nuance to the hard
+question right you don't want to ask a
+complex math problem which has a trick
+answer if you didn't know this
+particular formula you can get it the
+hard in the sense of relevant to the
+business relevant to the relevant to the
+job and how do you go about doing it
+yeah the other thing that I'm starting
+to see happen across a lot of different
+companies and even hacker and has
+incorporated this is the business acumen
+the the level of business acumen that
+you have as a developer usually it is
+it's always developers or builders you
+have this whatever requirements or spec
+you can go ahead and do it but if you
+look at a lot of the great companies who
+will or Facebook or others they're all
+developers at the heart of it right and
+the reason of course they had great
+products but they also had really strong
+business acumen and really great
+developers have that or what what I
+think Steve Jobs incorporated is a 10x
+developer have that level of very strong
+business acumen so that's something that
+people want to know what your strategy
+is people want to know how they can
+contribute how what they are building
+helps in the business strategy often
+times we think it's just about user
+were using in amuse and and others but
+no I'd like to know how we're building
+the company and that's something that
+we're trying to do a lot something that
+you should do in the interview process
+as well is my recommendation interesting
+so in other words like ask questions
+about product not just technical stuff
+yeah and about the business strategy you
+know you should you should be able to
+challenge hacker rank or challenge the
+company on you know why are you doing
+this and here is a different idea here's
+here's another thing that you can do
+better
+oh man now you're just dressing people
+out like more stuff to prep it for yeah
+but I think it's fun because I like it
+yeah just sit in whatever like the
+armchair critic you know you can say oh
+why did you enter this geography I think
+that's a bad move or why your business
+plan edition is not as conflicting with
+your free user in addition to me you can
+have you can have a good conversation
+and and frankly the the and here's I
+mean all of these things are the nuances
+are super important which is it doesn't
+matter the the questions that the
+candidate asks whether that's the right
+or the wrong thing for the business you
+have to judge the quality of thinking
+right it could be completely off from
+your business strategy that you would
+actually implement because you have way
+more data and you've been in this doing
+this for six years or something on those
+lines but it's the quality of thinking
+and how do you what's the framework of
+asking questions that you should be
+judging people on okay and I found those
+questions and developers really be at a
+much higher productivity at our company
+you know what about the the brain
+teasers are they still in fashion
+developers like them at all no I think I
+think it's it's not be using that it's I
+don't know who created that some company
+created that clearly I have to go back
+and look at the his it's probably like
+McKinsey or something yeah could be
+right it is um
+I think I think the underlying
+underlying goal is the right one which
+is basically they are trying to think
+about the computational thinking which
+is I don't know how many tennis balls
+will fit in a Boeing right four seven I
+think they're trying to again this is
+the question are they trying to figure
+out the quality of your thinking how do
+you think about it how do you what kind
+of
+what kind of data that you will analyze
+or how do you how do you structure the
+problem how do you break break it down
+into subproblems and go ahead and do it
+but I think there are better ways that
+you can assess the computational
+thinking or the problem-solving skills
+we just interesting because that's what
+the hiding managers care about the most
+in a much more developer-friendly coding
+friendly way of helping people do that
+cool okay so in closing I'm curious
+about your experience as a founder
+hiring developers like we've handled
+we've covered a bunch of stuff for like
+if you're a company this is how you hire
+you're like 1,000 and first developer
+yeah but if it's just you your
+co-founder and you raise a little bit of
+money or you're you're making enough
+money that you could finally hire
+someone yeah what are the stuff what are
+the things you're thinking about one of
+the things you're testing for early on
+yeah I think Peter Thiel talked about
+this and I think maybe one of the
+podcasts or one of the interviews which
+is the way PayPal got built was they
+went and hired people who who the others
+thought weren't qualified but actually
+they were really really good because
+they didn't have the traditional degree
+or the traditional background and doing
+it I think the first 20 people or so at
+PayPal were were very much on those
+lines that's kind of how we at least
+built the first five to ten hires of
+developers and it's really helped us a
+lot if you look at it I mean Holly and I
+didn't go to the IITs which is the
+equivalent of Stanford and you know the
+first five to ten developers that we
+hired we're people who were very smart
+or very skilled and it's almost this
+quote-unquote untapped pool and it's the
+secret source and and then that really
+set everything right from your
+motivation and drive to do great things
+I mean the first engineers are still
+with our company and doing amazing
+things actually and and they are
+doing some great things right now
+leading a team they're managing a team
+and the motivation of the drive to do
+really great things the ability to learn
+the ability to assess making sure that
+the peer or whoever is going to join the
+companies as good or better than them
+all of that has helped a lot and and I
+feel that's a
+that's an important thing that I come
+back to this whole proxy thing yeah the
+current ways of doing proxy on GPS and
+degrees is bad and you have to figure
+out your first send people almost from
+the untapped pool I think it helps a lot
+in your driving motivation for the long
+term it's just my hypothesis but I just
+have one data point from hacker right
+yeah no I mean I agree with you but like
+the short answer is that you have to do
+the work to find the great people and
+it's like in that arbitrage of you don't
+have the right credentials yeah but you
+have all the skills yeah
+so you're worth yeah also I think the I
+think that some level people should be
+really passionate about the mission and
+and you and again again the nuance comes
+here right which is you can't expect
+somebody to be more passionate than you
+that that's never going to happen
+but as long as they have a they have a
+real feel or connect you know what we
+need to solve this problem and here are
+some other ways that you can actually do
+it you know that's another thing that
+you need to test the first and
+developers also alright man well thanks
+for coming on yeah thank you for having
+me
+you

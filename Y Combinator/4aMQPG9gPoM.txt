@@ -1,0 +1,1131 @@
+Title: Better AI Models, Better Startups
+Video ID: 4aMQPG9gPoM
+URL: https://www.youtube.com/watch?v=4aMQPG9gPoM
+Channel: Y Combinator
+Published: 2024-06-06T17:24:21Z
+Duration: PT41M7S
+Views: 86388
+Likes: 1721
+Tags: YC, Y Combinator
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 1106
+
+Description:
+There's been a lot of news lately about the updates to some of the largest foundational AI models. But what does this mean for startups? How will future product releases from the AI giants effect the companies built on top of them? The hosts of Lightcone discuss how founders can take advantage of these developments and avoid being steamrolled by the competition.
+
+Chapters (Powered by https://bit.ly/chapterme-yc) - 
+00:00 - Coming Up
+01:22 - AI Challenges for Startups
+05:00 - GPT-4 vs. Gemini 1.5
+
+============================================================
+TRANSCRIPT
+============================================================
+
+every time there's an open AI product
+release now it feels like there's a
+bunch of startups waiting with baited
+breath to see whether open AI is going
+to kill their startup this is actually a
+really uh crazy moment for all startups
+adding more types of modalities and more
+capabilities uh per model the the better
+off every startup is you have to be on
+top of these announcements and be kind
+of know what you're going to build in
+anticipation of them before someone else
+does versus being worried about open AI
+or Google being the ones to build
+[Music]
+them welcome back to another episode of
+the light cone I'm Gary this is Jared
+Harge and Diana and we're some of the
+group Partners at YC who have funded
+companies that have gone on to be worth
+hundreds of billions of dollars in
+Aggregate and today we are at an
+interesting moment in the innovation of
+large language models and that we've
+seen a lot of really new tech come out
+just in the last few weeks whether it's
+GPT 40 it's uh Gemini
+1.5 Harge how are you thinking about you
+know what does it mean for these models
+to be so much better anytime I see a new
+announcement from one of the big AI
+companies with the release of a new
+model the first thing I think about is
+what does this mean for the startups and
+in particular YC startups and when I was
+watching the open AI demos it was pretty
+clear to me that they are really
+targeting consumer like all of the demos
+were cool consumer use cases and
+applications which makes sense that's
+kind of what chat gbt was was a consumer
+app that went really viral I just wonder
+what it means for the consumer companies
+that we're funding and in particular
+like how will they compete with open AI
+for these users what did you think like
+even if we take it back like how do
+consumer products win from like first
+principles like is it more about the
+product or the distribution and how do
+you compete with open AI on either of
+those things yeah that's a great
+question I mean I think ultimately it's
+both and then uh how I want it to be is
+that the best product wins uh how it
+actually is is Whoever has the best
+distribution and a sufficiently good
+product seems to win either way I
+actually think we're at sort of uh in
+this moment where the better the model
+becomes if you're already using four and
+suddenly four you know you can uh change
+one line of code and suddenly be using
+40 uh you basically just get smarter by
+default every generation and that's
+really really powerful it means that you
+I think we're entering this moment where
+the the IQ of these things is still you
+know four is arguably around 85 it's not
+that high and then if the Next
+Generation if CLA 3 really is at 100 or
+you know the next few models end up
+being closer to you know 110 120 130
+this is actually a really uh crazy
+moment for all startups and uh the most
+interesting thing is like uh adding new
+capabilities so having the same model be
+great at coding for instance uh that
+means that you know you might have a
+breakthrough in reasoning not through
+just the model reasoning itself but you
+could have the model actually write code
+and have the code do better and even
+right now it seems like there's um a lot
+of evidence that if instead of trying to
+prompt the model to do the work itself
+you have it right code and you execute
+the code it can actually do things that
+reasoning alone could not do so adding
+more types of modalities and more
+capabilities uh per model the the better
+off every startup is I mean the cool
+thing about uh 40 is that you can get
+better structure output in this
+particular case they are better at
+getting Json which is getting signs of
+getting large language models not just
+outputting English but more language for
+computers so that you can build even
+better applications on top which is
+signaling that this better model can be
+better for startups and make it easier
+to integrate because one of the
+challenges for startups has been always
+coing LMS to Output the right thing so
+you're actually process it in regular
+business Logic the other thing I kind of
+thought about when I was looking at the
+demos is as it relates to startups if
+only one of these companies has the most
+powerful model by some distance then
+that is indeed bad for startups because
+you have to depend on them being
+friendly and having like a nice API for
+you to build on top of if there are
+multiple equivalently powerful models
+you're much safer off as a startup it
+was funny maybe coincidental maybe not
+that like open AI announcement was like
+what two days before one day one day
+before Google's right um what's the
+difference between the so under the hood
+the way that GPT 40 works and then
+Gemini 1.5 works and do you have any
+opinions
+on their relative strengths yeah so the
+thing about 40 why was so interesting it
+was adding the speech modality and also
+video processing on top of a text and
+the way they do that is still primarily
+a text based Transformer model
+underneath basically GPT 4 and what they
+done is bootstrap and added modules so
+that it has different caths to handle
+this different type of data open AI
+famously also implemented and launched
+whisper which is one of the
+state-of-the-art for automatic speech
+recognition and probably that's what
+they're doing they took the architecture
+of a whisper and then bolted it into GPT
+4 and they also bolted dally and they
+combined these and that became 40 so
+this is why in terms of the reasoning
+capabilities 40 isn't better per se than
+four by any margin so it's how it works
+it's kind of adding modules how they
+describe it on the white paper the
+difference versus Gemini 1.5 which
+actually on the technical aspects and
+merits I'm actually more excited by the
+Gemini one I know it's counterintuitive
+because 40 and open AI has captured the
+zist of everyone and they're so good at
+the demos Right singing Happy Birthday a
+bit off key that's like so humanid happy
+birthday to you happy birthday to you
+happy birthday dear Jan happy birthday
+to
+Jordan Google IO kind of missed the mark
+in terms of demo but in terms of reading
+their white paper what's interesting
+about Gemini
+1.5 is that is actually a true mixtures
+of expert and that is a technique that's
+new where they actually train from the
+ground up a giant model with the actual
+data of teag
+image audio and the whole network
+activates a specific path for these
+different data types so instead of um
+the open AI model that has like kind of
+modules this one truly is a one all
+model and what it does is different
+parts of the network activate depending
+on the data input so it becomes very
+energy efficient and I think the reason
+why uh Google was able to do it is
+because they have the engineering Hammer
+they have tpus where they can really
+afford to put a lot of data because it's
+very expensive to put not just all Texs
+image and video and train this giant
+thing in a distributed cluster they have
+TPU is like their I think it's their
+fifth generation now and it's pretty
+cool what they done is that the first
+big model release that's using mure
+experts I think they talked a bit about
+it on the previous BN but everyone was a
+bit uh disolution after the demo of the
+duck was not real it is a duck yes but
+this one was described better I mean the
+interesting thing is that I think this
+time they learned their lesson and I
+think is actually working yeah and the
+other cool thing about Gemini is uh it
+has a contact window of a million tokens
+which is huge the GPD 40 is 128,000 so
+imagine what you can do with that
+because that's about like five books of
+500 words or more and the cool thing
+about the Gemini 1.5 was their white
+paper has to saying that on Research
+they proved it to work on a 10 million
+token window which brings a question for
+all of you what does that mean for
+startups especially a lot of the
+startups that we're funding with
+infrastructure that do a lot of rack
+there could be the controversial
+argument that uh all these startups
+building tooling around rack which is a
+whole industrial right now maybe they
+become obsolete what do you all think
+about that I feel like the people who
+care a lot about data privacy and whe
+the data is stored are still going to
+want some sort of rag system right like
+they want the data stored somewhere they
+control it versus all in the context
+window it's not clear that that's going
+to be the biggest part of the market
+like in general people who care this
+much about any behind the scenes
+architectural thing tend to be like
+early adopters but not like Mass Market
+consumer so my guess is people just want
+like a massive context window because
+then you can start building the kinds of
+consumer apps people are excited about
+right like the assistant that just has
+all this context on me that knows
+everything about me like currently I
+think the best way you can do that is
+you like
+run olama or one of these open source
+models and then you like throw a bunch
+of your like personal emails at it
+that's like a project that the hobbyists
+on Reddit are doing a lot of is just try
+and get like your personal AI That's got
+all the information on you but if you
+had like a infinite context window you
+would need to do all of that I think
+you'd still need rag to be able to sort
+of uh store everything and that's like
+sort of the long-term permanent memory
+and then what you actually want is a
+separate workflow to pull out the
+interesting things about uh that user
+and their intentions and then you
+actually have a little like summary
+bullet point of things that you know
+about the user you can actually kind of
+see some version of this even now in
+chat GPT if you go into the settings
+under 40 it actually now has a memory
+and so you can actually see a concrete
+version of this inside chat GPT I was
+just using it to sort of generate some
+like where's Waldo uh images for my son
+and uh it wasn't quite doing what I want
+wanted it kept using like making like
+really deformed faces so I kept like
+prompting it back to back I was like no
+no no I really want no deformed faces
+and then for a while it was like uh I
+said I wanted a red robot in the corner
+and it kept making uh all of the
+characters like various forms of red and
+I said no no no I really don't want you
+to do it and I you know sort of repeated
+it four or five times and then I went
+and looked at my settings and it was
+like Gary really doesn't want deformed
+faces in his uh generous ated images we
+should also try not to use red it was
+interesting to see that like literally
+from even like maybe 10 or 15 different
+chat interactions um you know I was
+getting frustrated but it was definitely
+sort of developing some sort of memory
+based on uh my experience with it and
+the most interesting thing was that uh
+you could see what the machine had like
+sort of pulled out from your
+interactions thus far and you could like
+sort of delete it as necessary maybe a
+infinite window doesn't necessarily mean
+that the retrieval is actually accurate
+yeah and this is more I mean more
+anecdotal in practice from what Founders
+have told us versus what the actual
+research paper Benchmark is which is a
+very kind of lab setting so in practice
+I do tend to agree that a rag pipeline
+infrastructure still very much needed
+exactly for what you said privacy and
+people wanting to fine-tune models on
+their own data and not getting that
+licked out over the wire over the
+internet and the other thing is um yeah
+maybe there still more accurate to do it
+on your own when you really want that
+very precise information I think you
+still need Rag and I think the analogy I
+like to think about this is sort of like
+um processors back in the day in the 90s
+as uh when mlaw was actually Mo law
+scaling it was not just a CPU processing
+speed getting faster but also memory
+cache levels were also getting bigger
+and bigger but now more than 30 years
+later we still have a very complex
+architecture with how we do different
+kinds of cashing for retrieving data out
+of like databases out of databases you
+have maybe like a fast memory store with
+like Reddit for high availability and
+then you still have things stored in
+your browser cach there still very much
+lots of layers of how things will be
+cached and I think rag is going to be
+this foundational thing that will stay
+and it'll be like how we work with
+databases normally now just like lots of
+levels yeah yeah the tricky thing about
+the context window I mean uh Gemini may
+have the team may have already fixed
+this by now but certainly a lot of the
+Founders I talked to they said uh it's
+sort of you know the million token
+context window sort of lacks uh
+specificity literally uh if you ask for
+retrieval from its own context window
+from you know or the prompt it actually
+sometimes just like can't seem to recall
+it or can't seem to you know pick out
+the specific thing that you already fed
+into it and uh the tricky thing there is
+like you'd rather have a 128k context
+window that you knew was pretty Rock
+Solid rather than a system which where
+you know it's still a bit of a black box
+you don't really know what's going on
+and then for all you know it's just like
+sort of randomly picking up like half a
+million of the tokens and that you know
+again like probably fixable you know I
+can't imagine that that's like a
+permanent situation for you know uh a
+million or 10 million uh token context
+window but something that we're seeing
+from the field for now also in
+Enterprises like in business use cases
+people care a lot about like what
+specific data is being retrieved who's
+doing it like logging all of this stuff
+and permissioning around data so yeah
+you can imagine having some kind of yeah
+a giant context window is not
+necessarily what you want in Enterprise
+use case you actually probably want in
+particular sensitive data stored
+somewhere else and retrieve like when
+it's needed and know who's making the
+requests and filter it appropriately
+exactly I think that will that will stay
+I was really encouraged what you said
+actually about how the Google technology
+is maybe better than the open AI itself
+it feels very googly actually it's like
+hey they've got the technology but they
+just like don't know how to get like the
+Polish around it correct that means open
+AI does not have this like Leap Forward
+unsalable Tech Advantage if Google has
+something comparable then we should
+expect to see like anthropic come in we
+should expect to see like meta come in
+and what we're seeing at the batch level
+is just the models are pretty abstracted
+out right on a day-to-day basis like
+Founders are already using different
+models to prototype versus like build
+and scale like the
+ecosystem of model routers and
+observability Ops software around this
+stuff just keeps progressing really
+quickly so just funny my initial
+reaction whenever I hear like the model
+releases is not to worry for the
+startups actually so much because
+they're all like we never talk about how
+Alliant they are on any one model I
+worry if there's one model that's very
+very good and it'll be dominant and sort
+of take over the world uh I'm less and
+less worried if there are many different
+uh alternatives because then you have a
+market and a Marketplace equals uh you
+know non- Monopoly pricing which means
+that uh you know 1,000 flowers can
+actually Bloom like other startups can
+actually make choices and uh have gross
+margin of their own and I'd much rather
+see you know thousands of companies make
+a billion dollars a year each rather
+than you know one or two let alone seven
+companies worth a trillion dollars and I
+think we have a dark horse that is yet
+TBD we don't know when Lama 3 with 400
+billion parameters comes out because
+that's still being trained and that's
+like one that's like wow it could really
+turn tables as well yeah the interesting
+thing about meta is I mean they have Pro
+probably one of the largest clusters uh
+certainly I think I was reading um you
+know in terms of who has paid Nvidia
+more money in the past year uh meta
+apparently is number one by by um a a
+decent bit actually and the funny thing
+is they have this giant cluster not
+because they necessarily have foreseen
+this whole
+shift that happened recently in the last
+couple years with large language models
+they acquire lots of gpus because they
+needed to train their uh recommendation
+models right that use actually similar
+architecture with de deep neural Nets to
+actually compete with Tik Tok because to
+build these like really good
+recommendations on Instagram regs that's
+just like very classic Tech Innovation
+and disruption right like they're
+basically worried about competing with
+Tik Tok they stop a bunch of gpus and
+there turns out the gpus are just really
+valuable for this like completely
+different use case that's going to
+change the world Jared like on that note
+if you zoom out just like how does this
+cycle of hey like we're worried startups
+are worried about the elephant in the
+room this case it's open AI maybe Google
+competing and crushing them how does it
+play out to when we first moved out here
+even like in that like era where
+Facebook was Rising Google was starting
+to go from the search engine company to
+like the multi-product company do you
+see any similarities or differences yeah
+it reminds me of that a lot like um
+every time there's an open AI product
+release now it feels like there's a
+bunch of startups waiting with baited
+breath to see whether open AI is going
+to kill their startup and then there's
+all this internet commentary afterwards
+about like which startups got killed by
+the latest open AI release and it
+reminds me a lot of when we got to YC
+the the the three of us and the like
+2005 to 2010 era there were all these
+companies who were innovating in the
+same idea space as Google and Facebook
+building like related products and
+services where the big question was
+always like what happens if Google does
+this and when starts were pitching to
+investors that was like the main like a
+big question that they'd always get from
+investors is like oh like but isn't
+Google gonna do this the best response
+to that by the way was like well what if
+Google gets into VC which it did that's
+a great VC on so a lot of the people who
+are building AI apps now this is the
+first hype cycle they've ever been in
+but we've all been through multiple hype
+cycles and so I think it's interesting
+actually for the people who are in the
+middle of this hype cycle now where all
+this is new to look back on the past
+hype cycles and see how the history of
+what happened there can inform their
+decisions about what to work on if we
+take Google as an example one thing
+that's interesting is if you look back
+there was there was competing with
+Google in a very head-on way which was
+hey we're going to build a better search
+engine um and YC definitely funded a lot
+of companies trying that and I feel like
+the approach people would go after was
+the vertical engine was say we're going
+to build a better Google for real estate
+for example um some of those made it did
+they I which on well you could I mean
+argue that um something like a red finin
+or Zillow clearly did have vertical
+access to data and then or kayak for
+travel I guess or algolia for um company
+Enterprise search search yeah that's
+true okay those yeah I hadn't thought of
+yeah I hadn't thought of Zillow as a
+search engine but yeah it's essentially
+that it's exactly that it's Vertical
+Search yeah but you have to monetize not
+necessarily through the same way a
+search engine would you have to have
+other services you have to become uh a
+broker you have to you know basically
+make money in all these other ways CET
+different it doesn't look at all like
+Google yeah and the data Integrations is
+very different like you have to really
+poke and connect to MLS and a regular
+search engine would you wouldn't just
+work with that like page rank wouldn't
+necessarily work with MLS yeah red Fin's
+very interesting because I'm very
+addicted to red fin and it has actually
+absolutely caused me to buy property
+that I normally wouldn't buy so uh you
+know in that respect like those are
+interesting consumer scenarios
+ultimately a great consumer is actually
+about buying just like a little bit of
+someone's brain such that during the
+course of one's day I mean it doesn't
+have to be every day but ideally it is
+you sort of think to use it and no one
+of those companies would have said that
+they had better techn ol or they beat
+Google on technology right like anyone
+who went up head head on against Google
+for like the better general purpose
+search engine just got crushed and in
+general most of the vertical search engs
+didn't work and certainly nothing that
+looks anything like Google worked the
+the ones that I remember the most were
+more ones that were in the vein of
+Google apps like when Google expanded
+Beyond search and started launching
+Google Docs and sheets and slides and
+maps and photos and all all these all
+these like like separate apps there were
+a lot of companies that we funded y that
+were either going to be crushed or Not
+by the next Google product yeah that's
+like the Santa Casa when you can bundle
+software in I mean this like this is
+what Microsoft did to Netscape right
+like once you can start bundling in
+software especially in the Enterprise
+it's like people don't necessarily want
+to buy like 10 different solutions from
+10 different vendors all the time if you
+can offer a good enough product across
+several different use cases and ble them
+together Enterprises often want that I
+mean famously uh Dropbox was in that R
+potential Rogue kale right because and
+Drew because Drew actually talks about
+it when he comes back and give the
+dinner talks about the fear when with
+Google Drive and Google hats his other
+product Carousel thing right yeah in
+fact there is a time when um Dropbox had
+launched this was after the batch and
+Google was working on Google Drive but
+hadn't launched it was called G drive it
+was like the secret project inside of
+Google and news of it leaked to the
+press and the whole world just decided
+that like drop boxes Goose was cook like
+it was over Google was going to launch G
+drive and because it was Google they had
+infinite money they were going to do the
+same move that they're doing now who
+just throw like infinite money at the
+product and give away like infinite
+storage for free how could have start to
+possibly compete with Google you know
+spending billions of dollars to give
+away infinite storage for free that was
+infinite tokens yeah and now it's
+infinite tokens what are the big
+companies trying to do right now that
+maybe you should avoid doing and uh the
+super obvious one is well uh open AI
+seem to have released 40 which is
+multimodal and then it also
+simultaneously released the first
+version of the desktop app but that
+version of the desktop app is merely uh
+sort of a skin on the web experience but
+if you put two and two together surely
+it's going to look a lot more like her I
+mean they've been really sh Scarlet
+voice they just pulled that right yeah
+they're like oh shoot you know who knows
+are they getting sued who knows that's
+that's what Twitter says today anyway
+but I think if you you look at the
+details of that you know you can sort of
+sketch out what's going to happen with
+um llms on the desktop and the desktop
+is sort of has access to all your files
+has access to not just that but all of
+your
+applications uh it has access to your
+IDE locally it has access to your
+browser uh it can do transactions for
+you that's starting to look like
+basically the true personal assistant um
+that is directly consumer and then that
+sounds like a whole category like you
+know we're going to interface with
+computers and using potentially voice
+and certainly like ex we will have the
+expectation of a lot of smarts and uh
+that you know that seems like where
+that's where they're going and that's
+going to be one of the fights when I was
+thinking back to like this first era of
+companies I guess one thought I had is
+that it was fairly predictable actually
+what Google would build not 100%
+predictable like Dropbox was like it was
+like unclear if Google would win that
+space But like a lot of them are
+actually pretty obvious in hindsight um
+like adtech for example like all of
+adtech just like never stuck around
+because it was like too strategic to
+Google and Facebook and so they just had
+to own all of it and like almost all of
+vertical search just didn't really
+survive it's pretty easy to imagine what
+the next version of open AI like product
+releases is going to be and if you can
+easily imagine that what you're building
+is going to be in the next open AI
+release you know maybe it will be using
+that framework it's like open AI really
+wants to capture just like the
+imagination like the Sci-Fi imagination
+of everyone so it's like yeah like the
+general purpose AI system that you just
+talk to and it figures out what you want
+and does everything it seems hard to
+compete with them on that that's like
+competing with Google on search right
+that's clearly going to be like the the
+core because that was the early signs of
+why what chat gbt is being used for as
+well just like a very very rudimentary
+right yeah which is the same thing with
+Google they always wanted to
+own products where billions of people
+would all use the same product anything
+that was like that was going to be
+really tough as a startup yeah when I
+think of it for products I use like
+perplexity norwi company but plexity is
+a product I use a lot because it's much
+better for sort of research if I need to
+fix a toaster it's way easier for me to
+type in like the model of the toaster
+into perplexity and get back like
+specific links and YouTube videos just
+the whole workflow it was Diana who told
+me about it actually I've been using it
+a lot as a replacement for actually my
+regular search yeah that's what I never
+I was trying to use perplexity for a
+while and I couldn't get it and I was
+because I was trying to use it in the
+same way I would use like the open AI
+the chat gbt app and I was like oh but
+like chb is just so much better because
+I just like type in fuzzy things and it
+figures it out and it comes back with
+smart things and perplexity just wasn't
+as good for that use case but the
+specific hey I have this task that I
+want like Source material back and links
+for it works much much much better it
+doesn't capture the imagination right
+like open AI is not going to like
+release a model that they demo the oh
+look like if you search it like gives
+you the links back or it like shows you
+the YouTube videos that it's referring
+to the demo is not as cool actually
+Gemini 1.5s has that feature and nobody
+really talks about the demos from yeah
+from Google iio they're kind of like so
+maybe one way to figure out how not to
+be roadkill is to like if you can build
+the valuable but unsexy thing that open
+ey aren't going to demo on stage because
+it doesn't like capture the Sci-Fi
+imagination you might survive yeah
+that's definitely a whole line of
+thinking like Google was never going to
+do instacart or door Dash's business so
+or ubber so all of that was fair game
+and all of those turned out to be you
+know decacorn or you know potentially
+you know even Airbnb like hundred
+billion dollar company the other thing
+people always under estimate is just I
+think the size of new markets I remember
+for a long time people didn't believe
+LinkedIn could be a big company because
+like well like why CU like Facebook won
+social networking linkedin's just a
+social network it's just going to be a
+like you have your work tab on your
+Facebook profile like why would you need
+something else same thing with Twitter I
+remember um when I first moved to San
+Francisco in 2007 some of the first
+people I met were the early Facebook
+employees and they were like they saw
+Twitter growing and they're like ah yeah
+we're going to like release stus updates
+or something and just like Twitter's
+going to be done as just a feature but
+yeah it turned out like Twitter was like
+a whole other thing instacart and door
+Dash I think another great example of
+this again I remember iPhone comes out
+Android becomes pervasive it's like oh
+there it's just going to be like Apple
+and Google dominate mobile but there
+were all these things that they would
+never build same in this AI World
+probably right there's all these things
+that the big companies are never going
+to build and we probably have more
+appetite for using multiple AI agent
+type apps than just like the one open AI
+one and a huge like meta category that
+is basically almost anything that's B2B
+like Google basically never built
+anything B2B they like basically only
+Built Mass consumer software and so if
+you look at the YC unicorns like a ton
+of them built you know some like B2B
+thing like you segment or something that
+like Google was never going to build
+segment that's just like not interesting
+to them I want because I think in B2B
+people really underestimate the human
+part of it like so much of it is
+actually the sales machine and it's
+being willing to go out and figure out
+who you sell to do the sales like Listen
+to Someone Like give you all the things
+they're unhappy about and note them down
+and take them back to your engineering
+team and say oh yeah we need to like
+tweak this this and this and this and
+all these details right like and build
+lots of like
+really detailed software to like handle
+all these obscure edge cases like I
+think of one of our AI companies at YC
+that's doing really well is called
+permit flow and they literally just
+expedite the process for applying for
+construction permits and not just for
+individuals but for like big
+construction companies now as well it's
+like yeah like really hard to imagine
+that being the next open AI release
+right like hey guys we built a a feature
+for for filing your construction permits
+like can you yeah can you imagine
+turning up for your first day work as an
+open AI engineer and they're like okay
+you're going to work on the construction
+permit workflow feature they think it
+works that way well I guess if you join
+those two ideas together something
+interesting happens though it seems sort
+of inevitable sometime in the next two
+to five years you know assuming the open
+AI her digital assistant comes out and
+then it's going to be on your desk top
+it will actually know everything about
+you uh it'll know what you're doing and
+know it'll know minute to minute what
+task you're trying to complete and then
+it's conceivable you know if you masch
+that with sort of a launch that I think
+they probably didn't invest enough into
+which was like the GPT store um you
+could sort of imagine that might extend
+into B2B as well and then they would
+sort of charge that Vig but I think the
+the thing that I don't think is going to
+work for B2B actually is I think there's
+a lot of sensitivity ity around the
+workflows on the data because they're
+highly proprietary especially with
+spaces with fintech and Healthcare I
+mean for good reasons they should be
+very regulated and a lot of privacy data
+to Pro protect the consumers so I think
+the other area that we've been having
+also success for AI B2B applications has
+been in fintech we found that green
+light that's doing kyc using AI to
+replace all the human behind that does a
+lot of the validation of consumer
+identities or we also have a green board
+right right they both start with green
+green board that was also doing a lot of
+the compliance things for banks as well
+yeah Bronco is doing it in AR and there
+are a bunch of more companies doing
+things in payments and just any of the
+boring dayto day that you know someone I
+mean is sort of wrote doing it Um this
+can just basically supercharge that and
+you know have one person do the work of
+10 yeah we call this episode better
+models better startups I think that is
+literally true for B2B companies where
+it's like the underlying models like B2B
+software business models are so much
+about how do I upsell like how do I make
+more money per customer next year than I
+did this year and it just hey like every
+time the model gets better you can just
+pass that along as like an upsell
+premium feature or an upgrade to the
+software and your end user doesn't care
+right like they just care about what the
+function the software can do for them
+and so I think there's a world where the
+models keep getting better you've got
+your choice of which one to use and the
+additional functionality you just charge
+Ms your customers for and you make more
+money yeah that's definitely what we're
+seeing at YC I mean last batch people
+were making $6 million a year right at
+the beginning of the batch and it end up
+being north of 30 million by the end of
+the batch so that's some really
+outrageous Revenue growth in a very very
+short amount of time three or four
+months and that's sort of on the back of
+what uh you know a few people working on
+B2B software you know they can focus on
+a particular one that makes a lot of
+money and then people are willing to
+Fork out a lot of cash if they see Roi
+pretty much immediately there's not as
+many Founders working in this area as
+there should be given the size of the
+opportunity like like to your to your
+point har like people often
+underestimate how big these markets are
+like using llm to automate various jobs
+is probably as large an opportunity as
+SAS like all the SAS combined right
+because like SAS is basically the tools
+for the workers to do the jobs the AI
+like equivalent of SAS is like it it
+just does the jobs tool plus the people
+yeah so like it should be just as large
+and
+yeah there should be like a lot more
+people working on this so there might be
+you know billions to trillions of
+dollars per year going into uh
+transactional labor Revenue that's on
+someone's uh you know sort of you know
+cash flow statement right now but it'll
+turn into software Revenue at 10x which
+will be interesting for market caps over
+the next 10 20 years I was doing office
+hours with a startup this morning that
+asked me this question about hey like
+you probably saw the GPT for for launch
+like should we be worried about it um
+yeah my reply was you should be worried
+about it but you should be worried about
+the other startups that are like
+competing with you because ultimately
+it's all of the stuff we're talking
+about it's whoever builds the best
+product on top of these models with all
+the right nuances and details is going
+to win and that's going to be one of the
+other startups in the space so I just
+think the meta thing as a startup now is
+you have to be on top of these
+announcements and be kind of know what
+you're going to build in anticipation of
+them before someone else does versus
+being worried about open AI or Google
+being the ones to build them let talk a
+little bit about uh consumer because we
+did talk about what could be potentially
+rill for Consumer startups if you're
+going against basically assistance some
+sort of assistant type of thing opening
+eyes hinting well strongly direct and
+they're going in that direction what
+about opportunities for Consumer AI
+companies what are those those things
+that they could flourish well here's an
+edgy one anything that involves legal or
+PR risk is challenging for incumbents to
+take on Microsoft giving money to open
+aai in the first place you could argue
+was really about that I mean when image
+models image diffusion models first came
+out at Google they were not allowed to
+generate the human form for uh PR and
+legal LK risk reasons this is a large
+part of what created the opportunity for
+open AI in the first place as Google was
+too scared to jeopardize their Golden
+Goose by releasing this technology to
+the public the same thing could probably
+be true now for startups things that are
+increasingly edgy are often the places
+where there's great startup
+opportunities I mean things like uh
+replica AI which was a AI NLP company
+working in this space for many years
+even before llms were a thing still one
+of the top companies doing the AI
+boyfriend or girlfriend and the wild
+thing about replica is that they've been
+in touch with uh their sort of AI
+boyfriend or girlfriend for many years
+and earlier we were talking about you
+know a million token context window you
+can imagine that virtual entity knowing
+everything about you like for many many
+years like even your you know deepest
+darkest secrets and desires I mean
+that's pretty wild stuff but um you it's
+going to look weird like that and um you
+know people might not be paying
+attention I mean character AI has really
+really deep retention and people are
+sort of spending hours per day sort of
+using things like that so you know
+whatever happens in consumer it might be
+nonobvious and and it might be very
+weird like that so there's a lot of kind
+of more edgy stuff around uh deep fakes
+that are applied in different different
+spaces so there's a company that you
+work with Jared Infinity AI right yeah
+Infinity AI lets you turn any script
+into a movie and that movie can involve
+famous characters and so like enables
+you to make famous people say whatever
+is in your mind which is edgy which is
+part of what makes it like interesting
+and cool Google would never launch that
+would never launch that and I think even
+you know the the same move that open AI
+did to Google which is being willing to
+release something that's really edgy
+well open AI is now the incumbent guys
+they now can't release super edgy stuff
+like that anymore we're going to see a
+lot of that during election season in
+particular right because it's
+interesting when you think about it like
+anything that's on the hey like I is
+explicitly like a famous person this is
+explicitly using the likess of a famous
+person for a profit is is going to get
+shut down on the other hand you have
+like I If I make a meme with Will Smith
+and some like a caption like no one's
+going to sue me for that and a lot of
+this content is like right in the middle
+right it's like I'm not trying to build
+like a video that's literally I want
+people to believe that it's like these
+people saying these things but what if
+it's like a joke about a joke or a
+satire like where does that fit and yeah
+you can't see you can't imagine Facebook
+or is going to roll this out on
+Instagram anytime soon right like they
+want it they want to stay well clear of
+that but you're already seeing this
+version of memes sort of 2.0 that are
+basically deep fixed that are making the
+rounds and they're becoming viral tweets
+right yeah hey why don't we clar out by
+going to a question that one of our
+audience asked us on Twitter um so thank
+you sandip uh for this question question
+is what specific update from open a
+Google meta excited each of you and why
+I'll give one um the thing that really
+excited me about the open AI release was
+the emotion in the generated voice and I
+didn't realize how much I was missing
+this from the existing text to speech
+models until I heard the open AI voice
+oh a bedtime story about robots and love
+I got you covered once upon a time in a
+world not too different from ours there
+was a robot named bite it's amazingly
+better compared to the incumbent Texas
+each model because it actually knows
+what it's saying the existing ones by
+contrast sound so robotic they like
+they're totally understandable but
+they're just very boring to listen to
+and the open AI one it felt like you
+were talking to a human my one was the
+translator
+um demo the idea of basically having a
+live translator in your pocket it's
+personal for me because I my wife is
+Brazilian her parents don't speak
+English and so I've been learning
+Portuguese but it's coming along very
+slowly the like the idea of having just
+like a translator that's always in my
+pocket that makes it easy for me to
+communicate with anyone anywhere in the
+world is really exciting hey how's it
+been going have you been up to anything
+interesting
+recently it's a massive idea I mean it
+could change the world you could go live
+in a foreign country where you don't
+speak the language it it like it is huge
+consequences yeah Douglas Adams uh
+hitchhiker Guide to the Galaxy uh made
+real is a pretty cool one I guess for me
+um what's funny about 40 is it sounds
+like maybe it was actually just a reorg
+basically there was a reor get open Ai
+and they realized uh they want all of
+the teams rowing in the same direction
+and then uh what that means is probably
+really good things for both their
+assistant desktop product uh but also
+eventually robotics which um might be a
+really big deal down the road this
+Chinese company called unry announced a
+$116,000 human biped robot though
+Twitter warns me that it's another
+$50,000 if you actually want open API
+access previously they made a
+$114,000 version of that robot um but I
+think unified models means more and more
+likelihood that practical robotics is
+you know actually not that far away
+famous last words of course we've been
+saying that uh pretty consistently for
+many years in a row but this time it's
+different I think for me maybe a bit
+more of a tech technical one I know it
+doesn't sound too too fancy but really
+the half the cost is like a huge thing
+and if you extrapolate that what that
+means is probably a lot of these models
+are hitting some kind of ASM totic
+growth of how much better they can get
+which means also that they're becoming
+more stable and it can open up the space
+for actual custom silicon to process all
+of these and enable a lot more low power
+processing to enable Robotics and build
+the device that you mentioned and
+actually have it in your packet and not
+be Ted to the Internet so all these
+things that we could perhaps see uh
+excitement of new tech product releases
+because I kind of missed those day when
+every product Tech demo was like very
+exciting now it's just like kind of like
+a feature true we could be excited about
+new things coming up well we're going to
+be really excited to see what you guys
+all come up with that's it for this week
+we'll see you next time
+[Music]
+n
+[Music]

@@ -1,0 +1,796 @@
+Video ID: mJO10CL-FGI
+URL: https://www.youtube.com/watch?v=mJO10CL-FGI
+Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 789
+============================================================
+
+[music]
+I'm excited to welcome air from sim.ai
+who is fresh off of a series A led by
+Standard Capital. Amamir, thanks for
+joining.
+>> Thanks so much for having me.
+>> Yeah, it's great to be back.
+>> Appreciate it. Why don't you maybe kick
+it off and tell us what is SIM.AI?
+>> Yeah, so SIM is a platform to build AI
+agents. So, it's sort of a Figma-like
+canvas with cursor style side prompt
+where you could build workflows uh by
+dragging and dropping or typing in
+natural language to sort of build an
+agent to do anything either inside of
+your product or to automate tasks for
+you in the background.
+>> Awesome. And give us the current state
+of the business.
+>> Yeah, so we just crossed 60,000
+developers on our cloud platform and
+we're one of the fastest growing open
+source workflow builders out there right
+now. Uh so we just crossed 17 and a
+halfk [snorts] GitHub stars which is
+pretty exciting. So, I guess those are
+those are the main things we care about.
+>> Yeah, that's amazing. Especially because
+you guys were just in the spring batch
+not too long ago, right?
+>> Yeah, it feels like yesterday.
+[laughter]
+Kind of was.
+>> Yeah, it kind of was like yesterday.
+That's awesome. Maybe take us back to
+the early days. How How did you and your
+co-founder Wi first meet?
+>> Yeah. So, we actually met in Berkeley.
+Uh I was coming, it was my sophomore
+year, right, right before uh my
+sophomore year started and I was it was
+COVID my freshman year. So, I came to
+Berkeley and I knew nobody and I was
+paired with my roommate uh at the time
+who I didn't know either and his best
+friend from high school was wed. So, we
+got to know each other like right before
+school started and he was kind of my
+first friend at Berkeley and then we've
+just been best friends ever since there.
+So, we like spent all of our time
+together in undergrad and then once we
+graduated last year, uh I knew I wanted
+to start a company with him and he was a
+year older than me. So, he was working
+actually down in LA at Amazon and I
+literally called him and I was like,
+"Hey, dude, move to SF with me." and
+like let's start a company and like on
+the phone call he just quit his job and
+moved to SF. [laughter]
+>> How long had you guys known each other
+at that point?
+>> Uh for about like three or four years.
+>> Okay.
+>> But we had pretty much hung out every
+single day in that time.
+>> And had you built stuff before together
+or
+>> No, not at all. Not even like as much as
+a project. We basically were just best
+friends and he was like one of the
+smartest people I knew like irrespective
+of that. And so we were just like I know
+I want to do something with him and so
+like just come to SF and actually I kind
+of tricked him a little bit. At first I
+told him to just come to SF for a month
+and I was like just stay with me for a
+month and like we'll figure stuff out
+and then he ended up just never going
+back home and so things was spun out
+from there.
+>> That's amazing. And so did you guys have
+an idea in mind when when you first
+decided to start working together or
+you're just like this is just a person
+that I want to work with and we'll
+figure out the rest later?
+>> Yeah, it's it's actually kind of funny.
+So when he first came to SF, I pitched
+him on this idea like pretty much the
+first day he landed
+>> this specific idea of Sam.
+>> Not actually this specific idea, a
+previous idea. So the idea was it's kind
+of like a dynamic uh landing page where
+based on your like browsing history or
+if you have like data about someone in a
+CRM, you show up to a landing page and
+right now if you're on a landing page
+like it speaks to the general audience,
+right? And then typically you try and
+optimize like the language or like the
+positioning of certain things on the
+page based on, you know, like the
+overall metrics, but I was like, what if
+we could customize a website just for
+one person? Um, and then we ended up
+just trying to sell that to sales and
+marketing companies, but that was like
+kind of the worst idea just because we
+knew nothing about sales and marketing.
+We didn't understand their problems
+whatsoever. And so the first day he
+landed in San Francisco, I'm like, I
+have this idea for a company like it's
+going to be huge. And he was like, I'm
+in. And then he just quit his
+want to spend the next like 20 years of
+our life, you know, doing this. So we
+were just like, all right, let's figure
+out another idea. And and was that an
+idea that you guys had applied to YC in
+the past with?
+>> Yeah, so that was actually the first
+time we applied to YC and I remember
+that was like probably a reality check
+for us. I think it was sort of the end
+of November. I want to say it was like
+November 30th
+>> and we got on an interview actually with
+Michael Cyel and uh Diana and they asked
+us like, "Oh, so what do you guys do?"
+And we were like, "Explain to them this
+whole platform." And basically we spent
+the whole 10 minutes trying to explain
+what the what the app did because it was
+so confusing.
+>> And I think eventually after that call
+we just realized like we didn't know
+what we were doing.
+>> Yeah.
+>> And so we spent all of December
+basically trying to figure out what we
+should build. And I kept coming back to
+this idea of building agents because
+that last company we built um or the
+startup that we working on was called
+Scalemont. And when we were working on
+Scalemont, we basically had like
+hundreds of agents like an imagine an
+agent that like did research on your
+background and then try to create like a
+hero section, right? And so you'd have
+to create like all of the text for the
+hero section. Then you want to generate
+images, right? Because like typically
+website has images. So then you have to
+go have a small LLM that generates a
+prompt for an image generator. Then that
+goes passes it to the image generator.
+Then that image generator gets you the
+image. You put it back in your website.
+You create like all these case studies
+and footer sections and everything. So
+we it was just such a complicated
+overengineered project but we realized
+like actually the biggest problem of
+that project or like the thing that we
+cared about the most was building agents
+and just between W and I it was hard for
+us to even understand like hey did you
+already build an agent that did that
+thing like that research that person and
+got their history or like maybe their
+background and so that was kind of the
+idea for SIM where it's like hey why
+don't we have this platform where we can
+actually visually orchestrate these
+agentic workflows as opposed to just
+writing it in code. And so that was
+actually the birth of sim.
+>> So it came out of your own problem.
+Was there like a light bulb moment that
+like this is what we should build or
+like how did you realize this would be
+the thing?
+>> Sort of. It wasn't necessarily like one
+moment, but I remember we spent all of
+December of last year basically trying
+to find what we were going to build. And
+I remember we were looking into
+everything basically like healthcare,
+logistics, all sorts of stuff. But I was
+like, I don't know anything about
+healthcare, nor do I know anything about
+logistics or any other industry. I
+basically only know things about LLMs
+and building agents. So, I remember it
+was January 5th and I was like, I'm a
+super big power user of Figma and I love
+Jupyter Notebook. And I was like, I
+would just love if those products were
+just like one and the same. I don't know
+what that would look like, but like I
+kind of want to figure it out. And so it
+was January 5th and I was like, "And I
+want to build a platform and I want it
+to be open source and I want you to
+build agents in sort of this Figma
+environment." Well, he's like, "That
+sounds really stupid." And I was like,
+"Yeah, you're right, but like let's just
+try it for 5 days and let's see what
+happens." He was like, "All right, I'll
+let you do that while he does some
+research." So I spent five days working
+on it and on January 10th while lead was
+like, "All right, you're dumb enough to
+do this for five days. I'll join you on
+January."
+like this is idiotic and like no one's
+going to use this.
+>> Yeah.
+>> I was like, you're right, but it's
+something I care about. Honestly, if
+nothing else, I was going to build
+agents on that platform just because we
+saw the pain from our previous project.
+>> And what's funny was when we started, he
+was like, "What's your goal with this?"
+And I was like, "If we get this to 100
+GitHub stars, I'll be like super happy."
+He's like, "A 100's way too many." I was
+like, "Actually, you're right. So, if it
+gets to 10, I'll be satisfied." And that
+was back in January. So, it's just un
+it's we wouldn't even have believed if
+you had told us that we were at like 500
+stars now um in January.
+>> What was the moment after you decided to
+pivot to this where you were like I
+think this is actually the thing that's
+going to stick.
+>> I think once W joined. Uh
+>> okay.
+>> I think
+>> so he wasn't a believer but you were
+convinced at that point. [laughter] I
+think I'm more optimistic and I think
+Wed's more of a skeptic and so I think
+once Wed gives me the go-ahad um that we
+can like work on something then I think
+that's like a sign that it's actually
+going to succeed. Um and so I think once
+he joined in January I think from that
+point onwards there wasn't a single day
+we looked back. We were just building
+from then until now.
+>> Any advice that you would give to people
+going through that same you know kind of
+pivot journey and and hopefully help
+them find their way out sooner.
+>> Yeah definitely. I think the biggest
+thing for us while we were pivoting was
+we were trying to find perhaps reach too
+far away from what we understood.
+>> You know, I I think as an engineer, we
+often underplay what we understand um
+just like about coding or just about the
+world. And if you have to if you're
+really really critical about what you
+understand perhaps better than others um
+then you should lean into that more. So
+I think oftentimes at least when we were
+pivoting um you know we were looking for
+all these far-fetched ideas but what we
+should have done is just looked at what
+we had already built together um and
+just try things you know just ship ideas
+and you know you can iterate like 15
+times before landing on an idea and I
+think that's one of the things about YC
+that I really loved is just like that
+openness to to pivoting.
+>> Yep. had you tried a bunch of the other
+like workflow agent builder tools out
+there and discovered that they weren't
+right for you or talk about your
+experience there and how you look to
+differentiate the product that that
+you're building with SIM.
+>> Yeah, it's a good question. I I think
+when we started um I had tried a couple
+of other workflow tools, but it sort of
+felt to me like the traditional workflow
+automation that had existed for
+basically decades. Actually, workflow
+software is not new. It's been around
+for, you know, decades. Um, and so when
+I tried them, I felt that they were not
+AI native in the way that I wanted them
+to be. For instance, if I want to
+orchestrate one agent to do the same
+thing a hundred times over and then, you
+know, make like some synthesized
+response for me or if I want to even
+build a workflow with natural language,
+um, some of these things that I felt
+like were already accessible in
+programming were not accessible on
+workflow platforms. And so I figured
+that workflows are kind of the next
+paradigm for programming where we're
+kind of moving up the abstraction stack.
+You know, you can see this with cursor
+where you know most of code today is
+just generated by an LLM. And I think in
+the future that actually most um
+software will be orchestrated inside of
+workflows rather than just in pure code.
+Mhm. Yeah, that's a common trend that
+we've seen where everything just keeps
+becoming more and more abstracted and
+you get further away from the pixels or
+the actual source code and um it seems
+like you guys are are really uh leading
+that trend for a lot of people.
+>> Totally. I mean, if you were going back
+to like the 50s or the 60s and you told
+people they wouldn't be programming with
+punch cards, they'd be like, "What does
+programming even look like?" Right. And
+so, obviously, like the modality in
+which we've programmed has changed a lot
+over the course of history. And I feel
+like this paradigm is the next step. And
+I feel like we're always going towards a
+path of least resistance. And if we can
+truly be the easiest way to ship some
+software, some some agent, then why
+wouldn't we be the next paradigm?
+>> Yeah. Um you would have been really
+happy getting to 100 GitHub stars.
+You're at like 17,000 more than that
+right now. Yeah.
+>> Not that much later, you know. So you've
+really been able to figure that out and
+like your open source traction has
+really been blowing up. How'd you pull
+that off? Especially for any other
+founders out there building open source
+products and that maybe are in your your
+shoes early on where like they'd love to
+just get to 100. What advice would you
+have for them right now?
+>> Yeah, I mean I would say two things. Um
+the first thing is that we found a space
+where first of all the other platforms
+are not fully open source. Uh and we
+really actually wanted to we believed in
+the ethos of being open source. um which
+is that you know we we think that in the
+future basically LLMs are going to just
+be able to oneshot some codebase like
+imagine if you had AGI and you gave it
+some task it could probably go and
+replicate an entire application within
+minutes. So code is no longer the
+proprietary part of a company anymore as
+it used to be. We also wanted to kind of
+like give this software away to the
+world because we figured that the
+platform is much more valuable once it's
+interconnected and kind of having this
+network of people on it as opposed to
+the workflows running themselves. But we
+should not sort of constrain the
+workflows away from the open source
+community in the sense that we want
+people to build on top of SIM. We kind
+of want it to be like the foundational
+workflow platform and then everyone can
+customize it to their own needs. Like
+for instance, if you're bringing it into
+healthcare or into logistics, then you
+can just like take out pieces of sim and
+put your own layers on top of it. Uh,
+and we're kind of this like underlying
+engine. Um, so that was kind of like we
+wanted to just stick to the open- source
+philosophy and I feel like that actually
+bodess well with the community because I
+I feel that developers are honest and
+they can kind of see through BS a little
+bit. And so if you're just truly open
+source and you actually are just Apache
+2.0 know or MIT license and you give
+your code away for free. I think people
+will be responsive to that. And then the
+second thing is like actually just
+finding developers where they are. Um so
+we posted a lot on hackernews. We went
+to like Twitter and LinkedIn. I mean
+LinkedIn less important but you know
+Twitter and Hacker News and we kind of
+just put our project out into the world.
+Uh and the response was obviously great
+as you can tell. Um so we're kind of
+continuing in that direction. And how
+are you guys you hit number one on
+GitHub trending and and that seemed to
+really boost a lot of your your stars
+and adoption. Were there any strategies
+that you used to to make that happen or
+was that just kind of luck that a lot of
+people got into it at the same time?
+>> Yeah, it's really interesting. This kind
+of trending concept uh is something that
+we've been really focused on um in the
+course of sim and what we've realized is
+the majority of our stars come while
+you're on GitHub trending. And to be
+completely frank, we weren't even really
+sure what was GitHub trending before we
+had started our project. And then I
+realized later that GitHub trending is
+super important.
+>> Um because when you're featured on
+GitHub trending, typically you'll get
+anywhere between like, you know, 250 to
+like thousands of stars in a single day.
+Our kind of drive and our uh launch
+schedules are always like around how we
+can optimize for GitHub trending. Um,
+and so how we basically got in there is
+just to organize like some orchestrated
+launch like to let a big community of of
+like developers know about your product
+all at the same time. So if we go out on
+hacker news and on product hunt and on
+Twitter kind of all at the same time and
+you coordinate these launches, then you
+can start to develop some traction
+around your GitHub repo.
+>> How have you been able to convert some
+of this open source interest into like
+actual paying customers?
+>> Well, we have a cloud platform. Uh, so
+sim.ai AI is our cloud platform and it's
+linked in our GitHub repo. And so if you
+actually map um charts of our um like
+our GitHub stars to the new users on the
+platform, it kind of follows the same
+pattern. Uh there obviously some
+external factors that'll make the cloud
+platform grow much faster. Like for
+instance, if some workflow or AI
+influencer finds out about, you know,
+SIM and they make a video about it,
+that's kind of a channel that typically
+goes to the cloud platform as opposed to
+the open source repo. But originally,
+pretty much all of our new users trended
+in the same exact way with our GitHub
+stars. And so we could basically map
+like a onetoone plot with um our GitHub
+stars and and our cloud users. And then
+once they come to our cloud platform,
+then it's sort of just easier to get set
+up on SIM to build an agent as opposed
+to running it locally. Of course, you
+still have that option, but for people
+that want a little more convenience,
+they'll just come up to the cloud
+platform and then pay for inference on
+there.
+>> Cool. And any kind of general advice for
+open source founders?
+>> The first thing I think is to be like
+truly open source. Um, I feel like
+people are worried that their code is
+proprietary or that, you know, someone's
+going to steal their idea. Um, but no
+one can steal your vision. And so you
+can put all your code out there and we
+know that there are competitors that are
+looking at our platform and definitely
+want to take ideas from there, but we're
+not scared whatsoever just because we
+have our own vision for what we want the
+product to look like and it's going to
+change the platform drastically in 3
+months from now or six months from now
+than it is today. Um, so I'm not
+necessarily concerned if someone takes
+the product right now because ultimately
+we believe in the vision of the company
+and no one can take that away from from
+your repo. So, you know, the thing that
+I would I would advise founders that are
+building open source products the most
+is to be one truly open source and to
+two engage with your community. Um, you
+know, we do a lot on like Discord and on
+HackerNews and on Twitter. Uh, and so
+kind of like constantly talking to your
+users and like the dev community and
+understanding what they like and what
+they don't like about your project can
+also help you kind of like learn how to
+build a better product, but also build
+this community of developers around your
+repo.
+>> You've grown incredibly quickly and, you
+know, had a a lot of success since the
+batch, which was, I don't know, seven
+months ago or something like that
+probably. What's been the hardest part
+of the journey for you that you feel
+like you've had to overcome so far? I I
+think probably the hardest part um is
+just forcing ourselves to be better
+every single day to never be satisfied.
+Um and so for instance like our whole
+team will have a discussion about like
+the border radius of a button for like 3
+hours until someone just like gives up
+on on the argument. Um but I I think the
+actually the hardest thing is just like
+challenging or like being content with
+certain things and just like moving
+forward as quickly as possible. Um, I
+think that when you're in YC, you're
+kind of in this mode of like launching
+all the time. And when we got out of YC,
+we were extremely deliberate about
+consistently launching, you know,
+outside of the batch. And we actually
+grew much faster outside of YC than we
+did inside of YC. And I think it's
+because we kind of treated the batch
+just like as a small stepping stone on
+where, you know, our company future will
+be. Um, so we kind of took those
+philosophies from YC of like launching
+like very often, being very public, like
+building momentum, and we kind of took
+that after the batch. Uh, and so I think
+that's how we were able to grow so fast.
+I mean, I think when we ended the batch,
+we were like around 5,000 developers on
+the platform, and then now just like 4
+months later, we're at like 50 thou or
+60,000. Um, so I think it's just about
+like constantly launching and like
+constantly forcing yourself to just like
+be better and improve the platform every
+day.
+>> Yeah. Are there any tactical things that
+you do to like maintain that sense of
+urgency
+hours in two weeks, we got to hit our
+goal. What are some of the things that
+you do post batch to be able to keep
+that sense of urgency and it sounds like
+even ramp it up?
+>> Yeah, definitely. Well, we have a launch
+calendar and so I think that thing is
+something that we stay very true to
+where every single two like every two
+weeks we launch something. Uh, and
+there's a really good quote that I love
+and W loves. It was from one of the
+creators of Saturday Night Live, and
+they said,
+>> um, we don't go live because it's ready.
+We go live because it's Saturday night.
+You know, it's 10:30 p.m. on Saturday
+night. And so that's kind of our
+philosophy as well. It's like we, you
+know, engineers, I think, typically wait
+to release product until they think it's
+perfect.
+>> Uh, and that's just kind of never really
+works. And I'm sure you've had
+experience with this at your startup as
+well. Um, and for us, like we're we're
+just consistently launching. So every
+two weeks we put something out there. It
+doesn't matter if it's almost nothing.
+It's just that whatever we have ready.
+So it kind of forces everyone. It's a
+sort of it's a forcing function to get
+everyone around like some product
+release.
+>> Yeah, that that's great. Um it's an
+important muscle to build and and it's
+important that it's in the culture
+because you know culture drives a lot of
+these decisions. Um along those lines, I
+know you guys are hiring. Um what is the
+ideal person that comes to work at SIM
+actually look like? The ideal person
+that comes to work at SIM is someone
+who's just extremely excited about the
+future of AI. Um, something that I
+fundamentally believe is that, you know,
+a lot of people talk about AGI is
+coming, AGI is coming next year, maybe
+it's here right now. Uh, it actually
+doesn't matter if AGI comes or not. And
+my opinion on that is we actually have
+solved all the scientific problems that
+we've needed to completely revolutionize
+the world. I think what's actually left
+is an engineering challenge, not a
+scientific one. And so I think actually
+being able to democratize the way that
+developers build agents or actually can
+anyone can build agents not just
+developers is extremely powerful. And so
+I think if you gave a platform like SIM
+into the hands of you know people who
+have aspired to build agents for their
+own personal use cases or inside of
+their company um then they could
+completely transform their own business
+and perhaps like their lives um with
+agents. And so I think for someone who
+is interested in in the future of AI and
+kind of what AI holds from all like the
+latest model developments to like new
+tools and new stacks, someone who's just
+curious about the future of AI and would
+like to actually implement that in some
+kind of product where we can actually
+change the way that people build on top
+of AI, I think this is a perfect
+candidate for SIM. And so I think
+someone generally that's just
+intelligent. they don't even have to be
+like a Typescript developer or
+>> I remember like one of our founding
+engineers when he first came you know we
+were talking to him about like all these
+features we're going to build and um he
+was like yeah openly like I literally
+don't know TypeScript I know Go and
+we're like sure just write it and go and
+so [laughter] it's just like it doesn't
+necessarily matter about your
+capabilities it just matters about your
+drive and and how curious you are about
+the future.
+>> Cool. Yeah, I heard curiosity, people
+building on the cutting edge, interest
+in AI, and obviously ship, right? Like
+that's I'm sure that's a requirement for
+you if every two weeks you're shipping,
+you know, whether it's ready or not.
+>> Yeah. And I think also
+>> things that we're launching and it's
+because we care so much. Um, and I think
+the one thing that you can't replace in
+someone is just their passion and their
+love for building something. And so I
+think if you don't have that, you can't
+have anything. Um, so we're just really
+looking for passionate people who really
+just want to drive the the future of AI
+and this vision that we have.
+>> Yeah. Cool. How have you changed as a
+founder since starting this?
+>> Yeah, I mean [laughter] I think uh I've
+changed in a lot of ways. I'm certain
+I'm certain that W lead has changed in a
+lot of ways. And I think the main way
+that I've probably changed um is
+realizing that it takes 10 years um to
+do to build something great. And so, you
+know, when you're first getting started,
+you might think that things are going to
+take um a shorter amount of time than
+than they are. And I think Brian Chesky
+always brings up that quote, which is
+like people um overestimate what they
+can do in a week and like underestimate
+what they can do in 10 years or it's
+like a quarter or 10 years or something
+like that. Um but I I like fundamentally
+believe in that. And so I think that
+what we like really aspire to do is just
+show up every single day. Um so we come
+into the office at 9:00 a.m. We
+typically leave around like 10 p.m. and
+we do that 7 days a week. um or six days
+a week
+having that I I think if you do that
+every single day it just compounds your
+your growth um over a long period of
+time. So it's it's also about having
+balance. I think a lot of people
+especially in YC when you're in the
+batch you're like constantly shift.
+It's really important to have balance
+like find time to go to the gym, find
+time to eat healthy, cook the food
+you're going to, you know, typically eat
+and to keep like a healthy lifestyle.
+You have to make sure that you're taking
+care of yourself as much as you are the
+company. Uh, and so I think that like my
+mentality had to mature a little bit to
+be, you know, like just a a good founder
+as opposed to when it was just W and I
+in my apartment and just like sleeping
+on the couch and eating whatever and
+never going to the gym. So I think if we
+want to operate for the next 10 or 15
+years, we have to keep this consistent
+and healthy lifestyle. any advice for
+for founders that are are watching this
+and and hoping to follow in your
+footsteps?
+>> Again, as I said, just staying true to
+yourself? Um, so, you know, Wed and I um
+we always were just like being honest
+with ourselves, being honest with each
+other, um being healthy and just like
+listening to our own like minds and
+bodies and and pushing things of course
+in the way that we, you know, we both
+wanted. Um but kind of the important
+thing for for both of us is just to like
+be very honest about what we understand,
+especially what we don't understand.
+uh and just to keep learning and I think
+um one actually big thing that I would
+say is that oftent times in the past I
+struggled with optimizing for like
+short-term growth or short-term
+learnings whereas we should kind you're
+you're kind of in a balance of
+optimizing between like long-term
+learnings and like long-term growth and
+so I think if you think of things in the
+timeline of like 10 or 20 years you
+would much rather optimize for being
+like constantly learning for the next 9
+and a half years as opposed to spending
+the next half year doing something that
+perhaps like you know you're not
+interested or you wouldn't be doing. So
+for instance like the sales and
+marketing company that we tried to start
+you know we were kind of too
+shortsighted in the sense of like could
+we see ourselves doing this in like the
+worst moment of our lives in like six
+years time and if the answer is no then
+you'll probably fail at that six year
+mark
+>> and the thing that wid and I realized
+when we started this company is like we
+could be doing this for five or 10 or 15
+years with completely no success and we
+would just be having so much fun doing
+it that we would keep doing it And I
+think it's even important not to lose
+sight of that. For instance, I spent a
+lot of time selling and not programming
+in the past couple of months. And I
+realized that the thing I love most is
+programming. And that's also the thing
+that I'm best at. So I got back to
+programming. And I think we're always
+trying to optimize for putting ourselves
+in a position where we're like learning
+for the long term and like trying to
+succeed for ourselves in the long term.
+>> Well, thank you so much for joining.
+>> Thanks so much for having me. Really
+appreciate your story.
+>> Thanks.
+[music]
+>> [music]

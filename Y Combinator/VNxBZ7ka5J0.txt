@@ -1,0 +1,826 @@
+Title: How To Keep Your Users | Startup School
+Video ID: VNxBZ7ka5J0
+URL: https://www.youtube.com/watch?v=VNxBZ7ka5J0
+Channel: Y Combinator
+Published: 2024-08-29T17:00:32Z
+Duration: PT29M23S
+Views: 54776
+Likes: 1772
+Tags: YC, Y Combinator
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 806
+
+Description:
+At YC our motto is make something people want. But how do you actually know if you’ve accomplished that in the early days? One of the best ways to measure successful growth is a concept called cohort retention, which tracks the fraction of new users that come back time and time again to use your product. In this episode of Startup School, YC Group Partner David Lieb explains how to define cohorts, track active users and determine the appropriate time frame for measuring successful retention rate
+
+============================================================
+TRANSCRIPT
+============================================================
+
+[Music]
+hi everyone I'm David Lee I am a group
+partner here at YC YC has a famously
+simple motto make something people want
+I think it's the purest statement of the
+job of startup Founders and we talk
+about this a lot but what gets talked
+about a lot less is how do you know if
+you've actually done it did we make
+something people want today I want to go
+deep on the single best way that I have
+found to answer this question and do it
+in a really quantitative way and that is
+cohort retention so high level cohort
+retention is uh the idea of tracking
+what fraction of your new users keep
+using your product over time now this
+isn't a New Concept there's actually a
+ton of content on the internet about
+cohort retention it's even built into
+most analytics tools that you might be
+using but I bet that you don't fully
+understand what it measures and how to
+interpret the numbers and the reason I
+suspect that you don't understand it is
+that I didn't understand it u in my
+startup until many many years later uh
+when it was nearly too late I remember
+one specific moment I was uh pitching a
+very prestigious VC firm uh for our
+seriesa and they asked me hey Dave how's
+your cohort retention and I gave them a
+very handwavy answer and then after the
+meeting I went on my computer and I
+googled cohort retention and I realized
+that what I said must have made
+absolutely no sense so I hope that I can
+save you that mistake here with this
+video so before we dive in uh quick
+background on me uh I did YC back in the
+summer of 2009 with my startup bump bump
+let you share contact information and
+photos with other people by just
+literally bumping your phones together
+bump was one of the first mobile apps to
+reach more than 100 million users but It
+ultimately didn't work as a business
+thankfully we did a few pivots into the
+photo sharing and photo management space
+and ultimately were acquired by Google
+where our our last app um a photo
+management app formed the basis for
+Google photos which I then worked on for
+nearly a decade uh and Google photos
+today serves well more than a billion
+users so I've made something that a lot
+of people want but I've also learned the
+very hard way how to know when you have
+not yet made something that people want
+okay so the key insight and the reason
+it's called cohort retention um is that
+we're going to track individual groups
+of new users or cohorts over time
+instead of trying to look at the user
+base or all of your customers kind of
+mixed together and make some inferences
+from that and this gives you a much
+better sense of how individual users
+continue to use your product over time
+or don't so to do this we have to Define
+three things first how we are going to
+isolate the cohorts uh then we're going
+to have to talk about what action we
+will use that counts a user as an active
+user or not and finally we have to pick
+which time period we want to measure uh
+subsequent usage in so let's dive into
+each of these so for cohorts um we have
+to pick a way to group new users into
+individual groups the most common way
+you do this is simply by when they first
+used your product so you might look at
+new users you acquire each week so week
+one then week two um or maybe by month
+here are all the new users that we got
+in January that's one cohort here are
+all the new users we got in February
+that's another cohort that is typically
+the best place to start but as you get a
+little bit deeper and more advanced in
+this you can additionally slice by other
+dimensions like country or region or how
+you acquired that user maybe what device
+they are using or other you know
+characteristics of that customer next
+let's talk about actions so the action
+is the way to define like what qualifies
+a user to be counted as an active user
+in each subsequent time period the
+simplest way to do this is just did they
+open our app did they visit our site um
+but a better way would be to pick a
+specific feature um that you want to
+track that is more correlated with them
+actually using your product uh maybe
+that's you know posting a photo if
+you're building a social network or you
+know using a specific workflow in your
+B2B tool that you're building so let's
+let's look at some examples of what you
+know popular companies might choose
+let's say your Instagram uh you would
+probably want to pick an action that
+relates to users actually seeing content
+in Instagram so maybe I would pick
+viewed three or more posts on Instagram
+and the reason I picked three is that
+sometimes people will open up Instagram
+not touch the screen at all not get any
+value and immediately leave you probably
+want to filter those people out as
+active users if you're uber you might
+pick completed a ride actually like took
+a ride ended up in a destination as an
+active user of uber for Google photos
+for my product we chose whether a user
+actually tapped in and viewed a photo
+full screen on their phone as the best
+measure of whether they were an active
+user because we know that if you viewed
+a photo full screen either yours or
+someone else's that was shared to you uh
+you were actually getting value from the
+product so the best action to pick is
+one that is really correlated with the
+user getting real value from your
+product and you want to try to filter
+away things where a user might be
+touching your product in some way but
+not getting real value okay so last you
+have to also Define the time period that
+you're going to measure this on so what
+I mean by this is the granularity of
+time that you're going to look at when
+you're counting whether a user performed
+the action that we just talked about
+typically this should be a time period
+that is you know most connected to the
+desired usage of your product um so let
+me give you some examples if you're
+building a social app or an
+entertainment app maybe your Instagram
+or Tik Tok or YouTube you probably
+intend for your user to use your product
+every day so the time period in which
+we're going to measure the cohort
+retention should be daily if you're
+building a utility product maybe
+something like Google photos or Uber
+where you don't think a user would
+necessarily use it every single day uh
+maybe weekly is a better uh time period
+to use if you're a travel app let's say
+you're Airbnb um people don't travel
+more than three or four times a year so
+Airbnb probably would want to track
+something on a larger time granularity
+larger time period maybe quarterly or
+maybe even like semiannually or annually
+and the key here is you want to pick a
+time period that matches what you intend
+for your product and we can talk about
+ways that uh you might screw that up
+later on okay so now let's walk through
+an actual example and talk through how
+we're actually going to measure this in
+detail so what you see here in front of
+you is what we call a triangle chart
+down the rows you can see every month so
+we're going to choose our cohorts by
+month so all the new users in January
+we're going to isolate all the new users
+in February we will isolate and so on
+and then what we're going to do is track
+those users in every subsequent month
+that happens so in this first row and
+First Column you see that we had 12 new
+users in the month of January and what
+we'll do now is look in February one
+month later how many of those 12 users
+came back and performed our action in
+the month of February and we see that
+it's six and then we'll look in March
+two months later and see that we had
+four people come back in the month of
+March the key here is that we're
+counting each person one time during
+that time period regardless of whether
+they came back one time in the month or
+10 times in the month each user gets
+counted one time and you can also see if
+we go to the next month we actually get
+five people to come back from that
+original group of 12 so the key is this
+number can go up or down it can never be
+bigger than the initial group in the
+first month of the cohort because that's
+the total number of people we're going
+to look at and then we'll do the same
+thing for February so February we had 27
+New users and in subsequent months now
+you can see how many of them came back
+each month I like to think about this as
+a party say you're having a party you've
+got your room um when people come into
+the room you kind of tag them you give
+them like a little sticker that says
+what month they came to your party in
+and so all the people that joined in
+January were going to put a January
+sticker on their shirt all the people
+that came in February we're going to put
+a February sticker and then every month
+we're going to look at the people in our
+party and we're going to count how many
+of you people came from the January
+cohort how many of you came from the
+February cohort and that's the way that
+we're actually like dividing up the user
+base and tracking these cohorts
+individually over time one last thing to
+call out here in this triangle chart you
+can see I've highlighted in yellow this
+diagonal line and the diagonal line in
+this type of chart actually represents
+one real calendar month so the yellow
+line here is the month of December and
+so you can see all of the users that
+used our product in the month of
+December where did they come from from
+which cohort were they a part of
+initially and you can see if you added
+up all the numbers along this diagonal
+you would get the total number of users
+that used our product in December so
+that's just an orientation of how we
+measure this you know kind of on the
+ground now these numbers are great but
+what we actually care about is what the
+trends look like relative to the initial
+cohort size so in this graph we've just
+taken the previous one and divided by
+the initial cohort size to kind of
+normalize and get percentages so you can
+see the First Column the initial month
+it's % by definition and then every
+subsequent month now we're measuring
+what fraction of the initial cohort
+returned during the month so this is a
+great visualization you can kind of see
+if you look across the rows how each of
+your cohorts performs over time which we
+really care about and you can also look
+down a column and look at all the rows
+in a column and see whether you are
+generally improving over time with each
+subsequent cohort or if you're generally
+getting worse but I think the best way
+to look at this is to actually take this
+chart and graph it as a line graph and
+that's what you can see here so this is
+typically what we look at when we're
+talking about looking at cohort
+retention curves um so every line on
+this graph is one of our cohorts you
+know the December cohort the November
+cohort the July cohort the longest
+cohort the one that started in January
+has a full 11 months of data and the
+newest cohorts the ones that started in
+November and December only have a couple
+data points at the top so you can see
+this is kind of like a typical way to
+look at a cohort retention curve okay so
+I know you're thinking what is good how
+do I know if my cohort retention curves
+are good or if they're really bad so
+before I tell you the answer let's walk
+through an exaggerated example and maybe
+you'll be able to uh see for yourself
+what is the right answer so let's assume
+we have two products product a and
+product B A is the the black line B is
+the orange line here and we're going to
+show the cohort retention curves for
+these two products over time as we
+gather more data each month so at the
+beginning you look at this it sure looks
+like product a is the clear winner uh it
+retains way more of its users in the
+first month or two let's reveal a little
+bit more data we can see now product B
+it continues to drop boy it has lost
+more than half of its users in the first
+couple months whereas product a is
+looking pretty good the numbers are
+still well above 50% really great let's
+keep uh revealing a little bit more and
+maybe now you've had a change of heart
+if you're the owner of product B you're
+probably feeling pretty good because
+you're not losing users anymore while
+your absolute number is down to maybe I
+don't know 20% of the initial cohort it
+sure seems like it's stable and flat
+whereas if you're the company behind
+product a you might be starting to think
+about what is wrong with your product
+because it seems like it will go to zero
+and you will eventually churn all of
+your users so this is the core Insight
+behind cohort retention curves the only
+thing that matters and I can't stress
+this enough the only only thing that
+matters is whether your cohort curves
+get flat the shape of the curve is what
+matters not the absolute number the
+absolute number the height at which it
+might get flat it certainly is better if
+it's higher of course um but it doesn't
+matter nearly as much as whether it gets
+flat at all so that's the key Insight
+here the reason getting flat on your
+cohort retention curves really matters
+is it gives you some chance to
+accumulate users over time if your
+curves don't get flat every month you're
+just going to be acquiring new users and
+losing your old users and you're just
+going to be on this treadmill trying to
+keep up forever whereas if you can
+accumulate even a small fraction of your
+initial cohort of users you know that if
+you can keep doing that over time long
+enough you will eventually grow to a
+very large customer base and hopefully
+be able to make a lot of money so if
+your curves don't flatten out I would
+say it's a pretty good sign that you
+haven't yet made something people want
+now in the early days of Google photos
+our we measured weekly cohort retention
+and our curves looked a lot like that
+orange line they would drop off pretty
+quickly but then they would get flat
+somewhere between 20% or 40% depending
+on which country and device we were
+looking at what's interesting is you
+know if you talk to a friend of yours
+and told them yeah 80% of my users leave
+like pretty immediately they it sounds
+pretty bad right it's not a thing you
+would go around bragging about but the
+fact that on Google photos 20% of users
+pretty immediately demonstrated that
+they would stay with the product and use
+it every week for basically forever it
+gave me a lot of confidence in in like 6
+weeks after launch of Google photos I
+was pretty certain that um we would
+eventually be able to get 20% of all
+humans on the planet to use Google
+photos and turns out that's exactly what
+happened four years later we were well
+north of a billion users is probably
+closing in on two billion users now and
+so getting your cohort curves to be flat
+will also give you a lot of confidence
+as a Founder that um you can actually
+build this into a really big thing so
+let's next talk about how you might fool
+yourself into thinking that your cohort
+retention is good when in fact it is not
+and I am going to be speaking from
+experience I have made every single one
+of these mistakes so let's uh dive in to
+what they are the biggest mistake that I
+see people make is picking too large of
+a time period in which to measure your
+subsequent retention so in our example
+you know we picked months if you pick
+quarters or half years um you have a
+much better chance of every user coming
+back and being counted as an active user
+so by definition your cohort curves are
+going to be flatter and higher the
+larger you pick your time period and who
+doesn't want to look better for
+investors for employees just to feel
+better about themselves when they're
+falling asleep at night we all do and so
+this is something to be consciously
+aware of and also realize that your
+unconscious brain is going to push you
+to widen your cohorts even though you
+probably shouldn't at bump This was um a
+mistake I made uh we would look at our
+weekly cohort retention curves because
+we thought that Weekly was kind of the
+the right period of time that users
+should be using bump and they were
+really bad what we did practically was
+well we have some investor meetings come
+up uh coming up so let's let's just
+widen the cohort to a month and let's
+let's see how they look there and they
+looked better and then we convinced
+ourselves well quarterly actually is a
+reasonable time to to use our product
+let's increase our time period to once a
+quarter and then the cohorts aha looked
+really great but we were fooling
+ourselves right bump was not designed to
+be used once every quarter it was
+designed to be used pretty frequently
+and by um expanding our cohort time
+period we were just deluding ourselves
+about what actually was the state of our
+product another way to uh fool yourself
+in in your cohor retention is picking
+too easy of an action so we talked a
+little bit earlier about you know
+picking an action that is just a user
+opening your app or coming to your site
+I would caution you against picking
+something that easy or that shallow in
+the usage of your product because
+there's lots of ways to game that and
+you will find yourself gaming your
+metrics once you start charting this
+stuff a common example there is using
+notifications or other alerts to drive
+users to your product kind of like
+inorganically maybe and what you'll find
+is they'll get there and then they're
+going to leave immediately and not
+actually get value from your product and
+you don't want to be counting that usage
+in your cohort retention curves because
+it will lead you astray a great example
+I saw at Google when I first joined
+Google was still working on its social
+network Google+ and U there was a point
+in time I kid you not that uh the active
+usage of Google+ was determined by
+whether a users saw in the typ right
+corner of every Google product a little
+notification Bell that would have a red
+uh notification if you had a a Google+
+notification somebody added you as a
+friend you had a new photo that got
+uploaded something like that and by
+doing that it made the active user
+numbers really big and so everybody felt
+good but if you looked at the cohort
+retention it was a lie um these were not
+active users these were people who were
+in their Gmail and they happen to like
+click on this little red bell to see
+what it is and they got counted as an
+active user of go+ so don't make
+mistakes like that it's going to just
+lead to Disaster One counterintuitive
+thing here um I think a lot of people
+think oh I'll use the best measure of an
+action which is whether the user is
+paying me dollars this month for my
+product of course that's the best way to
+measure whether they're active and
+counterintuitively this is actually
+often not the case users first stop
+using your product and then they stop
+paying you for your product and I think
+we can all probably relate to this I'm
+sure we each have you know streaming
+services like Netflix or something else
+that we're probably paying for and if
+you think about when the last time you
+watched a show on Netflix it might be
+more than a month ago but you probably
+haven't canceled
+so I would be careful with using just is
+paying as your action a better way to do
+it would be to pair it as is paying and
+is an active user actually used some
+part of my product um this month that's
+a good combination to track so the best
+way to avoid picking too easy in action
+this is the the rubric that I would
+recommend to Founders imagine you're
+sitting next to one of your customers um
+they're here at the table using using
+your product when you watch them use
+your product what is the thing that's
+going through your head that helps you
+answer the question of whether that user
+is a good user of your product that
+they're actually using it in the way
+that you intend whatever that answer is
+I would recommend using that as the
+action in your cohort retention curves
+so another common way to delude yourself
+when you're looking at your cohort
+retention curves is to look at a single
+point in time as opposed to the shape of
+the entire curve um this probably should
+seem obvious but this is a thing that I
+hear from Founders literally every
+single day um I might have a Founder who
+who comes to me and says Dave we're
+doing great we have 80% week-over-week
+retention and um I scratch my head for a
+little bit and then I ask which week um
+what is the 80% what's the numerator and
+what's the denominator in that number
+and almost always the founder doesn't
+know the answer to that question in our
+example we might look one or two months
+out and product a has 75% week three
+retention sounds great but what you
+might want to ask is well what does week
+four retention look like what about week
+two what's the trend line and in our
+example you would find that product A's
+retention is very much not flat and so
+despite having a 75% week three
+retention it's a product that is not
+doing well okay finally just a a word of
+caution about using analytics tools or
+analytics Suites um I think it's awesome
+that they all exist I think it's awesome
+that they have retention and cohort
+retention graphs built in but what I
+would caution you on is that often those
+graphs aren't measuring exactly what you
+think they are I've seen cases where
+these these tools aren't separating
+cohorts in the way that the the founders
+think they are maybe they're measuring
+rolling retention over time as opposed
+to fully separating each cohort
+sometimes they do things like this is a
+graph of whether a user has returned at
+all by a certain date as opposed to
+whether a user returned during this
+specific time period so what I would
+recommend for most Founders is to
+actually build these cohort retention
+curves on your own using your logs via a
+script or in Google Sheets do that a
+little bit upfront yourself to develop
+your own intuition about what's going on
+and how these are actually measured and
+then compare it to what your Analytics
+tool is doing and if they exactly match
+up and you feel really confident then by
+all means use the analytics tools but um
+too many times Founders come to me and
+show me their dashboard and I ask any
+questions about what those numbers
+actually represent and they they don't
+actually know so don't be one of those
+people when you're looking at cohort
+retention curves um you don't need to be
+looking at these multiple times per day
+you don't need to look at them even
+every day but I would recommend at least
+refreshing these graphs every week every
+two weeks uh because when things go
+south um you're going to want to know it
+really quickly far more likely what you
+will find is that your cohort retention
+is not good from the very beginning and
+now we need to think about ways to
+improve it so let's talk about that so
+the most obvious way is to improve your
+product come up with new use cases maybe
+it should do something completely
+different maybe you need to speed up
+your product or reduce latency somewhere
+make the flows a lot simpler doing all
+of these things actually will change
+your cohort retention curves and you
+will see them get flatter and you will
+also see them get flatter at higher
+levels so in our example that we showed
+earlier if you look at these sets of
+cohorts you might see that the oldest
+cohorts seem to be performing the worst
+they seem to be attracted down to zero
+but then the middle of the year around
+you know July June time frame we see a
+little bit of improvement the cohorts
+are a little bit higher and they're a
+little bit flatter so maybe the team
+behind this product uh made some
+improvements that that made things a lot
+better and then the most recent cohorts
+right October November they seem to be
+flattening out a lot more a lot sooner
+so this is what you might see if you
+actually do make improvements to your
+product that are meaningful so another
+way to improve your your cohort curves
+um is kind of the flip side of improving
+your product is to acquire better users
+I think this is a thing that a lot of
+Founders don't think about often you've
+built a great product but you're
+targeting it to the wrong type of
+customer so you can actually improve
+your performance here by just acquiring
+users in a different way this is
+something that I saw a lot at Google
+working on Google photos I remember at
+one point um some marketing exact High
+up decided that Google needed to Target
+young people more like that was
+important for the company and they did
+this big push on having um marketing and
+advertising targeting gen Z the Gen Z
+audience and so you know the the teams
+at Google are really good they did a
+great job of bringing in a bunch of new
+Young users to use Google photos but it
+turns out those cohorts had really bad
+retention and it kind of makes sense
+like Google photos is a tool to
+accumulate your life's memories and
+reminisce and if you're a young person a
+you don't have that many life memories
+yet and if you do um You probably aren't
+thinking much about like Reminiscing on
+that moment two years ago or one year
+ago you're probably out living your life
+being a young person so this is an
+example of a mismatch between user
+acquisition like who you're trying to
+get to use your product and what your
+product actually does and often this is
+the easiest way to improve the
+performance of your cohorts so we talked
+earlier about when you're picking your
+cohorts um ways that you can slice your
+cohorts you know I talked about by
+country or by device this is a great way
+to try to improve your product and
+figure out like what's going on so if
+you see that your cohort curves are not
+getting flat one of the immediate next
+steps I might recommend is to try to
+slice those cohorts by different
+dimensions you know by what country
+you're serving uh what type of customer
+whether it's a big company or a small
+company that you're targeting in your
+B2B tool divide it up by whatever
+attributes you think make sense and what
+you might find is that some of those
+cohorts are very flat and perform really
+well While others are really really poor
+and that would be a clue of where to to
+start in terms of improving either your
+product or your user acquisition related
+to the idea of acquiring better users
+another way to improve your cohorts is
+to improve the first user experience the
+onboarding the activation of of
+customers that you get this is a thing
+again I think people Overlook they they
+immediately jump to what the product
+does but often you just need to help
+your users get into a good State and and
+be able to use your product in the right
+way we see this a lot with companies
+that are building tools for for
+businesses um they put a lot of time
+into building the tool itself but then
+they don't think about how you actually
+teach people to use it how do you get
+into their workflow what are they doing
+yesterday before they used their product
+and what do you want them to change
+about their life today when they are
+using your product investing in this
+often is like the cheapest and easiest
+way to improve your performance of your
+cohorts okay lastly um a great way to
+improve your cohort retention is to have
+some sort of network effect in your
+product now this won't work for everyone
+but uh products where every subsquent
+user of your product makes the product
+better for your existing users social
+networks um sharing networks texting
+apps these are all examples of that if
+you have a dynamic like that where the
+more people who use it the better it
+gets you should see cohort improvement
+over time as that Network grows and
+becomes more dense so if you're building
+a product that has something like that
+you might want to think about how could
+we focus on building good dense networks
+around the users that we have and you
+may find improvements to your cohorts
+all right finally I want to talk a
+little bit about like what is the Holy
+Grail like what is the best of the best
+look like here and what I would say is
+that the best of the best is cohort
+curves that don't just get flat but they
+actually go up over time and you can do
+this from all of the techniques I just
+talked about making your product better
+targeting better customers um if you do
+this you'll find that you know users of
+your product that are sticking with you
+actually will start using it more and
+more over time and if you see that if
+you're cohort curves are getting flat
+and then increasing and subsequent
+cohorts are getting better and better
+over time you should be feeling really
+good okay so hopefully now you have a
+pretty good idea of actually how to
+measure cohort retention curves and how
+to decide if what you see in those
+curves is good or bad to conclude I kind
+of want to tie this all together and and
+and see how it connects to building a
+really big company so let's go back to
+how we measure the cohorts in the very
+first triangle chart that we looked at
+this is just the count of users from
+each cohort each month who used your
+product in subsequent months what we're
+going to do now is just instead of
+having it be relative months we're going
+to slide all these rows to the other
+side and align them in absolute time so
+now we're seeing all of the users in
+each calendar month which cohort did
+they come from right so let's look at
+December in December here we can see all
+of the users in December are represented
+in the last column in the chart here and
+we can see which cohort they came from
+now let's take this chart but draw it as
+a line graph and this is what we call a
+layer cake chart for every month this is
+the number of users you have of your
+product active users of your product but
+each of the layers of this cake
+represents which cohort they initially
+came from so what you can see here is
+that if you look at the the last month
+in December you know we've now got
+almost 600 users of our product it is
+not just users that we acquired recently
+in December or November it's actually
+composed of all of the previous users
+who stuck with our product and if you
+see a layer cake that looks like this
+that's the top line is growing really
+nicely and it's composed of thick layers
+coming from old cohorts this is like the
+most beautiful chart that you'll ever
+see in your startup so if you see this
+congratulations you're you're Off to the
+Races okay so this layer cake graph um
+is hopefully the start of what could be
+a mult multi-billion dollar company and
+when we think about cohorts I the way I
+talk to Founders about it is you
+obviously want to go talk to your users
+in person hear what they're saying this
+is the qualitative feedback that's going
+to actually give you insights about your
+product a cohort retention curve isn't
+going to teach you what to change
+necessarily but it might tell you
+whether you're on the right track and
+things are working or not and what I
+would say is if you look at your cohort
+retention curves and they don't get flat
+um the one thing you can be sure of is
+that you need to get out there talk to
+your customers understand what's going
+on and hopefully make something that
+they want so thank you so much for
+spending your time learning about
+cohorts with me I wish for each of you a
+flat cohort retention curve in your
+future
+[Music]

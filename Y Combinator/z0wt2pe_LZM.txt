@@ -1,0 +1,1015 @@
+Title: 2024: The Year the GPT Wrapper Myth Proved Wrong
+Video ID: z0wt2pe_LZM
+URL: https://www.youtube.com/watch?v=z0wt2pe_LZM
+Channel: Y Combinator
+Published: 2024-12-13T15:01:15Z
+Duration: PT38M11S
+Views: 108289
+Likes: 1729
+Tags: YC, Y Combinator, 2024, Tech, AI, Robotics, Vertical AI, Voice AI
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 986
+
+Description:
+2024 has been quite the year to be part of the startup ecosystem! As we wind down and get ready for the holidays and the new year, the Lightcone hosts reflect on this year’s biggest startup trends, moments and setbacks. 
+
+Apply to Y Combinator: https://ycombinator.com/apply
+
+Chapters (Powered by https://bit.ly/chapterme-yc) - 
+0:00 Coming up
+1:00 What made 2024 great for startups
+13:55 Tech and gov’t intersecting more
+15:37 Who else in tech had W’s in 2024? 
+20:48 Voice AI has a lot of potential
+
+============================================================
+TRANSCRIPT
+============================================================
+
+the wildest thing right now is you can
+start a company that can make tens of
+millions of dollars literally in 24
+months and you can do it for potentially
+you know2 million5 million a year ago I
+remember many of the startups in the
+batch would get sort of Enterprise proof
+of Concepts or pilots in particular and
+there was a lot of cynicism around
+whether any of those Pilots would
+translate into real Revenue fast forward
+a year I think we have all firsthand
+experienced that these Pilots have
+turned into like real Revenue it's still
+early days honestly like it you know we
+sort of breathe a sigh of relief right
+now in 2024 but it's anyone's game
+honestly like these things are moving so
+[Music]
+quickly welcome back to another episode
+of the light cone I'm Gary this is Jared
+Harge and Diana and collectively we
+funded companies worth hundreds of
+billions of dollars right at the
+beginning so
+2024 what a year how are you feeling
+about this Harge pretty great I think
+this is the year that everything broke
+in favor of startups what I've been
+thinking about a lot recently is when
+chat gbt launched two years ago now the
+immediate consensus viw was all of the
+value would go to open Ai and very
+specifically do you all remember when
+they announced the gbt or the chat gbt
+store yeah like the I remember the
+consensus was everything that was built
+on top of chat gbt was a gbt rapper and
+the App Store was just going to be
+released and Crush every single person
+trying to build an AI application and
+open AI would be a ginormous company but
+there' be no opportunity for startups
+sounds kind of ridiculous to say that
+now because um who even remembers the
+chat GPT store exactly the chat gvt
+store itself was a nothing Burger but
+like more importantly what are the big
+AI applications today like I'd say
+outside of chat gbt itself the breakout
+consumer application is perplexity the
+breakout Enterprise application is
+probably glean maybe um in legal Tech
+you have case Tech you have Harvey pruma
+you have photo room like there's the
+point being there are many many
+applications that have been built not by
+open AI it's been a great time to build
+startups yeah the wildest thing right
+now is you can start a company that can
+make tens of millions of dollars uh
+literally in 24 months from zero
+and uh you can do it for potentially you
+know2 million5 million that's sort of
+the story of one of these companies Opus
+clip which never had to raise a real
+series a and that's something that we
+sort of see across the YC Community as
+well yeah I think that's um a
+particularly important point that you
+can do it as a startup without ra
+raising tons of capital because post the
+gbt store launch I then remember uh
+anthropic and Claude emerged and the
+consensus view for a while was all of
+the value is going to go to one of these
+Foundation model companies and that the
+only way you can compete in AI is to
+raise huge amounts of money um either
+because you've got venture capital or
+your Amazon or Facebook or Google um
+with tons of cash already but that if
+you weren't one of the big foundation
+models um there would be no value and
+the applications built on top of these
+things would either be built by the
+foundation model companies themselves or
+just not be that valuable again
+something that turned out to be
+completely not true right and in
+particular what drove that is open
+source like the weird series of events
+where me like the weight's being leaked
+and like meta just like rolling Tor yeah
+I kind of forced the hand for uh meta to
+launch a llama which was funny and
+people thought oh it was just this cool
+open source model but it was 18 months
+behind open Ai and people started doing
+a lot of der work out of it is like
+vicuna and all these other animals
+related to llamas that came out and it
+took the or llas one of the companies at
+YC as well that enabled people to do uh
+local kind of Docker development like
+models running on device it was pretty
+cool but people didn't think that um
+they were going to be able to catch up
+and the thing that changed from 2023 to
+2024 is that during the summer it was a
+turning point it was the first time that
+the top foundation model in all the
+rankings benchmarks was llama and that
+was a shock to the community yeah so it
+turns out Choice uh matters and choice
+means that it's not as much about the
+model I think the model still matters
+quite a lot um but once you have choice
+in model it means you can't have the
+sort of idea of Monopoly pricing and you
+have that model you're pedor also has
+that model but all the other things seem
+to end up mattering a lot more which is
+product your ability to sell your
+ability to actually adjust to user
+feedback your ability to get to zero
+churn all of those suddenly become far
+more important than capturing a light
+cone of all future value through the
+model right a very specific way I I felt
+this is I remember a year ago working
+with startups in the batch that are
+essentially building model routers just
+like an API to call like a specific
+model and I remember the um a lot of the
+motivation for that at the time was uh
+reducing cost it was like oh like you
+don't want to just like burn up all of
+your chat BT calls you want to spread
+them out across like various different
+models and the the the argument against
+that was just oh like the cost of all
+this stuff is going down to zero anyway
+like there's no value to be had in being
+like a model router and no one wants to
+build their applications with a model
+router they're all just going to call
+whatever is the best model I think fast
+forward a year like that's totally not
+true like from what I can tell the the
+model router was actually a really great
+entry point into just building sort of a
+new stack for building llm powered apps
+and most of the the applications we're
+seeing I think they just don't want to
+be beholden to a specific model does
+that map with what you've seen yeah
+actually one of the things we've seen
+now in the fall batch that just
+presented at demo day which was one of
+the trends that shifted from Summer 24
+and winter 24 was precisely what you're
+saying companies started to use multiple
+models for the applications like the
+best one for Speed at some point because
+sometimes you need to parse a lot of the
+input very quickly it's fine if it's a
+bit more lossy and then you need the
+bigger model to handle the more complex
+task so a lot of companies in Fall 24
+have this actually multiple model
+architecture to use the best one for the
+best task which is similar to the
+concept of the model router but it was
+uh the idea evolve instead of being
+being more of a routing it was more of a
+orchestration I think a concrete example
+we gave uh a couple episodes ago was uh
+camper was a company you work with they
+use the fastest model for paring like
+PDFs and the more complex ones they use
+01 and that's that's how it's done and
+other companies that's doing uh fraud
+detection they have this concept of a
+like a junior risk analyst where they
+just use like a fast and easy gbd4 mini
+and and then they use the bigger one
+with like
+o1 or the other example is um I think
+cursor talks about it in their episode
+with uh Lex Freedman they also have this
+complex multi-architecture with multiple
+models and this is why it works well
+it's like they do one very specific for
+predicting what you're going to type
+next but one for understanding the whole
+code base so very different tasks so
+that's definitely happening now yeah the
+other thing that uh popped up for fall
+batch there's a company I'm working with
+um called variant and uh what they're
+trying to do is take basically
+state-of-the-art open- Source llm models
+that can do Cod genen and then teach
+them Aesthetics so uh starting with icon
+generation and so they built this huge
+sort of posttraining
+workflow that should work on you know as
+the open- source models get smarter and
+better at Coen broadly they can just you
+know take the next version of that and
+then uh take their post training
+architecture and data set and then
+basically teach a given model Aesthetics
+so what a certain thing is supposed to
+look like and uh not in a diffusion sort
+of way but actually at the SVG level and
+we think SVG will actually translate
+into all kinds of Aesthetics so it's an
+interesting approach and like one of the
+newer ones and that post training is a
+whole coherent way to sort of skip the
+whole idea that um all the value is like
+acur into the model especially because
+of Open Source to your point the other
+thing I I've been having flashbacks to
+is a year ago I remember many of the
+startups in the batch would get sort of
+Enterprise proof of Concepts or pilots
+in particular and there was a lot of
+cynicism around whether any of those
+Pilots would translate into real Revenue
+um lots of parallels to crypto and how
+anytime there's some new interesting
+technology blockchain more specifically
+than crypto but anytime there's a new
+technology Enterprises always want to
+run pilots and P because it's someone's
+job to like check off yeah we did the
+like hot new technology thing the chief
+Innovation officer must have his VI
+we've spoken about this one of one of
+our episodes I think and yeah fast
+forward a year I think we have all
+firsthand experienced that these Pilots
+have turned into like real revenue and
+if anything the startups in the YC badge
+now are going to sell into real
+Enterprises faster than they have before
+and are ramping up revenue and reaching
+Milestones like a million dollars AR
+faster than I've suddenly ever seen yeah
+the fall batch just did this actually
+again which is actually the first time I
+think we noticed it was actually the
+summer batch of this year and uh one of
+the funnier things that we realized was
+do you remember when Paul Graham uh
+would tell us how fast you needed to
+grow during the YC batch 10% a week 10%
+a week and uh the wild thing is in
+aggregate uh across both you know summer
+and fall batches that's what those
+batches did wow so which I don't think
+ever happened reacts over the course of
+YC yeah 3X over the course of YC which I
+don't think has ever actually happened
+on average on average it was only the
+best companies that did that which is
+the top quartile or something right so
+the companies are
+better the general thing that is true is
+just that the time it's taking to reach
+$100 million in annual revenue is
+trending down yeah and not only that um
+we had dinner with Ben Horowitz recently
+and remember he was saying when they
+started Andries and horowits the common
+understanding was that in any given year
+there'd only be 15 companies that year
+that would even make it to $100 million
+a year revenue and uh they said they ran
+the numbers the last 20 years and every
+decade the number of companies that
+could actually make it to $100 million
+went up by 10x so what was 15 per year
+maybe 20 years ago I mean we're talking
+about 1,500 companies a year that have a
+real shot at actually making that number
+and when you combine that with what
+we're seeing in the summer and fall
+batches it's not that surprising and
+Jared had a really good argument on our
+last episode about how vertical AI is
+going to enable this to have thousand
+500 plus companies to bloom yeah that's
+why it's growing so fast it's because
+the value propped to companies of these
+products is so incredibly strong that
+like they're just flying off the shelves
+cuz like I companies are smart and they
+can do an Roi calculation and when the
+ROI is fantastic all these all these
+truisms that people believe about
+Enterprise Sal cycles and like quite a
+taste to get big Enterprise deals go out
+the window because companies are smart
+and they'll make rational decisions you
+know har there there's another way that
+this broken favor of startups that I was
+thinking about um it's hard to even
+remember now but a year ago one of the
+things that people said a lot was that
+these llms are not reliable enough to
+deploy in the Enterprise they
+hallucinate that was why a lot of people
+said like the these pilots and PC's like
+won't translate into real contracts is
+because yeah it's too risky of a
+technology um for people to actually
+deploy deploy yeah and not only is it
+transl into real Revenue but translating
+into real deployments that are like
+being used at Large Scale you know doing
+thousands of tickets a day and I think
+it's because we've learned how to make
+the agents reliable via the kinds of
+techniques that Jake talked about when
+he was here and just the all this
+infrastructure has grown up around
+around the bottles it's enabled people
+to make them reliable yeah that's
+actually a big Trend uh this year is
+this concept of uh thinking of AI more
+as agentic that is a term that kind of
+bubbled up a lot this year it was not in
+the bubbled space of conversation last
+year last year was more about a lot of
+things that were kind of very chat-like
+chat I mean that was kind of the Riff on
+it but now remixed into a bunch of
+agents for XYZ and we just I mean you
+just put out Gary just put out a great
+explainer video about computer use from
+Claude but just the capability of the
+models keeps pushing in the direction of
+just being able to do like complex
+multistep things and actually take over
+your computer and call other
+applications and and perform complex
+tasks that just didn't seem possible a
+year ago what about regulation seems
+like we sort of dodged a bullet there
+with uh 1047 and uh it looks like some
+of the Biden EO uh is not that likely to
+survive the Trump White House TBD what
+that means in the longer term but
+certainly one of the things that we were
+very worried about was that some certain
+amount of math Beyond a certain level
+would suddenly become illegal or require
+registration at your local
+office it's certainly been a weird time
+to be in Tech because I've never
+experienced um software and Technology
+intersecting with politics so much and
+in particular I'm not used to genuinely
+caring about National politics affecting
+startups in a YC batch or just you know
+companies that are less than a year old
+but it did really it did really for a
+moment was worrying it wasn't clear
+whether startups would actually be able
+to build Innovative AI applications
+versus suffering from regularity capture
+from open Ai and a few big
+players we're obviously very glad it
+broke in the favor of startups seems
+like we're still in the early game right
+I mean I mean it's very easy to see that
+um the platforms themselves really will
+or could possibly resemble you know the
+win32 Monopoly right Windows uh has
+access to the apis they in fact know all
+the stats about what's working on their
+platforms and guess what they can build
+it into their platform you know we sort
+of breathe a sigh of relief right now in
+2024 but um you know it's anyone's game
+honestly like these things are moving so
+quickly I wouldn't totally breathe your
+last sigh of relief yet you know it's we
+we got to keep working on this okay so
+it's clearly been a great year for
+startups um what else has been happening
+who else has it been um a great year for
+do we think there certainly been some
+big funding rounds right like open AI
+unsurprisingly has raised huge amounts
+of capital scale yeah even within YC
+though we've seen like scale AI has
+really broken out this year $6 billion
+for open AI 1 billion
+for uh scale a billion dollars for SSI
+the new ilas sger startup scale I think
+is just worth talking about because it's
+such a classic startup Story I mean you
+were there in the early days right you
+interviewed them for YC um what um tell
+us what the idea was that they
+interviewed with and how they ended up
+landing on what you know is probably one
+of the best startup ideas of the last 10
+years the fun thing about the scale. a
+story is that it is the sort of epitome
+of the like classic YC startup story
+there's other kinds of startups that get
+started you know like SSI for example
+that's not a typical YC startup story
+where like some very wellestablished
+people raise a billion dollars with like
+a PowerPoint pitch but like scale. a is
+like the classic story of how like young
+programmers can just gradually build a
+like10 billion company over time by
+being like smarter and harder working
+than anybody else and so yeah when Alex
+uh interviewed at YC he wasn't working
+on anything related to AI it was a
+completely different idea and the idea
+for scale.ai kind of got pulled out of
+him by the market and it's it's actually
+still like several pivots cuz like uh
+the the original idea at YC didn't have
+anything to do with AI and then for a
+long time he was basically doing data
+labeling for the self-driving car
+companies they applied as I remember
+they applied like a healthcare related
+idea yeah it was a website for booking
+doctor's appointments okay cool and then
+they pivoted during the batch um do you
+remember how they came up with the data
+labing Li cuz this supposed to be in was
+this
+2016 yeah the way they came up with the
+data labeling idea was that Alex had
+worked at quora and quora had to do some
+data labeling for like moderation and
+stuff and so at the time the Big Data
+labeling service was Amazon Mechanical
+Turk and they were deemed unbeatable
+because they were like run by Amazon and
+Amazon could throw infinite money at it
+it was always at scale it was at like
+like quite large scale already but Alex
+had a unique Insight which is he'
+actually used mechanical torque at quora
+and he knew that it kind of sucked to
+actually use it and so he he he had this
+sort of like unique Insight on the world
+and so he just tried to build a better
+mechanical TK basically the version he
+would have wanted when he was at Kora
+and as I remember it like really the
+their early traction came almost
+entirely from One customer Cruise right
+yes which needed to do tons of data
+labeling on all the images that the cars
+were taking as they were driving around
+San Francisco you got to like draw a
+circle around the traffic light and
+thing like that and the the cool thing
+about scale is that they've actually
+caught two waves so they you know
+accidentally caught the first wave of
+all these self-driving car companies
+because ml took off at that time in
+computer vision there was just an
+unprecedented demand for labeled data
+for training sets that just hadn't
+existed before and so they were able to
+ride that wave and then as that wave was
+like crusting llms got big and all of
+these companies needed to do rhf at very
+large scale and scale was just like
+perfectly positioned to move into that
+business as well yeah like I think the
+scale story is are so interesting CU it
+was pre llm it was it was clear a
+multi-billion Dollar business anyway and
+llm it called The llm Wave which is now
+proped into probably it's going to be
+like a hundred billion doll plus company
+and I'm seeing that at the ground level
+too where many companies I had that
+maybe finished the batch even pre- the
+batch didn't have an idea pivoted into
+an AI idea that's taking off like I'm
+just seeing much more success in
+Founders who who waited out and can find
+an idea that they just couldn't before I
+have a company from a year ago they Prov
+they proved the whole batch they
+couldn't find um a great idea it
+actually took them six months after the
+batch until they realized um one of
+their parents ran a dentist office so he
+just decided to go hang out at the
+office to see like if there was anything
+he could automate uh and they just ended
+up building an AI back office for
+dentist offices and now it's just like
+their week over week growth is fantastic
+it's doing really really well and I'm
+seeing lots of cases like that spring up
+definitely seeing that as well I think
+there's something about the advantage of
+having all these very hardcore young
+technical Founders that are willing to
+kind of just bet the farm and go all in
+on just a little bit of a glimmer of oh
+this is where the future is going to be
+let me just try it and then it actually
+ends up working I just St with the
+dentist I have a lot of teams that
+pivoted as well into different spaces
+where they kind of found that glimmer
+like oh computer use came out and I have
+a couple companies that are working and
+betting and going in that direction and
+it's like working well I mean it's still
+early I mean this is just a fall badge
+but that's cool too okay so what are
+some of the act the trends that we've
+seen what are some of the the specific
+Trends and waves that startups have been
+riding coming out of the batches voice
+AI is something we've talked about it's
+clearly um maybe the most promising
+vertical for AI right now in terms of
+just Ro traction do you think uh voice
+is a win or take all or will it be
+something that has sort of a 100
+different verticals that are very
+tailored to those specific
+verticals that's literally one of the
+questions I get from some of our uh
+voice AI startups themselves they're
+like should I be going horizontal or
+should I just continue to grow with
+within my vertical it feels to me like
+voice itself vo is um I just like a it
+touches everything and there's so many
+different applications for it that
+um you can there's probably infinite
+applications to build where voice is the
+interesting element of it I mean things
+that just spring off top of your head
+like language learning applications I'm
+sure there's not going to be just one
+really cool voice AI power language
+learning application probably going to
+be multiple of them remote work like um
+teleconferencing there probably like a
+whole other area where there's
+interesting things to do with voice Ai
+and even within customer support we
+highlighted a number of companies we
+talked about last time um company parel
+cap. a yeah it it turns out that
+customer support is not really one
+vertical there's like many different
+flavors of customer support and they're
+like very different on the inside once
+you get into the details because I think
+there's very specific types of workflows
+you need to do per industry and that's
+to the point of why vertical AI agents
+are going to really flourish I mean same
+thing for Bo it's just very different
+workflows if you're building the I don't
+know the voice agent to do customer
+support for an airline very different
+than doing it for a bank very different
+than not doing it for a BB SAS company
+Etc yeah I guess that question of is
+there going to be um pure horizontal
+integration is sort of like saying will
+there only be one website yeah or it'd
+be like saying like they're just going
+to be both it'll be horizontal
+infrastructure companies that do really
+well and vertical applications because
+it to say otherwise would be like saying
+oh like stripe Powers payments on the
+internet and it's also just going to
+have all the most valuable applications
+that accept payments on the internet
+it's just not how it works like there's
+enough value at just being the
+horizontal infrastructure layer so I'm
+sure there'll be great voice AI
+companies that just make it really easy
+for you to build your own voice AI
+application while there'll also be
+hundreds of really valuable vertical
+apps what are what are what are other
+trends that we' seen besides uh voice we
+were talking about robotics earlier
+there certainly we we are certainly
+working with more Founders building
+robots this year than I think any year
+ever uh what's driving that I have a x
+app team that's called weave robotics
+that they're going to try to ship a real
+robot in
+2025 it costs about 65
+$70,000 but that's actually what it
+costs to have the actuators and the
+safety needed to actually have it work
+in your home I think it's actually
+driven by this idea that um the llm
+itself can be sort of the consciousness
+of the robot like am I doing this thing
+that you know my owner needs me to do um
+you know how do I actually interact with
+them and the other people in the
+household uh but it's funny because then
+The Voice language action model that
+might actually do a certain thing like
+fold laundry that's uh almost tool use
+inside of the broader llm Consciousness
+so I feel like that's one of the things
+that I'm excited to see you know will it
+really work and I think we're going to
+find out this year I guess the way I
+think about it robotics is basically
+half Ai and half Hardware half of the
+part of the equation is starting to work
+well the hardware is still hard the
+hardware is still very expensive yeah
+there's still there's some evidence that
+uh being able to actually do laundry for
+instance like that might be one of the
+first things that gets shipped I think
+the dream case for startups is going to
+be that you can build just the the AI or
+the software piece of it and run it on
+commodity hardware and do really great
+things the opposite case would just be
+actually if the two thing like if you
+need to be good at the hardware and the
+software and they like coupled together
+and need to produce both and you would
+expect Tesla to be the obvious like
+winner in the space and it remains to be
+seen I'm pretty optimistic we have
+multiple companies I feel they trying to
+be creative on how to run the models on
+commodity hardware for specific use
+cases it still feels early it it feels
+like the robotics hasn't quite hit its
+like chat GPT moment yet maybe the
+moment is self-driving cars have been
+working in San Francisco I don't think
+it's talked enough people who don't live
+in San Francisco or like often don't
+realize the extent to which these are
+fully deployed in San Francisco and
+regular people are writing them every
+single day yep I saw Tony from door Das
+recently and he said he exclusively uses
+weo like everywhere I live in Palo Alo
+and have no option for it but I would
+love to it' be amazing I mean the wild
+thing is there are only a few thousand
+of these deployed right now in the
+entire world and Frisco yeah what about
+big flops for 2024 uh you I seem to
+remember that we uh started one of our
+light cone episodes all wearing uh Apple
+Vision pros and quests and uh we have
+not talked about AR since Diana what
+happened uh it hasn't happened there's
+this moment for a lot of the hardware
+that needs to be a lot more lightweight
+like we need to get to this form factor
+but there's actually constraints with
+physics to fit all that Hardware in such
+a small form factor in order to have
+enough computer and the Optics to fit is
+just super challenging and I think
+there's still more actual engineering
+and physics that needs to be discovered
+and that that's it I think the
+algorithms are there but it's just lots
+of really hard hardware and Optics
+problems it's a it's a tough chicken and
+egg problem because there's not enough
+Hardware in people's hands for it to be
+worth it for app developers to build
+apps and so there's not enough apps for
+people to want to buy the hardware and I
+feel like the people who did buy like
+the the killer application so far seems
+to be using it as um uh a really large
+monitor um uh it and it does work very
+well for that yeah you've actually
+retained as a as a user Gary right yeah
+it's great for watching movies yeah
+maybe the one device that I think
+actually been playing and actually feels
+good is actually the meta Ray Barn it
+doesn't have any of the actual displays
+but I really like it for the audio and
+voice and one workflow I've been trying
+out is actually using the MAA Ray barn
+and connect it to uh any of the voice
+modes for either chpt or Claude and kind
+of have a conversation with it about a
+topic oh I haven't tried that that's an
+interesting idea yeah yeah that's a
+great idea that is like a fun thing that
+I've been doing and just chatting with
+myself maybe look a little bit like a
+crazy person while you're walking but uh
+it's been fun to kind of learn about
+different topics should we talk about AI
+coding 2024 was the year that AI coding
+really broke out yep and we had the
+majority of the of YC Founders now use
+cursor or other AI idees they just like
+exploded over the summer Devon proved
+that you could like fully automate like
+large programming tasks yeah all that
+was this year that was pretty wild
+replate agents continue to improve like
+I'm hear more anecdotal stories of
+people building replate apps on like
+their way home from work being really
+impressed like repet took this
+technology and popularized it among like
+non-technical people for the first time
+that's really crazy and even more uh
+lower technical version is uh
+anthropics artifact where you can
+actually prototype very simple apps and
+chat with claw to build really FR simple
+front pages and then you can prototype
+stuff as a PM and show it to your
+engineering team and it's like a
+full-fledged working version yeah it's
+wild because it just means that you can
+one person can do so much more and do
+you think it's going to change the
+nature of how startups are actually
+hiring are you seeing this yet like some
+of the founders I've met who recently
+raised their seed rounds coming out of
+YC um they're not really approaching it
+how maybe the classic advice would uh
+teach them in the P you know in the past
+you might say let me try to find you
+know more let me try to hire more people
+like I you know there are certain tasks
+that normally I have to find you know
+the person who did it at my competitor
+who did all of customer success and I
+need to find that person who's under the
+person who runs that function and I've
+got to hire that person and promote them
+and uh they're going to come with all
+this knowledge and people networks some
+people are saying sort of the opposite
+which is I'm going to get my software
+Engineers to write more processes that
+use llms upfront and you know I probably
+will end up needing to hire that person
+but maybe after the series B or C and
+not right now yeah I think I've seen
+that as well with companies after the
+batch where they're looking for
+engineers that have more upside and
+they're really fully native with a setup
+with a AI coding stack and part of the
+one of the clever interview checks I've
+seen is people do pair programming and
+watch them use the tools and you can
+really tell if someone really has Tinker
+with them it's actually an engineer cut
+that that is not only good at coding but
+also prompting and telling with when the
+AI output is not correct I think the
+part of reading and evaluating the
+output of all these AI coding agents is
+actually a lot more critical yeah
+there's been an interesting controversy
+this past year about AI coding agents
+and programming interviews because AI
+coding agents basically broke the
+standard programming interviews that
+companies have been doing for years
+actually har I'm curious what you think
+about this since you ran a programming
+interview company
+I mean I guess the the interesting
+debate is whether you
+should penalize or prevent people who
+are interviewing at your company from
+using cursor or one of these tools um to
+Ace your programming interview or
+whether you should just lean into it and
+adapt and uh test to see how productive
+they are um I generally think the way
+these things tend to or is more in that
+direction that I think it will just
+become you'll just be measured on your
+absolute output and the bar will go up I
+think like stripe for example were early
+on this about a decade or so ago where
+they recognized that so much of what
+they needed their programmers to do
+would like build we web application and
+web software and not do hard CS problems
+and so the industry shifted away from
+the Google style interview of lots of
+computer science problems and
+whiteboarding to just give someone a
+laptop and make them build like a to-do
+app in like 4 hours so I think we'll
+just see the same thing happen where
+people just the industry will just
+adjust and you'll just be interviewed
+using these tools and just be expected
+to do a lot more in like a 2hour
+interview than you are today to your
+point Gary around just the the startups
+like maybe how many people they need to
+hire or just like how how they they
+scale it seems too early to see like
+dramatic effects on that yet but one
+thing that I'm interested in is uh so
+watched an interview with Jeff Bezos
+recently and he said that well one he's
+back at Amazon working on AI and two
+that apparently Amazon itself has like a
+100 or maybe it was a thousand it was a
+surprisingly large number of internal
+llm powered applications presumably to
+just run Amazon the last time Amazon
+took something it ran for internal
+infrastructure and released it to the
+world was AWS which completely changed
+how startups are built so I'm curious to
+see if they have interesting
+applications to run Amazon internally
+that they'll just release out and
+suddenly like there'll be new Stacks to
+just build and scale your companies on
+and we'll see the whole something that
+we've talked about in recent episodes of
+the 10 person the one person unicorn one
+of the applications they did talk about
+is they did this giant migration for a
+old version of programming language
+whenever you need to upgrade different
+versions of database Etc it's like a lot
+of work and they use llms for it it was
+like changing hundreds of thousands of
+lines of code and it would have taken
+engineering project of 6 months or more
+it was done in weeks I mean Amazon's
+just such a perfect use case for like L
+empowered agents doing back office
+processes they must have just like just
+absolute goal buying of opportunities
+and they just launched their uh big
+foundation model actually that is uh
+starting to be top in some of the
+benchmarks as well so I think they're
+trying to be another Contender through
+this race that's interesting because uh
+like from the bottom up like certainly
+from some of the people who still work
+at Amazon maybe right out of college
+many of them do not have access to llms
+or are actually barred from using it
+from in their day-to-day so you know
+maybe that's one of the downsides of
+organizations when they get big enough
+um you know the future is already here
+but it is not evenly distributed even
+within the same organization think but
+that boat sort of well for uh both open
+source and uh sort of self-hosting llms
+like I it's on my to-do list to build my
+own stack of Apple Minis and run llama
+on my own little cluster on my desk I
+bought all the hardware to build my own
+machine but then we had a baby and it
+hasn't
+happened at some point I've been pretty
+excited in that uh you know YC has been
+operating back in person at San FR in
+San Francisco for some time but we got a
+real live demo day yeah all the way back
+so no more zoom demo days no more zoom
+alumni demo day you know we did alumni
+demo day right here in this uh office
+right you know right downstairs that was
+awesome and then we took over the
+Masonic Center and 1,200 investors uh
+all in one room it was actually really
+great for the founders I thought because
+it was about uh a third as many Founders
+than the summer batch and it was more
+than 2x maybe 3x the number of investors
+that uh then who had came to our
+investor reception party so was like a
+ratio of 10 investors for one company
+roughly so uh I think all of them had a
+really good time I'd almost forgotten
+how great the energy of an in-person
+demo day is like it's just not something
+that you can replicate over Zoom the YC
+demo days also always acted as the deao
+investor reunion in Silicon Valley
+because it's the one event that all the
+investors would reliably show up at and
+so they were really excited that we had
+brought it back because when when when
+we weren't doing it there was no
+equivalent event sort of the homecoming
+for Silicon Valley yeah so now it's uh
+you know four times a year and it's the
+one time that uh all the top early stage
+investors in the world are going to come
+back to San Francisco for hopefully that
+week's festivities culminating in our
+demo day so it's a real celebration it
+feels like iners in general is back
+that's certainly another theme of 2024
+certainly the late stage startups that
+we've been meeting with and speaking to
+this year one of the highest priority
+items has been figuring out how to get
+everyone back into person back into the
+office think like the era of it's going
+to be remote forever is definitely gone
+I certainly good ridd yeah exactly right
+and then F like yeah in person is back
+and then San Francisco is back like a
+lot of thanks to you
+Gary the elections recently seem to have
+gone well like there's a lot of optimism
+I feel around San Francisco and and yeah
+we have a new mayor uh we're hoping that
+he does the right things and um you know
+we have a very thin moderate majority On
+The Board of Supervisors uh but we did
+get rid of some of the worst people who
+created a doom Loop in San Francisco so
+I'm optimistic you know we didn't get
+everything we wanted but uh it's
+tracking in the right direction and I
+think as in startups as in politics you
+always you know way overestimate what
+you get you will get done in one year
+but you always way underestimate what's
+going to happen in 10 years I think it's
+going to take 10 years it's going to
+take 20 years but um just as startups
+went from 15 companies a year to that
+could possibly make it to $100 million a
+year to 1,500 in any given year knock on
+wood um that you know I think San
+Francisco needs to be the beacon for all
+the smartest people in the world and
+that that's actually probably the thing
+that I'm hope most hopeful for is that
+we can actually just keep building so
+from all of us to all of you watching
+happy holidays and we'll see you in the
+new year
+[Music]

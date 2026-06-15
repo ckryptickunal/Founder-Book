@@ -1,0 +1,1062 @@
+Title: How Replit Went From $10M to $100M ARR In Just 9 Months
+Video ID: kOyIjt6FUrw
+URL: https://www.youtube.com/watch?v=kOyIjt6FUrw
+Channel: Y Combinator
+Published: 2025-07-17T14:00:24Z
+Duration: PT35M51S
+Views: 38112
+Likes: 703
+Tags: YC, Y Combinator
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 1040
+
+Description:
+Amjad Masad started Replit to make programming accessible to anyone, anywhere. What began as a tool for learning to code has grown into a platform pushing the limits of AI-assisted software creation and recently surpassed $100M in ARR.
+
+On The Breakdown with Tom and Dave, Amjad shares the journey from his early days in Jordan, working on open-source projects, to leading Replit through major pivots from "teach a billion people to code" to "let anyone build software." He discusses the evolving nat
+
+============================================================
+TRANSCRIPT
+============================================================
+
+I think the like dystopian view of AI or
+AI as like taking all our jobs and all
+of that is like not correct. And I think
+the future of work is more human, is
+more interactive, is more multimodal.
+Once the making of things gets easier,
+the bottleneck goes back to to to like
+how many ideas you can have. I wouldn't
+put learning to code as the top thing. I
+would put learn to make things. Learn to
+make things with code. Learn to make
+things with video. learn to make like
+anything with AI.
+[Music]
+>> Welcome back to the breakdown. I'm Dave.
+This is Tom. And today we're joined by
+Amjad Msad. Amjad is founder and CEO of
+Replet, which was a YC 2018 company. Uh
+welcome to the show.
+>> Thank you.
+>> So today, uh we want to talk about kind
+of your beginnings in helping people
+learn to code. what you're doing now in
+replacing a lot of that work and then
+where we see the future going in terms
+of how people make things. So, Replet
+started um I guess in 2016, you were in
+YC in 2018. You started out as a tool to
+make it really easy for people learning
+to program to set up development
+environments purely on the web. Um but
+now you're really taking off in AI
+assisted coding. Tell us tell us the
+latest. Yeah. So, um the mission has
+always been to make programming more
+accessible. Uh then we sort of uh you
+know after YC we sort of updated it to
+be a little more ambitious. We started
+talking about a billion software
+developers and it just sounded absurd at
+the time and
+>> this is all prel right.
+>> Yeah. Prelm. There was a moment of time
+I don't know if you remember that but
+like 20 in the like 2015 AI hype. There
+was like a bit of a NLP natural language
+hype as well. There's a bunch of AI
+companies that ended up being just like
+humans behind the scene. They all went
+broke, but um there was like a a glimpse
+of potentially doing NLP on code. So, we
+had an idea that, you know, it's it's
+probably coming. I I even had it in my
+in my seed deck that like at some point
+like we'll collect enough data to like
+train models. It wasn't until like GPG2
+in 2020 that I felt like it was was
+going to be possible. So we you know we
+had we had built all these um primitives
+like the development environment the
+sort of hosting environment all the
+other stuff around it. Uh and I felt
+like if if we just like added um like AI
+agents like it will be able to
+orchestrate all the stuff and it'll be
+it'll be really great. agents were like
+every time we tried them. Uh I think the
+first time we tried it like 2021 didn't
+work, 22 it didn't work and then 2024
+like early early in the in the year we
+just felt like it's getting close.
+>> Even GPT40 could like be coherent for
+like um 2 minutes somehow just ended up
+doing a big bat. The company was not
+doing super well.
+>> Yeah. was I was about to ask was there
+like a bet the company moment where it's
+like we were teaching people to code now
+we're no longer doing that now we're
+going to enable everyone to build apps
+>> yeah yeah yeah we had grown the company
+quite a bit um and we were burning way
+too much money uh and we decided to do a
+layoff
+>> and so we we um cut like perhaps 50
+people and then like another like 15 20
+people left and so we were like less
+than half of the company and so I just
+put everything on on replet agents I
+just felt like this is the thing it has
+to work. It felt like it was close.
+Yeah. I don't know. I was just like burn
+the boat boats kind of moments. It's
+just like we got to do this. I mean,
+it's I felt like this was the this was
+the the thing that would make the
+company work. And honestly, like if claw
+3.5 hadn't come out mid US building
+agent, we would have probably failed.
+>> Yeah.
+>> Because um like I said, like GPT40 would
+like stay coherent for 2 3 minutes. Quad
+3.5 was the first one that like could
+work for like you know five to 10
+minutes and actually actually work and
+the code generations
+>> and that's sort of the approach that I
+think is most successful for startups
+kind of building on the very edge of
+what is possible you know you start out
+on a mission it's the techn is not quite
+there yet you start building and you
+sort of you you skate where the puck is
+going you know it sort of catches up
+with you
+>> yeah and you you want to keep keep doing
+that
+>> totally
+>> yeah I remember you came to speak at YC
+like 6 months ago and right after you
+had launched this and at the time you
+said we're very far from fully automated
+software development.
+>> Do you still feel that way?
+>> No, not at all. I mean, I I feel like
+I've, you know, every time I make a sort
+of some kind of prediction, it feels
+like bold and like, you know, but I've
+been I've been consistently wrong and
+like uh the way things are moving uh is
+a lot faster. Just the level of
+autonomy. Uh like I said, like maybe 3.5
+was like 5 to 10 minutes. Like 3.7
+perhaps can get up to like four five
+minutes to an hour. The uh 4.0 No, in
+the in the system card and opus, they
+said they made it work for seven hours.
+>> Wow.
+>> 7 hours.
+>> That's incredible.
+>> That's always been the limiting factor
+for making agents is like, can they stay
+coherent? Can is the context length
+actually useful to reason over. If an
+LLM can work for for seven hours, that's
+basically like a human worker.
+>> Yeah. And presumably they're working at
+much faster speed than a human would do.
+So they're kind of completing perhaps a
+week's work in those seven hours. The
+only thing that I think is is missing
+and a big limiting factor for actually
+automating a lot of work is computer
+use.
+>> Computer use kind of sucks.
+>> You know, I'm sure you've you've tried
+it. And this is the difference between
+Replet agent really uh giving it one
+prompt going all all the way in an app
+versus having to kind of babysit it a
+little bit and like test with it.
+>> And we had a company in the last batch
+called browser use that's um that's
+working browser automation.
+>> Browser Use is great. And another one
+called pig which is doing the same for
+kind of windows desktops.
+>> And uh I think advice I would give
+founders today is um taking either
+browser use or windows automation with
+pig and trying to apply that into
+enterprise into vertical
+>> into a vertical industry.
+>> The moment this technology worked those
+two companies are just going to
+>> totally and I think I think we're like
+weeks or perhaps single digit months
+away from it working really really well
+and so now is the time to get started
+using those technologies.
+>> Absolutely 100%. And this is this is
+what we're focused on. So you know
+replet agent v1 to v2 was a huge jump in
+autonomy. Uh v3 is the most autonomous
+thing. So we're already working on it
+and um the interesting thing for us is
+the underlying technology and how it
+would enable autonomy. There are like a
+few important things. One is uh uh you
+know being transactional. The ability to
+roll back is is very important. So you
+you would want you'd want it to be safe
+for agents in the same way that gits
+made it safe for human programmers to
+kind of experiment and create branches
+whatever you want the same thing for for
+agents like if an agent kind of messes
+up a DB migration it should be able to
+roll back and also it should be able to
+like sample
+>> uh across different different paths. Uh
+I think this is very very important for
+autonomy. If you look at uh like for
+example when when uh Anthropic publishes
+their Swedbench score they publish one
+with that sampling and one with sampling
+and it goes from 70% to 80%.
+>> And so this is the idea that you sort of
+you spawn multiple agents each one will
+take a a shot at it and then you figure
+out which one works and and choose that
+that branch effectively. We built a
+infrastructure that is um uh fully
+transactional and moves in lock step
+meaning the file system is a snap
+snapshot fail based file system the DB
+is a snapshot based uh u DB and so a as
+you're we're making commits uh to the
+entire system including the virtual
+machine as you're going uh and so what
+we can do is also we can we can fork it
+and branch it out. So if if we had
+computer use that's working well you can
+you can just like right now what they do
+with the sampling is they do they have
+some kind of judge that does ranking
+>> which you know it's not a true verifier
+a true verifier is a is a is a test
+right and a computer use test so you you
+can sample out and really pick the best
+branch that's actually working
+>> that's incredible
+>> and and repeat that on and on and
+reliability gets really really high
+>> so fast forward six or 12 months you're
+not spawning one agent you're spawning
+is Is it five or 10 or a million? Like
+how
+>> I think this is where it's going to get
+interesting, which is you'd want to give
+the user the ability to set compute
+budgets. I I think we're starting to see
+that with um with the O style models of
+like here's here's how much budget. But
+but look, I mean, if if you give us
+$1,000, we'll spend them if you know.
+So, uh
+>> that's really cool. I've not thought of
+that before. Um but the idea of like
+spawning multiple branches then just
+picking the best one and being able to
+do that in parallel. I just the human
+brain doesn't naturally work like that.
+We think sequentially. We can't.
+>> It reminds me of this legend. I don't
+know if this is actually true, but at
+Apple when Steve was running it, he
+would intentionally have teams doing
+basically the same things and then see
+which one did the best job. It's like
+>> I've heard OpenAI does that now.
+Interesting. Uh I I've heard that like
+the Codeex project like had multiple
+different different teams. So in the
+literature, you'll see that uh small
+small models sampled uh will beat larger
+models. So Sonnet sampled is probably
+better than than Opus companies. uh
+haven't tried that where instead of
+hiring one senior engineer you hire like
+10 junior engineers and like give them
+the same task and then
+>> it's just very expensive with humans but
+with LM it's relatively cheap you can
+just do that do a hundred of them and
+just pick the best one every time
+>> so how are people using replet agent
+like and and who are the people using it
+>> you know it goes back to sort of our
+early vision that if you make
+programming easy uh then uh then more
+and more people would want to would want
+to do it actually this is one of the
+first thing uh that that PG PG and I
+sort of connected on um before we got
+into YC actually PG um found us on
+HackerNews and so we started this email
+relationship um and so he he told me
+there's like a super linear relationship
+with how easy programming is versus how
+many people would want to do it. The
+optimizing function of rapid has always
+been like just keep lowering the the
+barrier to entry and and that's how you
+grow users and you grow uh customers.
+right now. Um, basically people from
+kind of every walk of life, we've seen
+users, product managers tend to be tend
+to be a very a great um use case and
+users for us and we've had customers uh
+product managers uh who uh are able to
+make significant impact on the business
+without talking to engineers at all like
+you know running AB tests or
+optimizations or or things like that. I
+mean it's empowering. I mean it gets us
+to think about the really the seams
+between these roles like you know
+product manager, designer, engineer. We
+actually just created a new new product
+group and and and typically you know
+product uh you know head of product is
+have has a bunch of like product
+managers reporting to them but we're
+actually having uh this this group have
+has designers, engineers and and PMs and
+the the idea is they're all using AI all
+the time to to prototype in some cases
+go all the way to production. there
+isn't this sort of waterfall model where
+you know there's a lot of inefficiency
+you know like communication problems
+between these different teams they can
+move incredibly fast and I think that
+that starts to change how tech companies
+work my experience of this was when
+whenever I was working in a startup the
+list of ideas and the backlog would
+always would be infinitely long
+basically and the bottleneck was always
+engineering time and now I'm doing my
+own personal projects I write my to-do
+list or my idea list and then I get to
+work and my the ideas just get done and
+suddenly the bottleneck is like my
+ability to have ideas
+>> and it's just such a weird experience
+looking at a to-do list. It's just empty
+being like what do I do next? I've heard
+from a team that has like a really large
+uh replet deployment in their company
+that their founders using Replet and
+that's stressing the engineers out
+because oh I did this in a weekend like
+can't you do it in a
+>> what do you guys show for yourself and
+so are these previously technical people
+or non techchnical people they're
+building the first version are they
+deploying that production or are they
+giving to engineers and say hey build
+this like what what do you see typically
+>> we advise to like work with with
+engineering but that doesn't always
+happen I think It's um understandable
+that a lot of PMs and designers want to
+go straight to users. What we're seeing
+is they go to like beta users and test
+users and I think this works really well
+but in some cases they just like put it
+in production. Uh and so right now we're
+having discussions with all these
+companies especially the engineering
+leaders are unhappy about this like
+who's on call for these services you
+>> who's responsible for the bug
+>> who's responsible for it. There's a lot
+of questions that are coming up. The
+obvious answer to all these questions is
+like agents are responsible.
+>> So what's the limiting factor today? I
+buy code a thing and I'm like yoloing it
+into production. Like what are what do
+the engineers typically object like?
+What what's going wrong?
+>> Security is is is a big one. Like um
+LLMs are fallible like like humans are.
+They tend to write some uh there's some
+components that they do terribly at like
+for example off
+>> uh like they all kind of suck at it. all
+use like you know old methods of of
+assaulting and hashing and so that's
+been that's been a big sticking point
+and we've seen a lot of examples out
+there right now of some catastrophes
+luckily it hasn't been like there hasn't
+been a major catastrophe I think it's
+coming but uh there's been uh like solo
+founders who would leak um you know API
+keys or would make it really easy to get
+around the login security protections
+and there are a lot of tools out there
+that are like really not trying to take
+responsibility for that and saying, "Oh,
+it's it's the user's problem, the user's
+fault." For us, we think that as a
+platform that is marketing uh for the
+non-developer, you actually have a
+responsibility. We're trying to take
+away
+uh some of the things that we think LMS
+should not do today. Uh so O for
+example, we have a built-in O. So if you
+go to wrap and just say add o, it will
+pull in an o component that we built
+from scratch. It has capture on it. It
+has all the security you know bells and
+whistles. So you don't have to worry
+about all of that.
+>> We integrated with your database. You
+have a user management portal on on your
+site as much as possible. Building in
+these components that are tricky. I
+think payments is the other one. I don't
+think you'd want the LLMs to kind of do
+do the payments.
+>> And they're not that different, right?
+like the sort of checkout. You know, you
+might have a one time checkout, you
+might have subscription, pay as you go,
+but there are not unlimited versions of
+payments. There's like two or three or
+four.
+>> And this is the analogy is today humans
+don't write their own version of
+payments or their own version of O. They
+use providers that have built these
+components already. So, seems like we're
+seeing the same thing play out and
+that's the best way to do it.
+>> Yeah, 100%. And then the other thing we
+added uh we partnered with is a a great
+security company called Samrip. And so
+right now uh when you go to deploy a
+replet app, we run a security scan. We
+run a code security scan and we give you
+like a report of warnings and errors and
+things like that and the agents can try
+to fix them for you.
+>> Okay. And so security is one of the big
+kind of bottlenecks to fully deploying
+to production. I can imagine there must
+be other things that coming down the
+line like sort of scalability, you know,
+looking for like N plus1 database
+queries, uh performance bottlenecks.
+What do you have in your mind like a
+clear set of of blockers that need to be
+overcome before this is truly like one
+click to deploy?
+>> Yeah, I I mean the big the biggest one
+is just going to be humans like social
+like you know there's just going to be
+mistrust and I think it's just going to
+have has has to play out. So you know
+leaving that aside like enterprises has
+to adapt to all of that stuff having
+some way to also scan for scalability
+like figuring out you know uh like doing
+fuzzing or whatever it is or having some
+kind of adversarial agent that's you
+know trying to to to break your app I
+think um you know that's one big thing I
+think integrating with a company's
+ecosystem so one thing we're adding is
+the ability to bring in your design
+system
+>> that's cool
+>> so in addition to kind of us providing
+these components if you go to any
+company they have a lot of these
+components built out as raplet is
+getting deployed into these large
+companies how can we hook into their
+their internal systems
+>> this makes me think about the kind of
+spectrum of these different coding
+tools. Um, on one end of the spectrum,
+you have kind of what I would call the
+the power tools, the cursors, the wind
+surf that let developers use this as a
+way to amplify their efforts. And on the
+full other end of the spectrum, you have
+more of the like consumerf facing, hey,
+if you want to make an app, like you can
+now make an app. And it sounds like you
+guys are kind of in the middle. Um,
+you're helping companies get stuff done,
+but you're doing it for people who don't
+look like the tra traditional developer.
+How do you see this world playing out?
+Are there going to be like n different
+tools or will we converge to one place
+on that spectrum?
+>> AGI is convergence obviously but but
+leaving that aside, it's really hard to
+plan for that world. I think that the
+battle for how to incrementally make
+product uh engineers more productive is
+just it's an obvious one. The market
+there is obvious. There's a lot of
+companies going after it. Both the
+application companies like cursor, the
+underlying model companies are trying to
+go there. I mean um you know claude code
+is competing with cursor. Cursor uses a
+cloud. I think it's a bit of a blood
+bath there but it's the market is
+obvious and the market is really large.
+I would guess that there's going to be
+more of a consolidation there.
+>> Maybe it's not you know one but it's
+probably two or three uh at best. I
+think the sort of the the market we're
+in is a lot larger. Uh so the
+addressable humans is a lot more. You
+know, we're talking about a billion, but
+it could be more. Like really any
+knowledge worker should be able to like
+solve problems with software. My
+conception of replet right now is the
+what we want it to be is a universal
+problem solver. It'll solve problems in
+your personal lives or you know solve
+problems in uh in your work and and all
+of that. And so I think that that market
+is uh will probably be like a little
+more diverse and I think companies will
+kind of figure out where um where they
+slot in trying to solve uh autonomous
+programming with the focus on the
+non-engineer.
+>> Uh we want you to not worry about
+security, not worry about systems, not
+worry about any of that. We want you to
+really come in with your ideas to to
+Replet and be uh an agents manager. And
+we're trying to do it in a way that is
+like as human as as possible and kind of
+fits into into into the workflow. One
+big difference between engineers and
+sort of non-engineers, be it executives
+or product managers, you're not on your
+desk like 8 hours a day. Mobile is a big
+part of that. We have like a really
+great mobile app. And we're thinking
+about this way of like ambient building.
+Maybe you start an app on your uh in
+your desktop. You go away with your
+phone. You're in boring meeting. You get
+a notification from the agent saying you
+I'm done with this. Do you want
+something else? You got texted. And so
+we're trying to kind of build that
+thing.
+>> Yeah. A question I had um related to
+that point is is about the user
+interface. So for something like cursor
+or wind surf, it's pretty obvious. The
+primary UI element is like the code. You
+you see code, you have a little chat
+window, but primarily it's about diffs.
+It's about kind of changes to code. And
+for a tool like Replet, the primary
+interface is like the graphical user
+interface. You know, it's the it's the
+buttons and the the wizzywig like you
+see what you're building.
+>> Exactly. And that's great for building
+user interfaces, but when you're trying
+to build more complicated sort of
+logical flows, I found it a little bit
+difficult cuz I couldn't there's no way
+I couldn't see the code. I can't
+visualize what's going on behind the
+scenes. And it's sort of it's almost a
+black box. Fast forwarding here, if
+you're trying to build more complex
+internal workflows, how do they how does
+a product manager or an operations
+manager at a big company visualize that
+workflow and the kind of logical
+branching that happens?
+>> Yeah. So, if if you look back in the
+history of computing, there was always
+this vision of visual programming, it
+never worked uh very well because
+ultimately it's about Turing
+completeness like these systems are not
+universal computing devices. And now we
+go to codegen. Obviously codegen is is
+turing complete. Um but you're
+interfacing with it primarily via
+natural language. Natural language is
+fuzzy. It's really hard to know whether
+it's doing the right thing. I think the
+synthesis of these two things is
+probably coming where you are
+interfacing with natural language but
+you can instead of like just staring at
+code uh there's maybe an interface or
+like a different view on top of code.
+You can imagine being able to do you
+know small talk.
+>> Yeah. So small talk is this uh
+>> it's the first object-oriented um uh
+programming um system and you know Alan
+K would say it's like it is actually OP
+where everything comes after it is not
+um but the interesting thing about it in
+small talk you can actually the way you
+interact with code is not via files but
+via objects via like logical objects and
+so there's some kind of prior arc there
+and I think the world we're headed in
+where there's some kind of abstraction
+over code that allows people to like
+understand it.
+>> Yeah, I think that's really interesting.
+I there's some there's like an open
+space there whether it's like pseudo
+code is like looks like English but it's
+a little bit more structured or it's a
+visual drag and drop. I don't know. It's
+>> Yeah, I think back to building products
+with a team of engineers, designers, and
+other folks. The interactions that I
+would have as the like product lead with
+those teams was verbal. It would be
+written like abstracted ideas. We would
+draw stuff on the whiteboard together.
+We'd make system diagrams. We'd look at
+the results of the app and we would test
+it and point out like oh this thing is
+broken that's too slow and it feels to
+me like that sort of interface which is
+very multimodal and very flexible is
+probably the best end result like I
+think we will get to something like that
+where the author of products will be
+doing that but the teams they're talking
+to are not other humans they're agents
+doing these things. Has has there been
+an attempt in in sort of PM land to have
+a little more formalism around
+communication or
+>> Yes. And I would not say it's been good.
+The main thing is just like the PRD,
+right? The product spec, right? And it's
+just become, in my opinion, uh
+oftentimes a performative
+>> work artifact that you create just so
+that you can have a thing to get your
+promotion, right? If you're at a big
+company. Uh but they're not actually
+that useful. To me, the most useful
+interactions are just these like
+whiteboard conversations, right? What do
+we wanted to do here? Oh, we got to
+think about that. Oh, we didn't consider
+this. Okay, let's re rethink this whole
+thing. Like those sorts of
+conversations.
+>> AI can play a role in that as well. So,
+I um you know this startup granola uh
+that allows you to kind of record
+meetings and they released this like
+team version that like all the meetings
+uh gets transcribed and and go there and
+they have a mobile app right now where
+like you can put on the table and like
+it's trying. So I I was thinking maybe
+we should go gr granola maximalism where
+look you shouldn't fight the trend in
+which companies are becoming
+increasingly oral as opposed to like
+written um and because like you know
+people are talking on Slack people are
+in meetings people like are
+communicating via prompts with with
+agents uh but you you would want a set
+of AI tools that is actually like
+creating that that that record and in
+background that's like searchable and
+organizable and and all of that.
+>> Yeah. I wonder when we'll have our first
+AI in like oral meetings. You know, you
+you're jamming with your designer and
+you the AI like chips in and says,
+"Well, how about this idea?"
+>> Yeah. And and this is where I think the
+like dystopian view of AI or AI as like
+taking all our jobs and all that is like
+not correct. And I think the future of
+work is more human, is more interactive,
+is more multimodal, is more fun in my
+opinion.
+>> YC's next batch is now taking
+applications. Got a startup in you?
+Apply at y combinator.com/apply.
+It's never too early and filling out the
+app will level up your idea. Okay, back
+to the video. All right, so so last time
+we chatted, uh, you had launched Replet
+agent and things were growing really
+crazy. I imagine that has continued.
+Any, anything you can share there? Maybe
+soon we'll we'll share some numbers but
+uh since replet agent launch we're
+growing 45%
+compound monthly uh average.
+>> These are like metrics that we tell YC
+companies during the batch when they
+have a base of like no users to try to
+achieve and you're doing this at larger
+scale.
+>> Yes. But you know it put a lot of strain
+strain on the company and our systems
+were still relatively relatively small.
+I I feel like it can get to to your head
+and you can start optimizing for for the
+wrong thing. It's very easy in AI to
+increase AR while users are not happy
+>> because they're spending a lot more and
+like not getting the results and in some
+cases maybe shouldn't grow that that
+fast because like you'd want users to
+get a better experience for less less
+money and so it's one thing that we try
+not to obsess we actually don't have AR
+goals at at Replet we have like more
+product goals retention goals just like
+other methods
+>> yeah because the the sort of bad pattern
+with some AI companies you grow topline
+revenue very very quickly the churn is
+like approaching 100% and eventually
+that just catches up
+>> and the gross margins are horrible too
+and so it's like
+>> you know the more growth you have the
+worse the company's doing financially
+and so
+>> so how do investors see this space you
+you must have talked with a bunch can
+they tell the difference
+>> it's all kind of a blur for them because
+investors when they I mean I'm just
+going to generalize here but when they
+start looking at the space they'll use
+everything for three minutes and
+everything for three minutes looks the
+same so I I think I think it will it
+will start to clarify and these products
+will start to uh I suppose to converge
+diverge more with the different focuses
+in the areas we're talking about. I
+think over the next year it'll be like a
+little more clearer but I think a lot of
+them are are just like you know super
+when we talk to them they're super
+confused. They don't understand these
+systems. They don't understand where
+they're going.
+>> I think that's a great segue into um the
+the sort of technology underlying some
+of these tools. I'd love to dig in a
+little bit deeper. We've we've seen some
+announcements from cursor and wind surf
+about how they're kind of layering
+whether it's um Claude or Gemini or um
+the OpenAI models with then their own
+layers on top the fast apply APIs stuff
+like that fast apply models I guess can
+you give us an overview of how it works
+at Replet?
+>> Yeah, a lot of it is you're patching
+problems with the underlying frontier
+models. Yeah.
+>> So the reason fast supply was important
+because none of the models uh were doing
+very well at diffs. Can you explain what
+what supply is?
+>> When you're trying to like edit a file
+as an LLM, the best thing to do is to
+like uh create a create a diff. Uh but
+these models are actually not very good
+at creating diffs. They're actually not
+very good at countering the lines in the
+source code. So they get confused about
+a lot of these things. So for a while, a
+lot of companies were just like
+rewriting the entire entire file.
+>> And so diff for for nontechnical users
+is sort of like remove these three lines
+and inject these other three lines
+instead. like find and replace almost.
+>> That's right. That's right. And so you
+needed some way to um make the model
+generate some something of a diff,
+>> but it's actually not good enough to
+merge it. And so you need another model
+to actually do the merge. So
+>> instead of rewriting like it's a
+thousand line file, just like output the
+entire thousand lines,
+>> it's very slow. It's very expensive. So
+you prompt the model to be as lazy as
+possible.
+>> But in that case, it's really hard to
+apply. Okay, so you need another model
+that's like doing the application. Okay,
+>> you can train a model or you can use
+Gemini Flash or some of these smaller
+smaller models. And so in some cases,
+you need to to train a model or
+fine-tune a model to do a better job at
+it. In other cases, you just also patch
+a bunch of other models to to do it.
+It's engineering. It's engineering as
+opposed to like research, I would say.
+>> And I noticed um you guys don't expose
+the underlying model to the user. With
+other tools like cursor and wind surf,
+there's a drop down. It's like I want to
+you know let's see what Gemini thinks of
+this problem. You don't do that. Why is
+that?
+>> A a big part of our research efforts is
+in eval
+>> and I think this is like an underrated
+part of like you know co AI coding. So
+we spend a ton of time evaling new
+models writing evals generating evals
+just data crunching trying to figure out
+what the users are are getting or are
+feeling. We built a lot of systems try
+to understand um how these systems are
+are performing the moment a new frontier
+model uh lands we are evaluating almost
+immediately. Jim and I for example like
+uh you know couple months ago were
+making the rounds really great model
+really awesome at like oneshotting in
+some cases better than claude agentic
+work wasn't at like a tool calling at
+you know some of the things like that
+but users just see the hype and they're
+like oh like yeah give me Gemini that's
+>> how much notice do you have do they like
+drop it on you and you like scrambling
+or do you have like days or weeks before
+that to to try to you know test it out
+>> well we we have good partnerships with
+these companies we We have a great
+partnership with Google. We have a great
+partnership with uh with Anthropic, even
+with OpenAI. We have a close
+relationship. So, a lot of them give us
+give us a heads up, give us some early
+checkpoints and we we try we we kind of
+play with all of them. And in the case
+of anthropic, we're always like the
+first day kind of launching because we
+end up building. A lot of times we're
+sort of anticipating where they're
+going.
+>> Yeah.
+>> Because you kind of like you can tell
+like 3.5 3.7 there there's some
+direction you can tell like where 4.0 is
+going to land. So you start architecting
+the systems but you know ultimately a
+lot of our engineering efforts still
+infrastructure like the the distributed
+network file system that snapshot based
+network file system like it took us 2
+years to build like there's nothing off
+the shelf to do that a lot of the
+security stuff is really really
+difficult like replet is one of the few
+places in the world where you can get
+like a virtual machine in the cloud um
+you know by just like creating an
+account and that's like a it's really
+hard to kind of run this and protect
+against this. You have crypto miners,
+you have all sorts of stuff like that.
+And Replet also uses um uh Nyx OS under
+the hood. Nixos is a like fully
+declarative also transactional uh
+operating system generator as it were.
+Uh we have like this multi- terabyte uh
+hard drive in all the different regions
+that we have compute. um that that that
+cached all the packages in the in the
+world and that gets attached to every
+container and and again all of that I
+mean I keep coming back to this idea of
+transactionality like you would want the
+system to be fully functional. You would
+want it to be um you would want it to be
+safe in order to like experiment with
+something go back do the sampling with
+with agents. So really a lot of the a
+lot of the work is just like the
+engineering of this infrastructure and
+it's like not as a parent not as sexy as
+sort of like we're trained this model
+here's the um but but I think this is
+where you can build like a uh a bit of a
+lead.
+>> Yeah. I when VCs talk about moes uh the
+thing that I translate it to in my head
+is what is the compounding advantage
+that you might be able to achieve.
+Right. It's not really a defensive mode.
+It's more just I'm ahead and by being
+ahead in some vector it allows me to
+continue to move faster. That's right.
+>> And it sounds like this is a great
+example of that.
+>> True modes are often not obvious until
+like decades perhaps many decades into
+into the company. Like you wouldn't know
+what like Netflix's mode. Uh but
+obviously they have one like Disney
+tried to like compete with them and
+everyone was like you know down on on on
+Netflix but turned out they have a mode
+that is this uh content production
+system that they that they built.
+>> So Amad you you started with the mission
+of like making it easier for people to
+learn to code. You've accomplished a lot
+of that. Now you're pushing the envelope
+of what it even means to code. I've got
+young kids. I want them to be productive
+creators in the world. What should I
+tell them to do? Should they learn to
+code? What does that even mean?
+>> Look, I think if you want to go the like
+professional software developer route, I
+think getting a computer science degree
+and like learning fundamentals makes
+sense. But if you want to be a a
+creator, if you want to be a generalist
+in this world, I don't think it's
+necessary anymore to learn to code in
+the more like traditional ways of
+learning to code. I think you pick it up
+by osmosis almost like like go go go to
+replet and you know and start using it
+and at some point you're going going to
+run into some issue where you're going
+to have to look at code or you're going
+to have to look at logs just by being
+resourceful having to Google around and
+all that. You'll start picking it up.
+And by the way, this is how our
+generation kind of learned how to code,
+right? when you were talking I'm like
+that's what I did.
+>> Yeah. And somehow uh it just became very
+industrial and very formal over the
+years like the way we made web apps is
+like you just like start a notepad with
+a you know HTML file and now you have to
+like learn like webpack or whatever you
+know it's like so um I think the future
+of work is not really clear what is you
+you know we can sort of like have some
+like you know idea of like where where
+the world is headed and so with with my
+children I want them to have like as
+broad uh based knowledge as possible. Uh
+I want them to be as generalist as
+possible. I want them to be as
+generative as possible like being able
+to like create a lot of ideas because
+once the making of things gets easier.
+The bottleneck goes back to to to like
+how many ideas you can have.
+>> Um and so I I I wouldn't put learning to
+code as the top thing. I would put learn
+to make things. Learn to make things
+with code. Learn to make things with
+video. learn to make like anything with
+AI.
+>> And so what do you think happens with
+SAS generally if we're very soon able to
+say create me a version of Google
+Calendar or clone Docyign? What happens
+to SAS? Do you think
+>> we have stories today of um a lot of
+people replacing hundreds of thousands
+of dollars worth of SAS um with Replet?
+The other day I heard a story from
+someone who um you know they got quoted
+$150,000 for a piece of software. He
+went and made it in replet sold it to
+his employer for $32,000
+cost him $400. Companies that have a
+platform developer community around it
+and and plug-in ecosystem and things
+like that. I think those are safe.
+>> You're not going to be able to vibe code
+Salesforce. I think the the vertical SAS
+is is in trouble and I think it's my
+guess it's already probably showing in
+some of the metrics.
+>> Okay, last question. What advice would
+you give to um founders starting out
+right now?
+>> You know the best advice is what we what
+you what you actually pointed out
+earlier is work on the edge of what's
+possible.
+uh because uh one evolution of of AI or
+models will make your business valuable
+and suddenly you're first on market. I
+find it rare to see founders that are
+actually like sitting down trying to
+actually predict the future and and and
+maybe that's something that was you know
+ill advised in the past but I think
+right now trying to actually figure out
+where things are headed is very very
+important uh skill to have. So like make
+some prediction uh figure out like how
+to create like a crappy product that
+would get better immediately as you
+switch switch the model. I mean computer
+use is a is is a great example.
+>> Oh it's been an absolute pleasure. Thank
+you so much for coming on.
+>> Pleasure. Thank you.
+>> See you next time. Thanks.
+[Music]

@@ -1,0 +1,187 @@
+---
+type: entity
+title: Sam Altman
+created: 2026-05-26
+updated: 2026-05-26
+sources: []
+tags: []
+---
+
+# Sam Altman
+
+## Overview
+
+CEO of OpenAI, mentioned for his claim that voice authentication for banks is already broken by deepfakes.
+
+## Source Mentions
+
+- [[sources/2RseTTRB2bs-2rsettrb2bs|2RseTTRB2bs]]: CEO of OpenAI, mentioned for his claim that voice authentication for banks is already broken by deepfakes.
+- [[sources/pg-default-alive-or-default-dead-default-alive-or-default-dead|Default Alive or Default Dead?]]: Former President of Y Combinator.
+- [[sources/pg-a-fundraising-survival-guide-a-fundraising-survival-guide|A Fundraising Survival Guide]]: Former president of Y Combinator and entrepreneur.
+- [[sources/pg-a-student-s-guide-to-startups-a-student-s-guide-to-startups|A Student's Guide to Startups]]: Co-founder of Loopt.
+- [[sources/pg-before-the-startup-before-the-startup|Before the Startup]]: Entrepreneur and investor, host of the Stanford startup class.
+- [[sources/pg-general-and-surprising-general-and-surprising|General and Surprising]]: Entrepreneur and investor.
+- [[sources/pg-five-founders-five-founders|Five Founders]]: Founder and entrepreneur.
+- [[sources/pg-how-to-lose-time-and-money-how-to-lose-time-and-money|How to Lose Time and Money]]: Entrepreneur and investor.
+- [[sources/pg-what-doesn-t-seem-like-work-what-doesn-t-seem-like-work|What Doesn't Seem Like Work?]]: Entrepreneur and investor.
+- [[sources/pg-why-it-s-safe-for-founders-to-be-nice-why-it-s-safe-for-founders-to-be-nice|Why It's Safe for Founders to Be Nice]]: Entrepreneur and investor.
+- [[sources/sa-1-million-voteplz-sweepstakes-1-million-voteplz-sweepstakes|$1 Million VotePlz Sweepstakes]]: Entrepreneur and investor who helped start VotePlz.
+- [[sources/sa-a-clarification-a-clarification|A Clarification]]: Author and entrepreneur.
+- [[sources/sa-a-founder-friendly-term-sheet-a-founder-friendly-term-sheet|A founder-friendly term sheet]]: Investor and former president of Y Combinator.
+- [[sources/pg-writing-and-speaking-writing-and-speaking|Writing and Speaking]]: Entrepreneur and investor.
+- [[sources/pg-why-to-not-not-start-a-startup-why-to-not-not-start-a-startup|Why to Not Not Start a Startup]]: Early Y Combinator-funded founder.
+- [[sources/sa-aliens-aliens|Aliens]]: Author of the essay and entrepreneur.
+- [[sources/sa-a-new-team-at-reddit-a-new-team-at-reddit|A new team at reddit]]: Author of the announcement and former interim CEO of Reddit
+- [[sources/sa-anonymity-anonymity|Anonymity]]: Author of the essay and prominent Silicon Valley figure.
+- [[sources/sa-asana-asana|Asana]]: Investor and former President of Y Combinator.
+- [[sources/sa-2017-yc-annual-letter-2017-yc-annual-letter|2017 YC Annual Letter]]: President of YC Group
+- [[sources/sa-airbnb-and-san-francisco-airbnb-and-san-francisco|Airbnb and San Francisco]]: Author of the essay and former president of Y Combinator.
+- [[sources/sa-advice-for-ambitious-19-year-olds-advice-for-ambitious-19-year-olds|Advice for ambitious 19 year olds]]: Author of the essay and prominent tech investor/entrepreneur.
+- [[sources/sa-american-equity-american-equity|American Equity]]: Entrepreneur and investor who authored the American Equity proposal.
+- [[sources/sa-before-growth-before-growth|Before Growth]]: Author of the essay and former president of Y Combinator.
+- [[sources/sa-applying-to-yc-applying-to-yc|Applying to YC]]: Former President of Y Combinator.
+- [[sources/sa-board-members-board-members|Board Members]]: Author of the essay and former president of Y Combinator.
+- [[sources/sa-ai-ai|AI]]: Author of the essay and technology investor/entrepreneur.
+- [[sources/sa-affordable-care-affordable-care|Affordable Care]]: President of Y Combinator and author of the essay.
+- [[sources/sa-black-swan-seed-rounds-black-swan-seed-rounds|Black Swan Seed Rounds]]: Author and former YC partner who shares his seed investing experience.
+- [[sources/sa-dall-e-2-dall-e-2|DALL•E 2]]: CEO of OpenAI.
+- [[sources/sa-funding-for-covid-19-projects-funding-for-covid-19-projects|Funding for COVID-19 Projects]]: Investor and former president of Y Combinator
+- [[sources/sa-bubble-talk-bubble-talk|Bubble talk]]: Author of the essay and former President of Y Combinator.
+- [[sources/sa-cruise-cruise|Cruise]]: Author of the essay and investor in Cruise.
+- [[sources/sa-bitcoin-price-pressure-bitcoin-price-pressure|Bitcoin Price Pressure]]: Author and investor, former president of Y Combinator.
+- [[sources/sa-china-china|China]]: Author of the essay and entrepreneur.
+- [[sources/sa-financial-misstatements-financial-misstatements|Financial Misstatements]]: Author of the essay and former president of Y Combinator.
+- [[sources/sa-farmlogs-farmlogs|FarmLogs]]: Investor and author of the essay.
+- [[sources/sa-electrons-and-atoms-electrons-and-atoms|Electrons and Atoms]]: Author and investor, former president of Y Combinator.
+- [[sources/sa-don-t-read-the-comments-don-t-read-the-comments|Don't Read The Comments]]: President of Y Combinator at the time of writing.
+- [[sources/sa-fundraising-mistakes-founders-make-fundraising-mistakes-founders-make|Fundraising Mistakes Founders Make]]: Entrepreneur, investor, and former president of Y Combinator.
+- [[sources/sa-founder-depression-founder-depression|Founder Depression]]: Author of the essay and former president of Y Combinator.
+- [[sources/sa-energy-energy|Energy]]: Author of the essay and investor in energy startups.
+- [[sources/sa-h5n1-h5n1|H5N1]]: Author of the essay and technology entrepreneur.
+- [[sources/sa-employee-equity-employee-equity|Employee Equity]]: Entrepreneur, investor, and former president of Y Combinator.
+- [[sources/sa-how-things-get-done-how-things-get-done|How things get done]]: Author of the essay and former President of Y Combinator.
+- [[sources/sa-greg-greg|Greg]]: Author of the essay and co-founder of OpenAI.
+- [[sources/sa-employee-retention-employee-retention|Employee Retention]]: Author of the essay and prominent startup investor/founder.
+- [[sources/sa-helion-needs-you-helion-needs-you|Helion Needs You]]: Investor and author of the essay.
+- [[sources/sa-e-pur-si-muove-e-pur-si-muove|E Pur Si Muove]]: Author of the essay and former President of Y Combinator.
+- [[sources/sa-helion-helion|Helion]]: Investor and author of the essay.
+- [[sources/sa-hard-startups-hard-startups|Hard Startups]]: Author of the essay and former President of Y Combinator.
+- [[sources/sa-more-interesting-dinner-conversations-more-interesting-dinner-conversations|More interesting dinner conversations]]: Author of the essay and entrepreneur.
+- [[sources/sa-hard-tech-is-back-hard-tech-is-back|Hard Tech is Back]]: President of Y Combinator at the time of the essay.
+- [[sources/sa-growth-and-government-growth-and-government|Growth and Government]]: Author of the essay and entrepreneur.
+- [[sources/sa-join-the-yc-software-team-join-the-yc-software-team|Join the YC Software Team]]: Former President of Y Combinator and current CEO of OpenAI.
+- [[sources/sa-how-to-invest-in-startups-how-to-invest-in-startups|How To Invest In Startups]]: Author of the essay and experienced startup investor.
+- [[sources/sa-keep-the-internet-open-keep-the-internet-open|Keep the Internet Open]]: Author of the essay and tech investor.
+- [[sources/sa-machine-intelligence-part-2-machine-intelligence-part-2|Machine intelligence, part 2]]: Author of the essay and tech entrepreneur.
+- [[sources/sa-how-to-be-successful-how-to-be-successful|How To Be Successful]]: Author and former president of Y Combinator.
+- [[sources/sa-net-neutrality-net-neutrality|Net neutrality]]: Author and investor
+- [[sources/sa-a-question-a-question|A Question]]: Author and investor, former president of Y Combinator.
+- [[sources/sa-machine-intelligence-part-1-machine-intelligence-part-1|Machine intelligence, part 1]]: Author of the essay and former student at the Stanford AI lab.
+- [[sources/sa-non-technical-founder-learn-to-hack-non-technical-founder-learn-to-hack|Non-technical founder? Learn to hack]]: Author of the essay and former president of Y Combinator.
+- [[sources/sa-premature-optimization-premature-optimization|Premature optimization]]: Entrepreneur, investor, and author of the essay.
+- [[sources/sa-how-to-hire-how-to-hire|How to hire]]: Author of the essay and former president of Y Combinator.
+- [[sources/sa-please-fund-more-science-please-fund-more-science|Please Fund More Science]]: Entrepreneur, investor, and author of the essay.
+- [[sources/sa-idea-generation-idea-generation|Idea Generation]]: Author of the essay and former President of Y Combinator.
+- [[sources/sa-party-rounds-party-rounds|Party rounds]]: Author of the essay and former president of Y Combinator.
+- [[sources/sa-project-covalence-project-covalence|Project Covalence]]: Entrepreneur and investor who initiated Project Covalence.
+- [[sources/sa-quora-quora|Quora]]: President of YC Continuity and former YC President.
+- [[sources/sa-software-to-avoid-the-software-people-software-to-avoid-the-software-people|Software to avoid the software people]]: Author of the essay and former president of Y Combinator.
+- [[sources/sa-reddit-reddit|reddit]]: Investor and former Y Combinator president.
+- [[sources/sa-projects-and-companies-projects-and-companies|Projects and Companies]]: Entrepreneur, investor, and author of the essay.
+- [[sources/sa-researchers-and-founders-researchers-and-founders|Researchers and Founders]]: Author of the essay and experienced observer of founders and researchers.
+- [[sources/sa-productivity-productivity|Productivity]]: Author of the essay and entrepreneur.
+- [[sources/sa-pg-and-jessica-pg-and-jessica|PG and Jessica]]: Author of the essay and former President of Y Combinator.
+- [[sources/sa-successful-people-successful-people|Successful people]]: Author of the essay and President of Y Combinator.
+- [[sources/sa-startup-advice-briefly-startup-advice-briefly|Startup advice, briefly]]: Entrepreneur, investor, and former president of Y Combinator.
+- [[sources/sa-tech-workers-values-tech-workers-values|Tech Workers' Values]]: Entrepreneur and investor, co-author of the essay.
+- [[sources/sa-policy-for-growth-and-innovation-policy-for-growth-and-innovation|Policy for Growth and Innovation]]: Author and investor, former president of Y Combinator.
+- [[sources/sa-stupid-apps-and-changing-the-world-stupid-apps-and-changing-the-world|Stupid Apps and Changing the World]]: Author of the essay and prominent tech investor/executive.
+- [[sources/sa-startup-advice-startup-advice|Startup Advice]]: Author of the essay and former President of Y Combinator.
+- [[sources/sa-the-2016-election-the-2016-election|The 2016 Election]]: Author of the essay and President of Y Combinator.
+- [[sources/sa-the-engineer-crunch-the-engineer-crunch|The Engineer Crunch]]: Investor and former President of Y Combinator.
+- [[sources/sa-the-days-are-long-but-the-decades-are-short-the-days-are-long-but-the-decades-are-short|The days are long but the decades are short]]: Entrepreneur, investor, and author of the essay.
+- [[sources/sa-the-economy-the-economy|The Economy]]: Author of the essay and entrepreneur.
+- [[sources/sa-startups-role-models-risk-and-y-combinator-startups-role-models-risk-and-y-combinator|Startups, Role Models, Risk, and Y Combinator]]: Former President of Y Combinator and current CEO of OpenAI.
+- [[sources/sa-the-merge-the-merge|The Merge]]: Author of the essay and former leader of OpenAI.
+- [[sources/sa-the-separation-of-advice-and-money-the-separation-of-advice-and-money|The separation of advice and money]]: Entrepreneur, investor, and author of the essay.
+- [[sources/sa-the-worst-part-of-yc-the-worst-part-of-yc|The Worst Part of YC]]: Former President of Y Combinator and author of the essay.
+- [[sources/sa-the-founder-visa-again-the-founder-visa-again|The Founder Visa (again)]]: President of Y Combinator at the time of writing.
+- [[sources/sa-the-post-yc-slump-the-post-yc-slump|The Post-YC Slump]]: Former President of Y Combinator and author of the essay.
+- [[sources/sa-the-virus-the-virus|The Virus]]: Author of the essay and technology entrepreneur.
+- [[sources/sa-technology-and-wealth-inequality-technology-and-wealth-inequality|Technology and wealth inequality]]: Author of the essay and entrepreneur.
+- [[sources/sa-the-strength-of-being-misunderstood-the-strength-of-being-misunderstood|The Strength of Being Misunderstood]]: Author of the essay and entrepreneur.
+- [[sources/sa-the-united-slate-the-united-slate|The United Slate]]: Entrepreneur, investor, and author of the essay.
+- [[sources/sa-the-u-s-digital-service-the-u-s-digital-service|The U.S. Digital Service]]: Entrepreneur, investor, and author of the essay.
+- [[sources/sa-super-successful-companies-super-successful-companies|Super successful companies]]: Entrepreneur, investor, and former president of Y Combinator.
+- [[sources/sa-the-only-way-to-grow-huge-the-only-way-to-grow-huge|The Only Way to Grow Huge]]: Author of the essay and entrepreneur.
+- [[sources/sa-the-software-revolution-the-software-revolution|The Software Revolution]]: Author of the essay and commentator on technological trends.
+- [[sources/sa-trump-trump|Trump]]: Author of the essay and former president of Y Combinator.
+- [[sources/sa-thoughts-on-bitcoin-thoughts-on-bitcoin|Thoughts on Bitcoin]]: Author of the essay and technology entrepreneur.
+- [[sources/sa-uber-vs-car-ownership-uber-vs-car-ownership|Uber vs Car Ownership]]: Author of the essay and former president of Y Combinator.
+- [[sources/sa-time-to-take-a-stand-time-to-take-a-stand|Time to Take a Stand]]: Author of the essay and former President of Y Combinator.
+- [[sources/sa-the-tech-bust-of-2015-the-tech-bust-of-2015|The Tech Bust of 2015]]: Author and investor, former president of Y Combinator.
+- [[sources/sa-upside-risk-upside-risk|Upside risk]]: Author of the essay and prominent tech investor/entrepreneur.
+- [[sources/sa-what-i-wish-someone-had-told-me-what-i-wish-someone-had-told-me|What I Wish Someone Had Told Me]]: Entrepreneur, investor, and CEO of OpenAI.
+- [[sources/sa-unit-economics-unit-economics|Unit Economics]]: Author of the essay and prominent Silicon Valley investor/entrepreneur.
+- [[sources/sa-we-re-in-a-bubble-we-re-in-a-bubble|'We're in a Bubble']]: Entrepreneur and investor, author of the essay.
+- [[sources/sa-what-to-do-if-a-bubble-is-starting-what-to-do-if-a-bubble-is-starting|What to do if a bubble is starting]]: Entrepreneur, investor, and former president of Y Combinator.
+- [[sources/sa-us-digital-currency-us-digital-currency|US Digital Currency]]: Author of the essay and entrepreneur.
+- [[sources/sa-value-is-created-by-doing-value-is-created-by-doing|Value is created by doing]]: Entrepreneur, investor, and author of the essay.
+- [[sources/sa-valuations-valuations|Valuations]]: Entrepreneur, investor, and former president of Y Combinator.
+- [[sources/sa-what-i-heard-from-trump-supporters-what-i-heard-from-trump-supporters|What I Heard From Trump Supporters]]: Author and entrepreneur who conducted the interviews.
+- [[sources/sa-what-i-ve-learned-from-female-founders-so-far-what-i-ve-learned-from-female-founders-so-far|What I've Learned From Female Founders So Far]]: President of Y Combinator at the time of writing.
+- [[sources/sa-why-silicon-valley-works-why-silicon-valley-works|Why Silicon Valley Works]]: Author and President of Y Combinator.
+- [[sources/sa-what-happened-to-innovation-what-happened-to-innovation|What happened to innovation?]]: Author of the essay and venture capitalist.
+- [[sources/59ZQ-rf6iIc-lecture-20-later-stage-advice-sam-altman|Lecture 20 - Later-stage Advice (Sam Altman)]]: President of Y Combinator at the time of the lecture.
+- [[sources/h0bhNm6kwT8-openai-2m-in-tokens-to-every-yc-company-in-the-spring-and-summer-batches|OpenAI: $2M in tokens to every YC company in the spring and summer batches.]]: CEO of OpenAI.
+- [[sources/CBYhVcO4WgI-lecture-1-how-to-start-a-startup-sam-altman-dustin-moskovitz|Lecture 1 - How to Start a Startup (Sam Altman, Dustin Moskovitz)]]: President of Y Combinator and lecturer for CS183B.
+- [[sources/CVfnkM44Urs-lecture-2-team-and-execution-sam-altman|Lecture 2 - Team and Execution (Sam Altman)]]: Lecturer and former YC President
+- [[sources/dQ7ZvO5DpIw-lecture-13-how-to-be-a-great-founder-reid-hoffman|Lecture 13 - How to be a Great Founder (Reid Hoffman)]]: President of Y Combinator.
+- [[sources/uVhTvQXfibU-lecture-15-how-to-manage-ben-horowitz|Lecture 15 - How to Manage (Ben Horowitz)]]: President of YC at the time of the lecture.
+- [[sources/0lJKucu6HJc-sam-altman-how-to-succeed-with-a-startup|Sam Altman - How to Succeed with a Startup]]: Former President of Y Combinator and current CEO of OpenAI.
+- [[sources/09mXPGVkfVA-why-you-shouldn-t-copy-your-tech-idols|Why You Shouldn't Copy Your Tech Idols]]: CEO of OpenAI, former YC President
+- [[sources/45BvnJgwYjk-office-hours-with-sam-altman|Office Hours with Sam Altman]]: Former President of Y Combinator and current CEO of OpenAI.
+- [[sources/4b7EoQTRU88-startup-investor-school-day-1-live-stream|Startup Investor School Day 1 Live Stream]]: President of Y Combinator
+- [[sources/5uBAQrg4SoQ-gpt-4-5-big-model-energy-yc-decoded|GPT-4.5 = Big Model Energy | YC Decoded]]: CEO of OpenAI.
+- [[sources/6u4JVz7iQTY-how-yc-was-created-with-jessica-livingston|How YC Was Created With Jessica Livingston]]: Former YC President and current CEO of OpenAI.
+- [[sources/9u6-BL-Fskc-how-to-design-hardware-products-with-hosain-rahman-how-to-start-a-startup-2014-lecture-17|How to Design Hardware Products with Hosain Rahman (How to Start a Startup 2014: Lecture 17)]]: President of Y Combinator.
+- [[sources/BTS-rFzROOg-geoff-ralston-and-adora-cheung-discuss-startup-school|Geoff Ralston and Adora Cheung Discuss Startup School]]: Former President of Y Combinator
+- [[sources/JiwiqYGw4iU-why-the-next-ai-breakthroughs-will-be-in-reasoning-not-scaling|Why The Next AI Breakthroughs Will Be In Reasoning, Not Scaling]]: CEO of OpenAI
+- [[sources/KmfuIt96vU4-ooshma-garg-at-startup-school-sv-2016|Ooshma Garg at Startup School SV 2016]]: Former President of Y Combinator.
+- [[sources/Lv9bKyQgoHo-why-openai-s-o1-is-a-huge-deal-yc-decoded|Why OpenAI's o1 Is A Huge Deal | YC Decoded]]: CEO of OpenAI.
+- [[sources/MYHb6yfFMmw-sam-altman-s-whale-ama|Sam Altman's Whale AMA]]: Former President of Y Combinator and current tech leader.
+- [[sources/LSUviaN1eso-gmail-creator-paul-buchheit-on-agi-open-source-models-freedom|Gmail Creator Paul Buchheit On AGI, Open Source Models, Freedom]]: CEO of OpenAI.
+- [[sources/PB64IQrkID8-from-startup-to-scaleup-sam-altman-and-reid-hoffman|From Startup to Scaleup | Sam Altman and Reid Hoffman]]: President of Y Combinator
+- [[sources/TYt5yuiGk9E-vinod-khosla-how-to-build-the-future|Vinod Khosla : How to Build the Future]]: President of Y Combinator.
+- [[sources/ShYKkPPhOoc-how-to-spend-your-20s-in-the-ai-era|How to Spend Your 20s in the AI Era]]: CEO of OpenAI.
+- [[sources/U_g-fBfPOF8-drew-houston-how-to-build-the-future|Drew Houston : How to Build the Future]]: Host of the 'How to Build the Future' series and former President of Y Combinator.
+- [[sources/V979Wd1gmTU-sam-altman-the-future-of-openai-chatgpt-s-origins-and-building-ai-hardware|Sam Altman: The Future of OpenAI, ChatGPT's Origins, and Building AI Hardware]]: CEO of OpenAI
+- [[sources/bBGmSDQ1mAs-jessica-mah-at-female-founders-conference-2014|Jessica Mah at Female Founders Conference 2014]]: Former President of Y Combinator.
+- [[sources/cN62reafxLg-work-at-a-startup-expo-2018|Work at a Startup Expo 2018]]: Former President of Y Combinator.
+- [[sources/crMVJAf5TjA-team-and-execution-with-sam-altman-how-to-start-a-startup-2014-lecture-2|Team and Execution with Sam Altman (How to Start a Startup 2014: Lecture 2)]]: President of Y Combinator and lecturer.
+- [[sources/bxBzsSsqQAM-the-7-most-powerful-moats-for-ai-startups|The 7 Most Powerful Moats For AI Startups]]: CEO of OpenAI.
+- [[sources/d2GglPzOXfM-later-stage-advice-with-sam-altman-how-to-start-a-startup-2014-lecture-20|Later Stage Advice with Sam Altman (How to Start a Startup 2014: Lecture 20)]]: President of Y Combinator at the time of the lecture.
+- [[sources/egJeFaIXZLo-ideas-products-teams-and-execution-with-dustin-moskovitz-how-to-start-a-startup-2014-lectu|Ideas, Products, Teams, and Execution with Dustin Moskovitz (How to Start a Startup 2014: Lecture 1)]]: President of Y Combinator and lecturer for CS183B.
+- [[sources/fcyf9z4gSeI-pitch-practice-with-paul-buchheit-and-sam-altman-at-startup-school-sv-2016|Pitch Practice with Paul Buchheit and Sam Altman at Startup School SV 2016]]: Former President of Y Combinator.
+- [[sources/hHpKa2iamF0-an-ai-primer-with-wojciech-zaremba|An AI Primer with Wojciech Zaremba]]: Entrepreneur and investor in OpenAI.
+- [[sources/j7tr3IlH5Ro-how-to-manage-with-ben-horowitz-how-to-start-a-startup-2014-lecture-15|How to Manage with Ben Horowitz (How to Start a Startup 2014: Lecture 15)]]: President of Y Combinator at the time of the lecture.
+- [[sources/lvmmk85ArWg-vertical-ai-agents|Vertical AI Agents]]: CEO of OpenAI
+- [[sources/mUZKAhcxXWI-uncut-interview-with-sam-altman-on-masters-of-scale-audio|Uncut Interview with Sam Altman on Masters of Scale [Audio]]]: President of Y Combinator
+- [[sources/nFOC-cgIWaY-jessica-livingston-how-to-build-the-future|Jessica Livingston : How to Build the Future]]: Interviewer and former Y Combinator President
+- [[sources/s4RBfIwUBgY-hiroki-takeuchi|Hiroki Takeuchi]]: Former President of Y Combinator
+- [[sources/s-4QqHHE16s-sam-altman-startup-investor-school-day-1|Sam Altman - Startup Investor School Day 1]]: President of Y Combinator and startup investor.
+- [[sources/sNrDEIYAMjE-jessica-livingston-at-female-founders-conference-2014|Jessica Livingston at Female Founders Conference 2014]]: Early YC participant and later leader.
+- [[sources/syoqjYLDs48-office-hours-at-startup-school-2013-with-paul-graham-and-sam-altman|Office Hours at Startup School 2013 with Paul Graham and Sam Altman]]: Partner at Y Combinator
+- [[sources/sYMqVwsewSg-sam-altman-how-to-build-the-future|Sam Altman : How to Build the Future]]: Entrepreneur, investor, and former President of Y Combinator.
+- [[sources/t8co94HS6tY-how-amplitude-went-from-skeptics-to-all-in-on-ai|How Amplitude Went From Skeptics to “All In” on AI]]: CEO of OpenAI
+- [[sources/uEl2KUZ3JWA-sam-altman-on-choosing-projects-creating-value-and-finding-purpose|Sam Altman on Choosing Projects, Creating Value, and Finding Purpose]]: Entrepreneur, investor, and former president of Y Combinator.
+- [[sources/uyTOFU0Pn6E-dalton-caldwell-startup-investor-school-day-2|Dalton Caldwell - Startup Investor School Day 2]]: Former President of Y Combinator.
+- [[sources/uqc_vt95GJg-aaron-levie-why-startups-win-in-the-ai-era|Aaron Levie: Why Startups Win In The AI Era]]: CEO of OpenAI.
+- [[sources/xTwSk1tEsFE-startup-school-2026|Startup School 2026]]: CEO of OpenAI.
+- [[sources/wKaJPZMOWVg-office-hours-at-startup-school-ny-2014|Office Hours at Startup School NY 2014]]: President of Y Combinator at the time of the event.
+- [[sources/ypLoGFaKdbU-zach-sims-at-startup-school-ny-2014|Zach Sims at Startup School NY 2014]]: Former President of Y Combinator
+- [[sources/xXCBz_8hM9w-how-to-build-the-future-sam-altman|How To Build The Future: Sam Altman]]: CEO of OpenAI and former President of Y Combinator.
+- [[sources/ysz1xLMd37Y-reid-hoffman-at-startup-school-sv-2016|Reid Hoffman at Startup School SV 2016]]: Former President of Y Combinator.
+- [[sources/HT0Sb33kaoA-sam-altman-s-advice-to-founders-don-t-try-to-rebuild-chatgpt|Sam Altman's advice to founders: Don't try to rebuild ChatGPT]]: CEO of OpenAI
+- [[sources/v9xozD5rKpI-sam-altman-this-is-the-best-time-to-build-a-startup-ever|Sam Altman: This is the best time to build a startup ever]]: CEO of OpenAI
+- [[sources/DdqAMrtQGRw-legalize-math-in-california-ft-jelani-nelson|Legalize Math in California ft. Jelani Nelson]]: CEO of OpenAI

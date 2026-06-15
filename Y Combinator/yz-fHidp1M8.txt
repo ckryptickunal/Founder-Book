@@ -1,0 +1,1396 @@
+Title: Making Music and Art Through Machine Learning - Doug Eck of Magenta
+Video ID: yz-fHidp1M8
+URL: https://www.youtube.com/watch?v=yz-fHidp1M8
+Channel: Y Combinator
+Published: 2017-07-21T15:39:49Z
+Duration: PT44M22S
+Views: 4099
+Likes: 65
+Tags: YC, Y Combinator, Magenta, Tensorflow, Doug Eck, Podcast, Interview, AI, Art, Music, Machine Learning, Google, Douglas Eck, Creative Coding
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 1372
+
+Description:
+Doug Eck is a research scientist at Google and he’s working on Magenta, a project making music and art through machine learning - https://twitter.com/douglas_eck
+
+If you want to learn more you can check out http://Magenta.Tensorflow.org
+
+YC's podcast is hosted by Craig Cannon - http://twitter.com/craigcannon
+
+============================================================
+TRANSCRIPT
+============================================================
+
+Hey, this is Craig Cannon and you're
+listening to Y Combinators podcast.
+Today's episode is with Doug Ek. Doug's
+a research scientist at Google and he's
+working on Magenta, which is a project
+making music and art through machine
+learning. Their goal is to basically
+create open source tools and models that
+help creative people be even more
+creative. So, if you want to learn more
+about Magenta or get started using it,
+you can check out
+magenta.tensorflow.org.
+All right, here we go. I wanted to start
+with the um the quote that you ended
+your IO talk with uh because I feel like
+that might be helpful for some folks. Um
+so it's a Brianino quote and uh I will
+have the slightly longer version.
+Yeah. Good. Yeah.
+So yeah, it it goes like this. Um
+whatever you now find weird, ugly,
+uncomfortable, and nasty about a new
+medium will surely become its signature.
+CD, CD distortion, the jitteriness of
+digital video, the crap sound of 8-bit.
+All of these will be cherished and
+emulated as soon as they can be avoided.
+It's the sound of failure. So much
+modern art is the sound of things going
+out of control out of a medium pushing
+to its limits and breaking apart. So
+that's how you ended your IO talk.
+Correct. And what it kind of opened up
+for me was like what when you're
+thinking about creating magenta and all
+the projects therein as new mediums,
+how are you thinking about like how are
+you thinking about what's going to be
+broken and what's going to be created?
+The reason that I put that quote there,
+I think, is to to be honest with the uh
+the division between engineering and
+research and and artistry and to not
+think that what I'm doing is being a a
+machine learning artist, but we're
+trying to build interesting ways to make
+new kinds of art. And I think, you know,
+it occurred to me, I read that quote and
+I thought, you know, that's it, right?
+No matter how hard Eastman or whomever
+invented the the film camera, I'm sorry
+if that's the wrong person, right?
+um like they clearly weren't thinking of
+breakage or they're trying to avoid
+certain kinds of breakage. I mean, you
+know, guitar amplifiers aren't supposed
+to distort, you know, and and you know,
+I thought, well, what if we do that with
+machine learning? Like like like models
+that are like the first thing you're
+going to do if you think if if someone
+comes to you and says, "Here's this
+really smart model that you can make art
+with."
+What are you going to do? You're going
+to try to show the world that it's a
+stupid model, right? But maybe the way
+that maybe it's smart enough that it's
+kind of hard to make it stupid. So, you
+get to have a lot of fun making it
+stupid, right?
+I was playing with a quick draw this
+morning with my girlfriend and um what
+she was trying to do was make the most
+accurate picture that the computer
+wouldn't recognize like immediately out
+of the gate. She works in art and like
+Yeah. doesn't want to believe.
+That's right. It's a good It's a good
+intuition. I mean, you know.
+Yeah. Um so, so maybe the best way to
+start is then talk about like what are
+you working on right now? What are you
+guys making?
+So, right now we're working on God, let
+me think. It's a good question. Um we
+have this project called NSynth which is
+um trying to get deep learning models to
+generate new sounds and uh we're working
+on a number of ways to make that better.
+I think one way to think about it is we
+have these um we have this latent space.
+We have a um so to make that a little
+bit less a buzzword. We have a kind of
+compressed space a space that doesn't
+have the ability to memorize the
+original audio but it's set up in such a
+way that we can try to regenerate some
+of that audio. And in regenerating it,
+we don't get back exactly what we
+started with, but hopefully we get
+something close.
+And that space is set up so that we can
+move around in that space in and come
+into to new points in that space and
+actually listen to what's there.
+Mhm.
+Right now, it's uh quite slow to to
+listen, so to speak. We're not able to
+do things in real time. And um we also
+would love to be at kind of a meta level
+building models that can generate those
+embeddings having trained on other data
+so that you're able to move around in
+that space in different ways. And so
+we're kind of moving, we're continuing
+to work with with um with sound
+generation for um for music. And we also
+um are spending quite a bit of time on
+uh rethinking the music sequence
+generation work that we're doing. We put
+out some models that were you know by
+any reasonable account primitive. I mean
+kind of very simple recurrent neural
+networks that um that generate u MIDI
+from MIDI
+and that maybe use attention that maybe
+um you know have a little bit smarter
+ways to sample as when when when when
+doing inference when generating um and
+now we're actually taking seriously wait
+a minute what if we really look at large
+data sets of performed music what if we
+actually start to care about expressive
+timing and dynamics care deeply about
+polifany and and really care about like
+not putting out kind of what you would
+consider a simple reference model, but
+actually what we think is super good.
+And and I think, you know, that those
+are the things we're focusing on. I
+think we're trying to actually make
+things, you know, really pull up quality
+and uh and and make things that are
+better and more usable for for people.
+And so with all that supervised
+learning, are you like are you going to
+create a web app that people will
+evaluate how good the music is? Because
+I I heard a couple interviews with you
+before where that was the issue, right?
+like how do you know what's good?
+Yeah. Uh the so that is like the I'm
+pausing because that's the big question
+I think in my mind is how do we evaluate
+these models?
+Yeah.
+Um I at least for Magenta I haven't felt
+like the quality of of what we've been
+generating has been good enough to
+bother so to speak like like you find
+you cherry pick you find some good
+things you're like okay this model
+trains and it's interesting and now we
+kind of understand the the API the input
+output of of what we're trying to do.
+Um, I would love
+Yeah, I don't know how to solve this.
+Like I he conceptually what we do,
+here's what we do, right? We build we
+build a a mobile app and we make it go
+viral. That's what we do, right? And
+then once it's viral, we just keep
+feeding all of this great art and music
+in. And I used to do music
+recommendation. We just build a
+collaborative filter and which is a kind
+of way to make, you know, recommend
+items to people based upon what they
+like. and we start giving people what
+they like and we pay attention to what
+they like and we make the models better.
+So all we need to do is make that app go
+viral. All right. Just one simple thing.
+In fact, maybe someone in the Y
+cominator world can help us do that.
+Right.
+Yeah. It's like sliding between cow and
+trombone. What's the best sound?
+Exactly. Yeah. Right. Maybe maybe that
+particular web app is not the right
+answer. No, I mean I'm saying that as a
+joke, but I think look at it this way.
+We if we can find a way or or the
+community in general can find a way for
+machine generated media
+to be to be sort of out there for a
+large group of interested users to play
+with. I think we can learn from that
+signal and I think we can learn to
+improve and if we do we'll make quite a
+nice contribution to machine learning.
+We will we will we will learn to improve
+based upon human feedback to generate
+something of interest. So that's a great
+goal. Yeah,
+we had a secret
+plan, you know, like we're figurep.
+Yeah. Yeah. Exactly. Sorry.
+Uh interesting. Okay. Cuz I was
+wondering what kind of data you were
+getting back from artists. You know, do
+people just use use all of your
+projects, you know, all of the repos to
+create things of their own interest or
+are they pushing back valuable data to
+you? So, we're getting we're getting
+some valuable data back and I think what
+we're getting back some of the signals
+that we're getting back are giving us
+such an obvious direction for
+improvement. Um, like why would I want
+to run a Python command to generate a
+thousand MIDI files? That's not what we
+do. You know, like like like you get
+that kind of feedback. You're like,
+okay, we wanted this command line
+version because, you know, we needed to
+be able to test some things. But if
+musicians are really going to use the
+music part of what we're doing, we have
+to provide them with more fluid and more
+useful tools. And there I think we're
+we're still sitting with so many obvious
+hard problems to solve like integration
+with something like Ableton or like
+really solid um you know real-time IO
+and things like that that we know what
+to work on. But I think we'll get to the
+point pretty quickly where we'll have
+something that's kind of solves the
+obvious problems, plugs in reasonably
+well to your workflow and you can start
+to generate some things and you can play
+with sound. And then then we need to be
+much more careful about um about you
+know the questions we ask and and how
+good we are at listening to to how
+people use what we're doing.
+And so what what are artists using it
+for at this at this point
+right now? So we have most of what we've
+done so far has had to do with music.
+Yeah.
+Um, if we if we look for a second away
+from music and look at sketch RNN, which
+is a model that learned to draw,
+we've actually seen quite a bit of so at
+a more at a higher level, sketch RNN is
+a recurrent neural network trained on
+sketches to make sketches. And the the
+sketches came from uh a game that Google
+released called QuickDraw where people
+had 20 seconds to draw something to try
+to win at Pictionary with a with a
+computer, you know, classifier
+counterpart.
+And so, you know, we trained a model
+that can generate new cats or dogs or
+whatever. There's some really cool
+classes in there. Um cruise ship is
+nice.
+Yeah. The one that always threw me was
+camouflage. Like it calls out camouflage
+all the time. Like I'm never
+It's as if by definition you can't draw
+it, right? Um,
+nothing. Pause for 20 seconds,
+right? Yeah. I I actually won a
+Pictionary round with the word white and
+I just pointed at the paper. I'm like,
+"No way." And she said, "White." I'm
+like, "You got to be kidding." Okay. So,
+anyway, it's kind of like a correlary to
+camouflage. Um, so we've seen artists
+start to like sample from the model.
+We've seen artists using the model as
+like a as a distance measure to look for
+weird examples because the model has an
+idea of what's probable in the space.
+We've also seen artists just playing
+around with the raw data. Um, and so
+there's been a nice explosion there. I
+think, you know, I'm not expecting that
+artists really do a huge amount with
+with this quick draw data because as
+cool as it is, these things were drawn
+in 20 seconds, right? There's kind of a
+limit to how much we can do with them.
+Um, on the music side, we've had um a
+number of people playing with with Ninth
+with just like dumps of samples from
+Ninth. So, basically like a a
+rudimentary uh uh synthesizer and there
+I've been surprised at the um the kind
+of I would expect that if you're really
+good at this, so like your AX twin or
+you want how about this? You want to be
+AEX twin, right? That you look at this
+and go, "Yeah, whatever. There are 50
+other tools that I have that I can use."
+But that those are the people that we
+found have been the most interested
+because I think I think we are
+generating some sounds that are that are
+new. I mean so first you can as someone
+pointed out on on hackernews you can
+take a few a few oscillators and a noise
+generator and make something new. But I
+think these are new in a way um when you
+start sampling the space between uh you
+know a trombone and a flute or something
+like that that these are new in a way
+that that capture
+some very nice harmonic properties.
+capture some of the essence of the Brian
+Eno quote are kind of
+kind of broken and glitchy and edgy in a
+way. Um but that glitchiness is not um
+the same as you would get from like uh
+digital clipping. The glitchiness sounds
+really harmonic. Um
+and and so um like for example Jesse on
+our team, Jesse Engel, he built some
+Ableton plugin where you're listening to
+these notes, but you're able to change
+the um like erase the beginnings of the
+notes. So you like erase the onsets,
+which is usually where most of the
+information is. Like most of the
+information in a piano note is kind of
+that first percussive onset,
+but it's the onsets that the model is
+doing such a great job of reproducing
+because it gradually kind of moves away
+from in time. It's a temporal embedding
+and the noise kind of adds up as we move
+through the embedding in time. So it's
+the tails of these notes that start to
+get ringy and like they'll d-tune and
+you'll hear these rushes of noise come
+in or there'll be this little weird
+whoop at the end. M.
+And so like we found that that musicians
+who've actually played with sound a lot
+find these particular sounds immensely
+fascinating. I think they're the kinds
+of sounds that are that sound
+interesting in a way that's hard to
+describe unless you've played with them.
+Yeah.
+I think they're interesting because the
+model has been forced to capture some of
+the important sources of variance in
+real music audio. And even when it fails
+to reproduce all of them, when it fills
+in with confusion, so to speak, even
+that confusion is is somehow driven by
+musical sound.
+And um which you know, you see by the
+correlary, you know, if you look at
+something like DeepDream and you see
+what models are doing when they're sort
+of showing you what they've learned, it
+may not be what you expect from the
+world, but there's something kind of
+interesting about them, right? Um
+anyway, it's a long answer, but the
+short version of the answer is we've
+found that working with very talented
+musicians has been has been really
+fruitful.
+And our challenge is now to be good
+enough at what we do and make it easy
+enough and make it clean enough that
+even someone who's not an AX twin, and
+I'm not saying we worked with Ax Twin,
+we didn't work with Ax Twin, but like
+you know that kind of that kind of
+artist. Yeah. that we can als
+it's not necessarily generating melodies
+for people so much as it is generating
+interesting sounds. That's what's
+brought them in.
+That's what's brought them in. Though
+the parallel has existed for um the
+sequence generation stuff. And what I
+noticed even with AI duet which is this
+um like web- based like it's a simple
+RNN it's like I can lay claim it's it's
+technology that was published in 2002.
+It's really a very simple really simple
+but like
+so like so this model if you haven't you
+know if your viewers haven't seen it you
+you play a little melody and then the
+model thinks for a minute and the AI
+genius which is an LSTM network comes
+back and plays something back to you
+right if you play for release you know d
+right and you wait you're expecting
+maybe you know that it'll continue the
+tune it's not going to right it's going
+to go right so like this idea of like
+expecting the model to like carry these
+long arcs of melody along is not really
+understanding the model. M
+what we saw was like like especially
+jazz musicians but like musicians who
+who listen
+the game they play is to follow the
+model and so they'll like I would see
+guys or people women too sit down and go
+like you know dum dum dum dum
+and just wait and it's almost like
+pinging the model with an impulse
+response like what's this thing going to
+do and then instead of trying to drive
+it comes back and goes dum dum dum dum
+right
+and then and then the musician says oh I
+see let's go up to the fifth and and you
+get this really, it's almost like follow
+the leader, but you're following the
+model and then it's super fun and like
+it's basically a challenge for the
+musician
+to to try to understand how to play
+along with something that's so
+primitive, right? But if you don't have
+the musical, so basically it's the
+musician bringing all the skill to the
+table, right? So, like even even with
+the the primitive sequence generation
+stuff, like it's still been interesting
+to see that it's it's the musicians with
+a lot of musical talent and particularly
+the ability to improvise and listen that
+have managed to actually get what I
+would consider interesting results out
+of out of that.
+So, yeah. So, it's become more of like a
+like a call and response game than a
+tool.
+Yeah, I think so. I think it be and
+that's partially because the model
+the model's pretty primitive. I think
+that we can um you know if we can get
+the data pipelines in order so that we
+know what we're training on and we can
+actually do some more modern um
+uh sequence learning um you know having
+like like generative adversarial
+feedback and things like that we can do
+much better and even we have some some
+stuff that we haven't released yet that
+I think is better. Um but yeah, I think
+as we make it better it'll be more of a
+this model is going to give me some more
+ideas from what I've done. Right now
+it's more of a this model's kind of
+weird, but I'm gonna try to understand
+what it's doing.
+Okay.
+Both are fun modes, by the way. Like
+they're both cool modes, right?
+Yeah. I I mean, I've enjoyed like I'm
+I'm definitely not a pianist. Uh I mean,
+I've played guitar before and I I tried
+to get a song going, but I I had trouble
+with it. Um
+we're sorry.
+It's mostly my fault to be honest. Uh I
+love the YouTube video.
+Blame the user, right?
+Yeah. Yeah. Uh the video where some
+where that guy played a song with it.
+That was amazing.
+Yeah, that was cool. It was very cool.
+Have you seen a lot of that stuff as
+well?
+Yeah, we've seen we saw like we haven't
+I haven't well we haven't pushed the
+sequence generation stuff much cuz we we
+really wanted to focus on on temper. Um
+but when we have released things and and
+kind of tried to show people were there.
+Yeah. We've gotten if you look on the
+there's the magent there's an magenta
+mailing list that's just like it's
+linked you g.co magenta and if you look
+around there's like a discussion list
+which is like as flamy and spammy as
+some discussion lists but a little bit
+less so. It's pretty that you know every
+couple weeks someone will put up some
+stuff they composed with Magenta and
+usually they're more effective if
+they've layered their own stuff on top
+of it or they've you know taken time
+offline rather than in performance to to
+generate but some stuff's actually quite
+good. I think it's fun.
+It's a start.
+Yeah. I mean I think it's great. And so
+how like you compared it to you know the
+work you did in 2002. Um where has LSTM
+gone since then? like you know you talk
+about like you ended up doing this
+project I saw in your talk that because
+you kind of like failed at it a while
+ago.
+Failure is good.
+Yeah. So the
+there was a point in time I was at um a
+in a at a lab called IDIA the Dalamole
+Institute for Artificial Intelligence
+and I was working for Jurgen Schmidt
+Huber who's one of the co-authors. He
+was the adviser to Seb Hawker who did
+the who did LSTM.
+And there was a point in time where
+there were three of us in a room in
+Mano, Switzerland, which is a suburb of
+Lugano, Switzerland, who were the only
+people in the world using LSTM. It was
+myself, Felix Garris, and Alex Graves.
+Among the three of us, by far, Alex
+Graves has done the most with LSTM. So
+he continued after he he finished his
+PhD and he continued doggedly to try to
+understand how recurrent neural networks
+worked, how to train them and how to
+make them useful for sequence learning.
+I think more than more than anybody else
+in the world, including SEP, the the
+person who created LSTM,
+okay,
+you know, Alex just stuck with it and
+and finally started to get wins on, you
+know, in in speech and language, right?
+And and I more or less put down LSTMs. I
+started working with audio audio stuff
+and other more like cognitively driven
+music stuff at University of Montreal.
+But like it worked finally, right? And
+it it was, you know, like there's this
+thing in music uh a 20-year overnight
+success, right? Somebody like this
+worked because he stuck with it and and
+now of course it's
+you know become like sort of the
+touchstone for you know recurrent models
+in time series analysis. it forms some
+version of it forms the core of what
+we're doing with translation. I mean
+these models have changed right they've
+evolved over time but basically you know
+recurrent neural networks as a family of
+models um um is around because because
+of that effort of like it's interesting
+right it's really there really were
+three of us
+and Felix went on with his life and um I
+went on with my life and Alex stuck with
+us it's kind of really one person
+carrying forward you might get letters
+from people saying hey wait you forgot
+about me you forgot about me this is
+this is a little bit reductionist
+obviously there were more but it felt
+that way at the time right
+what was the break breakthrough then
+that got people interested.
+I think it was the same breakthrough
+that got people interested in deep
+neural networks and convolutional neural
+networks. It's that these models don't
+work that well um with small training
+sets.
+Okay.
+And um small models
+like imageet.
+Yeah. That they're data they're data
+absorptive and meaning that they can
+absorb lots of data if they have it. And
+you know neural networks as a class are
+really good with highdimensional data.
+And so as machines got faster and memory
+got bigger, they they started to work.
+So, you know, we were working with
+really small machines and like working
+with LSTM networks that were, you know,
+maybe had like 50 to 100 hidden units
+and then a couple of gates to control
+them and trying things that had to do
+with like the dynamics of of how these
+things can count and how they can like
+follow um time series.
+So, you try to scale that to speech or
+you try to scale that to um you know,
+speech recognition was one of the first
+things. This is really hard to do. Um,
+so I think a lot of this is just due to
+having faster machines and more memory.
+It's kind of weird, right?
+It's surprising that that would be it.
+Yeah, I think it surprises everybody a
+little bit.
+Yeah.
+Now the running joke like having coffee
+here at Brain is sort of like like what
+what other technology from the 80s
+should we rescue? You know, like I mean
+Exactly. Right.
+AI's back.
+Exactly right. Uh how far have you
+pushed LSTM? Like you know um obviously
+there's some amount of like text
+generation that's that people are trying
+out. um you know, have you let it create
+an entire song?
+No, we haven't because we haven't um got
+the conditional part of it right yet.
+So, I think um like LSTM in its most
+vanilla form, I think everybody's pretty
+convinced that it's not going to handle
+really long time scale hierarchical
+patterning. Um
+and um I'd love it if someone comes
+along and and says, "No, you don't need
+anything but vanilla LSTM to do this."
+But you know I think what makes music
+interesting over you know even after
+like 5 seconds or 10 seconds is this
+idea that you know you're you're getting
+repetition you're getting uh you know
+harmonic shifts like chord changes there
+there's a there there right
+and um one way to talk about that there
+there is that you know you have some
+lower level pattern generation going on
+but there's some conditioning happening
+oh now continue generating but the
+condition shifted we just shifted chords
+for example and so um I think if we
+start talking about conditional models
+if we talk about models that are
+explicitly hierarchical
+If we talk about models that we can
+sample from different ways, we can start
+to get somewhere.
+But I think um
+you know
+only a recurrent neural network is is is
+you know it's it's it's not it's it
+would be reductionist to say that it's
+the whole answer and it's in fact true.
+It's not the whole answer.
+I I was thinking about how you were um
+was it the TensorFlow or the IO talk
+where you were talking about Bach? Um
+oh probably um oh that we did stuff that
+was like more Bach than Bach. Yeah, we
+nailed it.
+Yeah, that's like you start making
+things that like are, you know, more
+palatable is like I'll make the best
+Picasso painting for you, but it's not
+necessarily a Picasso painting because
+it's not necessarily saying anything
+precisely.
+Right.
+So, I think I think by analogy, so
+first, in case it's not clear, I don't
+believe that we made something that was
+better than Bach, but when we put these
+tunes out for like untrained listeners
+to listen to, they sometimes voted them
+as sounding more bocky. And I think it's
+imagine like um what these models are
+learning, right? They're learning kind
+of the principal axes of variance.
+They're learning what's most important.
+Um they have to, right? Because they
+have they're they have a limited memory.
+They're compressed, right? So if you
+sample from sketch RNN with with very
+low temperature, meaning with like
+without a lot of noise in the system,
+you actually get what like if you want
+to squint your eyes and and and break
+philosophy is like the Platonic cat. you
+know, you get a cat that looks more like
+a cat anyone would draw, sort of the
+average cat.
+And I think that's sort of what we're
+getting from these time series models as
+well. They they're kind of giving you
+something that's more a caricature than
+than a sample, right?
+Um so, so then in the creation of art,
+like what are you um what are you
+predicting is going to happen like as as
+Magenta progresses? I think in um can I
+make predictions that are on the time
+frame of like 28 to 40 years when no one
+no one will ever test in a thousand
+years magenta is going to be the only
+um joking aside I um
+I I do believe that the machine learning
+and AI will continue like will become
+part of the toolkit for for
+communicating and for for expression
+including art. Mhm.
+Um I think that in the same way I I
+think that it's healthy for me to admit
+that that those of us who are doing this
+engineering won't almost by definition
+know where it's going to go. We we can't
+and we shouldn't know where it's going
+to go. I think our job is to build um to
+build smart, you know, AI smart tools.
+At the same time, I want to point out
+like some people find that answer boring
+like it's a um it's hedging. But I do
+think there are directions I can imagine
+directions we could go in that would be
+really cool.
+For example, um thinking of literature,
+right? Um
+I think I think plot is really
+interesting in stories and that that you
+you can imagine that that we have a
+particular way as humans like the kind
+of cognitive constraints that we have
+of like kind of limitations in how how
+we would how we would draw plots out,
+you know, as an as an author. And you're
+not going to do it in one pass left to
+right like in recurrent neural network.
+It's going to be like sketching out the
+plot and do we kill this character off?
+But I kind of can imagine that
+generative models might be able to
+generate plots that are that are
+really really difficult for people to
+generate but still make sense to us as
+readers, right? Like, you know, it's
+think of it think if you flip it around
+like I think jokes are hard because it's
+really hard to generate the surprising
+turns and and the the re like kind of
+like you go in one direction and you
+land over here, but it still makes
+sense. And I can imagine that that the
+right kind of language model might be
+able to generate jokes that are super
+super funny to us and that actually
+might have a flavor to them of being
+like, "Yeah, I know this joke must have
+been machine generated because it fits
+in so many different ways." Right.
+Right. It like this high it like fits in
+so many different ways and in a math way
+like in a high dimensional space, but
+it's super funny to us. Like like I
+don't know how to do that, but I can
+totally imagine that we would be in a
+world where we get that.
+I thought about it in the complete
+opposite way, but that makes sense. I
+was thinking about it um you know
+training it to create pulp fiction like
+that would be so simple in my mind like
+you know just create these like airport
+novels it can just like bang out the
+plots. Um I mean that's probably where
+we'll start. I mean I would love it if
+we could write so so everybody
+understands that's that's listening or
+watching you know we we can we can't
+generate a coherent paragraph right so
+you know I don't mean we magenta I mean
+kind of we humanity
+like I can't write at all.
+Um, it's really hard like and it all
+hits it all I think it all hits at
+structure at some level like you know
+nested structure whether it's music or I
+think there's like like an art plays
+with geometry or color or something else
+um you know it's it's it's meaning it's
+you know it's nested structure somewhere
+and and has the art world or you know u
+I guess any kind of artist any kind of
+creator have people pushed back in the
+way that they're scared you know I
+imagine when photography came out
+everyone was pushing back saying like
+this this might end painting because
+it's about, you know, photography
+captures the essence. But then it ended
+up changing because people realized that
+that's painting wasn't just about
+capturing something, you know, capturing
+an exact moment.
+Certainly, um, the the the generative
+art world, and we've seen lots of that.
+Another researcher in in London, um,
+someone posted on his Facebook something
+like or he posted to us a tweet that was
+like, "What you're doing is bad for
+humanity." And it's like, really? like
+he's making like new folk songs, right?
+He's like generating folk songs with an
+LSDM. This is Bob Sterm. I'm like, it's
+probably not bad for humanity. So, yeah,
+of course. But like what I love about
+that is, you know, it's okay if a bunch
+of people don't like it. And in fact, if
+it's interesting, what art does
+everybody like?
+Zero,
+right? Or it's really boring, right?
+So,
+you have this idea that like if you want
+to really engage with people, you're
+probably going to find an audience. That
+audience is going to be some slice. M
+frankly it's probably going to be some
+slice coming up from the next generation
+of people that have experienced
+technology that are taking some things
+for granted that are still novel to
+someone like myself right
+um you know and uh um but it's you know
+it's okay if a bunch of people don't
+like it.
+Yeah cuz well when we were talking
+before I was I was surprised that you
+hadn't gotten more push back. It seems
+to be like most people in our world are
+just like okay whatever. It's like do
+your thing. it's kind of opening up new
+territory rather than it is like you
+know challenging.
+I think that I've gotten I've gotten
+push back in terms of questions. I think
+we have and I I think this is as a
+community in Google and outside of
+Google and outside of Magenta. I think
+people are really clear that what's
+interesting about a project like this is
+that it be a tool not a replacement.
+Mhm.
+It's and I I I thought I think more I
+think if we if we presented this as, you
+know, push this button and you'll get
+your finished music, it would be a very
+different story, but it's kind of
+boring. So,
+I think it's super Yeah. I mean, it's uh
+it's funny you mentioned Hacker News
+because I was talking with uh one of the
+moderators.
+We love you, Hacker News. Be nice.
+They're they're great. Like, you know,
+it's just impersonal. It's so easy to
+critique people. But uh I was talking
+with Scott, one of the moderators, and
+he was um he was wondering if you guys
+were concerned with the actual like
+cathartic feeling of creating music or
+if that's just something you you don't
+even consider right now.
+I mean, as as people Yeah, of course.
+Yeah. Yeah. And I think um there's a
+couple of levels there.
+I think you lose that if what you're
+just doing is pushing a button and like
+So
+I think this is everywhere. The drum
+machine is such a great a great thing to
+fall back on. It is just not fun to just
+like push the button like and make the
+drum machine do its canned patterns. And
+I think that was the goal. My sense of
+the reading that I've done is just like
+this will make it really easy, right?
+But like what makes the drum machine
+interesting is people working with it,
+writing their own, you know, writing
+their own loops or their own patterns,
+changing it, working against it, working
+with it. And so, um, you know, I I think
+this project loses its interest if if we
+don't have people getting that cathartic
+release, which I believe me, I
+understand what you mean. That's thing
+one. The other thing I would mention is,
+um, I if if there's anything that we're
+not getting that I wish we were getting
+more of is creative people people coding
+creatively, right? We talk about
+creative coding in like this kind of
+handwavy sense, but like like like I
+would love to have the right kind of mix
+of models in Magenta and in open source
+linking to other projects that you as a
+coder could come in and actually say,
+I'm going to code for the evening and
+add some things. I'm going to maybe
+retrain. I'm going to maybe I'm going to
+hack data and I'm going to get the
+effect that I want. And that part of
+what you're doing is being an artist by
+coding. And I think we haven't hit that
+yet in Magenta. I I'd love to like get
+feedback from whomever like in terms of
+ways to get there. The point is there's
+a certain catharsis for those of us that
+train the model. You get the model to
+train like you know it's like it's fine.
+You you'll be bored if you just push the
+button but feels good for me to push
+that button because I'm the one that
+made that button work you know. So
+there's that right? You know it's a
+creative act in its own right.
+And and have people been like uh
+creatively breaking the code like oh it
+would be funny if it did this or
+interesting if it did that? Um, a few
+though. I think our code is so easy like
+most open source projects need to be
+rewritten a couple times and I think you
+know we've gone through we're on our
+second rewrite. Um,
+is that if the code is brittle enough
+that it's easy to break uncreatively,
+then it's hard to also break it
+creatively. And listen, I'm being pretty
+critical. I'm I'm actually I'm really
+proud of the quality of of the Magenta
+open source effort. I actually think we
+have, you know, well tested, well
+thoughtout code. I think it's just a
+really hard problem to do coding for art
+and music and that you know if you get
+it wrong a little bit it's just wrong
+enough that you have to fix it and so um
+you know we still have a lot of work to
+do.
+So then where does where does that like
+creative coder world go? I I've seen a
+lot of people that are concerned with
+like even just preserving I think Ryzen
+is doing the preserving digital art
+project.
+Um what direction do you think that's
+going to go in?
+Presumably a number of cool directions
+in parallel. The one that the one that
+interests me personally the most is um
+is reinforcement learning and this idea
+that um you know models trained. So
+there's a long story or a short story.
+Which one do you want?
+Long story. Okay. Yeah. Okay.
+So we know
+it's not that bad.
+So you know generative models 101 you
+start generating from a model trained
+just to um to um be able to regenerate
+the data it's trained on. You tend to
+get um output that's blurry, right? or
+is just kind of wandery. And that's
+because all the model learns to do is
+kind of sit somewhere on the the big
+imagine that the distribution as a
+mountain as a mountain range and it just
+sits on the high mountain.
+Kind of plays it safe.
+Yeah. Kind of plays it safe. All
+t-shirts are gray if you're colorizing
+because that's safe. You're not going to
+get punished.
+And you know, one revolution that came
+along thanks to Ian Goodfellow is this
+idea of a generative adversarial
+network. That is a different it's a
+different uh cost for the model to to to
+to minimize where the model is actually
+trying to counter you know create
+counterfeits and it's forced to not just
+play it safe right I don't know how this
+is too technical
+it's very interesting to me yeah this
+was part of the talk right where you
+like cut out the square in
+exactly I saw that part
+so another way to do this is to use
+reinforcement learning as and and it
+it's slower to train because all you
+have is a single number scaler reward
+instead of this whole gradient flowing
+than than GANs, but it also is more
+flexible. Okay, so my story here is that
+the GANs are part of a larger family of
+models that are at some level critical.
+Everybody needs a critic and they're
+they're they're pushing back and they're
+pushing you off of your pushing you out
+of your safe spot, whatever that safe
+spot is. And that's helping you uh be
+able to do a better job of generating.
+We have a particular idea that you can
+use reinforcement learning to um provide
+reward for following a certain set of
+rules or a certain set of heruristics.
+Okay? And this is normally like if you
+mention rules at a at a machine learning
+dinner party, everybody looks at you
+funny, right?
+Like you're stepping backward.
+Yeah, you're not supposed to use rules.
+Come on, we don't use rules. But instead
+of building the rules into the model,
+like the the the AI is not rules, the
+machine learning is not rules. It's that
+the rules are out there in the world and
+you get rewarded for following them. And
+we had, I thought, some very nice uh
+generated samples of music that were
+pretty boring with the with the LSTM
+network. But then the LSTM network
+trained additionally using uh a kind of
+reinforcement learning called deep
+Q-learning to follow some of these
+rules. The the generation got way
+different and way better and
+specifically got catchier.
+What were the rules? The rules were like
+rules of composition for counterpoint
+from the 1800s. They were super simple.
+Yeah.
+Now, we don't care about those rules.
+But there's a really nice creative
+coding aspect, which is think of it this
+way. I have a ton of data. I have a
+model that's trained. I have a
+generative model, whatever it may be. It
+may be one trained to draw. It may be
+one trained for music. And
+that model is kind of tried to
+disentangle all the sources of variance
+that are, you know, that are sitting in
+this data. And so it's smartly
+generated, you know, it can generate new
+things. But now now think like
+as long as I can write a bit of code
+that takes a sample from the model
+Mhm.
+and evaluates it
+providing scalar reward anything I stuff
+in that evaluator
+then I can get like the generator to try
+to do a better job of generating stuff
+that makes that evaluator happy. It
+doesn't have to be 18th century rules of
+counterpoint, right? So you could
+imagine like taking something like
+sketch RNN and adding a reinforcement
+learning model that says I really hate
+straight lines and suddenly the model is
+going to try to learn to draw cats
+but without straight lines. The data is
+telling it to draw cats. Sometimes the
+cats have triangular ears with straight
+lines but the model is going to get
+rewarded for trying to draw those cats
+that it can
+without drawing straight lines. And
+straight lines was just one constraint
+that I picked off the top of my head. It
+has to be a constraint that you can
+measure in the output of the model.
+But like musically speaking, if I could
+come up with an evaluator that described
+what I meant in my mind by shimmery,
+really fast changing, small local
+changes, I should be able to get like a
+kind of music that sounds shimmery by
+adding that reward to an existing model.
+And furthermore, the model still retains
+like the the kind of
+nice
+realness that it gets from being trained
+on data. I'm not trying to come up with
+a rule to generate shimmery. I'm trying
+to come up with a rule that rewards a
+model for generating something. It's
+very different, right? So, I think
+that's one really interesting direction
+to go in is like opening up the ability
+if you can generate scalar reward and
+drop it in this box over here and we'll
+we'll take a model that's already
+trained on data and we'll tilt it to do
+what you want it to do.
+That kind of underlies a fear that
+people have, right? Which is like what
+happens when you can create the best pop
+song
+and and what do people do? And do you
+have thoughts on like is a is that
+possible and b what would the world look
+like if that world comes to be?
+I think that it is I had an algorithm
+for doing this which is
+which is for the best pop song for me
+which is when we used to sell used CDs
+it was usually like a two to one. Okay.
+So every time if you have a thousand CDs
+and you trade them in and you have 500
+that you like better
+then you just kind of keep going right.
+You finally get that one. Exactly. um
+hill climbing in that space. Yeah, I
+think that um what I
+so I'm not sure like part of me wants to
+say people love the kind of rawness and
+the variety of of of things that aren't
+kind of predictable pop. But let's face
+it, like people love pop music of even
+the like there's a kind of pop music
+that you'll catch on the radio sometimes
+that isn't like like
+most of your listeners are probably in
+the same camp or viewers like
+like there's pop that we love like you
+know like I love the poppiest of Frank
+Ocean's music I can listen to it forever
+but then there's like just like there's
+like the gutter of pop and so you know
+can't even distinguish who the artist is
+but like they play at the big festivals.
+So I guess that kind of unasks the
+perfect pop. I mean, pop is such a broad
+thing. Yeah.
+But yeah, I think like I can imagine
+that with with machine learning and AI
+at the table, we'll we will here's
+another way to look at it. Like
+some things that used to be hard will be
+easy, right? And so we'll offload all of
+that and if people are happy just
+listening to the stuff that's now easy,
+right,
+then yeah, it's a problem solved and
+we'll be able to generate lots of it.
+But then what people tend to do is go
+look for something else hard, right?
+It's like the drum machine argument. So
+you solved the you solved the metronomic
+you've solve you've solved the
+metronomic you know beat problem and
+then what you actually find is that
+artists who are really good at this they
+play off of it and they're allowed like
+when they sing to do many more like
+rhythmical things than they could do
+before cuz now they have this this
+scaffolding they didn't have to work
+with before
+they just constantly break it right as
+soon as you distorted the electric
+guitar.
+But I hope that's an honest answer to
+your question. I mean your question was
+a different flavor. It's like hey are we
+really moving towards a world where
+we're going to generate the perfect pop
+song? M
+um
+yeah, I don't know. I don't think so. I
+mean,
+I don't feel like that's going to
+happen. Um but, you know, maybe it
+happens so quickly and then as soon as
+we realize like, okay, this is how we're
+going to break it. This is how we're
+going to retrain ourselves. Yeah.
+It can learn so fast that it's like,
+okay, now I can do that, too.
+Yeah, that's nice.
+Then I can do that, too. Um, so then uh
+one of like
+what I was wondering is there like in in
+you know the next like handful of years
+is there like a holy grail that you're
+working toward uh for Magenta like okay
+now we've hit it like this is the
+benchmark that we're going for.
+There are a couple of um there are a
+couple of things I'd love to do. Um, I
+think I think compo composing creating
+long form pieces,
+okay?
+Whether they're whether they're music or
+art, I think is is something we want to
+do. And this hints at this idea of like
+not just having these things that make
+sense at like 20 seconds of music time,
+but actually say something more. that
+that direction is really interesting
+because I think that not only so let's
+face it that would be at least more
+interesting if you push the button and
+listen to it but also this this leads to
+like
+tools where composers can offload very
+interesting things
+like some people some people I'm one of
+these people I'm really obsessed with
+like expressive timing I'm really
+obsessed with musical texture
+okay I I don't know what that is
+oh no I just mean like um let's say
+you're playing the piano in the in the
+gray art face or the grace talk. You
+were contrasting the piano play.
+Yeah, you did your homework. Yeah,
+exactly. I just watch a bunch of YouTube
+videos.
+So, you know, you know, if you listen to
+someone play Wallace, it'll have a
+little l to it. Or like
+some of my favorite musicians like
+Theonius Monk, if you're familiar, if
+you're not familiar with Theonius Monk
+Homework, go listen to him. He played
+piano with a very, very specific style
+that almost sounded lurching sometimes.
+It was very, he really cared about time
+in a way. And and so like if you if the
+way that you're thinking about music and
+composition is really really caring
+about kind of local stuff, right? Be
+very very interesting if you had a model
+that would handle for you some of the
+decisions that you would make for longer
+time scale things like like when do
+chord changes happen, right? So like
+usually it's the other way around. You
+have these AI, you know, machine
+learning models can handle local
+texture, but you have to have to decide
+that. So um yeah, my point is if we get
+to models that can handle longer
+structure and nested structure, we'll
+have a lot more ways in which we can
+decide what we want to work on versus
+what we we have the the the machine help
+us with. Right.
+And has this now um has it affected your
+creative work or or do you still do like
+creative like composition?
+Yeah, so the I I'm I'm working here at
+Google and you know this is like a coal
+mine of work to do this project magenta
+like every day. No, joking aside. Um,
+yeah, as we're
+Yeah. Plus two kids. Plus two kids.
+Yeah. No, I basically I've been using
+music as a as more of like a catharsis
+relaxation thing. I don't I don't feel
+like personally I've done anything um
+recently that I would consider like
+creative of a level that I want to share
+with someone else. It's been more like
+jamming with friends or like, you know,
+just like throwaway compositions,
+jamming like here's 10 chords that sound
+good. Let's jam over it for the evening
+and then like don't even remember the
+next day. Um, and really trying hard to
+understand this creative coding thing.
+Like that's something else I've worked
+on. A lot of it's just like I'll start
+and then I'll get distracted. Um but uh
+yeah, so that's sort of the level of my
+creative output, I'm afraid.
+Well, the creative coding thing, it's
+seemingly I don't know. So many people
+are looking for it in every venue and
+it's so difficult to find people.
+They're just kind of like one-offs now.
+Yeah, I think that's right. It's so it's
+so hard to have the right I think maybe,
+you know, maybe we need the garage band
+of this. It's like, you know, we need to
+have like something that's so well put
+together that it makes it easy for a
+whole generation of people to jump in
+and try this even if they haven't had,
+you know,
+like four four or five years of Python
+experience or something.
+I didn't know if that's what you were
+alluding to when you were saying that,
+you know, command line obviously not the
+way to do it where it dumps many files,
+but now it's an it's an API, right? And
+like what what is the next step? That's
+very obvious.
+Try to make it try to make it more
+usable and more more expressive, right?
+Expressivity is hard in an API, right?
+you know, it's like it's so hard to get
+it right and I think it's almost always
+multiple passes. So, um, we've got, um,
+I think the API, the core API that
+allows us to move music around in real
+time in MIDI and actually have a
+meaningful conversation between an AI
+model and and multiple musicians is
+there and there's just a bunch more
+thinking that needs to happen, right, to
+get it right.
+Cool. So, if if someone wants to become
+a creative coder or wants to learn more
+about you guys, what what would you
+advise them to check out? So I would I
+would say the the call to action for us
+is to visit visit our site. The shortest
+URL is g.comagenta.
+Okay.
+Interest. It's also
+magenta.tensorflow.org.
+We can link it all up.
+G.Core. And and like have a look at um
+we have some open issues. We have um we
+have a bunch of code that you can like
+install on your computer and and hope
+you can make work and maybe you will be
+able to.
+Um
+and you know we we you know we want
+feedback. We have a pretty active and we
+certainly follow our discussion list
+closely and um our game for
+philosophical discussions and our game
+for um technical discussions and uh you
+know beyond that we just we're just kind
+of keeping rolling like we're just going
+to try to keep keep doing research and
+keep trying to build this community.
+Okay, great. Thanks man.
+Sure. No, it's fun.

@@ -1,0 +1,752 @@
+Title: Recall.ai: Unlocking the World’s Conversations
+Video ID: IGXKIL57uwc
+URL: https://www.youtube.com/watch?v=IGXKIL57uwc
+Channel: YC Root Access
+Published: 2025-09-10T15:00:29Z
+Duration: PT26M43S
+Views: 2958
+Likes: 67
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 729
+
+Description:
+Recall.ai is building the fundamental data layer for AI — the API that powers meeting and conversation recording across Zoom, Teams, Meet, phone calls, and more. Fresh off raising $38M in Series B funding at a $250M valuation, Recall.ai is cementing its role as the infrastructure every AI company needs.
+
+With less than 30 employees, they’re running infrastructure at massive scale: powering over 1,000 companies, handling three terabytes per second of video, and reaching nearly $20M in ARR. 
+
+In t
+
+============================================================
+TRANSCRIPT
+============================================================
+
+[Music]
+I am excited to welcome David from
+Recall AI who's joining me today uh
+fresh off the announcement of a huge
+series B. So David, thank you for
+joining.
+>> Thank you Erin. It's great to be here.
+>> You have an incredible story that I'm
+excited for everybody to be able to hear
+and I think there's a lot of uh really
+interesting lessons to take from it.
+Maybe first, why don't you give people
+an overview what is recall.ai AI and
+give us like the current state of the
+business of course. So recall is the API
+for meeting recording. We make it easy
+for developers to capture real time
+audio and video from Zoom Teams, Google
+Meet, in-person conversations, phone
+calls, all these different sources of
+conversation data. So we're the
+infrastructure layer that over a
+thousand companies uses to tap into this
+data set. And we are today nearly at 20
+million in revenue with a team of less
+than 30 people. Uh we run this
+infrastructure at massive scale. Uh and
+we power over a thousand companies in
+the space. So we're launching 8 million
+EC2 instances every month. We're
+processing 3 terabytes per second of raw
+video at peak load every single day. Uh
+and it's just been a lot of fun. Uh it's
+been a great part being a infrastructure
+component in over a thousand great AI
+companies. And I I think what's even
+more interesting is like you're doing it
+with not very many people, right?
+>> That is correct. So we are a team of
+less than 30 in total primarily in SF uh
+in person SF. But it's been really
+exciting because uh we're just running
+this infrastructure at such large scale.
+We're larger than 99.999%
+of companies on AWS and we are just
+getting started. I mean, we've grown our
+raw usage over 10x uh in the last 18
+months, and we're going to grow another
+10x in the next 18 months, and that's
+just going to be uh just a super
+exciting engineering problem and a super
+exciting space to be in.
+>> Yeah. Amazing. Okay. So, it didn't start
+like that though. You went through a lot
+of stuff in the early days getting it to
+this point. So, why don't you tell us
+about the early days of just getting
+this started? And um my first
+interaction was with you was you
+actually won a YC hackathon. I think
+this was in 2019 that guaranteed you an
+interview at YC, right? I think you were
+like 19 years old. Is that right?
+>> I was 19 years old. I was studying at
+the University of Wateroo. I was
+studying software engineering there. And
+when I was in high school, I had done a
+lot of hackathons. Uh and when I heard
+YC had a hackathon, I was like, "This is
+amazing. Uh I should do this." At the
+time, I had done one internship. I had
+some money saved up. Uh so I spent all
+of my cash on a flight to Mountain View
+uh to go and attend this hackathon. Uh
+and we're there and we built a thing and
+we presented it and I remember I was up
+there on stage and Michael Cyel was
+grilling me with questions about how is
+this going to be a viable business and I
+was like this is really cool. Um and we
+ended up uh winning that hackathon and
+getting this interview and that was not
+actually what I expected. I didn't
+expect to win. I was like, I'm going to
+go and do this YC hackathon. I'm going
+to have a lot of fun. Um, but we ended
+up winning and that uh turned my plans
+and schedules on its head. Uh, because I
+knew I wanted to start a startup. That's
+the reason I was studying software
+engineering. That's the reason I was uh
+at Waterlue, but I didn't think I'd get
+a YC interview so soon. Uh, so we had uh
+this was in November, I believe. And
+then we had the interview scheduled in 3
+weeks and I took all of my plans and I
+threw them out the window and I spent
+those three weeks working on getting
+that hackathon project into YC interview
+ready shape. Uh so we went to all the
+people we knew across campus and we
+tried to sell them a $20 a month license
+for this thing so we could have some
+users. Uh we spent all night just
+writing code and trying to get the thing
+to work and uh get enough features so we
+could start selling it to these folks.
+And when the interview actually rolled
+around, it was scheduled uh the week of
+my exams. So at Waterlue, I was taking
+six courses. I had six exams that week,
+two on Monday, two on Tuesday, and two
+on Wednesday. Remember the interview was
+on Tuesday in person in Mountain View.
+And I was going to school in Canada. I
+didn't go to any of my exams. I put
+another flight on the credit card and I
+went and interviewed uh for the Y
+cominator batch in Mountain View in
+person. Uh skipped out on all the exams.
+Thankfully, we got in uh and I joined
+the winner 20 batch uh about two or 3
+weeks later.
+>> Yeah, I I remember it very vividly
+actually uh the interview with you. Um
+you had a different co-founder at the
+time.
+>> Yeah. Um, and then I think you had a
+different co-founder during the batch
+and you have uh now your long-term
+co-founder um Amanda who joined um
+shortly after the batch ended. Talk
+about, you know, what it was like
+working with different people um
+throughout that process and what signals
+you saw that told you that maybe one
+co-founder wasn't working and then the
+signals that you saw that ultimately
+convinced you that you know the
+relationship with Amanda was the right
+thing. I mean, all of the people that I
+worked with, I have deep respect for,
+and they've gone on to do great things.
+Uh, and they've gone on to accomplish a
+lot. I think the first time around, the
+thing that was just really tough was
+doing YC meant leaving college, and
+that's a big decision. I think it's
+become more popular nowadays for people
+to leave college early. Uh, I think I'm
+atypical amongst the dropouts that I
+actually liked college a lot. Uh, and a
+lot of the friends that I had were quite
+studious and took it quite seriously.
+And um I think the original person I I
+did the interview with who I won the
+hackathon with just didn't want to leave
+college uh because that was uh not the
+path that he wanted to set his life
+down. And I respect that and he's gone
+on to do great things. I ended up
+working with a different friend uh
+during the batch uh and we worked on
+this thing. We uh tried to get in good
+shape uh and then this was 2020 and co
+hit. uh the world got turned on its head
+and I think this other friend of mine
+looked around and said well all this
+crazy stuff is happening I want to you
+know get my life and my career on a more
+stable track I'm going to go and leave
+this company uh I'm going to go back to
+waterlue it's going to be remote that's
+going to be fine uh and he's again gone
+on to do great things and uh you know
+he's he's doing well nowadays but
+there's a period of time in the middle
+where I was a solo founder for maybe
+three or four or five months. And I
+think the discussion with Amanda on
+joining the company full-time. She had
+helped us with uh getting some stuff put
+together, building uh some materials for
+the first product we shipped, putting
+the website, getting that zero to one,
+uh doing some of the design for it. And
+I think a big part of the decision in
+the conversation is actually getting
+aligned on what is the reason we are
+doing this startup? What is the reason
+we are working on this thing together?
+and what is the level of commitment
+we'll have to it? Uh what are we going
+to do when uh things are not going as
+planned? And I think having a really
+clear idea of that of like the reason
+we're building this thing is we want to
+build a great software company. If
+things aren't going as planned, that is
+the natural state of a startup. If
+things are going as planned, that's
+amazing and you should celebrate it, but
+you shouldn't expect that. And we are
+going to keep working on this thing
+until it works. Uh I think that was a
+very important uh agreement to come to.
+>> Yeah, one of the questions I ask
+co-founders that have recently met each
+other is what's the most difficult
+conversation you've had with each other
+so far.
+>> And so yeah, you're right. Like the
+steady state is lots of things going
+wrong and there's a lot that you're
+going to have to work through together,
+a lot of, you know, conflict and, you
+know, not there's anything wrong with
+that. That's just the steady state of
+things.
+>> Talk about um your first fund raise. You
+know, this was the early days. you were
+not working uh on this product I believe
+right and so talk a little bit about
+what that was like and and what you had
+to go through there to get that done so
+the journey to building recall is that
+in 2020 Amanda and I first started by
+building a call recorder so this was
+prelims this was very early days of
+video conferencing being a wide popular
+thing uh for the general tech group of
+people And we built this call recorder
+because well in the past we had done a
+ton of user research and we ended up uh
+having pages and pages of notes,
+gigabytes and gigabytes of recordings uh
+but it was really hard to work uh with
+this content. So we built this recorder
+and we ran that product for nearly 3
+years. Over those 3 years uh we got
+really good at running that
+infrastructure. We ended up spending 70
+or 80% of all our engineering effort on
+the infrastructure. And that's not
+because we wanted to. It's because we
+had to. Uh the infrastructure to record
+that data was just so critical because
+if it went down for even a moment, uh
+our customers would lose critical
+recordings that they could never get
+back. So reliability and stability and
+scalability, that was just so important
+to our customers uh that we spent an
+enormous amount of time on that. At the
+same time, what was going on was large
+language models were evolving at a
+frightening pace. I remember the first
+version of chat GPT. Uh you would talk
+to it and it would give you back
+something semi-coherent and within 9
+months you were getting something which
+you could you could talk to and it would
+sort of resemble a human and nine months
+after that it was genuinely really good.
+And we're seeing all these companies
+building new products on top of
+unstructured conversation data using
+large language models. LLM enabled these
+companies to build products that 18
+months ago would have been magic. It
+would have been beyond the frontier of
+AI research. And we realized we have
+really good infrastructure that every
+single one of these companies needs. So
+we pivoted to recall. We took the
+infrastructure we built and we started
+selling it as an API. And when we first
+started doing that, we pivoted in
+February of 2022. Before that, we had
+tried to raise around uh we actually
+deferred demo day and we tried to raise
+around for this call recorder and that
+didn't go well. Uh we spent 4 months uh
+that first time uh raising and we raised
+about 160k for that call recording
+product. And when we raised the first
+round for recall, that was also not
+easy. Uh we spent maybe eight or nine
+months fundraising total. And we had no
+connections. We were two uh random
+people uh living in Canada. COVID was
+happening. Everything was shut down. And
+I talked to over
+120 investors for that seed round. We
+raised about 2 and a.5 million. And
+every single one of those investors, we
+had to get an intro to them from another
+founder. So we sent over a thousand
+emails to founders handwritten over the
+course of eight or nine months uh to get
+these 120 meetings that ended up being
+uh maybe around 10 investments and those
+investors did very very well. Um but it
+was an enormous amount of effort in the
+early days uh to get this thing off the
+ground.
+>> Yeah. I mean that's crazy. I think most
+founders maybe don't appreciate the
+level of perseverance that is required
+and I think your story embodies that.
+your first round you went out you spent
+four months and how much did you raise
+100
+>> 160k
+>> 160k for four months three months in
+me most people would have given up and
+said well you know nobody wants this or
+whatever and maybe I should just get
+back to work or something and you
+refused and you kept going until you
+were able to raise a little bit of money
+that you know kept things going and then
+when you pivoted I mean you spent eight
+months raising to get your first seed
+round of $2 million dollars um at a time
+when you know most people go out for two
+weeks or something like that and if if
+they don't immediately have the money
+that they need then they turn back
+around. So, you know, that's one thing
+that always sticks with me about your
+story is just you refuse to give up and
+you just keep going at, you know,
+whatever the goal is. In these
+instances, it was fundraising, but also
+in building your product and and making
+that grow. And so, talk about um you had
+built this infrastructure for yourself.
+You'd raised a seed round. Now, you
+know, what convinced you that you were
+actually on the right track in building
+this infrastructure for everybody else?
+So the thing that convinced me that I
+was on the right track was that I knew
+at a very deep visceral level how hard
+this problem was and how painful it was
+for the people running this
+infrastructure because I myself had ran
+this infrastructure in production at
+scale for 3 years. I was the one on
+call. I was the one responding to the
+angry customers. I was the one updating
+the infrastructure when we scaled to new
+levels that our previous infrastructure
+couldn't support and I just had this
+very deep conviction that this was a
+real problem because I had lived it uh
+for so long for the
+five or six month period after we
+launched that call recording product way
+back in 2020. I actually had nightmares
+about the infrastructure for five or six
+months. Uh, and these are these are
+literal nightmares. Like I wake up in
+the middle of the night uh dreaming that
+I got paged.
+>> Uh, so I knew this was a hard problem.
+Uh, and I knew that despite what uh
+anyone would say that this was real and
+uh this was something that needed to be
+solved.
+>> It makes it easier to find customers too
+because you just have to find people
+that look like you at the time, right? M
+we knew a lot about the space going in
+because we had been in that space and
+vigorously competed for 3 years. So we
+knew all of the other players and the
+first thing we did when we pivoted to
+this infrastructure product is we
+emailed all of our old competitors and
+we said hey you know us we're pivoting
+we're going to be infrastructure and let
+us take this off your hands. And the
+majority of people ignored us. They
+thought we were trying to uh you know
+pull some sort of competitive trick but
+there was a few people who were who who
+trusted us and said yes I don't want to
+deal with this take this off my hands
+and we helped them massively reduce the
+amount of engineering work they were
+wasting on this and it caught on the
+other competitors in the space saw their
+competitors moving faster because
+they're no longer burdened with this
+infrastructure and within a year or two
+after launching it just became standard
+to use something like recall to work
+with this data because everybody just
+saw how much faster you could move when
+you didn't have to build this yourself.
+>> You um are an engineer from Waterlue. Um
+had never done sales before and now
+you're selling to a lot of these really
+big customers that are paying you lots
+of money.
+>> Yeah.
+>> How did you learn to get good at sales?
+>> That's a great question and we're
+working with some fantastic customers
+today. Um, we're working with HubSpot,
+uh, with ClickUp, with monday.com,
+uh, a bunch of amazing companies and
+selling to these companies is not easy.
+Uh, they're great companies. Uh, they
+want to build new things, they want to
+innovate, but sales is a skill and it's
+a skill that you need to develop.
+Honestly, the way that we got good with
+sales was we just did a lot of it. So,
+the first $2 million in revenue uh that
+we closed was pure outbound and 100%
+done by Amanda, my co-founder, and we
+were on all these sales calls. I think a
+lot of engineers and engineeringminded
+founders have a weird idea of sales.
+They think it's some sort of black
+magic. They think it's manipulative, but
+that's not true at all. What sales is,
+uh, it's two things. It's the first part
+is showing someone the value of what
+you're building and explaining to them
+the value of what you're building in a
+clear and compelling way. And the second
+part of that, it's helping them navigate
+their own company process so they can
+get your solution out into the wild. And
+it's really just these two things. And
+uh it's not uh magic, it's not
+manipulative. You're helping someone
+realize the value of your product. It's
+just a critical part of delivering real
+value. Uh so we just did a lot of it. Uh
+we got good at it through repetition. Uh
+and I think anyone can do sales.
+>> Yeah, that's cool. Um what's interesting
+is, you know, sometimes founders have
+the instinct of like, well, I'm going to
+hire a head of sales or hire these sales
+reps or something. And it sounds like
+you guys are just like, "No, we're going
+to do it for a long time." Um and I
+think that's actually something that has
+been true throughout all of your
+company. Um, you have nearly 20 million
+in ARR as of, you know, August 2025
+here. U growing at an incredible rate,
+you know, year-over-year and we'll
+continue that growth over the next year
+and beyond. Um, and you you've done it
+all with how many employees do you have
+right now?
+>> Uh, less than 30.
+>> Less than 30 employees. The revenue per
+employee of that is like off the charts.
+Is that something that you think about?
+Do you want to intentionally be lean as
+you're growing this company? um or is
+that just you know what you've been
+forced to work with?
+>> I think the lesson that we've learned is
+that by hiring very smart, very driven
+people, you can go a very very long way.
+The reason that we have a very lean team
+is because our bar for talent is very
+high. We are in a deeply complex
+technical space. We are running
+infrastructure at the scales at which
+very few other companies in the world
+do. Our engineers also own a lot of the
+product. They make product decisions.
+They talk to customers. And when you're
+hiring this kind of person, which is
+they're a super good low-level systems
+programmer. They can talk to customers.
+They can be on sales calls. They can
+help close an enterprise deal. It's this
+very rare kind of person, but they can
+do so much. There's a lot of structure
+and process uh that you don't need. uh
+if you have a group of people you really
+trust and who can really handle not only
+the work in front of them but getting
+that outcome accomplished uh getting
+that new product out into the market uh
+getting that uh upset customer satisfied
+and delighted with the service. One of
+the things that's just been really
+amazing for us is hiring people who've
+been startup founders before. more than
+half of our engineering team uh has been
+previous startup founders
+>> and like a big part of that is really
+asking someone well what's the reason
+you're looking to join this company
+what's your motivation I think the thing
+that's worked really well for us is
+hiring people who want to push
+themselves who want to learn new things
+who see working at recall as an
+opportunity to achieve something great I
+think that's the kind of motivation that
+gets you excited about doing things
+outside your job description that gets
+you excited about learning about the
+customer. Uh that gets you excited about
+understanding uh how companies and sales
+and marketing and all of this stuff
+works. I think that's sort of the core
+of building a very high agency team is
+just people who can own these these big
+projects.
+>> Yeah, that's super interesting. It's
+almost like full stack employees or
+something. You don't want to just put
+people in the box of like you're just an
+engineer, you're just this or you're
+just that. Not only do you have the high
+bar to get in, but it sounds like you
+have the high bar of the expectations
+that you hold all of your employees to,
+which is you're not just responsible for
+just writing the code, you need to be
+talking to the customers, helping us
+close deals. Like it's a total package
+because when you can do that, it forces
+everybody to, you know, raise their own
+personal bar and and what they can
+accomplish. The thing that's gets harder
+as your company grows uh and Alexander
+Wang has written a great article about
+this uh but every persontoperson handoff
+you lose 90% of the information and 90%
+of the nuance and the other side of that
+is if you can have a single person who
+can do more than one thing if you can
+have an engineer who can uh not only
+write the code but also get customers to
+use that product or code that they've
+built. you've gained a massive amount of
+efficiency and you've gained a massive
+amount of quality because you're
+avoiding this 90% loss uh as you pass
+this work between people. It's like
+here's this rocket ship. There's a
+limited number of seats. We're going to
+ask you to do a lot though if you want a
+seat on this thing. What's next for for
+Recall.ai and where do you see the next
+couple years going? It's obviously an
+exciting time both in the industry, but
+it seems like you guys have a really uh
+interesting opportunity here in front of
+you. I mean, I feel like it's probably
+the most exciting time to be in
+technology in the in the history of
+humanity, which I feel grateful for. I
+think specifically with what we're
+working with, it's become just very very
+clear that every AI company is going to
+need conversations as a fundamental data
+set to feed their AI. Um, there's five
+times more words spoken at work every
+year than all the words on the entire
+internet. And if you think about any
+company, 99% of all the context in that
+company never gets written down. It's
+not in the docs. It's not in the issue
+tracker. It's in conversation from
+person to person. And AI needs that
+context to be effective. And what we're
+seeing is every AI company is tapping
+into conversations as a source of data.
+So we're working with now over a
+thousand companies in a wide variety of
+industries that are using this data to
+feed their models. And what's next for
+us is really expanding the surface area
+of the data we help people capture and
+expanding the ways we help them work
+with that data. So one of the new
+products we launched is a desktop
+recording SDK. So today we have a
+product that lets you send a bot into a
+meeting. Uh we have a new product that
+lets you record meetings and
+conversations without a bot. So, it's
+just a software package that you can
+integrate into a desktop app. It pulls
+the data from meetings happening on the
+person's computer. It can record
+meetings that that are happening
+ambiently in the room if you're doing
+inerson meetings. And this unlocks a
+whole new source of data for our
+customers. We're going to be building
+phone call recording as well, uh mobile
+recording, uh being able to store the
+data, query it, pre-process it. uh
+whenever you're working with
+conversation data, there's this huge
+amount of infrastructure that's attached
+to it and these SAS companies and AI
+companies shouldn't be building their
+this infrastructure. They should be
+focusing on the parts of their product
+that make them unique, that help them
+win in the market.
+>> Absolutely. It's it's easy, I think, for
+um people that don't really understand
+what you're doing to think of you as
+like a note-taking, you know, company,
+infrastructure company, but it's so much
+more than that. It's you're really this
+fundamental AI data layer that gives the
+context on all these conversations that
+is going to be required by every company
+of the future that wants to build
+anything meaningful. Like if you have a
+new employee join your company, right?
+It's not like they can read all of the
+documentation and then be fully
+effective. They have to spend three
+months talking to people.
+>> And AI is the same way. The AI can't
+just read all your docs and become
+effective. It needs to know all of the
+context passing human to human because
+that's where all the information inside
+an organization is actually stored.
+>> Absolutely. And you just raised a large
+round to go after this and and keep
+expanding. Talk a little bit about um
+you're hiring now. What roles are you
+looking for? And um you said a little
+bit about it earlier, but what types of
+people are you looking for to come and
+join the team?
+>> We are hiring across basically every
+role. So engineering, marketing, sales,
+product. The core of what we're looking
+for is high agency people uh and people
+who see working as a startup as an
+opportunity to push themselves and
+accomplish something great. I think
+we're in a really unique position where
+we're the fundamental infrastructure
+layer for this new wave of AI companies
+that's freeing up. Uh it means that we
+get to see a lot of the market. It means
+we get to see a lot of the advances 6
+months 9 months before they uh get
+publicly released. Uh it also means the
+standards uh are super high. We are
+critical infrastructure for companies
+that are 10, 100 or a thousand times
+larger than us by headcounter by
+revenue. So it's a really intense uh
+sort of responsibility to have as a
+company. Um but I think the outcome of
+that is it's a place where we can do
+really great work and it's a place where
+we can be a fundamental contributor to
+the next generation of software. So,
+what would your advice be to founders
+that are just starting out now based on
+your experience?
+>> My advice would be don't give up.
+It's interesting and nuanced advice
+because
+I think the first layer of it is well,
+if you give up, you can't succeed. That
+one's obvious, but I think the layer
+underneath is that what I experienced is
+that when I first started a company, I
+was doing 20 things wrong. And to see
+success, you have to do all of these
+things right. And it just takes time to
+learn about your space, to build your
+skills, uh to meet people, to develop
+connections, to understand all of these
+things. It takes time to be at a place
+where you can run a very successful and
+fast growing company. I think lots of
+people give up before they get there. So
+my advice would be don't give up. Uh
+stick through it. And one adjacent piece
+to that is uh I think it takes maybe at
+least a year to know whether a product
+is going to be successful or not. And
+this is something that I didn't expect.
+Uh I thought that you'd build a product,
+you'd launch it into the market and then
+3 months later you'd know is this thing
+going to succeed or not. Um but I think
+after what I've experienced, it takes at
+least a year.
+>> Yeah, it's interesting. You know, when I
+first uh started working here at YC, uh
+I used to think if founders hadn't
+figured it out and it wasn't on this
+crazy trajectory by demo day, like man,
+they were in trouble. And I've since
+learned that that's actually the very
+rare thing. And the much more common
+thing is that it actually takes, you
+know, one to two years, sometimes even
+longer after the batch
+>> to really get things working. And it's
+just a lot of lead bullets every single
+day, one foot in front of the other and
+sticking with it, you know, to your
+point to figure it out. And I think your
+story has embodied that. David, thank
+you for joining.
+>> Thank you, Erin. It's been great being
+here.
+[Music]

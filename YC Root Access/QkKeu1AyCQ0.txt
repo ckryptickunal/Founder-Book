@@ -1,0 +1,726 @@
+Video ID: QkKeu1AyCQ0
+URL: https://www.youtube.com/watch?v=QkKeu1AyCQ0
+Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 719
+============================================================
+
+I think AI is a big reset, right? I feel
+that like uh it's going to be the next
+20 years is going to be about AI. It's
+just we're just getting started. I tell
+people that this is Bitcoin and dollar
+one right now. And so you should just be
+bold and and you know uh find a problem
+that you really like and just go go all
+in.
+>> Today I'm joined by Mukund and Madav Ja,
+the founders of Emergent. Emergent
+recently announced a crazy 15 million
+error just 3 months after launch. Before
+diving into that story, let's get to
+learn about Emergent. Can you tell us
+more about what Emergent is doing?
+>> Great to be here. Uh Emergent is an AI
+app builder. Uh we allow anybody uh
+without any programming knowledge to
+come on our app and build a mobile app,
+web apps, websites with zero coding
+knowledge. You come in, you prompt and
+you get a full production ready uh
+launchable apps. would just describe
+what they want to do.
+>> Yeah. They just come in, describe,
+>> you create the app.
+>> Yes. Yes.
+>> Awesome. And can you tell us a little
+bit more of your scale? So we know 15 in
+3 months. So we launched 3 months back
+and have been growing pretty rapidly.
+Probably one of the fastest growing uh
+AI startups right now in the world. Um
+and we uh in 3 months we have like
+roughly 1.7 million users on the
+platform. More than 2 and a half million
+apps have been built uh on the platform
+already. And uh
+>> that's insane. Actually live like in
+prod used every day. Yeah, I mean I
+think we we don't have a good track
+because a lot of people also deploy
+outside of our platform. We allow them
+to deploy on our platform, but roughly
+20 30% people are able to deploy their
+apps on the platform today.
+>> That's awesome. Tell me more about like
+how did you come up with that idea? Like
+you were two brothers, right?
+>> Yeah. Yeah. So we are twin brothers. We
+actually uh got started. We came to US
+to do our PhDs. Uh and then I dropped
+out of the PhD program. Joined
+>> and you went back to India.
+>> Yeah. I joined Google then went back to
+India. Started a company called Danzo
+which was one of the pioneers in quick
+commerce in the country. And that was
+really Jack. How many employees did you
+have?
+>> We had like big company like 3,000
+employees but like 80,000 delivery
+people on the ground. Um yeah and uh so
+September 23 is when I left uh Danzo
+came back to us. Uh spent some time with
+Maddie and we were thinking what to do
+and and that's when sort of you know we
+sort of emerged and Maddie
+>> I finished my PhD in computer science
+and then moved to the west coast and uh
+got the breeze of the west coast for for
+doing startups. So joined Zeness as an
+early employee and saw the rise and fall
+of Zen to some extent.
+>> Yeah. And then uh went and joined Amazon
+uh was part of the their deep learning
+platform team built their SageMaker
+platform and yeah like uh last year me
+and Moken connected and so we we we've
+been wanting to do a startup for a long
+time. It just happens.
+>> How is it to build together like as
+brothers? Like is it a good thing or a
+lot of fun?
+>> How much tension?
+>> We are very tight. We are very tight as
+twins. uh we are very close and uh yeah
+>> I mean we we have spent hours just
+chatting about ideas like every time we
+get free we'll call each other and say
+hey I have a new idea and uh
+>> it's more like a dream come true then
+>> totally totally it's fine and you know
+like we've been meaning to do something
+together for a long time and finally we
+got a chance and uh I think the best
+part is that you know like we
+in most meetings it's just either one of
+us need to be there and because we we
+sort of you know know each other really
+well so there's very high trust
+>> and so let's go more on the idea itself
+because you did y in summer 24, right? A
+little over a year ago.
+>> Uh but you didn't start with this idea,
+right?
+>> Tell us more about like the the journey
+here,
+>> right? So when we came to IC, our first
+idea was uh that we wanted to build
+testing agents which will actually go
+and test your web app, mobile app. We
+thought browsing agents were getting
+really good and can people just in
+natural language prompt what they want
+to test and you know our agents would go
+in and and test that
+>> and from the beginning we had this very
+uh strong belief that you know the AI
+exponentially is going to continue and
+you'll have a lot more autonomy uh in
+agents coming on so even though at that
+point like co-pilots were like the
+popular trend a lot of people were
+building co-pilots we were very focused
+on building agents which can do long
+horizon task um and when we started like
+we there were two three things that
+happened one like we built out the
+entire tech and we realized that um the
+general coding agent is much bigger
+problem uh to solve and we were a lot
+more excited by we felt that was a more
+ambitious idea that that felt like
+>> I remember like felt like that kind of
+like when you were were speaking back
+then.
+>> Yeah, I think we went back and forth on
+multiple things and and and frankly we
+were still trying to find our way you
+know NYC when we were there to to to see
+what would work for us
+>> and we felt that general coding is much
+more ambitious idea with sort of you
+know something that people will be
+excited about the next 20 years
+building. uh but then you you focused on
+more the enterprise market for a while.
+>> Yeah. Initially our focus was enterprise
+market. So we built uh one of the
+world's best coding agent at that point.
+Uh this is this benchmark called
+Swebench and I remember texting you that
+hey we we we we are on number one on
+that benchmark now. So we attempted that
+benchmark. It took us like about a month
+month and a half to uh you know crack
+that and become number one in the world
+on that benchmark. And and during that
+phase like I think we did a lot of like
+uh research work between me and Maddie
+to sort of really figure out what would
+work in agent. How do you build long
+>> I mean even with an API access it's
+there's a lot of things that goes behind
+making those API access work for you in
+in an agentic manner like so you want
+the agent to have very auton autonomous
+work and so one of the insights early
+insights we had was that u you want to
+give agent feedback and a very tight
+feedback loop and so that was one of the
+genesis of emergent where we built all
+our infra inhouse right so uh the entire
+uh infrastructure be it like database
+back end everything like is built
+inhouse and uh that ensures we a very
+tight feedback loop with the agent and
+uh we did bunch of other things around
+agents like being making making it multi
+multi- agent tech and and things like
+that.
+>> So you were building all of that first
+for QA then for enterprise
+>> and by the time you went to consumers
+like kind of more of a consumerf facing.
+>> Yeah. So we went to we went we went to
+an enterprise and and found the feedback
+cycle to be really slow and I think in
+the in heart like we are very consumer
+as a as a as a you know like
+personalities having been a consumer
+company before. Yeah, Denzo was pure.
+was pure consumer company and uh so it
+felt like you know like we were getting
+too tied up in in you know like
+enterprise cycle and um and and we were
+internally building a lot of apps using
+emergent already right and so we thought
+okay you know like why why not just go
+to
+>> they were like what you did for one year
+before launch is kind of what made you
+successful once you launch kind of like
+you were more ready than ever
+>> very much I think I think the foundation
+that we were able to set in the first
+like 9 months of you know like just pure
+research around agents uh and uh really
+got us, you know, like u really into the
+problem and and helped us understand
+like how to build really good high
+quality agents and and that's what's
+driving a lot of our growth today like
+when people come to the platform and
+they can see the difference between
+other platforms that we're able to build
+better apps.
+>> That's cool. So let's speak about the
+product then uh like so after someone
+writes a prompt what does happen in the
+like from the time they click enter
+right
+>> what does the product do?
+>> Yeah. Yeah. So behind the scenes as soon
+as you enter the prompt right like we
+spin up a devbox kind of environment
+which is a virtual machine uh in the
+cloud for for the agent. So the
+hypothesis is that agent should
+basically get a same set of uh
+environment as as a developer would get
+right and uh in that environment agent
+is able to install libraries you know uh
+write code and then like anytime it runs
+some some some like let's say write some
+files we automatically run some lint
+passes around it and give feedback to
+it. Um and and so I mean actually I
+skipped the step where like we we do uh
+first understand what the what the human
+wants right cuz people come from all
+walks of life and so we first have to
+like do so one of the unique things we
+do is we first interact with the
+>> so you actually have like some
+conversation before actually starting
+>> before starting and also based on the
+conversation we realized where to route
+the right uh request right it may be
+that this person is mostly interested in
+a pure front end side of things or this
+person is more interested in uh you know
+like via mobile apps or or any of those
+things.
+>> So, so today you are able to do both
+kind of like a web app, a mobile app,
+like different kind of
+>> Yeah, we are the only coding platform
+that supports web, mobile back end,
+everything integrated in one place
+today.
+>> And so you're going to root towards the
+right agent. It's different agents if
+you have the tasks.
+>> Yes.
+>> I mean there is a lot of vibe coding
+tools out there. How do you do you
+differentiate from them? Like what do
+you do differently?
+>> Yeah. So I think the way we
+differentiate is that most uh platforms
+today like help you get a good
+prototype, right? So they'll help you
+get uh front-end code really well and
+and and our sort of goal has always been
+to take a user from an idea to a
+launched app that they can get usage on,
+get monetization done on that. And
+because we have we have tightly coupled
+the infrastructure and and
+state-of-the-art coding agent and the
+product like we have tightly built these
+things together, the overall experience
+of building the overall quality of the
+app building is is much higher on the
+platform because we have all the
+feedback loops tied up. We don't depend
+on third party for your backend
+databases and that allows us to build
+really high quality apps on the platform
+>> and and do you do anything differently
+like to get to that level of production
+readiness?
+>> Yeah. So so I mean at the heart of it is
+is a multi- aent architecture that we
+have built like where different
+specialized agent will come in and
+>> including testing
+>> including test. So we we do autonomous
+testing for you. We have a design agent
+that will come and design your app for
+you. We have a security agent when
+before deploying it'll do security
+checks for you and and then there's a
+deploying agent which will convert all
+of your build steps into you know
+infrastructure as a code and deploy them
+into uh into our cluster and and that
+really uh gives like a very like unified
+experience to to people to sort of you
+know build complex apps today.
+>> What would be the limits today kind of
+like
+>> yeah so today like I mean typical I mean
+line of code is a bad metric but uh you
+know that's one one metric of
+complexity. So today like we typically
+see the apps build roughly 35,000 40,000
+2,000 line of code. Most of the other
+platforms sort of cap out at like 10,000
+line of code.
+>> So you think you are going beyond those
+platform but you still have a cap.
+>> Yeah big yeah 100,000 to 100,000 line of
+code is where you know platforms but we
+are expecting as we add more platform uh
+improvements um as the models improve
+like we expect this the ceiling to keep
+going up. So what initially it was just
+kind of small apps toys already today
+it's kind of like full-fledged app more
+you could go even beyond that.
+>> True. True.
+>> Do you have like maybe any favorite apps
+you can tell us about?
+>> Yeah. So I mean lots of apps like I
+think when we talk to users this is one
+thing that we do a lot is is speak to a
+lot of our users and understand what
+they're trying to build and where
+they're struggling and and that's what
+drives our road map. Um there was this
+uh microbiologist uh who had this
+problem for 10 years that she uh
+whenever she had an audio book and she
+didn't like the narrator, she couldn't
+finish the book. So she built this
+entirely completely new experience of
+audiobook where she can import a book,
+select different uh narrators from 11
+Labs uh voice and then export a
+completely new experience on the
+platform. There's this jewelry owner um
+and she had this problem where whenever
+somebody would walk into the store to uh
+ask for a jewelry repair, she had to
+flip through manual books to figure out
+the pricing. She built this AI pricing
+engine where she just takes a photo and
+and it tells her what the price is. Um
+we had this gardener who built this
+entire SAS app to manage admin user and
+gardener for job allocation realtime
+location tracking. Um so I think what
+what's what we are really enabling today
+is like uh entrepreneurs who want to
+start a new idea. Uh that's that's one
+category that we see a lot and small
+business owners who want to digitize
+their business solve a problem and we
+think the software like need is very
+personal like everybody has a very
+personal need for software and and we
+today allow them to build that.
+>> So like anyone who had a niche to solve
+a problem one day.
+>> Yes. Now is the time.
+>> Yeah. We think you know when we launched
+we thought like our product is going to
+be largely used by semi-technical people
+PMs designers but what what we were
+surprised to see is that all walks of
+life uh you know and a lot lot of
+business people a lot of like first-
+time entrepreneurs are using us uh today
+>> yeah today I was talking to some like a
+couple of people who are in Spain and
+they are filmmakers and they are using
+our platform for like last 3 four months
+and they've built a because they're arts
+artsy people they can bring their arts
+and to it and like the the website that
+comes out is phenomenal like we we
+looked at the website and we were like
+how did they build this right and they
+have no technical like coding background
+and uh yeah pretty amazing to see
+>> that's cool how often do you speak with
+users like you have so many you cannot
+speak to all of them
+>> uh no we we don't I mean we we generally
+like I mean we do a lot of support
+support ourselves right so I mean
+whenever we see a supporting
+>> speaking with these users like the more
+the most demanding one is probably
+>> most demanding one something that
+catches our eye you know and like and
+people are very kind on on Twitter as
+>> I remember the first week we launched
+like I was just stuck to my computer
+answering support tickets uh for for the
+first you know speak and and
+>> maybe let's speak about launching here
+because uh I mean you got that crazy
+goals in just a few months like uh and I
+think you started with an invite only
+period right can you tell us more about
+how you approached launching?
+>> Yeah. So I think we when um when we were
+about to launch uh just before we we ran
+like a very small alpha right and uh
+just to test the product out very small
+>> very small like 50 people 100 people
+initially very initially and
+>> and um because we knew internally that
+that product was working and we could we
+could test it against other uh platforms
+out there and and so we wanted to just
+you know get add things out but one of
+the things that we realized very early
+on was that um it's a very crowded
+market like we are late entry into a
+crowded space even though we have a
+superior product like we need to stand
+out and and get the word out. Um so I
+mean just before launch like 4 weeks
+before launch we had like no growth
+people in the team zero idea of how to
+market things and then uh in four weeks
+we educated ourselves like how do we
+sort of you know really really uh you
+know get the word out and
+>> tell us more like what did you do?
+>> Yeah. So we realized that influencer
+marketing is is one of the uh you know
+like in social media is something that
+is really powerful for for us to get the
+word out. Um so first we um ran a beta
+beta program um and partnered with a
+bunch of influencers and and gave them
+invite code which helped us track them
+back in in terms of performance and um
+>> so people could not sign up by
+themselves just yet. Yes, that's through
+the invite code of the influencer they
+could get access to.
+>> They could access the platform. So we
+see so we partnered with them. We first
+figured out who are the best
+influencers. We figured out like like
+what does Tik Tok algorithm want? What
+does Twitter algorithm want? What does
+Instagram algorithm want? and and
+figured out like how do we create
+content that would resonate with uh
+their audience, resonate with the
+algorithms and and finally like when we
+launched we were able to get uh word out
+through these influencers initially and
+because we have this tracking built in
+we were able to track like which content
+is converting better, which influencers
+are converting better and then once we
+open up the public u you know indeper
+the influencer had you could see like
+how much of that would convert based on
+the code.
+>> Yes. Yes. And and that sort of that
+allowed us to initially get I mean most
+of the time like people spray and pray
+like and we were just methodical about
+tracking these data initially.
+>> What did that what kind of choices did
+you do after that?
+>> Yeah. So we so we understood which
+market what kind of content is going to
+work where and for example like one of
+the things we realized that if the
+influencer is building the content
+themselves for example like most people
+when when when we partner with them they
+um we ask them to build an app
+themselves on the platform and and and
+and obviously we get a lot of feedback
+but but the whole building journey is so
+exciting and and and and that connection
+with their audience. So that's what they
+kind of like share online with their
+audience.
+>> Right. Right. And for example like you
+know if we are you know partnering with
+a gaming a gaming uh influencer they
+will build a game right and then show it
+to their audience and that was the
+initial thing which which got us you
+know initial initial traction and then
+sort of word of mouth you know started
+to catch up and and and lot of the
+growth now is like organic.
+>> Do you still work with influencers
+today?
+>> We still do because one of the reason
+that another reason to sort of invest
+here is that we also want to build a
+distribution channel for the apps that
+are getting built on the platform. like
+we want to prioritize this and offer it
+to our uh builders, right? Because when
+they have a new idea,
+>> they have like some kind of like I don't
+know showcase of apps.
+>> We we do have a we haven't done a good
+job at it. We should uh and we will soon
+but uh but one of the reasons like
+strategically to invest in the this
+marketing thing is that we want to be
+able to build a marketing channel for
+the apps that are getting built on the
+platform as well. Yeah,
+>> that's awesome. By coding tools also
+attract a lot of uh like first app
+tourists like people who are going to
+just do an app and leave like how do you
+make sure you get a good retention? Uh
+so uh I mean we obviously I think there
+is a lot of appetite to to try out new
+apps and we see a lot of users come in
+you know like try something and and and
+uh move on and but I think what what we
+we are able to attract and retain is the
+serious builders people who really have
+an idea in their mind like entrepreneurs
+>> power users
+>> power users yeah so we we internally
+call them power users people who
+generally have longer prompts people who
+have a serious idea in their mind and
+they're able to build more on the
+platform their attention is is upward of
+like 85 90% on the platform. So that's
+the actual thing you are tracking.
+>> So we really care about the power user
+usage on the platform and they're
+driving a lot of revenue for us and and
+and uh and and their attention is pretty
+high because they're able to build app
+and
+>> so the long tail of like like what I
+call tourists doesn't really matter to
+you just focus on the retention of
+>> Yeah. So I think and and some of these
+tourists will also convert like you know
+but but but largely they focus on people
+who are like who really really want to
+launch an idea who have a use case in
+mind and we see like most of these
+people are like domain experts like who
+have had a problem that they personally
+resonate with or have seen or and a lot
+of our users uh tell us that hey I've
+gone to a dev shop gotten a code for the
+software I've gotten a code of $100,000
+to build this and I've come to emergent
+and in under $1,000 I've been able to
+build this.
+>> So they're serious about the app they
+want to build. They were nearly ready to
+pay someone to do it and then they
+realize they could do
+>> and they tell us that emergency steal
+for me because you know like
+>> uh
+>> you don't charge enough.
+>> That's uh speaking of money you also
+recently announced a big series with
+light speeded right. Yes. Like 23
+million. Uh when did that happen? Like
+did you have already a lot of traction
+when when you closed that round?
+>> Uh it it actually got closed pretty
+quickly like once we launched. uh
+>> like shortly after launch
+>> short two weeks from the launch like we
+were able to close that um and we I
+think at two two and a half three
+million error when we sort of raise that
+>> okay so there's like there was like some
+strong signal already that things were
+working really well
+>> yeah I think people tried our product
+and and and you know saw that our
+approach to to problem solving was very
+different than
+>> you mean the investors tried
+>> the investors yes and and uh
+>> that's good to have a product that
+people can sell sir
+>> I mean that's the best thing like you
+know like when people tell us we say go
+try the platform and you know so
+>> and you can also try the same prompted
+on multiple platforms and you you can
+easily tell, right? So, which one is
+working better?
+>> So, they're they're feeling like their
+appreciation of the product was pretty
+high.
+>> That's what you to raise easily.
+>> That's that's awesome. Uh what are you
+going to do with the money?
+>> Uh so, a lot of the investment is going
+to go in just building a world-class
+team. We already have, you know, a
+really really talent dense team, 12
+engineers right now. And and we're just
+12 engineers. 12 engineers and you're
+like over 15 million. That's pretty good
+numbers.
+>> Uh yeah and but we are now expanding the
+team like we we want to bring in top
+talent and and also a lot of the money
+is going to go into research that we
+want to really focus on building the
+worldass agent and of course on growing
+the platform. So maybe there's a message
+here like he may want.
+>> Yeah, I mean we are hiring uh we just
+opened an office in SF. Would love to
+you know meet people uh and we're hiring
+people in post training.
+>> Good engineers, researchers,
+>> engineers, researchers, marketing
+people, anybody who's creative in
+storytelling would love to connect.
+>> That's awesome. Good to know. Uh so
+what's next for the product? Like what
+do you think you're going to be able to
+do in the next six months or
+>> I mean there are a lot of things which
+are like already launched but we haven't
+like marketed it well. So for example,
+mobile is already out there. You can
+build mobile apps on our platform. uh
+it's kind kind of like a hidden secret
+on the platform because uh the mobile
+app that comes out of the platform also
+has a back end associated with it. So
+it's like functional out of the box. Um
+there are like multiple other things
+happening behind the scenes like custom
+agents.
+>> Yeah, we we have ability to build custom
+agents on the platform. So you can come
+and and and build uh agents that can do
+do your workflow. Uh and a lot of our
+investment is going to go into just
+perfecting the uh software engineering
+life cycle of the product. Like our core
+thesis is that uh I mean we look at our
+products just like if we were to
+prioritize the best engineering team in
+the world like what would that look like
+and and still we have a lot of loose
+pieces to to tie up. So a lot of our
+focus is on just quality of the platform
+going up.
+>> That's cool. So that's emergent. What do
+you think about the the market itself?
+Like where do you think we're going in
+the next like two years uh I mean a year
+ago none of that existed right?
+>> Yes. I mean I I mean I feel like
+there'll be a billion builders uh in in
+next couple of years and we'll see this
+new explosion of ideas on on the world.
+Great for YC because you know a lot of
+new entrepreneurs are going to come
+online and and and build great things
+and and I I think everybody has this
+desire they have an idea in their mind
+that they want to explore and and I
+think truly platform like ours enable
+them to uh you know break out.
+>> So any like parting advice for founders
+or aspiring founders? I mean firstly
+like try emergent because I think
+emergent could really help you
+accelerate your uh building from YC
+trying emergent right now. So like
+building their startups on on emergent.
+>> Yeah. But I think in general I would say
+like I think AI is a big reset right. I
+feel that like um it's going to be the
+next 20 years is going to be about AI.
+It's just we're just getting started. I
+tell people that this is Bitcoin and
+dollar one right now. And so you should
+just be bold and and you know uh find a
+problem that you really like and just go
+go all in.
+>> That's awesome. Mukun Madav, it was
+great to have you with us today. Thanks
+for sharing your story.
+>> Yeah, great to be here. Thank you.
+[Music]
+[Music]

@@ -1,0 +1,56 @@
+Title: How do OpenAI’s o1 and o3 models perform complex reasoning?
+Video ID: mUKkjMoKEdg
+URL: https://www.youtube.com/watch?v=mUKkjMoKEdg
+Channel: Y Combinator
+Published: 2025-01-03T20:41:19Z
+Duration: PT1M42S
+Views: 21512
+Likes: 671
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 40
+
+============================================================
+TRANSCRIPT
+============================================================
+
+if 01 is reasoning the question is how
+similar to how humans work through a
+complex problem it makes use of a chain
+of thought process to break down the
+question into smaller steps many of us
+have already used such a strategy when
+prompting earlier models like gbt 40
+telling it think step by step or take a
+breath and go line by line it'll work
+through the steps recognize its own
+mistakes tries to correct it tries
+different strategies and fine-tunes its
+approach as needed in other words it's
+not just spitting out answers it's
+working through problems in a way that
+mirrors human reasoning now people were
+already doing this since we already had
+a term for it chain of thoughts which
+came out in 2022 by Google brain
+researchers here's an example of chain
+of thoughts direct from the paper John
+has one pizza cut into eight equal
+slices John eats three slices and is
+friend eats two slices how many slices
+are left chain of thoughts will break
+this down first you'd ask it to identify
+the total number of slices the pizza is
+cut into eight equal slices then to
+calculate the number of slices eaten by
+John and his friend John eats three
+slices and his friends eat two slices
+finally subtract the total number of
+slices eaten from the original number of
+slices to find out how many are left
+that's three slices without chain of
+thoughts breaking it down into steps
+llms would just try to predict the most
+likely token and in any given request
+there often would be just not enough
+context

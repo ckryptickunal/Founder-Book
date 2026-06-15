@@ -1,0 +1,1536 @@
+Title: How AI Is Changing Enterprise
+Video ID: aIKfA3gIXwo
+URL: https://www.youtube.com/watch?v=aIKfA3gIXwo
+Channel: Y Combinator
+Published: 2025-02-19T15:00:00Z
+Duration: PT49M29S
+Views: 131010
+Likes: 2261
+Tags: YC, Y Combinator
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 1507
+
+Description:
+The Lightcone hosts sit down with Aaron Levie, the co-founder & CEO of Box, to hear reports from the front of how large enterprise and Fortune 500 companies are adapting to the AI age. 
+
+Apply to Y Combinator: https://ycombinator.com/apply
+
+Chapters (Powered by https://bit.ly/chapterme-yc) - 
+0:00 Intro
+1:15 Why the GPT wrapper was a bad meme
+4:44 Enterprise users just care about getting workflow done
+8:38 What does it mean for startups as intelligence becomes a commodity? 
+12:47 Do Fortune 500’
+
+============================================================
+TRANSCRIPT
+============================================================
+
+wait a second if we could use AI to
+automate more we can build more if we
+could build more we can lower the cost
+of things if we can lower the cost of
+things then we can actually lift up
+anybody's lifestyle right now I think
+that we're in the middle of the
+Revolution and the revolution does not
+have to be uh Black Mirror it could be
+something that is driven by jeevan's
+Paradox driven by abundance for everyone
+and that's certainly the uh the timeline
+we want to be on so that's the future
+I'm betting on
+[Music]
+welcome back to another episode of the
+light cone I'm Gary this is Jared Harge
+and Diana uh we're Partners at YC and
+collectively we funded companies worth
+hundreds of billions of dollars and
+today we have a really awesome guest Aon
+Levy than of
+box love that intro yeah Aon you're one
+of the best product CEOs out there
+public company as well what I write in
+my Wikipedia yeah yeah uh that's how I
+classify you we're in the middle of the
+AI Revolution so uh how are you feeling
+oh pretty good um it's a it's a good
+time to be in uh in in software right
+now um so yeah feeling pretty good today
+something we've been speaking about for
+a while which I think we probably agree
+on is that the chat gbt rapper was like
+a bad Meme and that actually there's
+like lots of value and always has been
+in building apps on top of these
+Foundation model companies in fact the
+opposite might be true yeah which is
+going to be more value
+yeah I think so so it's interesting so
+um there's there's a like probably 2%
+truth in in the meme and then 90% not
+not truth and so I mean PG you know with
+the sort of wedge theory is like
+actually you do want something that is
+is sort of a simple product that finds a
+little wedge and then you expand from
+there you know in the early days of of
+cloud if you were to be building
+software that let you manage documents
+and data you would have been like well
+that's a rapper on Amazon and and it was
+a total misunderstanding of the the
+entire scale software you have to build
+to make the storage bucket be useful in
+in a particular application so on the on
+the rapper conversation the exact same
+thing is true which is how much software
+do you need around the workflow and the
+proprietary you know sort of business
+logic and the data that the customer
+brings that's actually the value not the
+not just like what is the the set of
+tokens that are coming out where it's a
+little bit true why why startups should
+be you know at least think a couple
+steps ahead is you probably don't want
+to be something that just Chachi BT
+would incorporate so it's less that the
+model will incorporate your value
+proposition it's more if there is you
+know if the model provider also has a
+consumer scale application like you
+don't want to be right in the way of
+something that chat gbt will just fold
+in directly into its functionality so in
+that case I think you have to be you
+know sensitive to being kind of you know
+a quotequote rapper how do you separate
+out stuff that's going to get
+incorporated into the model from stuff
+that won't because I feel like the hard
+part with that often is we don't know
+what the next models are going to be
+capable of and there's this General
+sense of oh well like anything could the
+Al inp into the next model if it's
+powerful and you know approaches some
+version of generalized intelligence yeah
+I mean I I look at all this through um
+just the B2B lens which I know that then
+probably you just lost half the podcast
+listeners B2B actually on the B2B front
+it to me it's a it's a it's a simpler
+question because um an Enterprise
+doesn't want a model it wants an outcome
+uh it wants an outcome of customer
+support you know conversations being
+answered or um you know Healthcare um uh
+you know transcription going into an EHR
+system uh or an automated workflow of
+reading documents and contracts and
+plugging that into a a contract workflow
+so the model getting more intelligence
+is actually usually a better thing for
+anybody building software in those use
+cases because then you're doing Less in
+terms of of of you know hacking your way
+into the model because it's sort of
+insufficient at at solving that
+particular problem but what the customer
+actually wants to buy is like I need
+software that will plug into you know my
+Erp system that will plug into my
+support system that will power the
+workflow that that lets the customer do
+a password reset like that's actually
+the what the customer wants to buy and
+what the model is doing is is sort of
+you know really abstracted from the
+ultimate customer value proposition so I
+think as long as you're You're Building
+uh you know software that that really
+can deliver that full outcome to the
+customer and and you know two years ago
+the initial wave of these these use
+cases started to emerge and I think the
+the companies that will do best you know
+are ones that that realize that that you
+need to abstract the model away as much
+as possible from the ultimate value
+proposition and and then you just
+incorporate all the model updates as
+quickly as possible for your customer
+and again they just buy the outcome of
+customer support but it's just getting
+better and better every time there's a
+model Improvement so I wonder uh maybe
+one good analogy is when you were
+building box for your customers they
+didn't care what was the underlying
+database or cloud or what was the
+networking gear or all the hard drives
+that were running it was all about the
+end user experience at the software
+level yeah and the analogy to today is
+the end users of B2B AI workflows don't
+care whatever model is or how it does it
+yeah but that It ultimately does the
+workflow yes yeah I think uh that that
+is absolutely the conclusion um you'll
+you'll often you know get some
+idiosyncrasies in different
+organizations where they do care okay
+where you know where's your data center
+hosted or you know what what's the
+what's your infrastructure provider but
+that's a small minority in AI I think
+we're going to go through a temporary
+period where you do see differences in
+the models for anybody that that has you
+know a Discerning you know set of of of
+skills on this front so you know you can
+see this in like cursor you know with
+with anthropic right like people like
+that combination and they and they can
+sense the differences of of the output
+but if you you know fast forward five
+years I I think you'll see a convergence
+of of basically models and intelligence
+to the point where you you wouldn't
+really distinguish the the quality
+levels that much for 90% of of business
+use cases it's definitely interesting to
+see how especially developers have
+developed different preferences for
+different models like I remember at our
+AI Retreat a few weeks ago um anthropic
+and Claude has also emerged as like the
+preferred llm to like orchestrate your
+agents like if you have multiple agents
+and you want sort of the llm to
+intelligently call the right ones people
+seem to prefer Claude for that what do
+you think is going to happen to the
+model companies themselves in this world
+though probably everybody needs to
+update their understanding of what what
+a model company is just in general I
+actually think there's very few model
+companies there are sort of AI companies
+that have model you know Frontier Model
+Labs but but increasingly they're
+selling software to either consumers or
+businesses like I don't even know who I
+would consider to be a pure playay model
+company at this point you know anthropic
+if you look at their their software
+Revenue um you know it's it's
+effectively an API business for for
+Enterprises I'm sure they have you know
+some some large scale consumer kind of
+CLA business but you're really paying
+for the security the compliance the
+governance the Privacy the uptime the
+slas talking to somebody that that you
+know manages your account and the the
+model just continues to sort of switch
+out underneath all that uh if you look
+at open AI Revenue anything that's been
+kind of leaked publicly it's very
+clearly a software company at this point
+that has AI models that that power its
+underlying software Google obviously you
+know is just gcp um and then and then
+meta doesn't need to monetize it because
+they can just open source it so maybe
+xai is almost the closest thing to now a
+model company but that will show up in
+grock ETC so you know what you probably
+wouldn't want to do right now uh is is
+start a pure playay model company
+expecting you're going to have like
+licensing you know Revenue by just
+selling your model to to people to go
+and and use if you don't have enough
+other kind of surrounding value
+proposition that that you know again
+lets you get incorporated into into
+Enterprises or has a large- scale
+consumer application where you have some
+degree of kind of uh traffic that that
+you know keeps people within your
+ecosystem um I think it' be very bad to
+be just a pure play model company uh in
+uh in at this moment just because you
+have you have enough different business
+models that have emerged now in AI where
+where it's going to be pretty hard if if
+your Pure Play business model is just
+pure AI tokens because you know you
+always have meta that will will always
+create a counterbalance by just open
+sourcing you know a Frontier Model that
+that kind of wipes you out now deep seek
+and now deep seek and so and and and
+that's what's amazing is like now that
+like you can basically guarantee meta
+has to do anything deep seek does
+because it obviously has to stay in the
+game on the open source front and so we
+always have uh with there enough
+dynamism in this industry that that
+basically ensures to to Gary's opening
+point that like the cost of intelligence
+is going to go to zero like it's just
+like absolutely guaranteed so
+extrapolating what does it mean for
+startups as intelligence becomes
+commodity basically well uh the good
+news is we kind of know uh we kind of
+know the Playbook on this uh with One X
+Factor which is like AGI and and like
+what is the ultimate you know kind of
+exactly a little bit of an xfactor of
+like wiping out all of all of relevant
+business models that we don't even have
+money in the future but like if you if
+you put that to the side um I think
+these these companies need to look like
+software companies and and it is it it's
+sort of Back to Basics which is you know
+we used to have an API into a database
+we had an API into storage we had an API
+into compute now we have an API into
+intelligence that intelligence is it
+should be you know basically the cost of
+that intelligence will go down to the
+cost of the bare metal so whatever the
+underlying cost of the GPU is that's
+what you're going to pay um you know
+with a little bit of margin from a
+hyperscaler but the the cost of the ACT
+tokens you know will converge at zero
+and so then it's all about you know do
+you build software that takes you know
+this complicated technology and delivers
+it to customers to solve real world
+problems and so you know you guys have
+talked a lot about vertical you know uh
+AI I think that's a massive play I think
+there's going to be uh certainly a whole
+layer of AI software that that kind of
+stitches together different AI systems
+so you have horizontal plays you have
+vertical plays I think the idea of every
+single industry and every job function
+probably will have some degree of new
+startups and agents that that get built
+out for those uh those those like slots
+um I don't know if you guys have like a
+whiteboard of every industry in every
+job but like but like you can just
+basically play you know Bingo on that
+and then and then until it's fully
+filled in like there's probably still
+opportunity left with an AI we figured
+out the first wave of SAS of of how to
+do this um uh you know YC was obviously
+a big part of of an a number of major
+kind of category killers in SAS and I
+think we'll see the same Playbook happen
+in AI one of the many interesting things
+about deep seek was specifically it's
+the first open source reasoning model
+like in the short term do you think
+there's like new ideas in the Enterprise
+in particular that are going to come out
+because now we have open source
+reasoning models so what we've seen is
+um uh so we we we do a number of
+benchmarking kind exercise internally
+for for the reasoning models versus
+versus uh you know kind of let's say
+non- reasoning models and some things
+that're they're actually better at some
+things are weirdly worse at um uh and uh
+I I don't think we've even discovered
+why they're they're worse at these
+things
+um maybe they overthink a problem in
+general I would I would kind of just
+argue that anything that directionally
+improves intelligence you will see B2B
+use cases you'll see the value of those
+use cases go up because um you know you
+can begin to reasonably chain together
+more more agents working together you
+can get more agentic workflows happening
+like anytime we can get the intelligence
+factor to go up um I can now reliably
+introduce this for a more important
+business process and so you know in the
+Enterprise you can almost think about it
+as there's some probably you know either
+2 by two or chart I don't know if
+anybody's made it but like kind of like
+mission criticality of the workflow AI
+level of intelligence and and and you
+know kind of there's an element of like
+you can't introduce it to you know Clos
+banking you know that like you know a
+banking systems you know sort of you
+know end of day data you know yet
+because it's it's not particularly
+deterministic it's it's you know we
+don't sort of you know know all the the
+answers that it's going to give but it
+could write a summary for for you know a
+new product launch at a bank um uh or it
+could help answer you know banking uh
+you know uh product questions if you're
+a consumer so there's a Continuum there
+and as as we get every degree of
+intelligence going up we get more use
+cases that we can now implement this for
+um and then there's another axis which
+is like how many of those use cases you
+know can you string together to to
+complete like the full the full workflow
+of that business process and that's yet
+another I think access that that that uh
+were early in but like you know I was um
+I was in New York a couple weeks ago
+meeting lots of Banks and and you know
+just generally what you think of like
+the New York Industries in in Enterprise
+and I would say we're like 10% of the
+way into the adoption of let's say just
+like General chat so like assistance and
+like 1% of the way into adoption of
+anything we would all call agents like
+and that's maybe even inflated numbers
+when you're in the room with like the
+banks the 14 500s or the people making
+their decisions in Enterprise um do they
+really have zero interest in the
+underlying models like is deep seat
+coming out just like a total nothing
+Burger for them and they just care about
+what you're pitching them and offering
+them or do they do they have interest in
+the actual underlying tech there are
+people like us and the people listening
+uh at every company in the planet and so
+those people care uh by the time you get
+to the let's say line of business so I'm
+the head of wealth management at a bank
+they don't care so but the CTO cares and
+the head of AI cares and the and the you
+know the the it folks that that dabble
+and they're hanging out on Hacker News
+like those people they they care because
+they're they're using cursor and they're
+using they're seeing the differences
+between between between anthropic and
+and open AI you know tokens within
+within that but when it goes to to
+talking to you know an executive in the
+business or the daily end user they they
+have no interest uh it's all it it's all
+you know a foreign language to them and
+I think that will remain the the the you
+know the way forever I I think more of
+the expectation is is that again these
+things will converge and what's amazing
+about AI is because of the I don't want
+to call these the models fungible but
+but directionally fungible because
+they're somewhat fungible you will see
+characteristics that we've seen in in
+other areas of compute which is any uh
+best-in-class model eventually has to be
+you know match the price of anybody that
+beats them in pricing because because
+you can just switch to a slightly
+inferior model even if it's like
+inferior by 1% the risk is that you
+could switch to that and be and find it
+acceptable for for you know 80% of your
+use cases which then by definition means
+whoever is at the frontier actually
+still has to match the pricing of
+somebody just slightly worse than them
+um because they could just you know the
+US actually doesn't care do care and
+their business could evaporate if if
+they don't do that which means
+ironically you could actually stay on
+one of the providers you could just pick
+a provider and you kind of know that
+your your tokens will become as cheap as
+the second or third you know cheapest
+option because that that first you know
+whatever that first provider is the
+marginal the next marginal customer
+doesn't have to choose them they could
+choose the second or third player so you
+which eventually then you know you you
+you run that experiment out you know 10
+years you converge on basically the same
+pricing which is what we've seen which
+is like the difference in pricing of of
+you know uh storage buckets you know
+between the top three or four
+hyperscalers are are not so different to
+drive business model you know
+fundamentally different business models
+um in the software stack similar to
+compute Etc so really you're making a
+choice based on you know some other set
+of reasons like how much data do I have
+in the system what are my workflows that
+I've built in the system um and uh and
+then I think the again the price of the
+AI eventually becomes largely the same
+actually I think what you're saying
+applies to to what we're seeing for
+startups I've done a number of office
+hours with AI startups that are selling
+to Enterprises and a particular story is
+this company that scaled to 12 million
+Revenue within a year yeah they actually
+switch models underneath a number of
+times and the end customers which were
+these big Enterprises didn't care yeah
+what they cared was that ultimately the
+contract and expectations was that just
+get the workflow done with this level of
+accuracy done yeah and as the cost per
+token has been cheaper they actually
+have been increasing their margins I
+think when they started launching I
+think their margins were around like 30%
+yeah the next cycle of iterations middle
+of last year with all the model releases
+got to 60% and I think now they're at
+like 80% that sounds like fou storage
+yeah exactly we love that so that's kind
+happen I like conrete example for this
+company that done office hours and
+exactly I mean your analogy is actually
+quite quite literal so we so right now
+publicly we have 81% gross margin um um
+if you had said you know let's say when
+we started the company in in 05 that a a
+business that was perceived to be
+storing data would have 80% margin you'd
+be like no that doesn't make any sense
+because because like people are just
+paying for the storage and it's like no
+we have I mean you know we have nearly a
+thousand Engineers of
+box one to two% of them are working on
+what we would call file storage so what
+is everybody else doing we're building
+software that that is the abstraction
+layer of of compute and storage and
+databases to produce workflow and data
+governance and Automation and insights
+on data so the storage is is is now you
+know a small fraction of what we overall
+provide so similar to tokens as as you
+know the tokens go down as a ratio of
+what you're really delivering as value
+is that software stack so I think you
+know probably one way to think about it
+as a heris is like how much software is
+necessary on top of the output of the
+tokens for your value proposition to
+work you know successfully for the
+customer the less software there is
+probably the higher risk you'd have to
+either more competition or
+commoditization the more software there
+is where the tokens are just one you
+know kind of contained component of the
+full thing then you're probably you know
+in a position where you can you know you
+can build a moat you can get stickier
+you can then you know solve more of of
+that customer problem but you might get
+to the point where where the customer
+pays for for a discrete outcome this is
+like one of the big open questions I'm
+sure you're seeing it in the batches but
+like what is your pricing model do you
+do you pay you know let's say you're a
+startup that does AI lead generation
+do you pay per lead right that's that's
+a a fairly obvious you know kind of you
+know thing that that you'd expect and
+then and then basically that company now
+could be you know or or do you even pay
+for like qualified lead that the
+customer sort of says is is actually
+successful so so like there's a whole
+Continuum of like I pay for the a
+successful outcome I pay for any outcome
+or I pay for the underlying kind of
+resource utilization which we also see
+in like coding startups you know where
+it's like okay I want to buy some unit
+of compute measurement that goes into
+useful work um but the cool thing is
+we're going to see you know mix of of
+all new business models and software
+that we haven't seen before this would
+been one of the biggest changes in the
+advice I give to the startups during the
+batch is I like it was really hardwired
+into me when a come when a startup comes
+to we like we're getting like a a pilot
+or they're going to pay us as we go or
+something like that to like say that's
+like not a real customer like you have
+to go back and you have to get them to
+sign like an annual contract and like
+lock in Revenue otherwise you're just
+kind of wasting your time with someone
+who's sort of one foot in one foot out
+but over the last year in particular
+it's when I look at the most successful
+companies essentially often they're like
+replacing a BPO or some sort of service
+like that the customer actually wants
+usage based um and the like the revenues
+just keep going up and up and up so I'm
+no longer like oh you have to sign an
+annual contract yeah yeah I mean we you
+know for a lot of areas where we're sort
+of you know there's a a direct
+relationship between the the thing that
+the company is selling and then you
+let's say labor on the other end you do
+need you know a lot you know like you
+need you need long-term contracts
+because you have to hire people you
+there's a lot of infrastructure you have
+to build out the great thing about AI is
+it's entirely elastic yeah so it it
+that's I mean we we we're going to have
+to you know imagine new world where all
+of a sudden I have elastic resources for
+things that otherwise used to be very
+operationally intensive so one day I can
+just say hey I want to I want 10,000
+leads generated go run you know AI to go
+do that and in the in you know in a
+traditional way of doing that that might
+take months of hiring and Staffing and
+building out teams now it's you know a
+week later you're you're Off to the
+Races you're generating those leads you
+know you can kind of go through any
+analogy of the business um and uh and
+that becomes possible so totally
+different relationship between uh you
+know the company and getting getting out
+outcomes and output totally different
+relationship also than for the software
+provider and what their what their
+business model is with that customer
+eron can we go back to your trip to New
+York City
+yes just any of my any of my trips well
+like you spend a lot of time talking to
+senior execs at Fortune 500 companies
+about their technology and AI strategy
+probably more than almost anyone in the
+world and I I was really curious what
+those people are thinking about AI are
+they focused on it what do they think
+it's going to mean for their business
+are they building AI initiatives
+internally are they trying to buy
+products from other people what's
+happening yeah I mean definitely all the
+above did you see this this thing that
+went viral like two weeks ago David
+Solon U CEO of Goldman Sachs S1 yeah the
+S1 prep he basically had this quote at a
+at an AI event at Cisco they're doing
+projects internally where where AI is
+writing an S1 in like 10 minutes or
+something and it used to be a team of of
+six people that work on that Etc the
+exact same quote uh just parallel
+universe quote 15 years ago let's say in
+the early days of cloud just as a as a
+useful kind of comparison I'll probably
+keep coming back to the cloud thing it
+probably would have been a banking CEO
+saying we'll never go to the cloud like
+we don't trust the cloud we we don't and
+and now the exact opposite which
+happened right didn't Jamie Diamond Jam
+Diamond did I think he's he sort of
+evolved his thinking but you had that
+kind of across the board and these were
+these famous moments as like we'll never
+be a cloud company you know we don't
+trust it we don't want to move I mean
+Amazon it's a bookstore like like that
+was the that was the refrain and it made
+sense I mean I I even said that when I
+saw S3 like the bookstore is going to
+power like what so think about how
+different of a world it is that the CEO
+of Goldman Sachs is basically saying
+like this is now what's possible he
+wasn't saying that in like a we
+shouldn't do it way he was saying that
+in like a we need to open our our eyes
+uh you know up to all of the the
+potential use cases that AI is going to
+have in the business and he was saying
+it as a way that they're leaning in and
+starting to try out all these use cases
+so for that to happen for a top five
+Bank in the world at this early in the
+cycle you know it only goes kind of it
+only goes more aggressive from there
+because he's in the most regulated of
+all all the businesses in the in the
+most important Financial Market in the
+world and he's already leaning in is
+that because he's like a particular
+early adopter or are you just seeing
+this across the board where yeah I mean
+also he's like a DJ so
+so so maybe yeah I maybe he's hanging
+out with like EDM people that are just
+like really into AI music okay so you
+know 10 years ago we'd host these
+dinners 15 you know cios from different
+Industries heavily Financial Services
+let's say if it's New York and and it's
+like the the you know we are going to
+try Cloud for this one tiny part of our
+business we don't really think we can
+scale the idea of being Cloud first is
+like it would be like totally in you
+know an anomaly like you would never
+like a bank would never say they're
+Cloud first 10 or 15 years ago uh today
+it is it is sort of like we're trying
+this in as many areas as possible um
+everybody's still insanely early because
+you've got privacy councils compliance
+councils regulatory bodies that have to
+look at everything but everybody
+understands how how big of a Title Wave
+this is going to be in their business um
+on a few Dimensions one they know that
+the workforce is going to completely
+change they I think there's a
+recognition this kind of Hit Me Maybe
+about a year ago in some of these
+conversations there's a recognition that
+that that basically if you're entering
+the workforce today you've had now a
+couple years of chatu BT of of like
+college like you don't like they native
+it's an AI native you know era of of the
+workforce and you know we could make
+some jokes about it maybe two years ago
+like oh my God the writing essay is I
+can't believe it but like I I basically
+almost don't search the internet anymore
+like I only know how to use AI to find
+information and guess what like I'm I I
+find 10 times more more information as a
+result of that so so actually in many
+respects the AI native you know people
+will be Smarter on the topics that they
+decide to go in on um than than than the
+prior generation of of whatever that is
+so what does that mean like these
+Fortune 500 companies are changing how
+they hire or so I don't necessarily know
+how they hire but but it'll become clear
+that if you don't have ai uh if you're
+not an AI first bank or media companyi
+strategy literally what is your AI
+strategy because because why would to
+the customers or internally the the the
+Enterprise will will basically realize
+that they can't actually hire the Next
+Generation you can't go from all of a
+sudden I have this AI native way of of
+operating and college or high school to
+going to a company that makes me use you
+know the equivalent of a fax machine you
+know level of Technology it's just like
+they won't be able to hire people and
+then their their competition will have
+more output they'll they'll they'll do
+more Investment Banking deals they'll
+onboard customers faster they'll get
+better Financial advice to their clients
+than the company that that that that
+sort of doesn't do that and so
+everybody's sort of realizing this is
+actually a competitive issue Cloud
+didn't really have that cloud was an
+purely an efficiency story it was like
+it was like ah yeah I don't really want
+to have to be building data centers as
+much elastic capacity sounds pretty good
+I want to be able to test this new
+product faster it was not like my
+customer is going to experience a
+different thing about my about the
+output of my company whether I'm cloud
+or not Cloud now I think we all believe
+that that was that that that there is a
+difference there it was not tangible to
+the buying side that cloud was going to
+make your company five times more
+competitive in a way that AI is is very
+clearly I I think resonating that
+actually your company's competition will
+now be at risk you're not a native
+because like with Cloud early on a lot
+of the benefits were actually to the
+startups who pushed it Forward because
+they just wanted an easy way to like get
+set up and not have to deal with hosting
+but you're saying it might be the
+opposite where with AI productivity
+tools startups don't really need
+actually maybe the the Counterpoint to
+me what this sounds like is actually way
+more opportunities for startups it's
+just all the office hours that we're
+doing I think it's the fastest I've seen
+B2B SAS AI companies get Enterprise
+deals and I think you painted a very
+good picture
+what's the Vive shift yeah if if I can
+just flip in one funny anecdote uh the I
+I went to this banking conference eight
+or nine years ago and I did this little
+keynote uh at this banking conference
+and it was all about like we have to be
+Cloud first and and Enterprises have to
+modernize how how they operate with the
+cloud and I think I've never been I
+think I've never bored an audience more
+than than that keyot like I remember
+getting off the stage and nobody caring
+like it was just like cuz it was like
+why are you talking about backend
+infrastructure like like nobody cares
+like yeah whatever we could be in the
+cloud we could not be in the cloud you
+know at our levels of budget if we're
+spending like a $500 million or a
+billion dollars a year on it who cares
+if if we save a 100 million because some
+of it is elastic or not like it's like
+not that big of a deal if if you were to
+do the same thing but an AI first to
+non- aai First Enterprise people would
+be like oh like actually I probably
+can't run my business anymore not AI
+first because you would just show people
+like like do you know the productivity
+gains of somebody using let's say cursor
+it's like you will be blown out of the
+water competitively if you do not know
+how to build an AI first company right
+now and yeah has box invested in any
+internal AI tools to speed up how you
+run the company yeah so uh a few
+categories so one uh we're we we've been
+rolling out AI for for on the coding
+side um and we we're we're trying
+everything uh like internal tools for
+your engineers to Yeah Yeah so basically
+just just how do we make the engineering
+kind of more productive and that that's
+sort obviously what one of the biggest X
+factors of our business is can we output
+more code that is obviously useful and
+and and aligned to our product road map
+so um we will be you know fully AI first
+in terms of how we develop um you know
+this year it's uh it's the it's third of
+The Big Year for all the change
+management on that we are you know
+incrementally rolling out AI for
+different customer facing things just
+again can we solve the customer ticket
+problem can we can we improve the the
+rate of response and then as an AI
+provider a lot of the Knowledge
+Management use cases we we sort of now
+do ourselves with AI so you know if an
+employee has a has an HR question or
+benefits question we have a a feature
+that lets you talk to all your HR data
+um and all the internal Knowledge
+Management and so what what became this
+breakthrough for us was all of a sudden
+all the things that were inside your
+documents before become useful for now
+just interrogating with questions as
+opposed to reading documents and so
+there's a lot of just embedded
+productivity that that we focus on from
+that that standpoint what things do you
+think they're going to do internally and
+what things do you think they're going
+to buy solutions for I I would basically
+guess that that again it kind of looks
+pretty similar to two kind of historical
+ways of of thinking about this um I
+think Jeff Moore created this but uh and
+if I'm getting it wrong again please
+Jeff Moore like like pop into the com
+the right name um and the idea was was
+sort of context is all this stuff that
+is sort of like you have to do it's
+necessary but it's not going to like
+it's not going to make your business uh
+better than your competitor uh and so
+that's your HR System that's your Erp
+system like you have to have it it's
+important it has to be done extremely
+well but like your version of the HR
+System
+you know is not going to be radically
+different than than Bo checking any box
+you have to check the box but it's got
+to be a good box and and and and whatnot
+and then there's core which is this is
+like literally your value proposition
+like like you sell you know wealth
+management to you you sell Wealth
+Management Services to to people and um
+and that that is something you you own
+if your thing looks exactly like your
+competitors then you have no there's no
+sort of you know profit you know margin
+that that you'd be able to you know you
+wouldn't be able to get reasonable
+profits you have to have something
+that's unique and I I think companies
+need to really understand which categor
+is which partly because if you get the
+if you put the core in the context then
+you'll probably be at a long-term
+disadvantage and if you put the context
+in the core then you're wasting a
+tremendous amount of time and energy and
+and this is why I I like I I really
+enjoy that the the the Clara
+announcements or whatever it's like fun
+to read but I also think it's it's sort
+of misunderstanding the context versus
+core core thing like you don't need to
+build your own HR System I'm glad
+they're doing it I think we it's
+provocative like it's fun to see
+different approaches gets people going
+it gets people going you know gets our
+like we're like our juices are flowing
+but like the average bank is just like
+not it's like not a priority for them to
+like reinvent their HR System now so so
+so I think I think whatever whatever is
+that for every industry you know in life
+sciences you probably really want to
+understand like how are you doing drug
+development and you should probably have
+a a a very strong AI team working on
+that problem because that's something
+that sounds like it's going to be IP for
+you but the automation of the clinical
+trial process that's probably context
+for you because everybody's going to
+want to be doing that as quickly as
+possible it probably doesn't involve a
+tremendous amount of proprietary data
+and then and then obviously your CRM
+system your HR System and so on so it
+actually sounds like they're going to
+buy a lot of things externally because
+most functions in a business are
+actually contact yes yeah I think most
+most of the way AI will show up to a
+knowledge worker in 2030 will be from a
+what we would have thought of as an isv
+10 years prior what's an isv for the
+people watching yeah it's just basically
+a software you know provider there CRM
+system will still come from Salesforce
+or or or ex competitor uh it won't be
+that they built a homegrown AI generated
+you know uh you know CRM system they
+might talk to that CRM system through
+also a new vendor or something that they
+build internally it's interesting
+there's actually a lot of chat pods
+being uh built internally by companies
+right now I'm sensitive that I think it
+might be a temporary phenomenon um and I
+like ux better than chat but yeah yeah
+okay yeah I think we're going to we're
+going to see a hybrid of of these two
+things um I I think the gooey is not as
+dead as as as people think you do see a
+lot of kind of chat interfaces where
+you're like you're like I think you just
+did way more work than just going to the
+dashboard like like I'm I'm 90% sure you
+just probably took all the savings from
+AI gains and efficiency and and and then
+just spent it on figuring out a prompt
+um that like a dashboard would have
+solved so but I think we'll have a
+universe of both those things but I do
+think ultimately most will come from
+software as like a you know on a
+percentage of like like time that a a a
+knowledge worker spends inside of
+Technology but some of the most valuable
+things absolutely will be will be
+homegrown the algorithm you use for
+discovering the thing or personalizing
+the medicine or personalizing the wealth
+you know data or um you know Netflix's
+recommendation engine like those will be
+homegrown things maybe still using a a
+model from from a proprietary player but
+like the scaffolding there will be I
+think a large largely built by buil
+built internally interesting so I guess
+the mental model for people watching
+might be that there's inside the house
+and outside the house outside is context
+which are just check boxes you have to
+check and those might be you know end to
+end things that just do the thing like
+Salesforce yeah I think I think that's
+right and I think the maybe another way
+to reverse engineering is if you were
+the customer of this company would you
+care would you care what technology they
+used for for that category of thing or
+is it like just get get the box checked
+and I'm good yeah as a customer of
+Netflix I literally don't care what
+their Erp system is and then on the
+inside like uh the things that are core
+that you really need to do maybe the
+opportunity there is uh infra and you
+know Dev tools that allow an internal it
+team or internal engineering or AI team
+to run really fast but then create
+exactly what that business needs yeah
+yeah yeah exactly and then there's still
+there's a little squishiness in there
+just be very littleit about it because
+like you also probably don't want to do
+homegrown Dev tools like so so you still
+might procure those and then there's
+this layer between the dev tool and the
+customer experience which is what am I
+doing with the output of these tokens
+that's something I need proprietary
+software built on like and and so what
+is in that universe but I think that
+like like for instance I think there's
+going to be amazing you know amazing Dev
+tool opportunities coming from from
+startups right now because it's a whole
+new stack that you have to build out for
+for managing AI within your your
+Enterprise that in between B is actually
+we see open source a lot right like
+that's have you seen any renewed
+interest or any Trends on open source
+interest in the Enterprise I selfishly I
+love open source because we don't have
+to pay for you know what we're using um
+we should give grants well well it's
+actually I've think you don't pay for
+the hosted versions all the time exactly
+sometimes we do but but I was actually
+thinking about this I think I think a a
+a thing that would be cool to see tech
+people do more often um is is just like
+start large scale open source projects
+and fund them I think more open source
+software for the common good of of just
+like lots of different Services I think
+is a huge net positive I'd love to see
+more uh I'd love to see more open source
+in general uh right now it's such a
+great symbiotic you know model because
+because you know the hacker Community or
+the startup Community they want to move
+fast they don't want they can't they
+can't often afford the licensing of
+whatever that thing is the large
+Enterprise Community you know they want
+support they want to have people that
+are experts in managing this stuff and
+so it's this great relationship which is
+like you have this great good for for
+society and you still actually can be
+building a successful commercial
+business because lots of people want to
+pay for for the commercial version of
+that yeah Aon in the in the early days
+of this cycle there was a lot of
+concerns from Enterprise about the
+security implications of using hosted
+models like a whole bunch of companies
+like ban chat gbt use internally what
+what's happening have they gotten
+comfortable with the idea of having all
+of their data go to open Ai and
+anthropic or did they still are they s
+really worried about that and trying to
+host open source bottles and things like
+that on Prem yeah I I think you'll see a
+different different categories uh by
+industry so a lot of times they'll go
+into you know a bank and they'll say um
+and they'll be proud of this and and as
+they maybe should be they they'll say
+you know we have our own kind of Enclave
+version of of xod model and then we
+built out a wrapper on top of that you
+know for for deploying it to employees
+um and I think that that you'll always
+have some percentage of the market do
+that you know 10% of of the market
+because you you still have a lot of
+people that have on- Prem systems for a
+similar reason that will always be there
+um but the Comfort level is absolutely
+increasing that tends to always happen
+in if if the industry or the the company
+takes it very seriously so opening eye
+has taken security privacy compliance
+you know regulatory controls very
+seriously and so then that builds trust
+over time so then more people can um Can
+can go uh can can experience those um
+you know those use cases so anytime a
+software category matures and and
+becomes more Enterprise grade or
+military grade you know you'll see a COR
+correlation of the the amount of trust
+and in putting data into those systems
+and I think AI is no different than then
+again software and kind of cloud in that
+respect maybe part of it is just a lot
+of the behavior is from all these
+Enterprises they gotten a lot more
+comfortable because of what you paid
+with Cloud right they kind of already
+have preference on how to do this hosted
+and okay we know how this looks so it's
+a lot harder for you to sell on that
+first cycle this cycle you kind of
+compounded it for this next generation
+of Founders so thank you people need to
+be really thanking me um I am not
+actually you know it's funny that you
+put it that way I don't think I've ever
+been thanked for for the hard work
+consider yourself thanks the years of of
+dinners all the cios that made it
+possible for your AI startup to get sold
+in the Enterprise I'd like a big thank
+you I have not been respected that is
+not that is not shown in in a lot of
+ways but I appreciate it every single
+white hair is a dinner that you had to
+do to teach people that you should buy
+this it's uh uh this is the only way to
+get that um I would like a plaque at the
+office I I don't know why I don't have
+that yet CU like none of you have gray
+hair so like this is this is I'm I'm
+responsible for for AI working now um
+yeah it's but it's an interesting
+question right because um and this is
+this is what's so fun about about the
+compounding nature of Technology AI
+could not have happened in 2005 let's
+just pretend the breakthroughs actually
+happened let's let's pretend an
+alternative Universe okay where where
+the exact same somehow like Jensen had
+made gpus as powerful as they were now
+in ' 05 but everything else was the same
+okay weird world but let's just say okay
+and you're imagine going to a company
+and you're like okay we know that all of
+your infrastructure is on Prem and we
+know that all of your software is on
+Prem and we know you're on seow and we
+know you're on on people soft and we
+know that all of your data is in this
+system but if you just move it to this
+other thing that you have no control
+over it's in a data center you don't
+know about you know you have no no
+ability to kind of go in and look at the
+data center and and look at the the the
+the hard drives if you just move
+everything over to this think about all
+the intelligence I mean it would never
+it would be DOA like this industry would
+just be over it wouldn't matter what the
+tokens are coming out with so you
+actually it was a requirement as a preck
+to have Cloud have happened to have
+sasive happened and then now ai happens
+building on that um and then and then
+even like even the consumerization piece
+is is so interesting um imagine a world
+where where we were only an Enterprise
+using technology we didn't have the kind
+of consumer access to technology that
+that eventually happened with mobile Etc
+you wouldn't have people seeing Chacha
+and perplexity and Gro Etc in their
+personal lives and then saying wait a
+second why are my it systems feel so
+archaic by by you know comparison that's
+what's causing all of this pull also so
+you needed you needed consumer adoption
+of technology and then and then the fact
+that now a billion people billions of
+people can use AI to then pull that into
+the Enterprises you need the Enterprises
+infrastructure to be modern enough so
+it's it's this incredible Cambrian
+explosion of now opportunity because
+we're in a moment where enough of the
+the this the kind of core Plumbing has
+been built out also Enterprises just
+became used to using like different
+software Solutions versus just relying
+on like the exactly yeah 100% like they
+like they now there's their now some of
+them don't like this but their it stack
+is now hundreds of vendors versus a
+dozen um and it's a and so they can
+accept okay I'll take a with anthropic
+like this is totally it's it's you know
+it's only now 1% in increase in my total
+kind of it um you know vendor Universe
+versus you know 15 years ago be like N I
+can't I can't bring in something that's
+not Oracle yeah well keep
+accelerating uh please just keep keep
+driving the startups that that causes to
+happen you had this front row seat to
+the transition from on-prem to cloud and
+now we the dawn of the next transition
+from Cloud to AI how do you think it's
+going to play out similarly is going to
+play out differently and and how do you
+think that relates to The Tam for
+software going forward yeah so uh if I
+could if I could try and merge these
+actually there's there's a there's a
+cool connection point so the probably
+single biggest bare uh reason why people
+didn't invest in SAS in the mid 2000s
+was was they they they thought the
+market sizes would be basically the same
+size as the on-prem software company and
+and so if it was the same size as the
+on-prem software company but also the
+the software company that's already
+there is the incumbent you know it's
+like how do you squeeze out enough
+enough money to to kind of make the
+business really really you know make
+make it really interesting and what
+everybody basically got wrong was it
+turned out that the Tams were probably
+about 10 times larger and why did the
+Tam grow so much because um just to like
+bore everybody if you wanted to buy a
+CRM system in two in 20 sorry in
+1999 you had to be like okay I'm going
+to go to the systems integrator I'm
+going to get a data center I'm going to
+buy a bunch of servers from people I'm
+going to install some software I have to
+manage the network of that and like you
+know lo and behold two years later you
+might have a CRM system and you probably
+spent $510 million on the full project
+to do that so think about who is the
+market that then can Implement a
+best-in-class CRM system it's the
+world's largest Enterprises you know
+5,000 companies 10,000 companies
+Salesforce comes out and they're like
+for three seats online with your credit
+card you have a CRM system as good as
+seble obviously there'll be some Nuance
+because didn't have as much
+functionality but like for that company
+that was as powerful as seil you know
+getting started now all of a sudden your
+Tam is basically every business on the
+planet so you go from a a market that
+had maybe 10,000 customers 20,000
+addressable customers to now a market
+that has 5 million 10 million potential
+customers it is a totally different
+scale like you know two three orders of
+magnitude more scale that you can now go
+and serve we we had a similar experience
+which was you know the industry we were
+disrupting was like Legacy Enterprise
+document management Enterprise content
+Management Systems same exact thing as
+seil in terms of like we would read the
+S1 of of our biggest incumbent
+competitor and they were talking about
+like a thousand customers or a couple
+thousand customers and and literally you
+know now we have 115,000 but like but
+like but at the time we had we had I
+don't know five or 10,000 when we
+started thinking about disrupting This
+and like the scale was just completely
+different so so that meant the market
+sizes were so much larger um you know
+service now today uh I don't know the
+the exact latest market cap maybe it's
+$150 $175 billion
+their incumbent competitor when they
+when they were first growing and
+disrupting the market today is worth
+maybe about 5 or 10 billion so so if you
+had looked at this company 20 years ago
+you'd be like at best service now should
+be a five or1 billion doll company if it
+just was like a better version than the
+current thing and it turns out it's it's
+15 times larger than than than what you
+would have thought Salesforce did the
+exact same thing in so on AI I think has
+a similar dynamic because you're
+basically increasing the total spend on
+software so it's not so much that a new
+set of companies will buy software the
+first for the first time it'll be all
+companies use software to do things that
+software didn't do before and that will
+take from budget that that previously
+was sort of untapped you know from
+software so um the budget will be from a
+variety of things um uh but uh often
+because now the software is doing useful
+work for you you can now afford to spend
+even more on that software because the
+alternative was a much more expensive
+sort of proposition here's where I think
+people kind of get wrong though they
+they think about it as Zero Sum from
+well then then all you can do is sort of
+take from the labor side of that spend
+but it actually just turns out most
+companies aren't even spending on the
+labor side they're just not doing the
+thing so so you know most companies are
+like just like globally are not like
+spending time to translate their
+advertising into a different language so
+it's not that that oh the the the market
+for the translation services are this
+big and we're just going to digitize it
+it's like no a 100 times more people
+will do translation um the you know in
+in our business like we have you know
+software now that reads your contract
+and pulls out the critical data from
+that so you can automate a contract
+workflow and like the number of people
+globally that are reviewing contracts
+and pulling out that data maybe it's you
+know 10,000 50,000 people I don't know
+the exact number but a very small
+percentage of companies are doing that
+with their contracts so they will now
+decide to prioritize automating a thing
+that they didn't automate before you
+know cursor the you know the as just a
+you know back to that example or repet
+or Devon or whatever there's probably
+not a single dollar that's being spent
+on that technology that comes from from
+takes away from what people are
+currently doing it's purely additive
+because now it's expanding the use cases
+that that software can can can kind of
+tie into so I think we're in for a
+potential scenario where the the size of
+software now you have to include AI in
+that could be five times larger uh in in
+the next decade because it just it IT
+Supplies the actual underlying work that
+you actually bought the software for in
+the first place um and that just changes
+everything because now we're we're
+you're going to be paying pay for work
+as a paying for for a tool that enables
+other people to do work I think that's
+such a powerful AI white pill actually
+it's not merely you know Zero Sum we're
+converting payroll into software revenue
+and haha that's it it's actually we're
+going to do things that enterprises
+should be doing would have been doing
+never got around and then you know
+actually the people who are the
+consumers on the other end they're going
+to have better products better services
+like the thing will actually just be
+better for I haven't yet read like the
+full like economic study on this but
+where economists always get this stuff
+wrong is you know they do probably by
+default tend to have a kind of a zero I
+mean you wouldn't have like you know
+javon's Paradox if if economists always
+knew you know how to anticipate these
+things but like what I think they often
+get wrong is they look at the total
+amount of Market labor in a category and
+they're like well shoot if AI automates
+that that's now gone look how many jobs
+that is you know I I think we should
+debate it we should talk about it
+because it's a very you know serious
+thing but what they don't actually ever
+think about is the micro the the more
+microeconomic impact of this so if I'm a
+company and uh it could be box or or it
+could be a 20% company and I use AI to
+let's say code faster okay well why am I
+coding faster because I'm GNA I Want to
+Build a Better product for my customers
+if I'm building a better product for my
+customers my Revenue should be growing
+faster if my revenue is growing faster I
+probably then am hiring people to go and
+do things to drive that Revenue growth
+maybe it's people selling the software
+maybe it's customer support maybe it's
+HR people to help scale the operation
+and eventually I'll get to a point where
+I say should I reuse those dollars that
+helped me grow faster to hire more
+Engineers to grow even faster and to
+build more of that road map and and if
+if we were in a a market that wasn't
+competitive maybe you could say you know
+what I actually just want to take the
+profit and be happy but we're in a
+competitive market so if you're the one
+company that decides to sit on the
+profits that AI generated and just and
+just live off of higher profit margin
+20% 30% 40% profit margin as a company
+you'll just have somebody come into the
+space and say no actually we'll just I'm
+fine to have 20% profits and do that
+same thing and then that company will
+will eat into your lunch so you actually
+then reinvest those dollars back into
+the things that are helping you grow
+faster and that's actually like the
+microeconomic outcome of of automation
+is is you decide that you take that
+efficiency gain and you redeploy it into
+the business in something that will make
+you more competitive or grow faster or
+better serve your customers because
+you're in a competitive ecosystem and
+that's why I think as you know over time
+you'll yes you'll have some displacement
+in different categories but over time
+this is why It generally just looks like
+an upgrade to just how we tend to work
+you know in the world like we just tend
+to use tools to to work faster to make
+better decisions to build better
+customer products the customer gets a
+better result out of that but we
+reinvest those dollars back into the
+businesses because we're in competitive
+ecosystems and then the ultimate winner
+is the consumer consumer always wins on
+this stuff right right now with One X
+Factor just to like bring it home to SF
+like like assuming we have a regular
+regulatory environment where those
+winnings can actually turn into Surplus
+right so so if those if it turns out
+that that we take those winnings and
+then regulate you know the ability to
+build housing then all of a sudden
+everything's still just as expensive but
+like like the the total utopian which is
+sort of the abundance thing is like wait
+a second if we could use AI to automate
+more we can build more if we could build
+more we can lower the cost of things if
+we can lower the cost of things then we
+can actually lift up anybody anybody's
+lifestyle right now you know the the the
+the 10-year-old in an underserved
+Community is now all of a sudden has
+access to the world's intell in the form
+of an AI agent so they can they they now
+you know are able to be educated better
+uh if we can lower the cost of
+delivering services to people then you
+get you know better healthare that's
+like the ultimate utopian state is we
+use this automation to to actually
+deliver better outcomes for for the
+world um and that will require tons of
+jobs uh as a result of that yep we can
+be a society again yeah because of AI
+there you go Aaron thank you so much
+thank you thank you so much for being
+with us great I think that that's a
+great place to end just because you know
+to be continued like you know I I think
+that we're in the middle of the
+Revolution and the revolution does not
+have to be uh Black Mirror it could be
+something that is driven by jeevan's
+Paradox driven by abundance for everyone
+and that's certainly the uh the timeline
+we want to be on so let's do it that's
+the future I'm betting on
+[Music]

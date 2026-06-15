@@ -1,0 +1,879 @@
+Title: The 10 Trillion Parameter AI Model With 300 IQ
+Video ID: lbJilIQhHko
+URL: https://www.youtube.com/watch?v=lbJilIQhHko
+Channel: Y Combinator
+Published: 2024-11-01T14:00:48Z
+Duration: PT33M45S
+Views: 62164
+Likes: 1115
+Tags: YC, Y Combinator, OpenAI, Sam Altman, LLM, o1, GPT4
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 854
+
+Description:
+Earlier this month, OpenAI raised the largest venture round ever at $6.6 billion. The company’s CFO says AI is now at the point where orders of magnitude matter and the next generation of models will be capital intensive. In this episode of the Lightcone, the hosts consider what a world with ultra intelligent models would look like and what potential unlocks could be made possible.
+
+Apply to Y Combinator: https://ycombinator.com/apply
+
+Chapters (Powered by https://bit.ly/chapterme-yc) - 
+0:00 Co
+
+============================================================
+TRANSCRIPT
+============================================================
+
+if o1 is this magical what does it
+actually mean for Founders and Builders
+one argument is it's bad for Builders
+because maybe o1 is just so powerful
+that open AI will just capture all the
+value you mean they're going to capture
+a light cone of all future value yeah
+there you go they'll capture a light
+cone of all present past and future
+value oh my God the alternative more
+optimistic scenario is we see ourselves
+how much time the founders spend
+especially during the batch on getting
+prompts to work correctly getting the
+outputs to be accurate but if it becomes
+more deterministic and accurate then
+they can just spend their time on bread
+andb butter software things the winners
+will just be whoever builds the best
+like user experience it gets all these
+like nitty-gritty details
+[Music]
+correct welcome back to another episode
+of the light cone we are sort of in this
+moment where open aai has raised the
+largest V round ever $6.6 billion with a
+B here's what Sarah frier the CFO of
+open AI said about how they're going to
+use the money it's compute first and
+it's not cheap uh it's great talent
+second um and then of of course it's all
+the normal operating expenses of a more
+traditional company but I think there is
+no denying that you are we're on a a
+scaling law right now where orders of
+magnitude matter the next model is going
+to be an order order of magnitude bigger
+and the next one on and on and so that
+does make it very Capital intens so it's
+really about orders of magnitude let's
+live in the future there's 10 trillion
+parameters out there 10 trillion
+parameter large language models two
+orders of magnitude out from the
+state-of-the-art today what happens like
+are people actually going to be throwing
+queries and actually using these 10
+trillion parameter models uh it seems
+like you'd be waiting you know 10
+minutes per token yeah for a bit of
+context right now the frontier models I
+mean they're not public exactly how many
+par parameters they have but they're
+roughly in the 500s of billions is like
+Lama
+3405
+billion anthropic is speculated to be
+500 billion GPT 40 roughly around that
+much getting to 10 trillion that's a two
+order magnitude right I think the type
+of level of uh potential Innovation
+could be the same leap we saw from gpt2
+which was around 1 billion parameters
+that was released with the paper of a
+scaling loss which was one of these seol
+papers that people figure out okay this
+is Transformer architecture that we
+figure out what if we just throw a bunch
+of engineering and just do a lot of it
+where does this scale and this L
+logarithmic type of scaling then this
+was proofed out when GPT 3.5 or3 got
+released that was about 170ish billion
+parameters so that's like that two order
+magnitude and we saw what happened with
+that that created this new flourishing
+era of AI companies and we saw it we
+experienced this back in
+2023 when we started seeing all these
+companies building on top of gbt 3.5
+that was starting to work and it created
+this giant wealth so we could probably
+expect if this scaling law continues the
+feeling will be similar to what we felt
+from that year of uh transition 2022 to
+2023 yeah that was the moment when
+everything changed so that would be
+pretty wild if that happens again I
+think there's uh one interesting aspect
+to this which is clearly the current
+generation state-of-the-art models that
+are available uh especially given 01
+chain of thoughts um they sort of
+basically rival normal intelligence like
+you could make a strong case that AGI is
+basically already here the majority of
+the tasks that you know 98% of knowledge
+workers do
+day-to-day uh it is now possible for a
+software engineer uh probably sitting in
+front of cursor to write something that
+gets to you know 90 to 98% accuracy and
+actually do what a a human knowledge
+worker with 120 IQ would be doing all
+day and that's sort of RIT large like
+there probably hundreds of companies
+that each of us have worked with over
+the past few years that are literally
+doing that day-to-day right now you know
+the weird interesting question is like
+at 10 trillion parameters at you know
+200 to 300 IQ like sort of ASI beyond
+what a normal human being normally could
+do you know what does that unlock uh
+there's a great article in the Atlantic
+uh with Terence ta sort of famously this
+Taiwanese mathematician who is is like
+literally north of 200 IQ and how he
+uses chat GPT right now and it's sort of
+unlocking uh new capabilities for him
+there are some examples of this
+happening you know quite a few times in
+human history Like You could argue that
+nuclear power was that Vision you had to
+actually model theoretically that
+something like uh nuclear fision was
+possible before anyone you
+experimentally tried to do it um for
+your transforms yeah maybe the thing is
+uh if we think a lot of the capabilities
+right now are here but is not evenly
+distributed if you go walk down the
+street and you talk to the random Joe
+they don't feel the AI they're just
+living their normal life and stuff is
+still just normal it hasn't changed but
+I think the counter example is just
+sometimes these Discovery take time for
+it to really pan out this is example
+we're discussing
+forer transform was this mathematical
+representation that Joseph forer
+discovered in the 1800s that was like a
+seminal thesis that he wrote about
+representing series of functions that
+were repeating in periods and before
+fouryear transform they were written as
+these long
+sums and series of some that are very
+expensive to add them up and figure out
+how to really model the equation
+basically but he found this very elegant
+way that instead of just doing sums of
+series you could basically collapse all
+these math function into signs and
+cosiness wave that only need two
+variables basically the amplitude and
+the period and you could represent every
+periodic signal and function I mean
+sound really cool math which is like how
+some of this llm and use case sounds
+like okay cool they can do all this
+coding but four years transform it took
+another 150 years until the 1950s when
+people figure out what to do with this
+it turned out that fouryear transform
+were super good at representing signals
+and we need signals basically to
+represent everything in the analog world
+to be digital because bits are ones and
+zeros and how do you compress that and
+one of the big applications as well is
+uh radio waves and made
+telecommunication a lot more efficient
+image representation encoding
+information Theory it just unlocks so
+much of the modern world like the
+internet and cell towers work because of
+this Theory but it took 150 years until
+the average Joe could feel the fouryear
+transform interesting that's a really
+powerful idea I mean that took a while
+then I mean apparently in the 1950s
+that's the moment that color TV happened
+so unlock by foure Transformers as well
+that's right if you apply to the AI
+stuff that's happening today though it's
+like one where do you start the clock
+ticking from like it's not clear if you
+start it from the chat gbt 3 moment two
+years ago or from just like all of the
+research that's been going on for
+decades like we might actually just be
+we've talked about this before but we
+might actually be like decades into this
+now and it's starting to hit like the
+inflection moment potentially yeah for
+sure I mean if we run with Diana's
+example of fast for transforms like all
+the math that's underpinning all the
+this new AI stuff is linear algebra
+stuff that's like 100 years old it just
+turns out how far you could push it yeah
+F you have all the gpus to compute it I
+guess that's one potential way that uh
+these 10 trillion parameter models
+actually alter the face of what humans
+are capable of like they sort of unlock
+something about the nature of reality
+and our ability to model it and then
+somehow it leads to uh either nuclear
+weapons or uh the color TV the other big
+thing is just because this is all in
+software like um compared to like foro
+transforms like a lot of the
+applications are just see in physical
+devices right like record players or or
+or telephones like you said and so takes
+a while for the technology to get
+adopted because you have to like buy
+your updated device and all these things
+now we have like Facebook and Google who
+have like you know pretty decent
+percentage just like the world using
+their software already like as soon as
+these things start rolling out and I
+feel like it's another thing that's
+starting to be noticed is meta in
+particular coming out with their meta
+Ray bands the consumer like device like
+I think consumers once this becomes um
+something that's like visual in your
+like smart glasses plus like a voice app
+that you can talk to and it like is
+indistinguishable from human being like
+that's going to be a real change the
+world moment for they'll start feeling
+the AI once they can like talk to it all
+the time I mean it seems like there's uh
+really a bifurcation in what we might
+expect when we have this capability um
+at the extreme and you're going to have
+people like Terren too pushing the edge
+and boundary of our understanding of our
+you know modelable world and then you
+know maybe that's actually worth tens or
+hundreds of millions of dollars of
+inference to run these 10 trillion
+parameter models and then the more
+likely way this ends up being useful for
+the rest of us is actually in
+distillation so taking you know there's
+some evidence that for instance uh
+meta's 40 uh 405b was mostly used useful
+to make their 70 billion parameter model
+much much better and so and you actually
+see this today there was sort of this
+moment there where we thought that um
+you know people might just go to GPD 4
+and distill out all the weights and it
+seems like there's some evidence that uh
+certain governmental entities are doing
+that already but GPT for itself and for
+you know it became 40 open AI itself has
+now enabled distillation internal to its
+own API so you can use 01 you can use uh
+even GPT 4 or 4 40 to distill it down
+into a much cheaper uh model that's
+internal to them like gp4 uh 40 mini and
+that's sort of their you know lock in
+capability yeah I don't think this is
+talked much about but it is interesting
+that you have these giant models like
+the 400 or 500 whatever billion
+parameter models that are basically the
+teacher models because they're the Mega
+trained with everything and took forever
+and they are the teacher model Master
+model that teaches the student model
+which are these smaller ones that are
+faster and cheaper because doing
+inference for a 405 billion parameter
+model it's very expensive so we have
+evidence that all these distillation
+models are working companies in the
+batch the they're building from the
+latest and greatest they're not going
+for the giant model with all of the
+parameters and give me the biggest thing
+to do so that it works the best we have
+evidence that's not the case people are
+not going for the big model and we
+actually have stats in the badge I mean
+harsh we kind of talked about them yeah
+Jared had ran some numbers on this and
+it's it's fascinating but I think the
+bigger meta point is even the fact that
+talking about the startups or the
+founders building this stuff are
+choosing like the smaller models versus
+the bigger models high they just have
+choice and even like a year ago when
+this like entire industry started
+existing like everything was built on
+top of chat gbt right there was it was
+100% market share the chat gbt rapper
+Meme and I feel like we've especially
+over the last six months seen people
+start talking about the other models
+like Claude and sonnet being sort of
+this word of mouth for almost being
+better at Coen than chat gbt and people
+just starting to use different models
+and so the numbers that Jared ran for
+the summer 24 batch are fascinating
+because it seemed to that trend just
+continued like we have more
+diversification of llms and models that
+developers are building on top of and
+some of the stuff that really stood out
+is Claude has even just in six months
+from the winter batch to the summer
+batch has gone from like 5% developer
+market share to like 25% of companies in
+the batch yes of companies in the batch
+which is huge that's like never seen a
+jump like that right L has gone from
+zero% to 8% like one thing that we know
+from running YC for a long time is that
+whatever the companies in the batch use
+is a very good predictor of what like
+the best companies in the world are
+using and therefore what products will
+be most successful a lot of YC's most
+successful companies you could have
+basically predicted which ones they
+would be based on just looking basically
+just running a poll of what the
+companies in the batch use if we just
+take take opening eyes latest fundraise
+off the table and the latest like the
+o01 model off the table for a second it
+would seem like among developers and
+Builders open AI was losing like they
+went from being the only game in town to
+just like bleeding market share to the
+other models at a pretty rapid rate the
+interesting thing though is maybe they
+are coming back like was the stat that
+you P seem like or 15% of the bat are
+already using oan even though it's not
+like fully available yet it's only like
+2 weeks old now yep yeah and we're
+seeing some interesting things uh with a
+one we're actually hosting right now in
+person right now as we speak downstairs
+a hackathon to give YC company's Early
+Access to 01 and Sam himself was here
+did the K kickoff there's a bunch of
+open a researchers and Engineers working
+on it and it's only been about four
+hours of hacking and we already heard of
+I already saw actually some demos as I
+was walking by to see some teams and
+they already built things that were not
+possible before with any other model do
+you do you have some examples one of the
+companies I'm working with is uh
+freestyle they're building a Cloud
+solution fully built with typescript
+with if you're familiar with durable
+objects with this really cool framework
+to that that makes front end and backend
+seamless to develop and it's really cool
+to use what was cool about them is they
+just been working on it for a couple
+hours and I saw a demo that was mind
+blown they basically got a version of
+repet agent working with the product all
+they had to prompt 01 with was all their
+developer Al some of their developer
+documentation and some of their code and
+they could just prompt it build me a web
+app that writes a to-do list or this and
+it would just boom just work and it was
+able to reason and inference with the
+documentation and took a lot longer but
+it arrived and built the actual app
+what's interesting for us to talk about
+is if 01 is this magical what does it
+actually mean for Founders and Builders
+and uh one argument is it's bad for
+Builders because maybe 01 is just so
+powerful that open AI will just capture
+all the value and um everything that
+could be valuable and built on top of
+this stuff will just be owned by them
+you mean they're going to capture a
+light cone of all future value yeah
+there you go they'll capture a light
+cone of all present past and future
+value my God the alternative more
+optimistic scenario is we see ourselves
+how much time the founders spend
+especially during the batch on the
+tooling around getting the prom like
+getting prompts to work correctly
+getting the outputs to be accurate human
+in the loop like all of this time spent
+just getting the call product working is
+not deterministic but if it becomes more
+deterministic and accurate then they can
+just spend their time on bread and
+butter software things you know like
+better UI better customer experience
+more sales more relationships in which
+case it's like it may be a better time
+to start now than ever because you don't
+even have like maybe all of the
+knowledge you learn around how to get
+like the prompts accurate and working
+was just temporary knowledge that's no
+longer relevant as these things get more
+powerful actually we had this
+conversation with Jake hel from casex
+where getting the legal copilot to work
+to 100% was the huge unlock and it was
+really hard yep he like you we hated
+this whole talk about all the things he
+had to do to actually get the thing to
+be accurate enough yeah imagine if he
+didn't have to do any of that if if they
+just on day one you could be guaranteed
+100% accuracy like as though you're just
+building a web app on top of a database
+the barrier to entry to build these
+things goes way down there's going to be
+more competition than ever and then it
+will probably just become look more like
+a traditional Winner Takes all software
+Market Jarett has an example so there's
+a company at dry merch yeah that you
+work with and they went from 80%
+accuracy to pretty much 99 or for
+intents of purposes 100%
+using A1 and unlocked a bunch of thing
+you want to talk about them yeah just by
+swapping out GPT 40 for for for 01 I
+think there might be even more bullish
+version hard which is that there are use
+cases right now that people are not able
+to use llms for because even though
+they're trying to get the accuracy high
+enough they just can't get it accurate
+enough to actually be rolled out in
+production like especially if you think
+about like really Mission critical jobs
+where the consequences of Stakes are
+dire like pretty hard to use llms for
+that as they keep getting more accurate
+those applications will start to
+actually work I guess there is a lot of
+evidence inside the YC uh greater
+portfolio you know I was meeting a
+company from 2017 I think I tweeted
+about them they were um you know $50
+million uh annualized Revenue at that
+point but growing 50% a year a year or
+two ago um they were not profitable they
+knew that they needed to raise more
+money but um in the year since they
+automated about 60% of their customer
+support tickets and they went from
+something that needed to raise another
+round imminently to something that was
+totally cash flow break even while still
+growing 50% year on year that's sort of
+like the dream scenario for uh building
+Enterprise Value because you're big
+enough that you know you're a going
+concern and then you're literally
+compounding your growth with like no
+additional Capital coming in so it's
+companies like that that actually end up
+becoming like half a billion a billion
+dollars a year in revenue and like
+driving hundreds of millions of dollars
+in free cash flow I mean that's sort of
+the dream for Founders at some level and
+I think that that's one of the more
+dramatic examples that I've seen thus
+far and I think it's sort of not an
+isolated case you know how we're sort of
+talking it's you know 2024 now and we're
+um still in this overhang moment where
+uh company sort of on this path raised
+way too much money at you know 30X or
+40x uh you know next 12 months multiple
+Revenue like seemingly struggling but
+you know also never going to raise
+another round like this is actually
+pretty good news for them because they
+actually can go from like not profitable
+to you know Break Even to then
+potentially very profitable I think that
+narrative is not out there and I think
+it's uh really really good news for
+founders I probably start to catch
+attention I didn't the cler CEO got a
+lot of attention a few weeks ago for I
+mean it's not unclear how much of it is
+real or not but at least they're
+pitching that they're just you know
+replacing their internal systems of
+records for HR and sales with homebuilt
+or LM create apps at least was like the
+insinuation yeah what is it they got rid
+of workday yeah that was it yeah that's
+pretty wild honestly I mean so that's
+good if you treat open aai as the Google
+of the next 20 years you want to invest
+in Google and all the things that Google
+enabled like Airbnb Google could do
+Airbnb it probably won't yeah just from
+like I don't know CO's theorem of the
+firm probably it's just like too
+inefficient and too difficult requires
+too much uh domain expertise to actually
+pull that off so what are sort of the
+new Googles that are getting built out
+there's these vertical agents what are
+some examples that we'll have that we
+could talk about I loved working with
+this company called tax GPT um from the
+last YC batch they started off actually
+uh really literally a rapper and like
+you know it's in the name tax gbt uh but
+my favorite example about them is like
+you know it turned out that tax advice
+you know doing basic rag on um you know
+it's sort of like case text actually it
+was uh you know being able to do rag on
+existing case law and existing policy
+documents from the IRS or
+internationally that was just sort of
+the wedge that got them in front of you
+know tens of thousands of accountant
+accountants and accounting firms and uh
+now what they're doing is building an
+Enterprise business on uh document
+upload so you sort of you know get them
+for cheap or free for the thing that
+people are Googling for and then once
+they know about you and trust you you
+get like this 10 or $100,000 a year ACV
+contract that then takes over real
+workflow that you know actually
+extinguishes tens to hundreds of hours
+of of work per accountant and another
+interesting thing about the 01 model is
+we were saying originally Chachi BT was
+the only thing you could build on top of
+open AI was the only G in town then
+there were all these models I think the
+sort of alpha leak we have here like
+right now in this room is downstairs
+people are building at The Cutting Edge
+of 01 that even the public does not have
+access to um and what we're seeing is
+that this is a real major step forward
+like o1 is going to be a big deal for
+any program or engineer who is building
+an AI application the interesting thing
+is will this cycle repeat where it will
+give open AI a temporary lead the market
+share will just like go you know back up
+towards 100% but then within 6 months
+llama will be updated Claude will come
+up with its new release Gemini will keep
+getting better and there'll just be like
+you know four different models that have
+equivalent levels of reasoning or will
+this be like the first time open AI has
+like a true breakthrough and I would
+just Define a true breakthrough
+something that's actually defensible
+like if no one else can replicate it
+then that puts them in a really powerful
+position but we don't know and I think
+that's what's interesting it's like open
+seems like it is continually the one
+pushing the envelope like they always
+seem to be the first ones to make major
+breakthroughs but they have never been
+able to maintain the lead so far I think
+the other thing that's interesting about
+aan is that it makes a lot of the GPU
+needs even bigger because is moving a
+lot of the computation needs a lot
+higher for inference because it's taking
+a lot more time to do a lot of the
+inference so I think it's going to
+change also a lot of Dynamics underneath
+for a lot of the companies building AI
+infrastructure as well which is
+something Food For Thought seems like
+there are two different types of use
+cases I believe they did just enable
+distillation from 01 into 40 and so it's
+conceivable that uh for relatively rote
+and repeating use cases you could just
+sort of use 01 for the difficult ones
+and then you distill it out and then you
+pay 40 or 40 mini prices from there and
+then there again there's this other type
+of problem that is like very specific I
+mean I imagine most Co many Cod genen
+situations are a little bit more like
+that where you need to pay like for the
+full 01 experience because it's uh you
+know fairly detailed and specific
+depends a few building F too right if
+you're a Enterprise software and you can
+pass the cost on to your customer and
+they can tolerate higher latency and
+don't care as much about it being
+instant then you can just use maybe o1 a
+lot if you're putting like consumer apps
+probably not but talking of consumer
+apps I mean the other thing that was
+striking about open AI is lace releases
+like this realtime voice API um super
+cool it's pretty remarkable and I think
+the the most telling thing to me is that
+the ongoing usage based pricing is $9
+per hour and it sort of points to a sort
+of powerful thing like if I were um a
+macro Trader I would be very very
+bearish on countries that have that rely
+very heavily on call centers right now
+um because you $9 an hour is sort of
+right there at uh what a call center
+would cost this is another thing we're
+definitely seeing within the batch right
+like it's clear that voices a almost
+like a killer app like arguably like um
+there's a company I just worked with in
+this batch um or in my group at least do
+just do um AI voice for deck collection
+and they're track is just phenomenal
+it's working incredibly well a whole
+bunch of the voice apps in s24 were just
+like some of the fastest growing like
+just like explosive companies it was it
+was a clear trend for s24 and I remember
+working with companies in the prior to
+batches to try to do voice and it just
+like wasn't working well enough like the
+latency was too high exactly like it got
+confused if like with interruptions and
+things like that and it's like just
+turned the corner where it's like
+finally working there another company
+work with a happy robot that landed on
+this idea that was doing a voice agent
+for coordinating all these phone calls
+for Logistics think of a a truck driver
+that needs to go from point A to point B
+these are all like people just calling
+to check where you are there's no like
+there not like find my friends for it
+and they started getting a lot of um
+usage on this and I think we talked a
+bit about this before that at this point
+AI has passed touring tests and is
+solving all of these very menial
+problems over the phone that's pretty
+wild I guess one thing that uh is maybe
+underd discussed is to what degree um
+the engineering teams that are in in
+these sort of incumbent Industries it
+feels like it's pretty binary either you
+know the vast majority of companies and
+organizations especially the ones that
+were maybe
+founded four or more years ago they
+actually don't take the any of this
+seriously like they have literally no
+initiative
+on this stuff and I sort of wonder how
+generational it is like I'm realizing
+that managers and VP avenge like they're
+probably my age now I'm 43 now and um
+you know if I wasn't here seeing exactly
+what was happening I would be sort of
+tempted to say like this is just the
+same old thing AI yeah yeah yeah but I
+think it's the rate of improvement that
+people don't get if they're not as close
+to it as we are I just think your
+average corporate Enterprise person is
+certainly used to technology disrupting
+things but over pretty long time frames
+and if anything they become cynical CU
+like oh the cloud like Cloud was such a
+buzzword for a long time it totally did
+change our enterprise software is build
+and delivered but it took like a decade
+or so and so I I suspect everyone's
+feeling that way about AI it's just your
+natural default mode is to be cynical oh
+yeah like it's not going to be ready for
+a while and then probably if you looked
+at this stuff even six months ago like
+we were just talking about if you looked
+at an AI voice app six months ago you're
+like oh this is
+this is years away from being anything
+that we need to take seriously it's like
+actually like three to four months later
+like it's like it's some real major
+inflection point and I think that's what
+takes even people within Tech it's
+surprising all of us how quickly this
+stuff is moving it's the fastest any
+Tech has ever improved I think yeah
+certainly faster than processors
+certainly faster than the cloud and it's
+kind of fun to actually watch it's been
+remarkable to actually see another
+example of this in the batch so a lot of
+the technical Founders sometimes I sit
+with them and I just watch how they code
+the before and the after before all of
+this wave of I just standard you have
+your IDE and things on the terminal
+people ship fine but the demos and
+products that we're seeing Founders
+build during the batch is like a next
+level of Polish and when you see them
+and see them code is like they're living
+in the future they're really not just
+like at this point GitHub cile is
+already kind of old news they're using
+the latest is coding assistant a lot of
+them perhaps using something like
+continue or cursor right this is
+something Jared pulled out as well when
+we asked the founders the IDS right yeah
+yeah we surveyed the summer 24 Founders
+and half the batch is using cursor
+compared to only 12% that's using GitHub
+co-pilot that was surprising to me
+they're not even using the fully agented
+coding agents like uh repet hazer is
+still sort of like co-pilot phase stuff
+but even just going from like GitHub
+co-pilot to cursor which is like The
+Next Step Up in terms of like how much
+the actual AI does is this like
+incredible breakthrough they Shi very
+quickly I mean this is evident today in
+the hack I was impressed with what they
+built I was looking at their editor like
+CER like cool it's another sign why like
+the founders have the advantage right
+like it feels to me again like when
+GitHub co-pilot first came on the scene
+it seemed it's GitHub plus Microsoft it
+has all the developers plus it has all
+the capital plus has all the access to
+like the inside track on open AI how
+could any coding I de compete with them
+it will just get subsumed and like
+cursor has come out of nowhere and is
+like you know according to our numbers
+like five times the size of like GitHub
+co-pilot within the batch which again
+like you were saying earlier like the
+the startup Founders are actually
+usually The Taste makers on this kind of
+thing um I think there's certain types
+of businesses where it doesn't make
+sense to maybe go after startup Founders
+as your early customers but for
+developer tools it definitely does like
+stripe AWS both wanted to own YC batches
+in particular um and that worked out
+really well for them so it's probably a
+really good sign for cursor honestly
+that they have like such good pen
+penetration within the YC badge yeah I I
+would definitely say cursor is pretty
+awesome but altta Vista was awesome too
+yeah I remember using that as a search
+engine and there was another version and
+the next version was 10 times better and
+so this is the way it's going to go I
+mean which the only people who win are
+actually developers because of all this
+competition so I think again takes us to
+like the optimistic view of all of this
+stuff which is as the models get more
+powerful the winners will just be
+whoever builds the best like user
+experience and gets all these like
+nitty-gritty details correct and so
+that's why curser can beat GitHub
+co-pilot that has all the advantages
+alterist is a great example like there's
+still like Google still came along and
+crushed them right so there's still room
+for someone to keep doing to cursa what
+cursa has done to get up co-pilot so
+let's get back to 10 trillion parameters
+what world do you think we will live in
+with this made real with ASI or
+something approaching it you know what
+will humans actually do and how much
+more awesome will it be well I'll give a
+steal man for a really bullish case
+which is that the thing that is holding
+back the rate of scientific and
+technological progress is arguably the
+number of smart people who can
+actually analyze all the information um
+that we already know about the world
+there's millions of scientific papers
+already out there an incredible amount
+of data but like try reading all of it
+it's far beyond the scale of any humans
+comprehension and if we make the models
+smart enough that they can actually do
+original thinking and deep analysis with
+correct logic and you could let loose an
+infinite a near infinite amount of
+Intelligence on the near infinite amount
+of data and knowledge that we have about
+the world you can just imagine it's just
+coming out with just crazy scientific
+discoveries room temperature Fusion room
+temperature superconductors time travel
+flying cars all the stuff that humans
+haven't been able to invent yet like
+with enough intelligence maybe we'll
+finally invent it all sign me up for
+that future sounds great I totally agree
+with you I think you know what this
+might be is not merely a bicycle for the
+mind it might actually be uh
+self-driving car or even crazier uh
+maybe Rocket To Mars so with that we'll
+see you guys next time
+[Music]

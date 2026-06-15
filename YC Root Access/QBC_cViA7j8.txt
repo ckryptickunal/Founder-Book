@@ -1,0 +1,451 @@
+Title: Reducto: Making Human Data LLM-Ready With State-of-the-Art Accuracy
+Video ID: QBC_cViA7j8
+URL: https://www.youtube.com/watch?v=QBC_cViA7j8
+Channel: YC Root Access
+Published: 2025-05-01T15:30:20Z
+Duration: PT15M35S
+Views: 5990
+Likes: 107
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 428
+
+Description:
+Reducto just raised $24.5M in Series A funding to help enterprises unlock unstructured data with near-perfect accuracy.
+
+AI teams today are bottlenecked by messy, real-world documents—so Reducto built the most accurate parsing pipeline in the industry. By combining vision-language models with agentic workflows, Reducto turns complex PDFs and scanned documents into structured, LLM-ready data.
+
+Now trusted by companies like Scale AI, Vanta, and top AI teams, Reducto has parsed over 250 million pag
+
+============================================================
+TRANSCRIPT
+============================================================
+
+I'm excited today to welcome the
+founders of Reduto. They went through
+the YC batch back in winter 24. So,
+welcome Adit and Ronak. Tell us a bit
+about what Redu is. Sure. Um, so at
+Reduto, we help people take their
+really, really complicated documents,
+insurance claims and health records and
+financial statements and we turn that
+into clean structured data that they can
+use for any sort of use case. um but
+primarily LM based use cases like rag
+and summarization and to give a bit of a
+context for the audience you guys made a
+bunch of progress and actually have a
+lot of uh large enterprises using yeah
+sure some of them that you can maybe
+name drop yeah um so honestly we've been
+fortunate to get to work with some
+really cool teams in the space uh
+companies like Dant um and many more
+some of them we can't name but it goes
+all the way up to enterprises in the
+trillion dollar market caps um where I
+think this is a really core or and
+fundamental bottleneck for people
+building AI applications today. Um so
+even though it's been a short period of
+a year, uh things have just progressed
+really quickly on that front. What's
+been impressive is you guys have been
+one of the AI companies that have gone
+through YC that had seen that really
+quick growth just within a year. How did
+you come up with the idea? I know there
+was a bit of a wandering in the
+wilderness for a little bit. you guys
+had applied with YC with a very
+different idea that was a open source
+tool and then eventually landed on
+Reduct. Yeah. Um so it started like you
+mentioned with uh something very
+different. Um Ronic had built long-term
+memory for LMS and he was actually I
+think one of the first people to do that
+ever. Um but at that point it was sort
+of this like really cool thing to see
+but not something that anybody was
+trying to implement in their
+applications. Um but over the course of
+that, one of the features that's we were
+sort of working on is people would
+mention, hey, you're managing our user
+chat history. Um can you manage the
+files that users are uploading to? And
+we tried just using off-the-shelf
+solutions for that. Nothing really
+worked very well. And so what Redu is
+say wasn't supposed to be a pivot. Uh we
+had this like almost embarrassing
+version of a segmentation model like
+just thrown into a streamlit app thrown
+on Bookface as like a it was literally a
+weekend project like slapped together
+with a bunch of heruristics and and
+things like that. Yeah. Um and that we
+just put up as like a blog post of how
+to segments your documents effectively.
+Um, and again, it wasn't supposed to be
+a pivots, but surprisingly that feature
+that was supposed to be a marketing
+stunt immediately had people saying
+like, "Hey, this is better than what I'm
+getting from, you know, Textract. Uh,
+can you make this an API? Is this
+something that I can just pay for on
+Stripe?" And I I think over the course
+of talking to those teams, we really
+started to see that teams that have no
+sort of reason to be PDF processing
+companies were spending a lot of their
+time just on the sort of data ingestion
+piece that to them is just a bottleneck
+from doing the things that they really
+care about. So we sort of abstracted the
+problem of like how can we be their
+ingestion team for them. Yeah. None of
+these like AI application layer
+companies like want to be PDF
+processors. it's just not something
+that's like exciting to them and that's
+something that we like are excited about
+just abstracting away the problem. We
+really say like we try to be the
+ingestion team for the companies that we
+work with um and try to build our
+company in a way that works well for
+that. I think what's fascinating about
+this idea, I think you both are very
+very hardcore engineers and you could
+have been in that camp of like oh
+processing PDF is like a simple problem.
+But the funny thing is that you were
+surrounded by community of founders
+building AI products and they all still
+were struggling with it. There wasn't
+nothing around it that worked but nobody
+wanted to do it because it was kind of
+like boring stuff. Yeah. Honestly, like
+we were surprised too um that the
+problem wasn't kind of solved. Um when
+we were first looking into the problem,
+we tried all of the existing solutions
+on the market and I was expecting
+something to just work, but it didn't.
+And that was kind of the aha moment of
+like, hey, we should maybe invest in in
+this ourselves and try to solve this
+problem for other people. Kind of
+reminds me a lot of uh the famous PG
+essay, the schllelap blindness. Yeah.
+It's one of those things that all
+developers and AI engineers know about
+this that PDF aren't extraction aren't
+100%. But we don't want to work on it's
+kind of boring. Same thing with like the
+example that PG points in his essay is a
+stripe. It's like oh people knew back
+then that payments processing was kind
+of annoying and the API was kind of eh
+but nobody really wanted to work on it
+and you guys jumped on it and was good.
+And I think part of the approach that we
+took was we we we made it a more
+interesting problem because we took a
+different approach than what a lot of
+other folks had been doing in the sense
+that we turned PDF processing which is
+usually just writing a bunch of rules
+for how to process this type of file
+type and this other type of file type
+into a computer vision problem. So the
+insight we had is like we are going to
+parse and understand these documents the
+way humans do and that's really what my
+background was in. It was like machine
+learning research, computer vision into
+autonomous driving and things like that.
+Um so I was really excited at the idea
+of applying a lot of the techniques from
+the computer vision space like to um
+processing documents kind of the same
+way humans do. That was the start. Yeah.
+I think if you look at as this sort of
+first principles problem, um there's so
+much information that's to us is very
+intuitive, right? Like every gap between
+two paragraphs is me telling you, hey,
+this is like a new piece of semantic
+information. Um or a tab is like me
+telling you, hey, this is a nested
+hierarchy. And when you sort of boil it
+from that lens of like how do you try to
+read not just a specific type of
+invoice, but anything that could be on
+the page, um it's a really hard thing to
+do. Uh, but it's a fun thing to sort of
+work across that long tail. The cool
+thing that I remember you guys figure
+out doing the badge is that by becoming
+the best PDF extraction tool, a lot of
+AI enterprise applications just got
+better. You guys became this
+foundational piece of the new AI
+application layer for enterprises. And
+you saw a lot of your customers
+succeeding with you. Maybe can you tell
+us about the gains they saw by using
+you? Yeah, this is actually my like
+favorite category of customer Slack
+message. Um, people will often see end
+LLM accuracy improvements just from
+swapping the ingestion provider. Uh,
+because the data that you provide in is
+fundamental to what's being reasoned on.
+Um, the like extreme end of the cases,
+we've had customers report plus 30%,
+sometimes even more if they're dealing
+with really challenging documents. Um,
+but for almost everyone, there's the
+benefits that you get from better
+accuracy. We take a lot of the work of
+post-processing out of the plate for
+them too, like chunking and all that
+kind of stuff. Um, and then the question
+basically becomes, okay, you have great
+data. What do you do from there? And my
+favorite category of like improvements
+or messages from customers is like this
+use case wasn't even possible before
+because users were uploading scan
+documents that didn't have metadata or
+we needed to process I don't know
+hundreds of pages in like a few seconds
+or something like that that that just no
+approach was capable of doing before.
+And so all of a sudden they're able to
+implement new features into their
+applications and products that just
+weren't possible before. That's the most
+exciting thing to be able to like enable
+those like new use cases for customers.
+And you guys shipped a lot of this very
+quickly. I do remember one of the
+examples I saw from you guys. It was
+this
+uh when people buy homes, there's this
+giant Yeah. the questionnaire. The
+questionnaire that people real estate
+agents fi file by hand and it's like
+garble handwriting. and you guys were
+able to extract it 100% correct. Yeah.
+Um I do think that this is something
+that's only possible today. Um we we get
+the benefits of not just being able to
+use traditional computer vision to get
+like bounding boxes and deterministic
+outputs but also to capture that long
+tail where if you have a snippet of
+handwriting BLMs are so much better than
+traditional OCR was there. Um and going
+back to the sort of analogy of we are
+the ingestion team I think it's on us to
+sort of find the places where we can get
+the best out of each approach uh such
+that our customers don't have to think
+about whether their questionnaire has
+you know checkboxes or handwriting or
+any of that and it's even the case where
+customers will come to us with like a
+very specific kind of thing where maybe
+a cell within a table has a green
+highlighter circling a a number. Um, and
+so that's the kind of thing that we're
+really excited to be able to um, handle
+where users can even just instruct or
+guide our models um, by giving them like
+plain text instructions to make changes,
+things like this. Yeah. So tell us a bit
+about how within just a couple months of
+graduating from the YC batch last year,
+you guys were one of the few companies
+that quickly closed a Fortune 25 company
+to become a full and enterprise
+customer, not just going through the
+whole pilot procurement security, but
+actually fully signed the contract.
+That's the fastest I ever seen. How was
+that journey? Yeah. Um it was intense.
+Um to us it felt very long but I hear in
+retrospect that it was somewhat fast. Um
+so that actually started during the YC
+batch. We did our launch YC. Um to us I
+remember before we did our launch we
+were very big on at least something has
+to be substantially better as a result
+of what we're releasing. And we scoped
+that as we should have a really really
+good layout model that will decompose
+your document for you. Um and so they
+tried a document that I think was
+failing in their internal pipeline. and
+that worked and so they took that
+initial demo call. Um, we were ecstatic.
+Uh, I think we sent you a screenshot of
+like the form submission. I guess there
+was this like constant learning because
+neither of us are salespeople. It's not
+our background. Um, but really it just
+became this question of like can we show
+to their team that we will help their
+team do something else faster? And uh
+going back to that same point like they
+had their own internal document
+processing team. um that was our real
+competitor. Like they tried
+off-the-shelf tools, but we were
+competing with people that had access to
+their distribution of data. Um they knew
+what they were evaluating against and
+this was all stuff that they wouldn't
+reveal to us. They were fine-tuning on
+the examples they were like testing on
+basically, right? And hard bar to to try
+to capture. Yeah. Um and so yeah, it was
+this fivemonth ordeal where at first it
+would be one meeting and then they'd
+say, "Okay, like maybe let's also meet
+this other person. He wasn't in the room
+today." Um, and it kept going and going
+until at some point we spent eight hours
+in their office for the full day with
+like 14 people from their team um, of
+them just grilling us, including the
+team that we were competing against who
+were like kind of trying to pick at how
+we got to where we were. Um, but
+fortunately it ended up working out.
+We've been working with them for uh, I
+guess about half a year now. Uh, and
+continuing on. That's very cool. And I
+think part of it is I think Ronach you
+were able to get reducted to build the
+best model ever for document extraction
+and that was quite a journey and I think
+you guys released a data set and a
+benchmark and tried to set the standard.
+Tell us about how you guys got got to
+basically soda. Yeah. Um it's a hard
+problem especially in this space. We
+were expecting there to be a lot of
+really good quality data sets for us to
+to measure up against. Um but we often
+saw that in the space of documents like
+people just weren't often willing to put
+in the like effort that was required to
+generate the really high quality data.
+So part of that process is in-house. We
+um reached out to like teams of PhDs and
+we actually like built really really
+extensive like data pipelines and like
+kind of a data engine in house for us to
+be able to sample some of the most like
+diverse document data that we could
+find. that basically allowed us to start
+iterating a lot faster um on our end um
+where we could um we could test on any
+given case like how are we doing um how
+can we compare against all of these
+other methods and part of it I think is
+also us coming into the equation without
+um kind of maybe a lot of the baggage of
+like knowing how people were parsing
+these documents before um using a bunch
+of heruristics and manually parsing
+these like PDF documents ment standards
+um coming at into it with like a new and
+fresh perspective of like hey we're
+vision first we're going to read the
+document like a human does that I think
+unlocked a lot of like maybe novel
+approaches um that folks might not have
+considered before and you guys have
+expanded beyond PDFs right yeah we do
+spreadsheets images documents slides at
+this point that's very cool so you've
+become the the standard for a lot of now
+enterprises that need to process all
+these tools that are adopting AI is yeah
+the tool to use Yeah. Um, people don't
+want to fork their pipelines. Um, in the
+beginning we really wanted to constrain
+our focus because we're a small team and
+we need to maintain this accuracy bar
+that we set for ourselves. Um, but we
+would just constantly get requests of
+like please build a spreadsheet endpoint
+like I and building this whole separate
+pipeline and so we started giving those
+options too as well. So, one of the
+things that's really cool to see is that
+you guys are becoming a key piece of
+infrastructure for AI applications and a
+lot of AI agents and a lot of the best
+YC companies are choosing you guys. Tell
+us about why is that and if someone is
+building a AI tool or application, why
+should they use you? The like big unlock
+here is the only reason people were
+building this in-house is because it was
+stopping them from getting their
+products to the quality bar that they
+were looking for. And what we are trying
+to do is make it so much faster for them
+to you know work with the newest models
+to focus on you know improving the
+post-processing and reasoning after
+that. Um, so for honestly any team
+whether it's a startup, scale up or
+enterprise, um, I really think that
+Reduct is a sort of like core infra that
+hopefully they see as a tool for them to
+leverage and then build off of into
+anything that they're looking for from
+there. Yeah. And as part of your fund
+raise announcement for your series A,
+congratulations. You guys are growing
+the team a lot. If someone wants to work
+for you, what what what kinds of
+engineers are you looking for? I think
+we're hiring for basically across all of
+our engineering roles at the moment.
+Product machine learning engineer. Um
+the type of people we tend to look for
+are really scrappy have been like
+startup like founders or uh engineers in
+the past. Um and the thing that we
+really love to index on is just like
+really caring about the details.
+um we've hired some folks and like our
+first machine learning researcher um
+first day he started like training a
+model and I just saw him sitting at the
+desk and and like clicking through like
+thousands of pages of of documents and I
+think part of that like surprised me at
+first but that's kind of the quality
+that you need to have when you're really
+building something cutting edge like
+reducto for us it's extremely true for
+our customers it's also true like the
+quality of your data is the quality of
+your end outputs and results. All right,
+guys. Thank you so much for coming and
+chatting with us and again
+congratulations on your fundraising our
+announcement for your series A. Thanks
+sign up.

@@ -1,0 +1,198 @@
+Title: MMOs in the Instagram Era: Highrise (S18) - YC Gaming Tech Talks 2020
+Video ID: ztoZF65LUgk
+URL: https://www.youtube.com/watch?v=ztoZF65LUgk
+Channel: Y Combinator
+Published: 2020-12-07T08:14:17Z
+Duration: PT5M38S
+Views: 6134
+Likes: 106
+Tags: YC, Y Combinator
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 174
+
+Description:
+Highrise (S18) gives a tech talk on their gaming startup, business opportunities and open roles.
+
+Watch all the talks and create a profile on YC's Work at a Startup to connect with founders and find your next role:
+
+https://www.workatastartup.com/events/gaming-tech-talks-2020
+
+============================================================
+TRANSCRIPT
+============================================================
+
+um hi everybody i'm jimmy i'm the
+co-founder and cto of
+pocket worlds we're high-rise and we
+built high-rise the app
+which is available on ios and android
+and i think to date it has
+over 5 million downloads and we're
+grossing over a million a month in
+revenue
+so today i'm going to walk you guys
+through um
+the process of designing and building an
+mmo game
+in this era of mobile apps and social
+networks
+i'll talk about the architectural design
+decisions that we made that enables
+high-rise to feel
+simultaneously like an app and also a
+game
+and why that's really important i'll
+also talk about
+our vision as pocket worlds and how we
+plan to leverage the high-rise
+architecture to create more exciting
+social first games experiences
+and worlds so for those
+that are not familiar high-rise is a
+social first design mmo
+so player players come in they design an
+avatar
+they build an apartment they go into
+this fully user-generated world to visit
+other people's faces
+and take a part in challenges the unique
+part of high-rise
+and the high-rise experience compared to
+the multitude of games that you see in
+the app store
+is our design philosophy that we call
+social first
+so with traditional game design you
+often have a game designer that would
+come up with a game a mini game concept
+and then would build out a metagame loop
+and finally sprinkle in some social
+features like lands
+inbots marketplace um
+as almost an afterthought under the
+social first philosophy
+what we do is we start with the
+messenger a news feed for a community
+guilds profiles an economy and a vibrant
+world
+and then we add in the game in the case
+of highrise
+that game is a straightforward fashion
+contest
+where you design outfits and compete
+with other players
+the core part of why social first works
+is that it solves the critical piece
+that's missing in most all mobile games
+today
+which is the issue of long-term
+attention a player joins high-rise for
+the design game
+but they really ultimately stay for the
+friends they meet in our world
+but as you can see kind of from the
+screenshots on the left our heavy focus
+on social features
+really require a us that feels like an
+app very much like snapchat or instagram
+otherwise users will come in um play the
+game
+make their friends and then really move
+to those other platforms
+once they're done and kind of gotten
+everything they can out of the game
+and that's precisely what we saw in the
+early days of pyrites
+so to achieve that user experience we
+really
+realized that we must leverage the ui
+capabilities native to ios
+and android and could not rely on
+anything that game engines like unity
+can offer
+there's just really no way that unity
+could compete with
+apple's 40 years of experience
+perfecting fonts and ui animations
+so the architecture that we came up with
+actually
+mirrors our product's position of being
+50 app and 50
+game it is 50 swift
+and kotlin on the android side and 50 c
+plus plus
+the swift component handles all ui to
+create the silky smooth native field
+and the c plus plus component handles
+the game engine the world the avatars
+business logic and is shared as a sub
+module between ios and android
+the components are seamlessly integrated
+via a system of bridges
+that are separated by feature which
+creates a nice little
+micro services architecture that we can
+swap components in and out of
+the bridging between the components is
+achieved using objective c
+plus plus on the ios side and jna jni on
+android
+and the secondary objective here is of
+course to offload as much
+of the heavy lifting as possible into
+the core
+to help with cross-platform development
+which we were able to achieve
+so i think what's more interesting is
+that this architecture really enables us
+to
+create different games and products that
+offer different experiences
+by swapping out the mini and the
+metagame of highrise with something else
+so maybe um i'm thinking like a hero
+collector where you're walking around in
+a virtual world
+collecting monsters to do battle with
+with the exact same avatar world
+messenger guild system as high rise
+or an adventure fishing game but you
+know the possibilities are really
+endless
+as we're not only offering the game as
+the core attraction
+but rather the social experience as a
+whole
+so in the interest of time i'm not going
+to dig too deep into the nitty-gritty
+details of our implementation but i
+would like to summarize what we talked
+about today
+which is highrise is a social first game
+that is 50
+half and 50 game it is built on an
+architecture that leverages the silky
+smooth ux
+of native ui and the power of a real
+game engine
+and we at pocket worlds is looking to
+take this architecture to the next level
+by building more experiences
+and games that are social first by
+design
+so i'll wrap things up by talking a
+little bit about our company
+we are entirely remote and we have been
+remote for four years so
+we are ahead of the curve and we're
+doing very well we just closed in
+a serious a to build out more games and
+worlds and we're looking to grow our
+entire team
+with lots of open positions so if you're
+interested in building amazing games
+and crafting worlds with us please email
+me directly at j
+at highh.rs or check out our website at
+pocketworlds.com thanks

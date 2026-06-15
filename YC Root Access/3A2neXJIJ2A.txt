@@ -1,0 +1,356 @@
+Title: YC Tech Talks: Defi and Scalability with Nemil at Coinbase (S12)
+Video ID: 3A2neXJIJ2A
+URL: https://www.youtube.com/watch?v=3A2neXJIJ2A
+Channel: YC Root Access
+Published: 2022-08-12T00:11:11Z
+Duration: PT10M7S
+Views: 814
+Likes: 11
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 335
+
+Description:
+Nemil Dalal is the Head of Crypto at Coinbase (S12). He shares the history and rise of Coinbase, and the challenges the team has with operating defi at worldwide scale.
+
+See more of the talks -- including the founder of OpenSea -- at YC's Work at a Startup: https://www.workatastartup.com/events/crypto-tech-talks-2021
+
+============================================================
+TRANSCRIPT
+============================================================
+
+cool thanks everyone i'm super excited
+to talk my name is nimail i'm at the
+head of crypto at coinbase and i'm
+excited to talk to you today about defy
+and scalability um but in the in as part
+of talking about that i'll talk about
+the landscape for crypto and why today
+is just such an exciting time to be able
+to get into crypto um
+so to kick it off um what i loved seeing
+when i was a yc founder was seeing the
+journey especially the early years about
+the founders um who had been successful
+in coin
+in y combinator and so when i saw this
+was recently a tweet by fred urson one
+of the co-founders with brian armstrong
+of coinbase um walking through the first
+version of coinbase and where we are
+today one of the
+largest um downloaded apps in the world
+and it's been quite a journey over the
+last decade to get to where we are but
+we're a small fraction of the way in the
+crypto industry to where we need to be
+to allow this technology to be accessed
+by everyone around the world so quick uh
+background on coinbase and i think many
+of you may be aware but generally
+speaking like the core things that we
+offer are we have a whole series of
+different users on our platform they
+trade crypto they hold crypto um safely
+on our platform we have a whole host of
+uh different uh employees um and we're
+we're rapidly growing um and we're a
+white common air company we started in
+summer 2012 i was actually in that batch
+and one of the reflections that i had
+was unlike i think some of the founders
+here today i actually shut down my
+startup but while i was doing that i was
+accepting bitcoin for my startup and i
+got super excited about this idea
+bitcoin scripting very few people talk
+about today but it was an early early um
+originator of the idea of smart
+contracts and then when ethereum came
+out i got super excited about that built
+a whole host of security best practices
+audited all a number of different
+protocols in the space and then launched
+my own d5 protocol and the journey at
+coinbase has been really fantastic one
+is that i used to run usdc it's today
+about a 30 billion dollar stable coin
+that's available around the world we
+launched rosetta a way for different
+blockchains to interoperate together and
+we also announced the um different types
+of open source funding to help grow the
+crypto ecosystem
+the core things i think i want to drive
+home in the chat today are like one is
+that the price of bitcoin is one of the
+most powerful onboarding mechanisms in
+the history of technology so basically
+what happens your price cycle is the
+price of bitcoin goes up a lot more
+people get excited about it they start
+signing up for crypto wallets they start
+signing up for trading platforms and
+then they go deeper and deeper down the
+rabbit hole and you've seen that over
+the course of the maybe three or four
+cycles of the course of the last decade
+that we've gone through but it really
+has driven hundreds of millions of
+people into this space um in a way where
+all this technology is
+today's still very rudimentary it's hard
+to use um it's not super scalable and
+yet the demand has just been off the
+charts so i think that's one observation
+is that bitcoin the growth of this asset
+ecosystem has really driven people into
+crypto the second thing i think that i
+always explain to people is often people
+think about crypto as finance and when i
+and or or payments is the other quick
+thing the idea that it's going to solve
+remittances and i think the core thing i
+just want to drive home to all those
+excited against the space is not just
+payments it's not just cryptocurrencies
+it's not just finance and i think devon
+vinson from open c is a really great
+example of that nft is a behavior which
+has some analogs in the pre-blockchain
+world but in a lot of ways it's brand
+new behavior much like the internet led
+to things like social media that we
+could only have a map you could barely
+have imagined at the time so that's a
+huge shift in how we think about this is
+that anything that can be owned can be
+moved um and can be held on the
+blockchain
+ultimately and you've heard this from a
+few other folks that that talked earlier
+today is where we're headed is billions
+of users and millions of developers and
+we're a small small small fraction of
+the way there we might have 150 200
+million users in the world today and i
+probably would argue there are tens of
+thousands of developers when for web
+development there might be tens of
+millions of developers
+and the big shift we're slowly getting
+is that if on internet we have this
+whole osi model it's how we set up the
+stack of how we build apps on the
+internet we're slowly bringing that
+together in the crypto model and it's an
+exciting time because early on when i
+started in crypto there was just a layer
+one layer then slowly added layer two we
+added base contracts and apps on top of
+that and that's we're gonna talk about a
+little bit more today so i think the
+core maybe career advice for the folks
+who are looking to get in especially for
+the first time is one feedback i get
+from a lot of people is like is it too
+late the price of bitcoin is this the
+price of ethereum is this
+nft's exploded i feel like it's too late
+and i just want to tell you that a lot
+of us like what we see every day is a
+tiny fraction of what the rest of the
+world is actually using right so i would
+say it's not too late this is actually
+the perfect time i actually would argue
+that i probably got in too early um but
+the core shifts that have happened of
+course the last few years are one is
+just powerful primitives so we have
+smart contracts we have the ability for
+layer one platforms that allow all this
+other stuff without you having to build
+your own layer one platform just like we
+don't have to build tcpip to ship a
+website there's a wide open spaces like
+the apps that have been created we're
+still scratching the surface we tried
+one form of nft digital art but there's
+a host of other things that we need to
+explore and that um not idmas then i
+think there's critical technical and
+product problems and this as an engineer
+gets me very excited the scalability the
+security usability and i'll walk through
+a few more of these later um there's a
+growing user base many many more people
+are being onboarded every day into this
+ecosystem and that's amazing if you're a
+startup founder if you're an employee at
+at a company and then at least for now
+there's easy funding and again
+crypto goes through cycles but um this
+is a really powerful way if you want to
+start a company i remember how hard it
+was to raise my first round as a yc
+founder and this is pretty amazing if
+you're a founder to at least get started
+so here's just some things for you to
+think about as you think about whether
+you want to get into crypto it's like
+these are the types of technical
+problems that we get to work on
+one is scalability how do you onboard to
+billions of users how do you onboard to
+millions of developers how do you build
+the tools so like nyc stripe is the one
+that i when i started nyc i was the
+company is the most excited about and
+this is exactly something is like how do
+we make the crypto developer experience
+like stripe another example is security
+so you might have here about d5 hacks
+and we'll talk about that in a minute
+but like this is a really really
+critical problem in uh cryptos how do
+you make sure that funds are safe
+usability so there's so much going on
+below the surface and when i go to a
+website i don't have to think about
+what's happening in the tcp layer i
+don't have to think about what's
+happening you know an ip layer and the
+layers above that all i have to think
+about is i want to go to a website i
+want to interact with it today we had
+not abstracted that away and that's a
+really powerful and interesting
+engineering problem and then i think one
+other one that's really interesting is
+interoperability how do we get different
+all these different systems layer one
+layer two to talk to each other
+so i think quick things i'll drive home
+is i'm from the speakers earlier today i
+talked about d5 and i think the thing
+that's important to frame is why is d5
+so interesting it's open it's available
+around the world that's a massive
+massive shift in how we think about
+financial services up till the 90s you
+couldn't access a you can actually have
+a bank go across state lines and yet
+just like the internet did for
+information crypto is doing for the
+ownership and for finance it's
+composable so if you're a developer
+you're very used to composability when i
+do my npm install i don't have to build
+every single command or not similar
+that's what really powerful thing about
+d5 it's programmable and it's the first
+time we've been able to create what i
+call credible digital scarcity that
+means that i can't i can't just change a
+database and change a number somewhere
+to change a money supply or to change a
+rewards currency or anything like that
+and that's a huge shift as well
+and so when i compare it i think like
+one example of these this is comparing
+the old world lending companies and d5
+protocols together is like you know
+there's a process for a lending company
+there's a process for a d5 protocol and
+this might be the simplest version of a
+bank i think i wrote this in 2016 lets
+you put in money unless you pull out
+money the really cool thing about this
+is as a creator of this i'm the founder
+why see who's creating this i can't
+touch the money
+and that's a really profound shift in
+how we think about financial services
+one of the reasons we regulate banks so
+much is that the creators of that can
+run away with the money and this really
+really shifts that equation and so if
+you think about it this is a magical
+time to get into crypto you're a
+traditional example of like a bank of
+how it started you look at the default
+lending and in a lot of ways it's
+superior there are other things that we
+have to figure out in this model but i
+think this is a really exciting time
+so i think the main thing i want to
+drive home in this in this talk is this
+um is that
+all of this excitement will not last
+unless we can solve one primary problem
+in crypto which is scaling
+so if you look at scale bitcoin is 45
+transactions per second on the right
+hand side you can see what visa has
+right and there's a tremendous amount of
+difference between that
+the three main ways to scale a
+blockchain the financial upgrade the two
+pointers an example of that they're
+layer twos a lot of these coming out and
+then there's layer one competitors
+people are trying to refine that model
+and so one of the challenges that we
+have to deal with as a as a company is
+that the user has some currency on one
+um thing layer one eve and they want to
+move it to somewhere else
+and this is today a very complex process
+they have to pay a lot of fees on layer
+one it says 20 to 30. often is 100 to
+200 now then you have to switch your
+wallet over you need to be able to
+receive the funds and often this might
+take up to a week to do
+and so the vision that we have and the
+type of technical challenge we get to
+work on if you're interested is like
+things like how do you make this
+bridging just seamless and easy the same
+way i don't have to think about this
+website's different from this website i
+just have my assets and i want to use
+them wherever i want to use them and so
+to us like a profound powerful end state
+vision is that a lot of these d5
+protocols that are looking for users
+they need the ability to move funds
+easily across all these different
+options otherwise what is going to
+happen is that a lot of this activity
+may just lead to really really high gas
+prices that mean that retail users
+cannot participate in the process
+so um that's it on my end i think the
+quick thing i'll say is i'm gonna be
+we're hiring um you can reach out
+directly to me my email is right here
+you can also come hang out with us and
+you know jam on some some of the
+problems i would say compared to some of
+the startups i think a startup is a
+super early stage startups like a super
+exciting place to work i love that
+experience
+the exciting things about like where we
+are in our trajectory is that you get to
+work on some of the foundational
+problems for the space as well so like
+open source you get to work on how do i
+solve a layer two for the space and my
+hope is that if we solve certain
+problems there will be a hundred or a
+thousand more yc startups in this space
+because of the things that we've built
+that allow the entire space to grow
+thanks everyone

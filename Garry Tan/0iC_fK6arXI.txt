@@ -1,0 +1,417 @@
+Title: How any dev team can build like Google
+Video ID: 0iC_fK6arXI
+URL: https://www.youtube.com/watch?v=0iC_fK6arXI
+Channel: Garry Tan
+Published: 2022-07-19T07:19:58Z
+Duration: PT13M29S
+Views: 42012
+Likes: 1381
+Tags: Garry Tan, Garry Tan vc, initialized capital, Garry Tan initialized, Garry Tan initialized capital, Silicon Valley vc, sf vc, a16z, Andreessen horowitz, best Silicon Valley vcs, dev tools, how to develop faster, best dev tools, dev tools google uses
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 394
+
+Description:
+Today we’re sitting down with the cofounder of Trunk, Eli Schleifer. He was one of the smartest people I got to work with when I was 23 just starting my career out at Microsoft. If you’re an engineering founder or engineering manager of any kind, you’re going to want to watch this to the end to see how YOU can get all the tools Facebook and Google engineers take for granted.
+
+Use the Trunk beta for free today: https://trunk.io/
+Check out Trunk on Product Hunt: https://www.producthunt.com/posts/t
+
+============================================================
+TRANSCRIPT
+============================================================
+
+giant companies like facebook google and
+uber have thousands of world-class
+engineers and they invest hundreds of
+millions of dollars per year into a very
+important thing
+developer experience why do you think
+they're able to build such good products
+well one of the reasons is they have
+people working on tools that make
+developers super productive
+but if you're watching this and you're
+not at one of those big companies what
+do you do today we're sitting down with
+the co-founder of trunk ellie schleifer
+he's one of the smartest people i ever
+got to work with when i was just 23
+starting my career at microsoft and as
+luck would have it
+many years later we recently led a
+series a for his company alongside
+andreessen horowitz so now i get to work
+with him again that's why people like
+love early development it's like oh i'm
+alone i get a lot of stuff done i can
+code away but as soon as you add you
+know two or three people to a team
+everything starts to slow down it's like
+the mythical man month you know hits you
+and you're like i can't get stuff done
+because i have to coordinate with a
+bunch of people but with good tooling
+you actually can get some of that time
+back and we think that you know there's
+a tremendous opportunity to build like a
+google engineer at google they've
+invested tremendously building this huge
+library of tools that keep everyone on
+rails and the truth is like only really
+google and maybe facebook have enough
+tooling in place to do that everyone
+else is kind of scrapping along that's
+why we started trunk we want to bring
+google quality developer experience to
+everybody if you're an engineering
+founder or engineering manager of any
+kind you're going to want to watch this
+to the end to see how you can get all
+the tools facebook and google engineers
+take for granted
+let's get started
+[Music]
+[Applause]
+now picture this you're an engineer and
+you show up to your desk you sync to the
+newest code base and you try to run
+things but it's broken what's your next
+step hit slack and ask for help multiply
+that out by dozens of people hitting the
+same thing and you just burned ten
+thousand dollars worth of developer time
+in a single day
+multiply that out by all the times that
+happens per year and that's a million
+dollars off your runway it sounds
+ridiculous but it happens every day at
+most startups and that's why
+trunk actions is here to save you we're
+just thinking there's a better way to do
+this like the rules for how to build
+your site already known to your
+repository so what if we could actually
+encode that
+inside your site using trunk actions
+that's we're going to demonstrate here
+right now so in our case what we've done
+is created a file trigger and the file
+trigger just specifies that the
+documentation changes that happen to my
+markdown files in this one folder should
+trigger a particular action and that's
+gonna basically show me the docusource
+command i should run so it's as simple
+as going into our docs here which are
+all up on our website
+and i can go into the intro file and i
+want to change this particular entry and
+i'll do a quick change to this file
+and i save it when i'm saving that what
+actually is happening is in the
+background the trunk daemon is running
+it's monitoring these changes firing off
+this custom action trigger and all it
+says is
+one of these files ends create this
+little uh entry inside my vs code
+extension so let me know how to run the
+trunk how to run the docusaurus site so
+if you go right now to the trunk
+extension you'll see we have this cute
+little docusource link right here if i
+click run action it's going to spin up
+that site and i didn't have to look it
+up it's just going to do it for me and i
+can quickly go to work and make sure
+that what i did looks right inside the
+web and that's really what it is it's a
+simple if this then that for your for
+your repository so if i want to make a
+change this file then spin up this
+website you're gonna get to work so you
+can see here this thing spun up and now
+i can click on the website and here's my
+changes it's reflected but that was just
+as simple as clicking the button it spun
+up i didn't have to figure it out i
+didn't have to understand how the thing
+was run it just told me what to do i
+think that's so important to kind of
+have that helping hand to keep you
+kind of inflow everything we do at trunk
+is about keeping engineers in flow so
+they don't have to shift between looking
+stuff up bothering other engineers for
+things you should just keep doing your
+work and stay productive that's the
+surprising thing about developer
+experience just like an iphone literally
+started as just a phone and a web
+browser and gradually became much more
+than that
+in society because of the apps they've
+created trunk actions is surprisingly
+powerful because it's a jumping off
+point for those tons of uses teams or
+developers need to work together take
+for instance your package.json file your
+dependencies for your libraries and your
+project getting pulled in millions of
+engineers every day have to remember to
+do this manually which really adds up
+because sometimes you just don't know
+when you need to do it so we've done is
+we've actually wired this again into our
+system for trunk actions so i changed
+the package.json file and it's going to
+pick up the change it's then going to
+run a dry run of yarn install or npm
+install to see if there's something to
+do and if there is it's gonna give a
+little pop-up to let me know hey you
+should run your uninstall so instead of
+me suffering through this
+it just tells me what i should do to get
+things working again we actually had an
+engineer started the company she was uh
+new to the company she was working along
+you know really well working for months
+on end and then someone changes the
+package.json file and after you know
+struggling with this thing for half a
+day she finally slacks the team like hey
+everybody what's happening here i'm
+getting this weird error because it'll
+show up some random you know compilation
+issue and typescript most engineers want
+to try to figure things out for
+themselves but really it was just a case
+of there's a new dependency that was
+added you have to run yarn installer npm
+install to fix that up in this case she
+just didn't know to do that so had she
+had trunk action she could just kept
+working instead she lost half a day to
+this thing can you imagine developers
+all over the world losing half a day to
+something like that just for no reason
+like we said that's a thousand dollars
+set on fire trunk actions works on most
+dependency managers and they're adding
+new ones all the time yarn npm whatever
+you got and then you'll get a little
+pop-up inside the actions thing to tell
+you hey you need to run your installer
+npm install then you're back to business
+and that is just like magic when this
+thing starts happening for you you're
+like this is a better way to build code
+trunk actions can be used for almost any
+development change whether it's
+dependencies or even database schema
+changes it takes the guesswork out of
+developer teams and that's great for
+developer experience
+[Music]
+so you probably use git most people do
+but
+you might get annoyed once in a while
+because you have a big merge and it's a
+conflict but when you're a small team
+that's manageable it goes from
+manageable to totally nuts if you have
+dozens of developers or even a dozen or
+more and that's why trunk has now made
+merge cues the way all the best
+development teams do code merging
+available now for everyone here's ellie
+again showing us an example of you know
+just a run-of-the-mill day-to-day
+problematic code merge the kind everyone
+hits sooner or later the problem is that
+these two tests work independently but
+these changes actually are logically in
+conflict if you land them together and
+this will create what we generally call
+like a broken main
+where you've landed code that was
+individually okay but when combined
+together is broken so in this case we
+kind of you know playfully created a
+heisenberg test case um so we'll take a
+look at the code quickly here in this
+case we have add a negative test to say
+that when someone is saying a particular
+input
+if the input is heisenberg it should say
+you're right if the input input is
+walter it should say you're wrong that's
+a valid test you can see from the check
+that it passes and the thing is all
+green so great that engineer is ready to
+land that code we'll look at the other
+pr here the other pull request says add
+more allowed names so this is another
+engineer let's say you gary went in and
+said you know what there should be
+additional names that are allowed inside
+the system i'm going to say the allowed
+names list now includes heisenberg and
+walter and i'm gonna make sure that the
+test you know checks against a this new
+vector that i checked allowed names
+instead of a hard coding this word
+heisenberg um this is like obviously a
+trivial example but this kind of stuff
+happens all the time as soon as you have
+more than one engineer working on
+something you're going to have cases
+where logical conflicts can show up and
+when that happens uh kind of a super
+dangerous can happen is you know you'll
+land these things they're going to land
+fine but then another engineer a day
+from now two days from now is gonna try
+to you know put up a pull request and
+the unit tests are gonna be failing and
+the first thing they're gonna think is
+oh i broke something so i'm gonna try to
+figure it out and then it turns out it
+wasn't them that broke it it was because
+these two pr's landed in conflict with
+each other and trying to tease that
+apart is a giant waste of time it
+doesn't move your product ahead it
+doesn't keep you focused doesn't you
+know help you at all it just is a way to
+burn time this is why you need a merge
+queue now let's look at how much better
+it is when you do use a trunk merge
+queue i'm just going to quickly uh call
+out here we'll say trunk queue so trunk
+will listen to comments on top of the
+pull requests when you say q it's going
+to tell it to go and cue this pull
+request so i'm going to cue this one and
+the other one now we know that these two
+pull requests are in conflict with each
+other
+and the queue
+the merge queue is going to protect the
+main from getting broken
+so i've queued both of these now we're
+gonna let's quickly switch over to
+actually look at this in our merge queue
+ui in this case these two tests are
+these two pull requests are being tested
+an interesting thing to note is that
+they're actually being tested uh
+collectively against each other so the
+first test the first pull request here
+is going to actually pass because that
+one we know can land because there's
+nothing in conflict with it but what
+we'll find out is that this other pull
+request that basically was logically in
+conflict with the pull request that
+landed before it
+is not and it's going to fail out and we
+are going to protect maine and instead
+of allowing this thing in and breaking
+everyone's and ruining everyone's day
+we're going to protect uh maine and keep
+it green
+so the main pull request that the is
+going to be in conflict will get kicked
+out of the queue and the engineer can go
+sync up we'll see that you know matt
+made a change this particular file i
+need to go and update my code and then i
+can re-cue it and land it and we've just
+saved everyone else from all the hassle
+trying to figure out what went wrong you
+can see here we just have the two
+results for the two pull requests that i
+just landed here is uh the green one
+that just landed that was pull request
+number eight then you can see the pull
+request number seven was rejected if i
+click on that and try to understand what
+happened i can see it was submitted it
+was it was tested and it failed
+and i click through back onto the
+workflow and i'll see inside um github
+that this thing failed to build because
+it was logically broken um so here's our
+test that it sees that previous test was
+no longer passing and we don't let this
+through so we protected maine we keep
+everything green and we also gave you
+know quick insight into the engineer to
+understand why was my pull request
+rejected i see this test failed it used
+to be green but now actually maine has
+moved forward since last time i ran ci
+so that's a simple but common example
+that happens on every dev team
+constantly if you're working with other
+engineers conflicts are a huge nightmare
+if it happens once every month you just
+lost like half a day or a day of work
+and that's you know a tremendous waste
+of time and no one that you know is
+happy to go home at the end of the day
+be like you know what's great at work
+today i figured out there was a logical
+conflict as two pull requests landed
+together and then i sorted that whole
+thing out and doing a git bisect no one
+wants to do that people just want to
+like move things forward you know it's
+the thing that we hear so much from
+engineers it's like the reason why i
+want to go work at a startup is because
+i want to get stuff done because a lot
+at a larger organization when the
+tooling is not in place it's very hard
+to get things done you're just spending
+so much time kind of fighting uphill
+against like all the other stuff that
+has to happen to make software
+engineering work developer experience is
+how you can get untold hours of time
+from your most expensive resource
+engineers so what does it look like to
+save yourself from mythical man month we
+just saw two really powerful examples of
+saving many hours of developer time just
+as a samurai must have the best sword so
+too must your engineering team build
+with the best developer experience and
+that's what trunk is for so everything
+we're showing here today is available
+today on the internet you can go and
+download it super quickly just go to our
+homepage trunk.io click on install and
+we'll give you a curl link to get
+started uh it's free for small teams any
+team up to 10 engineers in commercial
+products no problem free for you to get
+started
+also always free for open source so any
+open source project out there no matter
+how large always free for you guys as
+well so that's it for this week
+code is inheriting the earth and helping
+people build better code faster and
+helping engineers do their best work is
+i think one of the most valuable things
+a startup founder and engineer like
+ellie could be doing
+thanks for watching all the way to the
+end and i'll see you next week
+[Music]
+[Music]
+you

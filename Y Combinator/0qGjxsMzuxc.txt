@@ -1,0 +1,51 @@
+Title: Infrastructure for Multi-Agent Systems
+Video ID: 0qGjxsMzuxc
+URL: https://www.youtube.com/watch?v=0qGjxsMzuxc
+Channel: Y Combinator
+Published: 2025-08-01T22:29:20Z
+Duration: PT1M
+Views: 25830
+Likes: 537
+Tags: YC, Y Combinator
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 29
+
+Description:
+Multi-agent systems are powerful but hard to build. Think agentic MapReduce with thousands of subagents running in parallel. We're looking for folks who've felt the pain of scaling these systems and want to make operating fleets of agents as easy as deploying a web service.
+
+Apply to YC Fall 2025 at ycombinator.com/apply.
+
+============================================================
+TRANSCRIPT
+============================================================
+
+AI agents are evolving from
+singlethreaded loops into distributed
+workflows that fan out many sub aent
+calls in a single run. These multi-agent
+systems are useful for everything from
+long-running workflows to agentic map
+produce jobs where hundreds of thousands
+of sub aents apply human level judgment
+to filter and search through large
+amounts of data in parallel. These
+systems are difficult to build. They
+require solving traditional distributed
+systems problems to ensure high
+throughput and reliability while
+controlling costs. They also introduce
+new problems that look familiar but can
+be solved at a higher level of
+abstraction like how to write effective
+agent and sub aent prompts, how to
+handle untrusted context, and how to
+monitor and debug these agents. We're
+looking for builders who have felt this
+pain in production and want to create
+tools to make these systems easier to
+build and maintain. If you want to make
+operating fleets of agents as routine
+and reliable as deploying a web service
+or running a Spark job, we'd love to
+hear from

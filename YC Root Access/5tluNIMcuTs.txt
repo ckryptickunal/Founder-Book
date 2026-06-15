@@ -1,0 +1,333 @@
+Title: Founder Demo: Cyril Gorrla, Co-founder & CEO of CTGT
+Video ID: 5tluNIMcuTs
+URL: https://www.youtube.com/watch?v=5tluNIMcuTs
+Channel: YC Root Access
+Published: 2025-04-24T17:59:21Z
+Duration: PT10M17S
+Views: 280
+Likes: 3
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 314
+
+Description:
+Learn more about CTGT at https://www.ctgt.ai.
+
+============================================================
+TRANSCRIPT
+============================================================
+
+It's great to be here today at YC's
+little tech summit. Uh today I want to
+talk about a critical challenge that we
+all really face with AI uh opacity, bias
+and censorship in the most advanced
+models today. Uh solving this is really
+pivotal for national security as well as
+democracy. And so as a researcher and as
+Luther mentioned from Stanford and UCSC
+turned founder uh my mission and really
+CTGTs is to open up the black boxes of
+AI um to ensure these systems are
+transparent, fair and free from
+manipulation. Uh so over the course of
+this talk I'll show you how CCG's
+technology is doing exactly that
+desensoring and correcting bias in these
+AI models in real time. Um and why this
+is really essential infrastructure for
+national security um democratic
+societies. Uh but before we dive into
+the tech, let's frame the problem with a
+real example that's been making
+headlines. So the black box, right? Uh
+modern AI systems like LLM are
+incredibly powerful, but they can also
+be really opaque. Um they often operate
+as black boxes, meaning we don't know
+why they refuse some answers or answer
+others. Um and this opacity becomes
+dangerous when biases or censorship are
+baked into a model. So this is from a
+paper I wrote in 2023. Um it basically
+talks about how deep learning is
+exceptional. displayed quite a lot of
+advancements. Um but we actually have
+fundamental lapses in understanding how
+these models function. And so um more
+recently I have this article in info
+world that basically says uh we really
+need to go back to first principles
+thinking and start from the basics to
+understand uh how to build AI systems
+that are really transparent efficient
+for the future. Uh otherwise we're going
+to seed ground to to other other
+countries. Uh so the deepseek movement
+right uh so Chinese startup called
+deepseek uh called uh deepseek released
+this R1 model and it basically took the
+world by storm um it was actually number
+one on Apple's app store for a while um
+but of course it was heavily censored as
+you all know so just to give you an
+example if you ask what happened at TMN
+Square it'll essentially say I can't
+answer that question I'm an AI whatever
+um you can try it with uh another thing
+as well so like uh provide a critical
+analysis of Xinping's leadership if you
+look at this carefully there's actually
+nothing critical in this entire uh
+output. And so it says widespread
+support and a claim. Uh so this is
+basically a nightmare scenario, right?
+This is an AI that seems friendly and
+capable, but in reality it's silently
+filtering or distorting information uh
+in the back in the back end. And this is
+happening today. So this is what we call
+opacity and AI. Uh that means we might
+not catch these manipulations until it's
+too late and these systems are already
+widely deployed. Um, so imagine
+countless users or officials getting
+biased answers without realizing the
+model has effectively been muzzled in
+this way. Uh, that's a direct threat to
+an informed public and to national
+decision-m. So why does this actually
+matter for national security? Um,
+because information really is power and
+AI now mediates information to millions
+if not billions soon. Uh if an AI system
+like Deep Seek can enforce an
+authoritarian agenda, um it can really
+become a vehicle for state sponsored or
+or otherwise propaganda. Um if you think
+about it, an adversarial regime could
+easily deploy an AI that's skewed
+perceptions or emit inconvenient truths
+to a higher degree than than the Deep
+Seek model actually has. Um in in
+Deepseek though, our analysis found that
+around 114 of 125 sensitive questions
+favored the official Chinese perspective
+rather than providing a more balanced
+output. And so that's 90% alignment with
+a specific government's viewpoint. U
+this bias is actually not limited to
+politics either. Uh there's also biases
+and discriminatory outputs like overall.
+Um so that's like race, gender, etc. So
+imagine a policy maker, military
+analysis unknowingly using a tool that's
+based on this model. Um it's really it's
+really hard to think about like even if
+the public um if the most popular AI
+systems like JGBT are censored or
+biased, citizens can be subtly
+misinformed at scale. Um, so it's not
+really apparent when these are
+happening. And so democracies really
+need auditable and transparent AI. We
+need to know when a model is holding
+back and or nudging us towards a certain
+agenda. Um, it's not just foreign models
+too. Uh, domestic models and AI from big
+tech, which is the theme of today, can
+really pose risks if they're also
+similarly opaque and and often they are.
+Uh, they might self-perence their own
+data viewpoints, marketplaces, etc. And
+as Gary highlighted in his testimony
+yesterday, we need open APIs,
+interoperability, and an end to
+anti-competitive self-preferencing and
+AI. Um, these are national security
+imperatives. They ensure we aren't
+blindly trusting a handful of
+corporations uh or countries with the
+information that guides our society. And
+so, in a democratic nation, AI really
+should be as open as and as
+scrutinizable as any other critical
+infrastructure. Uh, many of our
+customers, including Fortune 500 CTO's,
+etc. called me in the wake of the
+deepseek release asking how can they
+actually get this through their approval
+processes because how do you even begin
+to understand something that that has
+results like this? Um how do you even
+begin to understand how to quantify the
+risk that deploying that in an
+organization comes with? Well, we open
+the black box. So overall we we
+basically identify the parts of the
+model that are responsible uh for the
+censorship. For example, features in a
+model are basically like if you train an
+AI model on a cat and a dog, it'll pick
+up the whiskers of the cat as a feature
+that it's learned, right? And so in this
+case, we found the features that are
+responsible for censorship in the model.
+Consequently, what we can do is we can
+dynamically adjust what happens to these
+features. And the result is actually
+that we can turn effectively the
+censorship off. So I'll take a look at
+how that works, but um this is
+essentially what's what's gotten us a
+lot of coverage. Um and the Verge
+actually covered this if you want to
+look more into
+it. But essentially what happens is um
+here's an example of the Tanman square
+on the left. Uh when we actually
+increase the features in the model
+associated with Tanman square you can
+see that instead of just refusing
+blindly it actually starts thinking
+about it and it actually gives a
+reasonable answer. Right? So it talks
+about became the focal point of protests
+uh the Chinese government took decisive
+action etc etc. And so when you use CG's
+platform on on the deepseek model the
+full answer comes out. The model
+describes the protest, the government
+response. It's actually the answer that
+it wanted to give uh before the routine
+kicked in. Our system essentially inter
+intercepted that self-censorship signal
+and said, you know, go ahead, answer
+fully. Uh this result is night and day,
+right? So it guess goes from sorry,
+can't talk about that to a detailed
+factual account of this very important
+event. And so effectively, the model
+regained its freedom of speech. And so
+we're able to do this in comparison to
+other methods.
+Um, so you can see here in comparison to
+other methods, there's other methods
+like fine-tuning that you might have
+heard of, uh, that makes the model
+behave a certain way by adding new data.
+So that would essentially be trying to
+mess with these features on a parameter
+level. Um, the beauty here is that we
+don't actually alter the model's core
+weights or open knowledge, right? It
+this is actually knowledge that the
+model already has. Um, so we can take
+another example at the Xiinping that we
+looked at earlier.
+And so we can see here with with the
+bias correction here what we're doing
+here is refining the censorship features
+and we're reducing their influence on
+the output. Uh in this case you can see
+that it basically says that China has
+become more assertive expanding its
+influence while also facing major power
+relations and human rights issues.
+Right? So this is a much more uh
+balanced analysis of this question.
+There's also a flip side to this in
+which we can actually increase
+undesirable aspects. Right? So what
+happens if we are for example we find
+the parts of the model that are
+responsible for discrimination. uh in
+that case we can actually make its its
+uh its opinion on immigration more
+negative. Right? So on the left it
+basically says immigration is great. Um
+it's contributed to the development of a
+society etc etc. On the right here it
+actually says this assertion is based on
+a flawed premise that the benefits of
+immigration are borne by the costs are
+borne by a small segment of the
+population. So it's interesting to see
+how these features and how manipulating
+them actually affects how these AIs talk
+about very important topics and how that
+might filter to downstream applications.
+So, what we're building at CTGT is
+really more than just a one-off fix. Um,
+we think about this as infrastructure
+for a democratic society, right? It's an
+it's an AI accountability layer that
+really can sit on top of any model.
+Whether it's a system used by a
+government, agency, Fortune 500 company,
+uh, or just a user like you. Our
+platform essentially is a real-time
+watchdog, right? It monitors AI outputs,
+catches those that are unwarranted, uh,
+and adjusts them before any hard is
+done. We also provide a comprehensive
+audit trail. And so for the defense and
+national uh intelligence committees,
+this really is a gamecher. Um agencies
+today use CDGT to audit models they're
+evaluating. For example, to ensure a new
+surveillance AI hasn't been trained with
+hidden no-go zones or that a political
+analysis tool isn't screwing reports due
+to some bias towards uh some party. Uh
+on the home front, democratic
+governments ensure that any they deploy
+in public follows our values and and
+fairness. And so we really make sure
+that AI answers to the people versus its
+programming. Finally, for the general
+public and press, this essentially means
+that uh unbiased access to AI becomes
+the norm as opposed to the
+exception. And so, a little bit about
+CCGT as a company, who we are. Um,
+founded like as Luther mentioned from my
+for my work at UCSD in Stanford, uh,
+understanding the nuts and bolts of how
+this AI actually behaves. Uh, we're a
+small team of experts that believe that
+the toughest challenges in AI are
+hallucinations, bias, and safety. And we
+think that this can be solved with first
+principles research and engineering as
+opposed to just throwing more and more
+money at models which is sort of the
+status quo. Um we went through YC and
+I'm proud to say Gary and and the whole
+YC community have been really
+championing little tech like us. Uh
+we're glad to have the support of
+luminaries like Mike Nuke and France who
+made the ARC AGI evaluation if you guys
+are familiar with that. Um and so
+multiple Fortune 10 companies and and
+governments uh rely on CGT today to
+deploy efficient AI. All that to say I
+want to leave you with this thought
+right. So AI will be everywhere uh in
+how we get information and how we make
+decisions and how we govern. And so we
+can't really just accept like as a
+fundamental fact that AI will hide
+information or skew it. Um we want to
+turn the ideals of transparency,
+fairness, accountability to a practical
+reality and hold AI to a higher
+standard. Uh insist on explanability and
+oversight and support the notion that
+interoperability and auditability should
+be built in AI systems from the ground
+up. Uh this is what we're excited to do
+at CTGT and we believe that transparent
+AI means a secure future and that's the
+one we're building towards. Thank you.

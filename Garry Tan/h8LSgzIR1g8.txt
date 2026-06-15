@@ -1,0 +1,279 @@
+Title: This chip will accelerate AI compute way past Moore's Law
+Video ID: h8LSgzIR1g8
+URL: https://www.youtube.com/watch?v=h8LSgzIR1g8
+Channel: Garry Tan
+Published: 2024-03-11T14:00:34Z
+Duration: PT10M14S
+Views: 54106
+Likes: 2252
+Tags: Garry Tan, Garry Tan vc, initialized capital, Garry Tan initialized, Garry Tan initialized capital, Silicon Valley vc, sf vc, a16z, Andreessen horowitz, best Silicon Valley vcs
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 253
+
+Description:
+My friends Guillaume Verdon and Trevor McCourt are launching their new startup Extropic today, so I thought I'd have them on my channel to talk about their radical new ideas for a new kind of analog chip. I'm a small personal angel investor in Extropic and you may know Guillaume better on Twitter as Beff Jezos. 
+
+Visit https://www.extropic.ai/future for the Light Paper and further details. 
+
+Great explainer X thread https://twitter.com/Andercot/status/1767252866094534911
+
+I'm Garry Tan, Presiden
+
+============================================================
+TRANSCRIPT
+============================================================
+
+hey everybody today we're sitting down
+with my friends Gom verun and Trevor
+mccort of EX Tropic Moore's Law is
+coming to an end and at a moment where
+compute is more important than ever
+these guys are launching something
+really big today so it's my pleasure to
+be able to sit down with them on their
+day of the
+launch let's get started thank you for
+joining me on the day of your launch
+what problem are you trying to solve
+like why did you start working on this
+what we were seeing is that actually the
+semiconductor industry and the AI
+industry at large is hurdling towards
+this wall we call it Moors wall current
+demand for AI is just scaling extremely
+rapidly as we know every GPU is always
+sold out models just want to get bigger
+and bigger they want to use more and
+more data and they want to use more and
+more energy and people are proposing hey
+let's create nuclear power plants that
+power huge clouds to scale up to AGI we
+think there's another way forward the
+old school way of scaling things is to
+try to make your transistor smaller and
+smaller that's Mo's law it's the driving
+force behind much of the Innovation that
+we've seen in Silicon Valley that has
+come to an end because we're nearing the
+limits of transistors being able to fire
+reliably but why is that right so we dug
+into that essentially
+all transistors are made of matter at
+the very small scale has what are called
+thermal fluctuations the matter is
+jiggling about that causes electrons to
+sometimes get stuck or not hop across a
+transistor so necessarily transistors
+are about to go stochastic or they
+become stochastic as we try to scale
+things down and so we thought hey all
+these general of AI algorithms end up
+adding stochasticity adding probability
+probalistic Behavior after the fact when
+you train a large neural network often
+you use Dropout or you do some form of
+softmax sampling and a Transformer
+there's all sorts of ways where proud
+buies are Incorporated in our AI
+algorithms and the hardware wants to be
+stochastic if we want to keep scaling so
+why don't we just cut the gordian knot
+and simplify things and Implement AI
+algorithms in as the stochastic physics
+of the world so what we're building at
+extr tropic is a full stack
+physics-based Computing Paradigm focused
+on AI and we harness the stochastic
+physics of electrons directly in order
+to instantiate problemistic machine
+learning which is the parent concept to
+geni and so we're really excited today
+to share more about our approach we have
+the light paper that folks are probably
+reading right
+now and we've released some images of
+our first chips here you have our are
+very first chips they're very small you
+probably hold them and look at them but
+they're made out of
+superconductors and those are the most
+efficient neurons in the universe we
+call them neurons very Loosely they're
+analog stochastic circuits so this is a
+non-digital approach so fundamentally we
+not only have to reinvent uh the basic
+building block of computing but the
+stack to go with it and so we have a
+tremendous challenge ahead of us but
+we've made many of the first steps on
+the software and Hardware side and we're
+excited to finally share more with the
+world today there's a lot of complexity
+to this obviously but the basic thing
+that our devices do is they accelerate
+sampling so when you work with uh
+probabilistic models on a computer often
+you have some distribution that you want
+to draw samples from maybe to calculate
+some kind of average or something so you
+have to repeatedly draw samples from
+this distribution and on digital
+computers that process is really
+expensive especially for complex
+distributions because essentially what
+you have to do is run these really
+really complicated circuits of
+relatively high power transistors in
+these Loops that generate pseudo
+Randomness terministic computers are
+very bad at Randomness yep that expends
+a lot of energy and now what we're doing
+is instead of using digital circuits to
+do this sampling instead we're embedding
+the sampling problem directly in the
+continuous time physics of the chip so
+we what we're doing is we're basically
+building a circuit and operating it in a
+really low power regime where the
+movement of single electrons is
+significant and the the current and
+voltages in the circuit are not
+deterministic they're random and so
+basically when you build a circuit you
+set up some family of distributions you
+can sample from and when you apply
+different input voltages which could be
+like data or parameters um you you end
+up sampling from a different
+distribution so in a sense our chips are
+programmable sources of Randomness based
+on analog stochastic circuits to give
+you a sense of like why are we doing
+this you know that sounds great why is
+it so much better why is it so much
+faster these algorithms of sampling that
+we mentioned these Monte Carlo
+algorithms maybe if you you optimize
+your code you get maybe 100 thousand
+steps per second electrons fluctuate
+nearly 100 billion times a second on on
+this chip about 80 billion times a
+second second so that's a massive speed
+up we're using the power of nature to go
+much faster this class of algorithms and
+why should you care about problemistic
+machine learning Beyond let's say the
+current day algorithms well what
+problemistic machine learning does is
+they generate the use this noise to
+generate tons and tons of hallucinations
+that they correct the learning landscape
+to make sure you guide your sampling
+away from those hallucinations any
+hallucinations that not that is not
+close to the data set it penalizes and
+that's the magic of what are called
+Energy based models which are the models
+that our chips run natively as a
+physical process shout out to Yan Lan
+who's a big fan of
+those and we think they're the future of
+machine learning algorithms so we're
+building a software stack that natively
+compiles to the physics of our Hardware
+as well this is the beginning of
+something much bigger what do you hope
+will come to you as a part of this
+launch today yeah first of all there's a
+lot of talented folks out there that
+have been wondering what we've been
+doing we want to put a bit more out
+there for people to understand hey
+actually llms aren't the final evolution
+of algorithms and um fpga tpus as6 on
+digital computers aren't the endgame of
+Hardware so whether you're talented a
+machine learning researcher or you're
+someone working in U hardware and are
+looking to work on what's next what's on
+the horizon what's going to be very
+disruptive well now we're pinging your
+radar and you should come talk to us
+because we're looking for the most
+talented people who want to help us
+really scale this Manhattan project for
+AI really we're trying to save the world
+here because if we don't solve how to
+embed AI much more efficiently into the
+physics of the world we're not going to
+be able to scale intelligence to the
+entire planet and to create the mass of
+prosperity that scaling AI can give us
+yeah did you see that thing about
+how llms with Claud 3 just reached 103
+IQ and then gp4 was around 80ish and
+then later this year the next versions
+are they going to be at 110 120 and then
+soon they'll surpass genius
+level we kind of need to accelerate here
+yeah I think the thing that's going to
+happen there is that you can have a few
+instances of human level AI run in the
+cloud in a way that's very expensive and
+very power hungry so very few people are
+going to have access to those high level
+intelligence we're going to need Fusion
+Energy we're going to need all these
+other things and then uh beyond that
+like it's pretty clear that Nvidia sort
+of holds the cards I've heard
+speculation that one of the things that
+they have to do actually if you're
+Nvidia is if you hold the cards you sort
+of want to
+distribute the access to gpus and really
+this cute to a number of different you
+know vendors you don't want just one
+vendor to sort of control all the keys
+that's right and that's actually kind of
+cool of him on the one hand on the other
+hand it like rhymes with exactly what
+we're talking about like this is one of
+the greatest bottlenecks that might
+result in like the craziest scurve in
+human capability in human history if if
+we just scale current day gpus current
+day approaches we are going to hit the
+top of that scurve pretty aggressively
+we're starting the next scurve here the
+way you break through the top of this
+scurve is you go back to physical first
+principles of the devices you know how
+to make it scale which are a
+semiconductors and you study how can I
+eek every last little bit out of of
+performance out of this device not just
+at the digital level but at the analog
+level and more so at the level of single
+electrons and stochastics so we're
+taking I would say an unprecedented
+approach to Hardware engineering that's
+really going to open up some new doors
+so if you're a a semiconductor device
+physics person or an analog engineer
+with a ton of experience who wants to do
+something really new really cutting edge
+you're the type of people we're looking
+for physicists that went into machine
+learning that want to get back to
+physics give us a call that's uh type of
+people we're hanging up the flag so
+thank you for letting me be a very smart
+small part of this thank you for having
+us thank you for supporting us in every
+way thanks so much car congrats on the
+launch thank you all right link in the
+description for more see you next
+[Music]
+time

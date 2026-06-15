@@ -1,0 +1,995 @@
+Title: Satya Nadella: Microsoft's AI Bets, Hyperscaling, Quantum Computing Breakthroughs
+Video ID: AUUZuzVHKdo
+URL: https://www.youtube.com/watch?v=AUUZuzVHKdo
+Channel: Y Combinator
+Published: 2025-06-25T21:00:12Z
+Duration: PT40M30S
+Views: 140273
+Likes: 2053
+Tags: YC, Y Combinator
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 971
+
+Description:
+A fireside with Satya Nadella on June 17, 2025 at AI Startup School in San Francisco.
+
+Satya Nadella started at Microsoft in 1992 as an engineer. Three decades later, he’s now Chairman & CEO, navigating the company through one of the most profound technological shifts yet: the rise of AI.
+
+In this conversation, he shares how Microsoft is thinking about this moment— from the infrastructure needed to train frontier models, to the social permission required to use that compute. He draws parallels t
+
+============================================================
+TRANSCRIPT
+============================================================
+
+What are the tools that we can put in
+the hands of people that will give them
+that sense of empowerment?
+That's what I would love to work on. I'm
+not into this anthropomorphizing AI at
+all. I come at it as it's a tool. There
+is going to be a job called a software
+engineer. It's going to be different.
+When I look at it, you are really taking
+a software engineer and saying you're
+now a software architect.
+It's my pleasure to welcome the chairman
+and CEO of Microsoft, Satcha Nadella.
+[Applause]
+[Music]
+Thank you.
+[Music]
+This is the home crowd. All right, man.
+San Francisco, you should move to
+Seattle.
+I started my career in Seattle. Very
+fantastic place. Anyone who's successful
+starts at Microsoft. That's right.
+So Satcha, you've uh emphasized before
+that AI is uh going to shape all that we
+do. What does this look like in
+practice? Um you know at Microsoft, how
+does this actually drive your strategy?
+And particularly thinking about how AI
+will influence ideas behind beyond, you
+know, the immediate incredible product
+suite, you know, like the broader
+economy at Microsoft, I I feel we are a
+platform company,
+uh, a product company and, uh, a partner
+company. So I I think of those three
+dimensions and I've kind of in my 35
+years I've lived through uh client
+client server uh web internet mobile
+cloud this is the fourth so that's just
+at least how I pattern match so the
+first thing that I think about is the
+platform opportunity uh when I sort of
+look at all the folks here
+the interesting thing is the compounding
+effects of all these platforms right So
+this AI piece the reason why I think the
+rate of diffusion is so fast so well um
+you know and so wide is because it
+builds on the previous generation. I
+think about like if the cloud was not
+there uh we wouldn't have been able to
+build the AI supercomputers
+which then led to the models which then
+led to the products right so that
+compounding effect is the interesting
+thing to me so that's why you always
+sort of take the previous platform and
+build the next platform and you want to
+be able to get that right and then you
+got to build the next generation
+products on top of it right with each
+one of these platform shifts there's a
+workload right I mean when I first
+remember looking at the large scale
+training job I mean it's kind of a very
+different workload to what we built for
+example the cloud with right it's a data
+parallel synchronous workload which is
+so different than let's say a Hadoop job
+or what have you um and so the platform
+itself then completely gets re you know
+completely relitigated and changed uh so
+to me that's I think the exciting thing
+on the platform side it's golden age of
+system software uh quite But frankly um
+you know today if I had to think about
+anybody who's building at the
+infrastructure layer not just the
+hyperscalers but even the startups I
+think that's a tremendous opportunity.
+Obviously there's a tremendous
+opportunity in the model side and then
+the products on top of it. So yeah we
+think of these and then ultimately
+what's it for? It's for one thing and
+one thing alone which is to drive
+ultimately economic growth and GDP
+growth. So if I had to ask me my
+benchmark for AI is is it creating
+surplus in the world around us one
+community one country one industry one
+company at a time I mean it seems like
+the app level you know you guys have
+built you know sort of the defining apps
+at the app layer for so many decades. It
+feels like we're at this weird lumpy
+moment where um you know maybe the
+models have popped up and we're sort of
+astonished by what's happening but then
+you know sort of the compute and the
+apps need to actually catch up and you
+know the hope here is actually the
+people in this room will be the the
+people who build those apps. Yeah, it's
+a it's a good question, right? One of
+the questions is is the model like uh
+SQL
+uh or is it the SAS app itself and the
+model, right? I mean, I think the place
+where where does the model end and where
+does the product begin? Um because if
+you sort of say model with some
+scaffolding and tool calling uh in some
+infinite loop is the product u if that
+is what it is then I think that that's
+where it gets a little confusing but
+that's like saying a bunch of SQL
+business logic is with SQL is what is an
+app. So I think it's still possible for
+anyone to build uh an app tier on top of
+a model and you have to sort of abstract
+yourself and say yeah the model is just
+like SQL uh was to me and so I think
+that that I mean I always dreamt of a
+moment when AI/Machine learning will
+have a SQL moment because if you think
+about it right we never had a stable
+platform layer in the past because
+everything was vertically built and
+integrated for the first time in this
+model layer. Now we have something like
+a SQL engine uh that we can then use to
+build pretty sophisticated products and
+these techniques also right I mean just
+the inference time compute plus tool
+calling is giving us I think a pretty
+robust harness to be able to build
+pretty sophisticated products. Yeah,
+it's kind of wild how much uh it's the
+integration piece that is also the app
+layer now. Yeah, it's uh just you know
+the the models sitting on their own are
+incredibly smart but uh right now they
+feel you know sort of there's just just
+giant gulf between that and uh the data
+that really matters to you for business
+users. I think that's a good observation
+because I think at least my read of the
+situation is the model is an important
+piece. Um the model scaffolding and all
+this tool calling this uh you know sort
+of there's a real app server that you
+kind of need in order to be able to
+build sophisticated applications. But
+the interesting thing is the feedback
+loop the data path inside the product
+that then is used in order to post train
+in order to be able to do the right tool
+uh you know selection. Um that seems to
+be the place where product creation uh
+is all going to happen. Um AI scaling
+laws are continuing to hold and the
+demand for intelligence appears to be
+potentially infinite. Uh yesterday Elon
+was mentioning that there will be uh you
+know 99 hyper intelligent beings to one
+human which is kind of a a wild
+prognostication but seems possible given
+this where does the the building for the
+future of AI truly demand for global uh
+compute infrastructure you know how do
+you anticipate these demands evolving as
+models don't just become larger but more
+intelligent and capable of complex
+multi-agent interactions yeah I mean
+look If you sort of really step back and
+say um you know first if you sort of go
+with the uh you know compute or
+intelligence is what of a log of compute
+um and then you ask the question um how
+much energy does compute consume let's
+take in the United States maybe 2% today
+3% tops let's say doubles it's 6%.
+That's like massive because then uh the
+amount of extra energy that needs to be
+produced um in order for AI uh to use it
+is pretty high. I think that's why we
+all have to sort of keep in mind that if
+there's one lesson history has taught us
+is that if you're going to use energy,
+you better have social permission to use
+energy. Uh so that means you've got to
+make sure that the output of this AI is
+socially useful. Uh in other words, if
+we really are not creating social
+surplus, economic surplus as measured by
+countries and communities, uh then we
+will we just can't consume energy. And
+so that to me is the bigger thing like
+everybody's today hot and bothered about
+okay, what do I do about energy
+production? I think the real question in
+the next 5 years is we've got to produce
+enough products that are creating great
+value which I'm very confident of right
+by by the way in healthcare and
+education in uh in productivity. So
+there's many many domains but that's the
+real challenge for us as a tech industry
+is to prove unequivocally
+that what we have created is showing up
+in real stats uh that is not just an AGI
+or AI benchmark. I mean the hope is that
+um this will show up in sort of the real
+things that you sort of interact with on
+a daily basis that 100% you know you go
+use you you get a mortgage loan and
+instead of you know three months or two
+months of waiting around and you don't
+know if you're going to get approved or
+you know there's just so many things
+that are important parts of your life
+that you know get drowned in paperwork
+or bureaucracy that those things could
+potentially go away. 100%. So I think
+yeah if you take even take some of the
+the the public services right I mean if
+you take any country you know its GDP or
+take health care like in the United
+States what is it 18 19% of our cost is
+uh healthcare and a lot of it like
+everybody talks about the magical drug
+blah blah blah except all of the cost is
+in workflow
+um and so if you really take something
+like a simple thing like discharge uh
+the amount like you take the back end of
+an EMR system with a just a an LLM and a
+prompt. Uh that itself is going to save
+so much time and money and energy that
+it would sort of pay for itself. I mean,
+it's kind of very direct, right? You
+spend an incredible amount of GDP on
+health care and rightly so. But uh every
+dollar that's spent on clerical work
+could have been spent towards some sort
+of treatment that would have saved
+someone's life or or or the simple time
+allocation of a physician away from
+paperwork to the patient uh is right
+there to be had. What do you see as
+being the biggest rate limiter for AI
+deployment today? See, here's the
+interesting thing, right? And this
+audience is so young that and none of my
+metaphors would sort of work. But
+nevertheless, if you sort of were came
+in um in the early part of uh you know
+let's say you were a multinational
+company preps
+how the heck did we do forecasts uh like
+a simple sales forecast? The way one
+would do sales forecast was you would
+send faxes. People would then take those
+faxes and send inter office memos and
+those inter office memos would be
+annotated and a forecast would come
+hopefully before the quarter end. And
+then suddenly people said with email and
+PCs and Excel they said let's print your
+like let me just send an Excel
+spreadsheet in email people enter number
+and you have a forecast. So what
+happened was the work the work artifact
+and the work flow changed. That is what
+needs to happen with AI. when someone
+says I I I I'm going to now do my job
+but with whatever 99 agents that I am
+directing on my behalf the workflow is
+not going to be constant uh right I mean
+you now are really going to have to
+change even the scope of your job is
+going to change so that change
+management is a real rate limiter right
+because you're now taking the means of
+production in an insurance company in a
+financial services company in a
+healthcare company in a software company
+and saying we are going to change
+everything uh in the way we work in fact
+we're going to change what jobs they are
+like you know at LinkedIn I think they
+took multiple of these functions uh the
+design function the front-end engineer
+function the product function put them
+all together and said we're going to
+have full stack builders uh that's a
+change in scope of even a job and so how
+do you then rebuild the product team
+with new roles new scopes and what have
+you. That's to me more the social rate
+limiter. Not that there's lots of other
+things around deployment of this
+technology, getting it out to the world,
+power is one, there are other issues,
+but I would say change management when I
+look at even a lot of the AI startups
+when I talk to them, everyone has now
+you know you worked at Palunteer so you
+know this uh everyone has forward
+deployment engineers. That's like the
+exciting thing is the palunteer model
+which I think is a fantastic model and
+why is that? That is because of that
+change management. Uh because I think
+you really need to help customers
+partners really understand the benefits
+of any product you're creating but not
+just the technology but even how to use
+the technology in a workflow. At YC, we
+have this uh funny saying that we tell a
+lot of people here to do, which is um
+you know, these are some of the smartest
+uh AI researchers, computer scientists
+who are just starting out in their
+careers. We tell them uh go undercover.
+So go work as a medical biller and see
+to what degree how many you know quote
+unquote knowledge work jobs are actually
+copying pasting from a browser into a
+spreadsheet into an email and then
+clicking send and do that for a while
+and realize like actually these are not
+necessarily you know using your
+prefrontal cortex and your highest mind
+kind of jobs like these are not you know
+can you imagine so many people like
+their lives are basically like you We
+used to we used to, you know, coming up
+uh at our age, we would call it paper
+pushing, but you know, they're not paper
+pushing anymore, but they're sending
+emails. You know, they're not sending
+faxes anymore, but they're trying to get
+business done by like attaching files to
+things. You know, that seems like a
+pretty big shift actually that they can
+Yeah. I mean I I mean I think one of the
+most understated things as an
+opportunity for anyone creating products
+or fundamental breakthroughs
+um even at the model layer is the amount
+of drudgery there is in knowledge work
+right I mean I mean in software
+engineering we saw that I mean the
+amount of you know we're taking the joy
+out of software engineering because you
+know you were out of your flow uh to be
+able to stay in the flow to be able to
+complete a task uh that itself is a
+great example of what I think is going
+to happen to all knowledge work. You're
+absolutely right. The amount of cycles
+you spend out of band uh collecting
+information because if you think about
+the prefrontal cortex and the synthesis
+part uh you know the amount of time you
+spend there is pretty low now like
+having a sophisticated reasoning model
+and your prefrontal cortex work
+together. Uh whereas a lot of the
+mundane stuff is getting done by even
+some ka agent or what have you. That I
+think is definitely the frontier.
+So beyond simply adopting AI tools, uh
+what are the biggest transformational
+shifts you're seeing in the field today?
+I think to me um even like I mean look
+this field is changing so rapidly right
+I had not even imagined last year even
+this time that we would get this far
+with RL um and with basically test time
+compute. uh and it seems sort of pretty
+limitless. So the way I think about it
+is pre-training worked. Uh all the
+post-training techniques on top of it
+were fantastic. Then this inference time
+compute seems to have really added uh in
+under a massive scaling law. So now I'm
+interested in whether there is some new
+algorithmic breakthrough. uh because I
+always say this entire regime could be
+changed by one person here who comes up
+and says I have a more efficient thing
+to do or a way to do this stuff right so
+that's you have to be open-minded that
+the last big breakthrough
+algorithmically has not yet been found
+uh so that's one um I'm always sort of
+interested in that the other one is what
+is the next step up uh right because
+what is the pre-training to RL
+um the end toend training loop that's
+the next you know big sample uh that I
+think is also what I think will happen
+in the next year uh so I would say what
+if that is another scaling law
+breakthrough because we will be like if
+you sort of take any lab now all of us I
+think will be working on saying what's a
+more integrated response reasoning model
+that we can build u and that I think is
+going to be the interesting piece
+there's something very interesting here
+I think in that uh if you think about
+like an LLM instance as a consciousness
+which I think some people are starting
+to say uh you know it's sort of
+instantiated you do a bunch of work with
+it and then it sort of goes away and you
+open a new chat box and it's you know I
+guess I'm curious like do you think that
+that might be one of the things that
+needs the loop needs to be completed
+right that like yeah I mean so I'm not
+sort of I don't to me this artificial
+intelligence is unfortunately the worst
+name we could have ever picked. And so
+I'm not into this anthropomorphizing AI
+at all. I mean I think of it more I come
+at it as it's a tool. It's not trying to
+replicate how we think. Uh it is it it's
+definitely showing signs of intelligence
+but it's not uh intelligence that I have
+and I think of human agency still will
+matter will be there and we will sort of
+use these as tools. So that's kind of my
+position. That said, let's just say oh
+yeah, a memory system uh is a good
+thing. Uh these things do need if I look
+at the next frontier, I would say there
+are three things, right? One is memory.
+Uh the other one is tools used. And then
+the third which I think is perhaps the
+most important thing is entitlements. Uh
+which is basically if I'm going to take
+action, what entitlements do I have to
+take action? Right? So these three
+systems have to be built as first class
+around the model in order for us to
+build more sophisticated applications.
+One of the uh arguments people are
+starting to make around the future of
+software is well we have the database
+and then you're going to have uh
+basically middleware that is you know I
+think you know what you call
+entitlements you it's kind of like
+access control list like you know what's
+the business logic who gets to do what
+and then you know you you basically put
+the agent on top there um you is that
+sort of that's right so that that's why
+I think about like know people say when
+you think about the scaffolding layer
+right you have a model plus scaffold
+scaffolding the scaffolding now really
+gets first class by thinking of these
+three things uh tools use is one memory
+is one and then entitlements and you put
+that stuff together then you can create
+an agent an agent has an ID uh agent has
+management and provision control on it
+it has you know so that's the way I
+think to think about it do you worry
+with codeg genen like would do you think
+users at some point will just prefer to
+uh make software just in time instead of
+using package software. I mean that's
+something that uh you know we having
+lots of conversations in the hallway
+about that because a lot of us in this
+room you know YC will actually fund a
+ton of SAS and will continue to do so
+but you know in the background we're
+starting to have that worry. There's
+some venture capitalist friends of mine
+who are in the audience. They're
+actually like I actually don't know if I
+can continue to fund B2B SAS. How do you
+think about that? Yeah, it's a great
+question. I mean you know it's it's
+interesting. Um at the same time uh I
+look at the number of people who are
+forking VS code and I say man we must
+have done something right. Um
+and u so therefore there is something to
+be said about building a great um uh IDE
+um in fact when I think about Excel I
+think of it as an IDE. Uh so the fact
+that there's a great canvas uh you can
+then then bring let's call it the best
+analyst model to this IDE uh and then
+create a loop between the canvas and the
+uh model. Uh so I think yes you can
+generate applications just in time uh
+you could have a prefabbed application
+that is really helping with the feedback
+loop to the model and I think both of
+these things will exist together. Do you
+think there's a role for design in all
+of this? I mean, basically a h, you
+know, a human being sitting in front of
+VS Code uh is sort of like the
+translator between, you know, the
+software and what the end user really
+wants. And then I think some of this
+idea that software goes away presupposes
+that just, you know, normal people
+walking around are going to want to
+create software. And, you know, I don't
+know if that's going to work. I think
+that's a good point. So I think the way
+I sort of say um because one of the the
+basic question you're asking is what
+happens to software engineering right I
+mean that's the let's take the following
+uh thought experiment right if you sort
+of said some Martian intelligence came
+um in uh the 1980s and watched how we
+all worked oh wow these humans kind of
+work in the offices and they have a
+typist pool they have a slide pool and
+people then work with paper And then if
+they came back today they'll say god man
+all eight billion people are typists now
+right I mean that's what they'll uh sort
+of you know surmise and so I think what
+I think will happen is all of us are
+going to be creating software but there
+is going to be a job called a software
+engineer it's going to be different but
+I look at it right you you you are
+really taking a software engineer and
+saying you're now a software architect
+right see the I I still the
+metacognition of your I mean one of my
+biggest things is man Wipe coding is
+fantastic until it does stuff that I
+don't know what the heck happened. Uh so
+that means I have to have the meta model
+of my repo and exactly what happened and
+I'm looking at the change logs right. So
+when I look at the my favorite feature
+of GitHub now is to really look at the
+complete change logs of all the agents
+that are working on my repo. uh and I
+think that is where a a lot of the
+software engineering will be like a good
+dev manager right I don't know who which
+dev manager you worked at Microsoft but
+I really looked and and a dev manager's
+job was to make sure builds don't break
+and the code has got good quality um and
+so to me that is still a thing uh and so
+there will be a level of abstraction
+uplift uh even in a world of all of AI
+agents because one thing that we don't
+talk about is the legal liability by the
+way until some real laws change are
+going to be with humans and institutions
+humans build. Um, and as long that is
+true, we're going to have to really make
+sure the human is in the loop uh at a
+fundamental level. And that means we
+will need a lot of tools for humans to
+be in the loop in order to figure out
+what these things are doing. In AI
+development, you see so much, you know,
+what do you think is underestimated and
+uh, you know, and what is overhyped by
+the broader tech industry from where
+you're sitting? It's not short of
+overhyping. Let me just put it that way,
+right? We're at the uh everything is AI
+all the time. So, it's good. Uh you
+know, for us all in this industry, we
+live and die by our ability to get into
+a frenzy about something new, right?
+What is the Steve Jobs thing or the Bob
+Dylan thing, which is you're either busy
+being born or busy dying. It's better to
+be being busy being born. So, that's
+good. The I think the thing that we have
+to most um worry about and most work on
+as a as a tech community I would say is
+that how do we earn that social
+permission? If there is one thing that I
+feel to me one of the demos I saw which
+completely really blew me away was I
+think in the beginning of 23
+um when I was in India and I saw a local
+developer Daisy chain essentially at
+that time either GPD3 or 35 uh with one
+of these India stack speechto text
+texttospech uh open-source things and
+then showed a local Indian farmer who
+was able to sort of use a a chatbot that
+was built in WhatsApp uh to be able to
+get some agricultural subsidy, right? Uh
+by going to a government website. That
+to me was unbelievable, right? I I I
+felt like, man, how could something that
+was built in the west coast of the
+United States get to a real use case
+that fast uh thanks to sort of the
+diffusion rate and basically people uh
+everywhere. That is the story that needs
+to be told uh right at scale. Uh that is
+the underhyped story I think because
+right now the overhyped thing is the
+model capability and the model
+capability is fantastic but man if we
+can somehow get the world to recognize
+that this is making a real difference in
+the lives of people everywhere we're in
+good shape. If that doesn't happen, this
+is all about some valuations of us uh
+our companies and our industry and it's
+the same repeat then that is not going
+to end well. I love that example. Um I
+mean you can I don't it feels like
+Microsoft is sort of full of examples of
+things that uh lower the floor so that
+you know a lot more people can get
+access to technology. I mean you could
+argue go GitHub Copilot is one of the
+biggest. Yeah. By the way, one of the
+other ones just you brought it up. There
+was a World Bank study they did, I think
+in Nigeria and now they've taken it to
+Peru or Chile, one of those in in South
+America. It's, you know, we've been
+working at Microsoft forever on can
+there be an intervention in education,
+right? That's been the dream, man. We've
+been at it at it for decade after decade
+and it's made a difference. uh but this
+study said by access to something like a
+co-pilot is probably the best tech
+intervention in education uh in Africa
+or in Latin America and that's you know
+that's been the dream I think that we've
+all had in tech and it's right there
+within our grasp I guess are there any
+um interesting observations I'm curious
+because you know your co-pilot in
+Windows is uh you know often you know
+here in tech like maybe people are
+really obsessed with the latest frontier
+models, but it's easy to forget like you
+know Windows and the integration with
+Windows is actually the first
+interaction people have with uh you know
+pre- AGI sort of AI today. Are there any
+observations from like people using that
+and like Yeah. No, we're very very
+excited about Clippy being back as
+co-pilot.
+Uh but seriously, I mean like look at to
+me um the the thing that I find
+is even in the form factor that we know
+and love and uh work in which is a good
+old computer with a mouse and a
+keyboard, right? The dream has always
+been in fact the first research group
+Bill built at Microsoft research was
+speech
+um in 1995. Um, and so since then we've
+been saying, God, like when will speech
+be first class on PCs. But right now
+with Copilot, the two things that are
+just pretty surreal to me, it's kind of
+like a new browser moment, right? There
+is both vision and speech. I leave it on
+all the time. It can see what I see and
+I can speak to it. That seems like a
+precision mouse movement, right, to me,
+right? So that is where I think even on
+existing form factors there is a way to
+change uh the complete computer use and
+then there will be new form factors
+right uh so I think it's an exciting
+time to be building uh both hardware and
+modifying existing hardware for what is
+I think possible in terms of computer
+use yeah computer use is fascinating in
+that I mean you have the intelligence
+and then computer use is actually the
+superset of uh all the data like your
+personal data, your work data, your you
+know all your office docs like
+everything is accessible right there.
+Was uh the movie her correct and that
+you know literally the operating system
+is going to embed itself with uh your
+most trusted agent. Yeah, I mean I think
+that has been the dream which is can
+these agents become your computers. Um
+and they do the computer use for you. Uh
+and that absolutely I think is the
+direction of travel. Uh and I think you
+mentioned the most operative thing which
+is trust. Uh which is can I trust this
+to delegate what I want and that means
+it's about precision. uh it is about
+sort of uh the privacy uh it's about a
+lot of these considerations and I think
+that these all will in time will have to
+work out. I mean in that respect you
+know when you look at um you know both
+your company and you could argue Apple
+they sort of have to be on the front
+lines of protecting privacy for all
+computer users in the world actually.
+Yeah. I mean so to us you know there are
+many it's not even sort of there's
+privacy there is security there's
+sovereignty these are three big big
+considerations right privacy every user
+cares about it uh security is what every
+tenant or every customer will care about
+it on top of privacy and then every
+country will care about sovereignty
+security and privacy so that's the way
+to think about it right so you really
+need to build any product or any system
+you need to be able to answer the
+questions on for the people and for
+organizations and for countries how you
+cross all those three boundaries. Sachi,
+you've had an absolutely extraordinary
+journey at Microsoft starting as an
+engineer all the way up to CEO. What
+lessons from that path would you share
+for the next generation of builders?
+It's not like um you start any journey
+um with sort of a specific goal of where
+you want to end up but you do start uh
+with this uh goal of taking the first
+spot and sort of having the highest
+ambition for yourself on what you want
+to get done. Right? I always say u it's
+not like uh I was waiting to become CEO
+to do my best work. The first job I had
+uh I felt was the greatest job I could
+ever have when I joined the company in
+'92. I felt like w if I retired in that
+job that would be fantastic. Um and that
+was a great mental model when I look
+back at it, right? Which is it's not I
+was not waiting for my next promotion to
+do something but using the opportunity I
+was given to do everything I could. Um
+and I think that that's what uh people
+who are starting out or who are founders
+or who are researchers or students today
+have. And so I would say keep that
+alive. Uh don't wait for the next big
+thing. You take the thing that you have
+as the biggest thing and then make it
+expansive. Um and then the other thing
+that I would say is big things are
+achieved uh by having a team around you.
+uh learn how to work in teams, making
+teams great. Uh one of the things that I
+feel at Microsoft I learned was what it
+means to be in a project, what it means
+to work. In fact, that's kind of the big
+difference between school and work is
+that right, which is you join a team. Um
+and you got to figure out you how to
+make the team successful. the incentives
+are actually pretty clear except I think
+the thing that is least thought uh is
+how do you really make sure you can
+compose as a team and what's your role
+in it. Every one of us sort of looks and
+say somebody else's job is to align the
+team. It's your job to align the team.
+So I would say if you get those two
+things high ambition for your own
+impact, how to work in a team and make a
+team effective that's magical. Uh here's
+a fun story. Um, I actually did learn
+how to uh do product management and
+project management as a PM on Windows
+Mobile. And uh when I was employee
+number 10 at Palunteer, I taught them uh
+actually how to run a project zero bug
+bounds and you know all of the sort of
+you know my PM training at Microsoft
+turned into the thing that created you
+know how even Palunteer uh you know runs
+their product org today which is pretty
+wild. So, you know, thank you to
+Microsoft for that. Um, I'm curious, you
+know, what are the qualities that you
+look for in uh, you know, sort of people
+and teams just because AI is becoming a
+really key piece of, you know, creative
+work and engineering work. Um, it's sort
+of changing the way even you might
+interview someone and evaluate them for
+technical or, you know, broader skills.
+Yeah. I mean, look, I I I'm always
+looking for
+uh three qualities in people. Um, one
+is, uh, in fact, you know, Bill turned
+me on to this, which is he was
+describing at one point who are good
+architects and who are bad architects.
+And he had this, you know, nice way to
+uh, uh, summarize it, which is good
+architects uh, bring clarity and bad
+architects bring confusion, right? Even
+if they're equally smart. So I sort of
+always go um to people who innately to
+can drop into an ambiguous uncertain
+situation and bring clarity uh it's an
+understated quality right I mean you
+just think about the number of
+conversations you have in a day um about
+some tough situation tough context uh
+and people who can bring clarity on what
+to do what to do next what's the next
+step that's at a premium So I always am
+looking for people who bring clarity in
+uncertain times. The second thing I'm
+looking for is people who create energy.
+Uh right in the other words um it's like
+not just they bring energy but they're
+also really able to bring multiple
+constituents. Right? Anybody who comes
+to me as a leader at Microsoft who says
+my team is great everybody else sucks.
+That's not really useful. uh I need
+people who can bring people together
+across the company outside the company
+create energy right innately and then
+the last thing is people who are good at
+solving over constrained problems that's
+why I think my favorite interview
+question always is um asking someone to
+describe like a project they worked on
+which really was going nowhere and they
+figured out a path right and the way
+they go about it uh problems solving uh
+because essentially what are what do
+people do who are successful? They take
+an over constrained problem and figure
+out how to unconstrain it. Um and that
+magical sort of three things right which
+is bringing clarity, creating energy and
+driving success by solving over
+constrained problems is what I think
+leadership is about. But leadership is
+not about something that you do later in
+life. You do it every step of the way.
+Uh I want to cover quantum briefly. I
+mean you guys just released your um
+Majorana 1 in February. Um is there an
+interaction um with the future of AI and
+you know I think there are probably some
+quantum researchers in the house. So
+curious what the future will be. Yeah to
+me it's pretty exciting to see what's
+happening. I mean we've been at it man
+for like it's like I'm the third CEO at
+Microsoft who's been writing checks on
+quantum. Um
+um and we've been at it for 20 plus
+years and the dream at least or the
+focus we always had was if we really
+want to build a quantum quant computer
+which is a general purpose computer uh
+you got to solve u for really stable
+cubits um and error corrected cubits um
+so a fault tolerant quantum computer and
+we bet on this bas basically a physical
+property
+which was envisioned by these Italian
+physicists Mayorana and that is what uh
+we went after and finally we've had a
+physics breakthrough and we were able to
+actually fabricate that particle and so
+therefore uh that's what has led to this
+chip. uh so we feel like one of the big
+things that we needed to achieve uh has
+been achieved and the way I think about
+it is if you say um takes you know if
+you want to understand the language of
+nature which is simulation
+um I think the best way to do it is
+through a quantum computer because after
+all uh you know physics and nature is
+quantum and so therefore but AI is I
+think of it as an emulator of that
+simulator right so that's another way to
+uh perhaps even use AI today with HPC.
+In fact, a lot of what we are seeing is
+pretty good advances in uh using um
+basically HPC plus AI as a way to
+accelerate advances in chemistry, in
+physics, in material science. And so
+quantum would be the next step in it.
+But we're very excited about what AI
+plus quantum and HPC in a loop can do.
+Very cool. Uh we're running out of time.
+I feel like we could go for another hour
+if we if we had the time. Um, so just to
+close, I just wanted to get your sense.
+You know, let's do a simulation of a
+sort. You know, you're uh 22 years old
+and you're level 59 at Microsoft. You're
+starting your career. You just
+graduated. Um, what are you working on
+given, you know, in 2025? You know, if
+you started over knowing what you know
+now, what would you be working on? How
+would you be approaching it? you know
+what would you be excited about? If you
+look back at the history of Microsoft,
+how office got built is a you know it's
+an unbelievable uh story in the sense of
+thinking of these tools um right a word
+processor a spreadsheet
+a slidem tool
+um what those tools are meant to all of
+us right I mean I mean ex I mean that's
+why I always say what's your if somebody
+asks me what's my favorite product it's
+always you know VS code is one and the
+other one is excel out. Uh it's just
+your you feel so good when you use the
+tool. It's all about the sense of
+empowerment you have, the numbers sense
+you have, the analytical power you have
+with something simple like a spreadsheet
+like what an unbelievable scaffolding uh
+it is right uh columns and rows with
+some sort of tuning machine in the
+middle um is just breakthrough. And so I
+would want to work on what are the next
+set of tools like when I see even
+copilot today that's kind of where I
+feel like you know researcher analyst
+creator these are like the word excel
+powerpoint right every day I go to them
+so to me that's what I would love to
+what are the tools that we can put in
+the hands of people that will give them
+that sense of empowerment that's what I
+would love to work on I have a feeling
+the people who make those tools are
+sitting in in this audience right now.
+Please give it up for Sachin Nadella.
+Thank you so much. Thank you. Thank you.
+Incredible.
+[Music]

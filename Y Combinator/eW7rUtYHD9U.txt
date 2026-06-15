@@ -1,0 +1,874 @@
+Title: Bob McGrew: AI Agents And The Path To AGI
+Video ID: eW7rUtYHD9U
+URL: https://www.youtube.com/watch?v=eW7rUtYHD9U
+Channel: Y Combinator
+Published: 2025-01-31T15:00:55Z
+Duration: PT30M45S
+Views: 49837
+Likes: 995
+Tags: YC, Y Combinator
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 848
+
+Description:
+According to OpenAI's former Chief Research Officer Bob McGrew, reasoning and test-time compute will unlock more reliable and capable AI agents— and a clear path to scale to AGI. 
+
+In this episode of “How To Build The Future,” YC President and CEO Garry Tan sits down with Bob to discuss the lessons learned from his time at OpenAI, scaling laws, his advice for startups, and what all of this means for the jobs of the future.
+
+Apply to Y Combinator: https://ycombinator.com/apply
+
+Chapters (Powered 
+
+============================================================
+TRANSCRIPT
+============================================================
+
+if you ask people what AGI was they
+would say it's a model that you can
+actually interact with it passes the
+Turing test uh it can look at things it
+can write code can even draw an image
+for you yeah and and like we've had this
+for years and if you said okay well what
+happens when you get all those
+capabilities say Well everybody's out of
+a job and Game Over For Humanity and
+none of that is happening I think in in
+the big picture we're we're reaching
+that bottleneck for pre-training and
+data but now we have this new mechanism
+with reasoning and test time compute
+what we're going to see out of reasoning
+is is that it's really going to unlock
+the possibility of agents to do actions
+on your behalf which has sort of always
+been possible but it's just never been
+quite good enough and you really need a
+lot of reliability I think that is now
+in
+sight hey guys we have a real treat
+today Bob mcru formerly Chief research
+officer at open aai you uh were a part
+of building a lot of the research team
+you know what was that like early at
+openai the really interesting thing
+about open aai is that I did not
+originally intend to go to a research
+lab when I left paler I wanted to start
+a company uh I had a thesis that
+robotics would be the first real
+business that was built out of deep
+learning this was back in
+2015 and I talked my way into a friend's
+nonprofit um I never had a badge but I
+would go in he'd open the door for me
+and I learned deep learning by teaching
+a robot how to play checkers from vision
+and in the process of doing this I
+learned uh a lot about Robotics and I
+learned that robotics was definitely not
+the right startup to start in 2015 or
+2016 I ended up going to open AI
+basically because um it was a Place full
+of very smart people and it had you know
+big Ambitions it was a place where I
+could really learn um I had all this
+management experience from paler but it
+was just a place for me to to really
+become an expert in deep learning and
+you know from there figure out what it
+could actually be used and applied for
+what were some of the earliest things
+that you remember working on and how did
+that play into what everyone knows open
+AI to be now yeah when open AI started
+the goal was always to build AGI but the
+theory early on was that we would build
+AGI by doing a lot of research and
+writing a lot of papers and we knew that
+this was a bad Theory um I think you
+know for for a lot of the early people
+who were startup people you know Sam
+Greg myself um it felt sort of painful
+and in in a little academic but at the
+same time it was sort of what we could
+do at the time and so uh some of the
+early projects I worked on a robotics
+project where we took a robot hand a
+humanoid robot hand and we taught it to
+solve Rubik's Cube the idea in doing
+that was that if we could make the
+environments complicated enough the
+artificial intelligence would be able to
+generalize out of the narrow domain it
+was taught and learn you know something
+more complicated which was one of the
+ideas that later we come back we see
+coming back with llms um the other you
+know really early big project was uh
+solving Dota 2 so there's a long history
+of solving games as a path towards
+building better AI from aell to go and
+after beating go the next hardest set of
+games are actually video games they're
+not very classy um but they're a lot of
+fun and I can assure you that
+mathematically they were harder and so
+deep mind went after Starcraft open AI
+went after Dota 2 and the the was real
+insight that was generated there which
+was that it really strengthened our
+belief that scale was the path to
+improving artificial intelligence that
+with Dota 2 the the secret idea was that
+we could take huge amounts of experience
+and feed it into a neural network and
+that the neural network would actually
+learn and generalize from that and later
+we we actually went back and applied
+this to the robot hand and that became
+the key idea for the robot hand and at
+the same time as these two big projects
+were going on Alec Radford was
+experimenting with language and the core
+idea behind gpd1 is that if you have a
+Transformer and you apply this super
+simple objective of guessing the next
+token guessing the next word that that
+would be enough signal that you could
+actually uh have something that would be
+able to generate coherent text and in
+retrospect it sounds sort of obvious
+right like you know clearly this was
+going to work but no one thought this
+would work at the time Alec uh you know
+really had to persevere for years in
+order to make this work and that became
+gpd1 and then uh after gpd1 seemed
+successful we brought in the ideas from
+DOTA and from the robot hand of training
+at you know larger and larger amounts of
+scale and training on a really diverse
+set of data uh and looking for
+generalization and together that brings
+you to gpd2 and gbd3 and gbd4 so one of
+the things that um you open AI really
+pioneered and sort of figured out uh was
+this concept of scale how is it that it
+was open AI that you know made the right
+decisions and sort of found you know
+large language models first early on uh
+there were sort of you know a couple big
+projects as I said and then some room
+for exploratory research and the Very
+earliest days the exploratory research
+um was really about uh you know it's
+about what the researcher wanted to do
+but also it was about sort of the
+company's opinion and and in this it was
+primarily formed by ILO with influence
+from a lot of people but I think was
+really The Guiding Light here early on
+sometimes I think about the open AI
+culture and I like to oppose it to sort
+of Google brain and to Deep Mind and so
+early on the Deep Mind culture was I I
+you know a caricature is Demis had a big
+plan and he wanted to hire a bunch of
+researchers so he could tell them to
+move forward with his plan and Google
+brain said let's rebuild Academia let's
+like bring in all these super talented
+researchers let's not tell them anything
+let's just let them figure out what they
+want to do give them lots of resources
+and hope that you know amazing products
+pop out um and of course they did but
+they didn't necessarily happen in Google
+and we took a different approach which
+was really more like a startup where
+there was no sort of big centralized
+plan uh but at the same time people
+didn't have you know it wasn't just sort
+of let's let a thousand flowers bloom um
+instead we had opinions about what
+needed to be done and things like how do
+you show scale uh as a way of you know
+making your uh idea get better and uh
+that opinion was set by the search
+leadership you know again early on
+people like Ilia people like Dario that
+was how we made sure that we didn't just
+sort of throw resources at everybody but
+neither did we have just one set of
+ideas that were there we found this sort
+of happy medium between the two I guess
+one of the critiques of um maybe pure
+Academia or some of the AI research Labs
+we don't have to name any of them but
+you know we've heard stories about
+looking it the number of researchers On
+Any Given um you know paper there might
+be way more people on it and if you
+really dig into some of the uh papers
+there they look like maybe a little bit
+of this plus a little bit of that and
+you that sort of reflected the nature of
+that's what it took to get compute and
+this is at other AI Labs like I mean
+what was it about um open AI where you
+were able to sort of avoid that well I
+think the paper example is a really
+interesting example because I think
+that's sort of both good and bad I am
+hugely positive on academics and
+researchers but actually pretty negative
+on Academia I think Academia is good for
+this very narrow thing of of you know
+small groups you know trying out crazy
+ideas but Academia has a lot of
+incentives that prevent people from
+collaborating um and in particular in
+Academia there's this obsession with
+credit one of the things that's
+interesting about the way that papers
+have turned out in big Labs is that um
+early on we made the decision that we
+would try to be as you know Catholic as
+possible in bringing putting everybody's
+name on it and one of the early robotics
+papers we actually said site as open AI
+because we didn't want to get into a
+fight you know the first author is the
+one who you know gets cited and their
+name shows up every single time so we
+said you know we're not going to try to
+have this fight we're not going to say
+who is the person who really did it
+we're just going to say site is open Ai
+and it was I I think that is actually a
+really important cultural piece the
+ability to to accept that people want
+credit but to be able to channel it into
+you know it's your internal reputation
+not you know the position you have on
+the paper that really matters
+um and for a long time openi had didn't
+really have any titles except for you
+know always a CEO title right but didn't
+really have a lot of titles uh within
+the organization itself but people
+always knew who the great researchers
+were once you have the scaling laws and
+certainly uh you how AI research is
+being done now there's sort of this
+shift where basically scale is all you
+need for increasingly more and more AI
+domains it's sort of you potentially
+coming true in image diffusion models or
+and you know earlier uh to bring it back
+to what you you know starting out with
+there's some sense that similar
+principles to scaling laws actually do
+apply uh in the right domains in
+robotics is that sort of one of the
+things that you're seeing or you know
+how how would you respond to that I
+think if you look at AI progress um you
+see scaling laws all over the place and
+so the interesting question is well if
+scaling laws exist and they're
+commonplace uh what what does that mean
+what does that mean for you if you're a
+company if you're researcher if you're
+you're trying to make things better why
+didn't we uh take advantage of scaling
+laws earlier in these other domains well
+you know I think I think we were really
+trying to you know usually usually in
+order to the first step is actually
+getting to a scaling law to take an
+example that's not llms um if you think
+about Dolly which was you know how do
+you take text and make an image out of
+it um that I think adicha rames who
+built that model spent 18 months maybe
+two years just getting to the first
+version that that clearly worked
+so I remember he'd be working on this
+and Ilia would come and and show me he'd
+be like you know ad's been working on
+this for a year he's trying to make a
+pink panda that's skating on ice because
+it's something that's clearly not in the
+training set and and here's an image and
+you can see it's like pink up there and
+white down there it's really beginning
+to work and I would look at that and I'd
+be like really I mean maybe maybe I
+don't know um but just getting to that
+point where it it sort of plausibly
+begins to work is is a huge difficult
+problem and it's completely separate
+from using scaling laws now once you get
+it to work that's when scaling laws come
+into play and with scaling laws you have
+two hard things that you can do one of
+them is just the pure scale itself
+scaling is not easy um it is in fact
+probably the Practical problem in any
+sort of model building and it's a
+systems problem it's a data problem it's
+an algorithmic problem even if you're
+just trying to scale the same
+architecture the second thing you can do
+is you can try to change the slope of
+the scaling law or just you know bump it
+up a little bit and that is you know
+searching for better architectures
+searching for better optimization
+algorithms um all of the the algorithmic
+improvements that you can do um and if
+you put all of those together that is
+what explains the very fast progress
+that we're seeing in AI today I guess
+that um is one of the bigger debates
+that's ongoing certainly out there in
+the community um are the scaling laws
+going to continue to um hold or are we
+hitting some sort of bottlenecks you
+know I don't know how much you can talk
+about it but what's your view at this
+point on you know maybe llm scaling but
+certainly other domains too it is
+definitely the case that there is a data
+wall and that if you take the same
+techniques that we were using to scale
+llms um you know at some point you're
+going to run into that the thing that's
+been really exciting of course is you
+know going
+from uh the llm scaling of pre-training
+where you're just bringing bigger and
+bigger corpuses and trying to predict
+the next token and shifting gears and
+using techniques like reasoning which
+you know open AI shipped in its 01 and
+03 models and Gemini has now also
+shipped in U Gemini flash thinking you
+know if you think about Mo's law right
+you know with Moors law you see you know
+the Mo's law is sort of one big
+exponential curve but it's actually the
+sum of a bunch of little S curves and
+you start off with Dennard scaling and
+at some point that breaks but if you
+look if you think about how Nvidia has
+gone Mor's law has continued it's just
+come through a different mechanism so so
+you like solve some bottleneck but then
+you s-curve that particular solution
+but there are other places other
+bottlenecks and then you have a new
+bottleneck and you have to go attack
+that and so you know I think I think in
+the big picture we're we're reaching
+that bottleneck for pre-training and
+data are we exactly there it's a little
+hard to say but now we have this new
+mechanism with reasoning and test time
+compute I think if you go back and you
+think about what it took
+for AI for building AGI for you know I
+would say the last five years um people
+have thought that people at the big
+Frontier Labs have felt that you know
+step one was pre-training and that the
+remaining Gap to have something that
+could scale all the way to AGI was
+reasoning some ability to take the same
+pre-trained model and have the ability
+to give it more time to think or more
+compute of various kinds and get a
+better answer at the other end and now
+that that hasra has been cracked at this
+point I think we actually have a very
+clear path to just focus on scaling you
+know we were you know talking about that
+uh you know the zero to one part that's
+not about scaling um I think there's a
+really strong case to be made that in
+llms that's not relevant anymore and
+that now we're in the pure scaling
+regime I'm pretty impressed by uh you
+know these the five levels of AGI and it
+it feels
+like things are basically playing out
+the way that original post on the open
+AI website um sort of described it it's
+uh you know reasoners are here and then
+uh I'm hearing a ton about innovators so
+taking a thing like uh 03 or you know
+maybe when 03 Pro comes out that'll be a
+real moment where you can uh hook that
+up to a biolab and have you know sort of
+autonomous uh exploration of you know
+scientific spaces what can you say about
+that stuff the really interesting thing
+about that is we're probably going to be
+blocked for now on the ability of the
+models to work in the physical world
+it's going to be a little strange we're
+probably going to have a model that can
+explore scientific hypotheses and figure
+out how to run experiments with them be
+before we have something going to
+actually run the experiments themselves
+and so maybe that's one of those new
+s-curves we're back to robotics then
+yeah exactly and we're back to robotics
+um the the other thing that I think is
+really interesting that the reasoning
+models enable is agents and it's a very
+generic term it's probably a little
+overplayed but you know fundamentally
+what reasoning is is it's the ability
+for a model to have a coherent ENT Chain
+of Thought that is steadily making
+progress on a problem over a long period
+of time and the techniques that give
+that to you in terms of thinking harder
+also apply to taking action you know in
+the real world in the virtual world I
+think the what we're going to see out of
+reasoning out of long thinking is that
+it's really going to unlock uh the
+possibility of agents to do actions on
+your behalf which you know has sort of
+always been possible but it's just never
+been good enough and you really need a
+lot of reliability in order for you to
+be willing to wait 5 minutes or 5 hours
+in order for something to happen it's
+got to actually work at the end and I
+think I think that is now in sight the
+thing that prevents people from trusting
+an agent to do the action is that uh
+mainly a frequency of how often is that
+action the correct action versus the
+wrong action yeah there's a rule of
+thumb that that I like which is
+basically you know if you want to go if
+you want to add a nine if you want to go
+from 90 to 99% or 99 to 99.9% that
+that's maybe an order of magnitude
+increase in compute and historically
+we've only been able to make order of
+magnitude increases in compute by
+training bigger models and now with
+reasoning we're able to do that by
+letting the models think for longer and
+and look letting the models think for
+longer this is a really hard problem
+with 01 with o03 you know you're getting
+longer and longer chains it requires
+more scaling we just talked about
+scaling as you know the central problem
+so this is not easy it's not done by any
+means but there's a very clear path now
+that allows you to get to to those
+higher and higher levels of
+reliability and I think that unlocks so
+many things Downstream what do you
+think's happening with like a
+distillation I was looking at some of
+the sort of capability graphs of some of
+the mini models and it sounds like
+basically the mini models increasingly
+are getting better and better is that
+like sort of a function of parent models
+teaching you know sort of child models
+or you know what's happening there and
+what can people expect yeah I think over
+the last year the the big Frontier labs
+and a lot of other people have figured
+out the tricks to take big models and
+you know take a very particular
+distribution of user input and train a
+model that is that is almost as good as
+the big model but much much smaller and
+much much faster and so I think we're
+going to see this a lot going forward
+especially if you if you look at you
+know the Sonet versus Haiku you know
+Gemini versus Gemini flash you know 01
+versus 01 mini 40 mini um every lab has
+really focus on this um and and in fact
+you see distillation as a service um
+Coming what would you say to people
+watching who are trying to make uh AI
+startups right now often they're
+vertical startups but some of them are
+consumer too actually yeah I would say
+if you're if you're a Founder The the
+right approach is to start with the very
+best model you can because you know your
+your startup is only going to be
+successful if it exploits some something
+about AI that realistically is going to
+be on uh you know the frontier so start
+with the very best model that you can
+and get it to work and once you've
+gotten it to work then you can use
+distillation you can take a dumber model
+and you can try prompting it you can try
+to have the frontier model train the
+smaller model but you know the most
+important thing in a startup is actually
+your time right you don't want to be
+unless you have to you don't want to be
+like paler taking three years to get to
+Market you want to be able to to build
+that product as quickly as possible and
+and only once you've actually figured
+out where the value is probably by
+iterating with your user then you can
+think about cost working backwards it's
+sort of feels like the movie Her is more
+or less inevitable I am a little
+skeptical of the the the deep emotional
+connection you know that that you know
+guys are going to have ai girlfriends I
+think that's not what guys are looking
+for in a girlfriend frankly I think you
+know an AI that shops for you well there
+it's really helpful to know a lot about
+your preferences uh an AI that uh is
+your assistant at work again very
+helpful to know about your preferences
+one other thing I think would be cool
+would be an AI that it's Gary's AI bot
+and if I want to know what Gary's
+thinking I could just ask your AI bot
+and if I get a good enough answer then I
+can go about my job and if not then I
+have to you know actually bother you in
+person you know I think that would be
+just a tremendous feat of
+personalization if you could make
+something like that happen and anything
+that that works with you at work needs
+huge amount of context about you it
+should be able to you know see your
+slacks and your your Gmail and all the
+all the different productivity tools
+that you have um and I think it's
+actually surprising you know I I think
+this is this is actually a real hole in
+the market because I that's that's not
+something I can go out and purchase
+today I mean in my mind's eye what I can
+imagine is kind of like a super
+intelligent Genie it knows you know who
+you are what you're about and it might
+actually know you know your job your
+goals in life and it'll actually tell
+you oh hey you should probably do this
+and it might go out and get an
+appointment for you and like oh yeah
+it's time to take the elsat buddy you
+said you wanted to you know go be a
+lawyer like well this is the first step
+you know do you want to do it yes or no
+right you know and and there's something
+really interesting about this idea cuz I
+I think it's very compelling that you
+know that the AI is your life coach but
+then it goes back to like so what are
+you even doing with your life in the
+first place right if the AI is better
+than you and I think there's actually a
+really deep mystery here when we were
+first thinking about gpd1 back in
+2018 um you know if you ask people what
+AI was they would say well you know it's
+it's you know a model that you can
+actually interact with it passes the
+Turing test uh it can look at things it
+can write code uh it can even draw an
+image for you yeah and and like we've
+had this for years right and if you said
+okay well what happens when you get all
+those capabilities say Well everybody's
+out of a job you know all laptop jobs
+are immediately automated and Game Over
+For Humanity and and and none of that is
+happening right I mean yes AI has had
+some effects you know particularly on
+people who write code but you know I
+don't think you can see it in the
+productivity statistics unless it's
+about how big the data centers are that
+we're building and I think this is a
+really deep mystery um why is it that AI
+adoption is so slow relative to what we
+thought should be happening in 2018 what
+you just said really reminds me of our
+days at paler actually where uh you one
+of the core missions that you know paler
+started with really is this idea that
+you know the technolog is already here
+it's just not evenly distributed and uh
+I feel like that was one of the things
+you guys actually really discovered and
+you know part of the reason why paler
+actually exists it's you you went into
+places in government three-letter
+agencies some of the most impactful
+decisions that a society might have to
+make and you look around and there was
+no software in there and that was what
+paler and certainly paler government was
+very early on the fun piece there was
+just you know thinking through what it
+is that these people do and then how you
+could just completely reimagine it with
+technology where you know if you were
+checking to see if a particular you know
+person who was flying into the US uh had
+you know a record or if there was any
+suspicion you know you look through 20
+different databases one approach would
+be say well let's make it faster to look
+through 20 different databases another
+approach is say well maybe maybe you
+know you can just do look for it once
+and it checks all the databases for you
+and you know I think that's the like
+that we need some twist like that for AI
+that lets people figure out how to use
+the AI to solve the problem they
+actually have uh not just sort of take
+their existing workflow and have ai do
+that workflow it's like not just having
+the data it's not just having the
+intelligence I mean what AI desperately
+needs right now is like you said the UI
+the software it's just building software
+and if you can put that in a package
+that a particular person really really
+needs I feel like that's one of the big
+things that we learned it palte like
+there's a whole um job that that is
+exactly that forward deployed engineer
+it's a very evocative term right like
+forward deployed you're you're not way
+back at the HQ you're all the way in the
+customer's office you were sitting right
+next to them at their computer watching
+how they do something and then you're
+making the perfect software that uh they
+would never get access to like you the
+alternative is Excel spreadsheet writing
+SQL statements yourself or uh Cost Plus
+you know government integrator or like
+Accenture and they're never going to get
+something usable whereas a really good
+engineer who's a good designer who can
+understand exactly what that person is
+you know needs and is trying to do they
+can build the perfect thing for that
+very person and so maybe that's the
+answer to your question like Why didn't
+it happen yet it's like we just need
+more software Engineers who are like
+that forward deployed engineer to link
+up the intelligence and we're there I
+think it's really funny because you know
+if you think back to 2015 when I left
+paler people were skeptical of paler
+because of the existence of the forward
+deployed Engineers you know if you had a
+really good product you wouldn't need
+the forward deployed Engineers you
+wouldn't need to specialize it to every
+customer and you know wait five years
+and paler has a great IPO wait 10 years
+it's a very valuable company suddenly
+everybody is talking about building
+their forward deployed engineering
+function and I think it's a good thing I
+think you know hopefully this gives us a
+lot of software that is is actually very
+tuned to what the customers need not
+just something off the rack that you
+then say well there's a way to
+accomplish what you can do go figure it
+out Bob both of us are parents and you
+know we just spent a lot of time talking
+about some pretty wild Concepts that are
+about to affect all of society has that
+affected um how you think about you know
+what we should be doing with our kids I
+really struggle with this and and
+there's there's a very crisp version of
+this for me which is
+that uh my 8-year-old son is really
+excited about coding he actually is
+really excited he he wants to start a
+company um he he has a great name and
+it's going to do asteroid Mining and all
+sorts of cool stuff and so every day he
+says you know Dad can you teach me a
+little bit about how to code this is
+actually what I do most with language
+models is I have the language model I
+figure out what he's interested in I
+have the language model make a lesson
+for him that teaches some idea that I
+want to teach him like it teaches about
+networking or teaches him about loops um
+and it fits his idea and my wife asked
+why are you doing this if the language
+models are going to be able to code and
+I think the answer is that like right
+now we still have to like this is how
+you learn how to do critical thinking
+and you know I think back to to Paul
+Graham's idea of the resistance of the
+medium like even once you know the the
+computer can do the programming for you
+I think there's still something to to
+having like had your hands in it
+yourself and knowing what's possible and
+what's not possible and that you can
+have that intuition um I think the the
+the role that we're going to be playing
+you know one I I I think there's going
+to be two roles one will be something
+like lone genius you know the Alec
+Radford of the world working alone at
+his computer coming up with some crazy
+idea but now with that computer being
+able to to leverage him up so much the
+other role is manager that you know you
+will be the CEO of your own firm and
+that firm will mostly be AI I think
+there will be other humans in there I
+don't think the the whole company gets
+replaced although this is another really
+interesting question for us to answer
+but you know I think those will be the
+two jobs of the future genius and
+manager I think that that is actually
+pretty awesome those are two things that
+would be really fun jobs honestly when
+um cameras when like the photographic
+camera and film came out what happened
+to artists and you know they're still
+around and uh people still learn to
+paint and there are probably more people
+who learn to paint because more people
+have an appreciation for art and
+painting and the visual Visual Arts yeah
+so my hope is that that's what happens
+and I think I mean if you if you go back
+to the last time we automated away you
+know most human jobs you know in the
+1880s most people were farmers and now
+you know 3% of Americans maybe are
+farmers and we all do jobs I think we
+try to explain to people from 1880 you
+know what like you know being a a being
+a software engineer or you know running
+a startup incubator you know there'll be
+like what the hell is this right the
+these aren't real jobs at the end of it
+I'm very much an optimist about Humanity
+I think that humans will have important
+and valuable roles to play but you know
+just like you know that first 90% of
+jobs that got automated away we couldn't
+really you know you those Farmers didn't
+know what the jobs of their
+grandchildren would look like I think we
+have that same period now where we don't
+know what the jobs of our grandchildren
+will look like and we're we're just
+going to have to play it by year and
+figure it out I guess going back to
+robotics um you know one of my hopes is
+actually that maybe the level four
+innovators will suddenly break through
+on a bunch of very specific problems
+that currently hold back robotics um
+have you spent time you know back in
+that space recently and what are the
+odds of that coming together in the next
+I don't know uh couple years even like
+do you feel like there will be uh
+continued breakthroughs on maybe the
+figure robot and different things like
+that what's your sense for robotics in
+the next year or two robotics companies
+now now are where you know llm companies
+were 5 years ago so I think in five
+years you know or even even sometime in
+the next five years we will see the chat
+GPT moment for robotics I think it's a
+little harder to scale because you've
+got to build physical robots um but if
+you look at companies like skilled AI or
+physical intelligence um who are
+building Foundation models for robots
+you know the progress that we've seen
+there is just really dramatic there's
+some point we're going to get out of
+that zero to one phase where you're just
+trying to make it work at all and we're
+going to be in something where it kind
+of works and then we're just scaling to
+increase the reliability and increase
+the scope of the market I remember
+working with Sam Alman at YC and you
+know he was bringing in some pretty wild
+hard tech companies like helon focused
+on Fusion or Olo uh in the energy space
+and at the time I don't know if I
+totally understood uh why but I don't
+know after the AGI part you becoming
+much more real plus that it feels like
+you know if you add robotics that's uh
+one of the more profound sort of
+triumvirs of technology that might come
+together that will create quite a lot
+more abundance for everyone yeah I mean
+it's the you know every whatever the
+part of the stack is that isn't
+automated becomes the bottleneck and so
+you know I think weirdly we're going to
+end up with you know automating the
+scientist the innovator before we
+automate you know the experiment doer
+but then you know if that comes through
+um I think the the potential for really
+fast scientific Advance is totally there
+I think we will find some other
+bottleneck I think we're going to look
+back at this conversation we say we did
+all the things and science is only going
+like 30% faster than it was why isn't it
+300 times faster and we'll have to
+figure it out I mean it'd be a great
+problem to have hly that's going to be
+30% is great but 300% that would be
+insane hey room for thousands more
+startups that sounds great Bob thank you
+so much for joining us this is I feel
+like I learn a lot every time I get to
+see you so great to see you again thanks
+for coming on the channel it's always
+fun to have these conversations with you
+Gary
+[Music]

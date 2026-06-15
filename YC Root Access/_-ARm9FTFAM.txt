@@ -1,0 +1,689 @@
+Title: How Onebrief Is Fixing Military Planning With Software
+Video ID: _-ARm9FTFAM
+URL: https://www.youtube.com/watch?v=_-ARm9FTFAM
+Channel: YC Root Access
+Published: 2025-05-13T14:00:52Z
+Duration: PT24M37S
+Views: 3457
+Likes: 78
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 666
+
+Description:
+Grant Demaree was a junior US Army officer watching military planners pass around Word docs and PowerPoints during the 2014 Ebola crisis when he realized something: the military’s most critical decisions were being made with outdated tools and slow, legacy workflows.
+
+That insight led him to build Onebrief—a platform now used by military headquarters worldwide to dramatically accelerate their planning. But to get there, he had to figure out how to get the military to actually buy software.
+
+Gran
+
+============================================================
+TRANSCRIPT
+============================================================
+
+Grant Demory is a former US Army officer
+and the co-founder of One Brief from YC
+Summer 21 batch. They're creating
+software to help dramatically speed up
+military planning. What we're doing is
+on a on a per dollar basis the most
+important thing happening in defense
+tech in the world. Today, we're going to
+talk with him about what he's learned
+selling software to what some might
+consider the most complicated, hard to
+crack customer in the world, the United
+States military.
+Thanks for joining us today. Thank you
+very much Brad. So what is one brief? So
+we make software for operational
+military planning. Every military
+headquarters around the world from a
+giant combatant command like US
+Indopacific command down to something
+small like a battalion. Um, almost
+everything they do has a has a plan that
+could be very detailed like how do we
+defend Taiwan or you know something uh a
+bit more casual like what are we going
+to do tomorrow and the process it it
+takes a long time. It drives almost
+every military decision and if we can
+make it faster and smarter well it has a
+huge effect on how well the military
+does. And so you guys have been at this
+for a few years now and you've started
+to achieve like pretty epic scale. Um
+what can you tell us about like how big
+the company's got? um valuation,
+revenue, size of the team. To put it in
+perspective for everybody today, our our
+software is in use in quite a lot of of
+military headquarters worldwide. Um
+we're growing usage uh 2.75x quarter
+over quarter right now. Um which
+translates to about a 57x
+um year-over-year growth rate. And uh
+we're at about 144 people um and we just
+raised a series C at a uh 650 million
+valuation. How have people in the past
+or up to this point done military
+planning from a technical standpoint?
+Well, almost all word in PowerPoint.
+There's actually been a huge number of
+attempts to make it not be Word and
+PowerPoint, but uh those products are
+pretty sticky. So, if I'm trying to make
+like a a a giant military plan, I'll
+often make hundreds of slides um and
+I'll, you know, email them back and
+forth across every contributor, which,
+you know, could be 12 different
+headquarters and I'll ultimately produce
+this uh large word document called an
+operations order or in in other
+situations a base plan. Tell us a bit
+about how it works. What's the actual
+user experience like for people using
+one brief? The overall idea is how fast
+can a team across a bunch of different
+military commands um get to a plan
+whether short range or long range or a
+mediating crisis make it be really fast.
+We built this system around cards, which
+is probably really familiar to you. And
+you're using a bunch of reusable cards
+where a card might be, you know, a fact
+about the situation, um, might represent
+a military unit, might represent a task,
+and you're using these cards to build
+all your outputs, like a sync matrix, a
+operations order, which is the the word
+document, or maps that present these
+cards on the map, or all sorts of other
+outputs that are using the same the same
+blocks of data. And when you change one,
+it it updates, you know, all the others
+and, you know, you're embedding portions
+of one document in another. So, the
+largest type of military plan is is
+called an O plan. Um, these are for the
+the really big ones. Think Defense of
+Europe. Um, those take about two years
+to write if everything goes perfectly.
+You bring one brief into this equation.
+What's uh you know, are we able to
+compress these times down from two
+years? Is it a much simpler document?
+What's the benefit? The one I'm most
+proud of, um, there was a course of
+action that came out of a major plan
+against a core US adversary and the, uh,
+the planners are presenting it to the
+chief of staff at a major one brief
+customer. The chief of staff says, "No,
+no, no. This course of action is
+terrible. It's not what you're going to
+do. You need to go change it." And that
+normally would create like several weeks
+of work. In three hours, they had
+changed the entire thing. New map
+overlays, new sync matrix, new written
+base plan, new slides, presented it,
+commander signs it, no further changes.
+That was using one brief. So where did
+one brief start and what were you doing
+at the time? I was a uh US Army officer.
+Um had the idea as a very junior
+lieutenant straight out of West Point. I
+was in Liberia part of the 2014 Ebola
+epidemic. This was my first military
+experience which actually turned out to
+be to be really good to like see this
+with fresh eyes. I was actually working
+Ebola data out of the Ministry of
+Health, but it was attached to their J5,
+which is responsible for military
+planning. And that meant I I got to see
+how military planning at a large
+headquarters worked, which uh of course
+I thought like, ah, this is so cool. I'm
+I'm really happy to see behind the
+curtain. But I ultimately felt that it
+could have been a lot more effective
+than it was where watching people like
+pass powerpoints around the headquarters
+and eventually make decisions months
+later than we could have made the
+decisions. So, okay, this is this is
+really not optimal. I was in another
+headquarters a couple years later. Um,
+this time I I think with Gore informed
+perspective, having seen this once, I
+was a little bit more senior. Um, this
+was CJTFY, the theater headquarters um,
+out of Baghdad for Iraq and and Syria
+against ISIS. And I saw other
+operational planning teams there and
+said, well, this is this is a pattern.
+Um, this happens in a lot of places.
+this is, you know, the core driver of
+military decisions. And I think fixing
+military decisions is is the most
+important thing we can do in defense
+tech. So, I'm gonna get out of the army
+and uh try to fix that. One thing that I
+think is interesting here is uh for
+people that maybe have an idea, you have
+this genesis of an idea of something
+that I could build and maybe sell and
+and provide back to the military. I
+think it's pretty intimidating to a lot
+of folks. Maybe there's other people out
+there that have had ideas like this, but
+they don't even know where to begin.
+talk to us a bit about how you
+understood or mapped the opportunity
+such that um it wasn't just like selling
+to a giant monolith. We're going to sell
+to the army. Um I think it's actually a
+lot more nuanced than that and there's
+many different ways that you can kind of
+work your way into the into the um the
+defense ecosystem. Yeah. So uh basically
+every military and especially the US
+military is a huge number of different
+organizations that control their own
+budgets and and these are often like you
+know eight or nine and and sometimes 10
+figure uh you know budgets for these
+individual headquarters and in the US
+there's there's about 1,200 commands
+that that need our product. Basically
+what this means is that you don't at
+least initially have to sell to DoD as
+one giant customer. You can actually
+sell to the individual command that most
+needs your product which is so much
+faster and easier and keeps you a lot
+closer to the end user. How many people
+at a given headquarters do you usually
+have to actually present to or convince?
+Well, our first deal is one. Um I now
+these are you know pretty standard
+enterprise sales where there's you know
+a committee of people who need to you
+know be persuaded and stakeholders but I
+don't think that's helpful to say a very
+early stage founder doing defense tech
+we were able to get the initial sale on
+a government purchase card so there's
+these basically credit card I mean they
+are credit cards that uh a lot of
+military officers and NCOs have um if
+their organization has something of a
+slush fund and they can buy things up to
+depending on the place sometimes it's up
+to $25,000 and just buy it. Very little
+process, very little contracting. And
+it's a bit of a hack to avoid the
+contracting process because if you're
+coming in and and don't know how to do
+contracting, um you can just get in the
+headquarters. So it it actually helped
+us a lot by closing a small sale in, you
+know, relatively little time just to get
+physically in the headquarters and be
+exposed to users. Yeah, that's a great
+hack. We're always telling YC founders
+um to find some simpler way to validate
+that people will actually pay for the
+product that they're building. And so
+instead of going through a multi-month
+procurement, you're able to get one
+person to make a decision and put it on
+a card. When you first set out to start
+working on this, you decided, okay, I'm
+going to go build a company. What was
+the first thing that you did to kind of
+figure out what exactly you needed to
+build and what the customers actually
+wanted from you? We started with the
+with the the wrong answer which is
+started just building. I don't totally
+regret it because it's how I got my
+co-founder who turned out to be like
+truly excellent. I started making these
+like clickable mockups of here's what I
+think the product needs to look like and
+then actually like wrote an early
+version of the product in mat lab
+because it's the only thing I knew and
+it was something of a show of
+seriousness of like hey we we really
+want to build this thing that's going to
+fix uh you know military planning. Talk
+to me about the user interviews for a
+minute like who are you reaching out to?
+We basically reached out to every
+stakeholder in military operational
+planning. It was about 200 interviews
+and uh well it was it was really really
+good and uh we were pretty wrong to
+think we didn't need to do that. How did
+you get early users for this thing? I
+know you guys did a bunch of like things
+that don't scale to get people into your
+early software. Tell us about some of
+those. So the problem we had to solve is
+we couldn't get access to real users.
+This is before I had any contract. This
+is before we were in the room with in a
+military headquarters. There were just
+too many barriers to get any usage and
+see how this worked. This is like the
+first year or so after you started
+working on this. That's right. What we
+ended up doing is cold LinkedIn
+messaging a bunch of uh military
+planners, usually majors through
+colonels, and said, "Come to my all day
+Saturday exercise. We'll pay you, but
+you need to be here for eight hours."
+Okay? And we put together this like
+pretty robust military scenario. Like I'
+I'd spend like almost a hundred hours
+writing these scenarios. And I'd put
+them into two teams and say, "You six
+are going to solve this military
+scenario in the old way with Word and
+PowerPoint and you six are a team and
+you're going to solve it in this like
+proto version of one brief and we're all
+going to watch you and we're going to
+make the product better." What kind of
+feedback were you getting or what sort
+of lessons were you learning from these
+exercises? I imagine throwing these
+people at your product in its early
+stages was maybe a little scary and a
+little sobering at times. So the
+response was a lot better than we
+thought. So we tried like a whole bunch
+of go to market things already that were
+they didn't work that well and this was
+the first time where the response was
+genuinely great where people were like I
+am very excited can I introduce you to
+people in my headquarters can I help you
+okay so you did these 200 customer calls
+you're doing these exercises with
+planners how did you go from that to
+actually getting your first proper
+contract I had a phone call via a warm
+intro um with this gentleman Captain
+Dave Fields at US Pacific Fleet. And I
+actually didn't know he was as big of a
+deal as he was when I had the the phone
+call. So I I told him what we were up to
+and the first thing he says is, "I've
+actually evaluated at least 10 attempts
+to solve this problem. They've all been
+terrible." And I could tell this was
+like a you know, a sharp person who
+really cared about it. And we ended up
+chatting on like this first discovery
+call for about two hours on the phone. I
+think the the level of honesty about
+like what we did and did not know was
+pretty helpful. um in like building some
+some real trust. But he came out of it
+saying, "This is this is promising." And
+I said, "Great. Can I embed in your
+headquarters? I didn't want to just stay
+there. I want to stay there for 3
+months. I want to try a proto version of
+our product on some of your operational
+plans." And I was like, "Just put in a
+government purchase card for some like
+nominal amount of money." And he was
+just like, "Okay, let's do it." What
+else do you think might have been the
+things that kind of persuaded him to
+give you some extra time and to really
+bet on you guys for this? I think there
+were some creative parts of our approach
+that weren't take the existing
+government process and put it directly
+into a product because we had this
+presumption the existing process was was
+bad and needed to change pretty
+dramatically. Um, and we would build a
+product around the future instead of the
+past. You know, sometimes people can
+just like detect a certain level of like
+energy and determination where like, oh,
+this is this is real. I think the ask of
+can I embed and just get it done is a
+more earnest ask than can you give me
+money. How did that lead into an actual
+contract eventually? So, I was away for
+it was a little over 250 nights that
+year, most of them to Pearl Harbor, um,
+Hawaii. And we embedded around around
+two plans. One was this uh large
+exercise called Pacific Fury. It's like
+one of the largest exercises in the
+Navy. It's really important. Our product
+was used for like a fraction of 1% of
+it, but it was still real and it was
+still the first time we've been used for
+for anything real. And there was
+actually like a pretty interesting
+barrier to entry, which is a a theme in
+defense. So, they can't use software
+that doesn't have an authority to
+operate, especially not for classified
+work because like these are are secret
+and top secret. What does authority to
+operate mean? Uh authority to operate is
+the accreditation that like lets you put
+software on their internet. I see. How
+does one get this? The first thing you
+need is the contract. And the second
+thing you need is to work through some
+administrative steps to get approved.
+There's actually like a lot of art to
+it. Like there's ways you can do it that
+will cost you many many millions and
+take you many years. There's actually a
+lot of defense tech companies that don't
+have one after being in business for
+more than 5 years. What we did initially
+was just circumvent the problem. We knew
+too little. We were too early to to
+figure out atto. And I believe if we'd
+tried at that stage, it would have been
+this all-consuming problem that uh would
+have meant that we never found product
+market fit. So what we did to get around
+the problem is um deploy our software on
+one computer, my computer. All right.
+and went to their their N6, which is
+their word for IT department, and said,
+I want to bring this one computer into
+your skiff, which is their word for
+secure facility that handles like top
+secret and above information. And we
+actually got to yes on that. But we got
+to yes by agreeing that the Wi-Fi was
+disabled, Bluetooth was disabled, and
+the laptop would become Navy property to
+dispose of and destroy when we were
+done. That's amazing. So So let us do
+it. And I was the only user. So we we
+weren't at the point that any military
+planner like wanted to change their
+workflow and like use this thing which
+would just be like a totally worse
+experience anyway because it's not
+connected to the network. You can't even
+like email your results. You can't share
+your results. It's collaborative
+software with no collaborators, which
+sounds terrible, but they like allowed
+me to to be a planner. and we would like
+hook the laptop via HDMI cable up to
+their screens and they would have these
+video teleconferences with all their
+collaborating units and would share my
+screen that way. It's like a it's a pile
+of hacks all put together to to get you
+guys into business with these folks and
+it it ultimately like got us there. In a
+sense, this was this is very
+unimpressive because the revenue numbers
+were like about 15,000 AR. So, we didn't
+have much real revenue. We didn't have
+any like real accreditation to use the
+software, but we actually got to um both
+an exercise complete and a major real
+world con plan which is basically a
+large military plan against a big
+adversary. These are hundreds of pages
+written entirely in like on my computer
+in the proto version of one brief which
+was like a a huge feather in our cap
+like hey somebody got through a whole
+con plan in your product. So now you've
+got your first customer, you've got some
+money in your pocket. What was like the
+next big barrier that you guys had to
+figure out after that point before you
+could start really going after all these
+customers and being aggressive on the
+sales side? So we got a verbal on it
+shortly before YC and it was signed
+during um was our first real contract um
+and this was with US Pacific Fleet and
+to us it was a huge contract. It was
+$322,000 and that was all like ARR
+subscription revenue. We were so proud
+of it. So the contracts actually came
+with something that was way more
+important than the money. Um which was
+they sponsored us onto JWX which is the
+network that the military uses for
+secret and topsecret data. It's
+basically an internet and having like a
+real sponsorship on this was the key to
+getting our software deployed in places
+that users could like access it and use
+it and collaborate. you know, we wanted,
+you know, collaborative software that
+would eventually become the way you run
+every military staff. And you you got to
+be on your networks to to do that. You
+get this first deal, you're on the
+network. What are the next steps then?
+Do you go and just start doing a
+fullcourt press to the other
+headquarters? Were there a few specific
+ones that you went after? We understood
+that this was make or break, that we
+would have no real usage until we were
+live, that everything we wanted to do
+was post going live. So, we were like
+pretty motivated. There's an art to
+helping the bureaucracy move fast at
+something it already wants to do and I
+think we like availed ourselves of that
+art. Was there a moment at which you
+felt like you'd finally kind of broken
+through and you you were in and able to
+just kind of run this like a more
+traditional software company and not
+have all these barriers in front of you?
+Not really. even today the major
+barriers to entry of um you know DoD
+software and like there's there's really
+only three barriers. So if you if you
+beat all three then then it's just like
+a commercial business. Um and the three
+barriers are facilities clearance um
+authority to operate and contracting.
+And they never really go away because,
+you know, now that we're at at this
+certain scale, we we've like pretty um
+grossly exceeded the scale that our
+original infrastructure was was intended
+for and now we're, you know, we're doing
+another one. And we actually have yet
+another ATO process for like our future
+infrastructure planned after that. Being
+good at the art of contracting quickly
+uh really helps you in defense.
+Facilities clearance kind of went away.
+Once you have it, you have it. Um, but I
+I guess what I mean there is if you know
+what the three barriers are in defense
+and you get good at overcoming the
+barriers, then it's a little closer to a
+commercial business. How did you figure
+all this stuff out? Like you didn't know
+about any of this stuff 5 years ago and
+now you are the expert in it. Like what
+how did you go about learning all this?
+It it almost helped me not to know how
+difficult some of those things were
+going to be because I couldn't be
+distracted from them. I think we were
+properly focused on just get to product
+market fit. If we can get a product that
+every military staff really wants to
+use, um, we'll be able to figure out the
+rest. How, if at all, are you guys today
+at one brief thinking about AI? Are you
+using it personally to be more
+productive? Are you guys using it
+internally? Are you thinking about
+adding it into the product in some way?
+Inside the product, basically two
+buckets. Uh bucket one we call the
+mundane utility bucket and that's the
+stuff that's live today. So the goal of
+the product is make military staffs fast
+and efficient. If you can get a military
+command to a a decision faster, you
+basically help them win the war. Um so
+any little automation of mundane parts
+of the military operational planning
+process, I think there's huge numbers of
+automations available. The second bucket
+is I think more exciting. Um so the
+second bucket is very special military
+and the second bucket is about automated
+course of action. People have been
+trying really hard for a long time to
+automate the course of action which is
+basically the meat of a plan the like
+how do you defend Taiwan? How do you do
+the specifics of operation X? And we
+want to automate that and we think we're
+finally at a point where we can
+ultimately where we want to get people
+is um you know AI generate a course of
+action that are faster and smarter than
+any human could come up with. You're
+obviously talking about AI with folks on
+the other side with your customers. What
+what's your sense of how the military is
+thinking about AI and using it and like
+uh anxieties, excitements? What's your
+view on how they're thinking about
+applying this? I mean, I think there's a
+lot more excitement than anxiety. I'm
+very careful to have every conversation
+like oriented around outcomes and what
+the product will do for you and like
+make sure that the value pitch doesn't
+have the word AI in it. I think that's
+important because if you get AI in the
+pitch too early, it becomes look at my
+cool technology rather than look at my
+business outcome. I think the the
+military is very excited about AI but a
+little bit skeptical of being sold snake
+oil because they probably are sold snake
+oil like pretty pretty often. So I I try
+to you know establish trust around the
+core product around what we've already
+accomplished and then around like the
+uses of AI that are currently live and
+working and delivering value. You've
+hired dozens dozens and dozens of
+people. You've expanded. You've signed
+many more contracts.
+What advice, if any, would you want to
+give to yourself when you were setting
+out to do this? We could have moved a
+lot faster if we had known which things
+were the real bottlenecks. So, at no
+time was I working on a thing where I
+was like, I don't think this is the most
+important thing to work on right now. I
+was just wrong about what the most
+important was. If I'd known that the
+exercise thing was going to work, we
+could have done it with a product that
+we'd built after one month. And in
+reality, we did it with a product that
+we built for two years. Same for getting
+on uh cypernnet and jwix. That one's a
+little harder because I don't know how
+like my past self would have figured
+that out without a lot of trial and
+error. But just knowing this is a really
+big deal. You're going to have to find
+hacky ways to get to it. And the sooner
+you get there, like there is no product
+market fit before atto in the military.
+So if you don't work atto fast enough,
+you're you're in trouble. What's next
+for One Brief? Ultimately, where we want
+to end up is to be the way that you run
+a military staff from battalions up to
+the joint staff for the the US and our
+allies around the world. We want to make
+these staffs lightning fast. Something
+changes in the world and you know, you
+you're able to immediately react. You
+have an instant plan. We want to make
+them require fewer people. I think it's
+kind of insane to have a headquarters of
+a thousand people. I think you should
+have much smaller headquarters, you
+know, heavily, you know, armed with the
+the right tech tools to get there. We're
+well investing pretty heavily in core
+product um leveraging a network effect
+and use that to get usage to grow
+quickly and use that to get everybody to
+use it. So founder motivation is the
+single biggest determinant of success
+we've seen here at YC. We can control
+for all sorts of things but if a founder
+is not really in it to win it, it's not
+going to happen. Why are you so keed up
+and passionate about one brief? I think
+what we're doing is on a on a per dollar
+basis the most important thing happening
+in defense tech in the world. What I
+mean here is it's very expensive to
+scale hardware across the military. It
+solves a real problem. We do need
+drones, definitely need submarines, but
+the military is often bottlenecked by
+decisions. Um I think that was a huge
+cause of what happened in the global war
+on terror. there's a giant gain like
+almost a win the war level gain in you
+know Taiwan, South China Sea, Korea,
+Europe, Iran over having much faster
+like superhuman smart military
+decisions. For one thing, we're we're
+doing that. And uh for another thing, we
+think we can do it very very cheaply
+relative to say submarines where once
+you built software at once, you can
+scale it to every battalion, every
+brigade all the way up to all the joint
+staffs for allies around the world and
+effectively have, you know, one piece of
+software that drives almost every
+military operational decision worldwide.
+Well, Grant, thank you so much for
+coming in today and talking about all
+this with us. It's been great. Thanks,
+Brad.
+[Music]

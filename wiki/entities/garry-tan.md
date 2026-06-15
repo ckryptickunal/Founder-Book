@@ -1,0 +1,182 @@
+---
+type: entity
+title: Garry Tan
+created: 2026-05-26
+updated: 2026-05-27
+sources: []
+tags: []
+---
+
+# Garry Tan
+
+## Overview
+
+CEO of Y Combinator, co-sponsor of SB 1074, and speaker emphasizing the need for an open web for startups.
+
+## Source Mentions
+
+- [[sources/Yr9mHKxOkLg-yr9mhkxoklg|Yr9mHKxOkLg]]: CEO of Y Combinator, co-sponsor of SB 1074, and speaker emphasizing the need for an open web for startups.
+- [[sources/57lDpTwiW6g-tokenmaxxing-how-top-builders-use-ai-to-do-the-work-of-400-engineers|Tokenmaxxing: How Top Builders Use AI To Do The Work Of 400 Engineers]]: CEO of Y Combinator and software builder.
+- [[sources/9urYWGx2uNk-design-for-startups-by-garry-tan-part-1|Design for Startups by Garry Tan (Part 1)]]: Founder of Initialized Capital, co-founder of Posterous, and former Y Combinator partner.
+- [[sources/O6uREh3G3sQ-design-for-startups-by-garry-tan-part-2|Design for Startups by Garry Tan (Part 2)]]: Investor and former Y Combinator partner.
+- [[sources/qwmmWzPnhog-we-re-all-addicted-to-claude-code|We're All Addicted To Claude Code]]: CEO of Y Combinator.
+- [[sources/uIYujpFmvo8-critiquing-ai-startup-websites-with-yc-president-garry-tan|Critiquing AI Startup Websites with YC President Garry Tan]]: President of Y Combinator
+- [[sources/wkmR7TYUt_c-apoorva-mehta-at-startup-school-ny-2014|Apoorva Mehta at Startup School NY 2014]]: Partner at Y Combinator.
+- [[sources/vHMZImnBQBw-don-t-aspire-to-glory-aspire-to-be-useful|Don't aspire to glory. Aspire to be useful.]]: CEO of Y Combinator
+- [[sources/C3bz01c1eNA-that-painful-awe-you-feel-toward-successful-founders-it-might-be-your-own-untapped-potenti|That painful awe you feel toward successful founders? It might be your own untapped potential starin]]: Investor, entrepreneur, and President/CEO of Y Combinator.
+- [[sources/Cwt8VUNCdoM-belief-as-a-basis-for-contrarianism-think-for-yourself|Belief as a basis for contrarianism – Think for yourself!]]: Investor and President/CEO of Y Combinator.
+- [[sources/XpvW6nX3kOc-you-have-dreams-put-it-out|you have dreams, put it out]]: Investor, entrepreneur, and President/CEO of Y Combinator.
+- [[sources/Ett0F-Wiz7U-we-re-in-an-ai-gold-rush-right-now-the-gap-between-what-models-can-do-vs-what-products-exi|We're in an AI gold rush right now. The gap between what models can do vs what products exist is mas]]: CEO of Y Combinator and venture capitalist.
+- [[sources/B93mNF2hxF0-the-lesson-of-craft|The Lesson of Craft]]: CEO and President of Y Combinator
+- [[sources/IoOMs7U93eY-make-your-own-luck|Make Your Own Luck]]: CEO of Y Combinator and venture capitalist.
+- [[sources/1up9otQjjzA-small-businesses-can-take-back-their-future-with-kevin-song-of-withco|Small Businesses CAN Take Back Their Future - with Kevin Song of withco]]: Host of the channel and investor.
+- [[sources/QFNFA8cV4sA-the-vale-raising-builders-not-consumers|The Vale: Raising Builders, Not Consumers]]: Host of the channel and venture capitalist.
+- [[sources/mVUaSCoJRWk-don-t-be-thirsty|Don’t be thirsty]]: President and CEO of Y Combinator.
+- [[sources/ftJ9cyYrLbY-save-your-startup-unleash-your-golden-shadow|Save Your Startup, Unleash Your Golden Shadow]]: Founder, investor, and host of the channel.
+- [[sources/ZVpVvGWy46Q-change-the-game-before-the-game-changes-you|Change the Game Before the Game Changes You]]: Investor, entrepreneur, and host of the channel.
+- [[sources/tcffqaIi-Jg-discussing-silicon-valley-s-bright-future-with-sarah-guo-elad-gil|Discussing Silicon Valley's Bright Future with Sarah Guo & Elad Gil]]: CEO and President of Y Combinator.
+- [[sources/liQjgV9ZT24-making-startup-finances-10x-easier-more-powerful-siqi-chen-founder-of-runway|Making Startup Finances 10X Easier & More Powerful - Siqi Chen, Founder of Runway]]: CEO of Y Combinator.
+- [[sources/WRuGXWJAeYo-homelessness-trapped-between-compassion-chaos|Homelessness: Trapped Between Compassion & Chaos]]: Entrepreneur, investor, and host of the video.
+- [[sources/DdqAMrtQGRw-legalize-math-in-california-ft-jelani-nelson|Legalize Math in California ft. Jelani Nelson]]: President and CEO of Y Combinator
+- [[sources/oYFjKml9ptk-the-untold-stories-of-y-combinator-with-co-founder-jessica-livingston|The Untold Stories of Y Combinator with Co-Founder Jessica Livingston]]: Host of the show and former YC partner.
+- [[sources/wpuFP-tBME4-acquire-skills-no-one-else-has|Acquire skills no one else has!]]: Investor and President/CEO of Y Combinator
+- [[sources/q82mkUMfs2c-to-get-rich-be-a-creator-not-a-consumer|To get RICH, be a CREATOR not a CONSUMER!]]: Investor, entrepreneur, and President/CEO of Y Combinator.
+- [[sources/580YLHhQK6w-3-tips-for-founders|3 Tips for founders]]: CEO of Y Combinator and startup investor.
+- [[sources/9MYeoW48kT0-the-power-of-a-top-vc-firm|The power of a top VC firm]]: Venture capitalist and President/CEO of Y Combinator.
+- [[sources/-7ZSRkqS08g-coinbase-the-best-investment-i-ve-ever-made|Coinbase – The best investment I've ever made]]: Venture capitalist and investor.
+- [[sources/ThsDDp3_Oro-how-to-learn-while-you-earn|How to learn WHILE you earn]]: CEO and President of Y Combinator, investor, and content creator.
+- [[sources/A84zh-TZiE8-stop-selling-your-time|Stop selling your time!]]: Investor, entrepreneur, and President/CEO of Y Combinator.
+- [[sources/02Fwe4gMqfI-how-to-be-a-hustler-or-a-builder|How to be a hustler or a builder]]: CEO of Y Combinator and investor
+- [[sources/lgAcPgt33D8-the-key-to-startups-talent-customers-capital|The Key to Startups: Talent, Customers & Capital]]: CEO and President of Y Combinator, startup investor and advisor.
+- [[sources/6ll3mzVCpW0-how-we-do-the-work-matters|How we do the work matters!]]: CEO and President of Y Combinator
+- [[sources/LueDxIt5ELc-focus-on-wealth-not-money|Focus on WEALTH, not MONEY]]: Investor, entrepreneur, and CEO of Y Combinator.
+- [[sources/4gkNhmQW6RE-you-can-only-learn-by-doing|You can only learn by DOING]]: Venture capitalist and President/CEO of Y Combinator.
+- [[sources/FLxXGsEm5bI-why-i-love-funding-builders|Why I love funding builders]]: Venture capitalist and host of the video.
+- [[sources/6Po7mTUoZFk-you-must-live-above-the-api|You must Live above the API!]]: Venture capitalist and President/CEO of Y Combinator.
+- [[sources/ROw1GMEP_14-getting-hired-at-google-after-20-rejections-hacking-the-process|Getting hired at Google after 20 rejections — Hacking the process]]: Tech investor and YouTuber who hosts the interview.
+- [[sources/h8LSgzIR1g8-this-chip-will-accelerate-ai-compute-way-past-moore-s-law|This chip will accelerate AI compute way past Moore's Law]]: Host of the channel and investor.
+- [[sources/8pG6golMHPo-i-said-the-wrong-thing-and-suddenly-our-series-a-pitch-meeting-was-over|I said the wrong thing and suddenly our Series A pitch meeting was over]]: Founder of Initialized Capital and former co-founder of Posterous.
+- [[sources/uQWk7T9Vz_k-how-i-got-into-y-combinator|How I got into Y Combinator]]: Venture capitalist, former Y Combinator partner, and founder of Posterous.
+- [[sources/opkHJLVAM4A-billion-dollar-startups-are-better-faster-cheaper-lessons-from-amazon-instacart-uber-shopi|Billion dollar startups are better faster cheaper— Lessons from Amazon, Instacart, Uber & Shopify]]: Investor and founder of Initialized Capital.
+- [[sources/xy4WdRfDyTs-successful-billion-dollar-startups-build-long-lived-teams-that-beat-all-competition|Successful billion dollar startups build long-lived teams that beat all competition]]: Investor, entrepreneur, and host of the channel.
+- [[sources/Xa6zsbXGQ5M-should-you-be-the-ceo|Should you be the CEO?]]: Venture capitalist and former founder of Posterous.
+- [[sources/wxsDnQKcq4Y-20-000-youtube-subscribers-in-2-weeks-what-i-learned|20,000 YouTube subscribers in 2 weeks: What I learned]]: Investor, entrepreneur, and YouTuber.
+- [[sources/0pzphszE704-aptdeco-is-eating-the-14b-furniture-market-how-they-got-product-market-fit|AptDeco is eating the $14B furniture market: How they got product market fit]]: Investor and host of the YouTube channel.
+- [[sources/3YKNr-LiblI-billion-dollar-startup-ideas|Billion dollar startup ideas]]: Investor, founder of Initialized Capital, and former Y Combinator partner.
+- [[sources/GctjcD17iI4-day-in-the-life-of-y-combinator-president-ceo-garry-tan-during-the-first-week-of-w24-batch|Day in the Life of Y Combinator President & CEO Garry Tan during the first week of W24 batch]]: President and CEO of Y Combinator
+- [[sources/P-Igj27Rh_k-build-housing-in-weeks-not-years-fight-the-california-housing-crisis-with-abodu|Build housing in weeks, not years: Fight the California housing crisis with Abodu]]: Investor and host of the channel.
+- [[sources/Z1vqzWfC_sA-secrets-of-reality-distortion-fields-with-lulu-cheng-meservey|Secrets of Reality Distortion Fields With Lulu Cheng Meservey]]: CEO and President of Y Combinator.
+- [[sources/MnuFEvI7EGw-drip-capital-went-from-zero-to-1-billion-in-transactions-fintech-meets-global-trade-financ|Drip Capital went from zero to $1 billion in transactions: Fintech meets global trade finance]]: Host and investor at Y Combinator
+- [[sources/qlP4bnZ_izk-solving-the-160-billion-food-waste-problem-meet-stefan-kalb-of-shelf-engine|Solving the $160 billion food waste problem: Meet Stefan Kalb of Shelf Engine]]: Investor and host of the channel.
+- [[sources/6kzNUK7GFjg-achieving-the-american-dream-through-tech-with-aarthi-sriram-aarthiandsriram|Achieving The American Dream through Tech, with Aarthi & Sriram @AarthiAndSriram]]: CEO of Y Combinator and host of the channel.
+- [[sources/G7D63c4k3Os-how-luxury-beliefs-are-ruining-society-with-rob-henderson|How Luxury Beliefs are Ruining Society, with Rob Henderson]]: Host of the channel and venture capitalist.
+- [[sources/03eG3tNF77Y-software-is-eating-the-world|Software is eating the world!]]: Investor and content creator focused on startups and technology.
+- [[sources/YV2YE0XvhOs-the-secrets-of-y-combinator-s-early-success-with-yc-co-founder-jessica-livingston|The Secrets of Y Combinator’s Early Success (with YC Co-Founder Jessica Livingston)]]: CEO and President of Y Combinator.
+- [[sources/5-EYa31n3pE-if-you-really-believe-in-something-you-ve-got-to-do-it-yourself|If you really believe in something, you've got to do it yourself!]]: Investor, entrepreneur, and President/CEO of Y Combinator.
+- [[sources/FNKyL5Q-OVQ-from-underdog-to-undefeated-the-edrizio-de-la-cruz-founder-story|From Underdog to Undefeated: The Edrizio De La Cruz founder story]]: CEO of Y Combinator and host of the interview.
+- [[sources/9iSZ12osxHM-athelas-is-the-rippling-of-healthcare-use-4-trillion-to-improve-healthcare|Athelas is the Rippling of Healthcare: Use $4 Trillion to improve healthcare]]: Host of the channel and investor/mentor to the founders.
+- [[sources/Y6KnJVZW0Lo-want-it-from-the-bottom-of-your-heart-not-because-someone-else-told-you-to|Want it from the bottom of your heart. Not because someone else told you to.]]: Venture capitalist and President/CEO of Y Combinator.
+- [[sources/JfxX7EeTf5k-you-can-build-a-better-product-than-google-a-startup-can-outperform-a-goliath|YOU can build a better product than Google. A startup CAN outperform a goliath.]]: President and CEO of Y Combinator
+- [[sources/weQTRHu1Cq4-learning-vs-earning-how-to-earn|Learning vs Earning: How to Earn]]: Investor, entrepreneur, and President/CEO of Y Combinator.
+- [[sources/OSYi_vzpmww-the-future-of-at-home-health-testing-with-simple-healthkit|The Future of at-home Health Testing with Simple HealthKit]]: Investor at Initialized Capital and host of the video.
+- [[sources/Rb3QHKjOWqQ-figma-s-20b-10-year-overnight-success|Figma's $20B, 10 Year Overnight Success]]: Investor, founder of Initialized Capital, and video creator.
+- [[sources/IADh2MyuJcs-how-to-build-your-way-out-of-a-downturn|How to build your way out of a downturn.]]: Investor and founder of Initialized Capital.
+- [[sources/6liuF7faPaM-100m-americans-have-bad-credit-or-no-credit-at-all-this-startup-will-fix-that|100M Americans have bad credit or no credit at all. This startup will fix that.]]: Investor and host of the channel.
+- [[sources/VGT2XixsLRM-wildfires-are-out-of-control-computer-vision-can-stop-them|Wildfires are out of control. Computer Vision can stop them.]]: Host of the channel and venture capitalist.
+- [[sources/Amj9K9_mEBw-how-envoy-turned-disaster-into-billion-dollar-value-w-ceo-larry-gadea|How Envoy turned disaster into BILLION DOLLAR value (w/ CEO Larry Gadea)]]: Host of the channel and venture capitalist.
+- [[sources/V264u5kFOTo-reprogram-your-mindset|Reprogram Your Mindset]]: Entrepreneur, investor, and content creator.
+- [[sources/LioyyxLgfXQ-why-now-the-key-to-million-dollar-startup-ideas|Why now? The key to million dollar startup ideas]]: Investor and founder of Initialized Capital.
+- [[sources/4r9ur7hz6WI-google-was-saved-by-antitrust-but-now-pulls-up-the-ladder-on-startups-w-jeremy-stoppelman-|Google was saved by antitrust, but now pulls up the ladder on startups (w Jeremy Stoppelman of Yelp)]]: Host of the channel and venture capitalist.
+- [[sources/0iC_fK6arXI-how-any-dev-team-can-build-like-google|How any dev team can build like Google]]: Host of the channel, investor, and co-founder of Initialized Capital.
+- [[sources/PxioWJR3cCo-catching-lightning-in-a-bottle-made-easy|Catching LIGHTNING in a Bottle Made EASY]]: Investor, entrepreneur, and host of the channel.
+- [[sources/wAjeS1Dh8Lw-underrated-but-unbeatable-a-275m-healthcare-startup-success|Underrated but Unbeatable: A $275M healthcare startup success]]: Host of the channel and President/CEO of Y Combinator.
+- [[sources/dJv11pKM7pQ-3-web3-crypto-mistakes-to-avoid-for-startup-founders-w-imran-khan-of-alliance-dao|3 Web3/Crypto Mistakes to Avoid for Startup Founders (w/ Imran Khan of Alliance DAO)]]: Host of the channel and investor.
+- [[sources/33Go0tzj6fw-the-future-of-initialized-capital|The Future Of Initialized Capital]]: Co-founder of Initialized Capital and incoming CEO of Y Combinator.
+- [[sources/BRp0C4P8pEM-a-profitable-fintech-built-on-helping-special-needs-customers|A profitable fintech built on helping special needs customers]]: Host of the channel, investor, and YC founder.
+- [[sources/ILxZ7fz5ypg-there-s-a-hole-in-the-boat|There's a hole in the boat]]: Venture capitalist and content creator.
+- [[sources/sDqiwmBDbug-how-to-stand-out-without-getting-shot-down|How to Stand Out (without getting shot down)]]: Venture capitalist and content creator.
+- [[sources/kP1onP7TWhA-how-the-next-disney-is-made-in-the-metaverse-with-tricia-biggio-of-invisible-universe|How the next Disney is made in the Metaverse -- with Tricia Biggio of Invisible Universe]]: Host of the channel and investor at Initialized Capital.
+- [[sources/G4G5kNdOU40-applied-ai-for-pricing-you-can-t-be-everywhere-but-your-ai-co-pilot-can|Applied AI for Pricing: You can’t be everywhere but your AI co-pilot can]]: Host of the channel, former YC partner, and early Palantir employee.
+- [[sources/O2dIsZsjaBA-how-facebook-could-have-built-threads-30x-faster-cheaper|How Facebook could have built Threads 30X faster & cheaper]]: Investor, CEO of Initialized Capital, and host of the channel.
+- [[sources/rjgUPUKD-Sc-the-truth-and-lies-about-driverless-cars-in-sf|The Truth and Lies About Driverless Cars in SF]]: Venture capitalist and tech advocate
+- [[sources/QumT0Dfsx8g-how-to-get-rich-and-stay-rich-with-the-coterie-s-ethan-agarwal|How To Get Rich, and Stay Rich With The Coterie’s Ethan Agarwal]]: Host of the channel, investor, and former Y Combinator CEO
+- [[sources/6WJjSvI8_E0-yc-partner-harj-taggar-s-500m-mistake-a-legendary-startup-advisor-shares-his-lessons|YC Partner Harj Taggar's $500M mistake: A legendary startup advisor shares his lessons]]: Host, former Y Combinator partner, and founder of Initialized Capital.
+- [[sources/hD98BH9hdT8-ro-s-solution-to-fixing-the-broken-us-healthcare-system-with-co-founder-rob-schutz|Ro's solution to fixing the broken US healthcare system with Co-Founder Rob Schutz]]: Host of the channel and investor.
+- [[sources/z4xS27VyVMs-how-to-survive-the-next-tech-revolution-w-brett-gibson|How to Survive the Next Tech Revolution (w/ Brett Gibson)]]: CEO of Y Combinator and host of the channel.
+- [[sources/KYTGEModH50-vc-s-garry-tan-and-scott-moss-on-their-journey-to-initialized-capital|VC's Garry Tan and Scott Moss on their journey to Initialized Capital]]: Managing Partner at Initialized Capital and host of the channel.
+- [[sources/I8bq5Xamzuo-software-is-eating-the-world-and-still-needs-your-help|Software is Eating the World (and still needs your help)]]: President and CEO of Y Combinator, investor, and founder of Initialized Capital.
+- [[sources/6XUZrWzFmIE-micromanagement-is-toxic-delegation-is-the-cure-6-simple-steps|Micromanagement is toxic: Delegation is the cure (6 simple steps)]]: Founder, investor, and content creator.
+- [[sources/4wbCVN1yLyA-applying-to-y-combinator-3-tips-from-a-former-yc-partner|Applying to Y Combinator? 3 tips from a former YC partner]]: Former Y Combinator partner and investor.
+- [[sources/LMDP6TCv1pI-moms-shouldn-t-have-to-choose-between-family-and-career|Moms shouldn't have to choose between family and career]]: Investor, entrepreneur, and host of the video.
+- [[sources/GknGzw0Nqpw-why-i-started-a-vc-firm-too-much-money-chasing-too-few-good-people-and-ideas-is-totally-wr|Why I started a VC firm- "Too much money chasing too few good people and ideas" is totally wrong]]: Venture capitalist and content creator.
+- [[sources/FcjbpX7cnEI-unknown|Unknown]]: Investor and content creator.
+- [[sources/Q9HY5Fu-Wps-robots-can-see-they-can-even-paint-my-nails-clockwork-nail-painting-robot-demo|Robots can see— they can even paint my nails | Clockwork Nail Painting Robot Demo]]: Investor and YouTube content creator.
+- [[sources/F-r6jL-oFXE-timebox-your-way-to-startup-product-market-fit|Timebox your way to startup product market fit]]: Investor, entrepreneur, and former partner at Y Combinator.
+- [[sources/2gccAOuGRdU-should-you-work-on-that-startup-idea|Should you work on that startup idea?]]: Investor and founder, former partner at Y Combinator.
+- [[sources/MJ-8TSrn0Js-my-8-best-startup-tips-from-10-years-of-investing|My 8 Best Startup tips from 10+ Years of Investing]]: Investor and founder of Initialized Capital.
+- [[sources/5GluVp3NLmk-garry-tan-and-justin-kan-twitch-co-founder-roast-startup-pitch-decks|Garry Tan and Justin Kan (Twitch Co-Founder) Roast Startup Pitch Decks]]: Investor and former Y Combinator partner.
+- [[sources/RhYZECR2Ru8-quit-and-join-that-risky-tech-startup-a-guide-to-learning-earning-minimizing-regret-at-sta|Quit and join that risky tech startup? A guide to learning, earning & minimizing regret at startups]]: Investor, entrepreneur, and YouTuber.
+- [[sources/PBmT30aUd2s-delivering-founder-happiness|Delivering Founder Happiness]]: Founder of Initialized Capital and the video creator.
+- [[sources/96HCCnhbKYM-sell-die-no-grow-profitably-how-ooshma-garg-and-gobble-did-it|Sell? Die? No. Grow profitably. How Ooshma Garg and Gobble did it]]: Venture capitalist and board member of Gobble.
+- [[sources/EdMJxU-0SPE-catch-bugs-locally-faster-with-the-last-code-linter-you-ll-ever-need-trunk-io-with-eli-sch|Catch bugs locally faster with the last code linter you'll ever need (Trunk.io with Eli Schleifer)]]: Host of the channel and former colleague of Eli Schleifer.
+- [[sources/5ls-FQA5Uis-cutting-edge-climate-tech-fighting-global-warming-greenhouse-gasses-with-kairos-aerospace|Cutting Edge Climate Tech | Fighting Global Warming & Greenhouse Gasses with Kairos Aerospace]]: Host of the channel and former early employee at Palantir.
+- [[sources/Q0hV48aeFzk-level-up-your-friends-like-billionaires-do-here-s-how-to-do-it|Level up your friends like billionaires do. Here's how to do it.]]: Startup investor, YouTuber, and co-founder of Initialized Capital.
+- [[sources/NBd6yJBzyis-don-t-suffer-from-the-idea-disease|Don’t suffer from the “idea disease”]]: Investor, entrepreneur, and creator of the video.
+- [[sources/2MrNSjJFBBI-design-masterclass-with-the-best-designer-i-ve-ever-met-raphael-schaad-with-cron-calendar|Design Masterclass with the best designer I’ve ever met (Raphael Schaad with Cron Calendar)]]: Host of the channel and investor at Initialized Capital.
+- [[sources/Q4kPDixyGQY-build-your-way-to-getting-rich-steve-jobs-mindfulness-hack-explained|BUILD Your Way to Getting RICH -- Steve Jobs' Mindfulness Hack Explained]]: Venture capitalist and founder of Initialized Capital.
+- [[sources/WK_XwjhJl3k-6-skills-for-successful-startup-founders-maximize-your-chances|6 Skills for Successful Startup Founders: Maximize your chances]]: Investor, entrepreneur, and former Y Combinator partner.
+- [[sources/SFPQlKcePu8-my-failure-as-a-manager-how-to-find-your-true-self-to-make-and-manage-the-best-teams|My failure as a manager: How to find your true self to make and manage the best teams]]: Founder, investor, and YouTuber.
+- [[sources/7Hdu4DlnLIk-stop-chasing-money-chase-wealth-how-to-get-rich-garry-tan-s-office-hours-ep-4|STOP Chasing Money -- Chase WEALTH. | How To get RICH | Garry Tan's Office Hours Ep. 4]]: Investor, entrepreneur, and host of the Office Hours series.
+- [[sources/9Fq15k9QPv8-you-can-beat-google-the-way-amazon-does-here-s-how|YOU can beat Google the way Amazon does. Here’s how.]]: Venture capitalist and YouTuber.
+- [[sources/9FpIZ3n7PMA-5-years-into-the-10-year-overnight-success|5 years into the 10 year overnight success]]: Venture capitalist and host of the channel.
+- [[sources/Mb5Fk1GXuEM-how-to-build-the-next-great-startup-with-remote-work-with-andreas-klinger-fmr-cto-of-produ|How to build the next great startup with remote work, with Andreas Klinger (fmr CTO of Product Hunt)]]: Investor, founder of Initialized Capital, and host of the vlog.
+- [[sources/3gHUFhKSwl4-inspiring-a-million-creators-with-van-neistat-the-spirited-man|Inspiring a million creators with Van Neistat, "The Spirited Man"]]: Investor, YouTuber, and host of the channel.
+- [[sources/JbHip4tjEcg-do-it-yourself-here-s-how-real-movements-start-then-change-the-world|Do It Yourself. Here's how REAL movements start, then change the world.]]: Venture capitalist and founder of Initialized Capital.
+- [[sources/ToAdkIZgcDQ-you-should-create-things-for-a-billion-people-not-just-tech-giant-monopolies|You should create things for a billion people, not just tech giant monopolies]]: Investor, entrepreneur, and host of the channel.
+- [[sources/BJo_7-Rn1wc-how-to-sell-your-startup-for-millions|How to sell your startup for millions]]: Investor and co-founder of Initialized Capital.
+- [[sources/35UOGYlm7F8-reprogram-your-mind-with-exec-coaching|Reprogram your mind with exec coaching]]: Investor, Y Combinator partner, and YouTube creator.
+- [[sources/DXIrFlmQjvo-us-dod-needs-great-software-palantir-eng-special-forces-vet-founded-adyton-and-mustr|US DoD needs great software | Palantir eng & special forces vet founded Adyton and Mustr]]: Host of the channel, investor, and former Stanford peer of James Boyd.
+- [[sources/OBdbV2rLZ0Y-how-to-train-your-ai-is-siri-racist|How to Train your AI (Is Siri racist?)]]: Host of the channel and venture capitalist.
+- [[sources/5GvPTPbSbjc-get-rich-or-sign-trying-fake-vs-reality-how-to-find-what-s-real-in-a-world-of-noise|Get RICH or Sign Trying -- FAKE vs. reality & how to find what's REAL in a world of noise.]]: Venture capitalist, software engineer, and designer.
+- [[sources/SwvoR9mLTXM-you-can-be-a-vc-i-m-hiring-how-venture-works-what-it-takes-to-fund-billion-dollar-startups|You can be a VC (I’m hiring): How venture works & what it takes to fund billion dollar startups]]: Founder of Initialized Capital and former Y Combinator partner.
+- [[sources/UpbGbKQsTjc-coinbase-ceo-brian-armstrong-on-cryptocurrency-and-the-future-of-decentralization|Coinbase CEO Brian Armstrong on Cryptocurrency and the Future of Decentralization]]: Investor and former Y Combinator partner
+- [[sources/6cW2IdY6Hhc-master-dtc-marketing-learn-organic-vs-paid-acquisition-with-nik-sharma-ceo-sharma-brands|Master DTC Marketing | Learn Organic vs. Paid Acquisition | with Nik Sharma, CEO Sharma Brands]]: Host of the channel and investor.
+- [[sources/M93xlPxQADE-parker-conrad-s-billion-dollar-startup-lessons-do-unscalable-things-then-scale-them-part-1|Parker Conrad's Billion Dollar Startup Lessons: Do unscalable things, then scale them (part 1)]]: Investor at Initialized Capital and host of the interview.
+- [[sources/aAbw1IL96V8-coinbase-s-liftoff-moment-why-i-love-seed-investing-and-being-a-ceo-coach-shorts|Coinbase’s Liftoff Moment: Why I love seed investing and being a CEO coach #shorts]]: CEO coach, venture capitalist, and President/CEO of Y Combinator.
+- [[sources/btRHm7z61oo-drowning-in-email-is-the-first-sign-you-aren-t-scaling|Drowning in email is the first sign you aren't scaling.]]: Venture capitalist and founder of Initialized Capital.
+- [[sources/arSef0sWobE-creating-the-impossible-foods-of-dairy-meet-eclipse-s-amazing-micelle-technology|Creating the "Impossible Foods" of Dairy -- Meet Eclipse's amazing Micelle technology]]: Investor and YouTube host.
+- [[sources/dLicgt04hHY-see-reality-as-it-is-first-before-you-try-to-bend-it-the-stockdale-paradox|See reality as it is first, before you try to bend it — The Stockdale Paradox]]: Founder of Initialized Capital and content creator.
+- [[sources/gzXqo5YPIS4-how-to-lead-like-a-champion-keys-to-a-winner-s-mindset|How to lead like a Champion -- Keys to a winner's mindset]]: Investor, entrepreneur, and host of the channel.
+- [[sources/hd9DD4t85fM-unknown|Unknown]]: Founder of Initialized Capital and content creator.
+- [[sources/cRDOj4EZ9qo-the-elon-musk-of-baseball-how-startups-hit-grand-slams|The Elon Musk of Baseball: How Startups Hit Grand Slams]]: Investor and content creator.
+- [[sources/emoauFlhXA0-unknown|Unknown]]: Venture capitalist and content creator.
+- [[sources/dtnG0ELjvcM-my-200-million-startup-mistake-peter-thiel-asked-and-i-said-no|My $200 million startup mistake: Peter Thiel asked and I said no]]: Venture Capitalist, former engineer, and product manager.
+- [[sources/iaounb7nf8Q-how-enable-medicine-is-building-the-rosetta-stone-of-biology-through-tech|How Enable Medicine is building the Rosetta Stone of biology through tech]]: Host of the YouTube channel.
+- [[sources/pGbWynzWauQ-unknown|Unknown]]: Venture capitalist and founder of Initialized Capital.
+- [[sources/dRBDz-flKs0-shame-and-blame-in-entrepreneurship-how-to-channel-your-rage-before-you-destroy-your-team|Shame and blame in entrepreneurship. How to channel your rage before you destroy your team.]]: Investor, entrepreneur, and host of the channel.
+- [[sources/lIlguzWxEiI-parker-conrad-s-billion-dollar-lessons-on-remote-work-and-customer-support-part-2|Parker Conrad's Billion Dollar Lessons on Remote Work and Customer Support (Part 2)]]: Investor and host of the interview.
+- [[sources/r8hhvw-1b-M-roll-your-way-to-a-startup-unicorn-lessons-for-founders|Roll your way to a Startup Unicorn: Lessons for Founders]]: Investor and founder, former partner at Y Combinator.
+- [[sources/rfTgzA6iKZc-3-tips-to-nail-the-y-combinator-interview|3 Tips to Nail the Y Combinator Interview]]: Former Y Combinator partner and investor.
+- [[sources/l8mIyW1aVwo-how-smarter-buildings-fight-climate-change-with-runwise-founder-lee-hoffman|How Smarter Buildings Fight Climate Change (with Runwise founder Lee Hoffman)]]: Investor and host of the channel.
+- [[sources/dQZ1wBcXQqo-building-10x-more-robots-for-american-factories-outcomes-as-a-service-454-billion-market|Building 10X more robots for American Factories: Outcomes as a service ($454 Billion Market)]]: Host of the channel and investor at Initialized Capital.
+- [[sources/idyfHs3DWmc-masterclass-how-to-sell-to-20m-software-developers-with-an-amazing-onboarding-experience|Masterclass: How to sell to 20M software developers with an amazing onboarding experience]]: Investor, Y Combinator partner, and host of the channel.
+- [[sources/bORgMI5-oZE-masterclass-fighting-scammers-online-how-founders-can-build-trust-and-safety-teams|Masterclass: Fighting scammers online (How founders can build Trust and Safety teams)]]: Host of the channel and interviewer.
+- [[sources/decDIkDbS3Q-unknown|Unknown]]: Investor and partner at Initialized Capital.
+- [[sources/dmv-nooN43U-masterclass-product-market-fit-10x-faster-with-amy-jo-kim|Masterclass: Product Market Fit 10X Faster with Amy Jo Kim]]: Host of the YouTube channel and interviewer.
+- [[sources/vJbvzkXiex8-there-s-too-much-money-in-the-world-here-s-why|There's Too Much Money in The World. Here's Why]]: Venture capitalist and investor
+- [[sources/eLelgy5zRv4-learn-earn-or-quit-my-job-career-advice-for-2022|LEARN, EARN or QUIT | My job/career advice for 2022]]: Venture capitalist, founder, and YouTuber.
+- [[sources/khY3REOst-A-startup-next-steps-after-raising-your-first-million-from-a-forbes-top-100-vc-office-hours-|Startup Next Steps after Raising Your First Million | from a Forbes Top 100 VC | Office Hours Ep. 2]]: VC and founder of Initialized Capital.
+- [[sources/kJ4o0ONH7W8-masterclass-how-to-hire-engineers-remotely-10x-more-remote-work-candidates|Masterclass: How to hire engineers remotely (10X more remote work candidates)]]: Investor and YouTuber
+- [[sources/lm3lfZza1ro-flexport-ceo-ryan-petersen-on-scaling-a-startup-from-zero-to-8b|Flexport CEO Ryan Petersen on Scaling a Startup from Zero to $8B]]: Host and investor.
+- [[sources/x5YApjnTG10-i-funded-coinbase-in-2012-making-6000x-on-my-best-startup-investment-yet|I funded Coinbase in 2012. Making 6000x on my best startup investment yet]]: Investor, entrepreneur, and former Y Combinator partner.
+- [[sources/y29ZlhuEIyc-the-future-of-software-development-build-software-with-no-code-with-michael-skelly-from-st|The Future of Software Development | Build Software with NO CODE | with Michael Skelly from Stacker]]: Host of the channel and former Y Combinator partner.
+- [[sources/mJ7z-5Kjz44-how-high-res-space-imagery-will-change-everything-10cm-satellite-imagery-explained|How High-Res Space Imagery Will Change Everything | 10CM Satellite Imagery Explained]]: Investor at Initialized Capital and host of the channel.
+- [[sources/viNZK9P40kY-unknown|Unknown]]: Investor, entrepreneur, and host of the channel.
+- [[sources/dBULOo03cys-this-26-year-old-investor-funded-nadeshot-and-100-thieves-a-conversation-with-blake-robbin|This 26 year old investor funded Nadeshot and 100 Thieves: A conversation with Blake Robbins]]: Host of the channel and venture capitalist.
+- [[sources/t6i5H4C7Mhk-5-ways-startups-die-why-big-company-managers-fail-how-to-deprogram-it|5 Ways Startups Die: Why Big Company Managers Fail (How to deprogram it)]]: Investor and founder of Initialized Capital.
+- [[sources/o2GuOvO-Mns-unknown|Unknown]]: CEO of Y Combinator and former co-founder of Posterous.
+- [[sources/dhnzBQjsgGU-stories-from-china-tech-that-don-t-get-reported-a-conversation-with-rui-ma-of-tech-buzz-ch|Stories from China Tech that don't get reported: A conversation with Rui Ma of Tech Buzz China]]: Host of the channel and venture capitalist.
+- [[sources/zAYPT6CrWRQ-parker-conrad-rippling-ceo-built-an-11-billion-customer-obsessed-business|Parker Conrad (Rippling CEO) built an $11 BILLION customer-obsessed business]]: Investor and host of the channel.
+- [[sources/kt9ScQvTqcU-silicon-valley-is-still-for-future-billionaires-with-elad-gil-legendary-investor|Silicon Valley is still for future billionaires (with Elad Gil, legendary investor)]]: Investor and host of the show.
+- [[sources/zHZxURFgK-4-hans-tung-funded-16-unicorns-billion-dollar-war-stories-and-hard-lessons-learned|Hans Tung funded 16 unicorns: Billion dollar war stories and hard lessons learned]]: Host, investor, and former Y Combinator partner.
+- [[sources/UWwtXfaldl4-control-your-shadow-control-your-fate|Control your shadow, control your fate]]: Investor, entrepreneur, and creator of the video.

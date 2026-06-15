@@ -1,0 +1,901 @@
+Title: Solving the $160 billion food waste problem: Meet Stefan Kalb of Shelf Engine
+Video ID: qlP4bnZ_izk
+URL: https://www.youtube.com/watch?v=qlP4bnZ_izk
+Channel: Garry Tan
+Published: 2020-11-09T15:00:10Z
+Duration: PT25M16S
+Views: 15123
+Likes: 696
+Tags: food waste, shelf engine, stefan kalb, kroger, safeway, walmart, y combinator, garry tan, initialized capital, food supply chain startup, food supply chain, supply chain, enterprise startup, climate startup, climate change startup
+Transcript Language: English - Subtitles (en)
+Auto-generated: False
+Snippets: 629
+
+Description:
+Stefan Kalb started a food brand at age 23, and that's when he discovered 30% of all perishable food goes in the garbage. He teamed up with a technical cofounder Bede Jordan in 2016 and now they're solving the problem with software. They were solving a problem they saw first hand. They had their twists and turns, and it was something I worked with Stefan and Bede on for years as they followed their own internal north star. Along the way, they figured it out.
+
+Now with product market fit, and sig
+
+============================================================
+TRANSCRIPT
+============================================================
+
+Did you know that 30% of all perishable food goes in the garbage?
+It rots. It's just wasted.
+Not only is that crazy wasteful, it's terrible for the planet.
+That's over $160B in food waste per year in the United States alone.
+And that's where Shelf Engine comes in. They're working with the world's biggest grocers.
+Including Kroger, Whole Foods, Target and Walmart.
+Not just to stop waste, but to multiply profits 
+and ultimately bring the cost of food down for billions of people
+It's a case study in mission, better/cheaper/faster, 
+and something that could touch absolutely all of us. 
+Let's get started
+- Awesome, Stefan, thank you so much
+for coming on my channel.
+It's really a pleasure to talk to you
+about your journey with Shelf Engine.
+It's a really cool story
+so I can't wait to get started.
+- Hey, likewise, Garry really
+appreciate having me on.
+So this is exciting.
+- What is Shelf Engine and
+how did you get started?
+- Well I'll start off with what we do
+because what we do is
+actually quite unique
+and then I'll step backwards a little bit
+and explain how we got here.
+But at a very high level,
+Shelf Engine does two things,
+kind of the more obvious thing
+and maybe if you just
+reach on our website,
+you'd probably see this,
+we do demand forecasting
+for highly perishables
+in the grocery section.
+So walk the perimeter of the store,
+things like deli, bakery,
+produce, those kinds of things.
+Actually the majority of
+the sales in the store,
+we do demand forecasting for that.
+The more unique part of what we do
+is we actually guarantee
+sales for groceries.
+We actually submit the
+orders to the vendors
+and we only charge the
+grocers for what sells.
+And this is quite a unique business model
+in terms of our offering.
+We're not the traditional SaaS company
+that you would think of.
+We take that risk on ourselves
+and manage that inventory.
+So your next natural
+questions probably like,
+"Okay, how did we even get here?
+Like how did that come about?
+- I mean, you ran basically
+a food brand yourself, actually.
+- Yeah, when I was 23 years old,
+I decided to do the crazy thing
+of starting a food company.
+Grew that company for about a decade
+and got to learn a lot about
+what actually it's like to order.
+If you're a grocery buyer,
+you have a really, really difficult job.
+And my company, we had
+grown to over 400 locations.
+I knew that pain in a
+major way, to such a point,
+I state this publicly
+often, we had 28% waste.
+When I went out to fix that problem,
+I realized that that was
+actually pretty normal.
+For a lot of the highly
+perishable categories out there
+waste is roughly in the
+30 percentile range.
+I thought that's just crazy.
+- Well 1 in 3 apples, sandwiches,
+everything basically goes in the garbage
+and is never eaten, it's just rotten.
+- Generally speaking, yeah.
+Like walk the perimeter
+of a grocery store,
+generally speaking 1 in 3 of those items
+will just be thrown away
+without the opportunity
+to actually be consumed in a home.
+And what's crazy about that, Garry,
+and since we're on the subject,
+which is really important
+is that most stores and
+most of the industry
+way under reports, this number,
+because they don't actually
+have the access to the data.
+The first thing we do whenever
+we start with a new store
+is we give them their true number.
+And we have seen some
+astronomical numbers out there.
+The opportunity in the field,
+and this is actually a great
+lesson for entrepreneurship,
+the opportunity was much larger
+than we originally thought.
+Where I shared that 28% number,
+usually when we go into a
+store and they have 28%,
+that's usually a good case.
+That's usually a good scenario
+- They're doing well
+in that case.
+- They're doing well, in that case.
+Which is wild, right?
+- So that means even for some people,
+half of the food that enters
+through purchased inventory
+never gets sold and
+then it gets thrown out
+and sort of a commodity business.
+One that has actually
+relatively low margins.
+So it seems like a actually really,
+really large possible market.
+- You said the magic word right there,
+which is a large commodity market.
+How do you enter a situation?
+And you're absolutely right,
+we've had several customers
+where we've entered
+and their spoilage rates were over 50%.
+How do you enter a
+situation where you have
+such a massive market in the industry?
+You have something that's
+fairly commoditized
+where you can buy these products
+across a bunch of different brands
+and the margins are quite low.
+So how does this happen
+and how do you address it?
+And this was a part of the thing
+that was really exciting for us, which was
+whatever change we make
+here is going to make
+a monumental change on the environment,
+but also in the industry,
+because it is so commoditized,
+because there are so many grocery stores
+and the products are so similar.
+- My favorite thing
+about your creation story
+is that you sort of took an observation
+directly out of your direct experience.
+You had secret knowledge just off of that,
+because if you just told
+someone off the street that
+that was the case, that 1 in 3,
+any food item on the shelf
+just goes in the garbage,
+it's so high that you
+wouldn't even believe it.
+But once you saw it, you
+actually started thinking about
+how do I solve that with software?
+And I think that was when you brought in
+your co-founder Bede,
+I think you guys were all
+sort of social friends at that point.
+I mean, that's when I
+got to know you back in,
+was it '15 or '16?
+- Actually, I remember our
+first time meeting pretty well,
+which is a good story in of itself.
+But yeah, what happened was
+Bede and I were good friends
+and he had been an engineer at Microsoft
+for about 10 years actually.
+I would share with Bede
+some of these crazy stories
+in the food industry and he
+would classically roll his eyes
+and be like, "That just
+can't possibly be the case."
+And I would tell him like, "Hey listen,
+most of the ordering in the grocery store
+is somebody walking an aisle
+and making a really good guess.
+And these are the best
+tools they've been given."
+Like some spreadsheet,
+maybe some sort of like
+archaic ordering tool.
+And so we had some good laughs about it
+until one day we were like,
+"We could really do something here."
+What was awesome about that situation
+was we started actually
+moonlighting on Shelf
+well before we launched.
+The first version of Shelf,
+we actually got to test at my company
+and see the impact that we could have.
+And that was kind of the lead up into
+the first time that you and I got to meet,
+which I got to walk in and I said,
+"Hey, Garry, we've built something where
+I've been able to take my
+food waste in my company
+and drop it significantly to such a point
+that I've been able to make
+way more money in my company
+just because we built this product."
+And I think that's a great lead in for,
+"Hey, there's a massive
+market opportunity.
+We would like to go
+and build this company.
+We'd like to do this."
+- Yeah, I remember that.
+That was a really powerful moment
+because obviously people look
+at very early stage investing
+and it's sort of a black box,
+but funding you guys that early,
+I think we were among the first money in.
+- Oh yeah, I'll credit you with
+the first money in for sure.
+- We got to know each other socially
+through our mutual friends.
+I think it was Bo Lu who was
+a part of my dim sum crew
+back when I worked at Microsoft
+back in, I guess, '03, '05.
+We just kept in touch and he ended up
+coming to do Y Combinator
+and then you ended up doing Y Combinator.
+So it's funny how starting companies,
+it's a little bit contagious.
+It sort of travels
+through groups of friends.
+Starts off with not having any intention.
+It's just hanging out with people
+and then seeing very
+smart friends of yours,
+go on to do startups.
+It gets you sort of
+thinking about it yourself.
+And that's one of the cool
+things that I've seen.
+- To this day I'm so
+grateful for the guidance
+that Bo has provided.
+And then of course, you watch your friend
+be very successful.
+So that's pretty cool.
+- He's the most successful
+roboadvisor startup out of all of them.
+- Which is super cool to witness
+and to be able to see that.
+Bo comes along, cause the
+guy I mean is so humble
+and he's like, "Oh, you can do it too.
+Of course you could do it!"
+And then he gets you all sorts
+of inspired and you're like,
+"I just have to go do this."
+And so I feel really grateful
+cause Bo is really a great mentor
+and a great guide in this entire process,
+let alone for us to be able to connect
+and for you guys to eventually invest
+also for the entire journey
+and what it's like to be a founder
+has been really great to
+have somebody like Bo around.
+- I have always just been impressed by
+sort of the first
+principles thinking, right?
+And that's, a lot of people watching this
+are actually really
+want to start companies
+and are maybe earlier in their careers
+or sometimes later in their careers,
+they're trying to figure it out.
+And I think the coolest thing
+that you've been able to do
+is take a very direct
+experience from something
+that by default isn't technical in nature,
+but then you started looking for technical
+and software based solutions
+that clearly can and has,
+be a solve the problem,
+and in sort of grand fashion.
+And so first principles plus
+actually a really big mission
+caused you to build something
+that's now actually very, very scalable.
+It's so crazy to see,
+but there are things like this
+sort of lying in plain sight,
+just all around actually.
+- Well, one of the things
+that was really amazing
+out of this process was
+in the very beginning,
+all we see is, "Oh wow, there's
+this amazing opportunity."
+I don't quite see it right then
+and there in the beginning,
+like you might see it as
+an investor, which is,
+"Oh, Hey, there's a huge TAM.
+It's an antiquated industry,
+but we all need to eat, so
+it's a major opportunity,
+and it's commoditized,
+and it's probably going to
+win or take all market."
+Those things in the beginning,
+like I didn't get to see that.
+And what I just got to see was,
+"Hey, there's a lot of
+food going in the garbage."
+In fact, in sales pitches today,
+I start off with some of
+the first slides I say,
+"Hey, I went in your back room
+and I took pictures of your food waste."
+And you see these executives
+at these grocery stores
+being like, "Oh my God,
+you got to be kidding me."
+We start there, you
+look at it in two ways.
+Which is one is, what's that dollar figure
+that's associated to that food waste?
+and then two, what's the
+environmental impact?
+And you get to see like,
+"Oh, okay, well, hey,
+there's a bunch of turkey.
+That's a bunch of essentially dead animals
+that were never consumed.
+Hey, there's a bunch of packaging.
+It's a bunch of plastic that was produced.
+Oh and hey, how'd this all get here?"
+It was shipped here,
+and that's all wasted.
+And that just seems ridiculous.
+Being able to see those
+two pieces and be like,
+"Oh, they're actually very well aligned."
+I feel also very fortunate
+that they're very well aligned
+because every time that
+we onboard a new customer,
+every time that we have a new category
+and you skew a new grocer
+that we have on board,
+we get to see the progress,
+not just on their P&L,
+but on the environmental
+impact that we get to see.
+That's really rewarding, right?
+That's a very fulfilling experience.
+- Yeah, it's not enough
+to just have the mission.
+You also need to sort of
+honestly work through capitalism
+and work through the systems
+that we have in place
+that allow you to get it to the scale
+that it needs to have that impact.
+Like aligning all of these
+different interests in a way
+that put us in a world
+that is less food waste,
+that's just categorically better.
+- Totally, and to bring it
+down to a very day-to-day
+tactical kind of situation is
+whenever you're doing enterprise sales,
+you need to be essentially,
+the number one priority
+for the customer that you're going after,
+how do you make that happen?
+And it tends to be, what's
+the number one impact
+going to be on the P&L?
+And if it's going to be
+a really important impact
+on the P&L, that's how
+you get that meeting.
+That's how you actually
+set up the first launch.
+That's how you scale through.
+And so for that to be like,
+"Hey, potentially we are
+the number one priority
+you should have as a customer
+because we're going to make
+that massive impact on it."
+You're right, that's like aligning
+mission and capitalism together.
+And seeing that on a tactical
+level is really rewarding
+and really cool to be
+able to witness that.
+- Yeah, capitalism can't
+solve all the problems,
+but it can solve a few.
+It's really cool when it works like that.
+Going back to what you were
+saying about enterprise sales,
+been a number of years
+since the first version,
+when you guys both quit
+your jobs initially.
+The first version was actually
+a lot more traditional
+in terms of selling as a
+software, as a service,
+trying to get monthly fees from grocers
+and from packaged food companies
+and actually harder, wasn't it?
+It's not all roses.
+The path to product market
+fit is often fraught.
+And that was also true for you.
+How did you navigate that?
+- That was definitely a difficult time.
+And in many ways, give you
+and Initialized a lot of credit for that
+because you guys remained believers,
+even though things didn't
+look great on paper.
+And we still knew that
+there was a big opportunity.
+So for context, we
+launched the SaaS company
+and we said, "Hey, use our
+software to predict orders."
+And what we realized was that
+there are a lot of breakdowns in there.
+It didn't matter how smart the AI was.
+If you want people to
+use the product in store
+and add onto their workload
+of doing more things,
+things tend to break down.
+And that's kind of where
+we're at with our product
+where we said, "Hey,
+we just saved you guys
+a tremendous amount of money,
+but your team doesn't really
+seem to be engaging with
+the product the same
+way that it should be.
+There's challenges on multiple levels
+in terms of what needs to happen
+for using the product in day-to-day."
+We came up with this wild idea of saying,
+"Well, what if we just did it for you?
+What if we just guaranteed
+the product for you?
+Then you just don't
+have to worry about it."
+I'm really grateful to
+have had that crisis
+because now enabled us to
+have this business model
+that has helped us scale so fast
+and have so many more impacts.
+And I think you took it really well
+where I have to call
+Garry and let him know
+that things aren't working out.
+And for you, it's just kind of like,
+"Well, try something different,
+evolve, see where it goes."
+Yeah, I really appreciated
+our interaction at that time.
+Instead of just trying to
+force something through
+that probably could have
+been a company today,
+but not something as
+meaningful as we are at today.
+- Well, it's like Bruce Lee says,
+"You've got to be like water."
+And the best founders,
+that's exactly what you did.
+I remember we talked about it
+and it was really hard to
+get people to pay thousands,
+if not tens of thousands
+of dollars per month,
+for something that actually
+required a bunch of onboarding.
+And it required a bunch of data cleanup.
+And it required true buy-in.
+And sometimes there are
+just bars that are so high
+that even with the highest
+possible touch interaction,
+it's not possible to get a company,
+especially a company
+that tends not to be that technical.
+It's just hard to get them
+all the way over the line.
+The brilliant thing was for you to say,
+"We have data, we believe this works.
+How do we make a package
+that is a no brainer for the customer?
+And we can take the cut."
+I credit you for finding that path,
+because that is exactly the
+kind of, "Be like water,"
+type of thinking that great founders have.
+- As a true Seattleite, I am
+often inspired by Bruce Lee.
+But yeah, I mean, you're absolutely right.
+And I think the lesson for us there was,
+hey, sometimes there's
+these clearly defined paths,
+where people say like,
+"You should start a SaaS company
+and you should do these following things."
+Whereas many times there's
+an incredible opportunity
+sitting there, but it's not
+clearly defined in other ways.
+And even in the beginning,
+this was the funny part
+of the conversation, "Wow,
+Garry, we've tried this new model
+and things are really taking off."
+And everybody's like,
+"Well, what are you exactly?
+Are you a marketplace?
+You're kind of taking this risk,
+but you're like, are you SaaS?
+What are you exactly?"
+Which was our next challenge,
+which was a much happier
+challenge to take on,
+but you actually took something
+that was new right there
+and then we had to kind of define it.
+- So I guess catch us up to today.
+Obviously for me, it's
+been really cool to see
+your journey from two people renting,
+I think you were in a architectural space
+in Capitol Hill, up in Seattle,
+and visiting you up there
+and seeing you at that stage
+to now how many people are you?
+And you just raised a Series
+A at the beginning of the year
+from our friends GGV and Hans Tung.
+- We're nearing, or almost
+exactly 50 people now.
+- 50, 5-0?
+- Yeah, 5-0.
+- That's a lot.
+It's an impressive team then.
+- It is, but funny enough,
+part of the lesson in
+entrepreneurship, I think,
+the rate that we're scaling,
+I actually wish that we
+would have grown the team
+a little bit more ahead of time.
+So we're definitely feeling
+a certain amount of that pressure.
+- That's what product
+market fit looks like.
+You always wish you
+hired a little bit more
+because when the world needs it,
+they really inflect into it.
+And then at that point, you
+need to sort of hold on.
+You're in the, caught
+lightning in a bottle phase,
+it's a blur, honestly. (chuckles)
+It's also very exciting because this is
+sort of the march to billion startup.
+I think it's going to
+happen really fast for you.
+That's sort of where we're at.
+- It's the really exciting phase, right?
+What's coming up next and how
+we're going to get to that
+billion dollar phase and beyond.
+And honestly, what's funny about this,
+and Bede and I joke about
+this often, which is,
+YC kind of leaves off
+at the point of like,
+"Hey, you'll know, you have
+real product market fit
+when things feel crazy
+and you can't keep up
+with your own growth."
+And they're like, "Okay, goodbye,
+you know, good luck."
+- Good luck!
+(both laughing)
+- And then here we are, We're like,
+"Oh my God, what do we do?"
+- This is what it feels like.
+- This is what it feels like.
+But you know, I think,
+and especially cause
+we're recruiting so much
+and we're really looking
+to build this dream team
+this month alone, we're launching
+in over 600 stores across the country.
+The team is traveling left and right.
+And we're working with everyone
+from store manager to the store executives
+and people are essentially
+calling us and saying,
+"How fast can you go?"
+And that's super exciting,
+but nonetheless is a major challenge
+to be able to grow at that speed.
+It's incredible.
+It is learning how to
+build a team that quickly,
+how to build product that quickly
+and how to scale myself
+personally that quick,
+it's an incredible experience.
+- So what's it like to work at Shelf now?
+I guess it must have changed quite a bit,
+especially even in the
+past six to nine months,
+because that was sort of the timeframe
+for it to really go from, "We
+think this is going to work,"
+to, "Oh, it's working."
+- So one of the major
+things that we try to do
+as an organization is a lot
+of the people that we hire
+have not necessarily been
+in the food industry.
+What we try to do is,
+when you come on board,
+we like to get you as immersed in
+the food industry as possible.
+We will likely send you to the stores
+to do a variety of tasks.
+So you get to learn from beginning to end
+what is it like to
+actually receive product
+in the back of the store?
+What is it like to stock product?
+What is it like to inventory?
+And we also have field team members
+that go and audit all of our producers
+and audit a lot of the stores.
+So you get to go do, like,
+I think it's really fun,
+but you get to spend an overnight shift
+at a production warehouse
+and see what it's like,
+cut watermelon, come out all the way
+to be docked on the truck.
+And you get to count through the process
+and see what that's like.
+Immersing people in the industry
+and really getting to learn it.
+Then the cool thing
+about joining the team is
+every team has these
+really incredible leaders.
+So even if you get to work for,
+Bede is incredible on
+the engineering team,
+you get to learn from somebody like that,
+all the way to people,
+our operations team,
+our customer success.
+You get to be really
+deep in that discipline
+and understand it.
+Getting to learn the industry all the way
+to that discipline is fantastic.
+And then we also do have
+a few grocery executives
+and people who've been
+in the grocery industry
+for a long time who are part of the team
+and getting to be alongside them
+as we're scaling here.
+To be completely honest,
+it's a little wild day-to-day
+as we're scaling so quickly.
+And you get to be one of
+the most incredible teams
+out there, which I think
+is incredibly rewarding.
+And honestly, it's an
+honor to be able to work
+with these kinds of
+folks who care this much
+and who are this inspired
+and this skilled.
+- Yeah.
+And you're just getting started,
+which is part of the craziest thing.
+This is you've picked off a part
+that is growing extremely fast
+and then you're playing in a space
+that is one of the
+largest as a part of GDP.
+I mean, everyone eats,
+like you said earlier.
+And I think one of the
+more remarkable things
+is how little technology drives
+a lot of the food supply chain, really.
+You might have this part,
+but then there's so many other parts
+that actually have the same problem.
+How do you order your next order?
+Well, a guy with a
+clipboard walks up and says,
+"Hmm, maybe this many."
+And then you have 1/3 to 50%
+food waste because of it,
+sort of multiplied out
+across every decision
+that is made in sort of
+every part of the food chain.
+And it's extra bad in food
+because these things actually go bad.
+- GDP as a pie, and you essentially say,
+"Hey, I'm going to scoop
+out the food industry."
+You have a legit piece of
+pie right there, right.
+So that's a really meaningful number.
+Today out of some of the
+top 10 grocers in America,
+four of them are our customers.
+- That's incredible.
+- So we have Kroger, we have Target,
+we have Whole Foods and we're
+about to launch with Walmart.
+So that's really meaningful.
+But the reality is for us,
+we're not just trying to
+build a good business.
+We're trying to transform the industry.
+What do we need to do
+to get to such a point
+that we're reducing food waste
+to such a dramatic level,
+that you can start seeing
+the environmental impact?
+I would like one day to start seeing
+government reports showing,
+"Hey, this is how much of
+an impact there is out there
+because of the work that
+Shelf Engine has done."
+And then on top of
+that, being able to say,
+"Hey, the grocery industry
+has moved forward so far
+because Shelf Engines been
+able to generate so much cash
+for these grocers that they can reinvest
+into the future of grocery."
+And that's what you get to be part of.
+That's super cool, I just love that.
+That gets to be my day-to-day.
+- Yeah, one of my favorite
+pattern matches around startups
+and startup ideas is actually
+sometimes you hear a pitch
+and you're kind of shocked
+that it's not how it's done already.
+And this is definitely one of those.
+Just the sheer fact that
+there's that much food waste,
+not something people regularly talk about.
+And then the carbon
+footprint impact is sort of,
+it's pretty immense and
+incredible amount of shipping
+and transportation and logistics
+that is just to support
+this very large part of GDP.
+And if you could just
+chop off 1/3 of that,
+that goes directly to carbon footprint.
+It's really important.
+- It's what I think inspires us
+and gets us excited every day
+to be doing what we're doing.
+- Well, I guess what I like to end on
+is basically what do you wish you knew,
+even maybe before you started Molly's,
+the food brand you started
+when you first entered
+the business world, maybe even
+before you went to college.
+What were sort of the lessons
+or things that you wish you knew
+that you had to learn the hard way
+that you would pass on to sort
+of the next generation here?
+- I think that's such
+a fantastic question.
+And at this point I've gotten through
+quite a few conversations in my career
+of people who've wanted to
+or are interested in founding a company
+and they ask something
+similar, in this vein
+I think at the end of the day,
+a lot of us doubt ourselves.
+If we were just really quick to action
+to go and figure these things out,
+I think we would move a lot faster
+and a lot of these mysteries
+and a lot of the things that
+you think maybe not possible
+are actually totally possible.
+You just need to go and do them.
+And I wish that in many ways,
+even before I started Molly's,
+before I started Shelf,
+that I would have just
+been quicker to action.
+Quicker to making a move.
+- That's super helpful.
+So Shelf Engine is
+post-product market fit,
+hiring extremely quickly and
+in Seattle, is that right?
+- That is correct, yep.
+- And then every role,
+so software, growth team,
+product, data science, just you name it,
+the place to go.
+And you can find out
+more at shelfengine.com.
+- Like you listen to this and
+you regularly listen to Garry
+and you're interested in
+a role at Shelf Engine,
+just email me directly it's
+stefan@shelfengine.com.
+Really excited about the opportunity
+to have you join the team, so
+don't hesitate to reach out.
+- Dude, thank you so much for doing this.
+This is awesome.
+- Likewise Garry, thanks
+a lot for having me.
+I'm really excited about it.

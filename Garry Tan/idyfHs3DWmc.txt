@@ -1,0 +1,724 @@
+Title: Masterclass: How to sell to 20M software developers with an amazing onboarding experience
+Video ID: idyfHs3DWmc
+URL: https://www.youtube.com/watch?v=idyfHs3DWmc
+Channel: Garry Tan
+Published: 2020-03-11T15:17:14Z
+Duration: PT22M
+Views: 14489
+Likes: 374
+Tags: developers, software developers, software engineering, engineering, cloud, saas, startups, venture capital, masterclass, vp of engineering, dev docs, ruby, rails, python, java
+Transcript Language: English - Subtitles (en)
+Auto-generated: False
+Snippets: 461
+
+Description:
+The world is being eaten by software, and that makes selling to software engineers the one thing to nail for all infrastructure startups. Come learn from Sylvain Utard, VP of Engineering from Algolia, and how they created one of the world's best developer onboarding experiences. 
+
+00:00 Intro
+01:15 Algolia is realtime fast customizable search, both backend and frontend
+02:02 Tech giants can put 100s of devs on search. Algolia democratizes that.
+03:34 Walking through the developer experience
+03:4
+
+============================================================
+TRANSCRIPT
+============================================================
+
+If you can make something that gets in front of 20 million people
+You can make a multi-billion dollar startup.
+Who are those people? Software developers.
+How do you do it? Amazing developer experience. 
+Today is a masterclass in exactly how to do that.
+Let's get started.
+- This week, I'm here with Sylvain Utard,
+VP of Engineering of Algolia.
+Algolia is one of my favorite companies,
+because it is absolutely the
+best experience I've ever seen
+in terms of developer onboarding.
+Algolia, we're doing search as a service.
+So at the core, it's a REST API.
+But what we do is really more
+than just providing an API.
+We are providing everyone
+with what they need,
+to build search inside their
+website or mobile application,
+of course.
+Every developer centric startup
+that I have ever run across-
+I just tell them go look at Algolia.com's Docs.
+It's always a magic
+moment when someone sees it,
+for the first time.
+- And it's fully faceted
+so I can easily browse,
+and use the first thing
+you'll notice is how fast it
+actually is.
+This is actually real time search.
+So I can type iPhone
+I can even type the wrong thing.
+And out of box, all of these things
+just sort of work by default.
+And not only that, you
+can search by facet,
+and these facets actually
+continue to change
+as you enter other text.
+- And it's true that people
+expect fast search experience,
+and when they are using Google
+or it's definitely with the
+best example.
+You start typing and already
+the result out there.
+We wanted to make sure that
+everyone was able to implement,
+this fast search experience
+on their website.
+The thing I keep saying
+is that we have a few apps
+that are really leading the
+way on what is a great search.
+But those are like Facebook,
+Amazon, Google, and those
+companies that are able to put
+like hundreds of developers
+behind search.
+We want to help any company
+out there to bridge that gap,
+and make sure that they
+are also able to build
+it's this search experience
+with, a smaller team.
+- Oh, yeah. I mean, it's
+magical for me as a single
+developer.
+When I was working on the
+social network at Y Combinator,
+It was called cheekily enough Bookface.
+I felt like I could build
+basically world-class search,
+with just a few API calls.
+It was really magical for me.
+It was Rails and just drop
+in a few lines of code
+into my models and then
+magically on the front end ,
+I could just call upon
+the full power of Algolia.
+Like faceted search- I can
+even do access control,
+which is actually one thing
+that is really hard to get right
+And so I've always been
+really thankful for that.
+And then at the startups
+that I worked at previously,
+I worked on full text search using Lucene,
+customizing it from scratch.
+And there you have an insane problem,
+because out of the box, it doesn't work.
+You have to tweak 1000 settings.
+And then after you deploy it,
+you have a giant DevOps
+headache mainly around
+indexing and re indexing.
+So when I tried you for the
+first time, it was magic.
+So to start, I think it
+would be really cool to
+walk through the things that
+I think are amazing about
+Algolia's website and
+first time experience,
+especially the documentation.
+- At center for homepage, we
+really wanted to make sure that
+everyone understood that search
+is just way more than the
+search bar.
+And it's really what will
+drive a ton of your business.
+- Yeah.
+What's interesting is now the homepage
+has actually evolved from
+something that was entirely SaaS.
+But this is something that
+we see with SaaS Companies
+that now are very driven
+by enterprise sales.
+- Sure.
+- Today, you see Request a Demo, but
+years ago, that homepage look different.
+- Yes
+But the truth is, even if our
+customers today are definitely
+bigger than they used to be before,
+at the end of the day,
+they are still, developers,
+and our audience is still
+really about developer.
+And we also want to know as
+far as making sure that as you
+scroll the website, and as you
+understand what Algolia is,
+you quickly get the grasp of Okay,
+how do we actually implement
+Search on my website on my app?
+- And if you scroll just a little bit,
+you have something that's,
+very active and interactive
+around every runtime.
+We know that everyone
+has a different stack,
+everyone has or use a different language.
+We wanted to make sure that
+whatever your programming
+language whatever your stack,
+you have, this Algolia
+experience that was outstanding.
+For a long time search has
+been really backend topic.
+And so you were, dealing
+with your back end engineers,
+and you asking them to build search and,
+at the end of the day,
+search is probably the most
+front end feature ever.
+I've been working
+the search industry
+for the past 12 years,
+even if searches can be
+customized for every single app
+or website, at the end of the
+day, it's still search bar,
+search results, some
+refinements on the side.
+We definitely wanted to make
+sure that we package all this
+logic,
+So that everyone out there doesn't need
+to think about it anymore.
+The search problem is really
+both back end and front end.
+- Yes.
+- I mean, it's really that simple.
+I literally included this module,
+and then specified the specific
+attributes on every model
+that I wanted to store.
+Suddenly on the front end,
+when I was using React,
+it was extra simple.
+I could just use these sort of components
+you had already created.
+But I also had the full
+power of JavaScript,
+if I wanted.
+- Yeah, and at the end of the day,
+you want to see as a
+developer what it takes
+to implement Algolia.
+And therefore we have been
+building this tutorial,
+that is interactive.
+First of all,
+first, we ask you to select
+you know your use case,
+because we definitely have
+a ton of customers that are
+Ecommerce but you can
+be a SaaS application,
+you can be a media application,
+you can be a travel application.
+At the end of the day, you need search.
+So let's say we are a SaaS company.
+We are, you know, dealing
+with those objects.
+They're probably stored
+in a database today,
+what we will ask our customers to do
+is let's start by sending us the data.
+And again, let's say, I've
+been building this using Ruby,
+so my back end code will
+probably look like this.
+- And so this is really impressive,
+because the demo not only
+works for, a RESTful API.
+But you've actually done versions
+of it for a good number of
+the runtimes you support.
+We wanted to make sure
+that whatever the stack,
+you were able to figure out, okay,
+but in my stack in my language, what does it take?
+That will short circuit
+that decision making process,
+all the way to: "They support my language!"
+I need to use this.
+I initialize my API client, I
+get, the data from somewhere,
+and I just push it to Algolia.
+- Easy.
+- Once you run that,
+it's already searchable,
+and you can definitely play
+with the search from the with
+Algolia dashboard, but as
+you might have understood,
+we haven't been configuring
+the relevance yet.
+So Algolia, by default, will just search
+across all your attributes,
+which from time to time
+doesn't make a lot of sense.
+So of course, you want to
+go a step further and start,
+configuring how to search your data.
+And match in name is more
+important than matching our data.
+How do you figure out which
+object to shrink up first.
+And so if I'm searching for Garry,
+and there are two Garrys in the data set,
+I probably want to have the one that have
+the highest amount first,
+for instance, here.
+We wanted to make all--
+- This is so smart, by the way,
+this is actually matches the
+business case so well.
+- And it's very easy to understand.
+And this is really at the core
+of what we have been designing.
+First is we wanted to make
+sure that ranking and relevance
+was really easy to understand.
+- I really like that you can
+just easily click Run Code,
+and the results just come in right away.
+And you can see how the
+properties that you change
+in the configuration have
+a very direct result.
+- And before this object was coming first,
+because we didn't configure any relevance,
+and know this one is coming
+first because it actually has,
+this big amount of attributes.
+- Awesome.
+- Now, you need to build UI.
+- This is the whole sandbox.
+- You just have to uncomment
+a few blocks in order to
+update in real time.
+What is actually
+happening on the front page.
+This is using the vanilla
+JavaScript instant search library.
+But we also have a flavor
+for React, Vue js, Angular.
+It's really as easy as this making,
+a few widgets work together,
+defining a search bar
+defining some stats that you,
+would have here to provide
+more understanding of
+how many results you have,
+and literally, adding
+some faceting purposes,
+to make sure he people are able
+to drill down the data sets.
+- Boom, now it's time
+to sign up and use it.
+Create your account.
+And I love the simple command
+language that you have to have
+in any given flows is
+really straightforward.
+And this is even just a subtle
+design point that I think,
+most people should
+really pay attention to.
+I learned this trick in design
+from one of my first design
+mentors,
+you can actually tell what
+the designer wants you to do,
+just off of contrast, and
+so this this test called
+the Squint Test.
+You can squint and whatever
+you can sort of make out
+the most it's usually
+is the highest contrast
+and largest thing.
+That's the thing that you
+should always be driving
+the user to.
+It's an opinionated approach.
+But actually, every company
+and every product and service
+needs to use that.
+Without that users get lost.
+So now jumping back into the UI,
+being able to see the
+sample directly in the UI
+is just something so powerful as well.
+You know, just being
+able to change this live,
+I love that the docs that
+you've created have so many
+opportunities to see the
+power of the actual platform.
+And overall, when I work with
+a lot of startups that work
+with developers,
+that's almost the most important
+thing from their homepage
+and from their developer docs.
+That in the first sort of
+minute or two of interacting
+with documentation.
+Can I see the power of it?
+I'm sort of testing
+out new kind of hammer,
+and after I see it and understand it,
+I want to feel powerful.
+And that's sort of a number one goal.
+- And this is why we really
+want to make our docs
+as interactive as possible.
+And so having do the live
+examples within the documentation,
+and again, you pick, the
+flavor that you prefer,
+the then, every single
+widget you can interact with,
+you can understand how they work,
+and you can actually jump
+on the actual documentation
+and better understand, this
+is the React component to the
+older props that you can use.
+And if you go for more live
+examples of more code examples.
+- I'm wondering (implementation
+detail), how much was
+Is your custom code and then you know,
+someone looking at this, if
+they want to be able to do this,
+how much of this is homegrown,
+and how much of this is
+services that you've used
+or open source you've used?
+- Since day one, we wanted to
+make sure that we provide the
+best developer experience.
+And therefore we have been
+trying a bunch of different tools
+to build documentation.
+But none of these tools are
+reaching our expectation
+in terms of making it interactive.
+And so what we decided to do is having
+an actual engineering
+team behind this docs
+and having you know them,
+built a documentation website,
+like you would build an app.
+So it's really their own product.
+They haven't roadmap they
+have, you know, features.
+It's really considering the
+docs as another product.
+- That's a big investment.
+But for something that
+sells to developers,
+it sounds like it's
+table stakes these days.
+Sounds like you know, if you
+can't devote a team to it,
+then actually Middleman or
+Gatsby are pretty good options
+for the static content.
+But then on top of that,
+there are the programming languages.
+And there what we have
+been building is really
+all languages.
+And this wasn't super easy.
+At Algolia, we have 100 engineers,
+and 15 of them are working on those tools,
+on the docks, on the API
+clients on the instant search
+front end libraries.
+It's definitely a significant investment.
+But I think this is what
+was really required.
+For us to have the developer trust,
+and have them use our library
+and our API with ease.
+- That was one thing that
+really stood out to me,
+having used at least a few
+of the different runtimes,
+you were able to hire people
+who wouldn't just make a Java
+version API for rails,
+you were able to find people
+who could make the idiomatic
+version.
+Just like, a true rubyist,
+or a true rails person,would
+write or use that.
+- And I will be honest, it
+wasn't the case at the very,
+very first day.
+And you know, I'm a Ruby guy,
+I have been building the
+Python version first.
+But if you're not the Python experts,
+in you're applying the same conventions
+and naming rules of Ruby in
+Python, you get it wrong.
+So indeed, what we have been
+doing over the past few years,
+is making sure that either
+we have the experts of this
+language of this tack,
+this framework to
+implement these libraries.
+Or we're actually partnering
+very closely with people
+that are able to help us figure
+out okay, what does it mean?
+In Java? Or in C Sharp.
+- One of the things that's
+always a challenge for
+honestly, any startup is
+how do you get both low bar,
+which we've talked through—
+Actually, we spent a lot of
+time today talking about,
+how do you get a low bar
+so that any developer,
+can hit the homepage, and
+understand what it is.
+And then feel powerful.
+- So one thing that I've been
+saying to the engineering team
+since day one is we want to
+target any kind of developer.
+So if you have outside of a bootcamp,
+or if you have been programming
+for the past 15 years,
+we need you to be able
+to implement Algolia.
+And so it's really about making it simple,
+without, you know, being a toy.
+- The examples that you
+show, actually call to mind,
+going to stack overflow and
+being able to see code samples,
+and being able to use
+them directly out of that.
+So being able to bring the bar
+all the way down to maybe not
+even the 20 million,
+but even there's sort of a
+even larger audience of people
+who are just learning.
+- And we're definitely
+speaking more and more about,
+builders rather than programmers because,
+honestly, even if you
+don't program at all,
+you can build a decent search interface
+by copy pasting all Doc's.
+- Yeah, it's amazing.
+Why nearly no code, nearly no code.
+- What was tricky, however,
+is to make sure we find the
+right balance between
+copy pasting a snippet,
+and still making it
+customizable and extensible.
+And so this is where it start
+to be a little bit more tough
+for the engineers building
+these tools because,
+they need to keep in mind
+this whole spectrum of,
+Okay, I need it to be very easy to use,
+- Very low bar.
+- Have an advanced use case,
+or if you want it to be really
+fitting your design or whatever
+you have on your website on
+your app.
+And that's sort of the
+matched pair to low bar,
+which is high ceiling,
+the Holy Grail for basically
+any product or services
+and incredibly low bar, and then a very,
+very high ceiling where
+customers can basically do
+whatever they need to do
+without ever having to go,
+rebuild it themselves.
+Dude, one of the things
+I really like to ask for people
+who are in very senior roles
+that really some of the best startups is,
+how did you get started in tech?
+Walk me through getting into computers and
+your path to here to
+be a VP of engineering.
+- And so I've been always,
+playing with web technologies,
+and having a few different websites,
+have been building games
+while I was still in school.
+But for my internship, my first
+internship I really wanted
+to go to a company with which
+was doing some hardcore tech.
+- Oh, yeah.
+- And so I was considering databases.
+I was considering the gaming industry,
+I was considering all
+of those sectors where
+you really need to focus on performance.
+And you know, turns out
+they joined a search company
+called Exalead- that was back in 2008.
+And at that time,
+I was part of a team building
+all the natural language
+processing pipeline.
+And I met a guy which is a
+current CTO and co-founder.
+A few years later, we
+- This is Julien
+- Yes, this was Julien.
+A few years later when Julien came
+back to me and was telling
+me that he was starting this
+company and they were
+building search as a service.
+I was like, Okay, this is
+definitely the opportunity
+of a life,
+I need to go down.
+So I knew already Julien, I
+knew already of CEO as well.
+Nicolas has always also
+be part of this company.
+And so in the past 12 years
+I've been doing search.
+It's an intense industry.
+No one today should really
+rebuild the search engine,
+is really like doesn't make sense.
+But these two guys were
+crazy enough to rebuild the
+technology that was totally
+different than what we
+have been using before,
+which was Lucene-based or Sphinx based.
+- Oh, yeah, I use both
+Lucene and Sphinx and,
+you know, so much downtime
+and so many configuration
+headaches.
+- Sure, you know, those
+technologies have been built back in
+the 80s and the 90s.
+So the focus was different
+and what relevancy was meaning
+was different.
+They were designed to search,
+PDFs and tags and academics.
+Today, we have been designing
+Algolia to search objects.
+It could be a user profile,
+can be a new commerce product.
+And those object have a structure.
+They have attributes, they
+have ranking information.
+All of that we want to bake
+in ranking formula to make
+search really...
+- That's the crazy thing that
+I was thinking about the other
+day is that Algolia is a little
+bit like a domain specific
+language only support how many languages?
+Nine languages?
+- Yes.
+So it's actually a DSL,
+it's a DSL that makes
+people super powerful.
+And it works with nine
+languages, not just that's not,
+you know, not just one.
+That also sounds like really
+great advice for people who are
+starting out in their careers.
+I get questions all the
+time from people who are,
+one year out of school
+or out of a boot camp,
+and they always wonder how do
+I get ahead in tech companies
+and that sounds like one very direct way
+which is become excellent
+at something that you're
+really really interested in,
+and opportunities will really come to you.
+- And be passionate about it.
+I think this has been,
+driving my whole career is
+I really like doing what I do.
+I started building the search engine.
+I'm the leading and engineering team.
+I'm not coding that much anymore.
+But just being able to lead
+the team that is behind this,
+is really fulfilling.
+So Algolia is hiring,
+- Of course, like all
+startups we are hiring.
+The engineering and product
+team are mostly based on Paris,
+in France, where we all started.
+But we have an office in San Francisco.
+We have a few other offices
+in London, Atlanta, New York,
+and more recently, Tokyo.
+- Are you guys partially
+remote or is it almost entirely
+remote dev team?
+- So we started by having
+almost no one remote,
+but you know, in the past few years,
+I think we all understood
+that you cannot do result.
+And therefore we have more
+and more remote opportunities.
+What is key however, is that
+we wouldn't split the project
+across too many time zones.
+- That makes sense.
+So try to keep it by timezone.
+And so you're hiring both
+remote and on-site roles,
+Check out Algolia.com/jobs.
+Sylvain, thank you so much
+for spending time with me.
+This is really awesome.

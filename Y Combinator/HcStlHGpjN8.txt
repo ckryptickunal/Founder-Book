@@ -1,0 +1,2015 @@
+Title: Jeff Dean’s Lecture for YC AI
+Video ID: HcStlHGpjN8
+URL: https://www.youtube.com/watch?v=HcStlHGpjN8
+Channel: Y Combinator
+Published: 2017-08-07T18:48:11Z
+Duration: PT1H9M6S
+Views: 56096
+Likes: 778
+Tags: YC, Y Combinator, Jeff Dean, AI, Machine Learning, Tensorflow, Artificial Intelligence, Google, Daniel Gross
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 1993
+
+Description:
+Jeff Dean is a Google Senior Fellow in the Research Group, where he leads the Google Brain project.
+
+Jeff's slides are available here: http://blog.ycombinator.com/jeff-deans-lecture-for-yc-ai/
+
+============================================================
+TRANSCRIPT
+============================================================
+
+So,
+I'm going to tell you a very
+not super deep into anyone topic, but
+very broad brush
+sense of the kinds of things we've been
+using deep learning for, the kinds of
+systems we've built around making deep
+learning faster.
+And this is joint work with many, many,
+many people at Google, so this is not
+purely my work. But most of it is from
+the Google Brain team, which I lead. And
+uh So, the Brain team's mission is
+basically make machines intelligent and
+then use that new capability to improve
+people's lives in a number of different
+ways. And the way we do this is we
+conduct long-term research kind of
+independent of any particular
+application in Oh, sorry. I'm probably
+supposed to stand in one place. Uh
+independent of any particular uh
+uh application,
+we build an open-source uh
+systems that help us with our research
+and deploying of machine learning models
+like TensorFlow.
+We collaborate across Google and all of
+Alphabet in getting machine learning
+systems and research that we've done
+into real Google products. So, we've
+done a lot of work in like Google
+Search, Gmail, Photos, uh speech
+recognition, Translate, and you know,
+many other places. Um we also bring in a
+lot of people into our group
+uh through internships and a new
+residency program that we started last
+year for people who want to learn how to
+do uh deep learning research. And that's
+been a pretty successful program as
+well.
+Um
+So, the main research areas that our
+group is working in are these.
+I'm going to focus mostly on these
+today. Actually, a little bit of
+perception, too.
+Uh but um
+So, uh in January I put out a blog post
+that kind of just highlighted some of
+the work our group has done over the
+last over 2016. And in putting that
+together, I kind of realized we were
+doing a lot of different things.
+So the nice thing about this is each one
+of these blue links is a link to
+something kind of interesting and
+substantial like a research paper or a
+product launch using machine learning or
+some new TensorFlow
+features we've we've added.
+So
+I won't go through that all now but you
+can go find that blog post and learn
+more about some of the stuff we've been
+up to.
+Okay, so why are we here? You probably
+already all know this given that you're
+working on AI related companies as I
+understand it.
+But
+um
+the field of deep learning and neural
+networks in particular are really
+causing a shift in how we think about
+approaching a lot of problems.
+And I think it's really changing the
+kinds of machine learning approaches
+that we use. In the 80s and 90s it was
+the case that neural nets seemed
+interesting and appealing but they
+weren't the best solution
+at the time for a lot of problems that
+we cared about cuz they just didn't
+quite have enough training data, enough
+computational capabilities.
+And so people used other methods or
+developed kind of shallower machine
+learning methods with much more hand
+engineering features.
+And if you fast forward to now what's
+happened is we've got much much more
+compute. I actually did an undergrad
+thesis in 1990 on parallel training of
+neural nets cuz I liked the appealing
+attraction of the neural net model and I
+thought if we could just get like you
+know a bunch more compute by
+parallelizing over a you know a 64
+processor hypercube machine that it
+would all be even better.
+It turned out what we needed was like a
+100,000 times as much compute not 60
+times.
+But if you fast forward to today
+we actually have that and so what's
+happened is we now actually have you
+know the case where neural nets are the
+best solution for an awful lot of
+problems and a growing set of problems
+where we either previously didn't really
+know how to solve the problem or where
+we could solve it, but now we can solve
+it better with neural nets. And so, the
+talk is really meant to uh
+orient you across a whole bunch of
+different problems where this is the
+case.
+Uh so, growing use of deep learning. So,
+really our group started in order to
+investigate the hypothesis that large
+amounts of compute could actually solve
+interesting
+uh problems using neural nets. And so,
+when we first started, you know, there
+weren't we were sort of the vanguard of
+people using neural nets at Google. Uh
+we did a bunch of work on unsupervised
+learning uh at a really large scale
+using at that time we didn't even have
+GPUs in our data centers, so we just
+used 16,000 CPU cores and we did kind of
+interesting things with unsupervised
+learning there. Uh
+but gradually we kind of built tools
+that enable people to apply machine
+learning and deep deep learning in
+particular to a lot of problems and you
+can see the growth rate of uh
+you know, this is directories containing
+model description files either from our
+first generation system and starting in
+about
+uh
+2015, our second generation system,
+TensorFlow.
+Uh and we've deployed machine learning
+in in collaboration with lots of teams.
+Other teams have also been independently
+just picking up this idea of deep
+learning and using it in lots and lots
+of places in Google products.
+And that's why you see that growth rate
+and it's continuing to go up.
+Um
+one of the things we focus on a lot is
+how can we reduce experimental
+turnaround time for our
+uh machine learning experiments and
+because there's a very different
+qualitative feel to doing science and
+research in a domain where an experiment
+takes a month
+versus doing it in a domain where, you
+know, minutes or hours you get
+uh you know, an answer and then you can
+figure out what the next set of
+experiments are that you want to run.
+So, a lot of our focus is on scaling
+machine learning models and scaling the
+underlying infrastructure and systems so
+that we can actually
+uh for some problems approach minutes or
+hours rather than uh weeks or months.
+Uh so, part of that has been building
+the right tools. So, TensorFlow is kind
+of our second generation uh system that
+we built for tackling deep learning
+problems and machine learning problems.
+Um the first one we didn't open source.
+The second one we said we should really
+uh
+fix some of the design problems we saw
+in our first system, keep the good
+features about it, and then design this
+from the start to be an open source
+platform so that people all over the
+world, not just at Google, can benefit
+from
+from this and can help build a community
+that can all contribute to and improve
+uh the system. Uh Zack Stone here
+uh is our TensorFlow uh product manager
+extraordinaire and is uh
+um uh
+been doing a great job of building the
+community both in inside Google and
+outside.
+Uh
+So, the goals of TensorFlow that we want
+to establish this common platform for
+expressing all kinds of machine learning
+ideas. So, it's something that can be
+used for deep learning, can be used for
+other kinds of machine learning, that
+can be used for tackling perception
+problems and
+uh you know, language understanding
+problems. Um and what if you have a
+crazy new machine learning research idea
+that doesn't really fit into what people
+have done before, we want it to be at
+least expressible relatively easily in
+TensorFlow.
+Um and then we want to make that
+platform really great for research, but
+we also want to be able to take uh
+that something you've developed in
+TensorFlow maybe experimentally and then
+if you now want to deploy that in a
+production setting, run it at a data
+center, run it at scale, uh run it on a
+phone, all these kinds of things, we
+want that it to be uh another
+something you can do in this the
+TensorFlow framework. And by open
+sourcing it, we make it available to
+everyone.
+Um so, how's this been going?
+Well,
+uh so this is a comparison of GitHub
+stars of which is one metric of
+popularity or interest in different
+uh source code repositories on GitHub.
+And I show you a comparison of
+TensorFlow with a bunch of other open
+source machine learning packages.
+Uh many of which have been around for
+for
+uh you know, many more years than
+TensorFlow. TensorFlow is this brown
+line up
+uh going up fairly steeply.
+Um so, this has been pretty good. I
+think the the reception for what
+TensorFlow does, which is enable
+flexible research, but also this kind of
+production readiness and uh being able
+to run in lots of places
+uh is pretty appealing.
+Um
+And if you look at the other open source
+packages which we did when we were
+starting to work on TensorFlow, you
+know, many of them have two of the three
+attributes that we care about, being
+able to be really flexible,
+uh scalable, and uh sort of run on any
+platform. Uh and they all have different
+emphases, uh but we wanted something
+that satisfied all three of those.
+Uh so, that's kind of cool.
+Uh we've been focusing a fair amount on
+speed. I think when we first released
+TensorFlow, we released a bunch of
+really nice tutorials uh that showed how
+to do different things with TensorFlow,
+but one of the mistakes we made was we
+released code that was meant to be
+expository and clear and not necessarily
+the little highest performance way you
+would write that. But often then people
+would take that as the way you should
+write a high performance TensorFlow
+model, and that wasn't necessarily the
+case. So, we're now adapting and trying
+to put out things that are both the best
+way from a clarity standpoint, but also
+are high performance. Uh that's been a
+bit of a
+uh, TensorFlow got I think a bit of a
+bad rap, but actually our performance is
+quite good. So, we've been
+uh,
+doing a bunch of benchmarking and
+producing reproducible benchmark results
+to show that our scaling is quite good.
+So, this is single machine scaling,
+nearly linear speed speed up for a bunch
+of different uh, image models on up to
+eight GPU cards.
+Uh, pretty close to linear speed up for
+64 GPU cards for a bunch of different
+kinds of problems.
+Uh,
+so
+don't don't if you hear TensorFlow is
+slow, don't don't believe it.
+Um,
+we also support lots of different
+platforms and I think this is important
+because often you want to train a model
+on a large data set in a data center,
+but then deploy that on a phone. And so,
+we run on, you know, iOS and Android and
+Raspberry Pis, but also CPUs and
+uh, if you have a GPU card or eight GPU
+cards, we're happy to use that. Uh, we
+also run on our custom machine learning
+accelerators that I'll talk about in a
+minute.
+Um, but really we want to run on
+everything. So, there's a bunch of other
+device manufacturers that are developing
+kind of funky mobile
+uh, ML accelerators or Qualcomm has a
+DSP and they're all working to make sure
+that TensorFlow runs well on those
+devices.
+Uh, we also kind of want to be agnostic
+of language that people want because you
+want to be able to run machine learning
+where makes sense and
+different people have different uh, sort
+of language environments. Um, most the
+most fully developed system is obviously
+Python,
+uh, but the C++ front end works pretty
+well for production use and then a bunch
+of other people uh, external community
+members have added a variety of other
+kind of
+not fully fleshed out, but reasonable
+support for some of these other
+languages.
+Uh, we have a pretty broad uh, usage
+base. So, uh, like a year ago, we had a
+almost a year ago,
+we had a
+meeting at Google of people using, uh,
+TensorFlow and it was pretty impressive.
+We had people from
+most of these companies in the room,
+which I think normally they don't all
+get in a room together.
+Places like Apple was actually there as
+well, Nvidia, Qualcomm, Uber, Google,
+Snapchat, you know, many many Intel.
+Uh, many many other places.
+Uh, so,
+in terms of stars, you know, I showed
+you the graph related to machine
+learning platforms. This is the top, uh,
+repositories on GitHub overall and we're
+up to number six, which is pretty good.
+Um,
+and all the other ones are either
+JavaScript or a list of programming
+books.
+Uh, this is a
+visualization of where people are
+interested in different GitHub
+repositories, uh, which is kind of cool.
+Uh, machine learning is done all over
+the world.
+Uh,
+so,
+one of the things that's happened as
+that growth in interest has happened is
+is there's been a a pretty broad set of
+external
+to Google contributors and so there's
+really, you know, I think we're up to
+almost a thousand non-Google
+contributors across the world doing all
+kinds of different things for uh, adding
+features or fixing bugs or improving the
+system in various ways, which has been
+really nice.
+Oh, and I think it's kind of nice that
+there's growing use in machine learning
+classes of TensorFlow as a way of
+illustrating machine learning concepts.
+So, at really good machine learning
+universities like Toronto, Berkeley,
+Stanford, and other places, they're
+starting to use that as the core of
+their curriculum.
+Uh,
+okay. So, now I'm going to switch gears
+a bit and talk about some sort of more
+product-oriented applications of deep
+learning at Google. Uh, Google Photos is
+a good example. Obviously, computer
+vision now works and one thing you could
+do is, you know, make a photos this
+uh
+uh product around the idea that you can
+actually understand what's in people's
+photos and that's been going really
+well.
+Um
+as a lesson for for you uh
+who are starting companies often applied
+domains, I think it's really important
+to be able to look at the machine
+learning work that is happening in the
+world and realize that often you can
+reuse many of the same ideas from one
+domain and just by pointing it at kind
+of different data sets get completely
+different interesting product features.
+So, if you um
+for example, use the same basic model
+structure, train it on different data
+and you get something different. One
+general model trend is given an image,
+predict interesting pixels. So, there's
+a bunch of, you know,
+uh ways you could do that, but if you
+have a model structure that does that,
+uh
+my uh
+summer intern from a few years ago, Matt
+Zeiler, who actually went off to found
+Clarifai,
+which is a computer vision company,
+um
+uh we were working in collaboration with
+the Street View team on
+uh identifying text in Street View
+images. And so, to do that, you can have
+training data where people have circled
+or drawn boxes around text and you just
+try to predict a heat map of which
+pixels contain text in a Street View
+image. And so,
+uh this works reasonably well and then
+you can run an OCR model on those pixels
+and actually read the text. Uh and it
+works, you know, across lots of
+different font sizes and colors and
+whether it's close or far from the from
+the camera.
+Um
+and so then some people in the Maps team
+decided they would build this thing that
+would help you
+uh identify whether your rooftop has
+solar energy potential and how much
+energy you could generate by installing
+solar panels.
+Uh and so, obviously, one of the first
+things you have to do is find rooftops.
+And that's exactly the same model, but
+just with different training data, where
+you now have circles around rooftops.
+And then there's a bunch of other work
+to estimate the angle of the rooftop
+from the the imagery or multiple views
+of the same same house.
+Uh and then some stuff to predict, you
+know, what is the solar energy potential
+for that.
+Um
+and another area where we've applied
+this is in the medical domain. So, the
+same basic model, we want to be able to
+say take a medical imaging problem. Uh
+one of the first ones we've been
+tackling is uh
+uh ophthalmology problems, and in
+particular, taking a retinal image like
+this and tackling deciding whether or
+not this has symptoms of a degenerative
+disease called diabetic retinopathy.
+And so, this is a again the same kind of
+problem. You want to identify parts of
+the eye that are related to uh you know,
+that seem to be diseased in some way.
+Um and then you also have a whole image
+classification problem of does this eye
+show symptoms at the level of 1 2 3 4 or
+5?
+And turns out you can do this. So, some
+people in our group
+uh have done a really nice uh
+sort of uh medical study uh showing that
+if you collect 150,000
+ophthalmology images and then you get
+each one labeled by seven
+ophthalmologists because if you ask two
+ophthalmologists to grade the same image
+1 2 3 4 or 5,
+they agree 60% of the time.
+Just slightly terrifying. If you ask the
+same ophthalmologist to grade the same
+image a few hours later,
+they agree with themselves 65% of the
+time.
+And and that's mildly terrifying. So, we
+had to get every image labeled by seven
+ophthalmologists to reduce the variance
+in the score and say, "Oh, it
+five people think it's a two, so it's
+probably more like a two than a three."
+Um but in any case, the the punchline of
+this paper is we now have a model that
+performs on par slightly better than the
+median of eight US board-certified
+ophthalmologists. Uh which is cool
+because there's a bunch of places in the
+world, especially in India and other
+countries where there are, you know,
+many people at risk and there just
+aren't enough ophthalmologists.
+Um so we're actually doing clinical
+trials in India. We've licensed this to
+our Verily subsidiary who's licensed it
+to a camera and ophthalmology camera
+manufacturer who's going to be uh
+integrating this into the actual
+ophthalmology camera.
+Um
+another area where being able to see is
+pretty useful is uh
+robotics. If you're trying to build
+robots, just being able to perceive the
+world around you it clearly makes things
+a lot better.
+Um
+so we've been doing a bunch of
+experiments both with real real robots
+and also with uh simulated uh robotic
+environments and also with trying to do
+imitation learning from people
+performing actions and then trying to
+get robots to do it. So we set up a
+uh what we call an arm farm. Oops. Let's
+see.
+Why is that not playing? Oh, maybe I'm
+not on the internet. Well, anyway.
+Uh it's not that exciting except that we
+have a bunch of robots
+trying to grasp things and they can
+essentially learn to gra- learn on their
+own whether they're grasping something
+successfully by just having a bin of
+things in front of them and they just
+try to pick something up. And if they
+fail, their gripper closes all the way.
+If they succeed, then uh they don't
+close their gripper all the way and they
+can actually see from the camera that
+they've managed to pick something up.
+And so they can practice picking things
+up and we can pool all the sensor data
+from all the robots that are doing this
+to uh retrain a model every night uh for
+grasping so that the next day's grasping
+attempts are better and better. And by
+having lots of robots do this, you
+actually get a lot of parallel
+experience, much more than you can get
+on a single robotic arm. And so, we have
+a data set of that we've actually
+released publicly of about 800,000 grasp
+attempts
+uh versus about 30,000 grasp attempts,
+which was kind of the big public data
+set in the past. And surprisingly,
+800,000 grasp attempts gives you a much
+better grasping mechanism and model than
+30,000.
+Not surprising.
+Uh we've also been trying to This is me
+awkwardly looking at a robot on a screen
+which you can't see doing some actions.
+I'm trying to like mimic the robotic
+nature of it. And then we have a video
+of me doing that. And then we're
+just trying to learn from the videos to
+transfer that action to the real robots.
+And that's working reasonably well.
+Uh here's another example. And we're
+doing that first you via simulator, and
+then we're taking that simulator and
+then trying to transfer those activities
+to a real real robot.
+Um
+and that works reasonably well as well.
+Um another place that I'm pretty excited
+about deep learning is
+in lots and lots of scientific domains,
+you often have the case where you have
+a
+uh
+uh simulator of some really complex
+phenomena. And that's often a sort of
+HPC style application and very
+computationally expensive, but it kind
+of gives you insight into whatever
+scientific processes are going on, and
+that allows you to kind of iterate in a
+computational science
+uh methodology.
+Um but often those computations are
+pretty expensive.
+And so, one of the things we've been
+working on, and this is just one
+example. We have a lot of different
+fields of science where we've seen this
+to be true,
+is you can use those simulators as
+training data for a neural net. So,
+uh
+quantum chemists have a sim They have a
+problem where they take in a
+configuration of molecules and they run
+a bunch of time steps and then at the
+end they get some information about how
+the ultimate configuration of those
+molecules uh turns out and from that
+they get a few properties about those
+molecules. Like is it toxic? Did it bind
+with something else? Um you know, a
+handful of these things. So, it turns
+out that's the data that if you use that
+as input, you run this really expensive
+uh simulator for an hour and then you
+get these 13 numbers out. Uh
+that turns out to be great training data
+for a neural net. And so, you can train
+a neural net to do exactly that same
+task or to approximate that task,
+approximate the entire simulator. Uh and
+you can essentially the punchline is the
+bottom there. You essentially get
+indistinguishable accuracy from using
+the real simulator, but it's 300,000
+times faster.
+And that has a lot of implications for
+how you might do quantum chemistry if
+you suddenly have something that's
+300,000 times faster.
+Uh you might like run 100 million things
+through your
+through your uh simulator uh neural
+net-based simulator and figure out
+what's going on.
+Uh look you know, to identify a bunch of
+candidates that you might want to look
+into in more detail.
+Uh so, that's exciting. Uh another place
+where these kinds of pixel-to-pixel
+models come in uh is uh
+some people in Google have done a model
+that tries to predict depth from an
+input image and we have some training
+data where we have the true depth given
+uh
+the camera viewpoint and where things
+are in the room or in the world. And
+then we try to train a model to do
+predicted depth from just the raw pixels
+of that image.
+So, that's a pixel-to-pixel learning
+problem and you can imagine a lot of
+pixel-to-pixel learning problems.
+And indeed, you know, one one
+application in in uh cameras is you want
+to predict depth in a portrait and then
+you can do kind of funky cool effects
+like identify the person in the
+foreground and turn the background black
+and white or like make it all fuzzy and
+artsy in the background
+um which is kind of cool. Uh but it
+turns out you can also take microscope
+microscope images as uh the raw
+microscope images input and then the uh
+chemically stained uh microscope image
+as the target for your model.
+And so, for example, that's often how
+people see, you know, cell bodies and
+cell boundaries is you apply different
+kinds of stains to the cells and then
+you can make them show up on a
+microscope better and you can see what's
+going on.
+Uh
+Well, it turns out
+uh
+So, this animation, that's the input.
+Uh that's the ground truth and that's
+the predicted output of a neural net
+that's trained to sort of virtually
+stain something without actually
+staining it.
+Um and this is important because
+uh it turns out when you actually stain
+something that kills the cells, so you
+don't get any temporal information about
+what's going on in the the cells. They
+essentially die when you apply the
+stain, but here you can virtually stain
+something, but then follow them
+longitudinally in time and see how cell
+processes kind of continue to to happen
+without actually staining them.
+Uh you can also stain for things that
+you can't actually really necessarily
+develop a true chemical stain. So, if
+you have someone label which things are
+axons and which things are dendrites in
+neural tissue, you can have a microscope
+viewer that highlights axons and
+dendrites in different colors
+and cell bodies um even if that's kind
+of not something that you can chemically
+do with a real stain.
+Um one of the areas we've been doing a
+lot of work is in uh
+language understanding
+models
+and so this started out as research in
+our group to do
+essentially sequence to sequence
+learning. So you have some input
+sequence and conditioned on that input
+sequence you want to predict an output
+sequence.
+So this turns out to be useful for
+actually a whole bunch of different
+problems. But one of them is
+translation. So if you have a bunch of
+sentence pairs one in French and and the
+corresponding meaning sentence in
+English then you can use a sequence to
+sequence model to take the input
+sentence one word at a time or even like
+one character at a time
+and then when you hit a special end of
+French token then you essentially start
+spitting out the corresponding English
+meaning
+English translation of that of that
+French sentence. And so that works like
+this.
+And you have training data that that is
+like that and you just try to predict
+the next word from that training data
+using recurrent neural net.
+And that turns out to work reasonably
+well.
+And then you're actually trying to find
+the
+most probable sequence not the sequence
+with the most probable individual
+individual terms and so you do a little
+beam search where you kind of keep a
+window of candidates and you you sort of
+search over possible vocabulary items
+until you are happy and found a likely
+output sequence and that's how you do
+translation.
+Um
+so one application of this is in Gmail
+we had we added a feature called smart
+reply where essentially we get an
+incoming email so this is one sent to my
+colleague Greg Corrado from his brother.
+Hi, we wanted to invite you to join us
+for Thanksgiving dinner.
+Please bring your favorite dish. RSVP by
+next week.
+So to reduce the computational cost we
+have a small feed forward neural net
+that says is this the kind of thing
+where a small short reply would make
+sense?"
+And if yes, then we are going to
+activate a sequence-to-sequence model um
+and we're going to do a much more
+computationally expensive thing with
+that in uh message as input, and then
+we're going to try to predict plausible
+replies.
+And so, this system produces three. It
+says, "Count us in. We'll be there." or
+"Sorry, we won't be able to make it."
+Um and so, this is a nice application of
+sequence-to-sequence models uh and if
+you squint
+in the world, you'll find lots of
+applications of these.
+And so, turns out that Smart Reply in
+April 2009, there was an April Fools'
+joke that Google put out saying, "Haha,
+we're going to reply to your email
+automatically. Ha."
+Uh but then in November 2015, we
+launched this as a real product. And in
+just 3 months, 10% of mobile inbox
+replies are generated by these Smart
+Replies.
+Um so, that's kind of cool.
+Uh
+but obviously, one of the
+real potential applications of this was
+Translate, which is what we were doing
+demonstrating that this research was
+effective on on a
+large by academic standards, but
+smallish public data set of translation
+data called WMT. So, when we looked to
+work on applying this to the real Google
+Translate product, we actually had a
+100x to 1,000x as much training data.
+And so, scaling this up was actually
+pretty challenging. Um and we wanted to
+make the the model a lot higher quality,
+but we did a nice uh a fairly detailed
+write-up of the engineering behind that
+uh in this many, many author paper.
+Um
+and
+uh so, this is kind of the structure of
+the model that we came up with. It has a
+very deep LSTM stack, each of which runs
+on a different GPU. Uh there's an
+attention module so that rather than
+just having a single state that's
+updated by the recurrent model, you keep
+track of all the states and then you
+learn to pay attention to different
+parts of the input data when you're
+generating
+different parts of the output sequence.
+So you're about to generate,
+you know, the next word and you look
+back at the word hello in the input
+sentence.
+And so on.
+And so this thing runs on
+one replica of this model runs on a
+machine with eight GPU cards with
+different pieces of it in different
+places.
+And then we run a lot of copies of this
+model to
+do data parallelism across the large
+training data
+and we share the parameters. So this is
+a technique we've been using for quite a
+while that we originally published in
+2012 about
+what we call at that time a parameter
+server.
+And then using many parallel data data
+parallel copies to process different
+input data all trying to update those
+shared parameters by applying gradients
+to those parameters. And this allows you
+to scale training
+quite quickly. So you can have, you
+know,
+50 replicas of this kind of setup or 20.
+I think in this case we were using about
+16. So we're using 100 GPU cards to
+train a model.
+And the really good news is
+the blue line here is the old
+phrase-based machine translation system
+that didn't really have much machine
+learning in it any machine learning in
+it. It had large statistical models for
+lots of different sub-pieces of the
+problem. So it had a
+a target language model that told you
+how often every five-word sequence in
+English occurred. It had an alignment
+model that says how words in English and
+French sentences align, had a phrase
+table and a dictionary of plausible
+English and French phrases and
+sentences.
+Um
+and it was like 500,000 lines of code to
+glue this whole thing together.
+And that's the blue line. Uh and what
+we're showing is the quality of
+translations generated by that system as
+judged by humans.
+Um and the green line uh has a
+substantial jump in quality
+uh for
+basically nearly every language pair
+jumps up very substantially. It doesn't
+look like much, but those are really big
+jumps in quality.
+Um and the other nice thing is that
+system is 500 lines of TensorFlow code
+instead of 500,000 lines of gooey code
+with like lots of
+uh handwritten logic.
+Um
+And the green the yellow line on top is
+human bilingual human, not professional
+translator, but someone who speaks both
+of those languages, translations as
+judged by other humans.
+And so you can see that for some
+language pairs we're actually getting
+quite close to uh that human-level
+quality for translation.
+Which is pretty exciting. And when we we
+were trying to kind of roll this out
+slowly across lots of different language
+pairs. And so we launched it in the dead
+of night in Japan.
+And all of a sudden all of Japan kind of
+or many people in Japan noticed that
+suddenly
+uh English to Japanese translation was
+actually usable in quality as opposed to
+before. Uh but when it was kind of
+supported but not usable as one of the
+people on our translate team
+uh referred to it. Uh and so this uh
+professor at a Japanese university um
+decided he would do this experiment
+translating
+uh the first paragraph of Hemingway's
+The Snows of Kilimanjaro to Japanese and
+then back and see what the quality
+looked like. And so if we focus on the
+last sentence, the old phrase-based
+system says, "Whether the leopard had
+what the demand at that altitude, there
+is no that nobody explained."
+So I think there's a leopard involved,
+but other than that I really can't
+understand that.
+Um and the neural machine translation uh
+just generates much more natural
+sounding translation. So, "No one can
+explain what leopard was seeking at that
+altitude." And the only mistake it made
+was it left out the word "the".
+Um, so you can see how this transforms
+it from like really not usable to like
+actually pretty good.
+Uh, another area we're doing a lot of
+research in is this notion of automating
+solution of machine learning problems.
+Uh, what we call learn to learn.
+Um,
+and the idea here is that,
+uh,
+the current way you solve a machine
+learning problem, probably many of you
+in your companies are solving machine
+learning problems. You have data, you
+have some way of doing lots of compute,
+bunch of GPU cards or something. And
+then you have a human machine learning
+expert saying, "Okay, I'm going to try
+this kind of model. I'm going to use
+this learning rate, and I'm going to do
+transfer learning from this data set."
+And and then you hopefully get a
+solution.
+Uh, what we'd like to turn that into is,
+um,
+you have data, and maybe you use 100
+times as much compute, but you don't
+need a human machine learning expert.
+And if we could do that, that would be
+really, really good. Because if you
+think about what's happening in the
+world, you know, there's probably 10
+million organizations in the world that
+should be using machine learning and
+actually have probably data in
+electronic form that would be suitable
+for machine learning, but there's, you
+know, order a thousand organizations
+that have really hired machine learning
+experts in the world to actually tackle
+some of these problems.
+So,
+uh,
+we're trying lots of different, uh,
+efforts in this area.
+And I'll talk about two of them. One is
+a way of designing neural architectures
+automatically, and the other is a way of
+learning optimizers automatically. So,
+architecture search. Um, the idea is we
+want to have a model generating model.
+So, the same way a human machine
+learning expert says, "I'm going to try
+this kind of model." We're going to have
+a model generating model that's going to
+spit out models for this problem.
+Uh
+to solve to tackle a particular problem.
+And so the way this will work is we're
+going to generate 10 model
+architectures. We're going to train each
+of them for a few hours.
+And then we're going to use the loss of
+the generated models as a reinforcement
+learning signal for the model generating
+model.
+And this is sort of just on the
+realm of feasible for small problems
+today.
+Uh but it actually works for small
+problems. So here is an example of a
+model architecture I came up with. And
+you'll see it looks sort of not like
+something a human would have designed.
+Uh the wiring is kind of crazy.
+Uh and this is CIFAR-10, which is a very
+small uh color image problem with 10
+different classes. Got pictures of
+horses and planes and cars. Uh not that
+many classes, but it's been pretty well
+studied in the machine learning
+literature. And the error rate, like all
+machine learning image problems, has
+been dropping over the years. But
+everything above these last four lines
+is a human generated machine learning
+expert model
+uh that someone came up with a new thing
+and published and beat the previous
+state of the art.
+Um and so this is the current state of
+the art. And this neural architecture
+search, basically with that
+architecture, got very very close to
+that state of the art uh without any
+human sort of knowledge of the
+underlying architecture.
+Uh we also tried it on a uh
+a language modeling task. And the
+traditional way you do this for
+recurrent models is use an LSTM cell,
+whose structure is shown there.
+Uh that's kind of the
+the default thing you're going to do if
+you're going to use any sequence data.
+Um
+and we just gave the architecture search
+the sort of underlying primitives of an
+LSTM cell and said, "Go to it. Find us
+some way of dealing with sequential
+data."
+Uh and that's the cell that came up
+with. It looks
+somewhat different.
+But in this case, it actually beat the
+state of the art by a pretty substantial
+margin for this language modeling task.
+And the other interesting thing is we
+then took that cell
+and used it on a completely different
+sequential task in
+medical records future prediction task.
+And it performed better than an LSTM
+cell in that domain as well.
+So learning the optimizer rule
+is similar. We're going to have symbolic
+expressions with and give it the model
+the the optimizer learn
+expression learning model access to the
+raw primitives that you might consider
+using in a neural optimizer update rule.
+Things like here's the gradient, here's
+the running average of the recent
+gradients, here's the momentum term.
+And so the top four lines here are
+human-designed
+update rules that people traditionally
+use. And they're
+you know, they've been designed over the
+last decade
+or few decades in case of SGD.
+And
+are generally what people use. Adam is a
+pretty good choice
+these days.
+And often SGD with momentum, which is
+the second line, is the the best choice.
+And what you see is that this thing came
+up with
+15 or something completely different
+expressions than what we've explored,
+and they're almost all better than all
+of the human-designed ones.
+And so that's kind of encouraging.
+That's going to appear in ICML in a
+month or two.
+Uh
+And we also took one of the most
+promising ones of those and we then
+transferred it to a different problem
+where we hadn't
+the problem we didn't design am
+optimizer on.
+And we use this other optimizer
+and found that it gave, you know, better
+training perplexity, lower is better for
+perplexity, and better blue score, which
+higher is better for that metric, than
+Adam, which was the best optimizer we'd
+found before.
+Uh so, I think this whole notion of
+learning to learn is going to be pretty
+powerful because a lot of what machine
+learning experts do when they sit down
+to solve a problem
+is actually they run lots of
+experiments. And right now, a human
+can't run that many experiments, right?
+It's just a lot of cognitive load to run
+50 experiments or 100 experiments. And
+this thing can run, you know, 12,000
+experiments in a in a weekend, and many
+of them suck, but many of them don't.
+Uh so, the other thing that's
+interesting is
+that a lot of what's happened is we've
+been able to solve lots of problems
+because we have a lot of data and
+because we've been able to scale the
+amount of compute we throw at different
+problems. And so, really,
+uh one of the nice properties of deep
+learning have
+is really transforming how we think
+about designing computers these days.
+So, deep learning has two really nice
+properties. So, one is that it's
+perfectly tolerant of very reduced
+precision arithmetic, so, you know, one
+significant digit kind of thing. You
+don't need uh double precision. You
+certain You certainly you don't don't
+need single precision floating point. Um
+and the other property it has is it's
+generally made up all the algorithms I
+showed you are made up of a handful of
+specific operations kind of cobbled
+together in different ways.
+And so, that really leads to an
+opportunity where if you can build
+custom machine learning hardware
+targeted at doing
+very reduced precision uh linear
+algebra, then you can all of a sudden
+uh unlock huge amounts of compute
+relative to CPUs or GPUs, which are not
+really targeted at doing
+uh these kinds of things.
+And so this is we've been doing uh
+custom machine learning accelerators for
+a while. Uh we've had a first generation
+one that was targeted at speeding up
+inference, so not training uh but
+inference when you're actually running a
+trained model uh in in the context of a
+product. We had our first
+version uh deployed in our data center
+for 2 and 1/2 years or something, and we
+just revealed this system uh which is
+designed for both training and inference
+uh
+at Google I/O.
+And
+uh this is uh
+a board. Uh one of the things we felt
+was important was to design not just a
+chip for training, but also an entire
+system.
+So because you're unlikely to get enough
+compute for large problems on a single
+chip.
+Um so we designed a really
+high-performance chip, and we also
+designed them to be
+uh hooked together. So this is what we
+call a pod, which is
+uh 64 of these boards, each of which has
+four chips.
+So 256 chips.
+Uh and that's 11 and 1/2 petaflops of
+compute. And we're going to have lots
+and lots of these in our data centers,
+uh which is pretty exciting cuz I think
+we'll be able to tackle much bigger
+problems. It's going to bring a lot more
+compute for some of the learn-to-learn
+approaches.
+Uh
+and normally programming a supercomputer
+is kind of annoying.
+Uh so we decided we would make our these
+programmable via TensorFlow. So you
+essentially can express a model uh with
+a new interface that we're adding to
+TensorFlow 1.2 called estimators.
+And then the same program will run with
+minor modifications on CPUs, GPUs, or on
+TPUs.
+Uh and that's going to be available
+through Google Cloud. You can get a
+thing uh called a Cloud TPU later this
+year, which is going to be a virtual
+machine with 180 teraflop uh TPU version
+2 device attached, and it'll run
+TensorFlow programs super fast, we hope.
+Uh
+we're also uh making a thousand of these
+devices available for free to
+researchers around the world uh who are
+doing interesting work and want more
+compute and are committed to actually
+publishing the results of that work
+openly.
+Uh and also hopefully giving us feedback
+about what's working well on these TPU
+devices and what's not. And ideally
+open-sourcing code associated with those
+models, but not we're not sure that's
+going to be a hard requirement, but it's
+uh desire on our part uh to help sort of
+speed up the whole uh
+science and machine learning research
+ecosystem.
+Uh
+and so you can sign up there if you're
+interested in any of these things.
+Uh
+Cloud Google Cloud uh is also producing
+higher-level APIs that are more managed
+services or pre-trained models that you
+can just use um without necessarily
+being a machine learning expert. So if
+you have like photographs, you can run
+them through the Vision API and it will
+read all the text in it and find all the
+faces and tell you what kinds of objects
+are in it and do all kinds of good
+stuff. Uh and the translation API has
+really nice high-quality translations
+that might be useful
+lots of things.
+Uh
+One final closing thing, uh we've also
+been experimenting with machine learning
+for doing higher-performance machine
+learning models.
+Uh and so in this case, what we've been
+doing is a similar kind of reinforcement
+learning
+where we're going to take an abstract
+TensorFlow graph and we have a bunch of
+computational devices that we want to
+run that on, say four GPU cards. And we
+say to the RL algorithm, we want you to
+find the placement of TensorFlow
+operations onto devices that makes that
+model run as fast as possible.
+And the the current way people do this
+is they okay, I have four GPU cards, I'm
+going to run this part of my graph on
+GPU card one, this part on GPU card two.
+And that's okay, but it's kind of
+annoying because it's not something that
+humans really want to think about. And
+so we're actually able to come up with
+pretty exotic placements. So each color
+there is a different GPU card. And this
+is a On the left you see a
+um
+a
+uh sequence prediction model unrolled in
+time. So different time steps are on
+uh different GPU cards, which is not
+kind of counterintuitive to what
+a human expert would do. And this is a
+image model and but the punchline is
+they're basically 20% faster than the
+human expert uh placement uh that uh
+people came up with.
+Okay. So now we're here and we think
+there's a big opportunity with more
+compute to actually accelerate
+a lot of the use of machine learning and
+the sort of different applications and
+societal benefits that uh you can
+actually get from it. So uh I'm pretty
+excited about that. And you know,
+example queries of the future,
+you know,
+uh actually the upper left one we can
+already answer.
+Describe this video in Spanish. I didn't
+show you, but we can actually caption
+and generate sentences about images. Um
+it's probably not that long before we'll
+be able to describe a
+uh a human uh video.
+Uh find me documents related to
+reinforcement learning for robotics and
+summarize them in German.
+Um you know, that's a pretty complicated
+request, but imagine how That's the kind
+of thing you would give to an
+undergraduate as like a semester project
+and then please come back with the
+report for me. But imagine what if we
+could actually do that, uh how much more
+productive everyone would be.
+It'd be pretty amazing. And then
+robotics I think is at a inflection
+point where
+through machine learning for control,
+we're going to have robots that can
+actually operate in messy environments
+like this one or the kitchen over there
+uh and actually know how to manipulate
+things in a safe way interacting with
+humans. So that's going to be exciting,
+too.
+So uh
+you already know this, but deep neural
+nets are making big changes and you
+should pay attention.
+Uh
+you can find more info about our work
+at g.co/brain.
+And that's all I have. You could join
+our team, but you're already starting
+companies.
+Before we get to questions, I have a
+poll that Zach requested me to do and I
+I'm curious, too.
+How many of you are using deep learning
+models in what you're doing?
+Okay.
+How many of you are using Caffe?
+How many of you are using PyTorch?
+Okay.
+Half-hearted PyTorch.
+How many How many are using
+Theano?
+Keras? Okay. And TensorFlow?
+Okay. Cool. That's good to know.
+Uh
+Excellent. Yes. Yes. It's roughly in
+proportion, in fact.
+Cool.
+Anything to add, Zach?
+Okay. Any questions?
+Yeah. Oh, well.
+Should I describe it?
+Sure. Uh I
+Um when you talk about sort of the the
+learning to learn stuff and sort of the
+the neural net models designing other
+neural net models,
+uh for like for example, when the neural
+net model designed a model that
+performed better on Cfar10 than than
+other models, do you look at those
+models and say, "Oh, I understand why
+that performed better?" Or is it kind of
+the case that
+it did something wacky and you don't
+understand really why it works better?
+I mean, I think it depends. Like some
+sometimes you just want the most
+accurate end model for the problem you
+care about, and that's fine. Sometimes
+you're trying to
+uh
+come up with
+a model and you want to understand why
+it's more accurate so that you can then
+drive further human-oriented machine
+learning research. So, I think it
+depends. Like the symbolic expressions
+for the optimizer update rule, those are
+actually pretty interpretable. So, like
+if you if I go back to the
+um it's actually pretty interesting,
+right? If you look
+here,
+there's this subexpression e to the sign
+of the gradient times the sign of the
+momentum.
+Uh that seems to reoccur in a lot of
+these different optimizers that it's
+learned, and that sort of makes sense.
+Basically, if the sign is the same as
+the direction you've been going, then
+speed up.
+And if it's different, then slowly down.
+Right? And that's kind of a good
+intuition to have, and you can see that
+the reinforcement learning wanted to do
+that in like five of these things.
+Uh so, in the some sense, depending on
+what problem you set up in the
+learn-to-learn framework, you can
+actually come up with human insights
+about, "Oh, well, that makes sense."
+from the experiments it's run. Uh but,
+you know, here
+that that you can kind of investigate
+that cell and understand
+if you actually look, it's doing a bunch
+of adds at the bottom, but it's also
+doing an element-wise multiply
+for the input data in for one of the
+path through the cell, which is kind of
+different than the LSTM cell is doing,
+and so that might be sort of insight
+into why it's doing that. If you look
+here,
+um
+you know, I think that architecture's
+kind of crazy, but we do know from
+ResNet work that these skip connections
+make a lot of sense. And so, this is
+just kind of like crazy skip connections
+in lots of places. Well, yeah, then I
+guess maybe a follow-up question is, do
+you think this is going to be a tool for
+humans to build better nets, or this is
+going to be how nets are built in the
+future is with other nets? Uh could be
+both.
+But,
+uh
+I will say that
+this system can run 12,000 experiments
+in a weekend, and humans are not that
+good at that.
+So, with all that compute you were
+showing, it strikes me that you might
+run out of human trainable data. Is that
+stuff really
+for the reinforcement learning where you
+can run 12,000 experiments in a weekend,
+or do you have enough
+human labeled data to Oh, so
+for satisfy that amount of computation?
+When we were training our translation
+models for one language pair, we were
+using hundreds of GPUs for a week.
+And for that problem, we actually have
+enough training data that we could only
+get through 1/6 of that data once. Wow.
+Uh, so we know that if we could get
+through all of it, the quality would be
+way better, right? Cuz that's just a
+general rule of machine learning. If you
+could get through all your data,
+probably it'd be better than not.
+Um, and if you could even go through it
+a few times, that would probably be even
+better. So, we think there are plenty of
+problems where there's enough labeled
+data in the world that you want to
+tackle a single problem and uh train a
+single model on something like that.
+But, it's also going to be pretty good
+for small model exploration where you
+try to, you know, 10,000 different
+things, and they each take an hour to
+run on some subset of the chips. It just
+depends on the problem.
+You know, the the architecture search is
+kind of tenable with
+not current generation, but one
+generation ago GPUs for things like
+CIFAR-10, cuz you run that for an hour
+and you get an answer for one of the
+experiments, and you run 12,000 of
+those. So, 700 GPUs over a weekend. We
+know there's a bunch of algorithmic
+improvements we could do that would drop
+that by a factor of 10, but it's kind of
+just on the boundary of practical for
+tiny problems.
+And making it practical for real
+problems at scale, I think it's going to
+be really, really cool.
+Maybe maybe a follow-up question to
+that. So, you had that slide on there
+where you have person, data, compute.
+Person's gone. Um
+with with data, do you see anything in
+the near term in which you could have
+um really powerful models on very very
+small mu- much smaller data sets than a
+company like Google would would have
+access to? Yeah, I mean, I think the the
+right way to tackle that is right now
+the way we as a community tackle machine
+learning problems is we say, "Okay,
+we're going to train a model to do
+this."
+And we might say, "Gee, we don't have
+much data for this problem. We're going
+to do transfer learning from ImageNet,
+and then I have my 5,000 flower images,
+and I'm going to do transfer learning
+and fine-tuning on that."
+But that's really kind of lame, right?
+Like, if we want to build real systems,
+real intelligent systems, we want a
+model that knows how to do a thousand
+things, 10,000 things. And then when the
+10,000 and first thing comes along, we
+want it to build on its knowledge for
+how to solve those 10,000 things so that
+it can solve the 10,000 and first thing
+with much less data, with many fewer
+examples, with building on the
+representations it's already learned.
+So, if we can build a single giant model
+that can do thousands of things, that's
+going to improve the data efficiency
+problem a lot, and also the time to the
+wall time to actually being able to
+master a new task problem as well.
+So, I think that's the way we're going
+to get to
+uh you know
+more data efficient, more flexible
+things. Cuz the problem with the current
+approach is we train a model to do one
+thing, and then it can't do anything
+else.
+Right? Which is pretty lame.
+Yeah. What do your best engineers do
+while they're waiting for models to
+learn?
+Uh
+well, they often start up other
+experiments
+uh and hit reload on the the visualizer.
+Uh they write code. They think of ideas
+uh
+at a whiteboard. They do lots of things,
+but you know, getting that
+that cycle iteration time down from you
+know,
+days or weeks to hours
+really just qualitatively changes your
+workflow.
+And so I think we're really shooting for
+making that time to result as low as
+possible.
+And then they won't have, you know,
+people will not have these these
+week-long things where they're
+you know, gosh, I hope my experiment
+works.
+So what would you attribute the gap in
+translation quality to between
+languages? Is it just amount of data
+behind each one?
+I think some language pairs the
+translations are more natural cuz
+they're more related kinds of language
+families and the alignment is maybe the
+similar as opposed to a very different
+word order and very different character
+sets for example.
+But I think ultimately we will get
+higher accuracy models by you know,
+using a pod to train a really big model
+and get through all the data once. I I
+suspect we could probably exceed human
+quality translations for some language
+pairs,
+you know, if we could get through all
+the data once maybe the maybe a slightly
+bigger model.
+And the analogy is you know, even a the
+best human translator is only going to
+see so many words in their life.
+And if your translation system can train
+on a lot more data
+and see more of them even though it's
+probably not as intelligent and flexible
+at getting its maximum information from
+each word that it sees, it's maybe at
+some point it'll do better.
+Um do you find that you can kind of
+brute force the network architecture
+better on certain types of data versus
+others
+and what's the variance between like
+social tasks?
+So to be honest, we haven't experimented
+with a broad enough set of tasks to
+really make conclusions here. Um
+I suspect that there may be tasks. I
+think
+probably for any supervised task that's
+like where you have a crisply defined
+input and output and you have enough
+training data,
+you know, it'll probably work. It's a
+question of how much compute you need to
+apply.
+Uh we have a lot of ideas around
+uh you know, making the algorithmic
+search more efficient by cutting off
+experiments that are obviously deads
+early rather than running them to
+conclusion and doing lots of things like
+that. Yeah, I think the architecture
+search itself right now we train a
+bespoke model generating model for each
+problem we're trying to solve. And so
+obviously you would want to train a
+model generating model that solves many
+problems. And then you'll be able to get
+in a better state of good architectures
+for a new problem because of seeing
+similar problems and you're like, oh
+yeah, like lots of convolutions and 12
+layers is a good place to start
+or something.
+Uh how does the uh kind of the internal
+the bonus cycle look like for
+optimizing the
+the machine learning models? Like how
+often do you retrain?
+How often do you play with the different
+set of hyper parameters?
+For the the learn to learn models in
+particular? Uh no, but for example for
+all of pre-trained APIs you provide like
+for the vision API,
+how frequently do you kind of
+do the retraining and
+Right. Uh
+it it varies depending on the domain.
+Like some domains like vision are pretty
+stable. Like you don't need to retrain
+every every hour.
+Uh
+but other domains like for some of our
+internal problems like predicting,
+you know, uh
+um
+you know, maybe you're trying to predict
+what ads are relevant. That set changes
+fairly rapidly. Like there's a new
+chocolate festival on Long Island
+tomorrow that wasn't there yesterday.
+And now you actually want to know that
+that's important. Um so some things have
+a very stable distribution, some don't.
+Uh it really just varies a lot depending
+on the problem. Certainly it's easier
+for things like speech or vision where
+just the basic perception is what you're
+trying to do and the distribution is
+pretty stable.
+Um and if you have a changing
+distribution, that just introduces lots
+of annoying production issues cuz now
+you have to retrain and you need to sort
+of somehow integrate new data so that
+you can learn new concepts and new new
+correlations relatively quickly so that
+you can then produce good correlation
+good outputs.
+Yep. Um you mentioned sort of fast
+iteration being really important for
+developing this stuff. How much of the
+process sort of now and like the cutting
+edge, you know,
+neural net development is still trial
+and error and how much of it is like I'm
+going to insert this and I know what's
+going to happen?
+Um
+I mean I think a lot of machine learning
+research is empirical these days, right?
+You have an idea, you think it'll work,
+but you need to try it implement it,
+uh try it on interesting problems,
+uh explore the set of hyper parameters
+or whatever that will make the idea go
+from not working to hopefully working.
+And so it's often the case that you need
+to do this kind of empirical stuff.
+I mean there's some ideas that you could
+have a lot of intuition like oh yeah,
+that's definitely going to work. Uh even
+beforehand cuz it's sort of putting
+together two things that did work with a
+third thing that also did work and it
+seemed pretty obvious that combining
+them is going to going to work as well.
+But other things it's hard to build the
+intuition.
+Um I know a while ago you guys had done
+some really great work on helping
+visualize what a convolutional neural
+network doing image classification was
+doing. So like the interpretability of
+models seemed to be like a focus for a
+bit. And then there's a point where you
+kind of cross that and it's like the
+learn-to-learn stuff you just can't
+interpret. And maybe this is kind of
+what you were asking, but how important
+is that for delivering production models
+to humans who maybe are not machine
+learning experts that need to work
+alongside a robot classifier? It's
+really important in some domains and not
+important in others. And we actually
+have a pretty big focus. I
+I have a much longer talk or a set of
+slides I select a subset among
+uh we we have a we've doing a bunch of
+work in sort of understanding and
+visualizing and and building
+interpretability for models
+uh that I didn't talk about, but it is
+an important area. Uh
+the main areas where I think it's really
+important are in healthcare.
+Like, if you tell someone if you're
+providing advice to a physician, you
+say, "Patient needs a heart valve
+replacement." You know, they're going to
+want to know why are you saying this,
+right? And so, if you can go back and
+highlight a part of a medical note that
+says, "You know, a year and a half ago
+patient was complaining about like their
+heart felt like it skipped a beat every
+so often or something."
+Um that's going to give much more
+uh
+uh smooth interactions between a machine
+learning system and a human and let them
+kind of each do play to their strengths.
+Whereas, if you just give a black box
+prediction, that's often not as useful
+in some domains. But, some things like
+image classification, I just want the
+most accurate image possible uh
+classification possible.
+Yeah.
+Okay.
+Yeah.
+What caused you to originally start
+focusing on machine learning 6 years
+ago? And is there anything to be learned
+from that in terms of finding other
+areas that may have kind of explosive
+growth in the future?
+Um so, the thing that caused me to start
+doing this is I
+heard
+I kind of like to keep a pulse on
+different areas of computer science and
+I started to see neural nets being
+successful in some domains just by like
+reading abstracts of things and I had
+this bug in the back of my head from my
+undergrad thesis that neural nets were
+actually the right abstraction and so I
+kind of heard inklings. I chatted with
+Andrew Eng who was consulting at Google
+one day a week uh
+and he said, "Oh yeah, neural nets are
+I'm I'm like, "What are you working on
+at Stanford?" And he's like, "Oh, neural
+nets are kind of interesting again."
+And I'm like, "Oh, cool. Really? I used
+to do work on that." And I
+kind of
+he and I started talking and I just felt
+like
+if the problem for neural nets was scale
+like back from my experience where you
+know, more compute
+seemed like the right answer but wasn't
+then but now we actually have a lot more
+data. We have much more compute in a
+single processor but if we could throw
+lots of processors at this problem then
+perhaps scale would let us solve
+problems that we couldn't before. And so
+I kind of had this inkling that neural
+nets were great abstraction from 20
+years before and felt like
+it would be fun to go see if we could
+make them scale.
+Yeah.
+Yeah, can you talk a little bit about
+what you think
+the development of
+the larger field of AI will be
+in 10 years especially in terms of like
+developing particularly like real
+reasoning systems because the neural
+nets of today
+are not necessarily reasoning most of
+the time today.
+Right. I I mean
+I think
+there's probably a lot of algorithmic
+things that we're going to need but I do
+think one of the major problems and why
+we don't have systems that appear to
+reason
+is because of this problem of training
+neural nets to do one thing.
+Right? If you had a lot more compute and
+you had a model that could do tens of
+thousands of things, and you had some
+algorithmic constructs where you sat
+there and cogitated for a while and
+built sort of plausible scenarios and
+explored them with compute computation,
+and then eventually came back with an
+answer for this new thing. That might
+appear to be more like reasoning because
+you're building on all this other
+groundwork of knowledge that you've
+learned from solving 10,000 other
+things.
+And I think that's what humans do,
+right? We We We learn to do a new task
+or to reason through something by
+building on our experience that we've
+already accumulated from, you know,
+perception and building up that kind of
+low-level thing around the world, but
+also from, you know, bringing concepts
+together from math and science through
+our education and being able to reason
+through something. So, I think, you
+know, a lot of it is that we don't have
+these massively multitask models being
+trained today. Do Do you feel like
+there's like a lot of some sort of
+persistent knowledge store that missing
+from the current Cuz it it it feels like
+a human brain kind of has that, right?
+Right. Uh I didn't put in this talk, but
+I think one of the real problems that we
+have is we kind of have a model and we
+densely activate the entire model for
+everything we do. I think what we
+actually want is a model that's very,
+very big, like think, you know, uh
+100 billion, trillion parameters, uh but
+where for any given thing, you activate
+only a tiny fraction of it, 1% of it, 5%
+of it. Um you know, your brain works
+this way. Uh and that seems like And you
+have to be able to the the way you store
+stuff is just by having a lot of
+parameters.
+Yeah.
+So, on that note of having um
+some sort of network that can do like
+10,000 things rather than just one.
+Like, I know you haven't like brought up
+uh like the mind like differential
+neural neural computing or like memory
+augmented networks. So, like
+can you talk a little bit about that?
+Sure. I mean, I think
+memory networks are kind of an
+interesting
+emerging area where you have this kind
+of local state that you can update and
+mutate in the process of
+accomplishing some sort of task.
+Um so far, I think those have been
+applied to relatively modest-sized
+problems. They may be part of the
+solution, part of something that we
+would want like short-term working
+memory as you're like looking through a
+set of possible solutions to some
+problem.
+Uh
+I think, you know, they're definitely an
+interesting area. Um
+I think
+uh
+combining that with, you know, a model
+that does 10,000 things or a million
+things
+um might get us pretty far.
+Uh as we automate more and more types of
+hyperparameter search and architecture
+search,
+where do you see the role of data
+scientists or ML experts going?
+Well, I think one of the nice things
+about architecture search is it actually
+combines really well with machine
+learning researchers.
+So, if someone comes up with a new
+interesting thing, you can put that in
+the search space of these automated
+learning-to-learn systems pretty easily.
+And then all of a sudden, you now have
+the access to this hybrid
+best-of-both-worlds like very primitive
+things, but also these hand-designed
+things that humans have come up with
+that seem effective.
+And
+um use
+that as the the search space. So, it's
+not like machine learning researchers
+will not have uh anything to do.
+Um and I think
+you know, there's a ton of work in
+figuring out what are interesting
+problems where machine learning can
+actually
+uh make a difference and which ones are
+worth solving and how do we solve them.
+Maybe Maybe a good time for this
+question. What What's in your opinion
+what's like the coolest thing neural
+nets are being applied to right now?
+Um I'm really excited about health care.
+I think the ability of neural nets to
+uh ingest a lot of data
+uh and then make sort of interesting
+predictions
+uh in a smooth way so that you can take
+a patient in a particular state and say,
+"Okay, here are the five most likely
+diagnoses for this patient because, you
+know, I've seen, you know, a million
+other patients and I've I know these 17
+seem to have similar conditions."
+Um you know, I think that's that's one
+that will have a really big societal
+impact. It's, you know, fraught with
+lots of rollout issues cuz it's a
+heavily regulated environment. There's
+all kinds of privacy issues, but
+ultimately I think
+um making better health care decisions
+is going to be pretty big.
+Um
+the coolest things, you know, I I really
+like all the art generation kind of
+things. Those are fun.
+Uh the ability of neural nets to write a
+sentence about an image, you know, I I
+was kind of surprised that happened that
+early. I would have said, you know,
+before that work, uh some of which was
+done in our group, I would have said,
+"Uh I don't you know, we're good at
+saying that's the lion. I don't think we
+can say that's a lion sleeping on a rock
+uh with a pretty yellow mane or whatever
+it is."
+Um and that that's pretty cool.
+Okay. Okay. Thank you very much. Sure.
+Thank you.
+Mhm.

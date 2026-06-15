@@ -1,0 +1,723 @@
+Title: Masterclass: How to hire engineers remotely (10X more remote work candidates)
+Video ID: kJ4o0ONH7W8
+URL: https://www.youtube.com/watch?v=kJ4o0ONH7W8
+Channel: Garry Tan
+Published: 2021-01-09T20:00:11Z
+Duration: PT20M39S
+Views: 10140
+Likes: 344
+Tags: remote interviews, remote software engineering, remote software, remote engineering, remote software engineering jobs, remote jobs software, remote job interviewing, interviewing questions, software engineering, hiring, software engineer hiring, triplebyte, garry tan, ammon bartram, initialized capital
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 696
+
+Description:
+Today I wanted to welcome back Ammon Bartram from Triplebyte. He’s here to talk about all the things you need to know to be able to properly run your software engineering interviews, but completely remotely. The good news about remote hiring? The number of people who could work at your company just went up by 10X to 100X.
+
+00:00 Intro
+01:30 How to hire remotely
+02:30 Interview process
+04:37 Brainteasers are noise
+07:17 Low noise questions
+07:37 Triplebyte Screen: Rank and filter applicants quick
+
+============================================================
+TRANSCRIPT
+============================================================
+
+hey guys today i wanted to welcome back
+amen bartram from triple byte
+he's here to talk about all the things
+you need to know to be able to properly
+run
+your software engineering interviews but
+completely
+remotely i have some great news about
+remote hiring for you especially if you
+were only hiring san francisco or new
+york or la
+the number of people who could work at
+your company just went up
+by 10 to 100 times
+let's get into it
+[Music]
+amen welcome back to the channel thanks
+for coming back on
+obviously we wish this could be in
+person but these days we can't
+thanks for coming back yeah well thanks
+for having me the fact that we're
+meeting over zoom
+really highlights the topic for today
+right highlights the fact that running a
+company and building a team and hiring
+engineers when
+all you can do is interact you know
+virtually is is a real challenge
+yeah and there are teams out there tens
+of thousands if not hundreds of
+thousands of engineering teams out there
+that are for the first time having to do
+remote interviews and you've done so
+many
+a thousand more than a thousand yourself
+and triple bite has
+done more than 200 000 since the
+beginning so
+i guess given your wealth of knowledge
+what would you tell someone who tomorrow
+is sort of
+doing their first remote software
+engineering hiring i mean that's pretty
+scary stuff
+if you've never done it before right the
+goal of an interview is to is to to
+judge
+does this person have the skills to join
+my company and be productive and that
+that's true
+you know if the person is coming on-site
+that's true if you're doing a remote
+interview
+and so going with that mindset there are
+some logistical
+challenges there are things that are
+harder when you're interacting remotely
+and i'll get into those in a moment but
+the fundamental interaction
+is is still the same and there actually
+are some
+some benefits of doing that interview
+process remotely
+especially now right we're all running
+our companies remotely and so
+what really matters for an employee is
+you know can they use zoom can they
+communicate well in that in that
+environment and
+you're actually probably getting a
+better read of that right interacting
+with somebody
+during a remote interview it's probably
+a better
+just facsimile you know a better a
+better stand-in of what the job is going
+to be and how
+you're going to interact with that
+person um going forward are
+remote interviews more inconsistent and
+you know how do you control for that
+yeah i think inconsistency is
+in my opinion the number one challenge
+of interviews right your goal
+is to is is to predict can this person
+do the job
+to highlight that challenge i kind of i
+like thinking about
+so imagine that that you had to go back
+and take your current team your current
+co-workers or or boss or employees
+people people who are really good
+teammates who
+do the job well and imagine that you had
+to
+reinterview all those people didn't know
+them you had to like you you were
+do over get in front of them um and the
+scary question
+is what percentage of of again these
+excellent co-workers of yours would pass
+that interview a second time
+it's never all science but the closer to
+science it is
+the better that's what a good process is
+to measure that
+so so at trill bite we we interview
+thousands of engineers we've
+got about 200 000 total and then we send
+them to companies
+and we get to see how different
+companies react to the same candidate
+the thing that i did actually was go in
+and just compute okay
+so to what extent do different
+interviewers
+tend to agree about which candidates are
+strong in which candidates are weak
+and i think the metal model we all have
+is that oh there are there are strong
+people that are less strong people and
+an interview you're filtering out
+but what we found when we computed that
+stat um something called the
+inter rate of reliability across
+interviewers
+was that the the amount of agreement
+there
+was actually so it's quite low and it
+was similar to the amount of agreement
+that movie reviewers have when deciding
+which movies
+are our best um and so like there is
+some agreement right everybody loves the
+godfather
+but there's also a great deal of
+personal preference and
+noise and then randomness in both cases
+and
+who you hire your company is just
+absolutely critical right your
+your team is the people you hire there's
+nothing more important you're really for
+a company of any size
+and so the core challenge of
+interviewing in my opinion is
+trying to find sort of strategies to
+to minimize that noise and just more
+accurately get a repeatable signal of
+who has the skills it takes to
+to you know do a job of your company the
+classic thing that interviewers and
+software used to do
+maybe this was 10 or 15 years ago
+certainly when i came out of college
+people really love the brain teaser
+it sounds like you shouldn't do that
+anymore
+they're a great example of
+one of the sources of noise that's
+really common in interviews so
+you get a person in the room and you ask
+the brain teaser whatever it is it's
+it's
+classic you need your question about
+computing the the um
+you're the one with a flight of stairs
+and you can take either one step or two
+steps at every
+you know at every point in the stair and
+the question is how many unique paths
+are there at the top of the flight a
+flight of n stairs
+you could try to write a program to
+solve it it's going to be exponential
+time
+this really is a brain teaser right
+there's a very simple solution it
+ultimately it's it's a fibonacci
+sequence and if you realize that solving
+it is fairly trivial whether a given
+candidate in front of you
+comes to that insight right comes to
+that that leap of logic to solve the
+problem
+there's some correlation with with
+ability and skill there certainly is
+but there's also just a huge amount of
+noise so has the person heard that
+problem before
+or are they less stressed or do they
+have more mental more free cycles in
+their brain to think creatively
+do they just as they pick a course of
+thinking of this problem do they come to
+that
+that insight so a rule of thumb that i
+highly recommend
+is avoiding any interview
+question where you have to worry
+has this question been given away to the
+candidate right so
+if a candidate if there's sort of a hard
+a fact or a
+hard nugget of knowledge about the
+problem where the candidate has that
+knowledge
+then they'll be able to easily solve the
+problem that's a strong sign that this
+is going to be a less predictive
+question because there's going to be
+this noise and does the candidate come
+to the inside and so an example of a
+question that doesn't have
+that aspect is here's an example here's
+here's description of the game
+minesweeper
+can you write a via this command-line
+interface can you write an invitation of
+minesweeper to run in a terminal
+if the candidate knew in advance that
+you're going to ask them to write
+minecraft they could practice
+but still it's still a long series of
+steps there's no one
+little bit of hard logic that they have
+to get right
+um and i want to point out that it's not
+a question being having having that that
+that property of being longer and more
+continuous
+is not the same as being easier so if
+you want to add you can have problems
+that have
+hard for example you can ask candidate
+to write minesweeper and then write a
+mind super solver
+it's not an insanely hard problem but it
+gets into graph theory and some of the
+stuff that that
+interviewers might want to assess but it
+still has this property of being
+a process that you can observe as
+opposed to like a binary
+hard question did they get it right did
+they get it wrong this is part of the
+reason why triple byte itself is so
+useful
+before you even commit to doing a remote
+interview if you can have your
+candidates be run through
+these normalized questions that are not
+brain teasers
+before you even meet that's winning half
+the battle
+and it sounds like a triple byte screen
+is actually literally that
+i actually want to talk about something
+that we just built and released a few
+months ago
+it's called trill by screen and
+basically
+we've taken our internal evaluation
+process
+that we use to pre-skin candidates for
+all of our big
+customers who i can't name and we've
+released this
+as a product that anybody can use to
+screen their own applicants um we did a
+beta with flexport and what they did was
+take their inbound applicant flow people
+who were applying directly to them
+and you know previously they were doing
+resume screens so they would say you
+know of this
+this cohort who's worked in a company
+like looks exciting who's gone to a good
+school
+and there's some value to that screening
+but it ends
+up screening out a lot of people
+especially sometimes more diverse
+candidates who might come from a
+non-traditional background
+and so what screen basically is a
+completely background blind test
+that flexport is now using to actually
+measure
+the programming ability of everybody who
+applies in a pretty lightweight way it's
+not very onerous for for the candidates
+and use that actual skills data
+as opposed to resume screens decide who
+comes on site and and and ultimately who
+they hire
+it's actually completely free so i think
+we're gonna put actually a link if you
+can below gary
+in the in the show notes um it's really
+free for companies to sign up
+so it sounds like really really helpful
+in this time of
+remote only interviewing which is really
+stressful honestly for a lot of people
+because they're sort of
+doing that whole process remotely
+sometimes for the first time
+triple byte screen's basically going to
+let anyone get
+the world's best candidate screening
+right at the beginning of the process
+and that helps
+incredibly when it comes to the
+the later stage which is once you're
+actually bringing them on zoom for the
+remote interview the
+what you used to call the on-site better
+inputs equals way better outputs
+what we're seeing is that as companies
+go remote and start to hire you know not
+just in san francisco or austin wherever
+their their previous home base was
+um it's awesome and it opens up this
+whole new massive really the whole
+country of the whole world depending on
+how you're you know whether you're
+you're hiring internationally
+um but it opens up 10x the pool of
+candidates
+for the role and we're releasing screen
+really help folks with that challenge
+okay suddenly you have 10 times as many
+people who who can
+you know potentially are are good fits
+for your role how do you decide
+you know no one can interview everybody
+right so how do you decide of all those
+people
+who you're gonna go forward with and the
+previous
+best you know state of the art for that
+was resume screens
+and they do work to a certain extent
+they're not they're not non-predictive
+but especially if you're not super
+familiar with the employers
+in st louis where somebody might have
+worked in the past it's hard to know if
+somebody's
+three years of experience that company x
+in in st
+louis is relevant to you or or
+completely irrelevant and so
+screen is a kind of way to get some more
+more concrete uh data to help with that
+process
+yeah and concrete data is really what
+this is about right
+everyone wants to work in tech and one
+of the things we talked about at length
+in our last interview
+was this idea that credentialism is
+actually holding back
+hundreds of thousands if not millions of
+people from
+being welcomed with open arms into
+technology
+technology is remaking all of society
+and
+yeah it's a mistake for tech companies
+to not be as inclusive as possible
+and what that requires is actually a
+lowered reliance on
+did this person go to stanford or
+yeah or harvard or what you know the did
+this person
+win like a lottery when they were 18
+years old and like
+should we allow that to determine the
+course of their whole life the answer is
+absolutely not
+and that's why i think working with you
+and triple byte is a very important
+thing
+to do and a very important thing to do
+for all of tech
+it's really sort of unlocks a key to
+making it
+some place that anyone can enter without
+regard to what does that resume look
+like it's actually about skills
+i really really think that that's
+powerful i i
+would highly agree that's our mission
+right our mission is to create a more
+just tech industry
+by fixing software engineering and and
+you know creating a world where
+it's the skills that every engineer has
+that open doors for them
+these other things they know the social
+economic class and and you know
+put someone's parents into a good school
+one interesting note here actually
+is that this move to remote
+and this move to remote interviewing i
+think is actually a pretty big positive
+for for diversity there's obviously the
+angle of
+you know people who don't live in in you
+know new york or san francisco are now
+can i cannot
+get jobs at you know at twitter at
+dropbox and all these companies that are
+committing to to
+to long-term remote so that that just
+expands the pool of people from from
+more diverse backgrounds but the
+interview itself
+when you talk to engineers about about
+interviews what they hate is the stress
+right it's fundamentally stressful
+you're out you've got you you know you
+get in front of this person that you
+you know you know they're judging you
+and everybody is negatively impacted by
+that
+right if you could solve a problem in 10
+minutes when you're when you're when
+you're
+stress-free it's gonna take you 15 or 20
+or 30
+when you know that an interviewer is
+staring down the back of your neck
+and it's especially true for people who
+might have some some self-doubt
+or maybe you need some accommodations
+that that are hard to get in the
+interview
+and everybody running interviews
+remotely it means that every candidate
+is you know they can interview from from
+their bedroom they can even from from
+whatever whatever is the most
+comfortable place for them they get
+their
+their own machine with with their their
+you know perfect configuration on
+it that not only gets a more accurate
+measure of skill
+people are you know it just it just
+opens up the door to all kinds of
+candidates who might not have been able
+to
+to interview um kind of uh in in the the
+previous model
+so switching gears a bit i guess not
+only is
+remote interviewing harder also remote
+closing
+is even harder how do you think about
+that what can you do in the interview to
+up your
+close rate there are some real
+challenges
+and i i guess i'll list two main
+challenges with remote interviewing
+the first is closing the candidate right
+how do you how do you provide a positive
+experience
+how do you show the candidate your
+culture and
+and your team and your the energy and
+and you know make that person want to
+join
+your company after you know if after you
+hopefully make them an offer
+big advice there first point is just
+be sure to treat remote interviews as
+interviews
+it's it's on your it's zoom session it's
+on your calendar people can forget
+that it's it's every bit as serious
+never as important as
+an actual a regular onsite interview and
+so what
+what are some some kind of things that
+follow on from that well one
+100 don't multitask so it can be very
+tempting
+if you're sitting there 30 minutes
+watching somebody program they're
+struggling with a programming problem it
+can be very tempting to open slack or
+open zoom like they can't see your
+screen
+and maybe they can't but you gotta just
+hardcore
+not do that right being present
+and actively listening right making it
+clear that you are
+with them there and and rooting for them
+and reacting when they you know they run
+their code and it
+passed the test say like great just make
+it make it clear that you're actively
+listening and
+taking part that's when a candidate is
+is physically present
+they can deduce you know they can read
+your body signal and and
+they can tell that you're you're present
+you got it's important to work hard
+to provide a a similar experience
+um when in remote interview a few other
+related tips
+we find that the the junctions between
+interviewers
+can be pretty stressful for candidates
+so you know i interviewed the candidate
+and then it's my
+co-worker sarah she's interviewing next
+maybe she's running five minutes late i
+leave and then the candidate is just
+stuck there
+sitting on a zoom call by themself and
+that's a that's a really bad experience
+and so i highly recommend kind of
+simulating the handoff
+stay with a candidate slack the next
+interviewer
+and then and then have stay yesterday on
+that call until the next interview
+arrives and and you know do a friendly
+handoff to the next candidate
+and that makes sure that nobody um um
+falls to the cracks
+that's awesome very humane process
+matters a lot actually it's the little
+things that
+show the culture of how people treat
+people
+actually at a given company well that
+gets what i would say maybe is the
+second real challenge
+which is judging right so there's both
+there's both how do you provide a
+positive experience for the candidate
+and then there's also how do you as an
+interviewer
+how do you judge the the non-technical
+skills
+culture fit communication positivity all
+these things that are
+up there with importance with technical
+skill in candidates and they tend to
+rely a bit more
+on face-to-face interaction so how do
+you as a
+let's say your recruiter your job is to
+get just to measure culture culture
+fader culture ad
+how do you do that over a zoom session
+so
+if a company is running remotely for now
+under undercover and is planning to go
+back to fully
+co-located in person then this is hard
+because you are you are fundamentally in
+that you're trying to trying to judge
+what's it going to be like to be in a
+room with this person but for companies
+that are planning to stay partially or
+fully remote
+what i would say is i think we need to
+acknowledge that
+zoom skill and online communication
+actually is the skill that matters now
+and so what i would say
+is don't get caught up whether you can
+reproduce the exact read on on soft
+skills that you would have
+done in person and the set of people who
+do well
+might be a bit different so this the
+skill of communicating really well in
+writing and and being super responsive
+to a remote team
+is vital and it's not the same as the
+skill of of you know
+we all have to learn new skills as we're
+running remotely but as a recruiter
+embrace the fact that
+you're not measuring the same skill
+anymore the only other thing that
+i think was interesting is actually now
+it sounds like things have swung a
+little bit more towards the company
+again which is not the norm it's been
+sort of a
+a candidate's market for a many great
+many years
+you know how do you think about that now
+any closing thoughts
+around what's the opportunity for
+companies at this time around like
+hiring should they inflict in should
+they be more aggressive than they
+normally are like what sort of advice do
+you have for
+people when they sort of control a knob
+here they can turn it up they can turn
+it down
+enjoy it while it lasts it's it's
+shifting a bit back for the candidates
+now over the last few months
+but we're still close to the best market
+as a as i remember as as a company the
+best market for talent that we've had in
+the last 10 years
+it is easier to find skilled engineers
+who want to join joining your company
+right now
+than it's been in 10 years and obviously
+that's true for a lot of tragic reasons
+a lot of companies are failing there's
+and dark side to that
+but what i would say is if your company
+is doing enough you've recently raised
+money if you're in
+business that's really helping a lot and
+and and doing well during the pandemic
+take advantage of it hire those super
+senior engineers like you're gonna get a
+caliber of talent coming even just
+knocking on your door
+that's where screen again comes in right
+so screen screen is our tool to help you
+distinguish a lot like companies receive
+hundreds and hundreds of inbound
+applicants especially in an environment
+like this
+and it can be really hard to go through
+them and tell like
+most are not very qualified that's just
+and if you just use credentials you
+might just
+end up interviewing people with fancy
+resumes who can actually code
+accidentally yeah and even if they can
+they're gonna be the most competitive
+people
+right if you know you're going to feel
+if you're going to find them so as
+everybody else
+and so using something like screen to
+really directly measure the skills
+is a way to to take advantage of this
+market and the fact that
+highly talented people are are just
+going to knock on your door right now in
+a way that that
+you know is not not the case during
+during normal times
+well i guess if people want to take
+advantage of triple bytes screen what's
+the best way to do that right now
+just go to triple byte.com screen and
+sign up
+get a demo cool yes shieldfight.com
+screen they'll take you to the right
+place um i'm also happy to answer
+questions
+you email me uh just my first name i'm
+in ammon actual bite.com
+i'm happy to to answer questions and
+help help get people set up
+you've been always super generous with
+your time advice and help
+and thank you for working on triple bite
+because it's
+really put so many people in into the
+opportunities that
+they've really worked hard to deserve
+always excited to be
+an investor and and a friend of the
+company well thank you gary i really
+appreciate
+the support and i'm uh that's it so it's
+an honor to be on your
+youtube channel thanks man
+[Music]
+so
+you

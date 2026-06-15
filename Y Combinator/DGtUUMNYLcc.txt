@@ -1,0 +1,1185 @@
+Title: Recursion Is The Next Scaling Law In AI
+Video ID: DGtUUMNYLcc
+URL: https://www.youtube.com/watch?v=DGtUUMNYLcc
+Channel: Y Combinator
+Published: 2026-05-01T14:00:32Z
+Duration: PT37M53S
+Views: 16729
+Likes: 367
+Tags: YC, Y Combinator
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 1161
+
+Description:
+A 7-million parameter model outperforming models a thousand times its size on tasks like ARC Prize. That's what recursive reasoning unlocks.
+
+In this episode of Decoded, YC's Ankit Gupta and Francois Chaubard break down two recent papers on recursive AI models, HRMs and TRMs, that are achieving state-of-the-art results with a fraction of the parameters of today's largest models.
+
+They explain why standard LLMs hit a fundamental ceiling on certain reasoning tasks, how recursion at inference time 
+
+============================================================
+TRANSCRIPT
+============================================================
+
+Welcome back to another episode of
+decoded. Today, I'm back with my CV
+visiting partner Francois Chopard to
+talk about one of the most interesting
+recent trends in AI research, recursion.
+Specifically, we're going to talk about
+how we can improve a model's reasoning
+performance by using recursion at
+inference time, [music] rather than by
+just making the model bigger and bigger.
+There were two papers that made the
+power of this approach really clear in
+2025. One on hierarchical reasoning
+models or HRM, and another on tiny
+recursive models, TRM.
+>> [music]
+>> Francois, thanks for joining us. Um, can
+you tell us a little bit about these two
+models and what was so interesting about
+them? Sure. I guess, um, to set up a
+little bit of a foundation, uh, you
+already did an amazing lecture on RNNs
+and LMs in one of the previous videos,
+so I won't overdo it, but just to give
+the cliff notes, um, an RNN is just a
+model that you, uh, recursively call
+again and again and again, um, on
+itself. And we were very much in the
+belief that this was required to get to
+AGI. Um, peak RNN use was probably until
+2016 with Alex Graves, um, NeurIPS
+keynote which is just fantastic, and all
+his his his his adaptive compute time
+work. So, this is about 10 years ago
+people were working on these models.
+This was in the era of LSTMs and LSTMs
+with attention. Yeah, and, uh, depending
+which professors you talked to, uh,
+before attention was invented.
+>> Yes. Yes, totally. [laughter] Yeah. Um,
+and, uh, and I think what really was the
+the the limiting step on, uh, RNNs in
+general was a thing called backprop
+through time, where you have to you roll
+out the model, and then to update the
+weights you need to approximate the
+gradient and you step back back back and
+you keep rolling out. And as the the
+model, um, gets, uh, bigger and bigger,
+and as you roll out for more and more
+steps, then you have all these, uh,
+accumulation of errors and the gradient
+gets noisier and noisier, and then it
+could just kind of stop to work.
+>> you have these like vanishing or
+exploding gradient problems. And it's
+because if you have an input with 20
+steps, you're like multiplying these
+matrices 20 times, and that causes And
+we're talking about getting context
+length of like a million or like a
+billion. And so like it's not even just
+20, it's like a billion. And even worse,
+you have to retain the activations at
+every single step. And so like if this
+were happening in your brain, you would
+need like a million copies of your brain
+at every single activation so that I can
+backprop through it. There's tricks
+around this that you can you can do and
+you can do um
+a gradient checkpointing and things like
+that to reduce that issue, but then
+you're just like trading off memory for
+um wall clock time and and compute.
+Right. So now if you contrast that with
+um LLMs, the ones that people are widely
+using, these while at face value they
+appear to be similar, at training time
+they're doing basically this one
+one-shot feedforward process for every
+input, right? The the LLM, the
+transformer block, can take all of the
+inputs in parallel. It's not actually
+iteratively going over them one at a
+time at train time, so you don't have
+this
+needing to store tons of activations
+problem or this giant vanishing
+gradients problem. Yeah, exactly. Like
+it it's actually like all happening in
+time in one shot, magically. And that
+was like the the trill or lower triangle
+trick that kind of happens, this causal
+mask that occurs. And so you actually do
+all all time steps in one shot, and you
+forward pass a feedforward model on all
+time steps in one shot, and you
+backwards in one shot, and it's amazing
+for train time in terms of like wall
+clock.
+It requires a lot of flops, and it still
+requires a lot of the memory. You still
+need it there, but you don't have the
+vanishing gradient issue. Um and what
+you actually paid for that you have to
+give up is this latent reasoning thing
+and this compression [snorts]
+in the time direction. There is no
+compression in LLMs. Every single decode
+that I do, I still have to retain the
+entire, you know, Shakespeare novel just
+to like decode a little bit. And in
+RNNs, you don't have to do that. It's
+all compressed in this hidden state that
+you kind of roll out. Wait, so so let's
+talk about that in a little bit more
+detail. Like
+you you refer to this
+um
+inherent reasoning ability. You know,
+many people think about LLMs as doing
+reasoning, and we're going to talk about
+that a little bit later. But, help me
+understand where you see the biggest
+limitations in LLMs reasoning ability or
+is in terms of what the model does in an
+actual forward pass? Yeah. And so, um I
+guess we go back to chat GPT-2.
+GPT-2 was this uh landmark uh
+architecture and paper that um basically
+was just get next token next token next
+token, and it kind of worked. And like,
+we just watched val loss go down,
+perplexity goes down, like the model
+just is more performant, looks better,
+starts to make some Shakespeare that
+actually sounds somewhat plausible.
+>> Right. And then we have to get these
+things to reason and to actually solve
+some really hard problems. And um and
+I've done extensive experiments on this,
+but like if you take uh for example,
+sort. You get you have infinite amounts
+of unsorted lists, and you give it
+sorted lists.
+You keep feeding it to the model. It
+should work, right? Um it's actually
+impossible for the model to map from
+unsorted list to sorted list. If I have
+>> In a one-shot, basically
+>> In a one-shot basis. It's like it's like
+literally that we know a theoretical
+lower bound that um for uh comparison
+sort, you can't do better than n log n
+uh steps. And if I have a list that's 31
+uh uh
+uh
+uh characters or elements long, and my
+transformer is 30,
+I run out of steps to do comparisons.
+It's not possible for me to like do all
+the steps that is needed to be done. Um
+in HRMN TRM, they use uh Sudoku as an
+incompressible problem. Similarly, and
+so are mazes, those are incompressible
+problems. Rolling sum, incompressible
+problem. So, when you mentioned the
+sorting algorithm, when I think back to
+my algorithms class from college, the
+one way you could get faster than n log
+n in a sorting algorithm is if you had
+some access to an external memory cache.
+If you had some tape you could write to,
+then you can actually do faster than n
+log n by basically selectively putting
+things onto this memory. And I suspect
+that's, you know, a key limitation of
+these LLMs in that because there's no
+external memory tape inbuilt into the
+model, you lose certain performance
+possibilities in terms of how fast you
+can go. That's right. And so, I guess
+like it it radix sort would be like the
+most common one. You had like you you
+depending on on this the number of
+buckets that you have, you can kind of
+get from n log n to order n. You can't
+get less than n. You have to touch all
+the the elements. You're Sorry, you have
+to do that. And if you run out of
+uh
+um layers in in transformer layers in
+your uh neural network, then you ran out
+of chances to do that. Yeah, so this is
+just like a turn This is like going back
+to like Al- Alan Turing now and like a
+Turing machine, right? Like what's So,
+what's the analogy there exactly that we
+should think about in terms of LLMs I
+guess not quite satisfying how you think
+about a Turing machine. Yeah, so if we
+let's just talk about like chat GPT-2,
+GPT-2 the the original like no bells and
+whistles,
+um it's just a feedforward model. And
+so, it's just forward passing one step.
+And to Taking an input, creating a bunch
+of outputs. And the Sudoku case, um
+if I have 50 different uh
+sequential steps. And it's provable that
+I can only do one given this
+information, then and I have this many
+layers, then that's all I can do. And
+the cheat this the cheat is that the
+chain of thought. And so, it's
+completely true that at test time, they
+are
+uh Turing complete and you can simulate
+all Turing computable functions at test
+time. But how do you get it to learn it?
+You need to train it. And that's where
+uh unless you're training it on
+human-labeled uh uh traces, uh for which
+there's a lot of problems like the
+Millennial Prize Problem, we don't have
+the trace for it. Right. So, [laughter]
+we'd love to have the trace for it. Does
+it exist?
+Totally. Makes sense. Okay, so with that
+context in mind now, let's talk about
+these two papers cuz I think that sets
+up a lot of
+the the the contrast we're going to draw
+between these papers and the models that
+people are maybe more used to. So, let's
+talk about HRMs first. Um walk me
+through a little bit about
+how this model works and some of the
+intuition behind it.
+Sure. So, um the the the
+this is directly in the lineage of RNNs.
+There's not that much novel from like
+the RNN standpoint, uh at least in my
+opinion. They do have this idea of uh
+you know, from a
+inspired by the brain where I have like
+um there's different parts of of the
+brain that operate at different
+frequencies. There's some that that
+operate at really high frequency, which
+is on the low level of the hierarchy,
+some that operate in a really uh low
+frequency, which is the higher level of
+the hierarchy, and the interplay between
+those things is really interesting. So,
+this is like literally in the human
+brain there's some like bio inspiration
+here, which is that like you have like
+different waves running at different
+frequencies at different parts of the
+brain or something like that. Cool. And
+um and I guess that interpret that's one
+interpretation of it of the way that
+they they're talking about um you know,
+classifying these these hierarchies of
+frequencies. And the way the most
+interesting part, at least for me, is
+the way that they train the neural
+network. You take in some X, some input,
+um whether it's a incomplete Sudoku
+puzzle, uh a maze, or an Arc Prize
+challenge, um you uh
+do TL steps with the L the the lower
+level uh
+module, then you do go to go to H, you
+do that um
+TH times, and then you have uh N sub
+outer refinement steps. Yeah. So, you
+basically are like running through the
+input with a given
+uh
+matrix with with a given transformation
+repeatedly on it. And you're doing that
+through two levels of refinement, and
+then basically running that process
+several times. Yes. So, there's exactly
+three levels of recursion occurring
+here. There's the low level, there's the
+high level, and then there's the outer
+refinement steps. And we're calling it
+recursion cuz it's the same weights that
+are being applied repeatedly. We're not
+changing the weights in between these
+steps. Exactly right. You get to recurse
+on on the L net uh L TL times, you
+recurse on the TH and the TL this looped
+recursion TH times, and then you do n
+sub you do this whole outer refinement
+step n sub times. Cool. And so, what's
+the basic intuition for
+why that works? Like why does that
+produce an effective paper result? And
+what even were the results that this
+paper showed? Yeah. And so, I mean this
+got state of the art
+on art prize one and two.
+This is a only a 27 million million
+parameter model that was only trained on
+art prize. So, it's like a thousand
+posts or something like that. Like
+puzzles basically.
+>> a thousand tasks which is extremely
+small. There is no pre-training at all.
+This is starts from like literally
+tabular rasa weights and it can
+outperform at that time. If we go back,
+you know, we had 03 if you remember back
+way back when. [laughter]
+And it and it 03 gets zero.
+Literally zero and this got like
+something like 70% on art prize one at
+least
+at the time which was just a huge
+breakthrough. And so, kind of the the
+way you can kind of think this is like
+variable scoping. And so, like if I have
+like
+you know, three nested functions, I
+guess the first
+the lowest level function has like
+scoped variables which they'll call zl
+which is the carry that inits to zero. A
+latent variable basically.
+And like traditional RNN literature they
+would call this the hidden state. The
+low level hidden state. And I get to
+recurse recurse recurse and then I pass
+back that zl back to the the outer
+scoped function, the higher level one. I
+let that one do one iter. It goes back
+and calls the lower level again. It does
+this whole thing in a third
+outer loop which is called the outer
+refinement step. Okay, but when you
+describe it like that, it seems like it
+would have the same backprop through
+time problem that you would have with
+RNNs. And I think they came up with
+clever trick to basically get around
+that. So, like what was that trick that
+they figured out?
+>> And this is really the the crux of the
+paper that like differentiates it in my
+opinion in the literature is they
+instead of
+doing what Alex Graves did in all of his
+papers from Neural Turing Machines to
+adaptive compute time
+to a differential neural computers is he
+always back propped through all of the
+recursion steps. And he was limited by
+back prop through time so he could only
+make the model so big. You have all
+these issues, vanishing gradients, etc.
+etc. And what they do is they they kind
+of have this DEQ
+method of doing fixed point iteration.
+It feels like deep equilibrium models.
+Yeah. deep equilibrium learning
+where if I
+take a batch
+and this is this is completely
+counterintuitive as a computer vision
+person cuz you'd never do this, but it
+actually does make sense and I'll
+explain why. If I take a batch
+of like ImageNet or CIFAR-10 and I
+forward pass through the model
+and I get some loss and I back prop and
+I update the weights.
+I would go get a different batch for the
+next one.
+But what they do instead is they
+actually do that 16 times. And so and as
+you do that you actually can see the
+change in your residuals get less and
+less and less. And why it actually makes
+sense is because when in the RNN case
+the ZL and the ZH which are the carry
+the task carry
+>> The hidden states. The hidden states
+start out at zeros. Those are zeros,
+then we go through this whole loopy
+recursion three the the the the at least
+the two loops the two lower loops T the
+the TL and TH steps and then I
+back prop just through the two modules
+just once and I don't recurse all the
+way back. I do a stop grad. I stop right
+there. And then there's a huge residual
+and then I don't reset ZL and ZH. I do
+it again at a different point in the
+carry or hidden variable space
+space.
+And so you one can actually look at it
+as like a different batch every time
+even though it's the same exact X's.
+Yeah, like the way I kind of think about
+it is like the the 16 or whatever that
+you're
+re- recursing over
+it's like constructing a mini batch not
+from different inputs but from like
+different memory states basically. It's
+like across this
+hidden or carry memory access basically.
+And and that math holds and it works. It
+follows DEQ directly in the event that
+the ZL and the the delta and ZL and the
+delta and ZH
+go to zero.
+Mhm. Which it actually does doesn't do.
+And so we'll get to TRM but Alexia
+basically shows that it's just not the
+case and you can't actually apply this
+math. Um and that's
+why it's working that's not sufficient
+support for why it's working. We
+actually don't know why it's really
+working. Um and she figures out that you
+actually uh can
+backprop through all the way to the deep
+recursion which we're going to get into
+TRM in a second. Um and that actually
+improves performance much much more.
+Interesting. Okay, so before we get into
+TRM yeah on you know on this paper you
+know I think there's a bunch of
+different ways people have looked at
+this right in terms of
+how they came up with it and then why
+this may or may not be working. One is
+the sort of bioplausibility argument.
+Now as you know I'm usually not
+super keen on these. You know I think
+machine learning tends to have a long
+history of people starting with
+bioplausible arguments and then
+realizing that there's some variant of
+them that seems highly bio implausible
+that actually works better. I think you
+have example of lots of that sort of
+thing.
+>> the classic the first deep deep learning
+paper that started this whole
+craziness is AlexNet and and in AlexNet
+there's actually this funny little thing
+called like local receptive activation
+or depression or something like that
+where like once this activation fires
+then like I have this like you know a
+refractory region or something like
+that. It actually doesn't work at all.
+And like it didn't work and you didn't
+need that and then VGG came out and said
+get rid of all that just go deeper and 3
+by 3 conv and it actually just like
+outperforms dramatically. Right. And so
+like this is like always the maybe you
+need to do it to get accepted into
+NeurIPS or something. Yeah sure totally
+totally yeah. You're definitely the
+expert here but what do you consider to
+be bio plausible and what's not? Well, I
+think that a lot of machine learning
+literature has overlapped a lot with
+people working in neuroscience. And I
+think it is very natural for us to ask
+questions about how does our brain work
+cuz our brain is like an incredible
+instrument that does a ton of computing,
+obviously, and does it in a very
+shockingly efficient manner, it seems
+like. And so, a lot of machine learning
+research has for a long time sought
+analogue from how we think to understand
+our brain to work and try to encode that
+in various machine learning systems. So,
+from the very basic concept of what a
+neural network is, it's called a neural
+network cuz we think it's some basic
+model for what a neuron is, how certain
+activation functions work are meant to
+be inspired by certain biological
+premises.
+>> theme?
+The thing about them is that often we
+use bio plausibility to inspire us to
+come up with ideas,
+but we end up veering away from the bio
+plausible to something adjacent to them
+that is likely bio implausible, but that
+seems to work better. So, it runs better
+on a GPU. Exactly. It runs better on a
+GPU, it's more efficient in some
+capacity that is relevant to how we
+actually encode it in a computational
+system. So, I find thinking about bio
+plausibility fun and interesting and
+it's definitely a great way to inspire
+us to think about new things, but I tend
+to not be bounded by bio plausibility as
+when I think about what machine learning
+systems we should prioritize working on
+or think are particularly exciting other
+than as, you know, an interesting
+scientific launching point for a deeper
+exploration. I think the the version of
+this that I find more compelling is
+actually that original discussion we
+were having around automata theory,
+basically, and and honestly just
+actually like fundamental data
+structures and algorithms theory, which
+is that if you're running a complex
+algorithm, having access to sort of a
+memory cache is actually
+very useful for being able to run that
+algorithm efficiently. And I kind of
+think of this set of hidden states or
+carry as
+akin to a Turing machine tape or akin to
+the radix sort
+memory bank, where you can basically
+train a model to use this memory cache
+in an intelligent way in a single
+forward pass so that you can get a more
+efficient time operation that would
+otherwise require some sort of more
+complicated reasoning. Yeah, I think
+that a point I wanted to make earlier is
+that like we did this COT stuff and this
+tool use thing as ways to get beyond the
+the
+the the the in limitations of of GPT-2.
+And so the way that we get you can
+actually have done this experiment. You
+can actually if you give me infinite
+amounts of
+unsorted list and sorted list if I have
+can do chain of thought and I can do
+every single step and teach it to do
+every single step, then I can actually
+get it to do to do sort and become a
+Turing machine at test time.
+And similarly, an even cheaper one that
+is much easier to do is you teach it and
+you say, "Hey, there's this Python
+function called sort. Just call the
+function.
+>> the function. Like that's the easiest
+thing to do and you don't need backprop
+at all. And so those are the two hacks.
+Now, well, Francois, this is solved.
+Like we're done, right? No, because I
+needed to know what sort was. What
+happens if we didn't know what merge
+sort
+>> The chain of thought is not going to
+inherently discover sorting from first
+principles. It's it's finding it from
+our historical knowledge of everything
+it's trained on. Yeah, I mean this is
+like the the Demis had this whole thing
+about like the ultimate test is the
+Einstein test. Like go back to 1911 and
+then like have it rebuild all the
+physics up until now. Similarly, let's
+just pretend that we only had bubble
+sort. We knew other no other sort
+system. If you chain of thought it on
+all the bubble sort input and output, it
+will only do bubble sort. In fact, it
+won't even do bubble sort that well.
+Like
+>> [laughter]
+>> So this is the best situation and then
+the tool use of course it can only know
+bubble sort. I want to get to merge
+sort. How do I discover merge sort? And
+I think the the interesting thing just
+to
+emphasize here cuz it may not have been
+extremely clear is there already exists
+some type of recursion that people are
+used to in LLMs which is chain of
+thought we mentioned earlier. But that
+is a recursion that's happening in the
+token space of the models outputs, not
+inherent to the model itself. And that's
+sort of the fundamental limitation is
+that the model can only do
+a feed forward one shot output and then
+we basically just have this hack that if
+you keep letting it output things then
+it can read its outputs and do somewhat
+intelligent seeming things with it but
+it seems sort of be upper bounded by the
+data that we feed it that you know the
+labs are very hungrily buying right now
+and not the sort of like inherent
+underlying recursive reasoning. Yeah, so
+in both cases both hacks to solve this
+in COT and tool use um you're bounded by
+the bounds of human knowledge. In the
+event it's outside the set of human
+knowledge then like
+you're kind of SOL. And so that's that's
+one. The other you make a great point
+about discrete versus latent space um
+reasoning in
+uh a discrete it can only output the
+carry in the case of LLM's has to be
+snapped back to some discrete token
+space. And in the case of RNN's in
+general they remain in this uh
+continuous latent space which is much
+higher dimensional. If you give me like
+a tape that's this long and you cut it
+up into 10 buckets like versus all the
+possible values
+>> Right, exactly. Yeah. it's much more
+expressive to being continuous space.
+But we can't train it that way cuz we
+actually you know cuz you're inhibited
+by backprop through time largely. Um and
+this is why this paper is so exciting.
+Okay, so before we then go over to the
+TRM paper um
+let's just summarize here. What matters
+most from the HRM paper that we should
+take away before we transition and
+contrast it with the TRM paper?
+Yeah, I think that the the number one
+piece uh to take away is this outer
+refinement loop. The outer refinement
+loop scales and there's a a great uh
+breakdown. Um basically the the Sapien
+uh
+authors
+which huge kudos for this paper cuz
+there's so many innovations in this
+paper
+didn't really do like a scaling
+ablations on every single one of the
+inputs but this guy Constantine at
+Francois company India actually did and
+it's this amazing breakdown that he put
+on posted on YouTube that you can go
+check out but basically the main
+takeaway is that the outer final loops
+is the main
+beneficiary is the is the is the main
+reason why these things work so well
+which
+Alexia basically takes the she found I
+think in parallel and and scales up and
+and shows that you can get rid of a lot
+of all this other stuff. All right, so
+like a lot of machine learning the
+follow on paper is basically delete 75%
+of the first paper as we've often done
+in videos here and keep the magic
+basically. So okay, so so what's the
+magic then? Like what's the part that
+actually matters in terms of what stays
+in the TRM paper and let's now contrast
+the core architectural differences
+between these two papers. Yeah, so I
+think that I guess if I break it down
+into
+two major things is this outer
+refinement loop thing is really great
+and works really well
+and that this like
+truncated backprop through time which is
+backprop through time except I truncate
+at some time earlier point called T T
+back T equals 1 is actually is
+completely sufficient and so truncated
+backprop through time T equals 1
+completely sufficient and that's very
+counterintuitive.
+>> Which is what HRM found.
+HRM found and TRM does a little bit
+further rather than going through just
+one call to the H net and the L net it
+actually goes through one full recursion
+loop. So if I do it 16 times I just go
+back through one time and that is is is
+kind of sufficient and if you do it with
+this like
+fixed point iteration thing pseudo fixed
+point iteration thing where you keep
+hitting it with a at every single step
+it like weirdly works and this batch
+size across the carry space like
+actually works.
+>> that part is also kept between these two
+models, yeah. It seemed like another
+thing that changed was having these this
+sort of double layer of like, you know,
+higher order thinking and lower order
+thinking. It seems like it collapsed it
+down into just a single one. What's the
+intuition there and how does that
+actually work in the TRM paper?
+>> Yeah, so it's interesting. Um she
+actually ablates having two separate
+networks versus just having one. I guess
+the more important space is the variable
+scope is that you should have low-level
+features and high-level features but the
+same network. And so the the the the
+best performing
+>> The same network can extract both
+basically.
+>> Yeah, you weight share between the L-net
+and the H-net and it's just called net
+and and you do just one transformer
+layer versus the four like they do in in
+Sapien and just whittle it down to one
+and do more of a recursion and that but
+you keep ZL and ZH to be distinct and
+separate. And she she calls it X and Y
+which I found very confusing. Yeah. XYZ
+it was just very confusing and it's just
+like ZH and ZL is just cleaner. So, if
+you read the paper, Y is actually like
+latent space. It's it's like it's like Z
+basically.
+>> is not a label. Yeah, okay. Which
+[laughter] really threw me off the
+paper.
+Uh but anyway, so I I
+we'll go through some code here and I'll
+walk you through it. So, I replaced all
+of her nomenclature and used the the
+Sapien notation which is much cleaner
+and and more straightforward to me at
+least. Okay, cool. Now, before we, you
+know, dive into the code for a sec, like
+in terms of how these TRMs actually
+work, you know, it's it's pretty
+interesting because these this recursion
+advantage now gives you a bunch of
+advantages over transformers. So, rather
+than having
+you know, 500 or 1,000 or a million or
+whatever transformer layers and having
+tons and tons of parameters, you get
+compute depth basically without this
+parameter depth.
+Um
+and the optimization process process
+looks like more of like an iterative um
+kind of like expectation maximization
+algorithm. Do you want to talk about how
+that worked in the TRM paper cuz I
+thought that was also pretty
+interesting.
+So both of them kind of had the same
+kind of uh
+EM E feeling thing where like we
+update ZL condition upon the input X and
+ZH. Yep. Z the last ZH.
+>> Yep. ZH T minus one, let's say.
+And then we keep updating ZL ZL ZL ZL
+and we keep updating it. And then we go
+holding we update ZH condition upon
+ZL and actually it's just ZL, it's not
+even X. And then we just update ZH and
+and the way to think about ZL and ZH is
+ZL is like your uh
+local scoped variables that are just
+being overwritten and updating updating
+updating. And then ZH and Azelia makes
+this point sorry Azelia Alexia makes
+this point
+that is that is a candidate uh
+answer a proposed latent answer that is
+just an embedding space away
+a one MLP look up away from the true
+answer.
+>> EMing just to like zoom out a little
+bit.
+You're you're kind of maximizing the
+probability of the correct, you know,
+information stored in your memory Mhm.
+conditioned on a given output and
+maximizing the right output conditioned
+on the information stored in your memory
+{quote} {unquote}
+in parallel. Yeah.
+>> And like that optimization algorithm
+leads to you ultimately
+learning a recursive method that stores
+the right information to this local
+memory basically and then outputs it I
+think. It really like if we actually
+think of Sudoku is actually a really
+natural way to think about what's
+actually happening under the hood where
+Sudoku is an incomplete puzzle. You
+can't guess every cell at any one time.
+You can actually it's designed where you
+can only guess one or two cells based on
+the available information. So it's not
+it's an incompressible problem. You
+actually can't do it unless you just
+randomly guessing and guessing and
+guessing which is
+very high combinatorial space. And so
+what the ZL is doing is is some type of
+let me try this, try that, do some
+computation, think about little things,
+and then and then it proposes and then
+it we go to condition upon like
+something that it may have found, it
+sends it to ZH, ZH fills it in, and now
+we have a little bit more of of a
+filled-in Sudoku puzzle. And the
+training process is training the
+algorithm to know to do that, right?
+It's like it's maximizing that. It's
+like, "Oh, this strategy for what you
+save tends to lead to correct outputs."
+>> Without chain of thought.
+>> Without chain of thought. That's the
+most important part. Is that if we had
+Sudoku and we knew how to solve Sudoku
+because like we were just, you know,
+dumb Homo sapiens that didn't know how
+to solve Sudoku, like it would just have
+solved it. And that's why it's cool
+because it actually is able to discover
+things without being teacher forced via
+chain of thought.
+>> Yeah. Should we look at some code? Let's
+do it. Okay, let's dive in and I would
+love to see what these papers or bottles
+look like just distilled down to their
+core essence. I know there's lots of
+details in how you train them, but kind
+of the core training algorithm. It'd be
+great to contrast the two methods. Yeah.
+So, I mean, they're remarkably similar.
+Um and so, largely one is and learning
+one is learning the other. But
+basically, you start out with some ZH
+and ZL that are just zeros. Yep. Um you
+have some input embedding space. We go
+from X raw to X, which is the maze state
+or whatever it is, uh initial maze
+state. And then with no grad, uh you
+don't pass any gradients back through
+this. You
+>> So, this is the trick, basically, to not
+backprop backprop through time. Here are
+two of the three recursion levels. So,
+you have this is like the the the they
+do this just for for for simplicity, but
+I hit ZL
+uh T low times, and then uh once for
+modulo T T low, then I hit the ZH and I
+do it again and again. And like you
+said, I'm updating ZL condition upon ZH
+and X, and then I update ZH condition
+upon ZL. Right. So, this is the like
+expectation maximization style. Exactly.
+And then, you don't really need this.
+This is like just for clean cleanliness
+to show clearly that there's no
+gradients occurring above this line.
+>> freezing the weights past that.
+>> Exactly. And then, I hit LNet and HNet
+one more time. Which is the same thing
+as up above. So, this is just okay, it's
+literally just the no grad thing running
+one more time. Cool.
+>> Yeah. And just make it really clear. And
+then, there you go. And that's your HRM
+model. Cool. That's quite simple.
+>> two two two and two is completely
+sufficient.
+If you actually go much higher,
+Constantine showed very clearly that it
+doesn't actually help.
+So, that's two of the three recursions
+you said. The third happens in the
+actual training loop.
+>> in the train loop and at the test loop.
+They both have this
+MTest or N supervision, which
+Alexia calls deep supervision. They call
+it outer refinement steps. It's just
+whatever you want to call it, call it N
+sub. And so, you do this N sub times
+during training. And then during test
+time, there's a different hyperparameter
+for how many times it recurses over each
+model, which is MTest basically.
+>> They're actually the same. And so, the
+these this and this we can probably just
+call this the same.
+And but it's it's it's the same. And if
+you actually Constantine does a good job
+of this. If you actually train
+on 16 and you test on only one,
+you get like 7/8 of the performance or
+like almost all the performance. So,
+it's actually quite interesting that
+this is just redundant too much compute
+and it doesn't actually help you all
+that much. So, setting this to one is
+actually like But presumably for like
+more complicated problems, having more
+test time compute is still useful is
+like the reason you would set them up
+that way. For sure. And so, we call our
+HRM, we get some loss, we back prop
+through just the those two little
+parts here, and then we step. We zero
+out the gradient, but we do not update
+ZH and ZL. These are still the same in
+it. So, that's the really important
+detail there.
+And then so we go back, we pass in the
+ZH and the ZL from the previous one. So,
+now this is actually not the same batch.
+Right. Because we have updated ZH and
+ZL. So, it's in a different part of the
+latent space. Cool. Yeah, and that's the
+key like mini batch construction through
+memory space concept. Yeah, cool.
+>> Exactly. And then at test time, it's
+simply the three loops. So, there's your
+outer final loop, which turns out like
+just at train time doesn't matter. Train
+time recursion was important, but test
+time recursion was actually not that
+important,
+which is kind of kind of
+counterintuitive. And then the HRM
+inside that has your two other loops.
+Makes sense. And and that's it. So,
+pretty simple. Now, the other two are
+the same.
+>> the only two changes, the main two
+changes here is that they collapse L net
+and H net into just net. Great. They and
+it's important detail, these are four
+transformer layers, this is four
+transformer layers, and this is just one
+transformer layer.
+Uh and Alexia actually shows that going
+deeper actually didn't help. Yeah, and
+actually on some tasks, it was just a
+feed forward net actually worked just as
+well as a transformer there, right? It
+was like on Sudoku, I think. Yeah.
+>> Sudoku, MLP actually outperformed the
+the attention. It was it it scored zero
+on the maze.
+The MLP scored zero on the maze. And so,
+there's it's not clear it's not obvious
+that the transformer is always better.
+Um so, there's the weight sharing. And
+then instead of going back just the one
+two,
+the H this
+back propping through just these two,
+you actually back prop through one
+latent recursion step all the way
+through one latent recursion step. So,
+let me just walk through this a little
+bit.
+So, we have same thing here.
+>> point, yeah. It's mainly the same thing
+here. We're doing this six times.
+And then we we go one more time here.
+And then we do our deep recursion. This
+is the outer loop.
+N sub
+times. And so, again, we have the no
+grad, we have the detach, and then this
+is where it's different. So, I I am
+calling this latent recursion after the
+detach.
+>> Yeah. So, it's one full recursive loop
+is happening with that problem. And so,
+that's the main uh difference in the
+optimization. Otherwise, it's
+effectively the same.
+And then it outputs, and then you're
+good to go, and you train it [snorts]
+uh exactly as the same way before.
+And then at test time, it's the same
+thing
+uh again. And so, largely the same.
+Cool. And so, in many ways, it's sort of
+a simplification, right? You're
+collapsing certain parts of it. You're
+simplifying this net architecture.
+It's slightly more complicated along
+this back prop through time this back
+back prop through time part because
+you're actually back propping through
+more than you did before, but it's like
+taking a bunch of lessons from the first
+one and basically simplifying most of
+it. Which is actually why she need I
+think is why she needs to make the model
+smaller. And so, it's a 28 million
+parameter model for HRM. Now, she brings
+it down to a 7 million parameter model.
+It actually gets from 70% to 87% on
+uh um on our prize uh one, and uh and
+does actually quite well on our prize
+two as well. And so, um yeah, so she
+makes the small the model model, you
+know, uh three, four times smaller,
+um but because it has that recursion, um
+it it actually outperforms. And there is
+one There's this uh researcher named Mel
+Mitchell that writes this book uh
+talking about this very phenomenon,
+which is like it is um sufficient, not
+necessary to go uh bigger and get better
+performance, um and it is sufficient and
+not necessary to to add more recursion.
+And so, where I'm really excited is what
+happens if you do both. Right. And
+you're still limited by back prop
+through time. Even uh Alexia is is
+limited by back prop that last step um
+from a memory perspective for sure. Um
+and so, if you can make the model really
+big, and you have a lots of recursion,
+and we do something else other than
+backprop through time. Uh then we can
+get exact all the benefits of this and
+all the benefits of the giant LLMs and
+then you can get some crazy stuff. So
+now to wrap up, why don't we talk a
+little bit about the bigger picture?
+What does this mean for the field of AI
+research? How should people think about
+where these models fit into the current
+span of research happening, especially
+given that it seems like a bit of a
+departure from a lot of the methods that
+people are used to hearing about and
+increasingly seeing products that people
+use?
+Well, I think for one, uh this from the
+arguments that Schmidhuber makes and
+what we've talked about today, recursion
+is important and it's not going away and
+it they clearly the benefit is here of
+adding recursion to models and you've
+seen things like the recursion language
+models at Google um that are are pretty
+powerful and cool. Um and so uh that's
+that's definitely one piece that's I
+don't think going away anytime soon. Um
+the next one is this outer refinement
+loop, like back T TBTT, like T equals
+one truncated backprop through time T
+equals one. I think that that is a
+really powerful idea, the fact that that
+works so well. Uh we have yet to really
+explore it that
+extremely
+really understand what's happening
+there.
+Um
+and then the third is that idea of like,
+okay, we know that recursion works. We
+have these tiny
+recursive models that are 7 million
+parameters, they can solve what
+a
+hundred million, hundred billion,
+hundred
+>> 100 billion, billion parameter model
+can't solve trained on the entire
+internet and a 7 million parameter wins.
+Like the right answer is to like take
+the amazingness here and take the
+amazingness here, which probably is
+already in Gemini already or some of
+these it might be at least in some part.
+Um but when you when you take um the
+benefit of both these TRMs and these
+giant models and you actually slam them
+together, I think that it's just going
+to take off. It's going to be really
+huge.
+>> Yeah, one of the things that's really
+interesting about these TRMs and each
+TRMs is they're not general purpose
+models, right? These were task-specific
+models, right? The model trained to do
+Sudoku cannot do arc prize inherently,
+it has to be trained on the our prize
+set to do so.
+Versus the alarms that are used on these
+tasks are general purpose models that
+maybe get some additional fine-tuning
+data or in-context learning data on
+those tasks. And so, I think that's
+where the interesting overlap might come
+is if you can make these more general
+purpose agents that
+can somehow be general purpose in the
+way that the sort of next token
+prediction algorithm has given us and do
+more complex reasoning to achieve that.
+Seems like you can have really fish-dog
+architectures to do scale of reasoning.
+Right. And And like a lot of the view of
+what these alarms are doing is finding
+really amazing embedding representation
+spaces. Yes.
+>> But reasoning inside that that space is
+actually not done all that much.
+>> Yeah, it's it's always through the token
+space that happens.
+>> through the token space. And so, like
+what you can imagine is we found mapping
+from token space or from vision from
+pixels some really cool latent space
+where like things are just nicely
+semantically separated and we can, you
+know, makes it really easy for
+downstream tasks to do. But now in that
+space, use this
+like tiny reasoning models, use some
+some type of
+recursion inside that and train those
+those those that model on that a little
+small model on that reasoning space.
+>> [music]
+>> I think that's going to be the way to
+work. Pranswa, thanks so much for
+breaking it all down for us. See you all
+in the next episode of Decoded. Thank
+you.
+>> [music]

@@ -1,0 +1,1574 @@
+Title: François Chollet: Why Scaling Alone Isn’t Enough for AGI
+Video ID: k2ZLQC8P7dc
+URL: https://www.youtube.com/watch?v=k2ZLQC8P7dc
+Channel: Y Combinator
+Published: 2026-03-27T14:00:55Z
+Duration: PT57M24S
+Views: 42389
+Likes: 847
+Tags: YC, Y Combinator
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 1554
+
+Description:
+François Chollet has spent years asking a different question than most of the AI world. Instead of scaling what already works, he’s trying to understand what intelligence actually is—and how to build it from first principles. In this episode of Lightcone, he traces that path from his early work on deep learning to the creation of the ARC prize, and the launch of ARC V3, a new benchmark designed to measure something deeper than performance: the ability to learn, adapt, and reason efficiently in e
+
+============================================================
+TRANSCRIPT
+============================================================
+
+I think we're probably looking at AGI
+2030 around the time uh that we're going
+to be releasing like maybe AR 6 or AR 7.
+You're not going to stop uh AI progress.
+I think I think it's too late for that.
+And so the next question is okay like AI
+progress is here. Uh it's actually going
+to keep accelerating. How do you make
+use of it? How do you leverage? How do
+you ride the wave? That's the question
+to ask.
+Today we're lucky to be joined by France
+Chole, founder of the ARK Prize, a
+global competition to solve the ARC AGI
+benchmark. His latest project is NDIA, a
+lab exploring a new paradigm in frontier
+AI research. Francois is one of the best
+people in the world to help us
+understand the current AI moment and
+where all of this is going. Franuis,
+thank you so much for joining us today
+and congrats on the launch of Arc AGI
+V3.
+>> Thanks so much for having me. I'm super
+excited to be here. Super exciting time
+to talk about AI.
+>> So Fran, tell us a little bit about
+India. So what exactly is it and what
+are you guys trying to achieve,
+>> right? So NDI is this new AGI research
+lab and we are trying some very
+different ideas and so our goal is
+basically to build this new branch of
+machine learning that will be much
+closer to optimal unlike unlike deep
+learning.
+>> All of us right now are sort of taken by
+what's going on with code. Uh I have
+sort of this viral moment right now
+where I got to 40,000 stars this morning
+>> on uh GStack. So it's like, oh, this is
+an open source project that now is one
+of the biggest ones and I have more than
+a 100 PRs from contributors to deal
+with. I guess you're, you know, one of
+the best people to talk to about this
+because you're you're actually literally
+coming up with something that is a
+totally different pathway.
+>> That's right. That's right. So uh what
+we're doing at India is uh we're doing
+program synthesis research. And when I
+talk about program synthesis, often
+people ask me, oh, so are you doing like
+codegen? are you building an alternative
+to coding agents and that's actually not
+at all what we are doing. We are working
+at a much much more uh much lower level
+than that. Uh what we're actually doing
+is that we are trying to build a new
+branch of machine learning an
+alternative to deep learning itself uh
+rather than like coding agents. Coding
+agents are like this very very high
+level last layer piece of the stack and
+we're actually trying to rebuild the
+whole stack on top of different
+foundations. So we're building a new
+learning substrate that's very different
+from you know parametric learning deep
+learning. So if you go back to uh the
+problem of machine learning you have
+some input data some target data and
+you're trying to find a function that
+will map the inputs to the targets that
+will hopefully generalize to new inputs.
+And uh if you're doing deep learning
+what you're doing is that you have this
+parametric curve that serves as your as
+your function as your model and you're
+trying to fit the parameters of the
+curve via cron descent. And this is
+basically what we're doing uh except
+we're replacing the parametric curve
+with a symbolic model that is meant to
+be as small as possible. It's like the
+simplest uh possible uh model to explain
+the data to model what's going on. uh
+and of course if you're doing that you
+cannot apply descent anymore. So we are
+building something that we call symbolic
+descent which is like the symbolic space
+equivalent of grand descent. The idea is
+to build this new machine learning
+engine that's giving you uh extremely
+concise symbolic models of the data
+you're feeding into it and then we're
+going to make it scale. And so
+everything you're doing with machine
+learning today with parametric curves,
+we should be able to do it uh with
+symbolic models in the future in a in a
+way that will be much much closer to
+optimality. Much closer to optimality in
+the sense that you're going to need much
+less data to obtain the models. The
+models are going to run much more
+efficiently at at inference time because
+they're going to be so small. And
+because they're so small, they will also
+generalize much better and compose much
+better. you know the the minimum
+description length principle that the
+model of the data that is most likely to
+generalize is the shortest and I think
+you cannot find a model like this if
+you're doing parametric learning you
+need to you need to try symbolic
+>> that's fascinating
+>> so the rest of the industry is just
+pouring more and more billions of
+dollars down an approach that was set
+years ago can you like help make the
+case for why you think that it's the
+right thing to explore alternate
+approaches instead of just to keep
+putting more money into the current
+approach
+>> I mean everybody body is uh is uh uh you
+know building on top of the LLM stack
+these days which makes sense because you
+know the the returns are there like it's
+actually working so it would seem very
+sensible for everybody to just be doing
+uh what seems to be the the the
+currently most productive path uh but
+artic it's it's counterproductive to
+have everybody working on the same thing
+like I personally don't think that uh
+machine learning or AI in 50 years is
+still going to be built on this stag I
+think this is a stag that is uh very
+price maybe it even gets us to ag but
+it's not as efficient as it should be. I
+think it's inevitable that uh the world
+of AI will trend over time towards
+optimality and so I'm trying to sort of
+like leaprog directly uh to optimality
+like to build to build the foundations
+of optimal AI today but in general you
+know our vision is very ambitious and
+I'm not saying that we're going to be
+successful like we have maybe a 10 or
+15% chance of success uh but that is
+enough uh that it's worth trying right
+and I think in general like among among
+listeners. If you have uh a big idea and
+it has very low chance of success, but
+uh if it works, it's going to be big and
+no one else is going to be working on
+it, right? It's it's not something
+popular. It's not something if you don't
+do it, no one else will do it. And this
+is basically our situation. If you're in
+this situation, then then you should you
+should should try a chance, you know,
+should should go and work on it.
+>> I mean, that's almost like the mission
+statement of why cominator, the thing
+that you just said.
+>> Yeah.
+>> Yeah. The reason it's important is that
+again, if we don't do it, no one else
+will do it, right? So it's worth trying.
+Even if we don't succeed, it's worth
+trying.
+>> Has the success well very specifically
+of the coding agents I guess built on
+top of the LLM stack like has their
+success surprised you at all in
+particular like say over the last 6
+months or so?
+>> Yeah, absolutely. I think it has
+surprised many people. It definitely did
+surprise me. If you look at why
+everything is is starting to work so
+well with squinging agents, it's really
+because uh code provides you with a
+verifiable reward signal. And I think
+right now we're in this situation where
+any problem where the solutions you
+propose can be uh uh formally verified
+and you can actually trust the reward
+signal. It's not just some guess made by
+a model. Any domain like this uh can be
+fully automated with current technology
+with with the LM based stack and uh code
+is sort of like the first domain to fall
+but there will be many others in the
+future. I think mathematics is also is
+also primed to see a revolution in next
+few years for the same reasons again
+because the domain just gives you
+verifiable rewards. I guess the
+challenge for a formally verified domain
+is you have to
+somehow take a domain and make it
+verifiable which is the trick I mean
+code is very natural you could test
+there's bugs compiles etc and
+mathematics as well where there all the
+theorems and proofs work out I guess it
+becomes more nebulous when you go couple
+degrees off where there fields that are
+not naturally formally verified and you
+need to come up with a
+>> again with some sort of a function
+to come up with that reward that makes
+it verifiable with very fuzzy things
+like let's say English language and
+composing the perfect essay.
+>> How do you make that formally
+verifiable?
+>> Yeah. Yeah. Absolutely. I mean writing
+essays is you know the typical example
+of a domain that's not verifiable. And
+so what you're going to see is that
+progress of reasoning models and and
+basel on this type of of of domain is is
+you know is going to be very slow
+because the stack we're using like the
+LM stack is very very reliant on its
+training data. It's basically just
+operationalizing the train data and for
+writing essays the train data is coming
+from uh human experts like annotating uh
+answers and that's costly. So you're
+going to see this very very slow
+progress. Maybe maybe it's even going to
+stall. But but for any any verifiable
+domain like take code for instance what
+was the big unlock is uh when uh when
+people started creating this codebased
+like training environment uh for for
+post training uh where the the the
+reward signal the verification signal is
+provided by things like uh unit tests
+and so on. And so that means that uh the
+model was not just working from human
+pro annotations. It was actually trying
+its own things uh verifying the answer
+and uh and generating a lot lot more
+string data in the process. So a much
+denser coverage of the problem space and
+not just coverage in terms of like is is
+the answer right or wrong but also
+starting to build uh models of the
+execution traces right. uh so that the
+models could start incorporating a an
+execution model very much the way that
+uh uh human programmers you know when
+they look at code they're sort of like
+executing the code in their minds they
+they keep track of value variables and
+so on is also what the models are trying
+to do now and this is why it's working
+so well and it's possible because you're
+working with this very formal fully
+verifiable environment you cannot do
+that with assess you cannot do that with
+you know law or or many other problems
+>> I think I really like how you define
+intelligence and how we measure it which
+brings to the question of uh also
+sharing having you share the history of
+uh ARGI.
+>> Yeah. So my my definition of uh general
+intelligence you know many people around
+the industry these days they say uh AGI
+is going to be a system that can
+automate most economically economically
+valuable tasks and to me that definition
+is it's about automation it's not about
+intelligence not about general
+intelligence so my definition is uh AGI
+is basically going to be a system that
+can approach any new problem any new
+task any new domain and make sense of it
+like model it become competent at it uh
+with the same degree of efficiency as a
+human could. So meaning it's going to
+need basically the same amount of
+training data uh and training computes
+as as a human would which is which is
+very little like humans are really
+really uh data efficient. So general
+intelligence is human level skill
+acquisition efficiency on the on the
+same scope of tasks that uh humans could
+potentially uh round to do.
+>> Do you think it's possible that we will
+accomplish the first definition of AGI,
+the automate most economically useful
+work before we accomplish your
+definition?
+>> Absolutely. I think that's that's a
+trajectory that we're on right now. And
+I think it's already true that in
+principle current technology can fully
+automate at human level or beyond any
+domain where you have uh verifiable
+rewards, right? And code code being the
+first one. And I think figuring out AGI,
+figuring out like human level uh you
+know learning efficiency over arbitrary
+tasks that's probably going to take a
+different sort of technology different a
+different mindset different approach. Do
+you think that LMS can be bent to have
+the same sample efficiency as humans or
+do you think it's like fundamentally
+just impossible and we need a new
+approach and that's that's the thing
+that you're hoping hoping to solve
+>> with enough comput everything starts
+looking like everything else every like
+computer is a great equalizer every
+approach starts looking the same and I
+think it's possible in principle to
+build something that looks a lot like a
+GI on top of the LLM stack uh but it's
+not going to be LLMs per se it's going
+to
+this new layer perhaps you know it's
+going to be even a few layers above not
+just one layer above but a few layers
+above uh but you can build it on top of
+LLM because LM are kind of computer
+right I see
+>> uh I do believe however this would be
+the wrong thing to do because it would
+be very inefficient I think AI AI
+research will have to trend towards not
+just efficiency but in fact optimality
+over time and for this reason future AI
+in a few decades uh it's not going to be
+this harness on top of a reasoning model
+on top of a basel is going to be much
+much lower than that.
+>> To Diana's question, do you want to talk
+about how you actually designed ARGI and
+why it's a good barometer of that?
+>> I mean I you know I've been doing deep
+learning for a very very long time and
+initially my my my tech my mindset was
+that deep learning was going to be able
+to do everything.
+>> You were the creative at KAS before even
+all the other frameworks became very
+popular.
+>> That that's right. That's right. I was a
+trained deploying model uh uh for
+natural language processing in fact
+>> in uh 2014 and uh from that work uh you
+know I actually started uh developing
+this open source library which I I
+released uh in fact uh exactly 11 years
+ago uh March March 2015
+>> uh so it was kas and and then it got
+popular and then I'd end up uh sort of
+like doing less of the research that I
+that I started kas for and more of
+working on the framework itself. just
+because it has really really good
+product market fit. And so my my take
+you know around that time around like
+2015 2016 was that deep learning was
+extremely general that you could do
+everything with deep learning that you
+didn't need in anything else. It was
+training complete. So uh my tech was
+basically that deep learning was
+differentiable programming. Uh so
+anything you would do with software you
+could in principle train a deep learning
+model on the right inputs and outputs to
+do the same thing. And uh in uh 2016 I
+was doing uh research at Google brain on
+trying to train deep learning models to
+help with uh reasoning problems and in
+particular uh first order logic problems
+uh uh theorem proving and so on. And I
+started finding that you could not
+really get cryion descent to encode uh
+uh sort of like cresing style
+algorithms. It was not because the
+models could not represent these
+algorithms. It was because cryion
+descent could not find them. Right? So
+the problem was that it wasn't about
+deep learning not being train or
+anything like that. Like that was not
+the problem. The problem was cryon
+descent right descent would not find
+generalizable programs. It would instead
+uh end up doing uh overfeit pattern
+matching right over over sequences of uh
+uh input tokens
+>> which I guess people could argue like
+that's what's happening. I mean this see
+what's happening today in a in a in a
+slightly
+>> it's it's a slightly high higher level
+version of
+>> it's with a lot of data so it doesn't
+feel like overfitting because the data
+has a lot more distribution
+>> with a lot more data and also I think
+models today uh they're a lot more
+compressive of the data which is why
+where they they generalize better
+>> all models are wrong but some models are
+useful and then I guess what I'm hearing
+is like your method might find the right
+model
+>> that's right that's uh that's uh where
+where the idea came from and I was like,
+you know, at the time in back in 2016,
+2017, I was like, okay, we're going to
+need a a benchmark to capture the ideas.
+>> Uh we're going to need a program
+synthesis benchmark.
+>> And uh my my mental model for that was
+ImageNet.
+>> I was like, oh, I'm going to make the
+imageet of reasoning. So, I started
+brainstorming a few ideas around like
+2017. I explored many different things.
+Uh I tried working with uh in part solar
+automator like u a setup where you show
+a model uh solar automator outputs and
+it must recreate uh the program that
+generated them like that sort of thing.
+Uh and eventually I settled on the uh
+RGI format uh around like early 2018.
+You know I was doing this on the side.
+It was a side project like my main
+project was uh developing kas at Google.
+I wasn't moving very that very fast uh
+on that. Uh so summer 2018 uh I wrote
+the ARC task editor and then I started
+just making lots of tasks by hand and
+about one year later I had made 10,000
+tasks and so I wrote up uh the paper
+that was explaining what this was about
+what the big idea was like intelligence
+as as skill acquisition efficiency and
+and I published all of that in in 2019.
+In parallel, GB3 2020 was coming out and
+starting to show signs until the chat
+GBD moment around 2022, end of the year
+and the industry took off with that and
+this was one of the benchmark that it
+was really performing really badly and
+it was very obscure. I don't think many
+people knew about it. It was mostly
+niche research communities that maybe
+read your paper.
+>> Yeah, people who worked on programs this
+knew about it. uh but a lot of people
+who worked on on deep learning on
+scaling up LLMs they didn't really care
+for it and part of the reason why is
+because LMS did not work well or at all
+on the benchmark but benchmark to
+capture the attention of the research
+community it needs to start working a
+little right uh if it's too hard people
+are are just going to dismiss it
+>> you're just ahead of your time clearly
+because we're not on ARC AGI one anymore
+and then two is reaching saturation
+And then that's right
+>> three is out now.
+>> Yes.
+>> And I think the cool thing about RKGI it
+has been a very good barometer for the
+industry of the big changes that
+happened because V1 was not working at
+all for a long time until 2025
+when reasoning models came out. Right.
+>> Yeah. Absolutely. If you look at uh PRI
+performance on arc v1 first and then v2
+uh so bas uh we're scoring extremely low
+on v1 like sub 10% basically and I mean
+it was true of uh the original like GP3
+scoring zero but that's even true of the
+latest basel lamps today you know as of
+as of March
+>> without reason without reasoning
+>> without reasoning yeah so the base
+models so performance of of basel lamps
+on on v1 stayed very very low even
+though in the meantime you know we had
+scaled up these models by 50,000x right
+so it was really telling you that you
+know more scale scaling up pre-training
+alone was not going to crack the
+benchmark this was not enough to
+demonstrate that the model had fluid
+intelligence and then uh the moment uh
+models started performing well on ark1
+was with the first reasoning models in
+part uh the openi 01 and then 03 uh
+models which by the way they were
+demonstrated by openi on arc because it
+was the one unsaturated reasoning
+benchmark that was really showing that
+this model was different that that new
+capabilities that we had not seen before
+and so with reasoning models you start
+seeing this sudden like step function
+change uh on on ark1 and so ar1 was
+really the benchmark that signaled that
+at this moment in time something was
+happening and
+>> something big
+>> yeah something big like new capabilities
+were emerging like reasoning was new and
+different and it was actually not
+obvious at the time like you know I
+don't know if you remember when uh when
+03 uh preview was was announced by open
+eye
+>> that was end of 2024 actually
+>> yeah December 2024 and like sure it was
+like huge like step function progress on
+arc uh but it was very expensive we did
+not really have product market fit
+effectively but if you looked at uh at
+arc results you knew that this was big
+and important and Then we released AR2
+which was the same format but uh more
+difficult like with more uh uh
+composition uh at the level of the the
+the reasoning chains. And what happened
+is that so the the earliest reasoning
+models started very very low on R2 and
+then around the same time as coding
+agents started working you saw this
+>> yeah so very very recent just few months
+ago you saw this uh very very fast like
+saturation of R2 and so again like R2
+signaled that yes there was this this
+new set of capabilities emerging. I
+think the benchmark did a really good
+job at capturing the advant of reasoning
+models and then the advance uh of
+agentic coding like this this new
+paradigm where if you have uh verifiable
+rewards then you can basically fully
+automate uh the domain which by the way
+is true of arc like arc does provide a
+verifiable reward
+>> I guess for v2 what what caused the so
+one was clearly reasoning two a
+benchmark doesn't care how you solve it
+I guess embedded in what you said like
+were people using codegen to then solve.
+>> That's right. So not not necessarily
+codegen uh per se but uh the frontier
+labs have been targeting arc v2 and uh
+the progress you saw on arc v2 is
+actually a result uh of this very very
+large scale targeting. So what you can
+do to solve RG2 is you ask your
+reasoning model to make more tasks like
+those in the benchmark uh and then you
+try to solve them using let's say let's
+say program induction for instance uh
+still using your reasoning model then
+you verify the solution again it's
+verifiable so you can you can trust uh
+the answer um and then you fine-tune the
+model on the successful reasoning chains
+and then you keep repeating like you
+generate new tasks you solve them you
+verify the solution you fine tune the
+model on the reasoning chains and um you
+can keep doing this millions of times
+right like you just need to spend more
+money
+>> this is the RL loop that happening yeah
+>> and the the new paradigm in AI is
+basically that any domain where this is
+true where you have the ability to join
+these this true uh verification signals
+you you can run this this kind of loop
+right if you can run this kind of loop
+you can mine uh you can brute force mine
+effectively the entire space and get
+extremely high performance. This is
+basically the the process through which
+AR2 was saturated. So what it tells you
+is that it's not so much that the models
+have higher fluid intelligence uh than
+than they did with the with the first
+models. It's just that you have this new
+paradigm of post training. And this is
+exactly what led to agency coding. So it
+does matter. It is it is valuable. It is
+useful.
+>> It's not that the models are smarter.
+It's that they're suddenly more useful.
+It is possible to be more useful in
+particular domains without being
+smarter. Yeah, clearly because that's
+means good things for me. I'm not
+getting any smarter right now like at
+you know age 45. But you know I can
+learn how to do things and that's sort
+of what's happening with the models as
+of like late.
+>> Yeah, absolutely. When it comes to uh
+competency, there's always a trade-off
+between intelligence and knowledge. If
+you have more knowledge, if you have
+better training, uh you need less
+intelligence to be competent. And that's
+exactly uh what happened with the the
+rise of coding agents, right? The models
+don't have higher fluid intelligence per
+se. They don't have like a higher uh IQ,
+so to speak. It's just that they're way
+better trained, and they're way better
+trained in in two ways. So, they're not
+just trying to autocomplete code
+anymore. They're actually trained via
+trial and error in these
+posturing environments with you know
+true reward signals and also they're
+trained uh to embed this uh model of
+code execution right where they they
+they they learn to keep track of the
+value of variables uh uh over an
+execution cycle and that's what what's
+leading to this extremely strong product
+market fit of agency coding today and
+it's really it's completely changing
+software engineering
+>> this happened not too long ago the
+saturation we actually at the founders
+of poetic that came and spoke about the
+approach
+>> which is really sounds like this new way
+of uh getting LM to perform is building
+this agent hardness right and the
+hardness is basically structuring a
+problem domain into something that can
+be formally verified and they did that
+basically for ARC v2 which when they
+released it they were at the top of the
+benchmark but then the crazy thing is I
+actually worked with a company in the
+winter 26 batch not too long ago called
+Confluence Labs which actually ended up
+saturating the V2 results with 97% and I
+think their task cost was uh a lot more
+efficient too and the approach they
+basically took is similar to this. I
+think they built the harnesses on top of
+it in order to get the LMS to to go and
+build different tasks and program
+through it.
+>> Yeah. which then for me I was like wow
+is this batch and during the batch they
+only worked on it for a couple of months
+and they were able to saturate this
+batch that has been around for a long
+time. It's like something special is
+happening.
+>> Yeah. Yeah. There's a lot of progress
+right now. It's driven by a custom
+harnesses around the task and the
+harness is basically a way for the the
+human programmer to um input into the
+model like higher level like uh solution
+strategies basically. I mean to me the
+fact that you need humans to engineer
+these harnesses is also a sign that
+we're we're short of AGI today because
+if we had AGI you know AI would just
+make its own harness it would not need
+to be told how to solve a problem it
+will just figure it out but it is very
+effective like harnesses I don't think
+they get us closer to AGI in any sense
+but it's a very valuable area of
+research because that can lead to task
+automation at scale
+>> YC's next batch is now taking
+applications got a startup in Apply at y
+combinator.com/apply.
+It's never too early and filling out the
+app will level up your idea. Okay, back
+to the video.
+>> Can you tell us about then what V3 is
+going to measure that's uh just got
+released?
+>> Yeah, absolutely. So, if you look at V1,
+V2, uh it was really focusing on your
+ability to uh produce like causal models
+uh of a pattern that was just given to
+you like the data was given to you. Uh
+so it was static, it was uh passive and
+really focused on uh modeling and uh v3
+is completely different. We are trying
+to measure uh agentic intelligence. So
+it's interactive, it's active like the
+data is not provided to you. You must go
+get it. The idea is that your agent is
+dropped into a new environment which is
+kind of like a a mini video game. And
+it's not provided any instructions. It's
+not told what to do. it's not told uh
+what the goal even is or what the
+controls even are and it must figure out
+everything on its own via trial and
+error. So we are we are not just uh
+measuring you know the uh the AI's
+ability to model its environment we're
+also looking at uh its exploration
+efficiency its ability to acquire goals
+on its own like goal setting and of
+course its ability to plan uh through
+the model of the environment that's
+created and and to execute the plan. Uh
+and so together, you know, all all of
+these abilities, we call that agentic
+intelligence. And we are looking for AI
+systems that could learn to play these
+games and and you know, crack them with
+the same degree of action efficiency as
+a human. If you look at the human, they
+are dropped into this new environment.
+They they try a few things. They start
+understanding how things work. Uh they
+can they can solve the environment, you
+know, in in a few hundreds to thousands
+factions. We're trying to look for AI
+systems that could match uh this
+efficiency. And by the way, we know that
+all of these test environments in R3 are
+solvable by humans with no prior
+training because we actually uh tested
+them uh on on regular people. Yeah. At
+first, you just see this screen and you
+you know you have these keys available,
+but you don't know what they do and you
+must figure out everything from scratch.
+And humans are really good at that by
+the way. They're really good at
+exploring efficiently at making sense of
+something new and eventually cracking
+the game. And frontier models today,
+they're not very good at it. If the
+reasoning models cracked V1 and the like
+reinforcement learning environments
+cracked V2, did do we need a new advance
+to crack V3? Did the did do even the
+best techniques currently like not work?
+>> Yeah, I mean, I'm pretty curious to see
+how Frontier Labs are going to react to
+V3 and how they're going to start to
+target it. um it is designed to be more
+resistant uh to the same kind of
+darkness strategy as what we saw for V2
+in particular. Like of course you can
+try to just make more AR3 like games and
+then train your agents uh in them. Um
+but the thing is we've uh deliberately
+tried to create a private set of
+environments that is significantly
+different from the public set like you
+can look at the public set. actually
+giving you that much information about
+what's in the private set.
+>> Uh in the private set you will have very
+different games with very different
+concepts
+>> and also the public set is meant to be
+substantially easier performance on the
+public set is not actually it's not
+representative of how well the system
+would prioritize. So for this reason
+it's going to be harder to target
+>> and that makes it a better test of fluid
+intelligence as opposed to a test of how
+much effort you put into into cracking
+it.
+>> I'm so curious how do you come up with
+these games? They're so creative.
+>> Yeah, we set up an entire uh video game
+studio, right, to to create them. Uh so
+we got over 250 games. Uh and you know,
+they they're pretty quick to play. Like
+each game takes you maybe 10 minutes or
+or or a bit less uh uh to play from
+scratch, like upon first contact. And we
+have like 250 plus. And uh we set up
+this uh very productive game studio
+where we had any given week we had
+multiple games uh in progress. We're
+like this this pipeline uh including you
+know design implementation uh review
+human testing and and and many many
+iteration cycles to to to make sure that
+the the game comes out right. Who who's
+working in the studio?
+>> Right. Uh we yeah we hired a team of
+game developers and we built our own
+game engine.
+>> Wow. So so it's actually people who like
+previously worked in the game in the in
+the video game industry.
+>> That's right. That's right. So, one
+thing to keep in mind though is that the
+games in Oxy are unique, right? They're
+they're trying to not borrow elements,
+concepts from previous video games. Uh
+they're built entirely on top of core
+knowledge prior like things like just
+just you know elementary knowledge like
+basic physics uh understanding of
+objects uh understanding of the notion
+of agents for instance like an agent in
+objects with goals and int intentions.
+Um but we we're not incorporating any
+language any like cultural symbols like
+you know arrows for instance uh or the
+color green meaning go and color red
+meaning star that sort of thing. Uh
+there's no external knowledge that's
+involved uh in these games.
+>> It's like one of those uh IQ tests that
+are just pattern matching but now it has
+time series.
+>> Yeah. Uh it's not just time series it's
+interactive. must create your own path
+through game space, right? You you must
+>> you know in in in an acutest like
+problem like you know what ARK one and
+two is the data that you must model is
+provided to you. You already have the
+data you just you just need to find the
+causal rule to explain it with AR3
+actually must gather the data
+>> uh and you must do so efficiently. Like
+of course you could say well I'm just
+going to you know brute force mine uh
+the space of every possible game state
+and then I find the solution. You cannot
+do that because if you try to do that
+you would score extremely low even if
+you manage to solve the level uh because
+you're scored on your efficiency. You
+must match human level efficiency.
+>> It's funny it's like almost coming full
+circle. This level of AGI
+with games sort of is the match pair to
+open AI writing. I mean, you know, Tom
+Brown, uh, one of the co-founders of
+Anthropic, had to write like the harness
+code to allow like the, you know, preGPT
+AI at OpenAI to play Starcraft.
+>> Yeah. Yeah. OpenAI worked on on uh in
+part on on Dota 2. uh they had the
+openi5 model which was if I recall
+correctly. So this was like not just pre
+GPD but also mostly pre transformers
+because they were working with a stack
+of LSTM
+>> uh layers if I recall correctly and even
+before open pony uh deep mine worked a
+lot on video game uh uh you know solving
+video games via deep aisle uh and they
+were the first to do uh Atari games
+right back in 2013 that you know they
+were very very early very very visionary
+in that sense to to work on on this
+problem so early with methods which are
+still very modern methods. So the big
+difference is that if you look at um at
+games for instance you're training uh on
+on the same environment as what you use
+for testing. So effectively you're just
+trying to memorize the best strategies.
+you're trying to uh at at training time
+explore the full uh space of possible
+game states and productionize
+operationalize
+uh that knowledge into into into the
+model and then at inference time you're
+basically just recalling that knowledge
+and that's explicitly what we're trying
+to avoid with AR 3. Uh you're not
+playing games uh that you've seen
+before. You're not playing games that
+you've been trained on like for millions
+of files. Like the OpenI5 model for
+instance was playing a restricted
+version of Dota 2 and it was trained on
+like tens of thousands of hours of
+gameplay effectively. I think maybe in
+millions just an insane amount of
+training data. With AR 3, you're being
+evaluated on games that you're seeing
+for the very first time and every action
+you spend exploring is counted towards
+your efficiency score. Right? So you're
+really focused on measuring fluid
+intelligence, your ability to
+efficiently explore, efficiently produce
+a world model uh of the environment and
+then use this model uh to infer goals uh
+plan towards these goals uh and and
+eventually crack the game. One of the
+arguments for um you know India is that
+you're able to do all of the intelligent
+tasks for you know an arc task might be
+like.3
+you know cents for an arc task but you
+know for the same task on a foundation
+model with LLMs it's you know a dollar
+to $10 and then there's this other
+aspect that we've been tracking where it
+seems like uh more and more intelligence
+um at least on the LLM side uh can be
+distilled down into smaller and smaller
+models. And so on the one hand like
+they're scaling up but then they're like
+distilling smarter and smarter small
+models. I guess your approach might
+indicate that it's not billions of
+parameters like the you know achieving
+AGI might not be you know sort of
+inherently a scale thing at all. There's
+a platonic ideal of the NDIA model that
+achieves AGI.
+>> Yeah. Yeah.
+>> Do you ever think about it in terms of
+like well it would fit on a floppy disc?
+>> Well, okay. There there are two things
+to separate. There's the sort of like
+fluid intelligence engine.
+>> I think it's going to be a very very
+small code base uh and a very small set
+of models associated with it and it's
+probably going to be on the order of
+megabytes, right? And then you have the
+knowledge base so to speak uh that's
+going to be uh layered below this this
+fluid intelligence engine like you know
+fluid intelligence has to draw on some
+knowledge and that knowledge is going to
+take up a lot more space. I think it's
+it's it's important to to differentiate
+the two. I do believe that you know when
+we create a GI retrospectively it will
+turn out that it's a code base that's
+less than 10,000 lines of code
+>> and that if you had if you had known
+about it back in the in the 1980s you
+could have done AGI back then using the
+comput resources available back then
+>> wow that's a crazy prediction
+>> that's I I think retrospectively this
+will turn out to be to be true.
+>> Wow. So it was just like hiding under
+our noses in plain sight for like 40
+years. It took us like 40 years to
+figure it out.
+>> That's right. That's right.
+>> Well, that second thing sounds like
+Douglas Lenat's like psych project. Or
+is that the wrong way to think about it?
+It's like there's sort of knowledge
+about the world
+>> and then there's methods like the
+program what I hear is like the program
+might be 10,000 lines and then it
+operates on like
+>> on knowledge base that's very large. So
+the problem with psych uh I mean there
+were many issues with it but one of the
+big issues is that uh there was no
+learning involved.
+>> Yeah. It's just the knowledge like
+>> the knowledge wasn't crafted.
+>> It's like purely symbolic knowledge and
+it was probably inaccurate.
+>> The way you want to be building a GI is
+that you want to be removing humans uh
+from from the improvement loop as much
+as possible. You don't want a system
+where every improvement in system
+capability has to involve a human
+engineer doing something. And it's
+actually the strength uh of deep
+learning and foundation models is that
+you can just scale up the knowledge
+base. Like an LLM is effectively
+knowledge base. It's a bank uh of uh of
+you know modular uh vector programs that
+map patterns of input tokens to patterns
+of output tokens. And you can you can
+scale up that knowledge base by just
+adding training data and training
+compute with no further human
+involvement. I mean, of course, there's
+still a little bit of human involvement
+in in making sure the train job
+completes, but it's it's minor. You've
+managed to remove humans uh from this
+improvement as much as possible. And
+that's also uh what we want for our
+system. We want a system that's uh
+self-improving where the improvements
+are compounding, meaning that every time
+the system increases capabilities, it's
+also increasing the rate at which it
+increases its capabilities.
+>> I think this is a PGism. It's like, I'm
+sorry the essay is so long. uh if I had
+more time I would make it shorter.
+>> Yeah. When you're looking at at a hard
+problem it's actually harder to produce
+a short elegant concise solution than a
+messy overengineered solution.
+>> Yeah, you can brute force it but you
+know the more elegant version is very
+very short and that's kind of like what
+you said with how this might come about.
+This is this is yeah this is literally
+the shape of the type of AI approach uh
+we are creating and I think this is also
+the shape uh of science itself like
+science is fundamentally a a symbolic
+compression process where you're looking
+at a big mess of observations like you
+know the the position of planets in the
+sky or something like that and you're
+compressing that down to uh a very
+simple symbolic rule. You're saying like
+yeah like all these you know thousands
+of observations actually just all uh
+this one simple equation that's symbolic
+compression and to do this by the way uh
+you need the model uh to be symbolic
+like you you could not fit a curve and
+say well you know that that curve is my
+model that would never be optimal it
+would never be concise or elegant enough
+and that's not what science is doing.
+Science is not about curve fitting.
+Science is about finding the equation,
+finding the most compressive symbolic
+model of your pile of observation. And
+that's the process that you're trying to
+recreate in software form. Like you
+could say that uh the NDI approach to
+program synthesis is that we are
+building science incarnate science the
+scientific method in in algorithmic
+form. I'm curious if you compare it to
+biology. Clearly LMS don't learn the way
+that humans do cuz no baby reads the
+whole internet. Do you think program
+synthesis is closer to the way that
+humans learn or do you think that's yet
+a third branch where even if program
+synthesis is correct there will be some
+yet as undiscovered third way to do it
+which is the thing that we do
+>> I think so uh I do think humans do some
+amount of program synthesis I think the
+the way humans learn and the way the the
+human mind works is very messy it's not
+like there's one simple elegant
+principle behind it all it's an
+implementation of fundamental principles
+the fundamental principles of of
+intelligence which you know I think we
+can identify these principles and
+reimplement intelligence from scratch
+from first principles in a way that will
+be much more efficient than the human
+brain. I think the human brain is messy
+and it's it can be a good source of
+inspiration for AI but I think it would
+be counterproductive to just try uh to
+you know observe it and reimplement it
+like uh and and and make it biologically
+plausible. Uh I think that's
+counterpart. That's not what we're
+trying to do at India. We're really
+trying to find what are the first
+principles of intelligence and what is
+the system that would best implement
+them. But yeah, I do believe the human
+mind does at the highest level uh
+something that looks a lot like
+programs. It's like we're currently
+building causal models of our
+surroundings like we're we're describing
+our surroundings in our mind as you know
+a set of objects and agents and and
+relations uh pin objects uh that are
+fundamentally symbolic and causal in
+nature. This is exactly the process that
+lets us uh generalize so well and adapt
+so well to novelty on the fly. I'm
+curious about NDIA the company and as
+you're as you're building it um we've
+all here heard of the OpenAI founding
+story and something that's always struck
+with me is just like both Sam and Greg
+say that it was a little odd in the
+early days cuz you didn't actually know
+what to do just like bunch of people
+like hanging out in an apartment. I
+would love to hear kind of what's that
+been like for India like what did like
+the day one look like and just maybe for
+just people who are interested in
+starting these alternative approaches
+who don't have sort of a researchy
+background how should they think about
+that
+>> yeah so we we started on day one with
+the symbolic learning vision like we
+basically knew that we wanted to do uh
+symbolic program synthesis that we
+wanted to create a new approach to
+machine learning where you replace
+parameter curves with the shortest
+possible symbolic models and And the big
+question was okay so how do we find
+these models? We started from uh the the
+the base idea which is still the idea
+that we're following today which is that
+we are doing we are going to do uh deep
+learning guided program search that you
+have a a symbolic search space to
+explore and it's big it's in fact
+communal you're not going to make
+progress uh if you just use brute force
+uh it's not going to scale uh you have
+to break the comal wall and the way to
+do it is to add is to add uh deep
+learning guidance it's actually very
+similar to uh the principles that end
+something like alpha or alpha zero. So
+it was our our starting point. We also
+you know didn't have very clear ideas
+about how to how to build it. So we we
+tried many different things. We tried
+many many different ideas and um it took
+us half a year roughly uh to to to get
+to good foundations uh where we we could
+start building a system that compounds.
+And I think that's what's really
+important uh when when doing a lab like
+this that you don't want to be in a
+situation where you're you're constantly
+trying something new. It's not reusing
+any learnings, any findings uh from the
+previous approaches. You want you want a
+compounding stack. You want to build
+reusable foundations and then the next
+layer and then the next layer and the
+the the and of course you you want to be
+building onto the right foundation. So
+don't uh commit to the to the foundation
+layer too early, but also make sure that
+at some point you're building this this
+compounding structure and that that's
+that's the situation that that we're in
+now.
+>> Is ARK 3 the end or will there be an ARK
+four, five, six? Can you keep making it
+harder?
+>> Yeah. Yeah. I think there there will
+absolutely be ARK 4 and and AR five. I
+mean, we're currently planning ARK 5. Um
+the the point of the AKGI benchmark
+series is not to say that well, you
+know, here's this test. if you pass it,
+this is a GI. Um, instead what we're
+trying to do is we're target we're
+targeting uh the residual gap of fair
+capabilities like frontier is advancing
+and we're saying well uh if you compare
+it to to to human abilities there
+there's all these tasks all these things
+it's now doing well so we're going to
+create a benchmark to target that. uh
+and so it's a moving target, right? It's
+it's not fixed point. It's a moving
+target. So there will be ARK 4 which
+will be uh in the spirit of ARK 3 but
+more focused on continual learning and
+and curriculum learning at longer time
+scales. So you're you're going to have
+fewer games uh but they're going to have
+way more levels and the levels are going
+to be compounding meaning that for for
+each level you need to reuse stuff that
+you've learned before. Then there's
+going to be Ark 5. And I'm actually
+really really excited about Ark 5. It's
+very very new and different and it's all
+about invention and I mean you will see
+you will see what that means. Eventually
+I expect we will we will run out of
+things to test like as uh as we get
+closer to AGI um eventually there will
+be no measurable difference uh between
+human capabilities and part human
+learning efficiency and and frontier AI
+and when that happens when when it
+becomes effectively impossible to
+measure the gap this is the GI moment.
+Well, then the machines will take over
+and then they will create ARC ASI one.
+>> Yes. ARS
+>> and then it'll continue from there.
+Yeah.
+>> Yeah. If you had to put a guess, I mean
+years, decades, months.
+uh my timeline to AGR, you know, if you
+if you just try to to extrapolate from
+the the current rate of progress and the
+amount of investment that's going into
+not just the LLM stack, but also like uh
+side ideas, side bets that might work
+out like you know, NDI for instance, I
+think we're probably looking at AGI
+2030,
+early 2030s uh most likely. So around
+the time uh that you are going to be
+releasing like maybe AR 6 or AR 7 uh
+that's probably going to be a GI.
+>> You guys are doing a different approach
+to LLM. Um do you think there's room for
+more startups to explore other new
+approaches and are there any other ones
+that you think are promising but don't
+have time to explore yourself?
+>> Yeah, absolutely. I mean there are many
+different approaches that you could try.
+I've said like compute is is a great
+equalizer. I think if you look at the
+amount of comput and resources that
+we've thrown at uh deep learning and and
+gradient descent and and scaling that up
+if you had thrown the same amount of
+investment into almost anything else you
+would also have seen extremely exciting
+results like genetic algorithms for
+instance uh if you try to scale up
+genetic algorithms I mean I'm sure you
+can do incredible things with that um
+you could in fact probably do new
+science uh because uh that's based on
+search and search is the is is the best
+fit for uh automating the scientific
+method. uh I think so right now there's
+also like approaches that uh build on
+top of the current stack with their
+slightly alternative like uh state space
+models for instance uh there's the the
+XLSM architecture like you you can
+basically you know current frontier is
+it's it's a stack of things and you you
+can take any layer in the stack and try
+to propose an alternative like if you
+propose an alternative architecture uh
+you can be doing for instance like yeah
+like more like uh recurrent models
+instead of transformers uh for for the
+architecture. Uh or you can do even
+lower level. You're going to be like,
+okay, we're still going to be training
+uh parametric curves, but you're going
+to get rid of cranes descent, right?
+We're going to use like search. Maybe
+you're going to do new evolution. Uh
+that's that's lower level. And the
+lowest level is uh the the level where
+where we're operating where we're saying
+well actually uh forget about curves uh
+forget about parametric, forget about
+crown descent. We're just going to do
+something completely different. Um and I
+think if you want to build optimal AI,
+you're kind of forced to go back to the
+foundation of the stack. It cannot be
+like uh uh one one layer added on top of
+the pile.
+>> So do you think for aspiring researchers
+to want to do a new neolab with a
+different approach, they should be
+reading research papers from the 70s or
+80s and
+>> go deeply in those with approaches that
+were not as invested nowadays. That is
+actually a great idea because uh earlier
+in the in the history of the EI research
+timeline, people were exploring more
+things and very different things. You've
+had this sort of like collapse of
+everything into one approach. It's
+actually kind of a bad idea. Uh like
+consider that not too long ago, like
+about about 20 years ago,
+>> we had the collapse into SVMs, too.
+>> Yeah. I mean it wasn't I wouldn't
+describe it as a collapse because there
+weren't that many people doing SVMs and
+AI was a much much uh smaller field back
+then but there was this uh uh widespread
+understanding that neural networks were
+were a failed approach that neuronet
+networks didn't work and it it was waste
+of time to to keep trying right
+>> yeah no even even in the in the in the
+late 2000s this was a set of things
+basically like when I got into into AI
+people are telling me like hey neuronet
+networks don't try that I was like yeah
+but it it looks a lot like what the
+brain is doing like I'm I'm interested
+in that if everybody is working on
+something you are discarding ideas that
+will uh actually turn out to be very
+productive ideas right and yeah like
+back in the 70s back in the 80s people
+are trying more things and I think
+genetic algorithms actually a very good
+example of that uh I think this is an
+approach that has a tremendous amount of
+potential but there's there's not too
+many people are looking into scaling it
+up uh deeply.
+>> Are there any characteristics that you
+would be looking for? I mean is it as
+simple as like if there's a scaling law
+that could happen then even if it's a
+different or is it is that too like you
+know thinking by analogy
+>> I think you are looking for approaches
+that scale.
+>> Yeah. Uh I think it's it's a
+non-starter. If you're working on
+something but the only way to increase
+the capabilities of the system is to
+have uh human engineers and researchers
+spend time on it, it will not work
+because even if the idea is very clever
+and very elegant and works really well,
+capabilities are going to be bounded.
+They're going to be bounded by human
+investment. Right? You want to be in a
+setup where the system can improve its
+capabilities with no human in the loop,
+with no human.
+like don't just do it the way we did it
+like 10 years ago. Do it with the idea
+that recursive self-improvement is baked
+in at the beginning.
+>> Yeah. Not necessarily recursive
+self-improvement because deep learning
+for instance not is not recursively
+self-improving but with the idea of
+scaling up with no human bottlenecks.
+You want to remove the human from from
+the improvement loop. The great strength
+of deep learning is that the models got
+better and better simply by adding uh uh
+training training compute and training
+data. I mean it's it's a little bit of
+caricature because of course just adding
+these factors requires a lot of human
+involvement but basically that's the
+idea that you have this decoupling from
+uh the improvement curve and the amount
+of human effort that's needed to be
+injected into the system.
+>> I guess or human effort that's already
+happened because the LMS do actually
+require an enormous amount of human
+effort. It's just it was the human
+effort to build the internet and we'd
+already built it.
+>> Yeah. Actually less and less now uh that
+we are doing uh training in interactive
+verifiable environments
+>> because then
+>> you only need a small amount of human
+effort to create the environment and
+from that small amount of effort you're
+you're creating exponentially more
+training data. But at first I think to
+sort of like prime the machine you need
+this tremendous amount uh of uh of uh uh
+human generated abstractions encoded in
+text data and if you if you don't start
+from that you you cannot get the system
+into this loop. Do you have any advice
+for me uh starting a open source
+project? Things to do, things not to do
+in uh in the AI space because I am uh
+not sure how I signed up for this in the
+last 14 days, but I think I have I don't
+know on the order of like 10 to 30,000
+people using GStack every day.
+>> Yeah, it's wild.
+>> Yeah. And I don't know like I have a job
+I guess like you know what was it like
+to start Keras and how did you keep
+maintaining it? How what's a good
+maintainer like what did you learn from
+that? I don't know this might be a whole
+hour.
+>> Yeah I mean lots lots of learnings from
+>> too many things
+>> from growing growing kas. Uh so right
+now I'm less involved with it. Uh
+there's a big team at Google that's
+working on it and they're doing an
+amazing job. So it is possible to not
+you know to put people together to like
+>> it is possible to start something. It is
+possible to start something and and and
+then get more people involved and at
+some point it becomes its own thing.
+It's just you know it used to be your
+baby but now it's all it's all grown up.
+It's all adult and and and going on with
+its own life. So if you ask me the the
+factors that really made car successful
+um I mean first of all is that there was
+this big focus on uh making the the API
+simple and intuitive. There was this big
+big focus on usability and this was
+inspired by scikitlearn like scikitlearn
+was sort of like the og uh machine
+learning library for python and what
+made it successful was that it was so
+easy to get started with it. So at first
+I was like okay uh I'm going to package
+uh all this functionality I've created
+under a really really simple API going
+to be like the second API that was like
+the big idea. The focus on usability is
+not just making sure the API is simple.
+It's also making sure the entire on
+boarding experience is nice and easy
+like the docs should be very
+informative. You should, you know, the
+doc should be not just telling you about
+how to use this thing, but they should
+actually be teaching you about the
+domain in the first place because the
+the folks who land on your website,
+they're not going to be already deep
+learning experts. They're going to be
+people looking to maybe start using deep
+learning. And so you you have to teach
+them not just how to use the tool, but
+what the tool is good for um and and the
+entire field around it. And then uh you
+know you have to put a lot of investment
+into community building. Um one thing we
+uh we did a bit at Google in fact you
+know Google made it kind kind of
+difficult and and I was sad about that
+is uh hire your power users
+>> like hire your fans. This this is a
+really really good idea like find find
+the the most enthusiastic users from
+your community and and and just hire
+them on your team.
+>> Amazing.
+>> Yeah. and uh these are the always the
+best people, right?
+>> All right, time to start gstack.org. Uh
+put in a bunch of my own money and then
+hire a bunch of people to work on it.
+That sounds good. I think you've been a
+leader in pioneer and we're so lucky to
+have you sit with us. There are people
+watching who are at the beginning of
+their, you know, adulthood even like
+their certainly their professional
+careers uh or actually like people just
+around the world. They're like trying to
+understand like what does this mean as
+intelligence becomes broadly applicable
+like what would you tell you know if you
+were 18 right now what would you tell
+them
+>> yeah I mean there's a lot of people
+today who are very uh pessimistic very
+negative takes about the the rise in the
+capabilities they say oh you know uh I'm
+going to be out of a job soon uh there's
+going to be mass unemployment uh AI is
+just going to take over completely and
+my my tech is actually you know the more
+you know the more expertise you have but
+things like programming for instance the
+better you're able to use and leverage
+these tools for your own benefit and
+with the right kind of expertise uh all
+this AI progress is actually empowerment
+like it's something that you can
+leverage for yourself I mean that's
+that's exactly what you did with your
+project right
+>> and yeah more people should have this
+mindset of trying to learn as much as
+possible not just about AI uh but about
+the the domain that they want uh uh to
+apply AI to, right? So that they should
+they should seek to turn this uh uh this
+this new development into an opportunity
+into into a tool they can use for
+themselves to improve their own lives. I
+think that's that's the right mindset
+because you know you're not going to
+stop uh AI progress. I think I think
+it's too late for that. And so the next
+question is okay like AI progress is
+here. Uh it's actually going to keep
+accelerating. How do you make use of it?
+How do you leverage? How do you ride a
+wave? That's the question to ask.
+>> I wish we could uh keep going for a
+couple hours cuz I'm sure we could.
+Francois, thank you so much for spending
+time with us.
+>> Thanks so much for having me.

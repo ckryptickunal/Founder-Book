@@ -1,0 +1,283 @@
+Title: Salient: The Fintech Startup Processing $1B+ in Loans with AI
+Video ID: LX_wvUMxVsk
+URL: https://www.youtube.com/watch?v=LX_wvUMxVsk
+Channel: YC Root Access
+Published: 2025-07-28T16:06:43Z
+Duration: PT9M46S
+Views: 6739
+Likes: 100
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 262
+
+Description:
+Ari Malik and Mukund Tibrewala started Salient after seeing firsthand, during Ari's time at Tesla, how expensive and outdated loan servicing really was. What began as a side project—automating outbound calls with voice AI—quickly evolved into something bigger: a fully integrated, AI-powered loan servicing platform built for both fast-moving non-bank lenders and some of the largest banks in the U.S.
+
+In this conversation, Salient's co-founders share how a single cold email and a Steve Jobs–voiced
+
+============================================================
+TRANSCRIPT
+============================================================
+
+[Music]
+So today I'm super excited to have
+Salient here who are announcing a
+massive series A led by A6C for $60
+million. Congratulations.
+Tell us a bit about what Salient does.
+>> So Salient is an AI loan servicing
+platform for consumer lenders. Uh we
+started off with auto loans but now we
+help manage credit cards, mortgages,
+anything that a consumer can take a loan
+for. So we work with non-bank lenders
+like Westlake Financial, Exert Finance,
+American Credit Acceptance,
+as well as three of the largest publicly
+listed banks in the US.
+>> And you guys went through YC not too
+long ago. It was just two years ago.
+This is a crazy ride to get there. So
+working with the largest public banks in
+the US, that's wild. Where did you guys
+get started? How did you find this idea?
+>> Um, so it all kind of started from my
+time at Tesla. So at Tesla, we were
+giving out loans to help drive new car
+sales. And what we found was that the
+cost of matching these loans was very,
+very high despite the fact that we were
+giving loans to people with great credit
+scores all in California. And when we
+kind of dove into what is it that's
+really driving the spend, I think look
+realized that you know we could actually
+automate a lot of this stuff using AI.
+So I think we were very fortunate with
+the timing on two crucial aspects. The
+first one was the advent of closed
+source models like GPD 3.5 coming out
+that led us to like pave the way for
+really really high quality demos. The
+second big leap came from when it came
+time to scale. We realized that the
+advent of open source models that were
+available for fine-tuning such as the
+Llama series really really helped us
+scale from like a few hundred dials per
+day to over 100,000 dials per day. Um
+along with that came VLM which was the
+open source inference library that
+really really allowed anyone like us to
+be able to grab one of these llama
+models serve it up to millions of
+requests per minute.
+>> You were one of the first companies to
+really take advantage of the alternative
+with opensource big models. So LMA 2
+that was released in July 2023 was the
+moment for you. Tell us about that. What
+what what was that specific about the
+model that made it possible?
+>> So I feel like that was a really big
+week for us when that model came out
+because for us it paved that big gap
+between having a high quality demo but
+still only doing like a 100 calls a day
+to being able to sustainably scale to
+hundreds of thousands of calls per day.
+>> I remember when you showed me a demo. I
+got this call from uh the voice of uh
+Steve Jobs.
+Uh it was very convincing. This is
+starting to work. AI has passed this
+moment of the touring test and I was
+like impressed. And you got that working
+around that summer and with that demo is
+how you got one of your first big
+customers. Tell us about that journey
+around that was in the summer fall of
+2023.
+Yeah. Um, so I think we cold emailed
+every single auto lender under the sun.
+And
+>> how many emails were you sending? Like
+>> 500 a day. I was just like sitting like
+I was I remember being in a room just
+looking at a laptop from 8:00 a.m. to
+9:00 p.m. just sending emails. And um I
+think this is probably the best thing
+that's ever happened to the company was
+uh getting a response from Westlake
+Financial and they are a massive auto
+lender in the US. you know, more than
+$25 billion of assets and they were down
+to meet with us and you know, at that
+time it was just me mccun working out of
+my bedroom in San Francisco and here was
+this massive company that I think saw
+the potential of this technology and
+knew that we were the people that could
+actually do it. And so while they were
+thinking about other vendors, what we
+ended up doing was just moving there.
+like we packed up our bags, we left SF,
+we moved right next to their office and
+we spent I mean a year and a half really
+getting them live, you know, and I think
+it's thanks to their embracing
+technology that they want to take risks,
+they want to be at the cutting edge and
+they're willing to partner with us that
+we're allowed to really build, I think,
+cutting edge solutions. Um, and so
+thanks, you know, we've now done more
+than a billion dollars in process
+transactions in the US. We've interacted
+with more than three million unique US
+borrowers. We dial more than 400,000
+times per day. And I think it all all
+came from that cold email.
+>> Wow. That cold email and that Steve Job
+call demo was what it took. I think that
+was definitely one of those magic demos
+that you you got to like use this. I was
+I was so impressed. You guys got to a
+couple million in revenue a year with
+just the two of you.
+How did that happen?
+>> I think it's honestly just being like
+relentlessly customer focused. Like we
+had these amazing tailwinds of AI
+getting better and better every month. I
+think the thing that you know mun does
+really well and I do really well is we
+weren't just in the lab like we were
+with our customers every single day. We
+were plotting out all their workflows.
+And when it came to actually deploying
+the product, we didn't just say here it
+is, go figure it out. It's like here it
+is. We'll put it into production with
+you. And I think that kind of like
+relentless like commitment to customer
+success allowed us to scale very very
+quickly.
+>> I think the thing that was very hardcore
+just double clicking on what you said is
+you move from San Francisco to live next
+to your customer until they were
+successful. You were effectively
+deploying the forward deployed engineer
+playbook that Palunteer got it down to
+get this massive enterprise live. And in
+that process is what we've seen at at YC
+is a lot of these AI companies like
+yourself that are going very quickly is
+what it takes to go live and quickly
+grow. So you went from then couple
+million a year passed and you got to
+tens of millions in revenue and the team
+was only 10 engineers.
+How do you guys make that happen?
+>> Honestly, it's due to the fact that how
+great our first 10 hires were. We hire
+XYZ founders. We hire really young crack
+talent and we hire people who want to
+move really really quickly. And I think
+what we're learning in this current like
+in our experience of like deploying
+solutions is actually it's not the size
+of the team that really matters. It's
+like how committed is your engineer to
+getting a working product out and having
+that I think like relentless push from
+every single one of our engineers who
+makes us better, they make our product
+better, they make our customers happier,
+I think is like it's all thanks to them.
+I think one thing we realized early on
+was that we are going to make every one
+of our engineers responsible for a major
+customer. They were not used to that
+coming in from a couple of years at
+Google. They became the account manager.
+They became the forward deployed
+engineer. they were talking directly to
+the CFO and to the VP of servicing and
+they were completely unprepared for that
+but like three weeks in it was like
+they've been doing it every day.
+>> So what are the kinds of people that
+you're hiring now with all this money
+that you raised?
+>> Yeah. So I think like now that we raised
+this money, we've had so much pent-up
+demand in the market for so long. Like
+the biggest constraint in our growth has
+just been ourselves. And where we want
+to go with this is hiring really, really
+high agency engineers, high agency
+product managers, salespeople to help
+take us no longer from 0 to one, but
+from one to 10,000.
+>> I think voice AI became a very good foot
+in the door for a lot of your customers,
+but now you ended up doing way more. I
+think one of the challenges that we had
+not yet anticipated as we were trying to
+grow was that it wasn't just about
+having high quality voice AI. It wasn't
+having like low latency good interrupt
+behavior. It was about scaling to
+hundreds of thousands of calls in a safe
+manner according to US regulations. It's
+about making sure that we only dial an
+account when it is legal to do so. And
+it is ensuring that our system is able
+to like simultaneously manage thousands
+of dials we do simultaneously. And as
+part of that, you figure out a lot of
+really hard technical pieces. You guys
+got to PCI compliance in record time.
+>> Yeah. I think the big thing is like we
+work in such a regulated industry. We
+have laws at the federal level. We have
+laws at the state level. We have, you
+know, in some cases even laws at the
+district level. And so I think a bulk of
+our time in building the solution is how
+can we do this in a way that protects
+the lender but also makes the consumer
+feel safe. So it's building in
+safeguards on bankruptcy protections on
+legal representation on codifying TCPA.
+So you know we've now become big experts
+in the US consumer lending space.
+>> So what does the future look like for
+you?
+>> Our goal is to be the system of record
+for every loan in America. When a lender
+books a loan, it should come onto our
+software and that should be touchless
+for that lender from start to finish
+from the date of origination to the date
+of charge off. And that means us
+building a CRM. It means us building an
+accounting system. It means us building
+workflow automation tools. It means us
+building an an AI contact center.
+And the end vision what salient does is
+like we should lower the cost of credit
+for the American consumer. Like those
+costs should no longer be blindly passed
+from like you know a lender to a
+borrower. We should make that spread
+almost zero. And so that's what we're uh
+trying to accomplish. Thank you so much
+Arian Mukun for coming and
+congratulations on your massive series
+A.
+>> Thank you so much.
+>> Thank you so much. Really appreciate
+that.

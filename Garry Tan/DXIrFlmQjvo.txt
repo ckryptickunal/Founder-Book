@@ -1,0 +1,888 @@
+Title: US DoD needs great software | Palantir eng & special forces vet founded Adyton and Mustr
+Video ID: DXIrFlmQjvo
+URL: https://www.youtube.com/watch?v=DXIrFlmQjvo
+Channel: Garry Tan
+Published: 2021-10-07T14:30:05Z
+Duration: PT28M3S
+Views: 11873
+Likes: 339
+Tags: Andreessen horowitz, Garry Tan, Garry Tan initialized, Garry Tan initialized capital, Garry Tan vc, Silicon Valley vc, a16z, adyton, adyton startup, air force, best Silicon Valley vcs, future of military tech, initialized capital, military chat, military tech
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 864
+
+Description:
+Visit Adyton (https://www.adyton.io/) to learn more about the transformative Military and Enterprise tech solutions Adyton is deploying for the US DoD and teams across the nation. 
+
+Their first product is Mustr, which provides troops with simple and secure accountability, identity, messaging, and workflow https://www.getmustr.app/ 
+  
+James Boyd is an early Palantir engineer who served as a Communications Sergeant in the 1st Special forces of the U.S. Army. After seeing the troubled solutions th
+
+============================================================
+TRANSCRIPT
+============================================================
+
+Today, we can take a photo of our lunch
+and post it on Instagram easier than
+almost anything. It's effortless and
+because the software, especially that
+type of consumer software, is just
+top-notch. But, isn't it weird that we
+go to work and we don't get that level
+of quality? We're still emailing
+spreadsheets around or getting on the
+phone. Now, let's take it further to the
+battlefield. The world's greatest
+fighting forces, the United States
+Department of Defense, they don't have
+that level of quality of software. And
+not only does it cost them billions in
+lost productivity, but when it actually
+comes to our troops, it can and does
+cost lives. That's why today we're
+talking with the co-founder of Adyton,
+James Boyd. After multiple tours of
+duty, he spent years working early at
+Palantir on the forward deployed teams
+that landed and expanded the seven and
+eight-figure enterprise contracts that
+helped build Palantir. And he's doing it
+again with his new startup that is
+delivering apps like this one.
+Muster is the online identity and
+communication platform that's spreading
+fast across the US military. Adyton is
+proving that you can build highly
+profitable, high-growth businesses in
+defense tech by building products that
+matter, that create value with impact,
+and make the world safer and more
+stable. Defense tech is on the rise and
+James and his team are on the forefront.
+Let's get started.
+I guess to start off, I'd love to ask
+about how you started working on this
+kind of software. Like, how did you come
+to realize this was what was really
+needed by the armed forces? Well,
+thanks, Gary. I appreciate you having me
+and and thank you also for for your
+service and kind of creating an
+ecosystem around defense technology, as
+well.
+Yeah, I mean, I guess that at the end of
+the day, this is a very personal thing
+that we're actually doing here.
+Uh I guess it was
+2018,
+October time frame, 2018, and my brother
+had just gotten back from Afghanistan,
+where he'd been out in eastern
+Afghanistan in the valleys out there
+blocking ISIS. So, their whole unit is
+focused on preventing the resupply of
+ISIS elements through Pakistan. And he's
+telling me about the experience he had
+out there, where he was in firefights.
+And he's using uh he's working with his
+whole team in these firefights and
+they're working to to try and block
+them, to to run interference on the ISIS
+elements, and he needs some help. And
+he's got this army-issued device,
+and they've ripped out the Wi-Fi chips,
+they've ripped out the LTE chips. So,
+you have this army-issued Android
+device, and he's trying to use that to
+coordinate with the rest of his team and
+to call for air support. And these are
+really really important
+at that moment.
+Absolutely. Yeah, he's in a firefight.
+And he's trying to call for for air
+support, which is really, really
+essential in these kinds of situations.
+And because the army's removed these
+chips, and you have to, because frankly,
+mobile is a really difficult thing in
+this kind of environment. You have all
+the security challenges, you have
+connectivity challenges, you have the
+whole compliance challenge, as well. He
+realizes that he can actually send
+WhatsApp messages to his Afghan partner
+force. So, he's like sending text
+messages in a firefight saying, "Hey,
+you guys got to go to the left, you got
+to go to the right." And he's finding
+that, hey, when it comes time to
+actually talk to the US personnel, he
+can't actually do that. And I'm
+listening to this.
+I'm hearing how they have the comms set
+up.
+And I'm realizing that, you know, you
+listen as a brother and like this is
+something that's very, very painful to
+hear, cuz you don't want to think of
+your loved ones in harm's way.
+And I'm listening as somebody who used
+to wear the uniform. I was a special
+forces soldier. And you think about your
+friends that are also in the same kind
+of situation. And then you also hear
+this as an engineer, and you're like,
+wait a minute, why are we trying to push
+grid coordinates over a 16 kHz voice
+channel? Like, this is not the right
+solution for the problem. And you
+realize, hey, somebody actually has to
+do something about it. And you know, I
+think you look in the mirror, and Gary,
+you've done a video where you talk about
+creating value in the world. What's the
+unique value that you're actually able
+to create? And I kind of look in the
+mirror and say, hey, look,
+you're a special forces comms soldier.
+You were trained to be an expert in
+understanding austere military
+communications.
+I've had the opportunity to work at
+Palantir, where I work with first-class
+software engineers. We build amazing
+products. And we've also created huge
+enterprise businesses working closely in
+partnership with special operations
+command to deliver amazing capabilities
+out there.
+And you realize, hey, there's not too
+many other people in the world that can
+go and do this stuff. And so, you feel a
+sense of responsibility
+to go and do this. I guess I really feel
+that because there's just this
+fundamental need, you know, especially
+for an armed forces that in a lot of
+ways gets the best tech, right? But for
+software, for the software piece to fall
+down so thoroughly,
+um and for something that, you know, you
+and I sort of just take for granted, you
+know, in our civilian work, it's a
+matter of just opening up Slack and
+being able to talk to people, right? But
+for to to realize, oh, that's not
+actually a thing that is accessible to,
+you know, hundreds of thousands of
+people, uh you know, in their normal
+work,
+because of, you know, probably really
+good reasons, too, right? I mean,
+security and compliance are all of these
+things that are really quite important.
+But, you were sort of very uniquely
+blessed by
+having built the systems that got all
+the way through those sort of, you know,
+these are all
+you know, checkpoints that the DoD has
+had that you've helped shepherd, you
+know, at Palantir. So, to look at that
+and say, I can build the software, I can
+also get it sold and, you know, deployed
+in in the hands of the troops and people
+who need it, uh that's a really big
+responsibility. Yeah, it's something
+that we feel, you know, this is it
+extends beyond like, yeah, we're we're
+building products that make a real
+impact on end users. We have units that
+use our software and say, hey, like,
+this is your software has kept service
+members alive because of what you built.
+But, there's this also other
+responsibility, which is actually
+setting an example for others. You know,
+there's this wealth of innovation that
+came from the first generation of the
+defense industrial base. You think about
+everything that happened in the '70s.
+You had the interplay between the
+universities with industry, with venture
+capital, and you created all the
+technology that powers the internet,
+Siri, AI,
+uh and went on to to create the kind of
+amazing hardware that we see in the DoD
+with stealth fighters and things like
+that.
+But, it's time actually to to really
+catalyze the next generation of an
+ecosystem, where we can take this
+amazing technology that Silicon Valley
+builds, where we have these phenomenal
+engineers, phenomenal designers, you
+have deeply motivated people and like
+liquid pools of capital, which is
+seeking an opportunity. And we can
+actually say, hey, let's combine these
+forces again, and let's actually bring
+around the software revolution in the
+DoD. So, I think that's when we first,
+you know, sort of reconnected. Uh you
+know, obviously, both of us were old
+friends from Stanford and uh sort of you
+went on to
+a career in special forces and Palantir,
+and then I happened to be at Palantir
+very early and then had left to go start
+companies. It was just really cool to
+hear from you in 2019, and that was sort
+of the first time
+I was frankly just really surprised that
+there weren't more real options. You
+know, the same reason why Palantir
+exists and sells to the very important
+parts of the government, even today, is
+because you know, large portions of the
+government and like some of the biggest
+companies in the world, they just don't
+have access to good software, period.
+Certainly. I remember when JJ and I
+first came up to meet you, I think it
+was in in January of 2019. We didn't
+know anything about venture capital at
+the time, and you were educating us
+about venture capital, and we also were,
+I think, teaching you about the way
+things actually shake out in the
+Department of Defense, where we take
+take for granted that I have Slack and I
+can video chat and I have email and I
+have calendar and it's all on my phone
+and it's ubiquitous and and that's just
+not the way the world works in the DoD.
+The DoD is still powered by notebooks,
+pen and paper, and clipboards. And
+really, there's this huge opportunity to
+to create this transformation and
+actually make the shift to mobile and
+shift to digital, generate all this data
+that creates a lot of visibility and
+insight for the enterprise and uh the
+kind of information that leaders need to
+make decisions, but also creates this
+deeply uh satisfying, high-quality
+software experience for end users. And I
+think that this presents an opportunity
+to really show the world that
+uh you can do startups in the defense
+sector, that you can take a bottoms-up
+approach to this and change the way some
+of the procurement happens, as well.
+So, that that that sort of led you to
+build um the first version of the
+product, which is called Muster. Talk
+Talk to me about that. I mean, it sounds
+like there was already sort of a very
+impressive um case study that has come
+out of
+uh real live, active army brigade
+using it. Yeah, uh we spent probably a
+year building the underlying technology.
+And like, this is not very sexy, I
+think, for for most folks to think about
+security and compliance and
+connectivity. Like, these are not sexy
+things. Identity, messaging, like sort
+of the things that you would expect um
+for a consumer app that allows people to
+communicate and collaborate. Oh,
+totally. If you wanted to just go build
+an application for consumers to to send
+cat pictures, you're going to go over to
+Google Firebase and like, life's going
+to be really, really easy. But, when you
+start layering on the DoD compliance
+regulations, it becomes much, much
+harder. And you start thinking about
+nation-state actors trying to penetrate
+software, it's a it's a significant
+challenge for the developer.
+And so, we built out Muster as the first
+product launched on top of this
+technology stack, and we focused on a
+core workflow for the Department of
+Defense, and that's personnel
+accountability. And this is not
+something that we think about in the
+private sector. You know, you sign into
+Slack and you know that your people are
+okay. But, in In DoD, you have this
+highly distributed workforce.
+And we've got dozens of using units
+using it right now. And this very, very
+prominent example was an Army Brigade
+was using it over the holiday period.
+And if folks remember Christmas Day
+2020,
+there was a bombing that occurred in
+Nashville.
+So, when I talk about a brigade, I mean
+you have 3,000 personnel that are
+sprinkled around the country.
+And because it's over the holiday
+period, you have about five personnel
+that are responsible for the
+safekeeping, the administration, the
+care, the management of these
+distributed personnel.
+And so, using Muster, they were able to
+get what they referred to as
+accountability, which means that they
+know that every single person is okay in
+a period of 30 minutes. And this is not
+a real number. When we tell people about
+this, military leaders say, "Hey, 30
+minutes, that's not possible. It cannot
+be done." Because the way that they do
+it today, the status quo, is it's lining
+people up and counting them.
+Or if people are remote, it's you have
+the the colonel calls the major, the
+major calls the captains, the captains
+call the sergeants, the sergeants call
+the corporals, and you have a giant
+phone tree. You have text message chains
+that extremely long. And actually
+pulling the data back in real time,
+getting visibility in real time, and
+understanding this is supremely
+difficult. And so, what we've done is we
+digitized this fundamental military
+process.
+And the fundamental military orders
+giving process, where when somebody
+issues an instruction, they know that
+that instruction's been received and
+it's being actioned. So, what you see
+with Muster is that any organization
+that has a large span of control, we've
+turned it into three clicks to actually
+get personnel accountability across this
+distributed workforce. In a
+fundamentally structured interaction
+where you can see there's actual
+progress being made across thousands of
+personnel.
+And it allows you to aggregate and
+automatically drill down to see the
+people that actually need help. So, when
+this guy Jeff has a fever, you can
+immediately reach out to Jeff and go
+point to point. And for any kind of
+large organization where you have 3,000
+personnel, you don't care about the
+2,997
+that are fine. You care about figuring
+out who the three people that are in
+distress and actually need help with
+this right now. And this is an everyday
+occurrence in the DoD. Personnel
+accountability happens every single day
+across the entire Department of Defense.
+And it's the kind of thing we also see
+in other kinds of sectors as well with
+things like oil field services,
+construction, mining. Anywhere where
+there's some risk and you want to make
+sure that your people are okay.
+And by putting it in the mobile device,
+it means that that leader has access to
+this information anywhere they are.
+And this is something that's really,
+really important because we've seen that
+the the managers and the leaders that
+are operating on flight lines, that are
+operating under the decks of ships, that
+are operating wherever they are, they
+actually need access to their
+organization. They need access to the
+information. And they want this trust
+that they can reach out and they can
+touch their people. Yeah, it's kind of
+wild to think, but you know, basically
+this type of workforce software doesn't
+exist yet or it happens in like much
+more crude ways and it's not in
+basically inventory level person's
+phone. In the short term,
+you think of it as, you know, resource
+management and things like that, but
+it's really interesting how this could
+be sort of
+that identity layer. Like it's almost
+like the way Slack is for a lot of
+organizations. You know, you're just
+seeing applications being built on top
+of it, like internal workflows being
+built on top of Slack. Uh the same thing
+will happen with what you have um with
+Muster. You know, it's sort of the
+uh
+nervous system and then once you sort of
+connect everything up, then that's just
+the beginning of sort of a super app.
+It's the fabric of interoperability for
+these organizations. And so, we've seen,
+I think, from that sort of baseline
+productivity perspective, where you're
+providing that communications glue that
+means that you can communicate and
+interact in a structured way with your
+personnel regardless of where they are,
+whether they're at home, they're at
+work, whether they're inside of a
+building, outside of a building. And
+using native networks, using AT&T and
+Verizon or
+uh networks in the Middle East, wherever
+people are deployed using this. And
+using the devices that they already have
+on them, it's provide this backbone. And
+what organizations are seeing is that,
+"Hey, now that I can do this, now I want
+to extend this." And so, this is
+something we've seen play out where the
+product is going viral across a lot of
+these organizations. So, we have
+generals referring it to other generals,
+we have colonels referring it to
+colonels, and we have enlisted personnel
+when they rotate to a new unit, they
+say, "Hey, I got to take Muster with
+me." Because they say, "Hey, every
+single thing happened in Muster
+in my previous unit. So, now we need to
+do the same thing here."
+And and they're also seeing, "Hey, this
+can now be adapted." To your point
+around like the identity, is that you're
+providing this sort of this fundamental
+entity data and this interaction point
+for people so that if you can say, "I
+can line up my people and I can count my
+people and interact in a digital way in
+a first-class way,
+now I can say, 'Hey, what about all my
+equipment?'" You know, when the DoD says
+like, "I need to make sure I have all of
+my equipment and who's assigned to to
+what rifle or who's assigned to what
+radio and things like that, you need to
+have the people first." And that's where
+we see Muster as this kind of backbone,
+not just from a product perspective with
+the the workflow, but also the data
+perspective. Where now you can start to
+say, "Hey, like let's keep track of all
+of our equipment or all of our vehicles
+and our maintenance and link it all to
+it." And that's something we've seen uh
+is pushed for expansion. So, there's
+some rapid innovation organizations in
+the Department of Defense. There's
+AFWERX with the the Air Force, there's
+ARCWERX with the National Guard. And and
+they're pushing very, very heavily to
+expand Muster to then say, "Hey, look,
+if we have all of our people, let's
+start scheduling our people." And it
+creates a couple things we've seen in
+organizations. One is a culture of
+engagement,
+where leadership is telling us, "Hey, we
+hadn't thought about how technology
+could impact the way we lead our
+people." The way they do things they
+call setting a command climate, which we
+refer to in the startup world as
+culture.
+And thinking about how that affects the
+interactions with their personnel, where
+it actually manifests a real open door
+policy.
+For better or worse, yet the junior
+enlisted are actually talking to the
+senior leaders of a unit and telling
+them what's going on.
+It also means that you have this kind of
+new efficiency, where we've seen units
+that will immediately get some
+information through Muster and issue an
+order 10 minutes later.
+And it's flattening a lot of the
+communications that happens with that.
+So, it means that they're able to get a
+lot more stuff done, get more training
+done, and more maintenance done. And
+then also means that their soldiers and
+their sailors and their Marines get more
+time with their families as well, which
+is something that's really important.
+And then the third thing that that we're
+really excited about is that it changes
+the expectation.
+Where a lot of times, I remember wearing
+a uniform, you kind of expect things to
+be
+not quite as nice as you would like.
+The software experience is not quite as
+nice as you like. The food sometimes is
+not quite as nice as you would like, and
+the lodging is not quite as nice as you
+would like. But now they're saying,
+"Hey, look,
+I can download Muster through the App
+Store.
+I can get my organization set up.
+And it works well. And it improves the
+quality of our operations. And you know
+what? I should actually have nice
+things." And that I think is a critical
+component to be able to actually change
+the expectation
+for this innovation ecosystem that
+delivers new capabilities to the DoD.
+Yeah, that's the really interesting
+thing about, I mean, frankly, selling
+any kind of software to any part of the
+government is it doesn't cost more. In
+fact, really good software tends to cost
+less and it also saves people so much
+money. And, you know, it's sort of like
+a a 10x sort of thing. And that's why
+Palantir existed. And um the really
+interesting new lesson I think you're
+learning now is that, you know, Palantir
+was actually maybe a harder thing to
+sell because
+it was actually quite a bit more
+expensive in a lot of ways. And it
+didn't have like the same kind of
+motion. Whereas this is a lot more like
+bottom-up. Like, you know, you don't
+need the full buy-in all the way at the
+top. You're going to get the full buy-in
+all the way at the top because
+the software will have already done what
+it did for that um you know, Army
+Brigade for instance. Like it will have
+already done that for uh you know, the
+bottom-up. And then it makes it really
+easy to sell top-down. And I think
+that's like a a new thing that's really
+exciting about what you're doing. It's
+it's something that we've adapted from
+the Palantir playbook. And I think they
+deserve a lot of credit because they
+they created this shift in the
+organization, where the organization
+said, "Hey, it's actually important we
+have good capabilities." And that
+software is a thing that should be
+treated slightly differently.
+But certainly we've adapted that
+playbook and said, "Hey, all right,
+based off of those lessons learned, how
+would we actually do this?"
+Recognizing that as we focus on creating
+value, where we're creating value for
+the end user, we're creating value for
+for the business, for for our investors,
+it's what's the best way of actually
+going forth and doing that. And and
+certainly by making a product that's
+really, really easy for end users to
+understand, making it easy for them to
+buy.
+And then there's certainly some things
+that we've done as well to make it easy
+for the enterprise to buy, too.
+And I I would be candid in saying that
+the DoD is still it is not an easy
+customer
+uh to work with. Um you know, I think we
+all know that building software is not
+an easy thing.
+And uh building startups is not an easy
+thing.
+I think when you look at the DoD, like
+just even talking to users is a
+challenge. I And I I would say like we
+were working with some some Air Force
+users and if you think about being able
+to uncover a problem and actually access
+the user, you have to figure out a
+person that has a problem, get in touch
+with them somehow, get invited to go to
+a base, fly to that location, stand
+outside the gate for an hour, hope that
+they put the paperwork in to get you on
+base, get on base, and it's kind of like
+TSA to the power of 10.
+And then go find your way to a numbered
+building when there are no maps because
+it's uh the military and they do that
+for security.
+And then you got to get a badge to get
+into the building, and then you got to
+go find your way to the basement and
+hope that somebody lets you through the
+locked door to go talk to the person
+that actually has a problem. So, user
+access is a real challenge. The whole
+company right now is just a super
+interesting spot because um you know,
+Paul Graham would always talk about how
+you can think of the world as basically
+a bunch of Venn diagrams of like, here's
+people who know how to build software
+and then here's people who have lived
+your life experience, you know, in
+spending time in you know, service to
+your country and then also, you know,
+getting to know a lot of the people who
+you got to know through Palantir as
+well. And it's like basically now
+there's this once in a while you you
+usually these worlds are sort of like
+separate and then once in a while
+it forms a startup like your startup
+where there's a union of those things
+and then those are the people who can
+actually create something that
+builds a billion-dollar industry or 1000
+billion-dollar industry.
+But you know, so that's I guess that's
+why I'm so excited to to be working with
+you because it's been cool to see that
+play out over the past few years. You
+know, I think it's it's a constant
+journey, right? Like you talk about
+you've done a video, I forget which one
+it was, but it it's about finding the
+value that you can create in the world.
+And I remember on on my own journey
+being captivated by software early on
+and going to work in Silicon Valley in
+the year 2000 right in the middle of the
+dot-com boom and going to Stanford which
+is not a common thing to leave the UK
+and go to college in the United States
+at the time.
+And then when 9/11 happened and I felt
+this need to serve and I waited till
+senior year, graduated and enlisted so
+that I could go join special forces
+which is the hardest job that I could
+sign up for at the time cuz I wanted to
+go make an impact.
+And I remember I think it was 2010.
+I'd I'd been part of an operation to
+help stop a bombing in a capital city
+and I sort of took a step back and said,
+"Okay, well, we we prevented a terrorist
+attack. Like how else can I contribute?
+How else can I create impact and where
+else is there leverage, right?" And it
+comes down to product and
+so I I was recruited to go join Palantir
+and we built some amazing things at
+Palantir that that made a real
+difference for for the end users. The
+the software that we built was used to
+to plan the recapture of Iraq from ISIS.
+And and created huge huge enterprise
+value
+Palantir and and new contracts. And
+again I kind of took a step back and
+said, "All right, well,
+well, how else can you continue to
+create value? You stopped a bombing, you
+built some software that the Navy SEALs
+used to help stop ISIS. Like what's
+next?" And I think that's where
+you you kind of you talk about the honey
+badger approach and you got to kind of
+like cut the parachute a little bit, cut
+away and say, "All right, it's time to
+step into the unknown and and push the
+envelope and make sure you're going for
+it all the time and thinking like where
+is that intersection? Where's the middle
+of that Venn diagram?
+And and what can I do in the middle of
+that Venn diagram? And then it just
+becomes clear at that point. Taking a
+step back, I mean, one of the things I
+love to ask people who come on the
+channel, it's
+you know, a lot of people here watching
+are actually really young early in their
+careers and
+you know, what advice would you give to
+you know, the 20-year-old version of
+yourself? Actually, I think we probably
+met each other when we were like
+probably around 20 actually. Yeah, I
+think it was it was probably actually
+about 20 years ago
+this month that that we first met. I
+guess my first piece of advice would
+probably be 2009 you're going to get
+throw a hand grenade and you take a knee
+instead you should lie down.
+In all seriousness and it's something we
+see across a lot of other founders as
+well as
+you have a lot of people who are very
+very driven.
+It's important to take a holistic
+perspective of life and to make sure
+that as we're focusing on on going and
+building businesses and learning and
+acquiring skills and creating value in
+the world
+remembering that that value extends not
+just in the professional domain but also
+it includes friends and family. And it
+also includes yourself as well and it
+becomes down to to really making sure
+that you invest in a holistic way to to
+live the best life that you possibly can
+because
+when you create value in the world it's
+about creating value for other people.
+And and certainly we think about that
+as users, we think about that with
+investors, but it's also about the way
+that you can share energy with other
+people and it's about the way that you
+can create positivity and
+help set an example for others I think.
+We're we're definitely not islands and
+then we have so much that we can
+actually
+do for each other actually and I don't
+know, that's the coolest thing about
+like making a business period actually
+is exactly that, you know, you go out,
+you see a problem, you go and solve that
+problem and then in the process you
+actually need people and so you can make
+a great place for people to work.
+I mean, it's about making systems that
+you know, ideally make the whole system
+better and and that's what you're doing.
+So I'm pretty excited about that. Some
+closing thoughts might be around what
+was it like to be able to look at
+Palantir so early when there was sort of
+that first sub $100,000 contract or you
+know, sort of through even like
+making 80,000 a month or something, but
+then to be able to grow that 10 or 100x
+is you know, that's something that you
+were able to do and what was the most
+surprising thing? What was the thing
+that really just stood out to you from
+that experience and experience that
+you're seeing right now? I think there
+was like a very very deeply iterative
+approach. I mean, I remember when
+everyone in in BD in Washington DC sat
+around the same table together. I think
+what we were acutely conscious of is
+that it was a huge team effort. You have
+guys like Doug Philippone, you have
+everyone that's pushing so hard to try
+and create create this better reality
+for software. In that case it was in the
+intelligence operations space.
+It took a huge team effort was hugely
+iterative and it was very much it would
+you would just walk into a wall and find
+out hey, what's the where's the doorway?
+I'm just going to keep walking into the
+walls until I can find a doorway.
+And and what we saw is that there's
+there's a lot of physics to the actual
+marketplace. There's dynamics that you
+can actually harness that you can then
+use as a lever to to magnify your
+message, to magnify your reach and
+actually create access across the
+organization and create adoption and and
+create demand as well. And ultimately
+that demand is what brings better
+products into the marketplace and so I
+think seeing that grow, it was a it was
+a long journey, but I think it was also
+an amazingly fulfilling one. That makes
+a ton of sense. Taking a step back,
+Addyton is hiring. I guess what's the
+best way for people to sort of
+get involved? addyton.io. Yep,
+absolutely. There's a form on the
+website. If if you want to join our
+team, then
+you can go right there, drop your
+contact information in and
+we're absolutely looking for really
+really passionate front-end developers,
+looking for full-stack developers, we're
+building a whole team.
+And then I would also include we're
+looking in particular for for veterans
+who have a lot of end-user empathy with
+an eye for product and there's some
+amazing people that that we know from
+our past experience,
+but we're looking for people who say,
+"Hey look, like
+I want this to be better." They got to
+feel it in their bones that they want
+this to be better.
+And we're pairing those people up with
+engineers who just have this love for
+creating product with mobile technology,
+who love like the edge cases
+delightful to them, you know, it's a
+challenge for them, it's a puzzle.
+And so if there are folks who have a
+strong sense of purpose
+who want to work in a high-performing
+team environment, we have a team-first
+culture
+and who are thinking about the career
+opportunities and you know, are seeing
+there's the next there's the next cat
+picture messaging application, there's
+the next ad tech thing
+and if they want to build software that
+people use every single day to to go
+fight wildfires, to to go um
+move people around in the Middle East,
+to to go keep people safe,
+then we're a place where you can
+actually combine your creativity with
+product with a sense of mission
+and really build value that has impact.
+James, thanks a lot for coming on the
+channel and I mean, thank you for
+letting us invest and be a small part of
+this very very big and important
+journey.
+Gary, thank you for the adventure.

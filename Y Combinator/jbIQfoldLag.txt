@@ -1,0 +1,978 @@
+Title: Now Anyone Can Code: How AI Agents Can Build Your Whole App
+Video ID: jbIQfoldLag
+URL: https://www.youtube.com/watch?v=jbIQfoldLag
+Channel: Y Combinator
+Published: 2024-10-18T14:00:49Z
+Duration: PT37M14S
+Views: 94674
+Likes: 1935
+Tags: YC, Y Combinator, Amjad Masad, Replit, Coding, AI Coding, LLM's, OpenAI, Claude
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 955
+
+Description:
+Thanks to rapid development in LLM’s, we are now at the point where AI is able to follow prompts and generate code to build functional custom software. So how does the tech landscape change when the ability to code is democratized? In this episode of the Lightcone, the hosts speak with Amjad Masad, the CEO of Replit, an AI-powered software development and deployment platform, to see how coding power can be given to everyday users. 
+Chapters (Powered by https://bit.ly/chapterme-yc) - 
+0:00 Intro
+
+
+============================================================
+TRANSCRIPT
+============================================================
+
+1984 the Mac brought personal Computing
+to to the masses 2024 we have personal
+software you actually are going to be
+able to orchestrate this giant army of
+agents and I think of Mickey Mouse and
+Fantasia just like you know like
+learning this new magical sort of
+ability and suddenly all the brooms are
+walking and talking and dancing and it's
+this incredible menagerie of being able
+to build whatever the heck you want
+whenever you want someone who had an
+idea for 15 years but didn't have the
+tools to build it and was able to build
+it in 15 minutes and he recorded his
+reaction I almost shed a tear on
+[Music]
+that welcome back to another episode of
+the light cone I'm Gary this is Jared
+Harge and Diana and collectively we
+funded companies worth hundreds of
+billions of dollars right at the
+beginning just a few people uh with an
+idea and today we have one of our best
+alumni to show off what he just launched
+repet agent amjad thanks so much for
+joining us today my pleasure thank you
+for having me yeah so we just launched
+this product it is in Early Access
+meaning it's barely beta software uh but
+people got really excited about it uh it
+works some of the time so there's a lot
+of bugs but we're going to do a live
+demo here and I wanted to like build an
+app like a personal app that could track
+my Morning Mood correlated with like
+what I've done the the previous day so I
+want an app uh to log my mood in the
+morning uh and also
+things I've done the previous
+day uh such as the
+last time I had
+coffee or if I had alcohol and if
+I exercised that day that'll send it to
+the agent now you have this like chat
+interface so you can see the agent just
+read the the message and it's now
+thinking so what we're looking at here
+is actually how you might chat with
+another user or is this like
+specifically yeah I mean it's it's
+similar it's very similar to to like a
+multiplayer experience on rep got it uh
+so here uh it's saying I created um a
+plan for you to log your daily mood the
+app will show your mood coffee alcohol
+consumption and exercise and it also
+suggests uh other features so for
+example uh suggesting uh visualization
+and that sounds good reminders I don't
+know I I'll remember so let's just go
+with these two steps I think what was
+also cool it picked but the Tex stack
+that's very quick to get started so
+flask vanilla JS postgrads like very
+very good so now we're looking at the
+what we're calling the prog ress pain so
+the progress pane is uh you can see what
+the AI is doing right now is installing
+packages actually wrote a lot of code it
+looks like it buil like a database
+connection all of that and it's now
+installing packages and we should be
+able to see a result pretty soon this is
+really cool because I think a lot of
+times for new software Engineers one of
+the Annoying Parts is just getting all
+the packages and dependencies and
+picking the right stuff and this is just
+does it for you the agent so here we
+have we have our Mood app
+uh I can kind of put that I'm feeling
+pretty good today I did have coffee
+yesterday but I didn't exercise log my
+mood go to history so buil a complete
+web app with just a prompt like no
+further instruction from you yes and and
+it's it has a backend it has postgress
+and I can just deploy this so this is
+already pretty useful you have this
+rating and and you have the history uh
+and it's asking me if if it did the
+right thing oh it actually is asking you
+to uh test it for them yeah it it
+actually did some testing uh on its own
+so it took a screenshot here and so it
+knows that at least something is
+presented but it wants someone to
+actually go in and do a little bit of QA
+is it using like computer vision to look
+at the screenshot okay yeah yeah and now
+all the models are multimodal and so
+it's fairly straightforward what's on
+the back end right now we have a
+actually a few models because you know
+it's it's a multi-agent system and we
+found different models work for
+different types of Agents the main Coden
+one is Claude Sonet 3.5 which is like
+just unbeatable on Coen it is like the
+best thing but we use gp40 in some some
+some cases uh there's also some like uh
+in-house uh models like we built the
+embedding model it's a super fast
+embedding model binary embedding model
+and the retrieval system and index
+saying uh this is all built inh house
+and a big part of what makes this work
+is um is the sort of retrieval system
+because figuring out what to edit turns
+out is the most important thing for
+making these agents work you're going A
+Step Beyond just rack because rack hits
+hit the limit for this and you basically
+have to find a new way to search and
+find the right places to edit in the
+code yes which is actually something
+that I don't think has happened yet but
+I think is going to happen that for all
+these the agent system people are going
+to move away from Rag and start building
+custom orchestration like this so this
+is very notable this is like a very cool
+thing that you figure it out yeah if
+just throwing the codebase in rag is not
+going to work you actually have several
+different representations exactly allow
+the agents to do better work that's
+right and we have the trends uh thing
+working right now nice so we have we
+have a couple graphs we don't have a lot
+of entries here I can actually ask it
+to create data oh really you can have it
+create data as well yes now was asking
+me to deploy because it's done it's like
+it's time to
+deploy and here we have the activity
+trends like how many what am I doing by
+day there you have it it's going
+directly from just an idea to a deployed
+web app that anyone in the world can
+access right now exactly and one of the
+things I'm really excited about is like
+this idea of personal software 1984 the
+Mac brought like personal Computing to
+to the masses 2024 we have personal
+software I think we just experienced
+this you know karpathy just tweeted
+about uh repet agent he said this is a
+feel the AGI moment did you just feel
+the AGI I definitely did and I I did
+last night I spent a few hours last
+night using repet agent to make a Hacker
+News clone nice there were a couple
+moments where like I really felt the AGI
+um the first was it actually had like
+really good intuition about what you buy
+to make and how to design it like we saw
+that there we're like you didn't give it
+the idea to make the slider bar be like
+like like emojis it just came up with
+that on its own and then the second
+thing was when I was using it it really
+felt like I had a development partner
+where he would ask me questions he would
+ask me to like change things at one
+point it got like stuck I wasn't sure
+how to do something and so it asked me
+how to do the thing and then I told it
+and then it's like cool got it and just
+kep
+going yeah it feels great and and
+sometimes you want to give it some some
+help right right you want to you want to
+go debug if you know how to debug
+yourself or you go ask chat about
+something and come back to it just give
+it more information it'll be able to
+kind of react to it you should have it
+definitely feels like talking to like a
+developer you should do like the gro
+thing and have different modes you could
+have like gry programmer where it just
+tells you like ideas are bad and he
+wants to build something else anyway oh
+that would be cool just like have a like
+a toggle for example like an over
+engineer like just like over engineer
+everything
+so it added this
+toggle but I don't think it works I
+don't think it connected up to the
+x-axis yeah I think this is interesting
+about all these AI programmers which is
+that is not like we created some super
+intelligence that somehow can just build
+an entire app perfectly from start to
+finish without making any mistakes it
+actually codes the way a human does
+which is it like writes some code and
+it's like well I think this is right but
+I'm not sure I guess I'll try and then
+it tries like oh no I have a bug it's
+like it's the same thing yeah yeah and
+we again our our design decision uh has
+been always like this is a uh a coworker
+and you can just close this and you can
+go to the code and you can code yourself
+just fix it yourself fix it yourself and
+again if if you don't know how to code I
+My Hope Is as you are reading what the
+agent is doing is that you've learned a
+little bit of coding along the way and
+by the way this is how I think our
+generation learned how to code not
+through agents but almost by doing these
+incremental small things like editing
+your Myspace page or doing a geoc cities
+uh thing and I feel like we sort of lost
+that incremental learning uh scale where
+now you need to go and get a like
+computer science degree or go to quoting
+boot camp to kind of figure this out but
+if we made this like fun thing that
+people can go build side projects in and
+get exposed to what code is I think that
+would be perfect and again my view is
+that we're still far from fully
+automated software engineering agents uh
+and people should still learn how to
+code you have to do way less coding but
+you will be you you will have to read
+the code you will have to debug it in
+some cases the agent will get you fairly
+far but sometimes it'll get stuck and
+you need to go into the code and figure
+it out yeah I think that that's actually
+pretty important I'm I've been meeting a
+lot of you know 18 19 year olds who are
+freshmen and they're like well the code
+will write itself right like have to
+study this stuff anymore and I'm like no
+that's not true at all like I actually
+think that now it is actually more
+leverage it is far more leverage to know
+how to code than ever before and it's
+actually even more important and it will
+make you way more powerful like you
+don't have to be all the way in the
+Weeds on everything you actually are
+going to be able to um like orchestrate
+this giant army of agents and uh I think
+of Mickey Mouse and Fantasia just like
+you know like learning this new magical
+sort of ability and like you know
+suddenly all the brooms are like you
+know walking and talking and dancing and
+it's this incredible menagerie of being
+able to build whatever the heck you want
+whenever you want just like like
+literally from any computer from any web
+browser yeah I try to come up with a
+like a mors law type type thing where
+it's like the return on on learning a
+code is like doubling every six months
+or something like that so learning code
+a little bit is in uh you know
+2020 um you know was not that useful
+because you would still you will you get
+blocked you wouldn't how to deploy
+something you wouldn't know how to
+configure something let's go to 2023
+with chat learn to code it just a little
+bit will'll get you fairly far because
+chat can help you and then 2024 learn to
+code a little bit is a massive leverage
+because we have agents like this and
+others and there's a lot of really cool
+tools out there like cursor and others
+that will get you super far by just like
+having a little bit of quoting and and
+just extend that forward like six months
+later you're going to have even more
+power so programmers are just on this
+massive trajectory of increased power
+can you tell us more about the tech
+behind this it's kind of fascinating at
+the heart of it it is sort of this as I
+described before it's multi-agent system
+um you have this core sort of react like
+Loop so react is a uh you know an agent
+Chain of Thought type uh prompting
+that's been around for a couple of years
+now and most agents are are built on
+that uh but ours is also a multi sort of
+agent system we give it a ton of tools
+using tool calling um and those tools
+are the same tools again that are
+exposed to people and by the way you you
+need to be really careful about how to
+expose these tools and how does the
+agent see them um so for example our
+edit tool returns
+uh errors from the language server so we
+have a language server here a Python
+language server like a human coding you
+know if if I make a
+mistake uh anywhere here it will show me
+right similarly when the agent is coding
+it gets feedback from the language
+server so again you want to treat it as
+much as you can like a like a real user
+and so for any action it gets it gets
+sort of a feedback and then it can react
+to that feedback and so these are the
+tools again this is package management
+uh editing deployment all the database
+all those are are tools um and then
+there are a lot of things that uh make
+sure that it you know doesn't go totally
+off the rails because it's very easy
+we've all you know used agents that go
+off the rails and go into endless Loops
+this still sometimes does it but we have
+another loop that is doing a reflection
+that is always thinking am I doing the
+right thing we use a lot of uh L chain
+tools so Lang graph is an interesting
+new tool from Lang chain that allows you
+to build agent dags very nicely and they
+have a some logging mechanism um and uh
+a tool called lsmith where you can look
+at the tracers looking at the traces for
+for dags is is very very very difficult
+and very hard so debugging these things
+have been fairly difficult because you
+want a tool to actually like visualize
+the graph and there isn't a lot of tools
+that do that right now and as so there's
+this reflection Tool uh reflection agent
+um and and the the other thing that we
+talked about earlier is uh retrieval is
+is crucial and again this this has to be
+um kind of neuros symbolic it it has to
+be able to do rag style embeddings
+retrieval but it has to be able to look
+up functions and symbols inside inside
+the code this is why I do think I maybe
+extrapolating a bit more even if we get
+into the world of found models that have
+really really large context windows I
+mean Gemini always in the millions of
+tokens you will still need very
+specialized things that do lookups like
+this because apply to different contexts
+knowing the functions and treating it
+more like how it compiles at the end
+like a a graph large context windows are
+you can totally shoot yourself in the
+foot with them yes because it's easy for
+the model to it's actually you know the
+model will bias a lot more towards
+whatever is at the end H kind of like a
+human yes exactly and so you still need
+to do context management um and you need
+to figure out what to put on how to rank
+memories so this agent every time it
+does a step uh it it goes into a memory
+bank and then every time we go into uh
+the next step we need to be able to pick
+the right memories and figure out how to
+put them in context if you pick the
+wrong memories for example if you pick
+a memory that that you know had a bug or
+there was an error in it whatever it
+might still think that there's a bug but
+if you already recovered from that you
+want to make sure that me that memory of
+of having created a bug uh is is either
+kind of augmented by another memory of
+fixing it or entirely removed from the
+context and so memory management is is
+crucial uh here you you you don't want
+to put the entire memory in in context
+you want to be able to pick the right
+memories for the right tasks I feel like
+this's is a really concrete um rebuttal
+to situational awareness and that whole
+like sort of
+sci-fi uh you know AGI is going to kill
+us tomorrow kind of uh argument simply
+because that all is predicated on larger
+contact window uh more parameters throw
+gpus at it and it's going to work like
+you can't just scale it up like you're
+not going to get what you want from just
+scaling it up there is actually a lot of
+utility in having these agents work one
+with one another with uh being actually
+smart about uh what is the intermediate
+representation and being able to pull
+back you know sort of model what a human
+would Doh I mean this is sort of like
+the the case study and like oh yeah you
+can't just you know scale up everything
+by 50x and have it work the way that uh
+they think it will yeah in many ways
+like building a system like that sort of
+humbles you you know sets sets your
+expectation
+uh about Ai and the progress in AI in
+sort of a different way because yeah the
+systems are very fragile they're really
+still not great at following
+instructions people talk a lot about the
+huc hallucination problem I think the
+bigger problem is like just following
+orders uh it's so hard to get them to
+actually do the right thing what do you
+think is the path to AGI so my view in
+AGI is that maybe we'll get to something
+called we can call functional AGI which
+is
+um we uh automate all those sort of
+economically useful tasks I think that's
+fairly Within Reach uh I think it's it's
+almost like a Brute Force problem it's
+sort of the bitter lesson right do you
+think it involves doing a lot of work
+like what you guys did like basically
+building like carefully fine-tuning
+orchestrations of groups of agents for
+each task so doing what you did for
+programming but doing it for customer
+support and for sales for every
+accounting every function yeah I I think
+so and maybe you can eventually put it
+all into one model the history of of
+machine learning has been um we create
+this systems we grow these systems
+around these models and eventually the
+model will eat those systems so
+hopefully like everything that we did at
+some someday there's like an end-to-end
+system uh machine Learning System that
+could do it you Tesla you know famously
+you know had all these logic and and
+whatever and now like you know I think
+after v13 they it's just end to end
+training
+um and so you know eventually we'll
+we'll get there um but but I wouldn't
+consider it true AGI because uh you
+throw something out of distribution at
+it and it wouldn't be able to uh to to
+handle it um I think true AGI would
+require efficient learning being able to
+be thrown in an environment with no
+information at all being able to
+understand the environment by examining
+it
+and learning a skill required to
+navigate that environment and alms are
+not that maybe they're component of that
+but they're not efficient Learners at
+all you actually demonstrated this
+because the way you describe LMS are
+intuition machines and in order to get
+them to work in programming tasks you
+have to add this layer with uh symbolic
+representation like in programming and
+as a lot of Concepts in programming and
+how computation works like touring
+complete with d and all that right yes
+exactly those are like very explicit
+classical computer science classical AI
+yeah we do backtracking and all that yes
+that's not generalized that's
+specialized I mean incredibly useful
+specialized yes so it's only been live
+for 4 days yeah but already people have
+done a bunch of like really interesting
+and impressive stuff with it do do you
+want to talk about some of the things
+that you've seen people do with it that
+are most like surprising and interesting
+yeah one of my favorite thing that I saw
+was was someone who had an idea for 15
+years
+but didn't have the tools to build it
+and was able to build it in 15 minutes
+and he recorded his reaction and it's
+like a personal app he he built an app
+where he can put memories on a map and
+attach files and audio files to it
+memories about his life I went to school
+here and like add a picture whatever
+when the app showed up and he tested it
+and he was like he was so surprised I
+almost shed a tear on that I was like
+you being able to unlock people's
+creativity is is is so rewarding and
+then I want an integration with apple
+photos or to use it to actually build a
+a a export tool yes and another user
+Meck built um uh sort of a stripe coupon
+tool so he has a course he runs it on
+stripe and he wants like to be able to
+like send people coupons and so he built
+it in like you know 5 10 minutes and
+actually I don't think you would be able
+to build something like that in no code
+you would struggle really hard you would
+probably use too two or three no good
+tools people use like bubble on the
+front end and zapier in the back end and
+and what have you sometimes I'm
+surprised the noode people are actually
+quite quite smart and quite uh
+hardworking because they figure out how
+to create these systems using no code
+but it's just actually a lot easier to
+just generate the code for it it's a
+coding tool for the no codes yes yes and
+so yeah we we're seeing a lot of
+traction there which is actually a
+challenge I think the no code tools have
+in general Is straddling this line
+between they start very much no code and
+then they find that people keep pushing
+the limits of what they want to build in
+these tools and and then and then the
+the frustrating part with no code tools
+is that if you hit the limits you're
+just stuck like you you just you can't
+solve it and the cool thing is if you
+were saying earlier if you can get the
+no code people to switch to repl it
+maybe initially they don't program at
+all all they know how to do is like
+prompt it but then at some point they're
+going to like look at the code and
+they'll realize that they can just edit
+it and like it isn't that hard and
+that's how they like gradually become
+programmers yeah that's interesting I
+played around with it to build just like
+a simple recruiting CRM which is
+actually the kind of thing you would
+have used air table for and one of the
+suggested when it told me the plans one
+of the oh would you like this feature
+was exactly that it just like role based
+permissions and off it's like oh that's
+pretty like a sophisticated prompt or
+like suggestion off the bat yeah that's
+a $10,000 a month Enterprise uh feature
+right there that you could just prompt
+and have it work it's crazy I mean this
+is like the definition of low bar high
+ceiling like all of the biggest software
+companies in the world like sort of
+capture that idea really powerfully so
+my my favorite uh thing is is these
+order multiple order magnitude sort of
+time difference uh of building something
+uh someone said they uh spent 18 months
+building a startup they were able to
+generate the same app in 10 minutes uh
+using repet uh someone said uh they they
+spent a year building a certain app that
+they were able to build it in an hour
+with with repet agent but yeah I think
+it will save you know millions of
+dollars of human hours what a time to be
+alive guys can I take a repa agent and
+apply it to my existing coding stack yet
+not yet got it so again it's sort of
+super early um we built the again the
+the retrieval system that we built um is
+to be able to do this um we should be
+able to throw it into any codebase index
+the codebase really quickly and be able
+to give it
+intelligence about the codebase uh the
+system also has like you summaries of
+files and summaries of projects so we
+use llms to kind of as we're indexing
+the system to create these like small
+summaries for the agent to understand
+what a project is so we have the
+infrastructure for it uh but that's
+that's the next step um and we also want
+to add more autonomy for people who want
+it so for the team version of this we
+want to be able to send it to the
+background so be able to um give it a
+prompt and then it forking the project
+going and working as autonomously as it
+can and then when it's done it sends you
+a poor request back or if it runs into a
+problem it it it come backs to you with
+a problem the other thing I I want to do
+is um you know the vision for for this
+has been you know we have this uh
+bounties program and bounties uh people
+submit things you want they want to
+build or problems they have and and PE
+people in our community users uh help
+them fix it for a certain um
+price um and I was thinking you know
+agents are not perfect and so perhaps
+the agent can also summon a human uh so
+another tool that it has is be able to
+summon like a bounty hunter and so we'll
+go to the market it ask the Creator
+working with it hey like I'm running
+into a problem um do you want to put
+some money on it and we can go like you
+know grab an expert and so it's like
+yeah cool yeah put $50 on it and we'll
+go to this Market hopefully realtime
+Market we'll say for $50 we have this
+problem can you come in human expert
+comes in as a as another multiplayer
+into the system either helps you by
+prompting the agent or by going and
+editing the code themselves that's so
+clever I mean this whole thing of
+getting the human to be another agent in
+this uh greater intelligence
+orchestration system you have yes I'm a
+big fan of lick lighter's uh sort of uh
+human machine symbiosis right that's
+that's always been the thing you know
+you know I like to talk about AGI and
+and all of that but I I just feel like
+you know computers are fundamentally
+better by being extensions of of us and
+by joining with us as opposed to you
+know being this this you know this
+competitor 100% with you team
+human we need to print
+t-shirts you had a I guess sort of mini
+chesy moment earlier this year then
+we're all blown away by this demo and
+sort of you know you've been working
+hard on sort of remaking the way um all
+software is deployed and written for
+some time I mean what what did it take
+to you know get to this moment um you
+know you did have to do a layoff and
+reset your org you know what happened
+yeah so so last year we we raised a
+raised a big ground um we we felt we're
+making fast progress and there was a lot
+of energy and I I felt like I needed to
+okay grow the company you know for long
+time Jared knows for a long time ret was
+like tiny it was actually run out of
+your apartment for how many years for
+many years for like three or four years
+and we were like four or five people for
+like many years so we started growing in
+20 even when you had a lot of users yes
+like you were four or five employees
+when you had like millions of users yes
+that's right so we were always kind of
+lean but I thought last year okay we we
+have really big Ambitions we got to go
+hire people I got to hire Executives I
+got to create like a management
+structure I got to like grow up is what
+investors were telling you he like oh
+you got to hire no actually I I was on
+my
+own uh you but but it definitely was the
+prevalent advice I mean you were you
+were absorbing this advice from sort of
+like the the world that was that
+ordinarily advises startups to do
+exactly that that's right that's right
+and it just got really
+miserable uh we had like you know
+multiple layers we had different
+meetings where I'm trying to like run
+the company from we had like a executive
+meeting staff meeting whatever we had
+road maps we had planning
+sessions and I just couldn't shake the
+feeling that it was all
+laring it was not work it was laring and
+but right now we don't have a road map
+right now literally we work on like
+three or four things I'm involved in all
+of them and I know what's going on there
+I know what people are working on and I
+think we got a lot more productive by
+getting smaller by you know flattening
+the organization I think one thing
+that's a story that I think we've heard
+from many Founders and one thing I'm
+curious to see how this plays out is I
+feel like what actually sparked off a
+lot of manager mode was feeling that
+people had more ideas to run with and
+they had like resources to execute on
+and you realize that bureaucracy Creeps
+in and you actually just can't get ideas
+done as quickly as you want and so now I
+feel like everyone's getting rid of
+middle management like and I'm curious
+to see if the same thing the same
+Temptation I think will happen again I
+think we thought it a little bit
+personally even is when you make it easy
+to go from like zero to one you it
+actually helps you create more good
+ideas because you're like oh yeah it's
+actually like I can just get things off
+the ground really really quickly and so
+then it'll be interesting to see how
+people stay now you have like the
+smaller flatter or structure you'll get
+more ideas for things you want to do and
+then staying like disciplined to not go
+back into oh yeah like we should
+actually do like the 10 things we could
+possibly be doing versus like the five
+or six you can keep in your head I think
+is actually a challenge I guess that
+there's a Waring idea here because
+there's Parker Conrad's uh compound
+startup but the interesting thing about
+the compound startup is I think they're
+trying to explicitly make the other
+product lines feel like a startup and
+govern like a startup unto itself which
+is like sort of the opposite of having
+like divisional responsibility I also
+think with ripling and Par like Parker
+is known having this hiring tactic over
+where he only hire or tries to hire a
+lot of former Founders and then like
+puts them in charge of a product line
+which has obviously worked really well
+for Rippling I think it's hard for most
+people to pull that off because you
+can't hire like the quality of former
+founder unless you have like I think
+unless the company's already like proven
+successful or you're just like a top
+tiered like recruiter like Parker is
+pretty like you know top .1% of ability
+to recruit really great people but
+Parker sortly found remoting though
+because we uh he uh he gave a talk at uh
+YC growth when we did this a couple
+years ago and he was still doing support
+tickets oh yeah still is he he told us
+that Harge Harge hosted him a couple of
+months ago actually right over there and
+he said that he said basically he loves
+answering customer support tickets and
+he will never let it go because it's his
+direct line of information to know
+what's really going on with the customer
+yeah yeah I mean that's that's to final
+remoting I think maybe he's he's he's
+he's doing the you know compound startup
+he's giving them a lot of autonomy but
+he's in the details you know so how did
+this play out for this AI agent like U
+like we talked about how you built it
+technically how did you build it
+organizationally this was a whole big
+like a big bat it was totally new
+technology that like the rler team
+wasn't used to working on how did you
+pull it off organization yeah great
+question we tried building agents
+multiple times in the past and just the
+technology wasn't there and finally when
+we felt it was there actually one of our
+employees uh Zen Lee who who kind of
+started this new incarnation of this
+made made a demo and he showed me the
+demo
+and it was so simple uh it was just like
+the agent like calling a couple tools
+and doing things in ID but I could see
+that it's finally almost here like I
+could taste it almost and in that
+feeling just was like okay we're going
+to make this big bad and so it created
+something called the agent task force so
+in the in the task force it's like
+people from a lot of different teams so
+you have the IDE team um present in the
+stask force you have the devx team that
+works on package management and things
+like that you have a uxx and design uh
+component and you have the AI team so
+you have the AI team at the center so
+it's almost similar to Cara diagram uh
+so so in we organize it in the same way
+that the diagram works the kernel OS is
+the sort of the AI team and then they're
+connecting out to all these tools that
+are created by the tool teams and then
+you on top of all of that you have the
+product and instead of ux theme that is
+working on on the entry points and how
+do you structure this which was very
+tough as well the design was tough and
+we we had like two meetings every week
+uh on Monday we had this war room
+meeting uh where Michael our head of AI
+will do like a run and we'll see what's
+broken what's what's wrong with it
+they'll come up with the priorities for
+this week and then on Friday we have the
+agent Salon where I do a run and I look
+at what's working what's broken I ask
+them about their priorities we might
+reprioritize something things I might
+change some things in the product we
+make big changes like rapidly uh and so
+every week uh we made a ton of progress
+what does doing a run mean uh do doing
+an agent run literally actually going
+through and using the product and seeing
+where it broke seeing where it breaks
+and figuring out what the priorities in
+order to fix it where it broke brilliant
+yeah did each of the team basically
+build their own agent as well um some of
+them did because some of them you had to
+the screenshot tool was an asent
+because uh you had to kind of have an AI
+look at the screenshot come up with the
+thoughts and then return them to the
+main manager agent so the ID team wrote
+the screenshot agent and then the
+package management team kind of built
+probably the text stack set up type of
+configuration which is really cool yeah
+it it worked out the or or structure
+worked out really well I mean
+surprisingly well because I think it is
+similar to how we worked when at the at
+the center was the user and now the user
+is the AI what's coming next with the
+agent like What's um what do you want to
+add to it what do you think are going to
+be the big next leap forwards for it
+reliability I think the the most
+important thing right now is reliability
+making sure it's not spinning making
+sure it's not breaking and then uh
+expanding it to support any stack you
+would want so right now we don't really
+listen to the user when they give us a
+stack we we push back the agent pushes
+back it's like ah I'm just going to do
+it in python or whatever uh but if you
+really want
+OTE so we want to be able to accept uh
+user requirements with the gr stack
+should have the poor gry mode WR only
+write it in
+list you know this modes thing is a
+really like a April fo thing like
+polyram over
+engineer bad UI doesn't care about UI
+everything's conf literally correct but
+very
+confusing how about just the interaction
+I mean you mentioned like lick lier and
+the whole human computed CBI assist
+Theory like is text like as far as it
+goes are there other ways that people
+you think will want to interact with
+their AI agent you should be able to
+like draw uh in the UI and communicate
+with the with AI by drawing right should
+be able to say hey like this button's
+not working maybe move this here or this
+file you know bro is not you know
+refactor this file whatever so you know
+if the whole thing is a canvas that you
+can draw on you can communicate a lot
+more expressively with the agent and of
+course you're talking you know as
+opposed to typing being able to talk and
+draw it's imagine it on the iPad too we
+have an iPad app it could get really
+really fun and creative kind of like a
+full UI mockup that you would do in
+figma you could kind of hand sketch it
+and get it to to do it like like how
+running a real engineering product team
+would feel like that's right and then
+we're going to add like more simpler
+agentic tools so right now the agent
+kind of is you know takes over and it's
+like writing everything but a lot of
+people just want more agency uh more
+advanced users so we want to be able to
+do like single step or single action
+agents so say like I want to add this
+feature show me what you're going to do
+I'll do a dry run show you all the diff
+show you all the packages going to
+install uh and then you'll be able to
+accept it or reject it and that way you
+more advanced users will have have more
+control over the code they're writing om
+thank you so much for coming and showing
+us the future in such a profound way if
+I wanted to do this all myself what
+would I do well first of all I want to
+say it's again Burly beta software if
+you're if you're if you're uh brave and
+you want to test it and give us feedback
+uh go to repet sign up for our core plan
+because this thing is expensive we can't
+give it away for free and uh and you'll
+be able to see that module on the
+homepage that says what do you want to
+build today uh and then you can go
+through that and start working with the
+agents just have an idea in your mind
+just write a couple sentences don't make
+it too
+complicated um or too Technical and uh
+and get started you'll get a feel of how
+to work with the agent pretty quickly it
+should be pretty intuitive and share
+with us what you're building happy to
+kind of reshare retweet whatever people
+are building with the agent amazing well
+it's time to Fe the AGI we'll see you
+guys next week
+[Music]

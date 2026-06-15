@@ -1,0 +1,1629 @@
+Video ID: p9qa1IO0Jsw
+URL: https://www.youtube.com/watch?v=p9qa1IO0Jsw
+Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 1622
+============================================================
+
+I actually applied immediately. I got
+rejected because I was in high school.
+And then I applied again. I got rejected
+again. And then the third time we came
+armed with a prototype that actually
+worked. The market is a great I mean
+it's just like punch in the face. Like
+it teaches you a lot like very quickly.
+I think our biggest learning is get in
+front of the customer and then just
+solve problems for them and and start
+with one specific problem regardless of
+how small it looks. We went from having
+no revenue to having 3 or 4 million in
+revenue in like a year. And it was like
+well we're done. like we solve all the
+all the problems that are to solve and
+then and you're like well no actually
+the game starts now. [music]
+>> I'm thrilled to be joined today by Tana
+Tanden the CEO of Kamir. We're very
+excited to have him because he's one of
+the leading providers of enterprise
+software to healthcare. Thanks so much
+for joining us.
+>> Thanks for having me.
+>> Why don't we kick things off? Why don't
+you tell me what Athellis is and what
+are you guys working on?
+>> Yeah. Uh, Athellis Camir builds software
+products for providers and so we have
+tools that automate their day-to-day
+workflows like Camircribe which is an
+ambient documentation tool revenue cycle
+which is a payment stack. It's basically
+Stripe for healthcare and doctors. It
+submits their claims, uses LLMs to
+negotiate denials with insurance
+companies, appeal those denials, and
+then really render all of the data viz
+and business intelligence to run your
+practice from a financial standpoint.
+And then also a whole host of clinical
+tools. come engage which does back
+office and front office interactions
+with the patient, explaining their bills
+to them, uh explaining what types of
+tasks they need to do to get prepared
+for a procedure like a colonoscopy,
+sending them appointment reminders, do
+on the order of a couple billion dollars
+worth of payments volume every year. Um,
+help document using our ambient AI tool
+20 million appointments every year and
+then uh probably 150 million touch
+points uh annually on on on our patient
+engagement piece. um spread in large
+health systems and private practices.
+>> And so this is sort of a bundle of
+pieces of software that are each solving
+kind of independent problems for a
+practice and collectively sort of serve
+as the software operating system for
+this entire practice.
+>> That's right. And so you know our
+solutions are used by the physicians and
+the nurses in the practice or the
+hospital and then also by the back
+office. So your accountants, your
+billing team, what we call revenue cycle
+in healthcare. everything from uh you
+know submitting the claim to actually
+you know ledgering everything up for the
+uh CFO's office
+>> and you can actually do all of this with
+technology today. You can have an AI
+model that'll call up an insurance
+company and negotiate with them and that
+actually works
+>> 100%. I mean I think the ability for
+language models to both interact via
+voice and text with humans and we just
+got there a year ago and so we're just
+at the precipice of what it can
+accomplish. Um, and when you walk into a
+health system, there are tens of
+thousands of people whose sole job it is
+to do these types of tasks. And if you
+can free up their time, you can bring
+that productivity back onto what matters
+the most, which is patient care.
+>> And I imagine a lot of those tasks are
+already outsourced to some degree. So,
+you're kind of just slotting in to where
+they've already outsourced it to someone
+else.
+>> Exactly. They they use vendors like R1,
+which is an offshoring RCM provider,
+Axis, Omega. Many of them have their own
+in-house shops where they actually, you
+know, it's effectively outsourced, but
+they actually have the individuals on
+site and the the direction of the
+industry for the last 20 years has been
+offshoring. It works okay for what it's
+worth. I mean, these became big
+businesses, but I think LLM's there's an
+opportunity to reimagine all of that
+where it's it's pure software.
+>> And this ultimately becomes a product
+offering for all types of hospitals,
+both small and large.
+>> Yep. We work with the HCAS of the world
+which is a hundred billion dollar
+hospital empire you know 3,000 sites of
+care 186 hospitals all the way down to
+your private practice owned by a single
+physician and you know they use varying
+parts of the solution but it's provided
+as one platform which is revenue cycle
+workflow automation and patient
+engagement in one
+>> what does that actually mean like for
+someone who's not in healthcare like
+what do these roles actually look like
+in terms of where technology fits into
+them
+>> yeah the way I think about it is the
+physicians dayto-day day is really
+defined as interacting with a patient
+and treating that patient uh and then
+often generating the relevant
+documentation so that their back office
+which is think of it like their
+accounting team their AR team invoicing
+can actually submit those claims to
+insurance.
+>> One of the challenges in healthcare is
+the person paying for the for the
+service is not the person receiving that
+service. So a person paying as like an
+insurance company or Medicare or
+whatever receiving it is the patient
+>> is the patient themselves and that
+individual the beneficiary you know
+their incentives are to get treated to
+get treated fast to get the best
+treatment in the world and often the
+insurance company's incentive is to pay
+out as little as possible and hopefully
+treat as little as possible which is a
+counter incentive to really what the
+patient is trying to accomplish. And so
+when it comes to then building
+technology then you guys build
+technology for all parts of this from
+the patient experience itself as well as
+the kind of front and back office
+accounting and kind of administration of
+that patient experience. We we see it as
+you know there are two key protagonists
+in our story which is the patients and
+the providers and we build software
+solutions and hardware solutions for
+that group of individuals and there's an
+effective enemy that's created as a
+result which is the insurance company
+and all of our tools are pointed at the
+payers in in terms of trying to make
+their lives harder and make the lives of
+our customers easier.
+>> Okay. Very interesting. Okay. I want to
+dive into your technology, but before
+that I'd love to hear a little bit about
+the backstory of so why don't we rewind
+the clock uh to the very early days like
+how did this company come about? Like
+what was the very early days like? Um
+what was your experience in YC like and
+kind of how did you even begin to arrive
+at this idea that you're working on now?
+So I I was very fortunate to have grown
+up in the Bay Area and when you're in
+the Bay Area, Y Cominator is just in the
+ether like people like Casar and Justin
+Khan and Sam Alman were like our heroes
+and the I remember it was like 2013 or
+2014 that we somehow snuck into YC
+startup school because it was happening
+in Certino. Um
+>> I think I was there too actually also
+sort of snuck into it.
+>> It was a great start. I think Zuck came,
+Jeff Dorsey was there.
+>> Yep. Same one. Um, Flexport did their
+interview on stage and I remember I was,
+you know, I was like teenager in high
+school. I was just in awe of of of these
+people that had built such amazing
+technology and YC is this ecosystem that
+had enabled a lot of it uh and was
+starting to enable more and more of it.
+So, you know, fast forward a couple
+years, Y Cominator hosted this hackathon
+called YC hacks and uh I had read a
+couple papers about how you could use
+computer vision to potentially analyze
+blood cells and also use really cheap
+pieces of glass to enhance a smartphone
+camera to basically turn into a
+microscope.
+>> So, this is like in 2016 or 174. 2014.
+So, this is like early computer vision.
+Like the deep learning is like just
+starting to happen to some degree.
+Computer vision is just barely starting.
+the the models that we were using them
+were like even like for for computer
+vision were you know you're using like
+segmentation algorithms like watershed
+and like you know we like random forest
+is what like were like the best models
+for for often NLP and even in some task
+in computer vision. And so armed with
+those two pieces of information, I went
+to YC hacks um and built this little
+really hacked together smartphone camera
+with a random force that had been
+trained to classify malarial cells
+versus non-malarial cells um based off
+of a training set on the internet. And
+it worked like pretty well like you
+could you could segment these two. Um
+and and then you know I was a senior in
+high school at the time but it became my
+science for project that year and I got
+very obsessed with this this idea of man
+we can use computer vision to automate a
+task that someone like a pathologist a
+very trained person is doing in in a in
+a expensive laboratory and bring that
+care directly to the patient um and
+simplify the provider's life and that
+eventually became a which was started as
+a med device diagnostics company. Oh,
+interesting. Okay. So, when you when you
+applied to YC then, so this is shortly
+after that, maybe a year or two after
+you were a freshman in college or
+something like that.
+>> So, I actually applied immediately. I
+got rejected because I was in high
+school and and then I applied again. I
+got rejected again. And then the third
+time we came armed with a prototype that
+actually worked. And it was after Id
+spent about six months at Stanford and
+you know the resources that you have
+access to with the med school and the uh
+you know in the the mechanical
+engineering department like we were able
+to put something pretty serious
+together. Uh and that's when we got in
+for summer 16.
+>> And this was with a med device that was
+doing some type of kind of image based
+analysis of was it was this original
+idea of like blood sample analysis?
+>> That's right. So it was basically taking
+a small volume of blood, turning it into
+a monollayer, so you could see, you
+know, single cells basically like
+they're on a on a smear. Um, and then
+basically a a microscope with an imager
+attached to it, but was hacked in a way
+that it was very uh large field of view
+and still high resolution. And then we
+trained computer vision algorithms to
+recognize and segment those various
+cells.
+>> And so at this point, you know, your
+background is primarily in computer
+science. I assume you had some
+experience in this application area in
+biology in high school and early
+college. You know, what gave you the
+conviction to be like, I'm going to
+presumably drop out of college, start
+this company that is in a regulated
+industry with medical devices. Like how
+did you actually arrive at that
+conviction? I
+>> I would say two key sources. one my
+co-founder Deepka who's also one of my
+closest friends uh we used to compete in
+science spheres against each other and
+her research was always way more uh call
+it med device or bioengineering focused
+and she worked through high school on
+this uh micrfluidic test strip that
+could detect salmonella very quickly
+from you know produce and you know I
+thought it was remarkable that you could
+build something like that in in high
+school because it was you know was
+hardware there was bio involved you have
+to have a good understanding of you know
+how these det protection strips were
+actually fabbed and cut and whatnot. And
+so it was clear that okay, we could
+build things in the real world with uh
+with micrfluidics. And then number two,
+I think the, you know, when you're at
+Stanford, you get to meet these amazing
+professors. For me, Chris Manning was
+was someone who gave me my first shot in
+the Stanford AI lab under Richard
+Socher, um, who started Metammind where
+I was a research intern as well. And I
+think they were just it was really
+motivating because for them it was like
+there's there's no boundaries to what
+machine learning can do. you should go
+after these complex industries. Um, and
+they, you know, Richard was ended up
+being the first check right after Y
+Cominator 50K check and and I think that
+support really encouraged us as well.
+>> Yeah, totally. Okay. So, so let's now
+talk about your time in YC. You know, at
+this point it's just the two of you. Um,
+you're working on this regulated medical
+device. What did you set as kind of your
+demo day goal and like how did you what
+did you accomplish in those few months
+of YC that ultimately then put you on a
+trajectory to build something somewhat
+different now from what you describe
+now? We'll kind of talk about that that
+transition. But yeah, what what did that
+first few months look like?
+>> I I think the first week itself of YC
+was total shock because we came in with
+these traditional timelines for how long
+a med device should take or how long
+anything in healthcare should take,
+>> which is like years or something.
+>> And and that seemed pretty good to me. I
+was like, cool. Like we're going to be
+on this for a long time. It's, you know,
+we're going to go super slow. Remember I
+had a conversation with with Casar, who
+was our group partner and is also now on
+our board. Um, and he, you know, he was
+basically like, he made me walk through
+every assumption on, well, why is that
+months? That that just seems like it's
+like a paperwork. You should be able
+[clears throat] to do it in a week. Why
+are you waiting for Stanford IRB to
+approve this trial where you could go to
+some local lab and probably get it done
+in a week? Uh, and I think because of
+that, Deep and I sat down and just like
+reimagined how quickly you could build
+this stuff and and really went from
+almost like zerobased budgeting, but for
+a clinical trial. And the other piece
+was, you know, if you're a competitive
+person, in our batch, we had companies
+like, you know, Scale AI was in our
+batch and and this was a company that
+pivoted mid batch and got to like
+millions in revenue by the end of the
+batch. You know, for us, we never wanted
+to just be the best healthcare company
+in the batch. We wanted to be the best
+company in the batch. And and so it was
+it was this this pressure that we sort
+of created for ourselves and that group
+partners created that really caused us
+to pace uh more aggressively than if we
+were doing it outside of of of YC. And
+so we set this goal of we will finish a
+clinical trial and have a ready to go
+FDA submission by the end of YC. Um and
+it was crazy but we actually got the
+clinical trial done. We needed to redo
+some of the experiments per the FDA's
+request. So the the approval itself took
+a little longer, but we we we got the
+the core basis of of the clinicals done
+in those 10 weeks.
+>> I mean, that's pretty absurd pace,
+right? I mean, I think like when you
+think about a normal regulated medical
+device, we're talking about many years
+in that process. And yeah, I mean, I
+think this ability to kind of break down
+into its only what the critical
+components of it are, what parts you can
+actually shortcut versus not is it's a
+very challenging head space to get into.
+And then you guys as as 19-year-olds, I
+mean, I can only imagine some number of
+people you talk to are like, "Who are
+these guys to be making a medical
+device?" Like, how do you go up against
+that? Like, how did you get yourself to
+not care? Basically,
+>> we had many conversations where we got a
+quote from Stanford where it was like,
+"We can run this trial and it'll be
+$120,000 and it will take 3 years."
+>> And and I mean, when you see something
+like that, it's almost so absurd that it
+wheels you into action a little bit,
+which is like, if this is the default
+system, I mean, something is broken. and
+and and I think um because of that we
+thought to ourselves it's time to
+rethink first principles and it really
+came down to one identifying a partner
+hospital that was small enough and
+willing to work with us very quickly and
+that ended up being in Huarez Mexico so
+we flew out there mid batch uh ran the
+trial with them number two is really
+deleting as many parts as possible and
+running the simplest form of the trial
+so instead of hiring traditional
+clinical trial operators deep and I ran
+the trial ourselves she took samples in
+the front room. I was in the back room
+running them on the device. Uh, and then
+we had a nurse that we had hired for the
+day who was running them on the
+traditional system called the
+Sysmex5000.
+And we would then compare those results
+and show that they were accurate and and
+equivalent to each other. And the whole
+process from finding the hospital to
+making sure the devices were ready to
+actually running the trial and then
+getting the results end to end was
+probably 6 weeks of the batch. Once we
+hit those milestones, that's when we
+raised our seed round.
+>> Okay. So you started there though. You
+started with this medical device. Today
+you're not a medical device company for
+the most part at least or at all I
+think. What was that arc like? I'm sure
+there was many steps in which the
+company changed. But maybe tell me a
+little bit about how you segment your
+brain into like the few eras of this
+company and how you went from one of
+these to perhaps pivoting to uh kind of
+another version of that company over the
+last few years. you know, we did YC, we
+raised our seed round from Sequoia,
+Alfred, um, over at Sequoia, and the
+next 18 to 24 months just became brutal
+focus on getting an FDA clearance. Um,
+get the device to a state where it can
+replicably run in in in clinical trials,
+uh, where you can, you know, all kinds
+of crazy tests like we have to drop the
+device and kick the device and, you
+know, things break and you have to be
+able to continue to pass the the
+relevant tests. And that was it. We were
+laser focused on this one goal. And I
+think that was very freeing in some ways
+because it was the only thing we had to
+get done. We also only had $3 million to
+do it. Um, and you know, the the other
+piece of it was to start proving out the
+commercials. And that's when I started
+engaging with uh what became our first
+customer, which was actually a
+pharmaceutical company that manufactured
+a drug called Cloopene, which is a
+refractory schizophrenia treatment that
+causes neutropenia, white blood cell
+count reduction as a side effect. And
+you know, they told us, "We've been
+dreaming about a device like this." and
+and they signed that first million-doll
+contract even before we had approval
+just based off of the results of the
+clinical. So, we had that commercial
+proof. We had early clinics that were
+adopting it. We were, you know, seeing
+them use it and then we got the FDA
+clearance and that was really this like
+the first like epoch of the company the
+first like two two and a half years.
+>> Once we got that, you know, the the
+market is a great I mean it's just like
+punch in the face. Like it teaches you a
+lot like very quickly.
+>> You must have felt like you were on
+cloud n then you're like, "Oh, we're
+we're chilling. We we figured this out
+now. Now we're going to go to the moon
+with this." I I mean we got the
+clearance and it was like well we're
+done like we solved all the all the
+problems that are to solve and then and
+you're like well no actually the game
+starts now and the exciting thing was
+that we went from having no revenue to
+having 3 or 4 million in revenue in like
+a year. So as far as traditional series
+A metrics and pacing like we were there.
+The thing that we realized in parallel
+was okay we can probably scale this
+business to tens of millions in revenue
+and build a business that a ro or an
+Abbott or someone will buy for you know
+200 million bucks or whatever that
+number is like a good med device
+outcome. At the same time we had this
+team that we felt could run through
+walls and had built machine learning
+software had gone through regulatory
+done the operations of device
+manufacturing and we were in these
+clinics like our devices were deployed
+and we saw all kinds of problems.
+>> So you got in there by deploying the
+devices we were solving all sorts of
+other problems they were facing and
+along the way you discovered there's
+this massive other set of problems that
+you can solve too.
+>> Yep. We we wanted to go from making
+their lives easier for a percent of
+their patients. So we were serving with
+our athals one device to 100% of their
+patients uh and their whole chronic care
+panel with you know the teleahalth tools
+and the revenue cycle tools. And and I
+think you know my looking back the
+reason this time period was so valuable
+is we would not have had you know a
+valuegiving relationship with these
+customers had it not been for the
+device. They trusted us. They saw us as
+more than just a device company. They
+saw us as those kids that would show up
+in their office, set up the device,
+train them how to use it. And because of
+that, they would tell us about all these
+other problems they had in their
+clinics. Like, hey, when I get the
+result from the device, I have to upload
+it into this portal manually, and then I
+have to call up a pharmacist and tell
+them like, hey, the fax is coming
+through. We would just hear these, you
+know, these complaints like, well, it
+would be amazing if I could, you know,
+upload this automatically or if I could
+fill this claim form out automatically
+to get the next set of medication
+adjudicated. And that's when we started
+building software and it honestly felt
+like playing on easy mode after two
+years of building building hardware and
+dealing with the FDA.
+>> You know, at some point presumably the
+software starts to take off and become a
+pretty significant part of your
+business. At at some point do you you
+what is that process like of leaning in
+on that and perhaps you know abandoning
+the thing that or or at least leaning
+out of the thing that has been your
+initial driver that got you there in the
+first place that has this big pharma
+ideal for example. What does that
+process look like? It was interesting
+because we had two paths in front of us.
+Be the best aellis swan medical device
+company in the world and just you know
+build a great compounding 40 50%
+annualized grower in that in that
+segment. Alternatively it was bet on
+yourself again and expand the TAM and do
+more for these customers um based on the
+learnings we were getting from the
+market.
+>> And also when was this by the way?
+>> This was in 2020. Um
+>> so you've been at this now for like
+fourish years. Like this has been your
+thing. You're a med device company.
+you're growing this thing and now 2020
+is coming. A lot of things are happening
+in the world uh as I'm sure is going to
+be relevant here. And then also you're
+starting to see that there's an
+interesting new opportunity in software.
+>> Yep. And I remember it was I forget was
+it might have been Robin Hood or it
+might have been some company. We had
+this interesting uh fireside that we
+went to and they talked a lot about
+share of wallet and this concept of you
+want to do more and more for your
+consumer and go from just being you know
+with Robin Hood like their toy stock
+couple hundred bucks playing around to
+like no this is like a meaningful
+financial product for your entire
+portfolio. For us, the the analogy was
+was apt because we went we we wanted to
+go from treating 1% of their patients,
+these refractory schizophrenia patients
+that were treatment resistant to
+treating all their patients. And I
+remember Deep, my co-founder, she was in
+one of these clinics. She spent a lot of
+time in these clinics and she was like,
+"It's insane. We are helping them for 1%
+of their patients and they love us so
+much. Imagine if we could build tools
+for all of their patients, their full
+thousand patient panel." And and I think
+that's when we took the bet. We're like,
+we can build a multi-billion dollar
+software business, sensor business in
+this segment by expanding what we do for
+these customers and and grow a lot
+faster than the 100,000 total patients
+that had this one condition.
+>> And then this was before the LLM era was
+really taking off. You were obviously a
+machine learning company and you had a
+lot of experience with building
+software. Um, but like what did that
+initial software look like? Like what
+types of problems could you solve then?
+Presumably now you can solve many more.
+Yeah, we started with the basics which
+is one uh co hit and and as a result our
+providers needed ways to monitor their
+patients in their homes. So we built a
+basic telealth portal and a set of
+remote monitoring devices that connected
+into it and allowed them to interact
+with those patients many of whom also
+used the FLS1 device in the point of
+care or in their homes. The very next
+thing we started playing around with was
+workflow automation as it related to
+claim submission and payments. So
+everything from collecting dollars from
+these patients to uh you know starting
+to submit claims to insurance and first
+we did it just for or you know this
+subset of remote monitoring and cloopine
+patients and then expanded organically
+to more and more of the practice
+>> and and these are problems you basically
+discovered from being in their offices
+like you know you and your co-founder
+are in there and you're noticing and
+hearing from them about whatever other
+problems they're facing and you're kind
+of seeing okay like as exciting as this
+is we sort of have to solve these as we
+go.
+>> Exactly. There is no other way to
+discover these problems than being in
+your customers dayto-day and and and
+just seeing them because there's so much
+nuance to where they get stuck and it's
+not something you can derive you know by
+reading an article or you know watching
+a video online. You you have to be in
+the in the heat of things.
+>> Yeah, totally. I mean I think we see
+this with with companies every day today
+especially in this sort of new
+technological moment is that it's very
+hard to conceive of great startup ideas
+kind of in your home or in a lab. It's
+much more likely to encounter them
+somewhere in the field by being in
+there. And so for you guys that sort of
+was a was a game changer in putting you
+in that place.
+>> 100%.
+>> Well, okay. Well, why don't we, you
+know, kind of move forward now a little
+bit to to today and and get there by
+kind of talking about what the last few
+years has looked like in healthcare
+generally. I mean, there's been an
+incredible amount of changes happening
+in healthcare. To your point, there's
+these massive mega conglomerate style
+hospital businesses. There's
+consolidation in payers and PBMs. for
+you guys as you see this sort of
+changing landscape where do you one
+where do you fit into that landscape and
+then also how does that changing
+landscape affect your business and as
+you think about growing it
+>> I I think it's it's it's really
+interesting is if you go back to the
+'90s uh the life of a physician was
+great they had a tight panel of patients
+they knew them personally they treated
+them and if there was you know chronic
+diseases they were able to talk to the
+patient very quickly idea of a concierge
+doctor was was fairly common you know
+anyone in upper middle middle class had
+a concierge doctor of some kind. And as
+the bloat that came from insurance and
+regulation and and and just what we
+turned healthcare into into this sort of
+like admin state
+>> is what really broke down the
+productivity of a physician where they
+turned into these these, you know, cogs
+and this greater wheel and there's, you
+know, patient productivity numbers they
+have to hit. There's countless tasks
+they have to do. regardless of how
+efficient they are, they always take
+documentation home and they're filling
+out paperwork. And I see it as this
+great misuse of of talent in that we
+have some of the most intelligent,
+well-trained, uh, uh, well-intentioned
+people in the country spending their
+time doing tasks that really software
+should be doing for them. Uh, LLMs are
+not. And what we've seen happen is a lot
+of physicians give up on this dream of
+the private practice or the
+physician-owned practice in change for
+joining a large health system that does
+take on a lot of the overhead that you
+now need to pay in order to just operate
+a health system.
+>> This is like negotiating with insurance
+companies and with PBMs and having uh
+farmer relationships and all that kind
+of stuff,
+>> paying for an EMR, dealing with
+malpractice. And so all of this made it
+harder to practice care and and and
+turned it more into this again like this
+admin business. And and I think now with
+LLMs, there's this generational
+opportunity to free the physician and
+and really bring them back to what they
+love doing the most, which is rendering
+care. And I think our work is in service
+of that. Uh take the work tax and just
+nuke it. take every part of their
+revenue cycle, their back office, their
+documentation, um, and and use software
+to automate, uh, large chunks of that.
+>> And I mean, you guys sell to, you know,
+both this mid-market and larger market
+or or any kind of enterprise market.
+It feels like what you're saying here is
+that this midm market is what you see as
+potentially best suited to take
+advantage of of LLM and especially sort
+of this broader technological adoption
+because it frees them from needing to
+consolidate into these bigger
+enterprises and perhaps the advantage of
+the bigger enterprises won't be as much
+the case in the future. Is that kind of
+how you see it or do you think not so
+much?
+>> I I I think it goes both ways. one I
+think we will see it's sort of the
+analogy we use is like Amazon and
+Shopify where over the last 20 years or
+[clears throat] 10 years or whatever
+time period Amazon has grown remarkably
+um as it's you know taken a lot of share
+from traditional retail and also
+expanded what we order online but then
+Shopify has exploded as well as more
+people are able to start their own
+businesses and I think you will have
+this aspect of the physician who
+practices in a health system but then
+also has their own practice um and
+chooses their hours and because of the
+fact that software is automating more
+and more of their day, they can see more
+patients and do it in in a way that is
+sustainable and gives them energy as
+opposed to drains them out by the end of
+the day.
+>> Yeah. So, let's talk about that a little
+bit in terms of software automating more
+and more of their day. There's been a
+lot of software adoption in healthcare
+over the last 10 years. Most of it
+through electronic health records and,
+you know, kind of payment portals with
+insurance and whatnot. Um, but a lot of
+it has been promised to doctors as
+saving them time or helping patients in
+various ways over the last decade. But
+the critique has often been that well,
+it's not really been about that. It's
+been about getting paid for care. It's
+been about billing mostly and not
+actually about care. How do you see what
+that technological adoption story looks
+like over the last decade and then over
+this next decade? Like what are things
+you think are going to be fundamentally
+different about this technological
+moment? It's it's definitely true
+because a lot of the digitization and
+creation of EMRs came from a place of
+compliance and a place of of billing and
+institutionalizing a lot of regulatory
+requirements as opposed to true you know
+unleashing the doctor. [clears throat]
+You know do Dr. classical who's one of
+our uh you know he used to run Thomas
+Jefferson University the health system
+um you know he calls this the epidemic
+which is like there's just this
+proliferation of of work tax in every
+organ in the country in IT departments
+in you know in the physicians day-to-day
+and it didn't solve the problem it set
+out to solve because the software was
+built from the perspective of the CIO's
+office and the CFO's office
+>> who are optimized around getting paid
+basically.
+>> Exactly. optimized around getting paid
+and not getting sued and and those are
+the you know the two the two drivers you
+know the CLLO's office as well now I
+think you're seeing a lot of
+physician-driven adoption of these tools
+one postco we really stress the system
+out we we burnt we burnt out our
+physicians or burnt out our nurses and
+there's almost no option but for them to
+use these tools uh uh and and and push
+for the adoption of these tools in order
+to just keep up with their with their
+day-to-day patient volumes our loudest
+advocates even in largest health systems
+are physicians.
+>> Well, this is really fascinating. That
+feels like a huge difference, right? I
+imagine in selling the first version of
+EHRs five or six years ago, you're Yeah.
+largely selling to central IT teams,
+CIOS, that type of thing. Here, you're
+saying today when you approach selling
+your recent software, it's an individual
+doctor who's your advocate.
+>> 100%. We have we have a self-s serve
+ambient documentation tool called
+Scribe. And
+>> yeah, how does that work actually? Can
+you tell us a bit about that?
+>> I would say it's one of the explosions
+in software categories recently. You've
+probably had in terms of like really
+fast LLM adoption, I think you've had
+coding tools like the winds surfs and
+the cursors of the world and then you
+you've had ambient documentation tools
+um in the in the healthcare world. And
+ambient documentation listens to the
+conversation that a patient and a
+physician have. It summarizes that and
+then it generates all of the
+documentation based on being trained on
+previous approvals, previous pieces of
+documentation and basically hands it off
+to the revenue cycle teams ready to go.
+>> It's like a perfect problem for LM. This
+thing LM would be really good.
+>> It's a perfect problem for LM. You have
+transcription, you have summarization,
+you have, you know, references and
+citations back to clinical source
+material all in this one, you know, one
+set of models. Uh, and that tool, we
+went from 2023 doing maybe 100,000
+appointments through that tool to this
+year, we'll probably do 20 to 25 million
+appointments through that tool. There's
+a self-s serve motion that has gone from
+last year zero appointments to this year
+5 million appointments. Um,
+>> self-s serve motion as in you don't go
+through the hospital IT team at It's a
+physician finds it online. Uh we
+advertise directly to them. They sign up
+often paying with their own credit card.
+Um
+>> that seems new.
+>> It seems crazy. I mean I was shocked
+when when we saw this working. Uh it was
+this is not behavior you've seen in
+healthcare before.
+>> And from that we you know we then go
+upsell almost like Slack or Dropbox or
+one of these traditional software tools
+the whole enterprise where we pitch the
+integrations into their EMR the whole
+workflow tool. Um, and that's been a
+massive, you know, source of of of
+expansion for us.
+>> If I'm a founder, you know, I might be
+thinking, well, isn't it going to be
+really annoying in terms of HIPPA and in
+terms of all these rules and whatnot in
+terms of actually
+>> getting a doctor to sign up? Like, it's
+not even intuitive to me that a doctor
+is allowed to self-sign up for this type
+of thing. How do you guys think about
+that? Is that has something changed that
+makes it easy or was it never actually
+as hard as people thought?
+>> It's a good question. And I think
+there's definitely a lot of compliance
+departments in hospitals that are very
+much against self- adopted software, but
+the productivity gains are so great that
+it's happening one way or another. Um,
+and the options that a compliance
+department at a hospital has is either,
+you know, sign up and make this part of
+the institution or, you know, tell your
+physicians to continue being burnt out.
+And usually they're picking the one that
+that ends up with happier physicians.
+You know, there are totally ways for
+there to be HIPPA compliant self-s
+served tools. Now, that might defy the
+individual policies of a of a private
+institution like like a hospital itself,
+but from a pure HIPO compliance
+standpoint, right?
+>> It's not actually a legal risk. It's
+just the hospital's own compliance.
+>> It's their own internal policies.
+>> Yeah. And so, what does it actually look
+like in terms of other technological
+problems you face? Like what are some
+>> maybe just diving into some technical
+challenges? Yeah. Um I can imagine for
+something like scribing at least to me
+intuitively that seems relatively
+straightforward as a technical challenge
+but perhaps at that scale actually not
+so much whether in that one or in some
+of the other products you guys have what
+are some of the hardest technical
+problems you guys face in actually
+making software here especially for a
+company that is selling to healthcare as
+opposed to any other enterprise SAS
+company
+>> in just the case of scribing simple at
+first glance but when you scale you know
+you're dealing with millions of hours of
+audio that is often being uploaded over
+shaky networks in the basement of doc in
+you know a hospital in a lab you know
+pharmacy that's a you know freestanding
+part of a freestanding clinic in rural
+America so you have to build great
+offline mode and you know retention and
+and and the ability to you know upload
+these things silently in the background
+and all these like traditional
+challenges that consumer apps have
+solved I think are now being solved in
+healthcare as well. Number two, you
+know, we process billions of dollars
+worth of claims volume every year in our
+revenue cycle business. And as part of a
+revenue cycle is it's stripe for
+healthcare, right? You're the interface
+between the physician and the payer and
+the payers at a 100 blocks that make it
+hard to get paid. Everything from losing
+the claim to, you know, not telling you
+that it was denied for a couple weeks so
+you don't hit your, you know, so you hit
+your timely filing limit and then can't
+get paid anymore. We've built models
+that are constantly checking for all of
+these threats. Uh I almost see it as
+like a like a cyber security problem.
+Every denial is is something broke or
+this is the payer trying to attack the
+physician. We have to debug what went
+wrong and help the physician get paid
+out. A good example is all these payers
+have APIs now, right?
+>> They just work 80% of the time. What
+what that means is is that you might get
+responses that are, you know, missing
+some of the adjudication or there's a
+there's a secondary insurance that needs
+to pay out and then you need to go
+separately hit that secondary insurance
+or these two insurance companies aren't
+talking to each other and they both got
+a medical record but are claiming they
+didn't and you have to show them that
+audit trail. And so the technical
+challenges are are very interesting
+because you're doing this at scale and
+you need to monitor these processes
+constantly. Um but when you solve them,
+physicians win, which is very exciting.
+>> Yeah. And especially today if they are
+your advocates. I mean I think you get
+this even I imagine much faster sales
+motion than probably in the early days
+where if you can show them these
+technical solutions and they can
+actually advocate and like get your
+thing incorporated into their hospital.
+I mean that's huge for you guys.
+>> I mean for our revenue cycle business
+the word of mouth is literally my
+revenue went up by 15%. And that is the
+most potent word of mouth in in the
+world and that's why we're seeing that
+business scale so quickly. Um, I think
+in our ambient business, the word of
+mouth is I save two hours every day and
+I did it with this free tool that I
+found online and if I want to get it
+integrated, it's, you know, like a
+hundred bucks a month or whatever the
+price is. So that that's to me why why
+why I think these tools are spreading so
+quickly now.
+>> And how do you think about yourself in
+terms of a the types of software you
+guys have? You know, you call yourself
+sort of a compound software company,
+sort of a rippling for healthcare as
+we've talked about in the past.
+>> What's the basis for that strategy? you
+know, how do you guys think about growth
+and why grow this way versus doubling
+down on one of these and trying to make
+that be a massive business in itself? I
+>> I think the complexities of healthcare
+and the way that people get paid in
+healthcare and really where the
+operating cash flow lies really make it
+like you can only really build a hundred
+billion dollar business in healthcare as
+a platform company. That being said, you
+have to start as a point solution. We
+started as a med device and then
+eventually turned into this again a
+point solution for a very specific
+subset of claims and then over time
+turned into this platform. Uh but now
+that we're this platform, we also have
+amazing distribution unlocks. We get to
+work with General Catalyst and their
+health assurance framework. They have 40
+health systems that are all signed up.
+HCA is on our board. It's hundred
+billion dollar hospital empire. And so I
+think in the same way that in the 2010s,
+Palunteer solved distribution and
+defense and a lot of call it like
+Fortune 100 uh use cases and then just
+aggregated smart people to go work on
+crazy problems. We're doing that in
+healthcare. The hardest problem in
+healthcare having now spent eight nine
+years in it is distribution and you can
+reinvent the distribution wheel over
+eight nine years for yourself or you can
+go build you know effectively point
+solutions as part of this platform um
+and not worry about the revenue engine
+because the backend revenue cycle has
+that covered
+>> right as long as you ultimately have
+revenue cycle management at some part of
+your platform. Exactly. Kind of works.
+>> Exactly. I mean do you think that
+changes now in this era of kind of
+doctorled advocacy of acquiring software
+you know if if for example it is much
+easier for hospitals to acquire software
+than ever before especially smaller
+clinics does that change the calculus
+there at all or do you think uh
+ultimately the same dynamics lie
+>> what you will see is a lot of these like
+small couple millionaire ARR businesses
+um that might be distributed in this
+somewhat novel way now that physicians
+realize the productivity gains far
+outweigh you know getting wrap on your
+knuckles from compliance. It It's an
+approach. The issue is is that the
+number of companies, there's like 40
+different ambient scribing companies.
+They all hit like 100 200k in revenue
+and then plateau out and then the next
+kind of great wall that they hit is, you
+know, there's probably a dozen of them
+that got to a couple million in revenue
+and then they all plateaued out as well.
+It's not a venture business in my
+opinion. Like a single point solution
+unless you rapidly expand distribution
+or you rapidly expand your platform,
+it's not a venture scale business. I can
+imagine then how you think about
+counterpositioning to what might be many
+new upstart companies thinking about
+this like do you think of it as kind of
+as long as we own revenue cycle
+management you know these folks can
+basically help us innovate on companies
+on on new areas and basically you guys
+would go acquire them
+>> yeah our our strategy has been you know
+bundle as much as possible in terms of
+we think long term
+>> it's kind of the original Microsoft
+business model too
+>> it is 100% the original Microsoft
+business model and a great example is um
+in the 80s there was a software that
+came I'll call Grammatic and it was an a
+word correcting software or like a
+grammar checking software and you know
+it ripped like it it really took off and
+and it looked amazing. I think whatever
+the equivalent of VCs were in the back,
+you know, back then like were super
+excited about the business like I'm sure
+they raised a lot of money from a lot of
+banks or whoever was funding them and
+then Microsoft came out with autocorrect
+as part of Word and this business just
+died and and this will happen
+unfortunately to a lot of these LLM
+rapper businesses today and particularly
+in healthcare. I think there's a whole
+host of vanilla point solution scribing
+companies that have developed and the
+minute Epic turns on their own native
+ambient scribe, those businesses will go
+poof because they have no connection to
+the, you know, revenue cycle, the
+payment stack or anything more
+meaningful than just that one layer.
+>> And actually on on the note of Epic, I
+mean, how do you think about
+counterpositioning to them? I mean,
+they're sort of the kings of
+distribution in terms of healthcare, at
+least for the last decade.
+>> Presumably, you're trying to take their
+crown. Um, but how do you think about
+counterpositioning against their
+existing distribution?
+>> Everything I just said is exactly what
+Epic would say about us.
+>> Yeah, exactly. And so the the way that I
+think about it is one of our core
+company values is speed. And there are a
+group of health systems in this country
+who can't wait for Epic to build these
+solutions for them over a multi-year
+product roadmap. Uh I think the best
+stat that I have here is there you know
+the two best run health systems in the
+country from a four you know from a
+profitability standpoint are HCA which
+is like 12 billion in free cash flow and
+then tenant which is also billions in
+free cash flow. Neither of these
+companies are are on Epic. In fact they
+avoid Epic like the plague. And the
+reason is is that Epic often sucks out
+all of the operating cash flow of the
+academics and businesses that they work
+with. You have these like multiundred
+million dollar implementations. And the
+the way that I see it is if you want to
+be a fastmoving growing business, you
+probably can't be on Epic because the
+CIO's office becomes this captured asset
+and they're just waiting for Epic to
+release stuff or at least Epic can't be
+central to your strategy. Maybe you use
+them for your EMR, but you're you're
+building the system of engagement and
+other tools on top of it and around it.
+Um, and and we aim to be that platform
+for that system of engagement on top of
+the EMR.
+>> And it seems like you're innovating on a
+very different go to market compared to
+them, too. To your point, they're
+probably going to the CIO's office.
+That's right. You guys, it sounds like
+experimenting with ways to go straight
+to doctors and then kind of make your
+way to the CIO's office from doctor
+demand as opposed to from some large
+enterprise deal that's forced on
+everyone.
+>> And ultimately, you have to earn the
+trust of the CIO. There's no doubt about
+that. But you can build a lot of
+momentum and add a lot of value uh
+through this physicianled adoption. You
+know, even at our largest health system
+partners, we have forward deployed
+engineering teams that will sit and, you
+know, just work with the medical
+directors and the leading physicians in
+that facility to try to make their day a
+little easier. And that's it. That's all
+their job is.
+>> I mean, much like you and your
+co-founder in the early days.
+>> Exactly. We try to replicate what worked
+in the in the early days into these
+forward deployed pods and so far it's
+yielded like we a lot of our net new
+products and a lot of our net new
+initiatives have come from that. Maybe
+changing gears a little bit at the end
+here is I'd love to just talk a little
+bit about how you see the future of
+healthcare broadly. I mean you obviously
+have had a front row seat to both
+participating in and shaping what this
+field has looked like for the last
+several years. Now on on the flip side
+from from my perspective as a patient um
+it feels like not a lot has changed from
+my experience as a patient over the last
+let's say 20 years. So, you know, if I
+were to go to a doctor in 2005 versus
+2015 versus today,
+>> sure, more stuff is on a computer, but
+kind of fundamentally I'm kind of
+waiting for the same amount of time and
+talking to more or less the same people
+and maybe there's a couple new things,
+but for the most part, it feels very
+similar. One, do you think that's an
+accurate characterization? And then
+also, how do you think of the next 10
+years? Like, do you think it's going to
+look kind of similar for patients this
+upcoming decade?
+>> I I think for the most part, I I agree,
+which is that the core of the experience
+hasn't changed. I think we're starting
+to see innovation now on the fringes and
+that there's a lot of things that you
+had to go in for that you can now do via
+teleahalth visit.
+>> Co sort of accelerated a lot of this
+>> definitely accelerated a lot of that and
+and that's great. I think
+>> a system that is inherently supply
+constraint the more that you can take
+out of you know having to actually show
+up at this facility and and and you know
+wait for someone to see you the better
+it is both for the system as well as for
+the patient. Where I think we're
+starting to see now uh rapid adoption is
+the physician's life is starting to
+actually become easier in that these
+LLMs are saving them time provably, you
+know, a couple hours every day. And
+because of that, they're either going
+to, you know, their panels will open up,
+they'll be able to see more patients. So
+getting an appointment with a specialist
+hopefully starts feeling a little
+easier, you know, moving forward. But
+then number two, I think on the whole
+these systems are starting to adopt AI
+based solutions for things like their
+front desk to assist with you know call
+automation um the you know patient
+engagement. We have a system that for
+colonoscopy prep it's called engage. It
+will send you a reminder and converse
+with you based on the source material
+and recommendation from the physician
+and it boosts it and improves no-show
+rates by 50%. um because the the prep
+work is done and you know you don't end
+up having to cancel the appointment last
+minute because you messed something up
+and and so those metrics are all moving
+in the right direction. I think where
+what healthcare should become with LLMs
+in the next couple years is, you know,
+you should get your most critical care
+in a hospital or in a, you know, in
+front of a physician where there really
+is something like like, you know, phys
+physiootherapy, like a P like a PT
+actually taking care of you. Um, or
+surgeon operating,
+>> a surgeon or a deep complex diagnosis
+that requires multiple tests in one day.
+Those things should happen in in an
+office. But with LLMs, more and more
+care, I think can transition out of the
+home with sensors that monitor the
+patient, virtual care. Um, and and I
+think that world is finally becoming
+real.
+>> And what do you see the transition in
+that world looking like? I mean, there's
+all these pretty deeply baked incentive
+systems that incentivize bringing people
+into the hospital even for relatively
+small things cuz you have to bill for
+it. To your point, a lot of the revenue
+ultimately comes from RCM. Do you see
+that the those sort of entrenched
+financial motives actually preventing
+that future from happening or do you see
+that it's going to happen inevitably
+just from like kind of this abundant
+intelligence age we're we're entering?
+>> I think it will happen inevitably from
+you know this the abundance of
+intelligence that's emerging. I think a
+lot of your your fringe care will will
+again just be things that patients can
+do entirely on their own. And as a
+result, health systems will be forced to
+really specialize in in doing those high
+margin, high dollar procedures that
+they're uniquely good at. And because of
+that specialization, I think the quality
+of that care will improve as well. And
+you know, you see things like intuitive
+surgical and like robotic care actually
+the fact that it's a thing in in in the
+states is is is pretty remarkable. So I
+think at the at the highest end
+[clears throat] of our spectrum
+technology has in fact improved quality
+of care meaningfully. There's like new
+imunotherapies cleared every year etc.
+And then at the very lowest end of
+acuity in terms of basic tellahalth
+that's improved as well. And it's this
+kind of middle that's now going to
+massive middle
+>> by both by both sides. And hopefully
+that the rate at which you know that
+that middle gets compressed will be
+fast. I mean one of the areas you see
+the kind of big research labs most
+excited about is you know like Microsoft
+for example put out this thing called
+medical super intelligence on the path
+to medical super intelligence recently
+and there's this sort of excitement
+around the possibility of actually um in
+many ways kind of replacing or or at
+least very heavily augmenting but
+ultimately fundamentally in the long
+term replacing the kind of fundamental
+kind of diagnostic process that a lot of
+doctors do with
+>> super intelligent AI systems you know
+ones that could order tests and then
+respond to feedback back and iteratively
+iteratively work on those. I mean how do
+you think about those? Like do you do do
+you see that being as part of the
+future? And also if that were you know
+what do we need to do now to make that
+future happen? Like what's kind of
+missing in the current world to make
+that happen?
+>> When it comes to ordering or when it
+comes to assessing a test and then
+recommending a plan of care these models
+will probably surpass humans and if they
+have if not like already have have
+surpassed humans. the the idea is that
+just the way that our regulatory system
+is set up from a malpractice standpoint,
+litigation standpoint, a billing
+standpoint, you probably still want a
+responsible party, I think these health
+systems will be the mega adopters of a
+lot of these tools of intelligence
+because it will probably help them from
+a malpractice standpoint. If you can
+point to a model has synthesized
+millions of data points and come to this
+conclusion and we are, you know,
+basically going through its
+recommendations, that's a way better
+world than doctor kind of stuck his
+finger in the air and guessed what was
+happening. And so I I see physicians
+embracing what we call these super
+intelligent co-pilots that synthesize
+information and and take action. You
+will probably still for complex things
+need to see the physician, get that
+final assessment and then the speed and
+accuracy at which you go from not
+knowing what you have to then something
+happening. I think that will get
+compressed which is net good. The
+reimbursement modalities, I'm I'm not
+the world's biggest believer in this
+like value based care world. And you
+know, we've been talking about it for
+like 15 years. I I just think there's
+something about simple capitalism that
+works well in America which is here's a
+service here's a cost and you know we
+will improve the accuracy with which we
+render XYZ services and maybe that you
+know that requires better auditing or
+that requires these super intelligence
+systems not recommending unnecessary or
+incorrect medical procedures but this
+procedure driven healthcare world seems
+to work like America does have good
+healthcare outcomes relative to the rest
+of the world.
+>> Yeah. And and perhaps, you know, if
+there's significantly less unnecessary
+care happening where people are able to
+triage themselves. Yes. In conversation
+with some sort of super intelligent
+>> chat system or whatever that system
+might be in the future with video and
+with sensors and whatnot.
+>> Perhaps that opens up the opportunity
+for medical professionals to focus on
+the cases where you can actually deliver
+really great outcomes versus clogging up
+ERS with people who don't need to be
+there.
+>> What 100%.
+>> What kind of future do you think that
+actually looks like 10 years from now
+then? like do you see yourself do you
+think we're going to go to the doctor
+every year? Do you think we're going to
+um only go when like we actually have a
+catastrophic issue only or something in
+between?
+>> I I think in 10 years you're going to
+have a lot you're going to have sensors
+kind of built into the home. You're
+going to have sensors that are you know
+wearables on patients. The Apple Watch
+and AirPods are becoming medical medical
+devices very quickly. And that's a
+that's a good thing because that passive
+care where you know we can detect things
+like aphib and you know detect spikes in
+certain biomarkers is really good
+because that's that's how you treat them
+very very early. the concept of health
+insurance and the concept of how care is
+rendered is going to look a lot more
+like how our cars are are handled in the
+sense of like auto insurance
+>> catastrophic insurance
+>> catastrophic and and so when something
+bad you break your arm you have cancer
+or you have a you know very complex
+disease there will be an insurance
+mechanism and really your insurance will
+be focused on that kind of care and then
+I think the rest of the care it's
+actually cheaper for it to be out of
+pocket and for it to be you know outside
+of the loop and complexity of the
+insurance system where you can just get
+a direct prescription or you you know
+see a provider on teleahalth or even in
+person for basic therapy um and because
+the system will have shrunk and we have
+deleted parts it will become a more
+efficient system
+>> and do you also see it reverting kind of
+back to that version you said in the 80s
+and 90s it was great to be a doctor so
+>> do you see in many ways the sort of
+consolidation we see happening in this
+field will at least slow down and
+perhaps even revert back to seeing more
+people open private practices
+>> I I really think so I I I would love a
+world where the market cap of United
+Health is you know a fifth
+>> but every doctor is a millionaire Like
+that is a good world for America because
+patients are getting treated better. The
+people that are actually rendering care
+are where value is acrewing. It is
+insane to me that if you think about it,
+the most valuable healthcare company in
+the country, what they effectively do is
+like send you a plastic card in the mail
+once a year.
+>> Yes. There's, you know, it's the straw
+man. There's more that they do, but
+really at its core, that is your
+interaction with Totally.
+>> And and then being denied claims perhaps
+>> and then denying claims and and so it is
+it's an insane system. It needs to
+change. Way too much value is accurate
+that layer. And I think it needs to come
+back to the physician.
+>> D, maybe just to wrap things up, you
+know, now you've you've been at this for
+for quite a while. There's many new
+founders excited about thinking about
+this current technological moment in
+healthcare and AI. You know, what advice
+would you give them in terms of how to
+compete with someone like you guys? Um,
+but also how to build a business that
+can endure and kind of capture this
+current technological moment. I think
+our biggest learning is get in front of
+the customer and then just solve
+problems for them and and start with one
+specific problem even if regardless of
+how small it looks. Our first you know
+our initial TAM was laughable. It was a
+100,000 patients in the entire country
+but people and you know our investors
+and our team and our you know early you
+know founding engineers they took a bet
+on us because they believed that we
+could take the momentum from that to
+build something even bigger. uh and and
+so I would just say don't be afraid of
+starting very small and very specific
+because that is more valuable in the
+long term than you know trying to build
+a platform from right out the gates. The
+other thing that I will say is some of
+the best companies being founded right
+now are folks that came from the palente
+you know did a tour of duty six seven
+years at a palunteer solve didn't have
+to worry so much about distribution and
+just solve problems for customers and
+then saw that scale and learned about
+the distribution um and so you know my
+selfish pitch is like if you're building
+in healthcare one of the fastest ways to
+both become very wealthy is compound at
+a company like Kamir and then also learn
+these skills that you would otherwise
+have to kind of learn denovo you know,
+might take years in in order to amass.
+>> Yeah, I totally agree. I mean, I think
+one of the best ways to think about it
+being becoming a great startup founder
+is to work at another great startup, one
+that's growing and one where you can get
+exposure to customers. I think that kind
+of forward deployed role you described
+feels a lot like the experience of an
+early founder, maybe with perhaps less
+total independence, but a lot of the
+same skill set that you might gain.
+>> 100%. Yeah.
+>> And ultimately focusing on making things
+people want. Makes sense.
+>> Yep. Make things people want.
+>> Awesome. Thanks so much. Thanks for
+joining us. Great.
+>> Appreciate it.

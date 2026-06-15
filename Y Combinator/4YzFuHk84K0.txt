@@ -1,0 +1,56 @@
+Title: Inference Chips for Agent Workflows
+Video ID: 4YzFuHk84K0
+URL: https://www.youtube.com/watch?v=4YzFuHk84K0
+Channel: Y Combinator
+Published: 2026-05-04T20:11:45Z
+Duration: PT1M19S
+Views: 25204
+Likes: 863
+Tags: YC, Y Combinator
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 32
+
+Description:
+Most AI chips are designed for "prompt in, response out." Agents don't work that way. They loop, branch, and hold context across dozens of steps, and current GPUs hit 30–40% utilization because of it.
+
+That gap is where purpose-built silicon wins.
+
+Apply to YC Summer 2026 at ycombinator.com/apply.
+
+============================================================
+TRANSCRIPT
+============================================================
+
+Most AI chips are designed for a world
+where inference means prompt in response
+out. Agents don't work that [music] way.
+They loop, calling tools, branching,
+backtracking, holding context across
+dozens of steps.
+That's a completely [music]
+different hardware problem. Current GPUs
+hit 30 to 40% of peak utilization on
+these workloads because the work is
+bursty, bouncing between memory bound
+model calls, IO bound tool use, and CPU
+bound orchestration. That gap is where
+purpose-built silicon wins. [music]
+Nvidia bought Groq for 20 billion
+because it saw this coming. Google built
+TPU v7 for inference specifically, but
+nobody's designing for the agent loop
+itself. Fast context switching between
+models, native speculative decoding,
+memory built for KB caches that persist
+across an entire execution graph. Groq's
+real insight wasn't the chip. It was the
+compiler that made [music] the chip
+work. We think that will be true for
+whoever builds this next. If you
+understand both the chip architecture
+[music] and how agents actually execute,
+this is a rare moment where both halves
+of that [music] experience matter. If
+you're building inference silicon for
+agentic AI, we'd love to hear from you.
