@@ -99,31 +99,40 @@ All source content belongs to its original authors and is included for research/
 
 ## Quick start
 
-### 1. Install dependencies
+### Fastest — one command
+
+```bash
+git clone https://github.com/ckryptickunal/Founder-Book.git
+cd Founder-Book
+bash install.sh
+```
+
+`install.sh` installs the Python dependencies and launches a short, guided setup that:
+
+- walks you through your **Gemini API key** (with an optional live "test this key" check),
+- lets you add a **YouTube key** (optional — only for discovering new videos),
+- lets you pick a **model** (the default works on Google's free tier, so a brand-new key just works), and
+- registers a **terminal keyword** so you can open the wiki from anywhere.
+
+Then, from any terminal:
+
+```bash
+founderbook                 # opens the interactive wiki (use whatever keyword you chose)
+founderbook "how do I price for enterprise?"   # one-shot answer
+```
+
+> First run with no key? The CLI runs the same guided setup automatically — you're never dropped at a cryptic error. Re-run setup anytime with `python3 setup_cli.py` (or just keys: `--keys`, just the keyword: `--launcher`).
+
+### Manual setup (alternative)
 
 ```bash
 pip install -r requirements.txt
-
-# Tor — used for block-free transcript extraction at scale
-brew install tor      # macOS  (Linux: apt install tor)
-```
-
-### 2. Add your API keys
-
-```bash
-cp .env.example .env
-# then edit .env and fill in:
-#   YOUTUBE_API_KEY=...   (Google Cloud Console → YouTube Data API v3)
-#   GEMINI_API_KEY=...    (Google AI Studio → API key)
-```
-
-### 3. Ask the existing corpus anything
-
-```bash
+brew install tor                 # macOS (Linux: apt install tor) — for transcript extraction
+cp .env.example .env             # then add YOUTUBE_API_KEY / GEMINI_API_KEY
 python3 query_wiki.py "What does Paul Graham say about doing great work?"
 ```
 
-The wiki is already built, so you can query immediately. To rebuild or extend it, read on.
+The wiki ships pre-built, so you can query immediately. To rebuild or extend it, read on.
 
 ---
 

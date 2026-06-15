@@ -7,10 +7,12 @@ Usage:
 """
 
 import argparse
+import json
 import os
 import random
 import re
 import shlex
+import sys
 import time
 from datetime import datetime
 from pathlib import Path
@@ -27,6 +29,7 @@ from rich.theme import Theme
 from ingest import WIKI_DIR, SYNTHESIS_DIR, BASE_DIR, MANIFEST_PATH, append_log, rebuild_index, slugify, today
 from ingest_file import ingest_files, local_video_id
 from query_skills import render_skills_help, route_skill
+from kumo import Kumo
 
 try:
     import background  # background auto-sync of new videos/essays
@@ -69,16 +72,24 @@ def _resolve_raw_transcript(page_path: Path, manifest: dict) -> str | None:
         return full_path.read_text(encoding="utf-8", errors="replace")
     return None
 
-console = Console(theme=Theme({
+# Intentional, harmonious palette — colour reflects what's happening (calm cyan
+# at rest, warm amber while working, bright green on success, soft red on miss).
+# highlight=False stops Rich from auto-rainbowing numbers/paths inside answers;
+# all colour below is applied on purpose.
+console = Console(highlight=False, theme=Theme({
     "info": "cyan",
-    "success": "green",
-    "warning": "yellow",
+    "success": "spring_green2",
+    "warning": "gold3",
     "error": "red bold",
-    "pet": "bright_blue",
-    "pet_border": "bright_blue",
+    "pet": "cyan",
+    "pet_border": "cyan",
     "accent": "bright_cyan",
-    "dim": "dim white",
+    "cite": "bright_cyan",
+    "dim": "grey50",
 }))
+
+# Kumo — the living terminal companion (animation, mood colour, quirky status).
+pet = Kumo(console)
 
 # Pet states and expressions
 PET_NAME = "Kumo"
@@ -203,12 +214,8 @@ def ensure_question_files_ingested(question: str) -> list[dict]:
 
 
 def show_pet(state: str = "idle", message: str = ""):
-    art = {"idle": PET_IDLE, "thinking": PET_THINKING, "happy": PET_HAPPY, "sad": PET_SAD}
-    frames = art.get(state, PET_IDLE)
-    pet_text = "\n".join(frames)
-    if message:
-        pet_text += f"\n\n  > {message}"
-    console.print(Panel(pet_text, title=f"[pet]{PET_NAME}[/pet]", border_style="pet_border", width=36))
+    """Static companion appearance — delegates to the Kumo character module."""
+    pet.say(state, message)
 
 
 def timestamp() -> str:
@@ -216,10 +223,21 @@ def timestamp() -> str:
 
 
 def configure_gemini():
-    load_dotenv()
+    load_dotenv(BASE_DIR / ".env")
     api_key = os.getenv("GEMINI_API_KEY")
-    if not api_key or api_key == "your-gemini-api-key-here":
-        console.print("[error]Set GEMINI_API_KEY in .env before running.[/error]")
+    placeholder = (None, "", "your-gemini-api-key-here")
+    # First run with no key on a real terminal → walk the user through setup.
+    if api_key in placeholder and sys.stdin.isatty():
+        try:
+            import setup_cli
+            setup_cli.run_onboarding()
+        except Exception:  # pragma: no cover — onboarding is best-effort
+            pass
+        load_dotenv(BASE_DIR / ".env", override=True)
+        api_key = os.getenv("GEMINI_API_KEY")
+    if api_key in placeholder:
+        console.print("[error]No Gemini API key found.[/error] "
+                      "Run [accent]python3 setup_cli.py[/accent] to set one up.")
         raise SystemExit(1)
     model_name = os.getenv("GEMINI_MODEL_QUERY", os.getenv("GEMINI_MODEL", "gemini-3.1-flash-lite"))
     return {"client": genai.Client(api_key=api_key), "model_name": model_name}
@@ -336,9 +354,8 @@ def build_context(pages: list[dict], max_chars: int) -> str:
     return "\n\n".join(chunks)
 
 
-def ask_gemini(gemini, question: str, context: str, pages: list[dict]) -> str:
-    skill = route_skill(question, pages)
-    prompt = f"""You answer questions using an LLM-maintained markdown wiki and raw transcripts.
+def _build_answer_prompt(question: str, context: str, skill) -> str:
+    return f"""You answer questions using an LLM-maintained markdown wiki and raw transcripts.
 
 Active answer skill:
 {skill.process}
@@ -359,17 +376,111 @@ Question:
 Context:
 {context}
 """
-    response = gemini["client"].models.generate_content(
+
+
+def _finalize_answer(answer: str) -> str:
+    """Tidy wikilinks into readable source mentions; trim."""
+    answer = re.sub(r"\[\[([^|]+)\|([^\]]+)\]\]", r"(Source: *\2*)", answer)
+    answer = re.sub(r"\[\[([^\]]+)\]\]", r"(Source: *\1*)", answer)
+    return answer.strip()
+
+
+def gemini_answer_stream(gemini, question: str, context: str, skill):
+    """Return a streaming iterator of answer chunks (each has .text)."""
+    prompt = _build_answer_prompt(question, context, skill)
+    return gemini["client"].models.generate_content_stream(
         model=gemini["model_name"],
         contents=prompt,
         config=types.GenerateContentConfig(temperature=0.2),
     )
-    answer = response.text.strip()
-    # Convert [[path|title]] wikilinks to readable (Source: title) format
-    answer = re.sub(r"\[\[([^|]+)\|([^\]]+)\]\]", r"(Source: *\2*)", answer)
-    # Convert bare [[path]] wikilinks to (Source: path)
-    answer = re.sub(r"\[\[([^\]]+)\]\]", r"(Source: *\1*)", answer)
-    return answer
+
+
+def ask_gemini(gemini, question: str, context: str, pages: list[dict]) -> str:
+    """Non-streaming answer (kept for callers that don't render live)."""
+    skill = route_skill(question, pages)
+    response = gemini["client"].models.generate_content(
+        model=gemini["model_name"],
+        contents=_build_answer_prompt(question, context, skill),
+        config=types.GenerateContentConfig(temperature=0.2),
+    )
+    return _finalize_answer(response.text.strip())
+
+
+# --- shared UX helpers (consistent across interactive + one-shot) ----------
+def fmt_path(p) -> str:
+    """One consistent root for every artifact path the user sees (wiki/...)."""
+    try:
+        return str(Path(p).resolve().relative_to(BASE_DIR))
+    except (ValueError, OSError):
+        return str(p)
+
+
+def footer_hint(n_pages: int) -> str:
+    return f"  [dim]Grounded in {n_pages} page(s) · [accent]/pages[/accent] to inspect · [accent]/save[/accent] to keep[/dim]"
+
+
+def whats_new_line() -> str | None:
+    """Ambient '+N sources since your last visit' from a tiny cached snapshot."""
+    cache = BASE_DIR / ".last_seen.json"
+    try:
+        current = len(list((WIKI_DIR / "sources").glob("*.md")))
+        previous = json.loads(cache.read_text()).get("sources") if cache.exists() else None
+        cache.write_text(json.dumps({"sources": current}))
+        if previous is not None and current > previous:
+            return f"+{current - previous} sources since your last visit"
+    except Exception:  # pragma: no cover — ambient nicety, never break startup
+        return None
+    return None
+
+
+def make_prompt_session():
+    """A prompt_toolkit session (slash-command autocomplete, history, ghost
+    suggestions) when on a real TTY; None otherwise so piping stays clean."""
+    if not sys.stdin.isatty():
+        return None
+    try:
+        from prompt_toolkit import PromptSession
+        from prompt_toolkit.history import FileHistory
+        from prompt_toolkit.auto_suggest import AutoSuggestFromHistory
+        from prompt_toolkit.completion import NestedCompleter
+    except Exception:
+        return None
+    completer = NestedCompleter.from_nested_dict({
+        "/idea": None, "/save": None, "/pages": None, "/skills": None,
+        "/stats": None, "/sync": {"now": None, "force": None},
+        "/ingest": {"--gemini": None, "--force": None},
+        "/help": None, "/quit": None, "/exit": None,
+    })
+    try:
+        return PromptSession(
+            history=FileHistory(str(BASE_DIR / ".qa_history")),
+            auto_suggest=AutoSuggestFromHistory(),
+            completer=completer,
+            complete_while_typing=True,
+        )
+    except Exception:
+        return None
+
+
+def _bottom_toolbar():
+    """Passive background-sync indicator shown under the input line."""
+    if background is None:
+        return ""
+    try:
+        return f" {background.short_status()} "
+    except Exception:
+        return ""
+
+
+def read_question(session) -> str:
+    """Read the next question via prompt_toolkit (TTY) or plain input (piped)."""
+    if session is not None:
+        from prompt_toolkit.formatted_text import HTML
+        return session.prompt(
+            HTML("<ansigreen><b>You:</b></ansigreen> "),
+            bottom_toolbar=_bottom_toolbar,
+        ).strip()
+    return console.input("[bold green]You:[/bold green] ").strip()
 
 
 IDEAS_DIR = WIKI_DIR / "ideas"
@@ -578,7 +689,15 @@ def interactive_mode(top_k: int = 8, max_context: int = 80_000):
         except Exception:  # pragma: no cover — never let sync break the REPL
             pass
 
-    show_pet("idle", random.choice(PET_GREETINGS))
+    new_line = whats_new_line()
+    if new_line:
+        console.print(f"  [success]{new_line}[/success]")
+
+    session = make_prompt_session()
+    if session is not None:
+        console.print("  [dim]Tab completes commands · ↑ recalls history[/dim]")
+
+    pet.greet()
 
     last_question = None
     last_pages = None
@@ -587,10 +706,10 @@ def interactive_mode(top_k: int = 8, max_context: int = 80_000):
     while True:
         try:
             console.print()
-            question = console.input("[bold green]You:[/bold green] ").strip()
+            question = read_question(session)
         except (EOFError, KeyboardInterrupt):
-            console.print("\n")
-            show_pet("happy", "See you next time!")
+            console.print()
+            pet.farewell()
             break
 
         if not question:
@@ -609,7 +728,7 @@ def interactive_mode(top_k: int = 8, max_context: int = 80_000):
                 # /idea → interactive create or update
                 path = capture_idea(console, gemini)
             if path:
-                console.print(f"  [success]Idea saved → {path.relative_to(Path.cwd())}[/success]")
+                console.print(f"  [success]Idea saved → {fmt_path(path)}[/success]")
                 show_pet("happy", "Idea captured! It's now searchable in the wiki.")
             else:
                 console.print("  [warning]No idea captured.[/warning]")
@@ -627,7 +746,7 @@ def interactive_mode(top_k: int = 8, max_context: int = 80_000):
             if target:
                 append_to_idea(target, content_to_add)
                 title = re.search(r"^title:\s*(.+)$", target.read_text(), re.MULTILINE).group(1).strip()
-                console.print(f"  [success]Added to '{title}' → {target.relative_to(Path.cwd())}[/success]")
+                console.print(f"  [success]Added to '{title}' → {fmt_path(target)}[/success]")
                 show_pet("happy", f"Updated '{title}' with your note!")
                 append_log("idea-update", title, f"- Page: `{target.relative_to(WIKI_DIR.parent)}`")
                 continue
@@ -635,7 +754,7 @@ def interactive_mode(top_k: int = 8, max_context: int = 80_000):
         if question.lower() == "/save":
             if last_question and last_answer and last_pages:
                 path = save_synthesis(last_question, last_answer, last_pages)
-                console.print(f"  [success]Saved → {path.relative_to(Path.cwd())}[/success]")
+                console.print(f"  [success]Saved → {fmt_path(path)}[/success]")
                 show_pet("happy", "Saved for later!")
             else:
                 console.print("  [warning]Nothing to save yet.[/warning]")
@@ -645,14 +764,17 @@ def interactive_mode(top_k: int = 8, max_context: int = 80_000):
             if last_pages:
                 console.print(f"\n  [info]Pages referenced ({len(last_pages)}):[/info]")
                 for p in last_pages:
-                    rel = p["path"].relative_to(WIKI_DIR)
-                    console.print(f"    [dim]•[/dim] {rel} [dim]({p['title']})[/dim]")
+                    console.print(f"    [accent]•[/accent] {fmt_path(p['path'])} [dim]({p['title']})[/dim]")
             else:
                 console.print("  [warning]No pages yet. Ask a question first.[/warning]")
             continue
 
+        if question.lower() in ("/help", "/?"):
+            print_commands()
+            continue
+
         if question.lower() == "/skills":
-            console.print(Panel(render_skills_help(), title="[bold cyan]Answer Skills[/bold cyan]", border_style="cyan"))
+            console.print(Panel(Markdown(render_skills_help()), title="[bold cyan]Answer Skills[/bold cyan]", border_style="cyan"))
             continue
 
         if question.lower().startswith("/sync"):
@@ -711,8 +833,7 @@ def interactive_mode(top_k: int = 8, max_context: int = 80_000):
             show_pet("idle", f"That's {len(sources) + len(entities) + len(topics)} pages of knowledge!")
             continue
 
-        # Search
-        show_pet("thinking", random.choice(PET_THINKING_MSGS))
+        # Auto-ingest any local file paths mentioned in the question.
         auto_ingests = ensure_question_files_ingested(question)
         if auto_ingests:
             verified = [result for result in auto_ingests if result.get("verified")]
@@ -723,15 +844,42 @@ def interactive_mode(top_k: int = 8, max_context: int = 80_000):
                 for result in failed:
                     console.print(f"  [error]Auto-ingest failed: {result.get('path')}: {result.get('error')}[/error]")
 
-        pages = search_pages(question, top_k)
-        if not pages:
-            show_pet("sad", random.choice(PET_EMPTY_MSGS))
+        # Retrieve while Kumo looks around and mutters quirky status.
+        def _retrieve():
+            found = search_pages(question, top_k)
+            if not found:
+                return None
+            picked = route_skill(question, found)
+            ctx = build_context(found, max_context)
+            return found, picked, ctx
+
+        try:
+            retrieved = pet.think(_retrieve)
+        except KeyboardInterrupt:
+            console.print("  [dim]Cancelled.[/dim]")
+            continue
+        except Exception as exc:  # noqa: BLE001 — surface, don't crash
+            console.print(f"  [error]Search failed:[/error] {str(exc)[:160]}")
             continue
 
-        skill = route_skill(question, pages)
-        console.print(f"  [dim]Skill: {skill.name} • Evidence pack: {len(pages)} pages selected[/dim]")
-        context = build_context(pages, max_context)
-        answer = ask_gemini(gemini, question, context, pages)
+        if not retrieved:
+            pet.empty(remedy="Try broader terms, or [accent]/ingest <path>[/accent] to add a source.")
+            continue
+
+        pages, skill, context = retrieved
+        console.print(f"  [dim]Skill: [accent]{skill.name}[/accent] · {len(pages)} pages of evidence[/dim]")
+
+        # Stream the answer in live (Kumo "talks" as it writes).
+        try:
+            stream = gemini_answer_stream(gemini, question, context, skill)
+            answer = pet.stream_answer(stream, transform=_finalize_answer)
+        except KeyboardInterrupt:
+            console.print("  [dim]Cancelled.[/dim]")
+            continue
+        except Exception as exc:  # noqa: BLE001 — never dump a traceback at the user
+            console.print(f"  [error]Gemini error:[/error] {str(exc)[:160]}")
+            console.print("  [dim]Check GEMINI_API_KEY or try again.[/dim]")
+            continue
 
         console.print()
         console.print(Panel(
@@ -740,9 +888,8 @@ def interactive_mode(top_k: int = 8, max_context: int = 80_000):
             border_style="cyan",
             padding=(1, 2),
         ))
-        console.print(f"  [dim]Verified against {len(pages)} retrieved pages • /pages to inspect evidence • /save to keep[/dim]")
-
-        show_pet("happy", random.choice(PET_SUCCESS_MSGS))
+        console.print(footer_hint(len(pages)))
+        pet.celebrate()
 
         last_question = question
         last_pages = pages
@@ -762,13 +909,22 @@ def oneshot_mode(question: str, gemini, top_k: int, max_context: int, save: bool
 
     pages = search_pages(question, top_k)
     if not pages:
-        console.print("[warning]No relevant wiki pages found.[/warning]")
+        console.print("[warning]No relevant wiki pages found.[/warning] [dim]Try broader terms, or /ingest a source.[/dim]")
         return
 
     skill = route_skill(question, pages)
-    console.print(f"  [dim]Skill: {skill.name} • Evidence pack: {len(pages)} pages selected[/dim]")
+    console.print(f"  [dim]Skill: [accent]{skill.name}[/accent] · {len(pages)} pages of evidence[/dim]")
     context = build_context(pages, max_context)
-    answer = ask_gemini(gemini, question, context, pages)
+    # Streams live on a TTY; collects silently when piped/redirected.
+    try:
+        stream = gemini_answer_stream(gemini, question, context, skill)
+        answer = pet.stream_answer(stream, transform=_finalize_answer)
+    except KeyboardInterrupt:
+        console.print("  [dim]Cancelled.[/dim]")
+        return
+    except Exception as exc:  # noqa: BLE001 — never dump a traceback at the user
+        console.print(f"  [error]Gemini error:[/error] {str(exc)[:160]}")
+        return
 
     console.print(Panel(
         Markdown(answer),
@@ -776,11 +932,11 @@ def oneshot_mode(question: str, gemini, top_k: int, max_context: int, save: bool
         border_style="cyan",
         padding=(1, 2),
     ))
-    console.print(f"  [dim]{len(pages)} pages referenced[/dim]")
+    console.print(footer_hint(len(pages)))
 
     if save:
         path = save_synthesis(question, answer, pages)
-        console.print(f"  [success]Saved → {path}[/success]")
+        console.print(f"  [success]Saved → {fmt_path(path)}[/success]")
 
 
 def main() -> None:

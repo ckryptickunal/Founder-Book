@@ -133,3 +133,22 @@ def status_text() -> str:
     if LOG_PATH.exists():
         lines.append(f"Log: {LOG_PATH}")
     return "\n".join(lines)
+
+
+def short_status() -> str:
+    """One-line, glanceable sync state for the prompt's bottom toolbar."""
+    if is_running():
+        return "sync ● running…"
+    state = _load_json(STATE_PATH, {})
+    since = _minutes_since(state.get("last_run"))
+    if since == float("inf"):
+        return "sync ○ idle"
+    if since < 60:
+        age = f"{int(since)}m"
+    elif since < 1440:
+        age = f"{int(since / 60)}h"
+    else:
+        age = f"{int(since / 1440)}d"
+    new = sum(st.get("last_new", 0) for st in state.get("youtube", {}).values())
+    suffix = f" · {new} new last run" if new else ""
+    return f"sync ○ idle · last {age} ago{suffix}"

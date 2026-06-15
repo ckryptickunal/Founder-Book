@@ -3,5 +3,6 @@ google-api-python-client>=2.86.0
 python-dotenv>=1.0.0
 google-genai>=1.70.0
 rich>=13.0.0
+prompt_toolkit>=3.0.0
 PyMuPDF>=1.23.0
 pysocks>=1.7.1
