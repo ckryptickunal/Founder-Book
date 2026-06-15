@@ -2,10 +2,12 @@
 
 **A self-hostable, LLM-maintained knowledge base built from how founders actually think.**
 
-Founder Book points itself at YouTube channels and essay sites (Garry Tan, Y Combinator,
-YC Root Access, Paul Graham, Sam Altman, …), pulls the transcripts and articles, runs them
-through Gemini to extract people, companies, and topics, and weaves it all into an
-interconnected Markdown wiki you can query in plain English from your terminal.
+Founder Book is a free, open-source tool that turns founder YouTube talks and essays into a
+searchable, AI-queryable knowledge base — an **LLM wiki**. It points itself at YouTube channels
+and essay sites (Garry Tan, Y Combinator, YC Root Access, Paul Graham, Sam Altman, …), pulls the
+transcripts and articles, runs them through Gemini to extract people, companies, and topics, and
+weaves it all into an interconnected Markdown wiki you can query in plain English from your
+terminal — with cited, grounded answers (retrieval-augmented generation).
 
 It then **keeps itself up to date on its own**: a background process watches those sources and
 ingests new videos and essays automatically while you use the tool — never fetching the same
@@ -63,6 +65,19 @@ All source content belongs to its original authors and is included for research/
 > [`.gitignore`](.gitignore).
 
 ---
+
+## Who it's for
+
+- **Founders, operators, and aspiring entrepreneurs** who want to search what
+  top founders and investors actually said — startup advice, fundraising tactics,
+  hiring, product-market fit, growth — instead of re-watching hours of video.
+- **Anyone building an AI "second brain"** or personal knowledge management (PKM)
+  system who wants a working, self-hostable example.
+- **Developers** looking for a clean reference implementation of a
+  **retrieval-augmented generation (RAG)** pipeline over YouTube transcripts and
+  essays, with automatic, incremental ingestion.
+- **Researchers and writers** studying startup, venture-capital, and AI discourse
+  from primary sources.
 
 ## Quick start
 
@@ -265,6 +280,47 @@ More in [`docs/AUTOMATION.md`](docs/AUTOMATION.md) and [`docs/ARCHITECTURE.md`](
 
 ---
 
+## FAQ
+
+**What is Founder Book?**
+Founder Book is a free, open-source, self-hostable knowledge base that turns
+founder YouTube talks and essays into a searchable, cross-linked Markdown wiki you
+can query in natural language. It's a concrete implementation of an
+**LLM-maintained wiki** (an idea popularized by Andrej Karpathy) focused on startup
+and founder knowledge.
+
+**How is this different from searching YouTube or Google?**
+Instead of returning links, Founder Book reads the full transcripts, extracts the
+people, companies, and topics, and synthesizes a direct, cited answer from the
+primary source material — grounded retrieval (RAG), not guesswork.
+
+**Does it keep itself up to date?**
+Yes. A background process (`auto_sync.py`) automatically discovers and ingests new
+videos and essays from the channels and blogs you watch, while you use the tool,
+without ever re-processing what it already has.
+
+**Which founders and sources are included?**
+A starter corpus from Garry Tan, Y Combinator, YC Root Access, Paul Graham, and
+Sam Altman — and you can add any YouTube channel or essay site in `sources.json`.
+
+**What AI model does it use?**
+Google **Gemini** for ingestion and question-answering (model is configurable). You
+bring your own API keys; nothing is sent anywhere else.
+
+**Is my data private?**
+Yes. Your API keys, personal notes/ideas, query history, and any locally-ingested
+documents stay on your machine and are git-ignored — they are never published.
+
+**Can I use it with Obsidian?**
+Yes — the wiki is plain Markdown with YAML frontmatter and `[[wikilinks]]`, so it
+opens as a graph in Obsidian out of the box.
+
+**Do I need Tor?**
+Only to extract *new* YouTube transcripts at scale (it avoids IP blocks). Querying
+the existing wiki and reading essays works without it.
+
+---
+
 ## Content & attribution
 
 - **Concept:** inspired by Andrej Karpathy's idea of an LLM-maintained wiki.
@@ -275,3 +331,10 @@ More in [`docs/AUTOMATION.md`](docs/AUTOMATION.md) and [`docs/ARCHITECTURE.md`](
 - **Code:** released under the [MIT License](LICENSE).
 
 Contributions welcome — see [`CONTRIBUTING.md`](CONTRIBUTING.md).
+
+---
+
+<sub>**Topics:** LLM wiki · AI second brain · RAG over YouTube transcripts · founder
+knowledge base · searchable startup advice · Y Combinator / Paul Graham / Sam Altman
+essays · Gemini RAG · personal knowledge management · Obsidian-compatible wiki ·
+automatic YouTube transcript ingestion · open-source AI knowledge base.</sub>
