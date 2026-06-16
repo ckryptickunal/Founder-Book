@@ -126,7 +126,8 @@ class Kumo:
         body.append(frame[2], style=c["mouth"])
         if message:
             body.append("\n\n  " + message, style=c["msg"])
-        return Panel(body, title=PET_NAME, title_align="left", border_style=c["border"], width=38)
+        width = min(38, max(20, self.console.width - 2))  # adapt to narrow terminals
+        return Panel(body, title=PET_NAME, title_align="left", border_style=c["border"], width=width)
 
     def say(self, mood: str = "idle", message: str = "") -> None:
         """Static (non-animated) appearance — used for quick feedback moments."""
@@ -204,26 +205,87 @@ class Kumo:
             raise box["error"]
         return box.get("value")
 
-    def stream_answer(self, chunks: Iterable, transform: Callable[[str], str] | None = None) -> str:
-        """Render a streaming answer live (Kumo 'talks' above the text), then
-        return the full text (optionally transformed)."""
-        buf = ""
+    def stream_answer(self, chunks: Iterable, transform: Callable[[str], str] | None = None,
+                      width: int | None = None) -> str:
+        """Render a streaming answer live and return the full text.
+
+        Crucially, a reader thread pulls the model stream while the MAIN thread
+        animates a loader, so the user keeps seeing motion during the model's
+        time-to-first-token (the long, previously-silent gap). The instant the
+        first token lands, it switches to streaming the text live. No dead air.
+        """
+        # Non-TTY (piped/redirected): collect silently, no animation.
         if not self.alive:
+            buf = ""
             for ch in chunks:
                 buf += getattr(ch, "text", "") or ""
             return transform(buf) if transform else buf
 
+        state = {"buf": "", "done": False, "err": None, "stop": False}
+        lock = threading.Lock()
+
+        def reader():
+            try:
+                for ch in chunks:
+                    if state["stop"]:  # cooperative cancel — stop draining the stream
+                        break
+                    piece = getattr(ch, "text", "") or ""
+                    if piece:
+                        with lock:
+                            state["buf"] += piece
+            except BaseException as exc:  # noqa: BLE001 — surfaced after join
+                state["err"] = exc
+            finally:
+                state["done"] = True
+
+        worker = threading.Thread(target=reader, daemon=True)
+        worker.start()
+
+        start = time.time()
+        verb = random.choice(THINKING_STATUS)
+        last_change = start
         i = 0
-        # "ellipsis" keeps the live region within the viewport so the transient
-        # erase is always clean — long answers can't leave duplicated lines
-        # behind before the final panel prints.
-        with Live(console=self.console, refresh_per_second=12, transient=True, vertical_overflow="ellipsis") as live:
-            for ch in chunks:
-                piece = getattr(ch, "text", "") or ""
-                if not piece:
-                    continue
-                buf += piece
-                i += 1
-                head = Text(f" {SPEAK_FACES[i % len(SPEAK_FACES)]} Kumo is answering…", style="green")
-                live.update(Group(head, Markdown(buf)))
-        return transform(buf) if transform else buf
+        interrupted = False
+        try:
+            with Live(console=self.console, refresh_per_second=12, transient=True,
+                      vertical_overflow="ellipsis") as live:
+                while True:
+                    with lock:
+                        buf, done, err = state["buf"], state["done"], state["err"]
+                    now = time.time()
+                    if buf:
+                        # First token has arrived → stream the text, Kumo "talks".
+                        head = Text(f" {SPEAK_FACES[i % len(SPEAK_FACES)]} Kumo is answering…", style="green")
+                        body = Markdown(buf)
+                        renderable = Panel(body, border_style="green", padding=(0, 1), width=width) if width else body
+                        live.update(Group(head, renderable))
+                    else:
+                        # Still waiting on the model → keep the loader alive.
+                        if now - last_change > 1.6:
+                            verb = random.choice(THINKING_STATUS)
+                            last_change = now
+                        elapsed = int(now - start)
+                        msg = f"{verb}…" if elapsed < 2 else f"{verb}… ({elapsed}s · ctrl-c to cancel)"
+                        live.update(self._face("thinking", THINK[i % len(THINK)], msg))
+                    i += 1
+                    if done and (err is not None or buf or now - start > 0.2):
+                        break
+                    time.sleep(1 / 12)
+        except KeyboardInterrupt:
+            interrupted = True
+
+        if interrupted:
+            # Tell the reader to stop, but don't hang the UI waiting on a
+            # mid-flight network read — the daemon exits on its next chunk.
+            # A second ctrl-c during the join must not leave it uncancelled.
+            state["stop"] = True
+            try:
+                worker.join(timeout=1.0)
+            except KeyboardInterrupt:
+                pass
+            raise KeyboardInterrupt
+        worker.join()
+        if state["err"] is not None:
+            raise state["err"]
+        final = state["buf"]
+        return transform(final) if transform else final

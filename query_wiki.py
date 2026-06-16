@@ -419,6 +419,12 @@ def footer_hint(n_pages: int) -> str:
     return f"  [dim]Grounded in {n_pages} page(s) · [accent]/pages[/accent] to inspect · [accent]/save[/accent] to keep[/dim]"
 
 
+def answer_width() -> int:
+    """Readable, terminal-adaptive width for the answer panel (re-queried each
+    render, so resizing the window reflows the next answer)."""
+    return max(48, min(console.width - 1, 100))
+
+
 def whats_new_line() -> str | None:
     """Ambient '+N sources since your last visit' from a tiny cached snapshot."""
     cache = BASE_DIR / ".last_seen.json"
@@ -640,14 +646,9 @@ def save_synthesis(question: str, answer: str, pages: list[dict]) -> Path:
 
 
 def print_header():
-    header = Text()
-    header.append("╔════════════════════════════════════════════════════╗\n", style="accent")
-    header.append("║", style="accent")
-    header.append("       Wiki Q&A Harness ", style="bold white")
-    header.append("— evidence-first memory     ", style="dim")
-    header.append("║\n", style="accent")
-    header.append("╚════════════════════════════════════════════════════╝", style="accent")
-    console.print(header)
+    # A rule spans the terminal width and re-draws to fit on every launch /
+    # resize — no brittle fixed-width box.
+    console.rule("[bold]Founder Book[/bold] [dim]· evidence-first wiki memory[/dim]", style="accent")
 
 
 def print_commands():
@@ -870,9 +871,10 @@ def interactive_mode(top_k: int = 8, max_context: int = 80_000):
         console.print(f"  [dim]Skill: [accent]{skill.name}[/accent] · {len(pages)} pages of evidence[/dim]")
 
         # Stream the answer in live (Kumo "talks" as it writes).
+        width = answer_width()
         try:
             stream = gemini_answer_stream(gemini, question, context, skill)
-            answer = pet.stream_answer(stream, transform=_finalize_answer)
+            answer = pet.stream_answer(stream, transform=_finalize_answer, width=width)
         except KeyboardInterrupt:
             console.print("  [dim]Cancelled.[/dim]")
             continue
@@ -887,6 +889,7 @@ def interactive_mode(top_k: int = 8, max_context: int = 80_000):
             title="[bold cyan]Answer[/bold cyan]",
             border_style="cyan",
             padding=(1, 2),
+            width=width,
         ))
         console.print(footer_hint(len(pages)))
         pet.celebrate()
@@ -916,9 +919,10 @@ def oneshot_mode(question: str, gemini, top_k: int, max_context: int, save: bool
     console.print(f"  [dim]Skill: [accent]{skill.name}[/accent] · {len(pages)} pages of evidence[/dim]")
     context = build_context(pages, max_context)
     # Streams live on a TTY; collects silently when piped/redirected.
+    width = answer_width()
     try:
         stream = gemini_answer_stream(gemini, question, context, skill)
-        answer = pet.stream_answer(stream, transform=_finalize_answer)
+        answer = pet.stream_answer(stream, transform=_finalize_answer, width=width)
     except KeyboardInterrupt:
         console.print("  [dim]Cancelled.[/dim]")
         return
@@ -931,6 +935,7 @@ def oneshot_mode(question: str, gemini, top_k: int, max_context: int, save: bool
         title="[bold cyan]Answer[/bold cyan]",
         border_style="cyan",
         padding=(1, 2),
+        width=width,
     ))
     console.print(footer_hint(len(pages)))
 
