@@ -2,7 +2,7 @@
 type: entity
 title: Michael Seibel
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -92,3 +92,5 @@ YC partner who interviewed Kyle and communicated the initial rejection.
 - [[sources/wnyI7ZM_Mrk-understanding-investor-terms-incentives-rookie-mistakes-with-dalton-caldwell-and-michael-s|Understanding Investor Terms & Incentives || Rookie Mistakes with Dalton Caldwell and Michael Seibel]]: Managing Director at Y Combinator
 - [[sources/vhXdUXmmhb4-techno-optimism-explained|Techno Optimism, Explained]]: Managing Director at Y Combinator.
 - [[sources/xqSyeQ689WM-why-does-your-company-deserve-more-money-by-michael-seibel|Why Does Your Company Deserve More Money? by Michael Seibel]]: CEO of Y Combinator and startup advisor.
+- [[sources/_yIAYZtdrfI-a-cs-education-that-s-free-until-you-get-a-job-austen-allred-of-lambda-school|A CS Education That's Free Until You Get a Job - Austen Allred of Lambda School]]: CEO of Y Combinator, mentioned for his evolving views on remote companies.
+- [[sources/_7bnpjJB9T0-yc-ultimate-job-guide-startup-stages|YC Ultimate Job Guide: Startup Stages]]: A partner at YC and co-founder of Twitch, who provides a corollary on the definition of product-market fit.

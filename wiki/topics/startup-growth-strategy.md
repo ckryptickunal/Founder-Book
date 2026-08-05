@@ -2,7 +2,7 @@
 type: topic
 title: Startup Growth Strategy
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -20,3 +20,4 @@ Using influencer marketing and data-driven tracking to achieve rapid user acquis
 - [[sources/BSYExUUrmD4-users-you-don-t-want-by-michael-seibel|Users You Don't Want by Michael Seibel]]: Balancing the desire for user acquisition with the need for high-quality, sustainable growth.
 - [[sources/WvBSU4pjnX8-karn-saroya-on-the-capital-light-way-to-start-an-insurance-business|Karn Saroya on the Capital-Light Way to Start an Insurance Business]]: The importance of focusing on a single KPI, achieving product-market fit, and avoiding premature scaling.
 - [[sources/r8hhvw-1b-M-roll-your-way-to-a-startup-unicorn-lessons-for-founders|Roll your way to a Startup Unicorn: Lessons for Founders]]: The process of scaling a company from a small initial idea to a large-scale enterprise.
+- [[sources/RgYCO87ghRY-how-photoroom-trained-themselves-to-dream-bigger|How Photoroom Trained Themselves To Dream Bigger]]: Discussion on how focusing on specific niches (e.g., e-commerce photo) and optimizing for speed (V0 concept) can drive significant growth for startups.

@@ -2,7 +2,7 @@
 type: topic
 title: Product-Market Fit
 created: 2026-05-26
-updated: 2026-06-16
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -100,3 +100,6 @@ The process of identifying a critical customer pain point and developing a solut
 - [[sources/49L8lVe_PVo-how-meesho-became-india-s-biggest-shopping-app|How Meesho Became India’s Biggest Shopping App]]: The process of identifying core user pain points and iterating until a product achieves organic, high-retention growth.
 - [[sources/ObBAxL2dFzw-groww-if-your-customers-don-t-love-it-or-hate-it-you-ve-already-lost|Groww: If Your Customers Don't Love It or Hate It, You've Already Lost]]: The iterative process of finding what customers truly want, evidenced by organic growth and high retention.
 - [[sources/yyXCQHX55N4-emergent-how-six-months-of-tinkering-led-to-a-100m-arr-company|Emergent: How Six Months of Tinkering Led To A $100M ARR Company]]: Moving beyond prototypes to deliver functional, monetizable software.
+- [[sources/F3INH9wZXoQ-why-physical-ai-is-the-next-platform-shift|Why Physical AI Is the Next Platform Shift]]: Analysis of how product-market fit is achieved, either through product evolution, market shifts (like ChatGPT), or a combination, and its often gradual nature.
+- [[sources/e5-6rEwzxLs-dot-plots-how-to-actually-see-what-your-users-are-doing|Dot Plots: How to Actually See What Your Users Are Doing]]: Identifying if a product satisfies a strong market demand, with dot plots serving as a signal for whether people truly want and use the product.
+- [[sources/_7bnpjJB9T0-yc-ultimate-job-guide-startup-stages|YC Ultimate Job Guide: Startup Stages]]: An in-depth explanation of product-market fit, its definition by Mark Andreessen, and YC's perspective on identifying true PMF versus premature claims.

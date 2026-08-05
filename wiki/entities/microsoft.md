@@ -2,7 +2,7 @@
 type: entity
 title: Microsoft
 created: 2026-05-26
-updated: 2026-06-16
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -66,3 +66,8 @@ Mentioned as an example of a successful early company that started as an enginee
 - [[sources/dtnG0ELjvcM-my-200-million-startup-mistake-peter-thiel-asked-and-i-said-no|My $200 million startup mistake: Peter Thiel asked and I said no]]: Large technology corporation.
 - [[sources/zAYPT6CrWRQ-parker-conrad-rippling-ceo-built-an-11-billion-customer-obsessed-business|Parker Conrad (Rippling CEO) built an $11 BILLION customer-obsessed business]]: Tech giant known for Active Directory.
 - [[sources/sa-three-observations-three-observations|Three Observations]]: Strategic partner of OpenAI.
+- [[sources/DbBnd9PYob4-the-model-agnostic-ai-platform-betting-that-no-single-lab-will-win|The Model-Agnostic AI Platform Betting That No Single Lab Will Win]]: Mentioned as a company that has historically built productivity suites, analogous to the current convergence of AI products.
+- [[sources/byAj35QlGbs-blake-scholl-how-50-people-built-a-supersonic-jet|Blake Scholl: How 50 People Built a Supersonic Jet]]: Software and technology company.
+- [[sources/_0se9PXfAH0-how-to-apply-to-yc-in-2022-and-start-your-startup-with-john-coogan|How to apply to YC in 2022 and start your startup (with John Coogan)]]: A large tech company, used as an example of a 'safe' job option compared to a startup.
+- [[sources/_h_6xM36Z4g-kevin-systrom-at-startup-school-sv-2014|Kevin Systrom at Startup School SV 2014]]: Company mentioned as a potential employer for college graduates.
+- [[sources/_yIAYZtdrfI-a-cs-education-that-s-free-until-you-get-a-job-austen-allred-of-lambda-school|A CS Education That's Free Until You Get a Job - Austen Allred of Lambda School]]: Technology company, criticized by Steve Jobs for lacking 'taste' in product design.

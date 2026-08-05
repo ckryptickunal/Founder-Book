@@ -2,7 +2,7 @@
 type: entity
 title: Peter Thiel
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -40,3 +40,6 @@ Investor and entrepreneur.
 - [[sources/dtnG0ELjvcM-my-200-million-startup-mistake-peter-thiel-asked-and-i-said-no|My $200 million startup mistake: Peter Thiel asked and I said no]]: Entrepreneur and venture capitalist.
 - [[sources/vJbvzkXiex8-there-s-too-much-money-in-the-world-here-s-why|There's Too Much Money in The World. Here's Why]]: Entrepreneur and investor
 - [[sources/t6i5H4C7Mhk-5-ways-startups-die-why-big-company-managers-fail-how-to-deprogram-it|5 Ways Startups Die: Why Big Company Managers Fail (How to deprogram it)]]: Co-founder of Palantir and PayPal.
+- [[sources/oHwUD9b9_pg-zynga-founder-consumer-is-not-investible-right-now-thats-why-you-should-build-it|Zynga Founder: Consumer Is Not Investible Right Now - Thats Why You Should Build It]]: Early investor in Facebook, mentioned in the context of early Facebook investors.
+- [[sources/_0se9PXfAH0-how-to-apply-to-yc-in-2022-and-start-your-startup-with-john-coogan|How to apply to YC in 2022 and start your startup (with John Coogan)]]: Co-founder of Palantir. Garry Tan mentions regretting turning down his offer to join Palantir.
+- [[sources/_iM9Ts_3qEk-fermat-s-library-cofounders-joa-o-batalha-and-lui-s-batalha|Fermat's Library Cofounders João Batalha and Luís Batalha]]: Entrepreneur and investor, mentioned for an interview on Joe Rogan's podcast.

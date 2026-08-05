@@ -2,7 +2,7 @@
 type: entity
 title: Bump
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -20,3 +20,4 @@ A mobile app for sharing contact information by bumping phones.
 - [[sources/VNxBZ7ka5J0-how-to-keep-your-users-startup-school|How To Keep Your Users | Startup School]]: A mobile app for sharing contact information and photos.
 - [[sources/cZ3kiEyDTCQ-what-david-lieb-and-his-team-built-eventually-became-the-foundation-for-google-photos|What David Lieb and his team built eventually became the foundation for Google Photos.]]: A popular mobile file-sharing application.
 - [[sources/fDcW_qb-uew-google-photos-product-lead-and-bump-cofounder-david-lieb-with-gustaf-alstro-mer|Google Photos Product Lead and Bump Cofounder David Lieb with Gustaf Alströmer]]: A mobile app for sharing contact information and later photos via physical bumping.
+- [[sources/e5-6rEwzxLs-dot-plots-how-to-actually-see-what-your-users-are-doing|Dot Plots: How to Actually See What Your Users Are Doing]]: Speaker's previous startup where they used advanced dot plot techniques with different symbols.

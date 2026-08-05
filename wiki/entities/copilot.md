@@ -2,7 +2,7 @@
 type: entity
 title: Copilot
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -18,3 +18,4 @@ An AI coding agent, compared to Cursor.
 - [[sources/RMmEB9ajmdo-rmmeb9ajmdo|RMmEB9ajmdo]]: An AI coding agent, compared to Cursor.
 - [[sources/lfzm2SlhbM8-lfzm2slhbm8|lfzm2SlhbM8]]: An AI coding assistant, mentioned as an example of superficial AI investment by large accounting firms.
 - [[sources/sa-dall-e-2-dall-e-2|DALL•E 2]]: An AI tool for coding assistance.
+- [[sources/oHwUD9b9_pg-zynga-founder-consumer-is-not-investible-right-now-thats-why-you-should-build-it|Zynga Founder: Consumer Is Not Investible Right Now - Thats Why You Should Build It]]: AI coding assistant, mentioned as an example of how some enterprises use AI.

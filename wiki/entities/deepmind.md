@@ -2,7 +2,7 @@
 type: entity
 title: DeepMind
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -22,3 +22,5 @@ AI research company, former employer of Poetic's founders.
 - [[sources/dC_3ys349bU-the-ml-technique-every-founder-should-know|The ML Technique Every Founder Should Know]]: AI research lab known for AlphaFold and protein folding breakthroughs.
 - [[sources/kEgeHOtsxrE-at-the-intersection-of-ai-governments-and-google-tim-hwang|At the Intersection of AI, Governments, and Google - Tim Hwang]]: AI research laboratory owned by Alphabet.
 - [[sources/sNk68_E2T84-ex-machina-s-scientific-advisor-murray-shanahan|Ex Machina's Scientific Advisor - Murray Shanahan]]: A leading artificial intelligence research laboratory.
+- [[sources/vb1Gcn10enw-what-top-ai-labs-are-really-doing-with-observability|What Top AI Labs Are Really Doing With Observability]]: AI research lab, mentioned as a 'sexier place' for research now.
+- [[sources/_-5xJQ4U8g0-are-we-in-an-ai-hype-cycle|Are We In An AI Hype Cycle?]]: AI research company, mentioned as a source of talent for new AI startups.

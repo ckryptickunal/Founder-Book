@@ -2,7 +2,7 @@
 type: topic
 title: AI Agents
 created: 2026-05-26
-updated: 2026-06-16
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -33,3 +33,4 @@ The core technology and product offering of SIM.AI, focusing on building, orches
 - [[sources/uqc_vt95GJg-aaron-levie-why-startups-win-in-the-ai-era|Aaron Levie: Why Startups Win In The AI Era]]: Software entities capable of performing complex, multi-step tasks using unstructured data.
 - [[sources/yFcWSvR6c14-devtools-for-ai-agents|Devtools for AI Agents]]: Autonomous software entities capable of reasoning and performing complex tasks.
 - [[sources/2Ap1dnv-GXA-why-two-iit-engineers-turned-down-550k-jobs-to-build-a-startup|Why Two IIT Engineers Turned Down $550K Jobs To Build A Startup]]: Automating customer support and internal enterprise tasks using LLMs.
+- [[sources/G3WEOXKN2SI-a-cloud-for-small-software|A Cloud for Small Software]]: The role of AI agents in simplifying the building process of small software and enabling new use cases.

@@ -2,7 +2,7 @@
 type: entity
 title: Stanford University
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -29,3 +29,4 @@ University in California.
 - [[sources/tA5J79on7Vg-a-conversation-with-ooshma-garg-moderated-by-adora-cheung|A Conversation with Ooshma Garg - Moderated by Adora Cheung]]: University where Ooshma Garg studied.
 - [[sources/uQWk7T9Vz_k-how-i-got-into-y-combinator|How I got into Y Combinator]]: The university where the video was filmed and where Startup School was held.
 - [[sources/G7D63c4k3Os-how-luxury-beliefs-are-ruining-society-with-rob-henderson|How Luxury Beliefs are Ruining Society, with Rob Henderson]]: Elite university.
+- [[sources/_h_6xM36Z4g-kevin-systrom-at-startup-school-sv-2014|Kevin Systrom at Startup School SV 2014]]: University where Systrom studied and started his first venture, The Tree List.

@@ -2,7 +2,7 @@
 type: topic
 title: Career Development
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -32,3 +32,5 @@ Strategies for professional success, including picking the right problems, worki
 - [[sources/Q4kPDixyGQY-build-your-way-to-getting-rich-steve-jobs-mindfulness-hack-explained|BUILD Your Way to Getting RICH -- Steve Jobs' Mindfulness Hack Explained]]: The transition from a complaining, anxious mindset to a proactive, building-focused mindset.
 - [[sources/Mb5Fk1GXuEM-how-to-build-the-next-great-startup-with-remote-work-with-andreas-klinger-fmr-cto-of-produ|How to build the next great startup with remote work, with Andreas Klinger (fmr CTO of Product Hunt)]]: The importance of building products, equity, and personal brands over selling hourly labor.
 - [[sources/cRDOj4EZ9qo-the-elon-musk-of-baseball-how-startups-hit-grand-slams|The Elon Musk of Baseball: How Startups Hit Grand Slams]]: The necessity of honing skills and gaining experience before founding a company.
+- [[sources/_b__NaMjnk4-become-good-at-doing-things|Become good at doing things]]: Guidance on how individuals can build a successful and fulfilling career path by focusing on skill mastery and self-awareness.
+- [[sources/_yIAYZtdrfI-a-cs-education-that-s-free-until-you-get-a-job-austen-allred-of-lambda-school|A CS Education That's Free Until You Get a Job - Austen Allred of Lambda School]]: Strategies for helping individuals, especially those from underserved backgrounds, gain high-paying tech jobs, including networking and soft skills training.

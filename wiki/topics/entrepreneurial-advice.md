@@ -2,7 +2,7 @@
 type: topic
 title: Entrepreneurial Advice
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -16,3 +16,4 @@ Guidance for founders emphasizing the importance of conviction in one's vision, 
 ## Source Mentions
 
 - [[sources/6yPs2nDpYZo-6yps2ndpyzo|6yPs2nDpYZo]]: Guidance for founders emphasizing the importance of conviction in one's vision, resilience against external opinions, and maintaining continuous momentum.
+- [[sources/vb1Gcn10enw-what-top-ai-labs-are-really-doing-with-observability|What Top AI Labs Are Really Doing With Observability]]: Key lessons for founders, particularly regarding speed in hiring and firing, and the importance of targeting the US market for growth.

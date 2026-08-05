@@ -2,7 +2,7 @@
 type: entity
 title: Meta
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -30,3 +30,7 @@ A social media and technology company where Cat worked before YC, gaining experi
 - [[sources/aIKfA3gIXwo-how-ai-is-changing-enterprise|How AI Is Changing Enterprise]]: Technology conglomerate
 - [[sources/lbJilIQhHko-the-10-trillion-parameter-ai-model-with-300-iq|The 10 Trillion Parameter AI Model With 300 IQ]]: Tech giant developing Llama models and consumer hardware like Ray-Bans.
 - [[sources/z0wt2pe_LZM-2024-the-year-the-gpt-wrapper-myth-proved-wrong|2024: The Year the GPT Wrapper Myth Proved Wrong]]: Creator of the Llama open-source model series.
+- [[sources/FVsgX0AdDTo-what-big-tech-missed-and-how-startups-can-still-win|What Big Tech Missed And How Startups Can Still Win]]: Formerly Facebook, where Alexandre Lebrun worked after Wit AI's acquisition and where Yann LeCun was a chief AI scientist.
+- [[sources/n8dz2FX0_uY-multi-gpu-kernels-intelligence-per-watt-heterogeneous-inference-and-more-yc-paper-club|Multi-GPU Kernels, Intelligence per Watt, Heterogeneous Inference, and More | YC Paper Club]]: Company where Misha worked on hardware/software co-design.
+- [[sources/sJ4VJWycX9M-alexandr-wang-this-is-a-once-in-a-civilization-opportunity|Alexandr Wang: “This is a Once-in-a-Civilization Opportunity”]]: Technology company where Alexandr Wang currently heads an AI lab, focusing on frontier AI research and products.
+- [[sources/_PioN-CpOP0-fei-fei-li-spatial-intelligence-is-the-next-frontier-in-ai|Fei-Fei Li: Spatial Intelligence is the Next Frontier in AI]]: Mentioned as an example of a company that open-sources its models to grow its ecosystem.

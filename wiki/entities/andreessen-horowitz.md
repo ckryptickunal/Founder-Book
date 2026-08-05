@@ -2,7 +2,7 @@
 type: entity
 title: Andreessen Horowitz
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -29,3 +29,4 @@ Venture capital firm
 - [[sources/Xa6zsbXGQ5M-should-you-be-the-ceo|Should you be the CEO?]]: A prominent venture capital firm.
 - [[sources/6kzNUK7GFjg-achieving-the-american-dream-through-tech-with-aarthi-sriram-aarthiandsriram|Achieving The American Dream through Tech, with Aarthi & Sriram @AarthiAndSriram]]: Venture capital firm.
 - [[sources/0iC_fK6arXI-how-any-dev-team-can-build-like-google|How any dev team can build like Google]]: Venture capital firm.
+- [[sources/_7bnpjJB9T0-yc-ultimate-job-guide-startup-stages|YC Ultimate Job Guide: Startup Stages]]: A prominent Venture Capital firm, mentioned as a potential investor in Series A rounds.

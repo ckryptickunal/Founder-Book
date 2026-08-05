@@ -2,7 +2,7 @@
 type: entity
 title: Photoshop
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -16,3 +16,4 @@ A widely used image editing software, identified as the primary tool for interfa
 ## Source Mentions
 
 - [[sources/hpEXEtycm1Y-hpexetycm1y|hpEXEtycm1Y]]: A widely used image editing software, identified as the primary tool for interface design 20 years ago.
+- [[sources/CzQbI8_bBEs-multiplayer-ai|Multiplayer AI]]: A traditional, largely single-user image editing and graphic design software.

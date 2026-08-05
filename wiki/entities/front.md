@@ -2,7 +2,7 @@
 type: entity
 title: Front
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -18,3 +18,4 @@ A ticket system that Parahelp integrates with, also mentioned as having default 
 - [[sources/GciivYKTK_Q-gciivyktk-q|GciivYKTK_Q]]: A ticket system that Parahelp integrates with, also mentioned as having default AI.
 - [[sources/PaBx9WO1ruY-mathilde-collin-on-feature-prioritization-and-employee-retention-at-front|Mathilde Collin on Feature Prioritization and Employee Retention at Front]]: A shared inbox and email collaboration platform
 - [[sources/S2YCcdb1rG4-after-pmf-people-customers-sales-by-mathilde-collin|After PMF: People, Customers, Sales by Mathilde Collin]]: A collaborative email and communication platform for teams.
+- [[sources/RgYCO87ghRY-how-photoroom-trained-themselves-to-dream-bigger|How Photoroom Trained Themselves To Dream Bigger]]: The host's previous company, used as an example of a YC-backed startup that experienced a shift in ambition.

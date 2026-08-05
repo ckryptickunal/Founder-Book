@@ -2,7 +2,7 @@
 type: entity
 title: Brian Chesky
 created: 2026-05-26
-updated: 2026-06-16
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -43,3 +43,5 @@ Co-founder and CEO of Airbnb, quoted by Amir regarding long-term vision.
 - [[sources/zHZxURFgK-4-hans-tung-funded-16-unicorns-billion-dollar-war-stories-and-hard-lessons-learned|Hans Tung funded 16 unicorns: Billion dollar war stories and hard lessons learned]]: CEO of Airbnb.
 - [[sources/sa-reflections-reflections|Reflections]]: CEO of Airbnb
 - [[sources/pg-founder-mode-founder-mode|Founder Mode]]: CEO of Airbnb.
+- [[sources/oHwUD9b9_pg-zynga-founder-consumer-is-not-investible-right-now-thats-why-you-should-build-it|Zynga Founder: Consumer Is Not Investible Right Now - Thats Why You Should Build It]]: Co-founder and CEO of Airbnb, credited with coining the term 'Founder Mode'.
+- [[sources/_0se9PXfAH0-how-to-apply-to-yc-in-2022-and-start-your-startup-with-john-coogan|How to apply to YC in 2022 and start your startup (with John Coogan)]]: Co-founder of Airbnb, mentioned as another startup founder who appeared on the Colbert Report.

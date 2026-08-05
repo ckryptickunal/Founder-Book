@@ -2,7 +2,7 @@
 type: entity
 title: DoorDash
 created: 2026-05-26
-updated: 2026-06-16
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -36,3 +36,8 @@ Mentioned as an example company for a product manager using Magic Patterns to pr
 - [[sources/u36A-YTxiOw-the-best-way-to-launch-your-startup-startup-school|The Best Way To Launch Your Startup | Startup School]]: Food delivery service.
 - [[sources/viNZK9P40kY-unknown|Unknown]]: Food delivery service.
 - [[sources/2Ap1dnv-GXA-why-two-iit-engineers-turned-down-550k-jobs-to-build-a-startup|Why Two IIT Engineers Turned Down $550K Jobs To Build A Startup]]: Food delivery platform.
+- [[sources/RgYCO87ghRY-how-photoroom-trained-themselves-to-dream-bigger|How Photoroom Trained Themselves To Dream Bigger]]: A major food delivery company, listed as a user of PhotoRoom.
+- [[sources/Ju8LVdvuxGM-india-can-create-the-largest-ai-companies|India Can Create The Largest AI Companies]]: Food delivery company, Giga competed against them and won a contract.
+- [[sources/eY20SPBpQEg-ai-powered-consumer-products-for-1-billion-people|AI-Powered Consumer Products for 1 Billion People]]: A consumer giant that emerged from the mobile platform shift.
+- [[sources/_-5xJQ4U8g0-are-we-in-an-ai-hype-cycle|Are We In An AI Hype Cycle?]]: YC-funded application-layer company, example of mobile-enabled success.
+- [[sources/_7bnpjJB9T0-yc-ultimate-job-guide-startup-stages|YC Ultimate Job Guide: Startup Stages]]: Cited as an example of an operational company that might hire operations personnel early on.

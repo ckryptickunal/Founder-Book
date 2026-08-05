@@ -1,0 +1,18 @@
+---
+type: entity
+title: UCB (Upper Confidence Bound)
+created: 2026-08-06
+updated: 2026-08-06
+sources: []
+tags: []
+---
+
+# UCB (Upper Confidence Bound)
+
+## Overview
+
+A strategy used in multi-armed bandit problems and MCTS for balancing exploration and exploitation.
+
+## Source Mentions
+
+- [[sources/qz4GQ0zUFRw-world-models-jepa-and-the-path-to-sample-efficient-rl|World Models, JEPA And The Path To Sample-Efficient RL]]: A strategy used in multi-armed bandit problems and MCTS for balancing exploration and exploitation.

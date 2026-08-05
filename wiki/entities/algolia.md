@@ -2,7 +2,7 @@
 type: entity
 title: Algolia
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -21,3 +21,4 @@ A search-as-a-service platform.
 - [[sources/nGLmpKi-jRU-startup-advice-ai-gtm-pivoting-how-to-hire|Startup Advice: AI GTM, Pivoting & How To Hire]]: Search-as-a-service platform.
 - [[sources/z1aKRhRnVNk-how-to-start-a-dev-tools-company-startup-school|How To Start A Dev Tools Company | Startup School]]: Search API provider for developers.
 - [[sources/idyfHs3DWmc-masterclass-how-to-sell-to-20m-software-developers-with-an-amazing-onboarding-experience|Masterclass: How to sell to 20M software developers with an amazing onboarding experience]]: Search-as-a-service platform.
+- [[sources/FVsgX0AdDTo-what-big-tech-missed-and-how-startups-can-still-win|What Big Tech Missed And How Startups Can Still Win]]: The interviewer's company, founded in the same YC batch as Wit AI.

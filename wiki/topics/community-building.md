@@ -2,7 +2,7 @@
 type: topic
 title: Community Building
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -24,3 +24,4 @@ Creating spaces for professionals to network and share knowledge.
 - [[sources/hgzThPwCyHQ-morgan-debaun-on-reaching-20m-millennials-with-kat-manalac-at-the-female-founders-conferen|Morgan DeBaun on Reaching 20M Millennials - With Kat Manalac at the Female Founders Conference]]: Strategies for nurturing a loyal audience by prioritizing their needs and empowering creators.
 - [[sources/tckGI4C7k10-unknown|Unknown]]: Techniques for acquiring early users and fostering engagement.
 - [[sources/Q0hV48aeFzk-level-up-your-friends-like-billionaires-do-here-s-how-to-do-it|Level up your friends like billionaires do. Here's how to do it.]]: How to foster environments that support innovation and long-term growth.
+- [[sources/_h_6xM36Z4g-kevin-systrom-at-startup-school-sv-2014|Kevin Systrom at Startup School SV 2014]]: The critical role of fostering and prioritizing a user community as a startup's most valuable asset, and strategies for doing so.

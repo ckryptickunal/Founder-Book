@@ -2,7 +2,7 @@
 type: entity
 title: Marc Andreessen
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -25,3 +25,4 @@ Investor and entrepreneur.
 - [[sources/IADh2MyuJcs-how-to-build-your-way-out-of-a-downturn|How to build your way out of a downturn.]]: Co-founder of Andreessen Horowitz.
 - [[sources/I8bq5Xamzuo-software-is-eating-the-world-and-still-needs-your-help|Software is Eating the World (and still needs your help)]]: VC and author of the essay 'Why Software Is Eating the World'.
 - [[sources/lbJnMmfH4-U-nikola-tesla-predicted-the-smartphone|Nikola Tesla predicted the smartphone]]: Entrepreneur and investor who discusses the internet's long-term impact on culture.
+- [[sources/5d6y3poKwK4-patrick-collison-is-ai-breaking-the-lean-startup-playbook|Patrick Collison: Is AI Breaking the Lean Startup Playbook?]]: Entrepreneur and investor, mentioned in the context of perceived fleeting opportunities.

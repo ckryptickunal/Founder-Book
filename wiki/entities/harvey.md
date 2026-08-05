@@ -2,7 +2,7 @@
 type: entity
 title: Harvey
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -19,3 +19,4 @@ A company mentioned as an example of successful rebranding, aligning its company
 - [[sources/lfzm2SlhbM8-lfzm2slhbm8|lfzm2SlhbM8]]: A legal tech company mentioned alongside Legora as a successful example of AI in law.
 - [[sources/roI3LfxnqUk-roi3lfxnquk|roI3LfxnqUk]]: A company mentioned as one of Alf's notable customers.
 - [[sources/cqrJzG03ENE-the-truth-about-the-ai-bubble|The Truth About The AI Bubble]]: AI-native legal tech startup.
+- [[sources/I4B37S1dyQQ-jensen-huang-the-mindset-that-built-nvidia|Jensen Huang: The Mindset That Built NVIDIA]]: An AI tool for paralegals, mentioned as an example of AI automating tasks but increasing jobs.

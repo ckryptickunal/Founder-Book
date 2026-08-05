@@ -2,7 +2,7 @@
 type: entity
 title: Stanford
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -24,3 +24,7 @@ University where Cartisia's founders completed their PhDs in architecture resear
 - [[sources/GknGzw0Nqpw-why-i-started-a-vc-firm-too-much-money-chasing-too-few-good-people-and-ideas-is-totally-wr|Why I started a VC firm- "Too much money chasing too few good people and ideas" is totally wrong]]: Elite university.
 - [[sources/Q4kPDixyGQY-build-your-way-to-getting-rich-steve-jobs-mindfulness-hack-explained|BUILD Your Way to Getting RICH -- Steve Jobs' Mindfulness Hack Explained]]: University.
 - [[sources/35UOGYlm7F8-reprogram-your-mind-with-exec-coaching|Reprogram your mind with exec coaching]]: University known for T-group facilitation training.
+- [[sources/qz4GQ0zUFRw-world-models-jepa-and-the-path-to-sample-efficient-rl|World Models, JEPA And The Path To Sample-Efficient RL]]: University where speakers teach/studied, and where robotics research is conducted.
+- [[sources/3lQQadC6vKg-building-the-agentic-ai-platform-for-hospitals|Building the Agentic AI Platform for Hospitals]]: Mish Khandwala's alma mater and research institution where he first encountered challenges deploying AI in healthcare.
+- [[sources/ZIaOBAjvc38-sam-altman-never-a-better-time-to-do-a-startup|Sam Altman: "Never a Better Time to Do a Startup"]]: A university, mentioned in a hypothetical scenario for Sam Altman's sophomore year.
+- [[sources/_PioN-CpOP0-fei-fei-li-spatial-intelligence-is-the-next-frontier-in-ai|Fei-Fei Li: Spatial Intelligence is the Next Frontier in AI]]: University where Fei-Fei Li returned to create the Human-Centered AI Institute.

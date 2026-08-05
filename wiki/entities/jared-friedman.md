@@ -2,7 +2,7 @@
 type: entity
 title: Jared Friedman
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -25,3 +25,5 @@ Partner at Y Combinator.
 - [[sources/UZYgqu4XzOA-can-you-apply-to-yc-before-you-have-a-us-visa-jared-friedman|Can You Apply to YC Before You Have a US Visa? - Jared Friedman]]: Partner at Y Combinator
 - [[sources/TwDJhUJL-5o-the-truth-about-building-ai-startups-today|The Truth About Building AI Startups Today]]: Partner at Y Combinator.
 - [[sources/aYK0H85E_oU-how-zepto-became-india-s-fastest-growing-startup|How Zepto Became India’s Fastest Growing Startup]]: Partner at Y Combinator
+- [[sources/VbqaL_eHhKY-yc-s-head-of-design-shows-you-how-to-design-with-ai|YC's Head of Design Shows You How To Design With AI]]: A Partner at YC who contributed the idea for Paxel's 'biggest crash out' feature.
+- [[sources/sJ4VJWycX9M-alexandr-wang-this-is-a-once-in-a-civilization-opportunity|Alexandr Wang: “This is a Once-in-a-Civilization Opportunity”]]: Partner at Y Combinator who advised Wang to pivot Scale AI's initial idea.

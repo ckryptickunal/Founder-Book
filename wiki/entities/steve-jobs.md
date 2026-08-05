@@ -2,7 +2,7 @@
 type: entity
 title: Steve Jobs
 created: 2026-05-26
-updated: 2026-06-16
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -50,3 +50,8 @@ Co-founder of Apple.
 - [[sources/dRBDz-flKs0-shame-and-blame-in-entrepreneurship-how-to-channel-your-rage-before-you-destroy-your-team|Shame and blame in entrepreneurship. How to channel your rage before you destroy your team.]]: Co-founder and former CEO of Apple.
 - [[sources/pg-how-to-start-google-how-to-start-google|How to Start Google]]: Co-founder of Apple.
 - [[sources/pg-founder-mode-founder-mode|Founder Mode]]: Co-founder of Apple.
+- [[sources/qz4GQ0zUFRw-world-models-jepa-and-the-path-to-sample-efficient-rl|World Models, JEPA And The Path To Sample-Efficient RL]]: Cited as having extensive 'world modeling experience' in entrepreneurship.
+- [[sources/byAj35QlGbs-blake-scholl-how-50-people-built-a-supersonic-jet|Blake Scholl: How 50 People Built a Supersonic Jet]]: Co-founder of Apple.
+- [[sources/_YNC7MlgdOk-the-future-of-reading-books-is-hands-free-sol-reader|The future of reading books is hands free | SOL Reader]]: Co-founder of Apple, famously coined the phrase 'personal computer is a bicycle for the mind' and reportedly expressed concerns about the iPad's impact on children.
+- [[sources/_0se9PXfAH0-how-to-apply-to-yc-in-2022-and-start-your-startup-with-john-coogan|How to apply to YC in 2022 and start your startup (with John Coogan)]]: Co-founder of Apple, whose calligraphy class story is used to illustrate the unexpected value of diverse experiences.
+- [[sources/_yIAYZtdrfI-a-cs-education-that-s-free-until-you-get-a-job-austen-allred-of-lambda-school|A CS Education That's Free Until You Get a Job - Austen Allred of Lambda School]]: Co-founder of Apple, quoted for his remark about Microsoft's lack of 'taste' in product design.

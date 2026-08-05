@@ -2,7 +2,7 @@
 type: entity
 title: Garry Tan
 created: 2026-05-26
-updated: 2026-06-16
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -181,3 +181,10 @@ CEO of Y Combinator, co-sponsor of SB 1074, and speaker emphasizing the need for
 - [[sources/zHZxURFgK-4-hans-tung-funded-16-unicorns-billion-dollar-war-stories-and-hard-lessons-learned|Hans Tung funded 16 unicorns: Billion dollar war stories and hard lessons learned]]: Host, investor, and former Y Combinator partner.
 - [[sources/UWwtXfaldl4-control-your-shadow-control-your-fate|Control your shadow, control your fate]]: Investor, entrepreneur, and creator of the video.
 - [[sources/B246K_G7mHU-inside-yc-s-ai-playbook|Inside YC's AI Playbook]]: President and CEO of Y Combinator.
+- [[sources/99sPd15j3Zc-what-actually-makes-a-startup-durable|What Actually Makes A Startup Durable]]: Mentioned as having written an excellent post about 'the power of witnessing'.
+- [[sources/80eZ7DjCGSo-how-warp-went-from-yc-to-a-60m-series-b|How Warp Went From YC to a $60M Series B]]: Y Combinator partner who interviewed Warp during their application process.
+- [[sources/_AhtNpiTFOI-what-if-jung-was-your-private-diary-writer-rosebud-ai-journaling-as-therapy-is-here|What if Jung was your private diary writer? Rosebud AI journaling as therapy is here]]: Host of the YouTube channel and interviewer for this discussion.
+- [[sources/_b__NaMjnk4-become-good-at-doing-things|Become good at doing things]]: The speaker and channel owner providing career advice.
+- [[sources/_YNC7MlgdOk-the-future-of-reading-books-is-hands-free-sol-reader|The future of reading books is hands free | SOL Reader]]: Host of the YouTube channel and interviewer in the video.
+- [[sources/_MBgPppPAg0-the-future-of-real-estate-looks-like-this|The Future of Real Estate looks like THIS]]: Host of the YouTube channel, investor in Blend and OpenDoor through his firm Initialize.
+- [[sources/_0se9PXfAH0-how-to-apply-to-yc-in-2022-and-start-your-startup-with-john-coogan|How to apply to YC in 2022 and start your startup (with John Coogan)]]: Host of the video, former Y Combinator partner, and YouTuber. Shares personal experiences and advice on startups.

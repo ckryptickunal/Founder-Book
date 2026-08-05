@@ -2,7 +2,7 @@
 type: entity
 title: Kevin Hale
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -27,3 +27,4 @@ Co-founder of Wufoo and partner at Y Combinator.
 - [[sources/jwXlo9gy_k4-kevin-hale-startup-pricing-101|Kevin Hale - Startup Pricing 101]]: Partner at Y Combinator and expert in startup growth and product design.
 - [[sources/kyYHUXxyjvI-updates-for-startup-school-2019-and-office-hours-with-kevin-hale|Updates for Startup School 2019 and Office Hours with Kevin Hale]]: Partner at Y Combinator and host of Startup School.
 - [[sources/zF84IMiSP7I-mike-knoop-on-product-and-design-processes-for-remote-teams-with-kevin-hale|Mike Knoop on Product and Design Processes for Remote Teams with Kevin Hale]]: Partner at Y Combinator and founder of Wufoo
+- [[sources/RgYCO87ghRY-how-photoroom-trained-themselves-to-dream-bigger|How Photoroom Trained Themselves To Dream Bigger]]: A Y Combinator partner who provided early encouragement to the host's company, Front.

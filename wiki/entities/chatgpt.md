@@ -2,7 +2,7 @@
 type: entity
 title: ChatGPT
 created: 2026-05-26
-updated: 2026-06-16
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -31,3 +31,14 @@ An AI tool that Magic Patterns customers use to generate initial prompts for the
 - [[sources/sa-gpt-4o-gpt-4o|GPT-4o]]: AI chatbot interface
 - [[sources/sa-reflections-reflections|Reflections]]: AI chatbot based on large language models
 - [[sources/sa-sora-update-1-sora-update-1|Sora update #1]]: AI chatbot developed by OpenAI
+- [[sources/F3INH9wZXoQ-why-physical-ai-is-the-next-platform-shift|Why Physical AI Is the Next Platform Shift]]: An AI model whose release significantly changed the market's perception and openness to AI, benefiting companies like Encord.
+- [[sources/I4B37S1dyQQ-jensen-huang-the-mindset-that-built-nvidia|Jensen Huang: The Mindset That Built NVIDIA]]: A prominent AI chatbot, encouraged for use by Jensen Huang.
+- [[sources/eY20SPBpQEg-ai-powered-consumer-products-for-1-billion-people|AI-Powered Consumer Products for 1 Billion People]]: An AI chatbot, currently cited as the only new consumer icon to emerge from the AI platform shift.
+- [[sources/8OOuCnZB-4o-unknown|Unknown]]: OpenAI's large language model, mentioned as an AI Ploy helps businesses get found by and used in Ploy's design 'lookbook'.
+- [[sources/99sPd15j3Zc-what-actually-makes-a-startup-durable|What Actually Makes A Startup Durable]]: OpenAI's conversational AI model.
+- [[sources/xpeRVyFFy_Q-solving-the-blank-canvas-problem-gusto-s-ai-co-founder|Solving the Blank Canvas Problem: Gusto's AI Co-Founder]]: A large language model/chatbot, mentioned as an example of AI interaction.
+- [[sources/m00FTHk7570-ai-agents-are-killing-the-engineering-pyramid-here-s-what-replaces-it|AI Agents Are Killing the Engineering Pyramid — Here's What Replaces It]]: An AI coding agent mentioned as an example.
+- [[sources/3lQQadC6vKg-building-the-agentic-ai-platform-for-hospitals|Building the Agentic AI Platform for Hospitals]]: A general-purpose AI model mentioned as an example of AI awareness among hospital executives.
+- [[sources/oHwUD9b9_pg-zynga-founder-consumer-is-not-investible-right-now-thats-why-you-should-build-it|Zynga Founder: Consumer Is Not Investible Right Now - Thats Why You Should Build It]]: AI model, marking a significant moment in AI development.
+- [[sources/_AhtNpiTFOI-what-if-jung-was-your-private-diary-writer-rosebud-ai-journaling-as-therapy-is-here|What if Jung was your private diary writer? Rosebud AI journaling as therapy is here]]: A prominent large language model, used as a comparison for generic AI interaction.
+- [[sources/_PioN-CpOP0-fei-fei-li-spatial-intelligence-is-the-next-frontier-in-ai|Fei-Fei Li: Spatial Intelligence is the Next Frontier in AI]]: A large language model released in November 2022 that 'blasted open the door' for truly working generative language models.

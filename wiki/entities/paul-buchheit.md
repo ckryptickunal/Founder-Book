@@ -2,7 +2,7 @@
 type: entity
 title: Paul Buchheit
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -40,3 +40,4 @@ Software engineer and entrepreneur.
 - [[sources/v5w-0H-hq6E-paul-buchheit|Paul Buchheit]]: Early Google employee, creator of Gmail, and Y Combinator partner.
 - [[sources/zVY-NF6ZvEQ-paul-buchheit-what-traits-do-startups-need-to-succeed|Paul Buchheit: What traits do startups need to succeed?]]: Early Google employee and creator of Gmail.
 - [[sources/GctjcD17iI4-day-in-the-life-of-y-combinator-president-ceo-garry-tan-during-the-first-week-of-w24-batch|Day in the Life of Y Combinator President & CEO Garry Tan during the first week of W24 batch]]: Creator of Gmail and early Google employee
+- [[sources/_ZR1dWrkogA-gmail-creator-paul-buchheit-on-the-very-first-version-of-google-s-did-you-mean-feature|Gmail creator Paul Buchheit on the very first version of Google’s “Did you mean?” feature]]: Creator of Gmail and the individual responsible for building the first 'Did you mean?' feature at Google.

@@ -2,7 +2,7 @@
 type: entity
 title: Python
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -19,3 +19,4 @@ Programming language used to wrap the Claude code CLI.
 - [[sources/pg-great-hackers-great-hackers|Great Hackers]]: Programming language.
 - [[sources/pg-succinctness-is-power-succinctness-is-power|Succinctness is Power]]: A high-level programming language.
 - [[sources/pg-the-python-paradox-the-python-paradox|The Python Paradox]]: A high-level, interpreted programming language.
+- [[sources/F3INH9wZXoQ-why-physical-ai-is-the-next-platform-shift|Why Physical AI Is the Next Platform Shift]]: A programming language, mentioned in the context of fighting dependencies during early startup days.

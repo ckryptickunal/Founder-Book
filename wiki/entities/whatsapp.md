@@ -2,7 +2,7 @@
 type: entity
 title: WhatsApp
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -22,3 +22,5 @@ Communication platform, part of Pylon's omnichannel focus
 - [[sources/fdD4y4Civp4-consumer-startup-metrics-startup-school|Consumer Startup Metrics | Startup School]]: Messaging application.
 - [[sources/nty_szMaNTs-the-best-consumer-companies-incorporate-both-virality-and-network-effect-to-grow-organical|The best consumer companies incorporate both virality and network effect to grow organically.]]: A messaging application that demonstrates strong network effects.
 - [[sources/vJqlG5ytLDs-growth-with-alex-schultz-how-to-start-a-startup-2014-lecture-6|Growth with Alex Schultz (How to Start a Startup 2014: Lecture 6)]]: Messaging application
+- [[sources/xpeRVyFFy_Q-solving-the-blank-canvas-problem-gusto-s-ai-co-founder|Solving the Blank Canvas Problem: Gusto's AI Co-Founder]]: A messaging application, desired as a future channel for Gusto co-founder.
+- [[sources/_oYJR6FNcdA-essential-startup-advice-during-a-pandemic|Essential Startup Advice During a Pandemic]]: Messaging platform, used by Bakayi in India.

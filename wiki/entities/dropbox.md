@@ -2,7 +2,7 @@
 type: entity
 title: Dropbox
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -44,3 +44,4 @@ One of the early adopters of Framer Studio for prototyping.
 - [[sources/prKi3-rUPHc-how-to-find-the-right-co-founder|How to Find the Right Co-founder]]: File hosting service
 - [[sources/qvHhhIfu7Lo-ron-conway-at-startup-school-sv-2014|Ron Conway at Startup School SV 2014]]: Cloud storage service.
 - [[sources/s-4QqHHE16s-sam-altman-startup-investor-school-day-1|Sam Altman - Startup Investor School Day 1]]: Cloud storage service.
+- [[sources/_yIAYZtdrfI-a-cs-education-that-s-free-until-you-get-a-job-austen-allred-of-lambda-school|A CS Education That's Free Until You Get a Job - Austen Allred of Lambda School]]: Cloud storage company, cited as an example of a company that won despite competitors due to product quality.

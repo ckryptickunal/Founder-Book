@@ -2,7 +2,7 @@
 type: entity
 title: Brex
 created: 2026-05-26
-updated: 2026-06-16
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -27,3 +27,5 @@ A financial technology company whose founders were cited as an example of succes
 - [[sources/Th8JoIan4dg-how-to-get-and-evaluate-startup-ideas-startup-school|How to Get and Evaluate Startup Ideas | Startup School]]: Corporate credit card for startups.
 - [[sources/hyYCn_kAngI-how-to-get-your-first-customers-startup-school|How to Get Your First Customers | Startup School]]: Corporate credit card for startups
 - [[sources/mPAHvz8kW24-the-most-ai-pilled-ceo-we-know|The Most AI-Pilled CEO We Know]]: Fintech company focused on corporate cards and spend management.
+- [[sources/99sPd15j3Zc-what-actually-makes-a-startup-durable|What Actually Makes A Startup Durable]]: A fintech company, used as an example of YC's investment in founders and for its aggressive advertising strategy in SF.
+- [[sources/_7bnpjJB9T0-yc-ultimate-job-guide-startup-stages|YC Ultimate Job Guide: Startup Stages]]: Example of a YC growth/scale-stage company.

@@ -2,7 +2,7 @@
 type: entity
 title: John Collison
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -19,3 +19,4 @@ Founder of Stripe
 - [[sources/6bhlwWJDhtk-elad-gil-shares-advice-from-the-high-growth-handbook-a-guide-to-scaling-startups|Elad Gil Shares Advice from the High Growth Handbook, a Guide to Scaling Startups]]: Co-founder of Stripe.
 - [[sources/NprBQi0cSHU-running-your-company-by-patrick-collison|Running Your Company by Patrick Collison]]: Co-founder and President of Stripe.
 - [[sources/kTS7OIAMunM-hiring-and-culture-with-patrick-and-john-collison-and-ben-silbermann-htsas-2014-11|Hiring and Culture with Patrick and John Collison and Ben Silbermann (HtSaS 2014: 11)]]: Co-founder of Stripe
+- [[sources/5d6y3poKwK4-patrick-collison-is-ai-breaking-the-lean-startup-playbook|Patrick Collison: Is AI Breaking the Lean Startup Playbook?]]: Patrick Collison's brother and co-founder of Stripe.

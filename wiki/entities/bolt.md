@@ -2,7 +2,7 @@
 type: entity
 title: Bolt
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -17,3 +17,4 @@ Mentioned as a related or competitor product in the AI website generation ecosys
 
 - [[sources/-moAmKQk72A-moamkqk72a|-moAmKQk72A]]: Mentioned as a related or competitor product in the AI website generation ecosystem.
 - [[sources/IyhLAbqDw0k-60-startup-founders-share-how-they-met-their-co-founder|60 Startup Founders Share How They Met Their Co-Founder]]: A technology company.
+- [[sources/sG5aB79TE44-how-supabase-became-one-of-the-fastest-growing-devtool-companies-in-the-world|How Supabase Became One Of The Fastest Growing DevTool Companies In The World]]: An AI application mentioned as an early user of Supabase, contributing to the surge in AI-driven usage.

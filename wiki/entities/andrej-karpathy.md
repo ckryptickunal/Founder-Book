@@ -2,7 +2,7 @@
 type: entity
 title: Andrej Karpathy
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -21,3 +21,4 @@ Computer scientist and founding member of OpenAI, from whom Keshav learned Rubik
 - [[sources/JZLZQVmfGn8-transformers-explained-the-discovery-that-changed-ai-forever|Transformers Explained: The Discovery That Changed AI Forever]]: An AI researcher noted for his technical explainers on Transformers.
 - [[sources/LCEmiRjPEtQ-andrej-karpathy-software-is-changing-again|Andrej Karpathy: Software Is Changing (Again)]]: Former Director of AI at Tesla and founding member of OpenAI.
 - [[sources/hTT5o2AoewQ-andrej-karpathy-on-why-we-still-need-humans-in-the-loop|Andrej Karpathy on why we still need humans in the loop]]: AI researcher and former Director of AI at Tesla and founding member of OpenAI.
+- [[sources/_PioN-CpOP0-fei-fei-li-spatial-intelligence-is-the-next-frontier-in-ai|Fei-Fei Li: Spatial Intelligence is the Next Frontier in AI]]: Former graduate student of Fei-Fei Li, a key researcher in early image captioning work, later known for his work at Tesla and OpenAI.

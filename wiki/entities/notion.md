@@ -2,7 +2,7 @@
 type: entity
 title: Notion
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -24,3 +24,5 @@ A productivity and workspace tool where Rio Lou was a founding designer.
 - [[sources/4UE4e6b2qtA-figma-s-dylan-field-exploring-the-idea-maze-vibe-coding-and-the-power-of-locking-in|Figma's Dylan Field: Exploring the idea maze, vibe coding, and the power of “locking in”]]: Productivity software company.
 - [[sources/DNSXlBmukck-common-mistakes-with-vibe-coded-websites|Common Mistakes With Vibe Coded Websites]]: Productivity software company that acquired Chron.
 - [[sources/ksGNfd-wQY4-what-founders-can-do-to-improve-their-design-game|What Founders Can Do To Improve Their Design Game]]: A productivity software company that acquired Cron.
+- [[sources/DbBnd9PYob4-the-model-agnostic-ai-platform-betting-that-no-single-lab-will-win|The Model-Agnostic AI Platform Betting That No Single Lab Will Win]]: An example of a successful horizontal platform.
+- [[sources/xpeRVyFFy_Q-solving-the-blank-canvas-problem-gusto-s-ai-co-founder|Solving the Blank Canvas Problem: Gusto's AI Co-Founder]]: A workspace and productivity tool, mentioned as a potential connector for Gusto co-founder.

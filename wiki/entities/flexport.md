@@ -2,7 +2,7 @@
 type: entity
 title: Flexport
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -23,3 +23,4 @@ Global logistics and freight forwarding company
 - [[sources/3YKNr-LiblI-billion-dollar-startup-ideas|Billion dollar startup ideas]]: A global logistics and freight forwarding company.
 - [[sources/kJ4o0ONH7W8-masterclass-how-to-hire-engineers-remotely-10x-more-remote-work-candidates|Masterclass: How to hire engineers remotely (10X more remote work candidates)]]: Logistics company
 - [[sources/lm3lfZza1ro-flexport-ceo-ryan-petersen-on-scaling-a-startup-from-zero-to-8b|Flexport CEO Ryan Petersen on Scaling a Startup from Zero to $8B]]: A modern logistics and freight forwarding platform.
+- [[sources/_0se9PXfAH0-how-to-apply-to-yc-in-2022-and-start-your-startup-with-john-coogan|How to apply to YC in 2022 and start your startup (with John Coogan)]]: A logistics platform, founded by Ryan Peterson, used as an example of a founder gaining extensive experience before starting their company.

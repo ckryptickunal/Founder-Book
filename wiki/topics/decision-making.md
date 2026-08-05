@@ -2,7 +2,7 @@
 type: topic
 title: Decision Making
 created: 2026-05-26
-updated: 2026-06-16
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -22,3 +22,4 @@ Frameworks for delegating tasks and making high-stakes decisions based on convic
 - [[sources/UWwtXfaldl4-control-your-shadow-control-your-fate|Control your shadow, control your fate]]: The inextricable link between emotional states and the ability to make rational choices.
 - [[sources/pg-the-right-kind-of-stubborn-the-right-kind-of-stubborn|The Right Kind of Stubborn]]: How persistent individuals navigate decision trees by prioritizing high-level goals over low-level methods.
 - [[sources/pg-when-to-do-what-you-love-when-to-do-what-you-love|When To Do What You Love]]: Overcoming uncertainty through experimentation and 'staying upwind'.
+- [[sources/_mKeVGSqQac-b2b-startup-metrics-startup-school|B2B Startup Metrics | Startup School]]: How data-driven insights from metrics enable founders to make better, more informed strategic and operational decisions.

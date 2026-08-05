@@ -2,7 +2,7 @@
 type: topic
 title: User Retention
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -20,3 +20,4 @@ The strategy of using social bonds to maintain long-term player engagement in mo
 - [[sources/MABmQhOlmJA-suhail-doshi-how-to-measure-your-product|Suhail Doshi - How to Measure Your Product]]: The importance of ensuring users return to a product to avoid the 'shark fin' growth collapse.
 - [[sources/viRkOHNG4Mo-it-only-really-matters-if-you-can-find-a-handful-of-users-that-use-your-product-habitually|It only really matters if you can find a handful of users that use your product habitually.]]: The importance of habitual, recurring usage as a primary indicator of product value.
 - [[sources/dmv-nooN43U-masterclass-product-market-fit-10x-faster-with-amy-jo-kim|Masterclass: Product Market Fit 10X Faster with Amy Jo Kim]]: Strategies for keeping users engaged over the long term, specifically focusing on day 21-90 metrics.
+- [[sources/e5-6rEwzxLs-dot-plots-how-to-actually-see-what-your-users-are-doing|Dot Plots: How to Actually See What Your Users Are Doing]]: Strategies and metrics for keeping users engaged with a product over time, with dot plots providing granular insights into retention patterns and issues.

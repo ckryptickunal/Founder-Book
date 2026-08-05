@@ -2,7 +2,7 @@
 type: topic
 title: AI in Design
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -21,3 +21,4 @@ Exploration of how AI tools, particularly AI coding agents, are transforming the
 - [[sources/DvxPuRbeNwY-more-design-founders|More Design Founders]]: The impact of AI tools on product development and the future of the design profession.
 - [[sources/b_NdMJHX_aY-dylan-field-describes-design-as-art-as-it-applies-to-problem-solving|Dylan Field describes design as “art as it applies to problem solving.”]]: The challenge of integrating generative AI with functional problem-solving to create high-quality design.
 - [[sources/ypzNhwpmOD4-how-stripe-built-their-new-website|How Stripe Built Their New Website]]: Leveraging AI for rapid prototyping, image generation, and accelerating the creative process.
+- [[sources/VbqaL_eHhKY-yc-s-head-of-design-shows-you-how-to-design-with-ai|YC's Head of Design Shows You How To Design With AI]]: The central theme, exploring how AI tools and agents are transforming the entire design process, from ideation to implementation and iteration.

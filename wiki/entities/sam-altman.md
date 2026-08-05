@@ -2,7 +2,7 @@
 type: entity
 title: Sam Altman
 created: 2026-05-26
-updated: 2026-06-16
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -194,3 +194,9 @@ CEO of OpenAI, mentioned for his claim that voice authentication for banks is al
 - [[sources/sa-the-gentle-singularity-the-gentle-singularity|The Gentle Singularity]]: CEO of OpenAI and author of the blog post.
 - [[sources/sa-three-observations-three-observations|Three Observations]]: CEO of OpenAI and author of the text.
 - [[sources/gSNFJbgoaHI-how-to-build-an-ai-native-services-company|How to Build an AI-Native Services Company]]: CEO of OpenAI and former President of Y Combinator.
+- [[sources/RgYCO87ghRY-how-photoroom-trained-themselves-to-dream-bigger|How Photoroom Trained Themselves To Dream Bigger]]: Former YC President, current OpenAI CEO, who advised founders to 'add a zero' to their success metrics to foster ambition.
+- [[sources/ALJQHSgCl2E-why-ambitious-startup-ideas-are-actually-easier-to-sell|Why Ambitious Startup Ideas Are Actually Easier To Sell]]: CEO of OpenAI, mentioned as an example of a founder with an ambitious mindset.
+- [[sources/VbqaL_eHhKY-yc-s-head-of-design-shows-you-how-to-design-with-ai|YC's Head of Design Shows You How To Design With AI]]: A confirmed speaker at YC's Startup School.
+- [[sources/99sPd15j3Zc-what-actually-makes-a-startup-durable|What Actually Makes A Startup Durable]]: CEO of OpenAI, mentioned for his prediction of one-person billion-dollar companies.
+- [[sources/qz4GQ0zUFRw-world-models-jepa-and-the-path-to-sample-efficient-rl|World Models, JEPA And The Path To Sample-Efficient RL]]: Cited for his belief that a new architecture will outperform the Transformer.
+- [[sources/ZIaOBAjvc38-sam-altman-never-a-better-time-to-do-a-startup|Sam Altman: "Never a Better Time to Do a Startup"]]: CEO of OpenAI, former President of Y Combinator, and co-founder of Looped. Key speaker discussing the future of startups and AI.

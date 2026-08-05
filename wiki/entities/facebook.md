@@ -2,7 +2,7 @@
 type: entity
 title: Facebook
 created: 2026-05-26
-updated: 2026-06-16
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -99,3 +99,7 @@ Acquired Sofa in 2011 to address a shortage of designers relative to engineers, 
 - [[sources/GknGzw0Nqpw-why-i-started-a-vc-firm-too-much-money-chasing-too-few-good-people-and-ideas-is-totally-wr|Why I started a VC firm- "Too much money chasing too few good people and ideas" is totally wrong]]: Big tech company.
 - [[sources/pg-how-to-earn-a-billion-dollars-how-to-earn-a-billion-dollars|How to Earn a Billion Dollars]]: Social media company.
 - [[sources/pg-when-to-do-what-you-love-when-to-do-what-you-love|When To Do What You Love]]: Social media company.
+- [[sources/oHwUD9b9_pg-zynga-founder-consumer-is-not-investible-right-now-thats-why-you-should-build-it|Zynga Founder: Consumer Is Not Investible Right Now - Thats Why You Should Build It]]: Social networking giant that succeeded by establishing trust, where Tribe failed.
+- [[sources/ZIaOBAjvc38-sam-altman-never-a-better-time-to-do-a-startup|Sam Altman: "Never a Better Time to Do a Startup"]]: A major social media company, mentioned as an aspirational success story for early YC startups.
+- [[sources/_0se9PXfAH0-how-to-apply-to-yc-in-2022-and-start-your-startup-with-john-coogan|How to apply to YC in 2022 and start your startup (with John Coogan)]]: The platform through which John Coogan's first quiz app required authentication.
+- [[sources/_yIAYZtdrfI-a-cs-education-that-s-free-until-you-get-a-job-austen-allred-of-lambda-school|A CS Education That's Free Until You Get a Job - Austen Allred of Lambda School]]: Mentioned as a distraction for college students in traditional classrooms.

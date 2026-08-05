@@ -2,7 +2,7 @@
 type: entity
 title: Twitter
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -29,3 +29,4 @@ Major technology company mentioned as an example of an organization that hosted 
 - [[sources/t6fYl5f9iis-a-conversation-with-elad-gil|A Conversation with Elad Gil]]: Social media platform that acquired Gil's company, Mixer Labs.
 - [[sources/wA0qC9D4LA0-the-best-ai-founders-in-the-world-are-moving-here|The best AI founders in the world are moving here]]: A social media platform founded in San Francisco.
 - [[sources/ftJ9cyYrLbY-save-your-startup-unleash-your-golden-shadow|Save Your Startup, Unleash Your Golden Shadow]]: Social media platform that acquired Posterous.
+- [[sources/nB7QBdjrOwE-proving-you-re-human|Proving You’re Human]]: Social media platform, used as an example of where a lack of human verification leads to problems like bots in replies.

@@ -2,7 +2,7 @@
 type: topic
 title: Skill Acquisition
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -20,3 +20,4 @@ The debate over whether foundational computer science knowledge remains relevant
 - [[sources/wpuFP-tBME4-acquire-skills-no-one-else-has|Acquire skills no one else has!]]: The strategic importance of developing rare, non-obvious skill sets to gain a competitive edge.
 - [[sources/4gkNhmQW6RE-you-can-only-learn-by-doing|You can only learn by DOING]]: The methodology of learning by building and iterating rather than academic study.
 - [[sources/eLelgy5zRv4-learn-earn-or-quit-my-job-career-advice-for-2022|LEARN, EARN or QUIT | My job/career advice for 2022]]: The importance of deep work and the 10,000-hour concept in becoming a top-tier professional.
+- [[sources/_b__NaMjnk4-become-good-at-doing-things|Become good at doing things]]: The process and mindset required to learn, practice, and become highly proficient in a specific skill or domain.

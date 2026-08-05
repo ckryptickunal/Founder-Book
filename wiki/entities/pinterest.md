@@ -2,7 +2,7 @@
 type: entity
 title: Pinterest
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -25,3 +25,4 @@ Social media platform.
 - [[sources/kTS7OIAMunM-hiring-and-culture-with-patrick-and-john-collison-and-ben-silbermann-htsas-2014-11|Hiring and Culture with Patrick and John Collison and Ben Silbermann (HtSaS 2014: 11)]]: Visual discovery engine
 - [[sources/tF7HXJJjRvY-hiroshi-mikitani-at-startup-school-2012|Hiroshi Mikitani at Startup School 2012]]: A visual discovery engine and social network.
 - [[sources/u3Gu0EX98Cg-brian-donohue-on-operating-instapaper-through-an-acquisition|Brian Donohue on Operating Instapaper Through an Acquisition]]: A visual discovery engine and social media company.
+- [[sources/VbqaL_eHhKY-yc-s-head-of-design-shows-you-how-to-design-with-ai|YC's Head of Design Shows You How To Design With AI]]: Used by E Bufar for visual inspiration and creating mood boards to guide AI design processes.

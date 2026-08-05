@@ -2,7 +2,7 @@
 type: entity
 title: Mixpanel
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -22,3 +22,4 @@ Analytics software.
 - [[sources/LLerCc7MOQo-ilya-volodarsky-analytics-for-startups|Ilya Volodarsky - Analytics for Startups]]: Product analytics tool
 - [[sources/MABmQhOlmJA-suhail-doshi-how-to-measure-your-product|Suhail Doshi - How to Measure Your Product]]: Product analytics platform
 - [[sources/l-vfn97QTr0-peter-reinhardt-on-finding-product-market-fit-at-segment|Peter Reinhardt on Finding Product Market Fit at Segment]]: Analytics tool
+- [[sources/_O6x4ktK6JA-he-built-the-world-s-1-open-source-coding-agent|He Built the World's #1 Open-Source Coding Agent]]: An analytics company, mentioned in the context of a YC batch that Jay V interviewed for.

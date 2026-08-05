@@ -2,7 +2,7 @@
 type: entity
 title: Hacker News
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -32,3 +32,7 @@ A social news website focused on computer science and entrepreneurship, used by 
 - [[sources/WlT3UhC7NwQ-chase-adam-at-startup-school-2013|Chase Adam at Startup School 2013]]: Social news website
 - [[sources/Z8_8jNLsZms-chase-adam-at-startup-school-ny-2014|Chase Adam at Startup School NY 2014]]: Social news website for startups
 - [[sources/z1aKRhRnVNk-how-to-start-a-dev-tools-company-startup-school|How To Start A Dev Tools Company | Startup School]]: Community forum for tech and startup news.
+- [[sources/99sPd15j3Zc-what-actually-makes-a-startup-durable|What Actually Makes A Startup Durable]]: A social news website focusing on computer science and entrepreneurship, mentioned as a platform for product launches.
+- [[sources/sG5aB79TE44-how-supabase-became-one-of-the-fastest-growing-devtool-companies-in-the-world|How Supabase Became One Of The Fastest Growing DevTool Companies In The World]]: A social news website focused on computer science and entrepreneurship, used by Paul to gauge developer trends and launch his open-source tool.
+- [[sources/_mKeVGSqQac-b2b-startup-metrics-startup-school|B2B Startup Metrics | Startup School]]: Online platform for tech news and startup launches.
+- [[sources/_y7siiS-V5A-y7siis-v5a|_y7siiS-V5A]]: A social news website focusing on computer science and entrepreneurship, where Trigger.dev had a successful launch.

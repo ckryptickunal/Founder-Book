@@ -2,7 +2,7 @@
 type: entity
 title: AWS
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -21,3 +21,7 @@ Amazon Web Services, mentioned as a foundational piece of infrastructure.
 - [[sources/O8JiNHcI3jI-counter-swarm-defense|Counter-Swarm Defense]]: Amazon Web Services, a cloud computing provider.
 - [[sources/Hwfu1zNwSWI-the-better-customer-startups-or-big-enterprise|The Better Customer–Startups or Big Enterprise?]]: Cloud computing platform that used a bottom-up strategy to penetrate enterprise markets.
 - [[sources/adtuntQ8rh4-a-conversation-with-werner-vogels|A Conversation with Werner Vogels]]: Amazon Web Services cloud computing platform
+- [[sources/G3WEOXKN2SI-a-cloud-for-small-software|A Cloud for Small Software]]: An incumbent cloud platform designed for large-scale software, criticized for its complexity when applied to small software.
+- [[sources/c3TxAUir2R8-self-maintaining-apis|Self-Maintaining APIs]]: Amazon Web Services, a cloud computing giant where the speaker observed significant service downtime due to external API and package changes.
+- [[sources/_h_6xM36Z4g-kevin-systrom-at-startup-school-sv-2014|Kevin Systrom at Startup School SV 2014]]: Amazon Web Services, cloud computing platform Systrom was unaware of during Instagram's initial launch.
+- [[sources/_mKeVGSqQac-b2b-startup-metrics-startup-school|B2B Startup Metrics | Startup School]]: Amazon Web Services, cloud computing service, mentioned as a minimal cost for pure software companies.

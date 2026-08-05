@@ -2,7 +2,7 @@
 type: entity
 title: Max Levchin
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -19,3 +19,4 @@ Cofounder of PayPal.
 - [[sources/Dt-8Io0i_F4-david-lee-at-startup-school-ny-2014|David Lee at Startup School NY 2014]]: PayPal co-founder
 - [[sources/lVDmyRxeGCo-adora-cheung|Adora Cheung]]: Co-founder of PayPal and investor
 - [[sources/zHZxURFgK-4-hans-tung-funded-16-unicorns-billion-dollar-war-stories-and-hard-lessons-learned|Hans Tung funded 16 unicorns: Billion dollar war stories and hard lessons learned]]: Co-founder of PayPal and Affirm.
+- [[sources/e5-6rEwzxLs-dot-plots-how-to-actually-see-what-your-users-are-doing|Dot Plots: How to Actually See What Your Users Are Doing]]: Co-founder of PayPal, whose approach to fraud detection through visual pattern recognition inspired the speaker's understanding of dot plots.

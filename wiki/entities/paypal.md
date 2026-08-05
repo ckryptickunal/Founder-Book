@@ -2,7 +2,7 @@
 type: entity
 title: PayPal
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -31,3 +31,6 @@ Online payment system, Kyle successfully bypassed its ID verification as a teena
 - [[sources/woAM_PbnCak-stablecoins-2-0|Stablecoins 2.0]]: Global online payments system.
 - [[sources/w19IBxDu2Y4-how-to-operate-with-keith-rabois-how-to-start-a-startup-2014-lecture-14|How to Operate with Keith Rabois (How to Start a Startup 2014: Lecture 14)]]: Online payment system.
 - [[sources/cRDOj4EZ9qo-the-elon-musk-of-baseball-how-startups-hit-grand-slams|The Elon Musk of Baseball: How Startups Hit Grand Slams]]: Financial technology company.
+- [[sources/e5-6rEwzxLs-dot-plots-how-to-actually-see-what-your-users-are-doing|Dot Plots: How to Actually See What Your Users Are Doing]]: Online payment system whose early fraud detection methods involved human visual analysis of transaction graphs.
+- [[sources/99sPd15j3Zc-what-actually-makes-a-startup-durable|What Actually Makes A Startup Durable]]: Elon Musk's second major company.
+- [[sources/_mKeVGSqQac-b2b-startup-metrics-startup-school|B2B Startup Metrics | Startup School]]: Online payment system, mentioned as an example of a sticky business with exponential growth.

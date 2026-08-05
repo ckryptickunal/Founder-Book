@@ -2,7 +2,7 @@
 type: entity
 title: Zepto
 created: 2026-05-26
-updated: 2026-06-16
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -21,3 +21,4 @@ India's largest quick-commerce grocery platform
 - [[sources/aYK0H85E_oU-how-zepto-became-india-s-fastest-growing-startup|How Zepto Became India’s Fastest Growing Startup]]: Indian quick-commerce grocery delivery startup
 - [[sources/e1Yhs9BEOSw-lightcone-consumer-is-back-what-s-getting-funded-now-the-vibes-immaculate|Lightcone: Consumer is back, What’s getting funded now, The vibes immaculate]]: 10-minute grocery delivery service in India.
 - [[sources/2Ap1dnv-GXA-why-two-iit-engineers-turned-down-550k-jobs-to-build-a-startup|Why Two IIT Engineers Turned Down $550K Jobs To Build A Startup]]: Quick commerce company.
+- [[sources/Ju8LVdvuxGM-india-can-create-the-largest-ai-companies|India Can Create The Largest AI Companies]]: Grocery delivery company, mentioned in the context of the mobile revolution's impact on labor tokenization.

@@ -2,7 +2,7 @@
 type: entity
 title: Product Hunt
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -22,3 +22,4 @@ A platform where Teddy posted a collection of components, achieving 'product of 
 - [[sources/OK6sdErKWW0-yc-sus-kat-ma-alac-and-eric-migicovsky-discuss-week-2-sus-lectures|YC SUS: Kat Mañalac and Eric Migicovsky discuss Week 2 SUS Lectures]]: Product discovery website
 - [[sources/tckGI4C7k10-unknown|Unknown]]: A platform for discovering and sharing new products.
 - [[sources/Mb5Fk1GXuEM-how-to-build-the-next-great-startup-with-remote-work-with-andreas-klinger-fmr-cto-of-produ|How to build the next great startup with remote work, with Andreas Klinger (fmr CTO of Product Hunt)]]: A platform for discovering new tech products.
+- [[sources/_mKeVGSqQac-b2b-startup-metrics-startup-school|B2B Startup Metrics | Startup School]]: Platform for discovering and launching new products.

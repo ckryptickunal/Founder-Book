@@ -2,7 +2,7 @@
 type: entity
 title: Gary Tan
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -31,3 +31,7 @@ A YC partner, credited with helping Giger secure seed funding.
 - [[sources/u36A-YTxiOw-the-best-way-to-launch-your-startup-startup-school|The Best Way To Launch Your Startup | Startup School]]: CEO of Y Combinator.
 - [[sources/wKaJPZMOWVg-office-hours-at-startup-school-ny-2014|Office Hours at Startup School NY 2014]]: Partner at Y Combinator.
 - [[sources/wkv2ifxPpF8-how-to-make-claude-code-your-ai-engineering-team|How to Make Claude Code Your AI Engineering Team]]: CEO of Y Combinator and creator of GStack.
+- [[sources/RgYCO87ghRY-how-photoroom-trained-themselves-to-dream-bigger|How Photoroom Trained Themselves To Dream Bigger]]: A Y Combinator partner who noted PhotoRoom as the biggest YC company with an HQ in Europe.
+- [[sources/Ju8LVdvuxGM-india-can-create-the-largest-ai-companies|India Can Create The Largest AI Companies]]: YC President & CEO, mentioned for his high token usage in AI coding and insights into the future of compute.
+- [[sources/_O6x4ktK6JA-he-built-the-world-s-1-open-source-coding-agent|He Built the World's #1 Open-Source Coding Agent]]: A YC partner, mentioned as a 'die-hard Claude Code user' who recently started using Open Code.
+- [[sources/_-5xJQ4U8g0-are-we-in-an-ai-hype-cycle|Are We In An AI Hype Cycle?]]: YC partner, host of the podcast.

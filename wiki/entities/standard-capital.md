@@ -2,7 +2,7 @@
 type: entity
 title: Standard Capital
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -19,3 +19,4 @@ A venture capital fund founded by Dalton, which led Magic Patterns' $6 million S
 - [[sources/M57MeOY-n3g-m57meoy-n3g|M57MeOY-n3g]]: Investment firm that participated in Arty's Series A funding.
 - [[sources/UpWNdSVWA7M-upwndsvwa7m|UpWNdSVWA7M]]: Lead investor in Mnemonic's $50 million Series A round.
 - [[sources/mJO10CL-FGI-mjo10cl-fgi|mJO10CL-FGI]]: Led SIM.AI's Series A funding round.
+- [[sources/_y7siiS-V5A-y7siis-v5a|_y7siiS-V5A]]: Venture capital firm that led Trigger.dev's Series A funding round.

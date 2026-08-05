@@ -2,7 +2,7 @@
 type: entity
 title: Instacart
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -32,3 +32,6 @@ Online grocery delivery service, mentioned as a company that uses Verif's servic
 - [[sources/LioyyxLgfXQ-why-now-the-key-to-million-dollar-startup-ideas|Why now? The key to million dollar startup ideas]]: Grocery delivery service.
 - [[sources/r8hhvw-1b-M-roll-your-way-to-a-startup-unicorn-lessons-for-founders|Roll your way to a Startup Unicorn: Lessons for Founders]]: A grocery delivery and pick-up service.
 - [[sources/kt9ScQvTqcU-silicon-valley-is-still-for-future-billionaires-with-elad-gil-legendary-investor|Silicon Valley is still for future billionaires (with Elad Gil, legendary investor)]]: Grocery delivery platform.
+- [[sources/_O6x4ktK6JA-he-built-the-world-s-1-open-source-coding-agent|He Built the World's #1 Open-Source Coding Agent]]: Grocery delivery service, used as an analogy for a company that benefited from a competitor's strategic move.
+- [[sources/_-5xJQ4U8g0-are-we-in-an-ai-hype-cycle|Are We In An AI Hype Cycle?]]: YC-funded application-layer company, example of mobile-enabled success.
+- [[sources/_7bnpjJB9T0-yc-ultimate-job-guide-startup-stages|YC Ultimate Job Guide: Startup Stages]]: Cited as an example of an operational company and a potential scale-stage company preparing for an IPO.

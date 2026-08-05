@@ -2,7 +2,7 @@
 type: entity
 title: Stripe
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -78,3 +78,14 @@ Financial services and software company, mentioned as a platform where good acto
 - [[sources/z1aKRhRnVNk-how-to-start-a-dev-tools-company-startup-school|How To Start A Dev Tools Company | Startup School]]: Payment processing platform for developers.
 - [[sources/tcffqaIi-Jg-discussing-silicon-valley-s-bright-future-with-sarah-guo-elad-gil|Discussing Silicon Valley's Bright Future with Sarah Guo & Elad Gil]]: Financial services and software company.
 - [[sources/kt9ScQvTqcU-silicon-valley-is-still-for-future-billionaires-with-elad-gil-legendary-investor|Silicon Valley is still for future billionaires (with Elad Gil, legendary investor)]]: Financial services and SaaS company.
+- [[sources/M861XfrOR5s-the-best-time-to-build-in-crypto|The Best Time to Build in Crypto]]: A financial services and software as a service company, mentioned as a major team funded by YC building in crypto.
+- [[sources/ALJQHSgCl2E-why-ambitious-startup-ideas-are-actually-easier-to-sell|Why Ambitious Startup Ideas Are Actually Easier To Sell]]: A financial services and software company, co-founded by Patrick Collison.
+- [[sources/c3TxAUir2R8-self-maintaining-apis|Self-Maintaining APIs]]: An example API provider used to illustrate how automated change application (e.g., for breaking changes or new features) could work.
+- [[sources/DbBnd9PYob4-the-model-agnostic-ai-platform-betting-that-no-single-lab-will-win|The Model-Agnostic AI Platform Betting That No Single Lab Will Win]]: A financial technology company where Stan Hulu worked early in his career for five years.
+- [[sources/5d6y3poKwK4-patrick-collison-is-ai-breaking-the-lean-startup-playbook|Patrick Collison: Is AI Breaking the Lean Startup Playbook?]]: A financial services and software company co-founded by Patrick Collison, central to the discussion.
+- [[sources/80eZ7DjCGSo-how-warp-went-from-yc-to-a-60m-series-b|How Warp Went From YC to a $60M Series B]]: Payment processing company, cited as a classic example of a company solving an 'unsexy' but necessary problem.
+- [[sources/ZIaOBAjvc38-sam-altman-never-a-better-time-to-do-a-startup|Sam Altman: "Never a Better Time to Do a Startup"]]: A financial technology company, mentioned as an early investment for Sam Altman where he met Greg Brockman.
+- [[sources/_mKeVGSqQac-b2b-startup-metrics-startup-school|B2B Startup Metrics | Startup School]]: Payment processing company, used as an example of a high retention business with exponential growth.
+- [[sources/_yIAYZtdrfI-a-cs-education-that-s-free-until-you-get-a-job-austen-allred-of-lambda-school|A CS Education That's Free Until You Get a Job - Austen Allred of Lambda School]]: Financial services and software company, cited as an example of a company that won despite competitors due to product quality.
+- [[sources/_-5xJQ4U8g0-are-we-in-an-ai-hype-cycle|Are We In An AI Hype Cycle?]]: Payment processing, example of a startup that raised a big round based on belief in founders/idea before public launch.
+- [[sources/_7bnpjJB9T0-yc-ultimate-job-guide-startup-stages|YC Ultimate Job Guide: Startup Stages]]: Example of a YC scale-stage company.

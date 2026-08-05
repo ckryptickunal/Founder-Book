@@ -2,7 +2,7 @@
 type: entity
 title: Airbnb
 created: 2026-05-26
-updated: 2026-06-16
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -124,3 +124,10 @@ Online marketplace for lodging, mentioned as a platform that needs identity veri
 - [[sources/zHZxURFgK-4-hans-tung-funded-16-unicorns-billion-dollar-war-stories-and-hard-lessons-learned|Hans Tung funded 16 unicorns: Billion dollar war stories and hard lessons learned]]: Online marketplace for lodging.
 - [[sources/pg-founder-mode-founder-mode|Founder Mode]]: Hospitality company.
 - [[sources/pg-how-to-earn-a-billion-dollars-how-to-earn-a-billion-dollars|How to Earn a Billion Dollars]]: Hospitality company.
+- [[sources/eY20SPBpQEg-ai-powered-consumer-products-for-1-billion-people|AI-Powered Consumer Products for 1 Billion People]]: A consumer giant that emerged from the web platform shift.
+- [[sources/oHwUD9b9_pg-zynga-founder-consumer-is-not-investible-right-now-thats-why-you-should-build-it|Zynga Founder: Consumer Is Not Investible Right Now - Thats Why You Should Build It]]: Hospitality service, used as an example where 'Founder Mode' is relevant.
+- [[sources/_O6x4ktK6JA-he-built-the-world-s-1-open-source-coding-agent|He Built the World's #1 Open-Source Coding Agent]]: A hospitality service, mentioned in the context of a YC batch that Jay V interviewed for.
+- [[sources/_0se9PXfAH0-how-to-apply-to-yc-in-2022-and-start-your-startup-with-john-coogan|How to apply to YC in 2022 and start your startup (with John Coogan)]]: A hospitality service company, mentioned in comparison to Soylent's media exposure on the Colbert Report.
+- [[sources/_mKeVGSqQac-b2b-startup-metrics-startup-school|B2B Startup Metrics | Startup School]]: Hospitality service company, used as an example of customer obsession.
+- [[sources/_yIAYZtdrfI-a-cs-education-that-s-free-until-you-get-a-job-austen-allred-of-lambda-school|A CS Education That's Free Until You Get a Job - Austen Allred of Lambda School]]: Hospitality service, cited as an example of a company that won despite competitors due to product quality.
+- [[sources/_7bnpjJB9T0-yc-ultimate-job-guide-startup-stages|YC Ultimate Job Guide: Startup Stages]]: A famous YC company used as an example of 'doing things that don't scale' in its early Seed stage.

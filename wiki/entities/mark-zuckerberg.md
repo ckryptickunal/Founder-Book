@@ -2,7 +2,7 @@
 type: entity
 title: Mark Zuckerberg
 created: 2026-05-26
-updated: 2026-06-16
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -42,3 +42,6 @@ CEO of Meta, mentioned in the context of competitive AI talent wars and founder 
 - [[sources/sWTtqyNZMFg-startup-founders-have-to-do-a-lot-of-everything|Startup founders have to do a lot of… everything.]]: CEO of Meta.
 - [[sources/vJqlG5ytLDs-growth-with-alex-schultz-how-to-start-a-startup-2014-lecture-6|Growth with Alex Schultz (How to Start a Startup 2014: Lecture 6)]]: CEO of Facebook
 - [[sources/pg-how-to-start-google-how-to-start-google|How to Start Google]]: Founder of Facebook.
+- [[sources/FVsgX0AdDTo-what-big-tech-missed-and-how-startups-can-still-win|What Big Tech Missed And How Startups Can Still Win]]: CEO of Facebook/Meta, known for his ambitious bets and direct involvement in acquisitions.
+- [[sources/sJ4VJWycX9M-alexandr-wang-this-is-a-once-in-a-civilization-opportunity|Alexandr Wang: “This is a Once-in-a-Civilization Opportunity”]]: CEO of Meta, who wrote a memo about 'personal superintelligence,' influencing Meta's AI strategy.
+- [[sources/_-5xJQ4U8g0-are-we-in-an-ai-hype-cycle|Are We In An AI Hype Cycle?]]: CEO of Meta, quoted on AI innovation.

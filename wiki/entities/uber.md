@@ -2,7 +2,7 @@
 type: entity
 title: Uber
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -44,3 +44,8 @@ Ride-sharing company, an early customer of Verif for driver onboarding in Estoni
 - [[sources/6Po7mTUoZFk-you-must-live-above-the-api|You must Live above the API!]]: Ride-sharing platform.
 - [[sources/LioyyxLgfXQ-why-now-the-key-to-million-dollar-startup-ideas|Why now? The key to million dollar startup ideas]]: Ride-sharing platform.
 - [[sources/rfTgzA6iKZc-3-tips-to-nail-the-y-combinator-interview|3 Tips to Nail the Y Combinator Interview]]: A ride-sharing and delivery platform.
+- [[sources/RgYCO87ghRY-how-photoroom-trained-themselves-to-dream-bigger|How Photoroom Trained Themselves To Dream Bigger]]: A major ride-sharing and food delivery company, listed as a user of PhotoRoom.
+- [[sources/byAj35QlGbs-blake-scholl-how-50-people-built-a-supersonic-jet|Blake Scholl: How 50 People Built a Supersonic Jet]]: Ride-sharing company.
+- [[sources/oHwUD9b9_pg-zynga-founder-consumer-is-not-investible-right-now-thats-why-you-should-build-it|Zynga Founder: Consumer Is Not Investible Right Now - Thats Why You Should Build It]]: Ride-sharing service, mentioned as a type of service that could be reinvented by AI.
+- [[sources/_mKeVGSqQac-b2b-startup-metrics-startup-school|B2B Startup Metrics | Startup School]]: Ride-sharing company, used as an example of a company that scaled negative margin businesses using capital as a weapon (blitzscaling).
+- [[sources/_-5xJQ4U8g0-are-we-in-an-ai-hype-cycle|Are We In An AI Hype Cycle?]]: Application-layer company, example of mobile-enabled success.

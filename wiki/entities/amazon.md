@@ -2,7 +2,7 @@
 type: entity
 title: Amazon
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -48,3 +48,11 @@ E-commerce and retail giant heavily investing in physical grocery and AI, a key 
 - [[sources/RhYZECR2Ru8-quit-and-join-that-risky-tech-startup-a-guide-to-learning-earning-minimizing-regret-at-sta|Quit and join that risky tech startup? A guide to learning, earning & minimizing regret at startups]]: Multinational technology company.
 - [[sources/9Fq15k9QPv8-you-can-beat-google-the-way-amazon-does-here-s-how|YOU can beat Google the way Amazon does. Here’s how.]]: E-commerce and cloud computing giant.
 - [[sources/hd9DD4t85fM-unknown|Unknown]]: E-commerce and technology company.
+- [[sources/R56RJFZBasQ-unknown|Unknown]]: A company where Blake Scholl worked in ad tech early in his career.
+- [[sources/RgYCO87ghRY-how-photoroom-trained-themselves-to-dream-bigger|How Photoroom Trained Themselves To Dream Bigger]]: A major global e-commerce company, listed as a user of PhotoRoom.
+- [[sources/vb1Gcn10enw-what-top-ai-labs-are-really-doing-with-observability|What Top AI Labs Are Really Doing With Observability]]: Mentioned in the context of the early 'Amazon thing' (AWS/cloud) which Datadog initially underestimated.
+- [[sources/byAj35QlGbs-blake-scholl-how-50-people-built-a-supersonic-jet|Blake Scholl: How 50 People Built a Supersonic Jet]]: E-commerce and cloud computing giant.
+- [[sources/oHwUD9b9_pg-zynga-founder-consumer-is-not-investible-right-now-thats-why-you-should-build-it|Zynga Founder: Consumer Is Not Investible Right Now - Thats Why You Should Build It]]: E-commerce and tech giant, mentioned in the context of the Alexa team and its early growth.
+- [[sources/_O6x4ktK6JA-he-built-the-world-s-1-open-source-coding-agent|He Built the World's #1 Open-Source Coding Agent]]: E-commerce and tech giant, bought Whole Foods, part of the Instacart analogy.
+- [[sources/_yIAYZtdrfI-a-cs-education-that-s-free-until-you-get-a-job-austen-allred-of-lambda-school|A CS Education That's Free Until You Get a Job - Austen Allred of Lambda School]]: Used as an analogy for starting online and then potentially expanding to other models.
+- [[sources/_7bnpjJB9T0-yc-ultimate-job-guide-startup-stages|YC Ultimate Job Guide: Startup Stages]]: Mentioned for its vesting schedule and as a benchmark for competitive salaries.

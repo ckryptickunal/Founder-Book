@@ -2,7 +2,7 @@
 type: entity
 title: Nvidia
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -28,3 +28,8 @@ A technology company, mentioned as a customer of Infracloud and Griptape.
 - [[sources/cqrJzG03ENE-the-truth-about-the-ai-bubble|The Truth About The AI Bubble]]: Leading manufacturer of GPUs for AI compute.
 - [[sources/hKw6cRKcqzY-inside-the-startup-launching-ai-data-centers-into-space|Inside The Startup Launching AI Data Centers Into Space]]: Manufacturer of H100 and Blackwell GPUs.
 - [[sources/pAV8f4Snx7Q-electronics-in-space|Electronics in Space]]: Technology company specializing in chip design and AI hardware
+- [[sources/I4B37S1dyQQ-jensen-huang-the-mindset-that-built-nvidia|Jensen Huang: The Mindset That Built NVIDIA]]: A company initially focused on reinventing 3D graphics, now a leader in AI and accelerated computing.
+- [[sources/A9JDkiYEhfY-the-case-for-data-centers-in-space|The Case for Data Centers in Space]]: A leading designer and manufacturer of graphics processing units (GPUs). StarCloud uses Nvidia GPUs (H100, B200, H200) and partners with them on space-designed chips.
+- [[sources/n8dz2FX0_uY-multi-gpu-kernels-intelligence-per-watt-heterogeneous-inference-and-more-yc-paper-club|Multi-GPU Kernels, Intelligence per Watt, Heterogeneous Inference, and More | YC Paper Club]]: GPU manufacturer, AI infrastructure provider, mentioned for DGX machines, NVL72, and B200 GPUs.
+- [[sources/qz4GQ0zUFRw-world-models-jepa-and-the-path-to-sample-efficient-rl|World Models, JEPA And The Path To Sample-Efficient RL]]: Mentioned in the context of robotics research and world models.
+- [[sources/_-5xJQ4U8g0-are-we-in-an-ai-hype-cycle|Are We In An AI Hype Cycle?]]: GPU maker, became the most valuable company in the world, driving AI infrastructure.

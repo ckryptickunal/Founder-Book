@@ -2,7 +2,7 @@
 type: entity
 title: Emergent
 created: 2026-05-26
-updated: 2026-06-16
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -19,3 +19,4 @@ An AI app builder that allows users to create mobile and web applications withou
 - [[sources/8SVocWnDHwE-ai-is-unlocking-millions-of-new-builders|AI Is Unlocking Millions Of New Builders]]: A platform that enables users to build and ship production-ready software using AI agents.
 - [[sources/jjXuP89i5T0-startup-school-is-coming-to-india|Startup School is coming to India! 🇮🇳]]: A technology company.
 - [[sources/yyXCQHX55N4-emergent-how-six-months-of-tinkering-led-to-a-100m-arr-company|Emergent: How Six Months of Tinkering Led To A $100M ARR Company]]: AI-native platform for building software without coding.
+- [[sources/Ju8LVdvuxGM-india-can-create-the-largest-ai-companies|India Can Create The Largest AI Companies]]: Startup, example of a global company built from India without needing a physical SF presence.

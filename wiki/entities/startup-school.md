@@ -2,7 +2,7 @@
 type: entity
 title: Startup School
 created: 2026-05-26
-updated: 2026-06-16
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -21,3 +21,5 @@ An event/program for startup founders
 - [[sources/oYFjKml9ptk-the-untold-stories-of-y-combinator-with-co-founder-jessica-livingston|The Untold Stories of Y Combinator with Co-Founder Jessica Livingston]]: An annual event series hosted by Y Combinator.
 - [[sources/ywS7Ytkx3A0-we-just-launched-paxel|We just launched Paxel!]]: An online program by Y Combinator for aspiring founders.
 - [[sources/qr6kVSKqBqo-startup-school-is-back|Startup School is back!]]: An educational program by Y Combinator for aspiring startup founders.
+- [[sources/Ju8LVdvuxGM-india-can-create-the-largest-ai-companies|India Can Create The Largest AI Companies]]: YC initiative, Ankit's introduction to startups, similar to the event being held.
+- [[sources/VbqaL_eHhKY-yc-s-head-of-design-shows-you-how-to-design-with-ai|YC's Head of Design Shows You How To Design With AI]]: YC's largest annual event, for which AI-driven design was used for branding, speaker cards, and personalized tickets.

@@ -2,7 +2,7 @@
 type: entity
 title: Perplexity
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -25,3 +25,5 @@ AI-native company and Parahelp's second customer, a key example of their target 
 - [[sources/cPPLsLtE_sw-perplexity-s-competitive-advantage-against-google-comes-down-to-user-obsession-and-product|Perplexity's competitive advantage against Google comes down to user obsession and product taste.]]: An AI-powered answer engine and search platform.
 - [[sources/i_PjjXKNpA4-the-startup-playbook-for-hiring-your-first-engineers-and-aes|The Startup Playbook for Hiring Your First Engineers and AEs]]: AI search engine company.
 - [[sources/z0wt2pe_LZM-2024-the-year-the-gpt-wrapper-myth-proved-wrong|2024: The Year the GPT Wrapper Myth Proved Wrong]]: AI-powered search engine.
+- [[sources/8OOuCnZB-4o-unknown|Unknown]]: An AI search engine, mentioned as an AI Ploy helps businesses get found by.
+- [[sources/eSm_9tb5ZbY-what-it-actually-takes-to-deploy-a-voice-agent-to-a-fortune-500|What It Actually Takes to Deploy a Voice Agent to a Fortune 500]]: Customer of Koval, mentioned as monitoring millions of calls.

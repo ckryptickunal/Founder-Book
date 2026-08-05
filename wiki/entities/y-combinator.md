@@ -2,7 +2,7 @@
 type: entity
 title: Y Combinator
 created: 2026-05-26
-updated: 2026-06-16
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -906,3 +906,31 @@ Startup accelerator, where Franis is a visiting partner and Ian Fischer's previo
 - [[sources/wE1ZgJdt4uM-inference-diffusion-world-models-and-more-yc-paper-club|Inference, Diffusion, World Models, and More | YC Paper Club]]: Startup accelerator hosting the Paper Club.
 - [[sources/mjmswQurIU4-how-legora-went-from-yc-to-100m-arr-in-18-months|How Legora Went From YC to $100M ARR in 18 Months]]: Startup accelerator.
 - [[sources/B246K_G7mHU-inside-yc-s-ai-playbook|Inside YC's AI Playbook]]: Startup accelerator and venture capital firm.
+- [[sources/M861XfrOR5s-the-best-time-to-build-in-crypto|The Best Time to Build in Crypto]]: A prominent American seed money startup accelerator.
+- [[sources/BSElxGxgoIA-ai-native-compliance-infrastructure|AI-Native Compliance Infrastructure]]: A startup accelerator actively seeking founders to build AI-native compliance infrastructure.
+- [[sources/V_gDce8hBrg-new-operating-systems-for-the-physical-world|New Operating Systems for the Physical World]]: A startup accelerator that published the video and is interested in funding startups building new operating systems for the physical world.
+- [[sources/F3INH9wZXoQ-why-physical-ai-is-the-next-platform-shift|Why Physical AI Is the Next Platform Shift]]: The host of the event and an accelerator that provides advice to startups, mentioned for its consistently accurate advice.
+- [[sources/Gp4zrV3-6N8-waymo-co-ceo-dmitri-dolgov-the-demo-is-only-1-of-the-work|Waymo Co-CEO Dmitri Dolgov: The Demo Is Only 1% Of The Work]]: A startup accelerator that hosted the 'Startup School' event where this talk was given.
+- [[sources/WUDIBATKh4Y-ai-for-the-aging-population|AI for the Aging Population]]: The channel hosting the video, implicitly inviting startups to address the market.
+- [[sources/FVsgX0AdDTo-what-big-tech-missed-and-how-startups-can-still-win|What Big Tech Missed And How Startups Can Still Win]]: Startup accelerator where Alexandre Lebrun and the interviewer were in the same batch.
+- [[sources/RgYCO87ghRY-how-photoroom-trained-themselves-to-dream-bigger|How Photoroom Trained Themselves To Dream Bigger]]: A startup accelerator that provides funding, advice, and a network to early-stage companies, credited with significantly increasing the ambition of its founders.
+- [[sources/I4B37S1dyQQ-jensen-huang-the-mindset-that-built-nvidia|Jensen Huang: The Mindset That Built NVIDIA]]: Host of Startup School 2026, where the interview takes place.
+- [[sources/c3TxAUir2R8-self-maintaining-apis|Self-Maintaining APIs]]: A startup accelerator, mentioned as a call to action for founders working on solutions for self-maintaining APIs.
+- [[sources/CxXgV54KzpQ-jeff-dean-the-1-rule-for-building-in-ai|Jeff Dean: The 1% Rule for Building in AI]]: Startup accelerator, host of the interview.
+- [[sources/eY20SPBpQEg-ai-powered-consumer-products-for-1-billion-people|AI-Powered Consumer Products for 1 Billion People]]: A startup accelerator, implicitly inviting founders to build AI consumer products.
+- [[sources/nB7QBdjrOwE-proving-you-re-human|Proving You’re Human]]: Venture capital firm and startup accelerator, implied speaker and interested party in solving the problem of online human verification.
+- [[sources/e5-6rEwzxLs-dot-plots-how-to-actually-see-what-your-users-are-doing|Dot Plots: How to Actually See What Your Users Are Doing]]: Startup accelerator and the channel hosting the video.
+- [[sources/uW7RxkLRsd0-data-for-the-real-world|Data for the Real World]]: A startup accelerator interested in funding companies building new ways to collect physical world data.
+- [[sources/xZW8fR9ediE-compute-at-sea|Compute at Sea]]: A prominent American technology startup accelerator that provides seed funding, advice, and connections to early-stage companies.
+- [[sources/99sPd15j3Zc-what-actually-makes-a-startup-durable|What Actually Makes A Startup Durable]]: A startup accelerator that provides seed funding, advice, and a community for early-stage companies.
+- [[sources/vb1Gcn10enw-what-top-ai-labs-are-really-doing-with-observability|What Top AI Labs Are Really Doing With Observability]]: Prominent startup accelerator that rejected Datadog twice.
+- [[sources/80eZ7DjCGSo-how-warp-went-from-yc-to-a-60m-series-b|How Warp Went From YC to a $60M Series B]]: Startup accelerator that Warp participated in (Winter 2023 batch).
+- [[sources/qz4GQ0zUFRw-world-models-jepa-and-the-path-to-sample-efficient-rl|World Models, JEPA And The Path To Sample-Efficient RL]]: Channel hosting the video, and an accelerator supporting AI/robotics startups.
+- [[sources/3lQQadC6vKg-building-the-agentic-ai-platform-for-hospitals|Building the Agentic AI Platform for Hospitals]]: Startup accelerator and investor in Bunker Hill Health's Series B round.
+- [[sources/oHwUD9b9_pg-zynga-founder-consumer-is-not-investible-right-now-thats-why-you-should-build-it|Zynga Founder: Consumer Is Not Investible Right Now - Thats Why You Should Build It]]: The interviewer's affiliation, known for its startup accelerator program.
+- [[sources/_h_6xM36Z4g-kevin-systrom-at-startup-school-sv-2014|Kevin Systrom at Startup School SV 2014]]: Host of Startup School SV.
+- [[sources/_rq3utSccQk-rfs-spatial-computing|RFS: Spatial Computing]]: A startup accelerator program encouraging founders to apply and work on spatial computing projects.
+- [[sources/_mKeVGSqQac-b2b-startup-metrics-startup-school|B2B Startup Metrics | Startup School]]: Startup accelerator, where Tom Blumfield is a Group Partner.
+- [[sources/_NGqEjFjB0U-voice-ai|Voice AI]]: A startup accelerator that identifies and supports promising future technologies and trends.
+- [[sources/_2LcG-3zCdY-dynamic-software-interfaces|Dynamic Software Interfaces]]: The channel hosting the video, implicitly the 'we' making the call to action for radical thinkers.
+- [[sources/_7bnpjJB9T0-yc-ultimate-job-guide-startup-stages|YC Ultimate Job Guide: Startup Stages]]: A startup accelerator that provides seed funding, advice, and resources to early-stage companies.

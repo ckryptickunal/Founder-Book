@@ -2,7 +2,7 @@
 type: entity
 title: Google
 created: 2026-05-26
-updated: 2026-06-16
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -173,3 +173,12 @@ Major technology company mentioned as an example of an organization that hosted 
 - [[sources/vJbvzkXiex8-there-s-too-much-money-in-the-world-here-s-why|There's Too Much Money in The World. Here's Why]]: Technology conglomerate
 - [[sources/pg-how-to-start-google-how-to-start-google|How to Start Google]]: A multinational technology company.
 - [[sources/pg-when-to-do-what-you-love-when-to-do-what-you-love|When To Do What You Love]]: Technology company.
+- [[sources/CxXgV54KzpQ-jeff-dean-the-1-rule-for-building-in-ai|Jeff Dean: The 1% Rule for Building in AI]]: Technology company where Jeff Dean has made significant contributions, known for search, AI, and hardware development.
+- [[sources/eY20SPBpQEg-ai-powered-consumer-products-for-1-billion-people|AI-Powered Consumer Products for 1 Billion People]]: A consumer giant that emerged from the web platform shift.
+- [[sources/5d6y3poKwK4-patrick-collison-is-ai-breaking-the-lean-startup-playbook|Patrick Collison: Is AI Breaking the Lean Startup Playbook?]]: Tech giant, mentioned as a past source of fear for startups ('what if Google does this?').
+- [[sources/oHwUD9b9_pg-zynga-founder-consumer-is-not-investible-right-now-thats-why-you-should-build-it|Zynga Founder: Consumer Is Not Investible Right Now - Thats Why You Should Build It]]: Search engine giant, cited as an 'internet treasure'.
+- [[sources/ZIaOBAjvc38-sam-altman-never-a-better-time-to-do-a-startup|Sam Altman: "Never a Better Time to Do a Startup"]]: A major tech company, mentioned as an aspirational success story for early YC startups.
+- [[sources/_h_6xM36Z4g-kevin-systrom-at-startup-school-sv-2014|Kevin Systrom at Startup School SV 2014]]: Company where Systrom worked in marketing and Corp Dev after college.
+- [[sources/_ZR1dWrkogA-gmail-creator-paul-buchheit-on-the-very-first-version-of-google-s-did-you-mean-feature|Gmail creator Paul Buchheit on the very first version of Google’s “Did you mean?” feature]]: The technology company where Paul Buchheit worked and developed the 'Did you mean?' feature.
+- [[sources/_9SlOm6HHvg-this-is-the-holy-grail-of-ai|This Is The Holy Grail Of AI]]: A major technology company with an AI division exploring recursive self-improvement, typically by training new models for each step.
+- [[sources/_PioN-CpOP0-fei-fei-li-spatial-intelligence-is-the-next-frontier-in-ai|Fei-Fei Li: Spatial Intelligence is the Next Frontier in AI]]: Where Fei-Fei Li worked to learn about business, Google Cloud, and B2B strategies.

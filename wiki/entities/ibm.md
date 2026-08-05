@@ -2,7 +2,7 @@
 type: entity
 title: IBM
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -24,3 +24,4 @@ A legacy technology giant.
 - [[sources/LHZKDTJJknE-simon-benjamin-on-architectures-for-quantum-computing|Simon Benjamin on Architectures for Quantum Computing]]: Technology company developing quantum computing hardware.
 - [[sources/o3hHO3S8Unk-john-preskill-on-quantum-computing|John Preskill on Quantum Computing]]: Technology company developing quantum hardware.
 - [[sources/zSEeFxq2X_c-diane-greene-at-startup-school-2013|Diane Greene at Startup School 2013]]: Technology corporation that partnered with VMware.
+- [[sources/n8dz2FX0_uY-multi-gpu-kernels-intelligence-per-watt-heterogeneous-inference-and-more-yc-paper-club|Multi-GPU Kernels, Intelligence per Watt, Heterogeneous Inference, and More | YC Paper Club]]: Historical mainframe computer manufacturer, also mentioned for Granite LLMs.

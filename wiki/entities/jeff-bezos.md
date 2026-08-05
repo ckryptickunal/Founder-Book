@@ -2,7 +2,7 @@
 type: entity
 title: Jeff Bezos
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -23,3 +23,5 @@ Founder of Amazon, quoted for his philosophy on identifying unchanging core busi
 - [[sources/RhYZECR2Ru8-quit-and-join-that-risky-tech-startup-a-guide-to-learning-earning-minimizing-regret-at-sta|Quit and join that risky tech startup? A guide to learning, earning & minimizing regret at startups]]: Founder of Amazon.
 - [[sources/9Fq15k9QPv8-you-can-beat-google-the-way-amazon-does-here-s-how|YOU can beat Google the way Amazon does. Here’s how.]]: Founder of Amazon.
 - [[sources/kt9ScQvTqcU-silicon-valley-is-still-for-future-billionaires-with-elad-gil-legendary-investor|Silicon Valley is still for future billionaires (with Elad Gil, legendary investor)]]: Founder of Amazon.
+- [[sources/byAj35QlGbs-blake-scholl-how-50-people-built-a-supersonic-jet|Blake Scholl: How 50 People Built a Supersonic Jet]]: Founder of Amazon.
+- [[sources/oHwUD9b9_pg-zynga-founder-consumer-is-not-investible-right-now-thats-why-you-should-build-it|Zynga Founder: Consumer Is Not Investible Right Now - Thats Why You Should Build It]]: Founder of Amazon, mentioned as an example of a founder VCs might deem 'deserving' of founder mode.

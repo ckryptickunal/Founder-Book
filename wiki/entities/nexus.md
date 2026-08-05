@@ -2,7 +2,7 @@
 type: entity
 title: Nexus
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -16,3 +16,4 @@ Giger's seed investor, introduced by Gary Tan.
 ## Source Mentions
 
 - [[sources/KmdN6OQ_PwE-kmdn6oq-pwe|KmdN6OQ_PwE]]: Giger's seed investor, introduced by Gary Tan.
+- [[sources/Ju8LVdvuxGM-india-can-create-the-largest-ai-companies|India Can Create The Largest AI Companies]]: Venture firm where Puneet was a venture partner.

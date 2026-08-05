@@ -2,7 +2,7 @@
 type: entity
 title: Palantir
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -35,3 +35,6 @@ Software company.
 - [[sources/eLelgy5zRv4-learn-earn-or-quit-my-job-career-advice-for-2022|LEARN, EARN or QUIT | My job/career advice for 2022]]: Software company.
 - [[sources/y29ZlhuEIyc-the-future-of-software-development-build-software-with-no-code-with-michael-skelly-from-st|The Future of Software Development | Build Software with NO CODE | with Michael Skelly from Stacker]]: Data analytics software company.
 - [[sources/t6i5H4C7Mhk-5-ways-startups-die-why-big-company-managers-fail-how-to-deprogram-it|5 Ways Startups Die: Why Big Company Managers Fail (How to deprogram it)]]: A software company specializing in big data analytics.
+- [[sources/EHp1HgwCo9I-the-ai-agents-helping-home-services-book-more-jobs|The AI Agents Helping Home Services Book More Jobs]]: Data analytics company, mentioned in the context of the origins of the forward-deployed engineering model.
+- [[sources/sJ4VJWycX9M-alexandr-wang-this-is-a-once-in-a-civilization-opportunity|Alexandr Wang: “This is a Once-in-a-Civilization Opportunity”]]: Company where Wang's friend had an early internship, influencing Wang's path.
+- [[sources/_0se9PXfAH0-how-to-apply-to-yc-in-2022-and-start-your-startup-with-john-coogan|How to apply to YC in 2022 and start your startup (with John Coogan)]]: A software company that Peter Thiel invited Garry Tan to join as its first software engineer.

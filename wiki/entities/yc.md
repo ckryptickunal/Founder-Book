@@ -2,7 +2,7 @@
 type: entity
 title: YC
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -21,3 +21,4 @@ Y Combinator, a startup accelerator that Nick's previous edtech business was acc
 - [[sources/LX_wvUMxVsk-salient-the-fintech-startup-processing-1b-in-loans-with-ai|Salient: The Fintech Startup Processing $1B+ in Loans with AI]]: Y Combinator, a startup accelerator.
 - [[sources/Elm2p_TRPwk-elm2p-trpwk|Elm2p_TRPwk]]: Y Combinator, a startup accelerator.
 - [[sources/UpWNdSVWA7M-upwndsvwa7m|UpWNdSVWA7M]]: Y Combinator, a startup accelerator.
+- [[sources/eSm_9tb5ZbY-what-it-actually-takes-to-deploy-a-voice-agent-to-a-fortune-500|What It Actually Takes to Deploy a Voice Agent to a Fortune 500]]: Y Combinator, a startup accelerator that funded Koval and where Harsh (the interviewer) is a partner.

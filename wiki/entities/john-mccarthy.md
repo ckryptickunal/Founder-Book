@@ -2,7 +2,7 @@
 type: entity
 title: John McCarthy
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -20,3 +20,4 @@ Creator of Lisp.
 - [[sources/pg-the-hundred-year-language-the-hundred-year-language|The Hundred-Year Language]]: Computer scientist and inventor of Lisp.
 - [[sources/pg-the-roots-of-lisp-the-roots-of-lisp|The Roots of Lisp]]: Computer scientist and inventor of Lisp.
 - [[sources/pg-what-made-lisp-different-what-made-lisp-different|What Made Lisp Different]]: The creator of the Lisp programming language.
+- [[sources/_PioN-CpOP0-fei-fei-li-spatial-intelligence-is-the-next-frontier-in-ai|Fei-Fei Li: Spatial Intelligence is the Next Frontier in AI]]: One of the 'founding fathers of AI' who gathered at Dartmouth in 1956.

@@ -2,7 +2,7 @@
 type: entity
 title: YC (Y Combinator)
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -27,3 +27,7 @@ Startup accelerator that Cartisia is a part of, providing guidance on startup pr
 - [[sources/gz4AKzSBwTk-gz4akzsbwtk|gz4AKzSBwTk]]: A startup accelerator program that Revikat participated in, instrumental in their early growth and vision development.
 - [[sources/t-G67yKAHBQ-t-g67ykahbq|t-G67yKAHBQ]]: The speaker's organization, used for examples of AI implementation (office hours, user manual, codebase).
 - [[sources/DL82mGde6wo-state-of-the-art-prompting-for-ai-agents|State-Of-The-Art Prompting For AI Agents]]: Startup accelerator.
+- [[sources/tOhkv307Pm0-the-first-dedicated-yc-gpu-cluster-with-together-ai|The First Dedicated YC GPU Cluster - With Together AI]]: A prominent seed funder and startup accelerator, co-founder of the YC GPU cluster, supporting AI-native startups.
+- [[sources/cA6g0iWBQpY-latin-america-s-global-bank|Latin America's Global Bank]]: Startup accelerator that provided early investment and mentorship to ARC (then Dollar App) in summer 2021.
+- [[sources/_-ARm9FTFAM-how-onebrief-is-fixing-military-planning-with-software|How Onebrief Is Fixing Military Planning With Software]]: A startup accelerator that Onebrief was part of (Summer 21 batch).
+- [[sources/_y7siiS-V5A-y7siis-v5a|_y7siiS-V5A]]: Startup accelerator program that Trigger.dev participated in.

@@ -2,7 +2,7 @@
 type: entity
 title: Netflix
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -21,3 +21,6 @@ Mentioned as a company that built its own in-house real-time data infrastructure
 - [[sources/T9ikpoF2GH0-gustaf-alstromer-how-to-get-users-and-grow|Gustaf Alstromer - How to Get Users and Grow]]: Streaming service.
 - [[sources/ysz1xLMd37Y-reid-hoffman-at-startup-school-sv-2016|Reid Hoffman at Startup School SV 2016]]: Streaming service.
 - [[sources/KYTGEModH50-vc-s-garry-tan-and-scott-moss-on-their-journey-to-initialized-capital|VC's Garry Tan and Scott Moss on their journey to Initialized Capital]]: Streaming service provider.
+- [[sources/_yIAYZtdrfI-a-cs-education-that-s-free-until-you-get-a-job-austen-allred-of-lambda-school|A CS Education That's Free Until You Get a Job - Austen Allred of Lambda School]]: Mentioned as a distraction for online students, highlighting the need for intentional instructional design.
+- [[sources/_2LcG-3zCdY-dynamic-software-interfaces|Dynamic Software Interfaces]]: An entertainment company cited as an example of superficial personalization where layout remains the same for everyone, only imagery changes.
+- [[sources/_7bnpjJB9T0-yc-ultimate-job-guide-startup-stages|YC Ultimate Job Guide: Startup Stages]]: Known for high cash salaries and typically not offering equity.

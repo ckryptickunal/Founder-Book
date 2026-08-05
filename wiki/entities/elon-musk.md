@@ -2,7 +2,7 @@
 type: entity
 title: Elon Musk
 created: 2026-05-26
-updated: 2026-06-16
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -43,3 +43,5 @@ Entrepreneur, mentioned as someone whose essays Verun read, inspiring his startu
 - [[sources/vHMZImnBQBw-don-t-aspire-to-glory-aspire-to-be-useful|Don't aspire to glory. Aspire to be useful.]]: CEO of Tesla and SpaceX
 - [[sources/cRDOj4EZ9qo-the-elon-musk-of-baseball-how-startups-hit-grand-slams|The Elon Musk of Baseball: How Startups Hit Grand Slams]]: Entrepreneur behind SpaceX and Tesla.
 - [[sources/pg-the-origins-of-wokeness-the-origins-of-wokeness|The Origins of Wokeness]]: CEO of Tesla, SpaceX, and owner of X (formerly Twitter).
+- [[sources/A9JDkiYEhfY-the-case-for-data-centers-in-space|The Case for Data Centers in Space]]: CEO of SpaceX, whose vision for Starship and comments on solar energy are referenced as inspirations and validations for StarCloud's mission.
+- [[sources/oHwUD9b9_pg-zynga-founder-consumer-is-not-investible-right-now-thats-why-you-should-build-it|Zynga Founder: Consumer Is Not Investible Right Now - Thats Why You Should Build It]]: CEO of Tesla/SpaceX, cited for his 'founder mode' example (sleeping on factory floor) and vision for AI-generated games.

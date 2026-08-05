@@ -2,7 +2,7 @@
 type: topic
 title: Agentic AI
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -21,3 +21,4 @@ Discussion of AI systems capable of taking autonomous actions and making decisio
 - [[sources/RNJCfif1dPY-andrew-ng-building-faster-with-ai|Andrew Ng: Building Faster with AI]]: AI systems that perform iterative, multi-step tasks like planning, research, and self-critique.
 - [[sources/lqokpIme47A-the-finance-startup-bringing-agentic-ai-to-wall-street|The Finance Startup Bringing Agentic AI to Wall Street]]: AI systems capable of performing complex, multi-step tasks autonomously by interacting with various software tools.
 - [[sources/z0wt2pe_LZM-2024-the-year-the-gpt-wrapper-myth-proved-wrong|2024: The Year the GPT Wrapper Myth Proved Wrong]]: The evolution of AI from simple chat interfaces to autonomous agents capable of multi-step tasks and computer use.
+- [[sources/xpeRVyFFy_Q-solving-the-blank-canvas-problem-gusto-s-ai-co-founder|Solving the Blank Canvas Problem: Gusto's AI Co-Founder]]: Focuses on AI systems that can proactively take actions, automate complex workflows, and anticipate user needs, contrasting this with reactive, prompt-based AI interactions.

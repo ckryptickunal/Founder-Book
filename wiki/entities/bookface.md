@@ -2,7 +2,7 @@
 type: entity
 title: Bookface
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -19,3 +19,4 @@ Y Combinator's internal social network, described as 'Facebook for all the found
 - [[sources/45BvnJgwYjk-office-hours-with-sam-altman|Office Hours with Sam Altman]]: Internal social network for Y Combinator founders.
 - [[sources/EiRnSjcVIqk-inside-the-most-powerful-startup-community-in-the-world|Inside The Most Powerful Startup Community In The World]]: A private social network for YC founders and alumni.
 - [[sources/GctjcD17iI4-day-in-the-life-of-y-combinator-president-ceo-garry-tan-during-the-first-week-of-w24-batch|Day in the Life of Y Combinator President & CEO Garry Tan during the first week of W24 batch]]: Internal social network for YC alumni
+- [[sources/_FBivfgOvuE-how-to-get-your-first-10-customers|How to Get Your First 10 Customers]]: Y Combinator's internal social network where Max gathered founder experiences.

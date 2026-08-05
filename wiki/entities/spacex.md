@@ -2,7 +2,7 @@
 type: entity
 title: SpaceX
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -41,3 +41,7 @@ Aerospace manufacturer, Rob's past employer, used as a contrast to the antiquate
 - [[sources/tnBQmEqBCY0-elon-musk-how-to-build-the-future|Elon Musk : How to Build the Future]]: Aerospace manufacturer and space transportation company.
 - [[sources/u4mdcp6wIYo-astranis-just-successfully-launched-4-high-orbit-satellites-aboard-spacex-s-falcon-9|Astranis just successfully launched 4 high-orbit satellites aboard SpaceX's Falcon 9]]: Aerospace manufacturer and space transportation services company.
 - [[sources/dBULOo03cys-this-26-year-old-investor-funded-nadeshot-and-100-thieves-a-conversation-with-blake-robbin|This 26 year old investor funded Nadeshot and 100 Thieves: A conversation with Blake Robbins]]: Aerospace manufacturer and space transportation company.
+- [[sources/DbBnd9PYob4-the-model-agnostic-ai-platform-betting-that-no-single-lab-will-win|The Model-Agnostic AI Platform Betting That No Single Lab Will Win]]: Mentioned for its S1 filing, which revealed high margins, used as an analogy for the high margins of AI labs.
+- [[sources/A9JDkiYEhfY-the-case-for-data-centers-in-space|The Case for Data Centers in Space]]: Aerospace manufacturer and space transport services company. Provides launch services (rideshare, Falcon 9, Starship) and Starlink laser terminals, critical partners for StarCloud.
+- [[sources/99sPd15j3Zc-what-actually-makes-a-startup-durable|What Actually Makes A Startup Durable]]: An aerospace manufacturer, mentioned in the context of radio engineers.
+- [[sources/qz4GQ0zUFRw-world-models-jepa-and-the-path-to-sample-efficient-rl|World Models, JEPA And The Path To Sample-Efficient RL]]: Uses Model Predictive Control for rocket landings.

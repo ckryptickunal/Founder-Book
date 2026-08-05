@@ -2,7 +2,7 @@
 type: topic
 title: Unit Economics
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -24,3 +24,4 @@ The impact of easy capital on company performance and operational discipline.
 - [[sources/oWZbWzAyHAE-startup-business-models-and-pricing-startup-school|Startup Business Models and Pricing | Startup School]]: The importance of margins, customer acquisition costs (CAC), and lifetime value (LTV) in building a sustainable business.
 - [[sources/96HCCnhbKYM-sell-die-no-grow-profitably-how-ooshma-garg-and-gobble-did-it|Sell? Die? No. Grow profitably. How Ooshma Garg and Gobble did it]]: The shift from prioritizing customer acquisition cost to focusing on long-term retention and contribution margin.
 - [[sources/6cW2IdY6Hhc-master-dtc-marketing-learn-organic-vs-paid-acquisition-with-nik-sharma-ceo-sharma-brands|Master DTC Marketing | Learn Organic vs. Paid Acquisition | with Nik Sharma, CEO Sharma Brands]]: The importance of margin and profitability in marketing spend.
+- [[sources/_mKeVGSqQac-b2b-startup-metrics-startup-school|B2B Startup Metrics | Startup School]]: The profitability of individual customer transactions, with a strong warning against scaling businesses that have negative unit economics without a clear plan for improvement.

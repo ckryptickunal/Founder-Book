@@ -2,7 +2,7 @@
 type: topic
 title: User Experience (UX)
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -20,3 +20,4 @@ Designing for users who may be interacting with digital financial tools for the 
 - [[sources/DvXN7fRTVds-matt-cutts-on-the-us-digital-service-and-working-at-google-for-17-years|Matt Cutts on the US Digital Service and Working at Google for 17 Years]]: The importance of designing for the user, even in government and large-scale enterprise systems.
 - [[sources/uIYujpFmvo8-critiquing-ai-startup-websites-with-yc-president-garry-tan|Critiquing AI Startup Websites with YC President Garry Tan]]: Reducing friction in the user journey and building trust through design and social proof.
 - [[sources/ypzNhwpmOD4-how-stripe-built-their-new-website|How Stripe Built Their New Website]]: Focusing on the end-to-end journey of the customer and ensuring clarity and ease of use.
+- [[sources/_2LcG-3zCdY-dynamic-software-interfaces|Dynamic Software Interfaces]]: The shift from generic user experiences to hyper-customized interfaces tailored precisely to individual user workflows and preferences.

@@ -2,7 +2,7 @@
 type: entity
 title: Anthropic
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -44,3 +44,13 @@ An AI company mentioned for its focus on user interaction and product experience
 - [[sources/v73RSJi8-mY-browser-computer-automation|Browser/Computer Automation]]: AI research and safety company.
 - [[sources/wA0qC9D4LA0-the-best-ai-founders-in-the-world-are-moving-here|The best AI founders in the world are moving here]]: An AI safety and research company.
 - [[sources/z0wt2pe_LZM-2024-the-year-the-gpt-wrapper-myth-proved-wrong|2024: The Year the GPT Wrapper Myth Proved Wrong]]: Developer of Claude models.
+- [[sources/ALJQHSgCl2E-why-ambitious-startup-ideas-are-actually-easier-to-sell|Why Ambitious Startup Ideas Are Actually Easier To Sell]]: An AI research company mentioned as an example of a seemingly 'undefeatable' but ultimately human-run company.
+- [[sources/Ju8LVdvuxGM-india-can-create-the-largest-ai-companies|India Can Create The Largest AI Companies]]: AI research company, provider of Opus 4.5 model.
+- [[sources/DbBnd9PYob4-the-model-agnostic-ai-platform-betting-that-no-single-lab-will-win|The Model-Agnostic AI Platform Betting That No Single Lab Will Win]]: Another frontier AI lab, also considered a 'giant' in the AI space, mentioned for its competitive impact and entry into specific verticals.
+- [[sources/8OOuCnZB-4o-unknown|Unknown]]: AI research company, mentioned in context of Claude Code's success.
+- [[sources/99sPd15j3Zc-what-actually-makes-a-startup-durable|What Actually Makes A Startup Durable]]: An AI safety and research company, mentioned in the context of model routing.
+- [[sources/qyPCVqFUyDo-boris-cherny-we-cut-80-of-claude-code-s-prompt|Boris Cherny: We Cut 80% of Claude Code’s Prompt]]: The AI research and development company behind the Claude models.
+- [[sources/_O6x4ktK6JA-he-built-the-world-s-1-open-source-coding-agent|He Built the World's #1 Open-Source Coding Agent]]: An AI lab that developed Claude Code; its attempt to block Open Code inadvertently boosted Open Code's visibility.
+- [[sources/_mKeVGSqQac-b2b-startup-metrics-startup-school|B2B Startup Metrics | Startup School]]: AI safety and research company, whose services can be a 'cost of goods sold' for AI startups.
+- [[sources/_9SlOm6HHvg-this-is-the-holy-grail-of-ai|This Is The Holy Grail Of AI]]: A major AI lab exploring recursive self-improvement, typically by training new models for each step.
+- [[sources/_-5xJQ4U8g0-are-we-in-an-ai-hype-cycle|Are We In An AI Hype Cycle?]]: AI model developer, mentioned for Claude 3.5 Sonnet.

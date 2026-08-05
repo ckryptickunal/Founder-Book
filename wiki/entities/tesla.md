@@ -2,7 +2,7 @@
 type: entity
 title: Tesla
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -31,3 +31,6 @@ Electric vehicle and clean energy company.
 - [[sources/qnNHW6TYv5I-tim-brady-building-culture|Tim Brady - Building Culture]]: Electric vehicle and clean energy company.
 - [[sources/tnBQmEqBCY0-elon-musk-how-to-build-the-future|Elon Musk : How to Build the Future]]: Electric vehicle and clean energy company.
 - [[sources/wH3TKpALlw4-starting-a-company-the-key-terms-you-should-know-startup-school|Starting A Company? The Key Terms You Should Know | Startup School]]: Automotive and energy company
+- [[sources/I4B37S1dyQQ-jensen-huang-the-mindset-that-built-nvidia|Jensen Huang: The Mindset That Built NVIDIA]]: Automotive company that used Nvidia technology in its cars and now in its data centers for self-driving development.
+- [[sources/99sPd15j3Zc-what-actually-makes-a-startup-durable|What Actually Makes A Startup Durable]]: Elon Musk's electric vehicle and clean energy company.
+- [[sources/qz4GQ0zUFRw-world-models-jepa-and-the-path-to-sample-efficient-rl|World Models, JEPA And The Path To Sample-Efficient RL]]: Develops FSD (Full Self-Driving) technology, noted for its large fleet data collection.

@@ -2,7 +2,7 @@
 type: entity
 title: Coinbase
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -36,3 +36,7 @@ Cryptocurrency exchange where Kari Sarnin was the first designer, focusing on bu
 - [[sources/r8hhvw-1b-M-roll-your-way-to-a-startup-unicorn-lessons-for-founders|Roll your way to a Startup Unicorn: Lessons for Founders]]: A major cryptocurrency exchange platform.
 - [[sources/x5YApjnTG10-i-funded-coinbase-in-2012-making-6000x-on-my-best-startup-investment-yet|I funded Coinbase in 2012. Making 6000x on my best startup investment yet]]: Cryptocurrency exchange platform.
 - [[sources/kt9ScQvTqcU-silicon-valley-is-still-for-future-billionaires-with-elad-gil-legendary-investor|Silicon Valley is still for future billionaires (with Elad Gil, legendary investor)]]: Cryptocurrency exchange.
+- [[sources/M861XfrOR5s-the-best-time-to-build-in-crypto|The Best Time to Build in Crypto]]: A cryptocurrency exchange platform, mentioned as a major team funded by YC building in crypto.
+- [[sources/_oYJR6FNcdA-essential-startup-advice-during-a-pandemic|Essential Startup Advice During a Pandemic]]: Cryptocurrency exchange, built around the cryptocurrency platform.
+- [[sources/_-5xJQ4U8g0-are-we-in-an-ai-hype-cycle|Are We In An AI Hype Cycle?]]: Cryptocurrency exchange, YC-funded, example of an "enabling technology" in the crypto space with clear utility.
+- [[sources/_7bnpjJB9T0-yc-ultimate-job-guide-startup-stages|YC Ultimate Job Guide: Startup Stages]]: Example of a YC growth/scale-stage company.

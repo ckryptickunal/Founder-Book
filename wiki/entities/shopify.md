@@ -2,7 +2,7 @@
 type: entity
 title: Shopify
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -23,3 +23,5 @@ E-commerce platform for online stores.
 - [[sources/TwDJhUJL-5o-the-truth-about-building-ai-startups-today|The Truth About Building AI Startups Today]]: E-commerce platform.
 - [[sources/WvBSU4pjnX8-karn-saroya-on-the-capital-light-way-to-start-an-insurance-business|Karn Saroya on the Capital-Light Way to Start an Insurance Business]]: E-commerce platform.
 - [[sources/opkHJLVAM4A-billion-dollar-startups-are-better-faster-cheaper-lessons-from-amazon-instacart-uber-shopi|Billion dollar startups are better faster cheaper— Lessons from Amazon, Instacart, Uber & Shopify]]: E-commerce platform for online stores.
+- [[sources/5d6y3poKwK4-patrick-collison-is-ai-breaking-the-lean-startup-playbook|Patrick Collison: Is AI Breaking the Lean Startup Playbook?]]: E-commerce platform, mentioned as an example of a successful Stripe customer.
+- [[sources/_oYJR6FNcdA-essential-startup-advice-during-a-pandemic|Essential Startup Advice During a Pandemic]]: E-commerce platform, mentioned as a model for other businesses.

@@ -2,7 +2,7 @@
 type: topic
 title: Future of Work
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -23,3 +23,4 @@ Implications of AI on headcount, the role of middle management, and the redefine
 - [[sources/lWmDiDGsLK4-the-future-of-software-creation-with-replit-ceo-amjad-masad|The Future of Software Creation with Replit CEO Amjad Masad]]: The shift toward generalist roles and decentralized, network-based organizational structures enabled by AI.
 - [[sources/p7_jJRZIuiE-former-openai-cro-bob-mcgrew-thinks-that-two-jobs-of-the-future-will-be-genius-and-manager|Former OpenAI CRO Bob McGrew thinks that two jobs of the future will be genius and manager.]]: The evolution of job roles and organizational structures in an AI-integrated economy.
 - [[sources/vHSgntnaL-M-agency-and-independence|Agency and Independence]]: The evolution of human labor and skill sets in response to advanced artificial intelligence.
+- [[sources/V_gDce8hBrg-new-operating-systems-for-the-physical-world|New Operating Systems for the Physical World]]: Explores how AI and robotics are fundamentally changing the nature of labor and workforce composition in industries beyond traditional desk jobs.

@@ -2,7 +2,7 @@
 type: entity
 title: Zenefits
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -24,3 +24,4 @@ A cloud-based software company for human resources.
 - [[sources/bp_kMA-eTsE-advantages-of-a-first-time-founder|Advantages Of A First-Time Founder]]: HR software company founded by Parker Conrad.
 - [[sources/qNQk29B_oEo-laks-srini-on-making-homeownership-in-reach-with-zerodown|Laks Srini on Making Homeownership in Reach with ZeroDown]]: A former company where the founders of ZeroDown previously worked.
 - [[sources/M93xlPxQADE-parker-conrad-s-billion-dollar-startup-lessons-do-unscalable-things-then-scale-them-part-1|Parker Conrad's Billion Dollar Startup Lessons: Do unscalable things, then scale them (part 1)]]: A cloud-based software company that provides human resources and payroll services.
+- [[sources/8OOuCnZB-4o-unknown|Unknown]]: Parker Conrad's previous company, mentioned in the context of his experience.

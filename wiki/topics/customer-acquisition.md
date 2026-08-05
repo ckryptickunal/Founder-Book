@@ -2,7 +2,7 @@
 type: topic
 title: Customer Acquisition
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -22,3 +22,4 @@ Strategies for getting initial users, including manual outreach, leveraging pers
 - [[sources/wfyNj_hH5zQ-zip-co-founder-rujul-zaparde-on-going-from-0-to-1-with-enterprise-sales|Zip co-founder Rujul Zaparde on going from 0 to 1 with enterprise sales]]: Strategies for securing initial enterprise clients without existing network advantages.
 - [[sources/F-r6jL-oFXE-timebox-your-way-to-startup-product-market-fit|Timebox your way to startup product market fit]]: The process of bringing new users to a product, which requires testing multiple channels like SEO, SEM, and partnerships.
 - [[sources/6cW2IdY6Hhc-master-dtc-marketing-learn-organic-vs-paid-acquisition-with-nik-sharma-ceo-sharma-brands|Master DTC Marketing | Learn Organic vs. Paid Acquisition | with Nik Sharma, CEO Sharma Brands]]: The process of gaining new customers through organic and paid channels.
+- [[sources/_FBivfgOvuE-how-to-get-your-first-10-customers|How to Get Your First 10 Customers]]: Strategies and tactics for finding, engaging, and converting early customers for a startup.

@@ -2,7 +2,7 @@
 type: entity
 title: GitLab
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -22,3 +22,4 @@ A company known for its remote-first culture, which Revikat used as a model for 
 - [[sources/zF84IMiSP7I-mike-knoop-on-product-and-design-processes-for-remote-teams-with-kevin-hale|Mike Knoop on Product and Design Processes for Remote Teams with Kevin Hale]]: A large, fully remote technology company.
 - [[sources/zYCU5s9Ed0M-breaking-down-hackerrank-s-survey-of-40-000-developers-with-vivek-ravisankar|Breaking Down HackerRank's Survey of 40,000 Developers with Vivek Ravisankar]]: A remote-first software development company
 - [[sources/Mb5Fk1GXuEM-how-to-build-the-next-great-startup-with-remote-work-with-andreas-klinger-fmr-cto-of-produ|How to build the next great startup with remote work, with Andreas Klinger (fmr CTO of Product Hunt)]]: A remote-first software development platform.
+- [[sources/_yIAYZtdrfI-a-cs-education-that-s-free-until-you-get-a-job-austen-allred-of-lambda-school|A CS Education That's Free Until You Get a Job - Austen Allred of Lambda School]]: A successful remote-first company, cited as an example of making remote work a core innovation.

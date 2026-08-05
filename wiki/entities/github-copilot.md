@@ -2,7 +2,7 @@
 type: entity
 title: GitHub Copilot
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -23,3 +23,4 @@ An AI-powered coding assistant developed by GitHub and Microsoft.
 - [[sources/hQC5O3WTmuo-the-real-potential-of-generative-ai|The REAL potential of generative AI]]: AI-powered coding assistant.
 - [[sources/oOylEw3tPQ8-cursor-ceo-going-beyond-code-superintelligent-ai-agents-and-why-taste-still-matters|Cursor CEO: Going Beyond Code, Superintelligent AI Agents, And Why Taste Still Matters]]: An AI coding assistant.
 - [[sources/G4G5kNdOU40-applied-ai-for-pricing-you-can-t-be-everywhere-but-your-ai-co-pilot-can|Applied AI for Pricing: You can’t be everywhere but your AI co-pilot can]]: AI-powered coding assistant.
+- [[sources/_-5xJQ4U8g0-are-we-in-an-ai-hype-cycle|Are We In An AI Hype Cycle?]]: AI coding assistant, fastest-growing product for GitHub revenue.

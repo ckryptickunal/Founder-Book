@@ -2,7 +2,7 @@
 type: entity
 title: Reddit
 created: 2026-05-26
-updated: 2026-06-16
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -36,3 +36,4 @@ A social news aggregation and discussion website.
 - [[sources/s-4QqHHE16s-sam-altman-startup-investor-school-day-1|Sam Altman - Startup Investor School Day 1]]: Social news aggregation and discussion website.
 - [[sources/ugmjf0fJY84-michael-seibel-startup-investor-school-day-2|Michael Seibel - Startup Investor School Day 2]]: Social news aggregation and discussion website.
 - [[sources/pg-the-reddits-the-reddits|The Reddits]]: Social news aggregation and discussion website.
+- [[sources/e5-6rEwzxLs-dot-plots-how-to-actually-see-what-your-users-are-doing|Dot Plots: How to Actually See What Your Users Are Doing]]: Social news aggregation, content rating, and discussion website, mentioned in the context of user demographics (e.g., 'college kid that you just got on Reddit').

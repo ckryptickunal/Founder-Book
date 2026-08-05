@@ -2,7 +2,7 @@
 type: entity
 title: Brian Armstrong
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -24,3 +24,4 @@ CEO of Coinbase.
 - [[sources/UpbGbKQsTjc-coinbase-ceo-brian-armstrong-on-cryptocurrency-and-the-future-of-decentralization|Coinbase CEO Brian Armstrong on Cryptocurrency and the Future of Decentralization]]: Founder and CEO of Coinbase
 - [[sources/aAbw1IL96V8-coinbase-s-liftoff-moment-why-i-love-seed-investing-and-being-a-ceo-coach-shorts|Coinbase’s Liftoff Moment: Why I love seed investing and being a CEO coach #shorts]]: Co-founder and CEO of Coinbase.
 - [[sources/x5YApjnTG10-i-funded-coinbase-in-2012-making-6000x-on-my-best-startup-investment-yet|I funded Coinbase in 2012. Making 6000x on my best startup investment yet]]: Co-founder and CEO of Coinbase.
+- [[sources/_oYJR6FNcdA-essential-startup-advice-during-a-pandemic|Essential Startup Advice During a Pandemic]]: CEO of Coinbase.

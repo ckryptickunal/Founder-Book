@@ -2,7 +2,7 @@
 type: entity
 title: LinkedIn
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -27,3 +27,5 @@ A business and employment-oriented social media service, mentioned as less impor
 - [[sources/wfyNj_hH5zQ-zip-co-founder-rujul-zaparde-on-going-from-0-to-1-with-enterprise-sales|Zip co-founder Rujul Zaparde on going from 0 to 1 with enterprise sales]]: Professional networking platform.
 - [[sources/w19IBxDu2Y4-how-to-operate-with-keith-rabois-how-to-start-a-startup-2014-lecture-14|How to Operate with Keith Rabois (How to Start a Startup 2014: Lecture 14)]]: Professional networking platform.
 - [[sources/ysz1xLMd37Y-reid-hoffman-at-startup-school-sv-2016|Reid Hoffman at Startup School SV 2016]]: Professional networking platform.
+- [[sources/oHwUD9b9_pg-zynga-founder-consumer-is-not-investible-right-now-thats-why-you-should-build-it|Zynga Founder: Consumer Is Not Investible Right Now - Thats Why You Should Build It]]: Professional social network, mentioned alongside Facebook.
+- [[sources/_yIAYZtdrfI-a-cs-education-that-s-free-until-you-get-a-job-austen-allred-of-lambda-school|A CS Education That's Free Until You Get a Job - Austen Allred of Lambda School]]: Professional networking platform, used in Lambda School's curriculum for teaching networking and informational interviews.

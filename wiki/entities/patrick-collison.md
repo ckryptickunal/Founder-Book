@@ -2,7 +2,7 @@
 type: entity
 title: Patrick Collison
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-08-06
 sources: []
 tags: []
 ---
@@ -29,3 +29,7 @@ CEO of Stripe.
 - [[sources/bvjyaz4ZiVI-how-top-1-founders-navigate-co-founder-conflict|How Top 1% Founders Navigate Co-founder Conflict]]: Co-founder of Stripe.
 - [[sources/kTS7OIAMunM-hiring-and-culture-with-patrick-and-john-collison-and-ben-silbermann-htsas-2014-11|Hiring and Culture with Patrick and John Collison and Ben Silbermann (HtSaS 2014: 11)]]: Co-founder of Stripe
 - [[sources/ypzNhwpmOD4-how-stripe-built-their-new-website|How Stripe Built Their New Website]]: Co-founder of Stripe
+- [[sources/ALJQHSgCl2E-why-ambitious-startup-ideas-are-actually-easier-to-sell|Why Ambitious Startup Ideas Are Actually Easier To Sell]]: Co-founder of Stripe, mentioned for his long-term founder mentality and focus on enjoying his role.
+- [[sources/5d6y3poKwK4-patrick-collison-is-ai-breaking-the-lean-startup-playbook|Patrick Collison: Is AI Breaking the Lean Startup Playbook?]]: CEO and co-founder of Stripe, co-founder of Automatic, and the primary speaker in the interview.
+- [[sources/_iM9Ts_3qEk-fermat-s-library-cofounders-joa-o-batalha-and-lui-s-batalha|Fermat's Library Cofounders João Batalha and Luís Batalha]]: Co-founder of Stripe, mentioned for his idea about annotating books.
+- [[sources/_yIAYZtdrfI-a-cs-education-that-s-free-until-you-get-a-job-austen-allred-of-lambda-school|A CS Education That's Free Until You Get a Job - Austen Allred of Lambda School]]: Co-founder and CEO of Stripe, quoted for his insight on inspiring humans.
