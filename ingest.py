@@ -445,7 +445,7 @@ def discover_transcripts() -> list[Path]:
         if not child.is_dir() or child.name in SKIP_DIRS or child.name.startswith("."):
             continue
         for path in child.glob("*.txt"):
-            if not path.name.startswith("_"):
+            if path.name != "_new_urls.txt":
                 paths.append(path)
     return sorted(paths)
 

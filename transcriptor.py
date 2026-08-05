@@ -287,7 +287,7 @@ def mode_full_channel():
     with open(metadata_path, "w", encoding="utf-8") as f:
         json.dump({"channel": channel_title, "channel_id": channel_id, "videos": videos}, f, indent=2)
 
-    existing = [f.replace(".txt", "") for f in os.listdir(output_dir) if f.endswith(".txt") and not f.startswith("_")]
+    existing = [f.replace(".txt", "") for f in os.listdir(output_dir) if f.endswith(".txt") and f != "_new_urls.txt"]
     remaining = [v for v in videos if v["id"] not in existing]
     print(f"Already downloaded: {len(existing)} | Remaining: {len(remaining)}")
 

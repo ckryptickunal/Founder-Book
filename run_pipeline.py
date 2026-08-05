@@ -65,7 +65,7 @@ def discover_transcripts() -> int:
     for child in BASE_DIR.iterdir():
         if not child.is_dir() or child.name in skip_dirs or child.name.startswith("."):
             continue
-        count += sum(1 for p in child.glob("*.txt") if not p.name.startswith("_"))
+        count += sum(1 for p in child.glob("*.txt") if p.name != "_new_urls.txt")
     return count
 
 

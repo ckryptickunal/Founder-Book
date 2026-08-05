@@ -165,7 +165,7 @@ def known_ids_for_folder(folder: Path) -> set[str]:
     known: set[str] = set()
     if folder.is_dir():
         for p in folder.glob("*.txt"):
-            if not p.name.startswith("_"):
+            if p.name != "_new_urls.txt":
                 known.add(p.stem)
     state_file = folder / "_extract_state.json"
     st = load_json(state_file, {})
