@@ -1,5 +1,11 @@
 # Founder Book
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
+[![Powered by Gemini](https://img.shields.io/badge/Powered%20by-Gemini-8E75B2.svg)](https://ai.google.dev/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![GitHub stars](https://img.shields.io/github/stars/ckryptickunal/Founder-Book?style=social)](https://github.com/ckryptickunal/Founder-Book/stargazers)
+
 **A self-hostable, LLM-maintained knowledge base built from how founders actually think.**
 
 Founder Book is a free, open-source tool that turns founder YouTube talks and essays into a
@@ -358,6 +364,10 @@ the existing wiki and reading essays works without it.
 - **Code:** released under the [MIT License](LICENSE).
 
 Contributions welcome — see [`CONTRIBUTING.md`](CONTRIBUTING.md).
+
+⭐ **If Founder Book saved you from re-watching a 40-minute talk for one answer, consider
+[starring the repo](https://github.com/ckryptickunal/Founder-Book)** — stars are how other
+founders discover it.
 
 ---
 
