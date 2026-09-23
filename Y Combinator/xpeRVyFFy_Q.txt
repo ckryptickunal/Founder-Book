@@ -1,0 +1,1039 @@
+Title: Solving the Blank Canvas Problem: Gusto's AI Co-Founder
+Video ID: xpeRVyFFy_Q
+URL: https://www.youtube.com/watch?v=xpeRVyFFy_Q
+Channel: Y Combinator
+Published: 2026-07-08T14:00:19Z
+Duration: PT32M27S
+Views: 21651
+Likes: 378
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 1023
+
+============================================================
+TRANSCRIPT
+============================================================
+
+[music]
+>> I'm here with Eddie Kim, Gusto's
+co-founder and head of technology.
+Gusto was in YC's winter 2012 batch and
+recently crossed a billion dollars in
+annual revenue and now serves over
+500,000 small businesses in the US.
+In fact, one in five new businesses
+started today are Gusto customers.
+Today, we're going to talk about a new
+product they're releasing, which Eddie
+actually built himself, called Gusto
+co-founder, which uses AI to automate
+running a small business. Welcome,
+Eddie.
+>> Thanks for having me.
+>> Cool. So, why don't we start I mean,
+actually, tell us a little bit about
+what exactly is Gusto co-founder. What
+does it do and who is it for?
+>> Yeah, so simply put, uh, Gusto
+co-founder is for small businesses and
+it will automate most of the business
+processes that a small business has. Um,
+many of the things they're already doing
+on Gusto, but Gusto co-founder can take
+those things and automate it fully. So,
+anything from, you know, running their
+payroll uh, from start to finish,
+approving time off, reminding your
+employees to submit timesheets, or even
+things outside of Gusto. Uh, one example
+I like to give is texting you if it's
+going to rain today, cuz if you have a
+business that's like a tour guide
+business where it's highly dependent on
+the weather, you want to know that and
+then have Gusto co-founder actually
+email all of all of your customers for
+the day to let them know that it's going
+to rain and they should bring an
+umbrella.
+>> I mean, I think that's actually a really
+interesting point. Like, you guys are in
+a unique position cuz you build for
+small businesses. They're really less
+technically sophisticated than a lot of
+the customers that, um, at least
+certainly
+YC companies today or other technology
+companies are building for. So, what do
+you see as some of the challenges when
+you're trying to design a product for a
+small business owner, um, and especially
+an AI product that's, you know,
+living at the edge?
+>> Yeah, I think
+one of the issues that I see is,
+especially, uh, for small businesses, is
+they really still use AI as sort of a
+glorified search engine. Kind of ask it
+a question, they'll it'll reply.
+Uh the more advanced small businesses
+out there, and I would argue like not
+just small businesses, but like most
+people who are using AI, the more
+advanced version of this is like maybe
+you have it
+um do some research for you, generate a
+report, or summarize something that you
+wrote, right? Or author something. But
+they're still kind of largely like I
+have this like thing I have in mind, and
+then I'm expecting a response from it.
+And this is like sort of a a agentic
+world that we've been promised has never
+really materialized for most people out
+there. I think there's like the tech
+world that's on the cutting edge, folks
+that are like creative enough to come up
+with all these ways to automate, you
+know, all parts of their lives. But the
+remaining 99 99.9%
+um are still kind of like using this as
+a glorified search engine. And so what
+we wanted to do with Gusto co-founder is
+bring all of these like agentic promises
+that we were received that we received
+uh and turn them into into reality. And
+so one of the ways that we've done that
+with Gusto co-founder is instead of
+starting with like a open claw type
+experience where
+uh it has a lot of powerful
+capabilities,
+um but it has a main has a prob- has a
+problem which I call the blank canvas
+problem. We actually start with
+all of the things that Gusto's already
+solving for our customers. You know,
+those are things in payroll, HR, time
+scheduling. And then we sort of
+suggest ways that we can automate their
+running payroll, their approving of
+timesheets. These are things that
+they're doing sort of on a regular
+basis. You know, payrolls run once a
+week usually for hourly if you have
+hourly employees or twice a month if you
+have salaried employees.
+Um and we we'll suggest ways that we can
+actually take it end to end without the
+user even having to like log into Gusto
+and and run their process.
+>> Um something I'm really curious about is
+cuz you guys are already at like massive
+scale. Um
+How What is it from the inside? What
+does it look like trying to get a
+product like this is essentially new
+product like trying to get it out there?
+Like um
+How did you come up with the idea and
+then just how do you sort of at your
+scale again like sort of figure out if
+this is something customers want? Like
+how does it live alongside the existing
+product and just that cuz I feel it's so
+much more it's probably more complex
+there's more pieces at least than if
+you're just like starting from scratch
+and it's like you and your co-founders
+building it on day one.
+>> Yeah.
+The original idea came from when uh I
+actually set up an open claw myself.
+>> Me too.
+>> And like probably like you like I spent
+8 hours just setting the the thing up.
+Um I had to buy a Mac mini cuz at the
+time of the world where you could still
+get a Mac mini so I was able to actually
+get a Mac mini within 2 days. Um
+installed everything on it. I wanted to
+make sure you know I heard all the
+horror stories of it deleting people's
+email so I was like very careful to air
+gap it and I set up this you know pretty
+solid secure open claw which only like
+an engineer could could really do
+um and once I had like
+set all of that up um
+I kind of really didn't know what to do
+with it right? I actually found myself
+also using it as sort of a glorified uh
+search engine right? And I thought there
+were some really cool aspects of this
+like there were like the ability to like
+just text
+was like sounded so simple and like not
+that like innovative to me at the time
+but when I actually like had hands-on
+experience like doing it myself it was
+just like kind of like this is such a
+way better experience to like interact
+with AI than having to open up a web
+browser and and like log in to like uh
+Claude or or or ChatGPT.
+>> I like I had exactly the same experience
+with my open claw and I've just like
+been saying this a lot around here at
+least that I am.
+People just really underestimate chat as
+the interface and if anything I found
+that as I try to build out more
+functionality from Open Claw, like as an
+engineer or a tech person, your natural
+inclination is always oh, I can like let
+me add more functionality or let me make
+the client better so that I know so it
+has a project management view or
+something like that, but I think in the
+world of AI you actually want to figure
+out ways to make the agent smarter so
+that you can do what you want from
+Telegram without needing like a fancy
+UI.
+Has that kind of played out for you
+guys?
+>> Yeah, absolutely. The other learning by
+the way was like, you know, everybody
+it's not the first time I heard about
+this. Like people were saying like yeah,
+the ability to like talk to this thing
+with Telegram is pretty cool and you we
+read about it and there's like it was
+lots of people making YouTube videos
+about this.
+And but then you really don't get it
+until you actually set it up yourself
+and you actually have hands-on
+experience. And that was like one like
+important learning of like it is really
+important to still get into the weeds.
+Like if you're a technical leader, you
+should be coding, but if you're not, you
+should also be like not just be reading
+about these things like Open Claw, but
+you should be
+you know, going out there and setting it
+up yourself. Because like I just
+realized that there's this big gap
+between like what you read about and
+what you actually experience, right?
+They're the same thing, but like that
+this like you they're they're completely
+different experiences.
+>> I agree. So how did you go from kind of
+hobbyist interested in Open Claw, let's
+see what this can do to
+the initial idea for co-founder and
+building version one of that?
+>> Yeah, so I had set this all up and you
+know, had my Open Claw running.
+Actually went on vacation.
+Went to Madrid and on my way back at the
+end of vacation, my layover was in
+London and I actually missed my
+my the the the second leg of the flight
+that was flying from London to San
+Francisco. And so then I had all this
+time.
+I I kind of pissed, but I had my
+computer on me and I was like, you know,
+writing a lot of code using Cloud Code.
+And I was just kind of like blown away
+at what you could do with Cloud Code and
+like I could just literally just kind of
+like share my intent of wanting
+something and then Cloud Code would
+build it for me. So then I asked myself,
+why can't we bring this power into the
+hands of our customers? Why do they have
+to wait for Gusto to, you know, build
+its road map and deliver to our
+customers? Why can't our customers
+actually like say, I want this from
+Gusto, put in a prompt and Gusto
+actually builds that experience for
+them. So I kind of had that idea like
+kind of percolating in my in my mind.
+And finally, because of this missed
+flight, like I actually had 5 hours of
+like uninterrupted time where I could
+actually try to build this. So I, you
+know, took out my computer, I used Cloud
+Code, actually built a prototype of this
+in that 5-hour like sitting in the
+lounge at the airport. And I was pretty
+I was pretty excited about what I had
+built. And so when I got back
+to work, I started showing it to a few,
+you know, engineers, designers,
+our leadership, and I spent the next
+couple weeks kind of just sort of
+refining that idea.
+And through conversation, it sort of
+evolved like there are pieces of this
+that like we really liked, pieces of
+this that like didn't work so well, and
+eventually led to the start of
+development of of Gusto Co-Founder.
+>> What did that first prototype API just
+have some more
+what did it what did it do and then how
+did you shape it with the team?
+>> Yeah, so it was really just a, you know,
+a
+a chat
+prompt. The customer would say, I want a
+user experience where I can
+send out a form to my employees and they
+can fill out the survey. Or I want to
+build a to-do tracking application. Or I
+want to build a CRM. So literally the
+customer would just say like I want this
+and the prototype that I had built would
+actually build
+the a web app essentially. And it would
+use our, um,
+Gusto design system, so it actually look
+like Gusto had actually built it. And
+then it would just be like an
+application that they would add to
+Gusto. So, you can like literally have
+any application that you wanted.
+>> And is all the context and data being
+pulled on from what uh their Gusto
+account, or do you have to go elsewhere?
+>> The use case for this prototype was
+really just like a CRUD
+it it was a CRUD, uh, web app builder.
+It like wrote code, it saved it into a
+database column somewhere, and then it
+would just like execute that code
+whenever you visited that that page. So,
+it didn't actually, uh, and then I I
+added like the ability to like store
+data, but it would be like the data that
+you would bring in into it.
+>> Cuz that seems like a huge advantage for
+you and any company that's in, I guess
+now it's been called like the system of
+record, but like you have you already
+have a ton of data, um,
+on the businesses. [clears throat]
+At least where you're talking about Open
+Core, personally for me I found the
+unlock of Open Core is once I found a
+way to kind of securely give it access
+to things like my email and use
+embeddings, and just it has lots of
+context on me, like
+>> Right.
+>> personally, professionally,
+>> Yeah.
+>> it can it just orders of magnitude more
+useful. As I'm get like
+for your customers, like how how does
+how does it sort of use the context that
+you have on them already to
+>> Right.
+>> help them do things?
+>> Yeah, and and so the prototype was
+really cool. Like we had this ability to
+like build any kind of like CRUD-based
+web app for our customers, but you're
+right, it didn't like really leverage
+anything about what we knew about the
+customer. It didn't like, you know,
+populate it with data that we know about
+the customer. And so that's how this
+idea sort of like went from prototype
+and and it sort of evolved to being less
+about like building an actual web app,
+um, to building more, uh, workflows uh,
+that we would automate for our customer,
+right? So, we do have a lot of data on
+what customers are doing on Gusto. Uh,
+we have some data on, you know, what you
+know, ba- what based on like what
+industry they're in, like if they're a
+dentist, like what things they would
+typically want to automate, uh, as, you
+know, someone in that vertical. We so,
+we have all all this data like in
+aggregate across all of our customers
+and then also like for each individual
+customer what they're actually doing on
+Gusto. And so, the idea sort of evolved
+to like, what if instead of building a
+prompt that builds you a web app uh we
+leverage a prompt plus the data that we
+have about our customers uh to build
+them an automation for a business
+process that they're doing every single
+week. And so, that ultimately became the
+uh that's the main concept of Gusto
+co-founder which is centered around an
+automation. And Gusto co-founder has
+many automations for a customer and they
+run on sort of a heartbeat that, you
+know, gets triggered on a regular basis.
+Um that code by the way
+Yeah, and so, like I mean part of that
+was also like when I was setting up Open
+Co I was like curious how it worked. So,
+it you know, it's open source so, I just
+read the source code of like, how is it
+actually like running this like
+automation for me?
+And it was like surprisingly simple.
+It's a cron job that runs an LLM every
+30 minutes. And that's exactly how it
+works in Gusto co-founder, right? So, it
+wasn't even just like some of the
+concepts of like, you know, being able
+to text it through SMS or talk to it
+through Slack but it was literally some
+of the like technical designs
+uh of co-founder were heavily inspired
+by some of these tools that I started
+using personally.
+>> will say the Open Co heartbeat idea is
+great but I found that um
+it's it's not actually I end up in like
+having to write a lot of just cron
+scripts like um
+outside of the gateway myself cuz it's
+just like not um there's some things you
+actually want to be deterministic.
+And so, like payroll probably one of
+those things.
+>> Exactly, yeah. And like I found the
+heartbeat um not being deterministic
+means it's like probably going to fire.
+Like if I tell it to like do something
+in the morning it'll probably do it. I
+just can't guarantee like when exactly
+it's going to do it.
+>> Exactly, yeah. Yeah, so I actually for
+that exact reason we kind of started
+with a heartbeat. We kind of like
+improved on it and added like multiple
+different ways to like trigger a job.
+So, like there are like also
+in Gusto co-founder the ability to just
+schedule a job via a regular cron,
+right? And actually will detect if this
+is a type if the thing that the
+customer's asking for is more suitable
+for a cron versus like running a you
+know, a prompt every 30 minutes, which
+also can get pretty expensive.
+>> Yeah.
+>> [laughter]
+>> Um I think you guys are in such a unique
+position given your customer base. So,
+some things I'm also curious about from
+just like a sales and talking to the
+customer perspective. Um
+AI feels like it's such a hot topic in
+the enterprise world right now. Like
+everyone knows what like a workflow is
+or what tokens are and what their token
+budget and it's just sort of like in the
+consciousness.
+I'm imagining when you like your
+customers,
+I'm sure they've read about AI, but they
+probably haven't like I don't know if
+like automating workflows means as much
+to them. So, how do you when you first
+go and show these products to them? Like
+do you do you have to think about
+messaging it differently? Like
+Yeah. Like you just what's that process
+like?
+>> I I think
+businesses on Gusto like are I think
+we're pretty in a pretty unique
+situation because the things that people
+do on Gusto are sort of recurring tasks
+like running payroll, like approving
+time off, like things that they do week
+in and week out. And they know that it
+actually wastes a lot of their time.
+Um so, running payroll is actually like
+a pretty involved process that usually
+involves you know, exporting data from
+one system,
+uh manipulating that data, and then
+putting it into Gusto, and then running
+payroll. So, for example, like there's a
+business like a massage
+uh spa business that um I talked to, and
+they export data from Mindbody, they put
+into Google Sheets, they have all these
+calculations on how that data from
+Mindbody gets translated into
+uh commission, tips, and
+um and hours, and and things like that.
+And then, and only then, they put it
+into Gusto,
+and they run payroll. That last part is
+obviously like very, very simple and
+straightforward, but it's all like kind
+of like this work before the work that
+takes them a lot of time, and they do
+like literally every single week, right?
+And so, when you like actually talk
+about this to your customer, like they
+actually instantly get it because they
+have so many of these like, "I do this
+every week. Like it's on my calendar,
+and it takes me like 1 hour every single
+week." And if
+Gusto co-founder can just like do this
+for me, and it just texts me like a
+summary with a final approval where I
+just say yes or no
+over either SMS or Slack, like they
+actually really get that. It doesn't
+really take much like selling at all.
+>> Yeah, that makes a lot of sense. And
+actually, I guess now I'm you're hearing
+you talk about it, I realize there's um
+there's a headwind you don't have, which
+is if you're selling into sort of like
+an an enterprise, there you never see
+face some resistance from people maybe
+worrying about how it's going to affect
+their jobs, and like what it like
+uh what it means for their role in the
+company. Whereas, if you're working with
+small businesses, it just seems like
+it's all upside cuz none of them want
+presumably want to be like exporting
+data out of my body and putting it into
+QuickBooks or or whatever.
+>> Yeah, totally. They just want to be able
+to do more with less. Like small
+business owners, they're
+entrepreneurial, they're scrappy,
+they're like founders, right? And so,
+like anything that you give them that
+can like save them time so they can go
+spend more time on like building their
+business. Like that's that's that's a
+that's a that's a hard yes for them.
+>> Yeah, I'm curious on that front,
+extending it out. Like
+what do you think happens? Like this
+product
+Co-founder successful, which I'm sure it
+will be, frees up a lot of time for the
+these small business owners. Kind of
+where do you think that time goes, or
+maybe what are going to be knock-on
+effects of that?
+>> I mean, I think they're going to, you
+know, spend this time looking for ways
+to grow their business, like expanding
+into more products, thinking a little
+bit more about strategy, how do they
+expand? So, all of a sudden, it like
+frees them up to do all these things
+that uh they want to do, but they just
+didn't really have time to do. I think
+that's like step one of like what we're
+trying to do with Co-founder. Step two
+is like we also want it to be like and
+the reason why we called it Co-founder
+is we want it to be more than just a
+business process automator. We want it
+to actually proactively let the customer
+know about things that, you know, they
+aren't doing that they should be doing,
+right? That can range from like
+compliance tasks to like, you know, um
+stay, you know, make sure that they're
+aware of like the latest that's
+happening in like business compliance.
+But, another is like, "Oh, you're doing
+some qualified research
+in your business.
+There's a tax credit that you can get
+that the government offers called the
+R&D tax credit. Um based on what I'm
+seeing in your company,
+you're probably eligible for this, and I
+can fill out the forms for you and make
+sure that like you get this credit. Just
+I just need you to kind of like review
+it and and like let me give me
+permission to go. Let me do that." And
+like that business owner might say,
+"Wow, that's amazing. Like I didn't
+really know that existed. Go ahead and
+do that for me, right?" And that's
+that's not a hypothetical story. Like
+there was a company called Cabana Pools
+that like we actually found them $50,000
+in R&D tax credit. They didn't really
+know that that was possible.
+>> I bet you guys are in a really
+interesting spot to like you like level
+up the businesses, too. Like in another
+lifetime, I used to build software for
+eBay power sellers. Um and I found that
+um
+there's like there was like a sliver of
+power sellers who understood the value
+of like software and tools to, you know,
+like automate listings. Right? In
+particular, what they would do is look
+at their um
+like listings in the same category and
+just constantly checking like the
+pricing and if they were priced
+appropriately.
+>> Right.
+>> Um
+but they they those were like the like
+top 1% of technically sophisticated eBay
+power sellers. I just like now you guys
+are in a good position where you could
+just take any small business and give
+them like market intelligence. Like what
+like what should you be selling? Like
+how could you optimize your business?
+>> Yeah. Yeah. I mean, one of the
+automations I saw was um every week like
+take a look at what my competitors are
+doing and and generate a report for me
+and give me some suggestions on what I
+could do
+to stay ahead, right? That's like one of
+the like more creative automations that
+I've seen.
+But, you know, there's also no reason
+why we shouldn't be able to like say,
+"Oh, you're an eBay seller, like
+this is what you should be doing, right?
+And and then kind of like
+ask the user if we can run this for them
+like every week. That's a great example
+of like kind of maybe more of a
+proactive business partner
+that Gusto Co-Founder could become.
+>> How's it going so far? Like how many Can
+you share anything about how many
+businesses are using it and what
+anything that surprised you?
+>> Well, so we just launched it and we
+added 500 customers to to Gusto
+Co-Founder. And before that, we had like
+a kind of a pre-launch with
+We We call it a small business council,
+like a really small group of like 20
+customers that we give like really early
+access to to things to to give it
+feedback. And the feedback has been
+incredible. Like as expected, like they
+everybody is blown away by the ability
+to run everything I'm doing on Gusto
+through text message, right? This is the
+same experience. So, same experience I
+had with Telegram with Open Claw, like I
+saw it in their face when when when we
+when I said, you know, try this thing,
+give us the phone number and like
+put in the eight-digit code to set it to
+set up the connection. And now you can
+like run your payroll or contractor
+payment through through text message,
+right? So, that was like one like very
+clear feedback that we got. Like this is
+incredible. Like I can do this
+anywhere I'm at and it's so accessible.
+It's been really cool to see just the
+automations that that companies are
+creating.
+It's been What's been surprising is a
+lot of the automations don't necessarily
+have to do with things that Gusto is
+already doing for them. So, obviously
+like the obvious ones are like payroll,
+time approvals, expense approvals,
+things like that. But like if, you know,
+like you're you're a tour business, like
+text me the the what text me every
+morning if it's going to rain um today
+and if so, send an email to my customer
+list, which sits in this Excel file
+here, and let them know to bring an
+umbrella for today's tour, right? That's
+like has nothing to do with what Gusto
+does for them at all, but is absolutely
+possible in what people are doing with
+with Co-Founder.
+>> Um what's next? Any what what's next in
+the road map for Gusto Co-Founder?
+>> Uh there's so many things. Like right
+now we have SMS and Slack. I want to add
+like a lot more channels.
+Um so I do want to add things like uh
+Telegram. I think a lot of businesses do
+things uh through WhatsApp.
+>> a big [clears throat] one.
+>> SMS is kind of a pain because like
+you're just limited on the on the
+character count. So like just having
+Telegram or WhatsApp, I think it it
+are going to be like really important
+channels. We want to add a lot more we
+call uh connectors, which are like right
+now today we have things like QuickBooks
+and Notion and Google Workspace.
+Um but there's a lot of like vertical
+specific connectors. Um I heard of a
+company I was talking to a dent- dental
+practice that uses um a patient
+management system called Curve Dental.
+And so like why couldn't we get
+information in and out of there?
+Um so there's probably like hundreds of
+connectors that we could be um adding. I
+I think we're in this mode where we're
+just going to really observe what people
+are doing and you know, it's it's almost
+like when we launched where
+we we don't really know exactly how
+people are going to use it, but
+uh we're going to let the customers
+guide how we evolve the the road map.
+>> Yeah, I mean I might a lot of what
+you're talking about right now seems
+like it you it will also pour fuel on
+the fire or help someone's existing
+business, but I wonder if there's ways
+to take it just get more people starting
+businesses who wouldn't have done
+>> Yeah. Done otherwise.
+>> Yeah. Yeah, and and actually uh one of
+the things that we want to do in our
+next version of this is open it up to um
+people that don't necessarily have a
+company today. Uh right now you have to
+be a payroll admin on Gusto on it's
+basically have to be an administrator
+for a company uh to use Gusto
+Co-Founder. But we actually built it we
+built the data models in a way where
+that doesn't necessarily have to be
+true. You could use Gusto Co-Founder
+even if you don't have a EIN yet, right?
+So if you're thinking about starting a
+business or maybe you already have like
+a side hustle, like you should be able
+to use Gusto Co-Founder to automate and
+help you grow that business. And of
+course at some point like your business
+grows and you might say to Gusto
+Co-Founder like can you help me get an
+EIN or can you help me register to be an
+employer in California and we would go
+do all that for you because we actually
+already have those capabilities as a
+company.
+>> How has this product launch felt
+different for you personally? Like I'm
+now you've always been obviously very
+close to the product and
+and things are launching but I'm
+guessing now like in the era of vibe
+coding you're able to like like you
+could build the prototype yourself
+versus like trying to get a team to
+rally around it.
+>> That to me was even more mind-blowing
+than like kind of the what we built is
+like kind of how we built it.
+So obviously it started with this like
+prototype.
+I just kind of like showed a few of our
+engineers and designers and ultimately
+just kind of like organically roped them
+into working on this thing for me. So
+one big change was like I was
+This is actually built by five people,
+five AI builders over the course of 10
+weeks.
+From start to finish. Just a
+whiteboarding session and 10 weeks later
+like we went to through a full-blown
+like tier one launch in the company.
+That would never have been possible I
+think without AI. And it was and the
+fact that it was just done with five
+people was also like equally and I was
+one of the five
+to
+in this team was even more mind-blowing
+to me.
+And so yeah, I mean I think with AI just
+the level of like that someone like me
+who hasn't been hasn't coded in many
+many years like
+that's it's just changed so
+dramatically. And then we also had we
+had it was four engineers and one
+designers one designer.
+Uh and this designer like was
+contributing as much code as any of the
+engineers.
+>> Right.
+>> And it was really, really cool to see a
+designer actually be able to like write
+like production grade code. And then
+also like engineers really be
+comfortable with designing, right? And
+what happened is the engineers would
+kind of let's just like prototype
+something, like do their best at design.
+They wouldn't be afraid of They wouldn't
+get their, you know, wrist slaps because
+they didn't, you know, design something
+perfectly or use Figma in the beginning.
+Um and the designer would
+know how to use cloud code enough to
+sort of like refine it and make it look
+really, really good, right? And at the
+same time designer would like
+she wants some functionality, she would
+write the code. Um and it was pretty
+good, but then the engineers would then
+take that and like sort of like get it,
+you know, the rest of the way there. And
+so you kind of have this like merging,
+like designers are going more in
+engineering and engineers going more
+into design. And so the craft really
+became secondary and everybody's like
+shared
+like responsibility was literally to
+write and commit code. And we did that
+for 10 weeks and we were able to like
+move with speed I'd never seen before.
+>> What's your advice to other people
+running companies already at scale and
+they're trying to figure out how do we
+like get that kind of product velocity
+and how do I like um
+get my team more AI filled?
+>> It's something that I'm talking a lot
+about and and we're discussing a lot at
+the company. Like what are what what can
+we learn in the process of how
+Guesstimate was was built?
+Um and I think a lot of it is kind of
+like defined a little bit by like what
+did we Not necessarily what did we
+change, but it's more actually what did
+we not do. We didn't have meetings, we
+didn't have any text backs, we didn't
+have any Figmas. We set the goal of like
+we're not going to write any docs. Now,
+I wouldn't recommend that for every
+single part of the organization,
+uh but for what we were doing, which is
+like kind of a zero to one type thing,
+like all we had If we didn't have like
+Jira board, we didn't have like sprint
+planning, we didn't have retros.
+Uh we just had a uh literally the only
+thing that we had was one um perma-zoom.
+So, we had a Zoom meeting that was going
+24/7. Uh people would just like hop in
+and out. And um and Claude code, lots of
+Claude code tokens. And that was
+it. Like it was almost more defined by
+like what we didn't do versus like what
+we changed in in how we build software.
+>> And it was funny cuz I in a in a sense
+there
+there's no docs cuz you don't sort of
+sit down and formally write the docs and
+the specs. But like in a way there's
+more documentation ever cuz like the
+transcripts of Claude code are
+effectively like documentation of like
+thoughts and then direction.
+>> Yeah, and another thing we learned is
+that like I I mean first of all like all
+of all of us, myself included, threw
+away so much code, right? So, you would
+have an idea and before discussing it or
+writing a doc about it, I would just
+like literally open up a pull request
+for it. Then I would go to the Zoom and
+be like, "Hey, like I made this thing.
+Like what do we all think about it,
+right?" And I'd say like there's a good
+percentage of time it's like actually
+like that's not what we want. We just
+delete that code. And that's okay. Like
+that actually if you do that and like
+you have a hit rate of 50% it actually
+is significantly faster than like trying
+to like
+you know, write a PRD and a Figma and
+like getting a green light and like all
+that stuff. Like it actually it all that
+stuff ends up taking longer than like
+just trying to write it three three
+different ways and you know, picking one
+of the three.
+>> One of the things we've been talking or
+debating at least internally at YC is
+now I mean
+AI makes it so cheap to write code, like
+you said, that a clear benefit there is
+that you can just get your ideas out
+there and and discuss something
+tangible. Um
+uh a downside is like now it's so cheap
+you could build like why only build one
+thing? You could build like 10 things.
+And um we've been debating whether
+that's actually good or not. Like do you
+actually
+in the world of AI is it better to try
+and build 10 things at once because you
+can or should you still be trying to do
+one or two things well? I'm just curious
+if you have any thoughts on that.
+>> I think you still have to be really
+disciplined about like what the product
+looks like. Like if anything you have to
+be much more disciplined than than
+before.
+So in that sense like you can't just say
+oh I could I could throw every like you
+know bell and whistle into this thing
+and give it to our customer.
+>> Yeah you have a lot more things to say
+no to now like
+>> Exactly yeah which makes it in some ways
+a lot harder. But I think the the way
+you get to that like really disciplined
+set of functionality that you ultimately
+give to your customers I think the best
+way to do it is to actually like write
+the code in every single like
+permutation that
+that you can think of and then have a
+discussion about it. When you just sort
+of like talking about it like from like
+a
+product requirement or UXR type
+perspective there's actually a lot of
+information you lose when you don't
+actually have the implementation
+in front of you. And so I don't know if
+you necessarily make a better decision
+by like kind of having a bunch of
+meetings and writing a bunch of docs and
+running a bunch of user research up
+front because it's you're still missing
+like a
+huge part of the input which I think is
+the actual implementation cuz you learn
+so much in term when you actually like
+implement something.
+>> Yeah I think there's a certain kind of
+like high bandwidth there's sort of like
+this data that you get from like just
+high bandwidth one-on-one conversations
+with customers and watching them
+use something that at least yeah Claude
+like
+doesn't quite have like the AGI to to
+replace humans on that.
+>> Right yeah
+yeah.
+>> Like you were saying like essentially
+now we live in this age of abundance
+right like we can think anything we can
+make it happen um
+as engineers we've like we're learning
+to channel that but how um what's your
+advice for maybe small businesses like
+now it seems like uh it's an easier time
+than ever to start a business run a
+business um
+what's your what's your advice to them
+to make the most of this opportunity?
+>> Yeah I mean I I think we've been on the
+secular trend for the past 15 years
+where it's become easier and easier to
+start a small business. I think Gusto's
+been a part of that story with you know
+making parts of the back office like
+running payroll a lot easier than it was
+before.
+And now I think with AI like it's like
+kind of a step function easier than even
+before to start a business. All these
+things that
+you still had to like that were easier
+to do all these business processes
+compliance setting up benefits figuring
+out like arcane HR rules like all that
+stuff
+was still work for a small business
+despite it being much easier than it was
+before.
+But now with AI like I think you can
+literally like automate many of these
+things and like focus on what business
+owners want to do most which is like
+just really focus on you know building
+their products getting more customers
+growing growing their business and so
+and we're seeing it in the data right
+we're seeing it in census data of like
+how many business applications the
+government is receiving like more and
+more people are seeing this as a viable
+path for them to pursue.
+>> I mean I think it's like a great time to
+just on the flip side also just be a
+consumer like we're just going to have
+more goods and services to choose from
+than ever so it's just kind of like a
+pretty amazing time to be alive.
+>> Yeah, totally. And I love small business
+because like it's just like I don't know
+like you walk around Dogpatch here and
+just walking down like 3rd Street and
+seeing all the like
+random and quirky businesses that like
+just I don't know it just makes it so
+much more interesting to live in your
+communities.
+>> Cool. Okay, well Andy thanks so much
+really excited to see where Gusto
+co-founder goes. That's all we have time
+for today. So
+>> Thanks for having me.
+>> [music]
+[music]

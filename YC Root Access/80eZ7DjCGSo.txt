@@ -1,0 +1,783 @@
+Title: How Warp Went From YC to a $60M Series B
+Video ID: 80eZ7DjCGSo
+URL: https://www.youtube.com/watch?v=80eZ7DjCGSo
+Channel: YC Root Access
+Published: 2026-06-26T14:30:09Z
+Duration: PT26M58S
+Views: 7246
+Likes: 129
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 767
+
+============================================================
+TRANSCRIPT
+============================================================
+
+I'm excited to be joined here today by
+Ayush, founder and CEO of Warp. Warp is
+an AI native employee management
+platform built for high-growth
+companies. They work with over 1,000
+customers and have processed over $600
+million in payroll in the past year and
+are on track to pass $2 million in the
+next 12 months.
+Warp did YC in winter 2023 and they just
+announced their $60 million series B led
+by Battery Ventures with participation
+from Sapphire, Peak XV, and Shopify CEO
+Toby Lutke, and former Stripe COO Claire
+Hughes Johnson.
+Today, we're going to talk about their
+origin story and what it actually means
+to be an AI native product and company.
+Ayush, thanks so much for being here.
+>> Pleasure to be here.
+>> So, Ayush, I actually want to start um
+by hearing a little bit about your
+background and how you grew up cuz I
+think you have a very unusual entry into
+technology and startups. I find that
+actually really inspiring story.
+>> Yeah, I grew up in a really small town
+in India and in a place where I didn't
+know a single person who had gone to the
+US. So, there's a fun sort of journey
+and story there which the short version
+basically is that I, growing up, I was
+really into physics. So, as early as I
+can remember, I was trying to borrow
+textbooks from upperclassmen and I
+remember um finding Richard Feynman's
+lectures on physics, the the classic
+three three volume
+>> ones or the the whole the whole easy
+peasy the full actual the actual Feynman
+on physics.
+>> Actual lectures, the the one he gave on
+Berkeley which it was uh turned into
+textbooks later on. Um
+and
+I, as I was growing up, I that was like
+sort of I I really thought I would go on
+to become a theoretical physicist and a
+professor at one day. Um and then sort
+of life came comes at you, you know, the
+Indian middle class family expectations
+and I was told that the only way to kind
+of escape the middle class sort of fate
+in life in India, where I was growing
+up, is you have to become an engineer
+and go to an IIT, which are these top
+schools in India. And I was
+doing really well, and I was on a
+straight track to go to one of the top
+three schools in India. And halfway
+through that prep, I just completely
+sort of pivoted and changed my mind and
+sort of behind the backs of my parents
+and family. There's a reason for that,
+I'll get to in a second, but
+I ended up applying to MIT, which is
+where I knew Richard Feynman had went.
+So, that's the connection. And um
+fortunately, I sort of the way it worked
+out, I got into MIT, I got into Columbia
+to study computer science, math,
+physics. So, I spent about 5 years back
+at MIT specializing in machine learning.
+But overall, I think like the fun kind
+of statistics that I can share is I
+think I'm the first person out of out of
+a state in India that has about 250
+million people to get into MIT for
+undergrad. So, it was quite fun. That
+was about 10 years ago, and now we're
+here.
+>> I remember before Warp, you were sort of
+trying out different startup ideas, and
+maybe I think I remember some of them in
+the consumer space. So,
+tell us a little bit about that. Like,
+kind of how did you go about trying to
+come up with the initial startup ideas,
+and then
+yeah, why the sort of like the pivot
+from consumer to um
+payroll and B2B?
+>> Yeah. So, at first, you know, I was I
+must have been 24, I think, when I was
+really looking into what to do first.
+And like most 24-year-olds do,
+you try to start a social app.
+Especially a couple years ago.
+>> Um this is pre pre-AI, right?
+>> Yeah, there was a lot of things like a
+roommate finder, there's bill splitting,
+like events.
+>> All the tarpit ideas that Y Combinator
+made five videos about, right?
+>> Yeah.
+>> Um but I think I just wanted to build a
+thing that I found interesting, or like
+I would have used. And so, I got sort of
+into building this app. It was really
+fun for a couple months, and we had an
+interesting community, and people
+joining it. It allowed me to get started
+and just make the leap of like we're
+just going to build something and see
+what happens. But at the same time I
+think very quickly it became clear that
+it wouldn't become a really big company.
+And that's when we sort of had this fork
+as like, okay, um me and then the early
+team members that we had at the time, uh
+Adam who's our CTO, we just sit sat down
+and we're like, okay, what are all the
+problems that we have faced in the in
+the past and in doing this that we could
+come up with. So kind of really went
+down and kind of did this very
+low-pressure exercise of what are all
+the problems we've actually run into
+that we think we'd want to solve for
+ourselves. And one of the things that we
+kept coming back to was um in starting
+the previous thing I actually had to set
+up like a company, a C corporation, and
+try to pay some people. And I just
+remember one of the days that I spent at
+the guy had all these fires going on in
+the company and then on top of that I
+had to um figure out how to make like a
+New York withholding and Department of
+Labor's account. Um and it was one of
+the most frustrating things I ever spent
+my time on. I was like, there's no way
+nobody I has come tried to completely
+automate this. And uh I think the early
+background I had coming from machine
+learning and this is right like 2022-23
+when LLMs and agents were just about to
+take off and I think it was sort of
+interesting to consider what if we apply
+AI and LLMs towards this and
+could we automate this in a way that
+nobody has before? And that's the start
+of the work.
+>> How did you think about that as a
+problem? Like how excited were you to
+work on that problem I guess? Like you I
+think part of the reason why I think
+especially young technical founders
+start on sort of consumer ideas is
+because they the things they want to use
+and they're excited and um
+and attention-grabbing. Um
+how did you like what motivated you to
+want to solve this particular problem on
+it on surface it might not be as um
+obviously interesting.
+>> I think in some ways I was motivated to
+start it because it is unsexy.
+And Paul Graham of course has this
+really foundational essay on Schlep
+Blindness. And I I remember thinking
+about that that so many of these
+problems hide in plain sight and nobody
+really tries to attack them because they
+seem really messy, complex, and unsexy
+at the start. And I think the classic
+example being the Collisons with Stripe.
+Nobody was really sort of like finding
+it sexy to figure out all the edge cases
+with million banking APIs that were very
+janky at the time.
+But it needed to be solved and I think
+so one motivation was simply that this
+seems like the kind of problem that is
+very messy, hairy, and not sexy on the
+surface. But counterpart of that, I
+think the more we learned about it, the
+more we went a little bit looking into
+it, we found other people who had run
+into the same problem. So it's like,
+okay, we're not the only person that is
+thinking that this is really bad, the
+current state of the world here. And
+two, we saw a path to using that towards
+building a really big platform for all
+things employment management. And that
+was sort of the controversial idea at
+the time is that we could actually use
+this multi-state complexity, taxes, deep
+compliance workflows towards building
+that entire platform.
+>> You're entering a pretty competitive
+space. Like lots of there's legacy
+payrolls, there's recentish startups
+that have done well. Um
+That's what the making it easy to run
+payroll in multiple states was the
+initial wedge.
+How did you know that that was like
+going to be a sufficiently like deep
+wedge?
+>> So I I have a funny story here. When
+we were thinking of applying to YC, I
+think I had DM'd you actually and you
+encouraged us to apply.
+>> I didn't even I didn't remember that at
+all. That's
+>> Yeah, yeah. It's it's been a while,
+right?
+But and and you said, yeah, definitely
+apply. So wrote an application, then we
+were invited for an interview. And it
+was the first batch that Garry Tan had
+come into YC. And so I I hop on this
+interview and there's five people on
+that Zoom call on the other side
+including you, Gary, and a couple of
+other partners. And I remember the next
+10 12 minutes were just like brutal.
+Really like I was I felt like I was
+being grinded on the spot. And that's
+maybe the typical experience, but I
+really felt that. And
+one of the big questions exactly was
+this like how big can you really use
+this wedge to kind of grow
+from here? And is it really a true sort
+of problem in which that you can kind of
+find enough of foothold on? And um
+at the time, I think it was a bit of a
+hypothesis on our part that like this is
+a reasonable wedge into this broader
+segment. And looking back, I think in
+some ways we were got a little bit
+lucky, I think. But the the sort of like
+the
+the calculated part of that hypothesis
+was that
+all the companies were multi-state very
+earlier on as opposed to just a few
+years ago before COVID, for example,
+where that was much rarer. So, the trend
+line was just going up, right? The
+complexity
+um
+was exploding. And number two, um we
+realized something, kind of a
+non-obvious thing that YC has funded
+some sales tax startups, and I think
+there's a parallel version of this
+problem in sales tax. But uh it's
+actually much worse when you look at
+payroll taxes because unlike sales tax
+where there's usually these generous
+thresholds for when you are beholden to
+those requirements, like you have to
+reach a certain amount of sales that's
+quite high, or you have to like enough
+enough sales or enough customers in the
+jurisdiction. But in payroll, you just
+need one person. You just need to hire
+one person in one jurisdiction, and you
+have to comply with the entire tax
+jurisdiction apparatus. So, that kind of
+thing, it just means like the moment you
+are scaling company, you just have one
+person. And combined with thousands of
+tax jurisdictions, that complexity
+really ex- explodes very quickly. So,
+those two things I think it ended up
+working in our favor that it became
+enough of a wedge at the right time to
+kind of use that and also apply LLMs and
+agents to something that traditional
+software couldn't touch.
+>> So, as a company's involved and the
+vision's involved, like you're you
+describe yourself now as AI native
+employee management cuz you do more than
+just payroll, but um
+what does that mean exactly? Kind of
+let's talk about that for just like the
+product. Like what does it actually mean
+to be an AI native product?
+>> I think one big realization we've had is
+that one, we have to build a whole
+platform and it became very clear to us
+that as our customers were in many cases
+like early on we had signed up a lot of
+startups cuz they tend to be early
+adopters.
+They were going through the exact like
+compliance multi-state problems
+and they didn't have full like HR or
+legal or accounting teams internally
+that would try and maybe DIY that stuff.
+So,
+those early customers, they sort of
+pushed us as they were growing
+themselves to just gave us the direction
+of okay,
+I want as we're going from like five to
+10 to 50 to 100 to 200, they they kind
+of gave us the road map of what exactly
+they would need at these different
+stages of those companies and
+they wanted Warp to do all of it. So, it
+became clear to us that we needed to do
+more than just initial payroll,
+especially if we wanted to serve these
+scaling high-growth companies throughout
+their entire
+>> life cycle.
+>> And two, I think the bigger maybe
+realization was we have to build a
+product and a platform and the
+architecture in a very AI native agent
+native way such that all the work here
+that we're doing starting with this very
+like deep tax compliance workflows
+can all be performed by an agent. And
+that's the kind of I think efficiency
+gain that we're really focused on is
+if you're a high-growth company and
+today we serve tons of really fast
+growing AI native startups and customers
+like Serval, Blend AI, Graphtile,
+Reducto, and many many of which are
+really cool YC companies, of course, but
+also traditional high growth companies,
+mid-market, and now some enterprise
+customers as well. And I think the
+pattern that we continue to see is these
+customers, they are not interested in
+linearly scaling their people ops, HR
+ops, finance teams as their company is
+scaling. And that's where I think we
+want to be the entire platform for these
+customers that allows them to do that.
+>> So, as like, you know, you're you're
+very involved in product and as you're
+building the product, just again, help
+people understand
+when you're thinking about building like
+these new sort of units or product
+units, what is it and what does it mean
+to sort of do that in like an AI native
+way? Like what maybe like give us like
+what's like what's like the the on the
+one hand, here's kind of the AI native
+way to approach building like a tax
+compliance, and here's like the the
+regular way to do it. And help us
+understand the diff.
+>> Great question. So,
+a traditional way of building an HR tech
+company that has compliance requirements
+baked in, um that you have to solve for
+all your customers, was purely by head
+count. And so, one of the things you
+notice is if you look at our legacy HR
+incumbents, um if you look at their head
+count and where their head count is,
+often, um it's very surprising that like
+30 to 40% of their head count goes in
+functions like support, tax compliance,
+operations, um accounting, legal. And
+this is relatively similar between all
+the last generation HR tech companies.
+Um in contrast, Warp, uh we serve now
+over 1,000 customers. We process over
+600,000 in payroll already, growing
+quickly. We touch every single tax
+jurisdiction that exists in America, and
+there's over 1,000, uh without going
+into the super locality municipalities.
+Um all 50 states, and we have, up until
+recently we had only one one and a half
+tax person, one full-time, one
+part-time. And now we've hired the
+second full-time tax person, more
+because we're anticipating the future
+growth, but I think that's sort of tells
+you and kind of points the picture of
+how I think we're able to build a
+different kind of company, not just a
+different product, cuz I think it's a
+very different structure of the company
+itself if you can use AI to automate
+these previously really messy things
+that software couldn't touch. Um and
+that's why we get really excited about
+it.
+>> For someone starting like an AI-native
+company,
+um you know, the advantage you have
+against incumbents is
+it's like green field. Like you can you
+can sort of
+build a new set of primitives and have
+you one for like the world that we live
+in today. On On the other hand, like
+incumbents in any space, they they build
+up a lot like institutional knowledge,
+have been working with the customers for
+a long time. Like a bunch of those the
+people there do have like sort of like
+experience and expertise. Like how do
+you think about sort of your advantages
+and disadvantages maybe as sort of an a
+new um a new entrant in a space using
+sort of like um
+AI-native as the as the angle?
+>> I think that net net,
+I believe that with AI,
+it's in favor of
+technical founders.
+And what I mean by that is if you looked
+at the last era, like pre-AI, sort of
+the the late-stage SaaS, where it felt
+like the the terminal state of software
+was this like SaaS and mega SaaS
+software. It had gotten quite boring in
+some ways. I don't think I would have
+started a company in that era
+necessarily in this direction.
+And in that time, I think the advantages
+were really towards like mega
+distribution, sales-oriented
+founders. And you kind of see that in
+the backgrounds of those companies that
+got started. And I think today, it in
+really with AI, it really shifted the
+power sort of the balance where younger,
+more technical founders with deep
+technical knowledge of the frontier,
+they can sort of see where this is
+headed and they don't have these ideas
+and kind of like how things are supposed
+to be. They can kind of shed those older
+norms and kind of build something that
+new. And I do think that is net net
+where this is headed right now. But at
+the same time, I think to your point,
+like the incumbents with distribution
+and look lots of these channels and
+partners that exist. And I think it is
+one of those situations where it's a
+classic will the incumbent adopt this
+new technology in in this platform shift
+before the the new entrants figure out
+how to become the next generation
+entrants and big software companies. And
+I think that as as a startup founder,
+my belief in this space is that it is
+very hard to retrofit AI on top and just
+kind of layer these sort of thin
+chatbots on top of existing architecture
+and existing customer bases and install
+bases. And in some ways I think the
+market's recognizing that. I think if
+you look at work something like Workday,
+which is the
+the last generation mega enterprise
+company in our space, it's down 60-70%
+from their current top from their recent
+highs. And
+I I think
+that to me is under appreciated right
+now. Something else that
+with in general for talking about AI and
+its impact on startups that gets
+mentioned a lot is this concept of
+systems of record. This idea that
+you know, you mentioned so Workday is an
+example late stage SaaS company.
+It feels like the belief right now is
+that at least consensus conventional
+wisdom
+is a lot of SaaS is not defensible
+against AI disruption that there just
+won't be any need for it. That systems
+of record will be defensible. That they
+they just have real moats against
+agents doing all the work in this AI
+future. I think what would be classified
+as a system of record. Um maybe just
+explain to us like what does that
+actually mean? When people talk about a
+system of record, what is that? And why
+is that sort of theoretically defensible
+against um sort of future where AI
+agents are removing the need for
+software?
+>> So, a system of record
+is basically a database where there's
+some amount of semantic mapping to words
+a process that the that business uses.
+And so, in in very simple terms, storing
+values,
+knowing for sure that the values are
+true,
+being able to see those histories and
+logs and all these things that everybody
+in a company can agree on. That's a
+system of record.
+>> Shared truth.
+>> Shared truth. That's a great way to put
+it. In the the classic example, of
+course, is Salesforce where um it is the
+shared truth for our business for all
+things that touch sales processes. So,
+your CRM
+is is in many ways like I think um we we
+actually
+quick anecdote, we we started and tried
+out some AI native platforms
+for our CRM in the early days, but as
+soon as we started growing the sales
+team and went aggressive on that after a
+series A, the head of sales was like,
+"We got to get on Salesforce." Because
+we are missing out all these 20
+integrations to all these tools, right?
+Very very classic. I think like many
+companies have gone through that. I I do
+think that
+there are
+different systems of records have
+different degrees of like how quickly
+how defensible they are. And so far, I
+found that like actually Salesforce CRMs
+are actually quite defensible.
+But in general, I I think what's
+interesting is um
+we
+it there's a bit of a race where the AI
+native upstarts
+can they become the next generation
+system of records faster than the
+current incumbent system of records can
+layer on AI on top of their current
+systems.
+>> Thanks Aaron and then but like do you
+have any sense of kind of what what does
+that what's the next generation system
+of record like why is that going to be
+different why won't it be sort of you
+know
+essentially just a database with some
+semantic mapping on top of it?
+>> The reason I think company like Workday
+is really down and suffering is because
+the worry is that they are at at risk of
+becoming a database-only company and in
+not not in a good sense where like yes
+they are ClickHouse for example is a
+lovely database company growing really
+quickly and so on but more so that it's
+a dumb data store that agents from
+external parties just access to do the
+work. And then if that's the case all
+the value moves to the layer that's
+orchestrating the work with agents. So I
+think the next layer that we are excited
+about building is is effectively what is
+the
+in systems of intelligence not just
+systems of record where agents can
+natively act on the underlying database
+with that shared truth in mind with
+proper guardrails workflows
+permissioning controls but it all has to
+sort of map out in a way that I think
+the underlying system of record combined
+with the agents is where I think the
+interesting stuff is going to happen and
+what will be defensible cuz I I there's
+an interesting chart I think Mentlify
+for example was talking about this is a
+cool company that most of the API docs
+are now being read by agents and I fully
+believe that I think most of the
+internal systems and like system of
+records will be swarmed by these agents.
+>> I think it was a couple of weeks ago
+announced that like you know total agent
+traffic like a total web traffic from
+agents surpassed human web traffic for
+the first time.
+>> And I think we've yet to see true
+enterprises into enterprise software
+become
+like that flipping is yet to happen, I
+think, but it will happen and I think
+what Warp wants to do is build that
+version that's super powerful, capable
+system of record platform that is
+on day by day one from day one built
+with intelligence in mind.
+>> Make something agents want.
+>> Yeah.
+>> Basically the mantra around here. Okay,
+so let's talk a little bit about the
+series B. You just raised a big round,
+60 million dollars. It happened really
+quickly actually, right? So tell us
+what did Battery see that made them move
+with like such high conviction and uh
+make such a big bet on you?
+>> Well, ultimately you'd have to ask
+Battery, but
+I think the from where I see it,
+we ended up getting preempted. This was
+just less than 10 months after our
+series A.
+I think interesting shift happened in
+the last couple of months where
+it we went from not thinking about what
+does the AI native future here look like
+to
+sort of appreciating this that if you
+look at the true enterprise software
+categories like for example CRM, there's
+number of AI native challengers.
+Some are growing really quickly. If you
+look at something like ITSM, Serval was
+now a customer
+is doing really well and growing quickly
+and couple of other companies. And ERP,
+there's Relay Campfire which is a YC
+company as well, but I think ultimately
+one of the last categories remaining
+there where there isn't a clear sense of
+what comes after or like these a true AI
+native challenger is AI native HCM. And
+I think that's where Warp comes in and I
+I do think that the reason the round
+happened really quickly. Yes, we've been
+shipping a lot. We've built out a really
+cool platform
+and our customer growth has been
+amazing. We're signing some awesome
+customers, but I think when it comes to
+investors, I do think these tend
+sort of there's a little bit of that
+narrative flip that happens in certain
+times where
+it goes from very very like far-fetched
+to us like you can see that maybe this
+is the future and I think that people
+sort of feeling that a little bit more.
+My that's my guess of why it happened
+very quickly.
+>> You've got a bunch of money now, so what
+what you plan to do with it? What kind
+of
+what can you do now that you couldn't do
+before and then what are some of the
+things you're personally most excited
+about on the product roadmap for Warp?
+>> So now that we have 60 million
+and more actually from most of the funds
+we had from our series A as well, we
+decided to raise a little bit of a
+bigger round because
+I think this next phase of where we're
+about to head, there's two really big
+and important things we have to
+accomplish. Number one is we have to
+build an incredibly engineered, really
+powerful and still very usable,
+delightful platform
+for all things employee management,
+which means there's multiple product
+lines, there's IT, there's benefits
+brokerage, we became fully licensed
+countrywide to broker healthcare,
+medical, dental, vision, 401Ks, life
+insurance, etc.
+We have built out our own device
+management software, one of the only
+we're besides Rippling, one of the only
+companies that has done that in-house
+ourselves. We have built out global
+contractor products
+offer letters, traditional HRIS things
+and so on, right? So there's quite a bit
+of breadth in the platform and we have
+to keep building those with all the
+integrations to other softwares and ERPs
+and things like that, but in parallel,
+we also have to build the agents and the
+infrastructure for AI to natively act on
+all of it, on all employee data that's
+in Warp. And so that means the the most
+capable agent harness
+that can reliably and with user trust
+act on their very sensitive tax,
+payroll, employee data. And so those two
+things, we don't see them as being able
+to pick one or the other. I think we
+just have to do both. And that's where
+um I think this bigger round helps us to
+kind of catapult into the building the
+engineering team, the platform, the
+product for that next phase.
+>> Any so specific things in that with
+within all of that that you're you're
+personally really excited about?
+>> We're about to launch in the next couple
+of weeks um full GA release of the Warp
+customer agent. And what that means is
+um historically we tended to use AI in
+the back as background agents a lot to
+automate workflows on taxes and
+compliance and filings uh and
+restrictions a lot in the background,
+but we've built enough infrastructure
+now to give all of that to the
+customer's hand as well. And so, what I
+mean by that is anything that you can do
+in Warp uh by clicking buttons uh
+period, you can now do with the agent.
+So, the advantage of that is going to be
+to be able to very easily and very
+efficiently create these more complex
+workflows such as like when an employee
+joins in New York, uh
+add them to this uh healthcare plan,
+create add them to this sick leave
+policy that is New York compliant, and
+provision their devices and apps, and um
+make sure that they complete the New
+York security training, and so on and so
+forth, right? So, all of that you can
+just script that via natural language,
+not some like really complicated
+code-like builder, which historically is
+how this was done. And then uh be able
+to do that very very very efficiently
+without having to know how to code. And
+I think that is where I'm personally
+very excited about. I think we're seeing
+some interesting use cases emerge from
+our top customers already. So, very
+excited to do that for all our customers
+soon.
+>> Great. Okay. Well, Ayush, I think that's
+what we have time for today.
+Congratulations again on raising the
+round, and I'm really excited to see
+where Warp goes from here.
+>> It's been great to have you as a partner
+and YC on this journey. So, um thank you
+so much for having me.
+>> Mhm.

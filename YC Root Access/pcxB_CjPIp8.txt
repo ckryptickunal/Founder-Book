@@ -1,0 +1,229 @@
+Title: Improving Small Language Model Reasoning With A* Search
+Video ID: pcxB_CjPIp8
+URL: https://www.youtube.com/watch?v=pcxB_CjPIp8
+Channel: YC Root Access
+Published: 2026-08-06T17:35:21Z
+Duration: PT6M12S
+Views: 648
+Likes: 23
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 213
+
+============================================================
+TRANSCRIPT
+============================================================
+
+[music]
+>> We're here with Alex at our inaugural
+YCML at Startup School. Alex, tell us
+what you're working on.
+>> So, today I'm going to be talking about
+my recently submitted paper to AISTATS
+and it was accepted to NeurIPS workshop.
+It's test time scaling for LLM reasoning
+via our method of A* search.
+So, the main problem we focus on is LLM
+reasoning. However, specifically for
+smaller language models. In a lot of
+cases, small language models are
+actually preferred to LLMs because of
+lower cost, lower latency, and also
+lower compute required. However, small
+language models actually lack the
+complex reasoning skills that larger
+language models have. This begs our like
+main research question, how can we
+provide high-quality reasoning to
+resource-constrained models?
+>> Makes sense.
+>> So, previously there was two avenues for
+solutions. There was distillation and
+then Monte Carlo tree search or other
+tree search methods. So, distillation,
+essentially, you transfer knowledge from
+a larger teacher model, say like a few
+hundred billion parameters, to a smaller
+like learner model or student model,
+right? However, this has some issues.
+For example, you have to have access to
+a large teacher model and also run the
+model. And then also this training
+process also takes compute, resources,
+time, etc. So, it isn't the most
+convenient for a lot of applications of
+small language models. Additionally,
+there's tree search methods such as
+MCTS, where you have an LLM sample
+multiple paths, evaluate them, and then
+choose, for example,
+uh the most correct or most like highly
+rated uh answer. However, a lot of times
+evaluation actually requires external
+reward models, which are difficult to
+train and then also host because they're
+external, of course.
+>> not have that.
+>> Yes, of course.
+So, at a high level, I'll talk about
+what our method does, test time A*. So,
+we still like to view reasoning as a
+search or a tree search in this case,
+and we want to find the correct answer
+or in this case the destination node.
+For example, in this picture, say 60 is
+the uh correct answer, we want to
+traverse the tree and get to 60.
+However, instead of using external
+reward model, we use the model's own
+self-critique as a heuristic. And in
+this case, it allows us to traverse the
+tree without any external uh reward
+models.
+>> Need to define self-critique.
+>> So, for example, right? Say I ask an LLM
+to answer 5 + 5, right? And then it says
+10. And I ask the model, the same model,
+"Okay, this is the question, this is the
+answer. What would you give it on a
+scale of 0 to 100?" This is a
+self-critique, for example, right?
+>> Cool.
+>> If it was like if it said if it said 10
++ 10 is 5, it would be wrong.
+And then we use this uh we search the
+tree using an A*-inspired cost function
+that in in uh includes a score from this
+like self-critique here.
+>> Okay, cool. Makes sense. So, the
+self-critique is part of the value
+function.
+>> Of course. Yes. This is a diagram. So,
+essentially, you start off with a
+question, and then you uh generate the
+root node of the tree, and then you have
+this iterative cycle where you generate
+children to a selected node, and then
+you keep exploring based on the
+currently high Oh, sorry, currently
+lowest cost uh node, which is generated
+using this formula, which I don't think
+there's time to go into that. And then
+you essentially traverse the tree till
+you reach like a
+like a solution like the correct
+solution node, and then you obviously
+output the final answer.
+>> So, what's the intuition for why the
+self-critique improves this here?
+>> Um so, essentially,
+you see here, this 34 is lower than the
+71. In this case, they're the same
+depth, so the only factor
+differentiating them is the critique,
+right? So, this part of the tree has
+been essentially pruned because we saw
+this uh the LLM was critiquing that its
+own LLM realized this uh like answer was
+essentially hallucinated almost. Or it
+can keep exploring here because, of
+course, it was much like higher than
+this. Yes. So, this can be actually seen
+better in this example with a like a
+word math word problem. So, first you
+generate the root node, which is just an
+LLM call call to this answer. And then
+at each step, you expand it into two
+branches, two children,
+uh using just uh this in the prompt, and
+then the self-critique in the prompt.
+Additionally,
+you just uh traverse the tree. In this
+case, you can see the final answer, the
+correct one is on the bottom left. Does
+this visualize it as well?
+>> Makes sense.
+>> Awesome, yeah.
+Uh and then for experiments, we uh check
+on some various mathematical reasoning
+benchmarks, including GSM8K and Math
+500. Here's GSM8K. and red is our
+methodology. You can see here it
+increased the reasoning accuracy
+compared to these other test time
+scaling methods.
+>> briefly explain what GSMA 8K is?
+>> So it's a mathematical reasoning data
+set that's around high school level. It
+depends like what you define, but it's
+just like basic mathematical reasoning
+problems.
+>> So these are basically like
+off-the-shelf small models and these are
+ones in which you use your research
+methods.
+>> So it all uses the same model. It's plan
+3 4 billion. However, these are just
+other algorithms to test time to do test
+time reasoning. Yes.
+However, of course with test time
+scaling there's a big concern
+you're using obviously more time and
+also more resources to increase
+accuracy. So we did an ablation to see
+for the amount of tokens and amount of
+time are we being efficient how much
+we're actually improving the accuracy of
+the model. So on the right is the tokens
+and on the left is the time. So for the
+same amount of tokens in purple is us.
+We actually increased by two to sorry
+three to four percentage points and on
+the right for the same amount of time
+we're also increasing by three
+percentage points. This shows that not
+only are we just sorry we're not just
+only increasing the time used or just
+other like kind of cheating factors
+almost. Yeah.
+Additionally,
+if you want to see the raw numbers,
+yeah.
+And as for that paper and then this is
+some ongoing work. I'm still working on
+LM reasoning. However, more I'm now more
+focused on RL LM reasoning as
+specifically causal RL. So classical RL
+is mainly based on correlation. However,
+like if I'm driving a car for example
+and I turn right and I crash into a
+tree, I know that that turn of the wheel
+is what crashed the car, right? But in a
+lot of aspects of LM agents, there's a
+lot of like moving parts. The LM can't
+always like assign credit to where
+credit is due and it's actually known as
+the problem in RL as credit assignment.
+It's a very like big open problem.
+>> of NCTs as your iteration method you're
+using RL.
+>> Well, this is for an ongoing this is new
+work. Yeah, this is separate from test
+time scaling. Yeah.
+It's just working on counterfactual
+reasoning to essentially isolate like
+and give credit to credit assignment
+to create like agents that go from just
+like like correlation to knowing like
+cause and effect cuz correlation is not
+causation and to have true intelligence
+true reasoning agents you need like this
+causation like you need this
+understanding yeah. And then in terms of
+other work these are two other previous
+papers. This is a systems paper and this
+is a LM hallucination paper. My website
+and LinkedIn are here if this is
+relevant. Thank you so much. Thanks so
+much for coming here. This is awesome.
+Thanks.

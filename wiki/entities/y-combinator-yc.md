@@ -34,12 +34,12 @@ A startup accelerator that funded Magic Patterns and other companies like Pigeon
 - [[sources/u2z44EkIEHE-u2z44ekiehe|u2z44EkIEHE]]: A startup accelerator program that Charlie and Jackson participated in, where they developed and iterated on their startup ideas.
 - [[sources/znULXKSAN7o-znulxksan7o|znULXKSAN7o]]: A startup accelerator where Letter AI (then Tractatus) participated and pivoted its business model.
 - [[sources/t-G67yKAHBQ-t-g67ykahbq|t-G67yKAHBQ]]: Startup accelerator.
-- [[sources/R56RJFZBasQ-unknown|Unknown]]: A startup accelerator mentioned as the speaker's affiliation and a place where successful founder examples are observed.
+- [[sources/R56RJFZBasQ-pick-one-idea-and-go-deep|Pick One Idea and Go Deep]]: A startup accelerator mentioned as the speaker's affiliation and a place where successful founder examples are observed.
 - [[sources/ALJQHSgCl2E-why-ambitious-startup-ideas-are-actually-easier-to-sell|Why Ambitious Startup Ideas Are Actually Easier To Sell]]: A startup accelerator that PostHog participated in (Winter 20 batch), and whose partners provide insights on startup culture and investment.
 - [[sources/Ju8LVdvuxGM-india-can-create-the-largest-ai-companies|India Can Create The Largest AI Companies]]: Startup accelerator, host of the event, provides advice, funding, and a network for founders.
 - [[sources/5d6y3poKwK4-patrick-collison-is-ai-breaking-the-lean-startup-playbook|Patrick Collison: Is AI Breaking the Lean Startup Playbook?]]: A startup accelerator that provided early guidance to Stripe and hosts Startup School.
 - [[sources/A9JDkiYEhfY-the-case-for-data-centers-in-space|The Case for Data Centers in Space]]: A prominent startup accelerator program where StarCloud participated and achieved unicorn status.
-- [[sources/8OOuCnZB-4o-unknown|Unknown]]: Startup accelerator; Ploy is in the current YC batch, and the podcast is hosted by YC.
+- [[sources/8OOuCnZB-4o-the-age-of-the-40-year-old-solo-founder-is-here|The Age Of The 40-Year-Old Solo Founder Is Here]]: Startup accelerator; Ploy is in the current YC batch, and the podcast is hosted by YC.
 - [[sources/VbqaL_eHhKY-yc-s-head-of-design-shows-you-how-to-design-with-ai|YC's Head of Design Shows You How To Design With AI]]: The host of the discussion, E Bufar's employer, and the organization behind the projects discussed (Paxel, Sodazine, Startup School).
 - [[sources/n8dz2FX0_uY-multi-gpu-kernels-intelligence-per-watt-heterogeneous-inference-and-more-yc-paper-club|Multi-GPU Kernels, Intelligence per Watt, Heterogeneous Inference, and More | YC Paper Club]]: Host of the Paper Club event, a startup accelerator.
 - [[sources/EHp1HgwCo9I-the-ai-agents-helping-home-services-book-more-jobs|The AI Agents Helping Home Services Book More Jobs]]: Startup accelerator that Avoca participated in, emphasizing customer obsession and momentum.

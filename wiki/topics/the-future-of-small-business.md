@@ -15,4 +15,4 @@ A belief that AI will empower a new wave of small businesses and entrepreneurs, 
 
 ## Source Mentions
 
-- [[sources/8OOuCnZB-4o-unknown|Unknown]]: A belief that AI will empower a new wave of small businesses and entrepreneurs, making it easier for them to compete and succeed in the marketplace.
+- [[sources/8OOuCnZB-4o-the-age-of-the-40-year-old-solo-founder-is-here|The Age Of The 40-Year-Old Solo Founder Is Here]]: A belief that AI will empower a new wave of small businesses and entrepreneurs, making it easier for them to compete and succeed in the marketplace.

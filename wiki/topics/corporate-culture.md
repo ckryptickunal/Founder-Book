@@ -2,7 +2,7 @@
 type: topic
 title: Corporate Culture
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-09-24
 sources: []
 tags: []
 ---
@@ -26,3 +26,4 @@ The impact of mission-driven behavior on employee morale and long-term company h
 - [[sources/mH11ImPJeDc-mark-zuckerberg-on-yahoo-s-billion-dollar-offer|Mark Zuckerberg On Yahoo's Billion Dollar Offer]]: The impact of founder communication on employee retention and organizational stability.
 - [[sources/tF7HXJJjRvY-hiroshi-mikitani-at-startup-school-2012|Hiroshi Mikitani at Startup School 2012]]: The importance of shared values, mission, and practices in maintaining company identity during rapid growth.
 - [[sources/OSYi_vzpmww-the-future-of-at-home-health-testing-with-simple-healthkit|The Future of at-home Health Testing with Simple HealthKit]]: The importance of empathy, diversity, and mission-driven hiring in the healthcare sector.
+- [[sources/zcUoVg8Xvrk-how-olivier-pomel-built-datadog-by-refusing-every-shortcut|How Olivier Pomel Built Datadog By Refusing Every Shortcut]]: Building a resilient, self-sustainable organization through shared values and direct engagement with reality.

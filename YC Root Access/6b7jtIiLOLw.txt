@@ -1,0 +1,186 @@
+Title: Zero-Shot Predictive Models for Relational Databases
+Video ID: 6b7jtIiLOLw
+URL: https://www.youtube.com/watch?v=6b7jtIiLOLw
+Channel: YC Root Access
+Published: 2026-08-06T17:35:35Z
+Duration: PT5M31S
+Views: 500
+Likes: 10
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 170
+
+============================================================
+TRANSCRIPT
+============================================================
+
+[music]
+>> Uh Mark, tell us what you're working on.
+>> Cool. So, we build the first zero-shot
+predictive models for relational
+databases.
+So,
+let's say you're a company, you have
+some data, and how do you predict the
+modeling on top of it? You can
+essentially put it in a table, but doing
+this you lose some information, which is
+present like foreign key primary key
+relationships in your relational
+database. And this is way into the some
+feature engineering on top of it.
+And we say, "Perfect." Like
+>> Do you want a model to have access to
+those?
+>> That's right, yeah. Essentially, like
+what what I described is what data
+scientists would do. But we can say,
+"Hey, what about if we can make a model
+that doesn't require a data scientist,
+which kind of speeds up the exploration
+of your data,
+um and maybe even gives you better
+predictions, like" So, essentially,
+yeah. We develop a model which consumes
+relational database as a primary
+modality.
+And the first thing you can notice
+notice is that relational database can
+essentially be seen as a graph.
+Where here, let's say a purple color
+means a transaction transaction table.
+So, this kind of abstraction which we
+used to work on.
+And then, from this context um
+context graph around the entity want to
+predict for, so we want to predict for a
+particular, let's say article in a
+table.
+We kind of collect the
+neighboring context
+um by sampling a neighboring
+neighborhood's graph.
+And then, how given this graph of like
+other tables and information of tables,
+how can we produce uh
+let's say uh appropriate format to do
+predictive um modeling on top of it?
+It's like you can just kind of walk
+along this graph and collect the
+features along the way. So,
+>> Nice.
+>> essentially, DFS BFS.
+So, we we we um use this, and
+>> So, that basically is your context into
+the transformer.
+>> That's right, so yeah. Let's say this is
+our graph context and we serialize this.
+Serialize means like here, we produce a
+sequence of cells.
+Sequence of cells.
+Um so, for example, this would be like a
+gender of a user, let's say salary or
+something.
+And um
+then we embed those using um different
+encoders like number encoder, text
+encoder, boolean encoder, and so on to
+like uh get a an embedding
+representation.
+And this is where the let's say the most
+novel part of our of our method comes
+into play is that we deploy these
+special attention mechanisms. This kind
+of a masked attention, which allows our
+model to
+for example, column attention allows it
+to attend over a particular column,
+which gives a distribution, meaning
+let's say, "Hey, there is 90% of women
+and 10% of men in in our data." Which is
+useful for models to do predictions, as
+we know.
+>> So, it's attending over the column's
+values or over the column the column
+options.
+>> It is an attention essentially like
+let's say um
+you sample the user you want to predict
+for, but you also sampled in a
+neighborhood, let's say three of his
+friends. And all those friends maybe
+also uh also like have a gender column
+or I don't know, salary column. And
+having those values in context, you can
+maybe for example attend over only the
+salary column, so the model like it
+learns the distribution of that column,
+which is used to do like better
+prediction down the down the line.
+>> So, makes sense.
+>> And then feature attention kind of just
+collects all of the information about
+user you want to predict for. So, to
+kind of like have the yeah, user's
+information present here.
+And then neighborhood attention is like
+essentially you collect information from
+your like neighbors, which you kind of
+know that is very relevant to to do
+maybe extrapolate or like extract
+information from your neighbors.
+And from there on, we also apply uh full
+attention, which is like non-masked
+attention, but it was shown it doesn't
+really
+add any significant boost. Yes, yes. So,
+it was dropped. Um so, this is kind of
+like maybe the main contribution like
+this special
+modeling approach with attention.
+And then from that on you can just like
+do the code that that encoding and
+do classification or or regression on
+top of it.
+>> Makes sense. How well does this actually
+do?
+>> It does very very well. Like in
+comparison, for example,
+um
+Yeah, and this is also saying that LLMs
+are very bad working with relational
+data. Um so, for example, let's say
+let's speak here um item churn. So, what
+is the kind of probability that
+um aligned with churn is like
+the classification performance like 62
+AUROC for a Gemma 4B model, while it's
+at like 73 for our model.
+>> And it's like way smaller than
+>> Yes, like it like we can see here it's
+like 22 million parameter, which is much
+much smaller. Um
+>> So, you would imagine someone would use
+this specifically for the database
+access queries, for example, you know,
+you could have a big model query this
+model to do those really high
+performantly and then continue to use
+the big model for everything else.
+>> Essentially, this is something that was
+developed by my professor in his startup
+Kumo AI. It's essentially like they
+developed an agentic MCP protocol that
+uses very similar model to this, but
+let's say industry industry scale
+um to kind of use agent to ask the right
+questions and write a query like SQL
+query to query the right
+>> the right predictive quantity.
+>> Nice. Awesome. Thanks so much, Mark.
+This is This is really great work.
+Thanks for showing it to us. I'm excited
+uh to see all the work you do next.
+>> Yes, perfect. Thank you.
+>> Well, thanks so much.
+>> Thanks. Thanks.

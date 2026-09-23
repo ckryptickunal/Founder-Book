@@ -15,4 +15,4 @@ Addressing common founder pitfalls like overthinking, seeking perfection, and la
 
 ## Source Mentions
 
-- [[sources/R56RJFZBasQ-unknown|Unknown]]: Addressing common founder pitfalls like overthinking, seeking perfection, and lack of commitment, advocating for single-minded focus.
+- [[sources/R56RJFZBasQ-pick-one-idea-and-go-deep|Pick One Idea and Go Deep]]: Addressing common founder pitfalls like overthinking, seeking perfection, and lack of commitment, advocating for single-minded focus.

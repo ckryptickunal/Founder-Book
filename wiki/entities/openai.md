@@ -2,7 +2,7 @@
 type: entity
 title: OpenAI
 created: 2026-05-26
-updated: 2026-08-06
+updated: 2026-09-24
 sources: []
 tags: []
 ---
@@ -117,7 +117,7 @@ An AI research and deployment company.
 - [[sources/ALJQHSgCl2E-why-ambitious-startup-ideas-are-actually-easier-to-sell|Why Ambitious Startup Ideas Are Actually Easier To Sell]]: An AI research and deployment company, whose co-founders' thought processes inspired James's thinking about LLMs.
 - [[sources/DbBnd9PYob4-the-model-agnostic-ai-platform-betting-that-no-single-lab-will-win|The Model-Agnostic AI Platform Betting That No Single Lab Will Win]]: A frontier AI research and deployment company, where Stan Hulu worked for three years. It is considered a 'giant' in the AI space and a competitor to platforms like Dust.
 - [[sources/5d6y3poKwK4-patrick-collison-is-ai-breaking-the-lean-startup-playbook|Patrick Collison: Is AI Breaking the Lean Startup Playbook?]]: AI research and deployment company, mentioned as an example of a successful Stripe customer.
-- [[sources/8OOuCnZB-4o-unknown|Unknown]]: AI research company, mentioned as a source for models used in Ploy's lookbook.
+- [[sources/8OOuCnZB-4o-the-age-of-the-40-year-old-solo-founder-is-here|The Age Of The 40-Year-Old Solo Founder Is Here]]: AI research company, mentioned as a source for models used in Ploy's lookbook.
 - [[sources/99sPd15j3Zc-what-actually-makes-a-startup-durable|What Actually Makes A Startup Durable]]: A leading AI research and deployment company, mentioned in the context of model routing and ChatGPT.
 - [[sources/vb1Gcn10enw-what-top-ai-labs-are-really-doing-with-observability|What Top AI Labs Are Really Doing With Observability]]: AI research and deployment company, mentioned as a 'sexier place' for research now.
 - [[sources/tOhkv307Pm0-the-first-dedicated-yc-gpu-cluster-with-together-ai|The First Dedicated YC GPU Cluster - With Together AI]]: An early YC research seed investment, highlighting YC's history in funding foundational AI research.
@@ -125,3 +125,6 @@ An AI research and deployment company.
 - [[sources/_mKeVGSqQac-b2b-startup-metrics-startup-school|B2B Startup Metrics | Startup School]]: AI research and deployment company, whose services can be a 'cost of goods sold' for AI startups.
 - [[sources/_9SlOm6HHvg-this-is-the-holy-grail-of-ai|This Is The Holy Grail Of AI]]: A major AI lab exploring recursive self-improvement, typically by training new models for each step.
 - [[sources/_-5xJQ4U8g0-are-we-in-an-ai-hype-cycle|Are We In An AI Hype Cycle?]]: AI model developer, mentioned for ChatGPT and its frontier models.
+- [[sources/5bxp78i96S8-paul-graham-on-startups-ambition-and-great-founders|Paul Graham On Startups, Ambition, and Great Founders]]: AI research and deployment company.
+- [[sources/whcfSGN6CAU-peter-steinberger-fun-is-velocity|Peter Steinberger: "Fun Is Velocity"]]: AI research and deployment company.
+- [[sources/5XO7ZEOGpJc-building-the-safety-layer-for-ai-agents|Building the Safety Layer for AI Agents]]: AI research and deployment company.

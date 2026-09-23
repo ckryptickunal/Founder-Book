@@ -1,0 +1,389 @@
+Title: Dot Plots: How to Actually See What Your Users Are Doing
+Video ID: e5-6rEwzxLs
+URL: https://www.youtube.com/watch?v=e5-6rEwzxLs
+Channel: Y Combinator
+Published: 2026-07-09T14:00:05Z
+Duration: PT13M50S
+Views: 37904
+Likes: 886
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 373
+
+============================================================
+TRANSCRIPT
+============================================================
+
+One of the biggest mistakes I see
+founders make is relying on aggregate
+user metrics instead of understanding
+how any individual users use their
+product. In my last video, I talked
+about cohort retention curves and how
+you can use those to separate groups of
+users and track what they do over time
+throughout using your product. And I
+think that's the best tool that you've
+got to figure out if people keep using
+your product. But what you don't know is
+how are they using your product? How are
+they interacting? What features are they
+using? What's the frequency of use?
+What's the the pacing of how they use
+the product? And most founders just like
+ignore this. But I think it's the most
+important signal to figure out if you've
+built something that people want. So you
+want to be able to look at what
+individual users are doing. But that's a
+lot, right? if you even have like 10 or
+20 users, um it's pretty challenging to
+just tail the logs and watch every event
+that every user is doing. So with
+aggregate data, the graphs that we're
+all used to talking about, things like
+DAUs or MAUs, um these lump all of your
+users together, and you can't really get
+a sense of what any individual user is
+doing. And if you have any amount of
+growth, those graphs tend to be going up
+and to the right. um even if users
+aren't actually enjoying using your
+product. So today I want to tell you
+about a tool that we came to in my
+startup that allows you to understand
+what's going on with individual users
+while also giving you a big picture view
+of how your entire product is performing
+and we call it the dot plot. So let me
+show you what a dot plot looks like.
+Based on the name you can figure out
+probably involves dots. What you
+basically do is just make a
+two-dimensional grid like a spreadsheet
+where there are a bunch of columns and a
+bunch of rows. Each row represents one
+individual user. If I'm one of the
+users, I'll I'll write my name here.
+Dave, I'm one of the users. Uh, and
+every other user of your product gets
+their own row.
+And then every column represents a time
+period. I think days are usually the
+right thing to use for your product, but
+it probably depends a bit on the nature
+of your product. So, let's just draw in
+the days. I'll just do Monday, Tuesday,
+Wednesday, Thursday, Friday. And you can
+make this as big or as small as you
+want. For the sake of this example, I'll
+just do like a week or two of days just
+to show you what's going on here. And
+then the idea, it's called a dot plot,
+is you put some dots in each of the
+cells. You want to pick an event that
+your user does in the process of using
+your product that you think represents
+value in the product. Maybe it's um you
+know sharing a photo if you're building
+a photo app or listening to a song if
+you're building a music app or
+processing an invoice if you're building
+a B2B invoice processing product and you
+can just put a dot for each day that
+each user uses the product. Let's say
+we're Spotify and we're building a music
+streaming app and we want to see how our
+users are using it. Let's pick the event
+that we're going to chart here being
+listen to a song. So anytime a user
+listen to a song during a day we're
+going to put a dot. Uh so for me let's
+say I
+listen to Spotify song on Monday and
+Tuesday and not on on Wednesday but
+Thursday and Friday again and then maybe
+again on Monday and Wednesday. Another
+thing you can do um to make a record of
+the first day that a user used a
+product, the day that they onboarded,
+you can put another symbol like let's
+say we on a user's first day we'll just
+draw a little ring around the dot like
+that just to give us a little bit more
+signal. And what you'll eventually start
+seeing is a pretty high density
+visualization of individual users and
+their usage over time. What's really
+cool about this is it lets you figure
+out patterns
+that you probably would not have seen
+with your human brain just looking at
+aggregate charts or looking at
+individual user logs. Okay, so let's
+look at this example I've just drawn.
+Um, for our Spotify app, what do we see?
+What patterns have emerged now that we
+can see individual users and their own
+behavior? Well, one thing I see is it
+seems like there's a set of people who
+use the product on weekdays, right?
+We've got myself, we've got user number
+three here, user four used it on a
+Monday, user six used it during the
+week, and there's a couple users who
+seem to kind of only use it on the
+weekends. That's an interesting
+observation that might help me redesign
+my product in a different way or target
+different users. Maybe understand which
+users are the most valuable ones to me.
+Do I want the weekday worktime listeners
+or do I want the weekend users? We would
+have no idea about this if we didn't
+have a dot plot visualization like this.
+Another thing I can see is a a measure
+of retention. Like do we see a lot of
+users like user 4 that try the app on
+one day and then never come back? If we
+see that on a bunch of our rows, we have
+an idea of a potential problem that
+we've got in our onboarding or other
+things. As you get more sophisticated
+with dot plots, you can make them as
+intricate as you want. At Bump, we had
+different symbols that we would put into
+these cells. So, we knew whether you
+shared your contact information using
+Bump or if you shared a photo. And it
+gives you a lot more granularity, and
+you can kind of go as deep as you want
+on this. This idea of dot plots might be
+familiar to some of you. You've probably
+seen it at the top of GitHub pages. Um,
+this is basically what a GitHub graph
+looks like. They've just wrapped the
+days around per week. Another thing you
+can do is instead of just tracking user
+actions, you can track user state. So,
+was this user using an iPhone or an
+Android phone? Uh, were they on the web?
+Was this user coming from the United
+States or a different country? Sometimes
+you have demographic information about
+your users. Is this a user that makes a
+lot of money or is this a college kid
+that uh you just you just got on, you
+know, Reddit or something? You can
+encode those states with other symbols
+or shading the cells different colors.
+You can write things over here. So like
+I might say, you know, this is a iOS
+user and this is an iOS user, but these
+ones are Androids. And another thing you
+can do then is sort your rows based on
+whatever attributes you want to sort
+them by. So you might say, I only want
+to look at iOS users first, or I only
+want to look at users whose first time
+using the app was this Monday. So let's
+resort so we only see people that have
+rings around their first day. What you
+find when you look at this in aggregate,
+you can then kind of zoom out and see an
+entire page of these. Is your brain will
+start to notice these patterns in a way
+that you would never have figured out on
+your own. uh op priori. This is actually
+an idea that I remember hearing about 10
+years ago from Max Levchin, one of the
+founders of PayPal. They had a big fraud
+problem at PayPal when they first
+launched, but they didn't know the
+patterns to look for. So, what they did
+instead is build a visualization, a
+graph of all the transactions that were
+happening on PayPal. And they just had
+humans sit and stare at screens of these
+drawings and graphs. And while the
+humans didn't know what exactly was
+going on, they were able to look at the
+screen and say that thing happening
+there, that's different and uh probably
+fraud. And then they would go and dig in
+to that. It's kind of the same idea with
+dot plots. You can look at these these
+charts and figure out, huh, there's
+something going on with users. I see
+this pattern emerging. And then you can
+go dig into it a lot deeper. So to
+illustrate the point I was talking about
+where dot plots give you a lot more
+granularity about what's going on with
+your users, let's draw the DAU graph for
+these users. So what you would have seen
+had you only been looking at your DAU
+graph. I'll just draw it on top of here
+to illustrate.
+So again like imagine each of these days
+is the same day above. The DAU graph
+here looks like this.
+On day one it's two
+On day two, it's three.
+On day three, it's two.
+Two. Two. Two. Two. One. Zero. One.
+So, if you were just looking at DAUs,
+this is the graph you would see. And it
+really doesn't tell you all that much.
+It basically tells you, yeah, we're not
+growing. We have some users. Instead,
+looking at the dot plot, we have a much
+richer understanding of our users. We
+know something about their behavior,
+maybe something about their lives. We
+probably have inferred from this that
+these people that use it during the
+week, probably they're doing it at the
+office or in some other place where they
+can listen to music every single day of
+the work week. And again, you can go a
+lot deeper on this. And if you change
+the dots to be different symbols, for
+example, in in our Spotify example, we
+could choose to represent different
+features of the product. Let's say if a
+if a user uses search in Spotify, we'll
+put a little S next to it. Or if they
+use maybe a playlist, they join a public
+playlist. Let's say we could put a P
+there. And you might start to see
+patterns where specific features maybe
+drive behaviors in the product that you
+actually want. Let's just say for the
+sake of argument that we see this one
+user here that joined a public playlist.
+they then have a string of many many
+consecutive days of using the product.
+We could then infer like oh maybe the
+playlist feature is really causal to
+having people be really active in our
+product. This is the sort of stuff that
+you can learn with dot plots. So what's
+really great for most founders you have
+a very small number of users at the
+beginning and so you can literally look
+at every single user of your product on
+every single day they've ever used it
+and it all fits on one screen on your
+monitor. Um, that's really great, but it
+actually does scale to when you have
+thousands or millions or billions of
+users. This is a tool that we used at
+Google Photos, uh, when we had well more
+than a billion users. And the idea is
+you can just choose to sample your users
+and represent them on a dot plot however
+you want. So, we would have days where
+we print out dozens of these pieces of
+paper with dot plots on them for
+different samples of our user base. I
+would print out a piece of paper and
+hand one of our team members like,
+"Here's the iOS users in France. I want
+you to understand what they're doing."
+And I would hand another piece of paper
+to somebody else and say, "These are the
+users on web in the United States who
+make more than $80,000 a year. Let's see
+what they're up to." And we would have
+days where we just sit in the office and
+look at these dot plots and try to draw
+conclusions about what's going on with
+our users. So, you might be thinking to
+yourself, "This is cool, Dave, but uh
+we're a B2B product and we just sell
+seats to businesses and they pay for And
+so I that's all that matters, right?
+Turns out that doc plots could be really
+useful to you, too. Let me give you a
+specific example. I worked with a
+company in the most recent YC batch uh
+that had a very name brand customer that
+signed up and bought their product. I
+think it was like a $80,000 a year
+contract. Um they onboarded the company.
+The company said they wanted 10 seats
+and later the company churned. Let me
+show you what they could have figured
+out had they been using dot plots. So
+this is what it actually looked like.
+The company bought 10 seats, but only
+three seats ever activated. Only three
+of those people ever tried the product.
+And if you look at their usage, they
+weren't getting a lot of value from it.
+Nobody used it more than 2 days per
+week. Um, and it looks like pretty
+sporadic usage. And it turns out what
+happened is the company was in the
+state. The champion had gotten excited
+about this product and bought it. And
+then the champion left the company. And
+as soon as the champion left, a new
+person came in and they said, "Why are
+we using this software? We're going to
+churn." And so they opted out of a
+renewal clause at the last moment. The
+company could have known that this
+contract was in jeopardy by looking at
+the dot plot. So there's a few ways you
+can misuse dot plots. U the number one
+thing is to just chart the wrong event.
+A lot of founders might want to uh
+populate their dot plot with the easiest
+way to populate it so it feels good and
+you see a lot of dots. Maybe you'll pick
+like opened the app or signed in to the
+product. Those are pretty bad events to
+choose because they don't really measure
+whether the user is getting real value.
+So, I suggest you pick something that
+actually represents value being created
+for the user. Listen to a song, shared a
+photo, um something like that that's a
+real event. The other mistake you can
+make is picking a time period that's too
+wide. Sometimes founders want to make it
+look better and they pick weeks, like
+week one, week two, week three. it's way
+harder to figure out what's actually
+going on unless you look at it at the
+day or maybe even like subday
+granularity. So I would go so far as to
+say until you have hundreds of users,
+the dot plot could be your only
+dashboard. What's great about dot plots
+is they're just a logs visualization
+tool. There's no fancy computations
+happening here. You basically just need
+to parse your logs and put them into a
+2D grid. This is a thing that modern AI
+coding tools can whip up in like 10
+minutes. These are best used in
+conjunction with cohort retention
+curves. Cohort retention curves teach
+you in aggregate whether groups of users
+that you acquire stick with you over
+time. That's very important. You should
+definitely be measuring that. But the
+dot plot shows you how those users are
+actually using your product. And they
+give you the color to go ask the right
+questions of your users, to go build the
+right features, to fix things that are
+broken in your product that you would
+never learn by looking at aggregate
+metrics. So, cohort retention curves and
+dot plots are, in my experience, two of
+the most important tools that you've got
+to understand your users. Good luck.

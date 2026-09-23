@@ -16,4 +16,4 @@ YC co-founder, mentioned for a quote about founders becoming '007 versions of th
 ## Source Mentions
 
 - [[sources/Ju8LVdvuxGM-india-can-create-the-largest-ai-companies|India Can Create The Largest AI Companies]]: YC co-founder, mentioned for a quote about founders becoming '007 versions of themselves'.
-- [[sources/8OOuCnZB-4o-unknown|Unknown]]: Co-founder of Y Combinator, mentioned in an anecdote about Webflow's early days.
+- [[sources/8OOuCnZB-4o-the-age-of-the-40-year-old-solo-founder-is-here|The Age Of The 40-Year-Old Solo Founder Is Here]]: Co-founder of Y Combinator, mentioned in an anecdote about Webflow's early days.

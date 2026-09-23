@@ -1,0 +1,1458 @@
+Title: Going In Deep On Data | YC Paper Club
+Video ID: IfoPg2QefF8
+URL: https://www.youtube.com/watch?v=IfoPg2QefF8
+Channel: Y Combinator
+Published: 2026-08-20T14:00:12Z
+Duration: PT52M35S
+Views: 43656
+Likes: 668
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 1442
+
+============================================================
+TRANSCRIPT
+============================================================
+
+[music]
+Welcome to YC data club this time. I
+hope you guys like the little picture
+that we have this time. Paul Graham
+didn't like that I was slacking off in
+my little crown over there, but he does
+know know my name now, so that's good.
+All right, so why data? Why does it why
+does data warrant uh its own night to
+talk about? Um, in 2016 I left my PhD
+program and I started focal systems. And
+back then the notion was that data is
+commodity. I already have downloaded
+imageet. How much more data do I
+possibly need? And there was lots of
+chatter about scale being worth a
+billion dollars. There's no chance. And
+there was a lot of VCs except who was
+the guy that did scale series A? I think
+it was Levy at Excel. Um, besides him,
+everyone said the terminal value of data
+businesses was zero dollars. And since
+then, I think it's like a hundred
+billion dollars in market cap creation.
+So, rest assured, the entire VC uh
+community has changed their tune on
+that. And why? Well, the interview
+question I would typically ask at Focal,
+I still ran the deep learning team uh
+even until I left for nine years later
+was um you know, let's say I had to
+interview these PhDs uh from Stanford or
+MIT, super smart people, and I would say
+okay, you have you trained your model,
+you're at 85% F1 score on hot dog, not
+hot dog. What do you do next?
+And if your answer was, oh, I would go
+read some papers. I would like try Reu
+versus Gellu. I would like add more
+layers. I do like nope. Next. Literally
+no. No. No. No. No. And the reason why
+is because you have to look at the data.
+The correct answer is you look at the
+data. You classifi look at all the false
+positives. You look at all the false
+negatives. You put them in purto
+buckets. You say, "What's the biggest
+issue?" And for us, for in stock, out of
+stock, it's like, "Okay, it's when the
+fridge has some fog on it. We can't see
+through the fog or when there's a person
+in the way or when something else is
+happening." like the the number of
+layers didn't was not going to change if
+there's a person in the way and you
+can't possibly tell if there's an in
+stock or out of stock. And so it's just
+looking at data and Andre I would say
+was the most on this um and he famously
+did the first measurement of what human
+level is on ImageNet and where he
+actually looked through and tried to see
+how good he could be. And we're not that
+good. I can't tell the difference
+between Eskimo sheep dog and uh Siberian
+husky. I'm not that I'm I'm not good at
+that. And like 30 40% of imageet is dogs
+are types of dogs. And like people kind
+of don't know that stuff. And so the
+data that you're training on ends up
+being in much more important than the
+architecture itself especially when the
+architecture is very expressive. And so
+in your PhD he says he spent maybe uh 5%
+of his time thinking about data um and
+95% of his times focus on the
+architecture. And then when you go into
+production that flips and I would say he
+was saying 25 74% I think nowadays it's
+like 3% 97%. And it's really about the
+data now that we have the transformer uh
+and it works really well. And so and why
+is this why does the data matter so
+much? It's because in your nice little
+imageet train set everything is really
+nice. The train distribution is
+beautiful. It's amazing. And then when
+you launch it into production which
+raise your hand if you've ever had this
+experience.
+that happens and then you start getting
+a bunch of points in in in the in the
+test distribution that you didn't have
+in the train and the model you know
+pukes itself and can't it doesn't work.
+So to automate the economy if this is
+the GDP val uh we need both expert data
+and expert RL environments RL
+environments for the verifiable uh
+rewards and then for the pref style data
+like very subjective do I do you like
+this design do you not like this design
+is this more usable or less usable you
+you may the code may work but the coding
+style is awful and it's unmaintainable
+code for things like medical like two
+doctors don't agree on the
+answer for a given patient and and same
+thing with judges. Um and so these are
+preference style answers and that runs a
+lot of the economy and the right way to
+think about data sets and our
+environments for sure is these are
+products. If you talk to Greg at ArcGI,
+the amount of craftsmanship that goes
+into each game that Prime Intellect just
+crushed um to be fair is incredible.
+It's very very difficult to make these
+data sets really really good fully
+comprehensive and even for focal such a
+simple thing of like in stock and out of
+stock the amount of time that was spent
+and how do we handle product pushers
+like it looks like a product um but it's
+just pushing product to to the front and
+so how do should should we have that be
+a separate uh uh class in the ontology
+or should we classify that as an out of
+stock because it technically is an out
+of stock but it's going to confuse the
+model because an out of stock and a
+product look very
+Um, so how do you handle all this stuff?
+It's very very difficult. Um, and a lot
+of people think that they're just zip
+files and it's just really not. And the
+other thing too that is I I deal with a
+lot in the in the batch is let's say you
+are automating Salesforce, right? And
+you have a bunch of traces and you have
+screen captures of people using
+Salesforce. So you have 100 billion
+hours. You have all the data that you
+could possibly capture. Then Salesforce
+changes the UI.
+Then what? You better get some more
+data, right? Because it's not going to
+work. And so you can have all the data,
+you still need more data. And so this
+idea that it was going to the terminal
+value is going to be zero is just so so
+wrong. Brendan Emer just just presented
+this slide at Sequoia and I really agree
+with it. It is the bottleneck right now.
+It is not the architecture. It is not
+GPUs. It is not watts. Um it's largely
+why does chat GBT still uh you know I
+just did this analysis and posted on my
+Twitter. Um, there's no model gets beats
+random on predicting next seven-day
+returns on the S&P. Literally, if you
+just like roll a coin is better than
+every single AI model that you can use
+in production right now. Um, and so if
+we had a bunch of traces from like
+Goldman Sachs traders that are
+definitely better than random, I would
+think that they would do better, but
+they don't have that. And so, how do you
+get there? Same thing with accountants,
+doctors, lawyers. you need experts on
+each one of these uh domains for us to
+uh match or exceed human uh capabilities
+on it. And like I said, in the last 10
+years, despite most venture capitalists
+turning a blind eye to this, um it's
+produced over hundred billion dollars of
+market cap in the last 10 years. It's
+probably been one of YC's uh best
+categories that we've invested in. And
+so the mental model, what is the right
+mental model to think about this? Um I
+don't know, but I propose something
+here. If I were Apple and I manufactured
+these things and I wanted them to be
+able to deliver groceries to your door
+or to um bring a a burrito to your house
+or bring a car and pick you up or turn
+it on to a flashlight or give you
+directions, you need these things called
+apps.
+And if you want the LLM to be a good
+doctor, accountant, lawyer, carpenter,
+um trader, uh or therapist, right? a lot
+of people using for that as well. um
+you're going to need data in RL
+environments and if you don't have
+upto-date very good curated data then
+your LM can't do those things and so may
+and so a lot of people say like how many
+possible data companies can we have in
+this space and the answer is how many
+apps do you have in your phone that's
+probably the answer I really do think
+about it like that and then even better
+on this analogy is does it make sense
+for there to be an Instacart only for
+Apple and an Instacart only for Android
+or should probably just be one company
+or should Apple get into the Instacart
+business and start delivering groceries?
+Doesn't make any sense. And so some of
+these it makes sense like Apple should
+and Android should have a flashlight
+functionality because that's kind of
+easy to do. But like for a lot of things
+it's really really difficult to stand up
+the entire Instacart network and then
+start competing with Instacart if you're
+Apple. Like why? Just that's not what
+you are great at. And in the same way
+going really deep into being a great
+doctor like dealing with HIPPA and all
+that stuff. Should Anthropic uh uh um
+OpenAI, uh Google, Apple, all these
+companies all get really great on
+curating an AI doctor or should you just
+like use one company that does a great
+job of creating a environment, has a
+network of doctors, curates all this
+prep data, uh you know, parallel uh data
+for given a specific patient. here's one
+trajectory, here's another trajectory,
+and and a doctor is preferring one or
+the other. Probably just do that. Have
+one company that just focuses just on
+that. And that's what we're seeing. All
+right. I'm very excited by uh the
+speakers that we have uh tonight. Um May
+couldn't make it. She had got sick
+unfortunately. We're going to try to
+squeeze her into the next one. Um but we
+have uh Vincent Chen, who is a a Hazy
+alumni, one one of the founding team
+members of Snorkel. uh grew it to a
+billion dollar market cap now and and
+well beyond I think. Vololo, founder of
+Inception Labs, Cornell professor and
+expert surfer.
+Um and then Shane uh MIT PhD uh student
+just defended focused on pre-training uh
+founded the data provenence initiative
+and then recently joined anthropic.
+Please help me give a round of applause
+to this our speakers. [applause]
+and Franuis.
+>> Wonderful. Thank you, Francois, for the
+awesome introduction and thank you for
+giving data its flowers. I feel like
+we've been trying to shout from the
+roofs about this and uh it's awesome to
+see it come front and center these days.
+My name is Vincent. I'm one of the
+founding team members at Snorkel. I uh
+started our uh Frontier Lab business at
+the company and now I lead research on
+our benchmarks and evaluation at uh the
+company. I'm going to talk about uh
+scaling expert supervision. Um, and I'll
+talk about it. I'm cheating a little
+bit, but I'll talk about a few research
+themes and how they've evolved over the
+years. We've been working on data for
+over a decade now at Snorkel, dating
+back to our roots at the Stanford AI
+lab. And um our key thesis is that
+scaling expertise, actually giving
+leverage to experts in the field,
+doctors, clinicians, um journalists,
+people who actually have the spec in
+their head for what good looks like is
+the real bottleneck for building really
+effective data sets. And effectively,
+that's what all of our research is about
+at the company. So I'll talk to you a
+little bit about that. As I mentioned,
+we're a frontier lab focused on data in
+particular. Um we're uh super excited to
+be you know partnered with uh
+effectively every global frontier lab
+and uh Frontier um you know Fortune 10
+enterprises uh on the data problem in
+particular and each one of these
+engagements again is anchored on this
+key bottleneck of scaling expertise. How
+do we actually get the judgment and
+knowledge out of these people's heads
+and into the data sets that they're
+working on?
+And so I first want to start by framing
+the problem and how it's evolved over
+time. Expert supervision, right? The
+process of taking what is in experts
+heads, what is in messy documents or
+knowledge corpuses um and putting it
+into really effective data is a real
+bottleneck. There's a real process that
+goes from okay this is raw data to
+something that can that can be used for
+evaluation and training and this has
+evolved over time right data 1.0 know as
+I'll call it was uh basic labeling in Q
+uh you know for question answering for
+example right these might have been
+thumbs up thumbs down against uh kind of
+preference labels um basic you know
+prompt and response pairs and you know
+let's say it's 30 seconds of human
+judgment right to produce one of these
+labels as Frantois alluded to the shape
+of data today is evolving significantly
+right now we have entire worlds that
+we're building against um that represent
+tasks and rubrics and verifiers and
+really nuance grading mechanisms all
+packaged in Docker environments um that
+actually need to represent the types of
+spaces that these agents are going to
+operate in. And these could take you
+know uh single digit to you know triple
+digits of hours for humans to develop on
+their own. And so the key bottleneck
+here is really how do we scale expertise
+so that we can effectively build these
+types of data sets when experts you know
+are are one there are only so many of
+these experts in the world with
+increasing complexity and they only have
+so much time in a day. And so let's
+start with data 1.0. I know right uh
+this is a problem that I believe still
+exists today but when we started snorkel
+um I want to you know share a little bit
+about how we thought about this problem
+right the the problem of manual labeling
+right with the imageet example that
+Francois gave um there are a bunch of
+problems right uh one it's not a
+scalable approach um think of the cost
+of manual labeling as an O of problem
+for every single data point you need a
+manual label you need um new cognitive
+effort to actually develop that two
+these types of approaches aren't robust
+to noise right you can Imagine that the
+only way to actually uh reduce noise in
+these settings is to um you know uh
+introduce redundancy. So you need a k
+byn um relabeling effort to actually uh
+you know reduce noise in these settings
+with changes in spec you know schema
+task definition. You need to start from
+zero and critically there's no
+provenence. There's no notion of what
+what is my rationale? How did I actually
+think about this problem? And so this
+was the key challenge that we faced you
+know up to a decade ago and still face
+to today in many ways where the problem
+of manual labeling only um compounds in
+expert domains. Think of a you know MD
+PhD or a cardiologist in a very niche
+subdomain. How do you actually get them
+to produce these large large corpuses of
+MRI data sets or you know EHR uh data?
+Uh it's actually fundamentally
+intractable in a lot of these settings.
+And so that is the key problem to solve
+in some of these um kind of manual uh uh
+labeling settings. And so the the line
+of work that we worked on here uh we
+called kind of data programming. Our CEO
+Alex was was a kind of grad student at
+the time and we um all kind of
+contributed to this work. The key
+intuition here was we want to encode
+expert supervision in software and
+there's a few benefits when you do that
+right you get the scale of software. You
+now get to label data programmatically.
+You get the adaptability of software.
+you can refactor it and adjust it over
+time as your spec changes and um
+critically you can actually audit it and
+have conversations about it and
+collaborate on it. Um and so the you
+know in a nutshell right a bunch of our
+kind of key um grad grad school work in
+a in a nutshell was was this uh one on
+the left hand side um the main idea here
+was um to first model expertise as uh
+labeling functions right so this could
+be a number of different forms this is a
+pretty general uh abstraction but the
+main idea is um if you express the
+ration or reasons why people are
+labeling spam versus not spam into
+specific heruristics this um helps get
+that knowledge out of people's heads and
+into a form factor that's actually way
+more reproducible and scalable. Number
+two, um, in the middle, the challenge
+with this is obviously that, uh, these
+signals, uh, these sources of
+supervision overlap. They're inaccurate.
+Um, and so we introduce a bunch of
+theory and work to actually, um, work
+through this notion of weak supervision,
+right? How do you actually understand
+quality in these settings where uh,
+signals are overlapping and your sources
+are are weak or aren't, you know, fully
+ground truth? And at the end of this um
+taking these uh D noiseis signals and
+using them in kind of end models that
+are noise aware help generalize this
+beyond um you know the coverage of the
+initial labeling functions. So one click
+down you know the intuition behind some
+of this and the label model without
+getting into too much of the of the gory
+details. Um number one the goal here is
+to model um each voters's accuracy in a
+fully unsupervised way. So the analogy I
+like to share is hey you have a number
+of students in your class with different
+levels of skill or quality. Um you don't
+have a grading key, you don't have an
+answer key. How do you estimate the true
+ground truth answer when you only have
+the votes from each of these students?
+And so that's the fundamental kind of
+modeling problem you're trying to
+introduce here. Um you want to learn
+this noise model and understand each
+source's um quality effectively. you
+know, given that you don't have any
+ground truth in the first place. So, uh,
+step one again is to kind of learn the
+voters's accuracy. Step two, this is
+this is Baze, right? You're trying to
+kind of compute the the probability um
+of of the ground truth solution given
+each one of those voters um uh uh kind
+of actual votes. Um, and then three, if
+you train a kind of noiseaware model,
+um, you're able to actually extend the
+coverage of this label model and
+minimize some of the noise in in uh,
+broader distributions and and scale this
+a lot more effectively. So, I'll zoom
+out for a sec. Right? The main intuition
+here was a lot of our work early days
+was about scaling expertise via
+introducing
+labels and expert judgment as software.
+And one of the key bottlenecks there was
+actually denoising the sources of signal
+that these came from in in in a a regime
+where you were missing ground truth and
+um you know some of these techniques uh
+we still use today in a lot of our kind
+of production settings.
+So I want to talk briefly about data
+2.0. Now you know as the surface area
+for data and frontier progress has
+expanded um it's grown in uh complexity
+and importance as well. And so let's
+let's use coding as an example here. you
+know, I have plotted on the x-axis uh
+complexity, right? Input complexity, how
+complex are your prompts and the specs
+that you're giving models, output
+complexity, environment complexity, are
+you working in just Q&A settings now, or
+are they fundamentally new, you know, uh
+environments where you give it YOLO
+access to your desktop? And on the
+Y-axis, we have sequence length. How
+long are these agents actually working
+in practice? Now, you might think for a
+domain like software or coding that uh
+the eval are actually saturated, the
+data is actually saturated. And I would
+push to uh contend that as the frontier
+advances, the data challenges actually
+continue to grow, right? We're we've
+seen basic eval like human eval saturate
+at this point, which is which is true,
+but we're still seeing, you know, um a
+big spectrum of uh you know, terminal
+based agents continue to grow. Uh
+program bench, you know, I think the
+latest model just cracked 1%. Um we
+introduced the benchmark called senior
+SWE, which I'll talk about in a second.
+But as the complexity and responsibility
+of agents, you know, grows, the
+importance of data that you're uh
+producing to both train and evaluate
+these models also grows. With this in
+mind, I want to anchor on some recent
+work that we've done uh from a little
+bit uh later than the last decade um
+which was a senior SWEBench. And so the
+the key here, we actually uh were very
+humbled and privileged to work with the
+original SWEBench team out of out of
+Princeton on this. Um the key idea here
+was we're already using coding agents
+like software uh like senior engineers.
+We're vibe coding. We're trusting them
+to make architectural decisions to
+refactor entire swaths of of code, but
+we don't have good ways to evaluate
+them. We're still evaluating them as as
+junior engineers. And so the key
+challenge we wanted to solve here was
+that we wanted to build a benchmark. We
+wanted to build data sets that were
+really representative of actual work
+that senior engineers would produce. We
+wanted to scale the expertise needed to
+produce and build these types of data
+sets and uh build a really highquality
+benchmark that uh represented all of
+these factors. And so I'll talk you
+through some of the methodology we used
+to get here. Obviously we won't get
+through everything but um you know
+hopefully build some intuition for how
+some of the methods we've used have have
+evolved over time. And so a little bit
+about the task themselves, right? So uh
+in senior Sweetbench um the task design
+specifically required many points of
+expert supervision or expert touch
+points. So on the left hand side uh this
+is a harbor task. We're big fans of
+harbor as an eval um uh framework. Um
+these are instructions that are natural
+language instructions. So the the key
+diff here was instead of representing
+you know if you're familiar with a
+Swedebench or or kind of traditional
+coding benchmarks if you actually look
+at the data if you actually look at the
+tasks a lot of the samples are very
+oversp specified very kind of EDDD level
+um you know guidance for what to do what
+not to do we wanted to represent more
+realistic higher level abstractions in
+terms of how we actually interact with
+these agents in practice so more of a
+Slack message here's a here's a dump of
+logs you know figure out what to do with
+it or um here's a few users stories
+about an idea that I have. Um can you
+help me implement this? So actually
+injecting expertise and realism into the
+instructions was a super non-trivial
+part of building this. Um on the right
+hand side um you see a whole reward
+phase which we uh spent a lot of time
+designing and specifically um
+calibrating as well. I'll go into a
+little bit more detail but the intuition
+here is we wanted to capture a number of
+different components of how you actually
+measure these agents in practice. So not
+just um is this correct or mergeable but
+does this exhibit taste? Does this
+exhibit what you'd trust a staff or
+senior or principal level engineer to
+actually do in your codebase uh
+completely unsupervised? Let's go a
+click deeper into the specific uh reward
+design. Um and this was a bit nuance and
+again an area where we wanted to get
+creative in scaling expertise. So we had
+you know snorkel engineers and
+researchers. We have a really strong
+network of very senior principal staff
+level engineers um but not unlimited
+time. And so we wanted to find ways to
+scale their intuition and efforts rather
+than having them handgrade every single
+one of these samples and agent
+trajectories that came out of this. So
+the axis we tried to articulate here um
+there there's a trade-off between
+reliability and flexib uh flexibility
+when it comes to traditional verifiers
+and rewards especially in the software
+domain. On the top you have um high
+reliability and low flexibility. These
+are pre-written verifiers and think of
+these as unit tests, right? These are
+tests that reliably execute against your
+codebase. They're um actually um running
+against the code so you know that
+they're doing the thing. Um but the
+challenge is they don't actually adapt
+to any solution, right? If you have um a
+you know post/profile implementation
+versus a um you know another way to
+implement a way to kind of update a
+user's information, you might actually
+have a false negative in the verifier,
+right? might actually penalize behavior
+that is fully okay and fully valid um if
+you're too constrained in your
+verification approach. And so on the
+other side of the spectrum, right, low
+reliability, high flexibility, you have
+LLM judges, right? This is a very common
+and effective way in many cases to
+actually adapt to different solution
+shapes, right? The um code can be a
+little bit more flexible. uh you're
+actually just asking an agent or LLM to
+look at the code and specifically um you
+know grade it uh using its own kind of
+uh calibrated or unccalibrated
+intuition. Um and obviously the
+challenge here is that this can be
+really unreliable because you're um not
+really exercising any of the solutions.
+You're not exercising the code path
+directly. You might be just, you know,
+asking the agent to kind of take a
+glance at the code and it's it's hard to
+actually uh control for false positives
+here, right? Where you may o overreward
+plausible but incorrect solutions. And
+so we found a middle ground for this
+which I'll go into a little bit more
+detail and introduced this notion of a
+validation agent uh which specifically
+tried to capture and scale the expertise
+of a bunch of our senior researchers and
+engineers and experts in our community
+and and network um to one express the
+user stories or kind of specification of
+what they thought good looked like and
+two use that specification to then write
+deterministic tests against the code
+surface that was actually relevant to
+you know the solution space. So um a
+simple idea but did take a lot of
+calibration and effort to actually um
+come up with this notion of hey how do
+we actually capture the expertise of of
+someone who's you know defining user
+stories for a particular task while
+actually exercising the real code path.
+So again in a little bit more detail
+right what does this actually look like
+in practice the input to this validation
+agent think hey I have codeex I have uh
+clawed code it generates a patch against
+my instruction set the expert produces
+what we call the validation spec so this
+was just a few bullet points think a
+slack message of okay here are my user
+stories here are a few you know uh
+functional or non-functional
+requirements not so much that it was
+oversp specified and overly prescriptive
+about a specific solution but uh high
+level enough so that it to capture the
+space of you know what we wanted the
+model to do or not do. We then had a
+validation agent take the patch and the
+validation spec and specifically in uh
+implement test scripts. So these were uh
+deterministic um scripts that would uh
+execute and and run over the code
+itself. And at the end of this, we would
+uh score against the both both the
+execution and use a judge um to ensure
+that the runs were were kind of sane or
+you know uh resulted in kind of
+collusion or reward hacking or some sort
+of behavior that we thought was um not
+valid for the trial. And so this this
+idea of encoding expertise in a way that
+um was still scalable was really the
+crux of how we tried to design this
+validation agent to map to dynamic
+implementations right in the specific
+codebase. Um and so we did a lot of work
+actually to calibrate this. We aligned
+these against you know specific test
+engineers internally and in our network.
+Um we introduced LLM judges that
+measured things like uh fidelity,
+completeness, collusion and ultimately
+each test was parameterized so that um
+you know in the validation spec you you
+can think of it as like a ramble of kind
+of um hey what is the shape of the type
+of use cases edge cases I want to
+capture without having to write you know
+the full spec at the end or the the full
+tests you know at the end of the day
+which could take days to weeks to
+months.
+So this is um live now and one thing I
+want to uh point out before you know
+talking about the results which are kind
+of fun. Um we introduced this notion of
+a tasteful pass. Um this is a new metric
+that we introduced in this benchmark to
+specifically measure not just
+correctness or mergeability but a more
+nuanced definition of is this actually
+code that aligns to your codebased
+practices. Does this actually map to um
+you know how a senior engineer would act
+in practice? Does it minimize bloat in
+terms of patch size? Um we merged that
+with uh notions of correctness to
+actually um rank a bunch of these models
+and remarkably um and we double and
+triple check this uh Fable, Opus and
+Soul are all tied for first place as of
+uh last week. This is pretty exciting
+because it means that um you know the
+Paro Frontier is definitely getting
+pushed in these cases, but this is a
+kind of live dashboard and a living
+benchmark that we've been keeping up to
+date. So definitely reach out and check
+it out if you have um if you're curious
+about it. This is some of our recent
+work um on this topic.
+And so I want to definitely give some
+flowers to the team here. Henry, our
+co-founder, uh was the was the lead
+here. We were very humbled to work with
+Cararthik's group at Princeton who led
+the original SweetBench and uh our chief
+scientist Fred uh who has the lab over
+at uh uh Wisconsin Madison. Um and some
+of his students were also involved. And
+so I'll zoom out and and wrap up here.
+Um as we enter data point 2.0, this is
+maybe the the takeaway here. As we enter
+data 2.0 know and see a lot more
+complexity. We need a lot more data
+research, right? It's not just a problem
+of throwing humans at these tasks. These
+days, we need a lot of thoughtful design
+to give these experts, software
+engineers, doctors, uh lawyers, people
+who actually understand the spec
+leverage to exercise their own
+supervision and judgment in these data
+sets. And um you know, this this slide
+at least shows a view of all the axes
+that complexity is going to continue to
+grow in, right? The environments are
+going to get more complex and dynamic.
+the outputs are going to get more and
+more unverifiable and nuanced and
+subjective and the autonomy of these
+agents are going to also continue to
+extend and you could imagine every one
+of these axes introduces compounding
+complexity and so it's really a research
+question. It's really a research problem
+to think through how do we scale and um
+provide experts more judgment and that's
+really what we're focused on and
+encourage the community to to work on as
+well. And so here's a very concrete ask.
+Uh we need more benchmarks and we think
+this is actually a really high lever way
+for folks to drive new data research.
+We're super humbled to to work with a
+number of the folks on the screen from
+agents/exam um over at Berkeley
+continual learning bench oorld uh the
+terminal bench folks. Um we've learned a
+lot working with these folks and um in
+general we're we're uh very excited to
+see a lot more benchmarks and so we like
+to put our money where our mouth is. We
+have this notion of a open benchmarks
+grants. Um hopefully this is us actually
+a research a resource to folks in the
+community. We're very excited to you
+know accelerate and and focus on more
+research that is out there and help you
+accelerate your data devel data
+development and partner as a as a
+research team. But um yeah, we're really
+excited about the future of benchmarks
+and data for data 2.0 and thanks so
+much. [applause]
+>> All right, next up we have Volo.
+>> Uh okay, great. Thank you for having me.
+Super excited to be here today to tell
+you about some of our uh work some of
+the work that we've been doing at
+Inception on training uh real world
+large scale diffusion language models uh
+with uh my co-founders Stephano and
+Aditia and a really really talented team
+of engineers and researchers. So in
+short uh what we're working on is a new
+generation of language models that is
+powered by diffusion. And what that
+means is that instead of generating
+tokens one at a time sequentially left
+to right, a diffusion model starts by
+generating tokens all at once uh
+starting from an initial guess of the
+sequence. So starting from some some
+kind of noisy initial version of the
+output and then producing all the tokens
+in parallel over multiple steps of
+refinement. We're very excited about
+this technology. we think is going to be
+the future of language models. And in
+particular, a very important advantage
+these models have today is speed.
+Because these models can produce
+multiple tokens per step, they can
+produce many more tokens per second and
+they can reach speeds at over a thousand
+tokens per second uh which is way beyond
+what is achievable with uh traditional
+ultra reagressive modeling. There's all
+kinds of applications for ultraast
+inference in real time AI. One area that
+we've been working in uh a lot is
+real-time voice. Um so voice agents for
+example uh in customer support uh but
+also in other domains like education. Uh
+so these are agents that uh synthesize
+voice and talk to you in real time.
+Usually uh the voice uh state-of-the-art
+voice pipelines are still built on a
+cascaded architecture where you have a
+uh speech to text system, a texttospech
+system at the output and at the middle
+you have an LLM. The overall latency of
+the system is highly bottlenecked by the
+LLM. This is a critical critical piece
+of this workflow. And if you can make
+LMS go much faster, if they can go at
+1,000 tokens per second like our Mercury
+2 models are able to achieve, then you
+can make real-time voice interactions
+feel more seamless or you can deploy a
+bigger model or you can get the model to
+reason for longer which will then
+significantly improve your quality. So
+this is a slide that shows the
+performance of Mercury 2 on voice
+benchmarks compared to other models. And
+what you see is Mercury 2 draws a a new
+parto frontier of quality and uh and
+latency. So latency on the x-axis,
+quality on the y-axis. Uh so we have a a
+new parameter frontier that's achievable
+with a fusion. I also want to highlight
+some other models here that are
+baselines. So here for example we have a
+uh 120 billion parameter GPOSS model
+running on cerebras and a diffusion
+mercury model can achieve both higher
+quality at least as measured here by
+tobench and I'm going to argue on real
+data as well uh and it can also run
+faster. So this is really exciting
+because uh so again three are
+specialized chips uh designed and built
+to make other aggressive models run
+really fast. If you have diffusion, you
+can achieve similar speeds on GPUs by
+having more intelligent software. So you
+can build software to make models really
+fast instead of hardware. That's really
+exciting. You can deploy these models on
+uh on on a lot more GPUs that are more
+easily available.
+Um but to build a really good voice
+models, algorithms and diffusion is one
+component, but the other part that's
+really really really important is the
+data. uh you need data both for training
+the model and for eval
+right now perhaps the most widely used
+and representative benchmark for running
+evals is tbench
+uh tabbench has a few problems first of
+all tbench doesn't really capture all
+the range of complexity that you see in
+real world data uh so if you look at a
+tabbench environment it is it probably
+has an order of magnitude fewer
+specifications than you would have in a
+in a real world uh setting where like a
+business would be doing real world
+customer support. There's fewer tools in
+Towerbench. Uh it doesn't have certain
+kinds of specifications that you would
+want to provide. Uh and then another
+problem with Towbench is that it's
+extremely benchmaxed. If you go to your
+favorite benchmarking website, you're
+probably going to see most of the models
+achieving uh scores that are in the
+'90s. But then if you run these same
+models on real world production logs, uh
+you're going to get much lower scores,
+and there's also going to be much more
+variance across models of different
+sizes. So data is a key key ingredient
+of building the kinds of performant
+models uh that that we want to build uh
+in addition to the algorithms.
+Now our approach for getting good data
+for our models involves a system that we
+call Dowo Forge which uh synthesizes a
+wide range of realistic RL environments
+similar to Dowbench based on real data
+based on real user interactions or uh
+either based on data that we're getting
+from our data providers or we also have
+partnerships with companies that are
+using uh this model in production and so
+we get a lot of real world data that
+then allows us to synthesize uh talbench
+like environments across different
+domains which can then be used for evals
+as well as for training the model. So
+this slide here summarizes or gives an
+overview of tao forge. Uh taforge is an
+agentic system. So it's a harness that
+orchestrates uh a large number of
+different agents and it produces this
+output synthesized so synthetic RL
+environments that are similar to
+Towbench. The input to Dow Forge is a
+description of the kind of environment
+that you would like to generate. So here
+for example, you could ask it to
+generate a banking environment as well
+as artifacts that represent real world
+usage of users in that real world usage
+of the model in uh that target domain.
+The first step is to synthesize uh an
+initial environment that is based on
+that data. that involves for example a
+policy that specifies the kinds of uh uh
+task or the kind of domain where you
+want the model to operate. So for
+example, if this is meant to simulate
+customer support in banking, then you
+could generate a policy that describes
+how the bank would operate, what are the
+hours, who are the users, different
+accounts, maybe synthesize a small
+database. Uh and also uh it creates
+tools that the model can use to then
+interact with this environment. Uh again
+crucially this can be uh conditioned on
+real usage of the model which ensures
+that this environment is representative
+of how the model is going to be used
+later in in production. If this data is
+not available, we've also created what
+we call the business knowledge graph
+which is data that has been crawled all
+across the internet and that describes
+various representative businesses. uh so
+we can also synthesize uh uh domains for
+which we don't have real world data but
+we have crawled the internet to gain
+real world knowledge about these
+businesses.
+Now given an environment then the most
+important next thing that we want to
+generate are tasks which means these are
+tasks that uh uh so so we're going to
+have uh simulated users that will try to
+achieve certain goals in this
+environment and the agent will assist
+them in these goals and we need to
+synthesize what those goals are. In
+order to do this we start with what is
+called a database of seeds. Uh so these
+are abstract scenarios. For example I
+want to open an account, close an
+account, I want to change my phone
+number. uh I would like to I don't know
+get some information uh as well as
+personas which are um certain types of
+humans that might be interacting with
+the model given that we have an
+environment we can take our library of
+scenarios and other seeds and specialize
+it to this domain again by invoking an
+agent uh and then once we have a good
+database [clears throat] we can start to
+generate tasks. So again these are real
+world interactions that a user would
+have with these models and then we will
+simulate those users using other agents.
+Now getting a good set of tasks is also
+non-trivial. Uh we need to strike a
+careful balance of tasks that are uh not
+too easy to solve. So if a if a model
+consistently solves this task, it's not
+useful for learning. And conversely, if
+the task is too hard, there's also not
+enough learning signal. So there is an
+iterative procedure where we filter and
+reconstruct tasks based on the ability
+of the model to solve them. Uh and to do
+this we use these go these what we call
+uh hardening traps which means that uh
+we can uh modify the task to make it
+more difficult. So for example you can
+take away certain information or you can
+make the ask more complex. Uh so you can
+do all kinds of uh tricks to harden the
+task or you can also filter out
+difficult tasks uh until we get
+something that we feel strikes a good
+balance between being realistic and
+providing learning signal to the model.
+So again the output here are RL tasks
+and then uh of course this is
+continuously inspected by looking at
+real world data. So uh models are well
+first of all these environments can
+still be verified the harness can be
+updated uh and also models that are
+coming out of this environment we get
+real world feedback from users and we
+can use that to further refine the
+harness and further refine this uh
+synthetic generation procedure.
+So as an example of what this model can
+achieve uh here this is an experiment
+where we used our latest preview model
+mercury 2.5 um uh so before it was uh
+trained on any sort of domain specific
+data you know it achieved about 50%
+accuracy and training it on an initial
+set of tasks synthesized from tforge
+improved performance on another set of
+environments by over 23% matching the
+performance of uh all kinds of
+state-of-the-art openour or is in closed
+sourced uh model and here just to
+clarify the setup is that uh there are
+there's a diverse set of environments
+and businesses so for example I don't
+know banking or you know airplane
+um booking airplane tickets and uh you
+know getting doctor's appointment so you
+can have a whole range of businesses and
+you can split that into a test set and a
+training set you hill climb on one set
+of businesses and you test on a
+different set of businesses uh which
+ensures that uh which which helps reduce
+overfitting. Um and and again these
+these these these tasks are still
+especially the test set is closely
+derived from real world logs which gives
+us confidence that this will correlate
+with real world performance once we
+deploy into into production. Um, so this
+is just a a bit of uh a bit of
+information on the kinds of techniques
+that we can use to make our model really
+high quality, not just fast, but also
+improve their uh intelligence in some
+very specific priority domains like uh
+voice. Uh and if you'd like to try these
+models, they're available. Uh so they
+run at 1,000 tokens per second. This is
+the pricing. And even though I mainly
+talked about voice in this talk, uh we
+also have uh customers across other
+domains including search as well as
+code. Uh and so these are all domains
+where uh mercury 2 models are really
+good for latency sensitive tasks. Uh and
+there's if you're interested in
+feedback, we have companies and other
+companies that are using these. Uh so
+happy to tell you more after the after
+the talk. And maybe I'll just briefly
+add by saying that we have a program for
+startups. If you are in YC, we have a we
+have $500,000 in credits that we're very
+happy to give away. Uh if you're
+interested, please uh grab me and uh I
+would love to tell you more. Thank you.
+[applause]
+All right, next up we have Shane.
+Awesome. Thank you. Thank you so much
+for your attention. I think I'm the last
+talk and uh I'm Shane. I just graduated
+from my PhD at MIT and I think this is
+my favorite project uh during my 5-year
+PhD. It was work that I did while
+interning at Google. Thank you for the
+TPUs to make this happen. Um we
+basically looked at multilingual
+pre-training and within that transfer
+between the languages. So the synergies,
+interference and interactions between
+the different training sets uh data set
+sources that are different languages.
+While I walk you through this project
+for the next 10 minutes, you can imagine
+all of these experiments and all of
+these results and methods could be
+generalized to many different sources
+within your data. They don't have to be
+languages. They could be um different
+domains or different quality sources of
+data, different things um however you
+want to splice it up. And I think that's
+important because increasingly when we
+think about uh our model's capabilities,
+its risks, its limitations, we think
+about how all of those different pieces
+interacted and came together. So diving
+into this, I'm going to talk a little
+bit about why this is important,
+motivating it a little bit beyond
+English. Then I'm going to go through
+really quickly, rapidfire, some of the
+research questions we asked and the
+answers we arrived at before bringing it
+together. So this was presented at iClar
+earlier this year with these phenomenal
+folks at Google, Udub, Stanford and some
+other places. If you look at scaling law
+and even mixing law papers in literature
+right now, uh they are 99% about English
+training data and English evaluation.
+There's very little about sort of the
+rest of the world and the community. Uh
+which is actually kind of shocking. And
+so this is thinking what if the
+objective was a single language that
+wasn't English or multiple languages a
+cluster of them and exploring that
+domain. And why is that different than
+in English? The reason is because
+there's severe constraints when you go
+past the first few languages that are
+very abundant online. And we also uh
+provide toolings and methods both for
+scaling laws, mixing laws, fine-tuning
+versus pre-training and other decisions
+that developers have to make. And this
+has implications for uh developing
+models for your own culture, society,
+language and also trying to figure out
+if you are Turkish um what are the
+constraints in pre-training for uh
+Turkish language models, how much will
+they lag behind uh language models for
+English based off of just the
+availability of data that's there and
+what synergies and interference we can
+expect in pre-training. So let me start
+with the problem setup. Very simply,
+let's pick a language. We're going to
+pick Thai because there's something like
+80 million speakers in the world. It's a
+very unique language, but we could be
+talking about Swahili, Polish, it
+doesn't matter. The point is that in
+Madlad 400, a popular common crawl based
+pre-training corpora, there are 0.6%
+the number of tokens in Thai as compared
+to English. So less than a percent of
+the amount of English data that you
+have. You know, some frontier model,
+CHBT, whatever it is, we don't know. but
+it has some training mixture among the
+natural languages and it's probably
+going to roughly follow like every other
+language mall the distribution you know
+they'll do different sampling techniques
+and things like that but you're going to
+roughly have more English than anything
+else followed by the next languages you
+care about that are more abundant more
+uh heterogen heterogeneous
+um all the way down that list and by the
+time you get to Thai it's a tiny sliver
+of the overall mixture much less than 6%
+and so the performance performance on
+Thai is going to be pretty poor. Um, it
+might be pretty pretty good overall
+because it's a massive model, but it's
+not going to be great for Thai speakers.
+And this is shown uh in the literature
+and in evaluations.
+So, you might say, okay, let's train a
+model just for Thai. We're going to
+monolingually only train on all of our
+TAI data. But the problem is there's so
+little of it that we end up repeating it
+again and again and again. And those are
+those dash lines, epochs. And you've
+overfit to your tie data. You need a
+much smaller model. And so actually, you
+don't do very well there either.
+Ideally, what you want to do if we skip
+ahead to the solution is something like
+this. It's actually a mix where you use
+a lot of your tie data, but by the time
+you're hitting severe diminishing
+returns, you're also incorporating, this
+isn't a curriculum. This is all, you
+know, mixed together. You're using
+highquality synergistic data that
+happens to be English, Indonesian,
+Malay, Lao, uh, Croatian, it turns out.
+But you're not going to know that
+because this isn't just about what
+language families are similar. It's
+about what data empirically is not noisy
+and that other source is actually
+helpful, covers similar topics. Um, and
+that is very distributed and uncertain
+on the web. It doesn't just mean that
+they are from the same language family.
+So it's something you have to
+empirically measure. You can't just
+bring a linguist and they can theorize
+about linguistics for this particular
+case. So
+how do we get to the fantastic Thai
+model or sahili model or Turkish model
+and figure out the right mix and the
+right model size?
+First we want to measure language
+synergies and this is where a lot of the
+contributions of the paper comes in.
+There's many ways you can think about
+doing this. And the way that we landed
+on was imagine this. You have a training
+curve. So over your training steps, the
+red line is where you're training only
+on Thai data. So it's monolingual. So it
+does pretty well, but it flattens very
+early. Now imagine that compared to uh
+models that are trained 5050 on Thai and
+English, Thai and um Telugu, Thai and
+other languages. And you can see that
+those learning curves are much higher,
+meaning that they're not as good. And so
+actually the distance between these
+curves tells you something about how
+good that language is in being helpful
+for Thai. And so we can say, okay, well,
+Indonesian is better than English, which
+is better than Telugu because that line
+is longer, the distance. Um, and this
+efficiency gap can be formalized into
+something that looks like this. And let
+me abstract all this away. Uh you don't
+have to go into too much detail. If
+these two lines are really close, the
+number is big and positive. If the lines
+are very far away, it's going to be a
+negative transfer, meaning there's
+interference. These languages are
+competing for tokens or neurons in order
+to represent one another and perform
+well on them.
+And if you do this over and over again
+with many tricks that I'm not going to
+get into, you get this big cross-lingual
+transfer matrix where red means high
+synergy and blue means high
+interference. And so if you look at, you
+can't see it, but imagine you could zoom
+in and look at Spanish, the row. The
+bright red uh spots empirically happen
+to be Portuguese, Italian, um, and
+French. And the most negative harmful
+language um is Japanese. Meaning if you
+train with Japanese, it's going to hurt
+your Spanish. And so this is all
+empirically sort of born and there's,
+you know, some surprises in here, some
+interesting things. Some languages are
+more helpful broadly than others. Um and
+it's complicated.
+The other really cool thing about this
+matrix is it's at one fixed size of
+language model. If we increase the size
+of the language model and make it much
+bigger, then actually a lot of these
+blues start to turn red or deeper red,
+there's more synergy because the model's
+bigger and can accommodate uh
+understanding multiple languages at once
+or together and seeing their common
+patterns. But if the model gets really
+small, all of these turn to blue and
+they all interfere competing for space
+within the model. All right, quick
+question for the audience. who thinks
+that if um Portuguese is helpful for
+Spanish, that means that Spanish is
+helpful for Portuguese and that symmetry
+exists uh from what we measured. Raise
+your hand if you think that is true.
+We have a few people. If you think it's
+not true, raise your hand. Okay, it's
+kind of 50-50. Well, actually, it's kind
+of hidden on the screen. I know it's
+late. Uh it's not symmetric as you can
+see. Um and actually there's this weird
+sort of like uh branching factor that
+happens and this is important because if
+you're a practitioner and you do
+experiments you say okay Telugu is
+really helpful for Swahili you can't
+assume the opposite you have to go
+measure it and so that's where this
+breaks down and we actually show that
+okay second question you can redeem
+yourselves um what is more helpful do
+you think if two languages share the
+same script or if they share the same
+language, family. Who wants to vote for
+family?
+We have some. Who wants to vote for
+script? All right, congratulations team
+script. They both matter, but script
+matters a little bit more probably
+because of tokenization artifacts and
+how those are represented. If you're
+taking pictures, don't worry. It's all
+online. I will point you to it. Um, I'm
+going to go through in the last three
+minutes really quickly a little bit of
+math. We have this great matrix. So we
+have all these numbers and relationships
+between languages. But the last step is
+how do we actually create a scaling law
+from this? How do we actually understand
+how to predict estimate loss or figure
+out the best mixture of languages for a
+given target which is our original goal.
+You have to fit scaling laws. Those of
+you that are familiar with Chinchilla
+probably remember this. You predict the
+loss based off of the model size and the
+amount of data you've trained on and you
+fit it using these blue parameters here.
+you fit those. Um, however, if you have
+a multilingual data source and you're
+trying to figure out how good it is on
+French, the thing that matters most is
+how much French data you had and if you
+have tons of other data, you know, how
+is that factored in? 1D is not helpful.
+You need to model all of it. And so, um,
+that's what we do. There's many ways to
+model this. We explored many options but
+simple solution that actually works
+really well is to break down
+chinchilla's d into a composite of
+monolingual transfer languages
+monolingual source in this case Thai the
+close transfer languages in the matrix
+plus a bucket for everything else that
+looks and yeah we account for
+diminishing returns when you run do
+multiple epochs of certain data there's
+a lot of details long story short it
+looks something like this and uh the tow
+how is sort of a waiting factor that you
+can learn from the matrix. I'm going to
+rush along in the interest of time. But
+you get bold numbers in a table
+state-of-the-art. Yay. It works. It
+works really well actually. Maybe
+because a lot of people can't run 700
+pre-training experiments. Maybe because
+this is unders underserved and people
+aren't looking at this enough. But
+either way, I think this is really
+useful machinery to use for mo for uh
+mixing multiple sources and
+understanding how they interact to
+predict the final loss for your model
+and how to scale your model given what
+you have. So it gets us back to this.
+I'm going to wrap up by saying we did
+some experiments to say you have a big
+pre-training models available that are
+multi language. You just fine-tune or
+maybe you should pre-train from scratch
+for the language that you care about. We
+tell you which to do based on how much
+compute you have. We also look at the
+curse of multilinguality. So if you um
+want to increase the size of a language
+model from four languages and you want
+to retrain it for eight languages, how
+much more data do you need and how much
+bigger does the model need to be in
+order to maintain the same performance
+as before? We do a bunch of math. It's
+very cool and we show you exactly what
+to do as a practitioner and it actually
+holds really well over different target
+languages. So I'd recommend consulting
+this if you're interested. Thank you so
+much. Appreciate your attention.
+[applause]

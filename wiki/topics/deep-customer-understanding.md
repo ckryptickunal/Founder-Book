@@ -15,4 +15,4 @@ The critical importance of intimately understanding customer problems, business 
 
 ## Source Mentions
 
-- [[sources/R56RJFZBasQ-unknown|Unknown]]: The critical importance of intimately understanding customer problems, business operations, and needs to build effective products.
+- [[sources/R56RJFZBasQ-pick-one-idea-and-go-deep|Pick One Idea and Go Deep]]: The critical importance of intimately understanding customer problems, business operations, and needs to build effective products.

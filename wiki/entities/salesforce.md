@@ -2,7 +2,7 @@
 type: entity
 title: Salesforce
 created: 2026-05-26
-updated: 2026-08-06
+updated: 2026-09-24
 sources: []
 tags: []
 ---
@@ -28,3 +28,4 @@ A CRM giant, admired by Giger's founders for building a highly general product.
 - [[sources/zAYPT6CrWRQ-parker-conrad-rippling-ceo-built-an-11-billion-customer-obsessed-business|Parker Conrad (Rippling CEO) built an $11 BILLION customer-obsessed business]]: A CRM platform that uses customer data as its core primitive.
 - [[sources/80eZ7DjCGSo-how-warp-went-from-yc-to-a-60m-series-b|How Warp Went From YC to a $60M Series B]]: A CRM company, used as a classic example of a 'system of record' and its defensibility.
 - [[sources/_7bnpjJB9T0-yc-ultimate-job-guide-startup-stages|YC Ultimate Job Guide: Startup Stages]]: Used as an example for early sales roles and later-stage role redundancy.
+- [[sources/yslXlV2BP_Y-the-state-of-startups-in-2026|The State of Startups in 2026]]: Enterprise software company.

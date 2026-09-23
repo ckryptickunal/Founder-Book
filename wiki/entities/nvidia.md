@@ -2,7 +2,7 @@
 type: entity
 title: Nvidia
 created: 2026-05-26
-updated: 2026-08-06
+updated: 2026-09-24
 sources: []
 tags: []
 ---
@@ -33,3 +33,5 @@ A technology company, mentioned as a customer of Infracloud and Griptape.
 - [[sources/n8dz2FX0_uY-multi-gpu-kernels-intelligence-per-watt-heterogeneous-inference-and-more-yc-paper-club|Multi-GPU Kernels, Intelligence per Watt, Heterogeneous Inference, and More | YC Paper Club]]: GPU manufacturer, AI infrastructure provider, mentioned for DGX machines, NVL72, and B200 GPUs.
 - [[sources/qz4GQ0zUFRw-world-models-jepa-and-the-path-to-sample-efficient-rl|World Models, JEPA And The Path To Sample-Efficient RL]]: Mentioned in the context of robotics research and world models.
 - [[sources/_-5xJQ4U8g0-are-we-in-an-ai-hype-cycle|Are We In An AI Hype Cycle?]]: GPU maker, became the most valuable company in the world, driving AI infrastructure.
+- [[sources/rY0wnfFHYbs-open-models-change-the-economics-of-ai|Open Models Change The Economics of AI]]: Hardware and AI infrastructure provider
+- [[sources/whcfSGN6CAU-peter-steinberger-fun-is-velocity|Peter Steinberger: "Fun Is Velocity"]]: Technology company specializing in AI hardware and software.

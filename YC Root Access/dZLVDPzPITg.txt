@@ -1,0 +1,276 @@
+Title: Centralize is the GPS for Enterprise Deals
+Video ID: dZLVDPzPITg
+URL: https://www.youtube.com/watch?v=dZLVDPzPITg
+Channel: YC Root Access
+Published: 2026-09-08T18:48:33Z
+Duration: PT8M12S
+Views: 9768
+Likes: 51
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 260
+
+============================================================
+TRANSCRIPT
+============================================================
+
+[music]
+>> I'm excited today to welcome the
+founders of Central here's ratchet and
+will. So you guys just close a $15
+million
+series A led by NEA.
+>> [snorts]
+>> Tell us what the central I do.
+>> Well first of all thanks for having us
+here. It's a very cool full circle
+moment being back. Central I is the GPS
+for your enterprise deals in short it's
+automatic or charts that create
+themselves and they effectively show
+you.
+You know the people who's missing and
+then how do you fill in the white space
+so kind of the turn-by-turn directions
+of the relationships that really define
+whether or not you lose or win these top
+accounts.
+>> And who are some of the top customers
+that are live with you?
+>> Yeah really just have some pretty
+awesome folks in the last few months so
+we got the teams over at TechCrunch
+blank chain cognition
+intercom brex x uh
+Let's go on but a lot of really great
+folks.
+>> I think you guys told me about one
+primitive that you guys figured out is
+basically you guys are shipping the org
+chart of your customer's customers.
+And
+Tell me about all the inputs you take in
+and how you build this.
+And maybe a case study on how building a
+org chart for your customer customers
+brings value.
+>> We call it the trust graph internally
+and we probably talk about the
+>> Yeah.
+>> inputs.
+>> I mean I think
+it's this is really fascinating I think
+to to what ratchet and I were talking
+about a little bit earlier there's a lot
+of different inputs right there's a lot
+of unstructured data whether that's
+emails whether that's calls all the
+places that you might be talking to the
+prospect to the customer in.
+We kind of just suck all of that in and
+then understand all of the human
+dynamics between all of that information
+and so when we do that we take all of
+that and then we almost just like parse
+it into a visual that anyone looking at
+this account or anyone looking at the
+customer can really quickly see and get
+the context for what are the
+relationships, where are they, where do
+people live on the organization, and
+then immediately what's empty? Like oh,
+we don't have anyone at the VP level.
+What do we do? Who do we go after? And
+centralized kind of uses AI to help you
+understand that. And so, a lot of it is
+ration mentioned a little bit earlier,
+but entity resolution. So, hey, is this
+the same ratchet that uh was at Meta a
+while back, that was at A16Z a while
+back, that's the same ratchet that's now
+at centralized? How does centralized go
+and figure that out under the hood? And
+a lot of that ends up just being a bunch
+of fun engineering um to to make that
+happen. And so, the underlying, I think,
+interesting part of centralized is the
+way that we've structured the actual
+product, the actual data model to
+actually be really focused on the
+person, the messy middle of the dynamics
+between two people. If I had a
+conversation now, how does our
+conversation today change over time?
+Like if we have a conversation tomorrow,
+what changes about our relationship?
+That's what centralized captures.
+>> At a at a organization level, so if um
+if I'm trying to sell to you guys to
+centralized, it would map up
+all the stakeholders, taking all, from
+what I understand, gong calls, emails,
+CRMs, work tickets, my LinkedIn
+connections, and build this uh traversal
+graph.
+>> Yes.
+>> Tell us a bit about um
+the outcomes of uh some of the customers
+that use you and
+and what what do they what do they get
+from using you now that you have this
+this custom org chart per per customer?
+>> Yeah, it's really cool. I mean, we have,
+again, customers like LangChain,
+Cognition, like the AI natives that
+won't build it or can't build it. And I
+think a lot of it is is to Will's point
+because that entity resolution layer is
+such a core and
+uh almost like underlying that we can't
+build and provide. So, to answer your
+question directly, how's this already
+accelerating today? Well, we have a lot
+of these customers enterprise strat
+teams using Central Eyes. And there's an
+example where one of them
+of the names I listed was working a
+Fortune 10.
+And these are like insane accounts,
+right? Thousands of people. How could
+you hope to navigate this like crazy
+sea? Let alone you do it once and then
+normally, you know, someone leaves
+tomorrow and a new conversation happen
+you weren't a part of.
+It's just changing underneath you.
+But they were able to wake up for that
+Fortune 10 to not only the relationship
+trust graph of who we've ever talked to.
+And importantly, not just that that rep
+we talked to, but his team had talked to
+2 years ago. He wasn't even in the room
+for it. But that's picture that
+institutional memory is now finally
+visualized, right? We get that whole
+story.
+Who his board is connected to that used
+to work somewhere at DBT, whose friend
+is now at the prospect. And all of a
+sudden you have a friendly internally to
+walk you into that deal. You're breaking
+through that trust kind of the the the
+gap that you have to bridge.
+And then finally, the names that match
+their ICP of the personas they normally
+have to get to that would normally take
+hours if not weeks of trawling through.
+Hopefully, it's in LinkedIn or your
+friend groups. Like wherever you have to
+go to find those answers.
+Central Eyes has given you the players
+on the field, warm or cold, already
+pre-mapped out. And I think the coolest
+use case is as much as this is an
+internal deal strategy board. It's like
+the chessboard you're playing with.
+Any good seller, probably most people
+listening here know,
+you don't want to loan. You have to win
+with your champion. You have someone
+that's helping you because they want you
+to win. They they want the product.
+How do you help them internally? What if
+you show them the map for the first time
+that they can see what it not just who
+you have, who you think we need to get
+to. And literally help them become a
+champion. In this case,
+on the call, they literally went from a
+6-month sales cycle that was taking them
+literally half a year to try to make
+progress and they were stuck to a warm
+pathway that their head of marketing had
+into the C-suite and got walked in.
+Showing their champion the map of that
+relationship and being given the missing
+org that didn't even know that existed
+because their champion could finally see
+it and then ultimately progressing and
+closing the deal for an eight-figure
+outcome.
+>> Eight figures. So, they closed that
+eight-figure contract in a matter of
+months. This is
+>> And that was, by the way, six months
+into the cycle pre-centralize. And
+post-centralize, it took them on the
+order of weeks to get those outcomes.
+So, imagine if they just started every
+deal using Centralize.
+>> So, who should use you?
+>> I think first and foremost, it's folks
+that are on the the ground, right? The
+people that are actually moving the
+needle working on these deals.
+Typically, I mean, all of our customers,
+it's the enterprise and strategic AEs
+and SDRs who are the front of the house
+to Will's point, navigating
+multi-threading, breaking into the deal.
+And then very naturally after having
+forgotten about our friends on the CS
+side and post-sales, it's still how do
+you retain that account? Do you have the
+right people that closed that are still
+around? Have they left underneath you?
+Have they shifted? Or the AMs, account
+managers that are expanding those
+accounts, too. It's really the entire
+revenue org. So, if anyone is navigating
+complex stakeholder deals and has to
+understand people, and that's critical
+to winning or losing the deal,
+it's a no-brainer to use Centralize.
+Maybe the fun thing that actually will
+make this even easier for everyone is
+not only did we announce the Series A
+last Wednesday, but last Thursday we
+announced single-player mode. In short,
+Centralize is free for any individual to
+try out for the first time. So,
+literally
+have at it, right? Like everyone should
+be able to leverage uh this new way of
+of selling and building relationships.
+>> So, you guys are growing very quickly.
+Who are the type of people that really
+succeed at Centralize?
+>> The one word that all of this boils down
+to, I think, no matter the role that
+we're looking for, is agency. So, anyone
+that has high ownership, um that is able
+to run through walls to get things done,
+uh is going to do really well at
+Centralize and are people that do really
+well in our interview process, as well.
+I think for us and I, you know, we're
+building this company right now as we
+go, we're looking for fellow builders
+that can come in with really, really
+high agency
+um to do that with us. I think right now
+we're looking for engineers and
+go-to-market folks.
+Um really anyone uh full stack, high
+agency, AI engineers, go-to-market
+across the stack. I really think if
+you're any one of those people and
+you're cracked, please come talk to us.
+Um
+and yeah, if you have high agency, I
+would love to talk to you.
+>> All right. Congratulations so much and
+thank you so much for coming, guys.
+>> Thanks for having us. This is great.
+>> [music]
+[music]

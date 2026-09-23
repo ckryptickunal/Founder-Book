@@ -1,0 +1,185 @@
+Title: Diamond Maps: Efficient Reward Alignment for Generative Models
+Video ID: fbmU20gTDUQ
+URL: https://www.youtube.com/watch?v=fbmU20gTDUQ
+Channel: YC Root Access
+Published: 2026-08-06T17:35:27Z
+Duration: PT5M35S
+Views: 203
+Likes: 2
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 169
+
+============================================================
+TRANSCRIPT
+============================================================
+
+[music]
+>> Okay, Doug, tell us what you're working
+on.
+>> Yeah, so this is Diamond Maps. Uh
+Diamond Maps aims to solve this class of
+problems called reward alignment. And
+what reward alignment does is it
+essentially takes, uh you know, a a
+model, a base model, and it tries to
+steer or align it to a specific task
+that you might have. So, for example,
+you might have a great, you know, image
+generation model which generates great
+images, but you're not really able to
+steer it or prompt it to, you know,
+generate images that are interesting to
+you. You might have like a specific
+style you want like that. Exactly, a
+specific style, yeah. So,
+that's uh
+the problem that Diamond Maps is trying
+to solve, and it's built on top this
+previous work in flow matching and also
+flow maps. And the actual uh
+main advantage of Diamond Maps is that
+it's extremely efficient.
+So, uh going into more of the details
+here, reward alignment relies on
+something called reward guidance. And to
+the to run this kind of reward guidance
+process, you need to estimate something
+called a value function. So, a value
+function would be something that you
+define that kind of uh
+you know, a high a high value or high
+reward would maybe align more with a
+sample that you care about more. So, for
+example, with prompt alignment, your
+value function could be, you know, uh
+some type of a difference between, you
+know, the image and this prompt that you
+give it. So,
+estimating this value function is kind
+of a core uh problem
+that's in reward alignment. Now, we
+have, you know, a lot of methods
+currently that help us estimate this
+value function, but the two uh main
+drawbacks are that they're either slow
+or they're also uh not great estimators
+of the value function because of
+because they're deterministic. Mhm. And
+exactly why is
+uh this value function
+is not defined over this generative
+process. So, generally, when you have
+this generative process, you start from
+some noise and you actually get to your
+final distribution. Now, it's not
+actually defined on any of these
+intermediate steps because they don't
+actually look like a sample.
+>> Yeah, when you have some like noisy
+image or whatever, it doesn't really
+look like any of the samples you can
+>> Exactly.
+>> Yeah. So, you kind of need to get to
+your final sample first. So, that's what
+flow maps and flow matching do, but they
+do it deterministically. So, that's a
+problem because
+your value function estimate should
+really be multiple samples because that
+point that you're kind of starting at
+can can end up or or can look like many
+different types of images. So, to get a
+great estimate of this value function,
+you want many samples of this. So,
+deterministic deterministic flow maps,
+let's say,
+at your intermediate step, you can, you
+know, sample this final sample that we
+were talking about before, and you can
+estimate this value function only with
+one sample. But, Diamond Maps allows you
+to sample multiple final samples from
+this same,
+>> At the intermediate step.
+>> Exactly, yeah. Or given the intermediate
+step, allows you to sample multiple
+final images. And this allows you to
+calculate reward over multiple different
+samples and get a much better estimate
+of this value function.
+Now, what does this actually look like?
+Well, you know, we have we have results
+here that show basically
+this better estimate does actually, you
+know, tangibly improve your actual
+alignment performance, right? So, for
+example, in this graph, you can see that
+Diamond Maps achieves better alignment.
+So, this is a metric called LPIPS, which
+measures alignment, basically. And
+achieves better performance than if you
+were to use, you know,
+>> just the vanilla flow matching.
+>> Exactly. And you can also see some cool
+samples here of an ImageNet model, which
+uh you know, is not conditionally
+steered or, you know, aligned at all,
+and actually is prompt aligned now. So,
+you can see we generate a lighthouse in
+the middle of a desert, and these
+prompts chosen so that you know these
+are not images that will occur
+naturally. You know, you won't have a
+lighthouse in the middle of a desert.
+And you can see that it does extremely
+well on these uh examples. And we
+actually propose two different
+approaches here. One is a training you
+know a training or fine-tuning method
+where you fine-tune off a pre-trained
+flow map and one is a training free
+method uh that's only at inference time.
+>> With an existing flow map.
+>> Exact frame models.
+>> So this basically plugs onto any
+existing flow map and can you know
+basically stamp all stochastically with
+uh
+with this method and not need to do any
+training at all. So this is kind of a
+trade-off between you know inference
+time compute versus training time
+compute. And
+>> And presumably you could do both also,
+right? You could have it as part of your
+training process and then still use it
+at inference time. And does that does
+that make a difference?
+>> Um you could do that. I'd assume that
+basically the whole point of uh the
+inference time or or they the results
+are the same. So if you did that that
+would probably just you know you would
+be spending extra compute and you
+wouldn't really be gaining a lot from
+that. But uh
+if you already trained a model it's
+probably better to use that. But for
+example, training these models are not
+that easy. So if you see here like our
+text-to-image experiments here they're
+actually on much higher scale uh data
+sets. You know, we're using flux and
+compared to here which is just ImageNet
+and we're able to do this because we
+didn't have enough compute to you know
+fine-tune these models. Takes a lot of
+compute. This inference time work only
+takes that inference time compute and
+we're able to you know then scale up
+easier and show you know better results
+here as well. Yeah.
+>> Cool. Doug, this is really awesome work.
+Thanks so much for showing us. This is
+awesome. Thanks.

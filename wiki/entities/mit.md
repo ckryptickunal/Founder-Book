@@ -2,7 +2,7 @@
 type: entity
 title: MIT
 created: 2026-05-26
-updated: 2026-08-06
+updated: 2026-09-24
 sources: []
 tags: []
 ---
@@ -29,3 +29,4 @@ Academic institution where Ellen Zong completed her PhD in Computational and Sys
 - [[sources/80eZ7DjCGSo-how-warp-went-from-yc-to-a-60m-series-b|How Warp Went From YC to a $60M Series B]]: Massachusetts Institute of Technology, where Ayush studied computer science, math, physics, specializing in machine learning.
 - [[sources/sJ4VJWycX9M-alexandr-wang-this-is-a-once-in-a-civilization-opportunity|Alexandr Wang: “This is a Once-in-a-Civilization Opportunity”]]: Massachusetts Institute of Technology, where Wang studied and conceived the idea for Scale AI.
 - [[sources/_iM9Ts_3qEk-fermat-s-library-cofounders-joa-o-batalha-and-lui-s-batalha|Fermat's Library Cofounders João Batalha and Luís Batalha]]: Massachusetts Institute of Technology, where Luís Batalha studied economics.
+- [[sources/vr6soyP0mh8-chartnet-training-vision-language-models-to-understand-charts|ChartNet: Training Vision-Language Models to Understand Charts]]: Massachusetts Institute of Technology.

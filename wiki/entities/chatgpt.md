@@ -34,7 +34,7 @@ An AI tool that Magic Patterns customers use to generate initial prompts for the
 - [[sources/F3INH9wZXoQ-why-physical-ai-is-the-next-platform-shift|Why Physical AI Is the Next Platform Shift]]: An AI model whose release significantly changed the market's perception and openness to AI, benefiting companies like Encord.
 - [[sources/I4B37S1dyQQ-jensen-huang-the-mindset-that-built-nvidia|Jensen Huang: The Mindset That Built NVIDIA]]: A prominent AI chatbot, encouraged for use by Jensen Huang.
 - [[sources/eY20SPBpQEg-ai-powered-consumer-products-for-1-billion-people|AI-Powered Consumer Products for 1 Billion People]]: An AI chatbot, currently cited as the only new consumer icon to emerge from the AI platform shift.
-- [[sources/8OOuCnZB-4o-unknown|Unknown]]: OpenAI's large language model, mentioned as an AI Ploy helps businesses get found by and used in Ploy's design 'lookbook'.
+- [[sources/8OOuCnZB-4o-the-age-of-the-40-year-old-solo-founder-is-here|The Age Of The 40-Year-Old Solo Founder Is Here]]: OpenAI's large language model, mentioned as an AI Ploy helps businesses get found by and used in Ploy's design 'lookbook'.
 - [[sources/99sPd15j3Zc-what-actually-makes-a-startup-durable|What Actually Makes A Startup Durable]]: OpenAI's conversational AI model.
 - [[sources/xpeRVyFFy_Q-solving-the-blank-canvas-problem-gusto-s-ai-co-founder|Solving the Blank Canvas Problem: Gusto's AI Co-Founder]]: A large language model/chatbot, mentioned as an example of AI interaction.
 - [[sources/m00FTHk7570-ai-agents-are-killing-the-engineering-pyramid-here-s-what-replaces-it|AI Agents Are Killing the Engineering Pyramid — Here's What Replaces It]]: An AI coding agent mentioned as an example.

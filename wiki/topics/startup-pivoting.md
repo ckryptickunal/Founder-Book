@@ -2,7 +2,7 @@
 type: topic
 title: Startup Pivoting
 created: 2026-05-26
-updated: 2026-06-16
+updated: 2026-09-24
 sources: []
 tags: []
 ---
@@ -34,3 +34,6 @@ The strategic process of changing a company's direction or product, exemplified 
 - [[sources/uX9ldi32Xnc-andrew-mason-at-startup-school-sv-2014|Andrew Mason at Startup School SV 2014]]: The process of transitioning from a failing initial idea to a successful business model.
 - [[sources/pg-the-reddits-the-reddits|The Reddits]]: The process of changing a business model when the initial idea is deemed unviable.
 - [[sources/2Ap1dnv-GXA-why-two-iit-engineers-turned-down-550k-jobs-to-build-a-startup|Why Two IIT Engineers Turned Down $550K Jobs To Build A Startup]]: The process of moving from an initial failed idea to a viable product based on market feedback.
+- [[sources/6A4u7Nl-SHY-posthog-pivots-were-the-real-lesson-in-building-a-startup|PostHog: Pivots Were The Real Lesson In Building A Startup]]: The process of iterating through multiple ideas to find product-market fit.
+- [[sources/UKwpr_Trvns-ai-agents-that-banks-can-trust|AI Agents That Banks Can Trust]]: The process of identifying a 'must-have' product-market fit by abandoning non-essential ideas shortly before demo day.
+- [[sources/htAl33M5F54-automating-billion-dollar-brands|Automating Billion Dollar Brands]]: The process of identifying a 'hiding in plain sight' problem after a failed initial venture.

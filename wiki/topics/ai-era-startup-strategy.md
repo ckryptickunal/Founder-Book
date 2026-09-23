@@ -15,4 +15,4 @@ Specific characteristics and approaches for building successful startups in the 
 
 ## Source Mentions
 
-- [[sources/R56RJFZBasQ-unknown|Unknown]]: Specific characteristics and approaches for building successful startups in the age of artificial intelligence, including verticalization and ambition.
+- [[sources/R56RJFZBasQ-pick-one-idea-and-go-deep|Pick One Idea and Go Deep]]: Specific characteristics and approaches for building successful startups in the age of artificial intelligence, including verticalization and ambition.

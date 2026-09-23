@@ -2,7 +2,7 @@
 type: entity
 title: Donald Trump
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-09-24
 sources: []
 tags: []
 ---
@@ -22,3 +22,4 @@ tags: []
 - [[sources/p670juDb_5Y-wither-realignment|Wither Realignment?]]: 47th President of the United States
 - [[sources/dpHBSGS6W5c-are-techno-optimism-and-populism-incompatible|Are Techno Optimism and Populism Incompatible?]]: 45th and 47th President of the United States.
 - [[sources/hFodoGofMtg-fireside-with-ftc-chairman-andrew-ferguson|Fireside with FTC Chairman Andrew Ferguson]]: 47th President of the United States.
+- [[sources/zLUZclThLhU-michael-kratsios-inside-the-white-house-s-ai-strategy|Michael Kratsios: Inside the White House's AI Strategy]]: President of the United States

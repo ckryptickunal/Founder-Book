@@ -2,7 +2,7 @@
 type: entity
 title: Sam Altman
 created: 2026-05-26
-updated: 2026-08-06
+updated: 2026-09-24
 sources: []
 tags: []
 ---
@@ -200,3 +200,4 @@ CEO of OpenAI, mentioned for his claim that voice authentication for banks is al
 - [[sources/99sPd15j3Zc-what-actually-makes-a-startup-durable|What Actually Makes A Startup Durable]]: CEO of OpenAI, mentioned for his prediction of one-person billion-dollar companies.
 - [[sources/qz4GQ0zUFRw-world-models-jepa-and-the-path-to-sample-efficient-rl|World Models, JEPA And The Path To Sample-Efficient RL]]: Cited for his belief that a new architecture will outperform the Transformer.
 - [[sources/ZIaOBAjvc38-sam-altman-never-a-better-time-to-do-a-startup|Sam Altman: "Never a Better Time to Do a Startup"]]: CEO of OpenAI, former President of Y Combinator, and co-founder of Looped. Key speaker discussing the future of startups and AI.
+- [[sources/5bxp78i96S8-paul-graham-on-startups-ambition-and-great-founders|Paul Graham On Startups, Ambition, and Great Founders]]: CEO of OpenAI and former YC President.

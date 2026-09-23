@@ -2,7 +2,7 @@
 type: entity
 title: Paul Graham
 created: 2026-05-26
-updated: 2026-08-06
+updated: 2026-09-24
 sources: []
 tags: []
 ---
@@ -342,7 +342,10 @@ Co-founder of Y Combinator, mentioned in the context of product-market fit ('10 
 - [[sources/pg-the-best-essay-the-best-essay|The Best Essay]]: Author, essayist, and co-founder of Y Combinator.
 - [[sources/pg-the-origins-of-wokeness-the-origins-of-wokeness|The Origins of Wokeness]]: Author, programmer, and venture capitalist.
 - [[sources/ObBAxL2dFzw-groww-if-your-customers-don-t-love-it-or-hate-it-you-ve-already-lost|Groww: If Your Customers Don't Love It or Hate It, You've Already Lost]]: Co-founder of Y Combinator.
-- [[sources/R56RJFZBasQ-unknown|Unknown]]: Co-founder of Y Combinator, whose quote 'live in the future and then build what's missing' is referenced.
+- [[sources/R56RJFZBasQ-pick-one-idea-and-go-deep|Pick One Idea and Go Deep]]: Co-founder of Y Combinator, whose quote 'live in the future and then build what's missing' is referenced.
 - [[sources/vb1Gcn10enw-what-top-ai-labs-are-really-doing-with-observability|What Top AI Labs Are Really Doing With Observability]]: Co-founder of Y Combinator, sent Datadog's rejection email.
 - [[sources/80eZ7DjCGSo-how-warp-went-from-yc-to-a-60m-series-b|How Warp Went From YC to a $60M Series B]]: Co-founder of Y Combinator and author of the essay 'Schlep Blindness,' which influenced Ayush's startup philosophy.
 - [[sources/_oYJR6FNcdA-essential-startup-advice-during-a-pandemic|Essential Startup Advice During a Pandemic]]: Co-founder of Y Combinator, author of the 'default alive' essay.
+- [[sources/Wxq7ZIEodJg-paul-graham-on-what-motivates-founders|Paul Graham on what motivates founders]]: Co-founder of Y Combinator and venture capitalist.
+- [[sources/5bxp78i96S8-paul-graham-on-startups-ambition-and-great-founders|Paul Graham On Startups, Ambition, and Great Founders]]: Co-founder of Y Combinator and author.
+- [[sources/eRrc1pUY5oU-garry-tan-own-your-intelligence|Garry Tan: Own Your Intelligence]]: Co-founder of Y Combinator.

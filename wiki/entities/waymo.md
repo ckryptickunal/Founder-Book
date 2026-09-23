@@ -2,7 +2,7 @@
 type: entity
 title: Waymo
 created: 2026-05-26
-updated: 2026-08-06
+updated: 2026-09-24
 sources: []
 tags: []
 ---
@@ -21,3 +21,5 @@ An autonomous vehicle company mentioned as an example of long-term AI developmen
 - [[sources/FVsgX0AdDTo-what-big-tech-missed-and-how-startups-can-still-win|What Big Tech Missed And How Startups Can Still Win]]: Autonomous driving company mentioned as using some flavors of world model ideas.
 - [[sources/I4B37S1dyQQ-jensen-huang-the-mindset-that-built-nvidia|Jensen Huang: The Mindset That Built NVIDIA]]: Self-driving car company that uses Nvidia chips.
 - [[sources/eSm_9tb5ZbY-what-it-actually-takes-to-deploy-a-voice-agent-to-a-fortune-500|What It Actually Takes to Deploy a Voice Agent to a Fortune 500]]: Autonomous driving technology company where Brooke Hopkins previously led evaluation infrastructure, providing foundational experience for Koval.
+- [[sources/cRZNwgvcWUg-chelsea-finn-this-is-the-state-of-the-art-in-robotics|Chelsea Finn: This is the State of the Art in Robotics]]: Autonomous driving technology company.
+- [[sources/myDCd0hNqQU-why-robotics-still-isn-t-solved-but-could-be-soon-yc-paper-club|Why Robotics Still Isn't Solved - But Could Be Soon | YC Paper Club]]: Autonomous vehicle company.

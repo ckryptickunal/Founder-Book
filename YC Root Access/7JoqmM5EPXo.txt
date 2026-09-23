@@ -1,0 +1,855 @@
+Title: Building AI That Optimizes AI
+Video ID: 7JoqmM5EPXo
+URL: https://www.youtube.com/watch?v=7JoqmM5EPXo
+Channel: YC Root Access
+Published: 2026-09-01T18:00:28Z
+Duration: PT26M42S
+Views: 17422
+Likes: 150
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 839
+
+============================================================
+TRANSCRIPT
+============================================================
+
+[music]
+>> Stephen and Emilio, welcome back to YC.
+Thank you so much for coming back to
+join us today.
+>> Thank you for having us.
+>> Thank you. Thank you.
+>> Yeah. So, you guys just graduated from
+the University of Chicago
+about 1 year ago. You're 23 years old,
+and today you are announcing that you
+just raised a $40 million series A for
+your company. Congratulations.
+>> Thank you.
+>> Thank you. Thank you so much, Jared.
+>> Um that is a pretty wild story even by
+like the standards of Silicon Valley and
+the AI revolution that we are having in
+right now. Um and so I'm excited for you
+guys to tell everyone the story of how
+you guys went from being University of
+Chicago undergrads to running this
+company that's on fire in basically a
+year. Why don't you start by just
+telling everyone like what is Wafer?
+What are you guys doing?
+>> So, Wafer is a fast AI inference cloud.
+We run AI models at the best speeds in
+the market. And the way we do this is by
+having agents optimize GPUs.
+>> What kind of companies are using Wafer?
+What what would I use it for?
+>> Yeah, totally. So, we have a lot of
+customers that use us for voice agents
+because it happens to be that when
+you're running a voice agent in
+production, you want the lowest latency
+possible. Because if I'm speaking to an
+agent over the phone and it takes 2 to 5
+seconds to respond, it kind of like
+breaks the it's a bad customer
+experience. So, it ends up being a lot
+of what we do like low latency
+applications. The other side of what we
+do is high throughput applications. You
+can think of like coding as one example
+of this where we um work with a lot of
+customers like for sale to make sure
+their coding agents go as fast as
+humanly possible on on the GPUs they're
+using.
+>> Let's talk a little bit about the series
+A that you guys are announcing today.
+Can you guys tell us about it?
+>> Yeah, so we raised $40 million.
+And this was co-led by Marathon and
+Chemistry. There were a bunch of like
+awesome angels followed on with like
+Jeff Dean as existing investors,
+obviously YC. Yeah, I mean we're super
+excited about it.
+>> One reason why you guys raised this
+crazy over subscribed series A is that
+Wafer in the last 4 months has really
+blown up. Went from essentially zero to
+8 million ARR in 4 months, which is like
+bananas. And as a result, you like ran
+out of GPUs and had to like immediately
+raise money in order to like keep
+scaling.
+Um, that's insane. Can you guys talk
+about what happened? Like what caused
+you guys to blow up like this?
+>> Basically around 4 months ago, we
+decided to shift from selling the AI
+that optimized GPUs to other companies
+to just use the agent internally to
+drive open-source LLMs and make them run
+really fast. So, we did this for example
+like most famously when we began with
+GLM 5.2. It was a huge announcement when
+it came out and we basically grabbed our
+agent, we rewrote some kernels, we
+optimized all levels of the stack of the
+GPU, and we made it run two to three x
+the performance that everybody else in
+the market was running at a rate. This
+caused like a huge spike in demand cuz
+suddenly you didn't need to go to
+Cerebras to get these massive speeds,
+you can just get them on OpenRouter. And
+that was the moment where we sort of
+projected where our GPU spend and our
+where our GPU costs were going and we
+were like, "Okay, we cannot sustain this
+demand
+>> [laughter]
+>> if it continues." And it indeed has
+continued. So, that was the moment where
+we were like, "Okay, it's time to go for
+the next funding round to grow faster."
+>> And I remember we actually did office
+hours. I don't know if you guys remember
+this, but we actually did office hours
+about 2 weeks before you launched your
+like fastest GLM 5.2 on the market. And
+I remember you were like, "Jared, I
+think when we launch this thing, it
+might take off really fast and we might
+run out of money really quickly." And
+your question was like, "Should we raise
+money now?" And I was like,
+"No, you should probably like launch and
+let it take off and run out of money and
+like that's a great story to go to
+investors and be like, 'Our thing is
+growing so fast, we're like running out
+of money cuz like we can't we can't
+onboard compute fast enough.'" And I I
+remember being like, "Wow, I really hope
+that that's what happens." But you know,
+who knows because like like launches are
+unpredictable. And then it was pretty
+wild because you like a few days after
+you launched, you were like it literally
+played out exactly the way we we like we
+thought it was going to play out.
+>> Yeah. Yeah, I think the demand for fast
+inferences is just extremely high.
+>> [laughter]
+>> And if you can actually it's kind of
+like revenue will take care of itself if
+you can actually achieve the best speed
+in the market. That's kind of like
+something we follow internally. It's
+just the technical difficulty of being
+the number one is just very high and
+yeah, that's the thing we focus on.
+>> I feel like this experience of like
+having customers
+signing up for your product so fast you
+can't keep up with them and having to
+like scrounge around to find GPUs
+anyplace that you can find them. Like
+this is kind of the promised land for a
+startup and like Stephen, you you were
+the guy in charge of like finding the
+GPUs and like keeping the site up while
+it was like melting. What what was the
+experience of the last few months like
+for you?
+>> It's been very chaotic. I think back to
+a team offsite we took to Santa Cruz
+which was supposed to be a fun weekend
+on on the beach. We got a nice hotel
+right right next to the beach. Everybody
+had rooms. However, what it turned out
+to be was actually constant onboarding
+new Blackwell nodes.
+Everybody just packed in the same hotel
+room trying to onboard these nodes. Also
+ensure they're reliable and then also
+ensure that you know, they're
+performing. We're trying to debug, you
+know, networking issues and so on. So
+this you know, this specific instance is
+maybe a a taste of how chaotic it's
+been. But at the very least I look back
+and think that this time was very worth
+it. And also you know, with the team
+also something that's pretty fun as
+well. So we're you know, bonding bonding
+along the way.
+>> Tell us about some of the customers.
+Like you guys went zero to eight million
+ARR. There must be like some big
+customers paying you all this money.
+Who's
+who's using it and how are they using
+it?
+>> Yeah, so one of one of the best examples
+is a company called Neon Health. So they
+do automation for hospitals. So for For
+let's say a customer calls and they want
+to process um some sort of medicine and
+they want to get the medicine. Usually,
+there would be another human on the line
+which fills out a form for for these
+humans. What they have done is they
+basically do this entire process with AI
+agents and they really really care about
+having low latency. So, Neon Health was
+previously on another larger inference
+provider, but they decided to switch to
+us because we were able to give them 30
+to 50% better performance um on a per
+call basis. So, that's that's that's a
+good example of like this sort of
+latency improvements that you can
+achieve with with Wafer.
+>> Yeah. I have direct experience with
+these latency improvements because YC is
+not just an investor in Wafer. We are
+also a customer.
+So, perhaps we can talk about how YC is
+actually using you guys. A while back, I
+built this product that we call the
+office hour simulator. It's this pretty
+crazy idea. It kind of looks like an
+arcade machine. It's designed to look
+like that and you like walk into it and
+you hit
+go and you can talk to an AI clone of a
+YC partner. Unlike Neon Health, which
+does voice agents over the phone, this
+is more like a Zoom call where they're
+say it's like a full like video
+experience. You're talking to this like
+AI version of a of a YC partner and you
+can both see and hear them. But, similar
+to Neon Health, we care a lot about the
+latency because like the the whole point
+is like you're supposed to feel like
+you're actually talking to a YC partner
+and so shaving off milliseconds of
+latency is really important. Um and I
+ran this benchmark to try to find the
+lowest latency LLM in the market that's
+actually smart enough to still do a good
+job with the with the conversation and
+you guys actually beat the benchmark in
+like a like a clean head-to-head against
+basically like every model and every
+inference provider I could find like I
+could get my hands on.
+>> Yeah. No, we're super proud of that. And
+I think the coolest thing about that is
+that
+even for the for the comparisons that
+you were doing for other providers, we
+are using a model that's like 20 times
+larger. So, the fact that we can
+actually get that model to be much, much
+faster than the than the ones we were
+trying out is is is super awesome to us
+and that came from just like deep work
+with like the agents we built to to
+enable that latency for you.
+>> Yeah, before Wafer, I was
+experimenting with Gemini models and
+OpenAI models. They both have like
+pretty light, like mini models that are
+that are good for voice agents, but
+since you guys got GLM 5.2 running super
+fast, I switched to your GLM 5.2 like
+super fast mode and it's like both
+smarter and better than the commercial
+models, which is pretty wild. And I can
+actually share another cool stat. I We
+haven't released this publicly before,
+but when when we made the switch, we
+were actually able to AB test it and so
+I actually ran a three-way AB test
+between your model and the two
+proprietary models. We could not only
+measure a decrease in the like latency
+of the LLM, we were actually able to see
+that the users change their behavior
+when the calls got faster and the users
+who got the Wafer GLM
+model actually stayed and talked to the
+avatar significantly longer than the
+ones who had the commercial models.
+>> This is pretty awesome. This is pretty
+awesome. Yeah, it's I think having We
+have all these examples too of like
+where people can ditch other parts of
+sort of like their their scaffolding
+around the LLMs because it's so fast now
+that it can just do more things live.
+This is an example where it's like
+literally affecting user behavior. So,
+speed speed is the moat as we like to
+say.
+>> [laughter]
+>> Yeah, I mean it super matters for
+real-time conversation. Like, you know,
+even with the fastest LLMs, no LLM voice
+agent is quite at human level yet in
+terms of like latency. And so you really
+feel it when you're talking to a voice
+agent that it's just like a little slow
+to respond compared to a human. And so
+until we can get it to like absolutely
+human level, which is probably we
+like imminent. I think it's like really
+hard to get it like fully human level.
+Like there's going to be so much gains
+to like anyone who can shave off some
+milliseconds. When I saw these benchmark
+results, I was like pretty stunned,
+guys. I was like, holy what magic
+are they cooking up in the lab that was
+like able to make this the fastest
+provider. And so, I don't know how much
+of your secret sauce you can share, but
+like I I'd love for you to talk a bit
+about the technology behind it and how
+you how you made it faster.
+>> You know, the headline here is AI that
+optimizes AI. But but what does this
+really mean? I mean, when we went
+through our
+benchmarking period with with Y
+Combinator, you know, we asked for some
+information on our end, you know, like
+the you know, specifics on the specific
+like workload that that YC was running.
+This is all very valuable information
+for performance engineers.
+And that being said, the general flow at
+which we use AI that optimizes AI is we
+take the workload characteristics of any
+given customer, throw this into, you
+know, let's say an AI black box, and
+this AI black box does a ton of things,
+whether it's, you know, goes and writes
+custom kernels, goes and trains a
+speculative decoding model, quantizes a
+model, and so on. In the end of this
+whole process, comes out with, let's
+say, a engine or a runtime that is hyper
+optimized for a specific user, allowing
+us to get 2x, 3x, and so on speed ups
+over other inference runtimes.
+I I think some cool examples in this
+specific situation or, you know, maybe
+looking back to or, you know, let's say
+this YC example, we also have examples
+of our agent going off and writing
+custom kernels, bringing up AMD hardware
+to find perf per dollar parity with
+Nvidia hardware,
+and so on and so forth.
+>> Even though this new product that you
+guys launched, the the inference cloud,
+took off just 4 months ago when you
+launched it, this is a little bit of
+like an overnight success like a year in
+the making because all the technology
+that you just talked about, you'd
+basically been working on that for like
+a while and the reason that it was able
+to take off so quickly is that you'd
+spent months doing all of this like very
+hard deep technical work, right?
+>> Yeah, I think back to our time in YC and
+you know, not not a ton of
+let's say
+progress was really made on on let's say
+the the revenue side.
+But on on the tech side, yeah, I mean I
+can give a flashback. We started as
+Cursor for Cuda from the very beginning
+we're using agents to optimize kernels
+themselves. Um as we progress more in
+the ML performance space, we moved up
+the stack. We're able to do contracts
+with folks like AWS writing, you know,
+kernels for them,
+do work with Digital Ocean optimizing
+models for them. And and so we, let's
+say, developed this muscle, you know, or
+just develop agents um for
+doing performance engineering. And and
+so when we made the switch to become the
+cloud, it was very easy to get AI to
+optimize AI because this is something
+that we'd been doing right since since
+the start of our YC batch last year.
+>> Interesting. So, the the first idea was
+basically customers would give you their
+like their proprietary model and you
+would use agents to optimize their
+model. And then the big unlock was just
+switching to like open source models
+that you could just optimize and then
+just like give the optimized version
+like
+like for anyone.
+>> Yeah. So, there there's a there's a
+funny story that
+that's that's fun to talk about here
+where Stephen basically we had a big
+demo with one of the inference
+providers, one of the large inference
+providers that has broken out in the
+last like 2 years. And we were getting
+the agent to get results on like what
+performance improvements it could get
+over like base out of the lines to show
+them the next day.
+And basically Stephen stays up all night
+cuz he just often does that.
+>> [laughter]
+>> And he he's running the agent like
+orchestrating and then he shows me the
+results in in the morning, and he's like
+we beat like some of these like core
+Nvidia libraries with just like the
+agent running overnight and me just like
+making sure that
+we're just just coordinating like very
+very high-level coordinating these
+agents.
+And I was like, "What?" And he just
+shows me these results, and I'm like
+there was this moment where we just
+like, "Okay, let's cancel this meeting
+and let's just meet and like talk about
+my about this more because it just seems
+that there's so much value in these
+optimizations that I don't even know if
+we want to give them away.
+>> Interesting.
+>> And that was kind of like the start
+basically 4 months ago that we talked
+about where we were like, "Oh, wow, like
+we really have something here that we
+might just like verticalize and just
+compete with the inference clouds
+directly instead of selling them these
+these optimizations."
+>> Was another unlock just that the
+open-source models like got really good?
+Like last summer when you guys started,
+the open-source models were like weren't
+that good.
+>> Yeah, this is this is true. I think
+Jelen 5.2 was a big moment.
+>> Yeah, I think Jelen 5.2
+brought out a ton of these cases as many
+folks started to really use open-source
+models for their coding workflows.
+And and this of course brought a ton of
+traffic to our platform and
+to my understanding, you know, brought a
+ton of traffic to just serverless
+business as a whole or selling tokens.
+>> We were talking with the Ollama and Open
+Code founders recently, and the sense
+that I get from them is that with the
+new wave of open-source models that came
+out in the last few months, the like
+adoption of open-source models is just
+like on an insane exponential right now.
+I'm curious what you guys are seeing
+when you talk to like large companies.
+Like, is there like a huge push across
+the board to like switch from commercial
+to open open-source models? And
+um
+>> Yeah, yeah. Personally, from the like
+GTM side, we've seen like these massive
+companies
+start doing inbound to us. And I think
+there's like a very special moment going
+on where like people are realizing that
+they can actually run the same workloads
+that they run with OpenAI and Anthropic
+and save, let's say, like 80% of the
+cost. So, on the cost access there's
+just like
+whatever like lands on the CFO desk and
+like big big enterprises want to cut
+those costs and they're seeing the token
+cost rise. And then on the other front,
+they're seeing how much is
+possible when you can actually get like
+5x the speed with open source models.
+So, if you can actually have an Opus
+level model that will respond five times
+faster, that's a huge value add for some
+products. Like think of your usage of
+like Granola. They're not one of our
+customers, but like when I'm in a sales
+meeting and I ask Granola something, I
+want it to respond as fast as humanly
+possible because it's like something
+that the customer is asking me for,
+right? I would pay a lot of money to
+just I would pay an extra per token
+money to get a faster response. There's
+many applications of like the
+performance sensitive applications that
+we really like are seeing um trickle
+down.
+>> So, I think this is really um insightful
+point because I think a lot of people
+um think that the like the reason to
+switch to open source models is that
+they are cheaper. And that like which
+[clears throat] like fair enough is like
+a good reason to adopt to think. But I
+think how do people think that's the
+only reason to switch to open source
+models is sort of like ah it's like
+almost as good as Anthropic and OpenAI
+but it's like a lot cheaper. And that's
+probably driving some of the demand, but
+what I didn't realize until a couple
+months ago when I started using Wafer is
+that it's actually there's a whole other
+reason to switch to them which is they
+are actually the best models if you have
+a latency sensitive use case. They are
+actually the fastest models. Like for my
+office hour simulator, I was not price
+sensitive. Like YC's in a fortunate
+position where like we don't care about
+the LM cost like at all. And so I was
+actually happy to pay a huge premium for
+the fastest model that money could buy.
+And it turns out that the fastest money
+that model could buy was GLM 5.2 running
+on Wafer.
+>> Yeah. And there's many situations where
+people's core product depends on how
+fast they can deliver um the the actual
+response. So, we're very excited about
+all the applications that would just
+like the core product depends on how
+fast you can generate a response.
+>> Totally. I would actually I I actually
+think for my office hour simulator that
+like basically switching to GLM 5.2,
+that was actually the key turning point
+where it found product market fit. Like
+I actually think like before GLM 5.2, it
+was just like a little too slow or a
+little too stupid and so users would
+churn. GLM 5.2 Wafer is like just fast
+enough that people are like, oh actually
+this is great. I'm just going to like
+talk to it all day.
+>> Have you seen people talk to it all day?
+>> Yes. Wow.
+>> [laughter]
+>> Hey, that's good for us.
+>> Please do.
+>> We should start having folks schedule
+time to
+>> [laughter]
+>> time block.
+>> That's awesome though. I mean having
+access to infinite Jared is obviously
+very valuable for the world.
+>> [laughter]
+>> But it was cool because I feel like
+because we're sort of like building at
+the cutting edge and sort of getting
+access to these products like before the
+rest of the world that I have like a
+little peek into the future that like
+other people didn't have. Yeah. Maybe
+let's rewind back to the very beginning
+and like talk about how you guys ended
+up starting this company. I actually met
+you guys before you had started Wafer
+when you were undergrads at the
+University of Chicago. Maybe you guys
+can like tell us the story of like how
+you guys met each other in school and
+what you were doing at the University of
+Chicago and like how you ended up
+deciding to start a company together.
+>> Yeah, I mean there was a point where
+Steven showed me a tool he was building
+and it was called Yaka
+which was actually what we demoed YC
+sometime later.
+>> Like an expanded version of Yaka. And
+this was a thing that basically grabbed
+some piece of C++ code and asked an LLM
+to just optimize the code and just loop
+through it. Like hey, optimize it,
+measure if it's better, then do it
+again, do it again, do it again. And I
+just thought that it was very
+interesting to think of this new idea of
+having the AI as a sort of maybe as a
+sort of compiler where you can just grab
+some piece of code and through the LLM
+you are able to find how how map it to
+the hardware so that it runs more
+efficiently, right?
+So,
+basically there was one point where we
+were like, "Okay, you were going to go
+to New York. You're going to do your job
+as like uh you engineering at Two Sigma.
+Obviously like really good job. I was
+going to come to a Series A startup to
+do like AI research. First of all, it
+would be way more fun to just like keep
+working together
+in something." So, there's like one
+reason for that where it's just like
+very fun. And also this exact problem
+that like the thing that we've been sort
+of working on here um of the Yaka that
+you showed me, um
+it has the like thing that like if you
+do solve this problem, it's like
+obviously very impactful cuz like a
+bunch of energy is being wasted on just
+not running GPUs as efficiently as they
+should just because the software is not
+optimized. And
+the other aspect was like we're both
+like uniquely suited and very interested
+in this challenge. Like it's something
+that we see ourselves working like for
+the next hopefully like 20 years on,
+right?
+So, we were like, "Yeah, why not?" And
+we and I mean we applied to YC, moved to
+San Francisco, and and that was kind of
+like the start of the start of Waifer.
+>> What made you decide to build Yaka in
+the first place?
+>> When you think about a lot of folks in
+well, finance space, they they really
+care about how good or how fast their
+code is. Um you know, HFT is
+uh a very very competitive field and
+most often times you you win at let's
+say the the nanosecond, right? And so, I
+I was really curious on um at least
+during during my time in in these
+experiences, it seemed that folks really
+cared about you know, really fast C++
+and fast Python. So, I was like, "How
+can I get an AI to to solve this uh
+solve this problem of generating this
+really fast code?" seemed relatively
+automatable.
+>> So, it really did come out of your like
+quant experience cuz like yeah, like
+quant firms are obsessed with like
+squeezing like, you know, like
+microseconds of performance out of out
+of code. But like it wasn't initially it
+wasn't to be a startup, right? It was
+like it sounds like it was just like you
+were just building it just to see if it
+was possible to build just cuz like you
+were interested in like exploring it,
+right?
+Yeah. When we talk to college students
+who are interested in starting
+companies, one of the pieces of advice
+that we often give them is that they
+should just
+build projects just for fun that aren't
+like trying to be startups just cuz like
+they find them like technically
+interesting just to explore like, "Oh, I
+wonder what the models are capable of."
+And it sounds like you like that that
+like pretty much perfectly describes
+what happened here where you had this
+like side project that you were working
+on just cuz it was interesting and then
+you guys began talking about it and
+you're like, "Wait, this side project,
+this could be an actual startup."
+>> Let's talk quickly about the decision to
+do the startup though. Because when when
+I met you guys at the University of
+Chicago, it was your senior spring
+and you both had great jobs lined up to
+do after you graduate and you were not
+planning to do a startup. You were
+planning to go do these jobs at great
+companies.
+Um and then like something changed in
+your mind in the next couple of months
+where you're like, "Actually, maybe this
+project that Steven built before, maybe
+we should just like go do that as a
+startup." Like I'm curious like what
+that decision process was like for you
+guys. Like was was it like a difficult
+decision where you went back and forth?
+Did your parents and your friends try to
+talk you out of it? Was it emotional or
+was it just like, "Yeah, sure, why not?"
+>> My thing was very simple. It was like
+when when YC came and gave the talk, I
+think
+we've talked about this before, but you
+guys had a a line that I still remember
+which is like
+you don't you don't need a like a
+business co-founder. Steven and I like
+just we were both engineers. Um I've
+never had a real job.
+>> [laughter]
+>> So, it was kind of shocking to hear that
+directly from you guys and I think on my
+side this is what like started
+conversations more seriously, but yeah,
+curious on Steven.
+>> Yeah, I I I think personally that held a
+lot of how do I say weight also in my
+decision. Primarily from from a
+perspective of now it it flipped a
+switch of all I have to do is look
+around at many of my peers and many of
+the folks who I hang out on a daily
+basis and and really just ask
+should we should we do this?
+I I personally, you know, throughout
+life have always wanted to start a
+company or at least have a lot of
+ownership in something that I was to
+pursue.
+And it seemed that the opportunity was
+was definitely there to one pursue
+something worth a lot of, let's say, um
+you know, value to society while
+also, you know, maintaining this, you
+know, let's say ownership and and being
+able to do it on on my own.
+>> Do you guys have advice for other people
+who are interested in starting companies
+in like a similar space or like people
+maybe with like similar backgrounds to
+yourselves? Like imagine rewinding back
+to like a year a year or a year and a
+half ago. Like what is what is advice
+that like you wish other people had told
+you?
+>> If you're interested in startups at all
+and you're sort of looking into what
+startups are the best, there's a lot of
+people that I've talked to recently that
+tell me a lot about the role. But I'm a
+very big believer on like if you're
+offered a seat in a rocket ship, you
+just don't ask what exactly you're going
+to do within the rocket ship. What you
+should be evaluating in a company as
+like more and more people are evaluating
+like joining like startups and and YC
+and many others like after grad or
+starting one. But specifically for the
+people that are evaluating joining one,
+what you should really ask is like how
+could this company go from like where it
+is today to like a thousand X? And I
+would specifically focus on like the
+founders and like the founding
+engineers. Like what is a culture of the
+company and what enable us to like grow
+massively because like the job itself is
+going to change super fast. We've never
+hired for specific roles because the
+roles just change super fast. So that's
+kind of something I've been thinking
+about of just like make sure that you're
+investing in the right company and
+founders instead of like your specific
+role within that company.
+>> Like that's a great segue. Um speaking
+of joining rocket ships, you guys just
+raised $40 million.
+Are you hiring?
+Can you tell us a bit about like who's
+on the team now and who you're who
+you're planning to add?
+>> Yeah, um I can talk about like we're
+we're definitely hiring.
+We're hiring across the board. We're
+hiring basically the engineering role
+that we hire for is member of technical
+staff. This is a person that doesn't
+need to have any like GPU experience.
+What we really care about is how has
+this person been exceptional at anything
+before? This is basically our recruiting
+guideline that has worked us super well
+in the past and that we're like doubling
+down on. So, if you've done anything
+exceptional in the past and it doesn't
+have to be computer related, doesn't
+have to be anything, please like reach
+out because we're yeah, we're hiring as
+as quickly as we can the the the best
+people at ML systems performance stuff.
+>> And can you like tell us a little bit
+about like I don't know, like a day in
+the life as a member of technical staff
+at Wafer like
+>> You know, it's it's variable from day to
+day.
+>> [laughter]
+>> You know, what we did last month is very
+different than what we do this month,
+but at the end of the day I think I I
+want to put that word problem solvers
+first. Most often, you know, whether
+it's a customer or you know, a specific
+issue we're having with GPUs we we we're
+operating with.
+We're we're being fed like technical
+problems from the top and most often
+times it's it's just a matter of of
+solving these problems. You know, what
+this actually looks like could be you
+know, things from
+how do we get an agent to write this
+specific kernel or how do we solve this
+specific reliability issue we're seeing
+with these GPUs. There's a lot of
+variance,
+but at the end of the day I very much so
+view it as solving problems within the
+domain of ML performance or ML system.
+Yeah.
+>> I feel like that's a great note to end
+on. Um, thank you guys so much for
+joining us today and huge
+congratulations on the series A.
+>> Thank you so much, Jared.
+[clears throat]
+>> Yeah, thanks for having us.
+>> [music]
+[music]

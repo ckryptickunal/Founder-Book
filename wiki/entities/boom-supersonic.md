@@ -2,7 +2,7 @@
 type: entity
 title: Boom Supersonic
 created: 2026-05-26
-updated: 2026-08-06
+updated: 2026-09-24
 sources: []
 tags: []
 ---
@@ -23,5 +23,5 @@ A company developing supersonic airliners.
 - [[sources/VIkphkYlkaQ-how-to-build-a-truly-abundant-future|How To Build A Truly Abundant Future]]: A company developing supersonic jet technology.
 - [[sources/sOFmYwYa9Pk-how-blake-scholl-built-the-first-independent-supersonic-jet|How Blake Scholl Built The First Independent Supersonic Jet]]: Aerospace company developing supersonic passenger aircraft.
 - [[sources/xwFh356D0rQ-america-s-first-civil-supersonic-jet-to-break-the-sound-barrier|America’s First Civil Supersonic Jet to Break the Sound Barrier]]: An aerospace company focused on developing supersonic passenger aircraft.
-- [[sources/R56RJFZBasQ-unknown|Unknown]]: A billion-dollar company founded by Blake Scholl, used as an example of a successful venture built by a founder who developed expertise quickly.
+- [[sources/R56RJFZBasQ-pick-one-idea-and-go-deep|Pick One Idea and Go Deep]]: A billion-dollar company founded by Blake Scholl, used as an example of a successful venture built by a founder who developed expertise quickly.
 - [[sources/byAj35QlGbs-blake-scholl-how-50-people-built-a-supersonic-jet|Blake Scholl: How 50 People Built a Supersonic Jet]]: A startup aiming to bring back supersonic passenger travel.

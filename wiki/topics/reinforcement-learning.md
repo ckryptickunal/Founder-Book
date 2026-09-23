@@ -2,7 +2,7 @@
 type: topic
 title: Reinforcement Learning
 created: 2026-05-26
-updated: 2026-06-16
+updated: 2026-09-24
 sources: []
 tags: []
 ---
@@ -23,3 +23,4 @@ A machine learning paradigm where agents learn to make decisions by interacting 
 - [[sources/UdIPveR__jw-building-dota-bots-that-beat-pros-openai-s-greg-brockman-szymon-sidor-and-sam-altman|Building Dota Bots That Beat Pros - OpenAI's Greg Brockman, Szymon Sidor, and Sam Altman]]: A type of machine learning where agents learn to make decisions by receiving rewards or penalties in an environment.
 - [[sources/yz-fHidp1M8-making-music-and-art-through-machine-learning-doug-eck-of-magenta|Making Music and Art Through Machine Learning - Doug Eck of Magenta]]: Using scalar rewards to guide generative models toward specific artistic goals.
 - [[sources/sa-jakub-and-szymon-jakub-and-szymon|Jakub and Szymon]]: The scaling of RL as a baseline for AI development despite conventional wisdom.
+- [[sources/cRZNwgvcWUg-chelsea-finn-this-is-the-state-of-the-art-in-robotics|Chelsea Finn: This is the State of the Art in Robotics]]: A method for improving model reliability by learning from autonomous experience and failures.

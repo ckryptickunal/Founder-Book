@@ -1,0 +1,2565 @@
+Title: Why Robotics Still Isn't Solved - But Could Be Soon | YC Paper Club
+Video ID: myDCd0hNqQU
+URL: https://www.youtube.com/watch?v=myDCd0hNqQU
+Channel: Y Combinator
+Published: 2026-08-08T14:00:16Z
+Duration: PT1H24M12S
+Views: 71370
+Likes: 1644
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 2549
+
+============================================================
+TRANSCRIPT
+============================================================
+
+[music]
+>> Welcome to YC Paper Club.
+How are you guys doing today?
+Woo.
+>> [laughter]
+>> Okay. How do you guys like this one?
+We're We're We're going to change it
+every time now. So So today it's
+actually YC Robotics Club. Okay. So this
+is the 10th year of next year robotics
+will be solved that I've encountered in
+my career.
+Um I remember when AlphaGo came out 10
+years ago, everyone said next year, you
+know, clearly we have the algorithm. All
+we need to do is scale it up. And then
+Mujoco came, and then we had, you know,
+literally in in 3,000 uh iterations
+where we we can train a robot to
+uh to walk. This is quite amazing.
+Clearly next year robotics is going to
+be solved. This time it's different, all
+right? We've figured out UMi uh data
+collection, okay?
+Uh and so the Aloha was like the big
+breakout. Everyone thought next year
+we're going to have robotics. Now, I
+mean, look at this. We can water
+[snorts] our plants, we can fix our bike
+up, we can
+do my Keurig here.
+>> [laughter]
+>> Even shave me, right?
+We have the algorithm. All we need to do
+is scale it up. And then 2026 was
+promised. They promised me that this
+would be the year of of the robots. I
+was very convinced. I I read the
+diffusion policy paper. I even played
+around with it a little bit myself. I'm
+like, this is surely the year of the
+robotics. We have multi-step reasoning.
+This is like totally going to happen.
+Um we have VLAs. They're amazing.
+Um you just need teleops data, and then
+you're good to go.
+Um and I would say honestly it were
+halfway through 2026, and you still
+can't Yeah, you can pre-order Neo 1X. Um
+I can't buy a Pi or Figure robot just
+yet. Um we've had some success in work
+cells, but Rosie the robot is still not
+here. Um, and I I you know, we'll we
+have 6 months left. It's only July. So,
+maybe maybe it will be. Maybe I'll be
+wrong. But, it's definitely the year of
+the demos. I know that for certain.
+So, the reason why is because, you know,
+raise your hand if you've ever done
+teleops collect data collection.
+Is it easy or hard?
+I mean, it's remarkably hard. You
+especially if you have this, you know,
+uh uh little gripper thing that's all
+you have. You have the wrist cameras and
+all that stuff. It's extremely
+difficult. It's very very finicky.
+Um, and if we're relying on this type of
+data
+as and we need to scale that up like
+crazy, um,
+then it's it we're kind of doomed. And
+so, I would I kind of think about it in
+these four, there's probably more, but
+at least these four walls that we have
+to scale and and get over. And we really
+haven't yet. And so, the first one is
+physical real-world modeling. It you if
+you take these video models and you uh
+deploy them to, let's say, drive a car
+and you you're playing you're doing the
+the world models you know, paper by by
+Jürgen Schmidhuber or the the
+Dannigar uh Hafner Dreamer V1, 2, 3, 4.
+And you do this game and you're playing
+play Doom in the simulated game. In the
+real world, it really doesn't respect
+physics. And so, the those models don't
+respect physics all that well. And so,
+if you're driving a car in that in that
+simulated world and you drive into like,
+you know, a grocery store or Whole
+Foods, it magically just kind of turns
+into a highway and then you don't crash.
+And so, like it doesn't really respect
+the the the real-world physics. And then
+and it definitely doesn't uh and so,
+that's all called the sim-to-real gap
+and we really haven't figured out how to
+solve the sim-to-real gap. Um,
+deformable objects uh uh
+even worse is that's just
+you're determining the transition
+function from ST to ST + 1, if you
+condition further on the action, then it
+really doesn't work and you need a lot
+of data for to support that action
+conditioning. So, if you you're trying
+to estimate the dynamics function T of
+ST + 1 condition upon both figure out
+some course representation. Nico's
+actually here that we worked in 2020
+13 on
+feature pyramid networks for our little
+robotic policy bot war simulation way
+back when. Um, but still though that was
+to solve this giant Q matrix that we
+would have some linear thing with the
+pyramids. So, representation for your
+action space is actually like a
+completely unsolved thing if you want to
+learn quickly.
+And then this is the most important one
+that I don't think is talked about
+enough. The sensory motor issue. Uh, we
+have these
+nerve endings that that can do so much.
+We can detect the normal force, we can
+detect the tangent force, we can detect
+moisture, temperature, vibration, we can
+estimate the coefficient of friction,
+and it's
+everywhere.
+All over our bodies. And these robots
+don't have that. They have like one
+little coin FT
+on each fingertip, and that's like all
+you got in like the best case. And maybe
+you have a wrist camera here, and like
+that's kind of like the the the state of
+the art. And so, if you talk to
+neuroscientists about this, it's
+actually like incredible how good we are
+at building world models without vision.
+So, if I you've ever tried to find a
+charger in your backpack and you put
+your hand in your backpack and you're
+feeling around, you kind of can
+tell exactly what's in your backpack
+just by feeling around. You don't even
+need eyes. And so, there's no way we
+have robots that can do that now cuz we
+don't have an epidermis. And so, I think
+that that's that is a really important
+thing.
+If you ever tried to, you know, tie your
+hockey skates
+when it's really really cold out, like
+you start to see the policy
+uh
+And you're like, I can't even untie my
+skates cuz my hands are too cold. And
+the last one that really only robotics
+robotics people will really understand,
+people that have deployed real robotics
+for long periods of time, there's this
+embodiment drift.
+And so, in this state, if I take this
+action, this is how much force is
+actually going to be applied, and the
+actuators get dust in them, they get
+corroded, they get may have been in if
+they're in like a, you know, uh um near
+the ocean, they may have some corrosion,
+some rust, and they just don't work as
+well. And especially true in
+self-driving car, this is like very real
+issues. When I push the gas um on my
+like Toyota Prius,
+uh it's variable how much I'm going to
+get, and that shifts over time. Um and
+the amount of power you get out of a
+battery over time also also shifts over
+time. And so, uh
+these are then you have to retrain your
+entire VLA. And so, like cuz it's not
+mapping to the the teleop's data is
+almost um
+uh uh stale, and you have to recollect
+it. And so, these are very real
+challenges that we don't have answers to
+until tonight.
+We have some uh
+some great talkers, some great talks
+tonight. Uh we have uh Marcel who is a
+PhD in Chelsea Finn's lab, and he's
+going to talk about some of the cool
+work that he did at uh Physical
+Intelligence. Uh we have uh Milan Ganai
+who's a PhD student uh with Marco Pavone
+and Clark Barrett, uh currently working
+at Waymo. And then we have uh Tyler who
+uh
+is doing his PhD with Jenette and Karen.
+And Nico who's one of my close friends
+from
+uh
+2012 when I was doing my WEP WE masters
+um the and founder of this cool company
+called Rerun, and he's going to talk
+about some of the practicalities of data
+uh and how do you actually uh um deploy
+these these robotics.
+And then we have Bill
+and Guanming who's um
+uh founders of this really cool company
+YC company called General Instinct.
+Uh going to be talking about uh world
+action models, real-time world action
+models, uh previous research experience
+at DeepMind. And so, it's a great
+lineup. Thank you guys very much. Please
+welcome some of our our speakers here.
+>> [applause]
+>> Then my side will come up.
+>> I'm Marcel. I'm a PhD student at
+Stanford, and today I'm very excited to
+present to you some of the work that I
+did during my internship at Physical
+Intelligence. Um and we call this system
+MEM, that is multi-scale embodied
+memory. So, I want to start with like
+some of the These are some of the
+policies that we trained when I was uh
+during during my internship there at
+Physical Intelligence, and we're trying
+to solve these like robot Olympic tasks.
+And as you can see, they are actually
+like quite dexterous tasks. You can see
+the robots um This is all fully
+autonomous. You can see the robots
+unlocking blocks, um make like folding
+clothes that were inside out, making a
+uh butter um peanut butter sandwich. And
+it's actually like very impressive to
+me, right? Like these they are super
+dexterous and all. But if you see,
+actually the longest of these tasks is
+like about 2 minutes long. But ideally,
+when I think about what I would want my
+robots to do is like I would want them,
+for example, to be able to manufacture
+something, to be able to like clean a
+full bed, which is going to involve uh
+full bedroom, which is going to involve
+like making the bed, um folding clothes,
+like a super long task, right? Or for
+example, cooking a full meal, including
+like cleaning the kitchen and all. And
+when we think about, "Okay, but what do
+we need in order to solve these like
+very long horizon tasks in robotics
+today?" I can think about like a few
+things as, for example, being able to
+keep track of task progress,
+um being able to keep track of time, but
+also having like very reliable
+dexterity, and dexterity that can
+actually adapt in context in case that
+the robot like finds a new scenario and
+makes a mistake, it should be able to
+adapt to it, right? Um and a few more
+things probably. But my claim is that in
+order to obtain all of these all of
+these insights, we actually need to add
+memory into our policies. So, memory is
+kind of uh for me is a kind of very
+necessary thing for this for solving
+this long horizon task. However, if we
+look at most policies like bio 5, Groot,
+all of these policies actually don't
+have any memory, um which means that
+basically at every time step the robot
+will obtain like a new set of of
+observations and has absolutely no
+context of what happened before. And
+here I can show a couple a couple
+examples of what happens when you train
+these policies without any memory. So,
+on the left you're going to see a robot
+that is washing the dishes and just like
+has no context of how long it has been
+washing the dishes, so it just keeps
+like washing forever. Or on the right
+you have one where like the robot is
+cooking a grilled cheese, but again it
+has no context that it that how long it
+has been there and it becomes like fully
+burnt. Um
+but then you might ask, "Okay, like why
+are we not adding memory into the into
+the policies, right?" And well, one of
+these is that it is hard. So, I'm going
+to take a small detour at another paper
+that we wrote last year where we like
+tried to we basically observed that
+there's two main problems. Um one is
+effectiveness. It's basically when we
+add memory into these policies, um they
+actually perform a little bit worse
+because of distribution shifts and lack
+of data. Um and an efficiency problem,
+which basically means that when we
+increase the context for the robot
+policies, um this actually becomes much
+more resource intensive. So, then you're
+going to get like much longer training
+time and it's going to be also much
+longer to run inference. Okay, so having
+said this, what do we propose and what
+is our solution, right? So, we propose
+compression. Um and we take this
+basically this model that is we're going
+to decompose our robot policies into two
+parts. One that is going to be a
+high-level policy that basically tells
+the the low-level policy which is the
+next step that it should take. And then
+we have a VLA like a low-level policy
+that is going to actually execute the
+robot actions. And then we're going to
+decompose the memory into two different
+types. One that is going to be short
+context and it's going to be like some
+dense frames that are needed for like
+the actual dexterous manipulation and
+it's going to be fed into the low-level
+policy. And then we're going to have a
+long context memory. There's going to be
+basically a compressed language
+representation and of the last uh few
+minutes and it's going to go into the
+into the high-level policy. I don't want
+to go too much into details, but I'll
+I'll give an overview of like how do we
+add this short-term uh visual memory?
+So, our idea here was to design a new
+encoder that is based on the VIT, but
+instead of just taking a taking a single
+frame, we're actually also going to add
+some attention temporal layers and we're
+going to drop all of the all of the
+tokens except the current image, which
+should have all of the information
+necessary there because of this uh
+temporal attention. And then you
+basically get a lot of of compression.
+And then some of the reasons why this
+architecture is actually quite good is
+because first, like you have an easy VIT
+initialization since only now the
+temporal attention is new. We actually
+get to compress again this image
+sequence and like we reduce the number
+of tokens and because of this you get
+fast inference. And now I want to show
+you like what task can we actually solve
+with this short-term um like with this
+short-term dense memory. So, here we
+have our main flagship task that we did
+when I when I was at Physical
+Intelligence and it was like making this
+grilled cheese. So, it's going to be
+able to like do all of the dexterous
+parts, but also be able to wait for as
+long as needed um in order for the
+grilled cheese to not be burned. Um but
+we also can get to solve some other
+types of tasks such as here that maybe
+they seem like they wouldn't need memory
+such as unloading groceries from a from
+a grocery bag, but here you actually
+only see the items inside with the with
+the wrist camera sometimes. So, you
+actually need to remember where the
+items are and how many items there are.
+Or another example is like cleaning
+cleaning a window where again you need
+memory in order to not stay there
+forever. So now I talked about how to
+add memory into the low-level policy,
+and next I will talk about how do we add
+the longer longer-term memory into the
+high-level policy. So this the the
+technique that we proposed, which
+basically consists in kind of a
+the high-level policy predicting a
+recurrent
+memories, like memory scratchpad
+basically. It's going to
+It's basically going to keep track of
+everything that has happened, and then
+whatever its prediction was is going to
+be fed again into the high-level policy,
+and like this it can keep explaining
+like what has happened before and what
+it can remember also what happened. So
+this actually like much more much more
+compressed representation than images,
+since text uses like way less tokens
+than images. So this great for for
+training. It is also quite physically
+accurate because the policy is going to
+be able to modify its memory with
+whatever had has happened. And it is
+also less prone to distribution shifts.
+So let me show you here like what can we
+actually solve with this with this
+long-term memory. And here we
+show a task that like takes up to like
+tens of minutes,
+and it actually is going to prepare all
+of the items for for making a for
+preparing a recipe.
+Just for the sake of time I'll I'll skip
+over it, but
+yeah, something nice is that you can
+actually see the memory string that is
+predicted in the on the green box. We
+also compare with a bunch of different
+baselines such as no memory, different
+types of memory, and we also get to beat
+here the the state of the art. Something
+that I want to that I that I'm
+especially excited about when with
+regards with memory is it's it's the
+that actually when we add memory into
+VLAs, we're going to be able to get this
+property of in-context adaptation, and
+it's actually something that is really
+lacking right now into VLAs, and I think
+it can be super promising in the future.
+So let me show you what this corresponds
+to. Here we have some policies no memory
+like they have no memory at all at all
+and you're going to see that they are
+going to keep making the same mistake
+over and over and they are incapable of
+reacting to the mistake they did. So,
+like it's just going to be stuck in a
+loop forever and never going to be able
+to to adapt. So, here it's trying to
+open the fridge or picking these
+chopsticks forever. But actually now
+when we add memory, we're going to see
+that the robot policies are going to
+make a mistake in the first time right
+like just maybe they have some bad
+priors or something, but they are going
+to actually be able to see this mistake
+and react to it. So, for the chopstick
+it like made a mistake, but then it's
+going to go go lower to pick it up and
+for opening the fridge similarly it's
+going to switch sides
+um
+to correct its mistake. I think this is
+something that is very very lacking now
+from the robot policies that I'm super
+excited about
+um the future with like VLAs with
+memory. Having said this um yeah, this
+was a huge effort at physical
+intelligence with a bunch of
+collaborators that I'm super thankful
+with. I just wanted to point out Carl
+who was the co-first author here, but
+then Homer, Sergey, Chelsea, and Danny
+for all their help. Please let me know
+if you have any questions.
+>> [applause]
+>> Thank you for the presentation. I was
+curious about the the long-term memory
+that you were talking about. If it's
+only represented in the textual space,
+how did you figure out the right
+information
+to actually you know give to the policy?
+>> Yeah, that's that's honestly that's an
+awesome question. So, right here we
+train our our high-level policies with
+SFD. So, we had to annotate all of our
+data, but it was
+that's a very good point because
+basically we had to
+think beforehand what information we
+think is important here and we had to
+tell our annotators, okay like you know,
+you need to keep track of all of these
+things because this is what is
+important. But I think that some of the
+follow-up works that I'm thinking about
+and I think like everyone should like
+think about it and all is how can you
+could you for example do reinforcement
+learning on this memory space, right? In
+order in order to be able to know what
+is the right information to keep track
+of. Um but at least the first proof of
+concept with SFT, right?
+>> Yeah, exactly. I think that was going to
+be my suggestion, too. You know, like
+figuring out the right message to store,
+the memory, the right things to recall.
+>> Yeah.
+>> And a follow-up question to that was,
+how are you actually
+right now storing that information? It's
+It's represented in textual space, but
+like how is it actually used in
+inference time when you actually use to
+take actions?
+>> So, it's I mean it's a fairly short
+text, so this can all be kept in in RAM
+and then like you just feed it as normal
+text tokens to the to the VLA. Yeah.
+>> So, one question, when you extract the
+your task into a high-level text
+description, how you make sure that the
+task itself is generalized enough to
+handle different environments? Like when
+you make an omelet, there are different
+versions of omelet, right? And also how
+does this memory affect the number of
+episodes you need to train for a novel
+task?
+>> Yeah.
+>> Thank you.
+>> Uh great point. So,
+for the Here I don't show the the
+examples, but we actually give some
+quite the the the like detailed
+descriptions of the task. For example,
+for the preparing the ingredients or for
+making a recipe and everything, you give
+you tell exactly where the items are,
+like what are the exact items for making
+for making a pizza, for example, and all
+these. So, that is very detailed.
+Something good about this is that the
+high-level policy is a VLM trained with
+internet data, so it actually doesn't
+need that much data in order to
+generalize well. And the good thing is
+that the VLA is like completely separate
+um and doesn't need to like
+we need to train it per task, right? To
+be able to do things in the kitchen and
+all these.
+Um but if you make the task more
+complicated, the VLA is still only
+receiving a small like text description
+of what it should do next. Um
+so, at least we don't have to collect
+that much robot data with like the
+complexity.
+>> Really appreciate the talk.
+So, your embedding for the memory is
+textual descriptions, but it also seems
+like you could have solved the problem
+with just adding, for example, for doing
+a grilled cheese, just adding time. And
+so, it seems that training model policy
+just only based on textual descriptions
+like limits the representation space for
+what that memory can describe and
+potentially constraints that have you
+thought about actually expanding the
+memory representation or looking at
+other approaches for that?
+>> I I'm I tried to think about how do
+humans, right, even like keep track of
+all their memory and it's definitely not
+in text space.
+Um but I think like something that is
+quite hard and like I feel we haven't
+really managed to do like very well.
+Ideally, we would have a latent
+embedding that would like just keep
+track of all the memory.
+Um
+but just with text, you can actually put
+a very strong bias there and not be able
+to supervise it, be able to debug it and
+everything, uh which just makes it right
+now the most practical way to do it.
+But, yeah, I'm very excited to like try
+to explore this further and can like
+some latent, for example, work there.
+>> All right, thank you, Marcel.
+>> Thank you.
+>> [applause]
+>> So, yeah. Um
+PhD student at Stanford,
+uh research at AWS and Waymo. And so,
+I'll be talking about how can we move
+toward robots that teach themselves how
+to reason. You're probably familiar with
+vision action models, but just a quick
+primer. Um VLAs are a powerful uh class
+of generalist policies. Probably seen
+them in demos for manipulation like RT-2
+and Pi or even self-driving. Uh maybe
+you've driven a Waymo or you've been on
+a Waymo um or Alpaca which is from
+Nvidia. So, how exactly are VLAs
+trained? So, you take um a vision
+language model. Um these are multimodal
+models trained with an internet scale of
+um visual and textual priors. And then,
+this can be like Gemini or Quinn, and
+you continue training them on relatively
+scarce robotics data sets. And so, this
+can be teleop for manipulation or maybe
+self-driving. Um someone has driven a
+car and recorded that. And then, you end
+up with a VLAI, which takes as input an
+image or some perception feature, maybe
+language um instruction prompts, and
+learns to generate actions which can be
+executed on. So, like steering commands
+or end effector position. And so, now
+there's this recent trend of
+leveraging and doing embodied reasoning
+for better action prediction. The idea
+being similar to chain of thought for
+the LLM land, where you go from question
+to answer by um explicitly providing
+some sort of logical steps. Um and so,
+why are we interested in chain of or
+embodied reasoning in the form of chain
+of thought? The idea is that there's not
+a lot of data in robotics. Um it's data
+scarce. And so, any form of signal um
+that you can use to augment your data
+set um is very valuable. So, you can
+start injecting different types of
+annotations, and that can help you um
+improve action generation and whatnot.
+So, you got richer training signal
+signal with um reasoning. But also,
+because this is in text, um as a human,
+you can go and read it. So, if you're
+trying to decipher, "What was the reason
+for uh why a robot made a particular
+decision?" you can actually read through
+uh the chain of thought trace. Uh to
+this end, I'll be talking about our
+recent work published at Robotics
+Science and Systems Conference uh this
+year called Self-Supervised
+Bootstrapping of Action Predictive
+Embodied Reasoning. And so, we're really
+interested in this question of what
+should we be reasoning about?
+Specifically, what should particular
+embodiments and form factors reason
+about? So, what makes good embodied
+reasoning a hard question, um but I'll
+decompose it into two problems. One is
+the grounding problem. Um we don't have
+um this sort of uh oracle source of
+reasoning data saying that just train on
+this reasoning data, and uh you'll get a
+good reasoning VLAI. There it's not
+clear what we should be reasoning about
+Uh um if there exist some traces on the
+internet just like there was some
+pre-training documents for a text or
+captions for image. That doesn't exist
+for robotics. Um second is where's the
+oracle source of the model? You can't
+just pry open a human's brain and figure
+out how they made a decision um from an
+image uh to the movements in their
+fingertips. So that's why I like to uh
+show this image of a chicken and egg
+problem which is where's the source of
+uh the model and the oracle source of
+the data. The second is associated with
+verbosity. So there are different types
+of reasoning. You can be planning,
+right? So you can say go to the pepper
+or pick up the pepper and so on. Um
+maybe you you would be reasoning in in
+the form of perceptual um traces. So
+this can look like visible object lists
+so lists of bounding boxes of all the
+objects in your scene um or even gripper
+position. What's the position of the end
+effector or what's the position of your
+car on the road? But the question is
+should we be planning at every step or
+is that verbose because latency is a big
+problem in robotics. So it's not clear
+if we should be planning or should we
+analyze every single object in the scene
+or is that distracting and could mislead
+us in action prediction? And similarly
+is gripper position reasoning action
+predictive um or is it misleading? All
+of these questions can be summarized
+into this one research question of how
+does textual reasoning for specific um
+form factors and embodiments look like?
+And so that's where our approach comes
+in. It's called RNB encore uh which is
+short for refined and bootstrap
+embodiment specific chain of thought
+reasoning. This is a self-improving
+pre-training cycle for embodied
+reasoning VLAs. And so the insight is
+because we're claiming that reasoning is
+sort of this black box for robotics, um
+we treat this as an unobserved latent
+variable for the observed context and
+action. And by doing so we can leverage
+the sort of theoretical framework um
+called variational inference. So how
+does this look? There are two high-level
+components. So one is a reasoning
+proposer. You can think of this as a
+annotator model, um, which proposes for
+a given context, for a given
+demonstration, um, various types of
+proposed reasoning. So, it's asking the
+question, is visible object and move
+reasoning a useful type of reasoning, or
+should you be reasoning about plans, um,
+and gripper position, or maybe visible
+object and subtask reasoning? What's the
+sort of reasoning, um, or annotations,
+or good data that you should be
+producing before your actions?
+And then the second component is a
+reasoning validator. The idea is that
+this is um, scoring metric that is based
+on the theoretical ground of variational
+inference. Um, there's all this theory
+that we've proved in the paper, but uh,
+to concisely summarize it, um, there's
+there's three main things that
+main parts to, uh, the score. So, one is
+concision, ensuring that uh, your
+reasoning trace is um, short and not,
+you know, too verbose. Um, the second
+is, um, non-trivial. So, this is some
+sort of encouragement of, uh,
+generalization uh, in the reasoning
+behavior. The third one, which is most
+important, is action predictiveness.
+This ensures whether that reasoning
+trace or that annotation is grounded in
+that embodiment.
+So, at the end of the day, you score all
+these reasoning traces, and you end up
+with, uh, and you resample, and you end
+up with a new data set of synthetic, but
+action-aligned, embodiment-aligned
+reasoning.
+So, you can analyze this reasoning data
+set, you can understand, okay, this is
+the good type of reasoning, and this is
+not. But, more, uh, importantly, is you
+can retrain your embodied reasoning VLA,
+and have a better, um,
+and more robust, uh, policy. So, we
+tried our pre-training cycle on a bunch
+of, uh, embodiments. So, we look into
+obviously manipulation. So, we pretrain,
+uh, embodied reasoning manipulation
+VLAs. We find that move reasoning and
+gripper or move and gripper position in,
+uh, position type of reasoning is very
+useful. Whereas, perceptual reasoning is
+not very useful, so we're able to prune
+that out, um, and we improve success
+rate because we were having this sort of
+action aligned
+um, form of reasoning. We look into more
+about the question why perceptual
+reasoning is not useful. Uh, we we find
+out that there's a lot of distracting
+objects in many of these scenes. And so
+by pruning out using our pre-training
+cycle, we can actually look into what is
+a good way to improve your annotation
+data quality. So questions about
+improving and task saliency of your
+traces and the data that uh, you used to
+collect and annotate. Um, thereby uh,
+not only improving success rate, but
+also this term of like object
+criticality rate or task saliency rate.
+We also test this uh, entire
+pre-training cycle for hardware uh,
+manipulation uh, VLAs. And so we're able
+to have improved out of distribution
+performance particularly on objects uh,
+novel um, target objects or even uh,
+cluttered scenes. And we also pre-train
+legged locomotion navigation models. Uh,
+we find that reasoning about structural
+affordances and movements are way more
+important than reasoning about terrains
+and counterfactuals. And then we also
+use our uh, improve our cycle for
+refining human annotations for
+self-driving. Um,
+and so there's a lot of garbage data
+that could be out there. And so the idea
+is that with um, our approach you can
+remove a lot of the human uh,
+annotations that are not very useful.
+Um, and so we're able to observe that
+meta action and visible objects and
+perceptual reasoning's useful. Whereas
+our approach can prune out sort of
+hallucinated experiences um, thereby
+lowering the L2 path errors and uh,
+performance metrics like collision
+rates.
+So takeaways, selective reasoning is way
+more important than exhaustive reasoning
+um, even if that reasoning is valid,
+it's not necessarily useful. Second is
+that self-supervised bootstrapping
+works. This is really important to enter
+into that chicken and egg problem of
+like the oracle source of model and
+reasoning data. And third, we show uh,
+the approach generalizes across
+embodiments like manipulation,
+navigation, driving um, as well as VLA
+sizes from 1 billion to 30 billion
+parameter models. We basically are
+addressing this question, how should an
+embodied agent reason? And we argue that
+embodied reasoning is not a fixed
+template that should be applied
+uniformly, but rather some a resource
+that should be discovered, deployed, and
+budgeted carefully. We are very excited
+about this problem about how we can
+deploy embodied intelligence. We're very
+excited about problems like data
+quality, how can we recover from
+failures, how do we adapt to novel
+scenes, and specialize in them. So, if
+you're interested in some of these
+questions, feel free to reach out. We're
+excited for collaborations. We would
+like to help you on problems on reducing
+the friction of deploying embodied
+intelligence
+for everyday tasks. So, if you're
+interested in reaching out to us, you
+can scan the QR code on the right,
+and more details about R&B on core,
+including the website, models, code,
+papers on the left.
+>> [applause]
+>> Um, how do you think about
+the conversation we had where it's like,
+you know, a dog is not going is figuring
+out all of this, but not in token space.
+And so, how do you think about this
+without using tokens?
+>> For Oh, okay. So, I think there's all
+sorts of like latent reasoning
+capabilities where the model can sort of
+navigate in its sort of continuous space
+of understanding
+in its own unhindered
+by
+you know, the textual format. And this
+requires good architecture and theory
+for developing this sort of continuous
+reasoning. But, there are ways of if if
+I'm understanding your question
+correctly, non-textual reasoning.
+And I think some of these approaches can
+really help with that. The idea of here
+is that we want to leverage particular
+priors
+that exist especially with LLMs and VLMs
+where there's huge amounts of data out
+there. We want to use those priors for
+data scarce regimes
+like robotics.
+>> Wanted to understand what's the thesis
+behind using reasoning for autonomous
+vehicles because there's already sort of
+the streaming latency problem which is
+even more exacerbated in the case of
+AV. So in that case like is your
+argument just that it would help build
+better self-supervised data?
+Or
+is there something more there
+that can be leveraged for better
+performance?
+>> Absolutely. So latency is a big question
+which we actually
+address in this paper.
+Our main claim over here is that
+reasoning can help introduce priors into
+the model.
+So this is you can think of this almost
+like co-training data where instead of
+just training on robotics
+demonstrations, you can co-train and
+use textual reasoning as good
+annotations to help it. But we actually
+show that
+we have this approach called action
+forcing
+where you can drop the reasoning during
+inference time. So you don't have the
+inference latency problem but at the
+same time you can still leverage or
+extract that the enhancements from the
+sort of textual annotations and
+reasoning.
+So so you can get the best of both
+worlds.
+>> And a follow up to that is do you see
+drift
+like in terms of state space? So you
+reason about something the state has
+moved now. So the reasoning is no longer
+relevant or can damage future actions
+that the model might take. Do you see
+situations like that as well?
+>> So the reasoning happens is supposed to
+is makes assumption that's happening in
+real time. So it's based on the current
+image
+and the current instruction. And so the
+drift isn't necessarily a problem that's
+that's going to fundamentally appear in
+here. Yeah.
+>> Thank you so much. I just had a minor
+point.
+When you were talking about pruning sort
+of things that weren't too useful for
+model, you made a point on how
+counterfactuals weren't too useful in
+terms of better reasoning if if if I'm
+right. Could you maybe just you know,
+explain a little bit more as to exactly
+where where you were going with that?
+>> Yeah. So, um
+what the claims that are being made
+about this is one
+focus on the particular benchmark that
+we were working on.
+It isn't to say particular types of
+reasoning shouldn't ever be done and
+should be removed. But it is to say that
+there are certain types of reasoning
+that don't need to happen at every
+single moment. So, to give you an
+example, if there's nothing novel or
+interesting happening in the scene like
+a lot of driving self-driving is just
+driving a straight line. So, and there's
+nothing around you and so there's no
+interesting
+counterfactuals
+that you might explore. But even plan
+reasoning is I had mentioned earlier
+plan reasoning that appeared to be quite
+useful
+or it seems that it might be useful to
+plan ahead.
+But you won't want you don't want to be
+planning at every single step because
+it's quite redundant.
+>> Thank you, Milan.
+>> Thank you.
+>> [applause]
+>> Hi everyone. My name is Tyler Lum and
+I'm excited to present our work
+Sim-to-Real. So, let me start with what
+Sim-to-Real can do.
+Turn the volume here.
+So, every clip here is at 1x speed and
+this is a single policy that is working
+zero-shot
+meaning it never saw any of these tools
+or tasks during training.
+We do not need to retrain for a brush or
+hammer or a new target behavior.
+And many tasks like the screwdriver
+spinning are very dextrous. They would
+really require a multi-fingered hand
+that just really wouldn't be possible
+with a parallel jaw gripper.
+The policy is very fast and reactive.
+It runs at 60 hertz and simultaneously
+controls both the 22 degree-of-freedom
+hand and 7 degree-of-freedom arm. And I
+also want to highlight that the level of
+dexterity is very difficult to
+demonstrate through teleoperation here.
+So, with that preview
+I want to give a little bit of context.
+So, teleoperation for dexterous hands
+has increasingly been used to collect
+demonstrations for imitation learning.
+But, highly dexterous actions remain
+difficult to demonstrate reliably and at
+scale. In the video on the right, even
+this simple in-hand rotation task
+requires slow, deliberate control from
+the human because of the embodiment
+mismatch and limited force feedback,
+which make precise contact regulation
+very difficult. So, rather than learning
+the policy from teleoperation,
+we train it entirely in simulation using
+sim-to-real reinforcement learning.
+So, sim-to-real reinforcement learning
+uses GPU-accelerated simulation to run
+tens of thousands of robots in parallel
+and generate experience about a thousand
+times faster than real time.
+This allows us to scale data collection
+with compute rather than human effort
+and collect decades of interaction data
+in only a few days.
+The result is extreme dexterity because
+it is not just imitating demonstrations,
+but is optimizing for reward-maximizing
+behaviors.
+These policies are then deployed in the
+real world, demonstrating impressive
+dexterous behaviors that would be very
+difficult to teleoperate. These videos
+are from Dextreme, which is one of the
+first works to demonstrate the
+effectiveness of this approach for
+dexterous manipulation. This task isn't
+particularly particularly
+useful-looking, but it's a definitely
+impressive demonstration of dexterity.
+But, most prior works in this space
+learn a separate policy for each
+particular skill. So, one for grasping,
+one for reorientation, another for
+object spinning, and another for tool
+use.
+Each new behavior typically requires a
+round of new reward design, new
+task-specific engineering, and another
+round of training.
+So, we instead ask, can we train a
+single policy just once and have it
+perform all of these different tasks and
+skills?
+So, what we really want is a single
+policy that controls both the hand and
+arm through the full sequence. It first
+grasps the brush,
+reorients it within the hand,
+and finally uses it to sweep the
+objects.
+And we want this all from a single
+policy, so we don't need to do any
+manual switching between separate
+policies.
+Our key insight is that we can unify
+dexterous tool manipulation as goal
+reaching. So the policy doesn't need a
+task label such as sweeping or
+hammering.
+It only needs to move the object from
+its current pose to the desired pose. So
+thus we train a a goal conditioned
+policy that can move arbitrary objects
+through a sequence of desired goal
+poses, visualized here in green, and we
+find that this is a very general
+objective for a wide range of
+manipulation tasks.
+So at train time, we procedurally
+generate primitive objects in
+simulation,
+sample random goals, and train a goal
+conditioned policy with massively
+parallel RL in simulation
+to manipulate random objects to these
+random goals. And of course, there are
+many details to get right here. The
+system identification, domain
+randomization, RL algorithm details to
+get exploration right. Um we're going to
+skip all of that for now, but feel free
+to ask questions in the Q&A.
+But then at inference time, we need to
+specify the sequence of goal poses,
+which can come from any source. And in
+this work, we choose to condition the
+policy on a human video demonstration.
+So we use foundation pose and SAM to
+extract the sequence of goal poses to
+track, and then the RL policy tracks
+these goals one by one in a 60 Hz
+control loop. And I really want to
+highlight here that the human video is
+not providing robot actions, and it's
+not used to train or fine-tune the
+policy. It only specifies the desired
+object trajectory for the frozen policy
+to track.
+So concretely, the policy takes in
+proprioception, the current object pose,
+a bounding box of where it should be
+grasped, and the current goal pose.
+It runs them through an LSTM policy, and
+then outputs joint position targets for
+the full hand and arm.
+And this policy again is not limited to
+just sweeping with brushes. This single
+policy works zero-shot across novel
+tools and tasks never seen during
+training.
+So, what's really nice about this is
+that a new task simply becomes a new
+sequence of goal poses rather than a new
+training run.
+So, conceptually, the trajectory acts
+kind of like a task prompt that we can
+provide at inference time for a frozen
+policy, allowing us to perform a new
+task on a new object in minutes instead
+of hours or days. So, we evaluate the
+same frozen policy across 12 unseen
+tools and target behaviors and achieve
+substantial task progress across every
+tool family, particularly those with
+long handles. Performance is weaker on
+heavier tools which are easier to drop
+and also for smaller objects, but this
+really because the post tracker has a
+lot of problems when it gets very
+occluded. So, next, we want to measure
+train and test correlation. So, our goal
+is to see how well our training
+objective supports downstream test
+success. On the left, we show training
+objects consisting of primitive objects
+and random goals. On the right, we show
+our test objects with human demonstrated
+trajectories. So, we evaluate
+checkpoints throughout training and as
+the policy improves on the generic
+goal-reaching task with primitive
+objects shown on the left, performance
+on unseen tools and human demonstrated
+trajectories on the right sharply rises.
+This validates that Sim2Real training
+objective with random objects and random
+goals is effective for generalizing to
+real-world tools and tasks. So, next, we
+compare Sim2Real against two really
+common baselines.
+So, our method successfully grasps and
+reorients the tool into a functional
+pose
+to complete the task.
+The fixed grasp baseline can grasp the
+object, but it must rotate it using only
+the arm,
+resulting in a table collision.
+And this, I think, really highlights the
+importance of in-hand reorientation
+ability as most prior approaches kind of
+assumed that just acquiring and
+maintaining a fixed grasp is sufficient,
+but it really isn't for many cases. And
+lastly, kinematic re-targeting. This is
+where we try to imitate a human video
+demonstration by transferring the human
+fingertip motion to the robot.
+But it doesn't reason about contact
+forces, so it fails to even grasp the
+object.
+Next, we analyze the failure modes of
+Sim2Real and find that pose tracking
+failures dominate. Next, object grasp
+the dropped after being grasped. And
+lastly, failed grasp, but it really
+tries to chase it down. But the policy
+demonstrates really strong recovery
+behaviors. So here,
+when the robot drops the hammer, it
+immediately regrasps it and completes
+the task.
+Lastly, please check out our website.
+All of our code, assets, and policy
+weights are open sourced, and we even
+have an interactive demo that runs right
+in your browser and even works on your
+phone.
+So it's not running on a separate
+server, it's running on your phone. It
+will drain your battery, so don't leave
+it running for a long time, but it's
+it's pretty fun.
+So that's a quick overview of Sim2Real.
+I want to spend the last couple of
+minutes um talking about a follow-up
+work called Play to Perfect. So many
+real tasks, like precise assembly,
+require sustained contact and
+millimeter-level precision. But learning
+the skills for precise assembly from
+scratch is really difficult. So we argue
+that before we can learn the hard
+problem of precise assembly,
+we must first learn the easier problem
+of playing with objects in free space.
+So this motivates Play to Perfect, a
+framework that leverages the familiar
+pre-training fine-tuning paradigm.
+We first learn a shared dexterous prior
+through task-agnostic play, which is
+very similar to the Sim2Real
+task-agnostic training.
+We then fine-tune that prior on a sparse
+reward contact-rich assembly task, and
+deploy the policy zero-shot in the real
+world. This enables diverse contact-rich
+assembly behaviors, including tight
+insertion,
+multi-part assembly,
+So in conclusion, Sim2Real enables broad
+reactive dexterity across novel tools
+and tasks, while Play to Perfect extends
+this towards precise contact rich
+assembly.
+Thank you.
+>> [applause]
+>> Yeah, I noticed that in the demos the
+recovery was I mean insanely impressive
+to say the least.
+Um, did y'all is that something y'all
+specifically uh aimed for uh for the
+robot to have good recovery or was that
+just an accidental byproduct of the
+policy?
+>> Yeah, yeah, that's a really good
+question. So, we didn't specifically
+train for that, but one thing that we
+really importantly added, like one of
+the details about domain randomization
+we added, was that in simulation we
+added these random forces on the object
+that randomly pushed at it. So,
+sometimes it would knock it out of the
+hand, so it gets experience having to
+pick it back up again. If it we didn't
+add that, I think it may not be as good
+at recovering because it might never
+drop it in
+simulation.
+>> How similar did y'all ensure the
+primitive tools you used were similar to
+like the normal brushes and like
+spatulas you used?
+>> Yeah, great question. So, this called
+Sim-to-Real, we're trying to focus on
+tool use. And many tools have some sort
+of graspable region that can be somewhat
+approximated with a bounding box, so
+that's our kind of interface here that
+we're using. So, we're not giving it
+detailed like object geometry, we're
+just telling it roughly like what the
+bounding box size is of the graspable
+region.
+So, in simulation, one detail here is
+that we're using all primitive objects,
+just cylinders and cuboids. We could
+extend it to more, then you have to
+generate a whole other data set and like
+remove stuff that's not stable. But the
+one we key key advantage is that the
+simulation runs like two to three times
+faster when you use simple objects like
+that, so that's what we used here. So,
+things that can be reasonably
+approximated as a cuboid,
+so something like a spatula or um even
+like a sphere would probably be fine.
+But if you're trying to pick up say
+something like a bowl or maybe scissors,
+it probably could pick it up in some
+weird way, but not in the way you'd want
+it to probably.
+>> So, yeah, I'm super interested in um
+this kind of a novel approach rather
+than learning from human demonstrations.
+Basically, you learn a bunch of sub
+goals and then use RL to um reach to
+those sub goals.
+>> Mhm.
+>> But, one problem for this, I think, is
+probably like how would you able to
+generalize, right, to uh a lot of real
+world um objects other than tools,
+right? Because for tools, you can easily
+define those primitives. Have you
+thought about those? Like um for
+example, like articulated objects,
+right? How would you able to do those?
+>> Simulation has its pros and cons. Like a
+lot of some Like one answer would be we
+can maybe just simulate all of them, you
+know, simulate scissors and simulate
+like all the kind of other articulated
+tools. But, there are just so many
+things that cannot be simulated well,
+like water or like even a zipper or even
+like cracking open a can of a bubbly or
+something. That kind of stuff, I think,
+is not currently in the realm of
+simulation. So, like what we do there is
+a really good question. Like can we can
+we transfer these priors into the real
+world and keep fine-tuning it? I think
+that's most likely the way I would do
+it, but that's a really good question.
+Like how to integrate this kind of great
+dexterous behavior, but let it keep
+improving with real world experience.
+>> Yeah, I think my question is more on
+like even if you assume you can simulate
+all the objects in the world,
+but like with this paradigm, are you
+able to
+like generalize, right? So, just still
+RL um
+>> That's a really good question. I I think
+if you would take a really far step
+back, right? Like our policy is being
+given the current pose and the goal
+pose, right? And it's kind of like an
+inverse dynamics model in pose space.
+But, if your object can't be specified
+as pose, maybe if it's something like
+like a towel, maybe you can specify it
+with key points. Or maybe the most
+general version of it is like you have a
+video goal and you're almost an inverse
+dynamics model of like the current state
+and like the final goal state. It's
+probably possible to like train
+something like that, but exactly how to
+get those details right, like generating
+the goal at inference time is a really
+hard problem. But I think like your
+question is really good one. Yeah, like
+how to make that more general.
+>> Yeah, we're trying to basically
+reproduce this.
+>> Oh, cool, cool. Yeah.
+>> Yeah. Hey, I'm trying to interact with
+them right now and I think like I've
+been trying to poke around and find
+failure modes. And I found that like the
+only failure mode that like consistently
+shows up is when like the arm like
+continuously twists like try to find
+different objectives. And like it fails
+usually when it twists the arm itself
+like too many times. I was wondering if
+you have like a reset dynamic maybe like
+between actions where like maybe let's
+say like my arm is here and in order to
+reach like this state like I could turn
+it backwards instead of trying to twist
+it even further.
+>> Mhm. Yeah, yeah. Good question. Yeah, I
+honestly not sure exactly what the right
+solution is there. Like it should in
+theory like if RL is really good, it
+should know to like spin it all the way
+around again. And it gets really
+contorted, right? Um,
+I don't know the exact solution to that.
+I guess most real world applications you
+don't go like crazy contorting your arm,
+but I think yeah, it's good it's good
+question.
+>> Cool. Thank you.
+>> Um, okay, first of all, this is amazing.
+Congratulations. Um, my question is on
+like from the team's perspective, how do
+you guys iterate on such a thing? For
+example, if you have one policy, you
+start seeing regressions in other tasks,
+how do you guys handle that? Do you have
+like evals or like what does iterating
+even look like in this space?
+>> Good question. Yeah, this is a it's a
+bunch of things, right? Like how do you
+eval these kind of policies? You can
+eval in the real world, but it's very
+expensive and takes a lot of time. And a
+lot of times like you don't actually get
+statistically significant numbers,
+right? You kind of almost get a vibe
+check unless you run it like truly a
+hundred trials. It's hard to like tell
+if you're at 90% or 87% success rate.
+Um,
+and the other thing one thing we really
+try to do is have a lot of automated
+ways to evaluate our policy across all
+those novel tools and tasks in
+simulation. So it gives us a sense. We
+train on the random objects and random
+goals and see how well it works on our
+real world objects and real world
+trajectories, but we like I put them in
+simulation.
+So we get some metric, a a for if it's
+doing way worse or way better.
+But um it's a good question cuz honestly
+it's really hard to tell. Sometimes it
+actually can do occasionally it can do
+better in sim but it's doing some
+magical tossing and catching behavior
+that, you know, may work but our post
+tracker would probably fail. So, um you
+kind of need a little bit of human
+insight still. Yeah, it's a really
+really hard one.
+>> I have a quick question. Um so, you use
+this uh
+prehistoric thing called an LSTM.
+Uh can you tell us about that? What is
+that?
+>> Yeah, it's a long short-term memory. So,
+I can I can go into the math but
+basically um this RL packages are um how
+do I say it?
+RL is a very finicky thing where you
+almost don't want to change too much of
+the code because once it works well
+once, you don't want to rewrite it from
+scratch because any one like value you
+change could break the whole thing and
+it's really good to start from a good,
+you know,
+starting place and then iterate from
+there.
+And that code base already had LSTMs
+baked in. We're like, let's just try it
+out and it worked better. Yeah, it's
+probably other ways to integrate that in
+there.
+>> work better than transformers?
+>> Well, there's no transformer in that
+one.
+>> Yeah, but but do you think that
+transformers would have worked better?
+>> I've talked to people about this. I
+think that broadly um transformers are
+probably better data sponges if you have
+unlimited data. But here I feel like
+we're not we're getting a lot of data
+but like we're constantly updating the
+policy. So, I feel like it's actually
+not in that regime where we need an
+enormous huge data set and some people
+have actually tested this and not shown
+any improvement so I haven't had the
+motivation. But the yeah, the coding
+agents are out now so there's probably
+no excuse for me to not try it but
+>> The diffusion policy paper, a lot of
+people don't know this but if you go
+through their their table, the conv
+actually outperforms the transformer on
+like half the policies.
+>> Yeah, unless you tune it for transformer
+better. It's actually a lot more
+sensitive. So, I think yeah, exactly
+that.
+>> And then the last question I didn't I
+didn't really understand how you create
+random goals. What does that mean? Like
+actually in the code. Like what are you
+actually doing?
+>> it's it's like the simplest thing you
+can imagine. Like we sample a position,
+we sample a rotation
+and then we can put that as their first
+goal and then every subsequent goal is
+some delta pose of like up to 10 cm away
+and up to 90 degrees difference. Yeah.
+>> I see. So, that's really good for
+training the policy to get from A to B,
+but it's not good for generating the
+goal. So, to generate to generate the
+goal, you need human labels.
+>> Exactly. Or, you could do something
+else. So, you could actually imagine
+that some high-level planner like
+looking at the scene, understanding the
+full context, and then generating the
+goals for you. I think that's probably a
+pretty interesting direction. Yeah.
+>> Uh you were mentioning some of the
+failures were due to wrong estimation of
+the pose.
+>> Oh, yeah. Yeah.
+>> What fraction of those would be
+attributable to that? And second
+question is,
+uh are you always using the third-person
+views, or did you also perform any
+experiments with first-person views?
+>> Good question. Yeah.
+Um about more than half of our failures,
+I think roughly 60% of our failures were
+purely from the pose tracking. It was
+really like one of the big bottlenecks
+of the system. It's honestly not my
+favorite part.
+Um but it really happened the most on
+these smaller objects. So, look, that
+that marker, that one is really easy to
+be occluded, right? You barely see it at
+some points. So, I think that's like
+example of one that'd be really hard.
+So, like this kind of longer leg, or
+this like bigger brush has a lot more
+features, so those would be having
+having less pose tracking issues. So,
+that's like roughly how that looks.
+>> Were you using like the third-person
+view, or did you also experiment with
+first-person
+>> the third-person view roughly like where
+this camera is, and then that's pretty
+much all we tried. Yeah, we just kind of
+found a good angle where it didn't seem
+to occluded, and then we just used the
+pose tracking from there. I think it
+could be better. Maybe you could even
+use like a pose tracker from the camera.
+You probably can distill this to some
+image-based policy, but there's some
+details about getting the goal
+conditioning right.
+>> Awesome. Thanks, Dylan.
+>> Thank you.
+>> [applause]
+>> Yeah, Nico. I'm the one of the
+co-founders and the the CEO of Rerun. In
+a prior life, as a Rerun yeah, started
+out about 4 years ago. In prior life, I
+used to do machine learning, computer
+vision for physical world applications
+for yeah, for shipping products like
+that for for about a decade before this
+company. At Rerun, we are building this
+sort of unified data layer for physical
+AI. Basically, tools and infra to help
+you work with physical data from
+collection all the way to training. So,
+this open source SDK is pretty popular
+and a bunch of people in here use it for
+basically working with physical data.
+So, it's like logging, visualizing,
+sort of generic querying, and sort of
+data loading and and stuff like that for
+training. So, basically all the kind of
+tools that you need to to transform and
+and sort of analyze data. And we have a
+infra product which is called WeRun Hub,
+which is basically a data catalog and
+sort of large-scale data backend for
+doing all those same things, uh but for
+lots of data on sort of in the cloud. As
+part of building this,
+we get to talk to or work with like
+amazing companies doing robotics from
+like Frontier Labs all the way to, you
+know, two-person YC startups.
+And
+there is a sort of There are many ways
+of doing robotics companies and robotics
+projects. I would say there's one
+pattern
+that we're seeing a lot of that really
+really working right now that I'm I'm
+super excited about and I want to see
+way more of. So, this talk is actually
+mainly me trying to tell tell you all to
+start companies like this. So, basically
+that new category is what might be
+called robotics application companies. I
+think some some people call these like
+the new integrators.
+And their pattern is kind of really like
+taking ownership of a full business
+problem sort of end-to-end. Right now,
+this is working See this working a lot
+in like data center management and
+construction, like
+warehouses, manufacturing, things like
+that.
+Just making being a really really
+excellent at operations, like deploying,
+support, things like this kind of thing.
+Building as absolutely little custom
+hardware as possible.
+And then just generally often starting
+with teleop, like making sure the
+business works with pure teleop, and
+like fine-tuning models, so not feeling
+the need to to start out with foundation
+models and solve like very very general
+problems. I My personal belief is that
+this kind of category of companies going
+to be the new SaaS, right? The way
+SaaS companies kind kind came and just
+like took over our software over the
+last I don't know, 10 years until I
+guess SAS is dead now, but this is not
+dead.
+Um
+this is the same thing is going to
+happen for their work in physical world
+and like these kinds of companies are
+going to do a lot of the sort of
+transformation of the the world's
+economy. Uh so
+so I think it's very ripe time to get
+into it. So kind of to talk about that,
+I thought I'd just sort of walk through
+a little bit. Like if I wasn't doing
+rerun, how would I do it, right? And
+this is kind of the pattern that I see.
+Just how do you get started, right?
+So pretty simple pattern. Uh
+start with a single customer problem
+that someone will pay you for. Solve it
+with teleoperation first and just
+off-the-shelf hardware. Just scrappy um
+kind of get started. The basics you need
+for for learning and then uh with that
+in place, you just yeah, iterate uh more
+and more and and sort of scale. And that
+that will be the rest of your time of
+your company, but that's that's sort of
+the fun part. And for me, um I would
+clearly pick this a very important
+problem. Everybody loves paper planes.
+And like folding is annoying, so I
+would, you know, make a robot for
+automating paper plane factories. First
+thing you do, right? As I I said, sell
+and deploy like super fast.
+Uh ideally with, you know, teleop and
+off-the-shelf hardware, as I said, and
+like the reason for this basically like
+the physical world is brutal, right? Uh
+everything that you do is going to
+break. Um all the thing like you will
+not have thought of all the different
+failure modes up front. It is not
+possible to think of them all in the
+lab. Um
+and so you it's really really important
+that you understand kind of the
+end-to-end like real business
+requirements super fast because you
+can't fix all the theoretical things.
+Sort of benefit if you can solve
+something with teleop, generally you can
+train a model to do it, right? The
+converse is not always the case as as we
+we heard about in a lot of uh but
+but yeah, if you can, that's great. So
+just some examples of what we might
+learn doing this, right? So maybe uh we
+learn that
+uh you need to produce a thousand
+perfect planes per day to be viable as a
+business, right? Um maybe it's okay to
+to fail as long as we can sort out uh
+bad planes. Uh so we need to be a
+efficient like discriminator. Paper is
+cheap, right?
+Um customers care most, turns out, about
+the speed to onboard like new plane
+designs.
+Um if you add the right little paper
+tray, maybe you reduce failures by 50%
+because most of the failures were
+actually picking up picking up the paper
+from a a pile.
+Um it maybe it turns out takes you a
+human 20 hours of practice to get good
+enough to meet like a customer's
+uh demand. Uh sort of requirements. And
+that has huge impacts on like how you're
+going to run operations. You maybe you
+need to now hire all the teleoperators
+cuz they need training, for instance.
+You may also learn that it's like 10
+more times uh valuable if your robot can
+also go pick up the paper and pack the
+boxes uh for shipping at the end, right?
+So then you have sort of a idea of your
+V2 product.
+And you'll definitely learn that your
+arms are going to break.
+Uh you know, those cheap sort of
+research arms that you bought, they're
+going to break and you need to sort of
+um after after some use and you need to
+change your supplier. And so so that's
+that's sort of uh part one. Um part two
+yeah, then setting up the basics for for
+learning. So, hello world in the space
+is basically fine-tuning a um
+let's say fine model, open model of some
+kind, uh just for simplest possible
+case.
+On a few hours of demonstration, like
+teleop demonstration,
+and just making sure that it somehow
+works a little bit, right? So you're
+you're kind of up on the treadmill.
+Um like it's really important to do this
+early as well because like
+training on the data early will change
+how you collect, how you run operations,
+so so that's uh that's super key.
+Um when you have that in place, you need
+to um
+you need to be able to make sure that
+you can evaluate and sort of understand
+performance.
+And then obviously like collect the data
+that you can train well on. So, number
+one, um
+yep, evaluating performance. First thing
+you need to do is to have a replica of
+the customer's environment uh in your
+own office. I've been in a lot of
+robotics companies' offices.
+Among the company who has who actually
+ship working products, I haven't seen a
+single office that doesn't have a
+replica of the customer environments.
+Um you just need somewhere to test and
+you need to test a lot. Number two is
+like finding a repeatable way to
+evaluate success.
+And this is where you're going to do
+this is the backbone of all the learning
+that you're going to do.
+And here you can really encode
+things that the sort of generic model
+companies will not do. Like you're going
+to encode what is important to this
+business, right? And that you learn on
+the ground with your customers. There's
+a lot of stickiness in that. In this
+case, um
+you know, maybe we care a lot about that
+the edges on the planes are sharp,
+right? We care about that it matches the
+design, it's symmetric, maybe the weight
+distribution is right, I don't know,
+right?
+Super important to do this yourself
+manually.
+Like until you really understand it and
+it's kind of a stabilizing. Definitely
+automate it that somehow, train a model,
+outsource it, um but do it manually at
+first. And then you need to be tracking,
+you know, metadata
+uh of all the rollouts, failure
+classifications, that kind of thing.
+Yeah, second thing is yeah, collecting
+data that is effective to train on. And
+uh it's sort of tautological almost, but
+like if like good data is data that
+makes the model better.
+Um but what that means in practice for
+you is that uh you need to be training
+and evaluating and kind of debugging uh
+your data constantly.
+Like if I talk to
+uh researchers at like big
+uh robotics companies with huge budgets
+and and so on, they'll often tell me
+that like one of the most common things
+that they'll do when they're analyzing
+their they're debugging their policy or
+analyzing their data is they actually
+find out that the right thing to do is
+to send a different instruction to their
+data collectors.
+To collect data differently or like to
+stop doing some mistake.
+So yes, doing this early, you don't want
+to be like collecting all your data up
+front
+and then train later. Like a huge
+mistake.
+Um there's there's big lots of
+literature and exper- expertise on like
+what what kind of data you want. You
+want the right kind of variability, no
+bugs. Uh that's a deep one. But the most
+important thing isn't like the specific
+ways of doing it. It's that you are
+testing and iterating really fast. Uh
+and so you're getting your hands on real
+problems.
+Um to do all this, yeah, you you need
+the right sort of
+data and and and formats, kind of tools
+to to work with your data through
+through all this. You need to be able to
+record and store and kind of inspect
+your data and obviously train on it,
+right? Uh so, just a couple sort of
+smaller examples.
+One could just be this like your
+customer said that they care a lot about
+uh quickly onboarding new designs.
+So, that means you have to have some
+strategy to be a little bit more sample
+efficient. So, very commonly, this like
+more practical about these companies,
+what they'll do then is they'll That
+means, okay, we're we're splitting the
+this task into more like composable
+subtasks. So, then you need to design
+that taxonomy, um figure out how you
+want to annotate this efficiently and
+repeatably, and uh you're now in a
+situation where your annotation is too
+complex to be doing live. Maybe in a
+simpler case, you could actually have
+the operator just speak or, you know,
+have a little um foot pedal or something
+like that to do annotation, but now you
+can't do that. So, that changes your
+operations. Yeah, second one of the kind
+of data tooling, uh you kind of get into
+like, why not just use Postgres or, you
+know, whatever data infra was built
+prior generation to do LLMs or, you
+know,
+feature stores for prior ML and so on.
+Uh there are the answers. Basically, the
+physical data is all the data that, you
+know, you're you're going to be working
+with in robotics, it's just very very
+different than web data. It's
+multimodal. It's multi-rate. Uh it's
+episodic. It has this like weird
+semantics of 3D and sort of deep nested
+structures. And
+that means that if you try and put that
+kind of data in like normal like normal
+data systems like table table-based
+databases, it's incredibly hard to query
+and it's very inefficient to store and
+process and so on. And this this like
+base thing is really at the heart of a
+really lot of the complexity of like
+working with physical data.
+Um yeah, there's a a really lot lot to
+say of that, but the end the end effect
+is that most teams if you don't like set
+the right storage sort of layer at the
+bottom and the building a good real lot
+of workarounds and that's a huge amount
+of friction. But you have these like
+very very basic things uh in place, uh
+you're ready to hill climb, right? So
+you're you're deploying and learning
+from like real valuable
+uh like robotic service that that's
+giving like doing something
+worthwhile. Uh you know how to evaluate
+performance so you can improve.
+You know how to collect data and and
+kind of train on it well and you can
+debug across the stack, right? The super
+important, you don't know where the
+problems are in robotics, like real
+robotics
+uh is kind of a death by a thousand cuts
+kind of industry. So you I just have to
+find all the problems. And then after
+that it's just iterate and scale. This
+is what you're doing the whole company,
+super super fun. Includes, you know,
+improving intelligence so you know,
+scaling up crazy amounts of data perhaps
+if you need it, like iterating on
+algorithms and and sort of more advanced
+use of data, maybe adding in Francois'
+favorite with tactile or or whatnot or
+depth or sound. Um but you're also like
+really going to have to get excellent at
+sales and as like assembly of your
+robot, shipping it like really fast,
+having a what's your unboxing
+experience, like operation support. Um
+and
+kind of everything everything in
+between.
+And
+like importantly, these other areas that
+are not just modeling is like a lot of
+the source of your moat. This is the
+kind of stuff that the model pure model
+companies will not do, right? Yeah, just
+on that like you just kind of the thing
+that we see even the absolute the teams
+that we've seen like really really
+succeed. And there are some companies
+taking this approach that re- reasonably
+little small amounts of capital that are
+making already making a lot of money
+doing very very well
+and growing super fast.
+Uh it's just like yeah, basically
+iterating super fast.
+So on the frontier lab side that tends
+to mean that they're like investing huge
+amounts of compute for every researcher.
+Everybody knows they they spend a lot on
+GPUs of course for model experiments,
+but also uh like a quite big
+um spend on CPU for like just really
+turning down latency on like searching
+and exploring data.
+Uh but these like robotics applications
+startups instead they really focus on
+um
+sort of very very pragmatic and simple
+like flexible systems
+uh to to have like very minimizing
+moving parts.
+Super important to have like fast
+turnaround on new data. Um full stack
+debugging.
+Uh yeah, and just like making sure that
+you can understand all moving parts. Um
+yeah, so this is my pitch to all of you.
+Uh you should at least someone in here
+should go start a robotics application
+company.
+Uh the market or markets are enormous.
+Uh the base models will keep getting
+better. There is actually enough
+friction in the physical world to build
+real business models. So means you can
+you know stick around which is great.
+And you can do this with a relatively
+small amount of capital. You will not
+need to raise a billion dollar seed.
+And but you still need like great AI.
+You need great engineering to win. So
+that means that like all of you here and
+like you guys people listening uh you
+have a leg up and it will still be super
+fun. I'm still going to do a quick plug
+or like reiterate what we run does. So
+if you're building a company like this
+um definitely check out rerun or you
+know talk to me. As I said we have a
+open source SDK. It's basically meant
+for you to iterate super fast with
+robotics data.
+Um has all the pieces you need. It works
+really well with agents if you want to
+um you know make it work exactly like
+you like it.
+And uh sort of a production catalog and
+sort of storage engine to make it fast
+and easy to use when at some point you
+need to start scaling and have a lot of
+this data for production or for training
+or whatever it is.
+All right. Uh that's me. And you can you
+know find us here.
+>> [applause]
+>> So, I think where we see a lot of early
+success is it tends to be in
+uh things
+things that you can tell off basically.
+So, it will be um you know data centers
+are a quite significant category. Uh but
+a lot of warehouse robotics. There's so
+many pieces that go into just moving
+things around in the world.
+And a lot of them are quite repeatable.
+And labor
+is fairly cheap. Uh but it's also hard
+to manage, right? And it's there's too
+little labor out there. Uh we found with
+the companies that we work with and are
+generally know that can build like a
+reliable robot, they basically are 100%
+supply constrained. They
+they have a very very easy time like
+filling their demand. So, that'd be one
+area. Small-scale manufacture like table
+top manufacturing of different kinds. Uh
+we see a lot of action there.
+Uh food as well.
+>> Inego, thank you. Um why haven't there
+been a bunch of these robot application
+companies yet that have been, you know,
+at billions of revenue?
+>> Uh I think it's you know
+robotics is this like a death by a
+thousand cuts kind of thing.
+And I think in any area like this,
+it matters that you can kind of get
+try out an application fairly cheaply.
+And that's actually quite new, right?
+It's
+it's there are a lot more arms on the
+market now, right? The base models are
+way better now than 2 years ago. Um
+and so you just it's there's been this
+lack of the basics that you need to kind
+of do this fairly cheaply. So,
+everybody's had to go out and raise like
+huge rounds and go for a much more
+general things to start with.
+>> I think like one dilemma one might face
+while building this kind of company is
+how to estimate the scale of data you
+would need to solve a particular problem
+before
+the model is deployable.
+So, like how do you go about that? Like
+how do you estimate the scale of data
+you would need? And whether it's the
+right problem to solve or switch the
+problem so that we need uh less data to
+just iterate faster.
+>> Yeah, I think that's really one of the
+core ideas between if you can tell up
+first.
+You it's not obvious that all many
+businesses work without full autonomy.
+Um even you know, a lot of the robot
+taxi businesses don't need full
+autonomy, right? It's so a lot of these
+companies they take they see autonomy as
+a scaling factor.
+And so, you tell up generally if you can
+tell up, you will be able to learn at
+least important parts at some point.
+And it just becomes a question you learn
+that by training models and kind of
+trying to, you know, plot their own
+scaling curves and and so on. I don't
+know that I know anything up front.
+Uh but that's kind of the idea of the
+strategy. You don't guess in a void uh
+because it's equally likely that some
+task the task that you thought you
+needed to solve isn't really the
+important task anyway, right?
+>> Thanks.
+>> All right. Thank you, Nico.
+>> [applause]
+>> Uh we're from General Instinct. Uh my
+name is Bill and then Guanmin's going to
+present later. I come from
+uh kind of a technical background
+working on VLMs at the beginning. Worked
+at Siemens on their foundation model to
+train to predict time series. And then
+Guanmin worked mostly on robotics RL.
+What our company does is we build
+infrastructure for you to run physical
+air models really fast. So, you have for
+LLMs you have VLMs and actually laying.
+For physical air models like world
+actual models and VLAs you would have us
+General Instinct. Yeah, this is a meme
+from Jim Fan's talk that VLA VLAs are
+dead and then we're going to have world
+action models from now on. So, most of
+us in the room know what VLAs are
+already. I'm not going to try to explain
+it. Basically, you have a VLM that's
+trying to predict an action through an
+action head. What a world action model
+is, however, is uh
+you have a central diffusion transformer
+that's trying to predict what the future
+looks like and future kinematics at the
+same time. So, you have current
+observation from a robot's camera in the
+form of video streams and then you're
+trying to imagine future frames as a
+condition to try to predict future
+kinematics. One example is Nvidia's
+Dream Zero. You have uh basically
+the robot trying to predict future
+actions and then you have the flow
+matching that allows the robot to
+act on those action chunks in future
+frames. And Dream Zero did really well.
+So, these are some benchmarks that you
+have on Dream Zero compared to some of
+the state-of-the-art models. Some models
+in Pi, some models also from Nvidia.
+But, one problem that we noticed is that
+although
+world action models perform really well,
+because you're you're still trying to
+use a diffusion model to try to predict
+frames, it's really heavy. So, even
+after all of these optimizations that
+you can do on it, it still takes two GB
+200s to run the same model. And then
+each one costs around 70K. So,
+economically for robotics as an
+industry, this is not scalable. Yeah,
+another meme. VLAs are not dead cuz
+they're small.
+>> So, since we know
+uh world action model like Dream Zero is
+super slow and we will talk about how
+can we optimize it. So, this is the
+architecture. On the left is a training
+pipeline and then on the right is the
+inference pipeline. So, for the training
+pipeline, you basically uh you treat
+current observation as a condition for
+the flow matching and you add noises to
+the future latents. And then you would
+train the model to learn the future
+latents and then predict the future
+velocity field. And then send it to the
+ODE, then you can drift back to the
+future latents with clean states. Does
+the same thing for the inference as
+well. For the inference you're doing
+this auto regressively for maybe 50
+steps or some some of the field that you
+want 100 steps to ensure the accuracy of
+the models.
+And
+a problem for this will be
+uh on the left you have the video
+prediction. On the right you have the
+IDM, which is the inverse dynamics
+model. So basically for each chunk
+production
+to produce one chunk for 16 frames you
+need to run the DIT, which is a
+diffusion transformer for 32 times
+because of the CFG. Uh the CFG is you
+need to run the condition for the flow
+matching and also run another
+unconditional flow matching. Then you
+can take the derivative of the gradient
+that you can you can do for the gradient
+descent for the flow matching. If we go
+back to the architecture like this,
+people will talk about oh why not we
+just do not run the diffusion models? So
+we don't need to predict the future
+frames.
+That works. And there's a research paper
+called Image Ram. Basically they're not
+predicting the future video chunks,
+instead they're predicting the future
+end state which is the
+uh future end state of the
+uh single frame.
+For instance, I'm predicting the future
+video for maybe 16 frames. Rather than
+predicting the whole video, we can just
+predict a T plus N, which is the end
+state of the frame. And there's another
+research paper called Fast One. Fast One
+is more extreme in some sense. Uh they
+think all the word representation they
+are already learned in the hidden state
+of the DIT.
+So you don't even need a decoder to
+decode our videos. You can just use the
+hidden state as a condition to train
+your action head.
+By doing this, you don't even need a
+decoder in the training and also in the
+inference pipeline.
+If we If we take a analogy of those two
+different word action models,
+for the generative word action model,
+which is you need to decode and then
+pre- predict the future frames, so
+pretty much like a VR
+of Google Maps.
+But for the latent word action model,
+it's like you look at the navigation of
+your Google Maps and then think about
+what the model the car says it has to do
+and then what kind of action you're
+going to produce in the future. In
+conclusion, all the problem began All
+the problem comes down to the question
+about how to keep the rich word
+representation. Some of the people like
+uh LeCun, they think about uh cuz they
+were doing Jepa,
+they think about maybe we can have two
+different encoders. And then one encoder
+is encoding the current observation and
+then the other one is encoding the a
+future observation.
+And by learning by doing loss on the
+current observation latent and the
+future
+uh future observation latent, then you
+can teach model to learn how to predict
+the future.
+And that's one way of doing this and
+they're doing this use MSE loss.
+And the other people, they're using they
+treat the future as a distribution of of
+possibilities. It might be you take this
+possibility of this action, you might
+take uh as a other possibility of taking
+another action. So, you treat them as a
+distribution and then you uh estimate
+those kind of action distribution and
+you think full magic. We talked about
+those different optimization angles we
+might have. And
+for us, since we're doing the infra
+thing, so we did all those optimization
+on our infra. Uh we did distillation on
+the VAE part, which is a VAE
+encoder-decoder. We also did
+distillation on the DiT part, so the DiT
+became smaller.
+We also divided the
+Okay, cuz previously they were using the
+same transformer same it's the same DIT.
+We divide them to two different DITs.
+Rather than decode all the future
+frames, we can just use the cross
+attention from the
+video transformer to the action
+transformers. So, the action transformer
+learns
+the hidden state, which which is a word
+representation from the video
+transformer, and you don't have to
+decode the future frames anymore.
+We also did this solution on the uh
+auto aggressive flow matching sampling.
+Uh previously, it might take 50 steps or
+like 100 steps to do the flow matching
+decoding, but we made it to down to one
+or two steps, which is immediately 50
+times of speed up. And we also did some
+changes on the modality side cuz we know
+future representation or word
+representation,
+uh you can learn through pixel level, or
+you can learn through through latent
+level. Is it possible we can find a more
+suitable modality to represent or to
+retain the word representation?
+So, one way of doing this it might be
+mask.
+And then the other way might be flow.
+We tested the both of them, and you can
+see the heat map
+is the visualization of the model.
+And it guides the word model about which
+action you're going to take in the
+future 0.5 seconds.
+By using our infra, the word action
+model can runs
+500
+I should be a 500 milliseconds per
+chunk, which is 16 actions on Jetson
+store.
+And we also wrote a full blog about how
+we did this on our website. Uh this is
+the QR code if you wanted to learn more
+about it. And also this is the LinkedIn
+of the founders of us. That's it.
+Thanks, guys.
+>> [applause]
+>> Uh going back to that slide that you had
+with the training and inference of the
+world action models,
+in the training stage,
+they're using flow matching and teacher
+forcing.
+Um
+that makes sense, but in inference
+you're going to start from a fully noisy
+space and then you're going to come to
+the future time step. How do you ensure
+that at inference time the model
+actually
+collapses to the right thing and it just
+doesn't degrade to noise?
+>> Uh that's a very good question. So, for
+the training part, you begin with the
+clean future latents, and then you add a
+noise to the clean future latents
+gradually.
+So, eventually the future clean latents
+will become pure noise
+at the end for the training part. So, by
+doing this, the inference learns how to
+reverse it back.
+So, when you're given to a pure noise,
+the inference learns how to do this
+gradually and then reverse back to the
+future clean latents.
+So, that's basically how it works.
+>> So, like curriculum learning or starting
+with like very little noise initially
+and as you train for longer longer you
+have more noise.
+>> And that's why it's super slow cuz
+people doing this maybe for 50 steps.
+So, we think it's too slow. So, we just
+found a way to distill it to like two
+steps or like three steps, so it'll be
+way quicker and without performance
+drop.
+>> Yeah, that's super interesting to me
+all. So, when it comes to the world
+models, uh is the performance
+improvement due to the action heads
+looking at more details when we are
+forcing them to predict the whole frame?
+And second one is when there are
+multiple agents that are involved in the
+scene, uh does the model actually
+develop some kind of a theory of mind
+and predict other agents' actions in
+order to be able to predict the world?
+>> Uh that's a very good question. So, I
+want to go back to the architecture of
+VLA and world action models.
+So, uh I got a lot of question about
+what is difference between VLA and the
+wood action model. Why does wood model
+need to predict the future rather than
+just predict action itself?
+Um
+a way of how to answer this is for VLA
+especially, they are just based on the
+current observation to predict the
+current action. So, they don't have the
+explicit learning of the future
+kinematics.
+The only reason we need to introduce
+videos, especially for future videos,
+for wood action model is we want to
+teach the model to learn the future
+kinematics.
+For example, I'm holding a
+a bottle of water, and then I drop the
+bottle of water.
+So, from pixel level, if we give the
+future videos to the model, the model
+learns
+how the kinematics will change the pixel
+level, and then we know this is kind of
+a supervision of teaching the model to
+learn the future dynamics. And we
+believe the future dynamics help with
+the action generation as well, because
+it's physics.
+So, by doing this, we teach the model
+how to learn the correlation between the
+physics from from the pixel level to the
+action you produced.
+>> To test that hypothesis,
+um
+could you train a
+transformer stack body to do next frame
+prediction, and then
+more and more, and then rip off the head
+and just do the action. What would it do
+the same thing?
+>> I think like we divide them to two
+different transformers.
+>> Two different stages.
+>> Yeah.
+Um
+of course, there's a more efficient way
+to do this, and it's called mixture of
+transformers.
+And if you check the image one, they
+actually do this thing.
+They did the cross attention from the
+image editing backbone to the action
+expert, because
+uh just like uh image round model also
+fast one, they realize the word
+representation, you don't have to
+explicitly decode the frames. You can
+just keep them in the hidden state, and
+then do a cross attention from
+the last layer of the backbone to the
+action head. So, short answer for this
+is of course you can do so. And then we
+realize that this is a more efficient
+way to
+of to maintain the word representation
+meanwhile produce the best action based
+on the word representation.
+>> And then is there Is there no test time
+planning that's done with WAM where you
+will invoke, let's say,
+10 samples and I'll get 10 different end
+states and 10 different actions.
+Um and then I'll pick the best end state
+of the ones that were sampled and then
+emit that action. Is that not done?
+>> Yeah, I think it's pretty much how flow
+matching works, right? Cuz for flow
+matching you're basically train you are
+treat action as a possibility of
+distributions and then you always sample
+the
+a best trajectory. And we used the
+teacher forcing to teach the model to
+a sample the distribution of the
+actions. So, I think for flow matching
+they are already doing the same thing.
+>> And then last question for me, like why
+choose the business model of being a
+a VLLM equivalent for
+WAMs versus just actually, you know, do
+like Nico says, become a robotics
+application company and actually go
+end-to-end.
+>> Uh I think Bill can answer this
+question.
+>> [laughter]
+>> Yeah, I think the reason we went with
+this route is because we really believe
+in having this understanding of the
+world for your models, but I think right
+now everyone's focused on maintaining
+the research so that it can be as
+generalizable as possible. But
+eventually every model like that needs
+to go on the edge and needs to go in
+real time. So, I think right now not a
+lot of people are focused on building
+the infrastructure that allows those
+models to perform really well on your
+robots first. We want to be the first
+company to do that.
+>> Hi. Uh I have two questions. Um the
+first one is more of a clarifying
+question of like um, so for a wham, like
+do you do is the prediction auto
+aggressive in like previous frames or is
+it like one previous like t minus one
+and then to t without any other like t
+minus two minus three and so on?
+>> I think what you were talking about is
+the chunk size cuz you can change the
+parameters as well. So for the training
+you can do 16 frames which people they
+all do 16 frames which is you predicting
+a future 16 frames and people they also
+do uh, 32 or like even higher frames.
+But if you increase the chunk size which
+is more frames you produce then it will
+be harder for the model to learn the
+future states cuz it's longer.
+>> Okay, okay. Uh, and my second question
+is are you
+uh, familiar with any work that uses
+like
+um, encodings for
+the differences between frames? So like
+temporal difference encoding I think
+like a recent work by Yann LeCun.
+Um, as well as like uh, tech blog by I
+think induction labs where they like
+train a image image imagination model
+um, that predicts like latent encodings
+for um, the differences between uh,
+adjacent frames in a video.
+>> Yes. And
+uh, if you check here we mentioned about
+asymmetrical denoising cuz we found a
+way that you can actually measure the
+energy of the key frame cache. So rather
+than you can produce all the future
+frames why not just produce those
+maintain the highest uh, details of the
+the action you are doing right now.
+And
+uh, that's basically what we added to
+the new frame as well. So if you we
+found a way to measure the key frame
+cache to measure the different energy of
+the key frame cache and then based on
+the energy then we decide if the model
+going to predict different resolution of
+the frames or just
+purely doing this on the latent space.
+>> Thank you.
+>> [applause]

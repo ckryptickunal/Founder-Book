@@ -1,0 +1,153 @@
+Title: Any-Horizon Reasoning for Video Agents
+Video ID: istBNYB4Et4
+URL: https://www.youtube.com/watch?v=istBNYB4Et4
+Channel: YC Root Access
+Published: 2026-08-06T17:35:29Z
+Duration: PT4M36S
+Views: 287
+Likes: 4
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 137
+
+============================================================
+TRANSCRIPT
+============================================================
+
+[music]
+>> We're here with Jitesh at YCML at
+Startup School. Jitesh is going to tell
+us about his work that he published at
+CVPR this year. Jitesh, tell us what you
+did.
+>> So, this was done in collaboration with
+Georgia Tech and AI2. Um
+so, if you watched like a TV show or a
+Formula 1 race, it's usually very long.
+And let's say you have a Kodak agent
+running, a cloud Kodak agent running.
+It's doing something. It's asking
+permission. You forgot to pause your
+show and you went there. You missed some
+part of it. Now, you come back. You
+missed like let's say 30 minutes of it.
+You don't rewatch the whole thing. You
+skip to parts to find out what you
+actually missed.
+Um and otherwise, let's say the
+situation reverses and now you're
+looking at like an Instagram reel, 10
+seconds long. You watch the whole thing.
+You won't skip there. This is what we
+term as the natural any horizon ability
+of humans. Humans are very good at
+adapting how much time do they spend on
+what based on the task at hand.
+So, based on this, our major motivation
+for this work was to figure out how our
+ex- how our existing video agent
+reasoning system at the time had uh such
+task and we found they struggled.
+Uh they have they underperform on
+open-ended questions, which is what uh
+humans are interested in when they're
+interacting with videos in the real
+world, and they are very slow as well.
+So, it's not really fruitful for them to
+be deployed.
+Uh when we analyze the things, we found
+three major issues. First was the system
+design itself.
+Um
+We found that existing systems usually
+relied on temporal grounding, which is
+similar to grep for coding agents, and
+temporal grounding models for videos are
+not that accurate yet. So, when humans
+look at something when they
+>> So, it's an accuracy problem. Not Is
+that because of how long they are that
+it they're not going to that or what?
+>> They are not accurate because
+uh models have not been trained on long
+videos in the first place. So, it's like
+a cyclic thing.
+Um so, when humans look at long videos,
+they just don't look at the visual
+information. They do a very
+knowledge-grounded approach. You use
+your world knowledge, you use your
+context setting like Formula 1, you know
+what Formula 1 is, how many drivers
+there are, so you try and find
+information based on that. Uh so, like
+if you're trying to find information
+about a Ferrari driver, you won't really
+look at a Red Bull car going on because
+you know Ferrari driver belongs to a red
+car. So, we equip our system with tools
+like web search and transcribe speech,
+which usually have external signals that
+can help us alleviate the issue that
+arises from inaccuracy of the temporal
+grounding model models, and that makes
+our system much more effective and
+efficient, as you can see here with the
+run time thing. It's much faster than
+the previous systems. Then second with
+videos is videos are long, 1 hour, and
+if you use existing annotated platforms
+like Prolific, 1 hour of the annotated
+time can cost in in excess of $30. Very
+expensive if you want to train a model.
+We found that Gemini 2.5 Flash is
+actually good at generating questions.
+It's very slow, but it's like a one-time
+cost that you need to give.
+>> Definitely not $30 per hour.
+>> Exactly. So, we generate question and
+answers for for SFT and RL, and we
+generate synthetic tool called
+trajectories for cold start SFT because
+you need to do that before RL. I'll come
+why we need to do RL, which is the third
+and most challenging part of this work,
+which is how do you actually equip the
+model with the adaptive reasoning
+ability? Um and for that, we have like a
+multi-reward RL recipe. We use LLM as a
+judge because we're working with
+open-ended, so string matching and
+anything like that doesn't work.
+Uh in this for the rewards, there are
+two main things to look at. First, we
+penalize the model if the answer is
+wrong, but it calls tools because that's
+not a good thing to do. Second, as I
+said, temporal grounding is not
+completely robust, so we want the model
+to adapt when to use temporal grounding
+in which situations it's good. So, we
+award the model with an extra point two
+five when it used like a visual tool
+like temporal grounding and it produced
+the right answer. So, it can adapt
+around the inaccuracies of that. We have
+everything. Now, we need to verify for
+recipe and everything. We collected
+data. Everything works. Two ways to do
+that. First, as the duration of the
+video increases, the number of turns
+should increase, which it does here as
+you can see. Second, the boost of
+performance over uh the base model
+should also increase because base model
+has been trained for short videos, not
+long videos, which is also we observe
+here. So, in conclusion, it proves that
+our old recipe and our motivation and
+data and system design everything works
+well.
+>> Very cool. Awesome. Thanks so much,
+Hitesh. This is great. Thanks so much.
+>> Thanks.

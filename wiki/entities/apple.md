@@ -2,7 +2,7 @@
 type: entity
 title: Apple
 created: 2026-05-26
-updated: 2026-08-06
+updated: 2026-09-24
 sources: []
 tags: []
 ---
@@ -68,3 +68,4 @@ Mentioned as an example of a successful early company that started as an enginee
 - [[sources/pg-how-to-earn-a-billion-dollars-how-to-earn-a-billion-dollars|How to Earn a Billion Dollars]]: Technology company.
 - [[sources/pg-when-to-do-what-you-love-when-to-do-what-you-love|When To Do What You Love]]: Technology company.
 - [[sources/n8dz2FX0_uY-multi-gpu-kernels-intelligence-per-watt-heterogeneous-inference-and-more-yc-paper-club|Multi-GPU Kernels, Intelligence per Watt, Heterogeneous Inference, and More | YC Paper Club]]: Hardware manufacturer, mentioned for PCs and M4 Maxum accelerators.
+- [[sources/YEvLKzsEwMw-susan-kare-designing-icons-graphics-for-the-original-mac|Susan Kare: Designing Icons & Graphics For the Original Mac]]: Technology company where Kare designed the Macintosh interface.

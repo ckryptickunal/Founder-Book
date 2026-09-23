@@ -2,7 +2,7 @@
 type: entity
 title: AWS
 created: 2026-05-26
-updated: 2026-08-06
+updated: 2026-09-24
 sources: []
 tags: []
 ---
@@ -25,3 +25,5 @@ Amazon Web Services, mentioned as a foundational piece of infrastructure.
 - [[sources/c3TxAUir2R8-self-maintaining-apis|Self-Maintaining APIs]]: Amazon Web Services, a cloud computing giant where the speaker observed significant service downtime due to external API and package changes.
 - [[sources/_h_6xM36Z4g-kevin-systrom-at-startup-school-sv-2014|Kevin Systrom at Startup School SV 2014]]: Amazon Web Services, cloud computing platform Systrom was unaware of during Instagram's initial launch.
 - [[sources/_mKeVGSqQac-b2b-startup-metrics-startup-school|B2B Startup Metrics | Startup School]]: Amazon Web Services, cloud computing service, mentioned as a minimal cost for pure software companies.
+- [[sources/2cRbdYhs3VY-supabase-cash-does-not-equal-success|Supabase: Cash Does Not Equal Success]]: Major cloud service provider.
+- [[sources/zcUoVg8Xvrk-how-olivier-pomel-built-datadog-by-refusing-every-shortcut|How Olivier Pomel Built Datadog By Refusing Every Shortcut]]: Cloud computing platform

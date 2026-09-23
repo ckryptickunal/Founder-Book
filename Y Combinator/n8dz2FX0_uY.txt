@@ -1,0 +1,2109 @@
+Title: Lessons From Training Composer At Cursor And Building Meta/Nvidia Compute Clusters | YC Paper Club
+Video ID: n8dz2FX0_uY
+URL: https://www.youtube.com/watch?v=n8dz2FX0_uY
+Channel: Y Combinator
+Published: 2026-07-29T23:46:52Z
+Duration: PT1H16M24S
+Views: 43261
+Likes: 1251
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 2093
+
+============================================================
+TRANSCRIPT
+============================================================
+
+[music]
+Welcome to uh YC Mountain View special
+edition of YC Paper Club. I'm thinking
+about some of the feedback was like kind
+of making it theme related. So today
+it's the YC kernel and chip club. So the
+trend that I see in lab with Stu and
+John that we talk about all the time is
+this like specialization that's
+happening. Uh we saw it with um TPU8 the
+I and the T version zebra fish and
+sunfish. Is that what it's called? It's
+like to make an ASIC you need such
+activation energy. Um and now and there
+wasn't enough demand for there to be
+such a split. But we just see that at
+the chip level there's going to be
+massive specialization. The specs that
+you would need for a training data
+center are going to be very different
+than the specs for a uh inference data
+center. You don't need any bandwidth in
+and out for a training data center. You
+can literally send a spaceship to the
+sun, come back with a weight file and
+like it's it's the same, right? You
+can't do that with inference. And
+there's so many things like that that
+we'll talk about. And there's so much
+juice left to squeeze on the CUDA side,
+on the kernel side. And so I'm really
+excited to have um some folks talk about
+that. And there's juice to squeeze on
+the algorithm side. And so like you know
+do we need to go to the big heavy model
+every single time for every single query
+if I'm asking it one plus one why do I
+have to do n flops every single time. So
+it doesn't there's so much juice to
+squeeze still on the algorithm side on
+the uh um on let's call it software side
+and on the chip side and on the data
+center side. And so first we'll have um
+Stuart Soul out of uh my lab at at
+Stanford one of my lab mates. Uh he is
+which is the strip mall research lab now
+um used to be called hazy formerly
+called hazy uh research scientist at
+curser um and trains composer and then
+we have John uh CSPHD labm mate with me
+as well also co-advised by Aelia focused
+on LMS MLIS and hardware and really
+focuses uh really I would say pioneers
+this idea of intelligence efficiency
+intelligence per watt intelligence per
+jewel um he'll be talking about
+And then uh we have Mark coming up next,
+a former PyTorch maintainer uh
+co-founded uh GPU mode with my friend
+Casey Elward. Um and then is co-founding
+uh core automation with uh OpenAI VP
+research Jerry Torque. And then Misha uh
+hardware software codees been working on
+that for two decades and ran AI infra at
+NVIDIA uh and then also worked on
+hardware software codeesign at Meta and
+then is also founding a very exciting
+new company as well. Maybe we'll hear
+about some of it. And then finally, uh,
+Brennan, who, uh, I also met at
+Stanford, is not in my lab, but I really
+having done a lot of RL working on
+self-driving car, um, and things like
+that, the it's amazing how much of
+simulators when you call um,
+environment.step is still run on the
+CPU. And so that's usually the
+bottleneck for a lot of your on policy
+rollouts, which makes let's call it RL
+is now taken over by RHF terminology,
+but classic RL very, very difficult. and
+so using GPUs to do weird
+[laughter]
+as he says. Um, so he's one of the best
+people at doing weird with GPUs.
+I'll just give like two slides on my
+high level. I don't want, you know, I'm
+not the person that knows about this
+stuff the best at all, but from my
+vantage point, we're going to see this
+proliferation and where we have
+sufficient demand now because there's so
+much demand for tokens where it makes
+sense to specialize at the chip level
+that will pay out and and allow you to
+go through the full new product
+introduction on the on the ASIC for
+specialization. And I think the Zebraish
+Sunfish TPU uh V8 is the first that
+we're seeing of this, but I think it's
+going to get much much more split out.
+We already do see it a little bit on
+where a lot of the stack pe for
+inference people will go to um uh Nvidia
+for prefill and then they'll go to
+Cerebras for for decode engine. And so
+that's already kind of splitting out.
+But there's another one that people
+really don't um talk about where uh it's
+batch size one inference. And I think
+that like when latency really really
+really matters for for example voice
+agents when you get on the phone call
+and it says hi how you doing and it
+waits 8 seconds because it has to like
+go through this whole process and it's
+like oh my god well they're prioritizing
+throughput and it's like well that's not
+good that's not going to work and if
+they were prioritizing you batch size
+one they'd run out of GPUs and it'd be
+so expensive and so that's a chip issue
+and so we can we can solve those types
+of things and then on the data center
+side equal amounts of specialization
+especially actually if you're going to
+use different chips for each data
+center. So the primary metric that you
+care about if you're training models is
+you know basically time per step and um
+you and you want to train up bigger and
+bigger models. Um the location you kind
+of just don't really care where it is.
+It doesn't really need to be close to to
+to users. You can put it literally at
+the sun like you know orbiting the sun
+and just training training training. the
+types of GPUs the the interconnects
+you're going to have have to have a uh
+all to all communication um you have to
+pass around a lot of gradient um and for
+uh inference the the you have to have
+all the to all just for thee but other
+than that you don't um and so you can
+shard uh much more nicely um yeah
+there's a whole bunch of other things to
+consider that that justify splitting it
+out and then our speaker is going to go
+much more into detail on that the next
+one on 729. We'll do a robotics focused
+one. There's a bunch of YC companies
+that are actually might actually bring
+some robots too. So we have uh which
+ironically this is like how YC actually
+got founded. Uh the original story in
+across the street is that Trevor
+Blackwell was starting a company called
+Anybots which is the robots right over
+there. Um, and he had some extra space
+and PG asked him if I can, you know, uh,
+uh, take over some of the space at on
+Tuesday nights to run this thing called
+Y Cominator and that and then went
+across the street and then, uh, YC took
+over all of the Antibbots stuff. And so,
+it's pretty pretty cool to make bring
+that full circle. And then for the next
+one after that, um, I'd love your guys
+uh, feedback and like what we should do.
+Maybe this is an idea. Um, working on
+RLVR and some of the the latest
+everyone's talking about these
+distillation attacks and things like
+that. Um, it's actually not clear to me
+what the distillation strategies that
+people are really uh trying that are
+successful um out there. You know, we
+were talking about a lot in lab today.
+It's like it's not clear what the
+optimal strategy if you had a weight
+file, how to distill from it um or if
+you just had an API like how would you
+actually do it? And so this is kind of
+like the way that I I was explaining to
+you know the lab about what I think is
+kind of happening right now. But like
+clawed kind of mother birds into Kimmy 2
+and then now Kimmy 2 is post-training
+thinking machines and so it just keeps
+going and going. Now I'll hand it over
+to Stu. Everyone welcome to Stu.
+[applause]
+Right. Hello everyone. My name is
+Stuart. Uh I'm a CS PhD student at
+Stanford. I'm also a researcher at
+cursor where I train composer. And today
+I'm here to talk about parallel kittens
+which is our work on making multiGPU AI
+kernels simple and fast. Um one quick
+note before I begin. Um the final
+deliverable of this paper is a CUDA
+framework that we refer to as parallel
+kittens. But the goal of today's talk is
+not to promote my open source library
+but rather to convey the set of lessons
+that I learned while I was doing this
+work which is a mental framework for
+thinking about multi-GPU kernels and GPU
+networking in general. So I hope you
+walk away with the same set of insights
+that I was able to gain. So let's try to
+motivate this a little bit. Um over the
+past few years the ML systems community
+has devoted a lot of effort into single
+GPU efficiency. Um for instance we have
+IO aware algorithms like flash attention
+linear attention models mega kernels and
+many many programming libraries and
+frameworks for um writing efficient
+kernels across many architectures and
+these works mainly helped us squeeze the
+most out of the single GPU and thanks to
+all of these efforts um what we now
+believe is that GPU networking is the
+major uh bottleneck that's remaining and
+that there's a lot of exciting
+opportunities left in that area. Um for
+example, networking can still consume up
+to 50% of total runtime for workloads
+like llamas MDB prefill. Obviously this
+number can vary wildly uh depending on
+the workload. But the point I'm trying
+to make is that networking weights GPU
+utilization. So the standard practice
+nowadays is to overlap um interGPU
+communication with intra GPU operations
+like memory access and compute. And the
+granularity of this scheme has gotten
+much smaller nowadays. Um it used to be
+we used to transfer overlap the transfer
+of entire tensors or matrices. Nowadays
+we do it at tile or even token
+granularity meaning it's a few kilobytes
+or even less than 1 kilobyte of data. On
+the other hand hardware advancements
+have been quite exciting for the
+networking. For instance we have this
+thing called in network compute. Um so
+in the past if you want to implement a
+collective operations like all reduce
+you needed to implement this algorithm
+where you have the GPUs um doing some
+arithmetic on local data send the
+results to pure GPUs repeat that n
+number of times and then you end up with
+the results. But within network compute
+what you can do is you can offload all
+of those arithmetic communication to the
+networking fabric and the GPUs are free
+to do whatever useful computation that
+it needs to do. uh you also have a
+asynchronous bulk device initiated
+networking which was not possible a few
+generations ago and you also have uh
+scale up architectures like NVL72 which
+packs 72 GPUs inside a single NVLink
+domain and soon this is going to extend
+to hundreds of GPUs. So the problem we
+are interested in solving under all of
+these settings is it remains very
+difficult to write multi-GPU kernels
+that one does fine grain overlap of
+compute and communication two exploit
+all of these exciting recent hardware
+characteristics and three stay simple
+and easy to maintain for both humans and
+AI agents and I emphasize that it's the
+conjunction of these three
+characteristics that makes this problem
+especially difficult. ult because you
+currently roughly have uh three
+alternatives. Um one is to use
+off-the-shelf libraries like nickel uh
+which only expose coarse grain
+communication primitives and leave a lot
+of bubbles in the hardware execution.
+Two is to use compiler based approaches.
+But we find these compliers compilers to
+be quite suboptimal. They produce
+kernels that are sometimes slower than
+non-overlap baselines or to use
+low-level primitives like OS
+interprocess communication calls or uh
+px assembly. and they often require
+reverse engineered understanding of the
+networking hardware and in general they
+make code really complex and hard to
+maintain. So the main question we are
+asking here is is there a small set of
+principles slashtradeoffs that clarifies
+the multi-GPU AI kernel design space and
+can we use that understanding to build a
+minimal set of programming abstractions
+or primitives that really simplify um
+writing efficient multi-GPU kernels for
+production.
+PK or parallel kittens is the answer to
+this question. So before we get to PK um
+let's quickly cover the GPU fundamentals
+uh for those who are not familiar.
+Okay so here's a very simplified view of
+a GPU and inside a GPU you find this
+thing called SM or streaming
+multiprocessor. SM is very similar to
+our core on a CPU in that it performs
+arithmetic logical operations and
+sometimes matrix multiplications and
+they're the juice of the GPUs. they have
+all the flops, all the compute you want
+and naturally so you have um a lot of
+them. Um on black hole GPUs you have 148
+SM on Hopper you have 132 SMS and in
+order for these SMS to perform
+computation you need data. So naturally
+you have the memory system you have the
+crossbar you have the L2 cache and you
+have the HBM which serves as the main
+memory for GPUs uh modern GPUs and you
+need something to initiate operations on
+the GPU. So you connect the CPU and GPU
+through the PCIe and on data center
+servers you usually want multiple GPUs.
+So you have many GPUs and in the past if
+you want these GPUs to communicate with
+each other um you had to make the data
+go through the PCIe but PCIe is is a
+shared resource um it gets congested
+it's relatively slow. So we have Envy
+link which allows direct communication
+of data between the GPUs. And that's
+basically essentially um what Nvidia DGX
+machines are all about. Um DGX has been
+around for quite a while. It's widely
+used in production AI training and
+inference. It's a collection of a GPUs
+individually connected to the CPU or the
+host through the PCIe and all of the
+GPUs are interconnected via NVLink.
+NVL72 um a more recent addition from
+Nvidia is also quite similar. It's a
+collection of 72 GPUs connected via
+NVLink. And from programmer's
+perspective, um, that's essentially all
+you need to know about NVLM2s.
+So now, when you hear somebody saying
+they're trying to optimize GPU kernels,
+what they're usually saying is that
+they're trying to make sure that all the
+SM stay busy. Um, because as I said, SMS
+contain all the flops, all the compute.
+So you want them to be consuming those
+precious flops all the time. So the way
+you do that is um for single GPU kernels
+you pipeline the memory loads and writes
+such that you overlap uh computation
+happening on SMS with the memory
+operations um that reads from the HPM to
+the um SMS such that when the current
+round of computation is done um the data
+for the next round of computation is
+residing on the SMS and they're ready
+for multi-GPU kernels um a simple a
+similar idea applies except that you're
+overlapping computation with
+communication
+uh with other GPUs such that when the
+current computation is done, the data
+for next computation is ready and
+fetched uh from remote GPU HPMs. So
+let's get back to PK. Um the PK is based
+off three key trade-offs we identified
+for multiGPU kernel design. The first
+trade-off is a transfer mechanism. So it
+turns out that there are three ways to
+send data over NVLink. um one it's copy
+engine two it's tensor memory
+accelerators or TMAs three is a plain
+register instructions like LD or SD each
+has their own pros and cons and naively
+relying on one transfer mechanism uh
+leaves a lot of performance on the table
+for example copy engine is ideal because
+it's a separate DMA module sitting on
+the GPU and it does not require any SMS
+to transfer data between the GPUs but it
+turns out that copy engine requires
+really large message size or uh per uh
+transfer data size for it to saturate
+the NB link. And for fine grain
+communication, you're usually sending a
+few kilobytes of data. So uh copy engine
+becomes a suboptimal choice.
+TMA on the other hand um is able to
+maintain relatively good throughput
+regardless of the message size and it's
+also able to do that with relatively few
+SMS. Um so on Blackwell we find that
+with roughly 15 SMS out of 148 um TMA is
+able to saturate the NV link but TMA
+also has its own downside because it's
+not able to utilize all the in network
+compute feature that we discussed
+previously. Um if you want that you have
+to use the register instructions but
+register instructions are also big pain
+because you have to think about
+coallesing and register pressure. But
+all the technical details aside, um the
+point I'm trying to convey here is that
+choosing the right transfer mechanism
+for the given workload really matters.
+Uh for example, for a commonly used
+multi-GPU operator like all gather gem,
+we find TMA to be quite optimal whereas
+a lot of previous approaches just rely
+on the copy engine. The second trade-off
+is how we schedule um inter GPU
+communication with intra GPU work. Um
+and the strategies generally fall into
+intraSM overlapping and interSM
+overlapping. Um in intraSM overlapping
+you have um certain number of threads
+within SM uh performing compute
+computation or memory work and rest of
+the threads just doing the communication
+work. Um this is also known as warp
+specialization.
+And in interSM overlapping, what you do
+is you dedicate certain number of SMS
+purely for communication and the rest
+for computation. Again, each has their
+own trade-offs, their own pros and cons.
+For example, inter SM overlapping, as
+you can probably tell from the diagram,
+um kind of wastes compute because you're
+putting certain number of SMS purely for
+communication and all of the flops on
+those FSMs are not getting utilized. And
+because communication and computation
+are happening on different SM, you have
+to go through the memory system um the
+L2 cache, the HPM in order to signal the
+completion of communication and
+computation with each other. But for
+intra SM overlapping
+um it's required that the computation
+and communication are aligned. They have
+to operate on the same data. Um
+otherwise um you're running out of
+registers, running out of onchip shared
+memory. So you really cannot do any
+useful computation. And also you have to
+think about local prefetching because if
+you look at this diagram again the red
+arrow shows the data path taken when
+you're accessing remote um GPU's HPM and
+you can see that for the remote HPM the
+data goes through the L2 cache but for
+local GPU it does not go through the L2
+cache. So this means that if you're
+repeatedly accessing the same data for
+example like KB cache during attention
+kernels the data is only cached on the
+far side GPU. So ideally what you want
+to do is prefetch the data stage them
+into local HPM before doing any major
+computation and for you to do that um
+you kind of have to rely on interm
+overlapping scheduling strategy. So
+again choosing the right strategy really
+matters for performance for jam reduce
+scatter we find intram to be most
+optimal but for jam all reduce we find
+intm to be most optimal schedule. The
+third and final trade-off is the design
+overhead. Um by design overhead um I'm
+referring to design choices in
+networking libraries that cost
+performance for reducing complexity. Uh
+for example, nickel's default mode uh
+forces intermediate buffers um which
+adds extra data movement between the
+sender and the receiver and for fine
+grain communication this overhead really
+accumulates and by stripping it out you
+can speed up an operation as simple and
+basic as all reduce by up to 80%.
+What this tells is that it's important
+for modern GPU networking library to
+explicitly expose such performance
+critical controls instead of
+encapsulating them. So I think I made
+most of the points that I want to make
+for today's talk. Um now I'm going to go
+over parallel kittens framework but as I
+said I'm going to make this really quick
+and brief. So, parallel kittens builds
+on all the trade-offs and principles
+that we discussed and it's a highly
+opinionated set of CUDA programming
+primitives that extends thunder kittens
+which is one of our previous works for
+single GPU kernels.
+Um, as we previously discussed a modern
+GPU has memory hierarchy ranging from
+registers um shared memory, L2 cache,
+global memory and you can also think
+about um remote GPU HBM as another layer
+in the memory hierarchy. So pure global
+memory and PK provides a data structure
+for each layer in the memory hierarchy.
+You have RT for registers, ST for shared
+memory, um L2 cache is not programmable
+on GPUs, um GL for global memory and
+then PGL for pure global memory. And
+what PK provides is various
+communication primitives that um take in
+these data structures and act on them
+and that utilizes the most efficient
+transfer mechanism for the given
+functionality. And it also provides a
+program template for consisting of four
+different workers loader consumer
+communicator and store to enable
+different scheduling strategies. But
+again for more details please refer to
+our paper and our GitHub repo. Okay. So
+to see the effectiveness of
+effectiveness of PK, we compare it
+against popular baselines across um data
+tensor sequence and expert parallelism
+as well as pure collective communication
+like alt reduce. And what we find is
+that with roughly 50 to 100 lines of
+device code, um PK is able to surpass or
+match hand optimized kernels that are
+often hundreds to thousands lines of
+code. And what I'm more particularly
+proud of is the adoption. Um PK has been
+adopted by major AI companies. For
+example, cursor is using it to train
+composer on tens of thousands of black
+wall GPUs. Together, AI is also using it
+to um optimize its inference workloads.
+Okay, so that was it for my talk. I hope
+you learned something about multiGPU
+kernels and GPU networking today. And if
+you work on ML systems and efficiency, I
+hope you take a look at PK and give it a
+shot. Um thank you so much for your
+attention. [applause]
+Okay, next up we have John.
+Uh, awesome. Hey everybody. Um, thanks
+for coming. Uh, today I'll be talking
+about one of our recent papers called
+intelligence per watt measuring the
+intelligence efficiency of local and
+cloud AI. Uh, this was a joint work with
+one of my collaborators in laban.
+Um, as well as our advisers, Professor
+John Hennessy, Isal Huzzeni and Chris
+Ray. Um so to kind of situate us um
+today um we like to call at least
+between me and Ivonica we like to call
+the current era um of LMS and hardware
+the mainframe era um alluding to the
+previous era of mainframes which was in
+the 50s and 60s um when IBM had these
+computers that used to fill up entire
+rooms sometimes entire floors. These
+were the kinds of computers that got us
+to the moon. These are the kinds of
+computers that were the first kind of
+commercial computers available for
+businesses. Um, and that's kind of how
+we're still constructing at least the
+data centers today where you have these
+warehouses filled with um TPUs or um
+GPUs from uh Google and Nvidia
+respectively. Um, and they're both doing
+our training as well as our inference.
+Um, and it makes sense because demand is
+growing so substantially like we need to
+satisfy that demand um and and scale out
+uh compute as fast as possible. At the
+same time, this is demand that we
+haven't seen in a very long time, maybe
+since the US like built its railroads
+over the entire over the entire
+continent. We're spending upwards of two
+to 3% of GDP today. And that's demanding
+250 gawatts of new data centers um which
+requires new power sources, new GPUs,
+new land, new water to actually handle
+uh the demand for both training as well
+as inference. At the same time, even
+though the demand is going up so so
+quickly year-over-year, a lot of these
+requests don't necessarily need frontier
+level intelligence to handle them. Um,
+we each have our our different LM
+workloads that we handle per day. And at
+least for me personally, I know most of
+my workloads don't necessarily need like
+frontier level coding or frontier level
+uh math LMS. A lot of them are going
+through different kinds of data sets,
+um, doing different kinds of plumbing
+when it comes to organizing, organizing
+folders, creating unit tests. And so
+despite the fact that frontier level
+intelligence is what we're we're
+continuing to push and it's really
+important that we we we continue to push
+that out, there's a lot of smaller local
+open source LMS that can actually
+address the vast majority of LM traffic
+today. And so what we're thinking is
+that the same way that we shifted from
+these mainframe um IBM computers that
+filled up entire rooms um to uh PCs uh
+from Apple and HP um in the 70s and 80s.
+uh we will see something quite similar
+happening for the hardware of today
+where we're seeing this shift um away
+from uh uh Nvidia GPUs and Google TPUs
+for every single request uh more towards
+u Mac um as well as Nvidia and AMD um
+personal consumer GPUs uh that sit in
+people's workstations and sit in
+people's laptops. And this is being
+driven by two main trends. One is the
+fact that these smaller LM are getting
+better year-over-year. we're seeing
+smaller LMS, open source LMS that are
+quite capable. Um, and it's only
+accelerating. Um, combined with the fact
+that local um, accelerators are also
+getting much better. So, um, these are
+accelerators from Apple, uh,
+accelerators from Nvidia, accelerators
+from AMD, um, we're seeing that these
+GPUs are have more than enough memory to
+handle, um, some of these larger open
+source LMS. And so, we imagine to see
+this trend um, continuing. So with this
+study, we wanted to ask what role can
+local inference uh with open source AI
+play in redistributing the inference
+demand from how it is today, which is
+mostly in the cloud away towards more
+distributed inference. And so to help us
+kind of frame this study, uh we proposed
+intelligence per watt. Um to talk about
+the numerator and the denominator, um by
+intelligence, we just mean capabilities.
+And this looks very different depending
+on the task that you care about, but
+ultimately we care about chat reasoning,
+agentic tasks, coding tasks, um
+basically anything that people are using
+LMS for today. At the same time, um the
+denominator focuses on efficiency. And
+this isn't just the efficiency in terms
+of uh like the intelligence you can
+deliver per parameter um or per bit of
+uh information used for training. we're
+we're talking about the actual um
+compute um and energy required for
+running these different accelerators um
+for all of the different workloads that
+people care about. So what is the what
+is the actual like running uh power
+wattage or wattage in terms of power for
+actually delivering um that amount of
+intelligence. And so for this study we
+wanted to kind of do a broad sweep and
+and see what the trends um were. We did
+about 20 plus different state-of-the-art
+local models um across Gemma, GBD OSS,
+Quen, IBM Granite, all in the range of
+one to 200 billion parameters, some
+dense. At the same time, we wanted to
+test the state-of-the-art accelerators,
+particularly local accelerators over the
+past two to three years. And so this was
+from Apple, from Nvidia, from AMD, from
+Zamanova to basically understand what
+was the kind of upper bounds for
+intelligence per watt and intelligence
+per jewel. Um and we wanted to do this
+across all the different workloads that
+people care about. So chat reasoning
+agentic uh coding tasks basically
+anything that people are using these
+models for today we wanted we wanted to
+examine and we wanted to examine more
+than just accuracy again yeah we cared
+about latency we cared about energy we
+cared about power we cared about compute
+and we wanted to do a broad sweep and
+kind of see see what made sense and what
+we found was pretty compelling um we
+found that um a lot of these local
+models are quite good and they're
+advancing um rather rapidly um up to
+88.7% of the of these queries could
+actually be routed to local accelerators
+running local open source AI and that
+accuracy is only going up. So in the
+past two years alone um we've seen about
+3x improvement in this intelligence
+delivered per watt. At the same time
+we're we're seeing this compound. So
+this is combined um between the better
+local models as well as the better local
+accelerators. Um so it's kind of like
+like building off of each other. Um at
+the same time when you actually examine
+intelligence per jewel as opposed to
+intelligence per watt. So in this case,
+we're looking at the total energy being
+spent uh for the entire workload end to
+end. That's compounding even more
+rapidly. So in the past two years alone,
+we've seen about an 18x well actually in
+in less than in two years, in about 16
+months, we've seen about an 18x
+improvement um in the actual
+intelligence delivered per jewel. And
+this is primarily driven by better
+accelerators. And so this is by more
+memory being placed on um consumer GPUs
+such as the Apple M4 Maxum as well as
+the um DJX Spark from Nvidia. This is
+also uh from better quantization
+techniques that can better take
+advantage of that compute available um
+as well as just like longer
+pre-training, more post-training um and
+just more sophisticated techniques for
+actually making these models better. And
+so what does this actually entail for
+the way that we think about
+redistributing this inference? This
+means that if you were to actually route
+like perfectly, you could route 80% uh
+somewhere between 80 to 90% of the
+queries of today to these local
+accelerators running these local open
+source LMS. And that means energy
+savings. That means compute savings.
+That means cost savings. Even imperfect
+routers can save somewhere between 50 to
+70% of your energy, of your compute, of
+your dollar cost. And so this
+fundamentally changes the economics of
+how we how we actually scale inference
+and how we think about um building up
+new data centers and also just investing
+um and new computing lines of hardware
+and models. At the same time, local
+accelerators aren't perfect. Um, one of
+the nice advantages of data center
+compute is you can do all sort of
+sophisticated techniques around kernel
+writing, around batching, around
+different kinds of quantization um that
+allow you to kind of immortise um the
+investment um across more and more users
+and across more and more queries. And so
+the Apple M4 Max compared to the Nvidia
+B200 is still lagging behind
+particularly when it comes to um
+intelligence, intelligence per watt and
+intelligence per jewel. Um at the same
+time there's even more specialized
+accelerators for inference such as the
+Samanova SN40L um that see that that uh
+for which um consumer accelerators are
+lagging even more behind. So there is a
+little bit of an investment opportunity
+to make these consumer accelerators
+better and better. Um and so we're
+excited to see um what uh the different
+companies release. Um just want to thank
+um our collaborators on this project um
+from Nvidia, from Google, from Apple,
+AMD, Open Router, Samova um without
+their resources and without their guid
+guidance it wouldn't have been possible
+to do this study. um what are we looking
+for next? I'm really excited to see how
+inference engines change for this new
+kind of dynamic where you're leveraging
+both local resources as well as cloud
+resources. Um at the same time, I think
+there's a a huge opportunity to think
+about model architectures and kernels um
+focused specifically on energy efficient
+uh inference. Um and so this could uh
+lead to different kinds of accelerator
+architecture code designs that make this
+possible and accelerate this trend. Um
+on the actual analysis side, I'm
+actually excited to kind of break down
+um the intelligence per watt metrics
+even more and see how we can separate
+out um how this looks across different
+tasks, across different hardware, across
+different deployment settings, looking
+at the inference engines, looking at the
+kernels, looking at the um the actual
+compute and memory on the hardware. Um
+and finally, um while we focus on
+intelligence per watt here, I think it's
+really important to consider how this
+intelligence is actually being used in a
+useful manner. So, how we're actually
+using this uh to do meaningful work that
+people care about and that people that
+humans would have to do otherwise. So,
+quantifying how that affects GDP, how
+that affects um wages, that's u another
+interesting thing that we'll be
+releasing quite soon. If you have any
+questions, please feel free to reach
+out. I'm available um over email, over
+Twitter, over GitHub. Um so, I'd love to
+chat um if anybody's excited uh about
+these same topics. Um, we also have a
+follow-up project called Open Jarvis
+that's focused on kind of
+operationalizing a lot of these insights
+and making it possible to run the entire
+kind of personal AI coding stack um on
+device. So, you don't need to, you know,
+pay pay cloud or pay OpenAI anymore for
+for your LMS. You can instead just run
+it on on your laptop and on your
+workstation. Um, so if you're excited by
+that as well, please reach out. Um,
+thank you so much.
+Okay, next up we have Mark.
+>> All right. Well, can folks hear me?
+Okay. Yeah. Thank you so much for
+inviting me. Um, so I heard in Stuart's
+like really nice talk a bunch of
+questions around like how good are AI
+like AIS at writing kernels. So this is
+kind of going to be like the gist of my
+talk. We're going to go like very deep
+in this topic. I worked a lot on systems
+like for about like five years working
+on PyTorch. Um, I also worked a lot on
+like custom kernels like as part of like
+co-founding GPU mode. And I think this
+has been one of my main focuses at Core
+Auto. So I'm hoping to give you both
+like a research and commercial angle to
+like a lot of this research. So um this
+is this is a YC paper club. So the the
+the sort of like main lessons are drawn
+from these two papers. Colonel bot which
+is a competitive platform to basically
+it's like leak code for GPU programmers.
+And then the second one is kernel guard
+which is like our platform for detecting
+against cheating. And I'll kind of
+explain why these are like the one and
+the same problem. So I'm a systems
+researcher and I've had to sort of
+accept that like my opinion matters less
+than AI researchers because what I want
+is I want people to just take the same
+data keep running a matal on it over and
+over again and give me AGI but what my
+colleagues in research want is like they
+want something that's auto reggressive
+they want like lots of tiny kernels they
+want dynamic control flow they want
+sparity and a lot of it and they want
+print statements like all of these
+things are hate and they should stop
+doing this okay thank you all right
+Unfortunately, you know, I can't do
+this, right? Um, and so I have to work
+with with these people and give them
+tools. And so the the the way we
+typically do this is we give them
+programming languages. So one sort of
+pro you might not think of it as a
+programming language, but it is like
+like math. Math is beautiful because
+it's forward compatible. So for example,
+the matrix multiplication API has been
+forward compatible for like 250 years.
+It's AB and then equals C and then maybe
+you add some args or KS, but it's the
+same API. PyTorch is like in very much
+in a similar vein like basically the
+sort of forward facing fronted API of
+PyTorch like its ops like MM softmax uh
+QR decomp like all these things will
+stand the test of time ultimately these
+dispatch down to individual CUDA kernels
+that may or may not be very fast on
+modern hardware which is why we get
+programming languages like Triton which
+are a tilebased they're pythonic they're
+fast Trident took over the world about
+like two and a half years ago um but
+recently especially starting with
+Blackwell people are like well you know
+the Trident's programming model is like
+very restrictive. It's not letting me
+write state-of-the-art kernels. So,
+people have been very interested in
+programming languages such as
+ThunderCons, which like Stuart helps
+maintain. Um, Cutless and QDSL, which
+are closed source libraries by Nvidia
+for like really state-of-the-art
+mattles. CUDA, which is like a more
+general programming model. It's not just
+for matte. It's a thread-based
+programming model. It's really great for
+surgical improvements, but it's quite
+tedious to write. and sort of like at
+the sort of like lowest end you have
+like the what the cracked people do
+which is like write BTX or inline SAS um
+typically there there are no like BC
+guarantees so like it's not that like
+it's hard to do it it's just that like
+your code will stop working if you
+change architecture that's less pleasant
+that's very timeconuming typically
+people like all the maintainers of these
+libraries and users of them like have
+like very strong opinions about like
+what's actually the best trade-off
+between performance and productivity
+right it's sort of like you just have to
+know where on the spectrum you are how
+how much do you care about performance?
+And you can typically figure out like
+what your opinion actually is, but
+there's no wrong opinion. But, you know,
+if like we were to sort of like try to
+benchmark this a bit and say, okay,
+let's do like a leaderboard, right?
+Let's say we we have a problem like a
+QRD composition problem. I'll explain
+what that is in a second. And the goal
+is for people to submit kernels to this
+problem. What's really like what I've
+been working on in GP1 is this platform
+called kernelbot where people just make
+submissions. they can pick any library
+they want and then we can basically do
+data analysis and see like which
+libraries are actually popular and what
+do people actually use and at least like
+for this archetype of people that just
+want state-of-the-art PF as far as I can
+tell like they really prefer like uh
+CUDA and it was only when we were doing
+lots of gem related problems that people
+like loved using cute DSL but you know
+Trident shows up often in the top five
+to 10 rarely shows up in the top two so
+this is how you should sort of broadly
+think about it so what's funny though is
+that like you know I spent all this year
+working on like these Galaxy Brain, you
+know, programming languages and like
+compilers. And then uh starting this
+January, you know, we did this like very
+like, you know, prolific like this very
+popular competition on NVFP4 kernels and
+people who've never written GPU kernels
+before started to get really competitive
+results. They were like in the top four
+and the top five. So this is Shiao. He's
+a researcher. He's he's like a grad
+student in China and reached out to me.
+He's like, I've never written a GPU
+before. I've never written an open AUDA
+book before. you know, everything is LM
+generated, but I'm like number four. And
+this post of mine made it to R
+singularity, which is interesting. This
+my was my first cameo on the subreddit.
+Uh, but then I was like, okay, this is
+weird. And people told me, well, but
+this guy is like smart, right? Like he's
+a researcher. Obviously, he gets it.
+He's computational numerical. But then I
+saw this other tweet by Clark, uh, who's
+a high school teacher, and he's telling
+me, oh, hey, I just wrote like my first
+like like dual gem problem. And I'm
+like, what? Like you, you know,
+typically where like there's an order,
+right? you have to start with vector sum
+and vector mean and then you do matt
+mole and then you do this other stuff
+and here people were just like yoloing
+it and they're getting competitive
+results they're looking at the kernels
+they're having a good time and so as an
+educator and as like a builder of
+libraries this is like very very strange
+to me like I I actually despite working
+on this field did not expect these
+results to come so quickly so I want to
+briefly talk about like how do we
+typically evaluate like how good AIs are
+at writing these kinds of kernels and a
+lot of this framework is borrowed from
+like Simon and An's work on kernel bench
+But like the sort of framework is the
+following. Like you typically have some
+sort of PyTorch reference because we
+sort of all agree in the community that
+PyTorch is generally more correct than
+most libraries but not more performant.
+You basically pick like you sample some
+random inputs. You uh then have another
+like reference submission and in your
+favorite kernel DSL. You run an eval.py
+where you just like set you just pass
+both inputs through both. You see if
+they're equivalent. You check for
+correctness. You check for performance.
+And then you rank something on
+leaderboard. Right. So this is this is
+the basic framework of how all these uh
+these evals work.
+So if you've been working in AI, you're
+like, "Oh, it's like verifiable rewards.
+It's an easy problem, right?" And you
+know, when people tell me this, this is
+me. I'm like, "Okay." Like I actually um
+I I actually disagree. Like basically
+there's like a very hidden nuance here.
+And I think we'll we'll sort of dive in.
+So I'm going to give you an example. I'm
+If you've never written a CUDA kernel
+before, you're going to do one with me
+right now. So what we're going to do is
+we're going to write the world's fastest
+vector mean kernel. So basically given a
+vector which is like a you know like a
+like a like a onedimensional vector
+sorry like yeah one dimensional vector
+we're going to just take the average of
+it right so great so what we're going to
+do is we're going to sample a bunch of
+like random inputs right like from a
+vector so like a vector of like length a
+million this is great we're going to
+take it's the mean of this vector um
+okay so this is basically our reference
+so what our kernel is going to do we're
+going to write a kernel and then uh you
+know the hint here is that torture then
+samples values with mean zero variance
+one by default
+So the world's fastest vector mean
+kernel just returns zero. So you've like
+this this actually beats the speed of
+light. It's like a wonderful algorithm.
+You know like Nvidia would love to hire
+you. It's like life is good. But this
+was like not one one isolated example
+like I've pretty much like read a lot of
+like reward hacks. And so like one
+common one is that the AIS will cache
+the output and then like reuse it and
+then do something equivalent. So you're
+like okay I want to ban this, right? So
+one version of it might be uh you know
+you use data pointers to figure out like
+what the past state is in Python and
+then you like return that. So you're
+like okay so you'll put in your eval
+suite you cannot use data pointer right
+so then turns out python is like a very
+interesting language and instead of like
+doing the dot you can say get attribute
+and you get data pointer okay so now you
+ban the string data pointer so I've seen
+that AI has also split that data pointer
+into two different cars and append them
+and they'll do them in different lines
+so you can't catch it easily with a reax
+u and then you know like okay well you
+know sure let's say you ban data pointer
+out right people get upset and then okay
+like you can just use ID and my point is
+like this is very much a chicken and egg
+problem. Like this just keeps happening
+and it's just cuz like Python is a
+dynamic language which makes it like a
+terrible choice for these things. So one
+one of my favorite examples was like
+this was by by Natalya who's a who's a
+student at Stanford at the time who
+showed me this like the craziest reward
+hack I've ever seen. So the the essence
+of this reward hack was it noticed that
+during our correctness suites we were
+checking for correctness 15 times and
+then we would do performance testing.
+But when we were doing performance
+testing we weren't doing correctness
+testing again. So what the AI was doing
+is it was counting how many times it did
+correctness testing and giving us a
+correct but slow kernel. But then when
+it came time to do performance testing
+it was giving us an incorrect kernel but
+still like batching all the results
+together and like basically u making
+everything good. So turns out there's a
+precedent for this reward hack. It's
+actually a Volkswagen. So what they did
+so this is like called dieselgate. So
+what they did was um under emission
+testing the car would detect I am under
+emissions testing and reduce emissions
+by 40x but on the real world it would
+just like emit a lot more crap and then
+that worked. So so this you know it
+conceived and and and you know big
+credit to tenderization who who pointed
+this out to me on Twitter. Basically I
+was like on this like brutal on call
+load where we kept like reviewing reward
+hacks and people tell me like Mark like
+your eval sucks like why can't you
+detect these issues? But I'm like this
+is a lot and they're all different. like
+it's not at all how to code obvious how
+to codify it. So I was like okay look if
+if people are mostly going to submit to
+our competitions with AI well I'm mostly
+going to review it with AI as well. So
+the main idea was uh as a human if I see
+something that's really fast I audit it.
+I mark it as like a reward hack. I then
+provide that as an example to like an AI
+system. I get this AI system to sort of
+synthesize a reax based cheat detector.
+You deploy that rejax and you can catch
+a lot of cheaters and as if there's like
+sort of new things you sort of retrain
+the model. Um so this idea was like by
+Sinatraas who's like one of the like GPU
+mode maintainers. Um but again if we had
+more funding we just use a model but
+this is like very fast and like so sort
+of like very snappy. I want to talk
+about like a recent problem that we had
+that was interesting. So uh this is like
+one of my colleagues like Rohan is like
+very into this like optimizer called
+shampoo. You might have followed it on
+Twitter. He was like beefing with with
+Jordan Keller about like whether Muan is
+shampoo or not. It's very interesting.
+Um but like one of the reasons why like
+uh what shampoo isn't more deployed is
+because it depends on this algorithm
+called the QR factorization which is
+like very very slow in PyTorch. So like
+I saw this as an opportunity to sort of
+monetize the beef and make like a very
+old algorithm like much faster. So, so
+the basic idea of u of of of QR de
+composition is that like you have a
+matrix A and you want to decompose it
+into two matrices like one is Q which is
+an orthogonal matrix which means the
+transpose is equal to the inverse and an
+upper triangular matrix and again this
+is like very useful to sort of like
+guess the curvature of your space which
+is useful for second order methods and a
+torch like like the algorithm to like
+sorry the function the API to use this
+in PyTorch is is is basically just calls
+leak under the hood for CPU or Q solver
+for GPU both of these libraries I think
+need a lot more love. They need a lot
+more maintainers. So they've been sort
+of get swallowed up by deep learning
+ops. And it was like really cool. We
+basically turned this into a problem for
+the community and like basically
+collectively together we did this like
+broad search over humans and AIS to get
+like a kernel that's 60 times faster and
+like it doesn't nan which is great. Like
+we can actually use this in real
+training runs. What's really weird about
+these kernels is that they're quite
+long. So for example, the average
+submission here is on the order of like
+15,000 lines of code because it's a
+single kernel per shape. And like no
+human would ever do this because a human
+is like we have sort of this bias this
+towards like beauty, towards simplicity,
+towards elegance. The eyes don't seem to
+particularly care. Um so what they do is
+they basically implement like a
+dispatcher where they're like, okay,
+well if the shapes are small, hey, maybe
+I should do like a shared memory QR, but
+if it's like really big, I should do a
+global memory QR. I could have custom
+schedules. For shapes that get tested a
+lot, I will use uh I will use lower
+precision. I will use higher precision,
+but for shapes that aren't tested a lot,
+I can cheat the benchmark hardness and
+use like a lower precision shape. And so
+then you have to look at this like then
+at the end of this, we have like tens of
+thousands of submissions. Um each of
+which is 10 tens of thousands of lines
+long. So we have like a few million like
+tokens of this. And we're looking at
+this and we're like, okay, can we
+synthesize this to into like actual like
+beautiful and elegant kernel? turns out
+like not so obvious. I haven't figured
+that out. That's actually an open
+problem. But like you know, we we did
+read the three fastest kernels very
+carefully. So myself and one of my
+colleagues like Marcus was a one of the
+FA4 co-authors, you know, we're like
+trying to sort of explain to people how
+do you write these kernels and this is
+what we came up with. We're like look
+for step one is you understand how the
+GPU memory hierarchy hierarchy works and
+step two is you write a very fast kernel
+and like this is so sort of sounds
+physicious. It's like it's correct,
+maybe not very actionable, but you know,
+like like this is directionally what
+what we want to do. The last thing I
+want to sort of talk about here is that
+like a big part of what makes our
+leaderboards work is that like as by
+virtue of people competing more, more
+reward hacks get found out. As a result,
+our eval gets more robust. To me, this
+like flywheel is reminiscent like when
+people say, "Oh, PyTorch is more
+correct." Like PyTorch wasn't born
+correct. PyTorch was slowly made to be
+correct. And the idea was, you know, at
+first it was sort of like vibe coded in
+the sense of like it was a PC that
+ported Torch to Python. So basically it
+just like went from Lua to PyTorch Ops
+and you could like it was verifiable
+because it's like PyTorch to Lua torch
+which goes back to NumPy which goes back
+to like Leak which goes back to forran.
+So we all sort of like we have this
+chain of correctness.
+Um we worked with a lot of researchers.
+They told us what they wanted. They
+pointed out bugs. we fix them and then
+you know it turns out if you repeat this
+over nine years and you maintain strong
+like BC numeric guarantees you'll get
+like a very popular library and this is
+like a very good process I don't know
+how like what's the right way to do this
+like purely with AI like but but I
+suspect the way we've done things in an
+adversarial way with kernel guard and
+colonel bot is like probably like a good
+hint as to how we should approach these
+problems so yeah thank you I guess if
+you're interested in some of these
+problems like feel free to reach out to
+me I guess on Twitter or like
+hello@coreauto.com
+[snorts] um I can tell you about like
+what I think are some important
+important open problems that I don't
+think like get enough nearly enough
+attention that are very different from
+like just like asking codeex to go cook.
+So basically the the kernelms are very
+like good at like exacerbating AMDall's
+law effects. So basically like they will
+find all like bottlenecks in a system
+whether it be compilation times whether
+it like like anything that involves
+waiting is very bad. So as a result, I'm
+very interested if people have any ideas
+on ways of speeding up like compilation.
+So faster JITs, f like more efficient
+like AOT packaging of things like
+Trident and QDSL are things I'm very
+interested in. Uh CPU simulators of GPUs
+are quite good. I think a lot of people
+have been joking around like how Fable
+is just like phenomenal at this kind of
+work. U this is the kind of work I'd
+love to see because if you can spin up
+CPU simulators, that means you don't
+need a lot of GPUs for doing rollouts.
+Um similarly if you want to deploy these
+kernels in a real inference engine well
+inference engines like let's say out of
+the box if you to use something like SG
+lang or VLM if it's just loading
+deepseeek before the first inference
+maybe you'll wait about 30 minutes like
+this really sucks for an AI system. I'm
+also very curious to hear takes on how
+to more robustly verify kernel
+correctness. Like the way we do it today
+is we just take random inputs. Some
+people tell me formal verification is
+the way. I'd love to hear more ideas
+that are cheaper than training a model
+because that's like kind of probitative.
+Um I'm also curious what people think
+about like what's sort of in between
+like you know you can sort of we can
+read code line by line to verify its
+correctness and we can test it a lot.
+None of these answers feel very
+satisfying to me. So I'm curious if
+people have intermediate takes and the
+last one is like basically people have
+been joking that GP mode has become pay
+to win. uh that sucks and so I think
+it's become pay to win because the test
+time scaling is happening over days or
+like basically on the order of one or
+two weeks. So given that we know how to
+solve this problem in these like longer
+periods, can we speedrun it in a couple
+of hours or a couple of days? I if you
+if you have any ideas, I'd love to hear
+from you. So thank you.
+[applause]
+>> Okay, next up, Misha. Thank you.
+Can everyone hear me? Okay, cool. Yeah.
+Hi everyone. Uh I am Mishas Manski.
+uh I
+uh joined a startup called uh Marlo
+almost a month ago and uh the startup uh
+the idea is that it's focused on
+building workload optimized
+heterogeneous uh infrastructure
+and the main premise is that uh
+inference is a very heterogeneous
+workload right uh different phases of
+inference exercise
+compute network
+uh storage
+uh memory bandwidths differently and so
+when we look at it uh it makes sense to
+actually uh co-design uh the systems
+that will opt you know use different
+hardware different systems for uh
+different phases so I'll give a couple
+of examples today uh I just want to
+caveat it uh with the fact that uh there
+is no data I'm not going to show you any
+data right now uh But I will try and
+drive those arguments from the first
+principles. But I'm also happy to to be
+debated on them. This is probably very
+well familiar to everybody. This is a
+life cycle uh lifetime of an inference
+uh request. Uh and it basically you know
+user enters a prompt right there is a
+you know CPU system that orchestrates
+and schedules and you know batches it
+right? Then it goes through the prefix
+cache looks up the prefix cache and you
+know whatever is left of the prom that's
+not cached it does the prefill and
+prefills are usually very compute
+intensive there they're done on
+accelerators right uh there is also you
+know the KV cache creation and that can
+involve you know CPU or or other
+accelerators memory which is
+uh can go over the network, right? And
+then there is the auto reggressive
+decode that basically does one uh token
+uh at a time for a given stream, right?
+Which is also very memory intensive and
+very latency sensitive uh and then you
+you produce the result and there is also
+a speculative uh decode along along the
+way that basically speculates on on you
+know the next batch of tokens which then
+needs to be verified with a with a main
+model. So the main point is that uh
+different phases trigger uh different
+hardware right and the bottlenecks just
+keep moving there is no one thing. So
+I'm sorry the slide is a little bit busy
+but I felt u you know compelled to uh
+put it um so I just basically want to
+talk a little bit about fundamental
+characteristics of prefill and decode.
+Um you know the main uh metric here is
+what's we called arithmetic intensity.
+Arithmetic instensity is basically the
+ratio of the amount you know of the
+flops that your fundamental like
+algorithm does to the amount of data
+that it moves uh from memory right and
+if that ratio is actually greater than
+corresponding machine ratio which is a
+you know ratio between peak machine
+flops and peak memory bandwidth that's
+greater then your kernel or algorithm is
+compute bound if it's lower then it's
+memory memory bandwidth bound right and
+two um like this is a roof line and I'm
+sure a lot of you are well familiar. It
+was actually created for HPC back in
+like early 2012 2013 by somebody Sam
+Williams from Berkeley who basically
+tried to explain uh the behavior like to
+to try to model the behavior of
+different HPC HPC applications and the
+idea is that you have a arithmetic
+intensity along X-axis right and for a
+given intensity you have basically how
+much flops you can achieve and so if you
+arithmetic intensity is less than your
+machine ratio you're in memory bound
+bandwidth boundaries and if it's region
+if it's greater then you're in compute
+boundary and of course the reality is
+much more complicated uh than that but
+that kind of gives you a first degree of
+approximation right and so like if you
+look at preill and decode right you can
+actually see that even like attention
+and um and ma mae kernels right MLP
+You know they all have different
+arithmetic intensity like prefield is
+generally very compute bound right
+because you basically do like attention
+you do u a lot of work per s you know
+per you know all the tokens that you are
+fetching right you can fetch the weights
+y once and you operate on all of them
+right the MLP is even more intensive
+because you can actually batch things
+right uh and so it's pretty compute
+bound like the code is different like
+the code you actually work on you know
+one token at a time it's auto regressor
+so attention is really horrible it's
+like you're fetching you know as a
+weight for every tokens that you want to
+process right uh so it's not very you
+know it's it's really inefficient right
+the
+MLP is a little bit better because
+you're actually you can actually batch
+it but in reality batches are not that
+big you know the machines are like
+modern
+accelerator have a lot of compute. So
+you end up being uh bandwidth bound for
+you know pretty large batches as well.
+So the main idea here is you know that
+uh even within a prefilled decode you
+have quite a bit of diversity of
+of behaviors and how different kernels
+stress the system. So you can kind of up
+level up level this a little bit and
+this slide basically shows like
+different use cases and you can see that
+inference spans a very large space of
+workloads like you can go and start. So
+the the
+each circle here the size of the circle
+like bigger the larger the concurrency
+right and for each uh use case we're
+like showing how much time you spend in
+prefill versus decode like so for
+interactive chats you know you're
+basically you know you're entering some
+prompt and then maybe you get some
+answer and but generally it's like I
+don't know 30 70 50/50 ratio between the
+prefill and decode um and it's very
+strict latency is sensitive, right? For
+some for like long context uh queries,
+right? You basically spend all the time
+in prefill, right? And then, you know,
+you get a answer, right? You you do
+decode, but most of the time you spend
+on prefill. That's why the blue dot
+here, you know, has, you know, like a
+long blue line, right? And for coding
+agents uh and and their latency you know
+you uh are probably also have a strict
+latency requirements for something like
+long longunning agents you have long
+input long outputs you left your cloud
+you know like run overnight like you
+know to to build your uh so you know
+your your code base right and so it's
+also can be high concurrency and latency
+is relax so I think I don't want to
+belabor the point main point is that you
+know inference spends also a very uh
+large uh space of workloads. And so
+before I continue, I want to just quick
+uh do a quick detour and talk a little
+bit about SRAM machines like those
+machines became very popular um like in
+the last uh decade, right? And you know
+why what's so good about the SR machine?
+Basically uh today when you want to do
+the like gem for example on on GPU right
+and if the weights are large if they you
+know more larger than the size of your
+undai caches you have you you have to go
+to memory right you have to go to hbm
+and you have to fetch it basically over
+you know the unpackage interconnect into
+your uh GPU and so you know if uh you
+have large weight matrix you have to do
+it for every token so it's inefficient
+Right. Um then the estra machine
+basically keeps the entire weight matrix
+in estra memory on die. So uh the you
+get lot more bandwidths right because uh
+it's on chip right so you can access you
+know uh bytes over cycles right the chip
+interconnect is also fast you can go
+like uh between different units uh in in
+a couple of cycles right so everything
+is kind of kept on so they're very
+efficient right so I call them uh GMV
+like matrix vector multiplication
+accelerators right which is happens to
+be like really good uh for decode
+because decode is very very uh bandwidth
+bound. They offer you like significantly
+more bandwidth right and uh
+significantly lower latency but there is
+a catch because it's all on die you know
+there is only that much many transistors
+you can you can pack right you're
+limited by the retical limit of your die
+area right and so because of that uh the
+amount of capacity you can put is
+limited like if you look at different
+accelerators you have between like tens
+to like hundreds uh uh like to between
+hundreds of megabytes to like tens of
+gigabytes of memory but that's it right
+and uh but it moves them much faster. So
+the question is how do you leverage
+them? How do you make sure right that uh
+your your the model even after you know
+the model is charted you still see uh
+the benefit after model is shed between
+many chips you still see a benefit and
+how to characterize this benefit. So I
+want to I want to talk about I want
+basically a couple of examples uh where
+uh now I'm switching gears like talking
+about like different systems may not
+does not have to be you know a GPU on a
+SRAM machine but uh I just want to give
+examples of how uh specialization could
+help like people know very well like
+prefield and decode disagregation right
+the people separate them because it uh
+lets like each of them scale
+independently like removes the like
+shared bottlenecks, right? And so you
+can basically say the question what ask
+the question like what what if instead
+of disagregating uh prefill and decode
+on two different systems, you
+disagregate decode on a different
+system. Let's call system A does
+prefill, system B does does decode,
+right? When is it beneficial? When is it
+actually beneficial? And it's and it's
+uh like if you think about it from a TCO
+point of view and what we talk about is
+like tokens per second per watt. It's
+actually beneficial when the additional
+uh power that you know your system B
+adds is offset by the speed ups that it
+brings. And you can imagine like if you
+have a really short sequence length,
+right? You spend a lot of time in
+prefill, right? And so your your
+benefits may not be as pronounced as you
+can see this uh for short output
+lengths, you know, you have actually a
+TCO loss because you just bundled a
+bunch of new hardware and you're not
+using it. As you increase output length,
+you're actually spending more time.
+you're doing decode spending more time
+on you know system B and so then you uh
+at some point you may become TCO
+positive okay so the other example I
+want to give is
+the AFD uh so as as I talked about
+earlier attention and ME part have very
+different uh characteristics right so
+one way uh to accelerate this workload
+is to run uh attention uh on um system A
+and run uh the MEE on system B right so
+what's going to happen like let's say
+example you know of of GPU right like we
+know very well that GPUs are really good
+at high throughput they operate with
+very like high concurrency they deliver
+amazing results you you know your
+compute bound right and your latencies
+uh can be lower right but um you know
+the moment um that you start basically
+going [snorts] to lower concurrency
+because you want better interactivity
+and better latency, right? the u the the
+performance uh the throughput drops and
+it drops very sharply because all of a
+sudden you have a lot of like smaller
+kernels you have a lot of overheads you
+know you're bound you're you know your
+memory bandwidths you're bound by memory
+bandwidth and also memory bandwidth is
+not utilized very well because of all
+this overheads and so at this point uh
+you might say okay what happens you know
+if I introduce uh the system B that is
+really good at running you know those
+you know memory bandwidths latency bound
+uh bound kernels right uh at the point
+where say GPU interactivity
+uh uh goes goes down right and uh like
+for example you can consider offloading
+some of those uh uh nasty MA kernels
+like to SRM machine right and because
+everything is on die right they have low
+latency they'll they'll that can do
+quite well uh for for small batch and
+all of a sudden you see that your
+interactivity kernel life of your
+interactivity has has been extended. Now
+what happens to the TCO? Uh the TCO uh
+may not be as great as running it at a
+very uh high concurrency but at the same
+time for use cases where actually
+interactivity matters more uh than TCO
+uh it may be a sensible approach because
+there is a point beyond which like GPU
+cannot deliver more interactivity and
+this extent extends the life. So that's
+kind of the idea of the disagregation
+of attention and
+mae right and the other last example I'm
+going to give is uh basically in case
+like for speculative decoding I think
+everybody knows what speculative
+decoding is right you have a d you have
+a you know the the drafter that
+basically
+speculates on subsets of tokens either
+router regressively or in parallel
+through black diffusion Right? Then the
+verifier verifies uh them
+and uh in parallel right and uh whatever
+uh number it accepts that's how much you
+can you can you you can you can fast
+forward right so you can uh imagine that
+you can run your uh drafter on system B
+right your verifier runs on system A but
+you can run your drafter instead of
+running it also on system A uh you run
+it on system B and I don't mean like
+sharing exactly the same hardware. You
+can you can run it across like different
+um different like for for system A you
+can still run you know verifier on one
+system and uh drafter on another and for
+system B just offload you know the uh
+the drafter uh to system B entirely and
+is the drafter allows you much better
+perh
+acceptance rate because it can run much
+larger model at the same rate as a
+system A uh can run right uh then you
+can actually see the wins. You can see
+the wins in terms of latency. It will
+reduce the latency because maybe system
+A cannot run such a large model. It
+takes time and you can also bundle
+multiple verifiers to the same decor to
+improve the TCO. Okay, just to uh wrap
+it up, uh what I was talking about, I
+was talking about end to end code design
+of the heterogeneous
+uh infrastructure and that's a really
+full stack problem, right? Uh there are
+many interesting aspects of it. There is
+a you know data center aspect like when
+you put heterogeneous uh systems in the
+same data center what does it mean for
+power density for cooling for brake
+configs for managing like a lot of your
+uh problems kind of uh become like that
+you have in a homogeneous environment
+they become harder right u there is u
+you know the networking problem I didn't
+talk about it much but obviously anytime
+you move data between system A and
+system B networking is a bottleneck so
+how do you build it co-design it
+together like where do you connect them
+under what network topology you know so
+that your um your latency is reasonable
+and doesn't kill advantages. Uh and so
+obviously one thing you also need
+performance modeling uh infrastructure
+you need a really good simulator to
+allow you to go through a lot of design
+points [snorts] and figure out like what
+makes sense and it needs to be well
+calibrated. Uh but that's really how
+you're going to guide your uh code
+design. So that's um basically what we
+are starting to do. Thank you.
+All right,
+next up, Brennan.
+>> Uh, hey, thanks for having me. Really
+appreciate it. Uh, so I'm going to be
+presenting some work that I did at
+Stanford a couple years ago during my
+PhD. [snorts] Since moved on and I'm
+doing an AI plus gaming startup, but you
+know, credit where credit is due. This
+is firmly Stanford work uh in Kavon
+Fhallian's group uh at Stanford. So,
+what I'm going to be talking about is
+basically this hypothetical idea of what
+if we put an entire game engine that can
+kind of simulate any game you can
+imagine and put it all on the GPU and
+run it super fast. And I'll talk about
+how we did that at Stanford over this
+project which ran for a couple years.
+So, the reason we cared about this is
+that games are a great learning
+environment for a bunch of different
+tasks. So, I did a lot of work with
+roboticists, people doing self-driving
+car research, game developers
+themselves. They're just a really great
+platform for learning skills in
+simulation in a lowcost way.
+But honestly, somewhat surprisingly,
+game engines are really inefficient for
+the throughput oriented training
+workload if you just do the obvious
+thing, which is run like a thousand
+copies of the engine in parallel because
+you'll have all of these copies fighting
+with each other. you can't amortize any
+costs and you wind up using both the CPU
+and the GPU hardware really really
+inefficiently. So the better solution to
+this is what we called batch simulators
+where you have a single game engine if
+you will that actually simulates a batch
+of a thousand learning environments kind
+of simultaneously in a big throughput
+oriented batch that runs on the GPU. Uh
+hopefully this loads. So this is a
+visualization of OpenAI's old
+hideand-seek environment. It was a
+multi-agent reinforcement learning
+environment and that kind of gives you a
+sense of how many of those environments
+we were actually able to fit on a single
+GPU and you can wind up getting
+throughput of like millions of frames
+per second of experience which is
+incredibly useful for like data hungry
+algorithms like RL.
+Now, the challenge with building this
+that we ran into is that existing GPU
+programming frameworks are a really poor
+fit for the gameplay logic that you
+actually need to write to build these
+environments. And when you're trying to
+build these environments, you really
+want to be able to kind of create them
+super easily, experiment with different
+mechanics, different ideas. So, here's
+an example of some of the logic from
+that OpenAI hideandsek environment.
+Agents kind of need to run around and
+use the objects to like hide from each
+other. They can lock objects, move them
+around, and so on. And what you wind up
+with is a bunch of super branchy code.
+Some of these internal functions wind up
+doing dynamic memory allocation. If you
+know anything about GPU programming,
+[snorts] a lot of this is starting to
+sound like really bad news from a
+performance standpoint. Interestingly,
+the game industry has actually already
+pretty much solved this problem for
+parallel CPU code, right? So most
+gameplay logic for a game that you might
+play actually runs on the CPU. Uh but
+because we're moving from a latency
+sensitive workload where you're trying
+to, you know, play a video game and you
+want fast response times to a throughput
+oriented workload for training, we can
+actually almost like one for one adapt
+those to GPU execution, those design
+patterns and get a really efficient end
+result. Uh these design patterns are
+referred to as entity component system
+uh design patterns in the game industry.
+I don't worry I'll define what exactly
+that means and I'm going to be talking
+about how we run it on the GPU. So the
+first concept is entities. That's the E
+and ECS. So that might be like obstacles
+in the environment or the agents in
+blue, the little blue guys. Um then we
+also have components. So these are the
+data that's attached to each entity. Uh
+so this might be something like the
+position rotation and then you might
+have like action and reward from your
+reinforcement learning system. And the
+ECS basically takes all of this data and
+puts it in big in-memory column stores.
+And for the GPU, we actually just put
+these all in GPU memory and then pack a
+bunch of learning environments all
+together into kind of these unified
+column stores. So you see that green
+column is like what environment does
+each of these individual objects map
+back to. And this unified table storage
+as it turns out is a really powerful way
+that we can actually do throughoriented
+dynamic memory allocation on the GPU
+while hiding it behind a really easy to
+use interface which is just like create
+an obstacle, create an agent. This makes
+it incredibly easy to do like procedural
+generation tasks where you might have
+you know different numbers of obstacles
+in each environment which is the case
+for the hide-and-seek environment that I
+was showing you. These things are very
+tricky to do in you know like a
+tensorbased programming language like
+PyTorch where you're looking at fixed
+size arrays. And then the third concept
+the S in ECS is the systems. So these
+are the actual code that runs over the
+entities the rows in these tables and
+actually builds the logic. So that might
+be you know processing the actions from
+a neural network from your agent uh
+implementing collision detection or
+computing rewards for the RL system. So
+for example the process actions
+component the way that it works is it
+declares I want to run on every entity
+that has a position and an action
+component. So in this case the agents
+have those two columns. This logic will
+run over every single row in this table.
+And that's the same example I was
+showing earlier. And on the GPU, it's
+actually incredibly simple. All that we
+have to do is map kind of one invocation
+of this function to one GPU thread, and
+we're able to get massive parallelism.
+For the programming language nerds out
+there, another really nice aspect of
+this system is it actually allows you to
+do runtime type polymorphism. So the
+collision system just says, "Hey, I need
+things that have a position and a
+bounding box." And it turns out both
+agents and obstacles have all of those
+components. And interestingly, the
+collision system doesn't actually need
+to know about either of those types.
+Traditionally in CPU code, you use like
+virtual dispatch for this, which is
+incredibly inefficient on the GPU
+because it breaks kind of statically
+knowing register assignments and
+introduces a ton of issues like that. So
+to actually make a game out of all of
+this, we take a bunch of those
+individual systems and combine them
+together into a task graph that
+describes how does the overall frame
+work. How do we go from taking in some
+actions from agents and then actually
+updating the state of the world. There's
+quite a lot to it. This is actually a
+pretty small subset that goes through
+physics, observation generation for the
+agents and so on. Unfortunately, I don't
+have the time to go into a lot of the
+low-level implementation details uh to
+actually make the memory allocation in
+those tables efficient. We're we're
+taking advantage of the fact that this
+is a throughput oriented workload and we
+actually do something akin to garbage
+collection on the GPU where we kind of
+append rows and then mark rows as
+deleted and then use a super high
+performance uh GPU sort to kind of clean
+that all up after the fact. Um, and then
+the task graph is actually implemented
+with a persistent mega kernel that's
+kind of constantly churning through the
+work that's remaining in the frame. And
+I mean, as many of like the Thunder
+Kittens, Parallel Kittens type people
+will, you know, be very familiar with,
+the GPU just has incredibly good fast
+atomics that let you do all of this
+synchronization really efficiently. And
+I can actually show you that here. So,
+this is a visualization where every row
+is an SM on the GPU. And you can think
+of it as like the amount that each kind
+of colored bar is full in each row is
+telling you how active is that SM. So
+he's pretty active is what's happening
+most of the time. And the different
+colors correspond to different systems
+in the task graph. Um between each kind
+of set of colors you'll see like these
+slight vertical white lines. So that's
+synchronization points in the frame
+where we're switching between workloads.
+But you can see it's like under 1% of
+the overall uh work. We're actually
+pretty much fully utilizing the GPU. In
+this case, this is shown on a RTX 4090
+simulating of I think 4,000 worlds of
+that hideand-seek environment. And we
+built for the initial version of this
+engine, we built kind of a small set of
+little baseline environments. So, there
+was the hideand-seek environment. There
+was Overcooked, which is kind of a
+cooperative reinforcement learning
+environment. The reason we chose these
+in particular was they already had easy
+to set up kind of CPU baselines. So we
+could actually do an apples to apples uh
+comparison. And what we see is the green
+which you can barely see on the top of
+these is those original CPU reference
+implementations
+um you know from like the machine
+learning code bases. And basically the
+performance is abysmal. All of these
+tasks were majorly bottlenecked by
+environment throughput. in blue. It's
+you what you get if you take the ECS
+ideas that I just told you about and
+just run it on the CPU, more like a
+traditional game engine, but scaled up
+to run across multiple worlds. And then
+red is you actually run it all on a 4090
+on the GPU. And it's literally like over
+a hundred times faster in many cases.
+Um, and we actually did multiple
+projects over the course of this um of
+my research that basically showed you
+can actually extend this to endtoend
+training. It's not only simulation
+throughput. We built a bunch of fast
+different environments on this uh engine
+over the course of about 2 years. We had
+a lot of success with relatively
+non-technical people like machine
+learning researchers coming in uh who
+only knew nothing about low-level GPU
+programming and could come in build an
+environment get really good performance
+and just accelerate their workloads. I
+kind of want to leave you with a more
+general comment here which is I think
+there's still a lot of work to be done
+on highlevel scripting languages for the
+GPU even in the era of like LLM's
+writing code and stuff like this right
+like I see a lot of programming language
+systems are kind of trending towards
+okay it's still the CUDA programming
+model but it's Python syntax on top
+which is great like simplifies things
+easier to look at but it doesn't
+actually help you with like dynamic
+memory allocation on the GPU you super
+irregular parallelism, all these kind of
+really fundamental issues. GPUs
+obviously have massive memory bandwidth
+and compute even if you completely
+ignore the tensor cores. I think there's
+a lot of interesting workloads that you
+can, you know, leverage this plentiful
+super fast hardware these days and get
+really good speed ups. Um, but some of
+these fundamental issues just mean
+there's a lot of friction if you're
+trying to do this on a workload that no
+one's ever done before like we were
+doing. Uh, I think there's generally an
+opportunity here for abstractions that
+have good enough kind of default
+performance. You just utilize that raw
+GPU horsepower but make GPU programming
+far far simpler. Kind of like a real
+scripting language Pythones for the GPU.
+Thank you.
+>> Thank you, Brandon.
+>> Yep.
+[applause]
+>> Okay. Um, so just to wrap up here, um, I
+don't know. What do you think? Good.
+Thumbs [laughter] up. Okay. Um, so yeah,
+so I think these theme thematic kind of
+uh uh clusters are are kind of the way I
+we're going to go through this uh in the
+future. The next one will be on
+robotics. Um, we have a couple cool
+robotics people, a lot of people in
+industry. If you have folks that you
+think would be a good fit, please um uh
+either DM me in the Slack or or
+otherwise. All right, stick around. We
+have another basically hour to hang out
+and meet each other. If you want to talk
+to the speakers, you want to talk to
+anyone and now's the time. Thank you
+guys so much for coming. Right.
+[applause]

@@ -48,7 +48,7 @@ E-commerce and retail giant heavily investing in physical grocery and AI, a key 
 - [[sources/RhYZECR2Ru8-quit-and-join-that-risky-tech-startup-a-guide-to-learning-earning-minimizing-regret-at-sta|Quit and join that risky tech startup? A guide to learning, earning & minimizing regret at startups]]: Multinational technology company.
 - [[sources/9Fq15k9QPv8-you-can-beat-google-the-way-amazon-does-here-s-how|YOU can beat Google the way Amazon does. Here’s how.]]: E-commerce and cloud computing giant.
 - [[sources/hd9DD4t85fM-unknown|Unknown]]: E-commerce and technology company.
-- [[sources/R56RJFZBasQ-unknown|Unknown]]: A company where Blake Scholl worked in ad tech early in his career.
+- [[sources/R56RJFZBasQ-pick-one-idea-and-go-deep|Pick One Idea and Go Deep]]: A company where Blake Scholl worked in ad tech early in his career.
 - [[sources/RgYCO87ghRY-how-photoroom-trained-themselves-to-dream-bigger|How Photoroom Trained Themselves To Dream Bigger]]: A major global e-commerce company, listed as a user of PhotoRoom.
 - [[sources/vb1Gcn10enw-what-top-ai-labs-are-really-doing-with-observability|What Top AI Labs Are Really Doing With Observability]]: Mentioned in the context of the early 'Amazon thing' (AWS/cloud) which Datadog initially underestimated.
 - [[sources/byAj35QlGbs-blake-scholl-how-50-people-built-a-supersonic-jet|Blake Scholl: How 50 People Built a Supersonic Jet]]: E-commerce and cloud computing giant.

@@ -1,0 +1,661 @@
+Title: Why Physical AI Is the Next Platform Shift
+Video ID: F3INH9wZXoQ
+URL: https://www.youtube.com/watch?v=F3INH9wZXoQ
+Channel: Y Combinator
+Published: 2026-07-25T05:00:30Z
+Duration: PT20M11S
+Views: 8791
+Likes: 150
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 645
+
+============================================================
+TRANSCRIPT
+============================================================
+
+Starting a company is a roller coaster.
+So, there's like low lows and there are
+high highs. And [music]
+my view is that you should just ride the
+roller coaster. Like people try to
+mitigate it, but just ride it. And try
+to have fun.
+>> Please welcome Eric Landau who is the
+co-founder of Encord who is building the
+data layer for physical AI, right?
+>> Yep.
+>> Welcome Eric.
+>> Thank you. Thanks for having me.
+>> [applause]
+>> So, as I was going like preparing the
+the chat and looking at your background,
+I was actually pretty surprised. Like
+it's kind of like a very surprising that
+you did big data particle physics.
+And then you became a quant for 10
+years.
+>> Yep.
+>> Before creating Encord. Okay, like
+lead us through that. Like why? Like is
+there a common thread here?
+>> Yeah, the the common thread is almost
+the kind of trajectory of AI development
+in the time that I've had my career. So,
+it's it's quite interesting cuz do you
+know the the bitter lesson?
+>> Uh remind me.
+>> The bitter lesson is this idea that AI
+you know, it used to be that to build an
+AI system you would think very carefully
+about it. You would do all the feature
+engineering. You'd try to
+induce as much domain expertise into the
+the system before kind of wrapping up in
+machine learning. And they found that
+actually it's better to not do any of
+that and just to scale the the system.
+Just add more data, more compute into
+it. And when I started in physics, I was
+doing particle physics.
+The
+kind of systems in the the strategy was
+based off of the physics itself. So,
+you'd
+filter the data based off like the way
+the particles
+you know, you know, were were moving the
+momentum and and then in high frequency
+trading, it was thinking about the
+market, what factors actually move the
+market one way or the other and then um
+really crafting that and then putting it
+together into machine learning model
+afterwards. And now it's just throwing
+data into a big pile of machine learning
+and then uh seeing it inside. Yeah.
+>> Excellent. Uh before speaking about
+Encord, um I realized we were like
+chatting quickly yesterday about that,
+right? Uh I mean, it was not the best
+ideal bet to become wealthy.
+Uh I mean, you've been 10 years as a
+quant. I guess you were making way more
+money as a quant than you did as a
+founder. Is that right?
+>> Yes.
+Uh
+and in fact, when I quit, I quit during
+COVID and uh everything just kind of I
+quit to go start a company and that
+month
+uh the market went absolutely crazy. It
+was the month where oil was trading
+negative, extreme high volatility,
+people were making a lot of money on uh
+Wall Street bets. My desk made more
+money in that month than I think they
+made in the previous 3 years combined.
+So, I just quit um and I was sitting on
+my couch fighting Python dependencies in
+a machine learning uh library and I was
+like, "What have I done?" Uh but
+obviously, uh I didn't do it for the
+money.
+>> Yeah, you left a lot of money on the
+table. Well, you didn't know you left as
+much as that.
+Um and so, what did you do it? Like,
+what led you to uh actually quit a very
+well-paying job to become a founder?
+>> Uh so, one, my co-founder and I really
+believed in AI and uh to us, it felt
+like
+this was the
+technological paradigm shift of our
+generation. This was the early days of
+the internet. This was the early days of
+computing.
+And whenever I I I was a quant for quite
+some time and for the last several years
+when I would go to sleep at night, I
+would like hit my head on the pillow and
+I would think,
+"What am I doing with my life?" You
+know, and uh when I started a company,
+even when all the craziness happened in
+the markets, uh I would go to sleep at
+night and just think about the problems
+of the company. I wouldn't have the uh
+existential fear anymore. It was all
+like more very
+>> very concrete ones. What we are doing
+actually was providing value to someone.
+Well, did it at first.
+>> Uh no, it doesn't at first, but you
+believe you're part of something which
+is bigger than you and it's very
+rewarding. It's extremely rewarding to
+be in a company and seeing it grow and
+seeing it the impact that can it can
+have.
+>> Okay. And so we're in 2021.
+Is that that that's when you created
+Uncode AI?
+Um
+how long did it take for you to could be
+convinced that
+there was something here? Like the early
+years were not that easy, right?
+>> No, we we were in the desert for a
+couple years. Um so
+>> Wait, like what made you continue and
+not give up? Or pivot?
+>> Uh we no, we still believed in AI and
+you know, if you look in the long long
+horizon, the power of the technology,
+the generalizability of it. Um but it
+was hard to convince people uh
+that it was as important as it was.
+Uh and then ChatGPT happened and the
+kind of tenor of the conversation
+changed, which uh definitely helped us
+quite a bit.
+>> So the ChatGPT release actually knocked
+the market?
+Like and is that because people needed
+more data or because people starting to
+realize
+uh
+that AI was important?
+>> Yeah, it was that more they were open to
+the conversation. So it's funny because
+product market fit for some folks, it's
+uh so product market fit is both product
+and market and these things have to come
+together. And so um some people they get
+it they achieve product market fit by
+setting a market constant and then
+compounding their product to hit that
+market. Sometimes it's the market comes
+to the product, you know, the world
+changes and suddenly the thing that
+people didn't care about now care about.
+Uh but most cases it's them kind of uh
+both moving at the same direction. And
+for us our product was just continuously
+getting better and better and better.
+And then after ChatGPT, I wouldn't say
+there was like a big binary threshold
+change, but the market started coming to
+us faster than it was before. And so um
+a lot of people a lot of companies you
+talk to them they they did a product
+launch, they changed their product and
+then they suddenly felt immense product
+market fit. That never happened to us.
+It just felt like
+it was a little bit that better every
+day. Just kind of was slowly slowly
+compounding. And looking back on it, um
+my co-founder, he thinks the time when
+we had product market fit was
+uh when we saw, you know, a a sale close
+in the Gong channel, and we didn't know
+what the company did. It's like, "What
+is this company?" Um and that was very
+uh satisfying because we were doing all
+the sales ourselves. We were like
+intensely involved in every single part
+of every company that we were trying to
+sell to. And when you see something,
+they're giving you money, you don't know
+what they do, uh that's like, "Oh, we
+made it."
+>> You you are not involved in the sale. Is
+that what you mean? Okay. When was that?
+>> Uh uh 2 months ago. No, um it was it was
+some some years ago. But, it was only
+looking back. There was never a single
+moment where like, "Oh, we have got
+product market fit."
+>> Yeah, I mean, uh it's kind of like
+actually one of the topics here about I
+mean, you were a quant physicist, and
+you had to build the sales org at some
+point. How were you able to do that? How
+did you hire the first sales people, and
+when?
+>> Yeah, um it was I wish we had a more
+elegant
+answer to this, but it was trial and
+error. So, [laughter]
+>> How many did you have to fire?
+>> Uh yeah, so we had a we brought in a
+sales team, it didn't work. We brought
+in another sales team, it didn't work.
+By the third sales team, it started to
+work. And it's funny because, um
+you know, the the advice that they give
+you in YC, it's one of the things that
+we found is like, it's almost always
+right. So,
+>> I mean, the advice of YC is always
+right.
+>> Yeah, it's almost always right, but you
+still make the mistake. And I remember
+very distinctly, there's a particular
+hire that we were about to make, or
+actually we made. And we talked to you,
+this was maybe a couple years after we
+had finished with YC, and you were you
+said, "Oh, for this role, you should
+hire you should look out for this and
+this and this, and don't do this and
+this and this." And we're like, "Oh,
+no." Uh because we had just hired
+exactly what you said not to hire. And
+uh we realized, "Oh, we made a big
+mistake." Uh but, we still brought them
+on, and we had to learn that it wasn't a
+fit. Um we we should just cut it there,
+but um, we don't need to keep them.
+>> That one was um, I I think probably 9
+months.
+>> It's okay.
+>> And then you Oh, 9 months. Okay, not 9
+days or 9 weeks.
+>> We've gotten um, a lot more efficient at
+at Learnings here, but uh, yeah, this
+was something that we learned the hard
+way.
+>> All right. So, most of you are not there
+yet.
+Uh, well, there is no world in which you
+keep someone 9 months that you know is
+bad.
+>> Yeah, and it's never um, the thing is
+it's never Sometimes it's like bad. It's
+like, "Oh, man, this is bad." But
+usually it's one of those things where
+you kind of know in your gut.
+Um,
+and or you know you have the feeling,
+but it's just difficult. And there's
+never a strong for There's never a
+strong reason. You just know uh, it's
+probably not a fit, but there's nothing
+that pushes you to it. And what we've
+gotten a lot better at over the years is
+just following your gut and making the
+right decision faster.
+>> Yeah, I cannot uh, emphasize that more.
+Um, let's go back to the product now.
+Uh, because you didn't start with
+Physical AI. Physical AI is kind of like
+the
+It felt It feels like you've pivoted a
+few times. Still always around data for
+AI, but the target applications have
+changed over time, right? What did you
+start with? Was that healthcare?
+>> Uh, we Yeah, we started in vision and
+our thesis originally starting with
+vision was it was the hardest modality
+to start with. And so, we always wanted
+to be multimodal. And because our thesis
+was that AI systems would be multimodal
+naturally because humans are multimodal,
+the best way to make that you make the
+best decisions is to take as many
+sensory inputs as you can uh, you can
+accept. Uh, so, vision was a very dense
+data type. We developed a lot of
+expertise into it. And then we moved
+into multimodality. And what happened
+with Physical AI is that uh, that's one
+of those cases of, you know, your
+product goes up and the market comes
+down. Um, the market started really
+coming in our direction. And the biggest
+application of multimodal AI now is in
+Physical AI. So, now we work in a lot of
+robotics, autonomous vehicles,
+logistics, manufacturing. Um, but we
+started in
+other use cases which were less
+less popular now.
+>> It feels like uh
+in some sense physical AI is still
+nascent as a market. I don't know like
+you say that I see in core bots and I
+don't see robots every day yet. Uh but
+what you're saying is that the market is
+already there. It's already here for
+you.
+>> Um so there are a lot of robots that are
+working in the real world, but um
+the opportunity in physical AI is
+enormous. 80% of economic activity is
+manipulating or moving things in the
+real world. So we live in the real
+world. And if you talk to a lot of the
+robotics folks, they think in 5 to 10
+years there will be more robots than
+people. So in this room all the other
+seats will be robots that are listening
+to the talk and then transmitting it
+back into some centralized server.
+>> may not need the robots for that.
+>> Yeah, yeah,
+but the YouTube feed
+>> Yeah, you will
+>> This will be a world a room or a world
+packed with autonomy, let's say.
+>> All right.
+>> Your company is doing great.
+And you are betting the future of the
+company ahead of the curve on a new
+space. Is that fair?
+And like how did you come up with that
+decision? Did you see new customers
+coming from physical AI or was that
+the result of a deep conversation with
+your co-founder or something?
+>> Uh it's yeah, so with AI you always have
+to you can never be comfortable. You
+always have to go try to think about the
+next thing. And the best way to do that
+is just to talk to people. Like talk to
+as many people as you can. Talk to smart
+people. Um and have conversations with
+your co-founders. So we're constantly
+constantly uh even talking to prospects,
+to customers, um people that are ahead
+of us in the space, these at these YC
+events, uh talking to other co-founders
+in AI, and really just trying to absorb
+what's going on the What are they What
+problems are they thinking about? What
+are they doing? And then synthesizing
+those things into the the next bet that
+we can we can make. Um so it's not us
+sitting in a room quietly trying to
+imagine the future. It's really being
+out there and getting as much data as we
+can.
+>> Okay. So you shift the narrative, you
+shift how you speak of the company
+itself.
+What about existing customers?
+>> Uh well, because we
+>> Did you still have a lot of like health
+care models and
+>> Yeah, we still have a bunch of health
+care companies. Uh we have companies in
+basically every application. And the
+most fun one um Uh people always ask
+what the most interesting one is. It's
+facial recognition for cows.
+Um so it turns out that um humans are
+are really bad at recognizing cow faces,
+but algorithms can do it quite well.
+Um
+>> Probably better than you.
+>> Yeah, so um we've seen every we've seen
+everything in AI. Um and that's the one
+of the the
+>> So who is annotating the the data?
+>> Uh
+>> Humans though.
+>> Yeah, humans that are experts in Well,
+you can there's other ways of tracking
+cows through through the barn. Um and
+but you want to know their health and
+things and um yeah, humans are are um
+are only a part of the annotation
+process as well.
+>> Yeah, once you know who is the cow, like
+you tag it, then you know you can
+recognize its face many times or
+something.
+>> Yeah.
+That's that's cool. That's cool. Um
+And what would you say are the biggest
+use cases today then
+in physical AI? Like you said autonomous
+driving as one.
+>> Yeah, autonomous driving, that's one
+that's um further along in the maturity
+curve. So it's closer to actual
+production.
+>> Uh
+actually in production in some places.
+>> Yeah, I'm close to kind of mass scale
+production.
+Uh
+and one of the bigger the biggest growth
+for us now is in robotics. So uh
+humanoids, consumer robotics, uh
+manufacturing, there's so many different
+applications for for robotics that we're
+seeing.
+>> Um
+And how do you collect data?
+>> How do we collect data?
+>> Yeah.
+>> Um so we do have a a facility in the Bay
+Area that uh we have robot systems and
+operators that are are collecting data
+for various tasks. Um a lot of the data
+is collected in production as well. So,
+our system uh ingests production data
+from the customer and then uses
+>> Is that video stream or is that
+>> It's yeah, video stream, sensor data,
+audio, uh language. It's It's multimodal
+data.
+>> So, how does that work that facility in
+the area? Like people come with their
+robots and you have like a some setup
+>> That's right.
+Yeah, we have It's almost like film sets
+where you kind of build a thing, you
+have a robot do a thing in a specific
+environment, collect data in that um
+that environment. But uh
+data collection is usually for the
+companies that are earlier in the stage.
+They're collecting enough data for
+pre-training. A lot of companies already
+have production loops.
+>> So, what's the rest of the product?
+>> The rest of the product is doing the
+management of that data, uh the
+curation, so selecting the right data.
+It's We say it's like um
+finding a million needles in a billion
+haystacks. So, there's a lot of data
+that you need to use, but even more data
+that you have. And then the annotation
+and enrichment of the data and finally
+the evals.
+>> Do you have a Can you share with us like
+maybe some sense of the scale of the
+operation? I don't know if you share the
+revenue or
+team whatever.
+>> Uh well, we have hundreds of of
+customers. Um we deal with more data
+than was used to train uh
+at well, from what we know GPT-4. We
+don't know the the latest amounts of
+data for for GP uh GP 5. Um yeah, we're
+we're dealing with multiple petabytes of
+all different types of multimodal data.
+>> So, you just mentioned that you built a
+facility in the Bay Area, but you're
+based in London.
+You're European and you still expand
+your team, build that facility there.
+Why?
+>> Yeah, so my co-founder is in San
+Francisco. I'm I'm still based in
+London. We started the company in
+London.
+And our general philosophy is uh you
+should just be where the important
+people for your company are. So, for us
+it's customers and then talent and then
+investors in that order. Um but
+different people have different uh
+weightings of those categories. So, if
+you're building something that in in
+deep tech, uh you don't care about
+customers, you might over-index on just
+the talent bit. And then you can just be
+close to where the good talent is. For
+us, most of our customers are in the US,
+and of those, the vast majority are in
+the Bay Area. Um so, my co-founder moved
+there, we built a facility there, we
+built a lot of operations there, uh just
+to be close to have those conversations.
+>> Huh?
+>> Uh talent is is make but I think um
+London has some great talent for for AI
+and engineering great um
+uh universities, um people from uh from
+other companies. Um so, there's a
+comparative advantage for for talent uh
+right now in in London Europe. Although,
+there's now this London maxing term,
+which is um kind of arbing out the uh
+the talent pool in in London.
+>> it's that the uh yeah.
+Like the competition for talent is
+slightly less intense in Europe than it
+is in uh in SF.
+>> Yeah.
+>> Okay.
+Um
+um
+you are competing with like kind of
+crazy good companies too. I mean, uh
+when we speak about the data collection,
+I'm thinking about scale, uh and uh and
+Merkle and many other all are US
+companies. Like, how do you stand out?
+How do you
+win against them?
+>> Yeah. Um so,
+one when we started the company, uh the
+the main um pushback that we got was
+like the space is way too competitive.
+There's too many companies. And then
+over the years, a lot of our competitors
+actually they pivoted or they
+consolidated or they ran out of money.
+And for a long time, there actually
+wasn't much competition in in the field.
+Now, it's getting competitive again. And
+our view is actually we want it to be
+competitive. We prefer to have really
+good competitors because they they push
+you, they make you better as as a
+company.
+And uh standing out, we all have
+different kind of flavors within the the
+ones that that you mentioned. Our focus
+is really on physical AI and scalability
+of the data. Like being able to operate
+on the multiple petabyte level of data,
+which is hard for people to do, and
+which we spent a long time, um, you
+know, building the foundations for.
+>> If uh anyone here is building in
+physical AI, uh
+should they try, like and they're small,
+and they're just starting, what should
+they do? Should they use such a product
+like yours? I guess you have gone up
+market
+over time, and your product is maybe not
+affordable for them.
+>> Uh yeah, so usually where people come to
+us is when they've built internal tools,
+they've tried POC, and they're at the
+inflection point where they need scale.
+So, their their their models are going
+from POC to production, or they're just
+getting a big influx of data. And I I
+usually I I don't want to like oversell
+our product when it's too early. It's
+like when you're ready, you should use a
+product like ours, um but you can start
+with, you know, open-source tools.
+>> Like what? Like any any product Anything
+to recommend?
+>> There's a there's a whole host of them.
+I don't want to undercut my own
+my own book here.
+>> That's okay.
+Um
+before uh concluding here,
+uh any
+uh as we're on the topic of advice, any
+advice you'd give to
+founder in that space, physical AI?
+>> The advice that
+I think is important for basically all
+founders, and uh one of these came from
+one of the YC retreats that um the CEO
+of Reddit was talking about, which is uh
+starting a company is a roller coaster.
+So, there's like low lows and there're
+high highs, and um my view is that you
+should just ride the roller coaster.
+Like people try to mitigate it, but just
+ride it, um and try to have fun, uh
+because whenever you're at the low, you
+know that a high is coming. Whenever
+you're at a high, you know a low is
+coming, and just accept that the that
+you're on a roller coaster.
+>> I sometimes I I speak about like hacking
+your brain. If you can hack your own
+brain to enjoy the fires,
+and then when there is a new fire, a new
+challenge, you just run to the fire. Run
+at the fire like because you it's
+exciting.
+Then it's it becomes so much more
+enjoyable as a journey. Because yeah,
+you're going to go through crazy highs
+and crazy crazy crazy lows.
+>> Yeah, roller coasters are fun.
+>> Did you think that when you started?
+>> No.
+>> When did you start thinking that?
+>> Uh uh only relatively recently actually.
+I when you go through enough of these
+these signing sort of fluctuations, you
+feel like, "Okay, I can just make this
+fun."
+>> That's interesting.
+It's rare that people think
+that it becomes easier.
+Do you think it become it became easier?
+>> Uh you you become more you realize that
+you have more control than you think
+over your own mental state. And then you
+can kind of accept what the reality is
+and how you how you react to it. And
+that's something that has helped a lot
+in
+seeing the fluctuations in
+increase over time.
+>> Awesome. Thank you, Eric. It was great
+to have you with us today.
+>> Thanks so much.
+>> [applause]

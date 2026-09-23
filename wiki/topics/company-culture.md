@@ -2,7 +2,7 @@
 type: topic
 title: Company Culture
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-09-24
 sources: []
 tags: []
 ---
@@ -26,3 +26,4 @@ Comparing the working environments and expectations at large tech companies vers
 - [[sources/TCA_7RVo7Uo-scaling-product-fireside-with-joe-gebbia-and-reid-hoffman|Scaling Product | Fireside with Joe Gebbia and Reid Hoffman]]: The importance of hiring for mission alignment and maintaining core values during rapid growth.
 - [[sources/px5rgcNjOTc-culture-with-brian-chesky-and-alfred-lin-how-to-start-a-startup-2014-lecture-10|Culture with Brian Chesky and Alfred Lin (How to Start a Startup 2014: Lecture 10)]]: The intentional design of values and behaviors that guide a company's long-term growth.
 - [[sources/qnNHW6TYv5I-tim-brady-building-culture|Tim Brady - Building Culture]]: The behavioral framework that guides decision-making within a startup.
+- [[sources/o0ORPbSEgd8-max-junestrand-you-need-the-willingness-to-learn-faster-than-anyone-else|Max Junestrand: You Need The Willingness To Learn Faster Than Anyone Else]]: Building a high-intensity, global team culture that balances humility with extreme ambition.

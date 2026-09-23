@@ -15,4 +15,4 @@ Gary's old startup website (simple blogs by email from 2008) that Ploy redesigne
 
 ## Source Mentions
 
-- [[sources/8OOuCnZB-4o-unknown|Unknown]]: Gary's old startup website (simple blogs by email from 2008) that Ploy redesigned as a demo.
+- [[sources/8OOuCnZB-4o-the-age-of-the-40-year-old-solo-founder-is-here|The Age Of The 40-Year-Old Solo Founder Is Here]]: Gary's old startup website (simple blogs by email from 2008) that Ploy redesigned as a demo.

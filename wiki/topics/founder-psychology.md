@@ -2,7 +2,7 @@
 type: topic
 title: Founder Psychology
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-09-24
 sources: []
 tags: []
 ---
@@ -74,3 +74,5 @@ The personality traits and intellectual frameworks that distinguish high-impact 
 - [[sources/BJo_7-Rn1wc-how-to-sell-your-startup-for-millions|How to sell your startup for millions]]: Dealing with the emotional difficulty and identity crisis associated with selling a company.
 - [[sources/35UOGYlm7F8-reprogram-your-mind-with-exec-coaching|Reprogram your mind with exec coaching]]: The intersection of childhood trauma, personality, and the drive to build startups.
 - [[sources/btRHm7z61oo-drowning-in-email-is-the-first-sign-you-aren-t-scaling|Drowning in email is the first sign you aren't scaling.]]: The shift in personality traits required to move from early-stage innovation to late-stage execution.
+- [[sources/Wxq7ZIEodJg-paul-graham-on-what-motivates-founders|Paul Graham on what motivates founders]]: The internal drivers and emotional states that sustain entrepreneurs through the startup lifecycle.
+- [[sources/5bxp78i96S8-paul-graham-on-startups-ambition-and-great-founders|Paul Graham On Startups, Ambition, and Great Founders]]: The internal motivations of founders, specifically the role of fear and ambition.

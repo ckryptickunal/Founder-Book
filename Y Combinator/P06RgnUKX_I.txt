@@ -1,0 +1,2022 @@
+Title: How To Design In The Agent Era
+Video ID: P06RgnUKX_I
+URL: https://www.youtube.com/watch?v=P06RgnUKX_I
+Channel: Y Combinator
+Published: 2026-08-07T14:00:34Z
+Duration: PT56M1S
+Views: 86640
+Likes: 1803
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 2006
+
+============================================================
+TRANSCRIPT
+============================================================
+
+The agents can speed you up. They can
+save you a lot of work, and they can do
+tasks like translation or resizing for
+you. But I we're a big believers in the
+human element of design and and how
+important that is. And so, we're trying
+to create a tool that lets humans work
+really fast with agents. It's probably
+very tempting to use whatever Cloud
+Design spits out. I don't think it helps
+you stand out from the crowd. And so, I
+think design is this great
+differentiator. And if you look at every
+great company of the last 10 20 years,
+basically all of them have exceptional
+design. And so, I think if you want to
+be one of those really great companies,
+you have to put the care in on design
+and and make sure that you stand out.
+>> Today, I'm excited to welcome Steven
+Haney, the founder of Paper, an
+AI-native design tool that's been taking
+the design world by storm. We're already
+using Paper a ton here at YC for all of
+the design work that we're doing
+internally, and I'm excited for him to
+show off how the product works to
+everybody out there. So, Steven, thank
+you so much for joining.
+>> Yeah, I'm honored to be here. I've
+watched the show a lot, and so, it's
+it's really really nice to be to be on.
+Thank you for having me.
+>> Maybe to start, uh, tell people what is
+Paper.
+>> Yeah, well, Paper is a design tool. It's
+an agent-native design tool. And what
+that means is we use HTML and CSS as the
+actual rendering engine, and that makes
+it very, uh, easy for agents to use
+because they understand HTML and CSS
+really well. And historically, a lot of
+design tools have custom rendering
+engines, and those, uh, are a lot harder
+for agents to use. And so, you'll see
+higher token spend, slower times, lower
+accuracy. So, what we're building with
+Paper is basically it's a group of
+people. It's about 12 of us now. All
+designers and engineers. Uh, we were
+basically started this out of love for
+design, and now we're just trying to
+build the best design tool possible for
+this next era.
+>> Yeah, it's crazy to think you're only 12
+people because I hear about you all the
+time from everybody who's using you, and
+especially from so many founders that
+are just picking the design tool that
+they want to build and live in all of
+the time, and doing that from the ground
+floor being AI-native themselves.
+they're looking for the AI native tool
+>> Absolutely.
+>> that is going to work best. So, maybe
+talk about what was your inspiration for
+building Paper, and why were some of the
+existing tools that are out there not
+good enough for you?
+>> It really was born from a love of
+design. As I said, this was a I started
+as a solo founder, and it was really the
+side project that just kind of kept
+going. I had months where I was like, is
+anyone going to care about Paper? And
+then it was like, oh yeah, people do
+care, you know, this is great, it's
+really taking off. It was the thing I
+was going to do anyway. It was very much
+the thing I was going to do anyway,
+which I really believe starting a
+startup you should do that. You should
+do the thing you're going to do anyway,
+you should do the thing where you have
+founder market fit. And for me, this is
+where I had the strongest founder market
+fit, because I love building tools for
+creative professionals. It's something
+I'm going to wake up every day, and like
+I'm not going to have a bad day building
+creative tooling. So, that came first,
+even before the market or competitors or
+any of that kind of thing. And then
+looking around, it was like, well gosh,
+I mean, you know, we're big fans of
+Figma, you almost can't talk about
+design without saying, you know, Figma
+these days. They've done a lot for the
+design industry.
+They are they have a huge company now,
+and they're they're doing very well with
+enterprise companies. And we were
+thinking, well, maybe there's time for a
+new tool to focus on the designer, and
+just really spend a lot of time. There's
+so much change with AI agents. Can we
+build something that's agent native,
+building on HTML and CSS, and just build
+this, you know, next gen tool? And so,
+that's kind of what we're going after,
+and so far so good.
+>> Yeah, and what does that mean to be an
+an AI native agent native design tool?
+>> It's really about the fundamental
+technology. So, using HTML and CSS as
+the rendering engine, we actually did it
+to help with designer developer handoff.
+We were like, hey, if if the designer
+can have this constraint-free system
+where they it feels like a Figma or a
+Sketch, but by the way, it's HTML. They
+don't have to know that. That's great,
+the handoff will be better.
+It turns out, if you build a great
+handoff for humans, you've also built a
+great handoff for agents, because agents
+understand HTML and CSS, and it's in
+their training data. And so, when you
+ask an agent to work with a Paper file,
+it's literally just reading the CSS out.
+And agents know exactly what to do with
+it. You try to basically extend the
+agent with a visual interface. It's
+sometimes that I get it paper is a
+design tool, but it's also this visual
+interface for agents. We see sales
+folks, engineers, all kinds of people
+are using it because prompting isn't
+always the best input mechanism for
+agents. Sometimes you want to drag and
+draw and it's just faster to be able to
+do direct manipulation.
+>> Yeah, it's interesting because as it
+becomes easier and easier to build
+software,
+the figuring out what to build and
+getting inspiration for how to build it
+seems to be one of the trickiest pieces
+right now and one of the biggest
+bottlenecks. How do you think about
+using paper to be able to solve that
+piece of the creative workflow?
+>> We see there's more software than ever
+being created and engineering teams are
+moving so fast now. And I don't know how
+you feel about this, but I haven't felt
+like the software is getting better
+necessarily. I haven't I haven't had a
+great software experience in the last 6
+months blew me away. And so it's
+important for us like I grew up I'm like
+a fan of software. Like I love building
+great software. The best compliment you
+can give me is that paper is really
+great software. And so I want more of
+that for the world and so I want to help
+designers and people with taste keep up,
+you know, with all of the software
+that's being created. And so giving them
+a tool that can move at the speed of of
+prompting and of the agents,
+you know, rather than being like just
+pulled into an IDE or just pulled into
+prototyping but being able to still do
+the traditional design work at a at a
+faster pace. I think it's really really
+important.
+>> I'd love to see a demo. Can you show us
+how it works?
+>> Yeah, let's jump in. So it's a very
+familiar interface if you've used, you
+know, canvas tools.
+Sometimes I like to start with the
+visual things.
+So because we are using basically the
+browser to render, we can also render
+shaders really easily. And shaders are
+this basically WebGL
+animations that we build. This is called
+paper shaders. It's a library we put
+together. A fully open source, fully you
+know, feel free to use it for whatever
+you want to do. And the shaders are just
+so fun and brand designers love these
+because you can get all kinds of
+different looks. This is just one shader
+with different settings.
+And so you can do all kinds of stuff. I
+know at YC, you guys have been using
+>> We've been using these all the time. We
+love
+and I I think, you know, for us and and
+I imagine a lot of people out there,
+this is probably their first
+introduction to using paper. This is
+something that it feels very modern,
+cutting edge, that would have been
+really difficult to do a year ago.
+And then you guys have made this really
+simple and native to the product to the
+point where it's showing up everywhere
+because it's so easy to do it now,
+right?
+>> That was part of our hope was like can
+we can we make this more accessible to
+designers? Cuz if you're a designer and
+you're, you know, living in a
+traditional design tool all day, you
+want to create a shader effect. You want
+to describe how an AI loading state is
+working.
+And that's what I kept hearing was I I
+need to make loading states for AI and
+how do I do it? And so we just thought
+it'd be nice to give people these these
+animated effects that they can customize
+and, you know, not just use the out of
+the box ones, but you can get in here
+and like tweak things and make them make
+them your own and you can you can do all
+kinds of cool stuff. You can do blending
+modes, of course, to like create
+combinations. Um, and you can also,
+these have been really popular, is some
+of these more subtle effects. This is a
+halftone dots.
+And you can pull other things into the
+effect. So this is pulling the this what
+we call neuro noise into the halftone
+dots and you can try different things
+and and get different effects.
+Um, and we spent so much time. We
+actually studied literal paper to study
+the like the randomness of, you know,
+actual physical effects and we try to
+model that in code. And so I think it's
+one of the reasons our shader library
+stands out is we go to ridiculous
+degrees to make it to make it as good as
+we possibly can. And so brand designers
+really love this. So like, you know, one
+example is Quarter. I don't know if you
+you guys know the the Quarter posters.
+Um, they are really really cool
+posters that this this team makes that
+uh they do I think it's like earning
+reports.
+And they've transitioned a lot of these
+to be built in paper now because they
+can get this cool retro, you know, vibe
+that and really fast. So I love this the
+work they're doing is really cool and
+I'm I'm like honored that they're using
+paper to achieve some of these some of
+these posters.
+>> Yeah, it's really cool. We've used it
+for we have startup school and so Ev who
+leads design here at YC has actually
+created custom animated shaders with the
+YC branding with people's names on them,
+tickets that are you know, you can play
+with and animate when people get
+accepted and send it to them and it's a
+great experience for the person
+receiving it. It feels very thoughtful
+and intentional and highly designed and
+it's also creates something that's very
+shareable that people want to share out
+which helps to spread the word also all
+because of the design and because of the
+shaders.
+>> Really fast way to elevate the visuals
+and help it be a little more special.
+So, shaders are very popular with the
+brand designers. We also do this is kind
+of like a lesser known thing to paper.
+We actually have a really great image
+generation library where you can use all
+kinds of models all at once. And so, I
+don't know, we'll just do a thoughtful
+man staring at the moon illustration.
+You can imagine for a brand piece or
+whatever you're working on. And so, this
+will use four different models at once
+and you can quickly explore the
+possibility space of whatever kind of
+illustration you need to do.
+>> That's very cool. Yeah, so I see you
+have it set to variety pack there. Is
+that the thing that gives you the four
+at once?
+>> You can pick a certain model if you want
+to. They all have different strengths
+and weaknesses
+or you can do the variety pack and get
+we kind of rotate which models are in
+there just as we new models are always
+coming out
+and and it just lets you quickly explore
+and you can provide inputs into it. You
+can that's like you know, I'll copy this
+shader as a image and then you can feed
+the image the image into it and
+make this more colorful, please. So, you
+can do all kinds of different workflows
+combining these you know, things to
+create really cool graphics really
+really fast. Um
+Along the same lines, you can also
+vectorize. You can do this extract
+colors is really let's let's do this
+one.
+So, the agent made a really colorful
+thing and I can extract the colors and
+it just pulls out about and so I I
+explore ideas very rapidly this way. Um
+and generate new textures, things like
+this. So, this is kind of the brand side
+of paper. This is the graphics. And what
+we find is like all designers need to
+make brand assets. They need to make,
+you know, social media posts or whatever
+it is.
+>> Which is interesting also because, you
+know, I think a lot of people use and
+think of Figma as product design.
+>> Mhm.
+>> And um it certainly can do a lot of
+brand design element, but didn't start
+as much that way. And it seems like you
+can do product design and there's all
+these really cool tools to do a lot of
+brand design work, too.
+>> Yes.
+>> And graphic design, which which, you
+know, traditionally I think has been uh
+more difficult with a lot of these
+tools.
+>> Yeah, it's it's part of our values. We
+love both, you know? And so, I think the
+the product design is very interesting,
+but we'll always have the the brand
+design and the and the graphics, too.
+To be honest, the way we think about the
+shaders is um
+we spend our This is our marketing
+budget. We don't think of this as
+product development. We think of it
+Instead of buying ads, let's make this
+useful library for the world um and
+spend that effort and that money on on
+building the shader library. It gets a
+lot of attention. It works really well.
+Similarly, like we develop a font Paper
+Mono as a new font that we're launching.
+I'm really proud of. It's It's really,
+really good. Um and we we found there's
+no mono font that is just kind of an
+all-rounder that you can use in
+marketing, that you can use in code.
+Most of them are built for the terminal.
+And so, we wanted one that you can use
+as part of your brand. So, we made Paper
+Mono. It's launching in a couple weeks.
+That's marketing for us. That that, you
+know, instead of buying an ad, let's
+build a font. Better better for the
+world, right? So, Eva at YC was in in
+New York City at a dinner the other
+night, and she ran into someone wearing
+a Paper Mono shirt, which I thought was
+so cool.
+>> Cuz there's only, I don't know, a
+hundred of these in the world.
+>> Yeah, how do you get one of these? Yeah,
+well, we can get you one. We'll we'll
+send you one over.
+>> [laughter]
+>> Uh we want to set up a merch shop, you
+know, paper paper merch shop. But this
+is Paper Mono. And and we have a, you
+know, a great mini site launching soon.
+Uh we spent a lot of time on on the
+legibility of numbers, because that's an
+area that a lot of mono fonts really
+struggle with. We just think this very,
+very legible, very usable mono font.
+Um so, we're really excited about this,
+right? It's so fun. We get to do these
+things as as uh you know, just kind of
+part of our marketing, basically.
+>> You mentioned that uh the product
+started to help solve the uh
+design-to-dev handoff. Yeah. Um show us
+how you're able to do that in the
+product.
+>> Well, yeah. So, it started as, "Hey,
+this is code. This is literally a React
+component. Why don't we let you copy it
+as a React component?" And so, this
+shader that we're looking at right now,
+you can right click and copy as React.
+And when you paste it, you get the
+literal code that we're looking at. Um
+and so, this was just a really fast way
+of like, "Hey, the designers made this
+really cool animation. They've dialed it
+in perfectly. They're They're the
+designer, right?" And let's let them
+copy that out and ship it. And so, we've
+seen these take off all over the
+internet. Um people shipping these these
+uh React components. But, it goes
+further. So, anything that you're
+looking at in paper is code. You know,
+this frame with this box inside of it is
+code. And you It's basically a website
+already. And so, you can copy it as
+Tailwind, or you can copy it as React uh
+and and just grab out the the code.
+That's where we started. And that was
+pretty good. We already saw some people
+using it. Um and then in What was it?
+Last December 2025,
+>> the Claude code explosion happened.
+>> And I didn't think designers were going
+to be in terminals. I never thought that
+would be a thing we'd see. Uh but, we
+clearly did. And so, that that was the
+moment where we were like, "Gosh, we got
+to get onto the desktop." At that point,
+we didn't have a desktop app. So, it was
+like, "Gosh, we got to get onto the
+desktop. That's where things are
+happening now. Um local repos, designers
+have repos, they're learning GitHub.
+Let's be part of this explosion." The
+way we see it is kind of the new agent
+stack. And what I mean by that is you'll
+see, you know, I have Cursor, I have
+Claude code, you have multiple agents.
+Uh you have Paper as a visual way to
+communicate with the agents. And then,
+maybe you have a GitHub or you know, the
+code review. That's what we see builders
+using now. I mean, is that what you see,
+too? Like, the newest YC batches?
+>> Yeah, that's a lot of uh what we see.
+And and we even see a lot of uh that
+getting rolled into uh
+single apps. Our friends at Conductor,
+uh you can push code and merge code and
+and do everything that you need
+directly. Yeah, there we go.
+>> Yeah, I have Conductor up, too. Yeah.
+>> Directly from the app. And so, more and
+more, it's kind of being consolidated um
+into apps rather than having multiple
+discrete apps as part of the stack, too.
+>> That's what we see, too. And and
+Conductor and Paper are this like
+pairing right now that a lot of people
+in the community are using both
+together. I think it's so cool. I love
+Conductor. It's great great product. But
+we saw this cloud code happening, like,
+let's get on the desktop. We built an
+MTP server into our desktop app, and
+I'll give you a demo of some of the
+stuff it can do. Let's use We'll use
+Conductor for this. Why not? I'll just
+say, "Hey, Conductor, in Paper, please
+make a small test frame saying hello to
+YC."
+And I'll show you what it's doing. We'll
+get into more complex cases, but just to
+show you how the basic technology works.
+As the agent uses the MTP of Paper,
+which we'll put on the right half of the
+screen,
+um
+we give it tool calls, to like, "Hey,
+which fonts are available? What's the
+basic setup of this page?" And then it
+literally runs tools, like, write HTML.
+This is literally the you know, it's uh
+in JSON format, but there it's literally
+sending us HTML.
+>> Mhm.
+>> And
+the Paper engine is just able to take
+HTML. It knows what to do with it.
+There's there's no translation there.
+The agent writes HTML, Paper can render
+HTML, and you don't have to like switch
+back and forth between formats. What
+that does is it saves you tokens.
+It makes it run faster, and you just get
+less weird hallucinations. And this is
+really where the moment we took off,
+because people are doing design to code,
+they're doing code to design. I'll give
+you another example in Cursor. This is
+our actual Paper code base, and I'll
+just say, "Hey, can you put that
+colors.css onto the Paper canvas as a
+style guide?"
+So, this is our actual CSS file from
+Paper, the code base Paper, not the
+product. And Cursor is going to take
+that and then render it onto the canvas.
+And so, we see a lot of people doing,
+you know, auditing of their code base,
+what exists. You can do component
+architectures, ask for diagrams. And it
+really just it brings the design tool
+into the rest of the stack. We're so
+used to the design tool being over
+somewhere else, right?
+>> And having this wall between it. And
+this is like the design tool is now part
+of the entire stack.
+>> Yeah. It's kind of the the goal here.
+>> Yeah, I mean, one of the things that's
+always been broken with that handoff
+like you're talking about is designers
+would design a thing and then they give
+it to the developers and then maybe it
+wouldn't actually be built and shipped
+in the way, you know, the designer
+originally intended when they were
+working in the canvas.
+>> Yep.
+>> Um or even if it was, things would just
+get out of sync and the code would
+evolve and it would never get wrapped
+back into the design. Which and so it's
+what is the source of truth? And what's
+really nice about this is the code is
+the source of truth and both systems
+know how to work on that same code base.
+>> Exactly. Yeah, we we see so many teams
+maintain
+two copies of their design system.
+>> Yeah.
+>> And it's not a tractable problem to keep
+them in sync. It's impossible, really.
+And and so you have a lot of maintenance
+cost with keeping both of them updated
+and you just have accuracy problems.
+So what we see from the newer companies
+the more agentic builders, is they are
+treating the code base as the source of
+truth.
+>> Mhm.
+>> And, you know, we don't have components
+in paper yet. It's a common complaint
+like people want components really a lot
+and we're working on that. But you don't
+need them because your code base is the
+source of truth and you can kind of like
+summon things in as you need them. And
+we took that a step further too, we
+built a a Chrome extension where you can
+grab your live site and copy that into
+the paper canvas, which is um a really
+nice way to start from what your users
+are seeing and build on top of it and
+iterate.
+>> Maybe that's a good segue. Should we
+review some some user-submitted sites
+and then I would love to use that
+feature to be able to pull some of them
+into paper and make some tweaks on it
+and just see what we can live edit to to
+try to um improve some of the sites.
+>> I would love to. It's always my favorite
+section of the show.
+>> Okay.
+>> [laughter]
+>> Awesome, let's do it. So the first one
+we got here is Legion Health, psychiatry
+as low as $0 with insurance, online
+medication management for ADHD,
+depression, anxiety, bipolar disorder
+and more.
+Um I don't know. When I first look at
+this, I see the little pill up there at
+the top, and this kind of it makes me
+think this was just like a vibe-coded
+thing cuz it matches so much of the
+style that we see um that the agents are
+just spitting out.
+>> There's definitely like a fit and finish
+thing here. I think little things like
+how these these um these sections kind
+of like leave a little gap. The pill is
+very generic. I think overall though,
+the I can understand the value prop.
+>> Mhm.
+>> It looks very clearly, which I think is
+great.
+>> a big part of design too like can you
+comprehend what's going on?
+>> It shows the benefit over on the right
+of like being
+>> Being very happy in a field or
+something, [laughter] I guess.
+>> Yeah, you're having a great life.
+>> Yeah.
+>> Uh so, I think like those parts are
+working. I think it's more about just
+tightening up um here again, you know,
+it tightening up some of the design
+would really help the brand feel more
+serious, more elevated, a little more
+trustworthy, I think.
+>> Yeah.
+>> Um this feels, you know, I don't know if
+I trust this brand right now. Uh and
+this is a area where you have to have
+trust, right?
+>> Yeah, so what is the thing when you look
+at this that makes you not trust it?
+>> Some of the design elements is like the
+the alignment of things, the contrast
+choices. They feel maybe vibe-coded or
+like somebody didn't spend a lot of
+attention to this, and then your mind
+goes to what else don't they spend
+attention on.
+The one other thing is like this must be
+a YC company, but I don't see that here,
+and I would say that'd be a great thing
+to call out
+>> [laughter]
+>> as a little bit of social proof
+>> Yeah.
+>> or evidence. But like this is nice. I
+mean, there's a lot to like here. I
+would just I would work on the fit and
+finish a little bit. I'll show you Paper
+Snapshot. Paper Snapshot is a way to
+grab content from your live site. This
+replaces taking screenshots of things.
+So, we'll just grab this section cuz I
+think this is a cool one to work on. And
+we'll paste it into paper.
+And um these are all live sections,
+right? So, this is not a screenshot.
+This is actual uh stuff that you can
+come in here and edit, and you can like
+alt-drag and get another copy of it, all
+these things.
+Um so, let's ask the agent to work on
+this a little bit. And one of the things
+I like to do is actually just ask it for
+a bunch of variations.
+>> Mhm.
+>> So, we'll use let's uh Conductor.
+Hey Conductor.
+Uh this is using GPT 5.5. Can you make
+three new variations of my selection in
+paper
+focusing on the craft and alignment uh
+and contrast choices to elevate the
+visuals.
+>> You can do a lot of prompting, but I
+often find like simple prompting is is
+fine, honestly.
+>> What's really powerful about this? A
+couple things. Um one, I love this
+concept of just spitting out a bunch of
+different variations. It's the best way
+to get inspiration. And sometimes, you
+know, you have a sense of what you want,
+but you don't really know. And this is a
+great way to look at a bunch of things
+and go, I like that from this one. I
+like this from this one. And combine it
+and and make so much more progress so
+much faster rather than being stuck in
+that creative rut. And then the other
+thing that's really cool is you're able
+to just say, "Hey, the thing that is my
+selection on the canvas
+>> Yeah. paper.
+>> And it knows what that is. And now it's
+able to go to work on that, which is
+which is really powerful.
+>> I think I had the wrong selection there.
+Grab the uh the YC card.
+>> [laughter]
+>> Let me let me restart it there.
+One more time using my selection. Oh, I
+see what happens. It's it changed it um
+with the HD
+content. Um oh, actually, you know what?
+This is a good way to show another thing
+we can do. So, we can leave a comment on
+this frame
+and say, um "Please make three new
+variations of this content. Explore the
+layout for visual impact."
+And instead, what I'll do is I left a
+>> comment in paper
+>> Uh-huh.
+>> and I'll switch over to the agent now
+and say, um "Please address my comments
+in paper." There's only one. And this
+will be another way that you can kind of
+like target. It's you can imagine having
+a big design and leaving all of your
+feedback and then just setting your
+agent on it.
+>> Yeah. Letting it spin, you know.
+>> But we see a lot of folks are leaving
+these running like overnight.
+>> They're setting up loops
+>> Mhm.
+>> of of an agent just generating hundreds
+of variations. And it's actually a
+challenge for us to be like agent scale
+with our servers and everything. Like
+they're doing a lot more work than I
+thought they were going to be doing. Um
+and it's so cool. And they they now they
+come in and they curate, you know, they
+come in oh, that's a good idea. That's a
+good idea. Let me combine these things
+together. And it's kind of this new
+curation design process I think is
+really interesting.
+>> It's so cool to think about this world
+where you just go in, you leave a bunch
+of comments on the work, you go to bed,
+you wake up in the morning, and they're
+all either addressed or lots of
+iterations for you to choose from are
+just sitting there waiting for you.
+>> Exactly. I think it's really cool.
+>> It's a new world.
+>> I find that it'll do things that I know,
+but I wouldn't have thought of cuz I was
+too busy. And so it kind of like it lets
+me scale myself a little bit and have
+more time in my day because I can just
+set it on these tasks that are maybe
+more boilerplate or I just don't have
+time to do four things at once. And so
+let me set the agents on it to to go
+address it.
+>> So it's uh this is 5.5. It is working
+through ideas now and you'll see it
+iterate. It can take screenshots. So
+it'll notice things like that alignment
+isn't it's running right into each
+other. It'll fix itself as it goes
+through.
+>> Um
+and
+>> Yeah, that's cool.
+>> Okay, so it's actually spit back a
+variation here, but
+the alignment's a little screwed up
+there and it's still working. So it's
+not done once it gives you something.
+It's it's an iterative thing that's
+happening here, right?
+>> its work. Yeah, and it can do agents are
+getting better at this too all the time.
+For instance, I can see like the first
+shot it ran the text over the cards.
+It'll usually catch that and correct it
+or if it doesn't, you can just, you
+know, tell it hey, correct the the text
+overflow.
+>> Mhm.
+>> Um let me do this. Let's set to fit.
+And we'll pop back
+>> in conductor.
+Please address any text overflow
+issues. The other thing I noticed too is
+is the models are always getting better
+and they have different strengths and
+weaknesses.
+>> Mhm.
+>> And so I I often use fast models for
+demos like this and they tend to make
+more mistakes. And so, you know, if
+you're doing this for real, you're
+probably using something that's right at
+the cutting edge and those will deliver,
+you know, better performance.
+>> Yeah, what are your go-to models these
+days?
+>> So Fable is a wonderful, you know, I
+think that's probably the best visual
+taste right now.
+>> Yeah. Uh it's very slow. That's why I
+don't use it for demos. I use Cursor's
+Composer 2.5 actually a lot. It's a very
+good model for the speed. Quality is
+very good, very precise.
+5.5 is still usually pretty good
+balance.
+So, I jump around. I think if I need
+pure taste, it's it's the the Fable
+and and the Anthropic models in general.
+If I'm going for precision or I have
+like, "Hey, I have 100 artboards and I
+need a task to like go down the entire
+list." I might reach for the Composer.
+Uh it it just does a really precise job.
+I find Cursor's a really good harness.
+It's not too lazy. It'll often spin up
+sub-agents to get jobs done.
+So, I jump around a bit. So, here it
+gave me kind of like three different
+ideas, you know? And I think from here
+what I would usually do
+spend a little more time on exactly what
+I actually want out of out of it and
+then give it more direction. But, I
+might start branching. I might be like,
+"Ooh, I like this. I like, you know, I
+kind of like the list of this. That's
+actually very easy to read."
+I have kind of like
+the card layout of this actually like
+featuring one card and having some other
+cards to the side is nice. I might just
+start branching. I think the power of
+this is you can ask five agents to go
+generate five more of each, you know,
+and and kind of find one that really
+fits what you're going for.
+>> I think one of the things that's
+interesting is it gives you a lot of
+inspiration and ideas and then you can
+start branching and going down a path.
+But, it's still the models that's doing
+the design and it still has some of the
+hallmarks of the things that you see
+models do frequently, for better or for
+worse. And so, how do you when you're
+designing and you've got this
+inspiration you're like, "Okay, this
+list is interesting. I hadn't really
+thought of doing that. Maybe I want to
+go with that." How do you then make it
+more your own and get out of kind of the
+the standard slop that a lot of them
+will spit out?
+>> Yeah. Well, I have some like very
+specific rules I can share with you. One
+is that models love bold. They love bold
+styles and and really like try to pull
+your font weights back, you know, it's
+so tempting to bold things. Just try to
+pull them back as light as you can get,
+and it'll just uh magically look better
+designed. Another thing is um too many
+too many sizes. Uh models love having
+five, six, seven, eight different font
+sizes. Try to work with three. If you
+get down to three, so let's let's just
+try it real quick on this one. If we if
+we bring this down to um
+uh let's see, like a
+like a 500. Even that's maybe heavier
+than it needs to be.
+Um same here, like these don't actually
+need to be bold. This is such a tell of
+a of a this one up here, the care
+organized.
+Black is so heavy. Let's just pull that
+back, and suddenly it looks more
+designed already.
+>> [laughter]
+>> Right. Looks cleaner.
+>> It looks cleaner and more approachable.
+Black here, too. Let's just pull that
+back. Um these are really simple tweaks
+that like you can make. The contrast
+here is pretty good. A lot of times
+models screw up contrast. Um so I would
+that's another step. You can just make
+sure it's like, is the text readable?
+>> Right.
+>> Um these these little
+two, three, four. These are a little too
+contrasty for my taste. I would probably
+pull these back. They're supposed to be
+a supporting element.
+>> I just delete them? I mean, those are
+the kind of things where the models like
+to add numbers or little icons or things
+like that there. And yeah, it's really
+cool that you can just go through and
+delete it, and it just snaps everything
+else up rather than leaving a blank
+space there.
+>> Totally. Totally. Well, that's one of
+the powers of of of this tool in
+general, is Paper is a design tool
+first. It's a human design tool first
+that happens to be really really good
+with agents. And so that means you can
+customize whatever you need to do. It's
+you're not stuck with like the track
+you're on. You don't you don't prompt
+again. You can start reaching in and and
+changing things. Um so yeah, 100% agree.
+Maybe get rid of that one, too. The
+first thing I do is is try to get down
+to like three font sizes, and just pull
+all that bold way back. And you'll
+immediately get something that feels
+more designed and intentional.
+>> Yeah.
+>> Yeah.
+>> And then what do you do from here?
+Great, you've got the new section.
+You're excited about it. How do you then
+wrap it back in?
+>> Well, so there's a couple ways. You can
+you can right click, and um let me
+actually grab here. Uh you can copy it
+as React.
+>> Mhm.
+>> Um so
+that's kind of the long way, though. So
+I can get this out as code and paste it
+into my IDE. You can also just ask the
+agent um to pull this back. So, you
+know, I have the paper code base open,
+but you can just say um you know, please
+build my selection in paper into a new
+component in the code base, which we
+will not actually ship in paper. It can
+read everything that we just did.
+>> Mhm.
+>> And it knows my code base really well
+because it's the agent that I use. And
+so, it can actually pull in this design.
+It'll match the the coding styles that
+we have and the conventions that we have
+um and build it into the into the code
+base. And if it already existed, usually
+you'd already have this as a component.
+It would just update it, you know, and
+it's really really fast. So, we see a
+lot of people are just kind of like,
+this is the whole loop now. Like, there
+isn't even a handoff anymore. It's just
+like one person making these changes and
+iterating and and shipping, which is
+really cool.
+>> Yeah. That's really cool.
+>> Yeah, that's what's so powerful is um
+you know, it's easier than ever for
+designers to actually build and ship
+things
+uh in the way that they see it. Um and
+to to actually get that last mile and
+get something live and iterate on it and
+make it better. And it's it's tools like
+this that I think are giving people
+superpowers, which is uh it's it's a
+whole new world where one person can do
+the work of an entire team.
+>> Oh, absolutely. Yeah, absolutely. And I
+think
+even in teams we're seeing a lot of
+this, too. Um so, teams are speeding up
+using this uh but but I think the core
+of it is agentic workflows. Um if you if
+you're using agents to accomplish your
+work, you need tools that speak to the
+agents, you know, in a a really well.
+Uh and so, that's what we're, you know,
+focusing on.
+>> YC's next batch is now taking
+applications. Got a startup in you?
+Apply at ycombinator.com/apply.
+It's never too early, and filling out
+the app will level up your idea. Okay,
+back to the video.
+>> Sure, do one more?
+>> Let's do it. Here's another one.
+>> All right, we got SciTechs. Accelerate
+field infrastructure operations.
+Plan the process, execute in the field,
+and turn every action into one living
+knowledge base that you can monitor,
+automate, and just ask. Okay, I mean,
+right away, the first thing I notice is
+same super bold headline.
+>> [laughter]
+>> Uh just like you were talking about, um
+we've got some of those glows, the
+colors feel vibe coded, a lot of purple
+again.
+You know, tends to be another tell.
+The animation here looks cool. It's kind
+of like showing how the product works.
+So,
+>> Yeah, that gets my attention.
+>> Yeah. Also, I had no idea what it was
+until we got to the animation.
+>> Yeah, I still am not quite sure, but
+yeah, it's something that looks like a
+Kanban board, I guess.
+>> Yeah, and I'm getting the sense that I
+can have my information in such a way
+that I can monitor it more easily and
+then I think I would say that my
+feedback here for design is actually
+make it more clear what I'm getting out
+of it as a user.
+>> Well, it's interesting because then
+they've got this
+this image down here, this video that's
+playing. It's showing construction
+trucks and somebody with a hard hat on
+working on their phone and
+you go back up and it's like the field
+operations, yeah, field infrastructure
+operations and then it's like, okay,
+this is something with managing
+operations for involving construction or
+heavy machinery or something like that.
+But it's not obvious above the fold here
+cuz that that biggest clue right there
+is right below the fold.
+>> And I would love to see too like what is
+it actually doing cuz I can I have AI
+enabled Kanban boards already. So, what
+what is what is making it special for
+construction? I would love to see that
+as as part of the value prop above.
+But to your point on on some of the
+fundamentals like very, you know, the
+bold is here.
+This looks like it maybe an AI created
+some of it. Here's another great
+section. So, here's one that would be
+cleaned up a lot by having fewer text
+styles. So, you see like, you know, one
+size, two sizes, three sizes, four
+sizes. That's probably another one too.
+If you take that down to three, it's
+going to look so much better. So, let's
+just try that real quick.
+I'll even ask the agent to do it for us.
+And again, I use paper snapshot to grab
+it from the live site, paste it into
+paper as editable layers.
+And then we'll just say
+just name this one. Here's another way
+you can do it. You can say
+what is that is Scitex.
+Um, this one we'll give to you, cursor.
+We'll say, "Hey, cursor,
+please clean up the Sitex frame using at
+most three font sizes and no bold.
+Everything regular or below in weight."
+>> And so you named that frame Sitex and
+then you just gave it that context clue
+to the agent.
+>> Exactly. It's It's just different ways
+to kind of tell it what you want it to
+work on, you know? My favorite is
+actually leaving comments. Um, and I
+would The thing with the selection, I
+noticed earlier as I was jumping around,
+you tend to change your selection a lot
+and I'll accidentally like deselect. So
+I love leaving comments. I think it's
+just the best way to do things. But here
+we go. So it's starting to work on this
+one and it's going to
+a lot just, you know, bring bring back
+some of that vibe coded stuff. Now, in
+paper we actually give instructions to
+the model not to do these these common
+mistakes. And sometimes people go like,
+"What's your secret sauce? Like how Why
+is it better? Why does it look better?"
+And it's just like, honestly, all we're
+doing is these basic rules of typography
+and contrast.
+>> Yeah.
+>> And we we had the more senior designers
+on the team like distill their knowledge
+into the instructions,
+>> That's great. For the model.
+>> Yeah, even that is is very powerful
+though. Just putting those guardrails up
+around what the models are doing can
+just save a lot of time and energy.
+>> Yeah, like a an expert, you know, kind
+of guiding the model a little bit is is
+really helpful. In real life I might
+have just done this by hand because it'd
+be faster, but if you had an entire site
+that you wanted to go through for
+instance, using the agent is really
+useful. Or if you wanted to pull this
+back in your code base when you're done,
+the agent can do that for you.
+>> This already looks like a a huge
+improvement.
+>> Yeah, I think it's very simple changes,
+right? All we did was pull back the
+weight of the font and we consolidated
+how many sizes there are. To me it looks
+much more designed and more intentional.
+And so if we go pull the original again,
+like, you know, here's here's kind of
+the We'll pull up paper and do a side by
+side. Um, now and this is this is
+subjective, right? And I know somebody
+probably spent some time on this design
+and I think they nailed the content, but
+by pulling some of these AI tells out of
+it, If to me the the one on the right
+feels more trustworthy, it feels more
+intentional and more designed.
+>> It's interesting you talk about some of
+those AI tells.
+>> Yeah.
+>> What are some of the most common ones
+you've seen? What are the clues when you
+look at a page or you look at a design
+and you go
+somebody just spit out whatever the
+model spit out and called it good and
+moved on.
+>> One, I don't think you should do that.
+And it's so tempting as especially I'm
+sure if you're like a YC founder and you
+have zero time and you're trying to sell
+your first make your first sales, it's
+probably very tempting to use whatever
+cloud design spits out.
+I don't think you should do it because I
+don't think it helps you stand out from
+the crowd. I think it makes you look
+like one of a million other projects and
+it makes you look less intentional and
+less like less like you care. And so I
+think design is this great
+differentiator. And if you look at every
+great company of the last 10 20 years,
+like basically all of them have
+exceptional design, you know, and I
+think that there's I can't think of an
+example that doesn't, you know. And so I
+think if you want to be one of those
+really great companies, you have to put
+the care in on design and and make sure
+that you stand out. So AI tells, you
+know, we talked about the font we had
+the font sizes, those are huge ones to
+me.
+>> YC's next batch is now taking
+applications. Got a startup in you?
+Apply at ycombinator.com/apply.
+It's never too early and filling out the
+app will level up your idea. Okay, back
+to the video.
+>> You've probably seen the the side little
+side swoop of color like a two pixels of
+color on every card. Overusing cards in
+general, just 20 cards all over the
+place. Now, these are very easy things
+to correct, too. Just ask the agent, ask
+paper to create 20 variations of that
+layout and then pick your favorite one.
+Cuz it's going to look a lot more
+thoughtful than just a bunch of cards
+all over the place. What are some of
+your Do you Do you have other examples
+of
+>> Purple.
+>> Oh, purple. Yeah.
+>> of gradients, a lot of icons, and
+all caps head like tiny headers.
+>> tiny headers.
+>> Yeah. You know what a lot of it turns
+out to be widgets for widgets sake. You
+know, it's it's not something that's
+actually trying to communicate something
+important or valuable to help a user
+understand what the design is trying to
+communicate. It's just there to fill up
+space is what a lot of it feels like.
+>> It's like an insecure designer. The
+agents are very insecure and they want
+to like fill it out and there's like
+lots of little ones and twos.
+>> Yes, exactly. Like why do you need that?
+Well, I don't know. It looks like it
+anchors the corners on all those cards
+better or something, but like does it
+actually communicate anything? Do those
+numbers mean something? No, they don't.
+Well, we should just get rid of them
+then.
+>> Totally, totally. I think a lot of
+design is deleting. You know, it's like
+>> Yes.
+>> It's it's kind of
+>> Nice to overbuild and then pull it back.
+Um but a lot of avoiding the agent look
+is pulling back.
+>> It's hard when, you know, the model
+spits something out and then you've got
+to go in and edit it and you have to
+say, "Oh, that headline." and describe
+it and all this stuff versus when you
+can just go in and select it, hit the
+delete button
+>> Yes.
+>> and everything snaps into place. It
+feels like you have so much more control
+and the effort required to get it to a
+more thoughtful place is way, way, way,
+way less. And that I think is incredibly
+powerful that that doesn't uh force
+people to compromise on speed, but they
+can still get something that looks
+really, really great and stands out and
+doesn't feel like the model has just
+spit it out.
+>> Sometimes we think about this as the
+best tool for the job and sometimes it's
+prompting and sometimes it's dragging,
+you know. And and some you don't want to
+use the wrong one. That's that's no
+good, right? So
+>> Every Vibe Coded app has light mode and
+dark mode.
+>> [laughter]
+>> And it's the kind of thing all MVPs, all
+first you know, it's like
+nobody would ever build that is like the
+first feature that they want to launch.
+>> Right.
+>> It's just that you get it for free and
+the models love to do it and so that's
+why everybody has that, but rarely is it
+the thing that, you know, is worth
+spending time on or including in your
+design. And so that's one of the big
+tells as well.
+>> And is it actually good? You know, I
+think a bad dark mode is another another
+big one, right? Where it's like it's
+literally using black instead of, you
+know, or just reversing the colors or
+things like this, yeah. So so Wes had a
+great tweet recently showing the four
+the four horsemen of the apocalypse,
+which is the uh yeah, you I mean we
+talked about this.
+>> Yeah.
+>> That's
+probably just delete that if you have
+that. You you get rid of that, you don't
+need it. This one, the all uppercase
+little kickers, uh probably don't need
+that.
+>> With the extra letter spacing in
+between.
+>> Totally.
+>> Yep.
+>> Yeah. This was like me when I was
+learning design when I was 14 years old.
+I was like, "Yeah, space the stuff out.
+It looks great." Yeah, this is a good
+one, the badges with the extra little
+icons.
+>> Yeah.
+>> A lot of pills, a lot of icons.
+>> Yeah. And and yeah, and of course the
+purple gradient. Yeah. You know, linear
+made this style great and then I think
+it got encoded into the models for the
+next, you know,
+>> Yeah, I mean and that's one of the
+things that's interesting is
+in isolation, these things are not bad.
+It's just when they're overused and you
+see it all the time, to your point, it
+doesn't stand out.
+>> Yeah.
+>> And it looks sloppy. Design is always
+evolving, the standards are always
+evolving, the baseline is always
+evolving, and you always have to be stay
+ahead of that. Otherwise, you know, you
+just you look like an average thing and
+the average thing is not exceptional and
+that's not something people are excited
+to use.
+>> And I think it's hard to build a great
+company if you have a mediocre
+presentation to the world.
+>> It even even impacts who you hire and
+who's attracted to your company for
+recruiting and the talent you can, you
+know, attract. So, it's worth being
+intentional.
+>> All right, let's take a look at Maridata
+here. Pay like a local via QR codes. A
+global wallet that unlocks local QR
+payments across Asia and Latin America.
+Um okay, so we've got a bunch of flags,
+which I think indicates um lots of
+countries.
+Um it's a payments thing.
+And I get a little nervous. A payments
+thing that looks vibe coded.
+>> Yeah, again, the the credibility of your
+brand is really important, especially if
+you're dealing with finances.
+Um here's another example of like pull
+up the content, you know, get your good
+content above the fold.
+I kind of like the energy of this site,
+even though some of it is a little it's
+a little too wild. It's a little too all
+over the place. It's sloppy. But I can
+tell it has this like it's trying to
+suggest this this uh global feeling,
+which I think is really cool.
+Before we Oh, I love this. How it works.
+>> Yeah, this is cool.
+>> Get that up, too. You know, I had to
+scroll pretty far to get there.
+>> Yeah.
+And And this just looks a lot cleaner,
+more professional, also.
+>> It does.
+>> Which makes me trust it more.
+>> Absolutely. So, before I I ran this one
+through Paper real quick before we came
+on just to All I asked it was actually
+to pull back and just just create create
+a a foundation for this site that is a
+little more professional and a little
+more trustworthy. And we used 5.5 on
+this, and this is kind of what it came
+up with.
+And I actually think in this case, um it
+lost a little of the excitement
+>> Mhm.
+>> of the original design. But that's where
+you're in a design tool, and now you can
+come in and bring that back yourself.
+>> Yeah.
+>> But I do think this gives you a little
+bit more of a foundation. Again, way too
+much text.
+>> Yes.
+>> Too much text.
+>> Pull back on some of these things.
+>> Um but I think it gives you a little bit
+more of a foundation that And again, you
+can come in and delete some of the
+vibe-coded stuff. Less is Less is more.
+That's what I would try to do with this
+site is is keep the excitement, um keep
+this kind of like international
+>> Mhm.
+>> like that. It's It's unique. But, uh you
+can't go so far, you know, maybe this
+text gradient is a little too wild and
+and doesn't doesn't feel super
+trustworthy. But I do I do like the the
+value prop, and I understand what it is
+for the most part pretty quickly, which
+I like.
+>> I like that they've got a QR code in the
+bottom right.
+>> Which is part of the product, right?
+It's like
+>> Yeah.
+>> Yeah.
+>> Which is cool. That's something that I
+haven't seen very much before.
+>> It makes me want to interact with it.
+It's inviting.
+>> Yep.
+>> Yep. The overall feeling, the vibe is If
+we can make it a little more
+trustworthy, uh but I like the
+excitement, I like the energy, I like
+the invitation that I have.
+>> Yeah, it's almost too easy to miss it
+down in that corner, though, too, cuz,
+you know, you're so used to seeing the
+chat with us box down, and you just
+assume there's a bunch of things that
+you should ignore.
+>> [laughter]
+>> That are unless you have a problem, like
+that's where you look. And I don't know,
+maybe they should bring that QR code up
+to the main area and say, "Try it now."
+>> Spit in the in the hero.
+>> Yeah. Yeah.
+>> I do I feel like this hero could be
+working a lot harder for that. Cuz when
+I when I start getting down here, I'm
+like, "Yeah, this is good. is solid." It
+seems to get more trustworthy the
+further you go.
+>> Mhm. Yeah, I it is interesting your
+point that, you know, at the end of the
+day the models are the ones that are
+generating the design um when you use
+them to generate the design. And you're
+kind of at the mercy for how like what
+they've been trained on and how they
+like to design.
+>> Yes, yeah.
+>> And so what's important is using the
+right models and the those models
+getting better at design, which will
+inevitably happen over time. And then
+the next thing that you need is just
+more control over it quickly.
+>> Yeah.
+>> And so to have that control, to be able
+to edit it and make it more in your own
+vision, is actually the really powerful
+missing piece here that I think is is a
+lot of what paper is providing right
+here.
+>> The agents can speed you up. They can
+save you a lot of work, and they can do
+tasks like translation or resizing for
+you. But I we're big believers in the
+human element of design and and how
+important that is. And so we're trying
+to create a tool that lets humans work
+really fast with agents.
+>> Do you think uh
+the agents can learn taste the same
+>> [laughter]
+>> can?
+>> They'll get better at things like letter
+space the little tactical things will
+get better
+>> Yeah.
+>> um over time. And I think what I'm
+encouraged by is a model like Fable
+seems much more thoughtful.
+>> Mhm.
+>> It feels like it actually put some
+choice some thought into its decisions
+compared to previous models. Um and so I
+think that is a piece of design, is that
+thoughtfulness.
+>> Yeah.
+>> Uh now, do I ever think it's going to
+replace a human making these design
+decisions? No, no way. Um because a lot
+of design is actually a very human task
+of like decision-making in an
+organization.
+>> Mhm.
+>> It's showing people comps and being and
+people can be like, "Oh, not like that.
+I don't like that." The role of design
+is is you see the pixels at the end, but
+the role of design in an org is like
+decisions and and stakeholders and
+bringing in requirements and problem
+space, and those are not things that
+agents are have any skill at really. You
+know, who knows over time. They're going
+to get smarter and smarter and smarter,
+but I just think humans are just such an
+essential piece of building stuff that
+stands out right from the crowd.
+>> Yeah, it's interesting. I was I was a
+very similar conversation with someone
+who leads design at a multi-billion
+dollar design-forward company
+about there's a thought process that
+goes through a human's head where
+they're reacting to something and a
+criteria they're evaluating and it's
+very implicit for us as humans right
+now. And the question is can you
+verbalize what those things are?
+>> Mhm.
+>> Like what is [clears throat] the process
+of you deciding whether something is
+good or not or looks good or not or
+>> Very subjective.
+>> hits hits the bar or not. Can you
+literally go through and quantify all of
+that and teach that to a model to the
+point where it has taste like a human
+would? And then the question becomes
+well if all the models were able to do
+that, does everything just look the same
+again?
+>> [laughter]
+>> And then you always need the humans to
+be drive to finding the next thing
+that's actually going to be new and
+stands out and pushes the limits more.
+>> We see that even within human pre pre
+models as trends take over. You know,
+everyone kind of looks like linear for a
+couple years and then somebody else
+figures out something, right? I do think
+the models will get good at tactics.
+They'll get better at not making
+everything bold. You know, and I think
+that that's great and that'll be really
+that'll be really nice. But the just the
+thought, the product, there's so much of
+design again, it's like was this showing
+value proper or not? That stuff's more
+important. This site for instance that I
+think is a little too wild, maybe it's
+really important for them to be really
+fun and exciting. Maybe that's what
+their market needs.
+>> Mhm.
+>> You know, and so maybe it's a higher
+order thing for them to be very
+exciting and kind of model
+>> Mhm.
+>> decision can it you know, maybe with
+enough information you could start to
+get there, but I think we're pretty far
+away from that. Yeah, maybe 10 years
+something like that. Maybe maybe I don't
+know, maybe I'm too pessimistic. Maybe
+it'll come sooner. But I still see
+humans as just this essential piece of
+the of the puzzle.
+>> Yeah, we certainly hope so.
+>> Yeah, let's hope so. [laughter]
+>> I'm curious how how are you guys using
+agents internally at Paper?
+>> In some ways we use them a lot and then
+in other ways we use them we're kind of
+like dinosaurs in some ways. Like like
+we don't have agents in our Slack and we
+don't have we use agents for coding
+quite a bit, but we still read our code.
+We read all of our code every single
+line.
+>> Every line.
+>> Usually multiple humans reads every
+single line.
+>> Why is that?
+>> Well, one is design tools are really
+hard to build. You know, you can't write
+code design tool at the level of a Figma
+today. Maybe you can eventually.
+And so it takes a lot of a lot of really
+precise, really careful work. It's very
+multi-dimensional in terms of the
+systems. And so we just have to be
+really careful. And we want to make sure
+our experience, you know, designers need
+120 FPS. It needs to be fast. It needs
+to work every single time.
+And the agents just aren't there.
+>> Not yet.
+>> The other thing is a small elite team,
+right? So 12 people keep the talent bar
+extremely high. I think when you're
+building companies, that's how you
+should try to do it these days.
+And use the agents to accelerate the the
+people.
+But if you have less people, you have
+less communication burden, you have less
+of these other costs to go through. One
+example of how we use agents though is
+is Agu, our brand designer. He's a
+brilliant brand designer, great at
+visuals. He codes a little bit, but like
+I would I don't think he'd call himself
+like a programmer. And he made our
+entire website in about a week before
+this last launch.
+>> Wow.
+>> Including shipping it, including all of
+the animations.
+And he designed everything in paper. And
+this is the kind of design you wouldn't
+want to do this with prompting, right?
+You need this
+he has he has shaders in the background
+subtly coming through these motifs.
+He did everything in paper, and then he
+just prompted. And this was, you know, 6
+months ago now, so different models.
+He just prompted the animations on top
+of his of his paper file. He was like,
+you know, take take my paper designs,
+turn it into a code base. This is a
+Next.js site, and put it together for
+me. No one else looked at this. So Agu
+did this end-to-end in a week. Because
+he's a designer, he puts in these Easter
+eggs. There's little like fun extras.
+>> And it's all just interactive.
+>> It's interactive. And this is something
+he would not have done. He wouldn't have
+had the time. I'm sure he could have,
+you know, skill-wise he could have got
+there, but like he wouldn't have the
+time to do this.
+So I think that's really, really cool.
+And and so I think a lot of times
+it shows up more not in our core
+product, where we're actually pretty
+human-based still for precision reasons.
+But in all the other stuff, all the
+videos we need to make, all the
+marketing site, all of that other stuff
+where we can, you know, have agents help
+us help people go faster.
+>> Yep. So we do yeah, quite a bit of that
+and then of course the coding agents,
+you know, we we do use cursor
+extensively, we use cloud code
+extensively, we use bug bot for our PR
+reviews, which has been really helpful.
+It's a little too pedantic sometimes,
+but it's still catches catches bugs,
+which is good. There's a little bit of a
+FOMO right now with with agents. So it's
+like, oh every company is shipping
+without looking at their code. Are you
+are you going too slow, you know?
+We are kind of taking the approach that
+quality software takes time.
+>> Mhm.
+>> And we have competitors that have every
+single feature.
+But they don't have the attention or
+people don't care. And for whatever
+reason, whatever that is is like people
+want paper to be better. They don't want
+the competitors that have every single
+feature to be better. And I think that's
+because we care and we're putting in
+that precision and that care about these
+things. So even if we're moving a little
+slower,
+people still care more about it and so I
+think that quality matters. So
+thankfully.
+>> My sense from talking to a lot of
+designers is that you guys are almost
+building kind of a
+groundswell
+movement. Like a cult movement of people
+that are now using paper as the new cool
+thing that a lot of designers are using
+and it's it's the new modern way to
+work. Was that intentional and what are
+the things that you're doing to try to
+get more users, to grow, to get some
+mind share? Like you seem to be one of
+the only companies Figma obviously has
+built this huge behemoth and gone public
+and you know, all the Fortune 500 uses
+them and and all this stuff, but it
+feels like you've started to to crack
+some of that. Certainly within certain
+user types. And how have you gone about
+doing that and and what's been most
+successful for you there?
+>> Yeah, a huge part of that is is like
+being very values aligned with the
+market.
+We we didn't have a product for the
+first year and we still got to about
+25,000 Twitter followers just by talking
+about our values. You know, just go on
+podcast be like I really like design. Do
+you like design? We then we get into the
+topic and talk about typography or or
+whatever. Being values aligned with your
+market, they will forgive so much about
+your product missing things. They'll
+wait for them to come out. They'll root
+for you if they can tell you're
+authentic.
+You know, and if you're building design
+software, it really matters. It really
+matters. Maybe not for all software, but
+for design software, usually best
+product, most authentic product wins.
+And so I think for us it was it's just,
+you know, again, company of 12 designer
+and engineers and just live our values
+and and people really resonate with
+that. And by the way, the product is
+really good, too. I think that that
+part's important. You got to get there.
+Um but, you know, I think that's that's
+part of it. And then there's market
+clock. Every company company. Hopefully
+we have this problem someday. Every
+company eventually goes up market and
+you just stop being as cool when you do
+that, you know? You're selling to
+enterprises. You're not you're not
+underground at the cool events, you
+know, anymore. So, um I I I'm really
+honored that we are part of the
+community. And to your point, like I
+think you saw, you know, Ramp has been
+releasing the the data of actual Ramp
+subscriptions on their credit cards.
+Yeah. And if they released an AI you can
+chat with about the Ramp data. And if
+you ask it about design tools, uh it's,
+you know, Figma obviously. Um Sketch is
+there. And then Paper is is right there
+with Sketch. And so we're the first
+company since Figma's come out to like
+make a dent in that market at all, you
+know? And it's growing very quickly. Um
+which is really encouraging. It's really
+exciting cuz you don't know when you
+start a company like how it's going to
+go. You have no idea. Like I said, there
+was months where I was like nobody's
+going to care about this.
+>> [laughter]
+>> And to now have like so many cool
+people, um people are way cooler than
+me, that care a lot about Paper and are
+like wearing our merch and stuff is like
+so much fun to see. And honestly, it's
+the best part.
+>> That's really cool. And this is not your
+first company. This is your second
+company, right? And um it seems like
+even before you had a product, you have
+gotten yourself out there and your
+vision and your values and you become
+the ambassador and that's what people
+were buying into before you had a
+product and certainly in the early days
+of of having a product and that's what's
+been successful is you. Um and getting
+that out there. And how is that
+different from you, you know, you built
+another company before this and like
+contrast the the two?
+>> Well, so my first company Modules was
+working on design and developer handoff.
+>> Mhm.
+>> And we built Radix UI along the way. It
+was like one of our side projects that
+just kept going. And, you know, Radix
+became this default React component
+library.
+>> Mhm.
+>> One was this was pre-AI. So, you know,
+everything was harder.
+Designer-developer handoff was harder.
+Two was we really listened to both sides
+at once and we got very confused.
+Because designers want engineers to
+change and engineers want designers to
+change and like they will tell you the
+other team will use your software. Like
+you can't build software that way. And
+so we we learned some hard lessons about
+making something people actually want.
+Uh and then I think I've been able to
+apply uh at Paper. But, we did make I
+mean the Radix has amazing product
+market fit. We just didn't see a way to
+build like a venture scale business
+around it. And so we thought let's let's
+just make it free and give it away and
+then, you know, come back uh with
+something next time. And um so that's
+been cool. I mean that worked out really
+well. Uh we sold this company to WorkOS,
+which is an amazing auth and identity
+company. We use WorkOS um for Paper. And
+then a couple years after that I just
+wanted to start back into creative
+tooling again.
+>> And are there any lessons that you took
+from that experience that you're
+applying this time?
+>> You can way overcomplicate product
+building. You know, the make something
+people want is a great phrase. And and
+you really
+a lot of times when you with your
+product it's like what does my company
+need next? What would be like the best
+thing that possibly could happen to my
+company right now? At the beginning for
+us that was like being part of the
+conversation, having Twitter followers.
+Well, let's go do things that get
+Twitter followers. Let's go on a
+podcast. Let's talk to users and then
+represent their values outwardly. So,
+you know, a lot of times it's actually
+very simple. Uh and I think we make it
+too complicated and we're trying to have
+these brilliant strategies for our
+companies and it's like what do you need
+next and just do the most
+straightforward thing you can possibly
+do to get there. And you know, and and
+don't be scared to do things that sound
+hard, you know, obviously you got to you
+got to do them. So, that's the
+philosophy we've taken a bottleneck
+first huge huge philosophy I really
+believe in. Like for us right now the
+bottleneck is early adopters are using
+Paper.
+Um the people that are more, you know,
+maybe not an early adopter type are very
+used to what they're doing now. And
+they're missing features like comments
+and components. And so now our
+bottleneck is actually features again.
+And so now it's like well that's what we
+got to go do next. And and it release
+that bottle bottleneck to the business.
+Another just like a tactical thing is
+just like talking to users every day. So
+so important. Um I had a rule the first
+year of the company I had to talk to a
+designer every single day and I did it
+all the way through the year. Um and I
+that was so useful cuz I learned just
+how like when you when you start making
+the company and the product you just
+have a different perspective. You can't
+help it. You have personal knowledge.
+And so just staying rooted in user um
+user conversations is really important.
+>> Yeah, it gets harder and harder to do
+that as the company grows and scales
+also because there's so many other
+things that are vying for your time and
+pulling you in different directions and
+that seem important um or here on fire
+in the moment. Yeah. But really it's
+those core fundamental things of build
+your product, talk to users, and you
+know, exercise or whatever you need to
+do so you don't go go crazy doing the
+first two things. But that's the core of
+it uh for the life of the company,
+right? And that's it. And so it's cool
+to hear that you've done that from the
+very first day and I'm sure it is
+something that has been uh instilled
+culturally in your team now
+>> Yeah.
+>> and that everybody is talking to users
+at at this point.
+>> Oh yeah. Yeah, that's when people
+onboard it's like you yeah, you have to
+be in the Discord talking to to people
+or in the Slack. Uh it's really really
+important. And it not everyone's
+comfortable. Maybe they've come from a
+bigger company where they were told they
+can't talk to users and you know, it's
+like no, get in there. You can't screw
+it up. And you just you just learn so
+much. And I think it guides your
+decision-making. Your decisions are
+really important uh in a company. You
+can kind of look at like successful
+companies of like you can trace their
+decisions backwards in time of like oh,
+that was an inflection point. That
+decision was really good.
+Um and so I think
+having an informed employee base. Like I
+can't make every decision in the
+company. Even at 12 people there's no
+way I could do that. And so if you can
+have your employees be really informed
+about users and and what they actually
+want, um you'll have good decisions
+being made all over, you know, all all
+over the place. And I yeah, it's really
+important.
+>> What do you think is next for design?
+>> Well, I think a lot of design isn't
+changing. Again, in orgs it's like the
+function of design is still really
+important um as a as a way to explore
+problem space, competitive analysis,
+executive uh you know, stakeholders,
+things like this. We're not seeing that
+change at all. And so, you know, that
+function of design I think is is
+sticking around.
+If anything, I think we're going to see
+more because there are more companies
+and there's more software to be made.
+So, we're seeing just more and more
+design need in the world. I do think the
+tooling is going to accelerate because I
+think we just need to be able to keep
+the quality bar up at a pace
+um
+that is, you know, keeping up with the
+engineering, with the product teams.
+The software will ship whether the
+designer gets a chance to make it better
+or not. It's just kind of like a reality
+of of the competitive landscape. So, how
+do we help make sure that the designer
+can be part of the conversation and keep
+up in that in that shipping process.
+But, you know, I think in general
+sometimes I think there's less change
+coming than people people think actually
+because I think that a lot of design is
+a very human problem and the the pixels
+at the end are like the output of the
+process, you know.
+>> It's the medium at the end of the day,
+right?
+>> Exactly. Yeah. Yeah.
+>> And what's next for Paper?
+>> Well, so we are, like I said, we're
+building out some table stakes,
+components, comments, bottleneck
+reducers.
+I'm really excited. Something I've
+learned from talking to users is people
+are building all these prototypes all
+over the place and they're they're
+ending up on Vercel or their HTML files
+and people don't know how to leave
+feedback on to them, how to even find
+which one someone's talking about. So,
+what we're going to do is we're going to
+put basically you can like iframe things
+onto the paper canvas
+as a place to keep your prototypes kind
+of like organized and then people can
+leave comments as they're used to doing
+on the on the prototypes. So, when
+people ask us if we're doing
+prototyping, it's like, well, kind of.
+We're going to help you organize your
+prototypes and and have feedback cycles.
+And I think this is going to be a really
+big unlock for companies that are um
+you know, building playgrounds for the
+designers to vibe code in, but then it's
+kind of like this messy result and they
+need some tool to help them organize
+that. So, that's a big thing we're going
+to be working on the next, you know, 6
+months or so as we're building out the
+table stakes that that people expect to.
+>> Amazing. Steven, thank you so much for
+coming on and sharing paper with us and
+all of your design insight that I know
+has been hard-earned over the years and
+the companies that you've built and and
+the incredible places you've worked. So,
+thank you.
+>> Yeah, thank you so much for having me.
+>> That does it for this episode of Design
+Review and we'll see you on the next
+one.

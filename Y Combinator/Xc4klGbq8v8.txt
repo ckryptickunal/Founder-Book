@@ -1,0 +1,1716 @@
+Title: Max Hodak: Average Is Not Good Enough
+Video ID: Xc4klGbq8v8
+URL: https://www.youtube.com/watch?v=Xc4klGbq8v8
+Channel: Y Combinator
+Published: 2026-08-07T21:30:32Z
+Duration: PT57M2S
+Views: 33655
+Likes: 735
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 1700
+
+============================================================
+TRANSCRIPT
+============================================================
+
+My name is Max Hodak. I'm the CEO of a
+company called Science. Um, we're going
+to talk a little bit about
+infrastructure at startups. So, I've
+spent most of my life working on brain
+computer interfaces. This is almost 20
+years ago now. Um, I started my career
+as an undergrad working in a lab at
+Duke. This is from our very first
+Society for Neuroscience conference. The
+experiment I was working on back then
+was if you put electrodes in the brain
+of a monkey and then give a monkey a
+joystick and you record the neural
+activity as it's playing a game. If you
+make the joystick say go the cursor go
+sideways when the when they push forward
+on the joystick which does the brain do?
+Does the brain represent the joystick or
+the screen or something else? Um there
+turns out that there are neurons that do
+both. At our company science our main
+product is a retinal prostthesis. It's a
+chip that's implanted under the retina
+in the back of the eye to restore vision
+to patients that have gone blind due to
+loss of the rods and cones in their eye.
+Um on the left, this is one of our
+patients on the cover of Time last uh
+last November. Um on the right, you can
+see there's a picture of the implant
+with the glasses. So every little one of
+those hex grids that you see on the
+implant is essentially a solar cell. So
+when this is implanted under the retina,
+the patient wears glasses that have a
+camera that sees the world and a laser
+projector that projects onto the
+implant. And wherever the when it
+projects the image in infrared, wherever
+the light is absorbed on the implant, it
+creates a little electric field to
+excite the retina, thereby directly
+bypassing the dead rods and cones to
+stimulate um this visual signal back
+into the into the retina at the first
+possible opportunity. And this is this
+is pretty this is a pretty cool product.
+It finished major clinical trials uh
+last year. It's been in three clinical
+trials now. Um was covered in the the
+BBC last fall. One of our patients
+finished a 300page novel with the device
+and mailed us the book. But I'm I'm not
+going to talk about this work for the
+most part for the next 30 minutes. Um,
+we're going to talk about infrastructure
+and lessons. I mean, this is startup
+school. Maybe there's some things that
+you'll find useful in your company. So,
+Picasso uh was noted for saying that
+when art critics get together, they talk
+about form and structure and meaning.
+And when artists get together, they talk
+about where to buy cheap tarpentine.
+This is also often phrased as amateurs
+talk strategy, professionals talk
+logistics. a quote from a guy that the
+United States named a tank after.
+And there are so there are surprisingly
+few lessons that are really broad across
+companies. Typically the experience of
+running a startup is you're just looking
+at kind of a continual stream of facts
+that hit your desk every day and you're
+trying to make the best local decision
+that you can in the for those facts and
+if it looks inconsistent over weeks
+that's usually the way to go. But there
+are a couple topics that keep kind of
+very repeatedly coming up that are kind
+of universal experiences at least for uh
+deep tech companies which is the thing
+that I I kind of know most of my
+experiences in not just pure software.
+Um and so there are things that keep
+coming up like buying things. Um so your
+first reaction might be that if you do
+software you don't need to buy things.
+It will be me alone in an empty room
+with some computers writing software and
+this is going to be how we build a
+company. And if this is you, yes, you
+have figured out a reason why VCs love
+funding software and why they've done so
+much of it for the last 25 years. But if
+you do anything other than pure
+software, you will be buying many many
+thousands of things. This is us uh about
+I think six months into the company. Um
+and it's a little tough to make out.
+There are a lot of computers. There's
+also a bunch of microscopes and other
+electronics and 3D printers and resin
+and PCBs. You're buying things really
+continuously. And so it might sound
+really obvious, like a really basic
+question like you like you surely just
+buy things. Um, so for you as the
+founder, you can use a credit card.
+Credit cards work great. You can buy
+lots of things with credit cards. You
+can also send a wire transfer. The
+question is, how does your 17th employee
+buy things? Do they have a credit card?
+Let's say you hand out credit cards to
+all of your employees and tell them to
+buy what they need. So, you're going to
+you start getting messages like this.
+Um, and
+the and you think like, you know, I care
+about burn. We have to spend
+efficiently. I'm going to approve all
+the purchases as they happen. And you
+get a message like this. And then you
+think, $3,000 sounds like a lot for a
+power supply. Do we need a $3,000 power
+supply? What if we get one from an
+auction? Like, in 3 days there's an
+auction. maybe we'll get it for half
+off. We can get it in two weeks. But
+then you also remember that you've hired
+some very highly paid and talented
+employees. And are you saying they can't
+get the tools that they need? That
+you're spending $100,000 a week. If you
+wait a week to get a power supply half
+off, you have certainly dwarfed any
+possible benefit from getting it. And
+then, you know, and if they were
+anthropic, they're not going to be
+getting hassled over a $3,000 purchase.
+They're just going to have a power
+supply. And so what you realize is not
+only is this very hard to keep burn
+under control, but also it's just this
+is the inappropriate place to exercise
+spending review. Spending review has to
+come earlier. You have to have some
+concept of budgeting. It's not really
+about even just the payment rail of
+buying a thing. It's how do you
+understand the bucket of money that you
+have. And I don't want to be making the
+$1,500 power supply versus $3,000 power
+supply trade-off. They need to
+understand the resources that they have
+so they can make trade-offs within those
+available resources. So, you set up a
+procurement system and now your highly
+paid employees are spending their days
+clicking around B2B enterprise ass. And
+it turns out that from the time that
+they place an order for a power supply,
+it takes two weeks to arrive because you
+can't actually buy that with a credit
+card. You have to set up an account with
+the vendor and deal with insurance and
+certification paperwork and get an
+account set up. And they have to
+generate a quote so that you can
+generate a purchase order so that you
+can generate an invoice. And now
+everyone's upset that things are taking
+super long to get ordered. And and so
+this actually really requires like a
+like this is a living organism. I like
+when people move from academia to
+startups, I think one of the reactions
+that people often have is like why are
+there people whose job there is to
+purchase things? Surely I can just buy
+things. But absolutely there are people
+whose job is to buy things. From the
+time that you submit the order, going
+back and forth with the vendor to set
+all of this up is very timeconuming and
+it can easily stretch out. It takes like
+active management to metrics to cause
+this thing these things to go fast. And
+I think part of why like when we think
+about this, we have a a reputation I
+think of often being very quick and
+people are unsure like how does that
+happen? It is mostly not that we are
+smarter. It is infrastructure like this.
+That is the the like how speed is built.
+So now people can buy things at least
+you can keep overall burn under control.
+Now you know that you're not going to
+exceed some large amount of spending
+every month. And then you realize that
+that wasn't really the problem. You
+could figure out your runway. The
+problem is attribution is when you're
+doing whether you're working on rockets
+or cars or drugs or brain computer
+interfaces or um all like anything that
+involves dealing with the real world,
+you realize that one of your other
+problems is that you're buying stuff in
+bulk. Like we buy gases from argon to
+silene to nitrogen
+um to resins to media and then we we buy
+these things in bulk and we part them
+out to lots of different experiments.
+Um, now when you do this, it breaks this
+attribution is pretty difficult. And so
+if nobody knows how much an experiment
+costs, like every time you like grow up
+a new cell line or every time we make a
+new a new probe in in the fab, how much
+does that loop cost? Nobody knows.
+Therefore, experiments are free. Um, it
+doesn't cost dollars. It costs media.
+And media comes from the fridge. And we
+want to know what how do we price a
+thing that we make? Like we make a bunch
+of things in volume in the foundry. We
+want to know what can we sell that for?
+That requires all of these spreadsheets
+to get an estimate of the pricing. And
+there's opinions in here. Like these are
+not all facts like how much do you
+include rent? How much do you include
+depreciation of the tools? This comes
+with opinions about your future volume.
+All of this is required to understand
+not just what you should charge but also
+what you're spending and what your
+runway is. And so to deal with this,
+we've built a huge amount of internal
+software at the company um for for
+managing this. One of the first things
+that we did is almost everything that
+you can do in the company is a button
+somewhere in the software. We call it
+Helix, including stuff like purchasing.
+But because this extends all the way
+through to manufacturing where we have
+every step that happens in the lab in
+the database, we can correlate all of
+this through and get this information.
+And these like again, so it turns out
+that for every iteration of a wafer that
+we make, in this case, for this
+protocol, it cost $40,000. This is like
+a lot of money. And you like you might
+have raised let's say you raised $20
+million in a series A you think you need
+four years you need 20 people in my
+experience about half the burn is
+headcount so that's so let's say 20
+people that's probably three three and a
+half that's like three million a year in
+revenue that's half of your burn um you
+need 20,000 square feet about $4 a
+square foot that's another 750,000 to a
+million a year so now suddenly you've
+got really it's a $3 million a year
+research budget for three or four That
+goes way faster than you think. But
+again, your team see saws um just saw
+that you raised a larger amount of money
+than they've ever seen in their lives
+and they think that the $3,000 power
+supplies are free. Um this is pretty
+important. This is a thing that actually
+this infrastructure actually determines
+success or failure in many companies.
+Another universal experience is hiring.
+Um so hiring also I think really
+separates the successes from the
+failures. Startups usually don't come
+out of nowhere. I think the best
+companies in my experience come from
+what might be characterized as scenes.
+There's like a moment that enables a new
+company to be born and there's a bunch
+that comes together that really creates
+this like unique nucleation for the new
+company. And once that moment is passed
+because some some company has has
+executed on it or just the time has
+gone, it's kind of tough to get back.
+And so the the best hiring comes from
+within your network, people that you've
+worked with before, you know are good.
+Um, and the extended version of that is
+to hire from the network that produced
+the startup. There's usually some
+extended scene that the thing came out
+of. There's a bunch of co-founders that
+come together out of that crystallize
+out of that, but then there's an
+extended community and that should
+really be the target of your initial
+marketing. Um, these are the people that
+already speak your language, already
+familiar with it, but there's never
+enough of them to really fill an entire
+company. You have to hire from the
+general public. Um, so there's different
+companies hire in different ways.
+There's different processes that make
+sense to different founders. this is the
+thing that really is going to be matched
+to who the founders are and how they
+view the world. Um, and there's no one
+right answer, but this is a thing where
+you need a really defined process. There
+is no right answer, but a wrong answer
+for sure is not having something that
+you do very religiously as a company.
+Um, and this is an area where reality
+has a surprising amount of detail. It
+seems really straightforward like, oh,
+you'll you like have a job board, you'll
+get applications, you'll review them.
+This very quickly becomes a huge huge uh
+drag on the rest of your team. You could
+easily spend almost all of your time
+recruiting if you're not doing it
+efficiently to get a to suboptimal
+outcome. And so for us again, we've
+built a lot of software to do this.
+There are four steps to our process. The
+first is that we've built a a software
+interface for users to apply for
+applicants to apply online where we can
+capture some structured information from
+them upfront um including the ability to
+apply to multiple jobs um in parallel.
+And so we originally used a a commercial
+applicant tracking system. We've moved
+this to our internal tools. Um, and one
+of the reasons we did that is because
+this allowed us to do something that we
+couldn't find in any of the commercial
+ATS's. So, when we the first step of our
+process when users apply is it goes to
+companywide voting. Um, this is a
+heavily redacted uh version of of the
+internal interface, but hopefully you
+can make out the idea of what's going on
+here. So in the the the applicant's
+resumes in the middle, we collect a
+little bit of other structured
+information, but the most important
+thing is on the the far right you see
+this there's a question like how would
+you vote for this candidate? Are they
+known good, strong, yes, yes, no,
+strong, no. And so when a person
+applies, the system picks out seven or
+eight current employees that it thinks
+look something like their backgrounds
+and it pings them all for votes. And so
+we can distribute the voting across a
+lot of the company for this initial
+review, which is essential because if
+you're doing anything cool, by the time
+you get a couple years into it, that top
+of funnel is overwhelming. And if you
+place any in any small group of
+employees or any one person in the way
+as a bottle bottleneck on this, they
+will absolutely bottleneck the whole
+rest of the organization. And um it's
+also you want to I think average over
+judgment. I think there's different
+people that are better or worse at
+hiring and have different perspectives
+on what you're looking for at that
+stage.
+And the so in the beginning as the
+founder you can meet with everybody and
+you should that will take you quite far.
+You should definitely interview
+everybody for quite a while but even
+beyond that you still want to you want
+ways to average over the judgment of the
+rest of your team and voting mechanisms
+are usually a really good way to do
+that. So these are these are our actual
+statistics over the last couple years.
+So 17% of the top offunnel applications
+that we get go to a phone screen. Again,
+that first initial app voting stage is
+drawn from a companywide pool so that we
+can get fast we can get the voting done
+quickly within usually 24 48 hours and
+not bottleneck that on any small group
+of people. The phone screen is again
+drawn from a companywide pool of people.
+This is not team specific. This is a
+companywide bar really looking for three
+things. Judgment, horsepower, and
+agency. Like if we throw you into a
+complex vaguely defined situation, will
+you tell tend to make good decisions or
+will you create diplomatic incidents?
+Like do you have the like do you meet a
+just a basic hurdle for technical
+competence and like demonstrated ability
+to learn things? And do you are you
+effective at causing the world to look
+like you wish it were? Like how how does
+your life look or not like whatever
+ambitions you had? And like do you have
+specific ambitions for your life? And so
+this we can distribute over the entire
+company and then half of those tended to
+go to homework. Um ideally we'd be using
+entirely AI resistant homeworks now. So,
+our favorite types of homeworks are
+things that um don't saturate, have a
+very high ceiling, and are naturally
+scorable to two or three numbers that we
+can put on a plot so that when we get
+responses to homeworks, we can just plot
+them all and it's very obvious when
+someone has really beaten the PTO
+frontier and we otherwise don't care
+whatever AI models they use like that
+can make you better. um in cases where
+that's not possible uh for homework
+right now we've we're doing increasing
+number of technical phone calls or pra
+on-site practical tests but ideally we
+would have an AI resistant take-home uh
+for each of these had a really
+interesting take on the AI resistant
+homework where they've had a couple
+tasks where there's like it's like uh
+the GPU kernel optimization like what is
+the minimum number of cycles you can get
+it down to and this is naturally
+adjusting like the hurdle for a while
+was I think it was sonnet's performance
+if you could beat that then you could
+get an interview I think that there's a
+bunch of ways to construct a resistant
+homeworks.
+And then by the time you get to the
+interview, it is important that you have
+a from there reasonably high like at
+least 25% conversion to an offer because
+otherwise it is just you're going to
+waste too much of your time doing
+on-sites for employees that don't
+convert. You can't get that down. Um,
+and so this is there's four steps to
+this. Initial voting, the phone screen,
+homework, and a full interview. And this
+is as far as like from what my
+experience,
+this is the minimum set of information
+that we need to make a like a full
+decision. And I don't think that there's
+a a more efficient way to elicit this.
+Like I don't think there's a smaller
+number of steps that we could use. So
+this has become our process. So you're
+hiring people, they're coming into work,
+they're starting, you're incurring
+payroll. Um, but how do you know that
+you're good at this? Like eventually
+you'll get feedback from the market on
+how good you are at hiring because the
+company will work or it won't. Like your
+team will be capable of accomplishing
+the stuff that you've set out and
+they'll help you course correct through
+that. But this is a very very long
+feedback and it's very poorly behaved
+loss function. Um and so it's kind of
+your job as management to design
+synthetic gradients that allow you to
+find out earlier and along the way how
+recruiting is going and if you need a
+course correction.
+A conventional answer to this is the 360
+review process. So once a year you send
+out a lot of forms, you gather up a
+bunch of feedback uh around each
+employee, you set up a bunch of meetings
+with HR and with the various managers
+and you can do the conventional
+performance review cycle. Um which based
+on my experience is like this is a a
+very disruptive process that doesn't
+tend to surface issues that you don't
+already know about but haven't acted on
+because you knew that thing was there.
+But firing people is hard and so pe like
+people drag their feet on it and this
+this is kind of reinforcing things you
+already knew and it only happens once a
+year. Um maybe twice a year if you split
+up the company into into cohorts. But I
+mean I think really what would be nice
+to have is a signal that gives you this
+kind of natural feedback from across the
+company about who's good and who isn't
+and what's working and what's not in a
+way that is largely unbiased and is more
+continuous. Imagine if you could get
+feedback kind of every few weeks on
+where there are issues and where things
+are going well. And so the process that
+I had developed um which I've now used
+for the last really six or seven years
+is every few like every couple weeks
+every four to six weeks it's not that
+often people around the company get
+pinged with a question through the
+software through Helix and it's there's
+a form but really there's only one
+question that really matters which is
+knowing how this person turned out would
+you vote again today for their hire?
+It's the same questions we use on the
+initial voting. Um, and so you'll get a
+prompt to say like this person you work
+with like how would you vote for their
+hire today? And then what we can do is
+we construct a graph over the company of
+all of the feedback. And so the basic
+intuition is that like your vote should
+be weighted more highly if everybody
+else has rated you highly. And the
+astute may notice that this looks a lot
+like the original Google algorithm page
+rank which is an idea called IGEN vector
+centrality where you can create a weight
+over the over the graph by looking at
+how the graph points together. This is a
+little bit different than actually
+literally I vector centrality but it's
+very similar and so we call this
+technique IGEN reviews and I've become
+convinced that this is more or less the
+right way to do performance reviews.
+There's some other tricks that you have
+to apply to get this to work really
+well. For example, um we apply dropout
+where we'll run a thousand iterations
+where we'll randomly remove some
+percentage of the edges each iteration.
+And then when you look at the
+distribution of scores that you get out
+of that, if you see additional peaks,
+for example, this is a clue that there
+could be voting clicks that need further
+investigation. But as a whole, this is
+it distributes the judgment across the
+company, updates more or less
+continuously with about a month lag, and
+gives you just way better insight into
+what's going on really around the
+company.
+So this is and it and it also totally
+gets rid of that kind of traumatic super
+heavy once a year HR driven performance
+view process. Um so the the the point of
+this talk is not the spec is not that
+you should use this in particular
+although you should consider it and if
+you're if you actually roll this out at
+your company um you can email me and
+I'll send you a doc with more specific
+tricks on how to actually get this to
+work well. But the the real theme of the
+talk is that rate of iteration separates
+success from failure. And if you can get
+a fast iteration loop, that really
+overcomes many other things you're going
+to run into. And this effect is so
+severe. I mean, if you can learn one
+thing every week and there's a
+competitor that's learning a thing every
+month, they will they will never matter.
+Um o overwhelmingly if there's you're
+looking at different way like two
+different approaches to solve a problem.
+If there's one that allows you to
+compound like in half in a much shorter
+amount of time than the other, even if
+the other approach has significant um
+like redeeming characteristics, you
+should really consider going with the
+shorter iteration cycle because the
+compounding effect is just so dramatic.
+And so speed determines success and
+failure and speed is determined by
+infrastructure. This is driven by really
+boring sounding things like how well do
+your purchasing and recruiting and
+spending processes work. This is as
+important as how well do you understand
+understand the object level technical
+content of the thing that you're
+building. I see companies founded by
+just like stellar pedigree scientists
+and engineers all the time that die on
+the vine because this execution is tough
+to follow through and your job is to
+organize. It's like it's it's uncommon
+that these deep tech companies that fail
+because the technology doesn't work.
+They fail because once you end up with
+this organization of hundreds of people
+and thousand hundreds of thousands of
+square feet of physical infrastructure,
+you haven't built the systems to manage
+that. becomes unwieldy and then you
+can't make like you can't connect
+strategy to execution.
+Um so we we heavily lean towards things
+that have shorter iteration cycles um
+kind of etc like all else equal. Um but
+that doesn't that's not a blanket rule
+like there are no blanket rules in
+startups. You're looking at each new
+fact pattern that comes in as its own as
+its own unique thing and then making
+decisions that make sense to you. And
+one of the harder lessons as a startup
+founder, one of the harder things I
+think to to really deal with is the fact
+that you cannot delegate your judgment.
+As as the CEO, you must always make
+decisions that make sense to you, no
+matter how much momentum or inertia
+alternatives seem to have. Um, so in
+school, if you're let's say there's like
+somebody sitting next to you and you
+cheat on the test by looking over at
+them, you'll your grade will like all
+else equal, your grade will be dragged
+towards the average of the class. That
+is not good enough to succeed in
+startups. you have to do things that
+like are at the long tail that you're
+you the successful companies are the
+exceptions by becoming an average that
+is not good enough. And so um in order
+to succeed your judgment has to be
+differentiatedly good. Now the reality
+might be that you don't know if your
+judgment is good yet. And so um one way
+or another you will have to find out and
+that means making decisions that make
+sense to you even when you are totally
+alone in that realization.
+um that is the only way to get to to the
+really big outcomes. Now, it's not that
+often that everyone else will think one
+thing and you'll be like, "You're all
+totally wrong." But it is a really eerie
+feeling like you'll get to a point four
+or five years into the company when
+there's hundreds of millions of dollars
+on the line and there's some really high
+stakes decision and only you can make it
+and then you will look around for advice
+because like in the beginning you'll get
+lots of like there's a bunch of things
+that are easily advised or easily
+figured out but you'll get to a key
+point years in and you'll look for
+advice and there is nobody to ask and at
+that point you must have a really good
+sense of the limits and boundaries of
+your judgment. That is a very eerie
+feeling and you have to be able to
+commit to it regardless. Now, the good
+news is that in my experience, it's very
+difficult to actually get stuck. Um, you
+can get yourself into trouble and the
+action space is always larger than it
+appears. Um, you can kind of no matter
+what happens, there's usually like when
+you get like I think it's very easy to
+try and anticipate all kinds of problems
+that you'll never actually run into. Um,
+and then you go and do it and then you
+get to a point where the system like you
+run into some real limitation. There's
+always a hundred ideas about how to make
+it better. This is sometimes phrased as
+action produces information. Um, this
+idea is is I think much deeper than it
+sounds. Like the so in physics there's
+this there's this quantity called
+action. And so if I throw a ball and it
+follows a ballist like a like a
+parabolic trajectory that trajectory is
+totally set like when it leaves my hand
+unless it gets blown by wind some other
+like action is exerted on it. It will
+follow this ballistic trajectory which
+is in this sense like kind of an
+information minimizing trajectory. I can
+say it just followed it was ballistic
+that totally determines it. If it
+something else happens you had to spend
+some energy time to cause that cause
+that to happen. And so when whenever you
+exert like action into the universe that
+creates information like in a like in a
+very fundamental sense and whenever you
+get stuck like you have to you have to
+start like injecting action producing
+entropy. Um and this is this produces
+some fairly counterintuitive effects.
+Like I've seen situations where the
+company is stuck in a deep local minimum
+and there's someone who is great in many
+ways but it's just the wrong fit for
+what that company needs at the time and
+removing them even though they
+individually are very strong unblocks
+the company and allows it to kind of
+enter a new phase. Um when you're when
+you get stuck you have to start doing
+things. And so all the thing underneath
+the the object level content of what the
+product you are building is you've got
+this you have all these support systems
+kind of the company like how the company
+does purchasing and accounting and
+recruiting and performance reviews and
+budgeting and safety and quality is the
+operating system of the company and that
+has a huge impact
+on how far you can take it. So
+speed is determined by infrastructure.
+Speed determines success and failure.
+You need to put more thought into these
+into getting these foundations right. If
+you do them right at the beginning,
+everything else is much easier. If you
+get them wrong, you'll end up like
+spending $5 million a month and feel
+like you have very little control over
+it. Um and then you're forced into into
+coarser levers and harder decisions. Um
+thank you for coming to my TED talk.
+>> [applause]
+>> Okay.
+Do you have advice for people trying to
+choose between industry and academia,
+starting a company now versus getting a
+PhD first?
+So, it really it depends on specifically
+what you're doing. If
+if your field only exists in basic
+research, then getting a PhD might be
+very reasonable. Um
+the
+so when things really start to work um
+like if
+20 years ago the best computer
+scientists were at CMU and Harvard and
+50 years ago the best rock like if you
+wanted to work on rocket engines you
+were at NASA you were at a university
+you're at University of Maryland or
+somewhere and now they're at now the
+best computer scientists are at Google
+and Apple and um and OpenAI And the best
+rocket scientists are at SpaceX and Blue
+Origin and others. So when a field
+really starts to work, industry can just
+marshall such larger levels of resources
+and can just move so much faster. Um,
+and so I think a question has been why
+has academia stayed so relevant in the
+life sciences. And it's just the reality
+is that it doesn't work that well for
+most things. Like humans just aren't
+that good at drug discovery. And so if
+your if your field is really only in
+academia, then it can make total sense
+to get a PhD. But
+um
+I think you know a lot of
+it is uncommon that startups don't get
+the technology to work. It is more
+common that they can't organize the
+human organizations to accomplish their
+goals and learning that is also a skill
+set. The only way to learn it. I think
+it's an oral tradition. You have to do
+it. And so if the choice is working at a
+really high performing company adjacent
+to where you want to be versus getting a
+PhD, I'd probably recommend the company.
+But it's not an absolute rule and it
+really depends on the field.
+what counts as evidence of exceptional
+ability to you? Um, anything that
+concretely you can put your finger on
+that separates that person from their
+high school class. Um, like what is you
+like if you have your average high
+school student? We just like want some
+concrete fact that is that
+um
+I mean ideally the the best evidence of
+exceptional ability is are winning at
+legible competitive games. So this could
+be being a like a chess grandmaster. It
+could be winning design, build, fly or
+formula SAE competitions. Um there's a
+bunch of Silicon Valley deep tech
+companies that are basically built out
+of Formula SAE winners from college. Um
+people that just spent their college
+experience building things and racing
+them and finding out. I think you have
+to have that type of competitive
+feedback. It is tough to know if you're
+exceptional um without having some
+legible competitive game.
+How do we hire engineers now? Do we
+still use leak code or do we have better
+ways? If we allow AI use, how do you
+understand the skills of the applicant?
+Um, so we've never I don't think we've
+ever really used leak code. Maybe some
+other people on the team do it in
+secret, but I've never asked it. Um,
+so software
+in particular,
+it the rewards to horsepower are so
+great that it really is just it's a
+field that attracts really smart people
+because it gives you this very rapid
+feedback. Like if you think about like
+there's a lot of really smart people in
+biology, but when you have a biological
+idea, it can take you many months to
+find out if it's a good one. In
+software, if you have an idea, you can
+often build it in a couple hours or you
+can get feedback within days. And so it
+has this really addictive feedback loop
+kind of like high frequency trading that
+just draws in really smart people. Um
+and uh and so we look for kind of over
+your life what signals do we have that
+you have done something interesting like
+it's it's uncommon for someone to get
+into their mid20s without having without
+there being some thing in their
+background that they went out and sought
+out and did. Um
+but it can but it this is like such an
+open-ended criteria. Um it can really be
+anything. The we don't we increasingly
+more directly to the question we
+increasingly don't directly evaluate
+programming. We evaluate try to evaluate
+thinking. So this is design questions
+like if we give you a domain how do you
+break it down? Can you understand the
+decomposition of the problem clearly? Um
+it's really measures of like can you
+think clearly rather than can you write
+code?
+What did you take away from your
+experience at Neurolink?
+So the question of like should you go
+get a PhD? I don't have a PhD. I spent
+five years running a company for my CEO
+at Neurolink. Um that was I mean there's
+one of the biggest lessons I think is
+that there are few really generic
+there's no generic algorithm for how to
+succeed at a startup. There's no like
+set of like five bullet points that can
+be conveyed that if you just like turn
+the crank your company will be
+successful. It is a long series of
+judgment calls. And so the most
+important thing is that those filters
+are tuned really well. And so the I
+think the most one of the most valuable
+things for me at Neurolink was I was
+working with someone who has empirically
+excellent judgment. Like we could get
+into trouble together and there'd be all
+like something would happen and there'd
+be two possible solutions that would
+make sense and I'd go to him and say
+like is it option A or is it option B?
+you'd look at and be like, "Oh, it's
+definitely option B. The problem would
+never recur." And having been in those
+situations where I was trying to make
+these bets kind of with stakes attached,
+looking forward in time, not getting
+feedback until later with that advice
+was incredibly useful for train for
+fitting those filters. And I don't know
+that there was really a shortcut. And I
+think that just hearing the stories when
+you're not there making the like really
+thinking about it because there are real
+stakes and then getting that feedback um
+that that is an essential part of the
+education of an entrepreneur that I
+think many people underrate. I think it
+is really worth working for a a company
+that has an excellent culture that you
+respect before jumping right into your
+own into your own startup. It is
+relatively uncommon that startup
+cultures get rediscovered entirely from
+first principles. Usually they're passed
+down as as again oral traditions because
+there's a founding team that worked at
+another company which worked at another
+company and so they inherited it or in
+some cases where there's really a
+breakout where there's just some market
+dislocation that really enables a team
+kind of out of nowhere to build it.
+They'll often get it from the VCs but
+it's working with the people that have
+that judgment so that you can get that
+like you can get that reinforcement
+learning as it's long series of facts is
+really important. Um,
+could BCIs or neural interfaces help us
+figure out what consciousness actually
+is? How? Absolutely. Um, so
+if the end of the artificial
+intelligence quest is super intelligent
+machines, um, I think the end of the BCI
+quest is conscious machines. Um, there
+the brain is composed of ordinary matter
+arranged according to the rules of
+chemistry, only things found on the
+periodic table. It seems tough to
+believe that there's like some new
+physics going on in there. And so
+there's we we're looking for some
+mapping between the substrate activity
+and the phenomenal content. Now, if we
+had a tech if we had a magical BCI that
+allowed me to see the instant state of
+every neuron in the brain and and drive
+them, I think we'd figure out
+consciousness pretty fast. I don't think
+I think this is a practical problem, not
+a philosophical problem. And uh but to
+prove it but first of all that practical
+problem is real and we'll have to do the
+stuff in humans and to prove any of this
+we'll have to do it in humans. I think
+the it is possible that uh you could use
+a BCI to prove it. We have some ideas
+about how to do those experiments but
+they are um
+they're still a few some number of years
+off right that things going into humans
+now are are not designed to to study
+consciousness but I do think that that
+is further down this path.
+What should I study to contribute to
+BCIS?
+The
+[snorts]
+this really depends on your background.
+Um there neural interfaces are a very
+interdicciplinary problem. It uses
+everything from uh stem cell biology to
+materials and micr fabrication to um to
+software to animal behavior to surgery.
+Um so there are many different entry
+points in it. Um one of the things that
+we found is that it's better to have a
+smaller team that can fit more of the
+problem in their heads and then compress
+it together. Um, contrast this to how
+academia usually handles
+interdisciplinary problems where they'll
+have an interdisiplinary center that
+pulls in very deep verticalized experts
+who are kind of meet at the center. And
+the problem is that they're all speaking
+different languages. And so it's often
+hard to really like even when they can
+communicate, typically you end up
+shipping the interfaces of those
+departments. Whereas for us, if we can
+kind of hold the problem in the head of
+a smaller number of people, we can shift
+around where the bottlenecks are.
+Specific example of this is our protein
+engineering group has been able to
+develop much more sensitive like much
+better proteins for some things that we
+need to do which has allowed us to relax
+some electronics requirements. So if we
+have uh so specifically we have proteins
+called opsins that allow us to make
+neurons light sensitive so that if we
+shine light on them we can fire a
+neuron. Um the problem was that you
+needed to hit a neuron with a lot of
+light to fire it which means that you
+can't have that many light light sources
+because it gets too hot. So, we've been
+able to make the protein more sensitive,
+which means that we can have more LEDs
+because each one can be dimmer. And so,
+we can we've turned this electronics
+problem into a biology problem that
+allowed us to relax those constraints.
+You don't get that as much when you have
+these interdisiplinary centers where
+there's like one group focused on one
+thing, there's another group focused on
+another thing. Um, and so I would say
+being being able to have a broader
+perspective of more of the problem is
+really valuable. And then just have like
+really the as deep and clear an
+understanding of this as of the system
+as you can get. I think there's no
+substitute for being hands-on. It
+doesn't really matter like the you want
+some hard skill to get you in the door.
+Software, electric, electronics,
+mechanical, materials, something and
+then from there I would try to learn as
+much of it as you can. Um
+what doesn't AI replace in scientific
+research?
+Where are humans still necessary if
+anywhere? [snorts]
+Um,
+we we still definitely need humans. Um,
+and in scientific research in
+particular, I mean, it's tough to
+predict like AI is clearly advancing
+very rapidly. I do think that you need
+to think about how to have your company
+be AI native in the sense that every
+like you want you want to gather all of
+the context all the stuff happening in
+your company and be able to make that
+available efficiently to agents because
+those are clearly a big part of the
+future. So for us in Helix really
+everything goes in there and one of the
+reasons that we did that was because not
+just is it powerful to have everything
+in one database to link together
+purchasing to quality to batch records
+and manufacturing so that we can trace
+stuff more efficiently but also so that
+we could give it all to to agents. Um
+and so we found them to be a a
+multiplier for the team not a
+replacement. Um
+the three biggest areas that AI has had
+an impact for us so far are um like well
+first of all coding I mean that's like
+now basically all this like I don't I've
+written a lot of code in my life I don't
+think I've looked at the source very
+much the last six months um that is
+getting really good um regulations. So
+this is
+so if you're doing anything really
+interesting, you're going to end up
+regulated and then you'll probably end
+up dealing with these things called
+quality systems. And so a quality system
+I think triggers a lot of scar tissue
+for people because it's it's just the
+the quintessential heavy bureaucracy.
+Slow everything down. But the idea of
+quality itself is actually not a
+problem. The problem is that humans are
+bad at reading and interpreting these
+things. And so when we make a product,
+one of the things we have to do is
+identify all of the standards that might
+apply. And there's standards for
+everything. There's standards for like
+how the lithium-ion batteries plug into
+a PCB. There's standards for electrical
+insulation of the boards. There's
+standards for shipping label like the at
+some point you'll have to take your
+shipping packaging, print a label on it,
+and put it in a vibe box and show that
+the the corners of the label don't curl
+in a way that might cause it to detach.
+And so we you hire regulatory experts to
+go find all of the standards that might
+apply, make a list of them, and then
+have a spreadsheet which is like all of
+the evidence that you comply with all of
+the standards. So you have this this um
+this thing can take many many months.
+Historically AI has totally transformed
+it. I mean we can very quickly look up
+all the standards. We can very quickly
+generate the evidence tables. And I
+think that um to the degree that there's
+kind of over I mean there is we
+definitely need to deregulate some
+things but I think that the combination
+of AI and regulation is is a better fit
+than people think and you can use it to
+smooth a lot of stuff. Um where the
+regulations are written in blood and
+largely good ideas it's just hard for
+humans to do it.
+Um,
+why build your own infrastructure
+platforms rather than just buying them?
+I mean, you can't really buy these
+things. There's no there are ERP systems
+out there, but there's no company that
+like loves their ERP system. Like, I
+don't know there's anyone who's really
+like, I want to spend more time in
+Netswuite. Um, and
+on the contrary, there are a bunch of
+examples now of companies that grow up
+around a piece of software that's really
+fit just for them. like YC famously has
+a lot of internal software that I think
+really makes YC work. Um Facebook also
+very famously invested heavily in
+internal tools and now has um like I
+think gets a lot of efficiency from
+that. Um SpaceX and Tesla internally
+have a pretty giant piece of software
+called Warp Speed that runs a lot of
+their manufacturing and R&D processes.
+And so when one company grows up around
+like a harness fit to it, it can be very
+powerful. It is powerful in a way that
+the software that you can buy isn't. Um,
+but this requires you to really look
+into the future because certainly,
+especially at the seed stage, this is
+not the thing that you would think you
+should be focusing on and historically
+it has not been. I think this is a thing
+that has changed with agents. The fact
+that you can vibe code this now makes it
+a reasonable thing to think about.
+Historically software has been so
+expensive, you would have had to buy it
+and that's what everybody did for a long
+time. That was I think a worse world and
+that world has changed and so now there
+are better options available. But like I
+said, so like we previously had used a
+we used greenhouse. Um greenhouse
+required us to have a small number of
+people as a bottleneck at that at that
+first funnel stage. Um replacing that
+with software. We we were able to
+explore voting mechanisms and fairly
+detailed voting mechanisms that can that
+can make smart inferences about who
+would know about it know about an
+applicant. Things that you can't really
+do with the commercial software. And so
+for a lot of these processes, you should
+think about how you want it to work for
+you. the
+it it matter these are human
+organizations these human processes that
+have to be staffed and if they aren't
+done routinely will atrophy and there's
+things that make sense for different
+teams and founders in the way they view
+the world and think about it it really
+is all very different and but if you
+build a thing uh for that works for you
+and then you like bake that into the
+company so it like when you put
+something there it stays there it can be
+very very useful
+what changes should we expect in the
+as BCIs start to work and get widely
+adopted, do intelligence differences no
+longer matter.
+[snorts]
+So there's this meme that BCI is an
+artificial intelligence adjacent story
+and there's some of that like eventually
+like if AI is building super intelligent
+machines and BCI labs are building
+conscious machines and we're building
+brain-to-brain connections so that the
+boundaries between those things become
+less meaningful like at some point you
+want a super intelligent conscious
+machine that we can participate in. But
+that actually feels further away to me.
+I think in the near term BCI is really a
+longevity story. And I view longevity as
+really just healthcare. I mean just
+biotech. It's just that it hasn't like I
+think it is not right to say that the
+pharma companies or any of these these
+like past healthcare companies are not
+interested in cures. I think that that
+is what all of them want. It's just that
+that's been beyond our capabilities. And
+in neural engineering and people hear
+BCI think they think of motor decoding
+like I put some electrodes in motor
+cortex and now they can control it like
+a video game. I think neural engineering
+is much broader than that. We include
+our retinal prosthesis in that. We
+include cocar implants in that. Um and
+this this I think is a contrarian take
+on all of healthcare. It gives you these
+effect sizes that you just don't really
+see in medicine. Like if you have a
+patient on on a dopamineergic drug for
+Parkinson's that works for some period
+of time, but it's a it's a relatively
+small effect after a little while. You
+turn on a deep brain stimulator and a
+patient goes from not being able to hold
+a cup of water to being able to write
+cursive in like 10 seconds. You turn on
+like if you want to talk about strong
+patient testimonials, you should see a
+newborn having their coar implant turned
+on. Like these are just when you deal
+directly with the brain as a computer,
+not only do you not have to solve some
+of these really hard biology problems
+that are just beyond humanity's
+capabilities, but you get these results
+very like pretty readily that again are
+just uh like you can get an engineering
+gradient, you can get them more reliably
+and they're just large effects. And so I
+see this as as a way to to extend and
+improve the life of of like of
+everybody. I mean there's
+the the brain is the thing that makes
+you you. It's the only thing that in
+principle you can't transplant. You can
+get a new heart or a new liver. You
+cannot even in principle get a new
+brain. And the brain is usually not the
+thing that fails. And so if you can deal
+with the brain directly, um I think this
+is going to
+this is more of a of a radical longevity
+story than it is an AI one for the
+moment. Although all of these things
+will come together um over some period
+of time
+for your IEN review performance system.
+How do you prevent employees from
+colluding on their votes or downvoting
+somebody on purpose? So, so as I
+mentioned, there are some tricks. So,
+for like for example, applying uh marov
+chain Monte Carlo dropout allows us to
+detect things like voting clicks because
+now instead of seeing one peak, you'll
+see two peaks. That is a a clue to look
+in look into that. Um it's I mean it's
+designed to um be tolerant of these
+things. I think it is really fairly
+transparent. It's also not our only
+signal. It's one of several. Um the uh
+if anybody's interested in this um send
+me an email and I will share a document
+with with the specific tricks but I want
+to understand a little more about how
+you were going to deploy it first. Some
+of this is trade craft
+when you're building something as long
+horizon as Neurotch. How do you figure
+out how much runway you actually need to
+keep the company alive and how do you
+get investors to fund that much?
+So sometimes I mean you you often see
+founders like especially more
+experienced ones pitching VCs for what
+they think is reasonable to ask for
+rather than what they need to run the
+experiment. You're raising some amount
+of money to go find out some answer. The
+answer to that might be no. the
+investors understand this like depending
+on what business you're in, but you have
+to actually run the experiment. And one
+of the the things um like
+there are definitely some ideas that are
+worth funding with $50 million or zero
+dollars, but not $5 million. Um you
+won't run the experiment. It'll be
+really frustrating experience. You'll
+get an ambiguous outcome. And so my
+first piece of advice is like you should
+figure out what you think it's going to
+take to actually run the experiment,
+which is not the whole company. That is
+what is your next value inflection. You
+should have, no matter how ambitious and
+open-ended of your plan is, you should
+have some sense of like what is your
+next key value inflection point. What
+are the experiments that need to go into
+that? Um, price that out and then raise
+twice the money. Um, so I would I mean
+there's some amount of waste. I think if
+you can get waste down to 20 or 30%,
+that's pretty good. Um, and
+anyway, the advice is figure out what it
+costs to actually run the experiment.
+raise twice that and like raise raise
+that or not. Um beyond that it's the uh
+you'll always discover new things.
+There's usually some path through the
+mass. Um but you're also like when you
+start the company you're not going to
+get a guarantee of like that you won't
+be on a bridge to nowhere or that it
+will work on the funding that you have.
+Like you're going to have to get in
+there and figure it out halfway through.
+Um I think that people should push for
+profitability sooner than they often
+think that they need to. Um, for us, I
+mean, even though we are seen as this, I
+think like very open-ended deep tech
+company with a very long roadmap, which
+is true, we are also relent relentlessly
+focused on revenue at this point. Um, we
+are trying to get to sustainability. It
+feels like I mean, you kind of the
+company is kind of constantly dying
+slowly of this money cancer that we can
+beat into remission every couple years
+with the fundraising, but then it like
+eventually comes back. And I like want
+that feeling to be over. And so you you
+no matter like how big of a problem or
+big of a vision it feels, you do need to
+think about how do you get to revenue so
+that not just you can do it forever, but
+then you'll be valued on your long-term
+road map, not not valued on your
+probability of dying. And it really
+opens up an another set of investors
+that wouldn't um that wouldn't be
+relevant otherwise.
+What is the best piece of advice you've
+received?
+Um,
+I don't know. I've acquired way too much
+brain damage over the last 20 years to
+have a memory capable of picking that
+out. Um
+it
+I mean I think if other than
+speed being the basis of success and
+infrastructure determines your speed um
+it is it is important to appreciate that
+there like are no general principles. I
+think people are looking for shortcuts.
+People are looking for um like a a pathy
+set of instructions that are like oh I
+figured it out and that doesn't exist.
+Like every one of these things is
+different. When you get to that moment
+in history, you're doing something new.
+And I mean, we can take we can reflect
+for a second on how crazy it is that all
+that this is possible. Like for the vast
+majority of human history, if you were a
+smart 20-year-old that like had an idea
+to like make your society better and you
+raised this to the people with capital,
+the reaction was like you should pay
+attention to the harvest. The fact that
+like it is not widely available. It's
+not universally available, but it's not
+like widely available that if you're a
+really smart 20-year-old, you can come
+to San Francisco and make the case and
+if it's an interesting idea, you'll get
+millions of dollars to find out. Like
+this is not the case for most of the
+world today and it's certainly not the
+case for most of history anywhere. And
+um that but like that shouldn't feel
+normal like that that this is given to
+push the frontier out. And when you're
+on the frontier, they're like you're
+figuring it out as you go. You like that
+is that is the job. And so I would try
+to rely less on things that feel like
+startup advice and more on how good is
+your judgment, how well is that refined
+in your domain and remembering that is
+you have to think for yourself.
+What are some of the hardest remaining
+engineering challenges involved in
+getting BCIs to work?
+So in BCIS we often feel very limited by
+power and thermal constraints on the
+implants. Um, and so this creates a
+strong pressure to implant as little as
+possible and do the rest uh off the
+body. You can't pass a wire through the
+skin because the skin is a very
+important immune barrier. And if you and
+the skin won't like fully heal around it
+like if you have any connector through
+the scalp, you're constantly at risk of
+a bacteria crawling down that and into
+the brain and then the patient's going
+to have a really bad time. And so you
+really have to be able to close the
+skin. That requires you to have
+implanted like a radio or transceiver of
+some sort and getting the power on that
+down. like there's there's a frontier at
+low power electronics which is really
+important more as I mentioned earlier a
+lot of this is now becoming increasingly
+biology as our biological engineering
+capabilities increase um but then on
+those implants ironically one of the the
+harder kind of more open problems is
+what we call packaging um our colleagues
+in Europe call it tropicalization
+um this is the uh your ability to keep
+your device in and the body out of an
+implant that that you put in the body so
+there are no truly passive surfaces
+anywhere in the body, even bone is
+constantly getting remolded. And so if I
+put a device in, it's going to be it's
+going to be getting attacked by the body
+and it's not regenerating itself. And so
+you need a material that is going to
+survive that for an extended period of
+time. The very like the classic example
+of this is the laser welded titanium
+can, which like if you've seen like a
+pacemaker or deep brain stimulator,
+they've got this big titanium box.
+Obviously can't we can't put a big
+titanium box in the eye. Um,
+interestingly, one of the the earlier
+retinal prostheses before before us, uh,
+10 years ago was a device that was a
+that did have a titanium box that they
+attached to the eyeball. So, they had a
+it was a four and a half hour surgery.
+They had a little belt that went around
+the eyeball with a little titanium box
+on the side of the eye with a battery
+and a little PCB. Like, this didn't
+work. This was not good enough. Um, they
+needed to get rid of that somehow. Um in
+our case we've solved this with the with
+the laser projection trick where we
+power it wirelessly but um having type
+this next generation packaging some type
+of conformal coating that we can use to
+protect the implant that is not degraded
+by the body is also not harmful to the
+body and is is resistant to all the
+thing like all of the ways the body will
+try and kill it. um th that material
+science is a very open-ended field and
+if you're interested in material science
+that is a thing that uh we need progress
+in.
+How did you approach interacting with
+the medical field to build your retinal
+implant?
+Um
+[snorts] the
+I mean business is just like a fancy
+word for talking to people and doing
+things like you send you talk to them
+like you send them emails. I mean this
+is the uh
+so for our retinal implant it was
+originally invented uh by a professor at
+Stanford almost 15 years ago I think um
+it was licensed to a European company
+that we were tracking um let me back up
+a second. So when we started the company
+uh I I came from Neurolink four of my
+five co-founders came from Neurolink.
+uh kind of took a look around the world
+in early 2021 and asked like what is the
+most valuable thing that we can do that
+would be likely to work in the near
+future that would may have a big impact
+to patients and allow us to be the
+foundation for a um the type of scalable
+medical device company that we wanted to
+build. And we came to the conclusion
+that that restoring vision to the blind
+by stimulating the retina was was the
+thing in that there's you kind of have a
+choice of two types of cells in the
+retina that you can stimulate these
+things called bipolar cells or the optic
+nerve. And you could do that
+electrically or you could do that
+optically. We explored all four
+quadrants of that. We developed
+internally a state-of-the-art gene
+therapy that optically stimulated one of
+those cells. And we identified this this
+French company as being the
+state-of-the-art in electrical
+stimulation. And so we I mean it's a
+small community. You can meet people,
+you can talk to them. Um we uh it
+eventually made sense for us to acquire
+them. We ended up with the license, the
+technology, and we and we work with
+surgeons and doctors all the time. Um
+you uh like if there's a new surgery
+that you want to figure out, I mean
+typically this makes this is best going
+through networks so that people are more
+likely to respond to your email, but we
+cold email surgeons all the time saying
+like, "Hey, we have a weird surgery to
+develop. Do you want to be a
+consultant?" and people reply
+um there before I get to the next
+question there there is a real cultural
+thing here um so in my time hanging out
+around the periphery of SpaceX I
+observed that like at least circa seven
+or eight years ago probably like 20% of
+that company is what you might
+characterize as committed Martian
+colonists and 80% % are serious
+engineers. I think that those people are
+lunatics and they just want to work on
+the highest performance methodox engines
+in the world. And you need both of those
+cultures to be really successful long
+term. And that's uh especially tricky in
+in in medicine, right? Because that's a
+very very conservative, arguably very
+authoritarian culture for the most part.
+And similarly at at our company we have
+I'd say 30%
+I mean it's an overtly transhumanist
+mission and then 70%
+like serious clinicians and scientists
+and researchers and people who think
+that those guys are crazy but we're
+going to build some really valuable uh
+medical devices for critical unmet needs
+in the process. I think one of the
+things that makes science the company
+very special is that it has both of
+those cultures and is able to integrate
+them and we're able to simultaneously do
+some really cool research that I think
+is really at the edge of the Overton
+window while simultaneously running
+clinical trials in six countries now
+with an approved medical device in
+Europe and clinical trial results in the
+New England Journal of Medicine. You
+have to be able to navigate both of
+those things I think to really reshape
+the future.
+Has biotech gotten easier to break into
+for earlier stage founders?
+Um,
+biotech remains capital intensive. Um,
+and so that is like I don't know that
+I'd recommend biotech if you have a
+choice of other stuff to do. I think for
+me this was I got like
+I realized almost 30 years ago that if
+you could engineer like if you could
+alter the brain you could alter reality.
+like this was one of the biggest
+missions of of the next 30 40 years was
+was building these things. And so for
+me, I think it's like every now and then
+I think that my life would be way easier
+if I just gone into AI instead of ECI.
+Um but somebody has to do it. And I
+think it's important to
+like biotech is hard. It's like it's a
+it is a much harder path than many other
+things that you can do. But when you're
+successful, it it has an impact on like
+the really what you see elsewhere. Um
+the
+like I think increasingly there's I mean
+it was Paul Graham that wrote a long
+time ago that like you get vibes in
+different cities and like the vibe in
+Cambridge, Massachusetts is you should
+be smarter or the vibe in New York is
+you should be wealthier. The vibe in San
+Francisco is you should be more
+powerful. Especially with the rise of
+things like artificial intelligence, I
+think people realize that this isn't
+just about money. And I think for many
+the of the most effective startup
+founders, it's not about it's not about
+the money. It's about changing like
+there's some way in which you want the
+world to be different. And it just turns
+out that for that project, the
+for-profit company is an incredibly
+powerful way to marshall the resources
+required to cause the world to be
+different in that way. And this is this
+is not about money. This is about power.
+And there are many different types of
+power. There's economic power. There's
+military power. But the power to heal
+the sick is is like a very dramatic one.
+And when you get that, not only is that
+um is that a real force to reshape the
+world, it's one that can be shared very
+readily. Like you can't share military
+power, economic power, but you can share
+the power um of restoring sight to the
+blind or of giving life to the cancer
+patient. And I think that the world is
+getting more complicated and there's
+there's like there's big impacts of all
+the things that are being worked on by
+the people in this room. And biotech is
+is hard. It's very capital intensive.
+It's a long road. when you start a
+company in this space, you're committing
+to a decade of your life that you will
+never get back no matter how it turns
+out. Um, but
+the results of that when it works, um,
+the impact that this has on patients and
+their families is really unlike really
+any other sector.
+So the last question,
+what's a popular belief in tech that you
+think is wrong? And I don't even know
+what the popular beliefs in tech are
+now. Well, I mean, okay, even the whole
+basis of building Helix is contrarian.
+Like, I think that if you raise a series
+A and then you tell your investors that
+you're going to vibe code a purchasing
+system, I think that any reasonable
+board is going to like ask you what
+you're thinking. Um, and that um
+we were able to do that because I never
+got those questions because we don't
+because I control the company. But
+that's one narrow example, I guess.
+All right.
+Thank you.
+>> [cheering]

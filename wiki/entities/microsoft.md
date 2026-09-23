@@ -2,7 +2,7 @@
 type: entity
 title: Microsoft
 created: 2026-05-26
-updated: 2026-08-06
+updated: 2026-09-24
 sources: []
 tags: []
 ---
@@ -71,3 +71,4 @@ Mentioned as an example of a successful early company that started as an enginee
 - [[sources/_0se9PXfAH0-how-to-apply-to-yc-in-2022-and-start-your-startup-with-john-coogan|How to apply to YC in 2022 and start your startup (with John Coogan)]]: A large tech company, used as an example of a 'safe' job option compared to a startup.
 - [[sources/_h_6xM36Z4g-kevin-systrom-at-startup-school-sv-2014|Kevin Systrom at Startup School SV 2014]]: Company mentioned as a potential employer for college graduates.
 - [[sources/_yIAYZtdrfI-a-cs-education-that-s-free-until-you-get-a-job-austen-allred-of-lambda-school|A CS Education That's Free Until You Get a Job - Austen Allred of Lambda School]]: Technology company, criticized by Steve Jobs for lacking 'taste' in product design.
+- [[sources/x3XOeDckUX0-how-outset-turned-ai-interviews-into-a-new-category|How Outset Turned AI Interviews Into a New Category]]: Technology giant

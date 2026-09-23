@@ -2,7 +2,7 @@
 type: entity
 title: Y Combinator
 created: 2026-05-26
-updated: 2026-08-06
+updated: 2026-09-24
 sources: []
 tags: []
 ---
@@ -934,3 +934,27 @@ Startup accelerator, where Franis is a visiting partner and Ian Fischer's previo
 - [[sources/_NGqEjFjB0U-voice-ai|Voice AI]]: A startup accelerator that identifies and supports promising future technologies and trends.
 - [[sources/_2LcG-3zCdY-dynamic-software-interfaces|Dynamic Software Interfaces]]: The channel hosting the video, implicitly the 'we' making the call to action for radical thinkers.
 - [[sources/_7bnpjJB9T0-yc-ultimate-job-guide-startup-stages|YC Ultimate Job Guide: Startup Stages]]: A startup accelerator that provides seed funding, advice, and resources to early-stage companies.
+- [[sources/5_ZkERt5siI-drone-swarm-defense|Drone swarm defense]]: Startup accelerator.
+- [[sources/Wxq7ZIEodJg-paul-graham-on-what-motivates-founders|Paul Graham on what motivates founders]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/2JiUeYzcRKE-introducing-early-access-an-invite-only-program-for-the-enterprise|Introducing Early Access: An Invite only program for the Enterprise]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/4YWO4sSRrTE-circleback-ceo-ali-haghani-why-your-company-should-be-recording-more-meetings|Circleback CEO Ali Haghani: Why Your Company Should Be Recording More Meetings]]: Startup accelerator.
+- [[sources/8OOuCnZB-4o-the-age-of-the-40-year-old-solo-founder-is-here|The Age Of The 40-Year-Old Solo Founder Is Here]]: Startup accelerator and host of The Light Cone.
+- [[sources/P06RgnUKX_I-how-to-design-in-the-agent-era|How To Design In The Agent Era]]: Startup accelerator and host of the show.
+- [[sources/5bxp78i96S8-paul-graham-on-startups-ambition-and-great-founders|Paul Graham On Startups, Ambition, and Great Founders]]: Startup accelerator.
+- [[sources/R56RJFZBasQ-pick-one-idea-and-go-deep|Pick One Idea and Go Deep]]: Startup accelerator
+- [[sources/Xc4klGbq8v8-max-hodak-average-is-not-good-enough|Max Hodak: Average Is Not Good Enough]]: Startup accelerator.
+- [[sources/knW0YgE-Wd8-hard-tech-startups-are-built-one-milestone-at-a-time|Hard Tech Startups Are Built One Milestone at a Time]]: Startup accelerator.
+- [[sources/eRrc1pUY5oU-garry-tan-own-your-intelligence|Garry Tan: Own Your Intelligence]]: Startup accelerator.
+- [[sources/myDCd0hNqQU-why-robotics-still-isn-t-solved-but-could-be-soon-yc-paper-club|Why Robotics Still Isn't Solved - But Could Be Soon | YC Paper Club]]: Startup accelerator hosting the Paper Club.
+- [[sources/n9xKblqyQ28-why-the-harness-matters-more-than-the-model-yc-paper-club|Why The Harness Matters More Than The Model | YC Paper Club]]: Startup accelerator and host of the Paper Club.
+- [[sources/o0ORPbSEgd8-max-junestrand-you-need-the-willingness-to-learn-faster-than-anyone-else|Max Junestrand: You Need The Willingness To Learn Faster Than Anyone Else]]: Startup accelerator
+- [[sources/nM86DBOqgPM-the-world-s-largest-electric-aircraft-just-flew|The World’s Largest Electric Aircraft Just Flew]]: Startup accelerator that supported Heart Aerospace in its early stages.
+- [[sources/rY0wnfFHYbs-open-models-change-the-economics-of-ai|Open Models Change The Economics of AI]]: Startup accelerator
+- [[sources/wr6PMD06hP0-why-you-re-getting-zero-replies-to-your-cold-emails|Why You're Getting Zero Replies To Your Cold Emails]]: A startup accelerator that provides funding and mentorship to early-stage companies.
+- [[sources/yslXlV2BP_Y-the-state-of-startups-in-2026|The State of Startups in 2026]]: Startup accelerator and venture capital firm.
+- [[sources/zLUZclThLhU-michael-kratsios-inside-the-white-house-s-ai-strategy|Michael Kratsios: Inside the White House's AI Strategy]]: Startup accelerator and host of the event
+- [[sources/2cRbdYhs3VY-supabase-cash-does-not-equal-success|Supabase: Cash Does Not Equal Success]]: Startup accelerator.
+- [[sources/7JoqmM5EPXo-building-ai-that-optimizes-ai|Building AI That Optimizes AI]]: Startup accelerator and investor in Wafer.
+- [[sources/Z3JyAqh4ixg-building-and-structuring-an-ai-native-company|Building And Structuring An AI Native Company]]: A startup accelerator that provides seed funding and mentorship.
+- [[sources/x3XOeDckUX0-how-outset-turned-ai-interviews-into-a-new-category|How Outset Turned AI Interviews Into a New Category]]: Startup accelerator
+- [[sources/zcUoVg8Xvrk-how-olivier-pomel-built-datadog-by-refusing-every-shortcut|How Olivier Pomel Built Datadog By Refusing Every Shortcut]]: Startup accelerator

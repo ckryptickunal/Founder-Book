@@ -2,7 +2,7 @@
 type: topic
 title: Observability
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-09-24
 sources: []
 tags: []
 ---
@@ -16,3 +16,4 @@ The practice of understanding the internal state of a system from its external o
 ## Source Mentions
 
 - [[sources/UGYnC9zqa-k-ugync9zqa-k|UGYnC9zqa-k]]: The practice of understanding the internal state of a system from its external outputs, crucial for debugging, monitoring, and maintaining production software. The discussion covers its evolution, the 'three pillars' concept, and Sasabi's AI-native approach.
+- [[sources/zcUoVg8Xvrk-how-olivier-pomel-built-datadog-by-refusing-every-shortcut|How Olivier Pomel Built Datadog By Refusing Every Shortcut]]: The practice of monitoring and securing complex cloud infrastructure and applications.

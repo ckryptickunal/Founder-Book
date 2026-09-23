@@ -2,7 +2,7 @@
 type: entity
 title: Hugging Face
 created: 2026-05-26
-updated: 2026-08-06
+updated: 2026-09-24
 sources: []
 tags: []
 ---
@@ -20,3 +20,4 @@ A leading open-source AI company, co-founded by Thomas Wolf.
 - [[sources/qDumDlXcMkg-unknown|Unknown]]: AI technology company.
 - [[sources/LCEmiRjPEtQ-andrej-karpathy-software-is-changing-again|Andrej Karpathy: Software Is Changing (Again)]]: Platform for machine learning models and datasets.
 - [[sources/ZIaOBAjvc38-sam-altman-never-a-better-time-to-do-a-startup|Sam Altman: "Never a Better Time to Do a Startup"]]: An AI platform, central to a recent 'AI safety incident' discussed as a serious reminder of AI's capabilities and risks.
+- [[sources/5XO7ZEOGpJc-building-the-safety-layer-for-ai-agents|Building the Safety Layer for AI Agents]]: AI platform and community.

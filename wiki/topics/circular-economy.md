@@ -2,7 +2,7 @@
 type: topic
 title: Circular Economy
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-09-24
 sources: []
 tags: []
 ---
@@ -17,3 +17,4 @@ Converting captured waste CO2 into a sellable commodity for food, beverage, and 
 
 - [[sources/ENG_DQF5E60-this-startup-is-trying-to-delete-29-of-all-co2-emissions|This Startup Is Trying To Delete 29% Of All CO2 Emissions]]: Converting captured waste CO2 into a sellable commodity for food, beverage, and industrial use.
 - [[sources/GurelYsSFeM-jay-reno-of-feather-a-furniture-subscription-startup|Jay Reno of Feather, a Furniture Subscription Startup]]: The shift from ownership-based consumption to access-based models to reduce waste.
+- [[sources/hkfCJip_HXQ-mass-magnetics-usa-made-magnetics-for-robotics-and-defense|Mass Magnetics: USA-made magnetics for robotics and defense]]: The transition from a linear 'extract-use-dispose' model to a closed-loop system for rare earth materials.

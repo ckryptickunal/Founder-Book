@@ -15,4 +15,4 @@ Jared's old startup website (YouTube for documents from 2007) that Ploy redesign
 
 ## Source Mentions
 
-- [[sources/8OOuCnZB-4o-unknown|Unknown]]: Jared's old startup website (YouTube for documents from 2007) that Ploy redesigned as a demo.
+- [[sources/8OOuCnZB-4o-the-age-of-the-40-year-old-solo-founder-is-here|The Age Of The 40-Year-Old Solo Founder Is Here]]: Jared's old startup website (YouTube for documents from 2007) that Ploy redesigned as a demo.

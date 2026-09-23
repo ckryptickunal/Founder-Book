@@ -1,0 +1,984 @@
+Title: Why Ambitious Startup Ideas Are Actually Easier To Sell
+Video ID: ALJQHSgCl2E
+URL: https://www.youtube.com/watch?v=ALJQHSgCl2E
+Channel: Y Combinator
+Published: 2026-07-22T14:00:36Z
+Duration: PT28M42S
+Views: 19475
+Likes: 376
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 968
+
+============================================================
+TRANSCRIPT
+============================================================
+
+So it is all upside. You you just can't
+win on downside. It's the biggest thing
+I found dealing with investors who are
+stronger. Um like the investors we want
+to work with are they are focused on the
+what if it all works out because they
+know that 99.99% of your startups upside
+hasn't been done yet.
+I think you're probably one of the most
+interesting developer companies to come
+out of YC in recent years. you did YC
+winter 20, pivoted a bunch during the
+batch. I think hacked together the first
+version of Post Hog just before demo
+day. Um, but the the more interesting
+thing for me is what's happening now.
+Postthog was a really really popular YC
+dev tool, but it seems like you're
+reshaping the company now into like sort
+of to build AI native self-driving
+software. Can you talk a little bit
+about that, like how that happened and
+where you're up to right now?
+>> Sure. So yeah, Postto now provides
+self-driving software. It's our new kind
+of oneliner. Um, we started off by, as
+you say, we're open- source product
+analytics was what we launched during
+the batch. Obviously, there's been a
+platform shift with AI coming in. Um, in
+terms of what that's meant for us, we
+kind of, and I think it's worth talking
+about ambition a little bit more, but we
+upped the ambition of what we're doing.
+And from first principles uh we which is
+a very overused term but still we
+decided it was fundamentally better to
+entirely solve someone's job for them
+rather than giving them an rough idea of
+what's important. We felt it was better
+to be a company that does stuff for
+people rather than um an analytics
+company that gives you kind of this
+academic idea of how things are
+performing. We want to be able to
+improve your graphs and make them go up
+not just tell you that they're going up
+or down. You we've been working on
+clustering doing a whole bunch of stuff.
+We're looking to model like AI research
+and all sorts of things to understand
+across all the data types that we have
+where your problems are in your product,
+what your customers complaining about in
+support. Um what's happening in your
+logs and errors and session recordings
+and then shipping pull requests just to
+fix as many of the sort of simpler
+engineering tasks that we can. Um we're
+also doing a bunch of stuff at the top
+end too, but that's further out from
+now.
+>> Okay, this is an idea I'm I'm really
+really interested in. Um, I'm gonna give
+a talk later today about building um, AI
+native companies. And this idea of
+basically sort of self-contained
+recursive loops is what I'm really
+really fascinated in. The idea that you
+sort of you take uh, some input data and
+kind of feed it to an AI with a bunch of
+rules and policies and the AI does
+something and uh, feeds it back into the
+world and then sees how it impacts the
+world and just kind of iterates on that
+loop. That sounds like exactly what
+you're describing at at Post Hog.
+>> Yeah, and we've got a way to go. We do
+have the basic this in production. As of
+kind of last week, we're finally all the
+components kind of together. Um, and I
+think the step beyond that's kind of
+interesting is there are more and more
+data types you can pull from. Like it
+might be a support ticket. It might be a
+video clip of a user using your product.
+It might be what you're talking about in
+Slack. Um, and we're working a little
+bit like we shipped a desktop product
+recently to try and grab the intent.
+We're working on trying to grab the
+intent behind the product. So, as you're
+prompting, understanding um, we're
+working basically harness that grabs all
+of the intent data from you as an
+engineer. So instead of you kind of
+unblocking an agent every four minutes,
+it iterates with you quickly to
+understand why does this product exist
+rather than starting with just the
+technical requirements. So it's got
+something to kind of optimize towards.
+>> Okay. Yeah, I could see it sort of um
+being present in or at least listening
+to the recordings or transcripts of like
+the product meeting where you might have
+a chief product officer and a CTO
+talking with a designer and engineer
+about what you're trying to achieve and
+actually feeding that in as an input
+into the into the loop.
+>> Yeah, exactly. like it kind of um I
+think there's no reason that you can't
+build a like one things that um postto
+did in the early days is my co-founder
+and I were kind of I think actively bad
+at product which is a tough spot to be
+in if you're a product founder of a
+product um and we realized in our
+pivoting process we used to build lots
+of products that had never before
+existed at all and then we had this
+moment where we went hang we're better
+at out competing um and just building
+kind of product growth and having doing
+a better job on the marketing and the
+execution side and so we started
+building software products already had
+competition with the AI world. We're
+like, well, there's things there's so
+many things that are possible that don't
+exist in the world. So, we started
+looking instead of looking at replacing
+bits of software, we're like, well, what
+are the jobs that are happening inside a
+company because they're already
+happening, we feel very confident we'll
+have product market fit if we can just
+accelerate them and do them to a better
+standard. Um, so when we think about
+like uh deciding what to build, y
+>> a product manager usually decides what
+to build in most companies. Y
+>> I think a computer can do a better job
+of at least it can do a superhuman job
+of understanding everything that's
+happening in your customer base across
+every sales call, every internal
+meeting, every email you get from your
+customers and also all their user
+behavior too. And so I do think there's
+no reason really why we can't build
+something that's far superior to a
+product manager essentially on that
+particular part of the uh product life
+cycle.
+>> Yeah, I totally agree. I think that's a
+at once like a great horistic for
+finding startup ideas and also like
+pretty negative uh like human jobs but
+like find the job that already exists
+that you your product can like more or
+either in part or in whole replace um
+and it sounds like you've done that with
+product management
+>> yeah and I think I think the nature of a
+product manager just completely changes
+to being kind of the person that
+configures the software and goes hey
+this is how I think this should work
+these are some of the rules and policies
+in place so for example we have a um we
+shipped a support product quite recently
+um and it's got quite a lot of traction
+like about 1100 companies using it. And
+our review with this was like well if
+we've got all this data we can also just
+solve loads of the tickets better
+because we really understand the user in
+more depth than anyone else can without
+the data. Um and the role of the support
+team though it's not replacing them it's
+going into and I really mean this not in
+just a like
+>> I would not not saying it for the sound
+nice but the role of our support team is
+becoming you're supporting the agents to
+do their job. Um, so you're writing out
+the manual, the rule book, and you're
+iterating and improving, and you're kind
+of becoming a philosopher for support
+basically.
+>> And before we move on, I have a bunch
+more questions, but I I want to kind of
+ground this. The product you launched
+last week or so, what is the Can you
+either like the most impressive or sort
+of the canonical example of like turning
+some product data into an actual pull
+request that gets shipped that improves
+product? Have you seen something so far
+that's been like mind-blowing? Um, we're
+just repeatedly seeing in in Slack,
+someone goes, "Oh, um, ah, we're having
+problems. This thing's not working. This
+thing's broken, whatever." And they're
+like, "Oh, there's already a pull
+request for it. We just need to click
+merge at this point." Hopefully, that
+isn't a thing anymore in future at some
+stage, too. But, um, it's just
+repeatedly getting there. I I can
+[laughter] just see human beings at
+Postto getting there after we've the
+robot has decided there's a problem and
+entirely fixed it, too. Um, so yeah,
+just the fact that it's so far ahead of
+the game. Um I think some of the
+implications of this are going to be
+most interesting. Um again we need to
+get this data type more. We need to do
+more work on this data type but it's the
+trace data for AI first products where
+you're not even waiting for when you
+iterate you can iterate more quickly
+because you don't have to wait for the
+next human being to show up. You can
+backward test changes to a product to
+see well what would have happened had it
+had its prompting set up like this for
+example or whatever else. So yeah, it's
+already looking super promising. Like a
+chunk of our own pull requests now
+generated this way. um which just means
+our developers then spending more and
+more time on um like big big features,
+big new services, new products.
+>> Where my mind goes with that is how do
+you avoid then a product that has like a
+thousand tiny features and the AI has
+built every one of these thousand tiny
+features but they don't fit together in
+into the kind of holistic product
+vision.
+>> I think this is the intent side and why
+the harness matters so much. Like I
+think the current state of harnesses is
+not good is not where it will end. Put
+it that way. Like I think at the moment
+if you ask um Claude build me a to-do
+list app it will the first question will
+probably be something like well do you
+want me to mock up the back end or
+should I provide data or should I just
+provide you with a database which
+database do you want but it doesn't
+question
+it doesn't talk to you at all like if
+you talk to an we consider them product
+engineers at postto if I talk to a human
+member of our team and I said hey can we
+build a to-do list app please they won't
+disappear and then come back with a
+bunch of pull requests they'll ask me
+questions like why uh is it going to be
+simpler more powerful Does it is it for
+a particular audience? What's special
+about this thing? So, I think we're
+doing a really as an industry, no one's
+focused that much on grabbing the
+product side of product engineering. Um,
+which I think there's a ton of value in.
+So, I think that side's really lacking
+currently. So, we're doing work, but I
+suspect other people will too on a
+different type of harness that's a bit
+broader. Um, and there'll probably be
+different modes depending on the type of
+task you're doing.
+>> Yeah, I agree. So at the moment we've
+sort of we've automated the engineer and
+the CTO job kind of but we need to bring
+in the CPO or the product manager
+someone with a kind of product vision to
+say like this seems out of scope or way
+off or like at least come back and
+clarify with you whether it it fits your
+vision. How long ago was it that you
+decided to make this change?
+>> Um probably about a year and a half ago
+I would say something like that.
+>> And was was it like what was the mood
+inside Post Hog like at the time? What
+do you remember the meeting? Was this
+like a we have to bet the whole company
+or was it like we we'll place you know
+one or two developers on this? How did
+you think about it?
+>> If I'm really honest, it didn't actually
+come from inside Postto. I went to I
+went on um I was on vacation for a
+couple of weeks and started um I
+actually had the longer longest break
+I've had at Postto uh and I was reading
+um and it just suddenly quite nerdly I
+started thinking about the difference
+between uh an MLM and a human brain. And
+I created a list and I was like okay
+this is the stuff and I realized there
+were a lot of differences in a way that
+made me feel that LMS could go much much
+further and the reason for this whole
+thought process was reading why some of
+the uh co-founders of open AI joined in
+the first place and the thought process
+was super engineering um for several of
+them it was basically humans have a
+brain it's a physical object so we can
+just build one um it's just a bunch of
+engineering and obviously it's an
+insanely difficult task but um that kind
+of attitude is why they were successful
+so thinking about uh in more detail.
+Okay, what's the next next next level
+detail? What's the gap between a brain
+and an LM right now? And I just
+concluded there's I think there's a long
+way still to go. I think other things
+are starting to constrain kind of the
+economic value that comes from a model.
+Like I think uh as the models are
+getting better, I think a lot of them
+are already way past where they need to
+be to provide a lot of value and the
+challenge is kind of gluing the model to
+the use case which I think is also a
+good place to look for startup ideas. So
+a lot of our product thinking comes from
+there too. Just kind of saying like hey
+with like GLM 5.2 to recently for
+example it's super adequate at doing
+tons and tons of work internally um the
+challenge is actually making it do the
+work internally like like letting the LM
+have tools and send emails and do
+analytics or instrument your product to
+collect data or whatever it might be so
+anyway that this kind of happened um I
+run the company with Tim um so there are
+two of us we're both co-founders and uh
+we considered ourselves co-CEO which
+again if early stage I would super
+recommend doing again um we started off
+by I was the CEO and Tim was CTO because
+he was more technical than me. I've got
+like a mixed background like I've run a
+sales team before. I've done some very
+bad engineering whereas Tim is like
+engineer through and through. But we
+kind of realized after a while, hang on,
+I'm doing a better I'm a little bit
+better at pushing for things that are on
+the product side. Tim's actually better
+at running sales than me. Um and treats
+it like a system much more. And so we've
+kind of we've just swapped around our
+jobs. Um and we've got as we got bigger,
+we got to the point where I literally
+just do stuff that I want to work on um
+that I think I'm good at. and anything
+else that doesn't fit those two things I
+just won't work on. And so when it came
+to this I was like well actually I think
+I need to make post very very AI first.
+I talked to Tim he agreed and then we
+talked about how do we actually execute
+this well and we decided if we both try
+and do this at the same time we're going
+to kind of get in each other's way.
+We're going to seem misaligned whatever.
+So basically Tim was like okay I'm just
+going to completely look after
+everything else like finance hiring
+people like we're scaling up quite a lot
+at this point um and hire we were like
+more than doubling the size of the
+company the same year. Um, and I just
+hung out with engineers building AI
+stuff. Um, so he kind of just like let
+me just go all in on AI and making the
+whole company go in that direction
+instead and I didn't have to worry about
+anything else. So I didn't do any one
+ones or anything like that. I'm just
+kind of randomly doing off sites or
+meeting up with engineers to get them to
+build things with me.
+>> That sounds really fun.
+>> It has been by definition. I want it to
+be fun cuz like part of building a big
+company is like I guess you've seen
+stuff here too like much more than me.
+Um but uh if it to build a big company
+you need to like be you have lots of
+growth for a long time and so for a long
+time if it's not fun we'll just leave. I
+100% agree with you and I like I took
+the other route and then left because I
+killed myself doing all of the
+day-to-day things which were required
+and you know I'm not sure I had someone
+like Tim I could rely on to be like you
+run the entire company I'll just go and
+do this other stuff you know the fun
+future vision stuff but the fact that
+you've got that partnership allows you
+to do that super super powerful
+>> yeah and you can kind of swap around
+like sometimes and you also find even
+just the energy is very different like I
+had been running sales at the start I'm
+getting a little bit bored of this and
+I'm getting much more interested in
+product and Tim, my co-founder, was
+feeling the other way around cuz we
+often found that whatever you're not
+doing, you start worrying about. You're
+like, "Oh, I'm not in control of
+products." And Tim was thinking, "I'm
+not in control of sales. What are they
+saying?" And so, we just said, "Hey, why
+don't we just swap for a bit and see how
+it goes?" And it was great. We both had
+tons of energy. It's like a new job. Uh,
+and we just both went much harder. It
+was very successful swapping stuff
+around. So, I would say like don't be a
+lemming. I think people have a really
+high propensity to do what society
+expects of you, which is to follow a
+career path that takes you, you know,
+like you go get a good degree at
+university, you become a banker, you
+gradually meet make a VP and then you
+retire and die. Um, you really don't
+have to. So, you can like swap around,
+you can run sales, you can do product,
+you can do engineering, like whatever
+you think is most important basically
+like what is the bottleneck to the
+company being more successful. Changing
+tack a little bit. Um, you've argued
+that founders should be much more
+ambitious, especially founders in in
+Europe, and we're both European. I'd
+count myself as European still when I
+left for another country. Do you have
+examples of ideas that sound like too
+big or too hard um but might actually be
+more fundable, more recruitable, maybe
+easy to take to market than like another
+narrow SAS tool? Like how do you think
+about how much ambition is too much
+ambition?
+>> Um, I I I'm curious how you would how
+this would do in an OIC interview, but
+from my perspective I think um I suspect
+it would do quite well like better than
+people would imagine. Um I think there
+isn't a ceiling to where you can think
+there is um generically what I have
+learned as we've postto has got far more
+ambitious over time. Um like at the
+start we're kind of almost apologetic
+like we're trying to find a little place
+in the market hiding away from other
+companies that were bigger than us.
+We're very scared of competition for
+example. Um and eventually we learned to
+start embracing it and then we started
+realizing actually we can build
+something much better than everyone
+we're competing with. Um the more
+ambitious we have gotten like post went
+from one product to wanting to build
+like 20 to actually building like 20 of
+them wanting to build hundreds now
+saying actually these tools don't even m
+we've built all these products they
+don't even matter anymore like the like
+an agent should be using all of them. Um
+the whole thing should be proactive and
+it just tells you when it it like uses
+you as a human to unblock itself
+basically. um the more ambitious we've
+gotten, it's been far easier to um uh
+hire really good people. It's because
+really really strong people I think
+generically will want to and there are
+exceptions clearly, but they will I
+think are more likely to want to work
+for companies that are working on
+something very inspiring. It's just
+obvious. Um it's far easier to do go to
+market for ideas I think that are very
+ambitious too. Um if you're more
+ambitious, you're more remarkable. As
+the world gets busier, there's like more
+and more software coming out. like it's
+super easy to build something which
+means that in go to market everything
+gets saturated like trying to get
+someone's attention um I think will get
+harder and harder and harder for
+startups because there are more of them
+like there's more people building um if
+you're building something that is more
+remarkable people if something is
+remarkable that you're building people
+will remark upon it on the internet
+they'll talk about you'll get word of
+mouth growth if what you're building is
+unremarkable like um a really narrow
+point solution in SAS you may still that
+you can definitely still be successful
+but I think you have an easier time if
+you're building something that is just
+fundamentally more compelling and bigger
+Um, and in terms of fundraising, it's
+easier to fund raise for very large
+ideas. It's probably more biodal. Like,
+I think a bad investor is less likely to
+work with you, but I think the really
+strong ones are probably more likely to
+work with you in that case. I basically
+agree with you. I think but I I think
+the nuance is that you have to kind of
+be split as a founder. You have to have
+this like the Sam Alman mode like what
+is the most ambitious version of this
+idea that I could possibly conceive of
+and like say with a straight face and
+hold that in your head and
+simultaneously
+ask and sort of direct your company to
+like what is the next practical step I
+can take today and this week to advance
+towards that like insanely ambitious
+goal. And so having that kind of
+short-term practicality combined with
+the long-term intense ambition kind of
+hurts your brain sometimes. But I think
+you kind of need both.
+>> Yeah. you must you have to ship. It's
+like the longest and short of it. Like
+even all these ideas we're working on,
+we're breaking them down into small
+bits, getting things out the door. I
+think almost conversely, I would argue
+the more ambitious your idea is, the
+more important it is to ship because
+you're more likely to screw up because
+it's more ambitious. So, um if you're
+like, I'm going to disappear into the
+wilderness for 3 years, then come back
+with some perfect product. Um I don't
+think you will. Um you'll get there by
+building it with a bunch of people in
+real life learning a bunch of stuff. So
+we're really like when the we're more
+focused than ever on shipping the more
+innovative an idea is like the first
+question internally is like okay when
+will we launch this how can we launch it
+sooner and that's what all the that's
+what the sort of it's very busy at the
+moment because everything's got very
+innovative because which is creating so
+much pressure to ship things to into our
+users hands
+>> yeah I think this is such an important
+point and so European founders often
+will ask something like how do these
+Americans who have nothing claim to be
+working on all this insane in stuff when
+it's so like implausible or impro you
+know like it's they can can't possibly
+know the future are they all just liars
+>> I think a few things that have really
+struck me or observations along this as
+we've grown um like in the early days
+like before we did um YC we'd look up to
+people doing YC as kind of superstars
+and we had real really strong imposter
+syndrome which I think you get you're
+more likely to get kind of the more
+European you probably are um when we got
+into YC we're like actually like in a
+really good way a lot of the stuff is
+very underwhelming like people are super
+super like everyone is much earlier than
+we thought they would be. It's much more
+chaotic than you would expect. Um but
+from this is what great startup like
+from this we saw companies absolutely
+rocket and take off. Um but it was far
+more underwhelming on average I would
+say than we expected per person. But as
+we keep growing we think the same thing
+over and over again. um to the point
+where now when we meet people who are um
+you know running companies that are 100
+billion or more in valuation or whatever
+we're like well actually like I'm you
+can sort of just see them as a we
+realize they're all human beings
+ultimately um underneath like they're
+like they're you know we've literally
+met billionaires who are our goal is go
+into the meeting and just treat them
+like they're one of our peers um and try
+and see through a little bit some of the
+veneer. So I think like the big these
+big successful companies look because
+they have all this marketing really
+impressive and it looks like you can
+never compete with them like I think
+Anthropic is a company that's like that
+at the moment like they look kind of
+undefeable but the reality is it's run
+by a bunch of humans who are not
+necessarily any smarter than everyone
+here. Um they're just at a different
+stage and they've done a bunch of stuff
+for a while. Um so the kind of imposter
+syndrome is really crumbled. So I think
+that's actually I was struggling with
+most as someone who I'd never ever
+worked for a sexy company before. I'd
+never worked for like Google or Facebook
+or anyone like that either. And like I
+was very new and that's the thing YC
+brought me really like I think my
+perception was YC gives you this network
+where I can just sell to all these
+people to get some revenue and then fund
+raise and then hopefully it all works
+out but the reality for us was it just
+normalized um people aiming really high
+people setting a really high bar for us
+and it sounds super fluffy and like a
+nonsatisfactory answer to an engineer
+but like honestly it made us like 100
+times more confident than we were. I
+think this is a more normal culture to
+have in America than it is in Europe. Um
+where in the US people I think because
+it's not looked down upon that someone
+will just declare they're going to um
+solve cancer for example or something
+like that. Whereas in San Francisco that
+is an entirely normal and potentially
+plausible thing to hear because you
+can't get there without believing it at
+the start. [snorts]
+>> Yeah. Or like cure all disease ever.
+>> Yeah. Like I have had founders who've
+said that and we funded them and like
+probably it won't work but if it did
+work I that would be pretty impactful to
+cure all of disease. Um and so I think
+the Americans just kind of have this
+like what if it all goes right? Like
+what if every everything along the way
+what if actually just worked? What would
+be possible if it worked? And I think
+there's a tendency in Europe to ask
+yourself too often like what if it fails
+or what if the like what are my friends
+or family going to think of me? What if
+it's not GDBR compliant in the early
+days? Like, oh,
+>> wa [laughter]
+Jesus.
+>> There's this like kind of weird cultural
+deprogramming you have to do at YC when
+we get European founders over.
+>> I know it does sound a bit cultlike. I
+think the um I would also say the other
+thing the other thing I've sort of
+realized is you're just default screwed
+as a startup. So, it is all upside. You
+you just can't win on downside. It's the
+biggest thing I found dealing with
+investors who are stronger. Like the
+investors we want to work with are they
+are focused on the what if it all works
+out because they know that.99% of your
+startup's upside hasn't been done yet.
+There's just no point worrying about
+downside or how it goes wrong because
+you can't kind of a like a successful
+like I used to think this about earning
+money. Like if you're thinking about
+starting your own company um or just
+continuing in a regular job there's a
+limit on kind of how much you can earn
+in a regular job for example. But if you
+like run a business whatever it can you
+can make thousands and thousands of
+times more money than someone else in
+theory. there's only so much you can
+save. Um, and I think it's like that
+with upside versus downside risk when
+you're making kind of product decisions,
+for example.
+>> Yeah. And I mean, as an investor, you
+can only lose one one your money. But I
+mean, some for Y cominator, we've
+invested in 7,000 companies. And I would
+guess 90% of our total returns come from
+five companies. So, it just doesn't
+matter if like six and 6,995
+companies just all fail. doesn't matter
+at all if five companies reach 100
+billion.
+>> Yeah. And I think it's realizing then
+that's what investors are after. So when
+you come to fundraising, you got to be
+pitching like that. Not like, oh, we'll
+save the money and be super careful. I
+mean, you need to not die and there are
+lots of other things to consider, but
+that is the model that investors are
+after.
+>> Yeah, totally. Investing in a company
+that gets to a 50 million or 100 million
+outcome as an investor is an absolute
+waste of time. Whereas investing in
+something that has a 1% chance of being
+a 10 billion or 100 billion company,
+like absolutely sign me up. I'll take
+that bet every single day. even if 99%
+of the time it fails. Um that's how
+investors make money. And I think
+switching that mentality when you're
+pitching to investors is is really
+really important, right? Just ask
+yourself what if it all goes right? What
+could be possible? And then pitch that
+vision. You've got kind of a cult like
+developer brand like a kind of a weird
+brand actually like hedgehogs. Uh the
+you plastered on the back of buses uh
+you deserve posth I think is the latest
+one. uh your Twitter personality like
+how intentional is all of that? Did it
+kind of develop? Did it is it all a
+joke? Is it effective?
+>> It took a lot of it took work at the
+start to it was intentional at the
+start. So, we were going into a lot of
+busy markets and again I think this is
+like one of the things I've learned
+about marketing is if you're going into
+a busy market which I think can be a
+really good I think it's an underrated
+thing to do in from product perspective.
+Your challenge in marketing is standing
+out uh because it's so busy. Your
+challenge in marketing is nothing else
+really. You're not trying to create
+demand for the product. You're not
+trying to educate people that much about
+what it does. you're just trying to get
+across like, hey, this is a company that
+um stands for something more
+interesting. Like when we launched,
+every other company had a blue website.
+Like literally all of our competition at
+one point. They use long words. They had
+pricing pages that didn't have pricing
+on them. And we're like, man, these are
+super that's part of the reason we
+started Postar. We're getting annoyed at
+dealing with we wanted their products,
+but as quite technical people, we're
+getting annoyed trying to access them.
+And we just wanted to be able to like
+click sign up, put in our credit card,
+and off we go. Maybe with some free
+usage or whatever. And so um we got an
+awful lot of traction in the early days
+literally by doing stuff that wasn't
+product related better. I would say that
+stuff was more important to us than like
+our product was super terrible compared
+to all of our competition for a while a
+long while. Um but people wanted us to
+win on the internet. Um we targeted a
+slightly different audience. Like we
+went after engineers, not after um some
+of the other roles internally that our
+competitors would go after. Um and they
+just kind of wled us on until we got
+there. Um and now we're at the point
+where we think our product is much
+stronger. Um and still has a long way to
+go. Um but yeah, the just the value of
+like when you consider I think everyone
+talks about product in lots of depth
+like they really think who am I building
+for? What should it do? How can I
+differentiate myself blah blah blah blah
+and then they just like copy paste their
+go to market and instead we're like well
+who is our go to market for let's think
+about that like a product like we think
+about our website. We consider our
+website a product internally for example
+like what are the use cases? Who are we
+building our website for? What are the
+different profiles of person showing up?
+Um and once we did enough of this, we've
+just now built the muscle internally
+that um the marketing team kind of just
+does whatever they want. But there is
+sort of a common philosophy of um how it
+kind of all works. So I'm not kind of
+micromanaging our latest like blimp
+campaign or something. Um that one I am
+uh but on the whole most of the
+marketing stuff is the marketing team
+just are having a lot of fun. Um which
+is leading to good results. I think I
+would say I think it's important like
+I'm having an awful lot of fun running
+Postto. our team are as well and like we
+interview looking for that fit and
+hoping that that person will enjoy
+working with us. Um like you're very
+unlikely to get hired at Postto if you
+show up wearing a suit to your interview
+for example. So or if you really really
+want to be a manager you really really
+should work somewhere else. Um so we
+look for people that we think are going
+to genuinely entertain be quite
+entertained by what we're working on and
+it does help. It just comes across
+naturally.
+>> Yeah. I've noticed that about both you
+and Tim. you both seem to like really
+really enjoy your job and I don't think
+it's the single most important thing but
+I think after getting product market fit
+probably then it actually is one of the
+most important things stopping the
+founders burning out over the next five
+or 10 or 15 years. uh like once we met
+Patrick from stripe and um we asked him
+a bit about this and he said yeah my
+mentality is I want to be running this
+for 40 more years so my role needs to
+also reflect that and it's not purely a
+external question of um what do I do for
+customers and stuff he's also very he
+kind of knows that by virtue of being
+there and having a good time he will
+produce better output for customers too
+um but I do agree product market is more
+important and it was very grindy at the
+start for us it's got more fun as we've
+got bigger
+>> last question on pivots so you guys
+pivoted was it five times before you
+landed on Post Hog?
+>> Yeah.
+>> Yeah.
+>> Like what what did that feel like? And
+it's the hardest question I get as a as
+a YC partner is should I persevere with
+this idea or should I pivot to a new
+idea and like how did you think through
+it those first four or five pivots and
+then how did Post Hog feel different to
+all of those
+>> in order to do a really good job of
+learning like how are people and by
+learning I mean kind of we we need to
+learn something each week like uh do
+people value this concept? do people
+value this particular product? Can we
+get it in front of people or whatever it
+might be? We'd set goals that were based
+like that. It wasn't kind of like hit
+20K MR or something at the start. It was
+very much like can we get one single
+user to use this thing in production for
+example. Um and we would just iterate
+really fast towards that. So I think
+you're like luck you have with hitting
+product market fit is kind of a function
+of how many shots you're taking and the
+quality of each shot. I think there's
+diminishing return to the quality of a
+shot you can take. like you could spend
+10 years trying to build the first idea
+we ever worked on and pro I would say
+probably still fail but we tried for
+like 4 weeks or 6 weeks or something
+couldn't get anything any kind of
+traction for it and so we just moved on
+because we felt no matter how hard we
+try we just don't think this idea feels
+very unnatural that it's landing and so
+basically what happened is I would go
+out validating the idea with users so I
+would be talking to them and just
+spending my whole day trying to get in
+front of users we would go like we
+wouldn't phone anything in like we would
+always go meet people in person even if
+there was a bunch of travel did not care
+how stupid. It looked like we would like
+one of our first the first paying
+customer we got on our which was on our
+fourth idea or something. We um caught
+like two or three trains and a bus to go
+meet them and it was like a $300 a month
+contract or whatever and like we
+probably spent about that on getting
+there. Um but from that we learned later
+on when we tried to charge them more
+money for what we thought it was what we
+wanted to be charging, we couldn't get
+the price up at all. And we started
+feeling like this sort of just shows us
+that they don't value it. Like we've
+tried really hard to get this over the
+line. Whereas if we'd phoned this in,
+they could have been like on their phone
+or ignoring us or whatever. So we're
+very we really did commit to each idea
+kind of blindly um and just hammered it
+out until uh we either realized that we
+just cannot get like people to talk to
+us, we can't get people to use it in
+production, we can't get people to pay
+for it. There various hurdles. And once
+we kept hitting the same hurdle over and
+over again, we'd either run out of ideas
+for how to solve it or just decide this
+just doesn't feel right to us. So, um,
+yeah, we were pretty decisive. We're
+probably too much on the side of
+abandoning things early. But I think
+that's because we were quite bad product
+people at first. We had to do a few
+products to try and build some product
+knowledge ourselves, I think. Maybe.
+>> Amazing. Um, well, it all worked out in
+the end. I I have a million more
+questions I I could ask, but sadly we
+are out of time. I'd love to give a huge
+round of applause to James from Thank
+you.
+>> [applause]

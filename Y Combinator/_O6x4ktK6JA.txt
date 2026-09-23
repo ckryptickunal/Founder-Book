@@ -1,0 +1,1368 @@
+Title: He Built the World's #1 Open-Source Coding Agent
+Video ID: _O6x4ktK6JA
+URL: https://www.youtube.com/watch?v=_O6x4ktK6JA
+Channel: Y Combinator
+Published: 2026-07-24T14:00:17Z
+Duration: PT44M26S
+Views: 76118
+Likes: 990
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 1352
+
+============================================================
+TRANSCRIPT
+============================================================
+
+Most people in the world still haven't
+experienced the magic of a coding agent.
+>> This is just an unprecedented market.
+Like the market for intelligence has not
+existed before. Everybody should be
+thinking in a positive sum growth of
+high mentality.
+>> It's huge in developing countries like
+Indonesia is 4% of your traffic, Brazil
+is 5% of your traffic, places like
+Vietnam, you know, like places where
+a $200 a month cloud code subscription
+is like very expensive.
+>> You really know you have product market
+fit when like enterprises are bugging
+you to sign the security [laughter]
+agreement so they can use your product.
+>> They're just like, "Please do this
+because I I I don't know who you guys
+are, but a bunch of us are using this.
+We want, you know, everybody in the
+world to have that aha moment with a
+coding agent."
+>> Welcome back to another episode of the
+Lakum. Uh Gary's out traveling today and
+will be back next episode. Our guest
+today is Jay V, founder and CEO of Open
+Code, an open source alternative to
+Cloud Code that works with any model you
+want. Open Code has been growing at an
+astounding rate this year. They're now
+at 4.6 million weekly active users,
+which is actually pretty close to
+Codex's numbers. Today we're going to
+talk about what's driving their wild
+growth and also Jay's winding road to
+get here since the company went through
+YC back in 2021. Jay, thanks so much for
+being here.
+>> Thank you. Thank you for having me.
+>> Why don't we just start with kind of
+like the the crazy scale you guys are
+at? Um maybe tell us about um any stats
+you can share with us.
+>> Yeah, yeah, I mean you mentioned the the
+weekly actives are monthly actives. I
+think we ended June with around 13
+million or so.
+Um and that's around a 20x increase
+since the beginning of the year.
+We also recently started processing
+around 7 trillion tokens per day. Uh for
+context, uh Open Router does a total of
+around 6 trillion. I think again sort of
+beginning of the year we're probably at
+around 300 billion or so.
+Um and then in terms of sort of our
+revenue off of our subscription product
+and if you were to pay per token with
+our inference
+and you took let's say June's data and
+extrapolated for the year, that would be
+around 31 to 33 million or so. And if
+you took last week's data and
+extrapolated for the year, that's around
+38 to almost 40 million. And that's
+the inference part of our business or
+the way we sort of make money, we had
+launched that
+call it end of September, early October
+last year. So about 8 months
+to getting to around 40 million or so. I
+guess to sort of round out the numbers
+our subscribers, so these are people
+that
+that pay for a monthly subscription with
+with Open Code.
+We launched that product
+early March,
+I think the end of February, and that's
+grown to around 160,000
+monthly subscribers. Yeah, and around
+that that accounts for about 18 million
+sort of the annualized revenue.
+>> I saw a tweet from I think I think he is
+Tibo. I think he's a lead engineer, at
+least one of the main engineers on Codex
+saying that
+something like I I I guess
+5% of all Codex subscribers choose Open
+Code as like the main harness to
+actually use the the underlying API.
+>> Yeah, yeah. So Codex officially, you
+know, supported
+Open Code. What that basically means is
+that you can use Codex subscription in
+Open Code. And yeah, and and
+a bunch of
+their users use Open Code directly to
+take advantage of their subscription
+plan.
+>> And I think they did that right after
+kind of some of the some of the the back
+and forth you had maybe with Anthropic
+and Claude Code. Like tell tell us about
+what happened and how that seemed like
+it really fueled your growth. It was an
+inflection point for you guys.
+>> Again, to sort of contextualize this, we
+were at around 650,000 monthly active
+users to begin the year, and the first
+week of January,
+we started to sort of hear some
+rumblings around
+Anthropic trying to clamp down on
+people using open code, but using
+Claude's code subscriptions on there.
+And this was a very sort of common way
+to kind of use the Claude code
+subscription. And the way I think they
+they sort of blocked it, or they were
+were trying to block it, was if the
+system prompt mentioned literally the
+word open code, they would they
+[laughter] would sort of reject the
+request. You know, from our perspective,
+that sort of makes sense, you know,
+they're they're sort of subsidizing
+usage. That's kind of what they want to
+do. But of course, a lot of users
+weren't happy, and uh
+when they'd kind of done that, what it
+inadvertently did was it put open code
+and Claude code on the same sort of
+pedestal. It like equated the two
+products in some ways, and
+and even for the people that weren't
+using open code at the time, you know,
+they they sort of took notice of the
+fact that um
+that you know, Claude code is is is
+taking that kind of an action against
+against open code.
+>> You got new users because people heard
+about you for the first time, and
+they're like, "Oh, Claude code's like
+banning this thing, or like clamping
+down on this thing."
+>> Yeah, or that it it is like worth
+looking into, that you know, it's not
+just one of the other dozen or so coding
+agents out there, yeah.
+>> It's funny how often this happens in
+startups. So this this
+same thing happened with Instacart when
+Amazon bought Whole Foods. It was like,
+"Oh, this is like the death of
+Instacart." And the death of Instacart
+became like this meme. But the meme
+actually just like drove all the grocers
+to check out what Instacart was, and
+then they just went through this like
+explosive growth of signing up every
+grocer in America. So it seems like
+actually a lot of your growth
+is global, sort of across the the world.
+Tell us a bit about that.
+>> Yeah, so the premise of the product is
+that
+you know, most people in the world still
+haven't experienced the magic of a
+coding agent and you know, it it's been
+almost a year and I'm sure you know,
+like
+it's sort of hard to remember maybe for
+you guys as well, but the first time you
+had this experience it's a magical
+experience and when we had felt that for
+ourselves, we sort of recognized that
+you know, how important that moment is
+in sort of tech history, I guess it it
+comes along once every sort of
+generation or so and
+the way we sort of looked at that was
+let's take that let's take that to as
+many people in the world as possible.
+You know, have them sort of experience
+something similar because
+the frontier models in the frontier labs
+charge so much per token that it's going
+to be hard for a lot of people across
+the globe to have that experience and um
+we want to make sure they had that with
+us in some ways.
+>> I guess there is that a point where is
+it true that
+early on there was a like seemed like
+there was a big gap between the open
+source models and the frontier models?
+Um
+is that true kind of when you were first
+launching the product?
+>> Yeah, for sure. I think when we had
+first launched it was mostly hey, you're
+using your cloud code subscription with
+cloud code come try that with with open
+code.
+And then and so this was back in June of
+last year and by about August September
+or so we started to see the first crop
+of open source models
+and you had the sense that like oh,
+they're maybe 6 months behind, you know,
+and of course there there's always been
+sort of a gap between them, but that was
+sort of the first point when people were
+like there's the GLMs of the world, the
+Kimis of the world, the MiniMaxes of the
+world and it seems like there is now an
+alternative and um
+and as that started to happen, that
+would trigger a wave of users coming in
+trying out open code because that was
+probably the only way you could try out
+some of these multiple models and
+and as that gap started to shrink or the
+fact that the open weight models became
+good enough for real work is when it
+sort of became viable to use open code
+with them.
+>> Yeah, I think I remember you maybe if a
+few months back you were saying that um
+let me get this right that even even
+though the open source models are
+obviously cheaper to use through open
+code, you still saw more usage from the
+leading frontier model except was it
+when Gemini 2.5 came out? That that that
+was the first time that it was
+equivalent or it flipped?
+>> Yeah, that that that's exactly it. It It
+was like probably 2.4. I forget the the
+sort of exact model but but yeah, this
+was this was
+February of this year where for a 4-week
+span and this had never happened in our
+data before and I think we're sort of
+fortunate to be able to see this global
+usage and so a lot of times we see the
+comparison of you know, these open
+source models versus some of the
+frontier ones and
+we had noticed for the first time that a
+bunch of users were just using
+Gemini way more than they were using the
+Anthropic models. It was sort of Sonnet
+plus Opus at the time together.
+And um
+that's the point where we were like, oh,
+I think we should launch a subscription
+product because now maybe these models
+actually do make sense for real work.
+>> So speaking of that like you guys have
+this incredibly unique insight. Like
+probably the only you're the most you
+have the best data on just how these
+models are being used by engineers
+across the whole world and you released
+a bunch of this data. So maybe we could
+just like look through some of it and
+pluck out some more interesting
+insights.
+>> Yeah. So this is
+you know, you can go to open
+code.ai/data.
+I think we started to publish this about
+a month ago or so. This is basically
+taking all of the usage on open code go
+which is our subscription plan
+where you pay $10 to be able to use any
+of these open source models and this
+breakdown specifically is by token
+volume per day across the different
+models. So what we sort of see here is
+that DeepSeek Flash is the one that is
+used a lot. And there's some sort of
+details here. I can kind of go into why
+that is sort of the case. But, if you
+just sort of look at the the top three,
+we're seeing sort of the two DeepSeeks
+plus GLM, and you can kind of see all
+the hype that GLM has been getting sort
+of lately being sort of reflected here
+in these in these charts.
+>> Which the data says otherwise as opposed
+to all the
+Twitter chatter about the
+GLM being
+taking over DeepSeek. This is telling a
+different story.
+>> Yeah. Yeah, it is. It it it's I can I
+can show you a different breakdown here.
+So, this is by unique users, and this
+was the thing that that Arjun was sort
+of alluding to. We get to see actual
+usage data for each of the users as
+opposed to with maybe like an open
+router where you're seeing it aggregated
+across um a bunch of services or other
+products even that are sort of
+internally using it. In this case, it's
+it's an it's you know, each one of these
+is sort of an actual user. But, yeah,
+what's sort of fascinating is if we look
+at the market share graph. So, this is
+breaking down for each of these labs
+the amount of token volume they're doing
+per day, you know, comparing that sort
+of across them. You can kind of see the
+DeepSeek one dip around the time GLM
+sort of comes out, but it it's seems to
+sort of bounce back up after and
+I we we have sort of some theories
+around why that's sort of the case, but
+but that's sort of an interesting
+uh fact. And then, if I go back up to
+the the users one,
+uh this is also kind of fascinating in
+that um it might be a little bit hard to
+see here, but if you look at the sort of
+top three unique users per model, you've
+got Flash at sort of 38k,
+and then there is uh DeepSeek Pro at 31k
+and GLM 5.2 at close to you know, 30k as
+well.
+And that's that's interesting because
+GLM is sort of on par with one of the
+deep seek models, but the fact that
+there are two of them makes it a little
+bit different.
+I'll sort of caveat this by saying that
+deep seek flash being as cheap as it is
+allows a lot of users to extend how much
+they can use a coding agent because as
+they get closer to let's say their daily
+or weekly limits, they can switch over
+to one of these very cheap models, in
+this case deep seek flash, so they get
+the rest of their work done. Again, this
+is
+very different from the way we sort of
+think about coding agents and LLMs here
+in the valley, in SF, in in in the west
+in general, so
+>> What are you seeing as you know, I mean
+we we definitely are the other extreme
+end of where it's sort of like
+>> [laughter]
+>> token maxing
+>> token maxing
+>> throwing money at it, throwing money at
+it.
+>> but for the yeah, the users you see,
+which to be fair, does seem like there's
+a general vibe shift, especially in the
+enterprise world towards like more
+token budgeting.
+What do you see? Is that as simple as
+people once they approach their usage
+limits, they switch over to one of these
+models or is there is there more going
+on?
+>> Yeah, there's there's a few different
+things. I think people do try and
+optimize for things. One of the reasons
+why
+it was being hosted in a way that
+the tokens per second was a lot higher
+than what you would get out of even
+Novus. And so it was just a drastically
+faster model. It felt like you were
+working almost in real time. And some of
+these models tend to exhibit those
+qualities, which makes it you know,
+characteristically a little bit
+different from from using some of the
+frontier ones, for example. So, so
+there's a little bit of that, but yeah,
+cost is obviously a big driver.
+And then the other one that pops up
+every once in a while is, you know,
+people sort of get a feel that GLM 5.2,
+for example, is better at front-end
+design as compared to some of the other
+models. And so that that ends up sort of
+driving some usage as well.
+>> You also have a really interesting
+breakdown by geo
+to show like where are the users are.
+Yeah, so who are your users? Where where
+are they coming from?
+>> Yeah, so again, some sort of context
+here is that, you know, we had launched
+the open code go plan to be able to
+serve the sort of global audience and
+and you can kind of see that with with
+sort of China being kind of number one
+at
+at 17%.
+>> That's crazy. I feel like you're
+probably the only YC company in history
+that has meaningful usage in China.
+>> [laughter]
+>> It's also fascinating because a lot of
+these models are are Chinese. So, in you
+know, in in in their situation, they're
+trying to use the ones that that are
+being built in in their country and
+open code kind of gives them the choice
+to be able to do that. So,
+that's sort of interesting as well. I
+think the US one is actually interesting
+to us because when we had built this
+plan originally, we weren't thinking
+about the US. We weren't thinking about
+the states because, you know, as we were
+sort of saying,
+people here just throw money at it.
+But then now it turns out it's it's
+growing really really well in the states
+as well and um
+and maybe yeah, that speaks to
+the sort of vibe shift of like maybe you
+should be a little bit more conscious
+with with the tokens. But then there's
+the other side of this where people want
+to use some of these. So, when GLM 5.2
+was getting popular, a lot of people are
+trying out our our subscription plan
+because it's one of the options to sort
+of do that.
+>> So, because it's so much cheaper, it's
+huge in developing countries like
+Indonesia is 4% of your traffic, Brazil
+is 5% of your traffic, places like
+Vietnam, you know, like places where
+a $200 a month cloud code subscription
+is like very expensive. So, and that
+makes sense that, you know, sure. But
+what you were telling me earlier was
+that in addition to that, there's a lot
+of like large US companies that have
+basically unlimited budgets for tokens
+that are also using open code. Can you
+talk about that and why like who's using
+you and how come those people are using
+you?
+>> Yeah, this is what we had seen early on
+before some of these uh open source
+models even sort of took off is that a
+lot of companies would start using open
+code because they didn't want to be
+locked into using a specific model or a
+specific harness. So,
+you know, some users just wanted more
+choice and this was a good neutral
+option for them that allowed them the
+flexibility in the future to switch to
+whatever they sort of wanted to.
+>> And I think you have a crazy stat. It
+was something like dozen of the top very
+forward Fortune
+500 companies are using you and are have
+a significant footprint.
+>> Yeah, it's it's funny. We uh we get DMs,
+we get emails sort of internally about
+hey, you know, XYZ company here. We're
+We got a few thousand people using open
+code now. Please don't share this
+publicly. But I think most of it what's
+sort of going on is like yeah, they they
+there's a bunch of choice there.
+And we can probably talk about this
+later, but we're very intentional with
+our product design. We want something
+that everybody uses every single day and
+we hold that bar fairly high and in
+those instances, I think that's what's
+sort of resonating with people as
+opposed to the cheaper tokens thing.
+>> I'm very curious on a slightly different
+topic. There's been a shift for all
+these companies like you in terms of the
+AI token economics.
+>> Mhm.
+>> Because in the old world of companies,
+other B2C or B2B companies,
+there was a lot of CAC that used to be
+based on ads. And now there's the
+question is different. It's based on
+token to acquire users.
+>> Yeah.
+>> But also even more weird, this is thing
+that you're describing where there's
+some whales that pay for a lot of it
+>> Yeah.
+>> at some point. And there might be a lot
+of churn, but it doesn't matter because
+as long as you have the power users and
+experts really using it, they convert
+these large orgs.
+>> Yeah.
+>> And I [clears throat] think that big
+labs can sub- subsidize that, right?
+Which is what effectively Clockcode and
+Codex have done. They can subsidize it,
+but you have a magic
+formula to skip all this.
+>> The broader context here is that for you
+to use AI, and especially these coding
+agents, because of the amount of tokens
+they use, to use them well, you have to
+really sort of understand them, and this
+is the expert thing you're sort of
+talking about.
+And to get there
+is fairly expensive from a per token
+perspective.
+>> Token maxing is expensive.
+>> Right. It's It's very expensive, and
+and that is a chasm that is very hard
+for a lot of people, a lot of companies,
+to cross. And so, what, you know, the
+Anthropic's and the Open AI's of the
+world do is they subsidize it so that
+people are able to cross that. And then,
+yes, like the the whale's idea here, a
+certain percentage of them cross it, get
+to that point, are spending the the
+crazy amounts that you sort of see,
+and then it makes sense. The entire sort
+of funnel then sort of makes sense. But,
+when we had sort of approached this, we
+had we had thought about from a product
+perspective where it was, you know, we
+we sort of talked about we want, you
+know, everybody in the world to have
+that aha moment with a coding agent. So,
+that's sort of our free tier. And then,
+because the open-source models were now
+cheap enough and good enough for real
+work, you want a subscription plan that
+allows them to do real work with it.
+And that is sort of the thing that
+allows somebody to buy into, okay, now I
+can justify spending so much more
+to potentially redo some of the
+processes within my company to take
+advantage of these coding agents. And
+that's when, hopefully, you know, some
+of these sort of turn into whales.
+>> And is that Sorry, and that's what
+you're seeing? Like, you're seeing
+people come in through the free tier to
+try it out, and then become advocates to
+be like, "Oh, yeah, like, we should
+adopt this at our like Fortune 500
+company."
+>> Yeah, I mean, it it's to the point that
+we'll you know, in in sort of the older
+sort of SAS enterprise world you would
+have this procurement process that a lot
+of them sort of go through where you
+know, somebody sort of reaches out and
+you have this whole dance that they do.
+In our case, the inbounds that we get
+are typically just like, "Hey, there are
+a bunch of people at this company at our
+company using you guys. Can you fill out
+the security questionnaire?" And we're
+just like, "Oh, I First off, I didn't
+know.
+>> [laughter]
+>> Uh but but but secondarily,
+give us a second."
+>> You really know you have product market
+fit when like enterprises are bugging
+you to sign the security agreement
+[laughter] so they can use your product.
+>> It's like, "Please do this because I I I
+don't know who you guys are, but a bunch
+[laughter] of us are using this. And so
+So, it is it is a little bit different
+now, yeah.
+>> Once you're through the procurement and
+admin side of things, what are the
+enterprises asking you for? Are they Are
+they Are they asking you to Are they
+trying to pull the product in a
+different direction? Cuz that often
+tends to be something that open source
+companies have to think through and be
+careful about.
+>> What's interesting here, I think, is um
+these coding agents are at the core of
+how an LLM does work. And so a lot of
+times when we get these enterprises sort
+of reaching out to us, it's because
+they're trying to figure out where else
+they can use it. There's the obvious
+one, yes, we've got a bunch of
+developers at our company that are using
+OpenCode. Just figure out how we can
+officially use it.
+And then on the flip side, it is
+oh, there are some non-technical people
+that would want to be able to use this
+as well. And then, you know,
+secondarily, there's this our product is
+probably going to be using a coding
+agent as a part of its core loop. Can we
+sort of use it there? So, yes, so we we
+get some sort of pull there. The other
+bit of pull that we see is mostly around
+just managing, you know, tokens a little
+bit, but but being like, "Hey, there's a
+There are certain organizations within
+our company that don't need the frontier
+models. Can we can we sort of limit
+access there or or or or have some more
+creative ways of uh of managing token
+spend and we see pull there and so you
+know, there's some sort of questions
+around that. The stranger one we'd
+gotten recently was uh somebody wanted
+to be able to, you know, mostly just
+have really good visibility of exactly
+what everybody is doing at the company
+and then that sort of gets into
+questions of like, you know, is that
+something we want to build?
+>> [laughter]
+>> Didn't Ramp use you in sort of an
+interesting way?
+>> Yeah, I I I think Ramp was very sort of
+forward-thinking. They had published a
+blog post. I think this was in December
+of last year, but they had reached out
+prior to that where a team within Ramp
+had kind of built this Slack bot that
+was uh essentially running open code
+behind the scenes and it was just sort
+of incredible to see. It was it was
+mind-blowing partly because we hadn't
+even done that yet internally and they
+were showing off a use case that that
+was definitely pointing towards the
+future and
+>> What does that mean exactly? I think it
+can be hard for people to get their head
+around cuz they think of a use like a
+open-source cloud code. Like what is So
+what does that mean that they're like
+their Slack bot was running on open
+code?
+>> Yeah, so you can think of open code as a
+two-part product. There is the UI and
+the application part that you sort of
+see and that you interact with, but then
+there is the agent loop, the thing
+that's actually doing work while calling
+the LLM and that is sort of behind the
+scenes. That's a little bit of like we
+call it the server. That server can be
+embedded separately from from the UI and
+so in this case, they were embedding
+that and running their Slack bot off of
+that.
+>> YC's next batch is now taking
+applications. Got a startup in you?
+Apply at ycombinator.com/apply.
+It's never too early and filling out the
+app will level up your idea. Okay, back
+to the video.
+>> Can you tell us a bit about um
+sort of these these numbers and how the
+um unit economics work? Because uh there
+was a shocking, um um, stat that was
+mentioned in Dylan Patel's podcast that
+Anthropic is profitable and by a huge
+margin. In Q2, they are on track to be
+doing 50 billion annualized revenue and
+around 70% margin.
+But they got there. Before, the previous
+year was not profitable and
+way less. And they crossed this chasm,
+which it sounds like where you're
+heading. But you don't have to subsidize
+>> subsidize it, which is special.
+>> Yeah, I mean, we we do subsidize a
+little bit, right? The the subscription
+plan that that we kind of have. But
+yeah, we have a free tier, too. We have
+a free tier, yeah. And and and I think
+that's the that's the CAC part that you
+were sort of talking about early on
+where
+>> The new access, uh, rather than ads, the
+CAC is rather than paying for ads, is
+paying for tokens.
+>> Yeah, it's because that's that's how
+people sort of experience that kind of
+magic moment. And that's the way we sort
+of get them into using the product,
+understanding what a coding agent is.
+All this stuff is, um, is definitely
+like, you know, a little too much for
+for a lot of people. And
+I think the the part here
+in terms of the unit economics that kind
+of works out is
+if you're actually paying per token
+there, in the case of Anthropic and in
+the case of how we sort of operate as
+well, we're able to get, at least in our
+in our scenario, we're able to get
+volume discounts because of the amount
+of tokens that we sort of serve. And so,
+when you pay per token, that effectively
+turns into our margin. Whereas, when
+you're subsidizing, yeah, obviously
+you're you're sort of eating the cost
+there. Or in the case of the free tier,
+yeah, you're eating the cost as well.
+But,
+you know, you were sort of talking about
+this before. As you start to get more
+and more of these whales, those whales
+are paying, you know, per token. And
+it's directly feeding into your margins.
+>> Yeah, the discount you're able to get by
+sort of, um,
+aggregating the tokens is interesting
+because I mean it's something we've
+talked a lot about over the last year in
+particular. It's where's I mean
+everybody in in the valley is at this
+point. It's where's the value going to
+accrue? Will it be the frontier models
+that are going to make all of the money
+and everything at the app layer or um uh
+is left for dust or will it go the other
+way? Um how have you thought about that?
+Cuz yeah, you're you're in an
+interesting spot because you're at your
+you actually really do own the
+relationship with your end user and
+you're sort of effectively making it
+easy for them to pick and choose the
+models that they want to to run with. So
+just what what are your thoughts on
+where this all plays out and what how it
+will hopefully play out in a good way
+for open code.
+>> Yeah, it feels like a little bit like a
+marketplace where a user is able to sort
+of make their choice of the model that
+they kind of want to use and different
+models, different attributes, you know,
+different cost characteristics.
+And our our claim here is look, we want
+to showcase that diversity as well as
+sort of possible. And
+that also creates an environment where
+the the labs are aware of each other and
+that competition ends up being good for
+for the consumer in this case.
+Whereas the flip side is if you're
+locked into a specific vendor, then you
+don't benefit from, you know, uh the the
+sort of competition that that would
+otherwise sort of come with it.
+And you're likely, you know, helping
+their maybe their margins in some ways.
+>> Yeah, I kind of feel like your growth is
+is is a pretty decent proxy for the fact
+that
+the choices only improved over time,
+right?
+>> That's exactly it. Yeah. Yeah, I I think
+every we could probably track back to
+sort of our bump in in uh monthly active
+users down to some sort of bump in the
+open source uh model market and the way
+we sort of think about this is that it's
+not that we're picking a winner in terms
+of a model lab. We're just betting the
+field. We just think the rest of the
+field is going to do well.
+>> The next logical conclusion of this is
+that models are becoming commoditized
+utilities.
+>> Yeah, I yeah, I think I think what's
+sort of interesting here is that the
+market is so large that it is hard to
+imagine people not or model labs not
+picking off niches and chunks of their
+own in that they're specializing for
+specific areas or specific
+characteristics.
+Like in our case when when you sort of
+see some of the data that we were
+looking at before, you've got obviously
+the frontier labs, you know, we sort of
+know them well, but when we see the
+success of DeepSeek, it's very clear
+that they have picked the cost part of
+of the quality cost uh performance sort
+of uh axes and then they're basically
+saying, "Look, we want to be very, very
+good at that part." And, you know, it it
+it's it's hard not to imagine that
+happening across the board across all
+these characteristics.
+>> Yeah, it feels like if you truly believe
+the sales pitch of the labs themselves
+make, which is this is just an
+unprecedented market, like the market
+for intelligence has not existed before,
+everybody should be thinking in a
+positive-sum grow-the-pie mentality, in
+which case like they should really want
+you to grow and succeed because you're
+end up just being like a huge customer
+for all of them.
+>> Yeah, I I I I think that that's sort of
+true now with these open-source models,
+we're the largest customer for most of
+them.
+>> You're the largest customer for most of
+the open-source models.
+>> Yeah, yeah, just in terms of the token
+volume, I think the amount that we do,
+yeah.
+>> Wow.
+>> So, that means that you guys must be
+sort of like locked in this like
+symbiotic relationship now, where like
+you both need each other for this
+machine to work.
+>> Yeah, the other half for us is the
+ecosystem, right? So, we we look at the
+open-source ecosystem as a whole and
+we're going, "Look, we we need to make
+this entire thing sort of work." And
+again, with with all the talk of sort of
+open-source models lately, that's that's
+essentially our pitch.
+>> Since you're the largest driver of most
+of the open-source model companies, you
+must have this incredible like insight
+into like the GPU market and where all
+this inference is actually happening cuz
+you're the ones driving the inference.
+Um, are you seeing anything interesting
+in the GPU market? Where is all this
+open code power compute happening?
+>> Yeah, so we we we rent GPUs. We we work
+with providers that provide just
+straight inference. We work with the
+model labs themselves. But one thing
+that we started to notice that was sort
+of interesting at some point because of
+our global usage was that the peaks and
+troughs over the course of a day for GPU
+utilization wasn't that far off for us.
+Again, given the fact that like, you
+know, when sort of the the East is sort
+of working, you know, maybe the West is
+sort of asleep, but when the West is
+working, the East is sort of and so as a
+result, we have a reasonably stable
+24-hour GPU cycle, which allows for
+pretty good utilization.
+And it helps sort of the unit economics
+for us in running these models a little
+bit more efficiently. And and that ends
+up being a competitive advantage um
+when we think about some of our
+counterparts that maybe just serve one
+part of the world.
+>> Do you think um it's just such an
+interesting spot to be in? Like do you
+think there are like specific product
+choices or design decisions you made
+when you were first launching the
+product that have led to just like quite
+like this sort of like the fact that
+you're growing and winning so much?
+>> Yeah, it's funny, you know, the the name
+OpenCode like literally comes from that.
+I think we've we've done a similar
+project in the past. It was called
+OpenNext and the idea was when you've
+got a dominant or in this case two
+dominant players in the market, the rest
+of the market coalesces around an open
+alternative. And picking that position
+ends up being really valuable because if
+you pick it, it's very hard for somebody
+else to displace you. And if it's open,
+you should try and become the default as
+quickly as possible. So when we had
+launched, you know, the name was was uh
+was a very deliberate choice. The fact
+that we wanted to support even even at
+the time of launch we said we we'd claim
+that we supported 70 plus models and
+providers. Just to make that happen, we
+had to create a separate open source
+project called models.dev that built up
+this entire database that didn't exist
+at the time. And now obviously now now
+you can you can contribute to it and
+this this is probably the best data set
+of all the models and providers out
+there in the world. But again, just to
+sort of make that happen and to you
+know, occupy that position um
+it was a very deliberate choice.
+>> Can you think of any other examples of
+like intentional product or design
+choices you made that you think have
+really sort of
+helped you hit this inflection point?
+>> Yeah, I think the name came a little bit
+later.
+It happened within a span of a few
+weeks. But yeah, the first thing I think
+that had happened was
+with our past product we had just hit
+sort of being break even and around that
+time this was February or so of 2025
+Claude Code comes out. We look at Claude
+Code and we go,
+"This is fundamentally different from
+using auto complete using AI in that
+form and this is something that actually
+does make sense for us as a kind of a
+core developer." You know, we were we're
+sort of Neovim Vim users at the time and
+so Cursor didn't necessarily resonate
+with us as much. But
+watching sort of Claude Code and sort of
+using it a little bit we kind of
+realized that it wasn't up to the
+standard of some of these other terminal
+UIs like the Neovims of the world and we
+wanted to build something like that and
+um
+that was really the the first sort of
+bit was that, you know, when you open
+this up this should feel like a modern
+terminal experience.
+To a lot of the core developer audience,
+the ones that we were going after very
+early on, it should feel like one of
+these other things.
+>> That's so interesting because I feel
+like
+I feel like a lot of Claude Code users
+cuz you have such low expectations for
+the term like what you can get get of a
+terminal UI. People are like, "Wow, this
+is crazy, how much you can get done and
+like these graphics and effects are
+really cute and cool and that's
+awesome." And but like the fact that you
+were sort of like terminal UI
+connoisseurs, it sounds like you were
+looking at it thinking of you would
+actually look so much more in the
+terminal.
+>> Yeah, and we had built a couple of
+terminal UIs in the in the past. One as
+a part of our core product with SST. The
+other Dax had sort of built on the side
+with a couple of his friends. You could
+buy coffee online. It's It's a terminal
+UI. It's a complete storefront.
+It was It was sort of a fun pet project,
+but it showed off what we could actually
+do.
+>> Wait, wait, so your product was a
+terminal UI for buying coffee? In case
+you wanted to buy coffee without leaving
+your terminal.
+>> Yeah, cuz the idea was, you know, you're
+a hardcore developer, you're in the
+terminal all day.
+You can't be bothered to open up a
+browser, right? So, you go
+SSHterminal.shop
+and you order coffee over SSH.
+>> Yeah, makes sense. Way easier.
+>> [laughter]
+>> I I feel like this is like an example of
+like of um of of of that PGSA where like
+if you're a developer and you build
+things that you want yourself, even if
+it seems really goofy to other people
+and a VC would like turn up their nose
+as like, "Well, that's a horrible
+business. What are you talking about a
+terminal UI for for buying coffee?" It
+like has this tendency to like pull you
+in an interesting direction.
+>> Yeah, I just It like generalizes to like
+having eccentric tastes. It's like It
+like
+>> [laughter]
+>> Not always like leads to something
+interesting, but like it's kind of how
+you get to these like outlying things.
+>> Because we were so embedded in the open
+source community and because most of the
+people that that sort of surrounded that
+community were people that looked up to
+products that were really good in the
+terminal, we knew that if we built one
+of those it would resonate with them
+almost right away.
+>> It's pretty easy to think that you guys
+have sort of just came out of nowhere
+and have just exploded and are this like
+overnight success story.
+>> [laughter]
+>> But the company's actually been around
+for a little bit longer than 6 months.
+>> [laughter]
+>> And so, tell us a bit about that
+backstory cuz you you know you went
+through YC five over five years ago now,
+but even before that
+>> the story starts way before even that.
+>> Well, so so it was it was second year
+university and I was like I just did a
+co-op term at at Waterloo and I was like
+wow, I don't I I don't want to do this.
+>> [laughter]
+>> Um and so I I sort of come back, you
+know, being very naive, find the
+smartest people I can get a hold of. It
+ends up being Frank, uh my my college
+roommate and the two of us were like
+yeah, let's just let's just start a
+company.
+Uh again, I'm I'm a 21-year-old and so I
+I picked the name Anomaly as the name of
+the company cuz I'm like ah, I'm
+special. But yeah, it literally starts
+off with me reading
+>> And again, how long how long ago is
+this?
+>> 2006-2007.
+Um
+and I I I think I started reading PG's
+essays, you know, because I was like
+yeah, I I want to start a company. I
+would want to do a startup and and this
+was effectively, you know, the best
+thing you sort of find on it at at the
+time.
+I think my first I the first YC
+application was probably around that
+time, but the first interview and what
+brought me the first time to Silicon
+Valley. I I forget the exact batch, but
+I think this was the Mixpanel batch cuz
+I I know the day that I interviewed was
+literally after Mixpanel. Like so I like
+sort of interviewed. And I think this
+was right This was right after
+uh Airbnb's batch and so one of the
+Airbnb founders was hanging out the you
+know, in the sort of room when uh we
+were sort of waiting to be interviewed
+and this was obviously with uh with with
+PG back then and um
+Yeah, that was one and then I think the
+first of many first of many interviews
+and applications to to YC.
+>> [laughter]
+>> It took more than a decade to get in.
+I'll just put it that way.
+>> And you told me something crazy which is
+I assumed that like during those years,
+these were like different startups. But
+it apparently it was literally the same
+startup. Like the same legal entity all
+of those years.
+>> Yeah. Yeah.
+>> So, this legal entity is almost 20?
+>> Yeah. So, we we we incorporated in in
+2010.
+>> So, it's a 16-year-old legal entity.
+>> Yeah. Yeah.
+>> And it you've had successful products
+before, but Open Co is the most
+successful. And so, it took 16 years
+since you started the company to have
+like a truly runaway success product.
+>> Yeah. Yeah. I I think part of it is is
+also to do with
+just sort of like your level of
+maturity, your your your level of I
+guess like ability, I guess. We were
+maybe too young for some of these other
+waves, like the mobile wave, the cloud
+wave, whatever, you know. And and and we
+did build things that that did
+reasonably well.
+But, um
+but this time around it feels a little
+bit different in that it is a sum total
+of our experiences and and that's maybe
+made things a lot more easier to
+navigate, e- especially given the chaos
+in in the space that we operate and the
+competition.
+>> I looked at at the numbers and you did
+nine applications from 2016 up to 2021
+when you got accepted.
+>> Oh, wow.
+>> And you did have four interviews.
+>> [laughter]
+>> And for all of these, they were all
+different ideas. But,
+>> Yeah.
+>> it was the same legal entity.
+>> Yeah, the same legal entity. Yeah.
+>> And the same founders.
+>> Yeah, same founders. It was it was Frank
+and you you and Frank doing it the whole
+time.
+>> Yeah, doing the whole time. And then
+after we did YC, then our third
+co-founder started joining and then it
+was the three of us for
+the last four years.
+>> [laughter]
+>> This is another another chunk of time.
+It's just you know, they just fly away.
+>> What was the idea you applied to YC with
+for 2021 that you got in with?
+>> Yeah, so we were building a serverless
+platform at the time. It was like
+Heroku, but for but for AWS and
+serverless. And we wanted to do a better
+job in that space and maybe grow the
+market. And we built basically a
+serverless framework. That was our first
+big open source project, and it was our
+our first move into building open source
+products, building in public, you know,
+doing the whole thing, and eventually,
+obviously, I all of that sort of ties
+into into open code.
+>> Where does the building in public come
+from? Cuz you were you you you're
+clearly doing it now. You're like quite
+transparent with your metrics and and
+growth, which is awesome. Um but yeah,
+where does that come from?
+>> A little bit of that came from from
+Dalton. I think he was sort of pushing
+us. Just in general, just talking about
+like, "Hey, I you should probably do
+things in public because you're sort of
+an open source company." Then,
+I think it it sort of dawned on us. This
+was maybe 2022 or so, where it was like
+it was actually Dax, one of our other
+co-founders, where the idea was just,
+"Look, you know, all your code is
+public. You work basically in public. If
+you don't talk about it publicly, you're
+probably doing yourself a disservice and
+your product a disservice."
+And, you know, ever since then, it's
+just been a part of our identity that um
+you know, for for a lot of our
+community, the people that sort of
+follow us on Twitter, to them it feels
+sounds funny, but it to them it feels
+like watching a reality TV show of this
+team and the company and the and the
+sort of journey that they're on.
+>> I think the thing that's fascinating is
+that even though it sounds like such a
+windy road,
+and if people just heard the beginning
+of the podcast, the company sounds like
+a lightning in the bottle moment. It's
+like you just got caught by striking and
+got so lucky. But, the reality is you've
+been grinding for good 10 years.
+>> Yeah.
+>> And never gave up, which is so
+impressive. All those windy destinations
+that that ended up being dead ends,
+actually they teach you different things
+because you also ran a consumer company.
+>> Yeah.
+>> So, you got really good at really all
+consumer acquisition, tracking numbers,
+and all of that, which really plays
+right now in the level of detail you
+have for open code, and of course, open
+source, and all of these. They were not
+all like wasted, quote unquote?
+>> Yeah.
+>> It was really more a journey that took
+10 years to to get to
+0 to 30 million in 8 months.
+>> Yeah. Yeah. Yeah, it's it's crazy when
+you put it that way. Um
+I think what's fun is that with open
+code, we feel like we can go out and
+address the entire market, and that
+includes sort of consumers, individual
+users to small teams, obviously the open
+source community,
+you know, mid-market all the way to the
+enterprise. And in our past iterations
+of all the different products we've
+worked on, we've probably done one of
+each.
+>> [laughter]
+>> And so, now it feels like, oh, we get to
+do all of them together
+in in one product, and it's it's a lot
+more fun because you can think about the
+sort of customer journey through that
+entire thing, and it makes a lot more
+sense because you're not
+hyper-optimizing for specific parts,
+right? Like, I'm not trying to build a
+very specific enterprise company or a
+very specific like consumer company.
+We're trying to just do the whole thing.
+>> What got you to not give up?
+>> Partly maybe
+being a little stubborn.
+It's funny. May- maybe we should we
+should we should put a little warning
+that, you know, it's just like, don't
+try this at home.
+>> [laughter]
+>> Cuz I I think the prudent thing would
+have been, yeah, shut down your company,
+go join a high-growth startup, learn a
+bunch of things. But I think there was
+something in the back of my mind that I
+I Frank is probably the same in that we
+felt like we were learning these
+different things along the way, and in
+our heads, we were sort of figuring out,
+okay, here's what it takes to build sort
+of not just a product, but, you know, do
+the marketing, to understand sort of the
+positioning of things, to do sort of the
+whole thing. And and that journey felt
+like just progress and positive
+progress. And I think a part of that was
+obviously, you know, us being fortunate
+to have the ability to sort of do that,
+which was basically just living with
+parents
+for a bunch of time and we ran out of
+money, but uh
+But yeah. Yeah, may- maybe a little
+little a combination of being a little
+thick-headed and and and seeing positive
+progress.
+>> So I'll admit I've been kind of a
+die-hard Claude Code user since Gary Tan
+became addicted to Claude Code,
+[laughter] but recently I've been using
+Open Code and I dropped a bunch of PRs
+from Open Code this week and I've been
+really impressed with how well it works
+with open-source models on our existing
+code base, which is a very large, very
+complex code base. For folks who are
+watching who possibly have only used,
+you know, Claude Code or CodeX or
+Cursor, how should they think about like
+trying Open Code and
+potentially switching to it?
+>> You know, when you hear about a new
+model that comes out, especially an
+open-source one,
+and you you sort of want to try it out,
+you could kind of hack your way into
+using it with Claude Code or or one of
+the close-source alternatives, but Open
+Code is is is really good for this. You
+sort of go in, you look at the model
+picker, and GLM 5.2 or whatever the new
+open-source model is is probably up
+there and you can pick it and start sort
+of using it right away.
+>> Okay, well, Jay, I think that's all we
+have time for today.
+I actually learned lots of really
+interesting stuff about your backstory
+that I didn't know in this episode.
+I mean, I think it's a pretty inspiring
+story, honestly, for anyone that wants
+to start a company.
+>> Or at least entertaining.
+>> [laughter]
+>> I don't know, it just hits on so many of
+the like classic startup wisdom, right?
+Like you should like pursue your
+interests, have eccentric tastes, like
+be like living in the future a little
+bit. I would argue that trying to, you
+know, order coffee through the terminal
+is I'm not sure that's living in the
+future or the past, but it's
+it's [laughter] not living in the
+current time. So maybe
+maybe there's something in there.
+But yeah, I know, also just the fact
+that you kept like building your taste
+and and just like to keep building
+things over a long period of time, and
+then when lightning strikes, it like
+you're actually in a position to capture
+it. I think that's the thing that
+doesn't get mentioned actually, like to
+catch the lightning in the bottle, you
+actually like have to sort of position
+the bottle correctly and be ready for it
+and know what to do with it.
+Yeah, and you guys were well positioned
+to do that. So, so congrats on all of
+your success. I know it's going to um
+only get more explosive from here.
+>> Thank you. Thank you for having me.

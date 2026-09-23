@@ -2,7 +2,7 @@
 type: topic
 title: Agentic Workflows
 created: 2026-05-26
-updated: 2026-06-16
+updated: 2026-09-24
 sources: []
 tags: []
 ---
@@ -23,3 +23,5 @@ Systems where AI agents can plan, reason, and execute multi-step tasks across di
 - [[sources/WJoZK9sMwvw-how-to-design-better-ai-apps|How To Design Better AI Apps]]: Moving beyond Q&A chatbots to agents that can perform actions like labeling, archiving, and cross-app integration.
 - [[sources/mPAHvz8kW24-the-most-ai-pilled-ceo-we-know|The Most AI-Pilled CEO We Know]]: The shift from simple chatbots to autonomous agents that use tools to perform complex tasks.
 - [[sources/3rWSvrFahIY-5-papers-that-show-where-ai-research-is-heading-right-now|5 Papers That Show Where AI Research Is Heading Right Now]]: Treating AI agent management like an RTS game to maximize productivity through parallelization and rapid feedback loops.
+- [[sources/whcfSGN6CAU-peter-steinberger-fun-is-velocity|Peter Steinberger: "Fun Is Velocity"]]: The evolution of AI agents from simple text-based loops to proactive, multimodal systems capable of orchestration.
+- [[sources/yslXlV2BP_Y-the-state-of-startups-in-2026|The State of Startups in 2026]]: Software that performs end-to-end tasks rather than just acting as a system of record.

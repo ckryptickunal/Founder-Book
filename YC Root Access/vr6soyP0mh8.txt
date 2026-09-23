@@ -1,0 +1,177 @@
+Title: ChartNet: Training Vision-Language Models to Understand Charts
+Video ID: vr6soyP0mh8
+URL: https://www.youtube.com/watch?v=vr6soyP0mh8
+Channel: YC Root Access
+Published: 2026-08-06T17:35:32Z
+Duration: PT5M39S
+Views: 516
+Likes: 5
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 161
+
+============================================================
+TRANSCRIPT
+============================================================
+
+[music]
+>> We're here at YCML with Yovana, a PhD
+candidate at MIT. She's going to tell us
+a little bit about her work that she
+presented at CVPR this year. Yovana,
+tell us a little bit about ChartNet.
+>> Thank you so much, Ankit. Um so this is
+a foundation model as data generation
+pipeline and data set where we enable
+the next generation of vision language
+models to do robust chart understanding.
+And this work was uh done jointly with
+MIT IBM Watson AI Labs and IBM Research.
+Um so what makes chart understanding
+difficult for VLMs? Well, unlike natural
+images,
+um the models have to understand the
+text and they also have to engage in
+some kind of numerical reasoning.
+>> So this is a chart like a bar graph, for
+example, or something like that.
+>> is the simplest one, but they can go
+really wild, you know, you can imagine a
+crazy scatter plot, a violin plot, any
+any
+>> Figure one in a nature paper, basically.
+That type of thing, yeah.
+>> Exactly. Exactly. So we're we're um
+trying to
+uh deliver kind of the most
+comprehensive, largest to date, most
+diverse, yet open-source, uh and fully
+synthetic, actually, data set.
+>> Okay.
+>> Um that can meet the demands of
+foundation models in terms of the size,
+in terms of the modality coverage. So
+besides the charts being presented as
+images, we also have the supporting
+metadata in the form of code, um data
+tables, natural language summaries, and
+so on. Um
+and what enables us to generate the data
+sets is leveraging the insight that
+charts are typically generated
+programmatically. They have some kind of
+a plotting code that uh you, you know,
+give it your data, it renders a chart.
+And this um facilitates our data
+generation pipeline design. So it's a
+two-stage pipeline. Um we start with a
+seed set of images that we use a VLM to
+translate into the plotting the graphic
+responding plotting code.
+And then we perform iterative code
+augmentation with an LLM. Um and this
+enables us to end up with these image
+and code pairs where we could use the
+underlying plotting code to generate um
+grounded supporting metadata in the form
+of data table summaries and so on.
+And we also have a quality filtering
+instance that ensures that our synthetic
+data set meets certain equality
+>> So you basically take an existing chart
+and then you're generating code that
+makes the chart and then a new prompt
+that tweaks that to make a new data
+point.
+>> Yeah, so let me actually show you in the
+in the next slide it exactly visualizes
+what you were asking about. So we start
+with a very simple line chart. Um we
+roughly translated into code and then
+these are the iterative augmentations.
+These all happen in the code space. I
+just rendered them so that you you know
+we can actually easily visualize what's
+going on under the hood.
+>> So you're actually okay so you're you're
+iterating in code space and then just
+like rendering out what chart it
+produces.
+>> Exactly. It just run the code and it and
+it executes and it renders an image.
+That's exactly right.
+And so the resulting data set is a
+million scale data set. We try to cover
+all the chart types that we could think
+of and different plotting libraries for
+diversity coverage also. Um each sample
+is a tuple of plotting code image data
+table natural language summary and
+question answer traces with uh
+reasoning. And then besides the kind of
+core synthetic data set we also provide
+additional subsets in the form of
+real-world curated data human annotated
+data grounding in the data.
+And then the question is well how well
+does this work in practice which we all
+ultimately care about. So we fine-tune a
+range of open-source models from under a
+billion parameter scale to seven billion
+parameters. And we actually find that
+across all the model families we observe
+gains across all the different chart
+understanding tasks. And most excitingly
+we enable a two billion parameter
+open-source model to outperform um
+orders of magnitude larger GPT-4 and we
+also find that the gains translate to
+real world public benchmarks even though
+this is all based on the training of the
+synthetic data sets.
+>> Makes sense. Very cool.
+>> And I'm also really excited to say that
+this data set was used by IBM Research
+in their next generation development of
+visual language models. So it was
+ChartNet was a kind of part of their
+core training mixture
+and on average across our own and public
+benchmarks on chart and table
+extraction, we found that the model
+trained on ChartNet outperformed leading
+peer open source models and then also on
+Cloud Opus on these dedicated tasks. So
+it's like a 4 billion parameter versus
+we don't know how many parameters but
+presumably more.
+>> And and that's using presumably both the
+code that you're generating and those
+resultant chart images for the VLA
+model.
+>> Exactly. So the key gain, which is
+really kind of the take home message
+that I want to share here is that you
+know, these capabilities that we
+commonly associate with these massive
+frontier models, we could instead gain
+by training on a carefully curated data
+sets that has this multimodal coverage.
+So we have images, we have plotting code
+and then we also have the supporting
+metadata in the form of text, data
+values and so on.
+>> Cool. Nice. And so how can someone
+access this on Hugging Face?
+>> Yeah, so it's a fully open source. Here
+are the QR codes that point to the
+SweetHeart paper and the data set. We've
+had really good community adoption so
+far. So we've had 50,000 downloads in
+the past few months it's been since it's
+been released. It's actually curated. We
+keep expanding it. So yeah, we'd love to
+hear any thoughts in terms of where to
+improve, what to do next.
+>> Cool. Thanks so much. Appreciate it.
+Thank you. Thanks.

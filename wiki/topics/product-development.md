@@ -2,7 +2,7 @@
 type: topic
 title: Product Development
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-09-24
 sources: []
 tags: []
 ---
@@ -47,3 +47,4 @@ Parahelp's product-first approach, focus on generalizable solutions, and the evo
 - [[sources/mUZKAhcxXWI-uncut-interview-with-sam-altman-on-masters-of-scale-audio|Uncut Interview with Sam Altman on Masters of Scale [Audio]]]: The necessity of being close to customers and doing manual, non-scalable tasks to build a product people love.
 - [[sources/zoF10tFmNmY-kathryn-minshew-at-female-founders-conference-2014|Kathryn Minshew at Female Founders Conference 2014]]: The necessity of iterative development and launching an MVP to test market demand.
 - [[sources/NBd6yJBzyis-don-t-suffer-from-the-idea-disease|Don’t suffer from the “idea disease”]]: The process of moving from an initial concept to a finished, viable product through structured phases.
+- [[sources/whcfSGN6CAU-peter-steinberger-fun-is-velocity|Peter Steinberger: "Fun Is Velocity"]]: The philosophy of building tools that solve personal annoyances and the importance of being the first user.

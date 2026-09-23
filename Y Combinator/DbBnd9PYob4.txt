@@ -1,0 +1,619 @@
+Title: The Model-Agnostic AI Platform Betting That No Single Lab Will Win
+Video ID: DbBnd9PYob4
+URL: https://www.youtube.com/watch?v=DbBnd9PYob4
+Channel: Y Combinator
+Published: 2026-07-23T14:00:16Z
+Duration: PT22M52S
+Views: 5509
+Likes: 100
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 603
+
+============================================================
+TRANSCRIPT
+============================================================
+
+model agnostic which I think is a is a
+very interesting aspect of that and
+that's something that the labs would not
+be able to do. Uh if you think about
+buying your product and your tokens uh
+at the same place, it's like if you were
+uh building a plant with machines in
+there and you would buy the machines
+from the energy provider and the plug
+would only work with one energy provider
+and if you if your energy provider was a
+Russian gas would be in a pretty bad
+place right now and you wouldn't be able
+to connect to nuclear French nuclear
+makes no sense.
+Um, so you can uh give a round of
+applause to Stan Hulu. [applause]
+>> Thank you for having me.
+>> I feel like we're super lucky to have
+him. Uh, he's extremely wise. He's going
+to talk a little bit about building in
+the shadow of Frontier Labs. And then at
+the end, I want to ask him about company
+building because Dust has been a company
+that has been super thoughtful in how
+they've raised, hired, operated. And so
+I want to be able to share some of this
+knowledge with you. Um maybe let's get
+started. Can you tell us who you are?
+>> I'm Stan. Uh I was lucky to join Stripe
+pretty early. Spent five years there.
+That was an aqua year when we joined
+Stripe and then at the end of those five
+years got interested in into AI. uh I'm
+not a trained researcher but I was uh
+also lucky again to uh join OpenAI at a
+time where you could do research as an
+engineer and uh was all possible and
+spent three years there working on large
+language models and maths.
+>> And you decided to leave OpenAI.
+>> Yes.
+>> Why?
+>> Crazy, huh?
+>> Right. Yeah.
+>> I think the there's a there's a fun fact
+on this one. I think if I stayed at
+OpenAI, I think it's not true anymore.
+Both series B, but the uh stock option
+that I gave up were more than the whole
+company as of six months. That's that
+seems like a bad idea.
+>> Yeah. Still, do you regret it?
+>> No, not at all.
+>> So, why did you leave?
+>> So, really uh research is a very
+specific exercise. Uh I'm I'm again, as
+I said, I'm not a trained researcher and
+so I spent those three years doing kind
+of the PhD that I never did. really
+enjoyed it. But I at the end I really
+wanted to go back to building a product.
+When you do research it's really uh you
+know you're scratching a surface for
+weeks or months and then you find
+something interesting gets you like
+super high super high but it lasts for 5
+seconds literally 5 seconds and after 5
+seconds you're like oh yeah that was a
+you keep scratching again. So I think
+it's a it's a I mean it's something
+interesting and I and I really enjoyed
+it but wanted to go back to building
+something more around the product
+>> and so you decided to build something uh
+on top of the labs. So you started dust
+can you tell us more about what dust is?
+>> Yeah sure obviously we live in a world
+where the definition of the company is a
+moving targets uh because we're
+operating on a techn technological
+substrate that moves super fast for the
+past 20 years. You've known that. I've
+known that the technological substrate
+was JavaScript and posgress. It was kind
+of a rock solid. You could see what you
+would be building in years and that's
+not necessarily the case. But I think
+the dust really the initial uh
+motivation was very simple. It's like
+those models are are ready uh to like
+really change the way we're going to
+work and we want to focus on applying
+LLMs to the workplace which in 2022 or
+early 2023 when we were raising was
+almost considered a niche which was fun.
+Uh but yeah that's the main idea.
+Obviously the what itself evolves a lot.
+>> So you spend a lot of time thinking
+about work and how work is going to
+evolve. So if you're right in how you're
+thinking about it today, what do you
+think is going to happen like two to
+three years from now? [snorts]
+>> Wow. Two to three years feels like uh
+>> impossible to predict anything at this
+stage.
+>> Just try to tell us what work looks like
+two to three years from now. Your best
+guess.
+>> Yeah, I'm I'm a bit of a Samman.
+I mean, he said that at some point. I
+think I I I I relate to that. I mean if
+you think about about our great
+grandparents
+um walk was mostly physical or great
+great grandparents whatever is the
+number of great uh and if they were
+looking at us today they would be like
+you're not walking here you're just
+sitting in a chair looking at a screen
+all day chilling around that's not work
+and so I think like two to three years
+that I'm pretty convinced in a and I'm
+pretty optimistic that we'll still be
+walking but that work will feel like not
+work will be looking at us in two three
+years and two days us would look at us
+in two or two three years and we'll be
+like h that's not really work what
+you're doing here.
+>> Um so the the interesting thing though
+is as you said in 2023 when you started
+it was the very early days of agents but
+you still had a thesis on how they would
+impact work. Uh when you reflect back
+where were you right and where were you
+wrong? So I think we were deeply deeply
+convinced that walk would be uh
+incredibly disrupted by the technology
+and I think that's something where we
+were deeply right and I think we're
+starting to be right only now at the at
+a three years uh time scale it's only
+the during the past couple months that
+work has started to change like as a as
+a dev the the way we work has completely
+changed since November 2025 so it's been
+just a couple months but the work has
+like radically changed and I think we're
+starting to see that in every other
+functions and so that is that this
+technology would be extremely disruptive
+and and structuring for how we walk we
+were pretty right there even if for
+three years uh work was kind of the same
+uh there were a lot of verticaliz
+product on some particular pieces of
+work there was uh two years ago it was
+all about clean which was mostly about
+asking questions and getting answers but
+the shape of work was not necessarily
+changing and so that's the part where we
+were right in a sense is that this is
+going to reinvent the way we work the
+part where uh I was uh wrong
+um I I think I was more of a believer of
+an earlier plateau in a sense uh even if
+even if that technology had plateaued
+like a couple months ago we would still
+have like like decades of deployment uh
+and and innovation to do for it to be
+adopted in every pieces of places where
+we do work but uh but that that plateau
+is not happening at all and it's still
+uh if you look at the way uh we work is
+being redefined uh right now it's it's
+it's clearly not happening. So I think
+that's maybe that part where I was uh
+not as optimistic as I should have.
+>> Yeah. I remember you telling me about
+this plateau and I'm still waiting for
+it.
+>> Yeah. Yeah. It's still not coming.
+>> Yeah. So, uh, I want to make sure we
+talk about the elephant in the room,
+which is OpenAI and Anthropic are
+giants. They move fast, they innovate,
+and you're working right alongside like
+right next to them. Um, how do you feel
+about this?
+>> Challenged, I guess. Uh, no, it's
+obviously it's obviously challenging.
+Um, we went for an horizontal platform
+very early on. Uh again for the past
+couple years everybody was saying
+verticalize AI verticalize AI and there
+were great arguments for that is that
+when you have a verticalized AI product
+your go to market is much simpler
+because you know who to target you go
+talk to them you wash rinse repeats uh
+it's much more obvious when you have an
+horizontal platform it's super well
+documented uh we're not the first to do
+that notion air tableable all of that
+the go to market is much more finicky
+because uh it's these platforms are
+obviously extremely powerful but people
+are Ah yes but what am I going to use it
+for? I don't understand blah blah blah.
+Walking in the as you said in the shadow
+shadow is a bit uh harsh for us but uh
+walking alongside [laughter]
+>> sorry
+>> obviously we're tiny tiny spec compared
+to entropic and open and that's fine. Uh
+walking uh is is both beneficial and
+challenging. It's beneficial because
+they uh they educate the markets uh very
+efficiently and I think as we're seeing
+today it's all about horizontal platform
+like it feels like every product is
+converging towards the same thing which
+is some sort of uh new uh uh
+productivity suites uh like Microsoft
+has been doing or Google Drive has been
+doing but for human agent interactions
+and the product they used to be like
+kind of pretty deep product pockets
+those verticalized AI, but it seems like
+everything is converging toward much
+less depth in terms of product and much
+more coverage in terms of where it
+integrates and everything. So, it's a
+bit like a in the three body problem
+novel or or or TV show, you see that
+thing that that kind of goes around the
+earth, you almost don't see it, but it's
+super powerful because it it it covers
+it covers it entirely. So, I think we're
+competing for that. There's a lot of
+convergence in the uh in the product
+space. I think in that in that in in
+that aspect and there'll be some
+different sensibilities in the way you
+build that bubble of products uh which
+will create differentiation. Uh we are
+going a lot towards collaboration and
+multiplayer AI. We I could spend minutes
+and minutes about explaining why it
+makes sense. We're also uh model
+agnostic which I think is a is a very
+interesting aspect of that and that's
+something that the labs will not be able
+to do. Uh if you think about buying your
+product and your tokens uh at the same
+place, it's like if you were uh building
+a plant with machines in there and you
+would buy the machines from the energy
+provider and the plug would only work
+with one energy provider and if you if
+your energy provider was a Russian gas
+would be in a pretty bad place right now
+and you wouldn't be able to connect to
+nuclear French nuclear makes no sense
+and so I think it makes a lot of sense
+for those product for the pro player to
+be actually uh uh uh like agnostic in
+terms of where you bring your
+intelligence from.
+>> So um you're model agnostic today and
+you'll remain this way.
+>> Yes, definitely. Uh I don't see us uh
+it's funny because we're model agnostic
+but at the same time uh at any point of
+stage uh a lot of the usage goes towards
+one provider but that's the point is
+that at for given period of time that
+provider is the best for doing work at
+another given point of time this other
+provider is the best for doing work.
+that still changes very dynamically and
+so we don't see any moment where we
+would not be model agnostic.
+>> Yeah, that makes sense. So when I think
+about these giants and what they do to
+the ecosystem of startup um they impact
+them in many ways. One of them is the
+funding markets. Uh, and there is a risk
+that I think is an actual thing
+happening which is they pull out the
+oxygen uh out of the out of the funding
+market because you're a VC and you'd
+rather spend 1 billion in one lab than
+uh spend 10 times 100 million in 10
+different companies. Um, you've raised
+in this environment. Uh, so you have
+experience with this. How do you think
+these giants impact the funding market?
+Oh yeah, I think the so our race was uh
+so we we were lucky to have a very easy
+seed, very very easy seed. We were lucky
+to have a very very easy series A and
+the series B was the first time we raced
+for real. It was complicated and hard as
+it should be. Uh and uh and I think part
+of that is because we're building from
+France in a in a moment where it's not
+it's less from the American perspective
+slightly less fashionable than in 22 to
+2023. Uh the other part is that I think
+a lot of the energy in the market is
+being absorbed by the labs. Indeed as
+you said uh if I was a gross investors
+that would make total sense for me to
+put 1 billion in entropic get two
+billion in six months and be done with
+that. So uh uh hopefully those companies
+will become public which will put them
+in a kind of a no-go zone for VCs which
+means that hopefully and they'll bring
+liquidity to the market. So hopefully
+they'll they'll get better. So I want to
+go back to the being in the shadow of
+French labs but before because you
+talked about fundraising I want to talk
+about this because one of the things
+that when I talk about dust one of the
+things I say is uh I think Sten and
+Gabrielle his co-founder are some of the
+most thoughtful founders I've seen
+specifically on company building and
+specifically on raising money. You could
+have coming from OpenAI Stripe uh being
+a second time founder you could have
+raised at a crazy valuation and yet you
+decided to raise at reasonable
+valuations for your seed and then again
+for your series A. How did you make this
+decision?
+>> I think it felt very natural to us. I've
+seen some uh some friends gets a little
+bit burned in the 20 20 21 years raising
+a little bit too much. And I think there
+is a true coffin corner for companies if
+you raise too much and do not kind of
+realize the potential of the money you
+raised, you end up in a coffin corner
+where the only outcome is a done run and
+downturn, sorry. And there's a I mean I
+I've never done that, but I think a
+downturn is really really bad um uh in
+many aspects. And so we knew from the
+get-go that we wanted to focus at the
+product layer. We had a mantra that is
+still almost true. No GPU before PMF. We
+raised our seed at a moment where uh it
+was fashionable to raise money for
+training. So everybody was running 100
+million here, 200 million there and we
+raised five five millions which seems
+like silly but at the same time we knew
+that we building on the at the product
+layer we would not have been able to use
+that money and it would have made no
+sense and we much rather raise less uh
+raise as a smaller valuation but be very
+aggressive into building into that and
+and creating the momentum and raising
+and raising another run when we're ready
+etc. So um that's that's the positive
+view of that. The negative view of that
+is that we're being a little bit too
+French. Uh and I think you want to
+strike the right tradeoff if you look at
+I mean I'm always impressed by mistrol
+in that perspective. I've seen uh so uh
+I've met Arto Mench uh because I knew
+Giaml very well when he decided to go
+for building a company and he's
+extremely smart but he knew nothing
+about building a company like nothing he
+was just a researcher no clue no
+absolute no clue and the way he grew
+into that uh kind of role of CEO of
+European lab with all its imperfection
+uh the fact that they managed to build a
+company that is valued 12 billion is
+extremely uh recommendable is extremely
+impressive and there's there's in that
+there's a bit of let's uh let's try to
+kick the ball very aggressively. So I
+think it's a fine line to to to to
+consider uh you need to both aspects are
+important and you need to find your your
+it's a gray zone basically.
+>> Yeah. Yeah, that makes sense. you talked
+about uh your series be uh maybe more
+challenging because you're building in
+France and it's true like I knew you
+from your San Francisco days. So you
+knew what San Francisco was like. You
+built there, you hired there and yet you
+decided to come back to France to build
+the company. So like how did you make
+this decision and what are your thoughts
+today on having made this decision?
+uh everything would have been easier
+from a company building standpoint uh
+going in the US uh from the get-go. I
+think uh uh but it doesn't mean it being
+easier doesn't mean that it's the right
+thing to do. And I think we were really
+I mean I'm I I was and Gabriel as well.
+We really wanted to build something back
+in France to uh because it was important
+to us. There's a there's an aspect like
+national preference or sovereignty to
+it. Uh that's an additional constraint.
+So that's uh that's one that you have to
+be very uh very aware of. But I remain
+convinced that it's when things are
+going super well that's no problem. I
+mean if you look at uh the lovable of
+the world the uh Spotify of the world
+everybody says SF SF SFF the funders
+needs to be an SF and the same VCs they
+[snorts] don't give a about the
+localization of the lovable funders.
+They could be in whatever country when
+the things are working well the things
+are working well nobody cares. So, uh,
+it's an additional friction that you
+take in for the a greater good maybe,
+but it's a trade-off.
+>> Yeah, that makes sense. Um, I want to
+talk about the the labs. There is one
+specific question I want to ask that may
+be useful for the uh the audience, which
+is we've seen the labs uh going after uh
+new verticals. So example of this is
+Enthropic uh going after Legora in the
+um law space. Um so if you're a founder
+and that happens to you, how do you how
+should you think about it?
+>> Yes. So so being verticalized great
+advantage in terms of go to market being
+verticalized made a ton of sense because
+the models were not that good and so you
+had to build a little bit of scaffolding
+around that to make them useful. that
+second value just disappears as the
+models are getting better. So I think
+the uh that doesn't mean that it it's
+not a good idea to be verticalized but I
+think almost we we're almost in a world
+where intelligence is commoditized in a
+way it's like um the old good SAS and
+and and internet days it it feels to me
+like the value will bring uh that
+verticaliz product will have is if they
+manage to create a different type of
+mode which is probably the whatever
+network effect you can find in your
+vertical I think that will be the
+because that's the thing that is
+defensible even in place of perfect
+intelligence coming in. So if you're
+building a virtualized product uh in a
+given industry, I do think that the
+we're going back to the advices that we
+used to receive in 2010 almost which is
+network effects. Find a network effects.
+Find a thing that is defensible because
+you have a you have value coming from
+having multiple users interacting with
+the same platform. If you don't have
+that, if it's just you're delivering
+intelligence to one and intelligence to
+other and there is no network effect, I
+think in that case the defensibility is
+changing.
+>> Yeah. H how do you think about margins?
+>> Uh margins are tough in those days.
+Tough very tough. Uh
+>> so and maybe the question is so you know
+when you're a lab you're uh capturing
+the margin at the token level and then
+you build a product and you don't
+usually add any margin on top of this
+and so then you're pressured when you've
+already been taken some of this margin.
+So for you how do you think about
+charging and what feels like the right
+way to think about it? Yeah. So we used
+to have a seatbased pricing which made
+sense for three years which has become
+because we wanted to favor usage and
+value creation. So it was a blanket
+price. You pay to use as much as you
+want. Obviously over the past six months
+the usage has exploded. The agent loops
+are getting longer. Uh models are just
+using more tokens all over the place and
+so our margins have compressed and we
+are in the middle of transitioning to a
+cratebased pricing. I think that today
+if you are building a at the product
+layer there is no way around credit
+based pricing uh because uh people want
+to use more AI and they they'll just max
+use as much as you give them and if you
+have a a flat price that just doesn't
+fly. So uh that is for kind of how to
+think about pricing uh in terms of a
+current product in AI. I think it's the
+only way to maintain your margins
+because if you have a flat price, the
+margins get compressed and they'll keep
+getting compressing at least under the
+current conditions of models getting
+better, people are using more and more.
+Uh and then the question about
+competition with the labs I mean there
+are precedents where uh companies manage
+to sell a product on top of an
+infrastructure that captures the margins
+and resell the same product at zero
+price. many example box one passport. I
+think there is obviously value in
+creating a very well thoughtout, very
+wellcraftrafted, very well
+differentiated product and that will
+enable to capture a fair amount of
+margin still. And finally the third
+piece is that hopefully we have the uh
+the open source is catching up to some
+extent and this this will create some
+pressure on the labs on the margins. uh
+if you think about it uh people I mean
+when you look at the numbers and you can
+look at the S1 from SpaceX as well uh
+the labs are margins are are humongous
+they're humongous so I'll try to hold it
+in 10 seconds but uh if you if you think
+about the cost of a model you can look
+at the latency the latency is a measure
+of the cost of the model because uh it's
+for a given model infrastructure the
+latency gives you the size of the model
+the energy it consumes etc and if to
+think about the latency of cloud code
+versus GLM 5.2. It's roughly the same.
+It's the maximum latency acceptable to
+run in cloud code. And so you can
+compare the margin, you can compare the
+price of GLM 5.2 on base 10 or whatever
+fireworks to the price you pay for an
+equivalent frontier model with same
+latency. And the difference is like
+almost 9x. So that means that there is
+very good chance that those labs are
+margin kind of creating margin of
+something like 70 or 80% uh serving us
+those frontier models. So hopefully with
+open source coming up it'll recalibrate
+a little bit the market and those margin
+will go down and you'll have a better
+chance to compete even if they capture
+still capture a lot of margin.
+>> That makes sense. We're at time. I'll
+still ask you one last question because
+as I said you're very wise. So what is
+there any last word of wisdom that you
+want to share with this crowd? describe
+being uh entrepreneurs or people that
+want to be entrepreneurs are young in in
+their career.
+>> Yeah, I think the uh the only thing that
+really matters at the end is uh uh uh
+find the find the the the I mean it's
+it's going to be sounds so typical but I
+think it's really true. Find the the
+thing you want to fix the vision you
+have because building company is shitty
+on a daily basis like shitty as hell.
+there's some very highs and a lot of
+lows and so if you don't have that thing
+that you can really wake up in the
+morning and say but this is the reason
+reason why I'm doing it uh it's it's not
+sustainable so that's the first thing if
+you don't have that in your mind find it
+today it's fine to reinvent it while you
+build it's okay but find that thing that
+will keep you uh uh driven towards an
+objective despite all the glass uh
+eating that is involved in the job
+>> yeah I agree thank you so much and
+please uh thank him as well. It was
+amazing to have you.
+>> [applause]

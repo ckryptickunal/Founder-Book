@@ -1,0 +1,225 @@
+Title: LeanAgent: Lifelong Learning for Formal Theorem Proving
+Video ID: ca8IURq5QP8
+URL: https://www.youtube.com/watch?v=ca8IURq5QP8
+Channel: YC Root Access
+Published: 2026-08-06T17:35:19Z
+Duration: PT6M51S
+Views: 519
+Likes: 7
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 209
+
+============================================================
+TRANSCRIPT
+============================================================
+
+[music]
+We're here at YCML. I'm here with Adish
+who's going to present his work on
+formal theorem proving that he presented
+on ICLR last year. Others, tell us what
+you worked on.
+>> Yeah, so this is lean agent. It's a
+lifelong learning framework for formal
+theorem proving and this is work I did
+when I was at Caltech.
+So one of the hottest problems right now
+in AI is the continual or lifelong
+learning problem. How do you learn new
+things without forgetting what came
+previously? And so it's kind of two
+sides of the coin here. So if you have
+excessive stability, then your model is
+effectively frozen. It's not able to
+learn new things.
+>> Or if it's too plastic, it's learning so
+fast that it's completely forgetting
+what came before.
+>> Yeah.
+>> So the key to lifelong learning is to be
+in the sweet spot in between. And for
+this, we chose the domain of formal math
+because it's one of the hardest places
+where you can do this. Math is
+inherently very cumulative and additive.
+You have to learn algebra before you do
+calculus and analysis. And so that's why
+we chose this domain.
+>> You know, I don't necessarily think of
+math intuitively as a domain in which
+any amount of forgetting is necessarily
+useful. Like what's the intuition behind
+why why you would put math kind of in
+the center of these two things?
+>> Yeah. So sometimes what you have is that
+your very early premises are actually
+subsumed by later intuitions that you
+can gain. And it was kind of a little
+teaser to to later. This is called
+backwards transfer. So as you learn new
+things, you actually already improve
+what you learned previously. So that's
+why you can have this sort of trade-off
+here. Makes
+>> sense. Cool.
+>> So I mentioned formal math and the
+reason behind this is that we're using
+this language called lean. So it's a
+programming language where you code your
+proof and the compiler checks that your
+proof is correct. So as an example, I'm
+in VS Code here. I've written out my
+theorem in code. And what we have on the
+right is we see a lot of hypothesis and
+my current goal. And we want this goal
+to say no goals left. And we do this by
+writing line by line of this format. So
+here exact is what's called a tactic. A
+tactic is a function call. And the
+argument is what's called a premise. And
+premises are just anything that's
+previously proven. So any theorems or
+definitions or lemas or such. And as you
+can tell, there's so many premises in
+math that one of the hardest problems is
+how do you retrieve the relevant
+premises at each step of the proof. So
+that's one of the core challenges. And
+it's hard, especially in math because
+within math, everything is connected.
+And so as everything is connected and as
+it grows, as people keep adding new
+theorems, how do we know over time how
+to retrieve but also not forget previous
+theorems? So that's the goal of we
+agent. So there's a lot going on here.
+I'll cover at a high level. So it's
+effectively a aentic loop. It starts off
+by scraping GitHub and finding different
+lean repositories because code and then
+it needs to figure out the curriculum,
+the easy to hard of all the repos
+because you need to learn the
+foundational math before the more
+difficult math.
+>> Oh, interesting. So it literally
+continually it's you know continual
+learning agent in that you are giving
+iteratively harder math to build up its
+premises.
+>> Exactly. the same way that we would do
+as humans. And the way that we do this
+is that as I showed you, we have these
+line by line of different steps. And so
+the complexity of a theorem is e to the
+number of proof steps. We do this for
+all the theorems and repos. Then for
+each repo, we have a distribution of
+easy, medium, and hard. And we sort the
+repos to descending number of easy
+theorems. Once you have that, that
+curriculum goes into your dynamic
+database. So that is sort of the brain
+of lean agent. It stores all the
+theorems, all the premises, all the
+proofs, all those things.
+And then now you have to learn. So we
+take the latest retriever. So this is
+the one that has the most knowledge. And
+we actually just train it for one epoch.
+Pretty simple. And that's the best way
+to balance stability and plasticity. So
+you're learning the new premises without
+forgetting the previous ones. That gives
+you a new retriever. And then you do
+your best first tree search for your
+proving. So you have this new retriever,
+you retrieve premises that goes into
+your tactic generator to generate
+different nodes of the tree. And then
+you do your research, you can do
+backtracking, timeout, all those things.
+And if you have a new proof which is
+generated that goes back into your
+database. So over time, lead agent is
+getting better and stronger the same way
+that humans win.
+>> All of this is just code. And so when
+you say train for one epoch, you
+basically mean
+one pass through your code repository is
+given to this LLM that is getting
+updated with that code.
+>> Exactly.
+>> Cool.
+>> Yeah. So after doing all of this
+we were able to prove 155 new formal
+proofs across 23 domains. Uh some of
+them are terabous domains as well. So he
+had some comics domains and such. And as
+I mentioned the original motivation was
+lifelong learning and what we actually
+also noticed in addition to that was as
+I mentioned backwards transfer. So as
+you learn you actually do better on
+previous domains. So if I learn algebra
+and then topology now I'm better at
+algebra. That's a cool emergent ability
+from this framework. And so to
+summarize, we are the first lifelong
+learning or continual learning framework
+for formal theorem proving. We were able
+to learn without forgetting and have
+backwards transfer. Proved a lot of
+theorems across different repositories
+and we learned from basic to advanced
+concepts and the QR code for the paper
+is right here.
+>> Cool. Yeah. My my final thought for you
+is you know this paper was from ICLR
+last year. Since then there's been a lot
+of work in people using the latest
+coding agents for math. I'm curious how
+you see, you know, if you were to start
+and embark on this type of thing today,
+are there new immersion capabilities of
+the base models that would mean that you
+would approach this very differently
+versus this kind of like iterative
+buildup approach? Like does that is that
+still relevant even with today's best
+models or is there like a new version of
+that that you would do today?
+>> It's a good question. So I think there's
+sort of a debate right now to what
+extent lean itself is useful. Some
+people think that for specific domains
+it's more useful than others. I think
+what I've seen is we've seen a lot of
+open source models get very very strong
+at writing lead and so the models that
+we use here are what's called bite 5 byt
+5 from Google
+>> but probably putting a kimmy or someone
+else on there would be much better I
+didn't mention this but our models are
+pretty small on purpose so had people
+like Terrence T can just run it
+themselves but now we have lots of like
+Gemma and other small models so that
+would be a good approach I still feel
+like this treearch approach where we go
+step by step is still quite useful
+You can also just generate it all at
+once and maybe just test time RL. Those
+work, but it's very computationally
+expensive. We've taken sort of an alpha
+evolve type approach where you can just
+search and not do RL and still get some
+great results. So, I think that there's
+some distinctions that could be made in
+different fields, but within math, it
+seems like a lot of things work.
+>> Cool. Thanks so much, man. This is
+great. Thank you. Appreciate it.

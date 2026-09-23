@@ -22,5 +22,5 @@ An interviewer from YC who questioned their initial idea, Scalemont.
 - [[sources/EN7frwQIbKc-how-to-build-a-company-with-ai-from-the-ground-up|How To Build A Company With AI From The Ground Up]]: Partner at Y Combinator
 - [[sources/a_n4yOqlWbA-apple-vision-pro-startup-platform-of-the-future|Apple Vision Pro: Startup Platform Of The Future?]]: Group Partner at Y Combinator with a background in AR/VR and computer vision.
 - [[sources/bvjyaz4ZiVI-how-top-1-founders-navigate-co-founder-conflict|How Top 1% Founders Navigate Co-founder Conflict]]: Y Combinator partner.
-- [[sources/8OOuCnZB-4o-unknown|Unknown]]: Co-host of The Light Cone, whose old company's website was redesigned by Ploy.
+- [[sources/8OOuCnZB-4o-the-age-of-the-40-year-old-solo-founder-is-here|The Age Of The 40-Year-Old Solo Founder Is Here]]: Co-host of The Light Cone, whose old company's website was redesigned by Ploy.
 - [[sources/_-5xJQ4U8g0-are-we-in-an-ai-hype-cycle|Are We In An AI Hype Cycle?]]: YC partner, host of the podcast.

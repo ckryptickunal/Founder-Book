@@ -2,7 +2,7 @@
 type: topic
 title: Open Source Strategy
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-09-24
 sources: []
 tags: []
 ---
@@ -20,3 +20,4 @@ SIM.AI's philosophy and tactical approach to building an open-source product, in
 - [[sources/qDumDlXcMkg-infisical-the-open-source-security-stack|Infisical: The Open Source Security Stack]]: The shift from closed-source to open-source to drive developer adoption and meet enterprise compliance needs.
 - [[sources/e1Yhs9BEOSw-lightcone-consumer-is-back-what-s-getting-funded-now-the-vibes-immaculate|Lightcone: Consumer is back, What’s getting funded now, The vibes immaculate]]: Using open-source models to capture developer mindshare and disrupt established proprietary platforms.
 - [[sources/nGLmpKi-jRU-startup-advice-ai-gtm-pivoting-how-to-hire|Startup Advice: AI GTM, Pivoting & How To Hire]]: Using open-source as a competitive advantage to build trust and bypass enterprise security concerns.
+- [[sources/2cRbdYhs3VY-supabase-cash-does-not-equal-success|Supabase: Cash Does Not Equal Success]]: Leveraging existing open-source communities and contributing back rather than building proprietary silos.

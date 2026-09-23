@@ -1,0 +1,262 @@
+Title: Automating Billion Dollar Brands
+Video ID: htAl33M5F54
+URL: https://www.youtube.com/watch?v=htAl33M5F54
+Channel: YC Root Access
+Published: 2026-09-22T14:30:06Z
+Duration: PT8M54S
+Views: 5671
+Likes: 44
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 246
+
+============================================================
+TRANSCRIPT
+============================================================
+
+[music]
+I'm excited today to welcome the
+founders of Confido. Here is Cara and
+Justin and congratulating you on a $55
+million race for series B led by
+Insight. So, you almost didn't make it
+to demo day five years ago with this
+company. We'll talk a bit about that,
+but let's get started with what Confido
+is today. So, Confidto is building the
+AI agent workforce for consumer brands.
+So, think of any brand that you might
+see in your refrigerator or your
+medicine cabinet. They'll use us for
+everything from accounting to sales
+planning to figuring out how many raw
+materials they'll need to actually
+produce their products.
+>> Who are some of your top customers that
+you can name?
+>> Yeah, so we have divisions of companies
+like Mars and Unilever, some of the
+largest CPG companies in the world, and
+then high growth brands like Lollipop
+and Dude Wipes and others.
+>> Pretty cool. And some of these are six,
+seven figure deals. What exactly do you
+do for them?
+>> Well, we're really, really proud of is
+just how broad the platform is. So,
+we'll help with everything from
+accounting automation to sales planning
+to operational planning in a single
+system. So, underlying all of this is
+the unique retail data that these brands
+have and we use it to power key
+workflows across the business that
+automate labor.
+>> Let's go back to a little bit uh the
+origin story of Confido. I think you
+applied to the summer 21 batch with a
+very different idea and different name.
+The name of the company was Outfit. Do
+you remember what it was?
+>> Yes. Outfit was doing we work for
+fitness instructors at a time where a
+lot of fitness was moving outside due to
+co
+>> and you two had met back in Boston. You
+were just graduated from MIT and Harvard
+and decided to do a startup and it was
+during the remote batch.
+>> Yes. What had happened to that idea?
+Because you basically didn't present to
+demo day.
+>> Yes. So for that idea, we had some very
+sage group partners who told us it may
+not be the best idea as soon as we
+joined YC. Um and essentially told us
+that you need to pivot. And we looked at
+the numbers and they were not lying. So
+we went through a long long pivot hell.
+>> It was for like a year.
+>> Yes. Mhm.
+>> And you were basically in the desert
+searching for water for an idea. And how
+did this idea come about?
+>> Yes, it was interesting. It was an idea
+that was hiding in plain sight. When I
+was in college, I'd worked for a couple
+of consumer companies. So, I worked for
+a football helmet manufacturer that was
+owned by a family office that I worked
+for and then I worked for Annheiser Bush
+as well. I saw the problems that we
+solve today in those companies. And it's
+funny, even my parents worked on other
+either side of these problems. So, uh,
+my mom was a retail store manager, so I
+lived I basically grew up in a retail
+store and my dad sold software to
+largely consumer companies. So, it's
+funny. I don't know why it took us a
+year, but um, you know, it was is very
+much a hiding in plain sight problem.
+>> I mean, that's fascinating. You you had
+this idea within you this whole time,
+but you thought it was too simple or
+it's not it's nothing burger.
+>> No.
+>> But there was something that made you
+decide to go into this direction. What
+What was that? What was really
+interesting was when we were doing
+initial like discovery and validation,
+we chatted with some of the largest CPG
+companies in the world. We sent them
+cold emails and they responded within a
+couple of days. So, we talked to
+companies like CocaCola and Dr. Pepper
+and all of these folks were just willing
+to talk to us for hours. I I remember
+talking with someone from Coca-Cola and
+they were like, "Hey, do you have 2
+hours?" And I thought I thought they
+meant like, "Oh, can I call them back in
+2 hours?" They just wanted to talk to me
+for 2 hours about their problems. And it
+just shocked me just how manual and uh
+ultimately underserved this market has
+been.
+>> Do you remember that moment when you
+closed that first customer?
+>> Yes, we actually closed our first
+customer with a Figma. So prior to
+writing a single line of code. Um so
+yeah, I think that it was abundantly
+clear at that point that it was a real
+visceral pain and strong need. um when
+folks were willing to work with a shitty
+twoperson startup. [laughter]
+>> The thing that might be counterintuitive
+is that CPG or consumer package good
+space is typically not very tech
+friendly. They're not usually buyers of
+tech solutions that much, but you figure
+out something and
+something with the way you build the
+product and AI has something to do with
+it. Tell us about that. Yeah, what's
+really interesting is CBG brands are big
+buyers of services. They will buy BPOS,
+they'll work with consulting firms,
+they'll use these what are called
+thirdparty brokers that they'll pay 5%
+of revenue to to do work for them. So
+when we came with a proposition of hey,
+we'll do the work for you is something
+they were very used to. And the way they
+talk about it is never as software, it's
+as hey, is this replacing or augmenting
+the labor we might otherwise require.
+>> What were some of these first uh
+workflows that you solved?
+Yes, our first workflow was around a
+very manual process of logging into many
+different portals and pulling down
+information and then automating cash
+application and accounting workflows and
+then from there our customers asked us
+to keep doing more things for them.
+>> The interesting thing is that you're
+explaining basically things that
+traditionally a ERP or accounting system
+would do.
+>> Yeah. But they were not using something
+like a netswuite.
+Why is that? And how did you win versus
+those?
+>> Yeah. So traditionally folks have either
+used Excel sheets or disparate point
+solutions. So they will have one system
+that's a Postgress wrapper where they
+plug in all their information and then
+they read it back to them. there hasn't
+been a sort of cohesive platform where
+the data flows in um automatically and
+the insights are driven agentically.
+>> So you basically got to the point where
+you're closing these six seven figure
+deals and charging the same price as a
+netswuite which took them about probably
+like a decade to get there and you did
+it in less than two years.
+>> Yeah.
+>> What's the value prop there?
+>> So what's really cool within these
+businesses is we can touch almost every
+line item on the P&L. So there's heavy
+manual work that goes into these
+workflows across accounting and
+planning. We can automate that work and
+help them save on headcount. There's
+also outcomes that we can drive that
+they otherwise wouldn't be able to
+achieve. So an agent can reconcile down
+to a $10 transaction. A human never
+could. U we were actually chatting with
+a public company that just signed with
+us. They didn't review transactions less
+than $10,000 in this area because it was
+just so manual. So the system can not
+only automate the work they were already
+doing, but go chase after things they
+never otherwise would have gotten. So
+it's free money. And then similarly on
+the planning side of things, you'd be
+shocked to learn billion-dollar
+businesses are basically forecasting off
+of historical averages. Um so there's
+just massive levers on every line item
+on the P&L that we can touch that an ERP
+would just simply never be able to do as
+as just a basic database.
+>> When Confido is successful, how will the
+world change? For us, if you walk into a
+retail store, we'll know if we'll
+benefit factful if we look and see the
+brands on the shelf and understand that
+basically every part of that process had
+been touched by Confido, whether that's
+procuring the raw ingredients, pricing
+the product, forecasting how much is on
+the shelf. If we touch all of those
+workflows, we'll have made a big impact.
+>> I think there's something interesting
+about you guys. You are all based in New
+York and I hear that you don't have any
+product managers in your team.
+>> Yes. How does someone who succeed
+working at Confider look like?
+>> We have a group of amazing engineers who
+are very curious and very technical and
+able to drive to clarity and a lot of
+ambiguity. So, one of our engineers,
+shout out to Ben, is our longest tenure
+engineer and is currently leading our
+new modules around supply planning and
+he's doing everything from road mapping
+and talking with experts and onboarding
+customers and enabling and being
+involved in the sales process. So, we
+have some insane engineers on our end
+who are able to really just own super
+gnarly problems and drive to clarity and
+solve them for our customers,
+>> which seems pretty fun having an
+engineer that has full ownership of the
+products and customer interactions.
+>> I think it makes a lot more fun.
+>> All right, I think that's all we have,
+but thank you so much for coming and
+chatting with us.
+>> Amazing. Cheers, Diana. [clears throat]
+[music]
+>> [music]

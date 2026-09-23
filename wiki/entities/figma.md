@@ -2,7 +2,7 @@
 type: entity
 title: Figma
 created: 2026-05-26
-updated: 2026-08-06
+updated: 2026-09-24
 sources: []
 tags: []
 ---
@@ -31,5 +31,6 @@ A traditional design tool; Magic Patterns can import from it, and it's contraste
 - [[sources/Rb3QHKjOWqQ-figma-s-20b-10-year-overnight-success|Figma's $20B, 10 Year Overnight Success]]: A collaborative web-based design tool.
 - [[sources/2MrNSjJFBBI-design-masterclass-with-the-best-designer-i-ve-ever-met-raphael-schaad-with-cron-calendar|Design Masterclass with the best designer I’ve ever met (Raphael Schaad with Cron Calendar)]]: A collaborative interface design tool.
 - [[sources/CzQbI8_bBEs-multiplayer-ai|Multiplayer AI]]: A collaborative, cloud-based UI/UX design tool that surpassed traditional solo design software.
-- [[sources/8OOuCnZB-4o-unknown|Unknown]]: A design tool that Ploy integrates with.
+- [[sources/8OOuCnZB-4o-the-age-of-the-40-year-old-solo-founder-is-here|The Age Of The 40-Year-Old Solo Founder Is Here]]: A design tool that Ploy integrates with.
 - [[sources/VbqaL_eHhKY-yc-s-head-of-design-shows-you-how-to-design-with-ai|YC's Head of Design Shows You How To Design With AI]]: A design tool initially considered for Startup School speaker cards before switching to an AI-automated approach.
+- [[sources/P06RgnUKX_I-how-to-design-in-the-agent-era|How To Design In The Agent Era]]: A leading design tool in the industry.

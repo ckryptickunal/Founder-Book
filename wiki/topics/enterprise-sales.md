@@ -2,7 +2,7 @@
 type: topic
 title: Enterprise Sales
 created: 2026-05-26
-updated: 2026-06-16
+updated: 2026-09-24
 sources: []
 tags: []
 ---
@@ -24,3 +24,4 @@ The process of startups selling products and services to large, established corp
 - [[sources/zSEeFxq2X_c-diane-greene-at-startup-school-2013|Diane Greene at Startup School 2013]]: The challenge of gaining credibility and distribution in the enterprise market through partnerships.
 - [[sources/y29ZlhuEIyc-the-future-of-software-development-build-software-with-no-code-with-michael-skelly-from-st|The Future of Software Development | Build Software with NO CODE | with Michael Skelly from Stacker]]: The strategy of using rapid prototyping and demos to close high-value B2B contracts.
 - [[sources/2Ap1dnv-GXA-why-two-iit-engineers-turned-down-550k-jobs-to-build-a-startup|Why Two IIT Engineers Turned Down $550K Jobs To Build A Startup]]: The transition from technical building to finding product-market fit in large organizations.
+- [[sources/x3XOeDckUX0-how-outset-turned-ai-interviews-into-a-new-category|How Outset Turned AI Interviews Into a New Category]]: Strategies for navigating corporate budgets and building trust through case studies and validation.

@@ -1,0 +1,181 @@
+Title: Interpretability and Safety for Robot Foundation Models
+Video ID: 3WAHidozI9M
+URL: https://www.youtube.com/watch?v=3WAHidozI9M
+Channel: YC Root Access
+Published: 2026-08-06T17:35:24Z
+Duration: PT5M37S
+Views: 297
+Likes: 7
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 165
+
+============================================================
+TRANSCRIPT
+============================================================
+
+[music]
+>> We're here at YCML with Bear who's going
+to talk about his work from Berkeley on
+robot AI safety. He's also the founder
+of the physical AI safety Institute.
+Bear, tell us about your work.
+>> Awesome. So, this is a piece from Carl
+last year
+where we wrote the first ever
+interpretability paper for robot
+foundation models.
+And uh
+>> Crazy that the first one was last year.
+>> It's It's insane. There's been about 30
+pieces of work since that have built
+upon this and they've done what I love
+to say is like a much more sophisticated
+approach from SAEs to looking at world
+action models, etc. But this very first
+pass was to really get this
+just this more concrete resolution of
+could you take techniques from the AI
+safety field which is for about a decade
+be building techniques across
+interpretability, alignment, and control
+for essentially systems that just think
+and and maybe digitally act, but can we
+take those techniques and apply them to
+create concrete safety outcomes for
+systems that both think and physically
+act.
+>> Cool. Yeah, so what's the what's the
+essence of how you did that?
+>> Yeah, so the essence of how we did this
+is we start with a VLA and a VLA is for
+all intensive purposes
+a fine-tuned VLA.
+>> Yep.
+>> And within the VLA are transformer
+blocks and within transformer blocks are
+feed-forward networks which are
+essentially just an MLP.
+So, if we take
+if we project that onto the model
+embedding layer which is
+the the final layer of any you know most
+foundation models, it's essentially the
+the dictionary of the tokens the model
+understands.
+You actually get this representation
+that's almost like a dictionary of for
+every FFN what were the tokens across
+all the FFNs that were most activated by
+that FFN layer. Now, this allows you to
+do a lot of really interesting analysis
+to understand RFMs better, but what's
+really useful here is you can then
+cluster these FFN representations by
+similar concepts, whether that's quick,
+fast, slow, cautious, etc. And then in
+the forward pass of the RFM, actually
+hyper-activate that so that the model
+is, you know, very concretely controlled
+toward that direction. And so, I've got
+a copy of our website here,
+where you can see here we have a low
+neuron cluster activated high neuron
+cluster activated. And it has the same
+natural language command. However, the
+robot is achieving the task in a much
+higher or lower action space because of
+this very direct control. And so, when I
+think about this from the lens of AI
+safety, is the idea here that this
+means, you know, if we can understand
+these elements inside, then our network
+is better, we can constrain them in such
+a way such that when you have a generic
+command like the command you're doing
+here, it's less likely to do something
+unexpectedly bad. Is that like roughly
+why you you see this as like an AI
+safety problem, or like how do you
+interpret it that way?
+>> Yeah, you know, I think people approach
+AI safety from a whole, you know, sort
+of fidelity of different normal level
+understandings. Anywhere from we just
+want our systems to be more reliable to
+there could be serious catastrophic risk
+here. And
+my opinion and the opinion of, you know,
+the authors of the paper and the
+physical AI safety institute is that
+when you are when you have a general
+reasoning model that is operating on
+probability distributions of what
+anything really semantically means in
+the real world,
+>> Yeah.
+>> it's an extra surface of risk that it
+that sort of
+only amplifies those existing risks that
+the AI safety community thinks of. So,
+whether, you know, whether it is simply
+just will this do the task that I want
+it to do, whether it is, you know, a
+long horizon task that might go very off
+stream because the model has, you know,
+really improve over time, but now you're
+not so sure if it has, you know, the
+inner alignment tracing
+or
+if it's you know some catastrophic maybe
+a bio risk of of an RFM now you know you
+could say an LM might know how to make a
+bio weapon but an RFM embedded in a
+humanoid can can know how to make it it
+can go buy the parts by walking into
+Home Depot in a world that's you know
+very normalized that to have you know
+robot embodiments and then actually go
+make it and place it in a high density
+location and so there's a whole sort of
+remit of of risks in the space
+and our goal really with the physical AI
+safety Institute is to get more people
+working on technical solutions to these
+problems.
+>> That's
+maybe to wrap you had mentioned that
+you're hosting a workshop next year do
+you want to tell us a little bit about
+that?
+>> Yeah so the workshop is this year in
+November
+from August 12th you can you can submit
+a paper so the workshop is called the
+science of physical AI safety the goal
+is to bring together the AI safety and
+robot learning communities to establish
+this shared field. We have three of the
+most fantastic robotics professors in
+the world from Stanford CMU and MIT as
+well as Thomas from Goodfire who's done
+fantastic work on physical AI
+interpretability as well
+and really
+the idea with the workshop is to as a
+group collectively source opinions to
+these three questions and the three
+questions are what can we take from the
+AI safety field to inform RFMs what can
+we take from the classical robotics
+fields of kinematics dynamics and
+control to inform safety RFMs
+and also how should we think about
+evaluating RFMs in contrast to these two
+disciplines
+it opens August 12th so we'd love for
+people to to submit either a paper or a
+short demo.
+>> Awesome.
+Thanks so much really appreciate your
+time thanks appreciate it.

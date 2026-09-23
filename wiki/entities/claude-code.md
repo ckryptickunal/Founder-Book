@@ -2,7 +2,7 @@
 type: entity
 title: Claude Code
 created: 2026-05-26
-updated: 2026-08-06
+updated: 2026-09-24
 sources: []
 tags: []
 ---
@@ -33,3 +33,4 @@ An AI coding agent mentioned as a tool that Mnemonic integrates with and improve
 - [[sources/qyPCVqFUyDo-boris-cherny-we-cut-80-of-claude-code-s-prompt|Boris Cherny: We Cut 80% of Claude Code’s Prompt]]: An agentic product/harness built on Anthropic's Claude models, designed for coding tasks.
 - [[sources/sG5aB79TE44-how-supabase-became-one-of-the-fastest-growing-devtool-companies-in-the-world|How Supabase Became One Of The Fastest Growing DevTool Companies In The World]]: An AI model or tool mentioned in the context of AI agents launching databases.
 - [[sources/_y7siiS-V5A-y7siis-v5a|_y7siiS-V5A]]: An AI coding assistant, mentioned as a tool used by developers and for improving support quality.
+- [[sources/2cRbdYhs3VY-supabase-cash-does-not-equal-success|Supabase: Cash Does Not Equal Success]]: An AI coding agent.

@@ -2,7 +2,7 @@
 type: topic
 title: Founder-Led Sales
 created: 2026-05-26
-updated: 2026-08-06
+updated: 2026-09-24
 sources: []
 tags: []
 ---
@@ -20,3 +20,4 @@ The practice of founders directly managing sales and customer relationships to g
 - [[sources/LJay5YW4fLA-how-to-earn-customers-for-life|How To Earn Customers For Life]]: The unique power of founders engaging directly with early users to build trust.
 - [[sources/xZi4kTJG-LE-how-to-sell-by-tyler-bosmeny|How to Sell by Tyler Bosmeny]]: The necessity for founders to handle early sales to gain deep customer insights and validate the product.
 - [[sources/_FBivfgOvuE-how-to-get-your-first-10-customers|How to Get Your First 10 Customers]]: The critical role of the startup founder in personally driving the first sales through direct engagement and unscalable efforts.
+- [[sources/wr6PMD06hP0-why-you-re-getting-zero-replies-to-your-cold-emails|Why You're Getting Zero Replies To Your Cold Emails]]: The practice of founders personally handling sales to gain deep customer insights and product-market fit.

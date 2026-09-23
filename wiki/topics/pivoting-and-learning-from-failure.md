@@ -15,4 +15,4 @@ How to effectively pivot after deep engagement with an idea, and the benefits of
 
 ## Source Mentions
 
-- [[sources/R56RJFZBasQ-unknown|Unknown]]: How to effectively pivot after deep engagement with an idea, and the benefits of learning from an idea's failure to discover better opportunities.
+- [[sources/R56RJFZBasQ-pick-one-idea-and-go-deep|Pick One Idea and Go Deep]]: How to effectively pivot after deep engagement with an idea, and the benefits of learning from an idea's failure to discover better opportunities.

@@ -2,7 +2,7 @@
 type: entity
 title: Cursor
 created: 2026-05-26
-updated: 2026-08-06
+updated: 2026-09-24
 sources: []
 tags: []
 ---
@@ -43,8 +43,9 @@ A code editor mentioned by engineers as a preferred tool for production-ready co
 - [[sources/t8co94HS6tY-how-amplitude-went-from-skeptics-to-all-in-on-ai|How Amplitude Went From Skeptics to “All In” on AI]]: AI-powered code editor
 - [[sources/z0wt2pe_LZM-2024-the-year-the-gpt-wrapper-myth-proved-wrong|2024: The Year the GPT Wrapper Myth Proved Wrong]]: AI-powered code editor.
 - [[sources/I4B37S1dyQQ-jensen-huang-the-mindset-that-built-nvidia|Jensen Huang: The Mindset That Built NVIDIA]]: An AI coding assistant, used by some Nvidia employees.
-- [[sources/8OOuCnZB-4o-unknown|Unknown]]: A company whose website was used for a live demo of Ploy's 'slurper' feature.
+- [[sources/8OOuCnZB-4o-the-age-of-the-40-year-old-solo-founder-is-here|The Age Of The 40-Year-Old Solo Founder Is Here]]: A company whose website was used for a live demo of Ploy's 'slurper' feature.
 - [[sources/n8dz2FX0_uY-multi-gpu-kernels-intelligence-per-watt-heterogeneous-inference-and-more-yc-paper-club|Multi-GPU Kernels, Intelligence per Watt, Heterogeneous Inference, and More | YC Paper Club]]: AI company, employs Stuart Soul, uses Parallel Kittens to train Composer.
 - [[sources/99sPd15j3Zc-what-actually-makes-a-startup-durable|What Actually Makes A Startup Durable]]: A company whose founder's repeated launches on Hacker News were cited as an example of persistence.
 - [[sources/tOhkv307Pm0-the-first-dedicated-yc-gpu-cluster-with-together-ai|The First Dedicated YC GPU Cluster - With Together AI]]: An AI-native startup and customer of Together AI, mentioned as an example of a scaled company.
 - [[sources/_O6x4ktK6JA-he-built-the-world-s-1-open-source-coding-agent|He Built the World's #1 Open-Source Coding Agent]]: A coding agent, mentioned as a competitor that did not resonate with Open Code's founders' preferences for terminal UIs.
+- [[sources/P06RgnUKX_I-how-to-design-in-the-agent-era|How To Design In The Agent Era]]: An AI-powered code editor.

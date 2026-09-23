@@ -2,7 +2,7 @@
 type: topic
 title: Founder-Market Fit
 created: 2026-05-26
-updated: 2026-06-16
+updated: 2026-09-24
 sources: []
 tags: []
 ---
@@ -24,3 +24,6 @@ The importance of John Glasgow's extensive background in corporate finance in pr
 - [[sources/TANaRNMbYgk-how-to-get-ai-startup-ideas|How To Get AI Startup Ideas]]: The importance of having unique, deep experience in a domain before attempting to build a startup in that space.
 - [[sources/zHZxURFgK-4-hans-tung-funded-16-unicorns-billion-dollar-war-stories-and-hard-lessons-learned|Hans Tung funded 16 unicorns: Billion dollar war stories and hard lessons learned]]: The alignment between a founder's unique skills/passions and the specific market they are attacking.
 - [[sources/pg-the-reddits-the-reddits|The Reddits]]: The alignment between a founder's personal traits and the nature of the company they build.
+- [[sources/8OOuCnZB-4o-the-age-of-the-40-year-old-solo-founder-is-here|The Age Of The 40-Year-Old Solo Founder Is Here]]: The advantage of experienced founders applying deep industry knowledge to new AI-native products.
+- [[sources/P06RgnUKX_I-how-to-design-in-the-agent-era|How To Design In The Agent Era]]: The importance of building tools that align with the founder's genuine interests and expertise.
+- [[sources/R56RJFZBasQ-pick-one-idea-and-go-deep|Pick One Idea and Go Deep]]: The balance between domain experience and the ability to learn a new industry quickly.

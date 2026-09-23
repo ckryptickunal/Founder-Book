@@ -2,7 +2,7 @@
 type: topic
 title: AI Policy
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-09-24
 sources: []
 tags: []
 ---
@@ -16,3 +16,4 @@ The role of regulation and ethical frameworks in guiding the development and dep
 ## Source Mentions
 
 - [[sources/kEgeHOtsxrE-at-the-intersection-of-ai-governments-and-google-tim-hwang|At the Intersection of AI, Governments, and Google - Tim Hwang]]: The role of regulation and ethical frameworks in guiding the development and deployment of machine learning.
+- [[sources/zLUZclThLhU-michael-kratsios-inside-the-white-house-s-ai-strategy|Michael Kratsios: Inside the White House's AI Strategy]]: Balancing safety and innovation through national standards rather than state-level fragmentation.

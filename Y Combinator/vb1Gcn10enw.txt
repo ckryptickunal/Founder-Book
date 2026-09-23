@@ -1,0 +1,1043 @@
+Title: What Top AI Labs Are Really Doing With Observability
+Video ID: vb1Gcn10enw
+URL: https://www.youtube.com/watch?v=vb1Gcn10enw
+Channel: Y Combinator
+Published: 2026-07-24T20:00:38Z
+Duration: PT30M29S
+Views: 6767
+Likes: 110
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 1027
+
+============================================================
+TRANSCRIPT
+============================================================
+
+My co-founder stood in front of the
+whole engineering team a couple of
+months ago saying, "Hey, in two
+quarters, we're not writing any any code
+anymore." And we saw, like literally,
+absolutely excellent developers, like
+not beginners, but people
+rebuild whole systems in a couple of
+days alone
+that were absolutely amazing. Things
+that would have been possible, but you
+know, done by a team of six over six
+months.
+>> Uh welcome, Olivier.
+>> Thank you.
+>> [applause]
+>> By the way, it looks like an IQ test of
+sorts here, like there's like
+>> Like which one uh
+>> six microphones of different colors on
+it, you know, so we always like that.
+>> Yeah. Uh as we as we're preparing that
+uh that session, Olivier reminded me
+about something here. I'm sure you
+wanted to say that, right?
+>> Yes, so we actually did not get into Y
+Combinator. DataDog did not get into Y
+Combinator.
+>> I checked, they applied.
+>> Yes, we applied. We we got an interview.
+I've got uh I've got a rejection email
+from from Paul Graham still, you know.
+Um
+>> you put that on the wall, framed it, and
+like
+so it's thanks to us that you become
+such a
+>> Exactly, you know, like we we had we had
+to prove you wrong, so.
+>> Okay, so so if any of you get ever
+rejected, here is the outcome.
+>> Yes, yes. And then and then and then
+here's the thing. So then I received
+like when when I agreed to do this and
+then I received an an invite to a
+YC dinner
+>> [laughter]
+>> in in Paris. And then I said, "Oops,
+sorry, you didn't We are not into YC, so
+you're not invited anymore." So I got
+rejected twice by YC, you
+>> Well, the second time hopefully didn't
+hurt as much.
+Uh well, but you're here and we'll make
+up for that.
+Hopefully.
+>> Yes.
+>> [gasps]
+>> All right. Um
+you and your co-founder Alexy, you met
+So you were in Paris, right? At
+Centrale. Yeah.
+Uh that's how you you met and then you
+ended up working in New York. So uh
+why did you leave? Like was that a
+deliberate choice back then?
+>> So, no, it was not a deliberate choice.
+So, we So, I graduated in '99. Uh I had
+a
+an end of study internship and I did it
+at IBM Research in upstate New York.
+Which at the time was a you know fairly
+legit place for research. Not anymore.
+Uh I mean I mean now you know look now
+there's there's uh you know
+DeepMind and OpenAI and
+>> More sexier places to do research.
+>> Yes, yes. [clears throat]
+>> What were you doing research there?
+>> I was doing research on internet
+protocols. You know, so at the time
+sending emails. So, no, not quite AI,
+but you know, it's a email works. Um so,
+but anyway, Alexy, my co-founder, was a
+couple of years ahead of me in school.
+He had already been to that internship
+and was still there. He actually started
+working in IBM after that.
+Uh and so, we met there
+for for real. Like we met a little bit
+in school in a in in weird ways. Um I
+can come back to that. Um and then we we
+uh we spent some time in
+at at IBM.
+Um I thought I would stay in New York 6
+months and I'm still there. You know,
+it's like 26 27 years later. So, uh so,
+that part was a
+was a happy accident, I would say.
+When um halfway through the the
+experience at IBM,
+um it was the the the dot-com boom.
+Um so, we would start-ups everywhere in
+New York. Super exciting. Lots going on.
+Uh we I started working for start-ups.
+We actually started working together
+with Alexy.
+>> How how many here know about the dot-com
+boom?
+Well, they may have heard a little bit
+about that.
+>> Um and then after that, it was the
+dot-com bust. Um so, I got a little bit
+of the dot-com boom and the
+entirety of the dot-com bust. Um so, a
+lot of lessons learned about what to do
+and what not to do in a start-up for
+that
+>> But you were not building a start-up
+back then.
+>> I was I was actually working in
+start-ups. Not not mine. Um but I was
+working in startups. One of them was was
+actually
+should have been pretty amazing, but
+made a lot of mistakes, you know, in
+terms of
+you know, spending too much on the wrong
+things, not shipping product when they
+should have shipped product, like a
+number of things to remember.
+>> Okay. Is that where you got the idea for
+Datadog?
+>> So, later on. So, after that, the things
+got worse in New York. There was the
+September 11th and everything else. So,
+it was pretty dark. Uh, but I decided to
+stay there for personal reasons.
+And uh,
+I started working again with Alexey in a
+um,
+uh, educational software startup. And at
+the time, it was after the bust, so
+nobody thought technology would be worth
+anything ever again. Um, and so we we
+started going working there. That
+company was pretty successful. Um, we
+built the tech teams there. So, I was I
+was building the the dev team. Alexey
+was building the ops team, like tech ops
+team. Um, it was pretty successful. It
+grew. It was SaaS. And that's what led
+us to Datadog.
+>> How how big was the company?
+>> When when we left, it was like uh, 800
+people or something.
+>> Okay, so it's pretty big. So, you had
+like a lot of uh, devops issues,
+operation issues.
+>> Yes, yes. And also we I mean, we we
+lived through a
+you know, developers hate operations,
+operations hate developers, people point
+fingers at each other all the time, you
+know.
+Um, and it was weird because
+Alexey and I were very very good
+friends. The teams reported to us. Uh,
+we tried not to hire any any jerks
+jerks, and that was the uh,
+>> There were there were already uh,
+observability companies out there back
+then, right?
+>> It was not called observability, it was
+called monitoring.
+>> Okay.
+>> Um, and it was very
+job specific and very reactive.
+So, you know,
+for network monitoring, you'd have a
+product. For, you know,
+um, you'd have something that the ops
+team would use, but the developers would
+never touch it, you know. Developers
+would be blind to anything that happened
+in production, pretty much.
+>> And you started like targeting that
+audience, right? You were uh, mostly
+bottom up, at least at first.
+>> Yes, bottom up,
+uh and we
+we started in 2010 um and what we didn't
+completely realize at the time was that
+the the premise for the company, which
+was
+uh let's bring DevSecOps together into
+one platform, uh was actually completely
+central to the explosion of the cloud.
+Um and we also completely underestimated
+the explosion of cloud. We thought, "Oh,
+that's interesting, you know, this
+Amazon thing."
+Um but, you know, when you talk to real
+companies, they all say, "It's a toy and
+I'm never going to use it." Um turns out
+they all did. But that was
+>> bet back then because you were a cloud
+first.
+>> Y- Yes, so the bet was it was DevSecOps
+together.
+And then the first infrastructure we
+started supporting for that was cloud
+infrastructure because we talked to
+small smaller companies and the smaller
+companies or more modern companies were
+built on the cloud. And that's what got
+us to that.
+>> That became the tailwind of everything
+like a new
+>> Yes, the cloud market exploded.
+>> Cloud market exploded, DevSecOps were
+smooshed together.
+Um our product also was a like we we
+called it infrastructure monitoring
+initially. We didn't call it
+observability. The word didn't didn't
+exist.
+Um but it didn't look at all like
+infrastructure monitoring that came
+before. And one of the reasons for us to
+there was we didn't do that initially.
+Initially, we had a we called it
+something different. Like it was a data
+platform for DevSecOps to collaborate
+and things like that, you know.
+And um
+but because we thought monitoring was a
+thing from the '90s and it was boring
+and it was old. Um and it turns out uh
+people love the idea of a new thing, but
+they have no idea why they should pay
+for it and their boss has no idea why
+they should pay for it. Whereas you say
+you say, "Oh, this is infrastructure
+monitoring."
+Uh and then everybody's everybody and
+their boss understands, "Yes, actually
+it's a product. We need that. It's a
+category. It's a it's a it's real. Let's
+get it."
+>> So how fast did you get there? Because
+like you kind of like uh nearly I mean
+owning that category, I would even say
+today. Uh
+was it obvious
+really fast that it would work or did
+you have like to go through a very
+difficult times?
+>> It was not obvious at all. I mean, for
+one we didn't get into a community
+>> Yes, yes, yes. That's probably a
+>> Um and uh
+>> Did you have any other rejections or any
+low
+times after?
+>> No, the
+>> [laughter]
+>> the first one we we raised the angel
+round and it was super painful. Um we
+couldn't get any of the smart investors
+to to pay attention. Like if you are a
+big VC and they were we were we were in
+New York. You had VCs in New York, VCs
+in the Bay Area.
+Uh not much going on in Europe.
+Um and uh
+we'd go to the to to to New York
+and the VCs would be interested and then
+they realize like they would they see
+our competitor slide and they realize
+they don't really understand any of
+these companies and then they think
+okay, it's not for me. I don't I don't
+know this market.
+And then we'd go pitch the VCs in the
+Bay Area. At the time they only invested
+in the Bay Area.
+Uh like very very, you know, focused.
+And it it to them it was a form of
+mental impairment not to uh to to try to
+start to an infrastructure company but
+not in the Bay Area.
+And so I I I could even hear them speak
+slower and louder, you know, like uh
+>> Just to make sure you understand that.
+>> Yes, yes. So, I think it was uh
+>> You couldn't frame that on the wall.
+>> Yeah, couldn't frame that.
+Yeah, you know
+>> But I guess I guess it's kind of like uh
+you want to prove them wrong.
+>> Yes.
+>> And in a way you can turn that into
+crazy motivation to prove them wrong.
+>> Oh, exactly. And I think we
+in the way we built the company
+afterwards there's a number of things we
+did that were on purpose different from
+what we saw uh Bay Area companies do.
+Because we thought hey, we're going to
+you know, we we're going to do
+differently. We're going to be better.
+We're going to do a So, for example, you
+know, we
+we never wrote down the culture. Like
+you know, at the time I think a bit less
+today but at the time every company had,
+you know, five values or eight
+principles or you know, uh nine concepts
+or you know, there's a
+>> So, what did you do instead?
+>> So, what we didn't we said what we said
+is hey look, uh if you need if you need
+don't be evil to be written on the wall,
+you probably shouldn't work here
+shouldn't work here, you know, like a
+Um and what we said in studies culture
+flows from the top.
+Uh so we exemplify the culture, we hire,
+we promote, we fire based on the
+culture, and
+today that still works.
+>> So your culture is you.
+>> Well, I mean the the culture is we what
+we do. That's not us, that's what we
+>> I mean like you said needs to bring to
+come from the top, but that's that's
+cool. I mean I'm not uh
+>> And and look, we're we're fairly
+uh we're pragmatic, too, right? Every
+year we ask ourselves, hey, is it the
+year we need to we need to write it down
+because look, we need to hire 3,000
+people, we need to
+we need to train those 3,000 people.
+>> We are 8,000. 8,000.
+Uh we need to train those people. What
+do we what do we tell them? And so far I
+think it it still works. It still works.
+>> Awesome. Uh
+actually makes me think about like
+conversation I had with the PRB 21 that
+you know very well
+uh because I work with him, too. Uh
+because of
+because of this conversation I asked
+him, hey, like what should I ask
+Olivier? And actually one of the thing
+he was very impressed is how heavily
+involved you are still on like some very
+small product decisions, and you don't
+spend your time in that strategy kind of
+whatever slide decks and stuff.
+Uh how do you keep that? How do you how
+do you keep that going?
+>> Yeah, so first of all, I hate the S
+word, you know, so I when people use
+strategic in a sentence, I usually I
+replace that mentally by you
+know, so um
+that's uh uh I mean
+in some cases it's meaningful, right?
+Not always.
+Um
+the
+>> everyone in the company knows that.
+>> Yes.
+>> Yes, well, I mean not
+>> That's the culture thing.
+>> Well, people people make the mistake
+once usually, but you know. Um
+the um
+the so
+first of all, I think product when you
+for for we do like we're
+uh like infra and then product company.
+Um it's very important to be in touch
+with the product. It's a big part of my
+job. Of course, we have plenty of people
+who handle the product. Like we have
+people who spend time with customers, we
+have people who focus on all the small
+things.
+But I think it's very important for me
+and a lot of the management team to to
+be aware of everything that's happening
+in product, read all of the new
+developments. And as as as you get
+further up in the order ending with me,
+you're in a position where you can
+really edit. Like you can say, "Hey, I
+think this is too much." or "I think
+it's not enough." or "Let's stop doing
+that." or "I don't understand that
+part." If I don't understand it, how are
+all the customers going to understand
+it? Like this is this is this level of a
+of a level. You think it could become a
+bottleneck at some point? So, it's not
+it's not blocking, you know? So, I don't
+try to I'm not I'm not a necessary
+approval step, you know, on everything.
+But um and part of the game is to
+understand where to direct the direct
+the attention and where not. But another
+thing I think I I I encourage everyone
+to do as soon as you start scaling a
+little bit in your company is to um keep
+in touch with what's actually happening
+on the ground.
+And by that I mean the actual support
+requests, the actual
+uh sales transcripts from the sales
+conversations, the actual customer
+feedback, the actual employee comments
+that you get in the uh you know,
+employee surveys and things like that.
+Of course, you can't read everything. I
+mean, except for I still read all of the
+employee survey comments, but for the
+rest, I don't read everything. You
+sample. But when you do that,
+um you get a good sense for what the uh
+fabric of the universe actually is um in
+the company, and you don't just get the
+beautiful summaries that, you know, find
+their way up to you, you know, where you
+know, everything's beautiful. All these
+new products is great. And then you see,
+"But I read two complaints about it from
+customers. Like they say it doesn't
+work." Like, you know, "Or it's too
+expensive." What what what do you mean?
+>> How often does that happen? Like like
+kind of like you discover something
+reading some survey or some feedback
+from customers, and then you go to the
+team, "Hey, come on. Like it's not
+working. Look."
+And before they were kind of like trying
+to massage or the message.
+>> Well, what I do is I just pick up those
+random emails. Um or you know, slacks or
+whatever and I just I just reply with a
+question, you know. I say, "I don't
+understand what's going on."
+>> Yeah.
+>> And then
+>> That's passive-aggressive.
+>> And then, you know, the what happens is
+that two things happen. The first one is
+the person who's receiving that is
+wondering, "Oh, why why why is he
+looking at that?"
+Uh
+And then after that, the positive effect
+is that the whole management chain, if
+they know instead of looking up and
+trying to figure out what they're going
+to manage up, they start looking down
+and starting to figure out, "Okay, so
+what's actually happening? I better know
+because uh if I get asked, I need to
+understand, you know."
+>> So, going back to the culture of showing
+by example in a way.
+>> Yeah.
+>> You need to demonstrate to live the
+culture yourself so that your everyone
+who reports to you is going to do the
+same thing.
+>> Yeah, your your job is not to understand
+what I want as a boss. Your job is to
+understand what's happening within your
+span of control and and understand it
+very very precisely. What what's working
+and not working.
+>> Uh I mean, the company has become huge
+now and is a multi-product. How many
+products have you Do you have?
+>> Uh we have about around 20 25.
+>> 20 25 products. I mean, how
+how do you decide how you expand the
+portfolio? How do you decide the next
+thing to build?
+>> In a way, so we we're kind of platformy
+as a product. So, we see a lot of usage
+from our customers around our product so
+they they sort of build things around
+our product and they they have their own
+kind of extensions, their own, you know,
+workflows that they use us in, you know.
+So, it gives us an idea of what kind of
+problems they have and where they think
+we we belong. So, we we do a lot of
+that. Like, we build a lot of things
+that we see them do.
+Um
+and um
+sometimes we also have some, you know,
+more, how can I say,
+uh I'll I'll use the S word. It's the
+most strategic, you know, projects.
+>> Uh one
+>> Yes. Where we, you know, we think,
+"Okay, we're not Nobody's asking us to
+do that, but looks like the world is
+kind of going that way. And so, we
+should be doing something there." When
+you do that, those tend to have
+potentially a bigger impact because they
+can this can be brand new things.
+On the other hand, you you you tend to
+be wrong often because you just made
+that up.
+Um and I would say one thing that's a
+bit
+uh changing now is that
+with with AI in particular, things are
+changing so fast that
+you just can't wait to see the demand
+materialize from the customer base. Uh
+so you need to get ahead of it, which I
+think us and many others I think are
+going to get wrong more often and we
+need to be at ease with that.
+>> How uh
+does the the fact you're public now
+impact how you make decisions then? Like
+I mean uh I guess uh
+like yeah, like the price of the share
+is an important factor
+for you now or
+>> The price of the share is not like you
+know we so we've been public since uh
+uh 2019.
+Um
+our um our lockup expired the day of the
+COVID lockdowns.
+So I don't know if you remember there
+was a there was a big market crash that
+day. It was also a lockup expiring. One
+of our biggest investors got scared and
+they dumped everything that day. So I
+think I don't know we're we're down like
+65% or something like it was it was
+>> What was the enterprise?
+>> What's that?
+>> Like I know that you what you're valued
+today, but I don't know how that was
+when you
+>> Well, at that time I think we went down
+from you know being worth from from
+being worth 10 billion to being worth
+you know I don't know four or something
+like that.
+>> Like a huge
+drop.
+>> Yes, especially when you know
+when everybody is sitting at the at that
+valuation before they were when people
+are waiting to sell after the when the
+lockdown expires, you know? Like it's
+real money that people can use to buy
+real apartments. Like you know it's a
+uh it's tangible, right?
+And so that uh that was that was pretty
+bad and then we saw and then that that
+crash lasted two weeks and the market
+went up like crazy again and it kept
+kept going up like crazy in in 2021,
+2022 and then it started crashing again
+and then it started going up again. So
+you know we've seen like
+we've seen the the the stock go up and
+down all the time and I think that we've
+we've gotten used to it.
+>> Did you have to change how you lead the
+company because you were public?
+>> So, not really, you know. I think it's a
+Like what you'll see that as you as you
+run a company
+uh private company, you spend a lot of
+time talking to investors.
+Um because you you probably will need to
+raise funding again.
+And your job when you're the CEO of a
+company is to make sure you don't run
+out of money. And as as part of that uh
+every single investor out there should
+believe that you're the future of sliced
+bread and you know for that you need to
+spend time and make sure that they know
+you and they understand what you do and
+they think you're great. So, you spend a
+lot of time at least I did spend a lot
+of time with investors.
+When you're public, um it's very
+choreographed. Like there's a couple of
+great quarter you have that call. Yes.
+Yeah, you have a you spend a couple of
+days every quarter on on that. Spend a
+week preparing, you know, to make sure
+you have the right message.
+You don't but then you don't worry about
+the share price like how the market is
+going to react whatever you announce.
+You do I mean you you look the the main
+issue it creates is if you if you do
+something that's unpopular with the
+market.
+Um you're going to maybe you're going to
+lose you know 20 30 40%. Um
+Does it impact the company in the short
+term? No, but it creates a comp issue
+because people are paid in RSUs. So, the
+the main thing you have to to worry
+about is okay, so what does it change to
+to comp and how can we
+>> So, the
+the actual risk is not the survival of
+the company is kind of like losing key
+performers.
+>> Yeah.
+>> Because
+their RSUs are worth less.
+>> Yes. Yes. And it mean and and that
+becomes comp management. That becomes
+okay, so how do we do? Uh are there are
+there And also keep in mind that people
+join at different point in time, so they
+have their comp is actually at different
+levels, you know, so
+you have to be to to be more to look at
+into more details what's going on.
+>> How about um
+the AI kind of like revolution in a way?
+Uh I guess the market also was thinking
+about that uh looking at your company,
+because obviously early on it was not
+obvious you would be a winner or loser.
+How did that impact you?
+>> Um I mean, well, see, it changes every
+couple of months now.
+>> Okay. Um but like it looks like you're
+on a good trend now.
+>> Yeah, now we're now we're on the winner
+side, which is good. Uh
+we we should
+>> But you didn't start there.
+>> Yeah, we well, we started in the uh
+don't know uh side uh from the from the
+investors um
+and um I mean, look, the the reality of
+it is there's a ton of disruption and
+for investors in general, but I would
+say even more so public investors,
+it's really, really hard to understand,
+you know, what things look like, you
+know, 3, 4, 5 years from now. And you
+know, sometimes if you
+when you start a company, uh you're
+going to you're going to pitch VC
+investors, you're going to have maybe
+two or three of these VC investors that
+are on your board or or spend time with
+your company.
+And you might go and uh you know, have
+have coffee with your friends and say,
+"Oh, my my VCs don't understand me." Um
+but you will be the VCs you have as a as
+a private company, they spend so much
+more time on your company, they're so
+much more concentrated than the public
+investors. Like public investors have
+they're looking at, you know, 20, 30
+different names, they come in and out of
+these names in a couple of times a year,
+as opposed to a VC that's going to be in
+like seven, eight companies and and, you
+know, stick around for 5 to 10 years. Um
+so, that's a very, very, very different
+deal. Um so, public investors, they have
+less it's for them it's harder to reason
+about about things. So, what you need to
+do is you need to make sure that you uh
+tell the right story uh to beneficial
+you're going and then you produce the
+numbers that actually agree with that
+story. And if you do that consistently
+enough through the years, that's all
+your job as a public company, then you
+do fine with them.
+>> And what does that mean for you on the
+like on the company side, not the public
+investor side? Uh because I guess you
+would like to rethink the product, you
+had you had to make new bets. Uh
+in a way, you couldn't stay defensive,
+you had to become aggressive and on the
+attack, right?
+>> Yeah, so I mean there's a few things.
+One is working in a bit of a different
+way. You know, so I mentioned earlier AI
+is changing fast, so you you need to
+take more shots and be wrong more more
+often. And so we pivoted a little bit to
+that. You know, in one example being
+look at the way development has changed.
+You know, it's changed three times like
+the the way you write code or don't
+write code
+has changed three times in the last
+year. Um it's impossible to break that a
+year ahead of time, so you have to be
+very reactive and you have to to try a
+lot of things all the time.
+>> So so what are your latest bets?
+>> Um well, so we're we're getting earlier
+into the the
+So a few things. So one is we're making
+a we're investing a lot so that the
+product can be used by agents. Uh
+because we see that like in our
+customers, we see a lot of that. Another
+one is that we're building a lot of the
+smarts directly into the product.
+Um you know,
+if you just cloud code for example to uh
+you know, work on your ops issues,
+uh it's a little bit like uh you know,
+trying to to send a postcard by buying a
+business class ticket for it, you know.
+Um there's a lot you can do and you
+should be able to do um that's would be
+directly fused on the in the data plane
+for us inside the observability as being
+you know, outside of it. So we're
+building a lot of that so that the the
+the system can do everything on its own.
+>> And I and I guess AI companies
+uh
+who are growing super fast also need
+observability. Is that a big piece of
+your market now?
+>> Yes, and that's also you know, in terms
+of how we find out what to do next and
+where the world's going.
+Um so
+we have the top 10 AI companies in the
+world as customers. Uh we have all of
+the startups that are doing not all but
+you know, a good fraction of the
+startups that are that are building on
+AI. And we also have the big enterprises
+that make up the you know, the the
+normal world so to speak like you know,
+the big banks, the
+you know, train companies and and
+whatnot. Um and so we get had pretty
+good panel of what uh what people do. We
+see the the AI labs like you know the
+the top like two or three AI labs in the
+world uh use our product in weird ways
+because they have infinite compute and
+infinite uh you know inference and the
+models that nobody has yet. And so it
+you know does that give you a glimpse of
+what's coming up after?
+>> Yes, but it's not necessarily the most
+representative because again they
+they're they're they have all that. So
+we see we get a sense of that but
+you know the rest of the world doesn't
+have infinite compute.
+So they might do things in a way that
+the rest of the world is not going to do
+like you know your
+most companies are not going to be very
+happy to you know incinerate a you know
+a billion in compute to to do a lot of
+internal things in a way that these
+people can do.
+>> How about you?
+How are you like how do you use AI
+internally? Are you token maxing?
+>> We're not token maxing
+but but look we we my co-founder stood
+in front of the whole engineering team a
+couple of months ago saying hey in two
+quarters we're not writing any any code
+anymore you know.
+So um
+>> So directive no code anymore.
+>> Yes, I mean we look the reality of it is
+we will write code we will rewrite code
+right?
+But the the point here is it's an
+inversion like you used to
+mostly write sometimes automate and now
+you're going to mostly automate
+sometimes write.
+>> Does that change how you lead the teams
+how you hire them like I know any any
+any uh
+surprising things you've seen?
+>> It changes everything.
+Uh
+but the the tricky part is we don't know
+what the destination looks like yet.
+So we know
+So we know for example that smaller
+teams can do a lot more and you know
+which is part of the hey you can do more
+and be wrong more often but that's fine
+because you also you know instead of
+having a team of eight to explore
+something you can do it with a team of
+two or three you know. So that's great.
+On the other hand uh nobody knows what
+the process looks like a year from now.
+Nobody knows how many PMs how many
+designers how many security people how
+many engineers you need to build a
+thing.
+>> Um and so do you
+get some benefits on the way? It feels
+like you probably have already some big
+ROI on some of these changes.
+>> Oh, yeah. I mean, look, we've seen like
+like many companies like, you know, we
+we had this moment in um
+in in December uh
+I think in part because the models got
+really good.
+Uh the threshold was crossed, but also
+in part because people had a bit more
+time on their hand, you know, it's the
+holiday season. Hey, maybe I'll do a bit
+of a hack project on my own.
+And and we saw like literally like just
+I mean, absolutely excellent developers,
+like not beginners, but people
+rebuild whole systems in a couple of
+days alone that were absolutely amazing.
+Um, things that would have been
+possible, but you know, done by a team
+of six over six months. Um, and so that
+convinced us that yes, you know, there's
+enough. We we have to pivot the
+organization. It's going to be painful.
+It is painful, but we're doing it.
+>> And speaking of uh
+your co-founder, Alexy I mean, you've
+been working together for like 20 years
+or something. Like, how
+can you still like how does how did you
+make that last?
+>> Yeah, I mean, like look, we're a bit of
+an old couple now, I guess, you know,
+it's
+uh
+I think there's a couple of things. So,
+one is we worked together uh without
+starting a company together for almost
+10 years.
+And so we we have already had a good a
+lot of uh experience like, you know with
+what's the right way of working
+together, the right boundary, you know,
+like you have to test those things a
+little bit, you know.
+Um, and then as we when we started the
+company like we also tried to give
+ourselves a lot of space to talk.
+Um, so
+>> Any hack? Any tips?
+>> I mean, you just have we just have a
+standing lunch, you know, and and
+there's no
+>> Like once a week or something?
+>> Yeah, well, I mean, it's mostly once
+every two weeks now, but yeah, it's a uh
+And the And the the point here is you
+don't have a specific agenda, you just
+talk. And and it's uh it's important to
+get what's in in the area.
+>> I couldn't agree more.
+>> Yeah. And also like you you know, when
+when you when you run a company like you
+there's not a lot of people you can
+ to or you know like you you you
+can't you so
+a co-founder is a great person for that
+like yeah.
+So uh most of the people here are not
+necessarily Paris but at least Europe.
+Uh if they start a company should they
+start it here or should they go to New
+York or SF?
+I think it's fine to start here. Uh I
+think it was not true when I started
+Datadog. I think
+you started a little bit a little bit
+later.
+>> I started here in 2012.
+>> Yes.
+>> But then we moved to SF so it's kind of
+like
+>> I see.
+>> But we kept the team here so I think it
+So when when I started it was there was
+not it was hard to get funded. It was
+hard to get everything. I think now you
+can get funded pretty much anywhere in
+Europe. Uh
+On the other hand I think it's
+absolutely critical
+to go after the US market as soon as you
+can. So as soon as you have a product
+with some sort of market fit
+uh go after the US market.
+>> And But don't you need to be in the US
+when you do that?
+>> Yes but I think the whole company
+doesn't need to be. I think the
+you know typically if there are two
+founders um
+one of the founder moves to the US
+and you cannot start in the US without
+without having a founder there.
+Um
+and you should absolutely go to the US.
+Uh but I don't think you need to move
+the whole company.
+>> And you did the reverse move right? You
+created a team in Paris once you were
+bigger.
+>> Yes.
+>> Was that mostly talent acquisition?
+>> It was mostly talent. It was In fact we
+had a number of
+people in the US on visas who uh
+either couldn't renew their visa or you
+know wanted to go go back to to France
+for family reasons and that's our little
+office in Paris.
+>> You had a lot of French employees
+>> Yes. Yes. We we hired like we we we came
+there on a on an internship and that's
+that's the thing we we hired a lot of
+people that way you know.
+>> Excellent. All right. Uh maybe to
+conclude is there one piece of advice
+you would give yourself like
+15 years ago?
+>> So so here's the thing. Uh all of the
+mistakes and all the hardship and
+everything like this this sort of kind
+of you know made us successful like you
+know I said not not being easy to
+fundraise initially. I think that that
+sort of
+create of a value from YC is the reason
+of your success, right? Yeah, I mean
+maybe we should we could have we could
+have gone to YC you know and everything
+would be better.
+>> Hopefully hopefully we would not do that
+mistake again.
+>> Yes, but but look there's there's a
+the one thing the one thing the one
+lesson I keep learning all the time so
+is that you should always move faster
+especially when it comes to hiring and
+firing. I think these are the two things
+that um
+>> Firing I hear all the time.
+>> Yes. Hiring I I don't hear it that that
+all the time. Why I hire
+>> Well, I think the the two the two go
+together. I think it's a you can take
+more risk and you can hire faster
+instead of So for example, one thing I
+hear often is oh we're we're looking for
+a head of sales um cuz most founders are
+not you know sales people. And so oh I'm
+looking for a head of sales. Um but I'm
+not sure I found the right profile yet.
+And my answer to that is have as find
+someone who looks good, hire them right
+away and if it doesn't work out, you
+know, you fire them. Uh
+but it's much better to do that than to
+uh to wait. Like you you you'll have
+you'll run more cycles, you'll have more
+chances. I think it's too hard to know
+anyway before you've tried. So
+>> So I guess you've done that yourself
+now.
+>> Yes, but you know, I made the mistake
+initially I was paralyzed trying to make
+the perfect hire and you know
+>> And then you would have kept them for
+too long.
+>> And then and well that's the other
+the the other part, you know, it's a
+usually like so
+the first time you fire someone in your
+company, you feel horrible and you think
+everybody's going to hate you for it.
+And mostly what you see the rest of the
+company is like What I mean what took
+you so long?
+>> What did you wait? Awesome. Thank you
+Olivier for those time with us.
+>> [applause]

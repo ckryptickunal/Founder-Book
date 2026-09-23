@@ -2,7 +2,7 @@
 type: entity
 title: Docker
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-09-24
 sources: []
 tags: []
 ---
@@ -16,3 +16,4 @@ A platform for developing, shipping, and running applications in containers.
 ## Source Mentions
 
 - [[sources/Q2X2kAJajs4-rfs-commercial-open-source-companies|RFS: Commercial open source companies]]: A platform for developing, shipping, and running applications in containers.
+- [[sources/rY0wnfFHYbs-open-models-change-the-economics-of-ai|Open Models Change The Economics of AI]]: Containerization platform

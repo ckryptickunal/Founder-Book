@@ -2,7 +2,7 @@
 type: topic
 title: Product Strategy
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-09-24
 sources: []
 tags: []
 ---
@@ -24,3 +24,5 @@ The importance of user loyalty and the prioritization of quality over quantity i
 - [[sources/tzsmJtKZ2No-how-to-compete-with-amazon-and-google|How To Compete With Amazon and Google]]: The importance of building a better product over reacting to competitor feature sets.
 - [[sources/wkv2ifxPpF8-how-to-make-claude-code-your-ai-engineering-team|How to Make Claude Code Your AI Engineering Team]]: Using AI to pressure-test startup ideas and business models through adversarial review.
 - [[sources/ypzNhwpmOD4-how-stripe-built-their-new-website|How Stripe Built Their New Website]]: Aligning website narrative and visual identity with the evolution of a company's business model.
+- [[sources/o0ORPbSEgd8-max-junestrand-you-need-the-willingness-to-learn-faster-than-anyone-else|Max Junestrand: You Need The Willingness To Learn Faster Than Anyone Else]]: The shift from reactive LLM prompting to proactive, agentic workflows.
+- [[sources/6A4u7Nl-SHY-posthog-pivots-were-the-real-lesson-in-building-a-startup|PostHog: Pivots Were The Real Lesson In Building A Startup]]: The evolution from point solutions to multi-product platforms to increase competitive advantage.

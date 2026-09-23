@@ -2,7 +2,7 @@
 type: entity
 title: TechCrunch
 created: 2026-05-26
-updated: 2026-08-06
+updated: 2026-09-24
 sources: []
 tags: []
 ---
@@ -21,3 +21,4 @@ Technology news website.
 - [[sources/WlT3UhC7NwQ-chase-adam-at-startup-school-2013|Chase Adam at Startup School 2013]]: Technology news website
 - [[sources/Z8_8jNLsZms-chase-adam-at-startup-school-ny-2014|Chase Adam at Startup School NY 2014]]: Technology news website
 - [[sources/_oYJR6FNcdA-essential-startup-advice-during-a-pandemic|Essential Startup Advice During a Pandemic]]: Technology news website, Alex's employer.
+- [[sources/dZLVDPzPITg-centralize-is-the-gps-for-enterprise-deals|Centralize is the GPS for Enterprise Deals]]: A media property and customer of Centralize.

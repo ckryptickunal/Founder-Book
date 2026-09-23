@@ -2,7 +2,7 @@
 type: topic
 title: Engineering Culture
 created: 2026-05-26
-updated: 2026-06-16
+updated: 2026-09-24
 sources: []
 tags: []
 ---
@@ -27,3 +27,4 @@ The shift from rapid prototyping to sustainable code quality and the importance 
 - [[sources/rP7bpYsfa6Q-tips-for-technical-startup-founders-startup-school|Tips For Technical Startup Founders | Startup School]]: The evolution of the technical founder's role from individual contributor to team leader as the company scales.
 - [[sources/idyfHs3DWmc-masterclass-how-to-sell-to-20m-software-developers-with-an-amazing-onboarding-experience|Masterclass: How to sell to 20M software developers with an amazing onboarding experience]]: The importance of hiring experts in specific languages to build idiomatic API clients and treating documentation as a core product.
 - [[sources/2Ap1dnv-GXA-why-two-iit-engineers-turned-down-550k-jobs-to-build-a-startup|Why Two IIT Engineers Turned Down $550K Jobs To Build A Startup]]: The shift toward using AI tools to increase developer productivity and reduce team size.
+- [[sources/htAl33M5F54-automating-billion-dollar-brands|Automating Billion Dollar Brands]]: A product-manager-less organizational structure where engineers own customer relationships and product strategy.

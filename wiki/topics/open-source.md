@@ -2,7 +2,7 @@
 type: topic
 title: Open Source
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-09-24
 sources: []
 tags: []
 ---
@@ -18,3 +18,4 @@ The preference of great hackers for open source tools due to the need for contro
 - [[sources/pg-great-hackers-great-hackers|Great Hackers]]: The preference of great hackers for open source tools due to the need for control and the ability to fix broken systems.
 - [[sources/pg-what-business-can-learn-from-open-source-what-business-can-learn-from-open-source|What Business Can Learn from Open Source]]: A development model where code is shared and improved by a community, leading to higher quality than top-down corporate software.
 - [[sources/9CWbc6pekd8-ftc-chair-lina-khan-at-y-combinator|FTC Chair Lina Khan at Y Combinator]]: The role of open-source software as a potential vector for increasing competition in the AI space.
+- [[sources/zLUZclThLhU-michael-kratsios-inside-the-white-house-s-ai-strategy|Michael Kratsios: Inside the White House's AI Strategy]]: The administration's commitment to maintaining a vibrant open-source ecosystem to ensure U.S. leadership.

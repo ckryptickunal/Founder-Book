@@ -2,7 +2,7 @@
 type: entity
 title: GPT-4
 created: 2026-05-26
-updated: 2026-08-06
+updated: 2026-09-24
 sources: []
 tags: []
 ---
@@ -23,3 +23,4 @@ A powerful LLM from OpenAI, used as a benchmark for model intelligence and cost.
 - [[sources/sa-the-gentle-singularity-the-gentle-singularity|The Gentle Singularity]]: A large language model developed by OpenAI.
 - [[sources/sa-three-observations-three-observations|Three Observations]]: Large language model developed by OpenAI.
 - [[sources/F3INH9wZXoQ-why-physical-ai-is-the-next-platform-shift|Why Physical AI Is the Next Platform Shift]]: An AI model mentioned as a benchmark for the scale of data Encord handles.
+- [[sources/vr6soyP0mh8-chartnet-training-vision-language-models-to-understand-charts|ChartNet: Training Vision-Language Models to Understand Charts]]: A large multimodal model developed by OpenAI.

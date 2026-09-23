@@ -1,0 +1,960 @@
+Title: How Supabase Became One Of The Fastest Growing DevTool Companies In The World
+Video ID: sG5aB79TE44
+URL: https://www.youtube.com/watch?v=sG5aB79TE44
+Channel: Y Combinator
+Published: 2026-07-23T05:02:48Z
+Duration: PT31M21S
+Views: 7890
+Likes: 166
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 944
+
+============================================================
+TRANSCRIPT
+============================================================
+
+I think the thing that keeps you
+grounded is just absolutely knowing that
+money will not solve your problems. And
+that's a good thing for for startups as
+well, like early stage startups. Like we
+should not exist if AWS are so good.
+They've got way more cash than us, but
+we've been able to for many different
+reasons.
+>> For this next session, I'm welcoming uh
+Paul Copplestone. Is that the right
+pronunciation? Yep.
+>> Okay, awesome.
+>> Who is the co-founder and CEO of
+Supabase.
+Uh
+Supabase began in 2020
+as an open source tool uh to deliver
+Postgres, right? Like help people host
+Postgres online. Uh
+today, it's one of the fastest-growing
+dev tool companies in the world, if not
+the biggest.
+Maybe well, you're not going to uh
+say no. Okay.
+Uh they just became a decacorn just a
+few years after founding, which is
+insane.
+Uh please welcome Paul Copplestone.
+Great to have you with us. Uh I really
+love dev tools, as you know. And so it's
+kind of like having the chance to uh ask
+you questions is always great. Um
+but before building uh Supabase, I mean,
+you started with like was that your
+third startup?
+>> Yeah, that's right. Um
+so like my the short history getting to
+where we are today
+>> Sure. Let's go for it.
+>> is
+uh well, going right back, my father's
+an entrepreneur, and so it's kind of in
+my blood, and I've only really done
+>> Where are you from?
+>> Uh I'm from New Zealand. Yeah,
+originally.
+>> Not in Europe, that's the only one.
+>> Yeah, yeah, yeah.
+>> Just living in Europe right now.
+>> I right now I spend most of my time here
+in Europe, so my French is not so great,
+unfortunately, but I'm practicing. So
+yeah, literally the other side of the
+world I grew up, and then my father was
+an entrepreneur, so I very much felt
+like a natural thing to me. Then I did
+one job in a corporate uh consultancy,
+and
+>> You loved it.
+>> and I absolutely hated it. And uh since
+then I've only done kind of startups or
+entrepreneurship. So I yeah, this now
+officially is my third venture backed
+startup where I've taken VC funding, but
+I've actually done quite a few in the
+meantime.
+>> What happened to VC's money for the
+first two?
+>> Just blew it on uh
+Yeah, having great parties. No, I think
+like
+the I don't know is this the recorder? I
+was going to say something much more
+vulgar, but uh
+No,
+we I mean
+I think it's the number one reason why
+startups fail is they run out of money,
+isn't it?
+>> Not really.
+>> No, is it?
+>> Well, actually look at the numbers.
+>> Yeah, where were was the numbers?
+>> Uh sorry, founders giving up.
+>> Uh okay, okay.
+>> Drama, not finding product market fit.
+And we have so many companies, I mean
+I'm speaking about the YC companies on
+the data on YC companies.
+>> Yeah.
+>> Um people usually close their companies
+they still have a lot of money.
+>> Okay, okay.
+>> So no, maybe your case is different.
+>> Yeah, well, I mean
+I guess we didn't run out of money, but
+eventually if you are persistent enough
+and you can't find product market fit
+the inevitable end cases that you run
+out of money. So the first startup I was
+the CTO rather than the CEO. We didn't
+really find a product market fit and I
+left after a couple of years because the
+way that I wanted to take the business
+was different from how my CEO wanted to
+take the business. So much as you say
+that's reason number one. Yeah.
+Reason startup number two was very
+different. In fact, I had said to my
+co-founder
+the co-founder now, I said to him, I'm
+going to do a dev tools company and he
+said to me, well, just give me two
+years. You be the CTO, help me launch
+this business cuz we had worked together
+before and I said that's fine. I'll be
+incubating Supabase."
+And then I helped them launch the
+business and when it felt like the right
+time, then I actually launched out of
+it. So, I still that company is still
+going and is profitable.
+But um it wasn't, you know, for me. It
+was never going to be my the thing that
+I work the rest of my life on.
+Whereas now Supabase is is very
+different.
+>> I didn't realize that. So, when you
+launched Supabase in 2020, you were
+actual you'd been working on that for 2
+years as a side project?
+>> Not like I wasn't sure. I knew I wanted
+to do a dev tools company, but I wasn't
+sure exactly how it would function. So,
+um and I also knew I wanted to do a
+database company. But the sequence of
+events was um basically I was using um
+Postgres, which is what we use now. Um
+I'm not sure how technical the audience
+so I'll just keep it kind of high level,
+I guess. Pretty technical, okay. So, uh
+Postgres and Firebase and I was using
+both of these tools in my previous
+company and then when we um hit some
+scaling limits on the Firebase side, I
+decided to migrate it across to Postgres
+and I wrote an open source tool. I open
+sourced it, put it on Hacker News. And
+um then it started getting some traction
+in the open source. But there was only
+maybe 3 or 4 months before I launched
+Supabase. So, it just felt the right
+time to build the database startup that
+I wanted to build. And so, um
+I was trying to figure out how to do it
+and that was just kind of the impetus.
+>> Why you Postgres? And Postgres was
+already already what? 30 years old or
+something?
+>> Yeah, Postgres was
+Postgres well, in its earlier forms it's
+about 40 years old. But um there's a few
+things that I saw. Um
+I definitely knew I wanted to do an open
+source company. Uh I knew I wanted to do
+a database company. I used to consume
+Hacker News all the time. So, for the
+developer segment, I kind of knew what
+was up and coming.
+>> How many people here know what Hacker
+News is?
+Okay, a majority.
+>> Yeah, I I probably read it like three
+times a day and uh show Hacker News, I
+monitor them. So, you kind of get this
+sixth sense of what is trending and I
+could see that Postgres was trending. It
+wasn't the most popular database at the
+time, but um now it is. So, it was a
+good bet. And the other thing that I
+really liked about it is if you are
+going to build a database company, you
+have to have a good reputation because
+to build a database is incredibly
+difficult. But um Postgres kind of had
+that reputation built into it and it had
+another thing that was really important.
+When you think about um which database
+will win over the next 50 years, it's a
+little bit like game theory where
+I will wager that Postgres will continue
+to be the dominant player because no one
+owns Postgres, which means that everyone
+contributes to Postgres.
+Then all the hyperscalers have to have
+the best Postgres offering because it's
+the most popular and therefore Postgres
+continues to to improve. So, it's this
+flywheel effect that comes in and I
+really liked that dynamic behind it and
+we tried to lean into it to to win that
+space.
+>> Firebase was not Postgres back to write
+down.
+>> No, Firebase was more I think it started
+on and then eventually moved off.
+Yeah.
+>> And in the way you were started because
+you started open source too. I remember
+seeing you as like kind of the open
+source Firebase.
+>> Yeah, we we did some positioning. So,
+after I wrote that real-time engine
+uh and put it on Hacker News, I thought
+that was the thing. Uh everyone thought
+real-time was cool on top of Postgres.
+So, I wrote real-time Postgres and it
+actually didn't really take off and then
+we switched the tagline to open source
+Firebase alternative. And then from that
+point on it really took off.
+>> So, this was your early marketing.
+Um why open source? What made you decide
+to be open source?
+>> Yeah, I think this one's more just
+philosophically. I like open source. I
+like that community. I like building
+communities. And so,
+you know, a lot of people will think of
+them perhaps as a tactic or a strategy,
+but in this case, there wasn't much of a
+discussion. Both my co-founder and I
+like open source.
+>> So, you just like did it so you wanted
+to do it.
+>> Yeah.
+>> Um were you thinking about monetization
+from the get-go or
+>> Yes. Yes, we were. Although, it took us
+about a year and a half to start earning
+our first dollar, but we knew that
+databases were super interesting because
+they're incredibly difficult to get a
+motor to break into that market. But
+once you do, then they grow. They grow
+naturally. You You founders, if you
+start a business and your business is
+growing well, you go to sleep and your
+business continues to grow. The thing
+underneath that is a database. So, you
+know, we like that model.
+>> So, you saw a lot of expansion of usage
+from small startup would start using you
+because you were easy and then would go
+with you
+and become good customers.
+>> Yeah, and our initial customer base,
+this is why we applied for YC, was
+high-growth startups. And so, the ideal
+ICP was someone who was venture-backed
+and was likely to grow fast who happens
+to be a Y Combinator company.
+>> How many YC companies are using you?
+>> So, we get about 60 over 60% of every
+batch will use Superbase.
+>> Oh, okay. Including yours?
+>> We Yeah, we use Superbase to build
+Superbase as well.
+>> No, but I mean including your batch.
+>> Uh include Uh no, our batch was um
+>> [laughter]
+>> No one No one trusted us at the start. I
+think there was zero uh Well, there was
+one company.
+>> But uh like a lot of companies trusted
+us during our batch.
+>> Did they?
+>> Yeah. Yeah. Yeah. Like I think
+>> They're better than us. We're not very
+trustworthy people, naturally, so.
+>> Well, your batch was remote, too. I
+didn't tell.
+>> Yes. Yes, that's the other thing. We
+couldn't really network with anyone, so
+we were just going straight out to the
+internet.
+>> That's awesome. Um I mean, open source
+when uh when we're I discovered what you
+were doing there, I was actually
+impressed because you are fully open
+source open source like 100% open
+source. There is no like enterprise
+version that you charge for.
+>> Yeah, so there's different
+>> a risky choice?
+>> Yeah, there's a few models that you can
+run if you run open source, which is
+like a a license where you might put
+some of it behind uh flag and you're
+going to pay or enterprises have to
+reach out. For our model, we give
+everything away. You can use it
+completely free. The only thing that's
+not available is like how to host a
+million databases. Mainly because that
+code is just ridiculous spaghetti. Like
+you can't actually really push it out in
+an easy way. So
+>> So that code is not
+>> That code is not available. It's like
+lumped in with billing logic. It'd be a
+security nightmare for us to put it out.
+>> And what uh prevents any kind of like
+big cloud provider to actually host
+Firebase themselves and resell it?
+>> Well,
+>> They've tried.
+>> They've tried.
+>> [laughter]
+>> Yeah, I mean, of course like um
+you know, you'll see examples where they
+might take Redis or Elastic Search or
+something like this.
+>> they did that risk before or like like
+>> Exactly. And then they'll host that and
+they'll actually make more revenue from
+that than the companies that created
+them.
+For Supabase, in some ways we did the
+opposite because they host Postgres
+databases and we just started
+counter-positioning against RDS and um
+and Aurora. And so, you know, they
+already had these offerings. What are
+they going to take? And then the other
+thing is it's Supabase is actually a
+stack of tools all working well
+together. For them to do this, it's not
+the same as hosting a Redis instance.
+It's actually incredibly difficult to
+manage all these different tools
+together.
+>> And how about direction of the community
+today then?
+Uh I remember you you said that you
+always have people complaining that you
+are not what? Open source enough or
+helping them enough?
+>> Yeah. Yeah, yeah, yeah. But that's
+always going to be the case, right? I
+mean, you always find customers and
+they're always the ones that
+um are loudest.
+Are the customers like it can be open
+source community members and you might
+not be open source enough or you haven't
+released enough
+um or it could be that your pricing like
+your customers your pricing's too
+expensive. Um there's always going to be
+that crowd. You can you can't please
+everyone. That's just
+>> ignore them.
+>> Yeah. Or well, listen to them ideally
+because if um but you have to still make
+a judgment on whether it makes sense
+what they're asking or not.
+>> So uh nobody wanted to use you to win
+your badge. How long did that take you
+to win the trust of developers?
+>> Um
+>> And you are like Firebase was still in
+the equation, right? People were still
+using Firebase.
+>> Yes. Yes, they were. I think people
+loved the idea of Supabase from the
+start and so they really loved the
+positioning Postgres open source. And
+they knew they also loved Firebase cuz
+Firebase is legitimately a good tool. It
+just lacks Postgres and open source. So
+the idea that you could have the same
+experience but with these two elements
+was very appealing. Then all they needed
+was the trust that we could host these
+sites. So as we started building up more
+and more credibility with larger
+startups um building with us then maybe
+yeah, as I said, we started monetizing
+in the first year. But really it was
+kind of still slow. I think the first
+year we exited with revenue in the order
+of a million ARR or something like that
+and then like the next year seven and a
+half. So it was slow going but then it
+just took
+>> Well, I think a lot of people would love
+to have like go from one to seven in a
+year.
+>> That's true. That's true. Yeah.
+>> That's slow going compared to today.
+>> Well, today people go to a hundred
+million in a month. So
+>> Well, not that many.
+So yeah, uh let's be careful about what
+you read in the press because on you
+only read about the crazy outliers.
+Most companies don't go from zero to 100
+in a in a year.
+>> Yeah, that's also true.
+>> I've always been impressed by
+the community behind Superbase and like
+how you got them to follow you like
+the developer experience created. Like
+how do you think about these things?
+>> Yeah, well, when it comes to community,
+we don't worry too much about getting
+them to follow us, but we do care about
+that second part, developer experience.
+And how do you get a good developer
+experience? There's a couple of
+elements. First, you need to know what
+developers want, so you need to listen
+to them. And so much like the YC motto,
+just like figure out what your customers
+want. And for us, that is the community.
+We'll just poll the community all the
+time finding out what they want,
+listening, seeing where they are. And
+your community will ideally live
+anywhere. So we're on Reddit, we're on
+Twitter, we're on Hacker News, wherever
+we need to be to find the the
+developers.
+And then for us, we really thought hard
+about developer experience at the start.
+The key thing that we measured, I
+remember right at the start, was time to
+value. So a
+a customer I remember I actually timed
+how long it took to launch an RDS
+instance on AWS and then connect it to
+and then insert a row. And it was
+something like 8 and 1/2 minutes. And we
+decided, well, we have to get that at
+least under a minute for us to get time
+to value. And then we just started
+tracking that as soon as fast as we can.
+And
+>> these days it's 5 seconds or so.
+>> now. Okay. And how long is RDS today?
+>> Probably still 8 and 1/2 minutes, yeah.
+>> Did you actually communicate on that?
+Was that part of the
+>> No, we didn't say it out loud. It just
+kind of innately becomes a part of the
+experience of the developer. They don't
+want to
+like when you want time to value, you
+want these days it would be an agent,
+right? Imagine you just kick off an
+agent and you say, "I'll build me an
+application." If you come back after
+these days you can walk away from your
+computer, but if you come back after a
+minute and it hasn't solved the problem
+and you need to re-prompt it, that's
+actually a loss of value. So, what we
+want to be able to do is really one
+shot. That So, it's no longer a time
+element. It's the ability to get you to
+your result as fast as not just as fast
+as possible, but with as little input as
+possible.
+>> Uh
+let's speak about that. Like AI uh shift
+here. It feels like everything we've
+discussed so far is kind of the first
+life of the company and now you have
+like a second life that was kind of
+triggered by all of these AI use cases.
+Is that what Is that right? Uh
+so uh
+it's kind of like you became the default
+back end of pretty much every AI
+application started with uh the lovable
+of the world, right?
+>> Yeah, we in 20 In the December 24, we
+saw we're getting DDoS'd by uh a bunch
+of companies which were launching all
+these applications,
+databases, and um the two main ones were
+Bolt and Lovable. And um
+and now like fast forward to today,
+compounding Claude code and Codex,
+I think it's now that we can measure 60%
+of databases get launched by an agent,
+but more likely it's like 90% and it's
+in the millions every every month.
+>> When did you realize that uh
+these AI use cases were actually a big
+thing versus like uh
+like what you thought you would do?
+>> Well, we don't. This is kind of the
+thing where you look back and you think,
+"Oh, it's super clear. Of course, um we
+should do this." But, when we went back,
+we looked, for example, at Lovable when
+we tried it and the apps that it was
+building back then cuz it was just
+getting started were were not that great
+and we thought, "Oh, you know, do we
+>> Have great customers.
+>> No Well,
+>> I know. Eventually probably, but like
+>> Yeah, exactly.
+And we have this thesis, you know, you
+can launch these
+but will they grow? And the will they
+grow is kind of the thing that we care
+about.
+So, um there was a lot of debate
+internally, oh, you know, do we even
+want to support this this use case? Or
+or as well, people were saying, do we
+want to build our own lovable so that we
+have access to the distribution? But now
+it became very clear our product that we
+built was Superbase for platforms, and a
+lot of companies, I think it's over 50
+companies built on top of this product
+where they can launch millions of
+databases.
+>> So, the Superbase for platform is a
+product created because of the success
+with lovable and Bolt.
+>> Exactly. We we kept iterating, it was
+pretty close to where we were, and we
+kept iterating on it, and then we
+realized, oh, this is a good product.
+Like we will launch it for everyone to
+get started. And the other thing that
+made it quite easy is that if you squint
+your eyes a little bit, this is what
+enterprise customers want, especially
+innovation labs. They want the ability
+now to launch many databases in their
+own company, and have the ability to see
+which ones are unsafe, uh security on
+top of them, shut them down if they're
+growing too fast, or you know, manage
+them. So,
+we could see that we can merge these
+road maps somehow.
+>> All right. So, from the lovable of the
+world that have like millions and
+millions of instances, then you also
+have like the enterprises who wants to
+manage fewer number but bigger
+databases.
+>> Yes, exactly. They and it could be in
+the millions. I I don't know if you guys
+all saw the Snap specs,
+um
+where meming the internet that the back
+end for them is Superbase as well. So,
+we knew and larger enterprise customers
+were were wanting these things as well.
+>> That's cool. And uh I mean uh
+that was kind of like the vibe coding
+era. It feels like things shifted again
+last year.
+>> Yeah, so then Christmas,
+um we came back from Christmas and
+everything was going up into the right
+again
+and accelerating, which is crazy cuz I
+think by that stage we're at maybe 6.5
+million developers and today we're at
+10. So, we've already layered on what 4
+million
+>> Remember last year you were on stage in
+Paris.
+>> Yeah.
+>> Your numbers were insane.
+>> But yeah.
+>> But it was nothing compared to today.
+>> To today, yeah.
+>> How much like like since last year more
+like 10x?
+More than that?
+>> Yeah, probably something like that.
+Which is insane off the base. I think
+that's the crazy thing. Like AI kind of
+shifted what normally happens is you
+might pile in
+because we don't we don't spend money on
+marketing. Like I I tell people if I
+could give a free database, I'd rather
+give that to developers than, you know,
+spending on marketing. But usually what
+you do is at our size you'll pour some
+money into marketing, which means that
+the intent of the users plummets a
+little bit. So, you start seeing your
+conversion rates go down or your
+activation rates go down. But actually
+what we saw was basically every chart
+started going up into the right. So, the
+number of users was accelerating while
+conversion was going up and activation
+was going up. Just everything was going
+up.
+>> It was cloud code.
+>> Cuz of cloud code.
+>> So, people started to build like to
+pretty much build more and build bigger
+applications that they would do on with
+pipe coding simply.
+>> Bigger, more successfully, they could
+get to a product sooner. They were
+building more products.
+Yeah, it was incredible.
+>> Like in the first you make more money
+from more usage, I guess.
+>> Yeah, it's all usage based.
+>> That's incredible.
+What does that mean for like we're
+speaking of developer experience? Uh
+what does that mean for you for your
+developer experience that agents have
+become the majority of your actual
+users?
+>> Yeah, there's a part of it where we went
+through Actually, we went through kind
+of three phases. At the start, um
+we built a dashboard and the dashboard
+even had like click around to add things
+to your database because there was a
+discovery mechanism.
+Then when the LLMs came out, we
+kept the dashboard but we stripped out a
+lot of the panels and it just became
+code SQL editor and chat interface.
+Now of course when agents don't give a
+ about any of those two things, they
+just care about CLIs and MZPs. But what
+we try to do in terms of developer
+experiences get this unified experience
+and where things are naturally going to
+go is ideally the entire experience that
+you would have in your dashboard, you
+would also have in your code. So for
+example, a representation of your
+database in code in declarative schemas.
+Basically it becomes infrastructure as
+code inside the Superbase folder. And
+then what spills out the other side of
+when you've got it in code, it has to be
+in Git. What spills out of that is when
+it's in Git, you have branching, so many
+environments. So basically the entire
+Superbase stack has to be branchable.
+And this is basically where we're
+heading now where the agent has to be
+very good at spinning up an entire
+database from a user intent but then
+also
+managing it and developing on top of it
+as it gets more complex.
+>> Uh
+we're in 2026. If you were to start
+today, I'm thinking about all these
+founders who may be thinking about
+building dev tools.
+How differently would you do that?
+Because you would target agents from the
+get-go, right?
+>> Oh yeah, for sure. For sure.
+>> Any ideas of what people should try?
+>> Like what ideas?
+>> What not not ideas what you should
+build, but any ideas how they should
+what they should do to make sure agents
+will find them and use them.
+>> Oh yeah, that's a tough one.
+Um
+I don't know, but when it becomes
+a
+race of like oh, um let's assume that
+agents will only choose three.
+And that's it. That means, okay,
+there'll be three winners, no one else,
+maybe three of you win.
+All the rest of you are competing on
+some other thing. So, what is that some
+other thing? Probably exactly the same
+as what has been in the past, right? So,
+you should still be doing things to make
+the agent extremely easy to build with
+you, but like becoming the default for
+them is just going to be one of those
+rare rare occurrences, and you'll have
+to have a lot of luck. I don't like
+betting on luck. You just do the things
+that you have to do in order to get word
+of mouth, uh in order to um make it very
+easy for the experience, and then you
+just pray that you end up being one of
+those defaults.
+>> Right. Being open source probably helped
+a lot for you.
+>> Open source, for sure. For us, uh I
+mean, we have a community, uh we have a
+lot of Reddit comments, we have a GitHub
+community, all the comments there. The
+LLM slurped up a lot of
+>> Yeah. What's that mean for, I don't
+know, like, from now on, like,
+developers don't even need to know about
+you?
+>> No, they don't, yeah.
+>> They use you without even knowing who
+you are.
+>> No, no, but
+you know, I think we talked about this
+once, like, there is this
+kind of idea that then eventually, if
+that's the case,
+um only AWS wins, and we might as well
+all pack it up and go home and like just
+admit defeat, but you don't really know,
+so you're just going to be in the arena
+kind of fighting it out. And and you
+know, maybe it ends up completely
+different from from our hypothesis that
+there's only one default winner. And I
+imagine that
+you know, people won't choose Supabase
+in the future because they just like our
+vibes, and they'll say, well, I prefer
+to choose Supabase over AWS. And maybe
+if AWS can get their experience as good
+as ours, we won't have much
+of an advantage except for the vibes.
+>> Perhaps it is.
+Um
+All right, let's shift back to uh
+fund raising. So, I mean
+you had the crazy uh couple of years.
+Your is like I was looking at the
+numbers like three incredible rounds,
+one more incredible than the last one
+uh each one. And then the the the round
+you just raised like 500 million at over
+10 billion valuation. Uh how do you
+continue
+uh
+I actually running the company when all
+of that happens to you?
+Like how do you do with the
+make sense of your life and uh and what
+you should do?
+>> Uh um like personally?
+>> Yeah, personally and then probably as a
+as a as a as a team.
+>> Uh okay, yeah.
+Well, the money shouldn't change how you
+operate, in my opinion. Like the you you
+have jobs to be done and the money is in
+service of the job to be done.
+And if you are thinking, "Oh, now we've
+got this money, let's do something
+else." then you're probably not going
+about it the right way, so
+>> What what keeps you grounded?
+>> Um go to Buddhist monasteries.
+>> [laughter]
+>> I
+as a as a company, I think the founders
+have to have
+um you can't get caught up on money
+won't make you succeed, basically. And
+the founders have to really know that
+and there are some ways that it can help
+you succeed temporarily, but at the end
+of the day, if you want to build kind of
+a generational company, then you have to
+do a bunch of things correctly and so
+I think the thing that keeps you
+grounded is just absolutely knowing that
+money will not solve your problems. And
+that's a good thing for for startups as
+well, like
+early stage startups, cuz it means like
+let's say you want to compete with
+Superbase,
+it means that we are limited not by the
+amount of cash that we have in the bank.
+You can compete with us on many other
+vectors in the same way that we can get
+to where we are. By by all rights, AWS
+should never have been able like we
+should not exist if AWS are so good.
+They've got way more cash than us, but
+we've been able to for many different
+reasons. So, the cash is really just in
+service of all those things that would
+allow us to win even if we didn't have
+the cash.
+>> How about the relationship with your
+investors?
+Does that gives them more power or less
+power?
+>> Giving them ca-
+>> No, like growing like you did.
+>> Ah,
+um
+>> You feel like some
+pressure, even stronger pressure, or
+raised expectations?
+>> Yeah, the the more success Well, we had
+this funny dynamic, actually. So,
+normally when you start off in a you you
+raise your initial seed round from a
+seed investor, we had a bit of a funny
+dynamic in that a hedge fund invested in
+our
+>> Right.
+>> Koto. Hedge fund, in case you don't
+know,
+>> Oh, that was when they were investing
+anywhere.
+>> Yeah, exactly. So, these are these guys
+have got like 70 billion under under
+management. So, at the start they're
+like, "Oh, here's 6 million. Like we
+don't care about you." And then as we
+started getting more successful and it
+looks like we might go to the public
+markets, then suddenly they're very
+interested in us. So, that's a bit of a
+different dynamic from what most seed
+investors, as you become more
+successful, the seed investors become
+less interested because they've made
+their return. But the the last investors
+that you had are very interested in your
+how much you'll return for them.
+>> Okay.
+>> A interesting dynamic. Um
+So, you started in New Zealand I mean,
+you are from New Zealand. You actually
+started from Singapore.
+>> Yes, I'm playing from Singapore.
+>> And build the teams that distributed You
+are all remote. How many countries?
+>> We have people in over 60 countries.
+>> Okay. How many people?
+>> 360.
+>> Okay, so like only like a few people a
+handful of people per country.
+>> Yes, exactly. Yeah, completely no
+offices, so it's all online. Yeah.
+>> How do you build a company like that
+way?
+>> Um
+>> Do it again?
+>> Sorry?
+>> Would you do it that way or is that the
+only way you know?
+>> I would absolutely do it again. Um
+>> That's That's why you can travel to
+Paris and like
+>> Yeah, yeah, yeah, exactly. Be based
+here.
+I think um
+you can't half-ass it for starters. Like
+you can't do the hybrid model where
+you've got to have some people
+distributed, some people in an office.
+For us, we do everything written online.
+The reason why I'd do it again now is
+because
+especially with AI, um we're starting to
+kind of use AI in our business and it
+turns out that everything that has ever
+happened at Superbase has been written
+down on Slack and Notion. And everything
+every decision that is happening is
+happening written down. And so for us to
+say to an agent, "Hey, what was that
+decision that we made 6 years ago?" Uh
+we can actually prompt it and it'll find
+it in Slack
+>> even though it was right at the start.
+>> So most people have agents who know
+everything for the last 6 months.
+>> Yeah.
+>> They know everything from the last 6
+years.
+>> From the start. So if I want to build
+the fundamental principles of how we
+operate in Superbase, the agents can do
+it.
+>> Uh we're nearly out of time. Okay, last
+question.
+Uh
+is there any bet
+uh that you are thinking about now that
+uh you would
+that would drive what uh the company's
+going to do in the next 5 10 years?
+>> For Superbase?
+Yeah, I think um and this one might be
+interesting for for you as well. A lot
+of the time the agents uh thinking right
+now like in the build stage, so
+prompting, "Hey, I need an application.
+Uh can you build it for me?" But there
+isn't a lot of emphasis and the much
+harder thing is like how can I continue
+to operate this once it's built. So a
+database is really one of these
+problems. So for us it'll would
+self-driving databases, how to operate
+the database so that you don't have to
+wake up at night and see oh my database
+is down or it's insecure or all these
+patches come and all these things should
+be self driving essentially. So,
+I think this is also interesting for
+many people because what you see is a
+lot of these startups launching now that
+are very easy to replicate because
+they're in the boom stage. It's much
+harder. You want to focus on hard
+problems, right? And the operate stage
+is one of those harder areas to to
+actually launch in.
+>> Excellent. Thank you, Paul. Big round of
+applause for Paul.
+>> [applause]

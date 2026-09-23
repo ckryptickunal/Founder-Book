@@ -1,0 +1,1763 @@
+Title: Open Models Change The Economics of AI
+Video ID: rY0wnfFHYbs
+URL: https://www.youtube.com/watch?v=rY0wnfFHYbs
+Channel: Y Combinator
+Published: 2026-09-04T14:00:10Z
+Duration: PT57M16S
+Views: 110057
+Likes: 672
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 1747
+
+============================================================
+TRANSCRIPT
+============================================================
+
+cost is by far the largest pain point
+that open models can jump in and solve.
+But you know, every business has a
+vision of getting better control over AI
+and customizing it for their business.
+And that's really their north star. You
+know, cost is something they can solve
+in the short term, but it then enables
+them to then go and and customize these
+models for their unique use case.
+>> Early 2024, there was lots of interest
+in fine-tuning your own custom models.
+Then it sort of went away and all of
+that it will just be wasted effort.
+it'll get stomped by the next model
+release. Seems like it's coming back
+now. You have a front seat to all of it.
+Do you think we're going through like
+another cycle or is it here to stay this
+time?
+[music]
+Welcome back to another episode of the
+Lite Cone. Today we're talking to
+Jeffrey Morgan, co-founder and CEO of
+Olama, the easiest way to run open
+source AI models locally and in the
+cloud. Alama is used by 9 million
+developers, has 178,000 GitHub stars,
+and is used by 85% of the Fortune 500,
+which means Jeff knows a lot about the
+state-of-the-art of AI, what models
+score highest on benchmarks, and what
+developers actually download and keep
+using. Jeff, welcome to the Lite Cone.
+>> Thank you for having me.
+>> We're down to here. Like, what is the
+state-of-the-art? What are you seeing
+out there? Well, I think the biggest
+thing we're seeing is a shift to open
+models, especially in enterprise and
+that's from a mix of US and and Chinese
+origin models and it's predominantly
+driven by coding agents and also AI
+assistants more co-work cases like
+openclaw and Hermes
+>> and because you sit in the token flow of
+like so many tokens you have really good
+data on what models people are actually
+using and how it's changing. What are
+the trends that you're seeing? Yeah, you
+know, started as a way to run open
+models on your MacBook or other
+hardware, Nvidia, AMD, Intel, and um
+earlier this year, we launched Alama's
+cloud. And what we're seeing there is
+that it's predominantly Chinese models
+right now of Chinese origin. Um but
+they're being accessed by businesses all
+over all over the world. Um especially
+US and and Germany is actually a big
+source of where open model tokens are
+being accessed.
+>> Is it all about cost? Is it are
+enterprises coming because they just
+want to get the cost down or is there
+anything more to it?
+>> Cost is by far the largest pain point
+that open models can jump in and solve
+but you know every business has a vision
+of getting better control over AI and
+customizing it for their business and
+that's really their north star. You know
+cost is something they can solve in the
+short term but it then enables them to
+then go and and customize these models
+for their unique use case.
+>> Is there a particular uh large
+enterprise that you can name that has
+done this? I think there was a great
+article in the information yesterday uh
+from AT&T and it ends up they've already
+shifted 40% of their token consumption
+to open models and that's right now
+predominantly through US uh and and
+Europe models but they're also
+evaluating the Chinese models.
+>> What kind of workflows do they run?
+>> Predominantly coding agents. I think
+what we've seen just from the extreme
+growth and you know per developer or per
+user token usage has predominantly been
+from coding agents and then earlier in
+March and April we saw open claw take
+off and subsequently the Hermes project
+the Hermes agent project take off which
+has then opened up that ability to
+automate a huge chunk of work over a
+long span of time to non-developers too
+whether it's like finance or support or
+marketing or sales. you had this
+actually very cool graph on the takeoff
+exponential for for OpenClaw.
+>> Yeah. So earlier this year, you know,
+this is a graph of token usage by
+developer on Olama's cloud. You know,
+the average amount of tokens they use
+per week and we kind of
+>> this is per developer. So like it looks
+this graph looks like it should be an
+aggregate of Lama's growth, but this is
+actually the per user.
+>> Exactly. [laughter]
+>> This is on an individual user user
+basis. how many tokens are they using a
+week? And so there's kind of like two
+big inflection points. One is that
+initial runup at the start of the year
+which was driven by coding agents. So we
+saw Kimmy, the GLM models, Miniaax
+launch. Finally, we had open models that
+could power coding agents. And then in
+April, we saw this incredible growth
+from OpenClaw really, which was then not
+just developers, but the rest of the
+world could take a hard problem, give it
+to an open model, and let it go complete
+the task, which obviously consumes a ton
+of tokens as it's figuring out what
+tools to use, what data to go fetch. We
+went from a context window of 128K to a
+million plus with open models. And so
+all that enabled this explosive growth.
+So it went from uh roughly 5x so under
+somewhere around I don't know 15 million
+tokens before before all these core work
+type of use cases.
+>> I think that's about right for that open
+claw jump we saw in April. Um obviously
+in aggregate it's you know in the 10 to
+20x if not more as a whole through cloud
+we saw 150x since the start of the year
+and so it's just the big you know
+interesting thing here is this huge
+surge in demand for open models right
+whereas open models I'd say in 2024 2025
+from the large models being served were
+mostly being served as custom models so
+you'd take an off-the-shelf model like
+deepseek or kimmy and you'd fine-tune it
+for your use case um like for example
+you know cursor had famously done and
+from there, you know, you could serve
+that at scale. But seeing out of the box
+open models being served, that really
+only took off at the start of this year.
+Even since we started this podcast,
+these things sort of come in cycles
+maybe. Like I feel like early 2024 there
+was lots of interest in fine-tuning your
+own custom models. Then it sort of went
+away and it's like all that it will just
+be wasted effort. It'll get stomped by
+the next model release. Seems like it's
+coming back now. You have a front seat
+to all of it. Like what's do you think
+we're going through like another cycle
+or is it here to stay this time?
+>> I think the release of these models the
+cadence is only speeding up which makes
+it ever more harder to you know stay on
+top of that and have a a post
+>> you mean the the the latest closed
+frontier models are releasing faster
+than ever. I
+>> think on the open source side it's
+getting faster and faster. You know this
+summer we've already seen three
+iterations of the Deepseek Flash model
+as an example. um what used to be more
+of a six-month cycle.
+>> Yeah. So the gap is like closing
+essentially
+>> closing and I think that makes it even
+harder to custom train models. On the
+flip side, I think the tooling is
+getting better and so it allows teams
+that want to fine-tune their models to
+stay on top of it.
+>> I mean, we're also entering this moment
+where AI safety is becoming more and
+more of an issue at uh the Frontier
+Labs. So the frontier uh may well slow
+down to figure out its alignment and
+containment issues. And then meanwhile
+the open source models and openw weight
+models are continuing to grow and get
+better.
+>> Yeah. And you know we saw the
+announcement and the release of the
+GLM53 model and its capabilities from a
+cyber security standpoint you know being
+extremely impressive. it creates a big
+opportunity for whether it's startups or
+existing businesses in the security and
+governance space to really jump in and
+help because I think if you look at you
+know that AT&T article I was speaking
+about it largely the the blocker to
+adopting open models is largely around
+security and safety
+>> um but from our experience talking to
+customers whether it's in Europe whether
+it's here in the US if you can solve the
+safety problems by and large adopting
+the Chinese origin model labs is
+completely on the table and it's really
+exciting for these businesses
+>> there's sort of this interesting moment
+right now where a hugging face had to
+use openweight models to actually even
+detect the hack from the frontier.
+>> A common question we get is like well
+where where can I use open models that
+are leaps and bounds of an advantage
+over uh using a frontier closed model
+and one of the key use cases is security
+testing and making sure that you know
+your software is secure.
+>> Yeah. Because like if you try to get
+claw to like pentest your product it
+will just refuse to do that.
+>> Correct. Yeah. By and large. Whereas
+there are literally obliterated uh
+security researcher models that you can
+find on hugging face that allow you to
+do it.
+>> That is true. There are ones that are
+are you know customtrained to be you
+know even more you know liberal to to go
+and attack these problems. But even the
+out of the box models um they they do
+come with safety training but they're a
+little better understanding if you're
+doing this for you know a good you know
+use case versus versus one that's more
+of a negative or you know malicious use
+case. A cool thing about is that because
+you guys are such a key distribution
+channel for these models, my
+understanding is that typically the
+model developers are contacting you
+before the general release to like
+coordinate launches and stuff like that
+and you often get sort of like previews
+of what's about to about to happen and
+you get these incredible growth spikes
+when a new model drops. Like I wonder if
+you could like tell us a bit about like
+what it's like to operate this thing at
+scale.
+>> Yeah, absolutely. And like I said
+before, the models are coming out faster
+and faster and faster. And so we've
+developed a playbook to what does a
+successful day zero model launch look
+like? And there are a lot of things to
+get right. There's making sure that it's
+supported in your favorite inference
+engine, which is generally sometimes a
+multi-week process to make sure it's
+fast, to make sure it's accurate, to
+make sure it's up to spec with the
+reference. There's also finding the
+right use cases and harnesses for
+developers and users to make use of this
+model. Generally, these models have new
+capabilities. This morning, you know,
+there's announced Deepseek launched
+their first multimmoal model um from a
+large model LLM standpoint. They had
+previously had some smaller OCR models,
+which unlocks a whole bunch of use
+cases. But what they also changed was
+the Deep Seek harness, which launched
+recently so that it could support this
+capability. So step two is then to find
+the harnesses, make sure they're
+prepared to actually run this model and
+to do that effectively. But you know,
+every model's different. They all have
+different challenges and architecture
+changes and tool calling mechanics and
+getting all this right is really hard. I
+think the key thing to do at the end of
+the day is to run benchmarks against the
+final product ahead of release and make
+sure that you know it's it's running as
+as it as the research team at the lab
+specified. So I think one very important
+part that you play in the whole
+ecosystem is you kind of create a very
+legible standard to be able to make sure
+you have the best way to use the
+hardness for each new model each new
+tool call and all of it is consistent
+across all the different models which is
+pretty hard to do. Yeah, I think there
+are three things really that you know we
+try to package together. One is a
+harness for example, you know, whether
+it's an off-the-shelf harness or an SDK
+to help use the model. Some existing
+harness that is designed for this and
+and what's great now there's so many
+great open source harnesses. Um the
+codeex harness is open source. Uh open
+code's a great one and one of the most
+popular harnesses from OAMI users. Step
+one's getting that right, but then you
+got to package it with the model, making
+sure that it's, you know, available,
+it's reliable, if it's in the cloud,
+that there's enough capacity for it
+because day zero tends to be the largest
+growth day obviously. And then
+importantly, there's the hardware and
+the providers. And that's actually where
+there's a lot of collaboration to be had
+whether it's like an inference provider
+optimizing the model or you know with
+some of our partners whether it's Nvidia
+or or you know for example working with
+the Apple silicon stack making sure that
+it actually runs the model really fast
+because if the model's capable but it's
+really slow that's not a great
+experience. So getting those three
+things packaged into a box and generally
+you get the model you're lucky if
+there's a you know the ability to access
+the model a few weeks in advance. A lot
+of this stuff comes together in the last
+24 hours before the model gets released
+and so it's generally a fire drill.
+>> So you're kind of almost a like an
+operating system in the old world where
+you needed to really integrate very
+tightly with all the drivers, all the
+hardware and then at the application
+level to make sure that all the apps
+were really tuned up well and you are
+the glue for all of it. Right? I do
+think the OS, which is generally a
+cliche analogy to use, is a good one
+because you've got the drivers for the
+hardware and the providers and the
+inference layer, but you also have the
+application runtime and making sure that
+the harness works. Gluing that together,
+it's a very combinatorically large
+problem to solve. And so doing that well
+is really difficult. And so, but you
+know, over time you develop pieces that,
+you know, allow you to quickly develop
+that, test it, release it, um, and kind
+of have this common runtime that can
+match any harness to any model. And
+that's kind of the role we're really
+playing for developers.
+>> You guys are very hardcore engineers and
+you fine-tune things all the way to from
+the origins with Apple silicon all the
+way now to DJX. How do you build such a
+deep technical bench with that? I think
+a lot of our team, you know, we aren't
+AI researchers by background. We're from
+VMware and Docker, um, and from, you
+know, other networking companies. And so
+the classic compute problems are kind of
+reinventing themselves in the inference
+land, whether and and so largely, you
+know, that's where we like to focus our
+time. But I think at the end of the day,
+you know, it all comes down to the
+developer experience. What is it like
+when the developer makes a call to the
+API and gets tokens back? What happens?
+And it there's more and more happening
+in that layer right now. And getting
+that right needs all the layers of the
+stack to work well together. And I think
+you know one of the challenges with open
+models has been that hasn't been
+happening at the rate of what a frontier
+model lab puts out where they have you
+know the classic five layer cake right
+that Jensen mentioned which is like the
+apps you have you know the model you
+have the infrastructure and inference
+you've got the chips and you got the
+energy and they've got all that ready to
+go for developers on day zero. And
+that's really the thing that we're
+trying to reproduce for open models. Of
+course, we're not going to do every
+layer of the stack, but we can help
+orchestrate that.
+>> You layer the lay layers.
+>> Yeah. And maybe in open models, there's
+more than five layers. Like that model
+layer actually has a lot to it, right?
+There's the model weights, but there's
+also a lot of the orchestration
+components that each model is uniquely
+good at. There's this developer API
+layer. There's so many opportunities to
+build between the model and the
+application layer that are kind of
+hidden in today's, you know, five layer
+cake stack.
+>> That's interesting. Do you do you think
+any of those like hidden layers might
+get unbundled and become their own
+companies or providers?
+>> Absolutely. There was a really good talk
+from some of the anthropic team, the
+platform team, and they talked about
+three big things. One was knowledge. How
+do you connect your company's data and
+context to the model? One is
+coordination. So, as as you know, when
+you make a request to in your cloud app
+or codecs, it goes off and spins out a
+bunch of sub aents, some of those in the
+cloud, some locally, there's a
+coordination problem. Um and then lastly
+there's an execution problem which you
+know we talk a lot about as sandboxes
+but these agents more and more of them
+are moving to the cloud. There's a huge
+compute problem to be solved there. And
+if you look at what's happened
+classically and in the cloud business
+open source has meant that there are
+best of breed companies for each of
+those problems. Whereas you might have
+had kind of the if you look back to the
+original generation cloud products you
+have like the Herokus of the world you
+have Google app engine all those things
+were bundled together. But what
+developers ended up preferring is best
+of breed products for each one.
+>> It's the nalism which is uh all things
+are just bundling or unbundling like the
+frontier model frontier model labs want
+you to be totally in their walled garden
+of manage agents and their context their
+memory layer. And then meanwhile little
+tech and all the founders out there and
+all the open source developers uh don't
+want to be caged in so we're going to
+make all this other stuff and it'll
+it'll be an interesting moment to figure
+out like what ends up winning. I mean
+it'll probably be some mix of both.
+>> I think so. And you know you've got this
+abundance of open model tokens that's
+being created. There are just dozens of
+open model providers that are able to
+serve these tokens. The new scarcity the
+problems now are what's above the tokens
+right? You know how do you orchestrate
+an agent from you know A to B. These are
+problems that are have tons of new you
+know systems and and engineering
+problems that are just really hard to
+solve for an individual dev. Like
+there's no way they're going to build
+all those layers. Well, the interesting
+thing now is um because the coding
+agents themselves are getting a lot
+better and ostensibly this is the worst
+the models will ever be. The classic
+reason why there was a moat here was it
+was just too hard to have really
+well-maintained software that was
+properly tested that actually satisfied
+user need. And what if that goes away?
+Like we're literally at this moment
+where actually maybe the a you know
+you'll just have a curron and it runs a
+markdown file in some TypeScript and
+it'll just you know there's no lock in
+anymore right like you could be using
+OpenAI's memory system one day and then
+actually you know you could have an
+agent be uh constantly syncing that
+against your own memory system and
+actually it just works it's fine like it
+works over MCP like there's all you know
+there's plenty of like runtime testing
+and then there's no lock in.
+>> Yeah, I think a lot of the, you know,
+what we know of as harnesses today, a
+lot of those pieces will go down into
+the model. But, you know, as you kind of
+push a lot of the core loop of the model
+and hooks down to the model itself,
+there are these pieces that kind of come
+out like memory is a great one. And the
+the general guidance we're using is if
+it's a stateful problem like there's
+storage involved that's something that
+you know in the end can't go into the
+model because the model's trained and
+it's you know as we know training runs
+are now happening on like a monthly
+basis but it's still not up to date with
+the latest data. So generally storing
+data is like a huge problem space that I
+don't think will ever make its way down
+into the model layer
+>> like managing credentials and that kind
+of stuff isn't
+>> security credentials safety um open
+models don't have all the safety tooling
+that closed model providers give you out
+of the box but that's super important
+especially for businesses to adopt them.
+I'm curious where you see sort of the
+the end or future state for enterprise
+on the balance between sort of frontier
+closed models and open source model um
+especially on spend like my it feels
+like you know initially it was just the
+everyone's just like allocating all of
+their budget to anthropic or um open AI
+uh my sense now is yes open a open open
+source is clearly growing but like so
+are so is like anthropic spread so like
+the things seem to be growing together
+like does that continue or Do you think
+there's sort of like a steady state
+where it's like I don't know like half
+the budget's going to be on the closed
+source frontier model and half's going
+to be in open source or or something
+different?
+>> The super majority of tokens and this is
+our take it will be open models within a
+business. Call it 80 90%. That doesn't
+mean 89% of the the budget will go to
+open models. In fact, I think what the
+open model community is doing incredibly
+well together is lowering the cost to
+make it more accessible. And so maybe
+you'll only pay 10 to 20% uh of of the
+cost towards open models, but your token
+>> most of your tokens will be going
+through the open models,
+>> right? Which will enable a whole bunch
+of use cases on top because you have
+this abundance of tokens. You're not
+thinking about taking away token access
+from your team. You're giving more and
+more access. I think for the hardest
+tasks that's reserved for these frontier
+labs where a lot of the best researchers
+are. And then from there, there's a
+whole bunch of problems in the middle,
+right? Where maybe it's a combination of
+open and closed models working together.
+I think the steady state is that most of
+the software is most of the models are
+open. It's kind of an interesting idea
+because as the models get more powerful,
+ideally you just want to delegate to
+like your smartest model to figure out
+when to go to like an open model, but
+the labs who own the models presume you
+don't want that.
+>> And I think look, I think that all the
+labs are aligned in many ways to one
+thing, which is how do you serve the
+customer? And I think it will be up to
+the customer to decide if I have a
+router where some of the scheduling and
+harder you know orchestration happens
+through a frontier model so be it. But a
+lot of the kind of
+line item work can happen through open
+models and the collaboration of the two
+together. I think we've seen a ton of
+projects whether it's from Sakana AI or
+open router that have combined the two
+and it's seen really good results.
+>> This is not too dissimilar from a human
+organization, right? Like you have you
+know like a law firm there's like a
+partner and then there's like a bunch of
+associates and like the partner farms
+out the work to the the associates,
+right? It's like the same. [laughter]
+>> We saw the same thing with cloud
+computing where it was really a blend of
+proprietary software. some of them
+provided by the the cloud providers
+themselves. For example, you know, AWS
+had Dynamo DB which was kind of their
+proprietary scale out database. But then
+a lot of customers use that in
+conjunction with Postgress DB and in the
+end you know what we see is customers
+will will use a combination of the two.
+>> I think it's a very common pattern. This
+is also the same design for why the
+Apple silicon is actually more superior.
+the special spe special special
+accelerators for different kinds of
+workloads for let's say image processing
+supposed to audio that's been or even go
+way back in in in the PC era you had
+like your standalone audio card right
+graphics card and all that
+>> and speaking of Apple Silicon should we
+talk about local models because you're
+you're in a bit of a unique position
+because you have large businesses both
+in cloud hosted models and locally
+hosted models that will run on your
+laptop what are you seeing in those two
+worlds and What what do you think is
+going to happen?
+>> I think it's incredibly exciting because
+it's similar to the closed versus open
+model question. It'll be a mix in our
+mind and and that's what we hear from
+customers as well where for easier tasks
+you could run them locally and with
+lower latency and of course lower cost
+when it comes to the per token cost.
+Ultimately, you're buying hardware up
+front and you'll use that in conjunction
+with these cloud models. What's exciting
+about this next generation of hardware,
+which we've had for a few years now, is
+just how good they are at running the 20
+billion parameter to 40 billion
+parameter range of models. Sometimes up
+to 128 billion parameters.
+>> Yeah. Quinn 3.8 38B is now as good as
+Opus 4.6 for coding. Is that right?
+>> That's what the benchmark show.
+>> It's incredibly exciting because you can
+run that on not the the the lowest
+memory MacBook, but the second lowest
+memory MacBook you can buy from the
+store. So it's incredible.
+>> And are you seeing your users do that?
+Like what are you seeing people use the
+local models versus the cloud hosted
+models for in practice
+>> from the side of which models they're
+running? We're seeing a really solid mix
+of US and Chinese trained models being
+used for local and we have the
+incredible models from you know the
+original llama models of course but also
+the Gemma models from DeepMine. These
+are great choices for local. But when it
+comes down to use cases coding agents by
+and large are most effective with the
+large cloud models. You're solving
+really hard problems. you're writing
+code tests, it's really difficult uh
+versus some of the document processing
+workflow use cases that run extremely
+well locally because they don't have as
+difficult of a of a task in the
+endto-end, you know, problem you're
+trying to solve. And so that's where we
+see this hybrid execution model where
+some of the easier, more straightforward
+tasks run locally and then you have a
+router that can help decide, hey, we
+need to go to a large cloud model for
+this. And I think what that means for
+customers is that you're you're really
+dropping the costs even further when
+you're going from open models. Not just
+because they're cheaper to run in the
+cloud, but because now you can run them
+effectively for free on the hardware
+you're buying for your business anyways.
+And what we're seeing ultimately from
+the cloud coding agent models is it is
+predominantly Chinese models being
+consumed today. And for the local
+models, it's a really strong blend of uh
+US, Europe, and and Chinese origin
+models. Yeah, this these two graphs are
+pretty stunning in comparison. Like
+basically for local models, the US and
+Chinese models are neck andneck. We're
+like tied. And for cloud hosted models,
+like the US is like recoloring the
+x-axis. It's like 100% Chinese models.
+Basically, we need more US labs to make
+large models. Is is is is that what this
+graph is showing
+>> effectively? And you know, with the
+launch of the Neotron Ultra model, we're
+seeing kind of the first wave of that
+and it's really exciting. Nvidia as a
+company is so interesting because um
+their moat is not like trying to start
+new software businesses or sell you know
+tokens. They seem to be quite interested
+in just releasing a lot of open- source
+and helping the ecosystem and then the
+fact that they do that then helps them
+stay ahead of the game on the hardware
+side.
+>> I think so. And you know ultimately
+Nvidia what's so incredible is there's
+helping power an ecosystem around open
+models whether that's the hardware the
+models you know we've seen the uh new
+DGX station uh computers that they're
+working on which have GB300 on your
+desk.
+>> How do we get on that list that isn't
+deafening loud?
+>> Yeah. Do you know the price point on
+that thing yet?
+>> I don't know it off the bat.
+>> Gary's buying it. [laughter]
+>> I know, right? Well, I looked it up.
+It's like I mean you can probably run a
+Frontier model for like I mean very
+slowly for like two two $300,000. Is
+that is that right?
+>> I think it's even more competitive than
+that. Yeah.
+>> And you can run more than a Frontier
+model at high speeds at a price point
+that isn't very far off what you can buy
+from a classic workstation computer.
+>> Oh, no way.
+>> You think about, you know, quite a few
+of the customers we talked to, some of
+them are banks, for example, or
+industrial businesses. They already have
+these Nvidia workstation GPUs in every
+single engineer's desk. Some of them
+tens of thousands of them. And so this
+is one.
+>> They've been selling them for all the
+CAD work.
+>> Well, this is for this is for the kind
+of original RTX A6000s, but this is the
+next generation.
+>> Yeah. Yeah. I'm going to have to email
+Jensen.
+>> This was at this was at GTC. So, what we
+see here was at GTC. And we were one of
+the first uh people along with Elon and
+a few others to receive the DJX Spark as
+well
+>> which sits on your desk and provides
+>> you know 128 GB of unified memory to run
+that kind of 20 to 120B model range but
+obviously that's just the beginning of a
+whole new range of hardware that can run
+the biggest models.
+>> So did you say you can buy a bunch of
+these and chain them and actually run a
+400B model?
+>> You can absolutely. They they have this
+really fast network link and so you can
+stack them on your desk almost like a
+miniature uh data center rack and
+>> people do with the Mac minis.
+>> Absolutely.
+>> Now this is like the production version
+of it.
+>> I think that's what's so exciting is
+you're seeing both from Apple and Nvidia
+this incredibly incredible leap to next
+generation hardware that's built for
+these models and is effective at running
+them. So you'd say like this is this is
+the platform to get like you could make
+stu apple studios work but like if you
+want something that just can work get
+DGX spark
+>> from our testing both are very
+competitive. Got it.
+>> So I think a lot of it come down to what
+you can get and and then also um the
+tech stack you're looking for. I think
+there's an incredibly uh mature tech
+stack through the MLX project with Apple
+where they've done some amazing work to
+run LLMs on the Mac Studio but also the
+smaller Macs and of course the DJX Spark
+stacks. just incredible. We're super
+excited uh as partners with Nvidia for
+that.
+>> I think it's going to be a cool
+renaissance for personal desktops.
+>> I think so. And you know, it's it's
+funny with Olama's journey. We started
+local. Clearly, the coding agent demand
+is in the cloud, but that's going to
+come back locally in our minds because
+the hardware will catch up. When you
+have a GB300 on your desk and you want
+the fastest coding loop, that's as fast
+as running your tests or as fast as
+making code editor change. We all
+remember the GitHub copilot experience
+of having the autocomplete come up in a
+few millisecond at 100 milliseconds.
+That experience will make its way back
+to the desk which is which has been a
+journey of starting local going to the
+cloud and then we think that'll come
+back local and you'll end up using the
+two together.
+>> Speaking of like what you can get in
+order to run a Llama cloud, you need
+like a ton of GPUs. What are you
+seeing in the GPU market?
+>> I think what we're seeing is ultimately
+the prices are changing very quickly and
+the supply and demand volatility is is
+very high there. And so, you know, I
+think ultimately
+for if you're a startup, getting access
+to some of the B200, B300 GPUs you need
+to run these latest models is very hard.
+Thankfully, there's a great set of
+inference providers building on top of
+that. And so we're seeing this extreme
+demand on like you know and and when
+>> are you able to get all the GPUs that
+you need? Are you constantly like like
+growth limited by how many GPUs you can
+get your hands on? What's the what's the
+current state? We're lucky that we've
+partnered with quite a few providers to
+work together to pull a bunch of GPUs
+together, which allows us to stay on top
+of our our demand, but that's a lot of
+work and it's definitely a lot of
+spending time thinking through, you
+know, which model will get run where,
+how fast should it be, which region is
+it in, um what will the latency be for
+the customer? There's a lot of hard
+problems to solve in that stack. And I
+think what's really exciting about
+products like Open Router, Alama, the
+Open Code project is for an end user
+developer, they can sign up and get
+access to this without having to go
+negotiate prices on a B200, B300. You
+know, think about their 24-month
+forecast in order to get access to some
+of these these uh you know, GPUs.
+>> YC's Next Batch is now taking
+applications. Got a startup in you?
+Apply at y combinator.com/apply.
+It's never too early. and filling out
+the app will level up your idea. [music]
+Okay, back to the video.
+>> Suppose you were like a a startup
+founder and you were just starting out
+now and you're building some AI company
+and you haven't raised a lot of money
+and so you like want to like use as many
+tokens as possible like inexpensively
+like what would your advice be to that
+person about like how they can get like
+huge mileage with like a limited budget?
+There's this new class of models like
+DeepSeek Flash is a great example and I
+think there'll be quite a few more where
+it's ultra low cost per token. It's also
+low cost per task which is a really
+important metric and that class of
+models in my mind will be the first ones
+that come down to this idea of like
+unlimited tokens. We all remember Chad
+GBT. You didn't really have to think
+about how many tokens you were using.
+You would just use it every day. You had
+unlimited. Ultimately, I think we return
+to that, but it's going to take a lot of
+work in the model, the architecture to
+be customtrained for high volume token
+usage. And if you think about the start
+of the year, we really wanted open
+models got to the frontier of
+intelligence. We bridge the gap. We're
+maybe like less than 3 months behind
+between the frontier closed models and
+the open models. But the next problem to
+solve is extreme efficiency. Seeing, for
+example, the GBT Luna model become very,
+very price effective for customers has
+been a huge boom. We talked a ton of
+customers where that kind of pricing
+enables widespread adoption within a
+team. I think we're going to see that
+with open models. We already are seeing
+that with open models. I think the
+Deepseek flash model is leading that
+charge. If we go back to the model
+breakdown on OAM's cloud, the highest
+growth area is definitely the Deepseek
+model. And this is largely powered by
+the Deepseek Flash uh adoption. And so
+this new class of flash models where
+they're good enough for 80% of the
+tasks, they're really fast and they're
+ultra cheap. this new class of model
+that I think will enable some of those
+use cases.
+>> Yeah. Those are going to be like the
+workhorse models to do like all the
+grunt work.
+>> Exactly.
+>> Yeah. You won't have to be thinking
+about how many requests am I making, how
+many tokens. You'll be much more
+inclined to consume as much as you can
+because you know it's able to solve
+>> the hardest the not the hardest but you
+know difficult problems. If you think
+back to the coordination layer we were
+talking about earlier too. Being able to
+coordinate these flash models together
+to do different tasks can also yield
+great results that a bigger model can.
+So by having these cheaper models, not
+only are they more accessible, they can
+run faster and you can access them in
+higher volume, but you can start to
+chain them together and build new
+problems that are solved by
+orchestration on top. And that's a
+really exciting area for new startups,
+for existing inference providers, um for
+some of the larger businesses today that
+solve workflow problems. ultimately
+being able to chain these models
+together is going to be super helpful
+and you won't have to think about the
+underlying costs.
+>> Yeah, I guess you know when we first
+started talking about AGI even on this
+podcast um there was this sort of debate
+about you know and I think a lot of AI
+researchers would come out and say like
+there's just going to be a giant god
+model and it's going to do everything.
+But you know I think so far like it
+hasn't quite worked out that way. Like
+obviously you still have you know if
+you're if you have to literally hack the
+NSA maybe you need mythos or something
+but um for the majority of use cases
+like you're talking about orchestration
+and you're talking about um like smaller
+models you you you know that the task
+composition actually probably gives you
+a bunch of ways to make it more
+repeatable. It's more trustworthy like
+it actually does work at a cost that is
+like possible. So, you know, if it was
+going to be um God model versus like
+lots of, you know, smaller special
+purpose or even just like simpler
+models, um it's turning out to be the
+latter. So far,
+>> I think for most customer use cases,
+there's a you know level at which a
+model becomes good enough and then they
+can continue using that level of
+intelligence. Maybe the model will get
+faster, it'll have better architecture,
+it'll be'll have new capabilities, but
+they won't have to reach for the god
+model. But I do think there are use
+cases where the most powerful models
+unlock them and that'll continue to be a
+thing and it'll be really exciting, you
+know, and sometimes scary as well on on
+what they can do. But for the
+run-of-the-mill use cases where open
+models really shine, I think that's
+where, you know, we're we're hitting a
+point where, you know, you're not
+solving necessarily the hardest problems
+within the business, but they're hard
+enough where it's now unlocked by open
+models. Will there be an open model that
+becomes a god tier model? Um I think
+it's possible and we're seeing you know
+really exciting developments from you
+know Zoo AI and GLM where some of the
+tasks they are frontier and we all saw
+with the Kimmy model how for web
+development it became the best model and
+that sent this new shock wave across the
+market which is it's less about a gap
+and it's more about a head-to-head
+competition which I think makes all of
+this even much more exciting.
+>> This is a bit of a sensitive question
+but what do you think about this and the
+geopolitics around it? I think you know
+a lot of the geopolitical angles around
+this um start with you know where the
+where the model's from and the more we
+spend time with customers and users a
+lot of it's actually how the model's run
+where it's run how it's run is it run in
+a secure environment um and that starts
+to matter a lot more um but I do think
+you know look it it's super important
+that a customer in the US can use a
+model trained in the US and we they have
+two kind of classes of of customers we
+speak to. One is they don't really care
+where the model's from. They care about
+where it's run. But for every one of
+those, there's, you know, a customer
+that's saying, I really care about where
+the models from because it's data the
+way it it's not even just a a security
+issue as much as how does the model
+speak. You know, we all go through mo
+and and communicate. We all go through,
+you know, a lot of the models go through
+phases where they sound more robotic,
+they sound more friendly, and a lot of
+that matters, too. Um but [snorts] I
+think the highest order bit is obviously
+making sure that you have a model that
+end to end you understand where the data
+is from which is great from the neotron
+models you can go and introspect what
+made this model because if you're
+putting in a mission critical task which
+people are absolutely using open models
+for mission critical tasks there's a
+post online about how llama powers the
+analytics of a power plant to detect
+surges in Finland to make sure that the
+lights stay on. That's where these
+models the the model origin really
+matters
+>> for for like critical
+tasks like that. How do you ensure that
+a Chinese model
+even if it's hosted in the US isn't
+basically like booby trapped to like
+cause problems?
+>> Yeah, the menuranian candidate problem.
+>> Exactly.
+>> Have there any been any like known cases
+there? The menurian candidate yet?
+>> I think not that I can think of off the
+top of my head. I haven't heard. I feel
+like I would have heard about it, but
+>> you know what you don't see a lot on
+some of the press articles is how robust
+some of the the IT and security teams
+are at the businesses that we know of,
+the top, you know, Fortune 500
+businesses, they're really used to this
+already because open source software, if
+you think the average application has
+thousands of dependencies. This is like
+isn't a new problem and all it takes is
+one dependency for there to be a major
+security issue in the entire
+application.
+>> Clain poisoning is insane.
+>> It's a thing. It's been a thing for
+decades and it's not new in that sense.
+It's a little more opaque because you
+can't like dig into the model. It's
+>> it is deterministic
+>> but it's deterministic and if you screen
+the model properly with safety checks by
+and large at least what we're hearing is
+from customers is that can be solved.
+>> Do you want to talk about the origins of
+Lama? you you know you guys came up
+through the Docker ecosystem and uh a
+lot of people watching you know would
+love to be in the position you're in
+where you have this sort of enduring
+brand moat that looks like it will
+extend for you know really till the end
+of time. No just it's it's a very
+powerful situation to be in. um you
+basically found yourself on top of a
+giant oil well, right? Um for those out
+there wildcatting, you know, can you
+tell us that story? You you were
+actually working with Jared in uh 2021.
+>> Yeah, you know, my my co-founder and I
+previously built Docker Desktop while at
+Docker. So we really got a understanding
+of like what makes a great developer
+experience. But I have to say the first
+few years of Ola as a company was really
+in search for what's the right problem
+to solve with this muscle we've built of
+trying to design a great experience for
+developers.
+>> You applied to YC with a very different
+idea. Right.
+>> For sure.
+>> Do you remember what the like tagline
+was when you guys applied to YC in
+Winter 21?
+>> I think it wasn't well defined. I think
+we realized let's go back to building a
+really great desktop experience for
+containers and Kubernetes.
+>> I remember what I wrote down on the on
+the application. It was a kitematic for
+Kubernetes or a Docker desktop for
+Kubernetes.
+>> Yeah. Which was effectively Docker
+Desktop. They had a great Kubernetes.
+[laughter]
+I think you know it's one of the
+challenges as a second time founder that
+you know Michael and I have told
+ourselves. We we tried to overengineer
+the idea in many ways and I think even
+the two to three years after like we did
+YC in 2021 and Olama wasn't launched
+until July of 2023 after we raised our
+series A after obviously after we had
+done YC that journey was one of really
+in search for a customer problem that
+could delight a developer and in some
+ways it was almost a good thing that
+we tried different ideas and pivoted
+until 2023 because that's when Mama
+Llama came out and started the open
+model with
+>> which is why it's called O Lama.
+>> Not necessarily.
+>> Okay. No. Oh, really?
+>> Llama means generally from our
+experience whether you think of local
+llama as the subreddit lama really just
+stands for open models. You know, as we
+were looking through the name, it wasn't
+necessarily from an existing model.
+>> It was more LLM and it's like the animal
+plus LLM.
+>> Yeah. And I think having that character
+was important. We like what's a good
+name for a character, a face you can put
+to the name because models animal mascot
+sometimes.
+>> Docker had one GitHub.
+>> He still hasn't taken my advice to have
+llamas come to actual O Lama events.
+>> Oh my god. [laughter]
+>> I'm curious what your series A pitch was
+because you raised from Benchmark like
+fantastic investor but all of this the
+future we're in now hadn't quite taken
+off in 2023. So what was like the pitch
+and the vision back then?
+>> Yeah. and we partnered with Benchmark in
+2022. So it was Deli days but pre-C Chad
+GBT when it came down to the pitch I
+think we weighed so much on like hey
+we're trying to build this great
+developer experience we're solving this
+security problem and we had known u
+Peter the partner at benchmark from our
+previous lives building building a
+docker because he was the series A
+investor in docker and so a lot of it
+was weighted on you know the people and
+also why we exist I think the what I
+mean you know solving SSO for
+Kubernetes, which is a real problem,
+wasn't really our passion. I think we
+were really lucky to find a partner that
+could could see us for what we stood for
+and what we were trying to do versus the
+point in time, you know, problem we were
+solving at that point.
+>> Yeah, I see. So, you as the a sort of
+pre- pivot,
+>> correct? Okay. I didn't realize that
+actually. H
+>> I was just looking at this cloud tokens
+by model family graph and like basically
+if you just look at this graph it looks
+like the Olama story begins on in
+February 2026 and it like explodes
+thereafter which is like so funny
+because like of course it actually goes
+back to like 2021.
+What was it like to be like sort of lost
+in the wilderness for like many years
+working on stuff that was like kind of
+working but like not really taking off
+and then all of a sudden to have things
+like just like explode like how did how
+did it affect you and your co-founder
+psychology and the team and the
+employees? What what was the experience
+like?
+>> It was definitely scary and and and for
+a few reasons. You know, one is like
+when you're when you're trying to solve
+a problem for devs or for a customer and
+you're just getting on the phone with
+them over and over again and it's not
+totally clicking. That's, you know, it's
+less about the are we in the headlines
+or is is the project taking off the
+product we're building. It was just are
+we truly actually solving a problem for
+somebody? And I think being lost in the
+wilderness like what's your north star
+that customers are generally a great
+north star, but not seeing the north
+star is even scarier, right? Because
+often you know what problem you want to
+solve, you just haven't figured out what
+problem and I I think the you know
+Michael my co-founder and I we started
+this company because we had built a
+company in the past and we ended up
+being acquired by Docker very early. It
+was just the founding team and Arnorstar
+was saying we want to go solve a great
+experience for developers with something
+they find really hard but man in the two
+years where we're just finding that
+problem it's really scary. you know, we
+had a team of more than 10 people which
+made that really hard. And I'm so
+thankful to that team for staying by our
+side as we went through different ideas,
+you know, and and what what's not really
+obvious is we went from this security
+for Kubernetes to then like security for
+developers on the desktop, which is like
+the pivot that we've never spoken about.
+And then we kind of took that form
+factor when models came out. We said,
+well, it was a leap, but it was we knew
+kind of the the kind of problem and the
+feeling a developer wanted to have, but
+LMS finally made it realize like it was
+it was crystal clear at the point when
+we tried running the llama model and it
+was really hard and we're like, okay,
+this is a problem and it's really
+impressive when you get it working and
+it's kind of just a
+zero to one moment. I'm curious for the
+story of that pivot because there there
+actually like many pivots in the Olama
+story, but probably like the most
+critical one was like the pivot to Olama
+to doing like locally hosted LLMs. Like
+how did that come about? Were you just
+like tinkering with ideas on the side?
+And when you found the idea, was it
+really obvious to everyone in the
+company that that was the thing to do or
+was there like like a a big debate? And
+it wasn't until it took off that it
+became clear.
+>> We you know sat in a room together. I
+remember we were in Toronto because we
+had a team split across Toronto and Palo
+Alto and now we're predominantly in Palo
+Alto and we were saying throw everything
+out like if we had to start from scratch
+and we were just joined right now what
+would we do and you know we had seen two
+big problems because we had talked to
+some users and LMS we tried using open
+source LMS ourselves or just LMS in
+general one problem was could you build
+a gateway to access any model and host
+that and make that really seamless back
+then we were thinking of it as like the
+segment for you know LLMs
+>> it's a good way to think about which I
+think has become really this big router
+idea which is only at the beginning.
+It's a massive opportunity. And the
+other problem was we were a bunch of
+XVMware Xdoccker folks like we know how
+to make things run and so like let's
+help make things run with open models
+and then we kind of
+>> systems
+>> yeah systems and so we kind of tried to
+really introspect our team which I wish
+we had done sooner because security is a
+very different team and sale than
+developer tools and just by doing that
+we gravitated towards saying let's just
+try this thing let's give ourselves two
+weeks to launch the first version of
+Llama and then Llama 2 came out and we
+said that was right at the end of the
+two weeks we said okay we're launching
+And we just had a bias to action. And if
+you think back like in 2 weeks all of
+that happened, going from idea to
+shipping it to getting to more users
+than we had ever had with our previous
+stuff. And before that was two years of
+just frankly overthinking the customer,
+the product, and just not getting
+something out there.
+>> The first time I actually heard about
+was on Reddit. I didn't realize it was
+you guys. I was on like that logo. I
+just was interested in like running
+local models and it was on like the I
+think the local LLM subreddit or
+whatever and everyone was just raving
+about OAMA and how great it was.
+>> I was like, "Oh, it's a YC company."
+>> Yeah. I found I found out later actually
+cuz you you were called a different
+company. You weren't in our internal
+system and [laughter]
+>> Yeah. I remember catching up with Jared
+and saying, "Oh, hey, by the way,
+there's all that security stuff. We have
+this thing now. I think you were
+catching up with Jared and then I bumped
+into you on the stairs and [laughter] I
+think you had your t-shirt or some swag
+or something and I was like like you
+guys are a lot like
+>> you know I
+>> meeting a rockstar or something.
+>> It would have been really hard to time
+this but I wish we had taken that leap
+much sooner. I mean the best time to do
+it was during YC.
+>> It wasn't possible didn't exist.
+>> Exactly.
+>> Lama didn't launch yet. I guess you were
+also one of the first GitHub projects
+that very quickly got to 100,000 GitHub
+stars, right? Do you remember how long?
+It was like very quick.
+>> Yeah, I can't remember exactly how fast,
+but it was much faster than Docker and
+Kubernetes. To your point, it it things
+kind of just started working and started
+taking off and you're really as a
+founder just beside yourself because you
+can't totally explain why. I think it's
+the best way to explain product market
+fit. And there are different levels of
+product market fit. you know, we only
+started monetizing earlier this year
+with Llama's Cloud, but just to see
+people fall in love with the product.
+It's such a zero to one moment that um I
+wish we had done it during YC, but in
+some ways it wasn't possible. I also
+think it's just kind of wild to put into
+perspective like you sort of went from
+being in sort of like the cranks on
+Reddit like interested in running their
+own like rigs at home to like 85% of the
+Fortune 500 in like 2 years or something
+like that. That's [laughter] like that's
+like a pretty
+>> That's the homebrew computer club to uh
+broad computer adoption like speedrun
+that took 10 years for the PC took like
+>> 18 months 12 months.
+>> Yeah. And that's one of the things that
+surprised us the most because I think
+look I think open models the original
+users very much hobbyists just
+tinkering. Oh my god this is even
+possible but very quickly because you
+know two things one is they were free to
+get started with and you could run them
+anywhere. that is incredibly helpful to
+a Fortune 500 IT developer team because
+they don't have to ask for permission to
+use it. And so it just happened what was
+really good for a hobbyist user
+translated very quickly to a developer
+within a business. Um it just happened
+to be a case where that was that was it.
+You know, for example, databases, we saw
+some of this too where a database that
+started for devs like MongoDB very
+quickly also moved to enterprise, but
+because LLMs are stateless, it made for
+such an easy transition. Now, moving to
+the cloud, there's a lot more in play.
+There's an economic question. If you're
+a customer, there's obviously security.
+Where's the model running? But what's
+beautiful about open models that both
+hobbyists and IT developers loved is you
+could just get started. You didn't need
+permission.
+>> Can we talk about the monetization
+angle? cuz this is this is interesting
+too. So like in 2023 Llama 2 takes off
+all of a sudden you got all these users
+100,000 GitHub stars like you've clearly
+found something but it's basically like
+Reddit cranks who are using it. You're
+making no revenue and there's no obvious
+path for how you will ever make any
+revenue from all these like cranks on
+Reddit. It was 2 years before you
+actually figured out a business model
+for it which funny enough is exactly the
+position that Docker was in. Like how
+did you think about it during those two
+years? Were you were you worried about
+it? Were was the team asking like what's
+the business model going to be? How did
+you think about like figuring out how to
+make money from it?
+>> I think there's always two ways that we
+saw open models um being able to
+monetize in a way that's great for the
+company, great for the developer and
+great for the the customer. And one of
+them was a privacy focused AI product
+which Ola started really started with
+that in its open source incarnation. But
+we always felt that there was this
+moment where you know you weren't using
+llama with uh the llama models for
+example with with tool calling right
+away when they came out. So there were
+use cases where it was still reserved
+for the frontier models. And again with
+at the risk of overthinking it we kind
+of saw that there wasn't the product
+level of product market fit with open
+models that closed models had. And in
+some ways philosophically we want to
+align with when that happens we want to
+be there to capture that. I think it
+happened this year with coding agents
+running with open models because you had
+the largest consumption of AI being
+matched with finally open models being
+able to service that. There are a lot of
+opportunities along the way to do it
+privately securely. Again, a lot of the
+Fortune 500 have already adopt Lama. But
+we really asked ourselves what would be
+the most important problem we could
+solve for a customer. And the local
+piece, while an important part of that
+story, never felt like the whole story,
+which was how do you access open models
+for the hardest problems? And so, in
+some ways, waiting. We knew we had to
+wait a little bit for the market to
+mature. At the same time, what are the
+risks of waiting? Well, you build a
+culture if if not careful. And we had
+learned a lot of this from our Docker
+days where you don't think about
+monetization. It's not a priority. I
+think from our previous battle scars as
+a team, we we kind of had we knew about
+that. But I think the other component
+which is really important is making sure
+you keep in touch with your customers.
+Like one of the biggest risks of having
+an open-source project that takes off is
+you consider your user base and customer
+base like your customer just a blob on
+the internet
+>> which is a really risky way to think
+about customers because you want to meet
+them figure out their needs. What are
+they doing? What do they want to do in
+six months? What's their story? And I
+think that's the thing I wish we had
+done a little more in the last few years
+and we're doing a ton of that now.
+>> One thing I'm curious when you went
+through IC, you guys were second time
+founders. I'm curious what got you to
+decide to do YC. Actually,
+>> you know, we we went back and forth on
+this for a lot, which we shouldn't have.
+We should have just said, of course,
+we're doing YC. Um, but by and large,
+starting a company is a really lonely
+experience. Even if you have a great
+co-founder, and Michael, my co-founder,
+was the co-founder of my first company.
+He was my college roommate at University
+of Wateroo. Um, but it's still lonely
+and I think just having a set of peers,
+even though we did it during the
+pandemic, just talking to Jared and like
+five [snorts] other groups of founders
+every week really helped you feel less
+lonely. And I think that's such an
+important part of it. And then of course
+when we finally moved down here and
+there was no more co the network was
+just incredible. And the fact that we
+could meet founders building on open
+models, building on any kind of AI, you
+know, we kind of knew that was going to
+happen cuz we had known so many founders
+from the University of Water who had
+done YC pre-COVID and they were like,
+it's really about getting together and
+like that was a big part of it and we
+knew that was there and you know, I
+think that's that's what made it a
+no-brainer. But also just I think there
+are a lot of mistakes you can repeat
+that you don't have to. And what I love
+about the YC community is how
+transparent founders are with each other
+about those and you know I still keep in
+touch with the founder of Docker uh
+who's an investor in our company and
+we're able to talk about some of these
+challenges we saw in the previous
+generation of companies that you know we
+don't necessarily have to repeat or
+things that worked and we can bring you
+know into the future.
+>> Yeah. If you just uh don't repeat one of
+those mistakes that you know sometimes
+is the mistake that would have killed
+the company
+>> potentially. Yeah. Yeah. our our famous
+saying, you know, a bunch of our team is
+from uh companies that ended up working
+great and Docker is doing phenomenal
+now, but whether it's, you know, some of
+our team was early early at VMware and
+it there are always ups and downs and I
+think just having a group of people
+around the table who have a collection
+of those and also what worked actually
+what worked is actually even more
+important and just being able to like
+have that muscle memory is a big part of
+it. Oh man, I was just thinking about
+this because we obviously hang out with
+and work with a lot of 18 year olds or
+19 year olds and then sometimes they're
+always asking like, "Well, what should I
+do?" And then I'm starting to realize
+like one of the more important things is
+if you've never worked on a team that
+shipped really amazing technology to
+like a lot of people or like like just
+real clear product market fit, like do
+that once. Like even if it's a month,
+even if it's like three months, you
+would learn more in those three months
+because then you know what good looks
+like. And then without that it's like I
+mean it's not like it's impossible like
+people at YC do figure it out because
+you but it's that much harder. Like the
+difference between having seen something
+that actually works from like beginning
+to like some form of like this is what
+the bug database looks like and this is
+how we release and this is the quality
+that's necessary and here's like the bar
+that we hold each other to. Having seen
+that it just like multiplies the chance
+that people succeed. So it makes sense
+that you know starting off with a
+co-founding team that has seen a lot of
+that pretty powerful.
+>> Yeah, I think it it provides you a set
+of values you can work around especially
+when you have so much power in your
+hands with AI. There just parts of it
+that I can help you with but it won't
+hold you accountable to it and you know
+how does software work and look at for
+example I'm sure there's versions of
+running in the wild from two years ago.
+How will your software work when
+somebody falls in love with it and
+continues using it for two years? Is it
+still going to be working well?
+hopefully they update to the latest
+software or it's you know a cloud
+service but I think you build that
+muscle memory and we definitely have
+that from a lot of our more senior
+engineers on the team who are at VMware
+or NERA for example but at the same time
+I think there are a lot of lessons we
+learned in the previous generation of
+DevOps and infrastructure that aren't
+valid anymore in the AI world
+>> oh yeah tell us about it what have you
+found
+>> what is not valid anymore
+>> I think a good example that I
+classically used is there was this
+generation of companies called platform
+platform as a service
+>> and in the contents the Heroku of the
+world was a great example of this.
+>> I mean Docker started out as that
+>> Docker started out as a platform as a
+service and there's this concept that if
+you're a layer on top of something else
+that you're in kind of a vulnerable
+position as a startup which is
+absolutely not true in the eye world and
+in fact going up the stack can sometimes
+be even better because you're closer to
+the customer. in an infrastructure world
+that that's also the case and that that
+was like an analogy that we had to like
+so many of these muscles we actually had
+to break building a lama. Another one
+was you know these LMS are never perfect
+and like in the systems world you want
+everything to be exactly as it's
+designed to run. It's tested it's
+validated but LMS by definition are not
+>> that's a feature not a bug.
+>> Exactly. It's a feature.
+>> You want it to be a little
+non-deterministic I suppose. And I think
+from building a team too, it's that you
+know with AI now there are just problems
+that you don't need to
+staff as heavily whereas you you you did
+10 years ago, right? If you think about
+what does your customer support pipeline
+look like?
+>> Um what does it look like to deliver a
+cloud service? Like it's a very
+different world with AI because how do
+you build a service where no engineer
+knows exactly how all the code works
+which is obviously the case now. And so
+there's just new lessons we're learning
+going from like a, you know, some of our
+team from infrastructure 1.0 in the
+2000s to cloud in the 2010s to now the
+AI space. There are a lot of rules that
+break.
+>> I mean, you're probably actually doing
+an incredible service to um like both
+sides of the ecosystem and that like the
+end users get this like very clean thing
+that just works, especially like the
+tokens just come out and they're very
+clean and the API makes sense and it's
+rational and logical. And then on the
+flip side like I mean if you don't have
+a layer like I've directly experienced
+this where it's like oh yeah the
+underlying inference provider has a
+weird error for you know if you put this
+parameter in this way or it expects JSON
+and you know it's not documented. It's
+just like this insane minefield. Like,
+you know, the agents can kind of figure
+it out, but like you're going to like
+bang your head into the wall for like a
+couple hours before, you know, the agent
+figures it out. And in the meantime,
+you're like, "This is a terrible
+experience." You know, and so you're
+like in there probably helping the
+inference providers fix all these
+fundamental bugs, too.
+>> Yeah. And it's part of the the job we
+do. And I think one of the big
+opportunities in the open model
+landscape is curation and taking a
+fragmented universe of models and
+inference technology and cloud services
+and harnesses and like making that
+actually just work is a really valuable
+problem because the end developer to
+your point they just want to build their
+software right they just want to build
+stuff they want to build their next
+company their next application and I I
+think that's where we come in but it's
+where a ton of great services also come
+in and we saw you know open router
+obviously is a good example of that from
+a wide model selection so developer
+doesn't have to sign up for you know
+hundred different providers they can
+just go to one they can pay in one place
+I think we've seen with open code you
+know you can have one harness that
+integrates with any model it's a really
+powerful experience for developers just
+looking to try the next model to see if
+it solves their use case better so this
+curation and you know when there's a
+abundance of models and providers now
+there's a scarcity in bringing that
+together into something that works.
+>> Thank you so much for joining us. That's
+all we have time for.
+>> Thank you guys for having me.

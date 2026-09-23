@@ -2,7 +2,7 @@
 type: topic
 title: Startup Scaling
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-09-24
 sources: []
 tags: []
 ---
@@ -36,3 +36,5 @@ Strategies for maintaining speed and product quality as a company grows from a s
 - [[sources/M93xlPxQADE-parker-conrad-s-billion-dollar-startup-lessons-do-unscalable-things-then-scale-them-part-1|Parker Conrad's Billion Dollar Startup Lessons: Do unscalable things, then scale them (part 1)]]: The transition from manual, unscalable processes to automated, software-driven systems.
 - [[sources/btRHm7z61oo-drowning-in-email-is-the-first-sign-you-aren-t-scaling|Drowning in email is the first sign you aren't scaling.]]: The process of moving from a hands-on founder role to a management-focused CEO role.
 - [[sources/lm3lfZza1ro-flexport-ceo-ryan-petersen-on-scaling-a-startup-from-zero-to-8b|Flexport CEO Ryan Petersen on Scaling a Startup from Zero to $8B]]: Managing organizational growth, hiring, and avoiding bureaucracy.
+- [[sources/o0ORPbSEgd8-max-junestrand-you-need-the-willingness-to-learn-faster-than-anyone-else|Max Junestrand: You Need The Willingness To Learn Faster Than Anyone Else]]: The challenges and strategies of growing a company from zero to $100M ARR in 18 months.
+- [[sources/7JoqmM5EPXo-building-ai-that-optimizes-ai|Building AI That Optimizes AI]]: The challenges and strategies of managing explosive growth and infrastructure demands in the AI sector.

@@ -1,0 +1,1627 @@
+Title: Chelsea Finn: This is the State of the Art in Robotics
+Video ID: cRZNwgvcWUg
+URL: https://www.youtube.com/watch?v=cRZNwgvcWUg
+Channel: Y Combinator
+Published: 2026-08-12T15:41:58Z
+Duration: PT58M18S
+Views: 72655
+Likes: 1320
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 1611
+
+============================================================
+TRANSCRIPT
+============================================================
+
+Everyone,
+today I'm going to be talking about the
+state-of-the-art of physical
+intelligence.
+And in particular, two years ago, I
+founded a company called physical
+intelligence. And uh we're really
+interested in how we can basically uh
+develop any robot allow any robot to do
+any task in the real world. Uh and I was
+actually spoke at this event a year ago
+uh last year and at the event last year
+I shared some of our progress in uh at
+the company at physical intelligence
+where we could do things really
+complicated tasks like uh folding
+unloading and folding laundry. Uh, and
+we I also talked about how for the first
+time we showed how robots can do useful
+tasks in environments in rooms they've
+never been in before.
+Now, since then, since one year ago, we
+have gotten robots to do a lot of other
+really cool things. So, for example,
+we've gotten robots to be able to wash a
+greasy pan in the top right or peel a
+carrot uh in the video below that or
+make a grilled cheese sandwich uh in the
+video below that or slice a zucchini uh
+and so forth. But what I'd really like
+to focus on today isn't cool videos of
+robots doing lots of different things,
+but how what it actually takes to get
+robots to be useful in the real world.
+And specifically how can we develop
+generalpurpose robots that are useful in
+the real world. Now there are two
+aspects of this. The first is general
+purpose. How we can develop general
+purpose models and the second is
+actually bringing those models to the
+real world so that they can actually
+have an impact and be useful to people.
+And in the first part I'll talk about
+being useful in the real world.
+So to actually bring a technology to the
+real world, I think we need to figure
+out it's helpful to actually look at
+what people have done in the past uh to
+bring AI into the real world. And if we
+look at a timeline of major production
+launches that are leveraging technology
+like machine learning, we um can see a
+timeline like this. So I think the the
+really the first early examples of
+machine learning being used for real in
+the real world were for things like
+product recommendations and ad ranking.
+uh and then five years later we started
+to see uh not just machine learning uh
+being used but deep learning being used
+for the same sorts of applications. Uh
+this was a really exciting advance
+because deep learning is an algorithm
+that actually isn't like you can kind of
+really apply it out of the box um to
+scenarios that involve really complex uh
+like inputs and outputs and so forth and
+it makes it easier to translate to other
+applications.
+But from there, I think that even more
+exciting um kind of uh moment in time
+that we saw in terms of machine learning
+and AI in production was in 2022 uh with
+the launch of Chhat GBT. Uh and this was
+the first time where we saw a general
+purpose model truly being used by many
+different people in the real world. Uh
+within five days, Chhat GBT had reached
+a million users. And then of course more
+recently we've seen things uh like cloud
+code uh also be incredibly useful uh
+hopefully to many of us uh in the real
+world and other coding agents. Now if we
+look at how AI has been used in the real
+world uh and and kind of look at this I
+think there's a few different takeaways
+we could make. Uh the first is that
+generalist models are increasingly being
+used for real world problems. And so
+we're actually seeing uh general purpose
+like generalist AI models that can do
+many many different things actually be
+used in the real world and we see that
+transition from the left to the right.
+But I also think that there's a more
+nuanced observation that we can make uh
+from looking at these applications
+and in particular if we look at all of
+these different applications that are
+used uh where machine learning has like
+actually been useful in the real world
+and actually uh been profitable and so
+forth. And in all of these applications,
+the customer is making a decision based
+off of the recommendation of the AI
+model more or less. Uh, and this means
+that if the customer is ultimately like
+kind of making the decision, this means
+that if the system makes a mistake, um,
+that's okay because usually the person
+can kind of recognize that or or decide
+what to do even despite that mistake.
+Uh, and so even when these sorts of
+systems aren't perfect, they're still
+incredibly useful to different people.
+and there's less pressure on them to be
+completely perfect.
+And I think that actually physical AI
+and robotics is pretty different from
+this where if we think about physical AI
+that are actually operating in the
+physical world, they have to be directly
+making decisions that affect the
+physical world. Uh and this means that
+they're going to be far more useful when
+they're operating fully autonomously.
+And as a result, this requires us to
+develop physical AI systems that make
+far fewer mistakes than the machine
+learning systems that have been deployed
+thus far. Now, one really exciting thing
+to kind of highlight um that has
+happened recently is uh a year ago Whimo
+passed the uh quarter of a million
+weekly autonomous rides suggesting that
+it is really possible to develop a
+machine learning based system that can
+uh operate in a trustworthy and
+autonomous way uh directly in the
+physical world. Um and I think that
+brings a lot of hope and optimism for
+actually um doing the same with the rest
+of AI in the physical world.
+So um if we want to develop general
+purpose robots in the real world, I
+think we need to think about how we're
+going to make them autonomous for long
+periods of time uh so that they're
+actually useful uh rather than having
+them uh rather than something where a
+human is basing decisions on the
+predictions of the model.
+So um to think about long-term autonomy,
+I want to ground this in a specific
+example and say that we wanted a robot
+to make espresso. If we wanted it to be
+actually be useful for us, we needed to
+make espresso reliably uh so that we
+don't have to babysit the robot uh very
+frequently uh in order uh for it to help
+serve drinks. Now even on its own this
+task is really difficult. So actually
+operating the porter filter requires
+very precise and forceful control to
+insert it um appropriately.
+It also needs to smoothly handle cups
+with liquid in it and not spill those
+cups. And it also needs to have an
+accurate sense of timing, which often
+isn't actually an issue in other areas
+of machine learning.
+And not only do we want to do this
+pretty challenging task, we want to do
+it with over 90% reliability.
+So how can we do this? So the first step
+in machine learning is always to collect
+some data set, train a model, and
+evaluate how good your model is.
+And unfortunately, this rarely works
+reliably on the very first try.
+Now, in practice, then it's a bit better
+to then iterate on the model that you've
+developed where you will try to um
+collect more data or improve the quality
+of the labels in your data set or make
+the labels more detailed, collect more
+data of the edge cases, the scenarios
+where it's not working well, adjust the
+balancing of the data set and so forth.
+Um, and while this generally improves
+the reliability of the model, uh, people
+eventually get tired and it's hard to
+get really, really high reliability with
+a person that's manually tuning this.
+And so what would be even better is if
+the AI system itself can iterate on the
+scenario in which you want it to have
+higher reliability where it on its own
+automatically seeks out places where it
+needs more data, where it needs more
+supervision. uh and if we can do this
+for many many more iterations because
+it's automatic rather than a person
+doing it then this might be the way to
+get really really high like 99 plus
+percent reliability from physical AI
+systems and so this is the approach that
+we'll take and this looks a lot like a
+reinforcement learning algorithm that's
+trying to attempt the task learn from
+its failures and get better and better
+on its own
+so then how do we develop a scalable
+reinforcement learning recipe for
+robotics
+well In language models, we have
+algorithms like PO and GRPO and these
+have scaled to large language models and
+have enabled really complex reasoning.
+Um, but there's a bit of a challenge in
+applying this to robotics, which is that
+these these algorithms have been trained
+with uh millions of attempts or
+sometimes even tens of millions of
+attempts uh by scaling up the compute
+because each attempt is simply running
+the language model uh in a data center
+um just by using compute.
+And if we were to translate this very
+very approximately to robotics um say we
+had maybe not millions or tens of
+millions but just one million
+trajectories of a one minute robot task.
+This is even shorter than the espresso
+task that I talked about. This would
+correspond to 700 robot days um to get
+high reliability for that task. Now
+maybe this isn't completely out of the
+question but this would be quite
+challenging uh to do and that's because
+the calculus is a little bit different.
+We're not just running compute to
+optimize for a use case. We're actually
+running the robot in the real world and
+using the hardware and attempting the
+task in the real world.
+And so we'd like to have an algorithm
+that can iterate much more efficiently.
+And there are actually ways that we can
+make these algorithms a lot more
+efficient. So um there's a couple
+inefficiencies like large inefficiencies
+in these reinforcement learning
+algorithms for language models.
+The first is that they spend a lot of
+time on deadend trajectories. And maybe
+this is okay if you're just spending
+compute on it. But this would cost a lot
+in the physical world. So we can look at
+a concrete example. Say that we want a
+robot to construct cardboard boxes and
+stack them uh on the right. And in this
+trajectory right here, the robot
+accidentally grabbed two boxes that are
+flush against each other. And if we let
+it continue, it would just continue to
+try to fold that box rather than
+separate out the two boxes. and trying
+to fold two boxes together isn't useful
+data that will teach the model how to
+get better at the task. And so that
+would be kind of wasting a lot of time
+on the robot attempting to go down the
+wrong path for solving the problem. And
+so instead of spending a lot of time
+trying to do that task, what we'll do is
+we'll actually have a human intervene
+and show the robot what to do and how to
+recover from that situation. And so what
+you can see here is a human is
+teleoperating and intervening uh with
+the robot and showing it um that to
+recover from this situation, it needs to
+essentially try to separate out the two
+boxes. Um it then kind of puts its
+gripper in, sees it if the then if the
+robot could autonomously recover, it
+doesn't autonomously recover. And so the
+person then intervenes again um to help
+uh help it get back on the right track
+so that we're efficiently using the data
+on the robot.
+Okay, so this is the first thing that we
+can do which is we can show the robot
+how to recover early or how to recover
+so that we're not spending time on dead
+end trajectories or at the very least
+just terminate the episode early.
+Now the second thing that we can do is
+uh PBO and GRPO and these kinds of
+algorithms they make many attempts at a
+single prompt. Uh and depending on the
+algorithm they're they're essentially
+trying to estimate for these different
+responses what is a good response and
+what's a bad response. Uh and so even
+for an individual prompt they're
+actually going to kind of roll out like
+10 or 50 times uh for that individual
+prompt. And they're doing this because
+they're trying to estimate the value of
+these different um attempts uh to then
+kind of upweight or kind of increase the
+likelihood of good things and decrease
+the likelihood of bad things. But we can
+actually amortize this cost uh rather
+than trying to collect a lot of attempts
+for a single prompt. We can amortize
+this across different prompts and learn
+a much more general value estimate of
+what's good and what's bad and use this
+to improve with our autonomous
+experience.
+And so what this looks like is um we can
+train a general purpose value function
+on lots of uh kind of videos of the
+robot experience. And this can learn
+things like if it accidentally unfolds a
+shirt when it's trying to fold that
+that's bad and that's making negative
+progress. It's shown in red. Or if it's
+making kind of forward progress, it
+recognizes that as well. Um and the same
+value function can also estimate what's
+good and bad for a completely different
+scenario. uh in this case for retrieving
+an item from a fridge. And so this sort
+of kind of general purpose value model
+that's kind of predicting basically the
+time to success can um basically
+significantly reduce the amount of
+attempts needed to learn how to improve
+from experience.
+Um so with these two um kind of
+improvements to a reinforcement learning
+system, we kind of have a a general
+improvement algorithm that trains a
+foundation model on diverse data, then
+collects experience from that with a
+human intervening as necessary to help
+prevent dead end trajectories and then
+train a general purpose estimate of
+what's good and bad the value function
+and then use that to improve the model.
+And with this sort of improvement um
+we're able to uh kind of fine-tune a
+foundation model to higher degrees of
+performance.
+So um in the task of making a latte in
+this case we'll be making a latte in
+collaboration with a person where the
+robot is in charge of making the
+espresso uh and the person is in charge
+of steaming the milk. Um this is what
+the uh what the kind of model looks
+like. The model is directly controlling
+the joints of the robot using uh the
+images from the robot's cameras as
+input.
+And we can see that the model um is able
+to do the pretty challenging task of
+inserting the PA filter um uh waiting
+the appropriate amount of time for the
+espresso to dispense, pouring the
+steamed milk into the cup.
+And then the last part of this task is
+actually the most challenging uh where
+it needs to take a very full latte uh
+cup of latte and transfer that over to
+the coaster.
+And so here's actually the observation
+that the robot sees directly.
+And you can see that the policy is super
+delicate and able to balance the cup
+appropriately and smoothly so that the
+latte doesn't spill.
+So this is kind of gives you a sense of
+the difficulty of this kind of task. Uh
+and
+kind of going back to this reliability
+question, we took this policy and we ran
+it not just once, but we ran it for 13
+hours straight. Uh and we basically
+wanted to evaluate is this policy not
+only good at making a latte once, but
+can it do so reliably to the extent that
+it would be needed to be useful in the
+real world? Um and so here's a time
+lapse um of that process. Uh and indeed
+we found that the robot was reliable
+enough to be useful for long stretches
+of time without making mistakes uh
+frequently.
+Now the same algorithm isn't specific
+for making lattes of course and so um we
+also applied this to other applications
+as well. Um, Dandelion Chocolate Factory
+is a few blocks from our office. And so
+we took a workflow that they typically
+have a person do, which is to construct
+these cardboard boxes, label them, and
+stack them. And we trained our robot to
+basically do exactly their real
+workflow, uh, and trained it with the
+reinforcement learning algorithm that I
+talked about to get a policy that is far
+more reliable at constructing, labeling,
+and stacking these boxes.
+And then we also applied this algorithm
+to fold and close as well. And we wanted
+in this case to not just test how well
+the model could do one task in one
+environment, but to do it in many
+environments. And so these are clothing
+items that the robot has never seen
+before in a home that's never seen
+before. Um, and it's able to do so and
+act autonomously for an extended period
+of time.
+Now, um, videos aren't uh don't always
+kind of show everything. And so we also
+quantitatively measured the reliability
+of these models. And we care both about
+the reliability as well as the speed
+like how how many boxes can it build per
+hour. And so we're going to measure
+throughput which kind of couples both uh
+success rate and speed. And we find that
+over the phases of training from
+pre-training to like an SFT- like stage
+to an RL post training like stage we see
+a drastic increase in um in success rate
+indeed in throughput uh and specifically
+um around a 2x throughput just from the
+RL stage itself showing how we can get
+much greater reliability from
+reinforcement learning. And for the
+espresso task, if you look specifically
+at the success rate, we achieved a 90%
+or over 90% success rate um on making
+espresso.
+So the takeaways for this part is that
+we we can develop a scalable recipe for
+high reliability of complex robotic
+manipulation tasks. Uh and we saw in
+this case a 2x higher throughput from
+using experience and interventions. But
+most importantly, we saw how we can
+achieve long-term autonomy in real
+workflows that people um that people
+actually care about in the real world.
+And this is what it's going to take, I
+think, for robots to be useful in the
+real world. Now, there's also a lot more
+work and a lot more opportunities. Uh
+the we actually only ran a few
+iterations of improvement of this
+algorithm and with more iterations, we
+should be able to see even greater
+improvement or even greater reliability.
+Uh, and even with this improvement, the
+robot still makes mistakes. It's also
+still slower than people. And so, uh,
+there's many like a ton of room for
+improvement for developing even more
+powerful recipes. So, we've seen
+long-term autonomy, uh, for these
+different workflows. But there's
+actually one more ingredient that I'd
+like to talk about for enabling robots
+to be autonomous and useful for long
+periods of time. And that ingredient is
+memory. So, you might be surprised to
+hear that most state-of-the-art
+foundation models for robotics have no
+memory or no context. They're just
+operating on the current sensor
+observations, the current camera
+readings, uh, and predicting actions
+based off of that. And you actually can,
+um, do short motor skills, you can do
+repetitive tasks without memory. The
+videos that I showed before didn't have
+any context either. But if you want to
+do a long task that involves multiple
+different steps in sequence, then memory
+is critical for tracking progress of the
+steps that you've completed so far.
+So if it's critical for doing these
+kinds of long horizon tasks, then why
+don't these models have any context or
+memory? Uh there's a couple reasons for
+this that are technical and and I'll
+talk through one of them um which is
+that if you naively approach memory uh
+and try to feed in context uh like pass
+video to a robot foundation model. Um
+say that you would just pass in 10
+seconds of video. Uh maybe this 10
+seconds of video is sampled at 50 hertz
+which is a a common control frequency in
+robotics and you feed in all four camera
+streams on the robot and you use around
+kind of 256 tokens per image. Uh this
+corresponds to passing in half a million
+tokens into your model which is a lot of
+tokens. Uh and trying to do that in real
+time um into your model right now uh is
+quite challenging. Even if you subsample
+to one frame per second, you're still
+going to be passing in 10,000 tokens
+into your model which at least right now
+is prohibitively expensive for these
+models and that's still only 10 seconds
+of memory.
+So um I don't have time to go into the
+technical details of uh exactly what we
+did here but um we also developed a
+solution for this context problem and
+specifically uh we developed a system
+that has memory at multiple time scales.
+The first is a short-term video memory
+that has about 10 seconds of video
+memory um but is done so and computed
+much more efficiently than naively
+passing it into the model. And then for
+longer memory, for memory that spans
+multiple minutes or multiple hours, we
+don't necessarily need video of exactly
+what happened in that past uh in that
+past history. And so instead, we
+represent memory for those [snorts]
+parts in text where we summarize what
+happened uh in text space and then
+incorporate that much more compressed
+textual summary of what happened over
+the past 1015 minutes uh into the model
+uh as well. And with this sort of kind
+of memory at multiple different time
+scales, we're able to enable robots to
+do tasks that can operate for 10 or 15
+minutes at a time completely
+autonomously. And what's different from
+the previous slide or the kind of what I
+showed previously is that this task
+isn't repetitive. Um, so this is going
+to be a 10 to 15 minute task that's
+involved cleaning a kitchen. And the
+robot isn't just repeatedly making
+espresso over and over again. Um, what
+it involves is wiping the counter with a
+sponge. Uh, kind of then drying the
+counter with a paper towel, throwing
+away the paper towel. Next, it's going
+to put away the mustard uh into the
+fridge. Then, it will put the dishes
+away uh into the uh into the cabinet,
+wash some of the dirty dishes in the
+sink, and so on.
+And so, um, by incorporating memory,
+it's able to do a task that requires
+keeping track of all of these different
+steps, um, that is done to, uh, clean
+the kitchen and successfully operate
+for, uh, 10 to 15 minutes, uh,
+completely autonomously.
+Great. Um, so those were a couple
+ingredients for long-term autonomy. Now,
+I'd like to build on that and actually
+take those ingredients and put it into a
+general purpose model uh that can do
+everything that I showed before, but
+also can do that in a single model um
+and can do some other things as well.
+And to think about developing such a
+general purpose model, I think it's
+really helpful to contextualize
+like where robotics is at uh within the
+timeline of other developments in
+generalist AI.
+And if we think about how kind of
+generalist AI systems have evolved over
+the past like 15 years, I think the
+first major milestone was in 2012 when
+we saw that a deep learning system
+trained from scratch. This was the first
+time that it topped an external
+benchmark and all of the previous
+methods for that benchmark were
+specifically designed for that
+application. So all of the previous
+methods um specifically this was the
+imageet benchmark were designed
+specifically for image classification.
+um whereas this was the first time that
+a deep learning based system actually
+outperformed those more specialist
+systems. And this is a kind of a much
+more general algorithm um that wasn't
+specifically designed for image
+recognition.
+And then just a couple years later, we
+found that we weren't just training
+algorithms from scratch, but we were
+able to get models like pre-trained
+models that are useful for fine-tuning
+to downstream tasks. And so became the
+norm to take a model that was
+pre-trained on imageet and then
+fine-tune it on a downstream task. we
+actually saw better performance from
+using that pre-trained model like BERT
+or like an imageet pre-trained model.
+And then from there the the I think the
+next big phase and the next big
+transition in generalist AI models
+wasn't um using pre-trained models but
+kind of moving from a pre-training
+fine-tuning regime to a regime where
+we're just using generalist models out
+of the box. Um this was like with models
+like the start of like GPT2 and of
+course all like almost all the models
+that we interact with today worked just
+out of the box without um without
+fine-tuning or at least most of the
+consumer models. There's actually other
+other models that that still use a lot
+of fine-tuning.
+And then I think one other um kind of
+milestone that I want to highlight was a
+milestone in 2021 where we think I saw
+the first signs of compositional
+generalization in these models. um and
+kind of one specific instance of that
+was with Dolly and I'll talk a little
+bit more about that uh in a later slide.
+So this is how kind of generalist AI has
+advanced um over the past 15 years. Uh
+and then meanwhile if we kind of think
+about physical AI
+even just three years ago uh in 2023 it
+was extremely common for people working
+on robotics to collect a bespoke data
+set from scratch or an individual
+project and train from scratch on that
+data set. And this is analogous to say
+collecting imageet from scratch and
+training on imageet uh or training on
+the data set that you just collected
+from scratch on that data set. And so if
+you want to develop a general purpose
+model, if you have to collect the the
+data set from scratch for every single
+project, you're probably not going to
+make a lot of progress.
+Um and so um until just a few years ago,
+I think we were kind of pretty far on
+the left of um of this timeline. Uh and
+until recently, I think that more
+recently, I think that we've been kind
+of in the 2014 phase where we have some
+good pre-trained models. Um but we
+haven't really been truly in the regime
+on the right.
+So how do we get to that regime on the
+right? Specifically, how do we develop a
+single general purpose model that works
+out of the box and also shows
+compositional generalization?
+Um, so this has two goals. The first is
+out of the box models. This is analogous
+to going from like BERT to GPT.
+And right now the best robot
+performance, if you want to get like the
+your model to perform um the best that
+it can on a given task, it always
+requires fine-tuning. So some of the
+videos that I showed at the beginning,
+they were fine-tuned models um to do
+things like unlocking a lock. Um other
+work that we've done on measuring human
+to robot transfer also needed
+fine-tuning to get the best performance.
+Uh and of course all of the videos that
+I showed with RL post training, we're
+also fine-tuning on an individual task
+uh to get the best performance on
+something like making espresso.
+But if you have to fine-tune a model,
+you actually aren't getting a general
+purpose model um for the things that you
+want it to do because you have to
+fine-tune it for each individual thing.
+And so our first goal is to move towards
+a single general purpose model that can
+actually do all of the things that you
+want it to do. Um then the second goal
+that I mentioned is compositional
+generalization. Uh and this is inspired
+by uh the Dolly result from 2021. And I
+think that this was a really important
+and exciting milestone because of the
+compositional generalization that it
+achieved. Uh and specifically when you
+have compositional generalization, when
+you can basically bridge the concept of
+an avocado and a chair and show that you
+kind of can combine those two, it means
+that the model has at least some kind of
+conceptual understanding of what an
+avocado is and what a chair is to the
+point that it can combine them into
+something that exhibits both concepts at
+the same time.
+And then second, it means that you have
+some degree of data efficiency where
+your data doesn't need to cover all of
+the possible combinations of concepts
+represented in your data. You don't need
+pictures of avocado chairs in your data
+set in order to generate something like
+this. Um or you don't need combinations
+of other things that you might ask the
+model to do at uh when it's deployed.
+Now, even back in 2021, it wasn't
+perfect, but these signs of
+compositional generalization were really
+exciting for uh demonstrating these two
+attributes of the model.
+So, we have these two goals um that we'd
+like to do. We like an out-of-the-box
+model and compositional generalization.
+Now the tried and tested recipe for
+developing this kind of model is to
+first take a sufficiently large and
+diverse data set and to second um train
+a model with sufficient capacity.
+And so what we're going to do is we're
+going to do that. We're going to try to
+use all of the data that we have
+available. This includes really diverse
+robot demonstration data including
+really lowquality demonstration data.
+Uh, it's also going to include policy
+rollout data. Basically, attempts from
+the robot of doing the task. Basically,
+all of the training data that was used
+for reinforcement learning for the
+previous tasks will be included in the
+training recipe. We're also going to
+include videos of humans. Uh, and we're
+also going to include data from the web.
+Basically, all of the data that we have.
+And then to train a model with
+sufficient capacity, of course we'll
+train a model that's large enough, but
+to fit data that's so heterogeneous, we
+also find it um particularly important
+to prompt the model with all of the
+context that it needs in order to
+predict actions. And we found that this
+idea was really the key unlock to using
+this kind of data and is data of this
+kind of degree of heterogeneity.
+And specifically what this looks like is
+we're going to train uh a foundation
+model that takes as input uh the memory
+like that that I mentioned before an
+instruction of what to do, but it's also
+going to take as input a subtask
+instruction um of kind of what the next
+immediate thing it should do is. It'll
+also take as input metadata that kind of
+indicates the quality of the data, the
+length of the episodes and so forth. And
+this metadata gives it a lot more
+information about how it should predict
+the next action.
+And then optionally we'll also uh train
+the model with a sub goal image as a
+prompt to the model that's essentially
+saying like a few seconds from now you
+should try to reach something that looks
+like this image.
+Um with this detailed prompting we find
+that the model can really make use of
+much more heterogeneous data and I'll
+show some compar comparisons later that
+really um kind of show how important it
+is. And now to actually deploy this
+model we need to then provide things
+like this subtask construction and sub
+goal images. And so with that we can
+train um a high level policy that
+predicts the subtask instruction like
+what to do next. What is the next like
+subtask for the task of uh cleaning the
+kitchen. Um and we'll additionally train
+a world model to generate images for
+what the robot should do next um as sub
+goal image conditioning.
+And so with this um we'll train a single
+model on with those attributes on all of
+the diverse data that we had available.
+And here are some examples of what that
+single model can do. So all of these
+videos are from a single model. Uh
+specifically a model that we called the
+PIO7 model. Uh and on left you can see
+it doing things like uh folding uh a
+collared shirt. On the top right it's
+doing a really precise uh assembly step
+where it needs to insert a screw and
+drill that screw into a robot arm.
+And on the bottom right, the robot is uh
+replacing a trash bag in a trash can.
+And so we had two goals at the start of
+this. The first was to move towards an
+out-of-the-box model. And even those
+videos showed that out of the box, the
+model is able to do quite a bit. Um, but
+really the key question here is how does
+this pre-trained model compare to the
+specialists that were trained
+specifically for coffee making,
+specifically for box building that I
+talked about previously.
+And if we measure the throughput and the
+success rate of this single PIO7 model
+versus the fine-tuned PIO6 model, we see
+that the across the board the single PIO
+like pre-trained PIO7 model matches or
+outperforms the fine-tuned specialists
+that were developed with reinforcement
+learning post-training for those
+downstream tasks. And so we see that
+it's able to match the performance of
+specialists. It also holds for SFT
+specialists, not just RL post-trained
+models as well. um suggesting that we do
+indeed have a single model that can do a
+lot of different tasks with a really
+high degree of performance out of the
+box.
+Okay, so that was the first goal of out
+of the box models. And the second goal
+is compositional generalization.
+Um and there's a few different ways to
+measure this. Uh and there's many
+different ways you might try to combine
+concepts in robotics. Um the first test
+that we wanted to do was to see if a
+robot could um interact with an
+appliance that's quite rare like an air
+fryer. Um and uh this is kind of an
+example. We basically wanted to see if
+it could um open an air fryer, put an
+air a sweet potato in the air fryer and
+close the air fryer. Uh and we picked
+this because we thought that the data
+set didn't have any air fryers in it. We
+didn't intentionally collect any
+training data with air fryers. Um,
+after we did some analysis on the data
+set, we actually found that our data set
+was so diverse that it did actually have
+three episodes with air fryers in it. We
+expect that they likely weren't having
+an impact um on and that even if we
+didn't include those exact three
+episodes, it is likely would still work.
+Um but what we found generally is that
+the um the robot was able to interact
+with appliance that was basically hardly
+represented at all in the training data
+set um and combine the skill of um
+interacting with it like opening it,
+closing it and so forth um with this
+object that it hasn't seen before.
+Um and then after instructing it uh like
+Lucy did, we can train a high level
+policy to do this task fully
+autonomously. um and you can see um the
+robot doing that in this video.
+So that's the first form of
+compositional generalization. Um the
+second compositional generalization test
+that we wanted to look at is we wanted
+to see if we could compositionally
+generalize between tasks and robot
+platforms. And so we wanted to take a um
+a robot platform called a barm robot.
+It's actually a very large um kind of
+industrial robot platform. And we wanted
+to see if it could fold close. um
+despite the fact that we didn't collect
+any folding data on uh this robot
+platform. So specifically we had data of
+uh folding clothes like folding a shirt
+on the robot platform that's pictured
+here on the left. And then we wanted to
+see like out of the box without
+collecting any folding data on this very
+different robot platform on the right uh
+could the robot successfully do the
+task.
+And what we see in this video is uh the
+we indeed did see that it kind of
+compositionally generalized in this
+manner. The first time we saw the robot
+do this we were like like floored uh
+because we like there was no training
+data um for this uh for this task. And
+the robot here is quite different from
+the other robot not just in size but
+also in the lengths of the linkages of
+the robot in the configuration of the
+joints of the robot and so forth.
+Okay. we can. And the this is a 1x speed
+video, so it's not the the fastest
+thing. And obviously, if you haven't
+seen any training data on something, you
+might not uh if it's literally the
+robot's first time folding a shirt. Um
+it might take uh a few attempts,
+but eventually it will get to the folded
+shirt. You can also see the generated
+subgoal images on the top left. Um so
+those those are basically um the models
+trying to generate images that will make
+progress on the folding task. And then
+those are passes input to the model. Uh,
+and we see uh the the folded shirt here.
+I think it's going to make a couple
+small corrections at the end uh to try
+to make it a little bit smoother.
+Cool. So, the takeaway here is that um
+both in terms of like language object
+interactions and in terms of task robot
+interactions, we see strong signs of
+compositional generalization in this
+model.
+Okay. Um and then quantitatively we also
+see that uh as we kind of get to these
+more advanced models like the PIO7 model
+the per performance of folding uh towels
+and folding shirts on this platform that
+hasn't seen before increases
+dramatically uh and it even approaches
+the performance of human teleop uh
+despite the fact that we didn't have any
+robot specific training data uh for
+folding clothes.
+And then for the last experiment that we
+did here, um I think this is maybe
+perhaps the most interesting experiment
+is we wanted to test, how important are
+the two ingredients that I mentioned.
+How important is diverse data and how
+important is this sort of like capacity
+or detailed prompting for the kinds of
+results that I showed? And so if we
+remove the diver most diverse data um
+from the model training uh shown in like
+the grayish color, we find that the
+performance on held out tasks decreases
+dramatically. Whereas if we um just take
+out a random 20% of the data that's less
+diverse than the most diverse subset,
+the performance um only decreases a
+little bit. And so this suggests that
+actually having really diverse data
+plays an important role in enabling it
+to generalize to new tasks. Um and then
+we tried to also ablate the fact that we
+are prompting the model with metadata.
+And for this experiment we looked at um
+with and without prompting with
+metadata. Um so with prompting is shown
+in yellow and without prompting is shown
+in the gray color. And um with prompting
+it helps uh kind of significantly. Um
+but the most interesting thing is if you
+look at um when you add so this plot is
+showing as you add more and more data
+and specifically as you add more and
+more lowquality data what is the
+performance and without metadata
+prompting when you add lower quality
+data from 80% data to 100% data the
+performance actually decreases which is
+perhaps not too surprising because
+you're adding lowquality data to your
+data mixture whereas with the metadata
+prompting the performance actually
+increases when you add that lowquality
+data um sug suggesting that's actually
+able to make get get a lot more juice
+out of even lowquality data um when you
+include this kind of prompting.
+Cool. Um so the takeways here are that
+um we found that we're able to train a
+single model to control the robots that
+matches or exceeds the performance of
+specialized post-trained models. Kind of
+like going from a BERT-like pre-trained
+model to a model that really works out
+of the box like GPT. We also saw strong
+signs of compositional generalization in
+a dolly like way. Um, for example, in
+compositionally generalizing skills
+applied to appliances and skills applied
+to new robots in ways that weren't seen
+in the training data.
+Um, cool. And then all the like videos
+and experiments that I showed were just
+evaluating the model out of the box
+without any post- trainining. Um, and
+the paper and the technical report
+online have a lot more experiments and a
+lot more details.
+Okay, so we've talked about long-term
+autonomy. We then showed how we can kind
+of develop that in a single general
+purpose model. Um, where are we at now?
+Um, the first thing that I'll mention is
+if we go back to the timeline of
+generalist AI, I think that we now kind
+of firmly have physical intelligence in
+the right side of this timeline. we're
+kind of firmly more in like a GBT and
+Dolly like era uh for robotics and
+physical intelligence which is really
+exciting and I think that um and we've
+kind of went there in in in just a few
+years. Uh and lastly uh we also have
+these models that are actually deployed
+um in real world circumstances. So the
+two videos on the top are actually two
+YC companies Ultra and Weave uh that
+have taken find uh PI models and
+post-trained them to do uh in deployment
+to do tasks like folding laundry and um
+and packaging in a warehouse. Uh the
+kind of video on the bottom uh bottom
+left is uh the video that I showed
+previously and this kind of model works
+for a really diverse set of robot
+embodiment. Um the ones on on kind of
+the top and the left are kind of a more
+standard by manual platform. Um but it
+also can be adapted to things like
+drones, uh quadcopters, surgical robots,
+and on the bottom right um for things
+like tractors. And so this is really
+kind of truly showing how physical
+intelligence can make an impact uh not
+just in demos and research and so forth,
+but actually in real world deployment.
+And I think that we'll um as we go we'll
+start to see robots that are more and
+more robots actually re deployed for
+real in the physical world with all the
+advances that we've been seeing over the
+past few years. Awesome. Um so the last
+thing that I'll mention shamelessly is
+that we are hiring at physical
+intelligence. So if you're excited about
+some of the stuff that I talked about um
+we encourage you to u to take a look at
+some of the open roles and apply and um
+yeah definitely have time for for
+questions and and happy to u happy to
+get all your thoughts. Thanks.
+Okay, so the first question is how far
+away are we from a chat GBT moment for
+robotics and what will that look like?
+So I'll start with the f the second part
+actually which is that I I'm not sure it
+will really look like the chat GBT
+moment that we saw in language models
+which is that with something like chat
+GBT we saw like what like um it passed
+like what a million new users in five
+days uh I think that the distribution
+channel for physical models is going to
+be slower uh unfortunately because you
+actually need a physical robot there and
+I think that we've seen for something
+like Whimo um it like the rollout um
+it's actually been like incredible to
+see the rollout that they've had but it
+still takes time um to actually deploy
+things on physical devices. Um so I
+don't know if we'll have a single moment
+that has the distribution that chatgpt
+had. Um at the same time in terms of the
+capabilities of these models I think
+that we are really starting to get to
+the point where these models are
+actually useful in the real world and I
+think that getting to the kind of the
+capabilities of chat GBT I think is um
+yeah very much on the horizon in the
+next few years.
+Cool. Well, the second question is when
+should a small team switch from scaling
+per site models to a generalist policy
+and what does that transition actually
+look like? What signals tell you it's
+time? So, this is a good question. I
+think that the I mean at the very least
+I actually think that just starting with
+a generalist policy and then fine-tuning
+it even like right off the bat uh can be
+really effective. And we've um and like
+fortunately a lot of generalist policies
+like they're actually really powerful
+generalist policies that are open
+source. Um and so the PI zero and PIO5
+models are are open source uh for
+example. And we've seen a lot of people
+um get a lot of use out of those models
+already. Uh, and we're also working with
+a lot of partners like the tractor
+company, like Ultra, like weave um to
+actually develop to take our most recent
+models and um and get even more juice
+out of them, even more powerful models
+for their own applications. Um, so even
+right off the bat, I think that you can
+use them. Um, the only scenario in which
+I actually wouldn't use them is if if
+you're really in a really constrained
+environment. I' I've talked to um some
+folks working on surgical robots that
+are like in an operating room in the
+basement with no internet connection and
+a really bad GPU. Uh, and so sometimes
+like it's just really hard to use a
+larger model. Um, but you still can do
+local inference with um on a workstation
+with these models. And so, um, I think
+that yeah, right away I just taking like
+PIO5 or or or your favorite model and
+and fine-tuning it is, uh, is the way to
+go. And I think that we'll see lots of
+these small companies. And I think
+there's like, yeah, so much work to do
+in terms of actually getting these
+robots to work with this technology in
+the real world.
+Great. The next question is given how
+fast robotics is moving in industry what
+are the real advantages and drawbacks of
+doing a PhD today especially for someone
+who wants to go into industry
+afterwards.
+So I was not planning to do a PhD. I was
+always planning to go straight to
+industry. My parents uh are engineers uh
+and worked in industry and I kind of
+thought that the way to have impact was
+to go to a company and so forth. and the
+and my dad even told me that he wouldn't
+hire someone with a PhD. Uh and so I was
+like maybe I shouldn't get a PhD if I uh
+wouldn't be able to get a job. Uh but
+well there's also he's in a different
+field as well um in civil engineering.
+Uh and so
+the but at the same time I I think that
+like a PhD is an incredible opportunity
+and I I I love my PhD and obviously it
+depends a lot on the adviser. It depends
+a lot on um like what you would be doing
+and so forth. But I think the PhD is an
+incredible opportunity to first learn a
+lot about how to handle uncertainty, how
+to pick good problems to work on. And I
+think that um basically like in in
+research you don't no one kind of even
+gives you the problem to work on. You
+have to pick the problem. uh and you
+don't know for the problem that you
+picked if it is achievable to make
+progress on that problem in a six-month
+time span, two-year time span, 10 year
+time span. Um and so you learn about how
+to deal with that uncertainty. And then
+the so that's really useful. Uh and then
+it also um it also is an opportunity to
+like do amazing research uh and do
+whatever in many cases do like have a
+lot of freedom to work on the research
+that you find most exciting. And so I
+think that today it's still uh yeah an
+amazing opportunity to do do work to
+learn about uncertainty. I think that
+learning about uncertainty is really
+useful in the startup environments in
+being at the frontier of AI because we
+don't know now like no one knows what
+the best route is to make these models
+more and more powerful. Um at the same
+time there's also a lot of incredible
+opportunities in industry. Uh I think
+that the uh first in terms of what goes
+into developing like everything that I
+showed it's not just the research there
+is a whole like software stack that
+needs to run on the robot needs to run
+reliably there's obviously everything on
+the hardware side uh and then there's
+also even the machine learning
+infrastructure the data infrastructure
+um and all that and so um even with like
+and you don't need a PhD necessarily to
+do a lot of that engineering work um and
+then on the research side there's often
+opportunities to get involved
+um as well and a lot of research is
+engineering these days as well. Uh and
+so I think it kind of depends on um yeah
+it's a very personal decision uh and
+what you want uh I I even today I think
+I probably like kind of retrospectively
+um would want to do a PhD just to learn
+about how to handle uncertainty to do
+research because I really love being at
+the frontier and thinking about
+challenging problems. Um but there's
+also a lot of uh really amazing
+opportunities in in both paths.
+Okay. Um the next question is large
+language models learn from the internet
+but robots don't really have an internet
+scale data set a physical experience.
+What's the robotics equivalent and how
+do we get it?
+So in robotics, well, so maybe in
+language models to start off, uh the
+data on the web is language data and not
+all of it's high quality. Uh but some of
+it is like really informative and
+useful. Uh and it is data that is in
+kind of the that that kind of reflects a
+lot of what the like what you want a
+model to do. Like you want it to be able
+to predict uh text uh and be able to
+complete text uh answer questions and so
+forth. And there's a lot of questions
+being answered on the internet and a lot
+of text that's being completed on the
+internet. Uh and so in general with
+machine learning, you want train to
+match test. And so you want the thing
+that you're going to be training your
+model on to be reflective of the thing
+that you want you're going to be asking
+it to do later on. Uh and so I think the
+equivalent uh in robotics is data of
+robots operating in real world
+circumstances. Uh and the
+way that we approach it at physical
+intelligence um is to collect data like
+collect robot experience. uh of robots
+doing all sorts of tasks. Uh you can
+collect this with teleyoperation as a
+kind of to get initial data of robots
+doing useful things. Uh but in the long
+run I think it will also contain a lot
+of autonomous experience of robots
+deployed attempting things. Uh and just
+like how we see in language models how
+now a lot of time is spent actually
+generating data, generating synthetic
+data by actually running the model and
+having it think through things. I think
+a lot of the data in the future in
+robotics is going to be the robot
+attempting to do lots of tasks in lots
+of real world circumstances. And so, um,
+yeah, I think that that's kind of what
+it looks like. I also think that there
+are other possible sources of
+information that's really useful for
+model training, like videos of people
+doing things, uh, like YouTube, uh, like
+web data and captioned images, uh, that
+tell you like this is a kitchen that has
+a fridge on the right of the sink and so
+forth. Uh and all of that data I think
+can be really useful for developing a
+kind of frontier multimodal model that
+can control robots to do things, reason
+through how to do a long task, uh and
+also control the robot to do those
+tasks. Um I think that there's no
+substitute for the robot experience
+itself. Uh you can't just like if you
+watch a human do something like if I
+watch Roger Federer play tennis doesn't
+mean I can't I can play tennis as well
+as him unfortunately. Uh and likewise um
+robots can't like watch a person doing
+something and then figure out how to do
+it themselves directly. They really need
+their experience on their own platform
+um to learn effectively. And I think
+that uh we will need large data sets. I
+think that doesn't mean the human video
+isn't useful. It's useful to watch Roger
+Federer play tennis. But the um but the
+actual experience on robot platforms
+will be a critical component of
+developing an analogous data set for
+robotics.
+The next question is, is it possible
+that general purpose robotics models get
+democratized via open source the way
+that large language models did or will
+the cost of embodied data and hardware
+keep the best models concentrated in a
+few well-resourced labs?
+So, I think this is a good question. Um,
+so I do think the cost of embodied data
+and hardware will like could very much
+make this look different. uh because I
+think that it's harder to get data even
+to like distill a model for example um
+just like readily on the internet. Uh I
+also think that we've seen uh kind of
+pretty large data sets get open source
+as well uh and pretty powerful models
+get open sourced. The I think it's
+really hard to say exactly what will
+happen. Um
+and so yeah I I don't know. Uh the one
+thing that I will say is that I like
+with language models even aside from
+like doc de docuation like Kimmy and and
+like really getting models that like
+perform at the state-of-the-art even
+then companies that are focusing a lot
+on closed source models are also doing a
+lot of open sourcing and so um there are
+like like Gemma for example and um the
+GBT open source and so forth. I think
+these these companies like to support
+open source because it actually helps
+build the ecosystem around the things
+that they're building and so I imagine
+there being I guess I'm optimistic of
+that there will be a strong open source
+community regardless but I don't know if
+it will exactly play out exactly the way
+that language models played out.
+Okay, the next question is does the
+model output raw motor commands directly
+or does it output a target hand position
+and let a controller solve for the joint
+angles and what makes that the right
+level to learn at? So the mo all the
+models that I showed were outputting um
+target joint positions. So like what is
+the angle of this joint? What is the
+angle of this joint and so forth that
+you want to hit? And then there's a
+controller like a PD controller um that
+is trying to then hit that target
+position for those joints. Um the model
+actually is also trained to predict
+target uh gripper like like yeah gripper
+positions like where in 3D space should
+my gripper be? The um and you could also
+use that as well and back out the joint
+positions. Um you could also like
+another thing you could do is you could
+go directly to like motor torqus or to
+uh like voltages or efforts. Uh there
+are pros and cons of different options.
+Uh we have found controlling joints uh
+and controlling um in like the the 3D
+space of the gripper uh to be to both
+work well. Um
+and so there yeah there's pros and cons.
+I think that one thing that would be
+nice about going directly to the like
+the voltages is that you could also get
+a more stiff uh kind of output or a less
+stiff output. Uh whereas the controller
+if you have a fixed controller then you
+you're not letting your model control
+that um that aspect and so yeah there's
+different pros and cons. Um
+the
+yeah I think that the it see like what
+we're working seems to work. It doesn't
+seem to be a bottleneck. Um and and I
+often like to focus on the things that
+seem to be bottlenecks uh versus um
+versus things that don't seem to be
+bottlenecks.
+Okay. Um next question is do robots need
+something like imagination uh the
+ability to picture what should happen
+next before they can become truly
+useful? So the pio7 model that I showed
+has something like this where it can
+kind of imagine what a future image
+should look like and then try to
+accomplish that. uh the
+we found that that leads to improvement
+and we saw in the shirt folding example
+we saw like a quantitative bump from
+using that sort of imagination compared
+to not using it. At the same time I
+think that the model actually performed
+surprisingly well without that as well.
+And we were actually hoping we were
+thinking about writing an entire paper
+an entire technical report just about
+that capability in that model. Um, but
+the the model without that was so good
+that we felt like we needed to actually
+have that play a bigger part of the
+story because it it that seemed like
+that was really delivering uh in terms
+of actually getting really strong
+results. And so I mean seems like one
+design choice. I think that the uh
+I I don't I think it's hard to say if
+it's going to be a critical component or
+not. I um the I guess the good news with
+with these kinds of models is that the
+if you develop a good data set, you can
+kind of run experiments and you can
+continue to test things uh with the data
+set that you have uh quite effectively.
+Um I also think that being able to
+predict the future seems like a very
+relevant objective compared to
+predicting future actions and the um so
+that should I would imagine kind of help
+in terms of learning uh from as all the
+data that you have available to you. So,
+um, yeah, hard to say if it'll
+necessarily be a critical component or
+not. It seems like empirically so far it
+seems to help. Um, although perhaps not
+as much as you might expect and even
+without that imagination, the robot can
+do pretty incredible things.
+Okay. Um, next is right now it seems
+that robots are doing amazing tasks, but
+in a very slow manner. What is needed to
+improve the speed? Uh, I'm really
+excited about improving the speed. The
+and we we did see speed improvements
+from reinforcement learning. We also
+have another release uh called the RL
+token that where we showed actually even
+faster speed and actually faster speed
+than human teleop. Um I think one of the
+bottlenecks is that when you telly
+operate robots to do things which is the
+easiest way to teach a robot to do
+something people are kind of slow at
+telly operating the robot. Um we have a
+couple projects in the pipeline that I
+think have really promising results in
+terms of getting fast policies. Uh and
+so I think more to come there. Uh, and
+yeah, I think it's either you need to
+figure out how to make the data faster
+or you need to figure out how to be
+faster than the data. We've seen the
+evidence of being able to be a little
+bit faster than the data. And um, in
+terms of the next steps, it's either
+either to kind of get go even further
+than that or or make the data faster.
+Cool. What's the most surprising task
+you've seen a robot complete recently?
+What do you want to see it do next? Um
+so the most surprising thing was not
+really a task but uh when we were
+working on PIO7 I was I personally
+trained one of the policies for um what
+like some of the initial tests for
+assembling this uh pin wheel and when I
+was working on train that training it to
+uh to construct the pin wheel. One thing
+that really surprised me was um in all
+the data we kind of carefully control
+controlled the strategy for how to
+assemble the pin wheel where you um
+basically will take the the kind of
+pre-cut piece of paper and take a little
+pin and insert the pin into a hole in
+the paper. And in all of the data we
+picked up the pin with the right hand
+and picked up the paper with the left
+hand and inserted it and the robot kind
+of started doing that and then it
+actually made a mistake and the paper
+ended up on the right side and the pin
+ended up on the left side. And what the
+robot did is it picked up the paper and
+it picked up the pin with its left
+gripper and it put the pin with it left
+gripper and inserted it into the paper
+with its right. And it had never seen
+data of inserting the pin with its left
+gripper. And it kind of showed that even
+that wasn't in the post- training data
+at all like it was only like and it
+wasn't even in pre-training either. Um
+the robot essentially had learned this
+sort of equivariance between his left
+hand and his right hand so that it could
+actually transfer uh behaviors from one
+hand to another. uh despite the fact
+that that was never in the data. Uh and
+so that was like a really cool moment. I
+feel like I don't know if other people
+were as excited about it as I was uh
+when I shared it with some people. Um
+but it kind of shows this kind of
+emergent capability in these models that
+I hadn't seen before. Um
+and then yeah, in terms of what I'd love
+to see, I don't know. Um
+I I love seeing robots do anything. And
+the
+I guess I think that there's still a lot
+of a long way to push in terms of
+reliability for robots being able to do
+tasks for really long periods of time. I
+don't necessarily think that much about
+individual tasks, but more so about
+capabilities and how to get the next
+capability from these models. The um
+yeah, and so I yeah, anything um I guess
+the yeah, a robot doing anything always
+gets me excited even if it's something
+that hasn't been done before. I guess
+one thing that we've been doing recently
+is um having robots uh use knives to
+slice vegetables. I think that there's a
+lot that you can do there once you
+actually can use knives safely, which is
+one thing that we've done recently.
+Okay. And then the last question uh is
+how can someone break into robotics from
+a software engineering background?
+Great. Um so I think that the I guess
+first there's a lot of software
+engineering in robotics and so uh
+there's I think you could try joining a
+a robotics company as a software
+engineer. Uh and then another thing that
+I would mention and I've actually seen
+someone take this path uh so someone um
+who actually now works at physical
+intelligence her name is Jenny. she uh
+worked in trading, algorithmic trading
+for a while. Um then she worked at
+Harvey and was doing legal stuff and um
+she was really excited about robots and
+so she bought a cheap robot uh and
+basically in her bedroom um like played
+around with it uh and tried like
+fine-tuning an open source model and
+trying to get it to do something. And
+then she shared what she had done and um
+she sent me a cold email and was like,
+"Hey, can I like I'm interested in
+working in your lab." And it seemed like
+her profile was promising and that she
+actually like actually got out there and
+like tried it and done it and that she
+really was really excited about that. Uh
+and so the and now now she works at
+physical intelligence the but yeah I
+think just like getting your uh getting
+your feet wet trying stuff out uh and
+learning from that experience uh and
+then yeah using that experience to uh
+kind of yeah share with people have it
+on your resume and so forth I think is a
+great way to do stuff and fortunately
+there's a lot of open source stuff out
+there uh that can allow you to get
+started on those kinds of things.
+Great. Um, that was the last uh
+question. Uh, thanks everyone for
+listening.

@@ -2,7 +2,7 @@
 type: entity
 title: Claude
 created: 2026-05-26
-updated: 2026-08-06
+updated: 2026-09-24
 sources: []
 tags: []
 ---
@@ -28,7 +28,7 @@ An AI model/coding agent, mentioned as recommending Recall.ai and being used for
 - [[sources/I4B37S1dyQQ-jensen-huang-the-mindset-that-built-nvidia|Jensen Huang: The Mindset That Built NVIDIA]]: A prominent AI chatbot, encouraged for use by Jensen Huang.
 - [[sources/c3TxAUir2R8-self-maintaining-apis|Self-Maintaining APIs]]: An agentic coding tool, cited as an example of technology that demonstrates developers' willingness to grant codebase access.
 - [[sources/5d6y3poKwK4-patrick-collison-is-ai-breaking-the-lean-startup-playbook|Patrick Collison: Is AI Breaking the Lean Startup Playbook?]]: An AI model mentioned as an example of a tool that could write code.
-- [[sources/8OOuCnZB-4o-unknown|Unknown]]: Anthropic's large language model, mentioned as an AI Ploy helps businesses get found by, and Claude Code is used as an example of an AI coding tool.
+- [[sources/8OOuCnZB-4o-the-age-of-the-40-year-old-solo-founder-is-here|The Age Of The 40-Year-Old Solo Founder Is Here]]: Anthropic's large language model, mentioned as an AI Ploy helps businesses get found by, and Claude Code is used as an example of an AI coding tool.
 - [[sources/VbqaL_eHhKY-yc-s-head-of-design-shows-you-how-to-design-with-ai|YC's Head of Design Shows You How To Design With AI]]: The primary AI agent used for code implementation, generating design variations, fine-tuning, web browsing, and creative brainstorming across all projects.
 - [[sources/xpeRVyFFy_Q-solving-the-blank-canvas-problem-gusto-s-ai-co-founder|Solving the Blank Canvas Problem: Gusto's AI Co-Founder]]: A large language model/chatbot, mentioned as an example of AI interaction.
 - [[sources/m00FTHk7570-ai-agents-are-killing-the-engineering-pyramid-here-s-what-replaces-it|AI Agents Are Killing the Engineering Pyramid — Here's What Replaces It]]: An AI coding agent mentioned as an example.

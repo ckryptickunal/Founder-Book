@@ -2,7 +2,7 @@
 type: entity
 title: Scale AI
 created: 2026-05-26
-updated: 2026-08-06
+updated: 2026-09-24
 sources: []
 tags: []
 ---
@@ -22,3 +22,4 @@ A major data labeling and infrastructure company where the founders of David AI 
 - [[sources/z0wt2pe_LZM-2024-the-year-the-gpt-wrapper-myth-proved-wrong|2024: The Year the GPT Wrapper Myth Proved Wrong]]: Data labeling and AI infrastructure company.
 - [[sources/F3INH9wZXoQ-why-physical-ai-is-the-next-platform-shift|Why Physical AI Is the Next Platform Shift]]: A competitor in the data collection and annotation space.
 - [[sources/sJ4VJWycX9M-alexandr-wang-this-is-a-once-in-a-civilization-opportunity|Alexandr Wang: “This is a Once-in-a-Civilization Opportunity”]]: Company founded by Alexandr Wang, initially focused on providing data for AI model training.
+- [[sources/zLUZclThLhU-michael-kratsios-inside-the-white-house-s-ai-strategy|Michael Kratsios: Inside the White House's AI Strategy]]: AI data infrastructure company

@@ -2,7 +2,7 @@
 type: entity
 title: Google
 created: 2026-05-26
-updated: 2026-08-06
+updated: 2026-09-24
 sources: []
 tags: []
 ---
@@ -182,3 +182,5 @@ Major technology company mentioned as an example of an organization that hosted 
 - [[sources/_ZR1dWrkogA-gmail-creator-paul-buchheit-on-the-very-first-version-of-google-s-did-you-mean-feature|Gmail creator Paul Buchheit on the very first version of Google’s “Did you mean?” feature]]: The technology company where Paul Buchheit worked and developed the 'Did you mean?' feature.
 - [[sources/_9SlOm6HHvg-this-is-the-holy-grail-of-ai|This Is The Holy Grail Of AI]]: A major technology company with an AI division exploring recursive self-improvement, typically by training new models for each step.
 - [[sources/_PioN-CpOP0-fei-fei-li-spatial-intelligence-is-the-next-frontier-in-ai|Fei-Fei Li: Spatial Intelligence is the Next Frontier in AI]]: Where Fei-Fei Li worked to learn about business, Google Cloud, and B2B strategies.
+- [[sources/5bxp78i96S8-paul-graham-on-startups-ambition-and-great-founders|Paul Graham On Startups, Ambition, and Great Founders]]: Technology giant.
+- [[sources/x3XOeDckUX0-how-outset-turned-ai-interviews-into-a-new-category|How Outset Turned AI Interviews Into a New Category]]: Technology giant

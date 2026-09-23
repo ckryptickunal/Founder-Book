@@ -2,7 +2,7 @@
 type: entity
 title: Neuralink
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-09-24
 sources: []
 tags: []
 ---
@@ -17,3 +17,4 @@ A neurotechnology company developing implantable brain-computer interfaces.
 
 - [[sources/5gspRJVp9dI-the-future-of-brain-computer-interfaces|The Future Of Brain-Computer Interfaces]]: A neurotechnology company developing implantable brain-computer interfaces.
 - [[sources/cFIlta1GkiE-elon-musk-digital-superintelligence-multiplanetary-life-how-to-be-useful|Elon Musk: Digital Superintelligence, Multiplanetary Life, How to Be Useful]]: Neurotechnology company developing brain-computer interfaces.
+- [[sources/Xc4klGbq8v8-max-hodak-average-is-not-good-enough|Max Hodak: Average Is Not Good Enough]]: A neurotechnology company developing implantable brain-computer interfaces.

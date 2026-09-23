@@ -2,7 +2,7 @@
 type: topic
 title: Test-Time Compute
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-09-24
 sources: []
 tags: []
 ---
@@ -18,3 +18,4 @@ The paradigm of allocating more computational resources during the model's infer
 - [[sources/DwgUlVWs5fk-inference-ai-infra-in-the-world-of-test-time-compute|Inference AI Infra in the World of Test-Time Compute]]: The paradigm of allocating more computational resources during the model's inference phase to improve reasoning capabilities.
 - [[sources/NNwoLCGgN7o-ai-for-scientific-advancement|AI for Scientific Advancement]]: The use of additional computational resources during the inference or problem-solving phase to improve AI performance.
 - [[sources/d6Ed5bZAtrM-how-scaling-laws-will-determine-ai-s-future-yc-decoded|How Scaling Laws Will Determine AI's Future | YC Decoded]]: Allocating more computational resources during inference to allow models to 'think' longer.
+- [[sources/n9xKblqyQ28-why-the-harness-matters-more-than-the-model-yc-paper-club|Why The Harness Matters More Than The Model | YC Paper Club]]: Leveraging additional compute during inference to improve reasoning and task success rates.

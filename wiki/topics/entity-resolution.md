@@ -2,7 +2,7 @@
 type: topic
 title: Entity Resolution
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-09-24
 sources: []
 tags: []
 ---
@@ -16,3 +16,4 @@ The process of mapping millions of unique, messy transaction descriptions to spe
 ## Source Mentions
 
 - [[sources/hsMePYTcIik-analyzing-billions-of-transactions-to-understand-consumer-behavior-michael-babineau-and-ke|Analyzing Billions of Transactions to Understand Consumer Behavior - Michael Babineau and Kevin Hale]]: The process of mapping millions of unique, messy transaction descriptions to specific, identifiable merchants.
+- [[sources/dZLVDPzPITg-centralize-is-the-gps-for-enterprise-deals|Centralize is the GPS for Enterprise Deals]]: The technical process of identifying and linking the same person across different datasets and historical roles.

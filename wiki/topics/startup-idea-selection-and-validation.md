@@ -15,4 +15,4 @@ Strategies for founders to choose, commit to, and validate startup ideas, emphas
 
 ## Source Mentions
 
-- [[sources/R56RJFZBasQ-unknown|Unknown]]: Strategies for founders to choose, commit to, and validate startup ideas, emphasizing deep engagement over abstract analysis.
+- [[sources/R56RJFZBasQ-pick-one-idea-and-go-deep|Pick One Idea and Go Deep]]: Strategies for founders to choose, commit to, and validate startup ideas, emphasizing deep engagement over abstract analysis.

@@ -1,0 +1,964 @@
+Title: Patrick Collison: Is AI Breaking the Lean Startup Playbook?
+Video ID: 5d6y3poKwK4
+URL: https://www.youtube.com/watch?v=5d6y3poKwK4
+Channel: Y Combinator
+Published: 2026-07-31T17:29:06Z
+Duration: PT31M0S
+Views: 63749
+Likes: 1137
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 948
+
+============================================================
+TRANSCRIPT
+============================================================
+
+Okay, Patrick. Thanks so much for being
+here. Welcome to Startup School.
+>> Great to be here.
+Harj and I first met 20 years ago and um
+uh he
+um we started a company together. I was
+going to give away the introduction.
+>> Yeah, I I thought this was my interview,
+but keep going. You're doing a good job.
+>> Well, we started a company together many
+many years ago and
+uh I learned a huge amount from Harj. So
+it's a it's really fun to do this.
+>> All right, let's
+um
+Well, actually I mean speaking of that.
+So when I think when I first met you 20
+something years ago
+at the time your most impressive
+achievement I would argue was Chroma,
+your dialect of Lisp.
+>> Any Lisp programmers here?
+Oh, wow. Okay, that was um I think I
+heard one whoop, which is more than I
+expected. Um but uh yeah, I I really
+liked Lisp when I was in high school.
+>> Yeah, so what I was going to ask is um a
+prolific 16-year-old today could
+presumably just like prompt Claude to
+write their their Lisp dialect.
+Would you would you advise them to not
+do that and still still do it? Is there
+Is there any value in such things?
+>> I don't know. I wonder a lot. Um
+Yeah, like I was saying on the one hand
+uh
+it used to be really fun to write all
+this assembly and machine code and to
+optimize your instructions and make
+layout in memory and everything and now
+we don't have to do that anymore.
+Compilers do it for us. We don't mourn
+it too much. And so maybe in the same
+way we shouldn't mourn source code. We
+should just transcend the plane of uh
+instructions to Claude at all, but um
+but
+emotionally I miss it.
+>> Um
+How about I you think just like as I've
+been hanging out here um
+with these students like they're so like
+maybe the question behind it is many of
+them are just wondering what should they
+be learning at college? Like what is
+sort of in this sort of AI world like
+how much
+how much should they be trying to learn
+and derive from first principles and how
+much should they just outsource to the
+to the AI?
+>> Right. Um,
+I mean, my model of this is, um,
+is cache.
+Um, you know, the c h not an s h, where
+Jeff Dean has this, uh, famous set of
+numbers that every programmer should
+know, uh, bandwidths and latencies and
+just kind of relevant constants you
+should have a reason about as you as you
+build systems. And obviously, you know,
+thinking of building any system or
+distributed system or whatever, like,
+all lookups and all, you know, relevant
+bandwidths between different, um,
+components are are are very different,
+right? Uh, and you know, retrieving
+something from L1 cache is very
+different from retrieving from RAM is
+very different from retrieving across
+the network or whatever. And I think
+it's like that with knowledge. Well,
+fine, yes, you can ask the agent or
+something to
+compute something for you or to look
+something up for you or whatever. That's
+a hell of a lot slower than knowing it
+in cognitive L1 cache. And you can have
+way more round trips in your brain than
+you can, you know, muttering through,
+you know, super whisper or typing it out
+or whatever. And so, I think, even
+granting the full capabilities of the of
+the models, I feel I still think there's
+a a pretty, like, I think for for a long
+time to come, uh, neuronal lookups will
+be will be much faster.
+Um,
+and
+and then, you look if you look in
+revealed preference, uh, at what uh,
+companies themselves are doing, whether
+they're companies like Stripe or the
+labs or what have you, um, there still
+seems to be an enormous premium on
+cognitive ability. And so, I wouldn't
+I I I I think, um, renouncing that
+before there's evidence that we've
+saturated, uh, those benefits would be
+premature.
+>> Um, I mean, are there are there specific
+things that maybe you personally, either
+personally or as uh, CEO of Stripe, um,
+you still you purposely choose to sort
+of do yourself and like retrieve from
+your own cache, um, even though like the
+agents would probably do a
+reasonably good job. Um
+I still I still write myself. Like I I
+um
+I
+I don't
+I I both philosophically but also uh
+specifically, substantively, uh dislike
+the writing of the models. I mean, it's
+very interesting, right? Because these
+can prove the Jacobian conjecture, you
+know, whatever. Uh and so clearly
+they're capable of these monumental
+feats. Um but somehow
+I still haven't read the LLM essay that
+I found super compelling. Now, maybe
+it's just very hard to like RL limit
+that domain because the you know, the
+utility function or something is kind of
+hard to define.
+Um
+but
+yeah. Um
+I I think writing is a pretty I
+interpersonal communication and writing
+I think are so very fundamental and so
+being able to reason sensibly in the
+multi-dimensional space of reality. And
+in some
+kind of indescribable way, I feel like
+the model is still kind of deficient at
+that. And so I've never I've yet to
+send, you know,
+every tool is now trying to prompt me
+with, you know, pre-written uh
+suggestions, whether it's, you know,
+Gmail or
+uh apparently WhatsApp just rolled this
+out. Um and I think I've still sent zero
+of those in my life. No.
+>> Um
+How about so if you talk talk about the
+Stripe story, uh the early days in
+particular a little bit, uh
+you were at MIT, then you left to start
+Stripe.
+How did you think about that decision?
+And obviously we're in a
+stadium full of college students. How
+should they think about it? How do you
+How do they know if it's the right
+decision for them to
+uh leave college early and go start a
+company versus stay?
+>> Yeah, well, I I think I have the
+slightly unusual distinction of having
+dropped out of college twice to start a
+company. So, um so maybe one thing to
+know is that it's not totally trapdoor.
+Uh you can you can drop out and and in
+fact return.
+So
+I dropped out after my freshman semester
+to
+start this company
+with with Harj. That was super fun. And
+then after a couple years of that, went
+back, did another year
+at MIT and then dropped out again to to
+start Stripe. Um and
+you know, I am when I went to college,
+probably like a lot of people here,
+I
+um
+I had this vision of my life and
+involving becoming an academic and I
+really like physics and I thought, you
+know, I'll do all this physics stuff.
+It's so cool. I'd read all the Feynman
+books,
+all of this.
+And
+I guess I am
+Well, growing up in Ireland, I hadn't
+realized I hadn't thought much about the
+possibility of startups. Hello to the
+[laughter] other Irish folks here.
+And
+um
+And I mean, way back then in the sort of
+you know, pre-Cambrian era, startups
+were definitely much less you know,
+well-known even on campus and so forth.
+You know, when I was dropping dropping
+out, people thought it was super weird.
+Um
+I think um
+You know, overall
+um
+if you enjoy college, I
+I would actually you know, I I I think
+there's no harm in in finishing. I I I
+felt this real sense of urgency, which I
+think in hindsight was a bit
+unnecessary.
+Um if you but if you don't enjoy
+college, just you know, whatever, it's
+not your your thing. It's not what
+captivates you. You don't really want to
+learn all the physics things or
+whatever.
+Uh there
+You know, I think a lot of parents think
+that dropping out is very risky and
+impune your reputation for the rest of
+your life and so forth. And as far as I
+can tell, nobody has ever cared. So I I
+both think you don't need to but also
+the cost of doing so are de minimis.
+What what was the urgency you were
+feeling?
+>> The urgency?
+>> Yeah, to to go out and do do something.
+>> I don't know. Life is short, right? Um
+and I I I all I mean, it was a general
+kind of haste. Uh I think, you know, a
+lot
+a lot of us um I'm sure I'm sure many of
+the people here you you you you kind of
+get into this mode of speed running high
+school and then, you know, once you get
+to college it's like, obviously I want
+to speed run that as well and do all the
+things. So, a bit of that. A bit of
+um
+Marc Andreessen also talks about a
+version of this.
+I thought that a bunch of the
+opportunities uh in startups in Silicon
+Valley and so forth were ephemeral and
+fleeting. And if we didn't build it
+then, but, you know, it wouldn't be
+possible to do it in three or four
+years. And maybe all the opportunities
+will be gone. You know, in hindsight, I
+think that um
+that was a a poor intuition. Uh it's
+been pretty robustly and reliably the
+case over many decades in Silicon Valley
+has a surfeit of opportunities.
+Um yeah, I think it was mainly those two
+things.
+>> think it's um I mean, this is a very
+common thing that we hear when we talk
+to students now is that they
+part of the reason they want to drop out
+en masse, it seems, at this point is
+they're worried that actually now is the
+moment that they're sort of I think the
+meme going around is that if you don't
+sort of
+uh drop out and start a company and make
+lots of money, you're going to be
+trapped in the permanent underclass. So,
+is that um should everyone here be
+worried about being stuck in the
+permanent underclass? I guess is the
+question.
+>> Um
+I think um
+humanity has always had um a an affinity
+for these millenarian sort of models of
+how uh everything is um
+you know, everything will soon come to
+an end uh and be this this sort of
+permanent transformation of society and
+so forth. Actually, there's a great
+book, The Winged Gospel. People thought
+that after the the invention of
+aviation, that it was just
+like civilization was just entering
+humanity as a species were entering a
+new era and nothing is going to be the
+same. I mean, obviously aviation was was
+a pretty big deal, but uh I I I don't
+think it was sort of quite the um the
+sociological rewriting that some of the
+you know excitable proponents at the
+time imagined. So I am
+you know it's it's hard to predict
+anything especially the future but I
+would I would take the under on this
+being the last couple of years to get a
+company going.
+>> Fair enough.
+So going back to the Stripe story Stripe
+ostensibly seems like a good idea. Like
+even on day one it's the internet's a
+big deal money's a big deal like combine
+those two things.
+Presumably is that how it went when you
+went to tell people you wanted to start
+Stripe and everyone just say hey this is
+a great this is an obviously a good
+idea.
+>> It was kind of funny it was um
+it was so so something we learned from
+YC
+uh
+was that the importance of focusing on
+very concrete easy to explain customer
+problems. Like it's it's very easy to
+to hallucinate or to you know imagine
+some customer problem that's not
+actually something viscerally felt by a
+person who would pay money.
+And so over the course of in part
+working on automatic together we have
+encountered this issue of it being
+really annoying to deal with
+movement of money or payments whatever
+on the internet. Um and on the one hand
+it seemed like a
+an obviously good idea in the sense that
+nobody liked the existing ways of doing
+so
+and they were broadly extremely
+unpopular and kind of antiquated and
+legacy and you had to like fill out all
+this paperwork and go to the bank in
+person and the paperwork was in Latin
+and just like it was all bad. Um
+but then the flip side is
+it just seems kind of ridiculous that
+two kids would start a financial
+services business
+and fintech didn't exist as a sector at
+the time like the word literally didn't
+exist
+and so it's just kind of you know we
+felt like the proverbial squirrels you
+know in a trench coat trying to
+masquerade as a
+real business or as you know serious
+adults but obviously knowing nothing
+coming in about the
+about the space and and certainly a lot
+of people we met and pitched or banks or
+partners or whatever that we talked to,
+I mean
+you
+didn't literally laugh us out of the
+room, but I you kind of see them looking
+for the button to like call security
+under the desk to have them haul us out
+cuz it just seemed so improbable. So,
+anyway, I'd say it like it both seemed
+like an obviously good idea in that
+people really wanted this, but also a
+bad idea in that nobody took it
+seriously. Um but I I think that I think
+the fact that it was
+ultimately the fact that it was grounded
+in such a concrete actual real user
+problem saved us.
+>> Um
+you actually speaking of that, how did
+you you had to in order to actually
+build the product, you had to get
+banking partner and do things that a
+typical software company did not have to
+do. As two young founders, like how did
+you manage to convince a bank to trust
+you in the end?
+>> Yeah, um well, actually this is not an
+answer
+to your question. But um
+just a thing that strikes me as I sit
+here is the reason we decided to start
+Stripe
+is because so John and I were in college
+together. He was in his freshman year
+and we went to Startup School
+in 2009,
+which was held in Berkeley.
+And we
+we thought it was pretty cool.
+Um
+and so we went to we got sushi
+afterwards in Potrero and we were
+walking back from sushi and we're like,
+you know, we'd kind of been kicking
+around this idea for um
+a payment thing or like we've been
+thinking about the space.
+And it was walking back that evening
+after Startup School that we decided to
+start Stripe.
+I remember literally where we were in
+the road and I remember what we said to
+each other, which was, "Yeah, you know,
+we might as well because it probably
+won't be that hard."
+>> Okay. So, moral of the story is go get
+sushi in Potrero tonight and you might
+start the next Stripe.
+>> [laughter]
+>> Um and yes, be beware of sort of these
+these ultimate yak shaves. We thought we
+could do it on the side while in
+college, you know, take a couple months,
+and that was almost 17 years ago.
+>> Um
+at the time I remember you were also
+unusual in that you took sort of longer
+to do a big public launch. And
+especially within the YC world, the
+motto is very much sort of launch early,
+launch quickly, be out there and
+iterate. Um could you maybe just talk us
+through a little bit about that? So, why
+did you do it that way?
+>> Yeah, so um we started working on Stripe
+um kind of seriously in the uh the well,
+we
+started working the week after that's
+our school, but um we're going to
+college wasn't full-time. We started
+working full-time the summer of 2010. We
+launched publicly September 2011. So,
+almost uh 2 years after like the first
+lines of code after the repo was
+started. And yeah, waiting 2 years to
+launch seems I mean I you know, I've
+heard
+if we're going to YC meetings, you know,
+every every week, I think we'd have
+been, you know, bludgeoned on the head.
+Um I think um I'm looking in many
+domains that probably is the wrong thing
+to do. Um in our domain, to answer your
+last question, because we had to
+do so much stuff around security and
+partners and money movement and
+infrastructure and reliability and you
+know, all the things. We just we didn't
+feel like we could scale a really good
+self-serve experience without getting a
+lot of the kind of the preconditions um
+and the infrastructure in place.
+Um the I think the the thing that saved
+us
+um and meant that it wasn't a total walk
+in the wilderness
+is we had production users almost from
+the very beginning. So, first lines of
+code um
+in uh fall of '09, we got our first live
+production user uh in um
+in January of 2010. So, like 2 months
+into working on whatever. And it did
+very little. Like it was very larval and
+incomplete. Uh and uh our first
+production customer was uh Ross Boucher
+at a company called uh Twilio North. Um
+and all it could do was charge a card.
+Uh and so, you know, Ross would charge
+the card. Uh and you know, then he would
+ask some very reasonable question like,
+you know, how do I How can I look at all
+my charges? And like,
+reasonable request. And so, you know,
+let's code up a little dashboard here.
+And then he'd be like, well, I want to
+refund a payment. And you know, we're
+like, all right, we'll build refund
+support. And then, you know, after a
+couple of weeks, he was like, so you
+know, at some point, do I get my money?
+And we're like, also a reasonable
+request. So, let's let's build that
+functionality. So, it was very kind of
+just-in-time development. Anyway, so we
+we had a production customer from very
+early, and then we did increase So, in
+private beta, we increased the number of
+customers every single month, you know,
+all the way to that public launch. And
+so, every, you know, every week, we had
+actual customer feedback, requests, new
+users coming in. We're learning things
+from reality as opposed to our own kind
+of hypothesized or extrapolated
+conception of it. And I I think if you
+have,
+you know, a significant stream like that
+of of um
+of grounding, I think it's probably okay
+to not be like, launch launch.
+When do you I mean, you're you're an
+expert YC partner. Do you agree?
+[laughter]
+>> That's a good question. Um
+Yeah, I mean, it is This is the the
+issue with advice in general is it's
+sort of so generalized. And like, they
+especially in startups, the exception
+proves the rule, right? So, I think
+those are Yeah, certainly certainly if
+um
+you know, your the cost of failure is
+high, um then it almost certainly you
+have to sort of take longer to like
+build. Um
+You may be a very slight tangent, but
+something I'm curious about related to
+this, though, is
+you know, we we were talking like with
+with these coding agents, the ability to
+just like build and produce software
+cheaply and quickly, um I I wonder,
+should people be taking more of this
+path? Like, should people be more
+ambitious in general with what the
+version one of the thing that they
+launch is? Um
+Or you know, or is it still
+fundamentally good product design to
+start like narrow and focused and then
+expand out once you know what people
+want.
+>> Yeah. Um Um
+It's a good question. Um
+I think probably in the
+era of AI, I mean I I don't know.
+And you know, to some extent YC will
+will be I think the expert here, but um
+you know, there's the whole kind of
+traditional lean startup doctrine of
+exactly what you say, like start out by
+buying the Google Ads or something and
+and uh
+identify this crevice or whatever and
+and and aggressively expand out from
+that.
+I think you can certainly imagine that
+that becomes much more competitive and
+much more um
+you know,
+aggressively tilled and it's kind of
+hard to find those those little niches.
+The internet's a much bigger place than
+it was 20 years ago when some of those
+ideas emerged, whereas taking these
+really divergent starting points where
+nobody else uh is uh is uh trying to
+um occupy that territory is is maybe a
+more like basically maybe you have to
+more aggressively decorrelate uh in the
+era of AI, and I think it is interesting
+to think about, you know, many of the
+companies that were most successful over
+the last 10 years, so many of them are
+are very anti-lean startup, right? Uh
+whether it's, you know, the labs
+themselves or Anduril or um yeah, you
+you you you can go down the list. A lot
+of them have this characteristic. So, I
+um
+yeah, I think maybe maybe a better way
+of saying it is 20 20 years ago that
+whole lean startup thing was
+uh was almost the only thing to do
+because of capital available and you
+didn't have AI that made, I don't know,
+spinning up an organization with many
+different potentialities and
+capabilities so much easier, whereas now
+I think you can start these much more
+aggressive and ambitious things up
+front.
+>> Um
+within sort of YC and probably startup
+world at this point, you're famous for
+the at least the program term schlepp
+blindness, this Stripe um uh at least on
+the surface was not like, you know,
+involved a lot of schleps, like things I
+presume you weren't like the um,
+intellectually most interesting things
+uh, to work on. Um, and I always found
+that especially interesting for you
+because you just mentioned you you had
+academic interests in physics and um,
+you're just like clearly like, you know,
+a deep intellectual and have very many
+things that you're interested in. As
+Stripe has sort of grown into this in
+this big company
+in what ways sort of, you know, in what
+ways um, are there sort of like
+intellectual
+um, rewards that you've you've given up
+and which ones have you gained?
+>> Yeah, I am I mean, look, in any company
+there's a bunch of stuff that's um,
+not that rewarding or in and of itself
+all that interesting. Like so setting up
+payroll, no one sort of starts a company
+so that uh, you can you can set up
+payroll. Uh, and certainly building
+business financial services there's all
+sorts of, you know, more arcane and
+extensive uh, versions of that. Um,
+I think that um,
+I actually feel extremely lucky with
+Stripe um, and in this respect. And
+uh, I think this is something I don't
+know if you need to think about it that
+much up front, but I think once you
+think about it maybe before you raise a
+significant amount of money, um,
+you know, you always worry naturally
+about possibility of failure and
+you know,
+what will happen if you fail and how to
+mitigate and avoid failure and all those
+things. I think you need to ask the uh,
+the sort of converse of that, uh, what
+if you succeed? And you know,
+you raise money and you've customers and
+you've employees and a whole thing.
+Like are you going to be are you going
+to enjoy that? Are you going to want to
+work on that for 10 years, for 17 years,
+for 30 years? Uh, I mean, Larry Ellison
+at Oracle is going for I mean, I I I
+guess it'll be a half century soon,
+right? Um, so so, you know, what if you
+succeed? And in the case of Stripe, I
+really love it because you know, we're
+working with the world's most
+interesting and innovative companies. Uh
+like we're uh, uh 25% of all Delaware
+corporations are started with Stripe uh
+via Atlas. And then we get to partner
+with them and work with them and hear
+from them and get their feedback and get
+their requests and everything, you know,
+through the entirety of the journey up
+to being the Shopifys and the OpenAIs
+and the, you know, all all the um
+uh the uh the standout successes. Um oh
+and actually speaking of Atlas,
+uh we're giving free Atlas incorporation
+to everybody at Startup School. So, um
+if you are at struck by the uh the urge
+to found something uh you know, over
+dinner this evening as we were, uh just
+email startupschool@stripe.com
+and we will get you your link uh for
+free Atlas.
+Um
+but uh but yeah, I I you know, I think
+PG latched onto something where yeah,
+there are all these kind of menial
+tasks, but but in the kind of totality
+of Stripe, I find it so
+interesting. Like every business is a
+kind of applied theory on how some
+aspect of the world works or how some
+market works or how some you know,
+how if the new company with a new um
+the new model, it's kind of a contrarian
+thesis on some counterfactual. But yeah,
+just like it's it's I've never met a
+Stripe customer and thought that's
+boring.
+Um so so it's actually the business as a
+whole has been the opposite of uh of the
+Schlep Blindness um instinct.
+>> And you have a particularly unique in um
+perspective on this cuz you work with
+the big model um providers, the big lab
+companies, and you work with all of the
+fast-growing AI startups on the ground.
+Uh something that came up a lot here
+yesterday, uh honestly comes up within
+the batches, too, is people are just
+worried about um
+is my idea going to get sort of trampled
+by the the big uh lab providers? And I'm
+giving your perspective, I'm just
+curious like how how should people think
+about that?
+>> Yeah. Um
+Yeah, again, predictions are hard and
+certainly the labs are very competent,
+capable organizations.
+Um
+And maybe you should separate a little
+bit.
+Will
+rapidly improving AI capabilities do
+this or will the labs specifically
+themselves do this? Um
+I think in general the track record of
+like
+no organization
+if we go back 20 years, you know,
+there's some of the sense with Google.
+Like, you know, when we were doing
+automatic, the question was always for
+our company and every other company, you
+know, what if Google does this? And
+Google seemed kind of omnipotent and had
+this immense number of incredibly
+talented people and essentially infinite
+access to capital and server and just
+all the things. And
+just human organizations are complicated
+and it's very hard to have um to
+manage to aggressively prosecute
+100 different priorities and to deal
+with all the issues and interference
+that arises among them and so forth. And
+so, you know, Google has done incredibly
+well in a bunch of specific places, but
+it's not like Google has done all the
+things even if in some kind of basic
+material sense, uh Google maybe, you
+know, had that ability. So, I'd say that
+the kind of the track record of that
+is um is
+uh is checkered. And in general, I think
+that fear has been overstated. Now, I
+think there is a more specific thing of
+just like models themselves. Forget the
+labs. Even even if the labs aren't
+specific particularly ambitious about
+expanding their scope, just like
+literally at length, uh will will
+obviate a bunch of or
+agentic capabilities will obviate a
+bunch of uh of you know, specific
+verticals or tasks or something. You
+know, hard to say, obviously contingent
+on one's forecast of the model
+capabilities themselves, uh but, you
+know, in certain cases, I'm sure that
+will happen. And you know, in certain
+domains, it has already happened.
+Looking at the Stripe data, one thing I
+will say that I think is germane to
+people here, um
+there are many more businesses getting
+started now than there were a year ago,
+like as little as a year ago.
+Um, way, way more than we're getting
+started, you know, 5 years ago.
+Uh, and actually the relative change
+between last year and this year is
+pretty much the largest relative change
+we've seen in any given year. So, for
+example, from 19 from 2019 to 2020, we
+saw a big jump, you know, understandable
+during COVID. So, you know, um, February
+to April of 2020 or whatever.
+Uh, you know, I I I think the growth
+rate inflected to maybe 50% or
+thereabouts, uh, year-over-year in terms
+of new businesses getting started. Um,
+as I speak, the number of new businesses
+starting on Stripe is up
+around a bit under, but around 2x
+year-over-year, um, which again is the
+largest relative jump, uh, we've seen.
+Um,
+and you might think, okay, fine, you
+know, there's way more vibe-coded, kind
+of lightweight slop, you know, whatever.
+Like, maybe fine, there's more things,
+but like, are they actually succeeding?
+Um, but actually the median business,
+uh, is doing better this year than a
+year ago.
+Um, and so
+and then if we kind of, um, stratify and
+look at the probability that any given
+business will reach some revenue
+threshold, a million dollars, five
+million dollars, 10 million dollars,
+whatever,
+um, those all seem to be getting better.
+Uh, business are
+uh, the time to revenue
+for new companies incorporated with
+Atlas is declining. And so, by all the
+kind of objective metrics we can look
+at, uh, it seems to be a better time
+than ever to start a business. Then
+again, things can change. I don't know
+what the world's going to look like in 5
+years, but, you know, speaking today on
+July 26th or whatever it is, uh, of of
+'26, um, I think it is
+the Stripe data would suggest it's
+there's never been a better time. Um, I
+mean, we see the exact same thing in the
+YC batches. Companies are just able to
+grow faster than ever. Um,
+>> Certainly within the batch.
+>> It used when you know, back in again the
+old days when Arge and I were first
+starting out, like getting to a million
+dollars of revenue like running revenue
+was a big deal. Like people would know
+about that company. They'd be like, you
+know, I heard that X company got to a
+million dollars of revenue. And now, I
+mean
+I don't That's
+>> Yeah, that's actually you should be
+Well, your first month it feels like.
+>> You should um that's an exaggeration for
+everyone here. Um
+but I mean I certainly within sort of
+like sort of like the YC uh
+part of the life cycle like day zero to
+90, it's really being driven by I would
+say enterprises willing to buy from
+startups, which is the new thing. So,
+you can sign these new contracts um
+within like the batch. Um you have the
+data as the companies keep growing. I'm
+curious, are there other factors that
+are driving these sort of um
+uh inflected growth curves from like one
+to 10 and 10 to 100?
+>> I I think it's really the dynamic you
+just mentioned, uh which is businesses
+uh
+businesses everywhere
+are more um spring-loaded
+uh
+to
+adapt and to try new things. And they
+have a real terror of being left behind
+with archaic and antiquated ways of
+operating. And so, in normal times,
+you're a new startup, you have you have
+some mechanism for doing whatever, and
+you pitch the CIO or the CTO or the
+whoever at some company, and they kind
+of don't want to talk to you because,
+you know, your thing is not validated.
+Maybe you won't be around in 2 years.
+You know, all all the kind of obvious
+objections. But now, people know that,
+well, the risk of the status quo is
+actually extremely high. And so, even if
+there's risk in doing all the new
+things, well,
+this path also looks pretty dangerous.
+And so, I really think there's never
+been a better time for startups to to
+sell
+um and to have their products get
+adopted at, you know, pretty meaningful
+scale right out of the gate. Uh a lot of
+YC companies in recent times have
+demonstrated this, but uh I think it's a
+it's a really pervasive dynamic. And
+there's a bit of it I think also, I mean
+Stripe is not a consumer company,
+obviously, but you know, I think there's
+some version of this on the consumer
+side where I think consumers, I mean,
+are also pretty, I mean,
+consumers have complicated views on AI
+and maybe they don't want the data
+centers, but people are very intrigued
+by the products and I think there is a
+kind of they're kind of beguiled by them
+and there's a a predisposition and an
+openness to
+experimenting with the new.
+>> Um maybe just more broadly something I'm
+curious about is again with with this
+the data you have at Stripe, um has
+anything you've seen in that data stream
+um changed a belief you have about AI
+broadly say over the like the last 12
+months?
+>> I mean, there's a fear
+uh that AI is going to be this
+um
+hegemonic, centralizing, totalizing
+force where a small number of companies
+gobble up a very large share of the
+economy. And
+many companies at the forefront of AI
+um
+have done incredibly well and I think
+we'll continue to do incredibly well,
+for sure.
+But based on what we can see at Stripe,
+the
+hunger and the intensity with which
+other companies are either getting
+started, taking advantage of these new
+capabilities, or existing companies are
+retooling,
+I don't worry about the centralization
+in the same way. Uh I think there I
+think there are going to be many
+thousands of winners. Um and again, we
+try not to offer any definitive
+prognostications cuz the future is not
+predetermined, but based on the the
+trend lines we can see, I think we are
+heading towards a um a more
+decentralized world and one with more
+broad-based prosperity.
+>> Yeah, cool. All right, well, I think
+that is all we have time for today. So
+thanks so much Patrick for me.
+>> Thank you for having me and um
+It would be remiss of me not to say that
+Stripe would not exist without YC.
+>> All right, cool. All right, see you so
+much.

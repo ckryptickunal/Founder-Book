@@ -2,7 +2,7 @@
 type: entity
 title: Garry Tan
 created: 2026-05-26
-updated: 2026-08-06
+updated: 2026-09-24
 sources: []
 tags: []
 ---
@@ -188,3 +188,4 @@ CEO of Y Combinator, co-sponsor of SB 1074, and speaker emphasizing the need for
 - [[sources/_YNC7MlgdOk-the-future-of-reading-books-is-hands-free-sol-reader|The future of reading books is hands free | SOL Reader]]: Host of the YouTube channel and interviewer in the video.
 - [[sources/_MBgPppPAg0-the-future-of-real-estate-looks-like-this|The Future of Real Estate looks like THIS]]: Host of the YouTube channel, investor in Blend and OpenDoor through his firm Initialize.
 - [[sources/_0se9PXfAH0-how-to-apply-to-yc-in-2022-and-start-your-startup-with-john-coogan|How to apply to YC in 2022 and start your startup (with John Coogan)]]: Host of the video, former Y Combinator partner, and YouTuber. Shares personal experiences and advice on startups.
+- [[sources/eRrc1pUY5oU-garry-tan-own-your-intelligence|Garry Tan: Own Your Intelligence]]: President and CEO of Y Combinator.

@@ -2,7 +2,7 @@
 type: entity
 title: Caltech
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-09-24
 sources: []
 tags: []
 ---
@@ -17,3 +17,4 @@ University where Robert and Advith met
 
 - [[sources/XcI5IMLEAaE-xci5imleaae|XcI5IMLEAaE]]: University where Robert and Advith met
 - [[sources/1D2j8nTjOZ4-the-technical-challenges-of-measuring-gravitational-waves-rana-adhikari-of-ligo|The Technical Challenges of Measuring Gravitational Waves - Rana Adhikari of LIGO]]: California Institute of Technology.
+- [[sources/ca8IURq5QP8-leanagent-lifelong-learning-for-formal-theorem-proving|LeanAgent: Lifelong Learning for Formal Theorem Proving]]: California Institute of Technology.

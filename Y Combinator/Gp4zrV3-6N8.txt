@@ -1,0 +1,1364 @@
+Title: Waymo Co-CEO Dmitri Dolgov: The Demo Is Only 1% Of The Work
+Video ID: Gp4zrV3-6N8
+URL: https://www.youtube.com/watch?v=Gp4zrV3-6N8
+Channel: Y Combinator
+Published: 2026-08-03T22:42:52Z
+Duration: PT49M24S
+Views: 40956
+Likes: 937
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 1348
+
+============================================================
+TRANSCRIPT
+============================================================
+
+Good afternoon, everyone.
+It's great to be here.
+Uh we talk a lot about AI
+that lives on your screen,
+uh lives in the digital world.
+And today, I'd like to talk to you about
+a different kind of AI that we've been
+building at Waymo. AI that lives in the
+real physical world.
+How many of you, by the way,
+have been in a Waymo? Just raise your
+arms.
+Wow, okay. That is impressive.
+Especially, I understand many of you are
+out of town. Uh the folks who are
+visiting and have not had a chance to
+check out Waymo, I hope you while you're
+here in the Bay Area, give it a try.
+Uh so, this being
+a startup school,
+I structured this presentation as a
+sequence of lessons.
+Seven lessons that we've learned over
+the years at Waymo
+around what it takes to build and safely
+ship today's most mature application of
+AI in the physical world,
+the Waymo driver.
+Uh let me start with
+a short video.
+Uh this is a clip from a ride that I
+recently took in a Waymo
+with my kids.
+Uh so, as you see here, you know, we're
+moving uh forward or proceeding through
+an intersection, and a couple of human
+drivers just decide to cut in right in
+front of us.
+And the Waymo driver
+reacted safely, reacted smoothly. In
+fact, so much so that the kids, my kids,
+were preoccupied in the backseat, they
+didn't even notice that anything
+happened.
+And to me, this was a
+pretty powerful moment. I've been
+working on this technology and this
+product for close to two decades,
+and, you know, it just did something
+fairly important. It
+acted safely. It kept my kids safe. It
+kept everybody safe.
+And nobody noticed.
+And that I think will be a bit of a
+theme in general when it comes to
+physical AI.
+That the best AI moments
+will look like nothing happened. It's
+just the task got done safely and
+smoothly.
+And these sort of moments where the
+Waymo driver
+kept everyone safe are happening daily
+across our fleet.
+Today, the Waymo driver is serving
+around 500 trips per week and driving
+over 4 million fully autonomous miles
+every week in 15 cities across the
+United States.
+Just for our comparison, that's over 300
+years every week of an average American
+driver per year.
+And the Waymo driver is accomplishing
+that with a superhuman safety record.
+So, what what does it take to build and
+deploy an AI agent in the physical world
+at scale?
+Now, in Silicon Valley,
+there's a common mantra
+to move fast and break things.
+However, when you're dealing with atoms
+instead of bits,
+breaking things is not really okay.
+So, the thing you have to do
+is to move fast
+and ship safely.
+And that's a much more difficult thing
+to do.
+You have to build systems that are
+robust from day one.
+You have to build AI models and you have
+to build training recipes where safety
+is the foundation and not an
+afterthought, not an add-on.
+And by the way, the problem itself of
+physical AI is different from digital
+AI.
+There
+four main gaps that you have to contend
+with if you're building AI for the
+physical world versus the digital world.
+First,
+there is the cost of air gaps.
+I have a language model or a chatbot or
+a co-pilot and it makes a mistake, you
+know, usually it costs you a retry.
+In the physical world,
+the cost of a mistake can be measured in
+human lives,
+not tokens. There's simply not an undo
+and a retry button.
+Secondly, you have the latency gap. And
+typically, where you're running a VLM
+uh or you know, uh a digital assistant,
+it can take many seconds, sometimes
+minutes to come back with an answer to
+you.
+A car traveling at freeway speeds moves
+about 100 ft in 1 second. So, there
+milliseconds really matter. And you have
+to run all of your inference, make all
+of your decisions on board a computer
+that fits in a trunk of your car.
+Next, there's the data gap. Uh digital
+AI had the internet.
+A this wonderful
+immense cache of pre-labeled human
+knowledge and human thought that we've
+ever assembled.
+There's no digitized version of the
+internet for the physical world.
+And lastly, there's the validation gap.
+In digital AI,
+often you can ship something that's you
+know, good enough.
+And then you let your users
+you uh use your product, they find the
+edge cases, and that allows you to
+deploy on day one practically at
+unlimited scale. And then you can just
+iterate and hill climb on quality from
+there.
+In physical AI, the situation is
+different.
+Given the high cost of errors,
+you need to have a very high level of
+safety and a very high level of
+confidence on day one before you deploy
+your first robot, before you drive your
+your first autonomous mile.
+Now, at the same time,
+when you're dealing with physical AI,
+uh the actual experience of having your
+agent in the real world is invaluable
+and it's irreplaceable.
+Uh these systems are not just something
+that you can build in the lab, you know,
+get it
+perfect, and then deploy at full scale
+overnight.
+So, given those two factors, you really
+need
+to super clearly and super crisply
+define the operating conditions and the
+deployment parameters of your agent, and
+then build a rigorous
+framework to guide your deployment so
+that you can scale in a responsible
+manner.
+And this is
+absolutely critical. Uh this is how you
+earn trust from your customers, from the
+communities, from the regulators, and
+yourself.
+Uh so, at Waymo, we see these gaps, of
+course, in the context of autonomous
+vehicles, uh but these gaps uh will show
+up in practically
+any sort of non-trivial physical agent
+that we will deploy uh in some shape or
+form.
+And driving is simply the first domain
+where AI has crossed these four gaps at
+scale with the public interacting with
+our product.
+So, let's dive into those lessons that
+we've learned over the years at Waymo
+from uh working on this problem, and uh
+talk about how we address those gaps. Uh
+I have seven lessons in this talk. Um I
+They're all technical. There's a lot
+more that goes into building a company
+and building a product, uh but today
+I'll just focus on the technical aspects
+of building AI for the physical world.
+Uh and
+each one of those lessons, I think, by
+itself will not be exactly
+earth-shattering.
+Uh you know, a lot of it will overlap
+with likely things you've heard
+elsewhere. But, I hope that the
+grounding of these lessons in our
+experience and some of the nuance that I
+can add about how they showed up in our
+experience of deploying a physical agent
+in the and scaling it safely will be
+interesting and useful for many of you
+who are in the space as you build your
+product, as you build your startup.
+Uh so, let's dive in. The first lesson
+has to do with this
+uh massive
+frustrating
+sometimes
+soul-crushing difference between a demo
+and a real product.
+And a working demo is 1% at best of the
+work that you have to do. The many nines
+of performance, the many nines of
+reliability that follow, that's where
+the real work happens.
+And if you're a founder in the room, uh
+chances are you are focused on getting
+that first prototype, that first demo
+off the ground. And when you hit that
+first version of a system that works,
+that first 90%, when the demo actually
+works, it feels incredible. You feel
+like you solved it, the sky's the limit,
+you're extrapolating forward. And in our
+world, we hit that that first milestone,
+that first 90% back around 2010.
+So, when this project started uh in
+2009,
+before we
+started building the system, we set a
+couple of pretty ambitious goals for
+ourselves. One was to drive 100
+autonomous 100,000
+miles in autonomous mode.
+The second goal was to drive 10 routes,
+each one was 100 miles long, uh chosen
+to cover a wide variety of conditions
+across the Bay Area, and we had to do
+each one from beginning to end without a
+human intervention.
+We had at the time a team of about a
+dozen engineers, and we accomplished
+both of these goals in about a year and
+a half. And keep in mind, this was a
+well before any of the AI breakthroughs,
+before ConvNets, before Transformers,
+before BLMs, before any of the stuff
+that we talk about today.
+Uh and yet, you know, we got it done.
+And kind of by demo standards,
+we driving autonomous driving was solved
+in 2010.
+Right? We handled everything. We handled
+We could drive during the day, during
+the night. We handled traffic,
+pedestrians, cyclists, traffic lights,
+construction zones, on freeways, on
+surface streets. So, we were {quote} and
+{unquote} capability complete.
+And, you know, at the time we felt like
+we're on top of the world.
+But then we quickly ran, as we started
+building towards the product, we quickly
+ran into a brutal reality that there's a
+massive difference between
+doing something once, or driving 10
+routes once, and building a scalable
+service with nobody behind the wheel.
+It took us about 10 more years
+to begin providing a service, and then 5
+more years to scale to half a million
+trips per week. So, the demo took 18
+months, the product took about 15 years.
+But now we're scaling exponentially. To
+date, we've served well over 20 million
+fully autonomous trips,
+and we've driven well over 200 million
+fully autonomous miles.
+And we have rider-only vehicles
+operating in 15 cities across the United
+States.
+And we're scaling exponentially. It took
+us
+uh
+15 years to get to that first 100
+million miles,
+and about 7 months
+to drive the next 100 million.
+It took us about 8 years to go from the
+time
+when we started our initial rider-only
+operation
+to the time when we had uh when we were
+serving riders
+uh in four cities.
+Earlier this year, we launched four
+cities in just 1 day.
+So, why does bridging that gap from demo
+to product takes a long?
+Uh, because there's this harsh
+engineering reality
+that you can't really cheat, that
+reliability and performance lives on
+this exponential ladder of nines. So,
+getting to that first 90% or 99%, that's
+the easy part.
+But then every next nine that you want
+to add, that takes about 10 times more
+effort. So, you need to know up front
+exactly how many nines your product
+actually needs.
+So, demo
+might need, you know, one nine, an
+assist product or, you know, co-pilot
+might need a few, but a fully autonomous
+AI agent that we're going to be putting
+out in the physical world that engages
+with the public, you know, with kids
+running around, that needs a whole stack
+of them.
+And at scale,
+the long tail is the problem space, is
+your entire problem statement. When you
+drive millions of miles per week,
+a rare event that might happen once in a
+million miles, that just becomes your
+daily reality.
+And getting those next nines
+means doing something different
+every time. So, you don't get to say six
+nines of performance or reliability by
+doing the same thing that you did for,
+you know, to achieve the first two, but
+longer. You have to do fundamentally
+different things. You requires a
+fundamentally different approach. For
+example, we can take reliability. You
+can, you know, get to the first couple
+of nines by just doing proper
+engineering and uh
+doing, you know, uh some bug fixes.
+But to get to the next few, you need to
+have You need to invest in fundamentally
+different approaches. You need to build
+fully redundant systems,
+uh have tiered full backup
+architectures, and so forth and so on.
+And the same thing holds for the
+performance of AI models.
+So, what that actually means is that in
+this space, it's incredibly easy to get
+started,
+but it can be excruciatingly difficult
+to get to the real product.
+And that effect is only amplified with
+every wave of technological
+breakthroughs.
+And that naturally leads to hype cycles.
+So, every AI breakthrough from, you
+know, deep learning to conv nets to
+transformers, VL aims, you name it. It
+makes it that much easier to get
+started. Your demos, your prototypes,
+they get a 100 times easier. But the
+tail, that's where the hard problems are
+that moves much less. It moves, but the
+effect is muted. And that's why every
+hype cycle produces a wave of absolutely
+spectacular demos and very few real
+products.
+And the recurring mistake of every cycle
+is spending on the demo when you should
+be saving for the nines.
+Now, you know, this being a startup
+school, the last thing I want to do is
+throw too much cold water on the magic
+and the excitement of those early days.
+This this time is absolutely magical.
+It's amazing.
+Cherish it. Leverage it. But the key is
+to remain honest about the product that
+you're building, the number of nines and
+performance and reliability that that
+product demands, and not cutting corners
+to get there. Uh otherwise, you might be
+in for a pretty rude uh awakening later.
+So, count your nines before you count
+your demo views.
+Uh and this brings us to the second
+lesson.
+Once you know how many nines your
+product actually needs, it fundamentally
+dictates the architecture and the core
+technical approach that you need to
+pursue.
+Now, every technology has a performance
+versus effort curve, right? They all
+tend to start fairly steep and go up,
+and then they flatten out.
+And you know, as I just mentioned, every
+other nine gets an order of magnitude
+more difficult.
+So, common failure mode is picking the
+tech that gives you the fastest early
+ramp,
+riding that steep curve, feeling like
+you're winning, projecting that, you
+know, steep slope into the future and
+feeling like the sky is the limit, and
+then hitting the plateau, and
+discovering that the technology path
+that you picked actually flattens out
+way before the performance that is
+required by your product.
+Now, you might still choose to be, at
+least for a while, on that steep curve
+for a variety of practical reasons. You
+know, maybe you want to prototype
+something or demo something or build
+something in service of learning, but be
+honest with yourself where you're
+building for the purpose of a demo, for
+the purpose of learning, or towards an
+actual product.
+Uh so, let's take
+uh an example from our domain,
+autonomous vehicle and sensing.
+Uh there's been a long-standing debate
+about what kind of sensors do you
+actually need for autonomous driving?
+Naturally, more sensors means higher
+performance, but also means higher
+complexity. So, humans
+of course can drive with just eyes, so
+there's that proof of existence. Now,
+and if the goal were to just
+approximately match human performance or
+to build an assist product, that's a
+very reasonable way to go.
+However, if you are targeting full
+autonomy, and you're targeting
+superhuman, strongly superhuman
+performance, you find that weak sensing
+just leads to a safety curve that
+flattens out way too early.
+So, at Waymo, we've taken an approach
+where we use multiple sensing
+modalities. We use cameras, lidars, and
+radars,
+and they all complement each other.
+Cameras give you high resolution and
+color,
+uh but they're passive and they degrade
+in darkness and glare.
+Lidar gives you a direct measurement of
+the 3D structure of the world uh around
+you, and radar is very good at punching
+through environmental conditions and
+weather like fog or rain or snow and it
+directly can measure velocity using
+Doppler.
+Uh lidar and radar are active sensors.
+Uh so that means they see just as well
+in pitch darkness or
+for example, when driving into a
+blinding sunset.
+And these different sensing modalities,
+of course, they're not backups to each
+other.
+Uh in our stack
+each modality has an encoder and the
+information from all of those sensors
+get fused into a single view of the
+world around us that is much more
+precise and um generally vastly superior
+to what you get with any one sensor.
+So let me show you a few examples.
+Uh here's the scene where a Waymo is
+driving in a dust storm in Phoenix.
+So what you see here is what the scene
+looks like to our fairly advanced
+high-resolution and high-dynamic-range
+camera.
+It's very close to what a cat, you know,
+a human would see in the same
+conditions.
+Not much. And here on the right is what
+the lidar sees for the exact same frame.
+And you can much more clearly see that
+there's a pedestrian standing on the
+side of the road.
+So if they were to step
+onto the road
+that early detection can make a really
+big difference in how the situation
+plays out and the safety of everyone
+involved.
+Here's another example. At night,
+driving along and there are a couple of
+pedestrians who are about to jump onto
+the road over a concrete construction
+barrier. Again, at the bottom you see
+the camera, really can't see much, and
+the lidar view at the top.
+Again
+lidar versus camera.
+Here's another example.
+A couple of dogs chasing a ball and a
+couple of kids chasing the dogs.
+And
+big difference. Here's what it looks
+like to the camera. Here's the lidar and
+the early detection of the uh the kids
+is off to the side and there are no
+headlights, there are no lamps there,
+it's complete darkness. So, it makes a
+big difference.
+Uh or think about what happens when
+something physically obstructs the view
+of your sensors.
+I
+Yeah, if you don't have redundancy in
+sensing, you can have, you know, a
+single leaf land on your sensors and
+bring your robot to a full stop.
+Uh now
+So, you need redundancy.
+Redundancy, of course, does not
+necessarily mean multiple sensing
+modalities, but if you need redundancy
+anyway, you might as well
+uh benefit from the complementary
+physics of the different sensing
+modalities in the nominal case.
+So, here's a a video of
+uh one of our cars that picked up a leaf
+or actually, I think a full uh branch of
+a tree
+uh that our wipers were unable to shake
+and the car detected that and because we
+have sensing redundancy, it safely was
+able to get back to the depot for proper
+cleaning.
+Uh
+so, specifically, when it comes to
+hardware,
+uh
+do not anchor to today's components
+prices.
+Uh
+We're on the sixth generation of the
+Waymo driver, the Waymo hardware suite
+today and with every generation, the
+hardware not only delivered amazing
+capability, but we're able to
+drastically simplify and radically
+reduce the cost of the hardware as well.
+So, betting your company, betting your
+approach on today's hardware prices is
+just betting your company on a number
+that has a fairly short shelf life and
+is going to expire.
+Uh so, hardware will change.
+Uh many components will get commoditized
+and drop in price. So, design for that
+future and be ready to upgrade.
+And then brings us to the next lesson,
+lesson number three.
+Uh technology m- moves incredibly fast,
+especially nowadays.
+So, you need to be ready to ride those
+tech waves and do that repeatedly.
+And when you do,
+as you not only think about the wins and
+performance and the wins and capability,
+you have to be very mindful about uh
+unification and simplification.
+Uh over the years, we've seen a number
+of major breakthroughs in technology, a
+lot of them around AI. And with every
+wave of innovation, we pretty much
+rebuild the WeRide driver around that
+major wave of AI breakthroughs. And we
+often push the state of the art in those
+areas forward ourselves.
+Uh we leverage confidence around 2013
+for computer vision and perception.
+Then, when transformers came about
+around 2017, we bet big on them both for
+perception and for the task of behavior
+prediction and decision-making and
+planning. Turns out, the task of driving
+is not that dissimilar from the task of
+modeling language uh because of the
+social aspects of driving. You're kind
+of having a conversation with other
+dynamic actors in the world, but you're
+doing that in the space kind of body
+language of your agent, your car, as
+opposed to just the language of words.
+Uh and you operate in sequences and
+local continuity matters, uh but so does
+global context. Uh and today we're
+leveraging uh the latest in VLMs and
+frontier world models.
+Now,
+using the latest tech for capability and
+performance wins, I don't want to say
+it's easy, but it can be, you know,
+reasonably straightforward doing applied
+research in isolation or starting a
+tiger team to, you know, prototype uh
+some new technology
+uh is not the most difficult part.
+There's many companies, many teams that
+are excellent in this.
+The much harder muscle to build is to
+carry that bleeding edge research into
+production and deploy it in a safety
+critical environment without
+regressions.
+And do it without breaking stride on the
+scaling of your product.
+And adding capability, again, is not the
+hardest part, but adding capability
+while at the same time reducing
+fragmentation and reducing complexity,
+that is really important. And finally,
+the hard muscle to build as a company is
+to be able to do that repeatedly through
+multiple waves of technical innovation
+or technical breakthroughs.
+So, on this front, I have two bits of
+advice.
+Uh the first one, when a technology, a
+new technology shows up,
+yeah, it can be very exciting, very
+tempting to kick off uh a new effort, a
+tiger team to pursue it. And that's
+great, you should absolutely do that.
+However, when you do,
+it's very important that you consider
+what you would do after. Under a success
+scenario, let's say that effort
+succeeds,
+you should be very clear on what the
+path of that new innovation is for your
+company, for your entire product, for
+your entire system. Uh often times I've
+seen a failure mode where, you know, a
+project, a very difficult technical
+project succeeds,
+and then there's a dead end. That can be
+very wasteful, that can be completely,
+you know, deflating.
+Uh the second bit of advice I have here
+is uh when pursuing new tech,
+again, don't just ask what does this new
+tech give me in terms of capability and
+performance, also ask has it simplified
+my stack and has it led to fragmentation
+or unification. So, set your launch bar
+to demand both breakthrough performance
+and at the same time radical
+simplification and unification.
+And this exact philosophy and this
+muscle that we've built uh at Waymo over
+the years is what produced our latest
+core technology.
+Uh and this
+uh the heart of it is the Waymo
+foundation model.
+Now, the Waymo foundation model is a
+multimodal
+world action language model. It's kind
+of a mouthful, so let me unpack the
+ingredients. It's a multimodal model
+because it is able to process these
+multimodal sensor inputs, cameras,
+lidars, and radar.
+Uh it's a world model cuz it inherently
+understands how the world works, the
+physics, the dynamics, as well as the
+social and semantic aspect of it.
+It's an action model because we are not
+just passively observing how the world
+evolves. Uh we're an active participant.
+So, the model needs to understand the
+effects of our the actions of our agent
+on the world and be able to tell the
+good ones from bad ones.
+And finally, it's aligned with language
+and that allows us to unlock general
+world knowledge from visual language
+models. And that's incredibly useful in
+the long tail of rare semantic uh
+situations.
+So, more specifically, uh this is what
+the architecture looks like. It's kind
+of your typical encoder-decoder
+architecture.
+The encoder part takes in the multimodal
+sensing and compresses it or encodes it
+into a efficient into an efficient
+representation uh that
+retains all of the relevant data, all of
+the relevant information for the
+generative part or the decoder.
+It's an end-to-end model um which has a
+couple of nice properties. It allows us
+to effectively backpropagate the
+gradient from the task that we actually
+care about all the way to the early
+layers of the model.
+And it allows the encoder to reach you
+kind of learn the right rich
+representations
+uh for what the generative part needs to
+solve the task. Uh it uses a system one
+system two think fast think slow
+architecture and it leverages the
+general world knowledge of VLMs for
+efficient learning of semantic tasks.
+So, let's dive uh deeper.
+Uh first, the
+think fast path. Uh that part fuses the
+raw data from our cameras, our lidars,
+our radars, and that allows for
+split-second safety-critical decisions.
+So, you can think of it as kind of your
+driving instincts. Uh this is what
+allows the car to brake instantly if,
+let's say, a pedestrian runs into the
+road or cyclist that's nearby swerves
+into your path. Uh this is like the the
+if you will the lizard brain of your
+agent that deals with a lot of geometric
+tasks and can react in milliseconds.
+Uh second is the slow path. Uh that's
+the part that's responsible for the more
+complex
+uh semantic and scene-level
+understanding type tasks. And these sort
+of tasks, these things don't typically
+change in milliseconds. So, there you
+can afford a bit more latency, and you
+can trade that off
+for higher capability and uh higher uh
+levels of uh of of reasoning.
+So, for example, if the Waymo driver
+encounters a situation when there's, you
+know, a vehicle, let's say it's on fire
+on the side of the road, the fast path
+might just see it as a generic generic
+obstacle and, you know, reason that the
+path ahead of us is clear.
+And this is where the slow path comes
+in, and that path can use deep semantic
+reasoning to understand the semantics of
+that object, the car being on fire, and
+the broader scene context, and that
+allows our driver to decide to take a
+very, you know, different action and our
+different route entirely. Even if
+geometrically the path ahead of us is is
+clear.
+Uh and finally, there's the generate
+component. That's the decoder. Uh that's
+the component that understands and can
+produce behavior. Uh it understands how
+other actors behave, uh and it allows us
+to make predictions and plan our own
+driving decisions.
+And our Waymo foundation model powers
+the Waymo my
+that runs on different generations of
+hardware and runs on different vehicle
+platforms. You have our fifth
+generation, the sixth generation, the
+JLR I-Pace, the Olli and and the Hyundai
+Ioniq. And in the future will power
+different products in different
+commercial applications like trucking
+and personally owned vehicles.
+So by uh
+leveraging the strategy of focusing on
+the high capacity foundation of uh of
+our model
+we're able to move a lot of complexity
+upstream to that large shared foundation
+and that allows us to make that
+specialization layer
+uh that's running on the car
+uh
+uh pretty lightweight.
+And that in turn allows us to speed up
+the development process.
+So the most important muscle in this
+lesson uh is
+for your company to not just leverage
+the
+tech of the day
+but have the ability and build that
+muscle to repeatedly ride those tech
+waves and pull in the results of that
+innovation into production without
+regression, without breaking stride in
+deployment and scaling, and without
+drowning in complexity.
+So let's move to the next lesson.
+Uh
+There's a well-known lesson in the AI
+community
+that
+general methods that leverage massive
+compute and massive data will always
+beat
+uh methods that rely on handcrafted
+engineered human knowledge.
+That's the so-called uh bitter lesson
+that Richard Sutton uh published and
+formulated in 2019.
+And we have lived this and we have seen
+this in every wave of technical
+breakthroughs. Each time the bitter
+lesson holds, methods that scale best
+with compute, with data, they always win
+out.
+And by the way, uh this is uh you know,
+one of the reasons why we bet on the
+approach of building the foundation
+model. Um,
+there is a well-known property that if
+you bet on high-capacity model and you
+use your data and your compute on that,
+you just get better scaling laws and
+then you distill into smaller, more
+efficient models that are running on
+your agent in real time, you just get
+better scaling laws as opposed to just
+focusing on the smaller models directly.
+Uh, so one
+nuance area where uh, this lesson shows
+up is the use of structure in your
+models.
+And depending on how you use your
+structure,
+you can end up on either side of the
+bitter lesson.
+Essentially, structure that fights scale
+will always lose.
+And structure that channels scale always
+wins.
+And in particular, this comes up around
+the discussion of end-to-end models. As
+I mentioned, an end-to-end model is, you
+know,
+uh, has some very nice properties. You
+back propagate a gradient from the final
+task all the way through the model and
+it allows the API between the encoder
+and the decoder to learn to use rich
+learned representations.
+And, you know, those are the easiest
+models to build and train. Um, you know,
+you can start uh, the architectures are
+known. You can start with doing some
+imitation learning in a
+uh, kind of a black box end-to-end model
+will give you very rapid progress and
+you will ride that very, you know,
+initial steep part of the curve. Uh, and
+for some products, that's enough.
+But if you need to reach superhuman
+levels of performance in a fully
+autonomous agent in a safety-critical
+environment, uh, just doing kind of that
+basic vanilla end-to-end is not enough.
+And this is where structure comes in.
+And the key question here is,
+does the structure boost scale or does
+it fight it? Does it limit and constrain
+your solution space?
+Or does it help you scale without loss
+of generality?
+So, let me give you
+an example. Let me illustrate this point
+with kind of a simple thought exercise
+and a toy problem.
+Imagine
+you're building a robot
+that will play the game of Go.
+And it wants you know you want it to
+play the game in the physical world,
+right? So, you have a camera that's
+observing the board and you have an
+actuator that will actually move the
+pieces around. Now, one way you can
+build such a robot is to you know have
+an end-to-end system that goes directly
+from pixels to actuation and maybe you
+train it by giving it some videos of you
+know how humans play the game.
+And that could be a very interesting
+research exercise. However, if your goal
+was to build the world's best playing Go
+robot, that's probably not the most
+efficient way to go.
+And
+the reason for that is that there is a
+very simple
+intermediate representation that
+captures completely the state of the
+game, the state of the the task that
+you're trying to solve as the 19 by 19
+board.
+And that gives you a fully observable
+and complete state of the world that you
+care about at least for the you know
+game playing length part. So, leveraging
+that structure it doesn't limit your
+model. It doesn't constrain your
+solution space, but it gives you a very
+helpful way to scale.
+Now, that of course was a toy example.
+Anything that's not trivial that you're
+trying to deploy in the physical world
+will not have that property. And the
+fact that such a simple clean engineered
+representation doesn't exist in the
+physical world is the whole reason why
+we need end-to-end systems and learned
+representations and learned embeddings.
+But in the physical world, there does
+exist structure.
+You have laws of physics, you have rules
+of the road, you have objects that
+behave in reasonably predictable ways.
+And you can use that structure
+in addition to the learned
+representations to boost your
+performance,
+simplify validation, and And the end of
+the day just get better scaling laws.
+Uh and this is the approach that we are
+pursuing at Waymo, which we call
+structure-augmented-end-to-end.
+So, we go beyond the basic vanilla
+end-to-end by augmenting the learned
+embeddings with materialized structure
+representations.
+And that gives us a few very important
+advantages.
+So, first
+is validation at inference time.
+Now, because the model isn't just a
+black box where sensors go in and you
+know,
+actuation commands go out,
+we can create a very powerful
+correctness and safety validation layer
+that you can run in real time in
+when the agent is deployed on our
+vehicles.
+And this is really important for any
+agent that's operating in the physical
+world.
+Uh secondly,
+we get great wins in efficiency when it
+comes to large-scale training and
+evaluation of the generative part of the
+model, the decoder. Uh if all you have
+is a black box end-to-end system,
+you are forced to do all of your
+evaluation and all of your training in
+the end-to-end setup all the way from
+sensors to decisions to actuation.
+Having that intermediate structured
+representation allows you to kind of mix
+and match. You can do some training at
+larger scale
+and some evaluation in the space of
+those compact structure representations
+and some in the full space of end-to-end
+from sensors to decisions.
+Uh and finally, we get strong verifiable
+feedback signals for both evaluation and
+for training
+training recipes to support things like
+reinforcement learning. That additional
+materialized structure just gives you
+much more powerful tools for evaluation,
+for metrics, as well as crafting your
+loss function or
+reinforcement learning recipes.
+So, the lesson here is to bet on a
+system that's maximally learned and
+minimally constrained
+and leverage structure intentionally to
+boost performance and scaling laws both
+in training and in evaluation.
+Now, that raises the question of how do
+you actually train and evaluate your
+physical AI agent?
+And that brings us to the next lesson.
+To build
+and safely deploy an agent in the
+physical world, it is absolutely
+critical to have a good large-scale
+realistic high-fidelity simulator.
+Now, there's two ways you can do
+training and evaluation. You can do open
+loop and you can do closed loop.
+Uh in open loop, kind of passively
+observing uh input to output pairs, uh
+and you can use that, you know, for
+evaluation, for training imitation
+learning works like that. Evaluation
+takes usually the shape of, you know, if
+you are find yourself in this situation,
+what would you do? And then you you
+score that. Uh and that's in contrast
+with closed loop, where in closed loop,
+you take an action,
+uh you see the effect that that action
+has on the world,
+then uh you update your uh through your
+sensors the view of the world, you take
+another action, and so forth and so on,
+and you evaluate and you train on those
+sequence of actions and sequence of
+world evolutions. Now, the ability to
+take an action and evaluate that
+counterfactual
+is absolutely vital for building and
+deploying safety-critical agents in the
+physical world.
+Uh so,
+a real simulator
+is how you do that. And a real simulator
+isn't just some lightweight tooling that
+sits next to your AI.
+Uh it is
+an uh uh a big AI model in of itself.
+And the problem of building a good
+realistic simulator is just as hard as
+building the agent itself.
+Uh so, the AI behind the simulator
+really needs to understand how the world
+works, the physics, the semantics, you
+know, the traffic, the weather, and so
+on and so forth. And the quality of that
+simulator has to be high enough so that
+it doesn't only look good, but it's
+sufficient to train and evaluate with
+high confidence an agent that you're
+going to be putting in the world in a
+safety-critical environment. So, in
+other words, you have to build
+a highly accurate generative world
+model.
+And at Waymo for years, we've been
+building what we called behavioral world
+models. And we're doing that way before
+the term models even became popular.
+And now in the era of end-to-end models,
+you also need on top of behavioral
+realism, you need sensor realism as
+well.
+And in fact,
+building an end-to-end model has been
+fairly easy for quite a while now, but
+evaluating it in closed-loop,
+that was the hard part of the problem.
+So, we've moved on to building sensing
+world models. And because we're using
+that structured cemented representation
+in our models,
+we can also leverage that structure in
+our simulation.
+Our behavioral world model operates in
+the space of structured intermediate
+representations.
+And the tightly coupled sensor world
+model then producing produces realistic
+sensor simulations.
+Our world model leverages
+the great work of Google DeepMind's on
+Genie 3. And that gives us the ability
+to produce controllable and highly
+realistic scenarios both in the
+behavioral as well as sensing aspects.
+And that in turn allows us to not just
+evaluate our agent and train new
+versions of our agent in situations that
+we've previously encountered, but allows
+us to train and evaluate in purely
+synthetic rare scenarios that we've
+never seen in the real world.
+So, what you're seeing here is not just
+a generative video, it's a generative a
+full generative simulation of the Waymo
+driver
+in
+operating closed loop. So, here we're
+simulating what would happen if it came
+across a car that was stopped in the
+lane on the freeway.
+And you can go further than that. Here's
+a plane
+that's landing on a freeway in front of
+us.
+Or you can simulate an elephant on the
+loose walking through the intersection.
+Snow on the Golden Gate Bridge.
+Or a dinosaur walking around. So, the
+lesson here is that closed loop
+simulation is absolutely required for
+evaluation and is extremely valuable for
+training of your physical AI agents.
+So, you need highly realistic
+large-scale
+simulation to trail train and evaluate.
+And this brings us to lesson number
+six.
+When you're dealing
+with a problem of that complexity, you
+can't just build a model and call it a
+day.
+You have to build an entire ecosystem.
+And then you also need a flywheel that
+powers it.
+Because to make this work at scale, you
+can't just build a agent you and one AI,
+you need to build three.
+You're building the agent.
+For us, that's the driver that drives
+the car.
+You also have the simulator.
+Which is that virtual playground for the
+agent to learn in.
+And then you have the critic.
+And the critic is what rigorously
+evaluates and judges the performance of
+the agent and tells it how to improve.
+And the good news is that
+the fundamental reasoning and the
+generative capabilities of all three of
+those are shared and that's why in our
+case they're based on the same
+foundation world model.
+Now, once you have these three pillars,
+you can create an incredibly powerful
+flywheel to accelerate your progress.
+So, a deployment of your agent uh in the
+real world generates data.
+That data then grounds the simulator and
+makes it more realistic.
+The simulator generates harder edge
+cases for the critic to score and for
+the agent to learn from. So, the agent
+gets smarter, gets deployed in the
+physical world, generate more data, and
+that powers the flywheel and accelerates
+progress.
+But, a flywheel, of course, will, you
+know, spin in
+any direction or in place.
+So, in order to make it go in the
+direction you want, you need to guide it
+by metrics.
+And that brings us to the final lesson,
+that your model is really table stakes,
+but eval and metrics, that's your most
+important. That's your strategic moat.
+So, build your eval
+before you build your technology. Build
+your eval and your metrics before you
+build your product.
+If you can't
+quantitatively define what good enough
+means, you're not really building a
+product, you're just iterating on your
+demo.
+So, nowadays,
+the best model architectures are fairly
+well known, and new ideas tend to uh
+proliferate fairly quickly.
+Data
+is incredibly important,
+but without good metrics, you're just
+flying blind. You aren't leveraging the
+best data, and you can't really evaluate
+the ROI on making changes to it. So,
+really, eval and metrics, that that's
+your foundation, and that's what steers
+your whole tech stack.
+Uh but, for physical AI agents,
+model-level evaluation is not enough.
+When you're putting an AI agent into the
+physical world, your eval and your
+validation needs to go much deeper and
+much broader.
+You need to evaluate and validate every
+component of your system
+from the physical layer to the
+behavioral layer uh that's running on
+board in the physical world, as well as
+the off-board components,
+and uh all of the operational processes
+around it. So, for us, we call that the
+safety and readiness framework, and we
+spent years building and refining it,
+and uh that's what guides our
+development and our deployment and our
+scaling, and I consider that to be one
+of our most important uh assets.
+Uh bec- And this again,
+the reason it's important is because in
+the physical world, trust is everything.
+And eval and metrics is how you go about
+earning that trust.
+You don't just win
+trust by talking about, you know, the
+clever technical solution or the clever
+state-of-the-art architecture of your
+models,
+or doing, you know, flashy demo. You
+earn it gradually, day by day, by uh in
+the field, by relentlessly proving that
+your system is safe and that your system
+works.
+And of course, you can't just prove that
+to yourself behind closed doors, and
+this is exactly why we openly publish
+our safety data and our uh safety
+ongoing safety research.
+So, then that earned trust becomes your
+ultimate business advantage. All right?
+Your your models
+can be leaked, algorithms can be
+replicated, but hundreds of millions of
+miles of fully autonomous operations in
+the real world, backed by evidence-grade
+evaluation and publicly audited proof,
+that is much, much more difficult to
+replicate.
+So, when you zoom out and look at this
+playbook as a whole, you realize that
+none of these lessons works alone.
+So, the nine set your bar and ensure
+that you pick the right technology and
+the right technical approach so that you
+don't get stuck in the local minimum.
+Uh then intentional use of structure to
+boost scaling
+uh and the ability to ride technical
+waves of innovation and gets helps you
+get to the right level of nines.
+Uh and your AI ecosystem with the agent,
+the simulator, and the critic guided by
+your eval and metrics, that's what
+allows you to build that powerful
+flywheel and that's how all of these
+effects uh compound.
+And it's this playbook that we've been
+refining uh over the years is what
+allows us to achieve the strongly
+superhuman safety performance of the
+Waymo driver.
+Uh this is a snapshot of the latest
+safety data we've released is based on
+over 220 million fully autonomous miles
+and we're seeing there that in the areas
+where we operate,
+the Waymo driver is about 17 times
+better than human drivers when it comes
+to crashes
+uh that cause serious injury.
+And that really matters
+uh because today
+somewhere in the world, every 26 seconds
+someone loses their life on a road to a
+crash event.
+And at the current scale, what that
+means is that Waymo is preventing a
+serious injury every 8 days. And this
+isn't just a metric on a dashboard, that
+means that someone's loved one got to
+walk through the front of door at the
+end of the day safe and unharmed.
+So, these are just the early safety
+uh benefits of AI in the physical world
+and they will only grow from there.
+If you look at the broader landscape,
+the opportunity here is absolutely
+massive.
+Uh physical AI right now is where
+digital AI was a few years ago and we
+have all of the right ingredients to go
+after it.
+Uh we have generative world models, we
+have the architectures, we have
+affordable compute and sensing, we have
+proven scaling laws, and we have a real
+product operating at scale.
+And the last decade of AI happened in
+the digital world, and the next decade
+will also happen in the physical world.
+And for those of you who decide to build
+in this space,
+uh good luck.
+Have fun.
+And remember who you're building for.
+Your mission and your customers, that's
+what matters. Uh otherwise, tech is just
+a science project. And at the end of the
+day, as exciting as exhilarating the
+tech is, nothing really beats the joy of
+making a difference in people's lives.
+>> [applause]
+>> Wait, what are we doing?
+>> We're in our first ever Waymo.
+>> And what does it mean when we're in a
+Waymo?
+>> It means that there is nobody
+>> Nobody driving this thing!
+>> And uh this is a fully autonomous Waymo
+ride.
+>> I cannot believe this. The car did a
+better job than the if somebody was
+driving.
+>> The truck was over the yellow line, so
+the Waymo braked and moved to the side.
+>> It knew how to pronounce my name.
+>> Oh my god. You can do this, man.
+>> Oh, this is the I say [music] Waymo.
+This is new.
+>> This is so cool.
+>> I'll never forget this.
+Never.

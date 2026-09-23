@@ -1,0 +1,239 @@
+Title: Evaluating the Fine-Grained Planning Abilities of Web Agents
+Video ID: 6f4K7-DvJrk
+URL: https://www.youtube.com/watch?v=6f4K7-DvJrk
+Channel: YC Root Access
+Published: 2026-08-06T17:35:38Z
+Duration: PT6M40S
+Views: 641
+Likes: 17
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 223
+
+============================================================
+TRANSCRIPT
+============================================================
+
+[music]
+>> We're here with Surgan at YCML. Surgan's
+a master student at CMU and just
+presented this work at EMNLP last year.
+Surgan, tell us a little bit about what
+you worked on.
+>> Yeah, thanks a lot.
+Yeah, my work is titled on the
+fine-grained planning abilities of VLM
+agents.
+So, a little bit about web agents. Um
+So, as the web agents execute their
+task, for instance, you know, find this
+cheapest 4K monitor, they get input, you
+know, of UI screen.
+And then they first think about how to
+solve this task. Which is like, you
+know, coming up with plans, strategy,
+and so on. That's called planning state.
+And based off of this thought, they
+predict a very specific interaction that
+they have to do on this particular
+screen.
+They keep doing this for like, you know,
+five steps, 10 steps, or whatever is the
+limit and produce a final output. Um and
+then we have some rubrics to evaluate
+that, some verifiers, or whatever the
+approach we want to take.
+So, evaluating the final output, in my
+opinion, is slightly easier.
+Uh so, I'm I'm concerned with what
+happens to evaluating this plan, this
+step.
+>> So, you're saying this is like an
+off-the-shelf VLM web agent does this
+type of step, and you're trying to
+evaluate this middle planning step.
+>> Oh, so So, let's think uh what would an
+approach to evaluate this would be.
+Let's say you want to evaluate the
+planning step. Since the plan is
+generated with the past context, you
+would need that. And the plan is about
+what you would do in the future. So, you
+would also need that output.
+Therefore, for this particular guy, you
+actually need the whole thing.
+Right? And this thing, it's like 10 15
+of those. And the context is not cheap.
+Because for web agents, you actually
+need like an image, a bunch of tool
+calls, and a bunch of different, you
+know, text.
+In addition, uh the models are slightly
+getting better, and they don't make
+obvious errors. So, they are will be
+subtle. So, therefore, finding a problem
+with this thing would be like a needle
+in the haystack problem, right? So, what
+we are saying is evaluating each of the
+plan part
+to evaluate the planning skill is a
+great way you should do it. You know,
+you should run the traces, get this
+right, and comment on planning. But, we
+should also focus and figure out
+alternatives, complementary things.
+Let's take an analogy from visual
+reasoning.
+Let's say there is a task, visual
+question answering task. What is the
+animal to the left of the lion?
+>> Yeah.
+>> It seems like a single task to all of
+those of us, but it's not that. I mean,
+small is first going to ground the lion,
+you know, understand what's to the left
+and right. Locate the animal, and then
+come up with the right answer.
+>> And our brains are doing all of these
+things, too.
+>> Yeah, all of these things, yeah. So, and
+we have to get all of that right to get
+this right, right? So, I'm thinking how
+do I break down planning, which is the
+ability to come up with thoughts to
+solve this action, into these
+fine-grained skills,
+and put a number to the capability of
+the model for each of these skills, and
+then comment on the planning ability.
+>> Yeah.
+>> So,
+to discover these skills, we have like a
+semi-automatic way. We run it for a
+bunch of, you know, task C task. Um,
+yeah, for a bunch of C task, and then we
+discover a bunch of these things. So,
+what we figure out is agent is always
+trying to think about if it is going in
+the right direction. For instance, if
+it's an add to product, it's like, "Oh,
+I have to buy this product. Should the
+next state be checkout?" It's like, "Oh,
+does checkout come before add to
+product?" So, it's always sort of doing
+the temporal ordering of the web page
+states.
+Second, whenever it's at this add to
+product, and it knows like, "I want to
+do checkout." It's always thinking
+about, "Oh, what will help me go from
+here to here?" So, it's like predicting
+the future, and predicting how to go to
+future. So, the skill would be future
+state prediction.
+And often, agent is not just doing, you
+know, taking deterministic one action.
+It's like it has a bunch of options.
+It's trying to evaluate these options,
+and then trying to figure out which is
+the best. So, it has multiple plan
+choices, action choices, and then
+selecting the one.
+>> And and how are you implicitly
+assessing, let's say plan assessment?
+How do you measure the agent's ability
+to
+>> Yeah, so this portion discovers the
+skill agents is deploying and we isolate
+them. In the next one, we operationalize
+these skill discovery, actually evaluate
+their, you know, capability on that
+skill. We create some simple tests which
+evaluate
+>> Like you create some counterfactuals to
+determine if
+>> Yeah, yeah. Very simple test, yeah.
+This is just telling you what skills
+they are deploying and you should make
+the skill level evaluation.
+And once they can get wrong, the other
+skill they are also deploying is error
+correction.
+Now, to your question, how am I making
+this evaluation very useful? So, couple
+of constraints. I want to make this
+cheap because if it is as expensive as
+possible, then it's no use. And I want
+to make it more interpretable. You know,
+getting a good number for each of this
+is very important so that I can give you
+another, you know, detail in your
+evaluation. So, what I do is we take
+existing data sets. It's like totally,
+you know, repurposing the existing data
+sets. We don't sort of generate new
+data. We don't have any human
+involvement. It's just having a very
+easy way to generate synthetic data. For
+instance,
+uh for temporal ordering, like whether
+this webpage comes before or not, you
+take two screenshots, like Google
+Scholar homepage and the final task. And
+then you're like, "Okay, if you want to
+solve this, which of the following come
+will come first?" So, agent will answer
+this question.
+>> Makes sense.
+>> This will evaluate this skill and for
+all of them you will have these type of
+questions. All of them combined will
+give you a number for each of these
+skills which will correlate to the final
+planning capability. So, it's different.
+Earlier you were evaluating that
+>> exact parts?
+>> Yeah. Now, it's a generic skill.
+>> And so, what does that look like in
+terms of your ultimate results? Like how
+how should we think about how well this
+works?
+>> So, first result we have is uh these are
+like simple tests. So, the average of
+all, most of the models are bad, like
+below 50%. So, ideally we would assume
+these are like simple tests, right?
+I mean, these are open source because of
+computer constraints, but again, even
+them being less than 50% is a very bad
+result, very bad performance for them.
+So, it's like we really need to improve
+on each of these dimensions. Second,
+we see that the average performance of
+these planning is very correlated to the
+end task performance. Models being good
+on these skills is actually correlated
+to the end task performance. So, now
+what we are saying is
+you should definitely run the models on
+your tasks, get the traces, evaluate the
+thought, but it's like an offline test.
+You will take my simple test, put it on
+your model like for $10, get a
+preliminary evaluation on these
+independent dimension, and you can
+filter out a lot of them. And then you
+should run and do this complex test.
+So, now it's also like it's it's like
+you know where it is wrong. If this is
+wrong, then first do a GRP or what you
+want to do, and then you get to do this
+complex. That's how we added dimension
+to this planning evaluation. And that's
+how we think it's going to be like a
+It's not replacement, it's like
+complementary to the existing evaluation
+that we do. Yeah.
+>> Oh, awesome Thanks so much for joining
+us. This is great. Thank you. Appreciate
+it. Thanks.

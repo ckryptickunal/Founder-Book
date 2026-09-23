@@ -1,0 +1,2129 @@
+Title: World Models, JEPA And The Path To Sample-Efficient RL
+Video ID: qz4GQ0zUFRw
+URL: https://www.youtube.com/watch?v=qz4GQ0zUFRw
+Channel: Y Combinator
+Published: 2026-07-17T14:00:25Z
+Duration: PT1H14M27S
+Views: 32172
+Likes: 852
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 2113
+
+============================================================
+TRANSCRIPT
+============================================================
+
+One of the biggest open problems in AI
+right now is how to solve sample
+efficiency. That is, how do you get
+models to quickly learn new tasks or
+skills from relatively small amounts of
+training data? Humans do this incredibly
+well. We can learn new games, concepts,
+and skills, often after just a handful
+of tries. Our best models, on the other
+hand, often need tens of thousands of
+data points just to learn.
+>> So, today we're going to discuss what
+many top researchers believe is the most
+promising path to closing that gap.
+[music] World models. We're going to
+discuss the motivation and math behind
+world models, current applications, and
+why this approach might be the key
+[music] to unlocking AGI.
+[music]
+You and I have talked a lot about the
+various ways people are training models
+and the sample efficiency of them. Why
+don't we start by just defining sample
+efficiency and how we intuitively think
+about it as humans?
+>> Yeah. So I think from my perspective the
+two major problems that we have left to
+solve is intelligence per watt and
+intelligence per sample. Um,
+intelligence per watt is like how how
+many valve perplexity points we get per
+watt of spend. And then intelligence per
+sample is basically if I have one
+additional sample in my data set, how
+much more intelligent am I getting? And
+so if I imagine I have a new tasks like
+RGI for example, I think like really
+Frantole has been on the forefront of
+this thinking uh and talking about
+intelligence as a rate of skill
+acquisition versus skill acquisition and
+that's very different. And so how fast
+do we get uh smarter with more and more
+samples? And these things are incredibly
+poor at at at getting smarter with with
+fewer and fewer samples.
+>> And for context, you know, the the RKGI
+test sets are a really good example of
+cases where humans are intuitively very
+good at them. Most humans can
+intuitively solve those puzzles with
+some amount of thinking and effort. But
+our current state-of-the-art AI systems,
+what people consider frontier
+intelligence, basically can't do them,
+>> right? I mean there we come into new
+problems with such inductive bias from K
+through 12 like all these math and
+school that we we've had um that you
+know these models are are kind of
+getting from the entire compressing the
+entire internet um and and so when we
+come in we're not coming in tabularasa
+just like bare bones but even so that
+they have you know I don't know what
+percent of the internet you've read I've
+read very little percent of the internet
+but despite that and having read the
+entire internet it still can't really do
+well on and and uh generalizing to these
+new tasks.
+>> So now let's think about this in like
+the extreme cases. In the extreme case
+where let's say we were perfectly sample
+efficient,
+>> you know, we were as sample efficient as
+possible. What would that mean in terms
+of a a model that is uh taking a set of
+actions in the world? Well, I guess um
+the perfect sample efficiency would be
+zero samples and like uh there are
+examples of this and is that sounds
+absurd to say but it and the the um
+example the hypothetical I'll give on
+this is uh imagine I had a perfect world
+model then I should never go to the
+environment to go and collect samples to
+train on and well that can't possibly
+happen like no it actually can happen we
+do it all the time it's called Newton's
+second law of motion it's like Newton
+mechanics like we basically know how to
+like get an object from point A to point
+B with a rocket um quite easily just by
+following like Newton's laws of motion.
+>> Yeah. Like when when NASA plans to
+intercept an asteroid and is planning
+it, you know, years in advance and can
+>> set it off in a trajectory where it just
+glides to the right thing and intersects
+to the right point. That is an example
+of a perfect world model we've built
+where we're then just
+>> letting that world model act. And it
+that that system does not need to
+intelligently collect new samples from
+the environment to decide which
+direction to go next. It can already
+it's already been pre-programmed and can
+perfectly do it.
+>> Yeah. Can you imagine if like we needed
+to collect 1 million training examples
+of like us shooting spaceships to the
+moon to like know how to do it because
+like complet it would be we definitely
+wouldn't have the Apollo missions,
+right? Um but we do have that that
+ability because the the real world is
+differentiable and we can do something
+called model predictive control that
+we're going to talk about in a little
+bit. Um, but even in our own brain, I
+was just uh uh, you know, thinking about
+this on the drive up, but like there's
+so many ways that like I can basically
+think about the things that you are
+going to say or what a VC is going to
+say when I'm when I was pitching them or
+what customer might say. Uh, and even
+product being having taste. What is
+taste is like predicting that other
+people are going to like this thing. And
+so we've built this world model over
+years of entrepreneurship, 10 years of
+like getting it wrong, right? um that
+maybe Bill Gates, uh Steve Jobs and
+Jensen have 50 years of of you know
+world modeling experience to know what
+people want. And uh and and basically
+this is actually proven in the 1967 uh
+COGSAI study uh by Richardson that
+basically showed that if you take a
+cohort of of three different pe three
+groups of people and you uh have one go
+practice layups in basketball and they
+go and they shoot they they improve for
+one hour they improve by like I think it
+was like 24% or something like that. And
+then if you take the other one and they
+just blindfold them and they imagine
+laying up a basketball, they improve it
+23%.
+>> Interesting.
+>> And against the control.
+>> I mean, that's insane. It means that we
+have this crazy good world model. And
+there's the this uh neuroscientist at
+Stanford named Shaw Duckman who
+basically is of the view that the entire
+point of the growing neoortex for the
+during the great cortical expansion 10
+million years ago was to get better and
+better and better and better at world
+modeling and having just like my little
+VA which we'll define of doing the ne
+predicting the next action is not as
+good as having a world model to lean on
+either for training for training
+purposes or for test time adaptation.
+>> Yeah. What it fundamentally comes down
+to is, you know, we as humans, we think
+about our intuitive ability to think as
+coming from some implicit world model we
+have in our heads encoded by genetics
+and our ability to learn and whatever
+else.
+>> It seems like models can do surprisingly
+intelligent things despite not having an
+explicit world model when it comes to
+natural language. when they're just
+talking, it seems like, you know, maybe
+under the hood, deep inside the weight
+somewhere, there's some kind of implicit
+understanding of the world, but there
+isn't an explicit representation of
+that. But then it seems like in certain
+domains, especially in robotics and
+self-driving, as we'll talk about, that
+sort of breaks down. And um you know
+maybe it would be helpful now to just
+think a little bit about and and just
+sort of define some of the pieces of
+what makes it challenging in these
+different domains and then we can use
+that to kind of build up to why it's
+particularly hard in things like
+self-driving and robotics to get these
+types of predictive models to work.
+>> Yeah, let's do it. So let's actually
+like take a step back and just talk
+about like control reinforcement
+learning and define some define some
+common terms. So typically in um we
+teach a a course called decision-making
+under uncertainty uh which is like the
+main reinforcement learning course uh at
+Stanford. I like to show like a specific
+example of let's say I have some drone
+and this is my poor little drone here
+and it has some mass m and we know that
+that gravity g is pulling down on it and
+it's currently at position uh t with
+velocity t which we will collectively
+call the state and to be really clear
+this is going to be
+uh p uh x py pz Z.
+>> Yep.
+>> TT and Vx V Y Z VZ.
+>> It's like the sixth dimensional state
+vector.
+>> Yep.
+>> And we have uh some thrust vector U that
+we control and we're trying to get to
+some point P star and V star which is V
+star is typically zero. Right? So you
+have some platform that I want this
+thing this drone to land on. Yep. So
+this is just a control problem, right?
+And so uh let's say this is like and
+we'll go through optical
+optimal
+>> optimal yeah
+>> optimal control. So how would I actually
+solve this? So the first thing I need to
+know is my transition function. And so
+this is my state transition function
+which is st plus one
+>> given the previous
+>> given st and my action which which I
+control is UT. And so this is my state
+transition or dynamics function or a
+world model. This is a world model.
+>> This is like a very fundamental for for
+context. You know, this this equivalent
+to transition function you would think
+about in RL in general.
+>> Exactly.
+>> And so uh and then what I'm trying to
+learn is something called a policy which
+is like what UT should I uh uh emit
+given some ST? Yep. And so this is the
+ultimate question. What should I do?
+What's what action should I take given
+some state ST? And so uh the way that
+we'll we'll solve this and luckily we
+have a world model that is perfect and
+it's called
+>> Newtonian physics.
+>> Newtonian physics. This is like Newton's
+second law of motion which is F= MA. And
+so we know that the position PT + 1 is
+going to equal PT + uh deltat T VT plus
+12 delta T ^ 2. So, everyone's taken
+high school uh uh [laughter]
+high school physics.
+>> Yep.
+>> And the same thing for the velocity blah
+blah blah
+>> delta da.
+>> And then my acceleration is a sum of sum
+of the for sum of the forces uh which is
+going to be my uh utide by the mass and
+g. And so that's it. And now I have my
+transition function. Now how do I get to
+a policy? And I'm going to apply
+something called model predictive
+control or real-time model predictive
+control which is like the way that
+SpaceX lands the rocket on uh on some
+platform in the ocean. And what you're
+going to do is you're going to set up
+your loss function. You're going to
+minimize
+sum over all t. You have u t to
+infinity.
+And I'm going to minimize my P star
+minus PT
+plus
+V star minus VT.
+And usually you add this little lambda
+UT which is like how much energy you're
+exerting. Y
+>> and you can't have infinite thrust. So
+you typically will have to say UT
+u max thrust.
+>> Yeah. that can be achieved. And so this
+is easily solvable with convex
+optimization. And so this is convex.
+This is convex. This is convex. The sum
+of convex functions is convex. This is a
+convex constraint. And so I DCP
+discipline convex programming means I
+can put this into CVX pie. And it will
+just give me out my policy which will be
+the solution will be the optimal
+UT plus one all the way to infinity.
+>> So we can solve this in closed form
+basically like you know we can because
+we have this world model of Newtonian
+physics we can say at every step exactly
+how this drone should fly so that it
+lands on the appropriate thing under a
+set of constraints like max thrust
+available gravity. You'll run your log
+barrier or interior point whatever to
+some solver on this and and it will give
+me uh my optimal and this will be
+literally the optimal path that this
+thing can take to get to this state and
+that will minimize and then and I can I
+can do increase this if I if I want it
+to do the least energy path or if and I
+make that zero if I want it to be the
+fastest
+>> and so those that's typically the way
+that you would do uh what I we'll call
+like deterministic
+uh um
+uh differentiable control
+>> right
+>> and why differentiable because I can
+take the I can form the lrangian by by
+taking this minus this constraint and uh
+and take the gradient of it and I can do
+robins
+>> you use the fact that it's
+differentiable to to do the the
+optimization
+>> exactly if this is if this is
+non-ifferiable you cannot do convex
+optimization and you cannot do SGD uh uh
+even if it's non-convex you could still
+solve and get and get a pretty good
+solution uh as we do in deep learning.
+But I I you if it's non-ifferiable, you
+kind of can't. There's nothing you can
+do.
+>> So yeah, let's have an example then of
+how you could make this non-ifferiable.
+Like what's a what's a scenario? I guess
+even like this drone scenario where it
+now becomes non-ifferiable.
+>> Yeah. So I'll put this adversary named
+Ankit.
+>> Okay.
+>> And and your job is to you have another
+drone. Let's say Ankit's drone is to try
+to hit me.
+>> Wow.
+>> And stop me from getting there.
+>> Now from the position of your drone, you
+don't know what actions I'm going to
+take,
+>> right? And so now let's just call this
+the uh this would be now we're
+definitely not not deterministic we're
+stochastic um
+and stochcastic and non-ifferiable
+>> and in this case
+my state transition what is st plus one
+it's going to be my say I'm in now my
+thrust and what ankit's going to do
+>> right and these it was all
+differentiable until
+Yeah. And I can't like back prop through
+your brain to tell say what you're going
+to do with your little drone controller,
+right? It's completely uh uh
+non-ifferiable now. And I I'm resorting
+and I have to resort to this awful area
+called reinforcement learning,
+>> which is just super brutal and it's
+sprawling and there's so many different
+things and you'll hear things like when
+you study initial uh um reinforcement
+learning called value iteration or
+policy iteration. Um, and there's DQN or
+deep Q-learning or just Q-learning.
+>> Yep.
+>> Um, there's actor critic. There's all
+this bag of stuff.
+>> All of this stuff ultimately comes down
+to ways to estimate to to model this
+non-ifferiable stochastic process.
+>> Exactly. Yeah. And so like that's
+basically the the main thing is is
+you're going to start talking about uh
+this as a model where I'm gonna
+introduce this sigh to say that this is
+going to be some model that's going to
+take in these things and then output
+this um and that we're going to train it
+over many many instance in
+instantiations of this and that's so get
+a better and better world model and then
+I need to train some policy at ST and
+then typically you also need a value
+function
+>> and that is the value of um state and to
+discern between the value of of
+different states and like in this case I
+don't know what a valid state is but
+like let's just say I was doing um uh
+like SpaceX with with um launching
+rockets and landing rockets in Florida.
+Let's just say that like there's
+different if I have my launch pad here
+and I have a whole bunch of houses here.
+Let's just say the path going from here
+to here. I may think that doing this and
+then coming across here and burning all
+these houses alive,
+>> right,
+>> may be not high highly value. So I might
+say as an example, they typically call
+this like some kind of a cone here.
+>> And I might say like it's low value to
+be here or and it's very high value to
+be to be in this cone or something,
+right? As an example,
+>> in a sense a value gives you some
+expectation of future rewards like the
+sum of future rewards you're getting.
+And so if you if you're in a bad space,
+you would set the value to zero or
+negative negative infinity or something.
+>> Yeah. So so we can we can we should
+introduce R RT as well. And so typically
+like if you're uh playing go or chess
+like winning the game uh you can say
+winning the game is plus one minus one
+for losing draw is zero. That's what's
+done in alpha go. In chess we have these
+heruristics like a a a pawn is is worth
+one point a rook is worth five etc etc.
+So you can like already have reward is
+is the difference in in in board state.
+Um and then this yes will be the sum of
+my discount um should just do t
+>> no
+>> of rt
+>> uh given and and it's important also to
+to to use this nomenclature
+um vi and the reason why that's
+important is because what it what's
+actually happening here is this is the
+discounted reward following policy pi
+>> correct
+>> and that means that when I'm in this
+state I will take this action and then
+I'll end up in this C++1 and then I'll
+take this action and it's it taking it
+greedy and so that's the value with
+respect to pi.
+>> Yeah. And so ultimately what it comes
+down to is we are trying to still find a
+new policy pi and along the way we will
+use machine learning models in various
+capacities. This is standard RL to
+estimate the value function given the
+rewards we're receiving. Right. And then
+where world models come in is a way of
+incorporating all of those into some
+sort of joint modeling of the state and
+action distribution so that we can make
+more intelligent policies off of it.
+>> Right? And so your standard kind of
+setup for this is what I'm always trying
+to get to at the end of the day is some
+joint distribution which would be st
+plus one given uh where I'm at now uh
+where I'm I'm at now and then this
+factorizes with chain rule simply to my
+pi my policy a given st
+and my world model and I'll give this
+this is usually represented with theta
+and this is my world model which would
+be um st plus one given
+st and a t.
+>> Yeah.
+>> And so and these are typically learned
+uh uh separately and like and like you
+can imagine in fact actually you can
+actually learn this. This is a video
+generation model and I have the frame ST
+and I predict the next frame ST plus
+one.
+>> Right.
+>> And then and we'll get into this.
+>> Yeah. For those of us who kind of saw
+our our diffusion model series often
+people these days use video diffusion
+for exactly this. Yeah. And then what
+you can do and this is like the in vogue
+thing to do since Danar and and uh um
+the dreamer paper series from V1 to V4
+is do action conditioning later like
+similar to clip where we will inject
+this like input head or input tail to
+come into the model to uh influence and
+and enable the world model to have
+embodiment. What does that mean? It
+means that not only can I predict like
+as a plant or tree on the on growing on
+the the side of the of the building, I
+can like see the world go passing by,
+but I can I can actually influence it
+and I can change the the world and I can
+I can learn that with at far fewer
+samples uh to do this postaction
+conditioning um if I already have a
+really good uh ST to SC plus world model
+>> and so here you're saying you know
+what's also invoked now is jointly
+training these versus separately
+training Exactly. And so this is called
+that is called a world action model
+where the some of the issues here is one
+there's all these training dynamics if
+these things are dis disparate training
+on different sets and things like that.
+Uh the other issue is plainly obvious.
+What I have to do to actually do test
+time planning is I'll have to sample my
+with model one invoke theta and then
+pass that sampled action into here and
+then roll it out to ST+1 and it's very
+expensive and it's very not real time.
+Two major issues and why like why can't
+we just scale up alpha go to like solve
+all the problems um is because because
+of this property. if I have one
+invocation to the model and it gives me
+both. Here's the action I should take
+and here's the ST+1 that I'll end up
+much much cheaper and much much faster.
+Okay, so I think that's a really good
+segue. I think why don't we now motivate
+everything we just described through a
+series of increasingly complex
+environments. So I'll contend that I
+think the right set of environments for
+us to consider is chess followed by go
+followed by self-driving followed by
+robotics. Um, all right. So, let's go
+through a couple examples of problems
+that we want to apply uh reinforcement
+learning to. So, chess is is a pretty
+easy one. There's an 8 by8 grid.
+>> Yep.
+>> Um, and so, typically when you when you
+uh approach any uh RL problem, you're
+going to look at uh star.
+>> And so, the this the size of the state
+uh uh the number of states I can be in.
+So, if I have these eight here and these
+eight, so this be 8 16 32. So it' be 32
+to the 64.
+>> Yes. Quite large.
+>> Quite large. Then uh my transition
+function is stochastic and non-
+differentiable because you can
+>> you don't know what the other player is
+going to do.
+>> So if I'm at like in uh uh playing
+chess.com at my house, I move and then
+something happens and it comes back and
+and then now you moved and the board has
+changed. So I can't really differentiate
+through what the other player uh is
+doing. The current my action space is
+actually quite small. Um, even though
+there's 32 uh uh pieces and all that
+stuff, that there's only eight possible
+moves in expectation that you can
+actually that are legit moves. So like
+>> in any given state, there's only
+eightish moves you could do.
+>> Let's just say in the beginning, I can
+move all my pawns. I can move my horses.
+So that's 10.
+>> Yeah,
+>> that's like not that much. So this is
+extremely small. And then my reward, we
+can use the heristic based approach or
+we can just say, you know, plus one zero
+or minus one if I lose, plus one if I
+win. And uh so this is very tractable.
+>> You say it's [clears throat] tractable
+even though there's a really big state
+space here. But why don't we talk about
+that for just a second? I think this a
+really important point. I think when you
+say it's tractable, you're specifically
+referring to the action space being
+small because it affects the kind of
+like combinatorial expansion here.
+Should we talk about that for just a
+second?
+>> Yeah.
+>> Or maybe we can add go and then kind of
+contrast the two.
+>> Yeah. So why don't we do that because um
+it's because I want to get to the alpho
+uh uh the way that they solve this. And
+you're right. So, if I were to do this
+naively and I just took um I'm at SC
+plus1 and I want to do look aheads. Uh
+what I would do is I would take all of
+the actions I can take. So there's
+eight. So I would do action one, action
+two, action eight bop bop and then each
+one of these I need to expand it for all
+possible states. And so now I need to do
+cardality s which we just said is this
+huge freaking number. And so I have to
+do that eight times. And I have to do it
+again. I have to do it again. So just
+doing looking forward one move is like
+>> quite intractable.
+>> Although at the same time you know the
+you everyone starts at the same starting
+position
+>> and while it is a really large space you
+know it there isn't an infinity number
+of potential.
+There's actually a relatively small
+number of game boards even four moves
+into the game as opposed to a game where
+you could start in any permutation for
+example of initial game state and what a
+few states down.
+>> Yeah. So so this is like definitely over
+uh um done because there's there's it's
+it's much much less than this in
+practice.
+>> Yes.
+>> But just naively like looking at you
+know uh uh what possible game states
+could be uh as a rough math here. But
+this is roughly the idea. And then each
+one of these leaves I need to invoke my
+value function right uh which is the
+value of that state t+1 and so I have to
+do that all many times and we'll get
+this alpha go but like this ends up
+being estimating the leaf node uh
+because at the end of the day my policy
+at ST I want to pick I want the arg max
+yeah
+>> of like the value of the the following
+>> action I guess it would be an a here
+aactly Yeah, the arg max over a of the
+value of the state of the of the end
+state s plus n let's say it's like
+that's the the main goal here. Um and so
+[clears throat] for me to do that I need
+to roll all this out estimate the value
+and then pick the the best one. And so
+this this quickly grows um however and
+we'll see this alpha go which is
+actually has an even bigger state space.
+Um so I think it's 19 by 19. Um grab my
+phone. I don't think I got the spot
+right now.
+>> So you have this 19 by9 grid. You can in
+each one it can be black, white or or
+nothing there.
+>> So I have three uh so let's do our star
+again.
+>> So the cardality of the state I think is
+going to be s uh two or three it turnary
+thing here I guess
+>> the 19 squar I think it's 361.
+>> Yeah something like that 361.
+>> Um my transition same issue I don't
+know. Uh my action space is going to be
+361, let's say.
+>> So it's a good amount bigger than chess.
+>> Much bigger.
+>> But it's still not uh enormous.
+>> Yeah.
+>> As we'll see in a second.
+>> Yeah. And so basically what they do,
+they call this Z, which is kind of
+annoying, but let's call it R. And it's
+the terminal. It's the terminal when
+they won the game. And they basically,
+you know, you have your trajectory which
+is um S 0 A Z R0
+um
+then then all the way to the end of the
+game.
+>> Yep.
+>> S N A N Rn. And if you won then all of
+these uh all the moves that black if
+black won all the moves that black did
+get plus. All the moves that white did
+were minus one. and they just that's how
+they create their um their rollouts.
+>> Roll out refers to a taking n steps of
+play of all players one after another.
+>> Yeah.
+>> Of moves under a specific policy at the
+at the particular instantiation of it,
+>> right? So let's just let's probably
+under this policy p theta t
+>> and we're going to overload T, but like
+this is that instantiation. We froze
+that model. We froze that model and we
+play I think it's like 70 games and we
+like treat all of those and we we're
+going to subsample a bunch of um of
+these uh state action results state
+action results to train our to update
+our policy in our our um in our world
+model our transition model and what it's
+actually doing is we we take in an ST we
+give it to some theta and it wants to
+output um
+the probability of ST+1 being played.
+uh which is our transition function and
+uh the uh value of the current state
+>> and how do we get the value
+>> and so the value of the current state uh
+well both of them are coming out of out
+of the model but basically the loss
+function L
+theta is going to equal and it's going
+to be eily close to this uh control
+problem one is we have some v theta
+minus this Z, which we'll just call it R
+here, um,
+squared, and then plus, uh, actually,
+sorry, it's minus this pi, which I'll
+explain in a second, log P theta,
+and I think they
+everyone includes this, but they include
+it in the paper, so I'll include it
+there as well, which is the um weight
+decay.
+>> Yep.
+>> And so um so this is basically what uh
+our loss function is. Then we'll play a
+bunch of these games. Let's try to be a
+little bit organized here. And uh and so
+this is our setup. This our
+architecture. And now the most once we
+train this thing, we do an insane
+insanely expensive task of uh of test
+time planning. And so this trend in RL
+is just called test time planning.
+>> And the and the specific algorithm they
+use here for this is Monte Carlo
+research
+>> MCTS. And so this is one of the possible
+things that you could do. Uh it ends up
+working extremely well I if you have
+small action spaces.
+>> Yeah. So let's let's just like very
+intuitively talk about what MCTS does
+and a lot of people have heard about
+Monte Carlo research because AlphaGo was
+such a you know big moment but how
+exactly does that map into our star in
+value function and policy?
+>> Yep. So I'll take this ST. This will
+give me uh 361
+uh uh numbers that sum to one. And so
+I'll have some probability of uh of
+where these things are going to go for
+the of where my my opponent will play.
+Um here.
+>> So these are like the sets of actions.
+>> Yeah. So I'm here.
+So that I have all my SC plus1's I'll
+have 361 of these things. Um and then
+>> to be clear, this is like action one,
+action two all the way to action 361.
+>> Exactly. Yeah. And the um we have to
+estimate the value of each one of these.
+And so then we have to invoke the model
+all 361 times to give me values for each
+one of these things. And then I will
+select I'll select it based on the the
+UCB the upper confidence bound which is
+this equation that is roughly something
+like um balancing
+uh
+my value function of ST+1
+which they're going to in the literature
+it would be called a Q value because
+it's actually the difference between a
+value function and a Q value is just
+that I have the action as well. Yep.
+>> So it's be st then a t. Um so we'll just
+call that q value which is my um
+exploitation term and then my
+exploration term will be something like
+uh it's this funky square root of n. Uh
+so it's the arg max of a of my q and
+then I have this which is the
+probability of this this move being
+played which we have from here of of s
+let's just call it st
+plus one and then I have this term which
+is this sum over uh n s
+b / n sa
+and
+>> yeah what's what's the intuition we got
+on this term So these ends is is the the
+visit count during my MCTS process. So
+this whole tree I'm going to
+>> So this tree can get really big, right?
+It's 361 per thing. So you can't
+>> depth of 30.
+>> So you can't visit every single leak
+though.
+>> Exactly. And so you want to keep track
+of which uh which state did you end up
+in and what action did you take when you
+were in that state and you want to make
+sure that you you have good exploration,
+right? And so the way you keep track,
+the way you ensure that you have good
+exploration is you want to not just be
+greedy and always pick the highest value
+one because that could be local very
+myopic. And so what you'll do is during
+this MCTS process, you'll start this
+dictionary which will be all zeros of
+the visit count of being in this state
+and taking this action. Yep.
+>> And then once you go through your first
+roll out, you'll do you'll go here.
+You'll all these things will be to zero.
+you'll have some probability. We're
+going to bias it towards the higher
+probability uh of places to go and then
+we'll go we'll expand those trees and
+then we will um update the counts that
+we visited this and that will basically
+reduce the amount of uh uh probability
+that we're going to select it again
+because this this will reduce my my
+exploration term and if it's highly
+valued then we're going to increase the
+Q on this because this is the expected
+value of going down this this this path.
+So the gist of it is fundamentally like
+you want to take the optimalish path but
+have enough exploration in this really
+expensive
+uh step you're doing here so that you
+are making sure you're getting a decent
+chunk of the other potential
+leaf nodes you could traverse to right
+in these 30 step rollouts. And so I'm
+going to do this this MCTS simulation
+800 times here.
+>> And then for all 800 I have to go
+through this whole process and I have to
+invoke the model like at least 30 times
+to get through all here.
+>> And so that's you know 27,000
+>> 800* 30 yeah invocations uh 24,000 uh
+invocations of the model to to develop
+this tree. And then once I have
+>> that's per step
+>> per step just to do one action into the
+game. A lot of people don't understand
+that this is like you don't like store
+this MCTS tree. You like you throw it
+away after uh uh you you make the move.
+Um but once it's very expensive to
+develop this MCTS tree and once you have
+it the probabilities of traversal are
+actually should be useful for training
+and then you end up biasing it and you
+train it with the MCTS tree which is
+like a little bit seems like circular
+motion or something like that like uh
+but you end up treating that as as the
+pi that you'll train in your loss
+function.
+>> Okay.
+>> Um so we have the r of did we win or
+lose. we have the the pi of of what was
+the end result of this whole expensive
+process. Um and then at test time we are
+going to do these 24,000 steps every
+single um uh every single move to pick
+the argmax uh that gives that that
+satisfies both exploration
+exploration and exploitation. In this
+case, you know, this still feels
+somewhat tractable though because the
+action space is small enough where this
+like kind of works. But now like let's
+say hypothetically maybe we can draw
+like an an imaginary go game of go where
+it's like
+>> you know let's let's say this game of go
+was like a thousand by a thousand. And
+so now you have a equals uh you know
+more or less uh a million.
+And now this this tree uh we're drawing
+here
+that has to take here this has cardal or
+like you know width I guess 1 million
+>> right
+>> and there's like s0 through s1 million
+and the number of uh you know steps you
+would have to take here presumably have
+to be way more than 800 in order to get
+any reasonable
+uh kind of sampling of this and so
+you're probably multiplying the test
+time cost of doing a roll out or of
+doing a a next step prediction
+astronomically if the game was even
+let's say you know this is only 100x
+bigger than the current game or not even
+50x bigger than the current game.
+Everyone was very excited about Alph Go
+and at the time in what was this 2017 uh
+2016 uh everyone's very excited about
+this and the important thing to pick up
+is that we did 800 uh MCTS simulations
+and to cover 361 possible actions on
+average. So that gives us about two
+samples roughly on an expectation for
+every single action.
+>> So here you need like two million of
+them for a similar depth
+>> to for for a similar depth. And then
+that's still to do a depth of 30, I
+would still have to do this times 30. So
+that be 60 million uh invocations of the
+model. So that better be a small model,
+right? That's a lot. Um so yeah, so
+>> that's to do a single action to be
+clear.
+>> Yeah. So exactly to do one action. So
+just imagine uh so why alpho uh doesn't
+scale.
+>> Yeah.
+To me, there's one uh the cardality of
+the action space must be extremely
+small. If it's big, sad.
+>> Yeah.
+>> Uh two, the um I need a perfect uh
+deterministic environment, right? Like
+this this this doesn't change. The rules
+of this game don't change, but like the
+rules to the stock market change all the
+time. The rules to like venture change
+all the time. Like the real world
+changes quite often. So, uh like uh
+homoscadastistic
+Uh, and real time if you saw the the
+movie the documentary is which is s such
+an amazing documentary. I'd highly
+recommend it to anyone that watches it.
+>> Um, the guy is s sitting there for like
+60 seconds maybe five minutes waiting
+for the computer to like decide and and
+it's kind of like imagine we were
+driving a car and like you took like 60
+seconds to like
+>> turn the steering wheel. Everyone's
+dead. Like the whole car is dead. And so
+like you know uh now let's talk about uh
+robotics and self-driving car um and why
+this why that approach kind of can't
+scale.
+>> Yeah, I think it's a really good
+contrast here because intuitively
+uh I think in thinking through this
+exact star layout, it actually really
+changed how I think about
+>> the kind of problem space of both of
+these two. So like let's take
+self-driving car
+>> Mhm.
+>> as an example. This is one, you know,
+many people have started to experience
+for the first time because we have some
+self-driving cars that actually work.
+You have Whimo and Tesla FSD and whatnot
+that seem like they kind of work. So,
+like let's maybe apply your same star
+framing here.
+>> Um, I would contend that the state space
+of self-driving car is enormous and it's
+actually not intuitive to me whether
+it's more or less large than this one,
+right? I mean, in a sense, the chess in
+AlphaGo state space is already like more
+than the number of atoms in the universe
+or something to that effect. But like
+just to emphasize that here, you know,
+you were considering, you know,
+surroundings,
+vehicle state.
+>> Yep.
+>> Uh like, you know, camera like
+>> weather.
+>> Mhm.
+>> I guess the point is like
+>> road conditions.
+>> It's like massive. This is massive.
+>> For all purpose is infinite.
+>> Yeah. For all purpose, it is infinite.
+Correct. Yeah. Um and and so is the uh
+space of pixels like you know like what
+can I put in an image? I can take a
+picture image of anything. Right. True.
+>> Um and so we're able to handle it and
+the same thing here where we compress
+from the board state. We don't represent
+the the board state. We compress it with
+a comnet. So they have some deep
+>> some some some deep comnet that actually
+takes this state and converts it into a
+latent,
+>> right? And that latent compression is
+sufficient to kind of like do pattern
+matching do do some type of like
+symmetric symmetric uh uh equivariance
+kind of things. And same thing with this
+and even better with JPA which we can
+talk about at the end there which is
+like basically taking some type of state
+space and doing all of our optimization
+in the latent space which stable
+diffusion did uh that worked extremely
+well which reduces our state space
+dramatically because I'm in some latent
+highdimensional space. So like the key
+thing there is that yeah despite this
+state space being effectively infinite
+>> we've actually gotten really good at
+compressing this and we'll talk more
+about some of the tricks for how we
+actually do this in practice here but
+the TLDDR is you know there's like 10
+years of deep learning work that
+basically makes us extremely good at
+compressing that very fast.
+>> Exactly right. Exactly right.
+>> T seems to have a similar problem as
+before. Right.
+>> In fact maybe even more extreme. there's
+like infinity other variables around you
+of things going
+>> in some ways you'd think that it's this
+is physics Newton's laws laws of motion
+should apply if I ste the steering wheel
+like this if I hit the gas I should be
+able to really easily model this but
+what is nondiffiable is that I have if
+I'm going into a a circle right is like
+the most the biggest issue that that we
+fa we faced in when I was doing
+self-driving car is like you're imposing
+your will onto maybe driving in India I
+think is [laughter] really similar right
+you're imposing your will onto the
+environment and like people just kind of
+adapt naturally like if you were doing
+Newton's law of motion you were going to
+collide and so that the optimal policy
+if you were being strict Newtonians here
+would be like don't move because
+anything you do you're going to crash
+but it's not true like that then we
+wouldn't function like cars wouldn't go
+down the road
+>> um and so you have to model the the
+envir you have to include other people
+in the environment and uh understand the
+embodiment of like how your action will
+change other people's actions why's Next
+batch is now taking applications. Got a
+startup in you? Apply at y
+combinator.com/apply.
+It's never too early and filling out the
+app will level up your idea. Okay, back
+to the video.
+>> Now, let's talk about the action space.
+You know, like one way to look at the
+action space is that it seems relatively
+small. Seems like, well, you know, you
+turn the steering wheel left to right,
+you hit the brake, you hit the you hit
+the gas. Doesn't seem that big, but like
+how big is it actually? like how do we
+actually represent these action spaces
+when it comes to a realistic
+self-driving car scenario?
+>> Yeah, I I don't know how they how they
+do this nowadays. Um they they're doing
+a whole bunch of like bird's eye view
+different things like that.
+>> Let's consider even just like a very
+simplified
+>> What do you have? You have a steering
+wheel that you can turn left, right? You
+have a a brake pad.
+>> Yeah.
+>> And you have the gas.
+>> Yeah.
+>> And so I guess [clears throat] this
+thing is like 365°.
+>> Yeah.
+>> So it's like a 1 to 365, let's say. Or 0
+to 365.
+>> Yep. And you, let's just say you break
+this up into 10 different uh uh
+severities,
+>> you're already at even with just this
+oversimplified model, your action space
+cardality, right,
+>> is 365,000. So that's like
+>> 100x bigger than alpha. It's in fact
+it's about the size of the example or
+it's a decent amount smaller than the
+size we said breaks.
+>> And so yeah, so 36,000 action space is
+very large. And then even worse, unless
+you're Tesla, we have a bunch of video
+of people driving cars. We don't have
+video of like dash cams like that. Like
+you actually don't have, again, only
+Tesla has this of the action as well.
+And so the things that you have access
+to your trajectories are just like ST+1.
+Yes.
+>> ST plus2.
+>> So there's a you're saying there's a
+decent number of these that's from like
+dash cam footage on YouTube or
+something, but not really that many
+either.
+>> Yeah.
+>> Relatively. So, if you wanted to do a
+self-driving car and you didn't want to
+go spend a million dollars, trillion
+dollars on going collecting all this
+data, then you want to leverage this
+data somehow. And this is going to be
+really applicable for uh robotics
+because we have a lot of uh uh videos of
+people doing things.
+>> Yeah.
+>> Right. Especially with ecoentric like we
+we have those videos, but we what we
+don't have is
+>> the actions they take.
+>> Yeah.
+>> Yeah. So this is like
+this is this is a sequence of what
+you're showing here
+>> unless you're Tesla.
+>> Unless you're Tesla and Tesla has this.
+So this is a huge competitive mode of
+like what do people do in that state and
+then so you can behavior clone to go
+from here to here from here to here go
+here to here etc. But even then it's
+still very very difficult. You have to
+it's it's not sufficient. People think
+that like okay I have this we have a
+self-driving car right? I mean the
+amount of work that they're doing at FSD
+is like incredible and it's it's not
+generally available like you can't you
+know it's not Whimo level um yet.
+>> Would this be a good moment to briefly
+talk about model free versus model based
+RL? I think that's an important
+distinction that's going to be relevant
+when you talk about more world models.
+>> Yeah. So this is a perfect point. Um, so
+model free just means that my my policy
+pi uh of a t given st uh I have no world
+model involved. It's literally and it's
+literally doing what I said. I grab a
+bunch of these and I train go from s to
+a s to
+>> just predict the next day.
+>> That's it.
+>> And that's and this is logic called DLA.
+>> Um, you know, this is like giving us
+pretty good results. It's behavior
+cloning. It's all the the the the stuff
+that [clears throat] it's not getting us
+to Rosie the robot just yet. But um
+>> in many ways, it's the closest thing
+that just looks like the next token
+prediction from LLM that seems to scale
+pretty well with natural language. I
+mean it's it's not exactly the same
+thing because there's no action exactly
+but picking a token is not exactly the
+same thing but it's very analogous to
+that like basic thing that's
+>> I basically take away the tokenizer head
+and I give it an action space and I
+collect a bunch of teaops data you know
+like this as as the self-driving car
+does in Tesla and I just
+>> take in the the state which is some
+image and or maybe sequence of images
+and then I'll output some action and
+that's it cool and this is let's say
+model
+because I don't have a model for the
+environment. And then now if I do model
+based
+RL
+I have not just some pi but I have also
+my
+uh sigh as well here and so uh by
+uh by including this I can have a much
+stronger policy but it would take a lot
+more time to perform inference because I
+have to do this full test time planning.
+Just to remind us that SI is referring
+to this specific transition function,
+right? It's referring to this.
+>> You're saying this is specifically
+referring to um a function of ST + one
+given ST and action T.
+>> Yes.
+>> So it's like your ability to predict the
+next state you'll be in is is the crux
+of it.
+>> Yep.
+>> As opposed to just directly predicting
+the actions.
+>> Yeah. And the main thing that I believe
+is that this is required for AGI. This
+is what the the human brain is is
+>> at least in the way the human brain does
+it.
+>> Yeah. And let me go further in saying
+that like if you look at the um billions
+of years of evolution basically there's
+this thing called 10 million 10 million
+years ago called the great cortical
+expansion which you see the size of a
+brain just explode get bigger bigger and
+bigger exponentially up until us and it
+basically stops. And if the entire point
+of the neoortex is world modeling, what
+happened is we started from VAS, this
+would be like ants or whatever and fish.
+Yeah. Right. Just like very like, you
+know, lizard brain, whatever you want to
+call it. And then we develop this
+neoortex to like, you know, go from our
+our motor cortex to actually simulate
+what's going to happen. And that makes
+us just so much smarter. And then we
+once we get those samples we can
+compress it when we sleep or otherwise
+with this hippocample shortwave ripple
+whatever you want to call it. And then
+that helps us uh develop a better
+policy. And that marriage between the
+two is is not only helps us um train on
+hallucinated uh examples but it also
+allows us to test time plan.
+>> Right. I I guess the the kind of extreme
+case then of self-driving car is kind of
+general robotics.
+>> Yes.
+>> Right. So if you're if you're like a
+humanoid company like figure or pi or
+whatever
+>> again same st setup.
+>> Yep.
+>> I I guess the gist of it is that a is
+now even bigger.
+>> Yeah.
+>> Right. It is like I guess a very simple
+robot would be Yeah. How would you how
+would you parameize the action space?
+Like let's take a very basic one.
+>> If I take like my six axis uh arm
+>> Yeah.
+>> as your your standard here that we're
+actually working on right now in
+Stanford Robotics Center. Um you have
+two degrees of freedom. Two degrees of
+freedom. Two degrees of freedom. Uh, and
+then you have another two for the
+endector, right? And so
+>> that's a simple endector, not even like
+a not even like a
+>> literally a one axis like, you know, you
+can rotate, but you have the the the the
+one axis yi style uh thing. So this is
+eight. So you have 16 degrees of freedom
+>> and let's just say that you do the 365
+by 10 or whatever, you know, kind of
+thing. I mean,
+>> it's like 10 to the 16.
+>> It's like insane, something like that.
+It's an insane number. Um, and so much
+bigger than self-driving car. Um, and
+even worse, like getting tea ops data is
+extremely painful and expensive. It's
+not just like, oh, we'll just get some
+people in the Philippines, we'll give
+them like some, you know, things or
+whatever. It's like totally totally
+doesn't work. And nor is there yet
+something like uh Tesla's fleet where
+there are cars deployed that people are
+just using and they're not even
+necessarily realizing that every time
+they turn the steering wheel they're
+providing this this data set for Tesla
+to train on.
+>> And then even worse you have this like
+what's called cross embodiment gap. And
+so if I were to like train this policy
+on Tesla Model X and I were to like put
+it on a Tesla Model 3 it wouldn't work.
+No. like it totally wouldn't work. Like
+all the so much so much of this uh the
+the way that if if I were to break on a
+Model 3 versus a Model X, a Model X, it
+weighs more. It has different dynamics,
+aerodynamics, and things like that. And
+so what's actually going to happen is
+very different. Like the degradation you
+have across c across embodiment is very
+very very strong.
+>> And clearly Tesla's figured various ways
+to get around that. I mean, they they
+have these that roll out, but actually
+even with Tesla's new FSD today, they
+don't roll out in all the cars at the
+same time. probably for more or less
+that reason. And in this case, it's even
+harder now. I mean, you have bigger
+differences between embodiment than a
+Model 3 versus Y. And you have way
+bigger action spaces. You have to sell
+some model.
+>> Yeah. Uh Lane Macintosh, I played hockey
+with at Stanford, who now runs Tesla
+FSD. Um I can ask him, but I would bet
+money that they shard the data per
+model, per uh car type.
+>> I just because that's what I would do.
+There's no way that like, you know, I I
+would trust, you know, data that was
+collected on a Model X on a Model 3.
+There would no way I would trust it.
+>> Okay. So, now that we understand the
+basic setup here and why the action
+space problem is so big, why don't we
+talk a little bit about how world models
+actually fit into this? You know, maybe
+first, you know, I guess what didn't
+work about the naive world models and
+how do we fix those and then let's kind
+of talk about some of the newest world
+modeling techniques.
+>> Cool. So like in robotics in particular,
+it's very hard to get these this kind of
+trajectories that you want that you kind
+of need to train for your VAS and people
+spend up you know uh with a whole bunch
+of teleops data. It's very expensive,
+very expensive. Ideally what we would do
+is take like data like this from someone
+who is just like puts a camera on them
+and just like making sushi. Okay, like I
+want to make a sushi robot. Um how do I
+do [clears throat] it? Give it to all
+the sushi chefs. Don't put anything in
+their hands and just have them start
+cutting up sushi and making sushi. And
+ideally, we would train it in that way
+you were describing of like somehow we
+would train a model just on these two
+and then later add this afterwards.
+>> And so the first real person that um you
+know went after this was Jurgen Smid
+Humor. Please uh so so he doesn't yell
+at us, we have to we have to make sure
+we cite him. Uh but he has this really
+cool paper called World Models. uh very
+aptly named and it's basically he took
+these like um open AI gym classic uh
+games car racing and I think Doom as
+well and then just like trained a model
+at that time was like an RNN um he had
+some funky uh uh zero order stuff in
+there whatever but basically the key
+premise was I can take an environment I
+can extract a whole bunch of this type
+of data off of it. I think he actually
+does actually this data but we'll get
+into dreamer where he does it in this
+paper in this way and then uh trains a
+policy on only the syn the the synthetic
+data the imaginated uh rollouts and it
+actually performs well in the
+environment. This is the first time in
+my understanding that that actually
+happened and it actually works really
+well. And then
+>> so the key thing there is you can
+basically use this if you have some
+predictive model of this in that case
+and eventually of this you can use that
+as basically a synthetic training set
+>> to train your policy model and then
+basically fine-tune it on real data
+later.
+>> Exactly. And which is just like a really
+powerful idea especially since in
+robotics the limiting step is access to
+large amounts of state action
+[clears throat]
+data. And so now the dreamer series. So
+basically this publish publishes in May
+of 2018. Uh Danar uh Hafner publishes
+dreamer one I think in November of 2018
+and then now he's been on this rampage
+for the last seven years publishing
+these papers and dreamer v4 I think is
+the capstone of it. Um where he
+basically does the same thing and he
+focuses on Minecraft. Um and he trains
+these a world a world model on this type
+of data and then injects action
+conditioning on a very small amount of
+data. Yeah.
+>> To get to this type of world model that
+can that has the action conditioning as
+well and then samples a lot from it
+>> and then trains a policy on those
+synthetic uh imaginated rollouts. And
+it's the policy is so good that it's the
+first paper to mine diamonds in
+Minecraft. I'm not a big Minecraft
+player, but apparently that's extremely
+difficult. That's like next level
+difficulty. And it did it all on
+synthetic data, which is kind of crazy.
+>> And and the key unlock there, yeah, use
+synthetic data specifically on a model
+trained on just this sort of state
+transition type of thing.
+>> Yes.
+>> And this ends up being very convenient
+because it turns out we as a society
+have a lot of this.
+>> Exactly. Yeah. All of YouTube, right? he
+does do a very small amount of data from
+to enable the action conditioning and
+that get that allows you to do this full
+uh simulated roll out but yeah it's true
+so we have we have YouTube we have like
+flicker we have all these data sets
+online of like you know people doing
+things we'd like to use it and no one
+has really gotten that to work and then
+now that with this um these like video
+generated generation models we can take
+that data create a world model out of it
+add action conditioning. Post train it
+with action conditioning for some new
+task that is we want it to do. Chopping
+down wood or uh you know um making
+[clears throat] sushi or folding my bed
+or whatever it is only a few amount of
+examples and then we can train a policy
+on this in this neural uh simulation.
+>> Yeah. And you know we put out a video um
+about diffusion models very recently in
+flow matching. I imagine that now ties
+very closely to this. Right. Ultimately
+the the kind of current state-of-the-art
+best way to do this on basically
+infinity data that we have available and
+can keep generating is using
+state-of-the-art video diffusion/flow
+matching models.
+>> Exactly. Yeah. So like if you have your
+your C dance or your Sora or Exactly.
+All those models like basically the idea
+is now we have them and they're already
+trained and they're great. let's do a
+small amount of action conditioning on
+them to get to this uh this world model
+and then we can sample from it a bunch
+and then train and this is exactly what
+wave uh did with Gaia and Gaia I think
+they've raised $1.5 billion to to
+basically run with this idea for
+self-driving car um I think a bunch of
+companies um Nvidia uh uh this this
+paper here uh is basically talking about
+doing exactly the same this dream zero
+for robotics um and What I thought was
+really cool about this paper is that
+they yeah they do exactly this process
+where they have this um joint model of
+um state transitions and actions. They
+train it by first instantiating it with
+the open- source one video diffusion
+model and then it only takes them about
+500 hours of teleyop data which is
+basically exactly this right
+>> to get it to be pretty good. And they
+have a lot of clever tricks that allowed
+it to be cross embodiment and work on
+scene tasks with relatively small
+amounts of data. And and it really is
+taking basically the exact concept I
+believe from the dreamer paper and
+applying it specifically to these robot
+embodiment. Exactly. Um and and it turns
+out it actually works uh actually better
+than I would have anticipated it
+working.
+>> Yeah. So I think that this is basically
+the the the path to it was the path I
+believe it was the path to get humans uh
+uh to be as good as we are genetically
+over the last 10 20 million years of
+evolution. A bigger world model helps uh
+for training and for uh test time
+planning. Um and I think it'll be the
+same thing as true as for robotics.
+>> What's also cool is there's a bunch of
+applications of this to things outside
+of robotics too. I mean there was a
+weather planning paper for example we
+were reading this Gencast paper which I
+think applies a relatively similar
+concept um in terms of how they model
+you know literally the world the
+[laughter] world's weather um with
+something like this. Yeah, we have to
+talk about the world model for the
+world. Um, [laughter]
+yeah, so basically they do this exact
+same thing where you know the key
+unlocks for this whole thing was getting
+diffusion to work in very high
+dimensional state spaces like we talked
+about in the last uh lecture and then
+learning to to use that to action
+condition in the way that he's done. But
+they did this for the entire world with
+this exact same diffusion steps which go
+from some and they go back to uh two
+time steps lag of of order two AR2 for
+the set of sitions there and they
+basically predict the next uh state of
+the world based on those things with
+this lang diffusion rollouts.
+>> My my big assertion is that um it was
+necessary for the human brain to develop
+world modeling. I actually just just saw
+this paper that I wanted to make sure to
+call out because I thought it was so
+great uh out of uh University of
+Washington where they say explicitly in
+the in the abstract each cortical area
+estimates both latent sensory states and
+actions
+>> and the cortex as a whole predicts the
+consequences of those actions. That
+sounds like a world model to me. Yeah.
+>> Right.
+>> Um
+>> it's actually describing exactly these
+two equations here. Exactly. Right.
+Where we're estimating both the sensory
+latent states and actions. I mean, I
+guess it's really the joint model that
+we showed earlier, right,
+>> is what he's describing here. It's
+exactly this this equation he's showing.
+Yeah.
+>> Exactly right. And so, uh, if it works
+in us, it should work in robotics. Um,
+and I think that that takes us the rest
+of the distance.
+>> Why don't we talk briefly about latent
+world models, especially the con the
+Jeepa concept, because I think there's
+been a number of papers that use Jeepa
+as an element of their, I guess,
+architecture. Why don't we just briefly
+introduce Japa and how it fits into the
+current landscape of world modeling?
+>> Yeah, in classic RL you'll have like you
+know if you do study Q-learning for
+example, you basically keep this matrix
+called the Q matrix. Yep. And it's going
+to be uh s by a and so I have this um s
+>> that's states and actions
+>> a states and actions and each one I need
+you know some amount of counts of being
+in this state action uh
+[clears throat and cough] and I take the
+average value of being of taking that
+action in this state and that's my Q
+value there and it's a little bit more
+complicated than that there's bellman
+equation all this backup all this stuff
+like that but so this scales horribly
+because as the cardality of my space
+gets bigger and my action space gets
+bigger stuff I don't have enough and I
+become less and less sample efficient
+correct right in case of like robots or
+whatever state is like yeah it's this
+whole thing we described earlier right
+it's absolutely massive because it has
+all of these elements in it couldn't
+really enumerate a huge grid
+>> and so the classic trick I mean since I
+took you know uh CS 229 with Andrew Wong
+in 2012 is you do this
+>> stick a neural network on it
+>> exactly and you basically are just going
+to compress that state into some lower
+dimensional state space. This is
+actually predates deep learning. Uh we
+were doing stuff like this. Um I think
+my first paper was basically doing
+something like this. Uh basically
+turning like a grid into like uh a bunch
+of like pyramids and like and and the
+state was how much I'm in pyramid one or
+pyramid 2 or whatever. But anyway, the
+neural networking can just do this. And
+so basically what uh the the key idea in
+JPA if I have um an image one and I have
+image two and I have image three
+I can do my my world modeling uh my my
+world modeling of st + one uh given st
+and a t in pixel space and have this is
+uh let's say at time t t t t t t t t t t
+t t t t t t t t t t t t t t t t t t t t
+t t t t t t t t t t t + 1, t+
+etc etc and I have to actually predict
+now the full uh image that's extremely
+expensive from a computation standpoint
+and also from like a sample efficiency
+standpoint. What I can do instead is put
+this through some comnet
+>> some encoder
+>> some encoder and then I'll get a latent
+for t and I'll have a latent for t+1 and
+I'll have a latent for z t +2 and then
+I'll have from this from zt I want to
+predict
+z t+1 hat and my goal is to make this
+and this uh make and my loss function
+will be something very simple like
+I want to minimize this that's it
+>> now this doesn't work this collapses
+hard and so what happens is basically
+just if you if you just predict zero
+>> done just output zeros [laughter] which
+the model will learn to do and I'm
+actually incorporating this into my
+current research right now um and so
+what you need to do is something called
+sigg or uh this is one technique vic rag
+is another where basically I add this
+another term that basically says uh I
+want the um over [clears throat] a large
+enough batch size I want the the
+distribution of z
+>> t + one to follow a gaussian you know
+>> it's kind of like a normaliz like a like
+a batch norm type of
+>> type of trick I mean not in the same
+>> if if it's zero it can't be this right
+cuz then this is non zero and so maybe I
+think that there's probably this or
+something like that but basically This
+prevents it from modal collapse and it
+makes it do something good. And this is
+the most recent paper for the audience
+is LE WM LE world model which is super
+super great. Um, however, to be
+completely frank, the
+this this is self-supervised learning
+super great. It doesn't work that well.
+If you were to not do uh these
+techniques and there's there's a bunch
+of other techniques that you can do, uh
+it will actually outperform much better
+and that are let's say for example um if
+I'm going to do an LLM and you have like
+you know Francois
+uh likes sushi, which is definitely
+true. Um, and I tokenize this into bunch
+of different tokens here.
+And this is token ID 6, 19, 28,
+whatever. And I look up the encoding
+into this. And it's going to be uh E1.
+>> Yes.
+>> E2,
+E3, etc.
+Um what you can actually do is have the
+LLM output uh what the LLM will take in
+take in these things and we'll output
+um the the next token and so it would be
+like let's call it H uh this would be
+the low jets coming out of it two plus
+one
+>> and what you can do is actually have
+this be close to E T+1.
+>> Mhm.
+And a lot of people are playing with
+this idea and getting rid of the cross
+entropy loss entirely.
+>> And so if you were to do this, it
+actually as a proxy for the cross
+entropy loss and there is no cross
+entropy loss and the the cross entropy
+head is actually very expensive.
+>> And so this is very cheap and like this
+literally just grabbing it. So people
+are playing around with this idea um and
+as a as a basically as a as a cheaper
+proxy for the cross country loss. So
+there's lots of different ideas on
+basically uh taking this JPA idea to not
+just pixels but to L lns as well.
+>> Yeah. Interesting. Yeah.
+>> So just to define what JPA is, it's
+joint embedding predictive architecture.
+I
+>> I think one of the things I find cool
+about this JPA idea is it feels like an
+idea we see over and over in deep
+learning. There's a version of this idea
+that's basically the stable diffusion
+idea. Yeah,
+>> there's a version idea that in my
+company training graph convolutional
+neural networks to um design drugs we
+use to do you know latent variable
+generation for example and it's like
+it's an idea that comes back over and
+over and then has this yeah various
+tricks that it actually takes to get it
+to work in practice.
+>> Okay, now we have a pretty good sense
+for how world models work. We have a
+pretty good sense for what the state of
+the art looks like if we trust this
+paper
+>> and it seems like these kind of work on
+robots too. This paper is only from the
+end of end end of last year this year
+and it seems like they have various
+methods that allow you to train on
+relatively small amounts of data that's
+tractable and pre-trained on you know
+diffusion models.
+>> So are we good or [laughter]
+does it all work?
+>> Yeah, this is 2016
+will be the year of the robot. We're
+going to have Rose the robot in your
+house, you know. Um
+>> yeah. No. What What are one or two
+because there's lots of open problems
+remaining. What are like a few open
+problems maybe we can emphasize here
+that the community can go emphasize
+working on?
+>> Yeah. So um I think the first one is
+that uh pins doesn't really work. What
+is pins? Physics informed neural
+networks. So pins
+uh doesn't really work. This is physics
+informed neuronet networks. And so
+basically if like almost all of the
+self-driving car data looks like this.
+The car is driving down the road. And
+let's just say for example uh I have you
+know uh a house here
+and I want to train the model on you
+[clears throat] not driving into the
+house. And so [snorts] let's say I put I
+put it into a state right here to drive
+into the house. What's going to happen
+is because almost all the data is like
+looks like this driving down the road.
+This will just turn magically into like
+a highway and it just like boom. It just
+don't worry.
+>> It basically needs like a ton of data.
+not to do that either from simulation
+for that to not happen.
+>> In fact, I actually don't even know if
+because of the data distribution,
+there's no data here. There's almost all
+the data here. And like when you're
+training a neural network, it has a a
+tendency to collapse if you don't keep
+the mini mini batch composition uh like
+very even over the you know over the
+class space or whatever you want want to
+call it. But like you'd have to train on
+uh you you have to be very careful about
+your data mixing to make sure you get
+this right to solve this problem that no
+one really has. But even then the if you
+take just a simple thing like this, this
+is like the the the conic example
+and I have some sine wave and I want and
+I have these as my xop
+and I have these as my y. So this is
+complete interpolation.
+>> No.
+>> Uh maybe messed this up, but why like
+this?
+>> No,
+>> we can't get to like machine precision.
+We can't What is it? I don't know what
+is it 18 - 16 or whatever it is. We
+can't we we the SGD will not get to Z
+effectively zero. So we'll always have
+some residual. And for us to be like a
+really good world model to simulate body
+interactions like to to simulate this
+what's going to happen when I do this
+and like let's say that I'm trying to be
+LeBron James. like there's like I saw
+this one video of um Steph Curry
+dribbling a a basketball on a court and
+he just felt that there was a dead spot
+in the court and he because he's so good
+and he knows exactly the physics of
+what's going to happen if I hit this you
+know the ball with this force like the
+ball is going to come back exactly this
+spot and it just didn't and he knew it
+wasn't him it was the the court and he
+found a dead spot in the court like
+that's how good the the human brain is
+at world modeling in my opinion I think
+it's an SGD issue I think it's probably
+an architecture issue. I think Sam Alman
+just kind of came and just said that he
+thinks that there's definitely an
+architecture that's going to be more
+performant than the transformer. I think
+he's right. Um I think the the the
+transformer doesn't do compression uh uh
+in the time domain at all. It just keeps
+on everything. Um so anyway, so I think
+that the getting higher fidelity in the
+world model is extremely important.
+>> One I think two
+>> seems like test time probably is going
+to be big thing like adaptation.
+>> Exactly. test time planning we the how
+quickly the human brain can you know in
+in times of in sports and things like
+that when you're playing tennis you're a
+tennis player like how quickly we can
+adapt to what a player is doing and
+things like that we're not going to
+sleep and like retraining we're we're
+very quick to adapt to a new new
+environment
+>> like the out of distribution prediction
+is really challenging
+>> and like one little data point we can
+like quickly adapt to that new thing and
+change um I think there's been a lot of
+papers
+uh uh on like basically estimating that
+the the friction coefficients and so
+like those can change over time if you
+go to a human environment or not for
+example like this this friction might
+change and that's important in control
+um and so you need to estimate that very
+quickly and adapt and that these models
+just kind of don't have a mechanism to
+do it. Yeah. And then I guess there's
+like the practical
+speed elements of these, right? A lot of
+these are doing some sort of expensive
+planning step
+>> and we're doing [clears throat] some
+sort of like
+>> uh we're we're kind of hacking around it
+with this pre-training process and
+synthetic data, but even so like to
+really get maximum performance right
+now, you'd want to do something that's
+closer to like the AlphaGo style roll
+out and it's extremely slow,
+>> right? The MCTS process which can't
+happen. Um, the other thing that that is
+pretty crazy about the way that the
+brain works is that like everything is
+kind of running autonomously. And so
+like you you might be like in the middle
+of saying sentence one and be like, "Oh,
+actually no, something else." And so
+like what just happened there? It's like
+type one and type two thinking are
+happening at the same time in some way.
+And so like there's definitely uh you
+know some um really cool mix of these
+like heterogeneous
+models and like some are overriding
+others and like taking control of the
+motor cortex and like commanding the
+body to do a thing you know.
+>> Okay. But on the flip side now we um
+talked in the past video about the
+squint test and how we felt that
+autogressive LLMs maybe don't pass the
+squint test. Why don't we reintroduce
+what the squint test was for a second
+and then maybe let's think about whether
+this passes the squint test despite all
+those limitations.
+>> Yeah. And the squint test for me I think
+is like um this comes from the Yan Lakun
+uh we didn't need uh flapping wings to
+achieve flight. Um and to that I say
+well we did need two wings. And like if
+I squint and I look at a bird and I
+squint and I look at a plane I'm like
+yeah
+>> it's kind of similar.
+>> It looks right. Um, similarly, if I
+squint and I look at the human brain and
+I squint and I look at all these these
+world models, we have like this VA, this
+action policy, and that they're doing
+test time planning together and things
+like that, it's getting really close.
+It's much much closer.
+>> Seems closer than an autogressive LLM.
+And that like this concept of a world
+model of, you know, implicitly
+predicting future states and actions
+feels intuitively like what our brain is
+doing. And it seems like there's some,
+you know, neuroscience evidence to
+support that. I mean, I'm I'm getting to
+the conclusion that I think that the
+brain is the optimizer, not the model,
+and that the the brain emits like has
+models that it invokes, but the brain is
+somehow also the optimizer itself. And
+so, in that way, it doesn't pass the
+squint. Um because like, you know,
+something magical is happening when
+you're sleeping. There's no intelligent
+species that we're aware of that have
+any amount of intelligence that don't
+sleep. And so, like octopuses, dolphins,
+all this stuff, elephants, they all
+sleep. There's some reason for that. And
+that seems like a really think about
+like the evolutionary re like recourse
+of sleeping like you get eaten when you
+sleep. So like for the benefit of
+sleeping should be so so much better to
+outperform that. So I think we don't
+have this idea of awake sleep uh in our
+current um architecture but I can
+imagine I'm like simulating you know you
+know compress from the hippo campus some
+like experience in the day. I'm like
+training on more of those examples,
+right?
+>> You're like collecting a whole bunch of
+these experience rollouts and then
+you're updating your your policy
+function over there.
+>> There's got to be something like like
+there's this thing called shortwave
+ripple where like the hippoc campus when
+you're sleeping like emits these uh
+spike trains that are actually reversed
+from when they actually happen back in
+through the both both the hemispheres
+and for like seven times and then it
+like stops.
+>> So like there's something happening
+there that's very uh uh training
+something. Yeah. And if you don't sleep,
+then you don't up you don't have
+long-term memory. Right.
+>> Right. And so like there's definitely a
+reason why we're we're training uh uh
+things that happened uh into our brain.
+>> So where does that put us now? We have
+all this work happening with world
+models. How should we think about what's
+coming ahead in these next few years in
+the research community?
+>> Yeah, I think that like we're going to
+see a lot more uh of these world models
+in robotic policies. I think that's
+going to unlock probably full self
+driving would be like a one of those
+examples if they can get the real
+timeness of it. They can probably they
+can probably solve it with more compute
+to like have parallel things and you
+probably don't need it for like most
+standard things maybe like you know
+getting out of weird parking jams and
+like things like that would take us some
+time similar to the Rosie the robot
+which we've always wanted to have a
+Rosie the robot to like you know clean
+up my room for me. Um, I think that like
+this feels like we're getting to good
+enough that we can pay up for data in
+compute to get to Rosie the robot. It
+does feel like that it'll be expensive
+to collect the data and do the dreamer
+sequence of going from state to state
+and then getting the action conditioning
+to work, but like I feel like it should
+work.
+>> Yeah. I mean what's pretty cool is we
+see a lot of companies at YC working at
+every step of this from the collecting
+egocentric data collecting uh the
+teleyop data training their own world
+models and action models um building new
+embodiment and then making ways of
+adapting those embodiment and feels like
+this is the first year where you see
+demos where you're like okay this
+actually like kind of is starting to
+look like it's going somewhere and it
+seems like a very exciting year.
+>> Yeah. So anyway, I think that there are
+real AI problems to solve still. We
+talked about pins. We talked about the
+real-time issues. And then on the
+robotic side, there's real issue. Like
+it's amazing how effective our epidermis
+is in terms of we we can detect detect
+tactile.
+>> Oh, epidermis.
+>> Yeah, epidermis. Our tactile. We can
+detect sheer force. We can detect
+temperature and it's everywhere.
+>> And so like versus, you know, like the
+we get like one little sensor that only
+does tactile. But we don't have the the
+friction component. We don't have
+temperature. We don't have all these the
+feeling. We can't estimate coefficient
+of friction very quickly. I can touch
+something and say, "Oh, this is smooth.
+This is rough." It doesn't we don't have
+any of that. And if I numb your hands, I
+actually had this experience uh um just
+recently. If I numb your hands, like you
+actually can't tie your shoes. Yeah.
+>> So, you can't perform control. And so,
+like, yeah, if you like, you know, uh uh
+if you train enough um on enough human
+data tying your laces, do I think you
+can do it with no feedback?
+Maybe, maybe. But like how much would
+you need if you did actually have the
+human like touch? Like I think it'd be
+so much easier.
+>> Yeah. Well, there's a lot of more
+research to do then.
+>> Yeah. Yeah.
+>> Thanks so much for joining us. Thanks so
+much for watching everyone. We'll be
+back with the next episode of Decoded.
+[music]

@@ -1,0 +1,950 @@
+Title: Alexandr Wang: “This is a Once-in-a-Civilization Opportunity”
+Video ID: sJ4VJWycX9M
+URL: https://www.youtube.com/watch?v=sJ4VJWycX9M
+Channel: Y Combinator
+Published: 2026-07-29T19:37:05Z
+Duration: PT32M10S
+Views: 301421
+Likes: 5628
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 934
+
+============================================================
+TRANSCRIPT
+============================================================
+
+All right, [music] full rockstar
+treatment for Alexander Wang, everyone.
+All right.
+>> [cheering]
+[applause]
+>> So, why don't we start out uh backstage
+we're saying, you know, one of the cool
+ways to think about this event is like
+you know, this room is actually full of
+people who are just like us, but when we
+were 18 or 20 or, you know, there's some
+16-year-olds in this audience, you know.
+Let's jump to your story. I mean, you
+got it came up always really smart like
+math olympiad like jump us to, you know,
+the Alex of that time. Like, what were
+you feeling? What were you thinking? And
+what drove you down this road?
+>> Yeah, I am
+uh
+Well, I grew up in New Mexico, Los
+Alamos, New Mexico, um which now
+Oppenheimer famous, but um
+it really was the middle of nowhere and
+uh
+I remember I did all these math
+competitions, all these um computer
+science competitions, but then um
+I knew I wanted to do really big things
+and it was like not exactly clear how or
+what the exact path to do that would be.
+Um
+and I had a friend who was really into
+programming um and, you know, after high
+school got an internship in the valley.
+I think his first internship was at
+Palantir. And um and he, you know, he
+was kind of this um influence for me and
+so after I finished uh high school, I
+ended up working at Quora um here in
+Silicon Valley. And then um
+I worked there for a year. I took a gap
+year to work there um and then I went to
+MIT.
+Um and this is I was 19 when I worked at
+Quora, I was 18 when I went to MIT and I
+was 19 when I started um Scale. And I
+remember this period from like 17 to 19
+it was um
+uh
+I felt like I was constantly changing
+like
+you know exactly what I want to do was
+constantly changing. You know, I was
+learning so much just from the people
+around me and it was just like I felt
+like I was drinking from the firehose
+pretty constantly during that time. Um
+and um I would definitely recommend you
+know the two things that were really
+important. One is I think working at a
+company was really valuable because like
+I think from the outside in you have no
+idea how companies work. You have no
+idea what it looks like to actually
+build something. You have no idea what
+it looks like to iterate on something.
+You have no idea what it looks like for
+groups of people to make decisions. And
+so I thought that was really important.
+And then going to school at MIT was
+actually really important because it
+just gave me a lot of um opportunity to
+explore what was interesting. And so it
+was at MIT that I started training my
+first models and um that I like played
+around with TensorFlow which had just
+come out that year at MIT and where I
+like ultimately came up with the idea of
+Scale. And then after one year at MIT I
+applied to YC.
+You know, it felt like kind of like a
+miracle to get in at that time. And uh
+and YC was was really critical to my
+entrepreneurial journey. Like I don't
+think um like YC is this amazing blend
+of uh you know, they're very supportive
+and they obviously want you to succeed,
+but they also give it to you very real
+and they tell you when you're being a
+dumbass um which I think is uh you know,
+that's what we all need in life. So
+um yeah, that was I think the story till
+then I was 19 started Scale and uh the
+rest is history.
+>> I guess with uh you work with Jared
+Friedman at the time and um you came in
+with actually a very different idea than
+what ended up becoming Scale.
+>> Yeah, so we wanted to build um like an
+AI agent funnily enough for uh for doc
+for to help people like get medical
+care. Um and it was like the right it
+was a great example of an idea that I
+think will ultimately exist. Like I
+think we're even seeing it now. Like AI
+agents to help people get medical care
+are very real. But it was the wrong
+timing.
+Um and uh and we worked on it for about
+a month or two before Jared pulled us
+aside and were like, "Guys, this is I
+don't know if this is going to go
+anywhere."
+>> [laughter]
+>> Um and uh and that's exactly what we
+needed to hear. And it was at that time
+when like, you know, where I had studied
+AI to my T. I had like trained models
+and we thought we sort of went back to
+the drawing board, thought deeply about
+where the opportunity was, and
+>> came up with Scale.
+>> I guess selling data at the time, you
+know, large language models were not
+even had had not really come to the fore
+yet. Um but self-driving cars were sort
+of coming up and and computer vision
+suddenly became So that was sort of the
+first market. Is that right?
+>> Yeah, so
+the the story here is that like I was
+when I was at MIT, I did a bunch of
+projects like train train models of
+various forms. And these were like, you
+know, by comparison today, they're like
+little toy models. And um and I remember
+to train a model, uh I needed three
+things. I needed a
+uh GCP account, like I needed an account
+on some cloud service to get compute. I
+needed um the code to run to actually
+train the model. And I needed data. I
+needed a data set. And uh for two out of
+these three things, you could just press
+a button online and get them. And then
+for the last one, for data, there was
+like no effective way to get data for
+training these training these models. Um
+and so it felt incredibly obvious that
+this was going to be the future, that
+there was going to be a way to um
+you know, press a button so to speak and
+get data. And uh it was very funny
+because
+in the years that followed, like in the
+first many years of Scale, data was very
+unsexy still. Um every time we would go
+out to fundraise, even though our
+numbers were great and we had great
+revenue, you know, VCs and investors
+would always be very skeptical. They'd
+be like, "Oh, I don't know if this is a
+good business. Does it have longevity?
+Is it durable?" Um
+and uh it was really weird to me, but
+you know, none of the investors had ever
+trained a model. So, I guess they didn't
+really get it. Um
+and uh fast forward to today, you know,
+we we managed to raise money, we managed
+to keep going, managed to keep growing
+the business, but um the very same
+investors who passed on us and were um
+were very dour on the potential of AI
+are writing think pieces today about how
+data is so critical and is one of the
+biggest business opportunities um in AI.
+So, uh it's very funny to see that whole
+whole thing come full circle.
+>> I mean, it seems like that's actually a
+real good um
+case study in first principles thinking,
+right? Like, you can't start a company
+by opening the pages of the Wall Street
+Journal and saying, "Well, this data is
+hot. Like, we're going to go work on
+that." It's like, you literally couldn't
+have started Scale that way. You had to
+start from
+uh think like simple statements
+that are about the world that you know
+to be true and then sort of building
+something for that.
+>> Yeah, I think the the key thing is you
+need to develop conviction in a set of
+beliefs that nobody else um agrees with.
+Like, I think if you look at all the
+most successful companies in the world,
+um
+they were started at a time long before
+the sort of like core idea was popular.
+And they work on that. They toil in
+obscurity for years and years before,
+you know, the the idea or the space or
+the concept of the business, you know,
+becomes consensus. And the only way
+you're going to be successful is if
+you're able to identify these truths
+about the world early, long before
+everyone else. And I think the like
+I mean, one of the most surprising
+things like, you know, Scale, we've been
+working on AI for a decade. You know,
+you just you can't base your business
+decisions based on what everyone else is
+saying around you. Like, if you go too
+much with the herd, you will get
+immensely confused and you will end up
+nowhere. And so you have to develop your
+own compass of what you think the future
+is going to look like
+because everyone else will just confuse
+you.
+>> It seems like one of the things you got
+incredibly great at was you know, you
+start with this kernel of like we
+believe X and nobody else believes it,
+but then the mechanics of building the
+business are talking to investors and
+convincing them and not letting them
+demoralize you, talking to customers who
+I mean should just get it and then
+especially like convincing people to
+come work for you.
+>> Yeah, I think that the the
+these early mechanics of building a
+company like the these are things that I
+think you might have some predisposition
+be good at, but like
+nobody is good at starting a company
+when they start a company.
+And
+I remember talking to a lot of the
+investors who I met very early on and
+they you know, a lot of them would say
+like oh, like you know, you just grew so
+quickly and you changed so quickly and
+like I didn't you know, I didn't see it
+at the time. And I think that's probably
+true for literally everyone who starts a
+company like nobody is
+nobody is good at something they've
+never done before, right? And so
+I think for all entrepreneurs, you start
+out pretty shitty at everything and
+the whole game is how do you develop
+yourself to continuously improve to get
+better and learn quickly.
+>> Uh backstage we're talking about this is
+actually a really lucky time to start a
+company cuz you know, obviously you can
+come do YC, uh you're you know, the
+people in this room have each other,
+which is kind of wild, but not only
+that, now you have
+a ideal personal AI that's going to tell
+you, you know, hey, these are some ways
+to do it. Um
+Do you think that would have helped you
+like accelerate even faster? Like you
+know, talk
+What do you think it's like to start a
+company today with with AI in the age of
+AI?
+>> Yeah.
+I mean I really think I think we're at
+this like in amazing moment in the world
+where the bottleneck is not the progress
+of the AI models, the bottleneck is
+diffusing that through the rest of the
+world and and helping the world adapt to
+this amazing technology that already
+exists. Like I think if the models
+didn't improve at all from today, there
+would still be like decades and decades
+of like total upheaval and change in the
+economy and how the world operates and
+and everything around us and um you
+know, so I think it's as a result, it's
+like one of the most incredible it's
+probably a like once in a civilization
+opportunity to be a dreamer and to have
+a vision and to have ambition and to
+impose a view of how the future world
+should look by building something
+amazing. Um you know, one of the things
+that we were we were chatting about um
+uh
+you know, backstage is you know, when
+when I started Scale or you know, 10
+years ago, if you start a company, you
+had to be um you know, it was like David
+versus Goliath and you had to be clever
+and you had to find like an angle into
+the market and you had to sort of like,
+you know, figure out um a way to compete
+even though you had much fewer
+resources. And now I actually think with
+the power of agents um and AI broadly
+speaking, it's much closer to Goliath
+versus Goliath. Like I think but maybe
+the startup is like a Mecca Goliath that
+is like vastly enhanced by the power of
+agents and AI and you know, the the
+large companies are the sort of like
+more traditional Goliath, so to speak.
+But I think that startups now like if
+you properly embrace AI agents and um
+figure out the way to leverage their
+strengths in the most like ambitious
+ways, you can easily outcompete
+incumbents.
+>> So, let's talk about super intelligence
+because that's clearly that's even in
+the name of your lab.
+Um,
+what does super intelligence mean
+operationally inside Meta right now?
+>> Yeah, I think that you know, we a year
+ago Mark wrote this um,
+memo about personal super intelligence,
+which I think actually is very similar
+to your concept of personal AGI. But,
+you know, we believe that everybody in
+the world, you know, all the billions of
+people in the world are going to have a
+super intelligence that is adapted and
+tailored to them, that is enables them
+to accomplish their goals, knows their
+context, and ultimately is an expander
+of their own agency. Like I think the
+thing that we think a lot about is is
+agency expansion. How do we help people
+accomplish things that they couldn't
+have ever dreamed of before? And what
+would everyone in the world do if
+everything was just easy? Um, and we
+think about this in a in an ecosystem
+way um, as well. I think uh, you know,
+Patrick mentioned it, but you know, we
+don't believe in this totalizing, you
+know, totalitarian view of, you know,
+AIs that control the world. We believe
+that these are going to enhance this
+very broad ecosystem. And so, you know,
+we believe in billions of people all
+around the world all having their own
+personal super intelligence. And we also
+believe in, you know, an explosion of
+entrepreneurship. There's 200 million
+businesses that uh, are on Meta's
+platforms today. We think that number
+should go to billions with this
+explosion of of creativity and using AI
+tools. And ultimately we think that, you
+know, it's going to be this like dynamic
+ecosystem of business agents working
+with, you know, personal agents and
+developing this sort of like
+uh, complex ecosystem that is fully AI
+supercharged.
+>> So, I was really psyched to see Meta
+Spark uh, 1.1. My my open claw
+absolutely loved it. Um,
+how you know, how how has running a
+frontier lab been? Um, you know, the
+Meta Spark level is sort of the opus
+level. Uh, what's coming down the pipe?
+And also I think that you're uh, you're
+increasingly looking at open source
+which uh, I think this audience really
+loves.
+>> Yeah, yeah.
+So, I think it was um, it's been you
+know, I've been at Meta for about a year
+now and it's been um,
+quite a year. I think uh,
+you know, getting in and um, you know,
+Meta we we've talked about it publicly
+like Llama 4 wasn't on the trajectory
+that was needed for um, for Meta and so
+I got in there and we kind of did a
+zero-based build of how do you um,
+you know, build an entire frontier lab
+uh,
+you know, in some ways kind of from
+scratch obviously using a lot of what we
+had um, and move as quickly as possible.
+And so within nine months of that moment
+we launched new Spark 1 and then uh, two
+months later we launched new image and
+new Spark 1.1 and um,
+you know, there's a few things that I
+think have really struck me about this.
+It you know, the first is talent density
+was incredibly important. That was the
+the core thing to bet on and um,
+like talent density is something that
+compounds naturally. Like the more
+talented people you have the more of the
+most most talented people want to join
+you. Um,
+you know, in and I think it's it's kind
+of um, amazing to see on the inside but
+you know,
+frontier AI work is research. Like we
+are it is scientific work. We're
+exploring what can you do with these
+models? How can you push these models?
+What is the what are the reaches of what
+can be accomplished with these models
+which requires a totally different
+mindset and operating model than you
+know, existed for internet companies or
+internet products and what not. There's
+a lot more about experimentation, about
+science, about scaling and everything
+ultimately is about how do you develop
+a lab, an operating model, a system that
+will just um, be able to compound with
+all of the exponential growth that will
+happen in the ecosystem. Both the
+exponential growth in capabilities, the
+exponential growth in compute, um, the
+exponential growth in adoption and
+usage. Like these are all um, we are on
+this like very, very steep exponent
+across maybe every dimension of the
+ecosystem. And um, it's important to
+develop like a like an organism. That's
+how I think about the lab that that's
+able to sort of grow with that. Um, you
+know, it's been it's been very exciting
+and we're we're going to be shipping a
+lot more. So, um, I think uh, you know,
+we will we just launched Muse Spark 1.1,
+which was a great model. We're going to
+continue to have updates on the Muse
+Spark line. Um, we're also have bigger
+models on the way that I think will be
+uh, much more competitive with even the
+very best models that are out there
+today. We're going to be launching a
+harness um, soon and have been working
+on a harness to help empower all the
+developers and agentic developers out
+there. Um,
+and uh, and then we're also um, you
+know, as you mentioned, we're working on
+open-source models. And we want to kind
+of as I described before, like, we
+believe in a decentralized world of AI
+capability and progress and development.
+Like, we want to we want to empower the
+broader ecosystem and everyone in the
+world to be able to build and develop
+using this technology. And so, um, we
+have a lot of exciting things on the way
+and I think we want to be um,
+we want to empower the ecosystem and
+developers as much as humanly possible.
+>> I mean, it sounds like one of the ways,
+I mean, certainly when I was using uh,
+Muse Spark with my Open Claw, like, it
+it became clear that it was as good as
+Opus, especially for that sort of
+agentic flow with skill files, but it
+was like eight x cheaper, actually.
+>> [laughter]
+>> Yes. Well, we I think this this goes to
+it. Like, I don't, you know, we don't
+believe in a world where these models
+are so expensive that, you know, they
+get rationed only for the most wealthy
+of developers and and companies. Um,
+it's important for everyone to be able
+to use the technology to um, and to
+build whatever they want to build with
+it. And I think that, you know, we take
+a view
+I think the best AI products haven't
+even been developed yet. You know, that
+if you look at the AI ecosystem and
+everything that's happened, like every
+wave is 10 times bigger than the past
+wave. So, you know, when I started
+scale, the first wave was maybe
+self-driving cars. Self-driving cars are
+really awesome. They're like really,
+really cool, but that was like pales in
+comparison to large language models and
+chatbots. And like, you know, chatbots
+became this thing that was like probably
+10 times bigger even than um than uh you
+know, self-driving cars. And then there
+were coding agents which came a few
+years later. And coding agents are
+probably 10 times bigger than than um
+chatbots. And I think we're just on this
+steep curve. Like, we're going to keep
+seeing these new modalities and form
+factors and developments of the AI
+paradigm that will each be dramatically
+bigger than the last. And so, um you
+know, our point of view is like, let's
+let's unleash the ecosystem. Let's
+explore and let's see um let's build,
+you know, kind of the future of the
+world together.
+>> So, what's the best way to actually take
+advantage of the coding model uh from U
+Spark? It's it's open code, right?
+>> Yeah. Today, um the the easiest way is
+to use open code. We have like
+onboarding on the website. And then uh
+soon we'll have a harness of our own.
+And um ultimately, I think we want great
+models that plug into all of the
+available harnesses and empower as much,
+you know,
+uh sort of combinatorial innovation in
+the ecosystem as possible.
+>> Yeah, I know the harness is uh you know,
+under wraps still. But like, can you
+tease us with
+you know, I mean, I still use open claw.
+I still use Hermes agent. You know, it's
+uh you know, these things are I call
+them Ferraris that break down on the
+side of the road all the time. Like, is
+this a Ferrari that won't break down?
+Like, you know, tease us a little bit.
+>> Yeah, hopefully hopefully it doesn't it
+doesn't break down. I mean, I think
+we're really focused on speed. I think
+speed is
+um
+you know, for anyone that uses these
+tools, speed is probably the you know,
+one of the most critical things. I think
+also reliability, like you mentioned, we
+want to be extremely reliable. Um we
+want to be very extensible and to scale
+to as complex and interesting of a
+multi-agent setup that you that you want
+to have. Like I think there's so much
+innovation that will occur even above
+the harness, frankly, um in terms of
+like how to orchestrate and set up loops
+and and develop like, you know, very
+complex ecosystems of these agents
+working together.
+Um Uh we want to be really extensible
+and and um ultimately we want to just
+empower people to harness this
+technology because harness that Oh,
+>> [laughter]
+>> uh no pun actually pun not intended, but
+um
+but there's like I truly believe these
+these models are already just incredibly
+powerful. Like they should they should
+be so powerful to fuel, you know, um
+many many points of expansion of GDP
+growth and I think it's like up to smart
+people with vision and ambition to make
+all that happen.
+>> Let's see. So, one question. I mean,
+when you look back on the decade, um
+what do you think they'll say was
+obvious in hindsight about AI that
+people are just missing in real time
+right now?
+>> You know, so much of the debate that
+happens these days is around oh, how
+good are the models actually getting and
+can the models actually bridge this
+issue and, you know, when are we going
+to get super intelligence? Is that in
+like 2 years or 5 years? And, you know,
+are we going to hit a wall? And, you
+know, so much of that debate is like
+I think um in some ways uh
+a little bit of a waste of time because,
+you know,
+I think it's inevitable that we're going
+to have very powerful models and um you
+know, rather than
+I think we'll look back and say, "Oh,
+all this arguing around like when
+exactly it was going to happen was sort
+of um was short-sighted because the
+reality is we are just as a entire human
+civilization on this incredible
+exponential. Like you cannot look at the
+progress of AI over the past decade and
+not just be totally awestruck by how far
+it's come. Like a decade ago, the best
+AI models could recognize cats in
+YouTube videos. And now, you know, we're
+talking to
+um you know, a digital god that can, you
+know,
+uh I mean, we've all seen some of the
+hacks and some of the some of the things
+these systems are capable of. And
+you just can't help but be awestruck.
+And and I think this trend will just
+continue. Like these these models are
+going to become more and more powerful.
+And so,
+I think a decade looking back, it'll
+it'll be obvious that intelligence
+became abundant and that agency became
+abundant. Like the current trends we're
+on are just going to keep continuing.
+And um this will be very strange. I
+mean, I think for the history of
+humanity, um
+you know, groups of smart people getting
+together towards a shared goal was was
+the bottleneck of progress. You know, US
+The United States of America in some
+sense was an example of this. Like the
+United States of America was formed from
+a smart group of very smart people
+getting together and having a vision for
+the future that they wanted to enact.
+And that's the story of nearly every
+company um in America. And it's the
+story of every YC company. Um
+and
+that's going to change. Like all of a
+sudden, the scarce resource isn't going
+to be intelligence or agency. I really
+think it's going to be vision and
+ambition. It's like, do you have a clear
+view of
+what you want the world to look like in
+the future? What is the like one way in
+which you want to put your finger on the
+scale for how the future of the world
+will develop and how the how the world
+will look like in 5 to 10 years that it
+does not look like today? And do you
+have the ambition and drive to like go
+through all the crap to make that
+happen? And AI will make that easier.
+Like agents in AI makes that maybe 10
+times or 100 times easier than it was a
+decade ago. But the flip side of that is
+then you all of a sudden you can dream
+bigger. Like I think And the world is
+like
+um you know, there's so many things that
+need to evolve for us to be able to
+fully embrace this technology. Um you
+know, the world is like really just, you
+know, barely even ready for this
+technology today. And I think, you know,
+as a builder, we have a responsibility
+to prepare the world, right? Like we
+have to help enterprises and
+governments, you know, to adapt to this
+new technology. We have to help figure
+out how we secure the world from a
+biosecurity perspective or cybersecurity
+perspective. We have to figure out how
+we um how we're going to to manage all
+these risks that we see with this new
+technology. But on the flip side, it's
+also the time of like, you know,
+unprecedented opportunity for humans.
+Like we can develop new sciences. We can
+solve problems in health and biology
+that have been forever unsolved. We can
+build new businesses that you couldn't
+have even imagined before. There's like
+new creative opportunities that couldn't
+have existed before. So, it's like
+it's just this incredible cradle of of
+opportunity and risks that uh that I
+think makes it like no better time to be
+someone who's a builder and um
+and has a strong view of how the world
+should change.
+>> Do you think the path has changed? I
+mean, one of the things I saw, I think
+Stanford uh the amount of computer
+science majors actually dropped by some
+double-digit percentage. It's people
+sort of worried like, which is sort of
+insane to me. Like you still sort of
+need those skills to even create agents
+that are that good. Maybe that won't be
+true. I'm not really sure.
+How you know, have you changed you know,
+what do you what would you say to people
+in this audience right now? Like this is
+sort of a real question that people are
+sort of facing. Like should they become
+more word cell and less shape rotator?
+Like what you know, what's the move? And
+you
+has that changed um
+the kind of people you're looking to
+hire and, you know, how you manage your
+teams right now at Meta?
+>> I think systematic and rigorous thinking
+are still incredibly important because
+you know, the abstraction layer, I mean,
+I didn't used to believe that this is
+how it was going to play out, but it
+really has, like, the abstraction layer
+just keeps changing. So, you know, when
+I started a company back in my day, we
+wrote code. Um
+>> [laughter]
+>> And now, you know, I'm sure nobody here
+writes code anymore. That's ridiculous.
+But um but now it's about how do you
+orchestrate the agents together? And
+then it's like, how do you develop these
+organizations of agents? Like, how do
+you get like a million agents to work
+together well? And then it'll be, how do
+you get like a trillion agents to work
+together well? Like, I think that
+there's going to be this continued um
+uh need to figure out how you structure
+uh workflows at the abstraction layer
+that we're going to be operating at. And
+that form of like rigorous systematic
+thinking, I mean, traditionally the way
+this would work like in my era of
+starting companies is you would start by
+writing code, and then you would have
+organizations of humans, and you'd
+figure out how you how to organize those
+humans. Um and that requires systems
+thinking. And now, maybe it's like much
+more much closer to first you you
+orchestrate the agent, then you figure
+out how to orchestrate like these armies
+of agents. But um
+but I think systems thinking is never
+going to go out of style. So, I think
+it's definitely a mistake to go all in
+on Word Cell. Like, I think you need to
+you need to shape rotate. Um
+but then I think the sort of like um
+much more of I think what's necessary
+going in the future is having um
+a deeper sort of compass and
+philosophical view on how the world
+should develop. Because I think there
+are there are many many lessons um from
+human history around um
+how how we think civilization go through
+this period. And um
+So, you know, humanity will change more
+in the next decade than it has in the
+past 100 years, probably. And um
+And so, I think like the imperative for
+us to have positive visions for that and
+have coherent uh articulations of how
+that should develop are are more
+important than ever.
+>> Um
+Let's get a little more concrete. I
+mean, one of the things I'm curious
+about is like, are there sort of
+applications of AI that you're seeing
+among your friends or internal to Meta
+that you can talk about that are, you
+know, they're sort of obvious near-term
+maybe people haven't figured out yet. I
+mean, give us some alpha.
+>> [laughter]
+>> Um, I mean,
+I think there's still just like
+astronomical opportunity in
+uh agentic looping and and figuring out
+how you develop systems that enable you
+to spend like 1,000 x more or 1 million
+x more on tokens to drive an outcome in
+a in a continuous feedback loop. Like if
+you think about most companies,
+companies are just these like
+large-scale feedback loops where humans
+are operating each of the edges. Like,
+you know, companies they um, they get
+customers and they figure out to make
+those customers happier. And if
+customers are happier, then they spend
+more. And if they spend more, then they
+can hire more people who can then go
+figure out how to get more customers and
+make those customers happier. And that's
+like this, you know, that in some sense
+is the feedback loop of uh
+of every startup or every business. And,
+you know, these within that there are
+micro feedback loops that exist. And I
+think developing agentic systems that
+can operate and optimize these feedback
+loops is there's like just huge amounts
+of of alpha there. Like I think we've
+seen internally at Meta um
+cases where if you can develop the right
+agentic loop and you have the right eval
+or the right metric for the agents to
+optimize, you can have a swarm of agents
+accomplish more than like a team of 100
+engineers in, you know, uh
+very very handily actually, very very
+easily. And so, I think figuring out
+what the world
+um looks like with lots of uh
+sort of this like um
+these agentic coordination problems, I
+think that is like one of the most
+interesting problems today. So,
+mechanically speaking, I mean, markdown
+files, cron jobs, is I mean, is it
+that's and then basically pointing the
+agent at enough data so that it can
+figure something out that, you know,
+maybe isn't in distribution.
+>> Yeah, I think figuring out Yeah, yeah,
+mechanically figuring out what the
+metric is and then yeah, it just comes
+down to skills, markdown files, cron
+jobs,
+>> /goal.
+>> Yeah, /goal. Like I think I think it's
+always funny how mundane everything is
+once you really dig into it. But um
+>> So it's not magic, you know what I mean?
+Some some people put a lot of magic
+There's like some LinkedIn threads about
+some magic stuff.
+>> advice, ignore LinkedIn.
+LinkedIn is where you get customers.
+>> [laughter]
+>> So I like to end on this, which is um
+you know,
+you get a telegram to send to the
+18-year-old version of yourself, you
+know, what do you say to that person
+right now given all, you know, I mean,
+thank you for coming back and sharing
+your wisdom with this audience. I mean,
+you know, what would you send in a
+message in a bottle to the 18-year-old
+version of yourself right now?
+>> Yeah, I think the
+I think it really boils down to
+develop your own internal compass for
+how you think the future will develop
+and have strong conviction in it
+because, you know, you will get so you
+will get inundated with noise and people
+telling you and like you'll could
+be very confusing and it'll be very
+hard. And especially when you're young
+and you don't have experience like it
+can feel very difficult to
+um
+have true conviction in what you believe
+and and what you want to do. But I think
+that's the most important thing. Kind of
+as we talked about, you know, um
+it took a deep deep conviction in what
+we were building to be able to weather
+the the sort of storms of many years of
+um of
+uh chaos in the market, in the industry,
+in the people around us. And so
+um And and then the other piece of
+advice I would have is try to identify
+what is the what is the exponential in
+the world that has both the steepest
+curve and will go the longest. And you
+know many decades ago this curve was
+was Moore's law and that probably was
+you know that was
+at the time like clearly the right thing
+to invest on. I think right now it's AI
+progress but there will be more of these
+very steep curves in the future and it's
+fine if these curves start
+you know the starting point is very
+boring or like it doesn't even seem that
+interesting. Like it you know when we
+started
+when I started working on scale
+you know we had cat detectors in YouTube
+videos and that felt you know
+it's hard to say explain the story that
+that's like the most important
+technology of our time but it was on
+just this like unbelievable exponential.
+Um
+And I think I have one last thing I got
+to say yes which is
+we are meta is proud to offer everyone
+in this room a thousand dollars of free
+credits for the new Spark API.
+Fantastic. [applause]
+And uh
+And we're going to keep making the
+models better and right now new Spark is
+I think eight x cheaper than Opus so
+so if you convert that to Opus dollars
+uh
+>> [laughter]
+>> it's a lot more but no everyone here
+will will work to get everyone the
+details on how to get how to get these
+credits and we're really excited to see
+what everyone builds.
+Alexander Wang everyone.

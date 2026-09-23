@@ -2,7 +2,7 @@
 type: entity
 title: Steve Jobs
 created: 2026-05-26
-updated: 2026-08-06
+updated: 2026-09-24
 sources: []
 tags: []
 ---
@@ -55,3 +55,4 @@ Co-founder of Apple.
 - [[sources/_YNC7MlgdOk-the-future-of-reading-books-is-hands-free-sol-reader|The future of reading books is hands free | SOL Reader]]: Co-founder of Apple, famously coined the phrase 'personal computer is a bicycle for the mind' and reportedly expressed concerns about the iPad's impact on children.
 - [[sources/_0se9PXfAH0-how-to-apply-to-yc-in-2022-and-start-your-startup-with-john-coogan|How to apply to YC in 2022 and start your startup (with John Coogan)]]: Co-founder of Apple, whose calligraphy class story is used to illustrate the unexpected value of diverse experiences.
 - [[sources/_yIAYZtdrfI-a-cs-education-that-s-free-until-you-get-a-job-austen-allred-of-lambda-school|A CS Education That's Free Until You Get a Job - Austen Allred of Lambda School]]: Co-founder of Apple, quoted for his remark about Microsoft's lack of 'taste' in product design.
+- [[sources/YEvLKzsEwMw-susan-kare-designing-icons-graphics-for-the-original-mac|Susan Kare: Designing Icons & Graphics For the Original Mac]]: Co-founder of Apple and NeXT.

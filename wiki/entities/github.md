@@ -27,7 +27,7 @@ A web-based platform for version control and collaboration, which Grapile integr
 - [[sources/mGTpU5XUAA8-tom-preston-werner-at-startup-school-2012|Tom Preston Werner at Startup School 2012]]: A platform for hosting and collaborating on code.
 - [[sources/4gkNhmQW6RE-you-can-only-learn-by-doing|You can only learn by DOING]]: A platform for software development and version control.
 - [[sources/e5-6rEwzxLs-dot-plots-how-to-actually-see-what-your-users-are-doing|Dot Plots: How to Actually See What Your Users Are Doing]]: Code hosting platform whose contribution graph is cited as a familiar example of a dot plot.
-- [[sources/8OOuCnZB-4o-unknown|Unknown]]: A code hosting platform that Ploy integrates with.
+- [[sources/8OOuCnZB-4o-the-age-of-the-40-year-old-solo-founder-is-here|The Age Of The 40-Year-Old Solo Founder Is Here]]: A code hosting platform that Ploy integrates with.
 - [[sources/qyPCVqFUyDo-boris-cherny-we-cut-80-of-claude-code-s-prompt|Boris Cherny: We Cut 80% of Claude Code’s Prompt]]: A platform for version control and collaboration, used for Mac OS runners and codebases.
 - [[sources/_iM9Ts_3qEk-fermat-s-library-cofounders-joa-o-batalha-and-lui-s-batalha|Fermat's Library Cofounders João Batalha and Luís Batalha]]: A platform for open-source software development, cited as an inspiration for scientific collaboration.
 - [[sources/_y7siiS-V5A-y7siis-v5a|_y7siiS-V5A]]: Code hosting platform, used by Scrappy Barra's coding agent.

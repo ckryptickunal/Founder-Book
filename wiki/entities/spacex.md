@@ -2,7 +2,7 @@
 type: entity
 title: SpaceX
 created: 2026-05-26
-updated: 2026-08-06
+updated: 2026-09-24
 sources: []
 tags: []
 ---
@@ -45,3 +45,4 @@ Aerospace manufacturer, Rob's past employer, used as a contrast to the antiquate
 - [[sources/A9JDkiYEhfY-the-case-for-data-centers-in-space|The Case for Data Centers in Space]]: Aerospace manufacturer and space transport services company. Provides launch services (rideshare, Falcon 9, Starship) and Starlink laser terminals, critical partners for StarCloud.
 - [[sources/99sPd15j3Zc-what-actually-makes-a-startup-durable|What Actually Makes A Startup Durable]]: An aerospace manufacturer, mentioned in the context of radio engineers.
 - [[sources/qz4GQ0zUFRw-world-models-jepa-and-the-path-to-sample-efficient-rl|World Models, JEPA And The Path To Sample-Efficient RL]]: Uses Model Predictive Control for rocket landings.
+- [[sources/Xc4klGbq8v8-max-hodak-average-is-not-good-enough|Max Hodak: Average Is Not Good Enough]]: Aerospace manufacturer and space transportation company.

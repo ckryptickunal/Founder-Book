@@ -2,7 +2,7 @@
 type: entity
 title: Corgi Insurance
 created: 2026-08-06
-updated: 2026-08-06
+updated: 2026-09-24
 sources: []
 tags: []
 ---
@@ -15,4 +15,4 @@ An AI-powered commercial insurance company from YC's Summer 24 batch, used as an
 
 ## Source Mentions
 
-- [[sources/R56RJFZBasQ-unknown|Unknown]]: An AI-powered commercial insurance company from YC's Summer 24 batch, used as an example of 'verticalizing' by owning the entire insurance stack rather than just providing software.
+- [[sources/R56RJFZBasQ-pick-one-idea-and-go-deep|Pick One Idea and Go Deep]]: An AI-powered commercial insurance company from YC's Summer 24 batch, used as an example of 'verticalizing' by owning the entire insurance stack rather than just providing software.

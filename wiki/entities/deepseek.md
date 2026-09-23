@@ -2,7 +2,7 @@
 type: entity
 title: DeepSeek
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-09-24
 sources: []
 tags: []
 ---
@@ -23,3 +23,4 @@ An open-source AI model that challenged closed models' capabilities.
 - [[sources/aIKfA3gIXwo-how-ai-is-changing-enterprise|How AI Is Changing Enterprise]]: AI research lab
 - [[sources/bxBzsSsqQAM-the-7-most-powerful-moats-for-ai-startups|The 7 Most Powerful Moats For AI Startups]]: AI research lab.
 - [[sources/raTbhtKZTZA-openai-vs-deepseek-vs-qwen-comparing-open-source-llm-architectures|OpenAI vs. Deepseek vs. Qwen: Comparing Open Source LLM Architectures]]: Chinese AI research lab known for V3 and R1 models.
+- [[sources/rY0wnfFHYbs-open-models-change-the-economics-of-ai|Open Models Change The Economics of AI]]: AI research lab

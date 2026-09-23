@@ -2,7 +2,7 @@
 type: topic
 title: Startup Validation
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-09-24
 sources: []
 tags: []
 ---
@@ -21,3 +21,4 @@ Using revenue as the primary metric to determine if a product solves a real prob
 - [[sources/Octm_7llbGA-avni-patel-thompson-at-the-seattle-female-founders-conference|Avni Patel Thompson at the Seattle Female Founders Conference]]: Using low-cost, time-bound experiments to prove market demand before investing in full-scale development.
 - [[sources/bM_f0Ah7VGw-could-your-side-project-become-a-startup|Could your side project become a startup?]]: Using early user feedback and behavior to determine if a side project is worth scaling.
 - [[sources/2gccAOuGRdU-should-you-work-on-that-startup-idea|Should you work on that startup idea?]]: The process of questioning the viability and necessity of a business idea before committing to it.
+- [[sources/R56RJFZBasQ-pick-one-idea-and-go-deep|Pick One Idea and Go Deep]]: The process of testing business ideas through customer interaction and real-world execution.

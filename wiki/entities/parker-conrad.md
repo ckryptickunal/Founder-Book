@@ -2,7 +2,7 @@
 type: entity
 title: Parker Conrad
 created: 2026-05-26
-updated: 2026-08-06
+updated: 2026-09-24
 sources: []
 tags: []
 ---
@@ -23,4 +23,4 @@ Founder of Zenefits.
 - [[sources/M93xlPxQADE-parker-conrad-s-billion-dollar-startup-lessons-do-unscalable-things-then-scale-them-part-1|Parker Conrad's Billion Dollar Startup Lessons: Do unscalable things, then scale them (part 1)]]: Founder of Rippling and Zenefits, known for his product-focused approach to HR and payroll software.
 - [[sources/lIlguzWxEiI-parker-conrad-s-billion-dollar-lessons-on-remote-work-and-customer-support-part-2|Parker Conrad's Billion Dollar Lessons on Remote Work and Customer Support (Part 2)]]: Founder and CEO of Rippling.
 - [[sources/zAYPT6CrWRQ-parker-conrad-rippling-ceo-built-an-11-billion-customer-obsessed-business|Parker Conrad (Rippling CEO) built an $11 BILLION customer-obsessed business]]: CEO and founder of Rippling.
-- [[sources/8OOuCnZB-4o-unknown|Unknown]]: Founder of Zenefits and Rippling, used as a contrasting example for the speed of AI-driven startup development.
+- [[sources/8OOuCnZB-4o-the-age-of-the-40-year-old-solo-founder-is-here|The Age Of The 40-Year-Old Solo Founder Is Here]]: Founder of Zenefits and Rippling, used as a contrasting example for the speed of AI-driven startup development.

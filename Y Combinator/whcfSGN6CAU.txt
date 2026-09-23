@@ -1,0 +1,968 @@
+Title: Peter Steinberger: "Fun Is Velocity"
+Video ID: whcfSGN6CAU
+URL: https://www.youtube.com/watch?v=whcfSGN6CAU
+Channel: Y Combinator
+Published: 2026-08-10T20:30:26Z
+Duration: PT41M53S
+Views: 25793
+Likes: 597
+Transcript Language: English (auto-generated) (en)
+Auto-generated: True
+Snippets: 952
+
+============================================================
+TRANSCRIPT
+============================================================
+
+Six months ago, I was the future. These
+days, the pulse say I got mocked by an
+anime girl. You know, I get questions
+like this almost every day. Usually, I
+ignore it or I give the media answer.
+Today you get some real ones. It's going
+to be five questions, 40 minutes. And I
+know what you what you might all came
+for. You came for loops, graphs, making
+codex go brew. This is free on my
+Twitter.
+This will help you to survive the roller
+coaster that might be coming for you.
+You know, yesterday Boris told you to
+let the model cook.
+I'm the guy who found out what happened
+when tens of thousands of people let it
+cook at the same time. Let's start with
+the question everyone asks first. How is
+open claw only 8 months old? You know,
+it might be eight months in in human
+time, but in AI times it's it's more
+like four years. And my source of
+inspiration is usually being annoyed. So
+on on a rainy day in November, I was
+juggling some agents,
+but I was also hungry.
+So I wanted to make sure that my tokens
+are put to good use while I raid the
+kitchen. And there was still no good way
+to just send a prompt from my phone to
+my computer
+so some agent could check up how my
+agent's actually doing. Remember early
+2025? And you know guys, this is my
+first silent discos. It's a very new
+experience. So like I give me some hands
+if you actually listen to me. Yes.
+[cheering]
+Amazing.
+Amazing. You know, early 2025. Oh my
+god. We're talking the old Oppus 3i 2.5.
+Openi had 03 which was the most
+impressive one but also really slow and
+expensive at times. And I got a dopamine
+hit when my agent did something right.
+I'm sure you remember this time. And
+these days, if I if they get something
+wrong,
+I usually question myself, you know, did
+I design the loop wrong? Did I not give
+my agent everything they need to verify
+their work? Do I have an error in my
+thinking?
+Am I asking for impossible things?
+So, I came back from the kitchen
+and my coding agent stopped because of
+something silly
+and I
+was annoyed. So, I spun up a new
+terminal session. I rambled my idea in
+and I let the model cook. It built me a
+WhatsApp relay and in an hour later I
+could send messages from my Mac to
+WhatsApp and back.
+And that in itself felt magical. But
+really, it shouldn't have. It's like I
+we all did this for months already,
+right? You open the terminal
+and you type something in and you get a
+reply.
+But the magic is how it felt. It wasn't
+a terminal. It wrote concise answers.
+It It was proactive. Like sometimes it
+would just like check on me during the
+day. I made it so the the complexity
+would melt away. You don't have to think
+about which model, which context size or
+when you start a new session. And I I
+prompted the weights to a little bit
+outside the default distribution
+make it feel more like a friend.
+And I was using it. I had I had so many
+moments where I felt like this is the
+future. This is this is AGI.
+[snorts]
+And you know what? Nobody cared.
+Back then I already had a good following
+on Twitter and I know it's called X now.
+I don't I'll always call it Twitter.
+People were not getting it. I would keep
+trying to like make them make them
+understand like how magical this felt to
+me.
+But week after week I failed.
+And you notice a pattern? It annoyed me.
+So I would create group chats with
+friends and I added them WhatsApp relay
+and I would show them I would let them
+talk to it and every time I got a strong
+emotional reaction. Some people were
+amazed, some people were scared or
+freaked out even. But each time there
+was a strong emotion
+and the best part there were quite a few
+people that really wanted it and like
+especially to my nontechnical friends I
+told them no this is not yet for you and
+they got mad. So if that's not an
+indicator to have product market fit I
+don't know what is.
+So
+I spent another months tweaking the
+details thinking
+what could I do to explain the world
+you know and then the audacity someone
+sent me a pull request to my WhatsApp
+relay to add Discord support
+you know like what parts of the name are
+you not getting I let the PR sit for a
+while and I was thinking and I was
+thinking
+>> and then eventually I was like ah what
+the hell
+and out of V relay became claudis
+because I'm good with names and there's
+no more than one message channel and so
+you understand how early this was. I
+didn't even had compaction built in yet.
+So like at some point it would just like
+stop uh and just just for in time for
+Discord I I added a very hacky version
+of compaction so Mario could make a good
+one in Pi.
+So, it was around New Year's Eve
+and as you do, I I went home early
+to hack on it some more. And then in the
+first week of January,
+just as the the geek world collectively
+was learning about coding agents, I
+created a Discord room, server, guild,
+however we call it, and I put my claw in
+it. And I remember the the first night
+vividly.
+People would be joining Discord and they
+would like watch me build it in the
+open. They would try to hack it. They
+were like talking to it. They were
+getting smug replies and they see what
+they can do and they finally got it. You
+know, like this was this was the moment
+I sit up all night. I let people
+interact with it.
+I had this prompt in my agents.mmd that
+would instruct it don't do any dangerous
+tool calls unless the prompt comes from
+Peter
+you know this were like six months ago
+and where all the things we wrote in our
+agent felt more like suggestions so I
+watched it very carefully I could always
+pull the plug and then at 7 a.m.
+Finally, I was done. I said good night.
+I pressed Ctrl C and I went to bed. But
+of course, like I built the software to
+be resilient. So, it was a launch demon.
+You know what happens if you like press
+control C in a launch demon? Yeah. It'll
+just it'll be dead for 5 seconds and
+it'll start up again.
+So, while I was walking into the
+bedroom, my agent happily started
+answering God in the world. And then I I
+slept for like 10 hours. When I woke up,
+I woke up to around 800 messages. People
+tried to hack it. I pulled the plug. I
+freaked out. I read through everything
+and nothing actually happened. But this
+was the moment. This was the moment
+where it went viral. And you all been
+here. You know what happened next? My
+inbox exploded.
+Reporters tried to call me in the middle
+of the night. Did you know about this
+feature that Apple would build when you
+put it on do not disturb, but people
+call you a few times in a row, the
+iPhone would think it's an emergency. It
+would would still let call through. I
+didn't know about it, but reporters did.
+My email inbox was more like a
+waterfall.
+Yeah, the Mac Mini sold out. I think
+they're still sold out. I got more
+invites to podcast in a month than I did
+in my 39 years before. And Tropic sent
+an email demanding the name change
+and like dropped the lobster
+and the project molted a few times.
+Claudius became claudebot. Then there
+was a very short time where we don't
+talk about the name and then it started
+on openclaw. Jensen called it the most
+successful open-source project in the
+history of humanity. And meanwhile, my
+inbox was flooded with reporters,
+security people, and countless curious
+humans, and also agents. You know, the
+numbers still don't feel real to me. In
+8 months, more than 18,000 different
+people opened an issue or a pull
+request. Over 111,000 in total. I did
+the math. No, who am I lying to? My
+agent did the math. Almost 3,000 people
+have commits in the repo.
+And some people were mad at me because
+clearly they did it first and I stole
+the idea and they sent me links of
+something I've never seen. Some people
+called me I Jesus.
+For some I became the antichrist. At
+some point I started collecting the
+obarius.
+There's a new one every few weeks.
+The the most recent one is actually
+from yesterday.
+What do we learn here? Be careful what
+you wish for.
+I was not ready for all this attention.
+It almost broke me. Like I was that
+close of just deleting the whole thing.
+I stopped answering my friends.
+I didn't even want to look at my phone
+anymore because it was just a stream.
+And of course, somebody leaked my phone
+number and also a lot of private details
+because I'm an enemy of humanity. And
+here I am just wanted to build something
+cool.
+And now we're getting to question two.
+Did you sell out? You know, this wasn't
+my first ride. I spent my my 20s and my
+30s
+building a B2B software company.
+I wrote a PDF framework
+by hand like an animal. I bootstrapped
+the company. I grew it to almost 80
+people. I ignored the competition. It
+became the thing most enterprises would
+buy. And eventually I passed things on
+to my co-founder. I sold my shares and I
+very badly burned out.
+Retirement. The idea of it sounds great.
+And I spent almost three years wandering
+around aimlessly,
+catching up on life and parties.
+I did all the things that I kind of
+missed out on life. I had months where I
+didn't even open my computer, you know,
+just casually checking the the internet
+with my phone.
+It's like a normie.
+I always knew that if I if I give myself
+enough time,
+the urge the urge would come back.
+I always thought the urge would be code.
+I always love programming.
+But it took me a year to understand that
+that's not entirely correct. I love
+building.
+Programming was just a means to an end.
+And here I was
+eight months after I found my Spark
+again.
+And my inbox was full of receipts
+begging me to take their money.
+And I didn't know I want to.
+So when the big labs came knocking and
+suddenly I was on the phone with
+Mark, Sam, few others, this seemed like
+a much more interesting pass.
+It also felt unreal, right? Talk about
+imposter syndrome. And maybe that's an
+important lesson for you. Everything
+that
+everything you can build can be forked
+or cloned, but your name cannot.
+So your personal brand is way more
+important than any single product that
+you ever will
+start working on that before you need
+it.
+So yeah, I know how to play the game. I
+also know that doing this was the
+equivalent of selling my soul.md. If you
+know, you know
+the decision was not easy,
+but I if I learned anything during my
+time after the burnout, it's it's this.
+It's trusting your gut. And my gut told
+me that I like open the most. Did Hermus
+win?
+And the short answer I can give you is
+they beat us where it hurt. We're still
+there.
+And both of those are my fault and my
+doing. In the months after the release,
+we got absolutely crushed by security
+reports.
+In some ways, we were a prototype of
+what many open- source projects now
+experience.
+And even though most were
+super HKC, uh I felt the pressure.
+And then the press, the press say 20% of
+our skills are malicious. Now we
+actually put a paper up with this. We
+did the the numbers and the numbers are
+more like 0.3%.
+We scanned all 67,000.
+We shipped the we shipped the paper. But
+you know
+a correction never travels as far as a
+scare. I felt this responsibility.
+The world discovered open claw. And even
+though there was this big scary
+disclaimer actually much bigger than I
+could on the slides when you install it.
+I knew many people wouldn't read the
+docs. So I really focused on that
+hardening the code base building layers
+and layers of security. I did
+sandboxing, allow lists,
+a a web protocol with permissions built
+in. We were shelling out to Python for
+some file operations because there were
+some primitives that are simply lacking
+in Typescript
+to ensure your agent stays in the
+workspace. It doesn't follow sim links
+and that the configuration files are
+written atomically. Most of the users
+didn't care about that. Sure, they
+they like the abstract term of security,
+but in all practical terms, they
+updated. I broke something they depended
+on. I made things slower and I made
+things more difficult to update.
+And another thing I have to admit I got
+sloppy
+because now I had to my time shifted
+between open source the press
+spending countless times on the phone
+with lawyers to set up a a 5013 American
+nonprofit.
+I worked on my own one and you know
+OpenI has its own world
+that is interesting and demanding. I
+brought on help
+and we got such an amazing community of
+maintainers that are very much respected
+and everyone added their own little
+feature. I felt I felt like I'm a bit in
+a hard place.
+After all, these people work for free,
+right? So who I am who I am to to to to
+tell them what to do
+and also my attention was all over. So
+we added a lot of features.
+You know features are the fun part.
+A new feature is is just a prompt away.
+The real cost comes after every feature
+we shipped of course with a
+configuration option because we didn't
+want to break everyone's setup. At our
+highest, I had to count that we ended up
+with around nine and a half thousand
+configuration options. If you count all
+the permutations, you can write all the
+tests you want. It is impossible to
+cover all of these and not break things
+from time to time. It is infinitely
+harder to evolve software that has
+users.
+Meanwhile, other companies, they were
+fueled by VC money. They pushed ahead.
+The anime girl company did it especially
+well. People started inserting
+themselves into pretty much any
+conversation on Twitter while we were
+burned in security grant work and
+features. They had a simple story, an
+aggressive marketing campaign,
+and a oneliner to migrate people's
+clause. The main thing though that
+really hurt the project was entropic.
+Not the name. The part was stressful,
+but I I kind of understood and they were
+really nice about it. It was the fact
+that I optimized too much on their
+model. I built Open Claw with Codex and
+GPT, but the harness for a long time
+really worked the best and was optimized
+for OPOS.
+So when they ping me with around 24
+hours
+notice that they're going to disable the
+subscription for everyone
+there was not really enough time to
+change course.
+I mean, sure, we we support openweight
+models.
+We did a lot of work on them, but they
+really weren't that great yet.
+And the early open air models
+simply lacked character.
+So maybe write this one down.
+Your dependencies business model is your
+business model.
+You know, that's all fixed now. solves
+pretty awesome. Open weight models are
+actually good.
+I learned a lot about harness
+engineering.
+But in many ways, people moved on.
+You can see that in our download charts.
+We bottomed out at around 835,000
+weekly downloads in May. And then after
+being declared death in in June, we
+peaked at 4.7 million, the highest ever.
+Both of those are true at the same time.
+A hype is like the weather. You might
+see it coming, but you can't control it.
+In my case, it was a storm. Question
+four, is it still fun? You know,
+somewhere around February,
+it stopped being fun. I started to feel
+like it started to feel like a
+responsibility.
+I woke up and the man who didn't want to
+build another company found himself in a
+situation where he had two jobs
+or should I say a job and a calling. I
+was struggling and worst of all I
+stopped using my own product. Somewhere
+in that time I stopped making a product
+I love and I worked on making something
+for everyone. It became less of a thing
+that I use every day and more I think
+that I saw and felt was work. And I
+wanted to picture who everyone really
+is. One of them has a grocery agent.
+Another one tried to social engineer my
+bot. Between everyone adding features
+and all the organization work.
+I became the person that fixed the bugs,
+fixed the security issues
+and provided support and built a
+foundation. And because all these people
+were like giving the rumor mill, oh,
+open clouds owned by OpenAI. I didn't
+want to take too much help from OpenAI.
+I mean, yeah, they gave me token and I
+boy did I use that.
+But I was also pulled into other product
+projects and there was a whole flood of
+people that I couldn't as easily block
+who wanted to talk to me. In hindsight,
+I could have many done differently like
+I could have asked for more help.
+I could have moved responsibility off my
+plate, but I was so deep in everything
+that I didn't take time to think through
+strategically.
+Luckily, I met a bunch of amazing people
+and little by little things aligned. I
+figured out my visa,
+eventually formed a nonprofit.
+We got amazing companies as donors and I
+found some really good people that
+believe in open source.
+and started working with me. I also need
+to give Nvidia a special shout out
+because they were very early and they
+simply asked me what I need. And then
+they sent people to take over much of
+their security work. And I think it was
+somewhere in May
+around my birthday
+where I had this feeling that things are
+starting to feel good again where the
+joy of building for me was coming back.
+And yeah, somewhere in the press,
+the press decoined an open open clock
+killer every other week. At some point,
+I think I counted 20 of them. There's
+even a a literally a project called
+OpenCloud Killer. It's an uninstaller,
+which is totally unnecessary because we
+have an uninstaller, but you know, but
+none of the killer stories ever picked
+up what this is actually about.
+open source. My source of inspiration is
+being annoyed.
+These days, I get annoyed when I have to
+use software where I can't just send a
+prompt to my agent to change it. That's
+the fun part that's coming back. It's
+hard to compete with someone who's just
+there having fun. Fun is velocity.
+The weeks I enjoyed building, the
+product got visibly better.
+the weeks I didn't. We should config
+options. Question five.
+What's next?
+Some people in the audience might be
+like, is this finally the part where he
+talks about graphs? First of all, I'm
+super happy with where we are with the
+foundation. Our mission is to bring
+people closer to AI and things are
+changing so fast. For many people, it
+feels scary. I'm proud of one thing that
+OpenClaw achieved
+and then for many people it moved the
+eye from this thing that's like nebulous
+and scary into something that is fun and
+weird you know lobsters and all of that
+and they'll keep pushing there.
+keep building a great ecosystem of open
+source software
+with events that bring people together
+and with education.
+We have 10 people now on payroll. We're
+hiring a few more roles including a CEO.
+Second of all, I kind of made claw noun.
+You know, Kapati dropped the open Satya
+says enterprisegrade clause in
+Microsoft's keynote. There are 33,000
+claw named repositories.
+If we are in a simulation, we're
+certainly in one of the weirder ones
+that won't get shut down. I dig this
+part of the future.
+Third,
+we still don't have an agent that's
+always on,
+always syncing. There's still so much to
+do. the landscape and the tech in AI are
+building faster
+than the software that you build around
+and that's an opportunity for all of
+you.
+Our workflows are also evolving
+like the vision I had early on where we
+shouldn't think about session or
+compaction.
+The world is finally the models that
+tech is finally getting to a stage where
+this is becoming a reality.
+We're entering a world where
+we finally move on from the text text
+only interfaces to voice and
+multimodality.
+Just yesterday we got a a hack working
+that your claw can now facetime you and
+this is kind of what matters why open
+claw exists at all. Every lab will sell
+you an agent. Open claw is the
+alternative.
+Open source runs everywhere, works with
+any model. And if you run local models,
+your data never has to leave your
+device. Your agent, your machine, your
+life.
+That's not even my C thesis, that's
+Gary's. You know, [laughter]
+we just chipped it first. So we also
+finally are building open claw with open
+claw again but this time with a twist
+where everyone sees each other's session
+on a team server and there's a claw that
+knows what everyone else is working on
+and also can also take over
+orchestration of the work. Yeah, we are
+finally leaving this slowly this weird
+blip in the future where people work in
+terminals and run around with their
+laptops open because the agent needs to
+keep working. If you only remember three
+things, number one, don't stop having
+fun. Fun is the ultimate driver so you
+can you can get the best ideas. Number
+two, listen to your gut. And also fix
+the things that annoy you. it might just
+become the next big thing. And number
+three,
+stay focused.
+You know,
+another podcast is not what what will
+make you win. Live in the future,
+build what's missing.
+And when they write your arbiterary,
+keep shipping. It confuses them. Now,
+[snorts] these were five questions. I'm
+sure you have many more. And I think we
+have plenty time. uh for QA. So first it
+was agents, then loops, then graphs. How
+are you building these days? I mean it
+was always sessions, right? But in the
+beginning you had to like actually care
+that like you would clean and like you
+would make sure that your instructions
+are are coherent.
+And these days it's more like my
+sessions are topics. clearing the
+session
+sometimes even a disadvantage because
+there's so much information in there
+that helps the agent. Um
+but the big thing the big thing the big
+thing that shifted is
+I try to make the agent do more
+proactive work for me. So when I when I
+shift my attention to something I don't
+want to read issues I want to see fully
+reviewed and tested PRs. Maybe I like
+the feature, maybe I don't, but like I
+don't want to like split my attention.
+At the same time, at work, if you come
+to me and you you tell me this feature
+idea, I'm going to get mad at you. Like,
+it's so easy that you just discuss the
+feature idea with an agent, you build
+it, you make screenshots, you let me
+play with it. That way, if it's good, we
+can like immediately iterate it. But
+most of the time, people will figure out
+why it's not good and don't even come to
+me. What comes after graphs
+and what's next for openclaw?
+I know like I sometimes I like to
+post on a Sunday and then like my
+Twitter explodes
+but also it's not a post, right? So
+anytime you you you know what we as
+engineers did for the longest time we
+built automations
+to make our life easier. That's like
+that's been going on since our
+profession exists.
+So if you design
+call it loop, call it graph, call it
+workflow, it's kind of all the same. If
+you design something that gets a trigger
+or gets an input and does something for
+you
+and maybe there's a decision in the way,
+boom, there's your graph. It's not it's
+not magical. Even though like you know I
+favored some of those graph engineering
+posts because I'm kind of curious what
+their opinion is that it would be in my
+world. It's just like
+it's just a a better way of our
+automation story that we did for so long
+already in a world of build fast ship
+fast.
+How to make sure that what you build is
+still reliable and scalable.
+Yeah, that's the part I I messed up for
+a while
+because I was not I was not focused
+and the models were not really good at
+testing.
+I think that the models are really good
+now. We have
+we not just have sessions that remember
+we have
+orchestration trained into models so
+they really understand and know to use
+sub agents. We have computer use, we
+have browser use. Like all of that
+together is like your perfect Q&A
+environment. Like I did that yesterday
+where I spin up codecs, use 12 sub
+aents,
+understand my project, break it down
+into features, and then each
+each uh sub agent would like stress test
+the feature or code review feature and
+then inform the other session where to
+focus testing on. some um we're not yet
+at the point where you can automate
+everything. You'll still you still need
+to do some manual clickthroughs so that
+you know how it feels. But like for a
+lot of the the typical bugs that users
+will encounter, you can actually now you
+can prompt your way and you get very
+far.
+Okay.
+AI tools. Ah, what's your decision you
+made purely for speed early that you
+still live with today? I think that was
+really early in in deciding that
+I don't read all the code. I see code
+review more as a as risk management.
+You know, sometimes you touch a system
+that is
+scary. kind of want to like read a
+little bit closer and other times
+you build UI. Do I really care the UI is
+built if it looks correct? No. So you
+kind of you glance over or you simply
+you simply accept that
+it looks right. Part of it is just like
+you develop a little bit of a feeling
+how long something should take. So if I
+do a small tweak that should like change
+how dragging works and it takes three
+hours, I know something's wrong. I'll
+look closely. But otherwise, part of
+code review is simply like observing,
+looking how big it changes and trusting
+your gut.
+Okay.
+AI tools make it easy to build a product
+in a weekend now. But building isn't the
+hard part. Getting people to use this.
+How would you go from a working
+prototype to your first 10 real users
+today? Well,
+I think that was part of what I
+addressed in my talk. User number one
+should be you.
+And my users two to 20 were friends. So
+I'm sure you have some people that would
+actually test your stuff, but you need
+to be the first user. If you don't if
+you don't get excited of what you're
+building,
+it'll probably not make sense.
+Like in this day and age,
+eyeballs are kind of the the most
+expensive currency because
+building something so fast now. How do
+you balance solving issues that annoy
+you and make features you think people
+you want? That's a hard one because
+oftentimes it it kind of goes together.
+I get annoyed if something's not there
+as I want it. I haven't I haven't to be
+honest, I haven't fully figured that
+part out yet. I feel I could just work
+for months on issues because there's
+always going to be weird edge cases in
+software. Uh especially if you add more
+and more features,
+but then again, if I only do that, I'll
+lose interest in working. So, it needs
+to be like it needs to be a healthy mix.
+If you could back and change the thing,
+one thing about open claw, what would
+you change? I would be less stressed out
+about
+security researchers.
+They are really good at making you feel
+really bad. They would send a report.
+They would email me. They would call me.
+They would th everything they can
+possibly get to get my attention, but
+not actually to help a product. In most
+of the case, it's really just for them
+to get cloud, for them to get a point.
+Oh, we found something. And most of them
+really sent reports that their agent
+produced without actually even testing
+it. I would I would take a stronger
+sense of explaining what are the parts
+that we guarantee
+and what are the parts that will not be
+fixed because that that's not our
+security boundary. But I honestly I had
+no this was my first time I was
+exposed to this world. So I I just
+didn't know
+how to handle that and I I lost a few
+months and got a few gray hairs to
+learn. What's the single biggest
+bottleneck in today's Atlantic
+infrastructure?
+Reliability
+tooling memory
+evolves managing compute if that makes
+sense.
+Like
+if I run one test locally in my machine,
+TSGO will spin up 16 threads and will
+bottleneck my machine. If 10 sessions do
+that,
+two of them will probably time out and
+we'll have to do it again. And there's
+no really good system of like managing
+all of that. Now, if I do web stuff,
+it's easy to create a cloud session. If
+I do like something that requires Mac
+OS,
+that's already where like 99% of the
+tools fail me. If it's something that
+needs other stuff that's on my computer,
+same. And we haven't really built
+something yet where things could easily
+move from here to here without issues.
+At least I didn't see good stuff working
+yet.
+or where I could
+drive a fleet in a reliable way like
+right now
+I use too many systems I screen share
+into some computers to like distribute
+the load I shouldn't be doing that how
+do you keep an open source project
+opinionated
+and pointed in one direction rather than
+just merging the N plus1 PR that adds a
+random feature
+and how do you communicate that
+direction to the community. Have you
+ever said no to popular PR because it
+pulled the project off course?
+Yeah. Yeah.
+I would say I
+I didn't say no enough.
+This is I
+when I do new open source I write a
+vision.mmd file where I kind of explain
+what it is now where I see this to be
+but of course it's it's incorrect. It's
+not perfect science and it's something I
+I need to adhere to better because it is
+it is always tempting to add this one
+feature that looks really cool but what
+you rarely think about is
+when you merge this feature it really
+means here's this pile of code that I
+don't that the person probably doesn't
+really understand that I don't fully
+understand that I also go on
+responsibility when do you expect to
+have claws that are perpetually running
+that are proactive in their work. I
+mean, honestly,
+that's not so much a tech problem. It's
+more a token problem
+where we could do that today,
+but you wouldn't get very far with your
+subscription
+and not everyone
+is willing to spend so many tokens.
+It's also
+but a part that's not easy is designing
+a system that
+doesn't just burn empty tokens. Even the
+my early system of like heartbeats was
+too static and not
+not proactive enough.
+And then especially bad if you have a
+large session
+and then one hour later you call like a
+highbeat check up on everything and that
+means you send 600,000 tokens back to
+the server after the KV cache cleared
+and you pay
+a stupidly amount of of of money for
+a lot of not useful work. So there's a
+lot of things that can be done to
+optimize that. It's also really really
+hard. Can you tell us more about your
+own personal setup?
+What do you host your claws on? What
+model are you running? What harness do
+you use? Do you still read
+Can we scroll?
+Do you still read your code? I use my my
+MacBook,
+but I usually
+use jump desktop to screen share into my
+studio and then just use the computer
+there because that one's always running.
+That one I can run whatever I want fast
+and not drain my battery and I can close
+my laptop and things keep working. Um,
+and I have a few other remote machines
+where I sometimes VNC in. The the part
+that's really nice about it is because I
+do a lot of Mac software, agents love to
+take over my screen and click around and
+if you put that in their own if you give
+them their own machine, it will not
+bother you. Otherwise, you'll fight with
+the agent for the mouse cursor.
+Do you still read your code? I think I
+answered that a little bit with the term
+risk management. And also if I do open
+source by myself
+is a difference is a different risk
+management than if I do software at
+OpenAI where we do still read all of the
+code. Peter, how would you approach
+your next startup idea?
+I don't know. Should I tell this to
+everyone? Like I feel like it gets a lot
+of copies. I mean the most important
+thing is you need to build something
+that you want to use. Otherwise it'll
+just not going to be good.
+Second of all is
+I hope you worked on your personal brand
+and on visibility because in this day
+and age there's so much noise out there
+that your hardest problem is not the
+tech, it's not the software, not even
+the people. The hardest problem now is
+like getting eyeballs. Maybe I would
+pick something again that's that's in
+the category
+hard and boring
+because that's usually a category that
+is a little bit easier to actually find
+people that will appreciate when you
+solved something. If you pick something
+that is fun, even if it's hard,
+you're gonna have a very tough time,
+especially in a time where people can
+just prompt things into existence. All
+right, last one for today. What's a
+product you want someone to build? You
+know, I feel it's very easy to have to
+get uh
+a test box for Linux.
+It is unreasonably hard
+to get one for Mac that works really
+well. And all the stuff that I I I got
+for Windows is also quite annoying. Um I
+haven't found a really good provider yet
+that
+does all of that fast and cheap. Um I'm
+not sure if this is the business you
+want to be in because dev tools are
+inherently hard, but that's something I
+would love to have. Thanks everyone.
